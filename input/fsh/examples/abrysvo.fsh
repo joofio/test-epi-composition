@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/23/1752/001 – 1 vial, 1 vial adaptor, 1 pre-filled syringe, 1 needle"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -320,7 +320,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/23/1752/001 – 1 vial, 1 vial adaptor, 1 pre-filled syringe, 1 needle"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -714,7 +714,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/23/1752/001 – 1 vial, 1 vial adaptor, 1 pre-filled syringe, 1 needle"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538

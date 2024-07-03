@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/18/1271/006 (12 mg/0.4 mL)"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -441,7 +441,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/18/1271/006 (12 mg/0.4 mL)"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -1814,7 +1814,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/18/1271/006 (12 mg/0.4 mL)"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -2422,7 +2422,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "Hemlibra 30 mg/mL solution for injection"
+* identifier[=].value = "EU/1/18/1271/006 (12 mg/0.4 mL)"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

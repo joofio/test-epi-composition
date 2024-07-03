@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/21/1577/001 10 x 0.4 mg Powder and solvent for solution for injection"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -319,7 +319,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/21/1577/001 10 x 0.4 mg Powder and solvent for solution for injection"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538

@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/20/1497/001 (1200 mg/600 mg)"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -397,7 +397,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/20/1497/001 (1200 mg/600 mg)"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538

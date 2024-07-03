@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/15/1076/002  1 x (Kovaltry 250 IU - solvent (2.5 mL); pre-filled syringe (3 mL))"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -356,7 +356,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/15/1076/002  1 x (Kovaltry 250 IU - solvent (2.5 mL); pre-filled syringe (3 mL))"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -888,7 +888,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/15/1076/002  1 x (Kovaltry 250 IU - solvent (2.5 mL); pre-filled syringe (3 mL))"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538

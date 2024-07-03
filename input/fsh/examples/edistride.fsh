@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/15/1052/001 14 film-coated tablets"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -455,7 +455,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/15/1052/001 14 film-coated tablets"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -1063,7 +1063,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "Edistride 5 mg film-coated tablets"
+* identifier[=].value = "EU/1/15/1052/001 14 film-coated tablets"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

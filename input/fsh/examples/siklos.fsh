@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/07/397/002"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -405,7 +405,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/07/397/002"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -882,7 +882,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "Siklos 100 mg film-coated tablet"
+* identifier[=].value = "EU/1/07/397/002"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

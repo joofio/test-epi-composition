@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/05/310/001 – 2 tablets"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -455,7 +455,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/05/310/001 – 2 tablets"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -1021,7 +1021,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/05/310/001 – 2 tablets"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -1522,7 +1522,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "FOSAVANCE 70 mg/2,800 IU tablets"
+* identifier[=].value = "EU/1/05/310/001 – 2 tablets"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/19/1362/001 1 x 2.5 mg pre-filled syringe"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -401,7 +401,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/19/1362/001 1 x 2.5 mg pre-filled syringe"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -1128,7 +1128,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/19/1362/001 1 x 2.5 mg pre-filled syringe"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538

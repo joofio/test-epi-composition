@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/20/1442/001 (Pack size of 7 hard capsules)"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -385,7 +385,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/20/1442/001 (Pack size of 7 hard capsules)"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -996,7 +996,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "Treatment initiation pack - Zeposia 0.23 mg/ 0.46 mg hard capsules"
+* identifier[=].value = "EU/1/20/1442/001 (Pack size of 7 hard capsules)"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

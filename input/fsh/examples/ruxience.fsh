@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/20/1431/001"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -608,7 +608,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/20/1431/001"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -1422,7 +1422,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "Ruxience 100 mg concentrate for solution for infusion"
+* identifier[=].value = "EU/1/20/1431/001"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

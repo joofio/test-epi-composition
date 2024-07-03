@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/04/302/004 – 20 mL solution for infusion"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -445,7 +445,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/04/302/004 – 20 mL solution for infusion"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -935,7 +935,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/04/302/004 – 20 mL solution for infusion"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538

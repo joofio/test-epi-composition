@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/13/870/001"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -327,7 +327,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/13/870/001"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -707,7 +707,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "Orphacol 50 mg capsule:"
+* identifier[=].value = "EU/1/13/870/001"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"

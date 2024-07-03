@@ -11,7 +11,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/98/069/001 - Cartons of 28 film-coated tablets in PVC/PVDC/Alu blisters"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -419,7 +419,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/98/069/001 - Cartons of 28 film-coated tablets in PVC/PVDC/Alu blisters"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -877,7 +877,7 @@ Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
-* identifier.value = "identifier"
+* identifier.value = "EU/1/98/069/001 - Cartons of 28 film-coated tablets in PVC/PVDC/Alu blisters"
 * status = #final
 
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
@@ -1427,7 +1427,7 @@ Usage: #inline
 
  
 * identifier[+].system = "http://ema.europa.eu/identifier"
-* identifier[=].value = "Plavix 75 mg film-coated tablets"
+* identifier[=].value = "EU/1/98/069/001 - Cartons of 28 film-coated tablets in PVC/PVDC/Alu blisters"
 * type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
 
 * domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
