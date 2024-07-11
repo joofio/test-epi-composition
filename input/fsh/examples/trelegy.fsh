@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Step-by-step instructions </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Step-by-step instructions </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Trelegy Ellipta  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +88,7 @@ reduce the effects of COPD on your everyday life.  </p>
 <p>Trelegy Ellipta should be used every day and not only when you have breathing problems or 
 other symptoms of COPD. It should not be used to relieve a sudden attack of breathlessness or 
 wheezing. If you get this sort of attack you must use a quick-acting inhaler (such as salbutamol). If 
-you do not have a quick-acting inhaler contact your doctor. </p>         </div>"""   
+you do not have a quick-acting inhaler contact your doctor. </p> </div>"""   
           
 
              
@@ -160,7 +162,7 @@ feeding unless your doctor tells you that you can.  </p>
 It is unlikely that this medicine will affect your ability to drive or use machines.  </p>
 <p>Trelegy Ellipta contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before 
-using this medicine.  </p>         </div>"""   
+using this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trelegy"
@@ -197,7 +199,7 @@ advice.  </p>
 <p>If you stop using Trelegy Ellipta<br />
 Use this medicine for as long as your doctor recommends. Do not stop unless your doctor advises you to, 
 even if you feel better, as your symptoms may get worse.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -263,7 +265,7 @@ mouth out with water immediately after using Trelegy Ellipta may help prevent th
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor, pharmacist or nurse.  This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V.  By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V.  By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trelegy"
@@ -280,7 +282,7 @@ opening the tray. Write the date the inhaler should be thrown away on the label 
 date should be added as soon as the inhaler has been removed from the tray. </p>
 <p>If stored in a refrigerator, allow the inhaler to return to room temperature for at least one hour before use. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -400,7 +402,7 @@ GlaxoSmithKline Trading Services Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in .  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -439,7 +441,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -448,7 +452,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugervejledning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugervejledning </p>  </div>"""   
 
 
 
@@ -465,7 +469,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -490,7 +494,7 @@ indvirkning på din dagligdag.  </p>
 vejrtrækningen eller andre symptomer på KOL. Det kan ikke anvendes til lindring ved 
 pludselige anfald af åndenød eller hvæsende vejrtrækning. Hvis du får et anfald af den type, 
 skal du inhalere et lægemiddel med hurtig virkning (f.eks. salbutamol). Kontakt din læge hvis 
-du ikke har en hurtigtvirkende inhalator. </p>         </div>"""   
+du ikke har en hurtigtvirkende inhalator. </p> </div>"""   
           
 
              
@@ -569,7 +573,7 @@ Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at føre mot
 maskiner.  </p>
 <p>Trelegy Ellipta indeholder lactose<br />
 Kontakt lægen, før du bruger dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter.  </p>         </div>"""   
+sukkerarter.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trelegy"
@@ -608,7 +612,7 @@ et lægemiddel med hurtig virkning (f.eks. salbutamol) og derefter søge lægehj
 <p>Hvis du holder op med at bruge Trelegy Ellipta<br />
 Tag dette lægemiddel i den periode, som lægen anbefaler. Du må ikke stoppe behandlingen, 
 medmindre lægen siger det, heller ikke selvom du får det bedre, da dine symptomer kan forværres.  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -765,7 +769,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trelegy"
@@ -783,7 +787,7 @@ beregnede felt på etiketten. Datoen skal skrives på etiketten umiddelbart efte
 ud af bakken. </p>
 <p>Hvis inhalatoren opbevareres på køl, skal den ligge ved stuetemperatur i mindst én time før brug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1038,7 +1042,7 @@ med fingrene. </p>
 <li>Skyl munden med vand uden at synke det, efter at du har brugt inhalatoren.<br />
 Det nedsætter sandsynligheden for udvikling af bivirkninger i form af ømhed i mund eller 
 hals.  </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1077,7 +1081,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1086,7 +1092,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções passo a passo  </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções passo a passo  </p>  </div>"""   
 
 
 
@@ -1103,7 +1109,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Trelegy Ellipta  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1126,7 +1132,7 @@ controlar as suas dificuldades respiratórias e a reduzir os efeitos da DPOC no 
 <p>Trelegy Ellipta deve ser utilizado todos os dias e não apenas quando tem dificuldades 
 respiratórias ou outros sintomas da DPOC. Não deve ser utilizado para aliviar um ataque 
 repentino de falta de ar ou pieira. Se tiver um ataque deste género deve utilizar um inalador de ação 
-rápida (tal como o salbutamol). Contacte o seu médico se não tem um inalador de ação rápida. </p>         </div>"""   
+rápida (tal como o salbutamol). Contacte o seu médico se não tem um inalador de ação rápida. </p> </div>"""   
           
 
              
@@ -1202,7 +1208,7 @@ está a amamentar, a não ser que o seu médico lhe tenha dito que pode. </p>
 É pouco provável que este medicamento afete a sua capacidade de conduzir ou utilizar máquinas. </p>
 <p>Trelegy Ellipta contém lactose 
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de utilizar este 
-medicamento. </p>         </div>"""   
+medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trelegy"
@@ -1241,7 +1247,7 @@ salbutamol) e de seguida procure aconselhamento médico.  </p>
 Utilize este medicamento durante o período de tempo recomendado pelo seu médico. Não pare a não ser que 
 o seu médico o aconselhe a fazê-lo, mesmo que se sinta melhor, uma vez que os seus sintomas podem piorar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
-enfermeiro. </p>         </div>"""         
+enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1398,7 +1404,7 @@ efeito secundário. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trelegy"
@@ -1416,7 +1422,7 @@ eliminado. A data deve ser adicionada assim que o inalador tenha sido removido d
 <p>Se conservado no frigorífico, permitir que o inalador regresse à temperatura ambiente durante pelo menos 
 uma hora antes da utilização. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1545,7 +1551,7 @@ GlaxoSmithKline Trading Services Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p> </div>"""      
 
 
 

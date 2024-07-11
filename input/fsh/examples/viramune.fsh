@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Viramune</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ Viramune is indicated for the treatment of HIV-1 infected adults, adolescents, a
 You must take Viramune together with other antiretroviral medicines. Your doctor will recommend 
 the best medicines for you.
 If Viramune has been prescribed for your child, please note that all information in this leaflet is 
-addressed to your child (in this case please read  your child  instead of  you ).</p>         </div>"""   
+addressed to your child (in this case please read  your child  instead of  you ).</p> </div>"""   
           
 
              
@@ -298,7 +301,7 @@ Viramune tablets contain lactose (milk sugar).
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product.
 Viramune tablets contain less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take viramune"
@@ -349,7 +352,7 @@ It is important that you continue taking Viramune correctly, as described above,
 instructs you to stop.
 If you stop taking Viramune for more than 7 days your doctor will instruct you to start the 14 day 
 'lead-in' period (described above) once again, before returning to the twice daily dose.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -494,7 +497,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store viramune"
@@ -506,7 +509,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
  EXP . The expiry date refers to the last day of that month.
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -619,7 +622,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in {MM/YYYY}
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -658,7 +661,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -667,7 +672,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -682,7 +688,7 @@ Usage: #inline
 3. Sådan skal du tage Viramune
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -700,7 +706,7 @@ Viramune bruges til behandling af hiv-1-smittede voksne, unge og børn i alle al
 Du skal tage Viramune sammen med andre antiretrovirale hiv-lægemidler. Din læge vil ordinere den 
 kombination, som er bedst for dig.
 Hvis Viramune er ordineret til dit barn, så bemærk, at denne information er beregnet til dit 
-barn, og du skal erstatte "du" med "dit barn".</p>         </div>"""   
+barn, og du skal erstatte "du" med "dit barn".</p> </div>"""   
           
 
              
@@ -924,7 +930,7 @@ Viramune indeholder lactose og natrium
 Viramune tabletter indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
 fortalt dig, at du ikke tåler visse sukkerarter.
 Viramune tabletter indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. de er i det 
-væsentlige natrium-frie.</p>         </div>"""   
+væsentlige natrium-frie.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take viramune"
@@ -980,7 +986,7 @@ din læge anbefaler dig at stoppe.
 Hvis du afbryder behandlingen med Viramune i mere end 7 dage, vil din læge råde dig til at starte igen 
 med en 14 dages "optrapningsfase" (som beskrevet ovenfor), før du igen går over til behandling 2 
 gange daglig.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om..</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om..</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1131,7 +1137,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store viramune"
@@ -1143,7 +1149,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og på blister
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1311,7 +1317,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1350,7 +1356,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1359,7 +1367,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1374,7 +1383,7 @@ Usage: #inline
 3. Como tomar Viramune 
 4. Efeitos indesejáveis possíveis
 5. Como conservar Viramune 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1393,7 +1402,7 @@ ajuda a controlar a infeção por VIH-1. Viramune é indicado para o tratamento 
 infetados com VIH-1. Deve tomar Viramune juntamente com outros medicamentos antirretrovirais. O seu médico 
 recomendar-lhe-á os medicamentos mais indicados para o seu caso.
 Se Viramune foi prescrito ao seu filho, por favor tenha em atenção que toda a informação neste 
-folheto é dirigida ao seu filho (neste caso por favor leia “o seu filho" em vez de “si").</p>         </div>"""   
+folheto é dirigida ao seu filho (neste caso por favor leia “o seu filho" em vez de “si").</p> </div>"""   
           
 
              
@@ -1570,7 +1579,7 @@ Os comprimidos de Viramune contêm lactose (açúcar do leite).
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte o seu médico antes 
 de tomar este medicamento. 
 Os comprimidos de Viramune contêm menos do que 1 mmol (23 mg) de sódio por comprimido, ou 
-seja, são praticamente “isentos de sódio".</p>         </div>"""   
+seja, são praticamente “isentos de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar viramune"
@@ -1630,7 +1639,7 @@ Se interromper o tratamento com Viramune durante um período superior a 7 dias, 
 lhe-á para reiniciar o período de 14 dias de indução (acima descrito), antes de retornar às duas doses 
 por dia.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1758,7 +1767,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar viramune"
@@ -1771,7 +1780,7 @@ após “VAL". O prazo de validade corresponde ao último dia do mês indicado.
 Este medicamento não requer condições de conservação especiais. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1920,7 +1929,7 @@ Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Este folheto foi revisto pela última vez em {MM/AAAA}.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

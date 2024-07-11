@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Copiktra  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ can kill and reduce the number of cancerous B-lymphocytes. </p>
   follicular leukaemia.  </p>
 <p>In these diseases the B-lymphocytes multiply too quickly and live too long, so there are too many of 
 them in the blood or lymph nodes.  Copiktra is used when patients have previously been given at least 
-2 other therapies that did not work or are no longer working. </p>         </div>"""   
+2 other therapies that did not work or are no longer working. </p> </div>"""   
           
 
              
@@ -209,7 +212,7 @@ It is not known if Copiktra reduces the effectiveness of the contraceptive pill.
 contraceptive pill while you are being treated with Copiktra you also need to use a barrier method of 
 contraception (such as condoms). Ask your doctor for advice. </p>
 <p>Driving and using machines 
-Copiktra is unlikely to affect your ability to drive and use machines. </p>         </div>"""   
+Copiktra is unlikely to affect your ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take copiktra"
@@ -235,7 +238,7 @@ than 6 hours, wait and take the next dose at your usual time.  Do not take a dou
 a forgotten capsule. </p>
 <p>If you stop taking Copiktra 
 Do not stop taking this medicine unless your doctor tells you to.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -281,7 +284,7 @@ affecting the whole body) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store copiktra"
@@ -294,7 +297,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Store below 30 C. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ Block 7, City North Business Campus
 Stamullen, Co. Meath, K32 YDIreland </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -369,7 +372,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -378,7 +383,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -395,7 +401,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -412,7 +418,7 @@ blokere dem kan Copiktra dræbe og reducere antallet af ondartede B-lymfocytter.
 • follikulær leukæmi. </p>
 <p>Ved disse sygdomme formerer B-lymfocytterne sig for hurtigt og lever for længe, så der er for mange 
 af dem i blodet eller lymfeknuderne. Copiktra anvendes hos patienter, der tidligere har fået mindst 
-2 andre behandlinger, som ikke har virket, eller som ikke længere virker. </p>         </div>"""   
+2 andre behandlinger, som ikke har virket, eller som ikke længere virker. </p> </div>"""   
           
 
              
@@ -601,7 +607,7 @@ Det vides ikke, om Copiktra nedsætter effekten af p-piller. Hvis du tager p-pil
 behandling med Copiktra, skal du også anvende en barrieremetode (f.eks. kondom). Spørg lægen til 
 råds. </p>
 <p>Trafik- og arbejdssikkerhed 
-Copiktra forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+Copiktra forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take copiktra"
@@ -627,7 +633,7 @@ dosis til det næste planlagte doseringstidspunkt. Du må ikke tage en dobbeltdo
 glemt kapsel. </p>
 <p>Hvis du holder op med at tage Copiktra 
 Du må ikke holde op med at tage dette lægemiddel, medmindre lægen siger, du skal. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -728,7 +734,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store copiktra"
@@ -741,7 +747,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 30 °C. </p>
 <p>Opbevares i den originale pakning for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -794,7 +800,7 @@ Stamullen, Co. Meath, K32 YDIrland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -833,7 +839,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -842,7 +850,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -859,7 +868,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Copiktra </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -883,7 +892,7 @@ seu bloqueio, Copiktra pode matar e reduzir o número de linfócitos B canceroso
 <p>Nestas doenças, os linfócitos B multiplicam-se muito rapidamente e vivem demasiado tempo, de modo 
 que existem demasiados destes linfócitos no sangue ou nos gânglios linfáticos. Copiktra é utilizado em 
 doentes que receberam anteriormente pelo menos 2 outras terapêuticas que não funcionaram ou 
-deixaram de funcionar. </p>         </div>"""   
+deixaram de funcionar. </p> </div>"""   
           
 
              
@@ -1081,7 +1090,7 @@ Desconhece-se se Copiktra reduz a eficácia da pílula contracetiva. Se estiver 
 contracetiva enquanto estiver a receber tratamento com Copiktra, terá também de utilizar um método 
 contracetivo de barreira (como preservativos). Aconselhe-se com o seu médico. </p>
 <p>Condução de veículos e utilização de máquinas 
-É improvável que Copiktra tenha efeitos sobre a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+É improvável que Copiktra tenha efeitos sobre a sua capacidade de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar copiktra"
@@ -1109,7 +1118,7 @@ depois tome a dose seguinte como é habitual. No caso de se esquecer de tomar um
 dobrar para compensar uma cápsula que se esqueceu de tomar. </p>
 <p>Se parar de tomar Copiktra 
 Não deixe de tomar este medicamento, a menos que o seu médico lhe diga para o fazer. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1212,7 +1221,7 @@ Stevens-Johnson, erupção cutânea medicamentosa com aumento dos glóbulos bran
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar copiktra"
@@ -1226,7 +1235,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar na embalagem de origem para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1274,7 +1283,7 @@ Block 7, City North Business Campus
 Stamullen, Co. Meath, K32 YDIrlanda </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

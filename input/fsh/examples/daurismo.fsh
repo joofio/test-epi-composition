@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Daurismo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ more sensitive to a cancer medicine, cytarabine, used to treat AML. Combining Da
 medicine cytarabine may increase how long patients are likely to live by decreasing growth of the 
 cancer and possibly by increasing cancer cell death. 
 If you have any questions about how Daurismo works or why this medicine has been prescribed for 
-you, ask your doctor.</p>         </div>"""   
+you, ask your doctor.</p> </div>"""   
           
 
              
@@ -204,7 +207,7 @@ is essentially  sodium -free .
 Daurismo contains lactose 
 This medicine contains lactose (found in milk or dairy products). 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.</p>         </div>"""   
+before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take daurismo"
@@ -231,7 +234,7 @@ Do not stop taking Daurismo unless your doctor tells you to.
 It is important to take Daurismo every day, as long as your doctor prescribes it to you. If you cannot
 take the medicine as your doctor has prescribed, or you feel you do not need it anymore, speak with
 your doctor right away.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -305,7 +308,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store daurismo"
@@ -318,7 +321,7 @@ after  EXP . The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if the pack is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -431,7 +434,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
 Tel.: + 371 670 35 This leaflet was last revised in MM/YYYY
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -470,7 +473,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -479,7 +484,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -494,7 +500,7 @@ Usage: #inline
 3. Sådan skal du tage Daurismo 
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -513,7 +519,7 @@ mere følsomme over for kræftmedicinen cytarabin, der bruges til at behandle AM
 Daurismo med cytarabin kan patientens forventede levetid forlænges ved at hæmme kræftens vækst og 
 muligvis ved at øge kræftcellers død.<br />
 Hvis du har spørgsmål til, hvordan Daurismo virker, eller hvorfor du har fået ordineret denne medicin, 
-skal du spørge din læge.</p>         </div>"""   
+skal du spørge din læge.</p> </div>"""   
           
 
              
@@ -638,7 +644,7 @@ det væsentlige 'natrium-frit’.
 Daurismo indeholder lactose 
 Dette lægemiddel indeholder lactose (findes i mælk og mejeriprodukter). 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter.</p>         </div>"""   
+sukkerarter.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take daurismo"
@@ -668,7 +674,7 @@ Stop ikke med at tage Daurismo, medmindre din læge siger det til dig.
 Det er vigtigt at tage Daurismo hver dag, så længe din læge ordinerer det til dig. Underret din læge 
 omgående, hvis du ikke kan tage medicinen som ordineret af lægen, eller hvis du føler, at du ikke 
 længere har behov for den.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -744,7 +750,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store daurismo"
@@ -757,7 +763,7 @@ Tag ikke lægemidlet efter den udløbsdato, der står på æsken og på blisterf
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at have været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden</p> </div>"""      
         
         
 * section[=].section[+]
@@ -903,7 +909,7 @@ Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles.</p>         </div>"""      
+og om, hvordan de behandles.</p> </div>"""      
 
 
 

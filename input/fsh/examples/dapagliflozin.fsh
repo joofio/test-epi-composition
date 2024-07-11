@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dapagliflozin Viatris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -126,7 +129,7 @@ means they would not be able to clean and filter your blood the way they should.
 function can lead to serious medical problems and need for hospital care. </li>
 <li>Dapagliflozin Viatris helps protect your kidneys from losing their function. That can help some 
 patients to live longer. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -228,7 +231,7 @@ change in vision, and may affect your ability to drive and use machines. </p>
 an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Dapagliflozin Viatris contains sodium. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dapagliflozin"
@@ -270,7 +273,7 @@ the usual time.
 <p>If you stop taking Dapagliflozin Viatris </p>
 <p>Do not stop taking Dapagliflozin Viatris without talking to your doctor first. If you have diabetes, your 
 blood sugar may increase without this medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -371,7 +374,7 @@ mouth, passing little or no urine or fast heart beat)
 <p>If you get any side effects, talk to your doctor, pharmacis or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dapagliflozin"
@@ -383,7 +386,7 @@ safety of this medicine. </p>         </div>"""
 date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -493,7 +496,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -532,7 +535,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -541,7 +546,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -558,7 +564,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -637,7 +643,7 @@ nyrefunktion kan medføre alvorlige helbredsproblemer og behov for hospitalsbeha
 <p>Dapagliflozin Viatris hjælper med at beskytte dine nyrer mod at miste deres funktion. Det kan 
 hjælpe nogle patienter til at leve længere. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -771,7 +777,7 @@ Dapagliflozin Viatris indeholder lactose (mælkesukker). Kontakt din læge, før
 lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Dapagliflozin Viatris indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dapagliflozin"
@@ -834,7 +840,7 @@ den næste dosis på det sædvanlige tidspunkt. </p>
 <p>Hvis du holder op med at tage Dapagliflozin Viatris 
 Hold ikke op med at tage Dapagliflozin Viatris uden først at tale med din læge. Hvis du har diabetes, 
 kan dit blodsukker stige, hvis du ikke tager dette lægemiddel. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -976,7 +982,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dapagliflozin"
@@ -988,7 +994,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1134,7 +1140,7 @@ Tel: +353 18711 </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

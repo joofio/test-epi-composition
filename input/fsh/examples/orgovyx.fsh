@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Orgovyx  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 advanced prostate cancer who respond to hormone therapy. </p>
 <p>Relugolix works by blocking a step in the process that signals the testes to produce testosterone (the 
 male sex hormone). As testosterone can stimulate the growth of prostate cancer, by decreasing it to 
-very low levels, relugolix prevents prostate cancer cells from growing and dividing.  </p>         </div>"""   
+very low levels, relugolix prevents prostate cancer cells from growing and dividing.  </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ impair your ability to drive and use machines. These side effects may be due to 
 resulting from the underlying disease. </p>
 <p>Orgovyx contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orgovyx"
@@ -182,7 +185,7 @@ usual.  </p>
 <p>If you stop taking Orgovyx 
 If you would like to stop taking this medicine, talk to your doctor first. Your doctor will explain the 
 effects of stopping treatment and discuss other possibilities with you.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -243,7 +246,7 @@ frequency with which they occur.  </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orgovyx"
@@ -255,7 +258,7 @@ medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ Tel: +34 93 301 00 EL
 Win Medica Pharmaceutical S.A.<br />
 Tel: +30 210 7488 This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -338,7 +341,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -347,7 +352,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -364,7 +370,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -377,7 +383,7 @@ fremskreden hormonfølsom prostatakræft, som reagerer på hormonbehandling. </p
 <p>Relugolix virker ved at blokere et trin i den proces, som sender signal til testiklerne om at producere 
 testosteron (det mandlige kønshormon). Da testosteron kan stimulere væksten af prostatakræft, kan 
 relugolix takket være den kraftige reduktion af testosteronniveauet forhindre prostatakræftcellerne i at 
-vokse og dele sig. </p>         </div>"""   
+vokse og dele sig. </p> </div>"""   
           
 
              
@@ -463,7 +469,7 @@ kan svække din evne til at køre bil og betjene maskiner. Disse bivirkninger ka
 eller opstå på grund af din underliggende sygdom. </p>
 <p>Orgovyx indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. filmovertrukket tablet, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orgovyx"
@@ -497,7 +503,7 @@ tage den glemte dosis. Du skal blot tage din næste dosis som normalt dagen efte
 <p>Hvis du holder op med at tage Orgovyx 
 Hvis du ønsker at holde op med at tage dette lægemiddel, skal du først tale med din læge. Lægen vil 
 forklare virkningen af at stoppe behandlingen og diskutere andre muligheder med dig. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -559,7 +565,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orgovyx"
@@ -571,7 +577,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -621,7 +627,7 @@ Tel: +30 210 7488<br />
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -660,7 +666,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -669,7 +677,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -686,7 +695,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Orgovyx  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -699,7 +708,7 @@ próstata avançado que respondem à terapia hormonal. </p>
 <p>Relugolix atua bloqueando um passo no processo que sinaliza os testículos para produzir testosterona 
 (a hormona sexual masculina). Como a testosterona pode estimular o crescimento do cancro da 
 próstata, ao reduzi-la para níveis muito baixos, o relugolix previne o crescimento e divisão das células 
-do cancro da próstata.  </p>         </div>"""   
+do cancro da próstata.  </p> </div>"""   
           
 
              
@@ -780,7 +789,7 @@ que podem influenciar a capacidade de conduzir e utilizar máquinas. Estes efeit
 ocorrer devido ao tratamento ou resultar da doença subjacente. </p>
 <p>Orgovyx contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido revestido por película, 
-ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+ou seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar orgovyx"
@@ -815,7 +824,7 @@ dose no dia seguinte, como de costume. </p>
 Se quiser parar de tomar este medicamento, fale primeiro com o seu médico. O seu médico explicar-
 lhe-á os efeitos da interrupção do tratamento e discutirá consigo outras possibilidades.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -865,7 +874,7 @@ com a frequência com que ocorrem.  </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar orgovyx"
@@ -878,7 +887,7 @@ frasco, após VAL. O prazo de validade corresponde ao último dia do mês indica
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -924,7 +933,7 @@ Win Medica Pharmaceutical S.A.<br />
 Tel: +30 210 7488<br />
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

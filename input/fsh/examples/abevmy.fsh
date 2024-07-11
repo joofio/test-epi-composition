@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Abevmy </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +108,7 @@ with a chemotherapy regimen containing a platinum agent, Abevmy will be administ
 combination with paclitaxel, or topotecan, or pegylated liposomal doxorubicin. </p>
 <p>Abevmy is also used for the treatment of adult patients with persistent, recurrent or metastatic cervical 
 cancer. Abevmy will be administered in combination with paclitaxel and cisplatin or, alternatively, 
-paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>         </div>"""   
+paclitaxel and topotecan in patients who cannot receive platinum therapy. </p> </div>"""   
           
 
              
@@ -217,7 +220,7 @@ disappear. </p>
 This medicine contains 4.196 mg sodium (main component of cooking/table salt) in each 4 mL vial. 
 This is equivalent to 0.21% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>This medicine contains 16.784 mg sodium (main component of cooking/table salt) in each 16 mL vial. 
-This is equivalent to 0.84% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+This is equivalent to 0.84% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abevmy"
@@ -263,7 +266,7 @@ discuss this with your doctor. </p>
 <p>If you stop treatment with Abevmy 
 Stopping your treatment with Abevmy may stop the effect on tumour growth. Do not stop treatment 
 with Abevmy unless you have discussed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -418,7 +421,7 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abevmy"
@@ -438,7 +441,7 @@ has taken place in a sterile environment, Abevmy is stable for a period of up to
 and a period of up to 15 days at 23 C to 27 C. </p>
 <p>Do not use Abevmy if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -537,7 +540,7 @@ Tel: 0080008250Latvija
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250This leaflet was last revised in 
 Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -576,7 +579,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -585,7 +590,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -602,7 +608,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelse og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -643,7 +649,7 @@ topotecan eller pegyleret liposomal doxorubicin. </p>
 <p>Abevmy bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
 livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
 metastaser). Abevmy bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og 
-topotecan til patienter, som ikke kan få platin. </p>         </div>"""   
+topotecan til patienter, som ikke kan få platin. </p> </div>"""   
           
 
              
@@ -758,7 +764,7 @@ hætteglas. Det svarer til 0,21 % af det maksimale anbefalede daglige indtag af 
 voksen. </p>
 <p>Dette lægemiddel indeholder 16,784 mg natrium (hovedbestanddelen i koge-/bordsalt) i hvert 16 ml 
 hætteglas. Det svarer til 0,84 % af det maksimale anbefalede daglige indtag af natrium i kosten for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abevmy"
@@ -804,7 +810,7 @@ herom. </p>
 <p>Hvis du holder op med at få Abevmy 
 Hvis behandlingen med Abevmy stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
 behandlingen med Abevmy før, du har diskuteret det med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -960,7 +966,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel </p>         </div>"""      
+information om sikkerheden af dette lægemiddel </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abevmy"
@@ -981,7 +987,7 @@ er Abevmy stabilt i en periode på op til 70 dage ved 2 °C til 8 °C, og i en p
 23 °C til 27 °C. </p>
 <p>Brug ikke Abevmy, hvis du opdager partikler eller misfarvning før administration. </p>
 <p>Spørg apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1105,7 +1111,7 @@ Tel: 0080008250 </p>
 <p>Denne indlægsseddel blev senest ændret den 
 Andre informationskilder 
 Du kan finde yderligere oplysninger om Abevmy på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

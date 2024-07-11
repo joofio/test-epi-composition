@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rapilysin </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 thrombolytic medicine used to dissolve blood clots that have formed in certain blood vessels and to 
 restore the blood flow in these blocked vessels (=thrombolysis). </p>
 <p>Rapilysin is used after an acute myocardial infarction (heart attack) in order to dissolve the blood clot 
-causing the heart attack. It is given within 12 hours after the onset of symptoms. </p>         </div>"""   
+causing the heart attack. It is given within 12 hours after the onset of symptoms. </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ Your doctor can tell you the risks and benefits of using Rapilysin during pregna
 <p>Breast-feeding 
 You should not breast-feed your baby during treatment with Rapilysin as it is not known whether 
 Rapilysin is excreted into mother s milk. Mother s milk should be thrown away during the first hours after thrombolytic treatment. Discuss with your doctor when you can take up breast-feeding 
-again. </p>         </div>"""   
+again. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rapilysin"
@@ -193,7 +196,7 @@ normal. </p>
 The dose of acetylsalicylic acid given before Rapilysin should be at least 250 mg-350 mg and should 
 be followed by 75-150 mg/day, at least until discharge from hospital. </p>
 <p>If more Rapilysin is used than recommended 
-In the event of overdosage there may be an increased risk of bleeding. </p>         </div>"""         
+In the event of overdosage there may be an increased risk of bleeding. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ have a stroke (including bleeding in the brain) or other serious bleeding proble
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rapilysin"
@@ -245,7 +248,7 @@ this medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not store above 25  C.  </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
-<p>After reconstitution ( when dissolved ), the solution must be used immediately. </p>         </div>"""      
+<p>After reconstitution ( when dissolved ), the solution must be used immediately. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -346,7 +349,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Accord Healthcare Ireland Ltd. 
 Ireland 
 Tel: +353 214619This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -385,7 +388,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -394,7 +399,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -409,7 +415,7 @@ Usage: #inline
 3. Sådan skal De tage Rapilysin 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -421,7 +427,7 @@ Usage: #inline
 trombolytisk lægemiddel, som anvendes til at opløse blodpropper, som er dannet i visse blodkar og til 
 at gendanne blodgennemstrømningen i de blokerede blodkar (trombolyse). </p>
 <p>Rapilysin anvendes efter et akut myokardieinfarkt (hjerteanfald) for at opløse den blodprop, som har 
-forårsaget hjerteanfaldet. Det gives indenfor 12 timer efter, at symptomerne er begyndt. </p>         </div>"""   
+forårsaget hjerteanfaldet. Det gives indenfor 12 timer efter, at symptomerne er begyndt. </p> </div>"""   
           
 
              
@@ -546,7 +552,7 @@ Rapilysin under graviditet. </p>
 <p>Amning 
 De må ikke amme Deres barn under behandling med Rapilysin, da det ikke vides om Rapilysin 
 udskilles i modermælken. Modermælken bør bortkastes i de første 24 timer efter trombolytisk 
-behandling. Tal med lægen om, hvornår De kan begynde at amme igen. </p>         </div>"""   
+behandling. Tal med lægen om, hvornår De kan begynde at amme igen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rapilysin"
@@ -585,7 +591,7 @@ normale. </p>
 Dosis af acetylsalicylsyre, som gives før Rapilysin, skal være mindst 250-350 mg, efterfulgt af 75-
 150 mg daglig indtil udskrivning fra sygehuset. </p>
 <p>Hvis der anvendes mere Rapilysin end der anbefales: 
-I tilfælde af overdosering kan der være en forøget risiko for blødning. </p>         </div>"""         
+I tilfælde af overdosering kan der være en forøget risiko for blødning. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -646,7 +652,7 @@ også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller
 også indberette bivirkninger direkte til Lægemiddelstyrelsen på www.meldenbivirkning.dk eller via 
 Lægemiddelstyrelsen, Axel Heides Gade 1, DK-2300 København S, e-mail: dkma@dkma.dk. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rapilysin"
@@ -658,7 +664,7 @@ lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares over 25 °C. </p>
 <p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys </p>
-<p>Efter rekonstitution (opløsning) skal injektionsvæsken anvendes straks. </p>         </div>"""      
+<p>Efter rekonstitution (opløsning) skal injektionsvæsken anvendes straks. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -846,7 +852,7 @@ reducere risikoen for nye tromboser. </p>
 Y-slangen) skylles grundigt med en 0,9 % natriumchlorid opløsning eller 5 % glucose opløsning 
 før og efter Rapilysin injektionen.  </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 

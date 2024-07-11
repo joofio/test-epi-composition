@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Colobreathe </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ aeruginosa is a very common bacterium that infects nearly all cystic fibrosis pa
 during their lives. Some people will get this infection whilst very young but for others it will be much 
 later. If this infection is not properly controlled it will cause damage to the lungs.  </p>
 <p>How it works 
-Colobreathe works by destroying the bacterial cell membrane, having a lethal effect on them.  </p>         </div>"""   
+Colobreathe works by destroying the bacterial cell membrane, having a lethal effect on them.  </p> </div>"""   
           
 
              
@@ -137,7 +140,7 @@ It is possible while using Colobreathe that you may experience dizziness, confus
 with your sight. Do not drive or use any machines until the symptoms have gone away. </p>
 <p>Colobreathe contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take colobreathe"
@@ -248,7 +251,7 @@ Carry on from there as instructed. </p>
 <p>If you/your child stop using Colobreathe </p>
 <p>Do not stop your treatment early unless your doctor says you can. Your doctor will decide how long 
 you/your child s treatment should last. </p>
-<p>If you/your child have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you/your child have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ a stethoscope)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store colobreathe"
@@ -319,7 +322,7 @@ EXP. The expiry date refers to the last date of that month. </p>
 these capsules. </p>
 <p>Discard the Turbospin inhaler after the completion of a treatment pack. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -436,7 +439,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -475,7 +478,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -484,7 +489,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -499,7 +505,7 @@ Usage: #inline
 3. Sådan skal du bruge Colobreathe 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger  </p> </div>"""   
           
 
 * section[=].section[+]
@@ -515,7 +521,7 @@ fibrose inficeres med på et tidspunkt i deres liv. Nogle personer vil få denne
 unge, men for andre sker dette meget senere. Hvis denne infektion ikke kontrolleres hensigtsmæssigt, 
 vil den forårsage skade på lungerne. </p>
 <p>Sådan virker lægemidlet 
-Colobreathe virker ved at ødelægge bakteriernes cellemembran, hvorved cellerne dør.  </p>         </div>"""   
+Colobreathe virker ved at ødelægge bakteriernes cellemembran, hvorved cellerne dør.  </p> </div>"""   
           
 
              
@@ -593,7 +599,7 @@ Det er muligt, at du, mens du bruger Colobreathe, oplever svimmelhed, forvirring
 med dit syn. Du må ikke føre motorkøretøjer eller bruge maskiner, før symptomerne er forsvundet. </p>
 <p>Colobreathe indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take colobreathe"
@@ -737,7 +743,7 @@ fortsættes som instrueret. </p>
 <p>Hvis du/dit barn holder op med at bruge Colobreathe. </p>
 <p>Stop ikke behandlingen, medmindre lægen siger, at du/dit barn skal. Lægen vil beslutte, hvor længe 
 din/dit barns behandling skal fortsætte. </p>
-<p>Spørg lægen, hvis der er noget, du/dit barn er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du/dit barn er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -854,7 +860,7 @@ indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rappo
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel. </p>
 <p>Tal med lægen eller apotekspersonalet, hvis du/dit barn får en bivirkning. Det gælder også 
-bivirkninger, der ikke er nævnt her. </p>         </div>"""      
+bivirkninger, der ikke er nævnt her. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store colobreathe"
@@ -870,7 +876,7 @@ Opbevares i den originale yderpakning indtil umiddelbart før anvendelse for at 
 kasseres. </p>
 <p>Bortskaf Turbospin-inhalatoren, når hele behandlingspakken er brugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -924,7 +930,7 @@ Spanien </p>
 <p>Denne indlægsseddel blev senest ændret 02/2 </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Vaxzevria</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaxzevria is used for preventing COVID-19 caused by the SARS-CoV-2 virus.
 Vaxzevria is given to adults aged 18 years and older.
 The vaccine causes the immune system (the body s natural defences) to produce antibodies and 
-specialised white blood cells that work against the virus, so giving protection against COVID-19. None of the ingredients in this vaccine can cause COVID-19. </p>         </div>"""   
+specialised white blood cells that work against the virus, so giving protection against COVID-19. None of the ingredients in this vaccine can cause COVID-19. </p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ Vaxzevria contains sodium and alcohol (ethanol)
 This medicine contains less than 1 mmol sodium (23 mg) per 0.5 ml dose, that is to say essentially 
  sodium-free .
 This medicine contains 2 mg of alcohol (ethanol) per 0.5 ml dose. The small amount of alcohol in this 
-medicine will not have any noticeable effects.</p>         </div>"""   
+medicine will not have any noticeable effects.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaxzevria"
@@ -198,7 +201,7 @@ important that you return for your second injection of Vaxzevria. If you miss a 
 you may not be fully protected against COVID-19. Booster dose
 You may receive a booster injection of Vaxzevria. The booster injection may be given at least 
 3 months after you have completed the primary vaccination course with Vaxzevria or an mRNA
-COVID-19 vaccine.</p>         </div>"""         
+COVID-19 vaccine.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaxzevria"
@@ -341,7 +344,7 @@ From the time of vial opening (first needle puncture) use within 6 hours when st
 up to 30 C. After this time, the vial must be discarded. Do not return it to the refrigerator. 
 Alternatively, an opened vial may be stored in a refrigerator (2 C   8 C) for a maximum of 48 hours if 
 it is immediately returned to the refrigerator following each puncture.
-Discard the vial if the suspension is discoloured or particles are observed. Do not shake.</p>         </div>"""      
+Discard the vial if the suspension is discoloured or particles are observed. Do not shake.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -437,7 +440,7 @@ Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
 Scan the QR code with a mobile device to get this information in different languages.
 www.azcovid-19.com
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -476,7 +479,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -485,7 +490,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -500,7 +506,7 @@ Usage: #inline
 3. Sådan vil du få Vaxzevria
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -511,7 +517,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaxzevria bruges til forebyggelse af COVID-19, som forårsages af SARS-CoV-2-virussen.
 Vaxzevria gives til voksne i alderen 18 år og derover.
 Vaccinen får immunsystemet (kroppens naturlige forsvar) til at producere antistoffer og specialiserede 
-hvide blodlegemer, der modarbejder virussen, og giver på den måde beskyttelse med COVID-19. Ingen af indholdsstofferne i denne vaccine kan forårsage COVID-19. </p>         </div>"""   
+hvide blodlegemer, der modarbejder virussen, og giver på den måde beskyttelse med COVID-19. Ingen af indholdsstofferne i denne vaccine kan forårsage COVID-19. </p> </div>"""   
           
 
              
@@ -617,7 +623,7 @@ Vaxzevria indeholder natrium og alkohol (ethanol)
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 0,5 ml dosis, dvs. det er i det 
 væsentlige "natriumfrit".
 Dette lægemiddel indeholder 2 mg alkohol (ethanol) pr. 0,5 ml dosis. Den lille mængde alkohol i dette 
-lægemiddel vil ikke have nogen nævneværdig virkning.</p>         </div>"""   
+lægemiddel vil ikke have nogen nævneværdig virkning.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaxzevria"
@@ -638,7 +644,7 @@ Du kan få en booster-injektion med Vaxzevria (tredje stik). Booster-injektionen
 3 måneder efter, du har fuldført det primære vaccinationsforløb med Vaxzevria eller en mRNA 
 COVID-19-vaccine.
 Lægemidlet er ikke længere autoriseret til salg
-29</p>         </div>"""         
+29</p> </div>"""         
 
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaxzevria"
@@ -790,7 +796,7 @@ tilbage i køleskabet. Alternativt kan et anbrudt hætteglas opbevares i kølesk
 Lægemidlet er ikke længere autoriseret til salg
 31
 Kassér hætteglasset, hvis suspensionen er misfarvet, eller hvis der observeres partikler. Må ikke 
-omrystes.</p>         </div>"""      
+omrystes.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -956,7 +962,7 @@ Bortskaffelse
 Ikke anvendt vaccine samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for 
 lægemiddelaffald. Eventuelt spild skal desinficeres med midler med antiviral aktivitet mod 
 adenovirus.
-Lægemidlet er ikke længere autoriseret til salg</p>         </div>"""      
+Lægemidlet er ikke længere autoriseret til salg</p> </div>"""      
 
 
 

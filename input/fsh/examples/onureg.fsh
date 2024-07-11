@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Onureg </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ Onureg works by preventing cancer cells from growing. Azacitidine, the active su
 works by altering the way the cell turns genes on and off. It also reduces the production of new genetic 
 material (RNA and DNA). These effects are thought to block growth of cancer cells in leukaemia. </p>
 <p>Talk to your doctor or nurse if you have any questions about how Onureg works or why this medicine 
-has been prescribed for you. </p>         </div>"""   
+has been prescribed for you. </p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ Onureg contains lactose. If you have been told by your doctor that you have into
 sugars, contact your doctor before taking this medicine. </p>
 <p>Onureg contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onureg"
@@ -180,7 +183,7 @@ same day and take your next dose at the usual time the next day. Do not take a d
 for a forgotten or vomited tablet. </p>
 <p>If you stop taking Onureg 
 Do not stop taking Onureg unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -216,7 +219,7 @@ can be life-threatening;
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side affects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side affects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onureg"
@@ -228,7 +231,7 @@ By reporting side affects you can help provide more information on the safety of
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -265,7 +268,7 @@ Orteliuslaan 13528 BD Utrecht<br />
 Netherlands </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -304,7 +307,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -313,7 +318,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -328,7 +334,7 @@ Usage: #inline
 3. Sådan skal du tage Onureg 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -350,7 +356,7 @@ ved at ændre den måde, cellerne tænder og slukker for generne på, samt ved a
 af nyt genetisk materiale (RNA og DNA). Disse virkninger menes at blokere kræftcellernes vækst ved 
 leukæmi. </p>
 <p>Kontakt lægen eller sygeplejersken, hvis du har spørgsmål om Onuregs virkning eller hvorfor du har 
-fået ordineret dette lægemiddel. </p>         </div>"""   
+fået ordineret dette lægemiddel. </p> </div>"""   
           
 
              
@@ -417,7 +423,7 @@ Onureg indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis
 du ikke tåler visse sukkerarter. </p>
 <p>Onureg indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onureg"
@@ -490,7 +496,7 @@ efterfølgende dag. Du må ikke tage en dobbeltdosis som erstatning for den glem
 tablet. </p>
 <p>Hvis du holder op med at tage Onureg 
 Du må ikke holde op med at tage Onureg, medmindre din læge fortæller dig, at du skal holde op. </p>
-<p>Spørg lægen, hvis der er andet som du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er andet som du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -568,7 +574,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V.  </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onureg"
@@ -580,7 +586,7 @@ af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -626,7 +632,7 @@ Holland </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store HALAVEN </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ stopping the growth and spread of cancer cells. </p>
 <p>It is used in adults for locally advanced or metastatic breast cancer (breast cancer that has spread 
 beyond the original tumour) when at least one other therapy has been tried but has lost its effect.  </p>
 <p>It is also used in adults for advanced or metastatic liposarcoma (a type of cancer that arises from fat 
-tissue) when previous therapy has been tried but has lost its effect. </p>         </div>"""   
+tissue) when previous therapy has been tried but has lost its effect. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ to 3 months after treatment with HALAVEN. </p>
 HALAVEN may cause side effects such as tiredness (very common) and dizziness (common). Do not 
 drive or use machines if you feel tired or dizzy. </p>
 <p>HALAVEN contains ethanol (alcohol) 
-This medicine contains small amounts of ethanol (alcohol), less than 100 mg in a vial. </p>         </div>"""   
+This medicine contains small amounts of ethanol (alcohol), less than 100 mg in a vial. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take halaven"
@@ -135,7 +138,7 @@ HALAVEN is usually given on Days 1 and 8 of every 21-day cycle. Your doctor will
 many cycles of treatment you should receive. Depending on the results of your blood tests, the doctor 
 may need to delay administration of the medicine until the blood tests return to normal. The doctor 
 may also then decide to reduce the dose you are given. </p>
-<p>If you have any further questions about the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions about the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -214,7 +217,7 @@ internal bleeding. </li>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store halaven"
@@ -230,7 +233,7 @@ immediately the diluted solution should be stored at 2- 8 C for no longer than 7
 <p>If HALAVEN as an undiluted solution has been transferred into a syringe, it should be stored at 15-
 25 C and ambient lighting for no longer than 4 hours, or at 2- 8 C for no longer than 24 hours. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -331,7 +334,7 @@ Tel: +371 677 04United Kingdom (Northern Ireland)
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -370,7 +373,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -379,7 +384,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -394,7 +400,7 @@ Usage: #inline
 3. Sådan skal du bruge HALAVEN<br />
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger  </p> </div>"""   
           
 
 * section[=].section[+]
@@ -408,7 +414,7 @@ stoppe væksten og spredningen af kræftceller. </p>
 som har spredt sig udover den oprindelige kræftknude), når mindst en anden behandling er prøvet, 
 men ikke længere virker. </p>
 <p>Det anvendes også hos voksne med fremskreden eller metastatisk liposarkom (en type cancer, der 
-opstår fra fedtvævet), når tidligere behandling er prøvet, men ikke længere virker. </p>         </div>"""   
+opstår fra fedtvævet), når tidligere behandling er prøvet, men ikke længere virker. </p> </div>"""   
           
 
              
@@ -450,7 +456,7 @@ HALAVEN kan forårsage bivirkninger, såsom træthed (meget almindelig) og svimm
 (almindelig). Lad være med at føre motorkøretøj eller betjene maskiner, hvis du føler dig træt eller er 
 svimmel. </p>
 <p>HALAVEN indeholder alkohol 
-Denne medicin indeholder en mindre mængde alkohol, mindre end 100 mg i et hætteglas. </p>         </div>"""   
+Denne medicin indeholder en mindre mængde alkohol, mindre end 100 mg i et hætteglas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take halaven"
@@ -468,7 +474,7 @@ HALAVEN indgives normalt på Dag 1 og 8 af hver 21-dags cyklus. Din læge vil be
 mange behandlingscyklusser du skal have. Afhængigt af resultaterne af dine blodprøver kan lægen 
 udsætte indgivelsen af lægemidlet, indtil blodprøverne igen er normale. Lægen kan på det tidspunkt 
 også beslutte sig for at reducere din dosis. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -547,7 +553,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store halaven"
@@ -563,7 +569,7 @@ straks anvendes, skal den fortyndede opløsning opbevares ved 2-8 °C i højst 7
 <p>Hvis HALAVEN overføres til en injektionssprøjte som en ufortyndet opløsning, skal den opbevares 
 ved 15-25 °C og i det omgivende lys i højst 4 timer eller ved 2-8 °C i højst 24 timer. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -672,7 +678,7 @@ Eisai GmbH
 Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu/.  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu/.  </p> </div>"""      
 
 
 

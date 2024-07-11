@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Prasugrel Viatris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ angina and you have been treated with a procedure to open blocked arteries in th
 have had one or more stents placed to keep open a blocked or narrowed artery supplying blood to the 
 heart. Prasugrel Viatris reduces the chances of you having a further heart attack or stroke or of dying 
 from one of these atherothrombotic events. Your doctor will also give you acetylsalicylic acid (e.g. 
-aspirin), another antiplatelet agent. </p>         </div>"""   
+aspirin), another antiplatelet agent. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ free .  </p>
 <p>Prasugrel Viatris 10 mg contains sunset yellow FCF aluminium lake (E110) and sodium 
 Sunset yellow FCF aluminium lake is a colouring agent, which may cause allergic reactions. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .  </p>         </div>"""   
+free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prasugrel"
@@ -190,7 +193,7 @@ double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Prasugrel Viatris 
 Do not stop taking Prasugrel Viatris without consulting your doctor; if you stop taking Prasugrel 
 Viatris too soon, your risk of a heart attack may be higher. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>
-<p>42/</p>         </div>"""      
+<p>42/</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prasugrel"
@@ -267,7 +270,7 @@ from moisture.
 Blister packs only: Do not store above 30 C. Store in the original package in order to protect from 
 moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -378,7 +381,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -417,7 +420,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -426,7 +431,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -441,7 +447,7 @@ Usage: #inline
 3. Sådan tages Prasugrel Viatris 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -465,7 +471,7 @@ hjertekrampe og fået en behandling for at åbne blokerede blodårer i hjertet. 
 eller flere stents indsat for at holde en blokeret eller forsnævret blodåre, som forsyner hjertet med blod, 
 åben. Prasugrel Viatris nedsætter risikoen for, at du får yderligere hjerteanfald, et slagtilfælde eller dør 
 af en af disse hændelser, som skyldes forkalkede blodårer. Din læge vil også give dig acetylsalicylsyre 
-(f.eks Aspirin), som er et andet blodfortyndende lægemiddel. </p>         </div>"""   
+(f.eks Aspirin), som er et andet blodfortyndende lægemiddel. </p> </div>"""   
           
 
              
@@ -564,7 +570,7 @@ væsentlige natrium-fri. </p>
 <p>Prasugrel Viatris 10 mg indeholder sunset yellow FCF aluminium lake (E110) og natrium 
 Sunset yellow FCF aluminium lake er et azo-farvestof, som kan forårsage allergiske reaktioner. 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det 
-væsentlige natrium-fri. </p>         </div>"""   
+væsentlige natrium-fri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prasugrel"
@@ -591,7 +597,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 Du må ikke holde op med at tage Prasugrel Viatris uden først at have kontaktet din læge. Hvis du 
 stopper for tidligt med at tage Prasugrel Viatris, kan du have højere risiko for at få et hjerteanfald. </p>
 <p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
-<p>43/</p>         </div>"""         
+<p>43/</p> </div>"""         
 
         
 * section[=].section[+]
@@ -708,7 +714,7 @@ Hvis du oplever bivirkninger,  bør du tale med din læge, apotekspersonalet ell
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystemanført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prasugrel"
@@ -725,7 +731,7 @@ pakning for at beskytte mod fugt.
 Kun blisterpakninger: Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale 
 pakning for at beskytte mod fugt. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -860,7 +866,7 @@ Tel: +353 18711
 Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -899,7 +905,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -908,7 +916,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -923,7 +932,7 @@ Usage: #inline
 3. Como tomar Prasugrel Viatris 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Prasugrel Viatris 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -947,7 +956,7 @@ lhe feita uma intervenção para abrir as artérias bloqueadas no coração. Pod
 colocado um ou mais stents para manter aberta uma artéria bloqueada ou estreitada que fornece sangue 
 ao coração. Prasugrel Viatris reduz as hipóteses de ter outro ataque cardíaco ou acidente vascular 
 cerebral ou de morrer de qualquer um destes acontecimentos aterotrombóticos. O seu médico dar-lhe-á 
-também ácido acetilsalicílico (aspirina), outro agente antiplaquetário. </p>         </div>"""   
+também ácido acetilsalicílico (aspirina), outro agente antiplaquetário. </p> </div>"""   
           
 
              
@@ -1056,7 +1065,7 @@ praticamente “isento de sódio". </p>
 A laca de alumínio de amarelo sunset FCF (E110) é um agente corante, que pode causar reações 
 alérgicas. 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar prasugrel"
@@ -1083,7 +1092,7 @@ dia seguinte. Não tome uma dose a dobrar para compensar uma dose que se esquece
 Não pare de tomar Prasugrel Viatris sem consultar o seu médico; se parar de tomar Prasugrel Viatris 
 demasiado cedo, o risco de ataque cardíaco pode ser maior. </p>
 <p>43/Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1202,7 +1211,7 @@ Efeitos indesejáveis raros (podem afetar até 1 em 1.000 pessoas) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis  não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar prasugrel"
@@ -1220,7 +1229,7 @@ Apenas embalagens blister: Não conservar acima de 30 °C. Conservar na embalage
 proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1359,7 +1368,7 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711 </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

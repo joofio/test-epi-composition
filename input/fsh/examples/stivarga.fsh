@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Stivarga </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ previously treated with other anticancer medicines (imatinib and sunitinib) </li
 (sorafenib). </li>
 </ul>
 <p>If you have any questions about how Stivarga works or why this medicine has been prescribed for you, 
-please ask your doctor. </p>         </div>"""   
+please ask your doctor. </p> </div>"""   
           
 
              
@@ -220,7 +223,7 @@ and react. </p>
 This medicine contains 56.06 mg sodium (main component of cooking/table salt) in each daily dose 
 (4 tablets). This is equivalent to 3% of the recommended maximum daily dietary intake of sodium for 
 an adult. </p>
-<p>This medicine contains 1.68 mg of lecithin (derived from soya) per daily dose (4 tablets). </p>         </div>"""   
+<p>This medicine contains 1.68 mg of lecithin (derived from soya) per daily dose (4 tablets). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stivarga"
@@ -266,7 +269,7 @@ medical attention and your doctor may tell you to stop taking Stivarga. </p>
 <p>If you forget to take Stivarga 
 If you miss a dose, take it as soon as you remember on that day. Do not take two doses of Stivarga on 
 the same day to make up for a missed dose from the previous day. Tell your doctor about any missed 
-dose. </p>         </div>"""         
+dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -407,7 +410,7 @@ epidermal necrolysis). </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stivarga"
@@ -421,7 +424,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>Keep the bottle tightly closed. </p>
 <p>Once the bottle is opened the medicine is to be discarded after 7 weeks. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -518,7 +521,7 @@ Bayer AG
 Tel: +44-(0) 118 206 3This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency (EMA) 
-website: http://www.ema.europa.eu </p>         </div>"""      
+website: http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -557,7 +560,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -566,7 +571,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -583,7 +589,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -606,7 +612,7 @@ lægemidler mod kræft (imatinib og sunitinib) </li>
 mod kræft (sorafenib). </li>
 </ul>
 <p>Spørg lægen, hvis du har spørgsmål om, hvordan Stivarga virker, eller hvorfor du har fået ordineret 
-dette lægemiddel. </p>         </div>"""   
+dette lægemiddel. </p> </div>"""   
           
 
              
@@ -740,7 +746,7 @@ der påvirker din koncentrations- og reaktionsevne. </p>
 Dette lægemiddel indeholder 56,06 mg natrium (hovedkomponent i madlavnings-/bordsalt) pr. daglige 
 dosis (4 tabletter). Dette svarer til 3 % af den anbefalede maksimale daglige indtagelse af natrium for 
 en voksen. </p>
-<p>Dette lægemiddel indeholder 1,68 mg lecithin (deriveret fra soja) pr. daglig dosis (4 tabletter). </p>         </div>"""   
+<p>Dette lægemiddel indeholder 1,68 mg lecithin (deriveret fra soja) pr. daglig dosis (4 tabletter). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stivarga"
@@ -785,7 +791,7 @@ alvorlige, især:</p>
 <p>Hvis du har glemt at tage Stivarga 
 Hvis du glemmer en dosis, skal du tage den så snart, du kommer i tanke om det på den dag, du skulle 
 have taget den. Du må ikke tage en dobbeltdosis Stivarga som erstatning for en glemt dosis fra den 
-forrige dag. Fortæl din læge, hvis du glemmer en dosis. </p>         </div>"""         
+forrige dag. Fortæl din læge, hvis du glemmer en dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -922,7 +928,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stivarga"
@@ -936,7 +942,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Tabletbeholderen skal opbevares tæt tillukket. </p>
 <p>Når tabletbeholderen er blevet åbnet, skal lægemidlet bortskaffes efter 7 uger. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1037,7 +1043,7 @@ Tel: +44-(0) 118 206 3
 Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ} </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

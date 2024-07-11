@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Corbilta</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 tablet. Corbilta is used for the treatment of Parkinson s disease.
 Parkinson s disease is caused by low levels of a substance called dopamine in the brain. Levodopa 
 increases the amount of dopamine and hence reduces the symptoms of Parkinson s disease. Carbidopa 
-and entacapone improve the antiparkinson effects of levodopa.</p>         </div>"""   
+and entacapone improve the antiparkinson effects of levodopa.</p> </div>"""   
           
 
              
@@ -213,7 +216,7 @@ Corbilta contains sucrose
 Corbilta contains sucrose (1.2 mg/tablet). If you have been told by your doctor that you have 
 intolerance to some sugars, contact your doctor before taking this medicine.
 This medicine contains less than 1 mmol (23 mg) sodium per maximum recommended daily dose, that 
-is to say essentially  sodium-free .</p>         </div>"""   
+is to say essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take corbilta"
@@ -257,7 +260,7 @@ Do not stop taking Corbilta unless your doctor tells you to. In such a case your
 adjust your other antiparkinson medicines, especially levodopa, to give sufficient control of your 
 symptoms. If you suddenly stop taking Corbilta and other antiparkinsonian medicines it may result in 
 unwanted side effects.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ Reporting of side effects
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store corbilta"
@@ -381,7 +384,7 @@ Do not use this medicine after the expiry date which is stated on the bottle and
 date refers to the last day of that month.
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -480,7 +483,7 @@ Tel: +358 10 4United Kingdom (Northern Ireland)
 Orion Corporation
 Tel: +358 10 4This leaflet was last revised in.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -519,7 +522,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -528,7 +533,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -543,7 +549,7 @@ Usage: #inline
 3. Sådan skal du tage Corbilta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -555,7 +561,7 @@ Usage: #inline
 tablet. Corbilta bruges til behandling af Parkinsons sygdom.
 Parkinsons sygdom skyldes lavt indhold i hjernen af et stof, der kaldes dopamin. Levadopa øger 
 mængden af dopamin og nedsætter herved symptomerne på Parkinsons sygdom. Carbidopa og
-entacapon forbedrer levadopas antiparkinson-virkning.</p>         </div>"""   
+entacapon forbedrer levadopas antiparkinson-virkning.</p> </div>"""   
           
 
              
@@ -696,7 +702,7 @@ Corbilta indeholder saccharose
 Corbilta indeholder saccharose (1,2 mg/tablet). Kontakt lægen, før du tager dette lægemiddel, hvis 
 lægen har fortalt dig, at du ikke tåler visse sukkerarter.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr.maksimalt anbefalet dosis, dvs. 
-det er i det væsentlige natriumfrit.</p>         </div>"""   
+det er i det væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take corbilta"
@@ -742,7 +748,7 @@ Du må ikke holde op med at tage Corbilta, med mindre din læge har givet dig be
 kontrol over dine symptomer kan det i et sådant tilfælde være nødvendigt, at lægen justerer dosen af 
 den anden medicin, du tager mod Parkinsons sygdom, specielt levodopa. Hvis du pludselig stopper 
 med at tage Corbilta og anden medicin mod Parkinsons sygdom, kan der opstå bivirkninger.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -859,7 +865,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store corbilta"
@@ -871,7 +877,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på beholderen og æsken.
 sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1017,7 +1023,7 @@ Lægen har ordineret Corbilta til dig personligt. Lad derfor være med at give m
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, heunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk .</p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk .</p> </div>"""      
 
 
 
@@ -1056,7 +1062,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1065,7 +1073,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1080,7 +1089,7 @@ Usage: #inline
 3. Como tomar Corbilta
 4. Efeitos indesejáveis possíveis
 5. Como conservar Corbilta
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1092,7 +1101,7 @@ Usage: #inline
 por película. Corbilta é utilizado para o tratamento da doença de Parkinson.
 A doença de Parkinson é provocada por níveis baixos de uma substância no cérebro denominada 
 dopamina. A levodopa aumenta a quantidade de dopamina reduzindo assim os sintomas da doença de 
-Parkinson. A carbidopa e a entacapona potenciam os efeitos antiparkinsónicos da levodopa.</p>         </div>"""   
+Parkinson. A carbidopa e a entacapona potenciam os efeitos antiparkinsónicos da levodopa.</p> </div>"""   
           
 
              
@@ -1242,7 +1251,7 @@ Corbilta contém sacarose (1,2 mg/comprimido). Se foi informado pelo seu médico
 intolerância a alguns açúcares, contacte-o antes de tomar este medicamento.
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose diária máxima 
 recomendada, ou seja, é praticamente ‘isento de sódio’.
-45</p>         </div>"""   
+45</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar corbilta"
@@ -1292,7 +1301,7 @@ repentinamente Corbilta e outros medicamentos antiparkinsónicos pode dar origem
 indesejáveis indesejados. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
 farmacêutico.
-46</p>         </div>"""         
+46</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1414,7 +1423,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar corbilta"
@@ -1427,7 +1436,7 @@ prazo de validade corresponde ao último dia do mês indicado.
 O medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1557,7 +1566,7 @@ Orion Corporation
 Tel: +358 10 4261
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

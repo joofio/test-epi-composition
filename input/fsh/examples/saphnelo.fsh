@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Saphnelo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ causes the signs of lupus.
 The benefits of using Saphnelo
 Saphnelo may help to reduce your lupus disease activity and reduce the number of lupus flares you 
 have. If you are taking medicines called  oral corticosteroids , using Saphnelo may also allow your 
-doctor to reduce the daily dose of oral corticosteroids that is needed to help control your lupus.</p>         </div>"""   
+doctor to reduce the daily dose of oral corticosteroids that is needed to help control your lupus.</p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ not known whether this medicine is passed into breast milk. Your doctor will dis
 whether you should stop treatment with this medicine while you are breast-feeding, or if you 
 should stop breast-feeding.
 Driving and using machines
-It is unlikely that this medicine will affect your ability to drive and use machines.</p>         </div>"""   
+It is unlikely that this medicine will affect your ability to drive and use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take saphnelo"
@@ -173,7 +176,7 @@ If you miss an appointment to get Saphnelo call your doctor as soon as possible 
 appointment.
 Stopping treatment with Saphnelo
 Your doctor will decide if you need to stop being treated with this medicine.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -205,7 +208,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store saphnelo"
@@ -219,7 +222,7 @@ EXP. The expiry date refers to the last day of that month.</p>
 <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Store in a refrigerator (2 C   8 C).</p>
 <p>Do not freeze or shake.</p>
-<p>Store in the original package to protect from light.</p>         </div>"""      
+<p>Store in the original package to protect from light.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -306,7 +309,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -345,7 +348,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -354,7 +359,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -369,7 +375,7 @@ Usage: #inline
 3. Sådan skal du bruge Saphnelo 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -398,7 +404,7 @@ din krop, som medfører symptomerne på lupus. </p>
 Saphnelo kan hjælpe med at reducere din lupus-sygdomsaktivitet og nedsætte antallet af opblusninger 
 af lupus. Hvis du tager lægemidler, der kaldes "orale kortikosteroider", kan brug af Saphnelo også 
 betyde, at din læge kan nedsætte den daglige dosis af orale kortikosteroider, som er nødvendig for at 
-holde din lupus under kontrol. </p>         </div>"""   
+holde din lupus under kontrol. </p> </div>"""   
           
 
              
@@ -521,7 +527,7 @@ du skal stoppe behandlingen med dette lægemiddel, mens du ammer, eller om du sk
 med at amme. </li>
 </ul>
 <p>Trafik- og arbejdssikkerhed 
-Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at køre bil og betjene maskiner. </p>         </div>"""   
+Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at køre bil og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take saphnelo"
@@ -544,7 +550,7 @@ Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at køre bil
 en ny tid. </p>
 <p>Stop af behandling med Saphnelo 
 Din læge bestemmer, om du skal stoppe behandlingen med dette lægemiddel. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -605,7 +611,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store saphnelo"
@@ -631,7 +637,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <li>
 <p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -824,7 +830,7 @@ for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for anifrolumab er CHMP af den opfattelse, at 
 benefit/risk-forholdet for lægemidlet/lægemidlerne indeholdende anifrolumab forbliver uændret under 
 forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 

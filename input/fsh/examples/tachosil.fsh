@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TachoSil </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ haemostasis) and the tissue is sealed. In the body TachoSil will dissolve and di
 TachoSil is used during surgery to stop local bleeding (haemostasis) and to seal tissue surfaces on 
 internal organs in adults and in children from 1 month of age. 
 TachoSil is also indicated in adults in neurosurgery to support sealing of dura mater and prevent 
-postoperative cerebrospinal leakage. </p>         </div>"""   
+postoperative cerebrospinal leakage. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ measures taken may be of limited value against non-enveloped viruses such as par
 whose immune system is depressed or who have some types of anaemia, (e.g., sickle cell disease or 
 haemolytic anaemia). </p>
 <p>Other medicines and TachoSil 
-Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>         </div>"""   
+Tell your doctor if you are taking, have recently taken or might take any other medicines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tachosil"
@@ -126,7 +129,7 @@ Tell your doctor if you are taking, have recently taken or might take any other 
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The doctor treating you will apply TachoSil during surgery. The quantity of TachoSil used depends on 
 the size of the wound. The doctor will place TachoSil on the internal organ to stop the bleeding or to 
-seal the tissue. During the following time TachoSil will dissolve and disappear. </p>         </div>"""         
+seal the tissue. During the following time TachoSil will dissolve and disappear. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -150,7 +153,7 @@ to reduce this risk. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tachosil"
@@ -162,7 +165,7 @@ By reporting side effects, you can help provide more information on the safety o
 refers to the last day of that month. </p>
 <p>Do not store above 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -196,7 +199,7 @@ Germany </p>
 St. Peter Strasse A-4020 Linz, Austria </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -235,7 +238,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -244,7 +249,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -259,7 +265,7 @@ Usage: #inline
 3. Sådan skal du bruge TachoSil 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -278,7 +284,7 @@ fuldstændigt. </p>
 TachoSil anvendes i forbindelse med operationer til at stoppe lokale blødninger og til at forsegle 
 vævsoverflader på indre organer hos voksne og hos børn i alderen fra 1 måned. 
 Tachosil er også indiceret hos voksne under neurokirurgi til at støtte forseglingen af dura mater og 
-forebygge lækage af cerebrospinalvæske efter operationen. </p>         </div>"""   
+forebygge lækage af cerebrospinalvæske efter operationen. </p> </div>"""   
           
 
              
@@ -314,7 +320,7 @@ personer med svækket immunforsvar eller bestemte typer anæmi (blodmangel), for
 seglcelleanæmi og hæmolytisk anæmi. </p>
 <p>Brug af anden medicin sammen med TachoSil 
 Fortæl det altid til lægen eller på apoteket, hvis du bruger anden medicin eller har brugt det for nylig. 
-Dette gælder også medicin, som ikke er købt på recept. </p>         </div>"""   
+Dette gælder også medicin, som ikke er købt på recept. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tachosil"
@@ -323,7 +329,7 @@ Dette gælder også medicin, som ikke er købt på recept. </p>         </div>""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen vil anvende TachoSil på dig i forbindelse med en operation. Antallet af TachoSil, som anvendes, 
 afhænger af sårets størrelse. TachoSil anbringes på det indre organ for at stoppe blødningen eller for at 
-forsegle vævet. TachoSil vil efterfølgende opløses og forsvinde i kroppen. </p>         </div>"""         
+forsegle vævet. TachoSil vil efterfølgende opløses og forsvinde i kroppen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -349,7 +355,7 @@ mindske denne risiko vil kirurgen rengøre operationsområdet omhyggeligt, inden
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tachosil"
@@ -361,7 +367,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25 °C. </p>
 <p>Spørg apoteketspersonal, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -457,7 +463,7 @@ fremmedlegemereaktion i form af granulom. </p>
 </ol>
 <p>Sporbarhed </p>
 <p>For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
-batchnummer tydeligt registreres. </p>         </div>"""      
+batchnummer tydeligt registreres. </p> </div>"""      
 
 
 

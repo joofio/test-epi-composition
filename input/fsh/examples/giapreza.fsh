@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How GIAPREZA is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 It makes the blood vessels tighten and become narrower, thus increasing blood pressure.  </p>
 <p>GIAPREZA is used in an emergency setting to increase blood pressure to normal levels in adult 
 patients with seriously low blood pressure who do not respond to fluids or other medicines that raise 
-blood pressure.  </p>         </div>"""   
+blood pressure.  </p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ breast-feeding before this medicine is given. </p>
 <p>It is not known whether GIAPREZA can affect fertility. </p>
 <p>Sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 2.5 mg/1 ml, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take giapreza"
@@ -163,7 +166,7 @@ supportive care.  </p>
 Your doctor will gradually decrease the amount of GIAPREZA you are given over time once your 
 blood pressure has increased to appropriate levels. If GIAPREZA is stopped suddenly or stopped too 
 early, you may experience a decrease in your blood pressure or your condition may worsen.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -195,7 +198,7 @@ damage. </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store giapreza"
@@ -210,7 +213,7 @@ The diluted solution should be used immediately. Chemical and physical in-use st
 demonstrated for 24 hours at room temperature and 2  C - 8  C. </p>
 <p>Do not use if you notice any signs of visible damage or discolouration.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -305,7 +308,7 @@ PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4This leaflet was last revised in MM/YYYY. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -344,7 +347,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -353,7 +358,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -370,7 +376,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -381,7 +387,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Giapreza indeholder det aktive stof angiotensin II, der er et stof, som kroppen også selv producerer. Det får 
 blodkarrene til at trække sig sammen og blive snævrere, hvorved blodtrykket øges. </p>
 <p>Giapreza anvendes i nødsituationer til at øge blodtrykket til normalt niveau hos voksne patienter med svært 
-nedsat blodtryk, der ikke reagerer på behandling med væske eller andre lægemidler til øgning af blodtrykket. </p>         </div>"""   
+nedsat blodtryk, der ikke reagerer på behandling med væske eller andre lægemidler til øgning af blodtrykket. </p> </div>"""   
           
 
              
@@ -432,7 +438,7 @@ du får dette lægemiddel. </p>
 <p>Amning bør stoppes under behandling. </p>
 <p>Natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 2,5 mg/1 ml, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take giapreza"
@@ -465,7 +471,7 @@ behandling. </p>
 Lægen vil gradvist reducere den mængde Giapreza, du får over tid, når dit blodtryk er steget til det 
 ønskede niveau. Hvis Giapreza-behandlingen standses pludseligt eller for tidligt, kan du opleve, at dit 
 blodtryk falder, eller at din tilstand forværres. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -498,7 +504,7 @@ medføre vævsskade. </li>
 Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som ikke 
 er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store giapreza"
@@ -513,7 +519,7 @@ den sidste dag i den nævnte måned. </p>
 24 timer ved stuetemperatur og ved 2 °C - 8 °C. </p>
 <p>Må ikke anvendes ved synlige tegn på skade eller misfarvning. </p>
 <p>Spørg på apotekpersonalet, hvordan du skal bortskaffe til lægemiddelrester. Af hensyn til miljøet 
-må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -671,7 +677,7 @@ blodtrykket, for at undgå hypotension ved for hurtig seponering. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Fortyndes før brug. Administreres som en fortyndet opløsning. </p>
 <p>Den fortyndede opløsning kan opbevares ved stuetemperatur eller i køleskab. Efter opbevaring i 
 24 timer ved stuetemperatur eller i køleskab skal den fortyndede opløsning bortskaffes. 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

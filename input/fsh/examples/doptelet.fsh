@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Doptelet  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ thrombocytopenia) before having a medical procedure where there is a risk of ble
 thrombocytopenia (ITP) when a prior treatment for ITP (such as corticosteroids or immunoglobulins) 
 has not worked well enough. 
 Doptelet works by helping to increase the number of platelets in the blood. Platelets are blood cells 
-that help the blood to clot and so reduce or prevent bleeding. </p>         </div>"""   
+that help the blood to clot and so reduce or prevent bleeding. </p> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ breast-feeding outweighs any possible risks to your baby while you are breast-fe
 Doptelet is not expected to affect you being able to drive, cycle or use tools or machines. </p>
 <p>Doptelet contains lactose 
 Doptelet contains lactose (a type of sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take doptelet"
@@ -178,7 +181,7 @@ medicines you may need a different starting dose.
 <p>If you stop taking Doptelet 
 Take Doptelet for as long as your doctor tells you. Do not stop taking Doptelet unless your doctor tells 
 you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -292,7 +295,7 @@ itching </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store doptelet"
@@ -304,7 +307,7 @@ this medicine. </p>         </div>"""
  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ Strandbergsgatan 49,
 Stockholm, 
 SE-112 Sweden </p>
 <p>This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -377,7 +380,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -386,7 +391,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -403,7 +409,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -419,7 +425,7 @@ trombocyttal, trombocytopeni), inden de skal have udført et indgreb, hvor der e
 trombocytopeni (ITP), når en tidligere behandling af ITP (f.eks. kortikosteroider eller 
 immunoglobuliner) ikke har virket godt nok. 
 Doptelet virker ved at hjælpe med at øge antallet af blodplader i blodet. Blodplader er blodlegemer, 
-som hjælper blodet med at størkne og dermed mindsker eller forebygger blødning. </p>         </div>"""   
+som hjælper blodet med at størkne og dermed mindsker eller forebygger blødning. </p> </div>"""   
           
 
              
@@ -480,7 +486,7 @@ Doptelet forventes ikke at påvirke din evne til at føre motorkøretøj eller c
 og maskiner. </p>
 <p>Doptelet indeholder lactose 
 Doptelet indeholder lactose (en type sukker). Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
-har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take doptelet"
@@ -559,7 +565,7 @@ sædvanlige tidspunkt. </p>
 <p>Hvis du holder op med at tage Doptelet 
 Du skal tage Doptelet så længe, som din læge har fortalt dig. Du må ikke holde op med at tage 
 Doptelet, medmindre lægen beder dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -846,7 +852,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store doptelet"
@@ -858,7 +864,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -896,7 +902,7 @@ Strandbergsgatan Stockholm
 SE-112 Sverige </p>
 <p>Denne indlægsseddel blev senest ændret . </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

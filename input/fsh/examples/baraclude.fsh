@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Baraclude </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ properly (decompensated liver disease). </p>
 adolescents aged 2 years to less than 18 years. Baraclude can be used in children whose liver is 
 damaged but still functions properly (compensated liver disease). </p>
 <p>Infection by the hepatitis B virus can lead to damage to the liver. Baraclude reduces the amount of 
-virus in your body, and improves the condition of the liver. </p>         </div>"""   
+virus in your body, and improves the condition of the liver. </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ Dizziness, tiredness (fatigue) and sleepiness (somnolence) are common side effec
 your ability to drive and use machines. If you have any concerns consult your doctor. </p>
 <p>Baraclude contains lactose 
 This medicinal product contains lactose. If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicinal product. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take baraclude"
@@ -195,7 +198,7 @@ double dose to make up for a forgotten dose. </p>
 <p>Do not stop Baraclude without your doctor s advice 
 Some people get very serious hepatitis symptoms when they stop taking Baraclude. Tell your doctor 
 immediately about any changes in symptoms that you notice after stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -222,7 +225,7 @@ not listed in this leaflet. </p>
 If you get any side effects, talk to your doctor or pharmacist or. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store baraclude"
@@ -235,7 +238,7 @@ That expiry date refers to the last day of that month. </p>
 <p>Blister packs: do not store above 30 C. Store in the original carton. 
 Bottle packs: do not store above 25 C. Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -271,7 +274,7 @@ Plaza Blanchardstown Corporate Park 2
 Dublin 15, D15 TIreland </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -310,7 +313,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -319,7 +324,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -334,7 +340,7 @@ Usage: #inline
 3. Sådan skal du tage Baraclude 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -350,7 +356,7 @@ er skadet og ikke fungerer ordentligt (inkompenseret leversygdom). </p>
 børn og unge i alderen 2-18 år. Baraclude kan anvendes til børn, hvis lever er skadet, men stadig 
 fungerer ordentligt (kompenseret leversygdom). </p>
 <p>Infektion med hepatitis-B virus kan medføre leverskader. Baraclude mindsker mængden af virus i 
-kroppen og forbedrer leverens tilstand. </p>         </div>"""   
+kroppen og forbedrer leverens tilstand. </p> </div>"""   
           
 
              
@@ -430,7 +436,7 @@ køre bil, motorcykel eller cykle eller arbejde med værktøj eller maskiner. Hv
 du kontakte lægen. </p>
 <p>Baraclude indeholder lactose 
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take baraclude"
@@ -477,7 +483,7 @@ må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 Nogle mennesker får meget alvorlige leversymptomer, når de holder op med at tage Baraclude. Hvis 
 du bemærker ændringer i symptomer, efter at behandlingen er stoppet, skal du straks fortælle det til 
 lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -513,7 +519,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store baraclude"
@@ -526,7 +532,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Blisterpakning: må ikke opbevares ved temperaturer over 30 °C. Opbevares i originalemballagen. 
 Beholdere: må ikke opbevares ved temperaturer over 25 °C. Beholderen skal holdes tæt tillukket. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -589,7 +595,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

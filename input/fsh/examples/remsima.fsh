@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Remsima </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -119,7 +122,7 @@ Crohn s disease is an inflammatory disease of the bowel. If you have Crohn s dis
 given other medicines. If these medicines do not work well enough, you will be given Remsima to: 
 * treat active Crohn s disease, 
 * reduce the number of abnormal openings (fistulae) between your bowel and your skin that have 
-not been controlled by other medicines or surgery. </p>         </div>"""   
+not been controlled by other medicines or surgery. </p> </div>"""   
           
 
              
@@ -343,7 +346,7 @@ or unwell after having Remsima, do not drive or use any tools or machines. </p>
 <p>Remsima contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free . 
 However, before Remsima is given to you, it is mixed with a solution that contains sodium. Talk to 
-your doctor if you are on a low salt diet. </p>         </div>"""   
+your doctor if you are on a low salt diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take remsima"
@@ -381,7 +384,7 @@ There are no known side effects of having too much of Remsima. </p>
 <p>If you forget or miss your Remsima infusion 
 If you forget or miss an appointment to receive Remsima, make another appointment as soon as 
 possible. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -545,7 +548,7 @@ infection (neutropenia), bone fracture, bacterial infection and allergic reactio
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store remsima"
@@ -567,7 +570,7 @@ or the expiry date printed on the carton, whichever is earlier.
 (within 3 hours). However, if the solution is prepared in germ-free conditions, it can be stored in 
 a refrigerator at 2 C   8 C up to 60 days and for an additional 24 hours at 25  C after removal 
 from the refrigerator. 
-* Do not use this medicine if it is discoloured or if there are particles present. </p>         </div>"""      
+* Do not use this medicine if it is discoloured or if there are particles present. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -681,7 +684,7 @@ Tel: + 36 1 231 0United Kingdom (Northern Ireland)
 Celltrion Healthcare Ireland Limited 
 Tel: +353 1 223 4This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -720,7 +723,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -729,7 +734,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -746,7 +752,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -844,7 +850,7 @@ andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remsi
 <p>sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
 behandles tilfredsstillende med andre lægemidler eller operation. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1176,7 +1182,7 @@ motorkøretøj eller betjene nogen form for værktøj eller maskiner. </p>
 <p>Remsima indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
 natriumfri. Inden du får Remsima, bliver det imidlertid blandet med en opløsning, der indeholder 
-natrium. Fortæl det til lægen, hvis du får en diæt med lavt saltindhold. </p>         </div>"""   
+natrium. Fortæl det til lægen, hvis du får en diæt med lavt saltindhold. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take remsima"
@@ -1232,7 +1238,7 @@ Der kendes ikke til nogen bivirkninger efter at have fået for meget Remsima. </
 <p>Hvis du har glemt eller kommer for sent til din Remsima-infusion 
 Hvis du glemmer eller kommer for sent til en aftale, hvor Remsima gives, skal du lave en ny aftale så 
 hurtigt som muligt. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1610,7 +1616,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store remsima"
@@ -1646,7 +1652,7 @@ udtagning fra køleskab. </p>
 <li>
 <p>Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1880,7 +1886,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

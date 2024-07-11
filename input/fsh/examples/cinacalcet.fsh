@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cinacalcet Mylan  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ treatments. </p>
  Primary  means that the hyperparathyroidism is not caused by any other condition and  secondary<br />
 means that the hyperparathyroidism is caused by another condition, e.g. kidney disease. Both primary 
 and secondary hyperparathyroidism can cause the loss of calcium in the bones, which can lead to bone 
-pain and fractures, problems with blood and heart vessels, kidney stones, mental illness and coma. </p>         </div>"""   
+pain and fractures, problems with blood and heart vessels, kidney stones, mental illness and coma. </p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ modify your treatment, as cinacalcet might harm the unborn baby. </p>
 should discontinue either breast-feeding or treatment with Cinacalcet Mylan. </p>
 <p>Driving and using machines 
 Dizziness and seizures have been reported by patients taking cinacalcet. If you experience these side 
-effects do not drive or operate machines. </p>         </div>"""   
+effects do not drive or operate machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cinacalcet"
@@ -184,7 +187,7 @@ and seizures.  </p>
 <p>If you forget to take Cinacalcet Mylan 
 Do not take a double dose to make up for a forgotten dose.  </p>
 <p>If you have forgotten a dose of Cinacalcet Mylan, you should take your next dose as normal.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -236,7 +239,7 @@ condition and/or low blood pressure (hypotension). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cinacalcet"
@@ -248,7 +251,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -355,7 +358,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -394,7 +397,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -403,7 +408,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -418,7 +424,7 @@ Usage: #inline
 3. Sådan skal du tage Cinacalcet Mylan<br />
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -456,7 +462,7 @@ betyder, at hyperparatyroidismen ikke skyldes nogen anden tilstand, og “sekund
 hyperparatyroidismen skyldes en anden tilstand, for eksempel nyresygdom. Både primær og sekundær 
 hyperparatyroidisme kan medføre et for lavt calciumniveau i knoglerne, som kan give smerter i 
 knoglerne, knoglebrud, hjerte-kar-sygdom, nyresten, psykiske lidelser og koma. </p>
-<p>6 </p>         </div>"""   
+<p>6 </p> </div>"""   
           
 
              
@@ -567,7 +573,7 @@ behandlingen, da cinacalcet kan være skadeligt for fostret. </p>
 bedst at ophøre med amning eller afbryde behandlingen med Cinacalcet Mylan. </p>
 <p>Trafik- og arbejdssikkerhed 
 Der er indberettet svimmelhed og krampeanfald fra patienter, som fik cinacalcet. Hvis du oplever disse 
-bivirkninger må du ikke føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+bivirkninger må du ikke føre motorkøretøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cinacalcet"
@@ -593,7 +599,7 @@ krampeanfald. </p>
 <p>Hvis du har glemt at tage Cinacalcet Mylan 
 Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
 <p>Hvis du har glemt at tage en dosis Cinacalcet Mylan, skal du tage den næste dosis som normalt. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -706,7 +712,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cinacalcet"
@@ -718,7 +724,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -848,7 +854,7 @@ Tel: +353 18711 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>De kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How Celsunax is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -98,7 +101,7 @@ treatment. </p>
 <p>When Celsunax is used, you are exposed to small amounts of radioactivity. This exposure is less than in 
 some types of X-ray investigation. Your doctor and the nuclear medicine doctor have considered that the 
 clinical benefit of this procedure with the radiopharmaceutical outweighs the risk of being exposed to 
-these small amounts of radiation. </p>         </div>"""   
+these small amounts of radiation. </p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ breast milk you have expressed. </li>
 Celsunax has no known influence on the ability to drive and use machines. </p>
 <p>Celsunax contains alcohol (ethanol): up to 197 mg of alcohol in each dose which is equivalent to 
 39.5 mg/mL (5% by volume). The amount in 5 mL of this medicine is equivalent to 5 mL beer or 2 mL 
-wine. The small amount of alcohol in this medicine will not have any noticeable effects. </p>         </div>"""   
+wine. The small amount of alcohol in this medicine will not have any noticeable effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take celsunax"
@@ -187,7 +190,7 @@ rid of the medicine. You will need to be careful with the water (urine) that you
 you what to do. This is normal practice with medicines like Celsunax. Any ioflupane (123I) which 
 remains in your body will naturally lose its radioactivity. </p>
 <p>If you have any further questions on the use of this medicine, ask your nuclear medicine doctor who 
-supervises the procedure. </p>         </div>"""         
+supervises the procedure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ the body in a few days without need for you to take special precautions. </p>
 If you get any side effects, talk to your nuclear medicine doctor. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store celsunax"
@@ -254,7 +257,7 @@ and is 24 hours from the end of the synthesis (EOS) time stated on the label.  <
 <li>Store in the original lead shielding. Store in accordance with national regulation on radioactive 
 materials. </li>
 <li></li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ Austria </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -328,7 +331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -337,7 +342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -354,7 +360,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -397,7 +403,7 @@ Deres tilstand og ved beslutningen om mulig behandling. </p>
 <p>Når De får Celsunax, eksponeres De for en lille mængde radioaktivitet. Denne eksponering er mindre 
 end under visse former for røntgenundersøgelser. Deres læge og den nuklearmedicinske læge har 
 vurderet at de kliniske fordele ved denne undersøgelse med det "radioaktive lægemiddel", overstiger 
-risikoen for at blive udsat for disse små mængder stråling. </p>         </div>"""   
+risikoen for at blive udsat for disse små mængder stråling. </p> </div>"""   
           
 
              
@@ -482,7 +488,7 @@ kroppen. </p>
 Celsunax har ingen kendt indflydelse på evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Celsunax indeholder alkohol (ethanol): op til 197 mg alkohol i hver dosis, svarende til 39,5 mg/ml 
 (5 volumen%). Mængden i 5 ml af lægemidlet svarer til 5 ml øl eller 2 ml vin. Den lille mængde 
-alkohol, der er i dette lægemiddel, vil ikke have nogen mærkbar effekt. </p>         </div>"""   
+alkohol, der er i dette lægemiddel, vil ikke have nogen mærkbar effekt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take celsunax"
@@ -515,7 +521,7 @@ kroppen med at slippe af med medicinen. De skal være omhyggelig med det vand (u
 Deres læge vil fortælle Dem, hvad De skal gøre. Dette er normal praksis for lægemidler som 
 Celsunax. Det ioflupan (123I), som forbliver i Deres krop, vil naturligt miste dets radioaktivitet. </p>
 <p>Hvis De har flere spørgsmål til brugen af dette lægemiddel, kan De spørge Deres nuklearmedicinske 
-læge. </p>         </div>"""         
+læge. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -557,7 +563,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres nuklearmedicinske læge. De
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store celsunax"
@@ -577,7 +583,7 @@ opbevares og bortskaffes korrekt og ikke anvendes efter udløbsdatoen angivet p�
 <li>Må ikke nedfryses.  </li>
 <li>Opbevares i den originale blybeholder. Opbevares i overensstemmelse med den nationale 
 lovgivning for radioaktive materialer. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -618,7 +624,7 @@ Grundstück Nr. 482/2 EZ 98 KG
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

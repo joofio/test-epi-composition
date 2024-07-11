@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Irbesartan Zentiva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ type 2 diabetes. </p>
 <p>Irbesartan Zentiva is used in adult patients </p>
 <p>to treat high blood pressure (essential hypertension) </p>
 <p>to protect the kidney in patients with high blood pressure, type 2 diabetes and laboratory 
-evidence of impaired kidney function. </p>         </div>"""   
+evidence of impaired kidney function. </p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ talk to your doctor before attempting to drive or use machines. </p>
 <p>Irbesartan Zentiva contains lactose. If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicinal product. </p>
 <p>Irbesartan Zentiva contains sodium. This medicine contains less than 1 mmol sodium (23 mg) per 
-tablet, that is to say essentially  sodium-free .  </p>         </div>"""   
+tablet, that is to say essentially  sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take irbesartan"
@@ -184,7 +187,7 @@ If you accidentally take too many tablets, contact your doctor immediately. </p>
 <p>If you forget to take Irbesartan Zentiva 
 If you accidentally miss a daily dose, just take the next dose as normal. Do not take a double dose to 
 make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -226,7 +229,7 @@ eyes) have also been reported. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store irbesartan"
@@ -238,7 +241,7 @@ this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away  medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away  medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ United Kingdom (Northern Ireland)
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -400,7 +403,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -409,7 +414,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -424,7 +430,7 @@ Usage: #inline
 3. Sådan skal du tage Irbesartan Zentiva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -440,7 +446,7 @@ Irbesartan Zentiva mindsker faldende nyrefunktion hos patienter med forhøjet bl
 <p>Irbesartan Zentiva anvendes til voksne patienter 
 til at behandle forhøjet blodtryk (hypertension) 
 til at beskytte nyrerne hos patienter med for højt blodtryk, type 2 diabetes (sukkersyge) og blodprøver, 
-der viser nedsat nyrefunktion. </p>         </div>"""   
+der viser nedsat nyrefunktion. </p> </div>"""   
           
 
              
@@ -533,7 +539,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>Irbesartan Zentiva indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take irbesartan"
@@ -566,7 +572,7 @@ Hvis du ved et uheld har taget for mange tabletter, skal du omgående kontakte l
 <p>Hvis du har glemt at tage Irbesartan Zentiva 
 Hvis du har glemt at tage en dosis, skal du blot tage den næste til sædvanlig tid. Tag ikke dobbeltdosis 
 som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store irbesartan"
@@ -623,7 +629,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30°C. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -765,7 +771,7 @@ indeholder vigtige oplysninger.
 medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 du har. 
 - Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 

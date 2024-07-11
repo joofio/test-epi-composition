@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store SOTYKTU </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ can help to control the inflammation associated with plaque psoriasis and thereb
 reduce symptoms such as itching, pain, burning, stinging, and skin tightness of this condition. </p>
 <p>SOTYKTU has also been shown to improve the quality of life in patients with psoriasis. This means 
 that the impact of your condition on daily activities, relationships and other factors should be less than 
-it was before. </p>         </div>"""   
+it was before. </p> </div>"""   
           
 
              
@@ -134,7 +137,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. </p>
 <p>SOTYKTU contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sotyktu"
@@ -155,7 +158,7 @@ make up for a forgotten tablet. </p>
 <p>If you stop taking SOTYKTU 
 Do not stop taking SOTYKTU without talking to your doctor first. If you stop treatment, symptoms of 
 psoriasis may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -179,7 +182,7 @@ nose </p>
 If you get any side effects, talk to your doctor, nurse, or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sotyktu"
@@ -193,7 +196,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not use this medicine if you notice the tablets are damaged or there are signs of tampering with the 
 medicine packaging. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -320,7 +323,7 @@ Bristol-Myers Squibb Pharmaceutical Limited
 Tel: +44 (0)800 731 1medical.information@bms.com </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -359,7 +362,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -368,7 +373,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -385,7 +391,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -410,7 +416,7 @@ med til at reducere symptomer, såsom kløe, smerter, brændende fornemmelse, sv
 denne lidelse. </p>
 <p>Det er desuden påvist, at SOTYKTU kan forbedre livskvaliteten hos patienter med psoriasis. Det 
 betyder, at den påvirkning, som din sygdom har på dagligdags aktiviteter, relationer og andre faktorer, 
-nok vil blive mindre end før. </p>         </div>"""   
+nok vil blive mindre end før. </p> </div>"""   
           
 
              
@@ -483,7 +489,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>SOTYKTU indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sotyktu"
@@ -504,7 +510,7 @@ tage en dobbeltdosis som erstatning for den glemte tablet. </p>
 <p>Hvis du holder op med at tage SOTYKTU 
 Hold ikke op med at tage SOTYKTU uden først at tale med lægen. Hvis du stopper behandlingen, kan 
 dine psoriasis-symptomer vende tilbage. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -545,7 +551,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sotyktu"
@@ -559,7 +565,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at tabletterne er gået i stykker, eller hvis der er tegn på, at 
 pakningen har været åbnet af andre. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -696,7 +702,7 @@ Tel: +44 (0)800 731 1medical.information@bms.com </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -735,7 +741,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -744,7 +752,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -761,7 +770,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar SOTYKTU </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -787,7 +796,7 @@ conseguinte, ajudar a reduzir os sintomas, tais como comichão, dor, ardor, sens
 repuxada, desta condição. </p>
 <p>SOTYKTU também demonstrou melhorar a qualidade de vida dos doentes com psoríase. Isto significa 
 que o impacto da sua condição em atividades diárias, relações e outros fatores deverá ser inferior ao 
-que era anteriormente. </p>         </div>"""   
+que era anteriormente. </p> </div>"""   
           
 
              
@@ -861,7 +870,7 @@ Se foi informado pelo seu médico que tem intolerância a alguns açúcares, con
 este medicamento. </p>
 <p>SOTYKTU contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sotyktu"
@@ -884,7 +893,7 @@ dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
 Não pare de tomar SOTYKTU sem falar com o seu médico primeiro. Se parar o tratamento, os 
 sintomas da psoríase podem voltar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -926,7 +935,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sotyktu"
@@ -941,7 +950,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
 de adulteração da embalagem do medicamento. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1079,7 +1088,7 @@ Bristol-Myers Squibb Pharmaceutical Limited
 Tel: +44 (0)800 731 1medical.information@bms.com </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

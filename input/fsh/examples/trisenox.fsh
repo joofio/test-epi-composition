@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TRISENOX </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRISENOX is used in adult patients with newly diagnosed low-to-intermediate risk acute 
 promyelocytic leukaemia (APL), and in adult patients, whose disease has not responded to other 
 therapies. APL is a unique type of myeloid leukaemia, a disease in which abnormal white blood cells 
-and abnormal bleeding and bruising occur. </p>         </div>"""   
+and abnormal bleeding and bruising occur. </p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ If you experience discomfort or if you feel unwell after a TRISENOX injection, y
 the symptoms go away before driving or using machines. </p>
 <p>TRISENOX contains sodium 
 TRISENOX contains less than 1 mmol sodium (23 mg) per dose. This means that the medicine is 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trisenox"
@@ -183,7 +186,7 @@ chloride. </p>
 <p>If your doctor or nurse gives you more TRISENOX than he/she should 
 You may experience convulsions, muscle weakness and confusion. If this happens, treatment with 
 TRISENOX must be stopped immediately and your doctor will treat the arsenic overdose.  </p>
-<p>If you have any further question on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further question on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -247,7 +250,7 @@ including difficulties to use arms and legs, speech disorders and confusion </li
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.  </p>         </div>"""      
+safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trisenox"
@@ -263,7 +266,7 @@ unless dilution has taken place in a sterile environment. </p>
 <p>This medicine must not be used if you notice foreign particulate matter or if the solution is 
 discoloured. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ United Kingdom </p>
 A91 P9KD, Ireland </p>
 <p>Teva Pharmaceuticals Europe B.V., Swensweg 5, 2031 GA Haarlem, The Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -328,7 +331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -337,7 +342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -352,7 +358,7 @@ Usage: #inline
 3. Sådan gives TRISENOX 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -363,7 +369,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRISENOX anvendes til voksne patienter med nydiagnosticeret lav til intermediær risiko akut 
 promyelocyt-leukæmi (APL), og til voksne patienter, hvis sygdom ikke har reageret på andre 
 behandlinger. APL er en speciel type myeloid leukæmi, en sygdom, hvor der forekommer unormale 
-hvide blodlegemer og unormal blødning og blå mærker. </p>         </div>"""   
+hvide blodlegemer og unormal blødning og blå mærker. </p> </div>"""   
           
 
              
@@ -441,7 +447,7 @@ infusion, skal du vente, indtil symptomerne forsvinder, før du fører motorkør
 maskiner. </p>
 <p>TRISENOX indeholder natrium 
 TRISENOX indeholder mindre end 1 mmol (23 mg) natrium pr. dosis. Det betyder, at medicinen i det 
-væsentlige er natriumfri. </p>         </div>"""   
+væsentlige er natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trisenox"
@@ -472,7 +478,7 @@ som anden medicin.  </p>
 <p>Hvis din læge eller sundhedspersonalet giver dig for meget TRISENOX 
 Du kan opleve kramper, muskelsvaghed og forvirring. Hvis dette sker, skal behandlingen med 
 TRISENOX omgående stoppes, og din læge vil behandle arsen-overdoseringen.  </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -534,7 +540,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trisenox"
@@ -549,7 +555,7 @@ betingelser din læges, apotekspersonalets eller sygeplejerskens ansvar, og det 
 længere end 24 timer ved 2 til 8°C, medmindre fortyndingen har fundet sted i et sterilt miljø. </p>
 <p>Brug ikke lægemidlet, hvis der er fremmede partikler i infusionsvæsken, eller hvis den er misfarvet. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -621,7 +627,7 @@ vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er mere, du vil vide. 
 - Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 
@@ -660,7 +666,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -669,7 +677,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -686,7 +695,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar TRISENOX </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -697,7 +706,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TRISENOX é utilizado em doentes adultos com leucemia promielocítica aguda (APL) recentemente 
 diagnosticada, de risco baixo a intermédio, e em doentes adultos cuja doença não respondeu a outras 
 terapêuticas. A APL constitui um tipo de leucemia mieloide única, uma doença na qual ocorrem 
-glóbulos brancos anormais e hemorragia anormal e nódoas negras. </p>         </div>"""   
+glóbulos brancos anormais e hemorragia anormal e nódoas negras. </p> </div>"""   
           
 
              
@@ -794,7 +803,7 @@ Se sentir desconforto ou se não se sentir bem após uma injeção de TRISENOX, 
 sintomas desapareçam antes de conduzir ou utilizar máquinas. </p>
 <p>TRISENOX contém sódio 
 TRISENOX contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente “isento 
-de sódio". </p>         </div>"""   
+de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trisenox"
@@ -829,7 +838,7 @@ com outros medicamentos. </p>
 <p>Poderá sentir convulsões, fraqueza muscular e confusão. No caso de isto acontecer, o tratamento com 
 TRISENOX deve ser imediatamente suspenso e o seu médico tratará a sobredosagem de arsénio. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -904,7 +913,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trisenox"
@@ -923,7 +932,7 @@ estéril. </p>
 apresentar descoloração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -950,7 +959,7 @@ Reino Unido </p>
 A91 P9KD, Irlanda </p>
 <p>Teva Pharmaceuticals Europe B.V., Swensweg 5, 2031 GA Haarlem, Países Baixos </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

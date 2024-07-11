@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Kauliv? </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 the risk of fractures by stimulating bone formation.  </p>
 <p>Kauliv is used to treat osteoporosis in adults. Osteoporosis is a disease that causes your bones to 
 become thin and fragile. This disease is especially common in women after the menopause, but it can 
-also occur in men. Osteoporosis is also common in patients receiving medicines called corticosteroids.  </p>         </div>"""   
+also occur in men. Osteoporosis is also common in patients receiving medicines called corticosteroids.  </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ Some patients may feel dizzy after injecting Kauliv. If you feel dizzy you shoul
 machines until you feel better.  </p>
 <p>Kauliv contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kauliv"
@@ -207,7 +210,7 @@ If you are considering stopping Kauliv treatment, please discuss this with your 
 will advise you and decide how long you should be treated with Kauliv. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>
 <p>Kauliv is not recommended for use by the blind or visually impaired persons without the assistance 
-from a person trained in the proper use of the pen. </p>         </div>"""         
+from a person trained in the proper use of the pen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ which led to admission into hospital.  </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine.  </p>         </div>"""      
+of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kauliv"
@@ -292,7 +295,7 @@ empty.  </p>
 <p>Kauliv contains a clear and colourless solution. Do not use Kauliv if solid particles appear or if the 
 solution is cloudy or coloured.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -329,7 +332,7 @@ Maria-Goeppert-Strasse 3
 Germany 
 This leaflet was last revised in 
 Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: http://</p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: http://</p> </div>"""      
 
 
 
@@ -368,7 +371,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -377,7 +382,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -392,7 +398,7 @@ Usage: #inline
 3. Sådan skal du bruge Kauliv 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -405,7 +411,7 @@ for knoglebrud ved at fremme knogledannelse. </p>
 <p>Kauliv anvendes til behandling af knogleskørhed (osteoporose) hos voksne. Knogleskørhed er en 
 sygdom, der gør knoglerne tynde og skrøbelige. Sygdommen er især almindelig hos kvinder efter 
 overgangsalderen, men den kan også forekomme hos mænd. Knogleskørhed er også almindeligt 
-forekommende hos patienter, der får lægemidler som kaldes binyrebarkhormoner. </p>         </div>"""   
+forekommende hos patienter, der får lægemidler som kaldes binyrebarkhormoner. </p> </div>"""   
           
 
              
@@ -471,7 +477,7 @@ Nogle patienter kan føle sig svimle efter en indsprøjtning med Kauliv. Hvis du
 du ikke føre motorkøretøj eller betjene maskiner, før du har det bedre. </p>
 <p>Kauliv indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kauliv"
@@ -547,7 +553,7 @@ dosis. Tag ikke mere end én indsprøjtning samme dag. </p>
 rådgive dig og beslutte, hvor længe du skal behandles med Kauliv. </p>
 <p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
 <p>Kauliv frarådes til brug af blinde eller synshandicappede uden hjælp fra en person, der er oplært i 
-korrekt brug af pennen. </p>         </div>"""         
+korrekt brug af pennen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -676,7 +682,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kauliv"
@@ -698,7 +704,7 @@ er fuldstændig tom. </p>
 <p>Kauliv indeholder en klar og farveløs opløsning. Brug ikke Kauliv, hvis der forekommer partikler eller 
 hvis opløsningen er uklar eller farvet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -975,7 +981,7 @@ overensstemmelse med vejledning fra din læge eller lokale retningslinjer. </p>
 <li>
 <p>Genbrug ikke den fyldte nålebeholder. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

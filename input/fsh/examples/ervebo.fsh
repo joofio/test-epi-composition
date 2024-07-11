@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ervebo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ or animal with Ebola (like clothes or objects in direct contact).</li>
 <li>Ebola is not spread through the air, water or food.
 Your healthcare worker will talk to you and then together you can decide if you or your child should
 receive this vaccine.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -202,7 +205,7 @@ or breast-feeding during the 6 weeks after you receive Ervebo, tell your healthc
 because you could pass the vaccine to them through your body fluids.
 Ervebo contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ervebo"
@@ -211,7 +214,7 @@ free .</p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ervebo is given by a healthcare worker. It is given as a single injection (dose of 1 mL) in the top of the
 arm or the outside of the thigh.
-If you have any further questions on the use of this vaccine, ask your healthcare worker.</p>         </div>"""         
+If you have any further questions on the use of this vaccine, ask your healthcare worker.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -274,7 +277,7 @@ Reporting of side effects
 If you get any side effects, talk to your healthcare worker. This includes any possible side effects not
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in
 Appendix V. By reporting side effects you can help provide more information on the safety of this
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ervebo"
@@ -296,7 +299,7 @@ taken out of the freezer and also a new discard date (in place of the labelled e
 <li>Do not throw away any medicines via wastewater or household waste. Ask your healthcare
 worker how to throw away medicines you no longer use. These measures will help protect the
 environment.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -487,7 +490,7 @@ fluid. The bandage may be removed when there is no visible fluid leakage.
 guidelines for genetically modified organisms or biohazardous waste, as appropriate. If
 breakage/spillage were to occur, disinfectants such as aldehydes, alcohols and detergents are
 proven to reduce viral infection potential after only a few minutes. If feasible, the waste liquid
-from eye washes should be collected and decontaminated before discarding into the drain.</p>         </div>"""      
+from eye washes should be collected and decontaminated before discarding into the drain.</p> </div>"""      
 
 
 
@@ -526,7 +529,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -535,7 +540,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -550,7 +556,7 @@ Usage: #inline
 3. Sådan får du Ervebo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -590,7 +596,7 @@ Sundhedspersonalet vil tale med dig, og I kan herefter sammen beslutte, om du el
 vaccinen.
 27</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -757,7 +763,7 @@ Ervebo indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ervebo"
@@ -766,7 +772,7 @@ væsentlige natriumfrit.</p>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ervebo gives af sundhedspersonalet. Det gives som en enkelt injektion (dosis på 1 ml) i den øverste
 del af armen eller på ydersiden af låret.
-Spørg sundhedspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg sundhedspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -905,7 +911,7 @@ indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
 lægemiddel.
 31</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ervebo"
@@ -942,7 +948,7 @@ ud af fryseren og også en ny kasseringsdato (i stedet for den påtrykte udløbs
 <p>Spørg sundhedspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet
 må du ikke smide lægemiddelrester i afløbet eller toilettet eller skraldespanden.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1211,7 +1217,7 @@ brud/spild har desinficerende midler som aldehyder, sprit og rengøringsmidler v
 reducere viralt infektionspotentiale efter kun et par minutter. Hvis det er muligt, skal
 affaldsvæske fra vask af øjne opsamles og dekontamineres, før det hældes i afløbet.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1250,7 +1256,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1259,7 +1267,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1274,7 +1283,7 @@ Usage: #inline
 3. Como é administrado Ervebo
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Ervebo
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1319,7 +1328,7 @@ O seu profissional de saúde irá falar consigo e depois podem decidir em conjun
 filho deverão receber esta vacina.
 26</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1488,7 +1497,7 @@ Ervebo contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente
 “isento de sódio".</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ervebo"
@@ -1497,7 +1506,7 @@ Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ervebo é administrado por um profissional de saúde. É administrado como uma injeção única (dose de
 1 ml) na parte superior do braço ou na zona exterior da coxa.
-Fale com o seu profissional de saúde se tiver dúvidas sobre esta vacina. </p>         </div>"""         
+Fale com o seu profissional de saúde se tiver dúvidas sobre esta vacina. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1637,7 +1646,7 @@ diretamente através do sistema nacional de notificação mencionado no Apêndic
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.
 30</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ervebo"
@@ -1678,7 +1687,7 @@ embalagem). </p>
 profissional de saúde como deitar fora os medicamentos que já não utiliza. Estas medidas
 ajudarão a proteger o ambiente.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1849,7 +1858,7 @@ Tel: +353 (0)1 2998700
 medinfoNI@msd.com
 Este folheto foi revisto pela última vez em MM/AAAA.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

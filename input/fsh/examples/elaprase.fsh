@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Elaprase </li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ are spleen, liver, lungs, heart, and connective tissue. In some patients glycosa
 also in the brain. Elaprase contains an active substance called idursulfase which works by acting as a
 replacement for the enzyme that is at a low level, thereby breaking down this carbohydrate in affected 
 cells.
-Enzyme replacement therapy is usually administered as a long-term treatment.</p>         </div>"""   
+Enzyme replacement therapy is usually administered as a long-term treatment.</p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ Driving and using machines
 This medicine has no or negligible influence on the ability to drive and use machines.
 Elaprase contains sodium
 This medicine contains 11.1 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 0.6% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+equivalent to 0.6% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elaprase"
@@ -148,7 +151,7 @@ If you use more Elaprase than you should
 Consult your doctor if you have an overdose of this medication.
 If you forget to use Elaprase
 If you have missed an Elaprase infusion, please contact your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -186,7 +189,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elaprase"
@@ -200,7 +203,7 @@ Store in a refrigerator (2 C   8 C)
 Do not freeze
 Do not use this medicine if you notice that there is discolouration or presence of foreign particles.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -333,7 +336,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on the medicine every year and this 
 leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -372,7 +375,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -381,7 +386,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -396,7 +402,7 @@ Usage: #inline
 3. Sådan får De Elaprase
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -414,7 +420,7 @@ organforstyrrelser og organsvigt. Glykosaminoglykan ophobes typisk i organer som
 og hjerte samt i bindevæv. Hos nogle patienter ophobes glykosaminoglykan også i hjernen. Elaprase 
 indeholder et aktivt stof, der hedder idursulfase, og dette stof virker som erstatning for det enzym, der 
 er på et lavt niveau, hvorved kulhydratet i de påvirkede celler nedbrydes.
-Enzymsubstitutionsbehandling er som regel en langvarig behandling.</p>         </div>"""   
+Enzymsubstitutionsbehandling er som regel en langvarig behandling.</p> </div>"""   
           
 
              
@@ -463,7 +469,7 @@ maskiner.
 Elaprase indeholder natrium
 Dette lægemiddel indeholder 11,1 mg natrium (hovedkomponent i madlavnings-/bordsalt) i hvert 
 hætteglas. Dette svarer til 0,6% af den anbefalede maksimale daglige indtagelse på 2 g natrium for en 
-voksen.</p>         </div>"""   
+voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elaprase"
@@ -484,7 +490,7 @@ Hvis De har fået for meget Elaprase
 Kontakt lægen ved overdosering af dette lægemiddel.
 Hvis De har glemt at få Elaprase
 Kontakt Deres læge, hvis De ved en fejl ikke har fået Deres infusion med dette lægemiddel.
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, De er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -541,7 +547,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elaprase"
@@ -555,7 +561,7 @@ Opbevares i køleskab (2C - 8C)
 Må ikke nedfryses
 Brug ikke lægemidlet, hvis De ser misfarvning eller partikler i produktet.
 Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -748,7 +754,7 @@ ikke omrystes.
 fysisk stabilitet af den fortyndede opløsning er påvist i 8 timer ved 25°C.
 5. Elaprase må ikke infunderes samtidigt med andre lægemidler i den samme intravenøse slange.
 6. Kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til 
-lokale retningslinjer.</p>         </div>"""      
+lokale retningslinjer.</p> </div>"""      
 
 
 

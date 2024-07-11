@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store EVUSHELD</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ and adolescents aged 12 years and older weighing at least 40 kg.
 EVUSHELD is used to treat adults and adolescents, aged from 12 years and weighing at least 40 kg,
 with COVID-19 who:</p>
 <p>do not require supplemental oxygen to treat COVID-19, and</p>
-<p>are at increased risk for the illness becoming severe based on the evaluation of your doctor.</p>         </div>"""   
+<p>are at increased risk for the illness becoming severe based on the evaluation of your doctor.</p> </div>"""   
           
 
              
@@ -120,7 +123,7 @@ what the effects might be on the baby or milk production. </p>
 <p>Your doctor will help you decide whether to keep breast-feeding or to start treatment with this 
 medicine.
 Driving and using machines
-It is unlikely that EVUSHELD will affect your ability to drive or use machines.</p>         </div>"""   
+It is unlikely that EVUSHELD will affect your ability to drive or use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evusheld"
@@ -140,7 +143,7 @@ cilgavimab. They will be given to you by your doctor or nurse who will inject ea
 separate muscle, usually one into the muscle of each buttock. The 2 injections will be given one after 
 the other.
 Your doctor or nurse will decide how long you will be monitored after you are given the medicine. 
-This is in case you have any side effects.</p>         </div>"""         
+This is in case you have any side effects.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -163,7 +166,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evusheld"
@@ -181,7 +184,7 @@ Unopened vials: </p>
 <p>Do not shake.</p>
 <p>Store in the original package in order to protect from light.
 Prepared syringes should be used immediately. If necessary, store the prepared syringes for no more 
-than 4 hours at 2 C to 25 C.</p>         </div>"""      
+than 4 hours at 2 C to 25 C.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -274,7 +277,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -313,7 +316,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -322,7 +327,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -337,7 +343,7 @@ Usage: #inline
 3. Sådan får du EVUSHELD
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -356,7 +362,7 @@ har COVID-19, som:
 
 ikke har brug for supplerende ilt til behandling af COVID-19, og
 
-har øget risiko for, at sygdommen udvikler sig alvorlig baseret på lægens vurdering.</p>         </div>"""   
+har øget risiko for, at sygdommen udvikler sig alvorlig baseret på lægens vurdering.</p> </div>"""   
           
 
              
@@ -407,7 +413,7 @@ Din læge vil hjælpe dig med at beslutte, om du skal fortsætte med at amme ell
 behandling med dette lægemiddel.
 Trafik- og arbejdssikkerhed
 Det er usandsynligt, at EVUSHELD vil påvirke din evne til at føre motorkøretøj eller betjene 
-maskiner.</p>         </div>"""   
+maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evusheld"
@@ -430,7 +436,7 @@ indeholder cilgavimab. Du vil få dem af din læge eller sygeplejerske som vil i
 en separat muskel, normalt én i musklen i hver balde. De 2 injektioner gives efter hinanden.
 Din læge eller sygeplejerske vil beslutte, hvor længe du skal overvåges, efter du har fået medicinen. 
 Dette er i tilfælde af, at du får bivirkninger.
-30</p>         </div>"""         
+30</p> </div>"""         
 
         
 * section[=].section[+]
@@ -459,7 +465,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evusheld"
@@ -481,7 +487,7 @@ Må ikke omrystes.
 
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Klargjorte injektionssprøjter skal bruges straks. Om nødvendigt, kan de klargjorte injektionssprøjter 
-opbevares i maksimalt 4 timer ved 2 °C til under 25 °C.</p>         </div>"""      
+opbevares i maksimalt 4 timer ved 2 °C til under 25 °C.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -642,7 +648,7 @@ De klargjorte injektionssprøjter skal administreres straks.
 
 Hvis administration ikke er mulig straks, er opbevaringstider og -betingelser før og under 
 anvendelse brugerens ansvar og må normalt ikke overstige 4 timer ved 2 ºC til 25 ºC.
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -681,7 +687,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -690,7 +698,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -705,7 +714,7 @@ Usage: #inline
 3. Como EVUSHELD é administrado
 4. Efeitos indesejáveis possíveis 
 5. Como conservar EVUSHELD
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -724,7 +733,7 @@ pelo menos, 40 kg, que tenham COVID-19, e que:
 
 não necessitam de oxigénio suplementar para o tratamento da COVID-19, e
 
-apresentam risco aumentado da doença se tornar grave, com base na avaliação do seu médico.</p>         </div>"""   
+apresentam risco aumentado da doença se tornar grave, com base na avaliação do seu médico.</p> </div>"""   
           
 
              
@@ -789,7 +798,7 @@ efeitos poderá ter no bebé ou na produção de leite.
 O seu médico irá ajudá-la a decidir se deve continuar a amamentar ou iniciar o tratamento com 
 este medicamento.
 Condução de veículos e utilização de máquinas
-É improvável que EVUSHELD afete a sua capacidade de conduzir ou utilizar máquinas.</p>         </div>"""   
+É improvável que EVUSHELD afete a sua capacidade de conduzir ou utilizar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar evusheld"
@@ -814,7 +823,7 @@ separado, normalmente uma no músculo de cada nádega. As 2 injeções serão ad
 seguir à outra.
 31
 O seu médico ou enfermeiro decidirão durante quanto tempo será monitorizado após a administração 
-do medicamento. Isto é no caso de ter quaisquer efeitos indesejáveis.</p>         </div>"""         
+do medicamento. Isto é no caso de ter quaisquer efeitos indesejáveis.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -845,7 +854,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar evusheld"
@@ -869,7 +878,7 @@ Não agitar.
 Conservar na embalagem de origem para proteger da luz.
 As seringas preparadas devem ser utilizadas imediatamente. Se necessário, conserve as seringas 
 preparadas não mais de 4 horas de 2°C a 25°C.
-32</p>         </div>"""      
+32</p> </div>"""      
         
         
 * section[=].section[+]
@@ -998,7 +1007,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

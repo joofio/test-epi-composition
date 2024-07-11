@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dabigatran etexilate Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ blood clot formation. </p>
 <p>Dabigatran etexilate Accord is used in children to:</p>
 <ul>
 <li>treat blood clots and to prevent blood clots from re-occurring. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -212,7 +215,7 @@ Dabigatran etexilate Accord. </p>
 <p>Dabigatran etexilate Accord has no known effects on the ability to drive or use machines. </p>
 <p>Dabigatran etexilate Accord contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
-"sodium-free". </p>         </div>"""   
+"sodium-free". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dabigatran"
@@ -319,7 +322,7 @@ Do not double a dose to make up for a forgotten dose. </p>
 talking to your doctor first, because the risk of developing a blood clot could be higher if you stop 
 treatment too early. Contact your doctor if you experience indigestion after taking Dabigatran etexilate 
 Accord. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ of entry of an injection or from the site of entry of a catheter into a vein </l
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dabigatran"
@@ -454,7 +457,7 @@ medicine. </p>         </div>"""
 <p>Store below 30  C. </p>
 <p>After first opening, bottle may be used for up to 60 days. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -516,7 +519,7 @@ Accord Healthcare S.L.U.
 Tel: +34 93 301 00 EL 
 Win Medica Pharmaceutical S.A.<br />
 Tel: +30 210 7488 This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -555,7 +558,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -564,7 +569,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -579,7 +585,7 @@ Usage: #inline
 3. Sådan skal du tage Dabigatran etexilate Accord 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -597,7 +603,7 @@ er involveret i dannelsen af blodpropper. </p>
 <p>Dabigatran etexilate Accord anvendes til børn for at:</p>
 <ul>
 <li>behandle blodpropper samt forebygge nye blodpropper. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -708,7 +714,7 @@ den fødedygtige alder, bør du undgå graviditet, mens du tager Dabigatran etex
 <p>Dabigatran etexilate Accord påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Dabigatran etexilate Accord indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dabigatran"
@@ -812,7 +818,7 @@ Tag Dabigatran etexilate Accord nøjagtigt som foreskrevet. Du må ikke holde op
 lægemiddel uden først at tale med lægen, da risikoen for at udvikle en blodprop kan være større, hvis du 
 stopper for tidligt med behandlingen. Kontakt lægen, hvis du oplever fordøjelsesbesvær, efter du har taget 
 Dabigatran etexilate Accord. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -934,7 +940,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dabigatran"
@@ -947,7 +953,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 30°C. </p>
 <p>Efter første åbning af beholderen, skal indholdet bruges inden for 60 dage. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1016,7 +1022,7 @@ vigtige oplysninger.
 lægemidlet til andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som du 
 har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
-nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1055,7 +1061,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1064,7 +1072,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1081,7 +1090,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Dabigatrano etexilato Accord </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1096,7 +1105,7 @@ organismo que está envolvida na formação de coágulos sanguíneos. </p>
 - prevenir a formação de coágulos sanguíneos nas veias após cirurgia de substituição do joelho ou 
 da anca. </p>
 <p>Dabigatrano etexilato Accord é utilizado em crianças para: 
-- tratar coágulos sanguíneos e prevenir a recorrência dos mesmos. </p>         </div>"""   
+- tratar coágulos sanguíneos e prevenir a recorrência dos mesmos. </p> </div>"""   
           
 
              
@@ -1232,7 +1241,7 @@ em idade fértil, deve evitar engravidar durante o tratamento com Dabigatrano et
 utilizar máquinas. </p>
 <p>Dabigatrano etexilato Accord contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar dabigatran"
@@ -1347,7 +1356,7 @@ medicamento sem falar primeiro com o seu médico, pois o risco de desenvolver um
 pode ser maior se parar o tratamento demasiado cedo. Contacte o seu médico se tiver a sensação de 
 indigestão depois de tomar Dabigatrano etexilato Accord. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1463,7 +1472,7 @@ numa veia
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar dabigatran"
@@ -1476,7 +1485,7 @@ frasco, após “VAL". O prazo de validade corresponde ao último dia do mês in
 <p>Conservar a temperatura inferior a 30 °C. </p>
 <p>Após a primeira abertura, o frasco pode ser utilizado durante um período até 60 dias. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1541,7 +1550,7 @@ EL
 Win Medica Pharmaceutical S.A.<br />
 Tel: : +30 210 7488<br />
 Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

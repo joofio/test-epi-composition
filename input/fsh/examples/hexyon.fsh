@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Hexyon </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -114,7 +117,7 @@ hepatitis C, and hepatitis E. </li>
 hepatitis B infection to be present at the time of vaccination. The vaccine may not prevent 
 hepatitis B infection in such cases. </li>
 <li>As with any vaccine, Hexyon may not protect 100% of children who receive the vaccine. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ When given at the same time with other vaccines, Hexyon will be given at differe
 you have phenylketonuria (PKU), a rare genetic disorder in which phenylalanine builds up because the 
 body cannot remove it properly. 
 Hexyon contains less than 1 mmol potassium (39 mg) and less than 1 mmol sodium (23 mg) per dose, 
-that is to say essentially  potassium-free  and  sodium-free . </p>         </div>"""   
+that is to say essentially  potassium-free  and  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hexyon"
@@ -213,7 +216,7 @@ when this dose should be given. </p>
 who will decide when to give the missed dose. 
 It is important to follow the instructions from the doctor or nurse so that your child completes the 
 course of injections. If not, your child may not be fully protected against the diseases. </p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist, or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist, or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -306,7 +309,7 @@ treatment. </p>
 <p>If your child gets any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hexyon"
@@ -320,7 +323,7 @@ Store in a refrigerator (2 C   8 C).
 Do not freeze. 
 Keep the vaccine in the outer carton in order to protect it from the light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -448,7 +451,7 @@ Tel: +371 6 6164 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in {MM/YYYY}  </p>
 <p>Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -487,7 +490,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -496,7 +501,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -511,7 +517,7 @@ Usage: #inline
 3. Sådan gives Hexyon<br />
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger  </p> </div>"""   
           
 
 * section[=].section[+]
@@ -588,7 +594,7 @@ forebygger muligvis ikke en hepatitis B infektion i sådanne tilfælde. </p>
 <p>Som med enhver anden vaccine beskytter Hexyon ikke nødvendigvis 100 % af børn, der 
 modtager vaccinen. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -690,7 +696,7 @@ Hvis det gives samtidigt med andre vacciner, vil Hexyon blive givet på forskell
 hvis du har phenylketonuri (PKU, Føllings sygdom), en sjælden genetisk lidelse, hvor phenylalanin 
 ophobes, fordi kroppen ikke kan fjerne det ordentligt. 
 Hexyon indeholder mindre end 1 mmol kalium (39 mg) og mindre end 1 mmol natrium (23 mg) pr. 
-dosis, dvs. det er i det væsentlige kaliumfrit og natriumfrit. </p>         </div>"""   
+dosis, dvs. det er i det væsentlige kaliumfrit og natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hexyon"
@@ -717,7 +723,7 @@ sygeplejerske, hvornår den manglende dosis skal gives.
 Det er vigtigt at følge din læges eller sygeplejerskes vejledninger, så dit barn fuldfører rækken af 
 injektioner. Ellers vil barnet ikke være fuldt beskyttet mod sygdommene. </p>
 <p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af 
-denne vaccine. </p>         </div>"""         
+denne vaccine. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -846,7 +852,7 @@ Hvis dit barn oplever bivirkninger, bør du tale med din læge, apotekspersonale
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hexyon"
@@ -860,7 +866,7 @@ Opbevares i køleskab (2 °C - 8 °C).<br />
 Må ikke nedfryses.<br />
 Vaccinen opbevares i den ydre pakning for at beskytte den mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1096,7 +1102,7 @@ oplysninger. </p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis dit barn får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Fingolimod Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ disappear completely when the relapse is over, but some problems may remain. </p
 Fingolimod Mylan helps to protect against attacks on the CNS by the immune system by reducing the 
 ability of some white blood cells (lymphocytes) to move freely within the body and by stopping them 
 from reaching the brain and spinal cord. This limits nerve damage caused by MS. This medicine also 
-reduces some of the immune reactions of your body. </p>         </div>"""   
+reduces some of the immune reactions of your body. </p> </div>"""   
           
 
              
@@ -354,7 +357,7 @@ use machines safely. Fingolimod Mylan is not expected to have an influence on yo
 and use machines. </p>
 <p>However, at initiation of treatment you will have to stay at the doctor s surgery or clinic for 6 hours 
 after taking the first dose of this medicine. Your ability to drive and use machines may be impaired 
-during and potentially after this time period. </p>         </div>"""   
+during and potentially after this time period. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fingolimod"
@@ -411,7 +414,7 @@ it for more than two weeks without seeking advice from your doctor. </p>
 <p>Your doctor will decide whether and how you need to be monitored after stopping Fingolimod Mylan. 
 Tell your doctor straight away if you think your MS is getting worse after you have stopped treatment. 
 This could be serious. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -521,7 +524,7 @@ could become serious )
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fingolimod"
@@ -538,7 +541,7 @@ after  EXP . The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -636,7 +639,7 @@ Mylan IRE Healthcare Limited
 +353 18711This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -675,7 +678,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -684,7 +689,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -701,7 +707,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -737,7 +743,7 @@ kan forsvinde fuldstændigt, når anfaldet er ovre, men nogle af problemerne kan
 Fingolimod Mylan hjælper med at beskytte mod immunsystemets attakker på CNS ved at nedsætte 
 evnen hos nogle hvide blodlegemer (lymfocytter) til at bevæge sig frit i kroppen og ved at forhindre 
 dem i at nå frem til hjernen og rygmarven. Det begrænser den beskadigelse af nerverne, som MS 
-forårsager. Dette lægemiddel nedsætter også nogle af kroppens immunreaktioner. </p>         </div>"""   
+forårsager. Dette lægemiddel nedsætter også nogle af kroppens immunreaktioner. </p> </div>"""   
           
 
              
@@ -1094,7 +1100,7 @@ man har din sygdom. Fingolimod Mylan forventes ikke at have indflydelse på evne
 motorkøretøj eller betjene værktøj og maskiner. </p>
 <p>Ved indledning af behandlingen vil du dog blive bedt om at blive i afdelingen de første 6 timer, efter 
 du har fået den første dosis af dette lægemiddel. Din evne til at køre bil eller betjene maskiner kan 
-være nedsat i og muligvis efter denne periode. </p>         </div>"""   
+være nedsat i og muligvis efter denne periode. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fingolimod"
@@ -1157,7 +1163,7 @@ have søgt rådgivning hos din læge. </p>
 <p>Din læge vil beslutte, om og hvordan du skal overvåges, efter at du er stoppet med Fingolimod Mylan. 
 Fortæl det med det samme til din læge, hvis du synes, at din MS er forværret efter, at du er stoppet 
 med behandlingen. Dette kan være alvorligt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1381,7 +1387,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fingolimod"
@@ -1408,7 +1414,7 @@ have været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1532,7 +1538,7 @@ Mylan IRE Healthcare Limited
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

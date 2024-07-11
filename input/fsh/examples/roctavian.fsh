@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How ROCTAVIAN is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ The active substance in ROCTAVIAN is based on a virus which does not cause disea
 This virus has been modified so that it cannot spread in the body but can deliver a working copy of the 
 factor VIII gene into liver cells. This enables liver cells to produce factor VIII protein and raise levels 
 of working factor VIII in the blood. In turn, this helps the blood to clot more normally and prevents 
-bleeding or reduces bleeding episodes. </p>         </div>"""   
+bleeding or reduces bleeding episodes. </p> </div>"""   
           
 
              
@@ -231,7 +234,7 @@ about this. </p>
 This medicine contains 29 mg sodium (main component of cooking/table salt) in each vial. This is 
 equivalent to 1.5% of the recommended maximum daily dietary intake of sodium for an adult. The 
 amount of sodium you will receive depends on the number of ROCTAVIAN vials used for your 
-infusion. </p>         </div>"""   
+infusion. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take roctavian"
@@ -257,7 +260,7 @@ As this medicine is given in hospital, and the dose is worked out and checked by
 is unlikely that you will be given too much. If you are given too much ROCTAVIAN, you might have 
 higher factor VIII levels than needed, which may theoretically increase the possibility of unwanted 
 blood clots. If this occurs, your doctor will treat you as necessary. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -311,7 +314,7 @@ when muscle is damaged) seen in blood tests </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store roctavian"
@@ -327,7 +330,7 @@ stored upright and in its original carton (in order to protect it from light). <
 10 hours at 25  C (this includes hold time in the vial and syringe, and time for infusion) or discarded. 
 If needed, an intact vial (stopper not yet punctured) that has been thawed can be stored refrigerated 
 (2 to 8  C) for up to 3 days, upright and protected from light (e.g., in the original carton). </p>
-<p>Thawed ROCTAVIAN must not be used if the solution is not clear and colourless to pale yellow. </p>         </div>"""      
+<p>Thawed ROCTAVIAN must not be used if the solution is not clear and colourless to pale yellow. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -357,7 +360,7 @@ P43 RIreland </p>
 about this medicine. The European Medicines Agency will review new information on this medicine 
 at least every year and this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -396,7 +399,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -405,7 +410,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -422,7 +428,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -445,7 +451,7 @@ Det aktive stof i ROCTAVIAN er baseret på en virus, som ikke medfører sygdom h
 Denne virus er blevet modificeret, så den ikke kan sprede sig i kroppen, men kan levere en fungerende 
 kopi af faktor VIII-genet til leverceller. Dette gør levercellerne i stand til at producere 
 faktor VIII-protein og øge niveauet af fungerende faktor VIII i blodet. Samtidig hjælper dette blodet 
-med at størkne mere normalt og forhindrer blødning eller reducerer blødningsepisoder. </p>         </div>"""   
+med at størkne mere normalt og forhindrer blødning eller reducerer blødningsepisoder. </p> </div>"""   
           
 
              
@@ -619,7 +625,7 @@ med din læge om dette. </p>
 Dette lægemiddel indeholder 29 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 1,5 % af den anbefalede maksimale daglige indtagelse af natrium for en 
 voksen. Den mængde natrium, du vil få, afhænger af antallet af hætteglas med ROCTAVIAN, der 
-anvendes til infusionen. </p>         </div>"""   
+anvendes til infusionen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take roctavian"
@@ -645,7 +651,7 @@ Da denne medicin gives på hospitalet, og dosis udregnes og kontrolleres af dit 
 usandsynligt, at du får for meget. Hvis du får for meget ROCTAVIAN, kan du have højere niveauer af 
 faktor VIII end nødvendigt, hvilket teoretisk kan øge risikoen for uønskede blodpropper. Hvis dette 
 sker, vil din læge behandle dig efter behov. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -758,7 +764,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store roctavian"
@@ -775,7 +781,7 @@ bruges inden for 10 timer ved 25 °C (dette inkluderer holdetid i hætteglas og 
 eller kasseres. Hvis det er nødvendigt, kan et intakt hætteglas (en prop, der endnu ikke er punkteret), 
 der er optøet, opbevares i køleskab (2 °C - 8 °C) i op til 3 dage, opretstående og beskyttet mod lys 
 (f.eks. i den originale karton). </p>
-<p>Optøet ROCTAVIAN må ikke anvendes, hvis opløsningen ikke er klar og farveløs til lysegul. </p>         </div>"""      
+<p>Optøet ROCTAVIAN må ikke anvendes, hvis opløsningen ikke er klar og farveløs til lysegul. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -941,7 +947,7 @@ infusionshastighed. </p>
 spildområdet skal desinficeres med en blegemiddelopløsning efterfulgt af spritservietter. </p>
 <p>Sikkerhedsforanstaltninger, der skal tages ved bortskaffelse af lægemidlet </p>
 <p>Ikke anvendt lægemiddel og affald, der har været i kontakt med ROCTAVIAN (fast og flydende 
-affald) skal bortskaffes i overensstemmelse med lokale retningslinjer for farmaceutisk affald. </p>         </div>"""      
+affald) skal bortskaffes i overensstemmelse med lokale retningslinjer for farmaceutisk affald. </p> </div>"""      
 
 
 
@@ -980,7 +986,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -989,7 +997,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1006,7 +1015,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como é conservado ROCTAVIAN </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1032,7 +1041,7 @@ Este vírus foi modificado para que não se consiga espalhar no corpo, mas consi
 cópia funcional do gene do fator VIII às células do fígado. Isto permite às células do fígado produzir 
 a proteína do fator VIII e assim aumentar os níveis de fator VIII funcional no sangue. Por sua vez, isto 
 ajuda o sangue a coagular de uma forma mais normal e previne hemorragias ou reduz episódios 
-hemorrágicos.  </p>         </div>"""   
+hemorrágicos.  </p> </div>"""   
           
 
              
@@ -1217,7 +1226,7 @@ com o seu médico sobre esta questão. </p>
 Este medicamento contém 29 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada frasco para injetáveis. Isto é equivalente a 1,5% da ingestão diária máxima de sódio recomendada 
 na dieta para um adulto. A quantidade de sódio que irá receber depende do número de frascos para 
-injetáveis de ROCTAVIAN utilizados na perfusão. </p>         </div>"""   
+injetáveis de ROCTAVIAN utilizados na perfusão. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar roctavian"
@@ -1244,7 +1253,7 @@ equipa médica, é pouco provável que lhe seja administrado demasiado medicamen
 demasiado ROCTAVIAN, poderá apresentar níveis de fator VIII mais altos do que o necessário, o que 
 pode teoricamente aumentar a possibilidade de coágulos sanguíneos indesejáveis. Se isto ocorrer, o 
 seu médico irá aplicar o tratamento necessário. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1361,7 +1370,7 @@ quando o músculo é danificado) detetados nas análises ao sangue </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar roctavian"
@@ -1381,7 +1390,7 @@ injetáveis intacto (rolha ainda não perfurada) que tenha sido descongelado pod
 refrigeração (2 a 8 °C) durante 3 dias, no máximo, na posição vertical e protegido da luz (p. ex., na 
 embalagem exterior de origem). </p>
 <p>O medicamento ROCTAVIAN descongelado não pode ser utilizado se a solução não estiver límpida, e 
-incolor a amarelo-clara. </p>         </div>"""      
+incolor a amarelo-clara. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1412,7 +1421,7 @@ significa que se aguarda mais informação sobre este medicamento. A Agência Eu
 Medicamentos irá analisar, pelo menos uma vez por ano, nova informação sobre este medicamento e 
 este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

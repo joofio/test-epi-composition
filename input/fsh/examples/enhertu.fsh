@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Enhertu </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ be removed by surgery and who have tried a prior treatment. A test will be perfo
 sure Enhertu is right for you. 
 * HER2-positive stomach cancer that has spread to other parts of the body or to areas near the 
 stomach that cannot be removed by surgery and who have also tried another treatment 
-specifically for HER2-positive stomach cancer. </p>         </div>"""   
+specifically for HER2-positive stomach cancer. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ reduce your fertility. Therefore, discuss this with your doctor before starting 
 </ul>
 <p>Driving and using machines </p>
 <p>Enhertu is not likely to reduce your ability to drive or use machines. Be careful if you feel tired, dizzy, 
-or have a headache. </p>         </div>"""   
+or have a headache. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enhertu"
@@ -203,7 +206,7 @@ on your side effects. </li>
 <p>It is very important that you do not miss a dose of this medicine.  </p>
 <p>If you stop receiving Enhertu </p>
 <p>Do not stop treatment with Enhertu without checking with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -271,7 +274,7 @@ itching or rash </p>
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.  </p>         </div>"""      
+medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enhertu"
@@ -287,7 +290,7 @@ EXP. The expiry date refers to the last day of that month.
 * The prepared solution for infusion is stable for up to 24 hours at 2  C - 8  C protected from light 
 and must be discarded thereafter. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -386,7 +389,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -425,7 +428,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -434,7 +439,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -451,7 +457,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -490,7 +496,7 @@ blive udført en test for at sikre, at Enhertu er det rigtige for dig. </p>
 områder tæt på mavesækken, som ikke kan fjernes ved en operation, og har prøvet en anden 
 behandling specifikt mod HER2-positiv kræft i mavesækken. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -574,7 +580,7 @@ med lægen, inden du starter behandlingen. </li>
 </ul>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Det er ikke sandsynligt, at Enhertu vil nedsætte din evne til at føre motorkøretøj eller betjene 
-maskiner. Vær forsigtig, hvis du føler dig træt, svimmel eller har hovedpine. </p>         </div>"""   
+maskiner. Vær forsigtig, hvis du føler dig træt, svimmel eller har hovedpine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enhertu"
@@ -629,7 +635,7 @@ af dine bivirkninger. </p>
 <p>Det er meget vigtigt, at du ikke springer en dosis af dette lægemiddel over. </p>
 <p>Hvis du holder op med at få Enhertu </p>
 <p>Du må ikke holde op med at få din behandling med Enhertu uden at rådføre dig med lægen. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -783,7 +789,7 @@ kløe eller udslæt </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enhertu"
@@ -809,7 +815,7 @@ mod lys og skal derefter kasseres. </p>
 </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1029,7 +1035,7 @@ den samme intravenøse slange. </p>
 </li>
 </ul>
 <p>Bortskaffelse 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

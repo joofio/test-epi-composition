@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Yorvipath </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ and is needed to keep the amount of calcium and phosphate in your body within th
 the body produces no or too little PTH. Because of this, they cannot keep the levels of calcium and 
 phosphate within a normal range, and this leads to the symptoms of the condition, such as muscle 
 spasms, twitching, and tingling in your fingertips, toes and lips. Yorvipath replaces the missing PTH 
-to help control the levels of calcium and phosphate. </p>         </div>"""   
+to help control the levels of calcium and phosphate. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ experience dizziness, fainting or light-headedness when standing up, do not driv
 until you feel better.  </p>
 <p>Yorvipath contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yorvipath"
@@ -270,7 +273,7 @@ dose and continue injecting your next dose as you normally would. For example, i
 Do not stop using Yorvipath without talking to your doctor. If you stop using Yorvipath the levels of 
 calcium in your blood may decrease and you may develop the symptoms described below (see 
 section 4).  </p>
-<p>If you have any further questions on the use of Yorvipath, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of Yorvipath, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -343,7 +346,7 @@ site reactions)  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yorvipath"
@@ -363,7 +366,7 @@ Discard each pen 14 days after first use.
 Do not use this medicine if you notice that the solution is cloudy, coloured, or has visible particles in 
 it.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -410,7 +413,7 @@ Tuborg Boulevard DK-2900 Hellerup
 Denmark </p>
 <p>This leaflet was last revised in .  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -449,7 +452,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -458,7 +463,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -475,7 +481,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -491,7 +497,7 @@ hypoparatyroidisme producerer kroppen ingen eller for lidt PTH. Derfor kan de ik
 af kalcium og fosfat inden for normalområdet, og dette fører til sygdommens symptomer, f.eks. 
 muskelspasmer, trækninger og prikken i fingerspidser, tæer og læber. Yorvipath erstatter det 
 manglende PTH for at hjælpe med at kontrollere niveauet af kalcium og fosfat og reducere de 
-symptomer, der er forbundet med hypoparatyroidisme. </p>         </div>"""   
+symptomer, der er forbundet med hypoparatyroidisme. </p> </div>"""   
           
 
              
@@ -586,7 +592,7 @@ Hvis du oplever svimmelhed, besvimelse eller fortumlethed, når du står op, må
 motorkøretøj eller betjene maskiner, før du har fået det bedre.  </p>
 <p>Yorvipath indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yorvipath"
@@ -719,7 +725,7 @@ planlagt til kl. 8 om morgenen, må du ikke injicere den glemte dosis. </p>
 Du må ikke holde op med at bruge Yorvipath uden at tale med lægen. Hvis du holder op med at bruge 
 Yorvipath, kan niveauet af kalcium i blodet falde, og du kan udvikle de symptomer, der er beskrevet 
 nedenfor (se punkt 4). </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -868,7 +874,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yorvipath"
@@ -888,7 +894,7 @@ Bortskaf hver pen 14 dage efter første brug. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at opløsningen er grumset, farvet eller indeholder synlige 
 partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2006,7 +2012,7 @@ Figur S
 Figur R 
 Figur T 
 Dag 
-14 </p>         </div>"""      
+14 </p> </div>"""      
 
 
 
@@ -2045,7 +2051,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -2054,7 +2062,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -2071,7 +2080,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Yorvipath </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -2087,7 +2096,7 @@ no corpo. </p>
 hipoparatiroidismo, o corpo não produz PTH suficiente. Deste modo, o corpo não consegue manter os 
 níveis de cálcio e de fosfato num intervalo normal o que pode causar sintomas, tais como espasmos 
 musculares, tremores e formigueiro na ponta dos dedos das mãos, dos dedos dos pés e nos lábios. 
-Yorvipath substitui a PTH em falta para ajudar a controlar os níveis de cálcio e de fosfato. </p>         </div>"""   
+Yorvipath substitui a PTH em falta para ajudar a controlar os níveis de cálcio e de fosfato. </p> </div>"""   
           
 
              
@@ -2182,7 +2191,7 @@ Contudo, se tiver tonturas, desmaios ou atordoamento ao levantar-se, não conduz
 máquinas até se sentir melhor.  </p>
 <p>Yorvipath contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar yorvipath"
@@ -2327,7 +2336,7 @@ da manhã seguinte, não deverá injetar a dose em falta. </p>
 Não interrompa a utilização de Yorvipath sem falar com o seu médico. Se interromper a utilização de 
 Yorvipath, os níveis de cálcio no seu sangue poderão diminuir e poderá desenvolver os sintomas 
 descritos em seguida (ver secção 4). </p>
-<p>Caso ainda tenha dúvidas sobre a utilização de Yorvipath, consulte o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização de Yorvipath, consulte o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2478,7 +2487,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar yorvipath"
@@ -2498,7 +2507,7 @@ Eliminar cada caneta 14 dias após a primeira utilização. </p>
 <p>Não utilize este medicamento se verificar que a solução está turva, apresenta cor ou partículas visíveis. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -3662,7 +3671,7 @@ que ainda exista medicamento no interior
 obtém o efeito completo do medicamento. </p>
 <p>Figura T 
 Dia 
-14 </p>         </div>"""      
+14 </p> </div>"""      
 
 
 

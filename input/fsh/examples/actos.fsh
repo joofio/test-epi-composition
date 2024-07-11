@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Actos </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ body make better use of the insulin it produces. Your doctor will check whether 
 6 months after you start taking it. </p>
 <p>Actos may be used on its own in patients who are unable to take metformin, and where treatment with 
 diet and exercise has failed to control blood sugar or may be added to other therapies (such as 
-metformin, sulphonylurea or insulin) which have failed to provide sufficient control of blood sugar. </p>         </div>"""   
+metformin, sulphonylurea or insulin) which have failed to provide sufficient control of blood sugar. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ This medicine will not affect your ability to drive or use machines but take car
 abnormal vision. </p>
 <p>Actos contains lactose monohydrate<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking Actos. </p>         </div>"""   
+before taking Actos. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take actos"
@@ -178,7 +181,7 @@ normal. Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Actos 
 Actos should be used every day to work properly. If you stop using Actos, your blood sugar may go 
 up. Talk to your doctor before stopping this treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -245,7 +248,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store actos"
@@ -257,7 +260,7 @@ this medicine. </p>         </div>"""
  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage precautions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -290,7 +293,7 @@ Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Ireland.
 Lilly S.A, Avda. de la Industria 30, 28108 Alcobendas (Madrid), Spain 
 CHEPLAPHARM Arzneimittel GmbH, Ziegelhof 23-24, 17489 Greifswald, Germany.  </p>
 <p>This leaflet was last approved in August 2023. Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -329,7 +332,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -338,7 +343,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
@@ -355,7 +360,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -373,7 +378,7 @@ hjælpe Deres krop til bedre at udnytte den insulin, kroppen producerer. Når De
 <p>Actos kan anvendes alene til patienter, som ikke er i stand til at tage metformin, og hos hvem diæt og 
 motion ikke har været i stand til at kontrollere blodsukkeret, eller det kan anvendes som supplement til 
 andre lægemidler (såsom metformin, sulfonylurinstof eller insulin), hvis disse ikke har været i stand til 
-at kontrollere blodsukkeret tilstrækkeligt.  </p>         </div>"""   
+at kontrollere blodsukkeret tilstrækkeligt.  </p> </div>"""   
           
 
              
@@ -439,7 +444,7 @@ Deres læge vil råde Dem til at stoppe med at tage denne medicin. </p>
 Dette lægemiddel vil ikke påvirke Deres evne til at køre bil eller arbejde med maskiner, men vær 
 forsigtig, hvis De får synsforstyrrelser. </p>
 <p>Actos indeholder lactosemonohydrat 
-Kontakt lægen, før De tager Actos, hvis lægen har fortalt Dem, at De ikke tåler visse sukkerarter. </p>         </div>"""   
+Kontakt lægen, før De tager Actos, hvis lægen har fortalt Dem, at De ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take actos"
@@ -471,7 +476,7 @@ den næste dosis som normalt. De må ikke tage en dobbeltdosis som erstatning fo
 <p>Hvis De holder op med at tage Actos<br />
 For at opnå den ønskede virkning skal De tage Actos hver dag. Hvis De holder op med at tage Actos, 
 kan Deres blodsukker stige. Tal med lægen, før De stopper behandlingen. </p>
-<p>Spørg lægen eller apoteketspersonalet, hvis der er noget, De er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apoteketspersonalet, hvis der er noget, De er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -544,7 +549,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store actos"
@@ -556,7 +561,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apoteketspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -594,7 +599,7 @@ Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Irland.<
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas (Madrid), Spanien. 
 CHEPLAPHARM Arzneimittel GmbH, Ziegelhof 24, 17489 Greifswald, Tyskland  </p>
 <p>Denne indlægsseddel blev senest ændret august 2023. De kan finde yderligere oplysninger om Actos på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 

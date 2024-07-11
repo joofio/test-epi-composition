@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ritonavir Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ control HIV infection. Ritonavir is used in combination with other anti-HIV medi
 (antiretrovirals) to control your HIV infection. Your doctor will discuss with you the best combination 
 of medicines for you. </p>
 <p>Ritonavir Mylan is used by children 2 years of age or older, adolescents and adults who are infected 
-with HIV, the virus which causes AIDS. </p>         </div>"""   
+with HIV, the virus which causes AIDS. </p> </div>"""   
           
 
              
@@ -291,7 +294,7 @@ soon as possible. </p>
 <p>This medicine contains 87.75 mg of sodium in each tablet. This is equivalent to 4.4% of the 
 recommended maximum daily dietary intake of sodium for an adult. Talk to your doctor or pharmacist 
 if you need five or more tablets daily for a prolonged period, especially if you have been advised to 
-follow a low salt (sodium) diet. </p>         </div>"""   
+follow a low salt (sodium) diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ritonavir"
@@ -328,7 +331,7 @@ take that one. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Ritonavir Mylan </p>
 <p>Even if you feel better, do not stop taking Ritonavir Mylan without talking to your doctor. Taking 
 Ritonavir Mylan as recommended should give you the best chance of delaying resistance to the 
-medicines. </p>         </div>"""         
+medicines. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -450,7 +453,7 @@ immediate medical help. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ritonavir"
@@ -463,7 +466,7 @@ refers to the last day of that month. </p>
 <p>For HDPE bottle:  After first opening, use within 45 days. </p>
 <p>Do not store above 30  C. Store in the original packaging in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help the environment. </p>         </div>"""      
+you no longer use. These measures will help the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -568,7 +571,7 @@ Viatris SIA<br />
 Tel: + 371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel: + 353 18711This leaflet was last revised in { </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -607,7 +610,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -616,7 +621,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -631,7 +637,7 @@ Usage: #inline
 3. Sådan skal du tage Ritonavir Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -644,7 +650,7 @@ til at kontrollere hiv-infektion. Ritonavir anvendes i kombination med andre læ
 (antiretrovirale lægemidler) til at kontrollere hiv-infektion. Din læge vil drøfte med dig, hvilken 
 kombination af lægemidler, der er bedst for dig. </p>
 <p>Ritonavir Mylan bruges til børn på 2 år og derover, unge og voksne, som er inficeret med hiv, den 
-virus som forårsager AIDS. </p>         </div>"""   
+virus som forårsager AIDS. </p> </div>"""   
           
 
              
@@ -814,7 +820,7 @@ Sildenafil eller tadalafil mod rejsningsbesvær (manglende evne til at få rejsn
 Det kan være nødvendigt at nedsætte dosis og/eller hyppigheden af brugen af disse lægemidler 
 for at undgå lavt blodtryk og forlænget erektion. Du må ikke tage Ritonavir Mylan , hvis du 
 tager sildenafil mod forhøjet tryk i lungernes blodkar (pulmonal arteriel hypertension) (se også 
-punkt </p>         </div>"""   
+punkt </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ritonavir"
@@ -937,7 +943,7 @@ motorcykel eller betjene maskiner.  </p>
 <p>Denne medicin indeholder 87,75 mg natrium i hver tablet. Dette svarer til 4,4 % af det anbefalede 
 maksimale daglige indtag af natrium for en voksen. Tal med lægen eller apotekspersonalet, hvis du har 
 brug for fem eller flere tabletter dagligt i en længere periode, især hvis du har fået at vide, at du skal 
-følge en saltfattig (natriumfattig) diæt. </p>         </div>"""         
+følge en saltfattig (natriumfattig) diæt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -983,7 +989,7 @@ erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Ritonavir Mylan  </p>
 <p>Selv om du føler dig bedre tilpas, må du ikke holde op med at tage Ritonavir Mylan uden først at have 
 talt med din læge. Ved at tage Ritonavir Mylan som det er ordineret af lægen, har du størst chance for 
-at forsinke udviklingen af resistens mod medicinen. </p>         </div>"""      
+at forsinke udviklingen af resistens mod medicinen. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ritonavir"
@@ -1187,7 +1193,7 @@ syndrom, toksisk epidermal nekrolyse) </p>
 <p>Fortæl det til din læge, hvis du får kvalme, kaster op eller får ondt i maven, da dette kan være tegn på 
 betændelse i bugspytkirtlen. Du skal også fortælle det til din læge, hvis du får stivhed, ømhed og 
 smerter i led (især hofte, knæ og skulder) samt bevægelsesbesvær, da dette kan være tegn på 
-knoglenekrose. Se også punkt </p>         </div>"""      
+knoglenekrose. Se også punkt </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1218,7 +1224,7 @@ bivirkning bliver alvorlig, eller du får bivirkninger, som ikke er nævnt her. 
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
 
 
 

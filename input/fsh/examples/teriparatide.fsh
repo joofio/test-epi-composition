@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Teriparatide SUN </li>
 <li>Content of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 and to reduce the risk of fractures by stimulating bone formation. </p>
 <p>Teriparatide SUN is used to treat osteoporosis in adults. Osteoporosis is a disease that causes your 
 bones to become thin and fragile. This disease is especially common in women after the menopause, 
-but it can also occur in men. Osteoporosis is also common in patients receiving corticosteroids. </p>         </div>"""   
+but it can also occur in men. Osteoporosis is also common in patients receiving corticosteroids. </p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ Ask your doctor or pharmacist for advice before taking any medicine. </p>
 Some patients may feel dizzy after injecting Teriparatide SUN. If you feel dizzy you should not drive 
 or use machines until you feel better. </p>
 <p>Teriparatide SUN contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take teriparatide"
@@ -165,7 +168,7 @@ the same day. Do not try to make up for a missed dose. </p>
 <p>If you stop taking Teriparatide SUN 
 If you are considering stopping Teriparatide SUN treatment, please discuss this with your doctor. Your 
 doctor will advise you and decide how long you should be treated with Teriparatide SUN. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -227,7 +230,7 @@ or pain which lead to hospitalisation
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store teriparatide"
@@ -246,7 +249,7 @@ refrigerator to prevent freezing. Do not use Teriparatide SUN if it is, or has b
 <p>Teriparatide SUN contains a clear and colourless solution. Do not use Teriparatide SUN if solid 
 particles appear or if the solution is cloudy or coloured. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -515,7 +518,7 @@ has not expired. </p>
 <p>During injection, you may hear one or more clicks   this is a normal pre-filled pen 
 operation. </p>
 <p>The Teriparatide SUN is not recommended for use by the blind or visually impaired 
-persons without the assistance of a person trained in the proper use of the pre-filled pen. </p>         </div>"""      
+persons without the assistance of a person trained in the proper use of the pre-filled pen. </p> </div>"""      
 
 
 
@@ -554,7 +557,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -563,7 +568,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -578,7 +584,7 @@ Usage: #inline
 3. Sådan skal du bruge Teriparatide SUN 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -591,7 +597,7 @@ mindske risikoen for knoglebrud ved at fremme knogledannelse. </p>
 <p>Teriparatide SUN anvendes til behandling af knogleskørhed hos voksne. Knogleskørhed er en 
 sygdom, der gør dine knogler tynde og skrøbelige. Sygdommen er især almindelig hos kvinder efter 
 overgangsalderen, men den kan også forekomme hos mænd. Knogleskørhed er også almindeligt 
-forekommende hos patienter, der får binyrebarkhormoner. </p>         </div>"""   
+forekommende hos patienter, der får binyrebarkhormoner. </p> </div>"""   
           
 
              
@@ -642,7 +648,7 @@ Nogle patienter kan føle sig svimle efter en indsprøjtning med Teriparatide SU
 svimmel, må du ikke køre bil eller betjene værktøj eller maskiner, før du har det bedre. </p>
 <p>Teriparatide SUN indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take teriparatide"
@@ -681,7 +687,7 @@ at erstatte den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Teriparatide SUN 
 Hvis du overvejer at holde op med at bruge Teriparatide SUN, skal du tale med din læge om det først. 
 Din læge kan råde dig og beslutte, hvor længe du skal behandles med Teriparatide SUN. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -743,7 +749,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store teriparatide"
@@ -763,7 +769,7 @@ nedfrosset. </p>
 <p>Teriparatide SUN indeholder en klar og farveløs opløsning. Teriparatide SUN må ikke anvendes, hvis 
 opløsningen er uklar, farvet eller indeholder partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1049,7 +1055,7 @@ overskredet udløbsdatoen.
 Under indsprøjtning kan du muligvis høre et eller flere klik - dette er normalt for brug af pennen. 
  
 Teriparatide SUN frarådes til brug af blinde eller synshæmmede uden hjælp af en person, der er 
-instrueret i rigtig brug af pennen. </p>         </div>"""      
+instrueret i rigtig brug af pennen. </p> </div>"""      
 
 
 

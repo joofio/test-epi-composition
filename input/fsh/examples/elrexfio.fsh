@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ELREXFIO </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ specific targets in your body. ELREXFIO targets B-cell maturation antigen (BCMA)
 on multiple myeloma cancer cells, and cluster of differentiation 3 (CD3), which is found on T 
 lymphocytes, a particular kind of white blood cell in your immune system. This medicine works by 
 attaching to these targets and, by doing so, bringing the cancer cells and T cells together. This helps 
-your immune system destroy the multiple myeloma cancer cells. </p>         </div>"""   
+your immune system destroy the multiple myeloma cancer cells. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ or operate machines until at least 48 hours after each of your 2 step-up doses, 
 improve, or as instructed by your healthcare professional. </p>
 <p>ELREXFIO contains sodium 
 ELREXFIO contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free.  </p>         </div>"""   
+ sodium-free.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elrexfio"
@@ -190,7 +193,7 @@ This medicine will be given by your doctor or nurse. In the unlikely event that 
 <p>If you miss your appointment to have ELREXFIO 
 It is very important to go to all your appointments to make sure your treatment works. If you miss an 
 appointment, make another one as soon as possible. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -248,7 +251,7 @@ sensation (peripheral neuropathy)
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elrexfio"
@@ -262,7 +265,7 @@ medicine. </p>         </div>"""
 <p>Store in a refrigerator (2  C to 8  C). Do not freeze. </p>
 <p>Store in the original carton in order to protect from light. </p>
 <p>The prepared syringe may be stored for 24 hours at up to 30  C. </p>
-<p>Do not use this medicine if you notice discolouration or other visible signs of deterioration. </p>         </div>"""      
+<p>Do not use this medicine if you notice discolouration or other visible signs of deterioration. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -355,7 +358,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -394,7 +397,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -403,7 +408,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -418,7 +424,7 @@ Usage: #inline
 3. Sådan får du ELREXFIO
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -437,7 +443,7 @@ specifikke mål i kroppen. ELREXFIO retter sig mod B-cellemodningsantigen (BCMA)
 myelomatose-kræftceller, og differentieringsklynge 3 (CD3), der findes på T-lymfocytter, en særlig 
 type af hvide blodlegemer i immunsystemet. Dette lægemiddel virker ved at binde sig til disse mål og 
 dermed føre kræftcellerne og T-cellerne sammen. Dette hjælper immunsystemet med at ødelægge 
-myelomatose-kræftcellerne.</p>         </div>"""   
+myelomatose-kræftcellerne.</p> </div>"""   
           
 
              
@@ -512,7 +518,7 @@ bruge værktøj eller betjene maskiner før mindst 48 timer efter hver af de 2 o
 dine symptomer er aftaget, eller som anvist af sundhedspersonalet.
 ELREXFIO indeholder natrium
 ELREXFIO indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elrexfio"
@@ -561,7 +567,7 @@ meget (en overdosis), vil din læge kontrollere, om du får bivirkninger.
 Hvis du glemmer en aftale, hvor du skulle have ELREXFIO
 Det er meget vigtigt, at du kommer til alle dine aftaler for at sikre, at behandlingen virker. Hvis du 
 udebliver fra en aftale, skal du aftale en ny tid hurtigst muligt.
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -651,7 +657,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elrexfio"
@@ -665,7 +671,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 Opbevares i den originale karton for at beskytte mod lys.
 Den klargjorte sprøjte kan opbevares i 24 timer ved op til 30 °C.
-Brug ikke lægemidlet, hvis du bemærker misfarvning eller andre synlige tegn på nedbrydning.</p>         </div>"""      
+Brug ikke lægemidlet, hvis du bemærker misfarvning eller andre synlige tegn på nedbrydning.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -841,7 +847,7 @@ Konklusioner fremlagt af Det Europæiske Lægemiddelagentur vedrørende:
 Betinget markedsføringstilladelse 
 Efter at have vurderet ansøgningen er CHMP af den opfattelse, at risk/benefit-forholdet er positivt for 
 anbefaling af udstedelse af en betinget markedsføringstilladelse. Dette er beskrevet nærmere i den 
-europæiske offentlige vurderingsrapport.</p>         </div>"""      
+europæiske offentlige vurderingsrapport.</p> </div>"""      
 
 
 
@@ -880,7 +886,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -889,7 +897,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -904,7 +913,7 @@ Usage: #inline
 3. Como é administrado ELREXFIO
 4. Efeitos indesejáveis possíveis
 5. Como conservar ELREXFIO
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -924,7 +933,7 @@ B (BCMA), que se encontra em células cancerígenas de mieloma múltiplo, e o cl
 diferenciação 3 (CD3), que se encontra nos linfócitos T, um tipo particular de glóbulos brancos do seu 
 sistema imunitário. Este medicamento atua ao ligar-se a estes alvos e, ao fazê-lo, junta as células
 cancerosas e os linfócitos T. Isto ajuda o seu sistema imunitário a destruir as células cancerígenas de 
-mieloma múltiplo.</p>         </div>"""   
+mieloma múltiplo.</p> </div>"""   
           
 
              
@@ -1002,7 +1011,7 @@ Não conduza, utilize ferramentas ou opere máquinas até, pelo menos, 48 horas 
 seu profissional de saúde.
 ELREXFIO contém sódio
 ELREXFIO contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente "isento 
-de sódio".</p>         </div>"""   
+de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar elrexfio"
@@ -1056,7 +1065,7 @@ quanto a efeitos indesejáveis.
 Caso falte à sua marcação para administração de ELREXFIO 
 É muito importante que compareça a todas as marcações para garantir que o seu tratamento funciona. 
 Se faltar a uma marcação, remarque o mais rapidamente possível.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1154,7 +1163,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar elrexfio"
@@ -1168,7 +1177,7 @@ frasco para injetáveis após “EXP". O prazo de validade corresponde ao últim
 Conservar no frigorífico (2°C a 8°C). Não congelar.
 Conservar na embalagem de origem para proteger da luz.
 A seringa preparada pode ser conservada durante 24 horas até 30°C.
-Não utilize este medicamento se verificar descoloração ou outros sinais visíveis de deterioração.</p>         </div>"""      
+Não utilize este medicamento se verificar descoloração ou outros sinais visíveis de deterioração.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1301,7 +1310,7 @@ significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

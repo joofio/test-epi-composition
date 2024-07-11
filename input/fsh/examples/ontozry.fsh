@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ontozry  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ have not been adequately controlled despite a history of treatment with at least
 products, to treat a type of epilepsy that has focal-onset seizures with or without secondary 
 generalisation. Focal-onset seizures are those caused by abnormal brain activity starting in a part of the 
 brain on one side, and secondary generalisation means that that the abnormal activity is spreading to 
-both sides of the brain. The medicine can be used only in adults.  </p>         </div>"""   
+both sides of the brain. The medicine can be used only in adults.  </p> </div>"""   
           
 
              
@@ -152,7 +155,7 @@ know how the medicine affects you. </li>
 </ul>
 <p>Ontozry contains lactose </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, speak with your 
-doctor before taking this medicine. </p>         </div>"""   
+doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ontozry"
@@ -182,7 +185,7 @@ regular time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Ontozry </p>
 <p>Do not reduce the dose or stop taking Ontozry without checking with your doctor. Your doctor will 
 explain how to stop taking Ontozry by reducing the dose gradually.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -231,7 +234,7 @@ balance (ataxia, gait disturbance, abnormal coordination) </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ontozry"
@@ -243,7 +246,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -314,7 +317,7 @@ Grounds for the variation to the terms of the marketing authorisation(s)
 On the basis of the scientific conclusions for cenobamate the CHMP is of the opinion that the 
 benefit-risk balance of the medicinal product(s) containing cenobamate is unchanged subject to the 
 proposed changes to the product information 
-The CHMP recommends that the terms of the marketing authorisation(s) should be varied. </p>         </div>"""      
+The CHMP recommends that the terms of the marketing authorisation(s) should be varied. </p> </div>"""      
 
 
 
@@ -353,7 +356,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -362,7 +367,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -379,7 +385,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -395,7 +401,7 @@ epilepsi, som ikke er blevet tilstrækkeligt kontrolleret, på trods af at de er
 2 antiepileptiske produkter, til behandling af en type epilepsi, der har fokale anfald med eller uden 
 sekundær generalisering. Fokale anfald er anfald, der er forårsaget af unormal hjerneaktivitet, der 
 starter i en del af hjernens ene side, og sekundær generalisering betyder, at den unormale aktivitet 
-spreder sig til begge sider af hjernen. Lægemidlet kan kun bruges til voksne.  </p>         </div>"""   
+spreder sig til begge sider af hjernen. Lægemidlet kan kun bruges til voksne.  </p> </div>"""   
           
 
              
@@ -471,7 +477,7 @@ langsommere, og før du ved, hvordan lægemidlet påvirker dig. </li>
 </ul>
 <p>Ontozry indeholder laktose </p>
 <p>Tal med lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ontozry"
@@ -501,7 +507,7 @@ glemte dosis. </p>
 <p>Hvis du holder op med at tage Ontozry </p>
 <p>Du må ikke reducere dosen eller holde op med at tage Ontozry uden at rådføre dig med lægen. Lægen 
 vil forklare, hvordan du stopper med at tage Ontozry ved gradvist at nedsætte dosis.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -550,7 +556,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ontozry"
@@ -562,7 +568,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -637,7 +643,7 @@ konklusioner og begrundelser for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for cenobamat er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder cenobamat, forbliver uændret 
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -676,7 +682,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -685,7 +693,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -702,7 +711,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Ontozry  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -718,7 +727,7 @@ epilepsia que não está controlada de forma adequada, apesar de um historial de
 menos dois medicamentos antiepilépticos. Convulsões de início focal são aquelas causadas por 
 atividade cerebral anómala que começa numa parte de um dos lados do cérebro, e generalização 
 secundária significa que a atividade anómala se está a espalhar para ambos os lados do cérebro. O 
-medicamento apenas pode ser utilizado em adultos.  </p>         </div>"""   
+medicamento apenas pode ser utilizado em adultos.  </p> </div>"""   
           
 
              
@@ -791,7 +800,7 @@ estiverem reduzidas e até saber como o medicamento o afeta a si. </li>
 </ul>
 <p>Ontozry contém lactose </p>
 <p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, consulte o seu médico antes 
-de tomar este medicamento. </p>         </div>"""   
+de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ontozry"
@@ -822,7 +831,7 @@ horário habitual. Não tome uma dose a dobrar para compensar uma dose que se es
 <p>Não reduza a dose ou pare de tomar Ontozry sem confirmar com o seu médico. O seu médico irá 
 explicar-lhe como parar de tomar Ontozry reduzindo gradualmente a dose a tomar.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -865,7 +874,7 @@ equilíbrio (ataxia, perturbações da marcha, coordenação anómala)
 Se tiver quaisquer efeitos indesejáveis, neste folheto, fale com o seu médico, farmacêutico ou 
 enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional 
 de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a 
-fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ontozry"
@@ -878,7 +887,7 @@ VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -936,7 +945,7 @@ Alemanha </p>
 Via Vecchia del Pinocchio, 22 60Ancona (AN), Itália </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

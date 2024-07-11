@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Bydureon</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ medicine as an additional medicine to help control your blood sugar. Continue to
 exercise plan.
 You have diabetes because your body does not make enough insulin to control the level of sugar in 
 your blood or your body is not able to use the insulin properly. This medicine helps your body to 
-increase the production of insulin when your blood sugar is high. </p>         </div>"""   
+increase the production of insulin when your blood sugar is high. </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ occur. Hypoglycaemia may reduce your ability to concentrate. Please keep this po
 mind in all situations where you might put yourself and others at risk (e.g. driving a car or using 
 machines).
 Important information about some of the ingredients of Bydureon
-This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free .</p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bydureon"
@@ -204,7 +207,7 @@ If you stop using Bydureon
 If you feel you should stop using this medicine, please consult your doctor first. If you stop using this 
 medicine this can affect your blood sugar levels. 
 If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or diabetes 
-nurse.</p>         </div>"""         
+nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -285,7 +288,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or diabetes nurse. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects, you can help provide more 
-information on the safety of this medicine.</p>         </div>"""      
+information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bydureon"
@@ -300,7 +303,7 @@ The kit may be kept for up to 4 weeks below 30  C prior to use.
 Store in the original package in order to protect from light.
 Throw away any Bydureon kit that has been frozen.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -397,7 +400,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -436,7 +439,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -445,7 +450,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -460,7 +466,7 @@ Usage: #inline
 3. Sådan skal du bruge Bydureon
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -478,7 +484,7 @@ dette lægemiddel som et ekstra lægemiddel til kontrol af dit blodsukker. Du sk
 din diæt og motionsplan.
 Du har diabetes, fordi din krop ikke producerer tilstrækkelig insulin til at kontrollere niveauet af 
 sukker i blodet, eller fordi din krop ikke kan bruge insulinet ordentligt. Dette lægemiddel hjælper 
-kroppen med at lave mere insulin, når dit blodsukker bliver for højt.</p>         </div>"""   
+kroppen med at lave mere insulin, når dit blodsukker bliver for højt.</p> </div>"""   
           
 
              
@@ -557,7 +563,7 @@ eller brug af maskiner).
 106
 Bydureon indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det 
-væsentlige natriumfri.</p>         </div>"""   
+væsentlige natriumfri.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bydureon"
@@ -608,7 +614,7 @@ lægemiddel. Du skal blot tage næste dosis ugen efter som planlagt.
 Hvis du holder op med at bruge Bydureon
 Spørg først din læge til råds, hvis du mener, at du bør holde op med at bruge dette lægemiddel. Det 
 kan påvirke dine blodsukkerniveauer, hvis du holder op med at bruge dette lægemiddel.
-Spørg lægen, apotekspersonalet eller diabetessygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller diabetessygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -699,7 +705,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bydureon"
@@ -715,7 +721,7 @@ Sættet kan opbevares i op til 4 uger ved temperaturer under 30 ºC før brug.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Kasser alle Bydureon-sæt, som har været nedfrosset.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -863,7 +869,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller diabetessygeplejersken, hvis du får bivirkninger, 
-herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 

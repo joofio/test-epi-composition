@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Lokelma</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Lokelma is used to treat hyperkalaemia in adults. Hyperkalaemia means that there
 potassium in the blood.
 Lokelma lowers the high levels of potassium in your body and helps to keep it at a normal level. As 
 Lokelma passes through your stomach and gut it attaches to potassium and the two are carried together 
-out of the body in your stools, lowering the amount of potassium in the body.</p>         </div>"""   
+out of the body in your stools, lowering the amount of potassium in the body.</p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ This medicine contains approximately 400 mg sodium (main component of cooking/ta
 5 g dose. This is equivalent to 20% of the recommended maximum daily dietary intake of sodium for
 an adult.
 Talk to your pharmacist or doctor if you need Lokelma 5 g or more daily for a prolonged period, 
-especially if you have been advised to follow a low salt (sodium) diet.</p>         </div>"""   
+especially if you have been advised to follow a low salt (sodium) diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lokelma"
@@ -180,7 +183,7 @@ If you forget to take Lokelma </p>
 If you stop taking Lokelma
 Do not reduce the dose of this medicine or stop taking it without talking to the doctor who prescribed 
 it. This is because you may get high potassium levels in your blood again.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lokelma"
@@ -213,7 +216,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -309,7 +312,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is also available on the European Medicines Agency web site: 
-http://www.ema.europa.eu</p>         </div>"""      
+http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -348,7 +351,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -357,7 +362,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -372,7 +378,7 @@ Usage: #inline
 3. Sådan skal du tage Lokelma
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -385,7 +391,7 @@ Lokelma anvendes til behandling af hyperkaliæmi hos voksne. Hyperkaliæmi betyd
 højt indhold af kalium.
 Lokelma nedsætter det høje indhold af kalium i kroppen og hjælper med at opretholde et normalt 
 niveau. Når Lokelma passerer gennem maven og tarmene, forbinder det sig med kalium, og de to
-stoffer forlader kroppen sammen med afføringen. Hermed nedsættes indholdet af kalium i kroppen.</p>         </div>"""   
+stoffer forlader kroppen sammen med afføringen. Hermed nedsættes indholdet af kalium i kroppen.</p> </div>"""   
           
 
              
@@ -458,7 +464,7 @@ Dette lægemiddel indeholder ca. 400 mg natrium (hovedkomponent af madlavnings-/
 dosis på 5 g. Dette svarer til 20 % af den anbefalede maksimale daglige indtagelse af natrium for en 
 voksen.
 Tal med apotekspersonalet eller lægen, hvis du i længere tid dagligt har brug for Lokelma 5 g eller 
-derover, særligt hvis du er blevet bedt om at følge en saltfattig (natriumfattig) diæt.</p>         </div>"""   
+derover, særligt hvis du er blevet bedt om at følge en saltfattig (natriumfattig) diæt.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lokelma"
@@ -521,7 +527,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Lokelma
 Du må ikke nedsætte dosis eller stoppe med at tage lægemidlet uden først at have talt med den læge, 
 der har udskrevet det. Dette skyldes, at du kan få et højt indhold af kalium i blodet igen.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -547,7 +553,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lokelma"
@@ -559,7 +565,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og brevet e
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -687,7 +693,7 @@ Tel: +44 1582 836 836
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -726,7 +732,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -735,7 +743,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -750,7 +759,7 @@ Usage: #inline
 3. Como tomar Lokelma
 4. Efeitos indesejáveis possíveis
 5. Como conservar Lokelma
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -764,7 +773,7 @@ elevado de potássio no sangue.
 Lokelma baixa os níveis elevados de potássio no seu organismo e ajuda a mantê-los num nível normal.
 À medida que passa pelo seu estômago e intestino Lokelma liga-se ao potássio e os dois em conjunto 
 são eliminados pelo seu organismo através das suas fezes, baixando a quantidade de potássio no 
-organismo.</p>         </div>"""   
+organismo.</p> </div>"""   
           
 
              
@@ -843,7 +852,7 @@ cozinha/sal de mesa) em cada 5 g de dose. Isto é equivalente a 20% da ingestão
 sódio recomendada na dieta para um adulto.
 Fale com o seu farmacêutico ou médico se precisar de tomar Lokelma 5 g, ou mais, diariamente por 
 um período prolongado, especialmente se foi aconselhado a seguir uma dieta com pouco sal (sódio).
-29</p>         </div>"""   
+29</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lokelma"
@@ -910,7 +919,7 @@ Não reduza a dose deste medicamento nem pare de tomá-lo sem falar com o médic
 Isto porque pode voltar a ter níveis elevados de potássio no seu sangue.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
 ou enfermeiro.
-30</p>         </div>"""         
+30</p> </div>"""         
 
         
 * section[=].section[+]
@@ -936,7 +945,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lokelma"
@@ -949,7 +958,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
 Este medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1077,7 +1086,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

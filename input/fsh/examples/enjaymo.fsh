@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Enjaymo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ system bind to red blood cells. This causes breakdown of the red blood cells (ha
 through activation of classical complement pathway (part of the immune defense system). Enjaymo 
 blocks the activation of this part of the immune defence system. <br />
 Enjaymo is used to treat haemolytic anaemia in adults who have CAD. This reduces anaemia and 
-lessen fatigue.  </p>         </div>"""   
+lessen fatigue.  </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ should breast feed or if you will be given Enjaymo.  </p>
 <p>Enjaymo contains sodium  </p>
 <p>This medicine contains 3.5 mg per mL or 77 mg sodium (main component of cooking/table salt) in 
 each vial. This is equivalent to 3.85% of the recommended maximum daily dietary intake of sodium 
-for an adult. </p>         </div>"""   
+for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enjaymo"
@@ -165,7 +168,7 @@ The effects of Enjaymo will be reduced after end of the treatment. If you stop r
 your doctor should check for return of signs and symptoms of CAD. The symptoms are caused by 
 breakdown of your red blood cells and may include tiredness, shortness of breath, rapid heart rate or 
 dark urine.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -221,7 +224,7 @@ Tell your doctor or nurse if you get any of the following other side effects:  <
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.  </p>         </div>"""      
+medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enjaymo"
@@ -235,7 +238,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in the original carton in order to protect from light. </p>
 <p>Enjaymo should not be thrown away via wastewater or household waste. Your healthcare 
 professional is responsible for disposing of any unused product correctly. This measure will help 
-protect the environment.  </p>         </div>"""      
+protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -326,7 +329,7 @@ Tel: +371 6 616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -365,7 +368,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -374,7 +379,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -391,7 +397,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -406,7 +412,7 @@ visse antistoffer i immunsystemet binder sig til de røde blodlegemer. Dette for
 af røde blodlegemer (hæmolytisk anæmi) ved aktivering af den klassiske komplementaktiveringsvej 
 (en del af immunforsvarssystemet). Enjaymo blokerer aktiveringen af denne del af immunforsvaret. </p>
 <p>Enjaymo anvendes til behandling af hæmolytisk anæmi hos voksne, som har kuldeagglutininsyndrom. 
-Det reducerer blodmangel (anæmi) og mindsker træthed. </p>         </div>"""   
+Det reducerer blodmangel (anæmi) og mindsker træthed. </p> </div>"""   
           
 
              
@@ -461,7 +467,7 @@ Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at køre 
 <p>Enjaymo indeholder natrium 
 Dette lægemiddel indeholder 3,5 mg pr. ml eller 77 mg natrium (hovedkomponent af madlavnings-
 /bordsalt) pr. hætteglas. Dette svarer til 3,85 % af den anbefalede maksimale daglige indtagelse af 
-natrium for en voksen. </p>         </div>"""   
+natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enjaymo"
@@ -508,7 +514,7 @@ Virkningen af Enjaymo vil aftage efter afslutningen af behandlingen. Hvis du hol
 Enjaymo, bør din læge overvåge dig nøje for at holde øje med om tegn eller symptomer, der tyder på 
 kuldeagglutininsyndrom, vender tilbage. Symptomerne er forårsaget af nedbrydning af dine røde 
 blodlegemer og kan omfatte træthed, åndenød, hurtig puls eller mørk urin. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -595,7 +601,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enjaymo"
@@ -608,7 +614,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses </p>
 <p>Opbevares i den originale karton for at beskytte mod lys. </p>
 <p>Enjaymo må ikke smides i afløbet, toilettet eller skraldespanden. Din sundhedsperson er ansvarlig for 
-korrekt bortskaffelse af medicinrester. Dette er af hensyn til miljøet. </p>         </div>"""      
+korrekt bortskaffelse af medicinrester. Dette er af hensyn til miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -839,7 +845,7 @@ hjemmeinfusionen og i mindst 1 time efter infusionen.  </p>
 <p>Hvis patienten oplever bivirkninger under hjemmeinfusionen, bør infusionsprocessen straks stoppes, 
 der bør opstartes passende medicinsk behandling og den behandlende læge bør underrettes. I sådanne 
 tilfælde bør den behandlende læge beslutte, om efterfølgende infusioner bør finde sted og i så fald, om 
-infusionerne bør administreres på et hospital eller under opsyn i ambulante omgivelser. </p>         </div>"""      
+infusionerne bør administreres på et hospital eller under opsyn i ambulante omgivelser. </p> </div>"""      
 
 
 
@@ -878,7 +884,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -887,7 +895,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -904,7 +913,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Enjaymo  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -918,7 +927,7 @@ sistema de defesa imunológica ligam-se aos glóbulos vermelhos. Isto causa a de
 vermelhos (anemia hemolítica) através da ativação da via clássica do complemento (parte do sistema de 
 defesa imunológica). Enjaymo bloqueia a ativação desta parte do sistema de defesa imunológica. <br />
 Enjaymo é usado para tratar anemia hemolítica em adultos que têm CAD. Isto reduz a anemia e diminui a 
-fadiga. </p>         </div>"""   
+fadiga. </p> </div>"""   
           
 
              
@@ -975,7 +984,7 @@ Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas
 Internal 
 Este medicamento contém 3,5 mg/ml ou 77 mg de sódio (principal componente do sal de cozinha/sal de 
 mesa) em cada frasco. Isto é equivalente a 3,85% da ingestão diária máxima de sódio recomendada na dieta 
-para um adulto. </p>         </div>"""   
+para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar enjaymo"
@@ -1011,7 +1020,7 @@ uma dose de Enjaymo mais elevada do que a prescrita, contacte o seu médico para
 médico deve monitorizá-lo atentamente para deteção de sinais e sintomas sugestivos de CAD. Os sintomas 
 podem incluir fadiga, falta de ar, frequência cardíaca rápida ou urina escura e são causados pela 
 degradaçãodos seus glóbulos vermelhos.  </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1107,7 +1116,7 @@ Comunicação de efeitos indesejáveis  </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar enjaymo"
@@ -1121,7 +1130,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar na embalagem de origem para proteger da luz. </p>
 <p>Enjaymo não deve ser deitado fora na canalização ou no lixo doméstico. O seu profissional de saúde é 
 responsável pela eliminação correta do medicamento não utilizado. Esta medida ajudará a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1243,7 +1252,7 @@ sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel.: +44 (0) 800 035 2 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store VPRIV </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ glucocerebrosidase. When this enzyme is missing or does not work properly, a sub
 glucocerebroside builds up inside cells in the body. The build-up of this material causes the signs and 
 symptoms found in Gaucher disease. </p>
 <p>VPRIV contains a substance called velaglucerase alfa which is designed to replace the missing or 
-defective enzyme, glucocerebrosidase, in patients with Gaucher disease. </p>         </div>"""   
+defective enzyme, glucocerebrosidase, in patients with Gaucher disease. </p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ breast-feeding to the baby and the benefit of VPRIV to the mother. </p>
 VPRIV has no or negligible influence on your ability to drive or use machines. </p>
 <p>VPRIV contains sodium 
 This medicine contains 12.15 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 0.6% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 0.6% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vpriv"
@@ -157,7 +160,7 @@ VPRIV is supplied in a vial as a packed powder which is mixed with sterile water
 in sodium chloride 9 mg/ml (0.9%) solution for infusion prior to intravenous infusion.  </p>
 <p>After preparation, your doctor or nurse will give the medicine to you through a drip into a vein (by 
 intravenous infusion) over a period of 60 minutes.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -195,7 +198,7 @@ bleeding/easy bruising </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vpriv"
@@ -212,7 +215,7 @@ Keep the vial in the outer carton in order to protect from light.  </p>
 Use immediately. Do not exceed 24 hours at 2  C to 8  C. </p>
 <p>Do not use if the solution is discoloured or if foreign particles are present.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throwaway medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throwaway medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -340,7 +343,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -379,7 +382,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -388,7 +393,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -405,7 +411,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -418,7 +424,7 @@ hedder glucocerebrosidase. Når dette enzym mangler eller ikke fungerer korrekt,
 hedder glucocerebrosid, inde i kroppens celler. Ophobningen af dette stof medfører de tegn og 
 symptomer, der ses ved Gauchers sygdom. </p>
 <p>VPRIV indeholder et stof, der hedder velaglucerase alfa, og det er designet til at erstatte det 
-manglende eller dårligt fungerende enzym, glucocerebrosidase, hos patienter med Gauchers sygdom. </p>         </div>"""   
+manglende eller dårligt fungerende enzym, glucocerebrosidase, hos patienter med Gauchers sygdom. </p> </div>"""   
           
 
              
@@ -470,7 +476,7 @@ VPRIV påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøret�
 <p>VPRIV indeholder natrium 
 Dette lægemiddel indeholder 12,15 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 0,6 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vpriv"
@@ -498,7 +504,7 @@ VPRIV leveres i et hætteglas som fast pulver, som skal blandes med sterilt vand
 fortyndes i natriumchlorid 9 mg/ml (0,9%) infusionsvæske, opløsning før infusion i en blodåre.  </p>
 <p>Efter forberedelsen giver lægen eller sygeplejersken dig dette lægemiddel gennem drop i en blodåre 
 (intravenøs infusion) over en periode på 60 minutter.  </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -538,7 +544,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vpriv"
@@ -555,7 +561,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys.  </p>
 Anvendes straks. Må ikke opbevares ved 2 C til 8 C i mere end 24 timer. </p>
 <p>Brug ikke opløsningen, hvis den er misfarvet, eller hvis der forekommer fremmedlegemer.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -740,7 +746,7 @@ må ikke overstige 24 timer ved 2 °C - 8 °C. </p>
 affald heraf skal destrueres i henhold til lokale retningslinjer. </p>
 <p>Sporbarhed 
 For at forbedre sporbarheden af biologiske lægemidler skal det administrerede produkts navn og 
-batchnummer tydeligt registreres. </p>         </div>"""      
+batchnummer tydeligt registreres. </p> </div>"""      
 
 
 
@@ -779,7 +785,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -788,7 +796,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -805,7 +814,7 @@ Usage: #inline
 <li>Efeitos secundários possíveis </li>
 <li>Como conservar VPRIV </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -820,7 +829,7 @@ enzima chamada glucocerebrosidase. Quando esta enzima está em falta ou não fun
 substância chamada glucocerebrósido acumula-se no interior das células do corpo. A acumulação 
 deste material provoca os sinais e os sintomas encontrados na doença de Gaucher. </p>
 <p>VPRIV contém uma substância chamada velaglucerase alfa que foi concebida para substituir a enzima 
-glucocerebrosidase deficiente ou em falta em doentes com a doença de Gaucher. </p>         </div>"""   
+glucocerebrosidase deficiente ou em falta em doentes com a doença de Gaucher. </p> </div>"""   
           
 
              
@@ -877,7 +886,7 @@ importância.  </p>
 <p>VPRIV contém sódio 
 Este medicamento contém 12,25 mg de sódio (componente principal de sal de cozinha) em cada frasco 
 para injetáveis. Isto é equivalente a 0,6% da ingestão diária máxima recomendada de sódio para um 
-adulto. </p>         </div>"""   
+adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vpriv"
@@ -908,7 +917,7 @@ estéril e, posteriormente, diluído numa solução de cloreto de sódio a 9 mg/
 antes da administração “gota a gota" intravenosa.  </p>
 <p>Após a preparação, o seu médico ou enfermeiro administra-lhe o medicamento através de gotejamento 
 numa veia (por administração “gota a gota" intravenosa) durante um período de 60 minutos.  </p>
-<p>Caso tenha mais dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso tenha mais dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -945,7 +954,7 @@ pode dar origem a uma ocorrência fácil/espontânea de perda de sangue/nódoas 
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vpriv"
@@ -964,7 +973,7 @@ Utilizar imediatamente. Não exceder 24 horas entre 2 C e 8 C. </p>
 estranhas.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1099,7 +1108,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

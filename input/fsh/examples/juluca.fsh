@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Juluca  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ whose HIV-1 infection is under control for at least 6 months. Juluca may replace
 medicines. </p>
 <p>Juluca keeps the amount of HIV virus in your body at a low level. This helps maintain the number of CD4 
 cells in your blood. CD4 cells are a type of white blood cells that are important in helping your body to fight 
-infection. </p>         </div>"""   
+infection. </p> </div>"""   
           
 
              
@@ -183,7 +186,7 @@ Juluca can make you dizzy, tired or drowsy and have other side effects that make
 <p>Don t drive or operate machinery unless you are sure you re not affected.  </p>
 <p>Juluca contains lactose 
 If you have been told by your doctor that you have intolerance to some sugars, speak with your doctor before 
-taking this medicine.  </p>         </div>"""   
+taking this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take juluca"
@@ -235,7 +238,7 @@ possible. The Juluca tablet must be taken with a meal. Then take the next dose a
 hours after taking Juluca you do not need to take another tablet until your next scheduled dose.  </p>
 <p>Don t stop taking Juluca without advice from your doctor<br />
 Take this medicinefor as long as your doctor recommends. Don t stop unless your doctor tells you to.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -353,7 +356,7 @@ will test for these changes.<br />
 Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store juluca"
@@ -367,7 +370,7 @@ date refers to the last day of that month. </p>
 the desiccant. </p>
 <p>This medicine does not require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -477,7 +480,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in.  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -516,7 +519,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -525,7 +530,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -542,7 +548,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -559,7 +565,7 @@ antiretrovirale lægemidler, og hvis hiv-1-infektion er under kontrol gennem min
 skal muligvis erstatte dine nuværende antiretrovirale lægemidler. </p>
 <p>Juluca holder mængden af hiv virus i kroppen på et lavt niveau. Dette hjælper din krop til at bevare 
 antallet af CD4-celler i dit blod. CD4-celler er en type hvide blodceller, der spiller en vigtig rolle, når 
-kroppen skal bekæmpe infektioner. </p>         </div>"""   
+kroppen skal bekæmpe infektioner. </p> </div>"""   
           
 
              
@@ -696,7 +702,7 @@ opmærksom.
 påvirket.  </p>
 <p>Juluca indeholder lactose 
 Tal med lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take juluca"
@@ -756,7 +762,7 @@ anden tablet før din næste planlagte dosis. </p>
 <p>Du må ikke stoppe med at tage Juluca, medmindre lægen foreskriver det. 
 Tag dette lægemiddel så længe, som lægen anbefaler. Du må ikke stoppe med at tage Juluca, 
 medmindre lægen beder dig om det.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1015,7 +1021,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store juluca"
@@ -1029,7 +1035,7 @@ er den sidste dag i den nævnte måned. </p>
 ikke tørremidlet. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1167,7 +1173,7 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

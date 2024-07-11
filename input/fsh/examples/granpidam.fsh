@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Granpidam </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 phosphodiesterase type 5 (PDE5) inhibitors. 
 Granpidam brings down blood pressure in the lungs by widening the blood vessels in the lungs. 
 Granpidam is used to treat adults and children and adolescents from 1 to 17 years old with high blood 
-pressure in the blood vessels in the lungs (pulmonary arterial hypertension). </p>         </div>"""   
+pressure in the blood vessels in the lungs (pulmonary arterial hypertension). </p> </div>"""   
           
 
              
@@ -175,7 +178,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicinal product. </p>
 <p>Granpidam contains sodium 
 This medicine contain less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take granpidam"
@@ -204,7 +207,7 @@ medicine at the usual times. Do not take a double dose to make up for a forgotte
 Suddenly stopping your treatment with Granpidam may lead to your symptoms getting worse. Do not 
 stop taking Granpidam unless your doctor tells you to. Your doctor may tell you to reduce the dose 
 over a few days before stopping completely. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -255,7 +258,7 @@ pneumonia and runny nose. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store granpidam"
@@ -267,7 +270,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -308,7 +311,7 @@ Spain </p>
 <p>Accord Healthcare Polska Sp.z o.o., 
 ul. Lutomierska 50,95-200 Pabianice, Poland </p>
 <p>This leaflet was last revised in 07/2Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -347,7 +350,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -356,7 +361,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -371,7 +377,7 @@ Usage: #inline
 3. Sådan skal du tage Granpidam 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -383,7 +389,7 @@ Usage: #inline
 type 5- (PDE5)-hæmmere. </p>
 <p>Granpidam nedsætter blodtrykket i lungerne ved at udvide blodkarrene i lungerne. </p>
 <p>Granpidam bruges til at behandle voksne, børn og unge fra 1-17 år med for højt blodtryk i blodkarrene 
-i lungerne (pulmonal arteriel hypertension). </p>         </div>"""   
+i lungerne (pulmonal arteriel hypertension). </p> </div>"""   
           
 
              
@@ -485,7 +491,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>Granpidam indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take granpidam"
@@ -515,7 +521,7 @@ den glemte dosis. </p>
 <p>Hvis du pludseligt stopper med at tage Granpidam, kan dine symptomer blive forværret. Stop ikke 
 med at tage Granpidam, medmindre det sker i samråd med lægen. Lægen vil bede dig om, at nedsætte 
 dosis over nogle få dage, førend du standser behandlingen fuldstændigt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -566,7 +572,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via nationale rapporteringssystem 
 anført i Appendiks V.Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store granpidam"
@@ -578,7 +584,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -623,7 +629,7 @@ Winthontlaan 200,<br />
 Holland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

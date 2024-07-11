@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Simulect </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ by stopping the immune cells that attack transplanted organs. </p>
 transplant operation. Simulect is given to stop your body from rejecting the new organ during the first 
 4 to 6 weeks after the transplant operation, when rejection is most likely. You will be given other 
 medicines to help protect your new kidney during this time, such as ciclosporin and corticosteroids 
-and after you leave hospital. </p>         </div>"""   
+and after you leave hospital. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ machines. </p>
 <p>Simulect contains sodium and potassium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
 free . </p>
-<p>This medicine contains potassium, less than 1 mmol (39 mg) per vial, i.e. essentially  potassium-free . </p>         </div>"""   
+<p>This medicine contains potassium, less than 1 mmol (39 mg) per vial, i.e. essentially  potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take simulect"
@@ -156,7 +159,7 @@ infusion or injection is 10 mg. </p>
 <p>If you are given too much Simulect 
 An overdose of Simulect is not likely to cause side effects straight away, but it may weaken your 
 immune system for longer. Your doctor will watch out for any effects on your immune system and 
-treat them if necessary. </p>         </div>"""         
+treat them if necessary. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -183,7 +186,7 @@ hair, runny or blocked nose, fever, high blood pressure, and various kinds of in
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store simulect"
@@ -193,7 +196,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 C - 8 C). </p>         </div>"""      
+<p>Store in a refrigerator (2 C - 8 C). </p> </div>"""      
         
         
 * section[=].section[+]
@@ -288,7 +291,7 @@ SIA Novartis Baltics
 Tel: +371 67 887 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -327,7 +330,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -336,7 +341,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -353,7 +359,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -370,7 +376,7 @@ hindre immunforsvarets celler, der angriber transplanterede organer. </p>
 transplantationen. Simulect gives for at undgå, at din krop afstøder det nye organ gennem de første 4-
 6 uger efter transplantationen. Det er på dette tidspunkt, at en afstødning er mest sandsynlig. Du vil 
 samtidig få anden medicin, som skal hjælpe til med at beskytte din nye nyre, såsom ciclosporin og 
-kortikosteroider, og efter du forlader hospitalet. </p>         </div>"""   
+kortikosteroider, og efter du forlader hospitalet. </p> </div>"""   
           
 
              
@@ -421,7 +427,7 @@ Der er intet, der tyder på, at Simulect påvirker din evne til at køre bil ell
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
 væsentlige natriumfrit. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. hætteglas, dvs. det er i det 
-væsentlige kaliumfrit. </p>         </div>"""   
+væsentlige kaliumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take simulect"
@@ -444,7 +450,7 @@ injektion 10 mg. </p>
 <p>Hvis du får for meget Simulect 
 En overdosering af Simulect giver sandsynligvis ingen øjeblikkelige bivirkninger, men det kan svække 
 dit immunsystem i en længere periode. Din læge vil holde øje med dit immunforsvar og behandle det 
-om nødvendigt. </p>         </div>"""         
+om nødvendigt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -472,7 +478,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store simulect"
@@ -482,7 +488,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten efter EXP. Udløbsdatoen 
 er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C - 8 °C). </p>         </div>"""      
+<p>Opbevares i køleskab (2 °C - 8 °C). </p> </div>"""      
         
         
 * section[=].section[+]
@@ -645,7 +651,7 @@ oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

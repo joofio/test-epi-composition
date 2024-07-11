@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ranexa </li>
 <li>Contents of the pack and other  information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ranexa is a medicine used in combination with other medicines to treat angina pectoris, which is a 
 chest pain or discomfort that you feel anywhere along the upper part of your body between your neck 
 and upper abdomen, often brought on by exercise or too much activity.  </p>
-<p>You must talk to a doctor if you do not feel better or if you feel worse. </p>         </div>"""   
+<p>You must talk to a doctor if you do not feel better or if you feel worse. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ agent- may cause allergic reactions. </p>
 your doctor that you have an intolerance to some sugars, contact your doctor before taking this 
 medicinal product. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per prolonged-release tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ranexa"
@@ -185,7 +188,7 @@ nearest accident and emergency department. Take along any tablets that are left,
 container and the carton, so that the hospital staff can easily tell what you have taken.   </p>
 <p>If you forget to take Ranexa 
 If you forget to take a dose, take it as soon as you remember unless it is nearly time (less than 6 hours) 
-to take your next dose. Do not take a double dose to make up for a forgotten dose. </p>         </div>"""         
+to take your next dose. Do not take a double dose to make up for a forgotten dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ Myoclonus </p>
 <p>If you get any any side effects talk to your doctor or pharmacist. This include any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.   </p>         </div>"""      
+this medicine.   </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ranexa"
@@ -265,7 +268,7 @@ this medicine.   </p>         </div>"""
 outside of the carton and bottle after EXP.   </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help  protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help  protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -377,7 +380,7 @@ Tel: +371 67103United Kingdom (Northern Ireland)
 A. Menarini Farmaceutica Internazionale S.R.L. 
 Tel: +44 (0)1628 856This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -416,7 +419,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -425,7 +430,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 3. Sådan skal du tage Ranexa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ranexa er en medicin, der bruges i kombination med anden medicin til behandling af angina pectoris, 
 som er brystsmerter eller ubehag et hvilket som helst sted i den øverste del af kroppen mellem halsen 
 og maven, og som ofte udløses af træning eller for megen aktivitet.  </p>
-<p>Kontakt lægen, hvis du får det værre, eller hvis du ikke får det bedre. </p>         </div>"""   
+<p>Kontakt lægen, hvis du får det værre, eller hvis du ikke får det bedre. </p> </div>"""   
           
 
              
@@ -539,7 +545,7 @@ overfølsomhedsreaktioner. </p>
 <p>Ranexa 750 mg depottabletter indeholder lactosemonohydrat. Kontakt din læge, før du tager 
 dette lægemiddel, hvis din læge har fortalt dig, at du ikke kan tåle visse sukkerarter. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. depottablet, dvs. den er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ranexa"
@@ -565,7 +571,7 @@ tabletter, tabletbeholderen og æsken, så personalet på hospitalet nemt kan se
 <p>Hvis du har glemt at tage Ranexa 
 Hvis du har glemt at tage en dosis, skal du tage den, så snart du kommer i tanke om det, medmindre 
 det er lige ved at være tid til den næste dosis (mindre end 6 timer). Du må ikke tage en dobbeltdosis 
-som erstatning for den glemte dosis. </p>         </div>"""         
+som erstatning for den glemte dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -638,7 +644,7 @@ Myoklonus </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du pårørende kan også indberette 
 bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ranexa"
@@ -650,7 +656,7 @@ af dette lægemiddel. </p>         </div>"""
 flasken efter EXP. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -769,7 +775,7 @@ S.R.L.
 Tel: +44 (0)1628 856 </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Du kan finde yderligere information om Ranexa på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 

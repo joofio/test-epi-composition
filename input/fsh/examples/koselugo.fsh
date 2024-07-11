@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Koselugo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ What Koselugo is used for
 Koselugo is used to treat children aged 3 years and above with plexiform neurofibromas that cannot be 
 completely removed by surgery.
 If you have any questions about how Koselugo works or why this medicine has been prescribed for 
-you, ask your doctor.</p>         </div>"""   
+you, ask your doctor.</p> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ Breast-feeding
 Do not breast-feed if you are taking Koselugo. It is not known if Koselugo passes into breast milk. 
 Driving and using machines
 Koselugo can cause side effects that affect your ability to drive or use machines. Do not drive or use 
-machines if you feel tired or if you have problems with your vision (such as blurred vision).</p>         </div>"""   
+machines if you feel tired or if you have problems with your vision (such as blurred vision).</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take koselugo"
@@ -211,7 +214,7 @@ the normal time.
 Do not take a double dose (two doses at the same time) to make up for a forgotten dose.
 If you stop taking Koselugo
 Do not stop taking Koselugo unless your doctor tells you.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store koselugo"
@@ -271,7 +274,7 @@ Do not store above 30  C.
 Store in the original bottle in order to protect from moisture and light.
 Keep the bottle tightly closed.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -383,7 +386,7 @@ This medicine has been given  conditional approval . This means that there is mo
 about this medicine. The European Medicines Agency will review new information on this medicine at 
 least every year and this leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -422,7 +425,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -431,7 +436,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -446,7 +452,7 @@ Usage: #inline
 3. Sådan skal du tage Koselugo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -464,7 +470,7 @@ Hvad Koselugo bruges til
 Koselugo bruges til at behandle børn på 3 år og derover med plexiform neurofibromer, som ikke kan 
 fjernes helt ved en operation.
 Hvis du har spørgsmål til, hvordan Koselugo virker, eller hvorfor denne medicin er blevet ordineret til 
-dig, skal du spørge lægen.</p>         </div>"""   
+dig, skal du spørge lægen.</p> </div>"""   
           
 
              
@@ -583,7 +589,7 @@ Du må ikke amme, mens du tager Koselugo. Det vides ikke, om Koselugo passerer o
 Trafik- og arbejdssikkerhed
 Koselugo kan give bivirkninger, der påvirker din evne til at køre bil eller betjene maskiner. Du må ikke 
 køre bil eller betjene maskiner, hvis du føler dig træt, eller hvis du har problemer med dit syn (for 
-eksempel sløret syn).</p>         </div>"""   
+eksempel sløret syn).</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take koselugo"
@@ -626,7 +632,7 @@ Du må ikke tage en dobbeltdosis (to doser på samme tid) som erstatning for den
 38
 Hvis du holder op med at tage Koselugo
 Du må ikke stoppe med at tage Koselugo, medmindre lægen beder dig om det.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -695,7 +701,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store koselugo"
@@ -709,7 +715,7 @@ Må ikke opbevares ved temperaturer over 30 °C.
 Opbevares i den originale flaske for at beskytte mod fugt og lys.
 Hold flasken tæt lukket. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -858,7 +864,7 @@ yderligere dokumentation for lægemidlet. Det Europæiske Lægemiddelagentur vil
 vurdere nye oplysninger om lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført.
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -897,7 +903,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -906,7 +914,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -921,7 +930,7 @@ Usage: #inline
 3. Como tomar Koselugo
 4. Efeitos indesejáveis possíveis
 5. Como conservar Koselugo
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -940,7 +949,7 @@ Para que é utilizado Koselugo
 Koselugo é utilizado para tratar crianças com idade igual ou superior a 3 anos com neurofibromas 
 plexiformes que não podem ser totalmente removidos através de cirurgia.
 Caso tenha dúvidas sobre a forma como Koselugo atua ou porque razão lhe foi prescrito este 
-medicamento, fale com o seu médico.</p>         </div>"""   
+medicamento, fale com o seu médico.</p> </div>"""   
           
 
              
@@ -1066,7 +1075,7 @@ Condução de veículos e utilização de máquinas
 Koselugo pode causar efeitos indesejáveis que afetam a sua capacidade para conduzir ou utilizar 
 máquinas. Não conduza nem utilize máquinas se se sentir cansado ou se tiver problemas de visão 
 (como visão turva).
-37</p>         </div>"""   
+37</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar koselugo"
@@ -1112,7 +1121,7 @@ de tomar.
 Se parar de tomar Koselugo
 Não pare de tomar Koselugo, a menos que tenha sido indicado pelo seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1185,7 +1194,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar koselugo"
@@ -1201,7 +1210,7 @@ Conservar na embalagem de origem para proteger da humidade e da luz.
 Manter o frasco bem fechado.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1353,7 +1362,7 @@ significa que se aguarda mais informação sobre este medicamento. A Agência Eu
 Medicamentos irá analisar, pelo menos uma vez por ano, nova informação sobre este medicamento e 
 este folheto será atualizado se necessário.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

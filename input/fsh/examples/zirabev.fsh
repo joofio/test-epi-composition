@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zirabev </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +108,7 @@ with a chemotherapy regimen containing a platinum agent, Zirabev will be adminis
 combination with paclitaxel, or topotecan, or pegylated liposomal doxorubicin. </p>
 <p>Zirabev is also used for the treatment of adult patients with persistent, recurrent or metastatic cervical 
 cancer. Zirabev will be administered in combination with paclitaxel and cisplatin or, alternatively, 
-paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>         </div>"""   
+paclitaxel and topotecan in patients who cannot receive platinum therapy. </p> </div>"""   
           
 
              
@@ -212,7 +215,7 @@ is equivalent to 0.15% of the recommended maximum daily dietary intake of sodium
 <p>This medicine contains 12.1 mg sodium (main component of cooking/table salt) in each 16 ml vial. 
 This is equivalent to 0.61% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>Depending on your body weight and your dose of Zirabev, you could receive multiple vials. This 
-should be taken into consideration if you are on a low salt diet. </p>         </div>"""   
+should be taken into consideration if you are on a low salt diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zirabev"
@@ -257,7 +260,7 @@ discuss this with your doctor. </p>
 <p>If you stop treatment with Zirabev 
 Stopping your treatment with Zirabev may stop the effect on tumour growth. Do not stop treatment 
 with Zirabev unless you have discussed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -396,7 +399,7 @@ When Zirabev is injected directly into the eye (unapproved use), the following s
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zirabev"
@@ -416,7 +419,7 @@ of up to 35 days at 2 C to 8 C after dilution and a period of up to 48 hours at 
 exceeding 30 C. </p>
 <p>Do not use Zirabev if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -509,7 +512,7 @@ Tel: +44 (0)1304 616Lietuva
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel: +370 5 251 4This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -548,7 +551,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -557,7 +562,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -572,7 +578,7 @@ Usage: #inline
 3. Sådan får du Zirabev
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -616,7 +622,7 @@ topotecan eller pegyleret liposomal doxorubicin.
 Zirabev bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
 livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
 metastaser). Zirabev bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og 
-topotecan til patienter, som ikke kan få platin.</p>         </div>"""   
+topotecan til patienter, som ikke kan få platin.</p> </div>"""   
           
 
              
@@ -751,7 +757,7 @@ Dette lægemiddel indeholder 3,0 mg natrium (hovedkomponent af madlavnings-/bord
 Dette svarer til 0,15% af den anbefalede maximale daglige indtagelse af natrium for en voksen.
 Dette lægemiddel indeholder 12,1 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. ml. Dette svarer til 0,61% af den anbefalede maximale daglige indtagelse af natrium for en voksen.
 Tal med din læge eller apotekspersonalet, hvis du afhængig af dosis og din legensvægt skal have 
-flere hætteglas, især hvis du er blevet rådet til at følge en diæt med lav salt (natrium) indhold.</p>         </div>"""   
+flere hætteglas, især hvis du er blevet rådet til at følge en diæt med lav salt (natrium) indhold.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zirabev"
@@ -811,7 +817,7 @@ om det.
 Hvis du holder op med at få Zirabev
 Hvis behandlingen med Zirabev stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
 behandlingen med Zirabev før, du har diskuteret det med din læge.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1034,7 +1040,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zirabev"
@@ -1054,7 +1060,7 @@ op til 48 timer ved temperaturer, der ikke overstiger 30ºC.
 Brug ikke Zirabev, hvis du opdager partikler eller misfarvning før indgift.
 Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
 smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
-74</p>         </div>"""      
+74</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1178,7 +1184,7 @@ Tel: +370 5 251 4000
 Denne indlægsseddel blev senest ændret 
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1217,7 +1223,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1226,7 +1234,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1241,7 +1250,7 @@ Usage: #inline
 3. Como utilizar Zirabev
 4. Efeitos indesejáveis possíveis
 5. Como conservar Zirabev
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1289,7 +1298,7 @@ em associação com paclitaxel, topotecano ou doxorrubicina lipossómica peguila
 Zirabev também é utilizado no tratamento de doentes adultas com cancro do colo do útero 
 persistente, recorrente ou metastizado. Zirabev será administrado em associação com paclitaxel e 
 cisplatina, ou, alternativamente, paclitaxel e topotecano em doentes que não podem receber 
-tratamento com platina.</p>         </div>"""   
+tratamento com platina.</p> </div>"""   
           
 
              
@@ -1438,7 +1447,7 @@ cada frasco para injetáveis de 16 ml. Isto é equivalente a 0,61% da ingestão 
 recomendada na dieta para um adulto.
 72
 Dependendo do seu peso corporal e da sua dose de Zirabev, poderá receber vários frascos. Isto deve 
-ser considerado se estiver numa dieta com baixo teor em sal.</p>         </div>"""   
+ser considerado se estiver numa dieta com baixo teor em sal.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zirabev"
@@ -1502,7 +1511,7 @@ Interromper o tratamento com Zirabev pode parar o seu efeito no crescimento do t
 tratamento com Zirabev exceto se o assunto tiver sido discutido com o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
 ou enfermeiro.
-73</p>         </div>"""         
+73</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1805,7 +1814,7 @@ Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informaçõ
 deste medicamento.
 76</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zirabev"
@@ -1827,7 +1836,7 @@ tiverem sido preparadas sob condições asséticas. Zirabev é estável por um p
 Não utilize Zirabev se observar qualquer partícula sólida ou descoloração antes da administração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1956,7 +1965,7 @@ Este folheto foi revisto pela última vez em
 Outras fontes de informação
 Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

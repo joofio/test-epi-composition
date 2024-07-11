@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Modigraf </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ transplanted organ.  </p>
 <p>You may also be given Modigraf for an ongoing rejection of your transplanted liver, kidney, heart or 
 other organ or if any previous treatment you were taking was unable to control this immune response 
 after your transplantation. </p>
-<p>Modigraf is used in adults and children. </p>         </div>"""   
+<p>Modigraf is used in adults and children. </p> </div>"""   
           
 
              
@@ -216,7 +219,7 @@ Modigraf contains lactose and sodium<br />
 Modigraf contains lactose (milk sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per sachet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take modigraf"
@@ -276,7 +279,7 @@ before.
 If you stop taking Modigraf 
 Stopping your treatment with Modigraf may increase the risk of rejection of your transplanted organ.<br />
 Do not stop your treatment unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -454,7 +457,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store modigraf"
@@ -467,7 +470,7 @@ expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions.  </p>
 <p>After preparation, the suspension should be taken immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -556,7 +559,7 @@ Tel: +371 67 619United Kingdom (Northern Ireland)
 Astellas Pharma Co., Limited 
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671This leaflet was last revised in:   </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu/. </p>         </div>"""      
+http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -595,7 +598,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -604,7 +609,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -619,7 +625,7 @@ Usage: #inline
 3. Sådan skal De tage Modigraf 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -634,7 +640,7 @@ det nye transplanterede organ.  </p>
 <p>De kan også få ordineret Modigraf ved en igangværende afstødning af det transplanterede organ (lever, 
 nyre, hjerte eller andet), eller hvis Deres tidligere behandling ikke kunne kontrollere immunreaktionen 
 efter transplantationen. </p>
-<p>Modigraf anvendes til voksne og børn. </p>         </div>"""   
+<p>Modigraf anvendes til voksne og børn. </p> </div>"""   
           
 
              
@@ -779,7 +785,7 @@ Modigraf indeholder lactose og natrium<br />
 Modigraf indeholder lactose (mælkesukker). Hvis Deres læge har fortalt Dem, at De ikke tåler visse 
 sukkerarter, skal De kontakte lægen, før De tager denne medicin. 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. brev, dvs. det er i det væsentlige 
-natrium-fri. </p>         </div>"""   
+natrium-fri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take modigraf"
@@ -837,7 +843,7 @@ Hvis De holder op med at tage Modigraf
 Afbrydelse af behandlingen med Modigraf kan øge risikoen for afstødning af det transplanterede 
 organ. 
 De må ikke stoppe med behandlingen, uden at have talt med Deres læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1007,7 +1013,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store modigraf"
@@ -1020,7 +1026,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Suspensionen bør indtages umiddelbart efter fremstillingen. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1141,7 +1147,7 @@ Astellas Pharma Co., Limited
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 </p>
 <p>Denne indlægsseddel blev senest ændret   </p>
 <p>De kan finde yderligere oplysninger om Modigraf på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -1180,7 +1186,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1189,7 +1197,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1204,7 +1213,7 @@ Usage: #inline
 3. Como tomar Modigraf 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Modigraf 
-6. Conteúdos da embalagem e outras informações </p>         </div>"""   
+6. Conteúdos da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1219,7 +1228,7 @@ novo órgão. O Modigraf é usado para controlar esta resposta imunológica habi
 <p>Também lhe pode ser administrado Modigraf quando estiver a ocorrer uma rejeição do fígado, rim, 
 coração ou outro órgão transplantado, ou quando em tratamentos anteriores não foi capaz de controlar a 
 sua resposta imunológica após o transplante. </p>
-<p>Modigraf é usado em adultos e crianças. </p>         </div>"""   
+<p>Modigraf é usado em adultos e crianças. </p> </div>"""   
           
 
              
@@ -1370,7 +1379,7 @@ problemas de visão após tomar Modigraf. Estes efeitos são mais frequentes se 
 O Modigraf contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem intolerância a 
 alguns açúcares, contacte o seu médico antes de tomar este medicamento. 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por saqueta, isto é, 
-essencialmente “isento de sódio". </p>         </div>"""   
+essencialmente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar modigraf"
@@ -1435,7 +1444,7 @@ Se parar de tomar Modigraf
 Parar o tratamento com Modigraf poderá aumentar o risco de rejeição do seu órgão transplantado. Não 
 pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1597,7 +1606,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar modigraf"
@@ -1611,7 +1620,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Após a preparação, a suspensão deve ser imediatamente consumida. </p>
 <p>Não deite fora quaisquer  medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1730,7 +1739,7 @@ United Kingdom (Northern Ireland)
 Astellas Pharma Co. Limited 
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 
 Este folheto foi revisto pela última vez em MM/YYYY.  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

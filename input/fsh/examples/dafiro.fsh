@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dafiro HCT </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ Hydrochlorothiazide increases urine output, which also lowers blood pressure.
 As a result of all three mechanisms, the blood vessels relax and blood pressure is lowered. </p>
 <p>Dafiro HCT is used to treat high blood pressure in adult patients whose blood pressure is already 
 controlled while taking amlodipine, valsartan and hydrochlorothiazide and who may benefit from 
-taking one tablet containing all three substances. </p>         </div>"""   
+taking one tablet containing all three substances. </p> </div>"""   
           
 
              
@@ -252,7 +255,7 @@ especially if your baby is a newborn, or was born prematurely. </p>
 <p>Ask your doctor or pharmacist for advice before taking any medicine. </p>
 <p>Driving and using machines 
 This medicine may make you feel dizzy, drowsy, nauseous or have a headache. If you experience 
-these symptoms, do not drive or use tools or machines. </p>         </div>"""   
+these symptoms, do not drive or use tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dafiro"
@@ -284,7 +287,7 @@ People who have high blood pressure often do not notice any signs of the problem
 It is very important that you take this medicine exactly as your doctor tells you to get the best results 
 and reduce the risk of side effects. Keep your appointments with the doctor even if you are feeling 
 well. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -468,7 +471,7 @@ fever (erythema multiforme)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dafiro"
@@ -482,7 +485,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not use any Dafiro HCT pack that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -623,7 +626,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -662,7 +665,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -671,7 +676,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -688,7 +694,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -712,7 +718,7 @@ Hydrochlorthiazid tilhører en gruppe stoffer, som kaldes "thiazid-diuretika". H
 Som et resultat af alle tre stoffers virkning, bliver blodårerne mere afslappede og blodtrykket sænkes. </p>
 <p>Dafiro HCT bruges til at behandle forhøjet blodtryk hos voksne patienter, hvis blodtryk allerede er 
 kontrolleret med amlodipin, valsartan og hydrochlorthiazid, og som kan drage fordel af at tage én 
-tablet, som indeholder alle tre stoffer. </p>         </div>"""   
+tablet, som indeholder alle tre stoffer. </p> </div>"""   
           
 
              
@@ -951,7 +957,7 @@ eller født for tidligt. </p>
 <p>Spørg din læge eller apotekspersonalet til råds, før du tager nogen former for lægemidler. </p>
 <p>Trafik- og arbejdssikkerhed 
 Denne medicin kan få dig til at føle svimmelhed, døsighed, kvalme eller få hovedpine. Hvis du 
-oplever disse symptomer, må du ikke køre bil eller betjene maskiner. </p>         </div>"""   
+oplever disse symptomer, må du ikke køre bil eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dafiro"
@@ -984,7 +990,7 @@ Personer med forhøjet blodtryk bemærker ofte ingen tegn på dette problem. Man
 Det er meget vigtigt, at du tager denne medicin nøjagtigt efter lægens anvisninger, hvis du vil opnå det 
 bedste resultat og mindske risikoen for bivirkninger. Overhold dine aftaler med lægen, også selvom du 
 føler dig rask. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1464,7 +1470,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dafiro"
@@ -1479,7 +1485,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke pakninger med Dafiro HCT, som er beskadiget eller viser tegn på at have været forsøgt 
 åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1645,7 +1651,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -1684,7 +1690,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1693,7 +1701,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1710,7 +1719,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Dafiro HCT </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1736,7 +1745,7 @@ Como consequência destes três mecanismos, os vasos sanguíneos relaxam e a pre
 uma redução. </p>
 <p>O Dafiro HCT é utilizado no tratamento da pressão arterial elevada em doentes adultos cuja pressão 
 arterial já está controlada tomando amlodipina, valsartan e hidroclorotiazida e que podem beneficiar 
-por tomar um comprimido contendo as três substâncias. </p>         </div>"""   
+por tomar um comprimido contendo as três substâncias. </p> </div>"""   
           
 
              
@@ -2015,7 +2024,7 @@ recém-nascido ou prematuro; nestes casos o seu médico poderá indicar outro tr
 <p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
 <p>Condução de veículos e utilização de máquinas 
 Este medicamento pode provocar-lhe tonturas, sonolência, náuseas ou dor de cabeça. Se tiver estes 
-sintomas, não conduza nem utilize ferramentas ou máquinas. </p>         </div>"""   
+sintomas, não conduza nem utilize ferramentas ou máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar dafiro"
@@ -2054,7 +2063,7 @@ podem sentir-se bem. É muito importante que tome este medicamento exatamente co
 lhe recomenda de modo a obter os melhores resultados e reduzir o risco de efeitos indesejáveis. 
 Consulte o seu médico mesmo que se esteja a sentir bem. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2536,7 +2545,7 @@ boca, descamação da pele, febre (eritema multiforme) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar dafiro"
@@ -2552,7 +2561,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 adulteração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2719,7 +2728,7 @@ Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
 Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
-Europeia de Medicamentos http://www.ema.europa.eu </p>         </div>"""      
+Europeia de Medicamentos http://www.ema.europa.eu </p> </div>"""      
 
 
 

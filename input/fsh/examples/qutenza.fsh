@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Qutenza</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ combination with other medicines for the treatment of pain.
 Qutenza is used to relieve pain in people who have nerve pain due to damaged nerves in the skin. 
 Damaged nerves in your skin may occur as a result of a variety of diseases such as shingles, HIV 
 infection, diabetes, certain medicines and other conditions. You may experience pain relief between 1 
-and 3 weeks after treatment.</p>         </div>"""   
+and 3 weeks after treatment.</p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ very short time. Therefore, Qutenza is unlikely to have any direct effects on yo
 or your ability to drive or use machinery.
 Cleansing gel for Qutenza contains butylhydroxyanisole
 The cleansing gel for Qutenza contains butylhydroxyanisole which may cause local skin reactions (e.g. 
-contact dermatitis), or irritation of the eyes and mucous membranes.</p>         </div>"""   
+contact dermatitis), or irritation of the eyes and mucous membranes.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take qutenza"
@@ -168,7 +171,7 @@ Do not use Qutenza patches at home.
 If Qutenza is used longer than it should
 Overdosing is unlikely to occur. However, if Qutenza is applied longer than it should you might 
 experience severe application site reactions like pain, redness and itching.
-If you have any further questions on the use of this product, ask your doctor or pharmacist</p>         </div>"""         
+If you have any further questions on the use of this product, ask your doctor or pharmacist</p> </div>"""         
 
         
 * section[=].section[+]
@@ -197,7 +200,7 @@ Not known: frequency cannot be estimated from the available data</p>
 <p>Accidental exposure (including eye pain, eye and throat irritation and cough).
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store qutenza"
@@ -213,7 +216,7 @@ After opening the sachet, Qutenza should be applied within 2 hours.
 Disposal of used and unused Qutenza patches.
 These items may sting your fingers if you touch them. Your doctor or nurse will put them in a 
 polyethylene bag before safely discarding them. Qutenza patches and treatment-related materials 
-should be disposed of properly.</p>         </div>"""      
+should be disposed of properly.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -256,7 +259,7 @@ Zieglerstra e 6
 Germany
 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -295,7 +298,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -304,7 +309,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -319,7 +325,7 @@ Usage: #inline
 3. Sådan skal du bruge Qutenza
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -333,7 +339,7 @@ med andre lægemidler til behandling af smerter.
 Qutenza anvendes til at lindre nervesmerter på grund af beskadigede nerver i huden. Beskadigede 
 nerver i din hud kan skyldes mange forskellige sygdomme såsom helvedesild, hiv-infektion, diabetes, 
 visse lægemidler og andre lidelser. Der kan gå op til 1-3 uger, før du oplever smertelindring af 
-Qutenza.</p>         </div>"""   
+Qutenza.</p> </div>"""   
           
 
              
@@ -381,7 +387,7 @@ blodbanen og kun i meget kort tid. Det er derfor usandsynligt, at Qutenza vil ha
 indvirkning på din koncentrationsevne eller din evne til at føre motorkøretøj eller betjene maskiner.
 Rensegelen til Qutenza indeholder butylhydroxyanisol
 Rensegelen til Qutenza indeholder butylhydroxyanisol, som kan give lokale hudreaktioner (f.eks. 
-kontakteksem) eller irritation af øjne og slimhinder.</p>         </div>"""   
+kontakteksem) eller irritation af øjne og slimhinder.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take qutenza"
@@ -429,7 +435,7 @@ Brug ikke Qutenza-plastrene hjemme.
 Hvis Qutenza anvendes længere end det burde 
 Overdosering er usandsynlig. Hvis der går længere tid, end der burde, før Qutenza fjernes, kan du 
 opleve alvorlige bivirkninger på applikationsstedet såsom smerte, rødme og kløe.
-Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -470,7 +476,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store qutenza"
@@ -487,7 +493,7 @@ Efter åbning af brevet skal Qutenza påsættes inden for 2 timer.
 Bortskaffelse af brugte og ubrugte Qutenza-plastre.
 Hvis du rører disse materialer med fingrene, kan du opleve en sviende fornemmelse. Lægen eller 
 sygeplejersken vil anbringe dem i en polyethylen-pose, inden de bortskaffes på sikker vis. Qutenza-
-plastre og behandlingsrelaterede materialer skal bortskaffes på passende vis.</p>         </div>"""      
+plastre og behandlingsrelaterede materialer skal bortskaffes på passende vis.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -536,7 +542,7 @@ Du kan finde yderligere oplysninger om Qutenza på Det Europæiske Lægemiddelag
 hjemmeside http://www.ema.europa.eu.
 Nedenstående oplysninger er til læger og sundhedspersonale:
 Et komplet produktresumé (SPC) følger med denne indlægsseddel.
-30</p>         </div>"""      
+30</p> </div>"""      
 
 
 

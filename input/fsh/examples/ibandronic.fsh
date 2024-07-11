@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ibandronic Acid Teva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ to your bones (called bone  metastases ). </p>
 <li>It also helps to prevent other bone problems that may need surgery or radiotherapy. </li>
 </ul>
 <p>Ibandronic Acid Teva works by reducing the amount of calcium that is lost from your bones. This 
-helps to stop your bones from getting weaker. </p>         </div>"""   
+helps to stop your bones from getting weaker. </p> </div>"""   
           
 
              
@@ -169,7 +172,7 @@ on your ability to drive and use machines. Talk to your doctor first if you want
 or tools. </p>
 <p>Ibandronic Acid Teva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ibandronic"
@@ -224,7 +227,7 @@ or once a week, ask your doctor or pharmacist for advice. </p>
 <p>If you stop taking Ibandronic Acid Teva 
 Keep taking Ibandronic Acid Teva for as long as your doctor tells you. This is because the medicine 
 will only work if it is taken all the time. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ having a serious, potentially life threatening allergic reaction.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ibandronic"
@@ -282,7 +285,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +391,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -427,7 +430,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -436,7 +441,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -453,7 +459,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -475,7 +481,7 @@ strålebehandling. </p>
 </li>
 </ul>
 <p>Ibandronsyre Teva virker ved at nedsætte den mængde calcium, som mistes fra knoglerne. Det 
-modvirker, at dine knogler bliver svagere. </p>         </div>"""   
+modvirker, at dine knogler bliver svagere. </p> </div>"""   
           
 
              
@@ -574,7 +580,7 @@ ubetydelig grad påvirker din evne til at føre motorkøretøj og betjene maskin
 hvis du vil føre motorkøretøj, betjene maskiner eller værktøj. </p>
 <p>Ibandronsyre Teva indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ibandronic"
@@ -633,7 +639,7 @@ anden dag eller én gang om ugen, spørg da din læge eller apotekspersonalet ti
 <p>Hvis du holder op med at tage Ibandronsyre Teva 
 Det er vigtigt, at du anvender Ibandronsyre Teva så længe, din læge har ordineret det. Ibandronsyre 
 Teva kan kun afhjælpe din tilstand så længe, du fortsætter med at anvende det </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -680,7 +686,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ibandronic"
@@ -692,7 +698,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -850,7 +856,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -889,7 +895,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -898,7 +906,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -915,7 +924,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Ácido Ibandrónico Teva </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -936,7 +945,7 @@ espalhou para os seus ossos (designadas “metástases" ósseas). </p>
 </li>
 </ul>
 <p>Ácido Ibandrónico Teva atua diminuindo a quantidade de cálcio que os seus ossos perdem. Isto ajuda 
-a evitar que os seus ossos fiquem mais fracos. </p>         </div>"""   
+a evitar que os seus ossos fiquem mais fracos. </p> </div>"""   
           
 
              
@@ -1030,7 +1039,7 @@ a capacidade de conduzir ou utilizar máquinas são nulos ou desprezíveis. Se q
 máquinas ou ferramentas, fale primeiro com o seu médico. </p>
 <p>Ácido Ibandrónico Teva contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido revestido por 
-película, ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+película, ou seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ibandronic"
@@ -1081,7 +1090,7 @@ seu médico ou farmacêutico. </p>
 Continue a tomar ácido ibandrónico Teva durante o tempo que o médico lhe disser. Isto porque o 
 medicamento só vai fazer efeito se for tomado sempre. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1158,7 +1167,7 @@ ter uma reação alérgica grave, potencialmente fatal. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ibandronic"
@@ -1171,7 +1180,7 @@ EXP. O prazo de validade corresponde ao último dia do mês indicado.  </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1317,7 +1326,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

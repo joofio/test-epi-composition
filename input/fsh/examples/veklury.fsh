@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Veklury </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ pneumonia, and need extra oxygen to help them breathe, but who are not on artifi
 ventilation (where mechanical means are used to assist or replace spontaneous breathing 
 at start of treatment). 
 * adults and children (weighing at least 40 kg) who do not need extra oxygen to help them 
-breathe and are at increased risk for progressing to severe COVID-19. </p>         </div>"""   
+breathe and are at increased risk for progressing to severe COVID-19. </p> </div>"""   
           
 
              
@@ -144,7 +147,7 @@ body. </p>
 <p>Veklury contains sodium 
 This medicine contains 212 mg sodium (main component of cooking/table salt) in each 100 mg dose 
 unit. This is equivalent to 10.6 % of the recommended maximum daily dietary intake of sodium for an 
-adult. </p>         </div>"""   
+adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veklury"
@@ -209,7 +212,7 @@ given. </p>
 As Veklury is only given to you by a healthcare professional, it is unlikely that you will be given too 
 much or too little. If you have been given an extra dose, or missed one, tell your nurse or doctor 
 straight away. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ immediate medical care.
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veklury"
@@ -271,7 +274,7 @@ be stored for up to 24 hours below 25 C, or for up to 48 hours in a refrigerator
 more than 48 hours between dilution and administration. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -359,7 +362,7 @@ Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Scan the code below with a mobile device to get this information in different languages. </p>
 <p>QR code to be included www.veklury.eu </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -398,7 +401,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -407,7 +412,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -424,7 +430,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -448,7 +454,7 @@ spontan vejrtrækning ved behandlingsstart). </p>
 <p>voksne og børn (der vejer mindst 40 kg), som ikke har brug for ekstra ilt som hjælp til 
 vejrtrækningen og har en øget risiko for at udvikle svær COVID-19. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -542,7 +548,7 @@ Veklury (6 g i startdosis). Dette indholdsstof er en cyclodextrinemulgator, der 
 at blive spredt i kroppen. </p>
 <p>Veklury indeholder natrium 
 Dette lægemiddel indeholder 212 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hver mg dosisenhed. Dette svarer til 10,6 % af den anbefalede maksimale daglige indtagelse af natrium for 
-en voksen. </p>         </div>"""   
+en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veklury"
@@ -613,7 +619,7 @@ gives. </p>
 Da Veklury kun gives af sundhedspersonale er det usandsynligt, at du vil få for meget eller for lidt. 
 Hvis du har modtaget en ekstra dosis, eller sprunget en dosis over, skal du straks fortælle det til 
 sygeplejersken eller lægen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -702,7 +708,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veklury"
@@ -726,7 +732,7 @@ gå mere end 48 timer mellem fortynding og administration af lægemidlet. </p>
 </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1155,7 +1161,7 @@ eller gemmes. </p>
 <li>Scan nedenstående kode med en mobilenhed for at få oplysningerne på andre sprog. </li>
 </ul>
 <p>QR-kode indsættes senere www.veklury.eu </p>
-<p>Denne indlægsseddel blev senest ændret </p>         </div>"""      
+<p>Denne indlægsseddel blev senest ændret </p> </div>"""      
 
 
 
@@ -1194,7 +1200,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1203,7 +1211,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1220,7 +1229,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Veklury </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1245,7 +1254,7 @@ ou substituir a respiração espontânea no início do tratamento). </p>
 <p>adultos e crianças (pesando, pelo menos, 40 kg) que não precisam de oxigénio adicional 
 para os ajudar a respirar e que apresentam risco aumentado de progredir para COVID-grave. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1342,7 +1351,7 @@ medicamento a dispersar-se pelo corpo. </p>
 <p>Veklury contém sódio 
 Este medicamento contém 212 mg de sódio (principal componente do sal de cozinha/sal de mesa) em 
 cada dose unitária de 100 mg. Isto é equivalente a 10,6% da ingestão diária máxima de sódio 
-recomendada na dieta para um adulto. </p>         </div>"""   
+recomendada na dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar veklury"
@@ -1418,7 +1427,7 @@ Uma vez que Veklury é dado por um profissional de saúde, é pouco provável qu
 Veklury a mais ou a menos. Se lhe derem uma dose extra, ou se falharem uma dose, informe o seu 
 enfermeiro ou médico imediatamente. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1508,7 +1517,7 @@ transaminases </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar veklury"
@@ -1533,7 +1542,7 @@ solução diluída podem ser conservados até 24 horas a uma temperatura inferio
 </ul>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1657,7 +1666,7 @@ Tel: + 44 (0) 8000 113  </p>
 <p>Digitalize o código abaixo com um dispositivo móvel para obter esta informação em línguas 
 diferentes. </p>
 <p>Código QR a ser incluído www.veklury.eu </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

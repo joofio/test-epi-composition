@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Nityr </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ your body. Nityr blocks the breakdown of tyrosine and the harmful substances are
 <p>For the treatment of hereditary tyrosinemia type 1, you must follow a special diet while you are 
 taking this medicine, because tyrosine will remain in your body. This special diet is based on low 
 tyrosine and phenylalanine (another amino acid) content.  </p>
-<p>For the treatment of AKU, your doctor may advise you to follow a special diet. </p>         </div>"""   
+<p>For the treatment of AKU, your doctor may advise you to follow a special diet. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ This medicine has minor influence on the ability to drive and use machines. Howe
 experience side effects affecting your vision you should not drive or use machines until your vision is 
 back to normal (see section 4  Possible side effects ).  </p>
 <p>Nityr contains lactose If you have been told by your doctor that you have an intolerance to some 
-sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nityr"
@@ -156,7 +159,7 @@ doctor or pharmacist.  </p>
 <p>If you stop taking Nityr<br />
 If you have the impression that the medicine is not working properly, talk to your doctor. Do not 
 change the dose or stop the treatment without talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -190,7 +193,7 @@ Other common side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nityr"
@@ -205,7 +208,7 @@ Store in the original bottle in order to protect from light.<br />
 Once the bottle is opened, the medicine can be stored for a period of 2 months, after which it must be 
 discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ Bijsterhuizen 36604 LV Wijchen
 Netherlands </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website:<br />
-http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p> </div>"""      
 
 
 
@@ -274,7 +277,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -283,7 +288,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -300,7 +306,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -318,7 +324,7 @@ tyrosin og de skadelige stoffer dannes derfor ikke.  </p>
 <p>Til behandling af arvelig tyrosinæmi type 1 skal De følge en speciel diæt, når De tager lægemidlet, 
 fordi tyrosin forbliver i kroppen. Denne særlige diæt er baseret på et lavt indhold af tyrosin og 
 fenylalanin (en anden aminosyre). </p>
-<p>Til behandling af AKU kan lægen råde Dem til at indtage en særlig kost. </p>         </div>"""   
+<p>Til behandling af AKU kan lægen råde Dem til at indtage en særlig kost. </p> </div>"""   
           
 
              
@@ -365,7 +371,7 @@ Hvis De imidlertid oplever bivirkninger, der påvirker synet, bør De ikke køre
 maskiner, før synet igen er normalt (se punkt 4 "Bivirkninger"). </p>
 <p>Nityr indeholder Lactose 
 Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nityr"
@@ -393,7 +399,7 @@ apoteket, hvis De har glemt at tage en dosis. </p>
 <p>Hvis De holder op med at tage Nityr 
 Hvis De har indtryk af, at lægemidlet ikke virker korrekt, så tal med Deres læge. De må ikke ændre 
 dosis eller stoppe behandlingen uden at have talt med Deres læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -429,7 +435,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nityr"
@@ -444,7 +450,7 @@ originale beholder for at beskytte mod lys.<br />
 Efter anbrud af beholderen kan lægemidlet opbevares i en periode på 2 måneder, hvorefter det skal 
 kasseres. 
 Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -478,7 +484,7 @@ Nederlandene (Holland) </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>De kan finde yderligere oplysninger om Nityr på Det Europæiske Lægemiddelagenturs hjemmeside 
 http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
-hvordan de behandles. </p>         </div>"""      
+hvordan de behandles. </p> </div>"""      
 
 
 

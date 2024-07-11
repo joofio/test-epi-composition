@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Budesonide/Formoterol Teva Pharma B.V. </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -107,7 +110,7 @@ to allergens).  You do not need a separate inhaler for this.  </p>
 COPD is a long-term lung disease of the airways in the lungs, which is often caused by cigarette 
 smoking.  Symptoms include shortness of breath, cough, chest discomfort and coughing up mucus. 
 Budesonide/Formoterol Teva Pharma B.V. can also be used to treat the symptoms of severe COPD in 
-adults.  </p>         </div>"""   
+adults.  </p> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ Budesonide/Formoterol Teva Pharma B.V. but talk to your doctor immediately. </p>
 machines. </p>
 <p>Budesonide/Formoterol Teva Pharma B.V. contains lactose<br />
 Lactose is a type of sugar found in milk. If you have been told by your doctor that you have an 
-intolerance to some sugars, talk to your doctor before using this medicine.   </p>         </div>"""   
+intolerance to some sugars, talk to your doctor before using this medicine.   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take budesonideformoterol"
@@ -354,7 +357,7 @@ usual time.  </p>
  reliever inhaler , then seek medical advice.  </p>
 <p>If you stop using Budesonide/Formoterol Teva Pharma B.V. 
 Do not stop using your inhaler without telling your doctor first.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -434,7 +437,7 @@ with corticosteroid tablets.  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet.  </p>
 <p>You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store budesonideformoterol"
@@ -452,7 +455,7 @@ down the date you open the foil pouch. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -547,7 +550,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 207 540 7This leaflet was last revised in month YYYY. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 

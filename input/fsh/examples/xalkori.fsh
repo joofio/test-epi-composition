@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store XALKORI</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ XALKORI can be prescribed to children and adolescents to treat IMT if surgery ha
 the disease.
 You should only be given this medicine and supervised by a doctor who has experience with cancer 
 treatment. If you have any questions about how XALKORI works or why this medicine has been 
-prescribed for you, ask your doctor.</p>         </div>"""   
+prescribed for you, ask your doctor.</p> </div>"""   
           
 
              
@@ -200,7 +203,7 @@ You should take special care when driving and using machines as patients taking 
 experience visual disturbances, dizziness, and tiredness.
 XALKORI contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per 200 mg or 250 mg capsule, that is to say 
-essentially  sodium-free .</p>         </div>"""   
+essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xalkori"
@@ -239,7 +242,7 @@ If you stop taking XALKORI
 It is important to take XALKORI every day, as long as your doctor prescribes it to you. If you are not 
 able to take the medicine as your doctor prescribed, or you feel you do not need it anymore, contact 
 your doctor right away.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -353,7 +356,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xalkori"
@@ -366,7 +369,7 @@ carton after  EXP . The expiry date refers to the last day of that month.</p>
 <p>This medicine does not require any special storage conditions.</p>
 <p>Do not use any pack that is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -465,7 +468,7 @@ Pfizer Limited
 Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
 Tel: +371 670 35 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -504,7 +507,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -513,7 +518,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -528,7 +534,7 @@ Usage: #inline
 3. Sådan skal du tage XALKORI
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -554,7 +560,7 @@ XALKORI kan udskrives til børn og unge som behandling af IMT, hvis operation ik
 med at standse sygdommen.
 57
 Du må kun få dette lægemiddel under tilsyn af en læge, der har erfaring med kræftbehandling. Kontakt 
-lægen, hvis du har spørgsmål om, hvordan XALKORI virker, eller hvorfor du har fået denne medicin.</p>         </div>"""   
+lægen, hvis du har spørgsmål om, hvordan XALKORI virker, eller hvorfor du har fået denne medicin.</p> </div>"""   
           
 
              
@@ -702,7 +708,7 @@ Hvis du får synsforstyrrelser eller føler dig svimmel eller meget træt, mens 
 du tage hensyn hertil, hvis du skal færdes i trafikken eller arbejde med maskiner.
 XALKORI indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 200 mg eller 250 mg, dvs. det er 
-i det væsentlige natriumfrit.</p>         </div>"""   
+i det væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xalkori"
@@ -750,7 +756,7 @@ Hvis du holder op med at tage XALKORI
 Det er vigtigt at tage XALKORI hver dag, ligeså længe som lægen har sagt. Hvis du ikke er i stand til 
 at tage medicinen, som lægen har anvist, eller du føler, at du ikke behøver den mere, skal du straks 
 kontakte lægen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -912,7 +918,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xalkori"
@@ -930,7 +936,7 @@ Lægemidlet kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Brug ikke lægemidlet, hvis indhold og/eller pakning er skadet eller har været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-63</p>         </div>"""      
+63</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1064,7 +1070,7 @@ Tel: +371 670 35 775
 65
 Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ 
 Du kan finde yderligere oplysninger om XALKORI på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1103,7 +1109,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1112,7 +1120,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1127,7 +1136,7 @@ Usage: #inline
 3. Como tomar XALKORI
 4. Efeitos indesejáveis possíveis
 5. Como conservar XALKORI
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1154,7 +1163,7 @@ tiver ajudado a parar a doença.
 60
 O tratamento com este medicamento apenas pode ser receitado e supervisionado por um médico com 
 experiência no tratamento de cancro. Se tem questões sobre como funciona XALKORI ou porque é 
-que este medicamento lhe foi receitado, fale com o seu médico.</p>         </div>"""   
+que este medicamento lhe foi receitado, fale com o seu médico.</p> </div>"""   
           
 
              
@@ -1316,7 +1325,7 @@ Se tiver distúrbios da visão, tonturas e cansaço enquanto está a tomar XALKO
 cuidado quando conduz e utiliza máquinas.
 XALKORI contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula de 200 mg ou 250 mg,
-ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+ou seja, é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xalkori"
@@ -1368,7 +1377,7 @@ Se parar de tomar XALKORI
 tomar este medicamento como o seu médico lhe receitou ou se sente que já não necessita dele, contacte 
 o seu médico imediatamente.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1545,7 +1554,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xalkori"
@@ -1564,7 +1573,7 @@ Este medicamento não necessita de quaisquer precauções especiais de conserva�
 Não utilize nenhuma embalagem que esteja danificada ou apresente sinais de adulteração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1697,7 +1706,7 @@ Latvija
 Pfizer Luxembourg SARL filiāle Latvijā 
 Tel: +371 670 35 775
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

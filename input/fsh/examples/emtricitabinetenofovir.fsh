@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Emtricitabine/Tenofovir disoproxil Krka</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +100,7 @@ Krka you may still develop infections or other illnesses associated with HIV inf
 Emtricitabine/Tenofovir disoproxil Krka is also used to reduce the risk of getting HIV-1 
 infection in adults, and adolescents aged 12 years to less than 18 years who weigh at least 
 35 kg, when taken daily, together with safer sex practices:
-See section 2 for a list of precautions to take against HIV infection.</p>         </div>"""   
+See section 2 for a list of precautions to take against HIV infection.</p> </div>"""   
           
 
              
@@ -276,7 +279,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicinal product.
 Emtricitabine/Tenofovir disoproxil Krka contains sodium
 This medicinal product contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emtricitabinetenofovir"
@@ -349,7 +352,7 @@ after stopping treatment. In some patients with advanced liver disease or cirrho
 is not recommended as this may lead to worsening of your hepatitis, which may be life-threatening.
   Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -501,7 +504,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emtricitabinetenofovir"
@@ -519,7 +522,7 @@ Do not store above 30 C.
 Keep the bottle tightly closed in order to protect from moisture and light.
 Shelf life after first opening of the bottle: 2 months.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -620,7 +623,7 @@ KRKA Latvija SIA
 Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -659,7 +662,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -668,7 +673,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -683,7 +689,7 @@ Usage: #inline
 3. Sådan skal De tage Emtricitabine/Tenofovir disoproxil Krka
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -717,7 +723,7 @@ forbundet med hiv-infektion, mens De tager Emtricitabine/Tenofovir disoproxil Kr
 Emtricitabine/Tenofovir disoproxil Krka bruges også til at nedsætte risikoen for at få hiv
 1-infektion hos voksne og unge i alderen 12 år til under 18 år, som vejer mindst 35 kg, når 
 det bruges dagligt og sammen med udøvelse af sikker sex:
-Se punkt 2 for en liste over de forholdsregler, der skal tages, for ikke at få hiv-infektion.</p>         </div>"""   
+Se punkt 2 for en liste over de forholdsregler, der skal tages, for ikke at få hiv-infektion.</p> </div>"""   
           
 
              
@@ -908,7 +914,7 @@ Hvis De har fået at vide, at De ikke tåler andre sukkerarter, skal De tale med
 dette lægemiddel.
 Emtricitabine/Tenofovir disoproxil Krka indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det 
-væsentlige "natriumfri".</p>         </div>"""   
+væsentlige "natriumfri".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emtricitabinetenofovir"
@@ -984,7 +990,7 @@ kan medføre forværring af Deres hepatitis, hvilket kan være livstruende.
 → Hvis De lægger mærke til nye eller usædvanlige symptomer efter behandlingens ophør, skal 
 De omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De 
 normalt ville forbinde med hepatitis B-infektion.
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1141,7 +1147,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emtricitabinetenofovir"
@@ -1160,7 +1166,7 @@ Må ikke opbevares ved temperaturer over 30°C.
 Hold tabletbeholderen tæt tillukket for at beskytte mod fugt og lys.
 Holdbarhed efter første åbning af tabletbeholderen: 2 måneder.
 Spørg på apoteket, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1291,7 +1297,7 @@ KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Denne indlægsseddel blev senest ændret
 De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1330,7 +1336,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1339,7 +1347,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1354,7 +1363,7 @@ Usage: #inline
 3. Como tomar Emtricitabina/Tenofovir disoproxil Krka
 4. Efeitos indesejáveis possíveis
 5. Como conservar Emtricitabina/Tenofovir disoproxil Krka
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1391,7 +1400,7 @@ Emtricitabina/Tenofovir disoproxil Krka também é utilizado para reduzir o risc
 contrair a infeção por VIH-1 em adultos e adolescentes com idade compreendida entre os 
 12 e &lt; 18 anos que pesam, pelo menos 35 kg, quando tomado diariamente, juntamente com 
 práticas de sexo seguro:
-Consulte a lista de precauções a tomar contra a infeção por VIH na secção 2. </p>         </div>"""   
+Consulte a lista de precauções a tomar contra a infeção por VIH na secção 2. </p> </div>"""   
           
 
              
@@ -1588,7 +1597,7 @@ Se foi informado pelo seu médico que tem intolerância a alguns açúcares, con
 este medicamento.
 Emtricitabina/Tenofovir disoproxil Krka contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar emtricitabinetenofovir"
@@ -1669,7 +1678,7 @@ pode ser fatal.
  Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
 após parar o tratamento, particularmente sintomas que associaria à sua hepatite B.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1833,7 +1842,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar emtricitabinetenofovir"
@@ -1852,7 +1861,7 @@ Manter o frasco bem fechado para proteger da humidade e da luz.
 Validade após primeira abertura do frasco: 2 meses.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1982,7 +1991,7 @@ United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

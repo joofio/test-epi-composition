@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Revatio </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 phosphodiesterase type 5 (PDE5) inhibitors.<br />
 Revatio brings down blood pressure in the lungs by widening the blood vessels in the lungs.<br />
 Revatio is used to treat adults and children and adolescents from 1 to 17 years old with high blood 
-pressure in the blood vessels in the lungs (pulmonary arterial hypertension).  </p>         </div>"""   
+pressure in the blood vessels in the lungs (pulmonary arterial hypertension).  </p> </div>"""   
           
 
              
@@ -190,7 +193,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicinal product. </p>
 <p>Revatio contains sodium 
 Revatio 20 mg tablets contain less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take revatio"
@@ -219,7 +222,7 @@ medicine at the usual times. Do not take a double dose to make up for a forgotte
 Suddenly stopping your treatment with Revatio may lead to your symptoms getting worse. Do not stop 
 taking Revatio unless your doctor tells you to. Your doctor may tell you to reduce the dose over a few 
 days before stopping completely. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ pneumonia and runny nose. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store revatio"
@@ -281,7 +284,7 @@ this medicine. </p>         </div>"""
 refers to the last day of that month. </p>
 <p>Do not store above 30OC. Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -384,7 +387,7 @@ information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -423,7 +426,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -432,7 +437,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -449,7 +455,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -461,7 +467,7 @@ Usage: #inline
 (PDE5)-hæmmere.  </p>
 <p>Revatio nedsætter blodtrykket i lungerne ved at udvide blodkarrene i lungerne.  </p>
 <p>Revatio anvendes til at behandle voksne, børn og unge fra 1-17 år med for højt blodtryk i blodkarrene 
-i lungerne (pulmonal arteriel hypertension).  </p>         </div>"""   
+i lungerne (pulmonal arteriel hypertension).  </p> </div>"""   
           
 
              
@@ -567,7 +573,7 @@ medicinen, inden bilkørsel eller betjening af maskiner. </p>
 sukkerarter. </p>
 <p>Revatio indeholder natrium </p>
 <p>Revatio 20 mg tabletter indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take revatio"
@@ -595,7 +601,7 @@ den glemte dosis. </p>
 <p>Hvis De pludseligt stopper med at tage Revatio, kan Deres symptomer blive forværret. Stop ikke med 
 at tage Revatio, medmindre det sker i samråd med lægen. Lægen vil bede Dem om, at nedsætte dosis 
 over nogle få dage, førend De standser behandlingen fuldstændigt. </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -646,7 +652,7 @@ kraftigere erektion, herunder spontan erektion, lungebetændelse og løbenæse. 
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store revatio"
@@ -659,7 +665,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 oC. Opbevares i den originale blisterpakning for at 
 beskytte mod fugt. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -783,7 +789,7 @@ oplysninger. </p>
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. </li>
 <li>Kontakt lægen eller sygeplejersken, hvis De får bivirkninger, herunder bivirkninger, som ikke er 
 nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -822,7 +828,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -831,7 +839,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -846,7 +855,7 @@ Usage: #inline
 3. Como tomar Revatio 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Revatio 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -860,7 +869,7 @@ Revatio reduz a pressão sanguínea nos pulmões através da dilatação dos vas
 pulmões. 
 Revatio é utilizado no tratamento de adultos e de crianças e adolescentes com idades compreendidas 
 entre 1 e 17 anos com pressão sanguínea elevada nos vasos sanguíneos dos pulmões (hipertensão 
-arterial pulmonar).  </p>         </div>"""   
+arterial pulmonar).  </p> </div>"""   
           
 
              
@@ -942,7 +951,7 @@ tomar outros medicamentos. </p>
 <li>Medicamentos contendo nitratos, ou dadores de óxido nítrico tal como o nitrilo de amilo 
 (“poppers"). Estes medicamentos são habitualmente utilizados para o alívio da angina de peito 
 ou “dor no peito" (ver secção </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar revatio"
@@ -999,7 +1008,7 @@ Se foi informado pelo seu médico que tem intolerância a alguns açúcares, con
 medicamento. </p>
 <p>Revatio contém sódio 
 Revatio 20 mg comprimido contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""         
+praticamente “isento de sódio". </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1032,7 +1041,7 @@ agravem. Não pare de tomar Revatio, a não ser que o seu médico lhe dê instru
 médico poderá dizer-lhe para reduzir gradualmente a sua dose durante alguns dias antes de parar 
 completamente o tratamento. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""      
+farmacêutico. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar revatio"
@@ -1085,7 +1094,7 @@ aumento das ereções, pneumonia e nariz a pingar. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1099,7 +1108,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não conservar acima de 30ºC. Conservar na embalagem de origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
 
 
 

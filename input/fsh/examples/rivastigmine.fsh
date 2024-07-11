@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rivastigmine Sandoz </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ symptoms of Alzheimer s disease and dementia associated with Parkinson s disease
 <p>Rivastigmine Sandoz is used for the treatment of adult patients with mild to moderately severe 
 Alzheimer s dementia, a progressive brain disorder that gradually affects memory, intellectual ability 
 and behaviour. The capsules and oral solution can also be used for the treatment of dementia in adult 
-patients with Parkinson s disease. </p>         </div>"""   
+patients with Parkinson s disease. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ necessary.  </p>
 Your doctor will tell you whether your illness allows you to drive vehicles and use machines safely. 
 Rivastigmine Sandoz may cause dizziness and somnolence, mainly at the start of treatment or when 
 increasing the dose. If you feel dizzy or sleepy, do not drive, use machines or perform any tasks that 
-require your attention. </p>         </div>"""   
+require your attention. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rivastigmine"
@@ -178,7 +181,7 @@ hallucinations. Slow heartbeat and fainting may also occur. </p>
 <p>If you forget to take Rivastigmine Sandoz 
 If you find you have forgotten to take your dose of Rivastigmine Sandoz, wait and take the next dose 
 at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -265,7 +268,7 @@ If you get any of these side effects, contact your doctor as you may need medica
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. </p>
 <p>You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rivastigmine"
@@ -277,7 +280,7 @@ reporting side effects you can help provide more information on the safety of th
 after  EXP . The expiry date refers to the last day of that month.<br />
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>
-<p>Do not store above 30 C. </p>         </div>"""      
+<p>Do not store above 30 C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -458,7 +461,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet.See section 4.</p>         </div>"""      
+effects not listed in this leaflet.See section 4.</p> </div>"""      
 
 
 
@@ -497,7 +500,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -506,7 +511,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -521,7 +527,7 @@ Usage: #inline
 3. Sådan skal du tage Rivastigmin Sandoz 
 4. Bivirkninger 
 5. Opbevaring af Rivastigmin Sandoz 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -540,7 +546,7 @@ af Alzheimers sygdom og demens, som skyldes Parkinsons sygdom. </p>
 <p>Rivastigmine Sandoz anvendes til  behandling af hukommelsesproblemer hos patienter med 
 Alzheimers sygdom og demens, som er en progressiv hjernesygdom, der lidt efter lidt påvirker 
 hukommelse, intelligens og adfærd. Kapsler og miksturen kan også anvendes til behandling af demens 
-hos voksne patienter med Parkinsons sygdom. </p>         </div>"""   
+hos voksne patienter med Parkinsons sygdom. </p> </div>"""   
           
 
              
@@ -601,7 +607,7 @@ er absolut nødvendigt. </p>
 Din læge vil fortælle dig, om du kan køre bil eller betjene maskiner i forbindelse med din sygdom. 
 Rivastigmine Sandoz kan give svimmelhed og døsighed, specielt i starten af behandlingen, eller når 
 dosis øges. Hvis du føler dig svimmel eller træt, skal du lade være med at køre bil, betjene maskiner 
-eller gøre andet, som kræver opmærksomhed. </p>         </div>"""   
+eller gøre andet, som kræver opmærksomhed. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rivastigmine"
@@ -654,7 +660,7 @@ hallucinationer. Langsom hjerterytme og besvimelsesanfald kan ligeledes forekomm
 Hvis du finder ud af, at du har glemt at tage en dosis Rivastigmine Sandoz, skal du blot vente og tage 
 næste dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den 
 glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -862,7 +868,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger, kan du hjælpe med til at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rivastigmine"
@@ -874,7 +880,7 @@ dette lægemiddel. </p>         </div>"""
 “EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>
-<p>Må ikke opbevares ved temperaturer over 30 °C. </p>         </div>"""      
+<p>Må ikke opbevares ved temperaturer over 30 °C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1075,7 +1081,7 @@ indeholder vigtige oplysninger.
 til andre. Det kan være skadeligt for andre, også selvom de har de samme symptomer, som du 
 har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, , herunder bivirkninger som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1114,7 +1120,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1123,7 +1131,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1138,7 +1147,7 @@ Usage: #inline
 3. Como tomar Rivastigmina Sandoz 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Rivastigmina Sandoz 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1157,7 +1166,7 @@ a reduzir os sintomas da doença de Alzheimer e da demência associada à doenç
 <p>Rivastigmina Sandoz utiliza-se para o tratamento de doentes adultos com demência de Alzheimer 
 ligeira a moderadamente grave, um distúrbio cerebral progressivo que afeta gradualmente a memória, 
 as capacidades intelectuais e o comportamento. As cápsulas e a solução oral podem também ser 
-utilizadas para o tratamento de demência em doentes adultos com a doença de Parkinson. </p>         </div>"""   
+utilizadas para o tratamento de demência em doentes adultos com a doença de Parkinson. </p> </div>"""   
           
 
              
@@ -1224,7 +1233,7 @@ que seja claramente necessário. </p>
 O seu médico irá dizer-lhe se a sua doença lhe permite conduzir veículos ou utilizar máquinas com 
 segurança. Rivastigmina Sandoz pode causar tonturas e sonolência, principalmente no início do 
 tratamento ou quando se aumenta a dose. Se se sentir tonto ou sonolento não conduza, não utilize 
-máquinas, nem execute quaisquer tarefas que exijam a sua atenção. </p>         </div>"""   
+máquinas, nem execute quaisquer tarefas que exijam a sua atenção. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rivastigmine"
@@ -1278,7 +1287,7 @@ Se verificar que se esqueceu de tomar uma dose de Rivastigmina Sandoz aguarde e 
 dose à hora habitual. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de 
 tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1490,7 +1499,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rivastigmine"
@@ -1503,7 +1512,7 @@ embalagem exterior após “EXP". O prazo de validade corresponde ao último dia
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente. </p>
-<p>Não conservar acima de 30°C. </p>         </div>"""      
+<p>Não conservar acima de 30°C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1693,7 +1702,7 @@ Sandoz d.o.o.
 Maksimirska 10 000 Zagreb 
 Tel: +38512353E-mail: upit.croatia@sandoz.com </p>
 <p>Este folheto foi revisto pela última vez em<br />
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

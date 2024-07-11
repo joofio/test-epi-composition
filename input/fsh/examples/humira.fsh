@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Injecting Humira</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Humira</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -119,7 +121,7 @@ affecting the front of the eye
 This inflammation may lead to a decrease of vision and/or the presence of floaters in the eye (black dots or 
 wispy lines that move across the field of vision). Humira works by reducing this inflammation.
 Your child may first be given other medicines. If these medicines do not work well enough, your child
-will be given Humira to reduce the signs and symptoms of his/her disease.</p>         </div>"""   
+will be given Humira to reduce the signs and symptoms of his/her disease.</p> </div>"""   
           
 
              
@@ -263,7 +265,7 @@ use during her pregnancy before the baby receives any vaccine. For more informat
 see the  Warnings and precautions  section.
 Driving and using machines
 Humira may have a small effect on your child s ability to drive, cycle or use machines. Room spinning 
-sensation and vision disturbances may occur after taking Humira.</p>         </div>"""   
+sensation and vision disturbances may occur after taking Humira.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take humira"
@@ -393,7 +395,7 @@ not forgotten a dose.
 If you stop using Humira
 The decision to stop using Humira should be discussed with your doctor. Your child s symptoms may 
 return if you stop using Humira.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -571,7 +573,7 @@ Reporting of side effects
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store humira"
@@ -590,7 +592,7 @@ discarded, even if it is returned to the refrigerator.<br />
 You should record the date when the syringe is first removed from refrigerator and the date after which it 
 should be discarded.
 Do not throw away any medicines via wastewater or household waste. Ask your doctor or pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -683,7 +685,7 @@ AbbVie SIA
 Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -722,7 +724,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -733,7 +737,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Injektion af Humira</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -748,7 +752,7 @@ Usage: #inline
 3. Sådan skal dit barn tage Humira
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1109,7 +1113,7 @@ fastlagte dag, som om du ikke havde glemt en dosis.
 Hvis du holder op med at bruge Humira
 Beslutningen om at stoppe med at tage Humira skal diskuteres med din læge. Dit barns symptomer 
 kan komme igen, hvis barnet stopper med at tage Humira.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""   
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""   
           
 
              
@@ -1440,7 +1444,7 @@ også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 308
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""   
+information om sikkerheden af dette lægemiddel.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take humira"
@@ -1460,7 +1464,7 @@ køleskab.
 Du skal registrere den dato, hvor injektionssprøjten først tages ud af køleskabet, og den dato efter 
 hvilken, den skal kasseres.<br />
 Spørg lægen eller apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet 
-må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""         
+må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1737,7 +1741,7 @@ andre. Det kan være skadeligt for andre, selvom de har samme symptomer, som dit
 -
 Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis dit barn får bivirkninger, 
 herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk
-Oversigt over indlægssedlen</p>         </div>"""      
+Oversigt over indlægssedlen</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store humira"
@@ -1746,7 +1750,7 @@ Oversigt over indlægssedlen</p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Det skal du vide, før dit barn begynder at få Humira</li>
-</ol>         </div>"""      
+</ol> </div>"""      
         
         
 * section[=].section[+]
@@ -1754,7 +1758,9 @@ Oversigt over indlægssedlen</p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
 
 
 

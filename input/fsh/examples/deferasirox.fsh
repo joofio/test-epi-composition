@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Deferasirox Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ infrequent blood transfusions, in patients with other types of anaemias, and in 
 2 to 5 years. </p>
 <p>Deferasirox Mylan is also used when deferoxamine therapy is contraindicated or inadequate to treat 
 patients aged 10 years or older who have iron overload associated with their thalassaemia syndromes, 
-but who are not transfusion dependent. </p>         </div>"""   
+but who are not transfusion dependent. </p> </div>"""   
           
 
              
@@ -193,7 +196,7 @@ effectiveness of hormonal contraceptives. </p>
 If you feel dizzy after taking Deferasirox Mylan, do not drive or operate any tools or machines until 
 you are feeling normal again. </p>
 <p>Deferasirox Mylan contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take deferasirox"
@@ -247,7 +250,7 @@ not take a double dose on the next day to make up for the forgotten tablet(s). <
 <p>If you stop taking Deferasirox Mylan 
 Do not stop taking Deferasirox Mylan unless your doctor tells you to. If you stop taking it, the excess 
 iron will no longer be removed from your body (see also above section  How long to take Deferasirox 
-Mylan ). </p>         </div>"""         
+Mylan ). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ the number of all kinds of blood cells (pancytopenia)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store deferasirox"
@@ -333,7 +336,7 @@ Do not use this medicine after the expiry date which is stated on the blister/la
  EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not use any pack that is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ Mylan IRE Healthcare Limited<br />
 Tel: + 353 18711This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -480,7 +483,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -489,7 +494,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -504,7 +510,7 @@ Usage: #inline
 3. Sådan skal du tage Deferasirox Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -532,7 +538,7 @@ benyttes eller ikke har tilstrækkelig virkning til patienter med beta-talassæm
 jernophobning forårsaget af sjældne blodtransfusioner, til patienter med andre typer af anæmier og til 
 børn i alderen 2 til 5 år. </p>
 <p>Deferasirox Mylan anvendes også til ikke-transfusionsafhængige patienter i alderen 10 år eller 
-derover, der har fået jernophobning i forbindelse med deres talassæmi-syndromer, når deferoxamin- behandling er kontraindiceret eller utilstrækkelig. </p>         </div>"""   
+derover, der har fået jernophobning i forbindelse med deres talassæmi-syndromer, når deferoxamin- behandling er kontraindiceret eller utilstrækkelig. </p> </div>"""   
           
 
              
@@ -657,7 +663,7 @@ Hvis du føler dig svimmel, efter at du har taget Deferasirox Mylan, må du ikke
 værktøj eller maskiner før du har det godt igen. </p>
 <p>Deferasirox Mylan indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take deferasirox"
@@ -735,7 +741,7 @@ planlagt. Du må ikke tage en dobbeltdosis den næste dag som erstatning for de(
 <p>Hvis du holder op med at tage Deferasirox Mylan 
 Hold ikke op med at tage Deferasirox Mylan, medmindre din læge giver dig besked på det. Hvis du 
 holder op med at tage Deferasirox Mylan, vil det overskydende jern ikke længere blive fjernet fra din 
-krop (se også ovenstående pkt.: "Hvor længe skal du tage Deferasirox Mylan"). </p>         </div>"""         
+krop (se også ovenstående pkt.: "Hvor længe skal du tage Deferasirox Mylan"). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -887,7 +893,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store deferasirox"
@@ -899,7 +905,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen og �
 Udløbsdatoen er den sidste dag i den nævnte måned. 
 Brug ikke pakninger, der er beskadiget eller viser tegn på at være i stykker eller at have været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1026,7 +1032,7 @@ Tel: +353 18711
 Denne indlægsseddel blev senest ændret i {MM/ÅÅÅÅ}. </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1065,7 +1071,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1074,7 +1082,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1089,7 +1098,7 @@ Usage: #inline
 3. Como tomar Deferasirox Mylan 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Deferasirox Mylan 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1120,7 +1129,7 @@ major com sobrecarga de ferro causada por transfusões de sangue pouco frequente
 outros tipos de anemias, e em crianças com 2 a 5 anos de idade. </p>
 <p>Deferasirox Mylan é também utilizado quando a terapêutica com desferroxamina é contraindicada ou 
 inadequada para tratar doentes com idade igual ou superior a 10 anos com sobrecarga de ferro 
-associada a síndromes de talassemia, mas que não sejam dependentes de transfusão. </p>         </div>"""   
+associada a síndromes de talassemia, mas que não sejam dependentes de transfusão. </p> </div>"""   
           
 
              
@@ -1263,7 +1272,7 @@ reduzir a eficácia dos contracetivos hormonais. </p>
 Se se sentir tonto após tomar Deferasirox Mylan não conduza ou utilize ferramentas ou máquinas até 
 que se sinta novamente normal. </p>
 <p>Deferasirox Mylan contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar deferasirox"
@@ -1346,7 +1355,7 @@ que se esqueceu de tomar. </p>
 <p>Se parar de tomar Deferasirox Mylan 
 Não pare de tomar Deferasirox Mylan, a não ser que o seu médico lhe diga. Se parar de tomar o 
 medicamento, o ferro em excesso não irá ser removido do seu organismo (ver também a secção acima 
-«Durante quanto tempo tomar Deferasirox Mylan»). </p>         </div>"""         
+«Durante quanto tempo tomar Deferasirox Mylan»). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1499,7 +1508,7 @@ número de glóbulos vermelhos (agravamento da anemia), no número de glóbulos 
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar deferasirox"
@@ -1512,7 +1521,7 @@ exterior após EXP. O prazo de validade corresponde ao último dia do mês indic
 <p>Não utilize qualquer embalagem que esteja danificada ou mostre sinais de deterioração. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1668,7 +1677,7 @@ Tel: +353 18711 </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
 <p>Outras fontes de informação 
 Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
-Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+Europeia de Medicamentos: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

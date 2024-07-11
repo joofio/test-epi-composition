@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -48,7 +50,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Aptivus has been prescribed for your child, please note that all information in this leaflet is 
-addressed to your child (in this case please read  your child  instead of  you ).</p>         </div>"""   
+addressed to your child (in this case please read  your child  instead of  you ).</p>  </div>"""   
 
 
 
@@ -65,7 +67,7 @@ addressed to your child (in this case please read  your child  instead of  you )
 <li>Possible side effects</li>
 <li>How to store Aptivus</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +94,7 @@ you have never received antiretroviral therapy or have other antiretroviral opti
 Aptivus soft capsules are indicated for:</p>
 <p>adolescents 12 years of age or older who have a Body Surface Area (BSA) of  1.3 m2 or weight 
  36 kg</p>
-<p>adults</p>         </div>"""   
+<p>adults</p> </div>"""   
           
 
              
@@ -350,7 +352,7 @@ Aptivus contains 100 mg of alcohol (ethanol) in each capsule. The amount in 250 
 (i.e. one capsule) is equivalent to less than 3 ml of beer, or than 1 ml of wine. The small amount of 
 alcohol in this medicine will not have any noticeable effects. 
 Aptivus also contains macrogolglycerol ricinoleate which may cause stomach upset and diarrhoea.
-This medicine contains 12.6 mg of sorbitol in each capsule.</p>         </div>"""   
+This medicine contains 12.6 mg of sorbitol in each capsule.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aptivus"
@@ -387,7 +389,7 @@ greatly increases the effectiveness of your combination antiretroviral medicines
 reduces the chances of your HIV becoming resistant to your antiretroviral medicines
 Therefore, it is important that you continue taking Aptivus correctly, as described above. Do NOT stop 
 taking Aptivus unless your doctor instructs you to do so.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -541,7 +543,7 @@ Reporting of side effects
 If you get any side effects, please talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aptivus"
@@ -554,7 +556,7 @@ refers to the last day of that month.
 Store in a refrigerator (2 C to 8 C). Once the bottle is opened the contents must be used within days (stored below 25 C). You should write the date of opening the bottle on the label and/or outer 
 carton. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -658,7 +660,7 @@ Latvijas fili le
 Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: + 353 1 295 9This leaflet was last approved in {MM/YYYY}
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -697,7 +699,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -707,7 +711,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Aptivus er ordineret til dit barn, så bemærk venligst, at denne information er beregnet til 
-dit barn. Du skal i så fald erstatte "du" med "dit barn".</p>         </div>"""   
+dit barn. Du skal i så fald erstatte "du" med "dit barn".</p>  </div>"""   
 
 
 
@@ -722,7 +726,7 @@ dit barn. Du skal i så fald erstatte "du" med "dit barn".</p>         </div>"""
 3. Sådan skal du tage Aptivus
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -756,7 +760,7 @@ unge fra 12 års alderen, som har et kropsoverfladeareal (BSA) på ≥1,3 m2 ell
 ≥36 kg
 -
 voksne
-47</p>         </div>"""   
+47</p> </div>"""   
           
 
              
@@ -1016,7 +1020,7 @@ Aptivus indeholder 100 mg alkohol (ethanol) pr. kapsel. Mængden i 250 mg af det
 én kapsel) svarer til mindre end 3 ml øl eller 1 ml vin. Den mindre mængde alkohol i dette lægemiddel 
 vil ikke have nogen nævneværdig effekt..
 Aptivus indeholder også makrogolglycerol-ricinoleat, som kan give maveproblemer og diare.
-Denne medicin indeholder 12,6 mg sorbitol pr. kapsel.</p>         </div>"""   
+Denne medicin indeholder 12,6 mg sorbitol pr. kapsel.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aptivus"
@@ -1053,7 +1057,7 @@ Tager du alle doser på det rigtige tidspunkt:</p>
 Det er derfor vigtigt, at du tager Aptivus, som anført ovenfor. Du MÅ IKKE standse behandlingen 
 med Aptivus, medmindre din læge siger, at du skal.
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1210,7 +1214,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aptivus"
@@ -1224,7 +1228,7 @@ Opbevares i køleskab (2-8ºC). Når beholderen er åbnet, skal indholdet anvend
 opbevares ved højst 25ºC). Du bør skrive datoen for åbningen af beholderen på etiketten og/eller 
 emballagen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1364,7 +1368,7 @@ Tel: +353 1 295 9620
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside
-http://www.laegemiddelstyrelsen.dk.</p>         </div>"""      
+http://www.laegemiddelstyrelsen.dk.</p> </div>"""      
 
 
 

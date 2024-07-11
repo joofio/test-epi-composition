@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Deferiprone Lipomed </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deferiprone Lipomed contains the active substance deferiprone. Deferiprone Lipomed is an iron 
 chelator, a type of medicine that removes excess iron from the body. </p>
 <p>Deferiprone Lipomed is used to treat iron overload caused by frequent blood transfusions in patients 
-with thalassaemia major when current chelation therapy is contraindicated or inadequate. </p>         </div>"""   
+with thalassaemia major when current chelation therapy is contraindicated or inadequate. </p> </div>"""   
           
 
              
@@ -130,7 +133,7 @@ the folding box. </p>
 This medicine has no or negligible influence on the ability to drive and use machinery. </p>
 <p>Deferiprone Lipomed contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet and that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take deferiprone"
@@ -151,7 +154,7 @@ prescribed dose, you should contact your doctor. </p>
 Deferiprone Lipomed will be most effective if you do not miss any doses. If you do miss one dose take 
 it as soon as you remember and take your next dose at its regularly scheduled time. If you miss more 
 than one dose do not take a double dose to make up for forgotten individual doses, just continue with 
-your normal schedule. Do not change your daily dose without first talking to your doctor. </p>         </div>"""         
+your normal schedule. Do not change your daily dose without first talking to your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -199,7 +202,7 @@ deferiprone. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store deferiprone"
@@ -211,7 +214,7 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the blister after 
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -236,7 +239,7 @@ Hegenheimer Strasse 2
 Germany 
 Phone number: +49 7621 1693 Fax number: +49 7621 1693 Electronic mail: lipomed@lipomed.com </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -275,7 +278,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -284,7 +289,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -301,7 +307,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -312,7 +318,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deferiprone Lipomed indeholder det aktive stof deferipron. Deferiprone Lipomed er en jernchelator, 
 dvs. en type medicin, der fjerner overskydende jern fra kroppen. </p>
 <p>Deferiprone Lipomed bruges til at behandle jernophobning som følge af hyppige blodtransfusioner hos 
-talassæmi-patienter, hvor nuværende kelationsterapi er kontraindiceret eller utilstrækkelig.  </p>         </div>"""   
+talassæmi-patienter, hvor nuværende kelationsterapi er kontraindiceret eller utilstrækkelig.  </p> </div>"""   
           
 
              
@@ -380,7 +386,7 @@ Dette lægemiddel påvirker ikke eller kun i ubetydelig grad evnen til at føre 
 maskiner. </p>
 <p>Deferiprone Lipomed indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet og er således stort set 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take deferiprone"
@@ -401,7 +407,7 @@ Deferiprone Lipomed er mest effektivt, hvis du ikke springer nogen doser over. H
 en dosis over, skal du tage den så snart, du kommer i tanker om det, og så tage den næste dosis til det 
 normalt planlagte tidspunkt. Hvis du springer mere end én dosis over, må du ikke tage en dobbeltdosis 
 som erstatning for glemte enkeltdoser, du skal blot fortsætte efter den normale behandlingsplan. 
-Foretag ikke ændringer i den daglige dosering, uden først at have talt med lægen. </p>         </div>"""         
+Foretag ikke ændringer i den daglige dosering, uden først at have talt med lægen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -452,7 +458,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store deferiprone"
@@ -464,7 +470,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakningen efter Exp. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -494,7 +500,7 @@ Tyskland
 Tlf.: +49 7621 1693 Faxnr.: +49 7621 1693 E-mail: lipomed@lipomed.com </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

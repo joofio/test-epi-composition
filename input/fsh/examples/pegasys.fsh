@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pegasys </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ chronic hepatitis B and C are viral infections of the liver. </p>
 <p>Chronic Hepatitis B: Pegasys is usually used alone. 
 Chronic Hepatitis C: Pegasys is used in combination with other medicines, for the treatment of 
 chronic hepatitis C (CHC).  </p>
-<p>Refer also to the package leaflets of any other medicines that are used in combination with Pegasys. </p>         </div>"""   
+<p>Refer also to the package leaflets of any other medicines that are used in combination with Pegasys. </p> </div>"""   
           
 
              
@@ -206,7 +209,7 @@ Ask your doctor or pharmacist for advice if you are pregnant or breast feeding, 
 or kidney disease. This is because large amounts of benzyl alcohol can build-up in your body and may 
 cause side effects (called  metabolic acidosis ). </p>
 <p>Sodium 
-Pegasys contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
+Pegasys contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pegasys"
@@ -267,7 +270,7 @@ dose on the next day, your regularly scheduled day.
 Contact your doctor or pharmacist if you need any help determining how to manage a missed dose of 
 Pegasys. </p>
 <p>Do not take a double dose to make up for a forgotten dose. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -400,7 +403,7 @@ When Pegasys is used alone in hepatitis B or C patients, some of these effects a
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pegasys"
@@ -415,7 +418,7 @@ from light. </p>
 <p>Do not use this medicine if you notice the vial or packaging is damaged, if the solution is cloudy or if 
 it has floating particles or if the medicine is any colour besides colourless to light yellow. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -516,7 +519,7 @@ important information for you. </p>
 <p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -555,7 +558,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -564,7 +569,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -579,7 +585,7 @@ Usage: #inline
 3. Sådan skal du tage Pegasys 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -597,7 +603,7 @@ leveren. </p>
 <p>Kronisk hepatitis B: Pegasys anvendes normalt alene. 
 Kronisk hepatitis C: Pegasys anvendes i kombination med andre lægemidler til behandling af kronisk 
 hepatitis C. </p>
-<p>Læs også indlægssedlerne for de lægemidler, som anvendes i kombination med Pegasys.  </p>         </div>"""   
+<p>Læs også indlægssedlerne for de lægemidler, som anvendes i kombination med Pegasys.  </p> </div>"""   
           
 
              
@@ -761,7 +767,7 @@ eller børn op til 3 år.  </p>
 kan give bivirkninger (kaldet "metabolisk acidose") </p>
 <p>Natrium 
 Pegasys indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. den er i det væsentlige 
-natrium-fri. </p>         </div>"""   
+natrium-fri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pegasys"
@@ -822,7 +828,7 @@ den indtil næste dag, som er din normalt planlagte dag.
 Kontakt lægen eller apotekspersonalet, hvis du har brug for hjælp med hensyn til, hvad du skal gøre, 
 hvis du glemmer at tage en Pegasys-dosis. </p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis. 
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -956,7 +962,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pegasys"
@@ -972,7 +978,7 @@ beskytte mod lys. </p>
 opløsningen er uklar, eller hvis den indeholder partikler, eller hvis den ikke er farveløs eller lysegul, 
 men har en anden farve. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1141,7 +1147,7 @@ Lægen har ordineret Pegasys til dig personligt. Lad derfor være med at give l�
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 ● 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1180,7 +1186,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1189,7 +1197,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1204,7 +1213,7 @@ Usage: #inline
 3. Como utilizar Pegasys 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Pegasys 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1223,7 +1232,7 @@ virais do fígado. </p>
 Hepatite C Crónica: Pegasys é utilizado em associação com outros medicamentos no tratamento da 
 hepatite C crónica (HCC).  </p>
 <p>Deverá ler também o folheto informativo dos outros medicamentos que se utilizam em associação com 
-Pegasys. </p>         </div>"""   
+Pegasys. </p> </div>"""   
           
 
              
@@ -1432,7 +1441,7 @@ fígado ou rins. Isto porque podem acumular-se grandes quantidades de álcool be
 pode causar efeitos indesejáveis (“acidose metabólica"). </p>
 <p>Sódio 
 Pegasys contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente “isento de 
-sódio". </p>         </div>"""   
+sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pegasys"
@@ -1498,7 +1507,7 @@ Caso necessite de ajuda relativamente ao modo de proceder caso se tenha esquecid
 dose de Pegasys, contacte o seu médico ou farmacêutico. </p>
 <p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1642,7 +1651,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pegasys"
@@ -1659,7 +1668,7 @@ danificados, se a solução estiver turva ou se contiver partículas a flutuar o
 apresentar de incolor a amarelo claro. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1693,7 +1702,7 @@ Fehrgasse 7
 2401 Fischamend 
 Áustria </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

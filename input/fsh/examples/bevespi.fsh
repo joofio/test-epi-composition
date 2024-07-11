@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use</p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Bevespi Aerosphere</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +83,7 @@ breathing difficult.
 The medicine prevents the tightening of the muscles around the airways, making it easier for air to get 
 in and out of the lungs.
 Bevespi Aerosphere delivers the active substances directly to the airways in your lungs as you breathe 
-in. It will help to reduce the effects of COPD on your everyday life.</p>         </div>"""   
+in. It will help to reduce the effects of COPD on your everyday life.</p> </div>"""   
           
 
              
@@ -138,7 +140,7 @@ Do not use Bevespi Aerosphere if you are pregnant unless your doctor tells you t
 Do not use Bevespi Aerosphere if you are breast-feeding unless your doctor tells you that you can.
 Driving and using machines
 It is unlikely that this medicine will affect your ability to drive and use machines. However, dizziness 
-and nausea are common side effects which may occur. If this occurs, do not drive or use machines.</p>         </div>"""   
+and nausea are common side effects which may occur. If this occurs, do not drive or use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bevespi"
@@ -170,7 +172,7 @@ If you stop using Bevespi Aerosphere
 This medicine is for long-term use. It will only be effective as long as you are using it.
 Do not stop unless your doctor tells you to, even if you feel better, as your symptoms may get worse.
 If you want to stop treatment, first talk to your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -207,7 +209,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bevespi"
@@ -223,7 +225,7 @@ Do not store above 30oC.
 Warning: Do not break, puncture or burn the pressurised container, even when apparently empty. Do 
 not expose to temperatures higher than 50oC.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -322,7 +324,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -361,7 +363,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -370,7 +374,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsvejledning</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsvejledning</p>  </div>"""   
 
 
 
@@ -385,7 +389,7 @@ Usage: #inline
 3. Sådan skal du bruge Bevespi Aerosphere
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -403,7 +407,7 @@ vanskelig.
 Dette lægemiddel forhindrer, at musklerne omkring luftvejene spændes, hvilket gør det nemmere for 
 luften at komme ind og ud af lungerne.
 Bevespi Aerosphere bringer de virksomme stoffer direkte til luftvejene i lungerne, mens du trækker 
-vejret ind. Det vil hjælpe til at nedsætte påvirkningen fra KOL i din hverdag.</p>         </div>"""   
+vejret ind. Det vil hjælpe til at nedsætte påvirkningen fra KOL i din hverdag.</p> </div>"""   
           
 
              
@@ -480,7 +484,7 @@ den. Hvis du ammer, skal du tale med din læge, inden du bruger Bevespi Aerosphe
 Trafik- og arbejdssikkerhed
 Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at føre motorkøretøj og anvende 
 maskiner. Men der kan opstå svimmelhed og kvalme, som er almindelige bivirkninger. Hvis dette 
-sker, må du ikke føre motorkøretøj eller betjene maskiner.</p>         </div>"""   
+sker, må du ikke føre motorkøretøj eller betjene maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bevespi"
@@ -513,7 +517,7 @@ Dette lægemiddel er beregnet til langtidsbrug. Det vil kun virke, så længe du
 Stop ikke, medmindre din læge fortæller dig, at du skal, også selvom du føler dig bedre tilpas, da dine 
 symptomer kan blive værre. Hvis du vil stoppe behandlingen, skal du først tale med din læge.
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.
-32</p>         </div>"""         
+32</p> </div>"""         
 
         
 * section[=].section[+]
@@ -566,7 +570,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bevespi"
@@ -583,7 +587,7 @@ Må ikke opbevares ved temperaturer over 30 C.
 Advarsel: Undgå at bryde, punktere eller brænde trykbeholderen, selv når den tilsyneladende er tom. 
 Må ikke udsættes for temperaturer over 50 C.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -868,7 +872,7 @@ Hvis du ikke bruger din Bevespi Aerosphere i mere end 7 dage, eller hvis inhalat
 for lave temperaturer eller er blevet tabt, skal du atter klargøre den før brug.
 For at klargøre inhalatoren igen skal du omryste inhalatoren grundigt og trykke ned på midten af 
 dosisindikatoren to gange for at frigive i alt 2 pust ud i luften væk fra dit ansigt. Din inhalator er nu 
-klar til brug.</p>         </div>"""      
+klar til brug.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Mimpara </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ treatments. </p>
  Primary  means that the hyperparathyroidism is not caused by any other condition and  secondary<br />
 means that the hyperparathyroidism is caused by another condition, e.g. kidney disease. Both primary 
 and secondary hyperparathyroidism can cause the loss of calcium in the bones, which can lead to bone 
-pain and fractures, problems with blood and heart vessels, kidney stones, mental illness and coma. </p>         </div>"""   
+pain and fractures, problems with blood and heart vessels, kidney stones, mental illness and coma. </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ Dizziness and seizures have been reported by patients taking Mimpara. If you exp
 effects, do not drive or operate machines. </p>
 <p>Mimpara contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product. </p>         </div>"""   
+before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mimpara"
@@ -184,7 +187,7 @@ of overdose include numbness or tingling around the mouth, muscle aches or cramp
 <p>If you forget to take Mimpara 
 Do not take a double dose to make up for a forgotten dose.  </p>
 <p>If you have forgotten a dose of Mimpara, you should take your next dose as normal. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -237,7 +240,7 @@ condition and/or low blood pressure (hypotension). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mimpara"
@@ -251,7 +254,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -429,7 +435,7 @@ Usage: #inline
 3. Sådan skal De tage Mimpara 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -466,7 +472,7 @@ med andre behandlinger. </li>
 “Primær" betyder, at hyperparatyroidismen ikke skyldes nogen anden tilstand, og “sekundær" betyder, 
 at hyperparatyroidismen skyldes en anden tilstand, for eksempel nyresygdom. Både primær og 
 sekundær hyperparatyroidisme kan medføre et for lavt calciumniveau i knoglerne, som kan give 
-smerter i knoglerne, knoglebrud, hjerte-kar-sygdom, nyresten, psykiske lidelser og koma. </p>         </div>"""   
+smerter i knoglerne, knoglebrud, hjerte-kar-sygdom, nyresten, psykiske lidelser og koma. </p> </div>"""   
           
 
              
@@ -570,7 +576,7 @@ Der er indberettet svimmelhed og krampeanfald fra patienter, som fik Mimpara. Hv
 bivirkninger, må De ikke køre bil eller betjene maskiner. </p>
 <p>Mimpara indeholder lactose 
 Kontakt lægen, før De tager denne medicin, hvis lægen har fortalt Dem, at De ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mimpara"
@@ -598,7 +604,7 @@ krampeanfald. </p>
 <p>Hvis De har glemt at tage Mimpara 
 De må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
 <p>Hvis De har glemt at tage en dosis Mimpara, skal De tage den næste dosis som normalt. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -713,7 +719,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mimpara"
@@ -727,7 +733,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og beholder
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring. 
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -899,7 +905,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med at give det til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

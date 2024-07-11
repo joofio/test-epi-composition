@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Abiraterone Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ testosterone; this can slow the growth of prostate cancer. </p>
 hormone therapy, it is used with a treatment that lowers testosterone (androgen deprivation therapy). </p>
 <p>When you take this medicine your doctor will also prescribe another medicine called prednisone or 
 prednisolone. This is to lower your chances of getting high blood pressure, having too much water in 
-your body (fluid retention), or having reduced levels of a chemical known as potassium in your blood. </p>         </div>"""   
+your body (fluid retention), or having reduced levels of a chemical known as potassium in your blood. </p> </div>"""   
           
 
              
@@ -166,7 +169,7 @@ This medicine is not likely to affect your being able to drive and use any tools
 - This medicine contains lactose (a type of sugar). If you have been told by your doctor that you 
 have an intolerance to some sugars, contact your doctor before taking this medicine. 
 - This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abiraterone"
@@ -208,7 +211,7 @@ following day.
 talk to your doctor without delay. </p>
 <p>If you stop taking Abiraterone Mylan 
 Do not stop taking Abiraterone Mylan or prednisone or prednisolone unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -244,7 +247,7 @@ or prednisolone may increase bone loss. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abiraterone"
@@ -257,7 +260,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -400,7 +403,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -409,7 +414,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -426,7 +432,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring af Abiraterone Mylan  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -442,7 +448,7 @@ hormonbehandling, anvendes det sammen med en behandling, der nedsætter dannelse
 (androgen deprivationsbehandling). </p>
 <p>Mens du er i behandling med dette lægemiddel, vil din læge også ordinere enten prednison eller 
 prednisolon til dig. Derved nedsættes risikoen for, at du får højt blodtryk, for meget væske i kroppen 
-(væskeretention) eller nedsat indhold af mineralet kalium i blodet. </p>         </div>"""   
+(væskeretention) eller nedsat indhold af mineralet kalium i blodet. </p> </div>"""   
           
 
              
@@ -533,7 +539,7 @@ Dette lægemiddel påvirker sandsynligvis ikke arbejdssikkerheden eller evnen ti
 - Dette lægemiddel indeholder lactose (sukkerart). Kontakt lægen, før du tager denne medicin, 
 hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. 
 - Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abiraterone"
@@ -574,7 +580,7 @@ sædvanlige dosis næste dag.
 i mere end én dag. </p>
 <p>Hvis du holder op med at tage Abiraterone Mylan 
 Hold ikke op med at tage Abiraterone Mylan, medmindre din læge giver dig besked på det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -613,7 +619,7 @@ Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninge
 som ikke er nævnt i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abiraterone"
@@ -627,7 +633,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 Du må du ikke smide medicinrester i afløbet eller toilettet eller skraldespanden. Spørg 
 apotekspersonalet, 
 hvordan du skal bortskaffe medicinrester. Disse tiltag hjælper med at beskytte 
-miljøet. </p>         </div>"""      
+miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -758,7 +764,7 @@ Tel: +353 18711 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -797,7 +803,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -806,7 +814,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -823,7 +832,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Abiraterona Mylan  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -841,7 +850,7 @@ privação androgénica). </p>
 <p>Quando tomar este medicamento, o seu médico também irá receitar-lhe outro medicamento chamado 
 prednisona ou prednisolona. Este é usado para diminuir as hipóteses de sofrer hipertensão arterial 
 (tensão alta), de ter demasiada água acumulada no seu organismo (retenção de fluidos) ou de ter níveis 
-baixos, no seu sangue, de uma substância química conhecida por potássio. </p>         </div>"""   
+baixos, no seu sangue, de uma substância química conhecida por potássio. </p> </div>"""   
           
 
              
@@ -934,7 +943,7 @@ máquinas. </p>
 - Este medicamento contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que 
 tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. 
 - Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar abiraterone"
@@ -982,7 +991,7 @@ mais do que um dia, fale imediatamente com o seu médico. </p>
 Não pare de tomar Abiraterona Mylan, prednisona ou prednisolona a não ser que o seu médico lhe 
 diga para parar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1019,7 +1028,7 @@ com a prednisona ou a prednisolona pode aumentar a perda óssea. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar abiraterone"
@@ -1032,7 +1041,7 @@ no frasco após EXP. O prazo de validade corresponde ao último dia do mês indi
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1166,7 +1175,7 @@ Mylan IRE Healthcare Limited<br />
 Tel.: +353 18711 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

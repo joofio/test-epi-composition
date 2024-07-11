@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Fareston</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -73,7 +76,7 @@ Usage: #inline
   * code.text =  "1. What fareston is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fareston contains the active substance toremifene, an anti-estrogen. Fareston is used for the treatment 
-of a certain type of breast tumour in women who have had their menopause.</p>         </div>"""   
+of a certain type of breast tumour in women who have had their menopause.</p> </div>"""   
           
 
              
@@ -200,7 +203,7 @@ Confidential
 Approved
  /  28.0
 Confidential
-19 / </p>         </div>"""   
+19 / </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fareston"
@@ -219,7 +222,7 @@ take a double dose to make up for a forgotten tablet. If you have missed several
 your doctor and follow his instructions.
 If you stop taking Fareston
 The treatment with Fareston should only be stopped when advised by your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -302,7 +305,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fareston"
@@ -314,7 +317,7 @@ Do not use this medicine after the expiry date which is stated on the label. The
 the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -426,7 +429,7 @@ Orion Corporation
 Tel: +358 10 4United Kingdom (Northern Ireland)
 Orion Corporation
 Tel: +358 10 4This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -465,7 +468,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -474,7 +479,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -489,7 +495,7 @@ Usage: #inline
 3. Sådan skal du tage Fareston
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -498,7 +504,7 @@ Usage: #inline
   * code.text =  "1. What fareston is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fareston indeholder det aktive stof toremifen, et antiøstrogen. Fareston anvendes til behandling af 
-visse former for brystkræft hos kvinder efter overgangsalderen.</p>         </div>"""   
+visse former for brystkræft hos kvinder efter overgangsalderen.</p> </div>"""   
           
 
              
@@ -602,7 +608,7 @@ lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
 Andre hjælpestoffer
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
 væsentlige natriumfrit.
-20</p>         </div>"""   
+20</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fareston"
@@ -622,7 +628,7 @@ som anbefalet. Du må ikke tage en dobbeltdosis som erstatning for den glemte do
 glemt flere doser, skal du informere din læge og følge lægens instruktioner.
 Hvis du holder op med at tage Fareston
 Behandling med Fareston bør kun ophøre, hvis din læge har anbefalet det.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -696,7 +702,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fareston"
@@ -708,7 +714,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på etiketten. Udløbsdat
 nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet eller, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet eller, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -829,7 +835,7 @@ Orion Corporation
 Tel: +358 10 4261
 Denne indlægsseddel blev senest ændret
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

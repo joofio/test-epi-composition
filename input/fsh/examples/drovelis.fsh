@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Drovelis </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ female hormones, namely estetrol and drospirenone.
 placebo tablets. 
 - Contraceptive pills that contain two different hormones, like Drovelis, are called  combination<br />
 or  combined  pills. They work together to prevent ovulation (release of an egg from the ovary) 
-and to reduce the chance of any released egg being fertilised and making you pregnant. </p>         </div>"""   
+and to reduce the chance of any released egg being fertilised and making you pregnant. </p> </div>"""   
           
 
              
@@ -441,7 +444,7 @@ Drovelis has no or negligible effect on the ability to drive and use machines. <
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 The pink active tablet contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take drovelis"
@@ -600,7 +603,7 @@ about other methods of birth control.
 If you stop taking Drovelis because you want to get pregnant,  it is best to wait until you have had a 
 natural period before trying to become pregnant. This will help you to calculate the expected delivery 
 date more easily. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -694,7 +697,7 @@ clots and the symptoms of a blood clot). </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store drovelis"
@@ -706,7 +709,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -758,7 +761,7 @@ Germany </p>
 Gy mr i  t 19-21. 1103 Budapest 
 Hungary </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -797,7 +800,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -806,7 +811,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -823,7 +829,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -839,7 +845,7 @@ kaldes placebotabletter.
 - P-piller, der indeholder to forskellige hormoner, som f.eks. Drovelis, kaldes “kombinations-p-
 piller" eller “kombinerede p-piller". De arbejder sammen for at forhindre ægløsning (frigivelse 
 af et æg fra æggestokken) og for at reducere risikoen for, at et frigivet æg bliver befrugtet og gør 
-dig gravid. </p>         </div>"""   
+dig gravid. </p> </div>"""   
           
 
              
@@ -1214,7 +1220,7 @@ Drovelis påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkør
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. 
 Den lyserøde tablet indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det 
-væsentlige natriumfri.  </p>         </div>"""   
+væsentlige natriumfri.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take drovelis"
@@ -1415,7 +1421,7 @@ din læge om andre former for prævention.
 Hvis du stopper med at tage Drovelis, fordi du ønsker at blive gravid, er det bedst at vente, til du har 
 haft din første normale menstruation, inden du forsøger at blive gravid. Dette vil hjælpe dig med 
 nemmere at beregne barnets forventede fødselsdato. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1509,7 +1515,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store drovelis"
@@ -1521,7 +1527,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1574,7 +1580,7 @@ Gyömrői út 19-21. 1103 Budapest
 Ungarn </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -1613,7 +1619,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1622,7 +1630,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1639,7 +1648,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Drovelis </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1655,7 +1664,7 @@ hormonas e chamam-se comprimidos placebo.
 - As pílulas contracetivas que contêm duas hormonas diferentes, como Drovelis, chamam-se 
 pílulas “de combinação" ou “combinadas". Elas atuam em conjunto para prevenir a ovulação 
 (libertação de um óvulo do ovário) e para reduzir a probabilidade de algum óvulo libertado ser 
-fecundado e deixá-la grávida. </p>         </div>"""   
+fecundado e deixá-la grávida. </p> </div>"""   
           
 
              
@@ -2023,7 +2032,7 @@ amamentar, deve falar com o seu médico. </p>
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
 este medicamento. 
 O comprimido ativo rosa contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio".  </p>         </div>"""   
+praticamente “isento de sódio".  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar drovelis"
@@ -2243,7 +2252,7 @@ ao seu médico sobre outros métodos de controlo da natalidade.
 Se parar de tomar Drovelis porque deseja engravidar, é melhor esperar até ter um período natural antes 
 de tentar engravidar. Isto ajudará a calcular mais facilmente a data prevista para o parto. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2333,7 +2342,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar drovelis"
@@ -2346,7 +2355,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2401,7 +2410,7 @@ Alemanha </p>
 Gyömrői út 19-21. 1103 Budapest 
 Hungria </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

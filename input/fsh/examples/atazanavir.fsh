@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Atazanavir Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ linked to HIV infection. </p>
 prescribed Atazanavir Mylan for you because you are infected by the HIV that causes Acquired 
 Immunodeficiency Syndrome (AIDS). It is normally used in combination with other anti-HIV medicines. 
 Your doctor will discuss with you which combination of these medicines with Atazanavir Mylan is best for 
-you. </p>         </div>"""   
+you. </p> </div>"""   
           
 
              
@@ -203,7 +206,7 @@ soon as possible. </p>
 If you feel dizzy or lightheaded, do not drive or use machines and contact your doctor immediately. </p>
 <p>Atazanavir Mylan contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars (e.g., lactose), contact your 
-doctor before taking this medicinal product. </p>         </div>"""   
+doctor before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take atazanavir"
@@ -244,7 +247,7 @@ at its regular time. If it is almost time for your next dose, do not take the mi
 dose at its regular time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Atazanavir Mylan 
 Do not stop taking Atazanavir Mylan before talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ in the urine), pollakiuria (increased frequency of urination) </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store atazanavir"
@@ -336,7 +339,7 @@ refers to the last day of that month.
 Store below 25 C. Store in the original package in order to protect from moisture. </p>
 <p>For bottles: Once opened, use within 90 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -449,7 +452,7 @@ Viatris SIA
 Tel: + 371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
  Tel: + 353 18711This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 

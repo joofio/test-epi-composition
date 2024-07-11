@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Orphacol </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orphacol contains cholic acid, a bile acid which is normally produced by the liver. Certain medical 
 conditions are caused by defects in bile acid production and Orphacol is used to treat infants from one 
 month to 2 years of age, children, adolescents and adults with these medical conditions. The cholic acid 
-contained in Orphacol replaces the bile acids that are missing due to the defect in bile acid production. </p>         </div>"""   
+contained in Orphacol replaces the bile acids that are missing due to the defect in bile acid production. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ feeding before you take Orphacol. </p>
 Orphacol is not expected to have an effect on the ability to drive and use machines. </p>
 <p>Orphacol contains lactose 
 Orphacol contains a certain sugar (lactose monohydrate). If you have been told by your doctor that you 
-have an intolerance to some sugars, contact your doctor before taking Orphacol. </p>         </div>"""   
+have an intolerance to some sugars, contact your doctor before taking Orphacol. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orphacol"
@@ -153,7 +156,7 @@ forgotten dose. </p>
 <p>If you stop taking Orphacol 
 There is a risk of permanently damaging your liver if you stop taking Orphacol. You should never stop 
 taking Orphacol unless your doctor advises you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -172,7 +175,7 @@ what to do if this happens to you. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orphacol"
@@ -184,7 +187,7 @@ reporting side effects you can help provide more information on the safety of th
 date refers to the last day of that month. </p>
 <p>Store below 30 C. </p>
 <p>Medicines should not be disposed of via wasterwater or household waste. Ask your pharmacist how to 
-dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
+dispose of medicines no longer required. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -315,7 +318,7 @@ complete information on this medicine.
 The European Medicines Agency will review any new information on the medicine every year and this 
 leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -354,7 +357,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -363,7 +368,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -378,7 +384,7 @@ Usage: #inline
 3. Sådan skal du tage Orphacol 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -389,7 +395,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orphacol indeholder cholsyre, som er en galdesyre, der normalt produceres i leveren. Nogle sygdomme 
 skyldes fejl i galdesyreproduktionen, og Orphacol bruges til at behandle spædbørn fra 1 måned til 2 år, 
 børn, unge og voksne med disse sygdomme. Cholsyren i Orphacol erstatter de galdesyrer, som mangler på 
-grund af fejlen i galdesyreproduktionen. </p>         </div>"""   
+grund af fejlen i galdesyreproduktionen. </p> </div>"""   
           
 
              
@@ -435,7 +441,7 @@ før du begynder at tage Orphacol. </p>
 Orphacol forventes ikke at påvirke evnen til at køre bil eller betjene maskiner. </p>
 <p>Orphacol indeholder lactose 
 Orphacol indeholder et bestemt sukkerstof (lactosemonohydrat). Kontakt lægen, før du tager Orphacol, 
-hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orphacol"
@@ -470,7 +476,7 @@ glemte dosis. </p>
 Der er risiko for permanent skade på leveren, hvis du holder op med at tage Orphacol. Du må aldrig holde 
 op med at tage Orphacol, medmindre lægen siger det. </p>
 <p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om vedrørende brugen af denne 
-medicin. </p>         </div>"""         
+medicin. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -490,7 +496,7 @@ vil din læge beslutte, hvad der skal gøres. </p>
 Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som ikke 
 er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orphacol"
@@ -502,7 +508,7 @@ bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af
 sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 30 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -645,7 +651,7 @@ indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om Orphacol på Det Europæiske Lægemiddelagenturs hjemmeside: 
 http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme og om, hvordan 
-de behandles. </p>         </div>"""      
+de behandles. </p> </div>"""      
 
 
 

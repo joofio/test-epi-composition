@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tadalafil Mylan</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ phosphodiesterase type 5 inhibitors. Following sexual stimulation Tadalafil Myla
 blood vessels in your penis to relax, allowing the flow of blood into your penis. The result of this is 
 improved erectile function. Tadalafil Mylan will not help you if you do not have erectile dysfunction.
 It is important to note that tadalafil does not work if there is no sexual stimulation. You and your partner will 
-need to engage in foreplay, just as you would if you were not taking a medicine for erectile dysfunction.</p>         </div>"""   
+need to engage in foreplay, just as you would if you were not taking a medicine for erectile dysfunction.</p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ Tadalafil Mylan contains lactose
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before 
 taking this medicine.
 Tadalafil Mylan contains sodium
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free .</p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tadalafil"
@@ -202,7 +205,7 @@ If you take more Tadalafil Mylan than you should
 Contact your doctor. You may experience side effects described in section 4. If you forget to take Tadalafil Mylan
 Take your dose as soon as you remember but do not take a double dose to make up for a forgotten tablet. 
 You should not take Tadalafil Mylan more than once a day.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ Diarrhoea has been reported more frequently in men over the age of 65 taking tad
 Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side affects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+V. By reporting side affects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tadalafil"
@@ -265,7 +268,7 @@ Do not use this medicine after the expiry date which is stated on the carton aft
 refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ Tel: + 371 676 05United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited
 Tel: +353 18711This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -408,7 +411,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -417,7 +422,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -434,7 +440,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -450,7 +456,7 @@ phosphodiesterase type 5-hæmmere. Ved seksuel stimulation virker Tadalafil Myla
 blodkarrene i penis til at slappe af, så blodet kan strømme ind i penis. Resultatet af dette er en 
 forbedret rejsning. Tadalafil Mylan hjælper ikke, hvis du ikke har erektil dysfunktion. </p>
 <p>Det er vigtigt at huske, at tadalafil kun virker ved seksuel stimulation. Du og din partner må indlede et 
-forspil, ligesom du ville gøre, hvis ikke du tog medicin for erektil dysfunktion. </p>         </div>"""   
+forspil, ligesom du ville gøre, hvis ikke du tog medicin for erektil dysfunktion. </p> </div>"""   
           
 
              
@@ -540,7 +546,7 @@ du reagerer på tabletterne, før du begynder at køre bil eller betjene værkt�
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Tadalafil Mylan indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) per tablet, og er derfor i det 
-væsentligste natrium frit. </p>         </div>"""   
+væsentligste natrium frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tadalafil"
@@ -563,7 +569,7 @@ helst tidspunkt i løbet af døgnets 24 timer, når du bliver seksuelt stimulere
 Kontakt din læge. Du kan muligvis få bivirkninger, som beskrevet i punkt 4. Hvis du har glemt at tage Tadalafil Mylan 
 Tag din dosis med det samme, du kommer i tanker om det, men tag ikke en dobbeltdosis som 
 erstatning for den glemte tablet. Du må ikke tage Tadalafil Mylan mere end én gang dagligt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -618,7 +624,7 @@ Axel Heides Gade 1
 DK-2300 København S 
 Websted: www.meldenbivirkning.dk </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tadalafil"
@@ -630,7 +636,7 @@ af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

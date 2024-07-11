@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How EndolucinBeta is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ be substances that have been designed to recognise a particular type of cell in 
 <p>The use of a medicine radiolabelled with EndolucinBeta does involve exposure to radioactivity. Your 
 doctor and the nuclear medicine doctor have considered that the clinical benefit that you will obtain 
 from the procedure with the radiopharmaceutical outweighs the risk due to radiation. </p>
-<p>Please refer to the Package Leaflet of the medicine that is to be radiolabelled with EndolucinBeta. </p>         </div>"""   
+<p>Please refer to the Package Leaflet of the medicine that is to be radiolabelled with EndolucinBeta. </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ You will be asked to stop breast-feeding.
 Please ask your nuclear medicine doctor when you can resume breast-feeding. </p>
 <p>Driving and using machines 
 There could be effects on your ability to drive and to use machines due to the medicine used in 
-combination with EndolucinBeta. Please read the package leaflet of that medicine carefully. </p>         </div>"""   
+combination with EndolucinBeta. Please read the package leaflet of that medicine carefully. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take endolucinbeta"
@@ -190,7 +193,7 @@ strictly controlled conditions, there is only a very small chance of possible ov
 case of an overdose or an inadvertent intravenous injection of the unlabelled product, you will receive 
 appropriate treatment that will remove the radionuclide from the body. </p>
 <p>Should you have any further questions on the use of the medicine radiolabelled with EndolucinBeta, 
-ask your nuclear medicine doctor who supervises the procedure. </p>         </div>"""         
+ask your nuclear medicine doctor who supervises the procedure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -242,7 +245,7 @@ radiolabelled. </p>
 If you get any side effects, talk to your nuclear medicine doctor. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store endolucinbeta"
@@ -256,7 +259,7 @@ regulation on radioactive materials. </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>EndolucinBeta must not be used after the expiry date and time which is stated on the label after EXP. 
 EndolucinBeta will be stored in the original package that provides protection from radiation. </p>
-<p>This medicine does not require any special temperature storage conditions. </p>         </div>"""      
+<p>This medicine does not require any special temperature storage conditions. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -287,7 +290,7 @@ Germany
 Tel: + 49-89-289 139-info@itm.ag </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -326,7 +329,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -335,7 +340,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -352,7 +358,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -372,7 +378,7 @@ chlorid og kan være stoffer, som er udformet, så de genkender en bestemt type 
 <p>Anvendelse af lægemidler, som er radioaktivt mærket med EndolucinBeta, medfører udsættelse for 
 radioaktivitet. Din egen læge og den nuklearmedicinske læge har vurderet, at den kliniske fordel, du 
 vil få af proceduren med det radioaktive lægemiddel, opvejer den risiko, som strålingen forårsager. </p>
-<p>Se indlægssedlen for det lægemiddel, der skal mærkes radioaktivt med EndolucinBeta. </p>         </div>"""   
+<p>Se indlægssedlen for det lægemiddel, der skal mærkes radioaktivt med EndolucinBeta. </p> </div>"""   
           
 
              
@@ -448,7 +454,7 @@ Spørg den nuklearmedicinske læge om, hvornår du kan begynde at amme igen. </p
 <p>Trafik- og arbejdssikkerhed 
 Din evne til at føre motorkøretøj eller betjene maskiner kan muligvis blive påvirket af det lægemiddel, 
 der anvendes i kombination med EndolucinBeta. Læs indlægssedlen for det pågældende lægemiddel 
-omhyggeligt. </p>         </div>"""   
+omhyggeligt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take endolucinbeta"
@@ -481,7 +487,7 @@ under strengt kontrollerede forhold. Der er derfor kun meget lille risiko for ov
 en overdosis eller utilsigtet intravenøs injektion af det umærkede præparat vil du imidlertid få 
 passende behandling, der fjerner radionuklidet fra kroppen. </p>
 <p>Spørg den nuklearmedicinske læge med ansvar for proceduren, hvis der er mere, du vil vide om det 
-lægemiddel, der er radioaktivt mærket med EndolucinBeta. </p>         </div>"""         
+lægemiddel, der er radioaktivt mærket med EndolucinBeta. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -529,7 +535,7 @@ Hvis du oplever bivirkninger, bør du tale med den nuklearmedicinske læge. Dett
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store endolucinbeta"
@@ -543,7 +549,7 @@ materialer. </p>
 <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Anvend ikke EndolucinBeta efter den dato og det klokkeslæt, som er trykt på etiketten efter EXP. 
 Opbevares i den originale emballage, der skærmer mod stråling. </p>
-<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>         </div>"""      
+<p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -584,7 +590,7 @@ hjemmeside: http://www.ema.europa.eu </p>
 <p>Det fuldstændige produktresumé for EndolucinBeta er vedlagt som et separat dokument i pakningen 
 for at give sundhedspersoner yderligere videnskabelig og praktisk information om anvendelsen af 
 dette radioaktive lægemiddel. </p>
-<p>Der henvises til produktresuméet. </p>         </div>"""      
+<p>Der henvises til produktresuméet. </p> </div>"""      
 
 
 

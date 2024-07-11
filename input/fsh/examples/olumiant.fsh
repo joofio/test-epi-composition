@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Olumiant  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -108,7 +111,7 @@ the joints and the places where tendons join the bone, in children 2 years of ag
 <p>Olumiant is also used for the treatment of active juvenile psoriatic arthritis, a condition that is an 
 inflammatory disease of the joints often accompanied by psoriasis, in children 2 years of age and 
 older. </p>
-<p>Olumiant can be used alone or together with methotrexate. </p>         </div>"""   
+<p>Olumiant can be used alone or together with methotrexate. </p> </div>"""   
           
 
              
@@ -213,7 +216,7 @@ You and your doctor should decide if you will breast-feed or use Olumiant. You s
 Olumiant has no effect on the ability to drive and use machines.  </p>
 <p>Olumiant contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take olumiant"
@@ -259,7 +262,7 @@ usual the following day.<br />
 - Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Olumiant<br />
 Do not stop taking Olumiant unless your doctor tells you to stop taking it. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ low number of white bloods cells (neutrophils), which was more common compared t
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store olumiant"
@@ -334,7 +337,7 @@ safety of this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the blister and carton after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -429,7 +432,7 @@ Tel: +371 67364United Kingdom (Northern Ireland)
 Eli Lilly and Company (Ireland) Limited 
 Tel: +  353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -468,7 +471,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -477,7 +482,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -492,7 +498,7 @@ Usage: #inline
 3. Sådan skal du tage Olumiant 
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -535,7 +541,7 @@ sygdom i leddene, hos børn i alderen 2 år og opefter.  </p>
 leddene og de steder, hvor sener hæfter på knogler, hos børn i alderen 2 år og opefter. </p>
 <p>Olumiant bruges også til behandling af aktiv juvenil psoriasisartritis, en inflammatorisk sygdom i 
 leddene, der ofte ledsages af psoriasis, hos børn i alderen 2 år og opefter. </p>
-<p>Olumiant kan bruges alene eller sammen med methotrexat. </p>         </div>"""   
+<p>Olumiant kan bruges alene eller sammen med methotrexat. </p> </div>"""   
           
 
              
@@ -639,7 +645,7 @@ skal sammen afgøre, om du skal amme eller tage Olumiant. Du bør ikke gøre beg
 Olumiant påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Olumiant indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take olumiant"
@@ -687,7 +693,7 @@ enkelt dosis som sædvanlig den efterfølgende dag.<br />
 <p>Hvis du holder op med at tage Olumiant<br />
 Du må ikke stoppe med at tage Olumiant, medmindre lægen fortæller dig, at du skal stoppe med at 
 tage det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -760,7 +766,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store olumiant"
@@ -772,7 +778,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Tag ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter ‘EXP’. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1003,7 +1009,7 @@ nakke, ryg) </p>
 <li>
 <p>utydelig tale  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1042,7 +1048,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1051,7 +1059,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1068,7 +1077,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Olumiant </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1115,7 +1124,7 @@ ou superior a 2 anos. </p>
 <p>Olumiant é também utilizado para o tratamento da artrite psoriática juvenil ativa, uma doença inflamatória 
 das articulações frequentemente acompanhada de psoríase, em crianças com idade igual ou superior a 
 2 anos. </p>
-<p>Olumiant pode ser utilizado sozinho ou em conjunto com o metotrexato. </p>         </div>"""   
+<p>Olumiant pode ser utilizado sozinho ou em conjunto com o metotrexato. </p> </div>"""   
           
 
              
@@ -1219,7 +1228,7 @@ as duas coisas em simultâneo. </p>
 Olumiant não tem qualquer efeito sobre a capacidade de conduzir e utilizar máquinas. </p>
 <p>Olumiant contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar olumiant"
@@ -1267,7 +1276,7 @@ Caso se tenha esquecido de tomar Olumiant<br />
 - Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
 <p>Se parar de tomar Olumiant<br />
 Não pare de tomar o seu medicamento a menos que o seu médico lhe diga para o fazer. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1334,7 +1343,7 @@ comparação aos adultos. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar olumiant"
@@ -1346,7 +1355,7 @@ indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança
 <p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e blister após 
 “EXP". A data de validade refere-se ao último dia do mês indicado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1460,7 +1469,7 @@ Eli Lilly and Company (Ireland) Limited
 Tel: + 353-(0) 1 661 4 
 Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

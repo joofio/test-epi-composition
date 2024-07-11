@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Binocrit</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ Binocrit is used in moderately anaemic adults about to have major orthopaedic su
 example hip or knee replacement operations), to reduce the potential need for blood transfusions.
 Binocrit is used to treat anaemia in adults with a bone marrow disorder that causes a severe 
 disruption in the creation of blood cells (myelodysplastic syndromes). Binocrit can reduce the need 
-for a blood transfusion.</p>         </div>"""   
+for a blood transfusion.</p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ Binocrit, but discuss it with your doctor first:</p>
 <p>if you are pregnant, or think you may be pregnant.</p>
 <p>if you are breast-feeding.
 Binocrit contains sodium
-Binocrit contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium free .</p>         </div>"""   
+Binocrit contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take binocrit"
@@ -293,7 +296,7 @@ If you forget to use Binocrit
 Make the next injection as soon as you remember. If you are within a day of your next injection, forget 
 the missed one and carry on with your normal schedule. Do not double up the injections to make up 
 for a forgotten dose.
-If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store binocrit"
@@ -396,7 +399,7 @@ Do not use this medicine if you notice that</p>
 <p>the liquid is coloured or you can see particles floating in it,</p>
 <p>the seal is broken.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -513,7 +516,7 @@ Sandoz GmbH
 Tel: +43 5338 2Latvija
 Sandoz d.d. Latvia fili le
 Tel: +371 67 892 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -552,7 +555,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -561,7 +566,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -576,7 +582,7 @@ Usage: #inline
 3. Sådan skal du bruge Binocrit
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -609,7 +615,7 @@ ortopædkirurgisk operation (for eksempel udskiftning af hofte eller knæ), for 
 eventuelle behov for blodtransfusioner.
 Binocrit anvendes til at behandle anæmi hos voksne med en knoglemarvssygdom, der medfører 
 svære forstyrrelser i dannelsen af blodlegemer (myelodysplastiske syndromer). Binocrit kan 
-nedsætte behovet for blodtransfusion.</p>         </div>"""   
+nedsætte behovet for blodtransfusion.</p> </div>"""   
           
 
              
@@ -714,7 +720,7 @@ gravid, skal du spørge din læge eller apotekspersonalet til råds, før du tag
 Der foreligger ingen data om Binocrits indvirkning på frugtbarheden.
 Binocrit indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take binocrit"
@@ -868,7 +874,7 @@ Hvis du har glemt at bruge Binocrit
 Udfør den næste indsprøjtning, så snart du husker på det. Hvis der er mindre end en dag til din næste 
 indsprøjtning, skal du springe over din glemte indsprøjtning og fortsætte med dit normale program. Du 
 må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -983,7 +989,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du 
 eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store binocrit"
@@ -1016,7 +1022,7 @@ injektionsvæsken er farvet, eller du kan se partiker i den,
 •
 forseglingen er brudt.
 Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet eller toilettet.</p>         </div>"""      
+smide lægemiddelrester i afløbet eller toilettet.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1199,7 +1205,7 @@ Du må ikke slippe trykket på stemplet!
 7. Når væsken er sprøjtet ind, skal du tage kanylen ud, mens du stadig bevarer trykket på stemplet. 
 Derefter kan du slippe huden. Tryk ned på indsprøjtningsstedet med en tør, steril vatrondel.
 8. Slip stemplet. Kanylebeskyttelsen flytter sig hurtigt for at dække kanylen.
-9. Smid ikke-anvendt lægemiddel samt affald heraf ud. Brug kun sprøjten til én indsprøjtning.</p>         </div>"""      
+9. Smid ikke-anvendt lægemiddel samt affald heraf ud. Brug kun sprøjten til én indsprøjtning.</p> </div>"""      
 
 
 
@@ -1238,7 +1244,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1247,7 +1255,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1262,7 +1271,7 @@ Usage: #inline
 3. Como utilizar Binocrit
 4. Efeitos indesejáveis possíveis
 5. Como conservar Binocrit
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1301,7 +1310,7 @@ Binocrit é utilizado para tratar a anemia em adultos com uma afeção da medula
 provoca uma perturbação grave na criação de células sanguíneas (síndrome mielodisplásica). 
 Binocrit pode reduzir a necessidade de uma transfusão de sangue.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1431,7 +1440,7 @@ Binocrit contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
 “isento de sódio".</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar binocrit"
@@ -1636,7 +1645,7 @@ que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, enfermeiro ou 
 farmacêutico.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1789,7 +1798,7 @@ indesejáveis diretamente através do sistema nacional de notificação menciona
 Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
 deste medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar binocrit"
@@ -1835,7 +1844,7 @@ Não utilize este medicamento se verificar</p>
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar 
 fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1983,7 +1992,7 @@ Latvija
 Sandoz d.d. Latvia filiāle
 Tel: +371 67 892 006
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

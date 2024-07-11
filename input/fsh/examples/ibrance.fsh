@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store IBRANCE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ progression of your cancer.  </p>
 <p>IBRANCE is used to treat patients with certain types of breast cancer (hormone receptor-positive, 
 human epidermal growth factor receptor 2-negative) which have spread beyond the original tumour 
 and/or to other organs. It is given together with aromatase inhibitors or fulvestrant, which are used as 
-hormonal anticancer therapies. </p>         </div>"""   
+hormonal anticancer therapies. </p> </div>"""   
           
 
              
@@ -166,7 +169,7 @@ when driving or using machines. </p>
 This medicine contains lactose (found in milk or dairy products). If you have been told by your doctor 
 that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say it is essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ibrance"
@@ -192,7 +195,7 @@ may be necessary. </p>
 for the forgotten capsules. </p>
 <p>If you stop taking IBRANCE </p>
 <p>Do not stop taking IBRANCE unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ibrance"
@@ -248,7 +251,7 @@ safety of this medicine. </p>         </div>"""
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ Pfizer Limited
 Tel: +44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: +371 670 35 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -393,7 +396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -402,7 +407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -417,7 +423,7 @@ Usage: #inline
 3. Sådan skal du tage IBRANCE
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -432,7 +438,7 @@ forsinke udviklingen af kræften.
 IBRANCE bruges til at behandle patienter med visse former for brystkræft (hormon receptor-positiv, 
 human epidermal vækstfaktor receptor 2-negativ), som har spredt sig ud over den oprindelige tumor 
 og/eller til andre organer. Det gives sammen med aromatasehæmmere eller fulvestrant, der anvendes 
-som hormonbehandlinger af kræft.</p>         </div>"""   
+som hormonbehandlinger af kræft.</p> </div>"""   
           
 
              
@@ -541,7 +547,7 @@ IBRANCE indeholder lactose og natrium
 Lægemidlet indeholder lactose, som findes i mælk og mejeriprodukter. Kontakt lægen, før du tager 
 dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ibrance"
@@ -568,7 +574,7 @@ Hvis du glemmer en dosis eller kaster op, skal du tage din næste dosis som plan
 en dobbeltdosis som erstatning for den glemte kapsel.
 Hvis du holder op med at tage IBRANCE
 Du må ikke stoppe med at tage IBRANCE, medmindre din læge fortæller dig det.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -617,7 +623,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ibrance"
@@ -631,7 +637,7 @@ Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemi
 Tag ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget, eller hvis der er tegn på, at 
 pakningen har været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -791,7 +797,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -830,7 +836,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -839,7 +847,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -854,7 +863,7 @@ Usage: #inline
 3. Como tomar IBRANCE
 4. Efeitos indesejáveis possíveis
 5. Como conservar IBRANCE
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -870,7 +879,7 @@ IBRANCE é utilizado para tratar doentes com determinados tipos de cancro da mam
 recetores hormonais, negativo para o recetor tipo 2 do fator de crescimento epidérmico humano) que 
 se espalhou para além do tumor original e/ou para outros órgãos. É administrado juntamente com 
 inibidores da aromatase ou fulvestrant, que são medicamentos utilizados como terapêuticas hormonais 
-anticancerígenas.</p>         </div>"""   
+anticancerígenas.</p> </div>"""   
           
 
              
@@ -984,7 +993,7 @@ IBRANCE contém lactose e sódio
 Este medicamento contém lactose (existente no leite e nos laticínios). Se tiver sido informada pelo seu 
 médico de que tem uma intolerância a alguns açúcares, contacte-o antes de tomar este medicamento.
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ibrance"
@@ -1015,7 +1024,7 @@ a dobrar para compensar uma dose que se esqueceu de tomar.
 Se parar de tomar IBRANCE
 Não pare de tomar IBRANCE a não ser que o seu médico lhe diga para o fazer.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1067,7 +1076,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ibrance"
@@ -1082,7 +1091,7 @@ Não utilize este medicamento se notar que a embalagem está danificada ou apres
 adulteração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1102,7 +1111,7 @@ Invólucro da cápsula: gelatina, óxido de ferro vermelho (E172), óxido de fer
 dióxido de titânio (E171).
 Tinta de impressão: goma-laca, dióxido de titânio (E171), hidróxido de amónio (solução 28%), 
 propilenoglicol, simeticone (ver secção 2 “IBRANCE contém lactose e sódio").
-10</p>         </div>"""      
+10</p> </div>"""      
 
 
 

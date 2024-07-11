@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Paxlovid </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ oxygen and who are at increased risk for progressing to severe disease. </p>
 <p>COVID-19 is caused by a virus called a coronavirus. Paxlovid stops the virus multiplying in cells and 
 this stops the virus multiplying in the body. This can help your body to overcome the virus infection, 
 and may prevent you from developing severe illness. </p>
-<p>If your symptoms worsen or do not improve after 5 days, talk to your doctor.  </p>         </div>"""   
+<p>If your symptoms worsen or do not improve after 5 days, talk to your doctor.  </p> </div>"""   
           
 
              
@@ -249,7 +252,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. </p>
 <p>Paxlovid contains sodium 
 Nirmatrelvir and ritonavir tablets each contain less than 1 mmol sodium (23 mg) per dose, that is to 
-say essentially 'sodium-free'. </p>         </div>"""   
+say essentially 'sodium-free'. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take paxlovid"
@@ -275,7 +278,7 @@ your regular time. Do not take 2 doses of Paxlovid at the same time. </p>
 <p>Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Paxlovid 
 Even if you feel better, do not stop taking Paxlovid without talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ trouble swallowing or breathing, throat tightness, or hoarseness)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store paxlovid"
@@ -319,7 +322,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -436,7 +439,7 @@ Tel: + 371 670 35 This leaflet was last revised in  </p>
 <p>Scan the code with a mobile device to get the package leaflet in different languages.  </p>
 <p>URL: https://pfi.sr/c19oralrx </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -475,7 +478,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -484,7 +489,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -499,7 +505,7 @@ Usage: #inline
 3. Sådan skal du tage Paxlovid
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -514,7 +520,7 @@ COVID-19 er forårsaget af en virus, der kaldes coronavirus. Paxlovid forhindrer
 sig i cellerne, og dette forhindrer virussen i at formere sig i kroppen. Dette kan hjælpe din krop med at 
 bekæmpe virusinfektionen og kan forhindre, at du bliver alvorligt syg. 
 Hvis dine symptomer bliver værre, eller du ikke får det bedre i løbet af 5 dage, skal du tale med din 
-læge.</p>         </div>"""   
+læge.</p> </div>"""   
           
 
              
@@ -761,7 +767,7 @@ sukkerarter.
 Paxlovid indeholder natrium
 Tabletterne med nirmatrelvir og ritonavir indeholder hver især mindre end 1 mmol (23 mg) natrium pr. 
 dosis, dvs. de er i det væsentlige natriumfri.
-46</p>         </div>"""   
+46</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take paxlovid"
@@ -788,7 +794,7 @@ normale planlagte tidspunkt.
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Paxlovid
 Selvom du får det bedre, må du ikke holde op med at tage Paxlovid uden at tale med lægen. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -838,7 +844,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store paxlovid"
@@ -850,7 +856,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken eller blistere
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1001,7 +1007,7 @@ Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. 
 Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside.</p>         </div>"""      
+hjemmeside.</p> </div>"""      
 
 
 
@@ -1040,7 +1046,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1049,7 +1057,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1064,7 +1073,7 @@ Usage: #inline
 3. Como tomar Paxlovid
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Paxlovid
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1078,7 +1087,7 @@ necessitem de oxigénio suplementar e com risco aumentado de progredirem para do
 A COVID-19 é causada por um vírus chamado coronavírus. Paxlovid impede o vírus de se multiplicar 
 nas células, e isto interrompe a multiplicação do vírus no organismo. Isto pode ajudar o seu organismo 
 a combater a infeção viral e poderá prevenir a evolução para formas graves da doença.
-Se os seus sintomas piorarem ou não melhorarem após 5 dias, fale com o seu médico.</p>         </div>"""   
+Se os seus sintomas piorarem ou não melhorarem após 5 dias, fale com o seu médico.</p> </div>"""   
           
 
              
@@ -1329,7 +1338,7 @@ este medicamento.
 Paxlovid contém sódio
 51
 Os comprimidos de nirmatrelvir e ritonavir contêm, cada um, menos do que 1 mmol (23 mg) de sódio 
-por dose, ou seja, são praticamente “isentos de sódio".</p>         </div>"""   
+por dose, ou seja, são praticamente “isentos de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar paxlovid"
@@ -1357,7 +1366,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
 Se parar de tomar Paxlovid
 Mesmo que se sinta melhor, não pare de tomar Paxlovid sem falar com o seu médico. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1406,7 +1415,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar paxlovid"
@@ -1419,7 +1428,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
 O medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1573,7 +1582,7 @@ Este folheto foi revisto pela última vez em.
 Leia o código com um dispositivo móvel para obter o folheto informativo em diferentes línguas. 
 URL: https://pfi.sr/c19oralrx
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

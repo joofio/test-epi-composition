@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store YERVOY </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ attack and destroy cancer cells by your immune cells. </p>
 lung cancer (a type of lung cancer) in adult. </p>
 <p>As YERVOY may be given in combination with other anti-cancer medicines, it is important that you 
 also read the package leaflet for these other medicines. If you have any questions about these 
-medicines, please ask your doctor. </p>         </div>"""   
+medicines, please ask your doctor. </p> </div>"""   
           
 
              
@@ -221,7 +224,7 @@ Tell your doctor if you are on a low-sodium (low-salt) diet before you are given
 This medicine contains 23 mg sodium (main component of cooking/table salt) in each 10 ml vial. This 
 is equivalent to 1.15% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>This medicine contains 92 mg sodium (main component of cooking/table salt) in each 40 ml vial. This 
-is equivalent to 4.60% of the recommended maximum daily dietary intake of sodium for an adult </p>         </div>"""   
+is equivalent to 4.60% of the recommended maximum daily dietary intake of sodium for an adult </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yervoy"
@@ -296,7 +299,7 @@ unless you have discussed this with your doctor. </p>
 <p>When YERVOY is given in combination with nivolumab or in combination with nivolumab and 
 chemotherapy, you will first be given nivolumab followed by YERVOY and then by chemotherapy. </p>
 <p>Please refer to the package leaflet of the other anti-cancer medicines in order to understand the use of 
-these other medicines. If you have questions about these medicines, please ask your doctor. </p>         </div>"""         
+these other medicines. If you have questions about these medicines, please ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -576,7 +579,7 @@ starch </p>
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yervoy"
@@ -590,7 +593,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Do not store any unused portion of the infusion solution for reuse. Any unused medicine or waste 
-material should be disposed of in accordance with local requirements. </p>         </div>"""      
+material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -625,7 +628,7 @@ Cruiserath Road, Mulhuddart
 Dublin 15, D15 H6EF 
 Ireland </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -664,7 +667,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -673,7 +678,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -690,7 +696,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -725,7 +731,7 @@ lungehindekræft) hos voksne </p>
 ikke-småcellet lungekræft (en bestemt type hudkræft) hos voksne. </p>
 <p>Da YERVOY kan gives i kombination med andre lægemidler mod kræft, er det vigtigt, at du også 
 læser indlægssedlen for disse andre lægemidler. Tal med din læge, hvis du har spørgsmål om disse 
-lægemidler. </p>         </div>"""   
+lægemidler. </p> </div>"""   
           
 
              
@@ -890,7 +896,7 @@ hætteglas. Dette svarer til 1,15 % af den anbefalede maksimale daglige indtagel
 voksen. </p>
 <p>Dette lægemiddel indeholder 92 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hvert 40 ml 
 hætteglas. Dette svarer til 4,60 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yervoy"
@@ -960,7 +966,7 @@ behandlingen med YERVOY, medmindre du har aftalt det med lægen. </p>
 <p>Hvis du får YERVOY sammen med nivolumab eller sammen med nivolumab og kemoterapi, vil du få 
 nivolumab først efterfulgt af YERVOY og derefter kemoterapi. </p>
 <p>Du skal læse indlægssedlen for de andre komponenter i kombinationen, så du også kender til brugen af 
-disse lægemidler. Tal med din læge, hvis du har spørgsmål om disse lægemidler. </p>         </div>"""         
+disse lægemidler. Tal med din læge, hvis du har spørgsmål om disse lægemidler. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1546,7 +1552,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yervoy"
@@ -1560,7 +1566,7 @@ Exp. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Eventuelt resterende infusionsvæske må ikke opbevares til senere brug. Ikke anvendte lægemidler 
-samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p>         </div>"""      
+samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1705,7 +1711,7 @@ skal den opbevares i køleskab (2 °C - 8 °C) eller ved stuetemperatur (20 °C 
 inden for 24 timer. Anden opbevaringstid og andre opbevaringsforhold er brugerens ansvar. </p>
 <p>Destruktion: 
 Opbevar ikke nogen rester af den ikke anvendte infusionsopløsning til senere brug. Ikke anvendte 
-lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p>         </div>"""      
+lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -1744,7 +1750,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1753,7 +1761,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1770,7 +1779,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar YERVOY </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1806,7 +1815,7 @@ adultos </p>
 pulmão de células não-pequenas avançado (um tipo de cancro do pulmão) em adultos. </p>
 <p>Como YERVOY pode ser administrado em associação com outros medicamentos anti-cancro, é 
 importante que também leia o folheto informativo destes medicamento. Caso tenha quaisquer dúvidas 
-sobre estes medicamentos, fale com o seu médico. </p>         </div>"""   
+sobre estes medicamentos, fale com o seu médico. </p> </div>"""   
           
 
              
@@ -1978,7 +1987,7 @@ cada frasco para injetáveis de 10 ml. Isto é equivalente a 1,15% da ingestão 
 recomendada na dieta para um adulto. </p>
 <p>Este medicamento contém 92 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada frasco para injetáveis de 40 ml. Isto é equivalente a 4,60% da ingestão diária máxima de sódio 
-recomendada na dieta para um adulto. </p>         </div>"""   
+recomendada na dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar yervoy"
@@ -2063,7 +2072,7 @@ médico. </p>
 quimioterapia, primeiro ser-lhe-á administrado nivolumab seguido de YERVOY e depois da 
 quimioterapia. </p>
 <p>Consulte o folheto informativo dos outros medicamentos anti-cancro para compreender a utilização 
-destes medicamento. Caso tenha quaisquer dúvidas sobre estes medicamentos, fale com o seu médico. </p>         </div>"""         
+destes medicamento. Caso tenha quaisquer dúvidas sobre estes medicamentos, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2667,7 +2676,7 @@ aumentados do produto residual bilirrubina no sangue) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, 
-estará a ajudar a fornecer mais informação sobre a segurança deste medicamento. </p>         </div>"""      
+estará a ajudar a fornecer mais informação sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar yervoy"
@@ -2681,7 +2690,7 @@ frasco para injetáveis, após EXP. O prazo de validade corresponde ao último d
 Não congelar. 
 Conservar na embalagem de origem para proteger da luz. </p>
 <p>Não conserve para reutilização qualquer porção não utilizada da solução para perfusão. Os produtos 
-não utilizados ou os resíduos devem ser eliminados de acordo com as exigências locais. </p>         </div>"""      
+não utilizados ou os resíduos devem ser eliminados de acordo com as exigências locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2723,7 +2732,7 @@ Cruiserath Road, Mulhuddart
 Dublin 15, D15 H6EF 
 Irlanda </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

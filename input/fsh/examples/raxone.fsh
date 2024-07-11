@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Raxone  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ Leber s Hereditary Optic Neuropathy (LHON).<br />
 cells in the eye to produce the energy they need to work normally, so they become inactive. 
 - LHON can lead to loss of eyesight due to the inactivity of cells responsible for vision.  </p>
 <p>Treatment with Raxone can restore the ability of cells to produce energy and so allow inactive eye 
-cells to work again. This can lead to some improvement in lost eyesight.  </p>         </div>"""   
+cells to work again. This can lead to some improvement in lost eyesight.  </p> </div>"""   
           
 
              
@@ -137,7 +140,7 @@ Raxone is not expected to affect your ability to drive or use machines.  </p>
 - Raxone contains lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicinal product.. 
 - Raxone contains a colourant called  sunset yellow  (also called E110). This may cause allergic 
-reactions. </p>         </div>"""   
+reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take raxone"
@@ -162,7 +165,7 @@ If you forget a dose, skip the missed dose. Take the next dose at the usual time
 Do not take a double dose to make up for a forgotten dose.  </p>
 <p>If you stop taking Raxone 
 Talk to your doctor before you stop taking this medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -203,7 +206,7 @@ yellow, hepatitis </li>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system in Appendix V. By 
-reporting side effecs you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effecs you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store raxone"
@@ -214,7 +217,7 @@ reporting side effecs you can help provide more information on the safety of thi
 <p>Do not use this medicine after the expiry date which is stated on the carton and the bottle after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -316,7 +319,7 @@ This means that due to the rarity of the disease it has not been possible to obt
 on this medicinal product. 
 The European Medicines Agency will review any new information which may become available every 
 year and this leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -355,7 +358,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -364,7 +369,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -381,7 +387,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -397,7 +403,7 @@ hereditære opticus-neuropati (LHON).
 producere den energi, de behøver for at virke normalt. Dette gør dem inaktive. 
 - LHON kan medføre synstab på grund af inaktiviteten af de celler, der er ansvarlige for synet.  </p>
 <p>Behandling med Raxone kan genoprette cellernes evne til at producere energi, så de inaktive 
-øjenceller kan komme til at fungere igen. Dette kan i nogen grad genoprette den tabte synsstyrke.  </p>         </div>"""   
+øjenceller kan komme til at fungere igen. Dette kan i nogen grad genoprette den tabte synsstyrke.  </p> </div>"""   
           
 
              
@@ -456,7 +462,7 @@ Raxone forventes ikke at påvirke din evne til at føre motorkøretøj eller bet
 <p>Raxone indeholder lactose og sunset yellow (E110). 
 - Raxone indeholder sukkerarten lactose. Kontakt lægen, før du tager dette lægemiddel, hvis 
 lægen har fortalt dig, at du ikke tåler visse sukkerarter. 
-- Raxone indeholder farvestoffet sunset yellow (E110). Det kan forårsage allergiske reaktioner. </p>         </div>"""   
+- Raxone indeholder farvestoffet sunset yellow (E110). Det kan forårsage allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take raxone"
@@ -482,7 +488,7 @@ tid.
 Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis.  </p>
 <p>Hvis du holder op med at tage Raxone 
 Kontakt lægen, før du holder op med at bruge dette lægemiddel. </p>
-<p>Tal med lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p>         </div>"""         
+<p>Tal med lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -522,7 +528,7 @@ leverbetændelse
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store raxone"
@@ -533,7 +539,7 @@ lægemiddel. </p>         </div>"""
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og på kartonen efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg apotek spersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. Derved skåner du miljøet. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. Derved skåner du miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -666,7 +672,7 @@ Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om læg
 indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -705,7 +711,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -714,7 +722,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -731,7 +740,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Raxone  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -749,7 +758,7 @@ normalmente, acabando por se tornar inativas.
 - A LHON pode causar perda de visão devido à inatividade das células responsáveis pela visão.  </p>
 <p>O tratamento com Raxone pode restaurar a capacidade das células para produzir energia e, deste 
 modo, permitir que as células inativas do olho funcionem novamente. Isto pode levar a alguma 
-melhoria em termos de perda de visão.  </p>         </div>"""   
+melhoria em termos de perda de visão.  </p> </div>"""   
           
 
              
@@ -806,7 +815,7 @@ intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. <
 <ul>
 <li>Raxone contém um corante chamado «amarelo sunset» (também conhecido por E110). Este 
 corante pode causar reações alérgicas. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar raxone"
@@ -834,7 +843,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.  <
 <p>Se parar de tomar Raxone 
 Fale com o seu médico antes de parar de tomar este medicamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -871,7 +880,7 @@ sua pele e a parte branca dos olhos adquiram um tom amarelado, hepatite
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar raxone"
@@ -883,7 +892,7 @@ a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p
 após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1017,7 +1026,7 @@ excecionais». Isto significa que não foi possível obter informação completa
 devido à raridade da doença. 
 A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
 medicamento e este folheto será atualizado se necessário. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

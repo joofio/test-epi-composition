@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Riximyo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -118,7 +121,7 @@ e)
 Pemphigus vulgaris (PV)
 Riximyo is used for the treatment of patients with moderate to severe pemphigus vulgaris. 
 PV is an autoimmune condition that causes painful blisters on the skin and lining of the mouth, nose, 
-throat and genitals.</p>         </div>"""   
+throat and genitals.</p> </div>"""   
           
 
              
@@ -198,7 +201,7 @@ Riximyo contains sodium
 This medicine contains 52.6 mg sodium (main component of the cooking/table salt) in each 10 mL 
 vial and 263.2 mg in each 50 mL vial. 
 This is equivalent to 2.6% (for 10 ml vial) and 13.2% (for 50 ml vial) of the recommended maximum 
-daily dietary intake of sodium for an adult.</p>         </div>"""   
+daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take riximyo"
@@ -256,7 +259,7 @@ Each course of treatment is made up of two separate infusions which are given 2 
 respond well to treatment, you may be given Riximyo as a maintenance treatment. This will be 
 administered 1 year and 18 months after the initial treatment and then every 6 months as needed or 
 your doctor may change this, depending on how you respond to the medicine.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -486,7 +489,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store riximyo"
@@ -504,7 +507,7 @@ situation, do not return to the refrigerated storage again. Write the new expiry
 including day/month/year. Discard this medicine if not used by the new expiry date or the expiry date 
 printed on the carton, whichever is earlier.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines that you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines that you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -592,7 +595,7 @@ Tel: +43 5338 2Latvija
 Sandoz d.d. Latvia fili le
 Tel: +371 67 892 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -631,7 +634,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -640,7 +645,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>  </div>"""   
 
 
 
@@ -655,7 +660,7 @@ Usage: #inline
 3. Sådan gives Riximyo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -710,7 +715,7 @@ e)
 Pemfigus vulgaris (PV)
 Riximyo anvendes til behandling af patienter med moderat til svær pemfigus vulgaris. PV er en 
 autoimmun sygdom, der forårsager smertefulde blærer på huden og mundens, næsens, halsens og 
-kønsorganernes slimhinder.</p>         </div>"""   
+kønsorganernes slimhinder.</p> </div>"""   
           
 
              
@@ -798,7 +803,7 @@ Det vides ikke, om rituximab påvirker din evne til at føre motorkøretøj elle
 Riximyo indeholder natrium
 Dette lægemiddel indeholder 52,6 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 10 ml 
 hætteglas og 263,2 mg pr. 50 ml hætteglas. Dette svarer til 2,6 % (for et 10 ml hætteglas) og 13,2 % 
-(for et 50 ml hætteglas) af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p>         </div>"""   
+(for et 50 ml hætteglas) af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take riximyo"
@@ -859,7 +864,7 @@ Hvert behandlingsforløb består af to separate infusioner, der gives med 2 uger
 reagerer godt på behandlingen, kan du få Riximyo som vedligeholdelsesbehandling. 
 Vedligeholdelsesbehandling vil gives 1 år og 18 måneder efter behandlingens start og herefter hver 
 6. måned efter behov. Din læge kan ændre dette, afhængigt af hvordan du reagerer på behandlingen.
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1210,7 +1215,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store riximyo"
@@ -1229,7 +1234,7 @@ ikke sættes tilbage i køleskab. Skriv den nye udløbsdato på æsken med dag/m
 lægemidlet, hvis det ikke er brugt før den nye udløbsdato eller den dato, der er trykt på æsken, alt 
 efter, hvilken dato der kommer først.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1353,7 +1358,7 @@ Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/
 Denne indlægsseddel findes på alle EU-/EØS-sprog på det Europæiske Lægemiddelagenturs 
-hjemmeside.</p>         </div>"""      
+hjemmeside.</p> </div>"""      
 
 
 

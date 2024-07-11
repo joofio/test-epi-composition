@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Regkirona </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ of COVID-19, a disease caused by a virus called SARS-CoV-2. Regkirona is given t
 who are at increased risk of progressing to severe COVID-19. This medicine stops the virus from entering human cells by binding to the spike protein of 
 SARS-CoV-2. When it attaches to the spike protein, the interaction between the virus and the cellular 
 receptor is blocked and the ability of the virus to enter the body s cells is reduced. This can help your 
-body to resist the virus infection, and may help to prevent the disease from getting worse. </p>         </div>"""   
+body to resist the virus infection, and may help to prevent the disease from getting worse. </p> </div>"""   
           
 
              
@@ -131,7 +134,7 @@ with Regkirona are greater than any likely risks for you and your baby.  </p>
 <p>It is not known whether the ingredients of Regkirona can pass into breast milk. If you are 
 breast-feeding, you must check with your doctor before you receive Regkirona.  </p>
 <p>Driving and using machines 
-Regkirona is not expected to have any effect on your ability to drive or use tools or machines.  </p>         </div>"""   
+Regkirona is not expected to have any effect on your ability to drive or use tools or machines.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take regkirona"
@@ -144,7 +147,7 @@ lasting 60 minutes.  </p>
 symptom onset. </p>
 <p>This medicine can cause infusion reactions after the medicine is given to you. You will be closely 
 monitored during your treatment and for at least 1 hour after infusion is complete. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -165,7 +168,7 @@ infusion. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store regkirona"
@@ -179,7 +182,7 @@ refers to the last day of that month. </p>
 not freeze. </p>
 <p>Do not use this medicine if you notice any particulate matter or discoloration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines that you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines that you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ Hungary
 Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -400,7 +403,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -409,7 +414,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -426,7 +432,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -440,7 +446,7 @@ iltbehandling, og som har øget risiko for at udvikle svær COVID-19-sygdom. </p
 <p>Denne medicin stopper virus i at trænge ind i humane celler ved at binde sig til spike-proteinet på 
 SARS-CoV-2. Når det fastgøres til spike-proteinet, blokeres interaktionen mellem virus og 
 cellereceptoren, og virus' evne til at trænge ind i kroppens celler reduceres. Dette kan hjælpe kroppen 
-med at bekæmpe virusinfektionen, og det kan hjælpe med at forhindre, at sygdommen forværres. </p>         </div>"""   
+med at bekæmpe virusinfektionen, og det kan hjælpe med at forhindre, at sygdommen forværres. </p> </div>"""   
           
 
              
@@ -536,7 +542,7 @@ behandlingen med Regkirona er større end eventuelle sandsynlige risici for dig 
 du tale med din læge, inden du får Regkirona.  </p>
 <p>Trafik- og arbejdssikkerhed 
 Regkirona forventes ikke at have nogen indvirkning på din evne til at føre motorkøretøj eller betjene 
-værktøj eller maskiner.  </p>         </div>"""   
+værktøj eller maskiner.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take regkirona"
@@ -550,7 +556,7 @@ de første symptomer. </p>
 <p>Denne medicin kan forårsage infusionsreaktioner, efter at du har fået medicinen. Du vil blive nøje 
 overvåget under behandlingen og i mindst 1 time, efter at infusionen er gennemført. </p>
 <p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide om brugen af dette 
-lægemiddel. </p>         </div>"""         
+lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -573,7 +579,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store regkirona"
@@ -587,7 +593,7 @@ den sidste dag i den nævnte måned. </p>
 Må ikke fryses. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker partikler eller misfarvning inden administration. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -890,7 +896,7 @@ i ca. 20 minutter inden administration. </p>
 lægemiddel. </p>
 </li>
 </ul>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

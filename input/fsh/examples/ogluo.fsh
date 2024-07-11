@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ogluo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -114,7 +117,7 @@ tongue </li>
 * confusion 
 * seizures 
 * unconsciousness 
-* death </p>         </div>"""   
+* death </p> </div>"""   
           
 
              
@@ -182,7 +185,7 @@ pregnant, or are planning to have a baby, you can use Ogluo.  </p>
 <p>Driving and using machines 
 After a severe hypoglycaemic event your ability to concentrate and react may be reduced, you should 
 wait until the effects of very low blood sugar have worn off, and you feel better, before driving or 
-using any tools or machines. </p>         </div>"""   
+using any tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ogluo"
@@ -307,7 +310,7 @@ Not Applicable
 fast-acting source of sugar, such as fruit juice or a sugar-containing carbonated drink. </p>
 <p>If you use more Ogluo than you should 
 Too much medicine may make you feel sick (nausea) or cause you to be sick (vomit). Specific 
-treatment is not usually necessary. </p>         </div>"""         
+treatment is not usually necessary. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -350,7 +353,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor.  This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V.<br />
 By reporting side effects, you can help provide more information on the safety of this medicine. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ogluo"
@@ -365,7 +368,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store in the foil pouch before use to protect from light and moisture.   </p>
 <p>Do not use this medicine if you notice the solution is discoloured or contains particulate matter. </p>
 <p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -413,7 +416,7 @@ Neptunus Heerenveen, 8448CN
 Netherlands </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -452,7 +455,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -461,7 +466,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -478,7 +484,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -572,7 +578,7 @@ fødder, læber eller tunge </p>
 <li>
 <p>dødsfald </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -670,7 +676,7 @@ gravid. </p>
 <p>Trafik- og arbejdssikkerhed 
 Efter et tilfælde af alvorlig hypoglykæmi kan din evne til at koncentrere dig og reagere være reduceret, 
 og du bør vente med at føre motorkøretøj eller betjene værktøjer eller maskiner, indtil virkningen af 
-det meget lave blodsukker er aftaget, og du har det bedre. </p>         </div>"""   
+det meget lave blodsukker er aftaget, og du har det bedre. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ogluo"
@@ -799,7 +805,7 @@ Efter brug af dette lægemiddel skal du snarest muligt spise for at forebygge et
 blodsukker. Indtag noget med hurtigtvirkende sukker, f.eks. frugtjuice eller en sukkerholdig sodavand. 
 Hvis du har brugt for meget Ogluo 
 Hvis du får for meget af lægemidlet, kan det give dig kvalme eller få dig til at kaste op. Det er normalt 
-ikke nødvendigt med specifik behandling. </p>         </div>"""         
+ikke nødvendigt med specifik behandling. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -858,7 +864,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ogluo"
@@ -874,7 +880,7 @@ Opbevares i foliepakningen for at beskytte mod lys og fugt.
 Du må ikke anvende dette lægemiddel, hvis du bemærker, at opløsningen er misfarvet eller indeholder 
 partikler. 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -935,7 +941,7 @@ medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme
 symptomer, som du har.
 •
 Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i
-denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen </p>         </div>"""      
+denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen </p> </div>"""      
 
 
 
@@ -974,7 +980,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -983,7 +991,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1000,7 +1009,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Ogluo </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1097,7 +1106,7 @@ língua </p>
 <li>
 <p>morte </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1200,7 +1209,7 @@ pensa estar grávida ou planeia engravidar. </p>
 <p>Condução de veículos e utilização de máquinas 
 Após um acontecimento hipoglicémico grave, a sua capacidade de concentração e reação poderá estar 
 reduzida, deve esperar até que os efeitos dos níveis muito baixos de açúcar no sangue tenham 
-desaparecido e que se sinta melhor, antes de conduzir ou utilizar quaisquer ferramentas ou máquinas. </p>         </div>"""   
+desaparecido e que se sinta melhor, antes de conduzir ou utilizar quaisquer ferramentas ou máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ogluo"
@@ -1341,7 +1350,7 @@ de níveis baixos de açúcar no sangue. Tome açúcar de uma fonte de ação r�
 fruta ou um refrigerante que contenha açúcar. </p>
 <p>Se utilizar mais Ogluo do que deveria 
 Uma quantidade excessiva do medicamento pode fazê-lo sentir-se enjoado (náuseas ou vómitos). 
-Normalmente, não é necessário um tratamento específico. </p>         </div>"""         
+Normalmente, não é necessário um tratamento específico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1425,7 +1434,7 @@ folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
 a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ogluo"
@@ -1440,7 +1449,7 @@ exterior. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar na bolsa de alumínio antes de utilizar para proteger da luz solar e da humidade. </p>
 <p>Não utilize este medicamento se verificar que a solução está descorada ou contém partículas. </p>
 <p>Não deite fora quaisquer medicamentos no lixo doméstico. Pergunte ao seu farmacêutico como deitar 
-fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1492,7 +1501,7 @@ Este folheto foi revisto pela última vez em
 Outras fontes de informação 
 Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

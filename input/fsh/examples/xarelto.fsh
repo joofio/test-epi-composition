@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Xarelto </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ in addition to acetylsalicylic acid for a short while.  </li>
 </ul>
 <p>Xarelto contains the active substance rivaroxaban and belongs to a group of medicines called 
 antithrombotic agents. It works by blocking a blood clotting factor (factor Xa) and thus reducing the 
-tendency of the blood to form clots.  </p>         </div>"""   
+tendency of the blood to form clots.  </p> </div>"""   
           
 
              
@@ -206,7 +209,7 @@ affected by these symptoms.  </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xarelto"
@@ -251,7 +254,7 @@ Take Xarelto on a regular basis and for as long as your doctor keeps prescribing
 <p>Do not stop taking Xarelto without talking to your doctor first. If you stop taking this medicine, it may 
 increase your risk of having another heart attack or stroke or dying from a disease related to your heart 
 or your blood vessels. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -344,7 +347,7 @@ swelling, altered sensation, numbness or paralysis (compartment syndrome after a
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet.You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xarelto"
@@ -358,7 +361,7 @@ bottle after EXP. The expiry date refers to the last day of that month. </p>
 <p>Crushed tablets 
 Crushed tablets are stable in water or apple puree for up tp 4 hours. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -484,7 +487,7 @@ important information for you.
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. See section 4.</p>
-<p>What is in this leaflet  </p>         </div>"""      
+<p>What is in this leaflet  </p> </div>"""      
 
 
 
@@ -523,7 +526,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -532,7 +537,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -547,7 +553,7 @@ Usage: #inline
 3. Sådan skal du tage Xarelto
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -580,7 +586,7 @@ arterie i benet for at genoprette blodkredsløbet, kan lægen også ordinere clo
 du skal tage i tillæg til acetylsalicylsyre i en kort periode.
 Xarelto indeholder det aktive stof rivaroxaban, og det tilhører en gruppe medicin, der kaldes 
 antitrombotika. Det fungerer ved at blokere en blodstørkningsfaktor i blodet (faktor Xa) og nedsætter 
-således blodets tendens til at klumpe sig sammen. </p>         </div>"""   
+således blodets tendens til at klumpe sig sammen. </p> </div>"""   
           
 
              
@@ -757,7 +763,7 @@ maskiner, hvis du oplever disse symptomer. </p>
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter.<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xarelto"
@@ -800,7 +806,7 @@ Tag Xarelto regelmæssigt og så længe, som din læge ordinerer det til dig. </
 <p>Du må ikke holde op med at tage Xarelto uden først at have talt med din læge. Hvis du holder op med 
 at tage dette lægemiddel, kan det øge risikoen for, at du får endnu et hjerteanfald eller slagtilfælde, 
 eller for, at du dør af en sygdom med relation til dit hjerte eller dine blodkar. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -898,7 +904,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xarelto"
@@ -912,7 +918,7 @@ blisterark eller plastbeholderen efter "EXP". Udløbsdatoen er den sidste dag i 
 <p>Knuste tabletter 
 Knuste tabletter er stabile i vand og i æblemos i op til 4 timer.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1068,7 +1074,7 @@ indeholder vigtige oplysninger.
 lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -1107,7 +1113,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1116,7 +1124,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1131,7 +1140,7 @@ Usage: #inline
 3. Como tomar Xarelto 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Xarelto 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1167,7 +1176,7 @@ clopidogrel para tomar durante um curto período de tempo, para além do ácido 
 </ul>
 <p>Xarelto contém a substância ativa rivaroxabano e pertence a um grupo de medicamentos chamados 
 agentes antitrombóticos. Atua através do bloqueio de um fator de coagulação sanguínea (fator Xa) 
-reduzindo assim a tendência do sangue para formar coágulos. </p>         </div>"""   
+reduzindo assim a tendência do sangue para formar coágulos. </p> </div>"""   
           
 
              
@@ -1339,7 +1348,7 @@ utilizar qualquer ferramenta ou máquinas se for afetado por estes sintomas. </p
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
 medicamento. 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xarelto"
@@ -1384,7 +1393,7 @@ Tome Xarelto regularmente e durante o tempo que o seu médico lhe prescrever. </
 <p>Não pare de tomar Xarelto sem falar primeiro com o seu médico. Se parar de tomar este medicamento, 
 pode aumentar o risco de ter outro ataque cardíaco ou acidente vascular cerebral ou morrer de uma doença 
 relacionada com o coração ou os vasos sanguíneos. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1489,7 +1498,7 @@ hemorragia) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xarelto"
@@ -1504,7 +1513,7 @@ ou frasco após EXP. O prazo de validade corresponde ao último dia do mês indi
 Os comprimidos triturados são estáveis em água ou puré de maçã até 4 horas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1641,7 +1650,7 @@ Tel: +371-67 84 55 United Kingdom (Northern Ireland)
 Bayer AG 
 Tel: +44-(0)118 206 3 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

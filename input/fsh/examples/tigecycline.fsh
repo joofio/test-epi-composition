@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tigecycline Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ of the following types of serious infections:  </p>
 <p>Complicated infection of the skin and soft tissues (the tissue below the skin), excluding diabetic 
 foot infections. </p>
 <p>Complicated infection in the abdomen. </p>
-<p>Tigecycline Accord is only used when your doctor thinks other antibiotics are not suitable. </p>         </div>"""   
+<p>Tigecycline Accord is only used when your doctor thinks other antibiotics are not suitable. </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ Tigecycline Accord may cause side effects such as dizziness. This may impair you
 operate machinery.  </p>
 <p>Tigecycline Accord contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 'sodium-
-free. </p>         </div>"""   
+free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tigecycline"
@@ -162,7 +165,7 @@ treated. </p>
 If you are concerned that you may have been given too much Tigecycline Accord, talk to your doctor 
 or nurse immediately. </p>
 <p>If you miss a dose of Tigecycline Accord<br />
-If you are concerned that you may have missed a dose, talk to your doctor or nurse immediately. </p>         </div>"""         
+If you are concerned that you may have missed a dose, talk to your doctor or nurse immediately. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -212,7 +215,7 @@ Syndrome) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tigecycline"
@@ -235,7 +238,7 @@ physical in-use stability. </p>
 <p>The Tigecycline Accord solution should be yellow to orange in colour after dissolving; if it is not, the 
 solution should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -313,7 +316,7 @@ not be longer than the times stated above for the chemical and physical in-use s
 immediately. If not used immediately, in-use storage times and conditions prior to use are the 
 responsibility of the user and would not be longer than the times stated above for the chemical and 
 physical in-use stability.  </p>
-<p>For single use only, any unused solution should be discarded. </p>         </div>"""      
+<p>For single use only, any unused solution should be discarded. </p> </div>"""      
 
 
 
@@ -352,7 +355,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -361,7 +366,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -376,7 +382,7 @@ Usage: #inline
 3. Sådan skal du bruge Tigecycline Accord 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -393,7 +399,7 @@ alvorlige infektioner:</p>
 af infektioner i fødderne hos personer med sukkersyge. </li>
 <li>Komplicerede maveinfektioner </li>
 </ul>
-<p>Tigecycline Accord anvendes kun, når din læge mener, at andre antibiotika er uegnede. </p>         </div>"""   
+<p>Tigecycline Accord anvendes kun, når din læge mener, at andre antibiotika er uegnede. </p> </div>"""   
           
 
              
@@ -463,7 +469,7 @@ bil eller betjene maskiner. </p>
 <p>Tigecycline Accord indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas og er derfor stort set 
 natriumfrit. </p>
-<p>27</p>         </div>"""   
+<p>27</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tigecycline"
@@ -481,7 +487,7 @@ op til en maksimumdosis på 50 mg hver 12. time. </p>
 Hvis du tror, at du har fået for meget Tigecycline Accord, skal du straks kontakte lægen eller 
 sygeplejersken. </p>
 <p>Hvis du har glemt at bruge Tigecycline Accord 
-Hvis du tror, at du har glemt at få en dosis, skal du straks kontakte lægen eller sygeplejersken. </p>         </div>"""         
+Hvis du tror, at du har glemt at få en dosis, skal du straks kontakte lægen eller sygeplejersken. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -545,7 +551,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tigecycline"
@@ -570,7 +576,7 @@ eget ansvar og må ikke overstige ovenstående angivne tidsrum for kemisk og fys
 tilfældet, må infusionsvæsken ikke anvendes. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. </p>
-<p>29</p>         </div>"""      
+<p>29</p> </div>"""      
         
         
 * section[=].section[+]
@@ -613,7 +619,7 @@ Spanien </p>
 hjemmeside http://www.ema.europa.eu. </p>
 <p>30
 Nedenstående oplysninger er til læger og sundhedspersonale: </p>
-<p>Instruktioner vedrørende anvendelse og håndtering (se også </p>         </div>"""      
+<p>Instruktioner vedrørende anvendelse og håndtering (se også </p> </div>"""      
 
 
 
@@ -652,7 +658,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -661,7 +669,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -676,7 +685,7 @@ Usage: #inline
 3. Como utilizar Tigeciclina Accord 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Tigeciclina Accord 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -694,7 +703,7 @@ diabético
  
 Infeção complicada do abdómen </p>
 <p>Tigeciclina Accord apenas é utilizado caso o seu médico considere que outros antibióticos não são 
-adequados. </p>         </div>"""   
+adequados. </p> </div>"""   
           
 
              
@@ -774,7 +783,7 @@ médico antes de amamentar o seu bebé. </p>
 capacidade de conduzir ou operar máquinas. </p>
 <p>Tigeciclina Accord contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
-é praticamente “isento de sódio"  </p>         </div>"""   
+é praticamente “isento de sódio"  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tigecycline"
@@ -796,7 +805,7 @@ administrada de 12 em 12 horas. </p>
 enfermeiro imediatamente. </p>
 <p>Caso se tenha esquecido de administrar uma dose de Tigeciclina Accord </p>
 <p>Se pensa que se pode ter esquecido de administrar uma dose, fale com o seu médico ou enfermeiro 
-imediatamente. </p>         </div>"""         
+imediatamente. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -874,7 +883,7 @@ de Stevens-Johnson) </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tigecycline"
@@ -900,7 +909,7 @@ não serão superiores aos períodos acima indicados para a estabilidade física
 contrário a solução deve ser eliminada. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -939,7 +948,7 @@ Zona Franca, Barcelona, 08040,<br />
 Espanha </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

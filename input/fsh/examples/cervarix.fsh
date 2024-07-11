@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cervarix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ Other HPV types can also cause ano-genital cancers. Cervarix does not protect ag
 <p>When a female or a male individual is vaccinated with Cervarix, the immune system (the body s 
 natural defence system) will make antibodies against HPV types 16 and 18. Cervarix is not infectious and so, it cannot cause HPV related diseases. </p>
 <p>Cervarix is not used to treat HPV related diseases already present at the time of vaccination. </p>
-<p>Cervarix should be used in accordance with official guidelines. </p>         </div>"""   
+<p>Cervarix should be used in accordance with official guidelines. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ Cervarix is not likely to affect your ability to drive or use machines. However,
 machines if you are feeling unwell. </p>
 <p>Cervarix contains sodium chloride. </p>
 <p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cervarix"
@@ -173,7 +176,7 @@ against HPV) be given for the complete vaccination course. </p>
 It is important that you follow the instructions of your doctor or nurse regarding return visits. If you 
 forget to go back to your doctor at the scheduled time, ask your doctor for advice. </p>
 <p>If you do not finish the complete vaccination course (two or three injections depending on your age at 
-vaccination), you may not get the best response and protection from the vaccination. </p>         </div>"""         
+vaccination), you may not get the best response and protection from the vaccination. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ any of these symptoms you should contact a doctor urgently.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cervarix"
@@ -227,7 +230,7 @@ last day of that month. </p>
 Do not freeze.<br />
 Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ GlaxoSmithKline Biologicals SA
 Tel: +44(0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -377,7 +380,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -386,7 +391,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -401,7 +407,7 @@ Usage: #inline
 3. Sådan gives Cervarix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -429,7 +435,7 @@ endetarmsåbningen/analkanalen og kønsorganerne. Cervarix beskytter ikke mod al
 naturlige forsvarssystem) danne antistoffer mod HPV-type 16 og 18. Cervarix smitter ikke og kan derfor ikke forårsage HPV-relaterede sygdomme. </p>
 <p>Cervarix bruges ikke til at behandle HPV-relaterede sygdomme, som allerede er tilstede i kroppen på 
 vaccinationstidspunktet. </p>
-<p>Cervarix skal anvendes i overensstemmelse med officielle retningslinjer. </p>         </div>"""   
+<p>Cervarix skal anvendes i overensstemmelse med officielle retningslinjer. </p> </div>"""   
           
 
              
@@ -496,7 +502,7 @@ Det er usandsynligt, at Cervarix påvirker evnen til at føre motorkøretøj ell
 dog ikke føre motorkøretøj eller betjene maskiner, hvis du føler dig utilpas. </p>
 <p>Cervarix indeholder natriumchlorid 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cervarix"
@@ -528,7 +534,7 @@ Det er vigtigt, at du følger lægens eller sygeplejerskens instruktion mht. opf
 vaccinationsbesøg. Hvis du glemmer at komme til efterfølgende vaccination på den aftalte tid, skal du 
 spørge lægen til råds. </p>
 <p>Hvis du ikke afslutter det fulde vaccinationsprogram (to eller tre vaccinationer afhængigt af din alder 
-ved første vaccination), er det ikke sikkert, at du får den fulde virkning og beskyttelse af vaccinen. </p>         </div>"""         
+ved første vaccination), er det ikke sikkert, at du får den fulde virkning og beskyttelse af vaccinen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -574,7 +580,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cervarix"
@@ -588,7 +594,7 @@ sidste dag i den nævnte måned. </p>
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -743,7 +749,7 @@ oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger som ikke 
-er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

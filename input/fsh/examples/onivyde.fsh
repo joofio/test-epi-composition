@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ONIVYDE pegylated liposomal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ time, thereby allowing it to act for longer. </p>
 treatment included a medicine called gemcitabine. ONIVYDE pegylated liposomal is used in 
 combination with other cancer medicines, called 5-fluorouracil and leucovorin. </p>
 <p>If you have any questions about how ONIVYDE pegylated liposomal works or why this medicine has 
-been prescribed for you, ask your doctor. </p>         </div>"""   
+been prescribed for you, ask your doctor. </p> </div>"""   
           
 
              
@@ -188,7 +191,7 @@ driving, using machines or performing other tasks that need full attention if yo
 exhausted. </p>
 <p>ONIVYDE pegylated liposomal contains sodium </p>
 <p>This medicine contains 33,1 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 1,65% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 1,65% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onivyde"
@@ -209,7 +212,7 @@ The treatment will be repeated every two weeks. </p>
 abdominal cramping and salivation together with early frequent and liquid stools in previous 
 treatments with ONIVYDE pegylated liposomal, you may receive additional medicines before 
 ONIVYDE pegylated liposomal to prevent or reduce this in the following treament cycles. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ sepsis)
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onivyde"
@@ -326,7 +329,7 @@ may be stored at ambient temperature (15 C to 25 C) for up to 6 hours. The dilut
 infusion can be stored in the refrigerator (2 C - 8 C) for no more than 24 hours prior to use. It must be 
 protected from light, and it must not be frozen. </p>
 <p>Do not throw away this medicine via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -420,7 +423,7 @@ SIA Servier Latvia
 Tel: + 371 67502United Kingdom (Northern Ireland) 
 Servier Laboratories (Ireland) Ltd 
 Tel: +44 (0)1753 666This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -459,7 +462,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -468,7 +473,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -485,7 +491,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -511,7 +517,7 @@ liposomal i kombination med andre kræftmidler kaldet oxaliplatin, 5-fluoruracil
 <p>Til patienter, som tidligere er blevet behandlet med gemcitabin, anvendes ONIVYDE pegylated 
 liposomal i kombination med 2 andre kræftmidler kaldet 5-fluoruracil og leucovorin. </p>
 <p>Spørg lægen, hvis du har spørgsmål om virkningen af ONIVYDE pegylated liposomal, eller hvorfor 
-dette lægemiddel er blevet ordineret til dig. </p>         </div>"""   
+dette lægemiddel er blevet ordineret til dig. </p> </div>"""   
           
 
              
@@ -616,7 +622,7 @@ din fulde opmærksomhed, hvis du føler dig søvnig, svimmel eller udmattet. </p
 <p>ONIVYDE pegylated liposomal indeholder natrium </p>
 <p>Dette lægemiddel indeholder 33,1 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 1,65 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onivyde"
@@ -641,7 +647,7 @@ med ONIVYDE pegylated liposomal har oplevet sveden, mavekramper og øget spytdan
 med tidligt indsættende hyppig og flydende afføring, vil du muligvis ved efterfølgende behandlinger få 
 lægemidler for at forhindre disse bivirkninger eller nedsætte sværhedsgraden af dem, før du får 
 ONIVYDE pegylated liposomal. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -888,7 +894,7 @@ enzymer fra leveren, som fortæller, hvordan leveren fungerer </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onivyde"
@@ -906,7 +912,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 men kan opbevares ved stuetemperatur (15-25 °C) i op til 6 timer og i køleskab (2-8 °C) i højst 
 24 timer før brug. Den skal beskyttes mod lys og må ikke nedfryses. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1103,7 +1109,7 @@ CHMP gennemgik de oplysninger, som indehaveren af markedsføringstilladelsen hav
 artikel 14, stk. 11, i forordning (EC) nr. 726/2004, og er af den opfattelse, at den nye terapeutiske 
 indikation giver en væsentlig klinisk fordel sammenlignet med eksisterende behandlinger. Dette er 
 nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1142,7 +1148,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1151,7 +1159,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1168,7 +1177,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar ONIVYDE pegylated liposomal </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1197,7 +1206,7 @@ leucovorina. </p>
 <p>Para doentes tratados previamente com gemcitabina, ONIVYDE pegylated liposomal é utilizado em 
 conjunto com outros medicamentos para o cancro, chamados 5-fluorouracilo e leucovorina. </p>
 <p>Caso tenha dúvidas sobre o funcionamento de ONIVYDE pegylated liposomal ou o motivo pelo qual 
-este medicamento lhe foi receitado, fale com o seu médico. </p>         </div>"""   
+este medicamento lhe foi receitado, fale com o seu médico. </p> </div>"""   
           
 
              
@@ -1329,7 +1338,7 @@ salivação em conjunto com evacuação de fezes líquidas precoces e frequentes
 anteriores com ONIVYDE pegylated liposomal, poderá receber medicamentos adicionais antes de 
 ONIVYDE pegylated liposomal para impedir ou reduzir estas reações nos ciclos de tratamento 
 seguintes. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""   
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar onivyde"
@@ -1585,7 +1594,7 @@ substâncias químicas sanguíneas do fígado que indicam como o fígado está a
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""         
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1606,7 +1615,7 @@ de 6 horas. A dispersão diluída para perfusão pode ser conservada no frigorí
 um prazo máximo de 24 horas antes da utilização. A dispersão diluída tem de ser protegida da luz e 
 não pode ser congelada. </p>
 <p>Não deite fora este medicamento na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar onivyde"
@@ -1628,7 +1637,7 @@ etanossulfónico (tampão HEPES); cloreto de sódio e água para preparações i
 ONIVYDE pegylated liposomal contém sódio. Se estiver a fazer uma dieta com controlo da 
 ingestão de sódio, consulte a secção </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1736,7 +1745,7 @@ United Kingdom (Irlanda do Norte)
 Servier Laboratories (Ireland) Ltd 
 Tel: +44 (0)1753 666 
 Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

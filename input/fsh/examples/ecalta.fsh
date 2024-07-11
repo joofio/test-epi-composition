@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ECALTA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ Candida. </p>
 <p>ECALTA belongs to a group of medicines called echinocandins. These medicines are used to treat 
 serious fungal infections. </p>
 <p>ECALTA prevents normal development of fungal cell walls. In the presence of ECALTA, fungal cells 
-have incomplete or defective cell walls, making them fragile or unable to grow. </p>         </div>"""   
+have incomplete or defective cell walls, making them fragile or unable to grow. </p> </div>"""   
           
 
              
@@ -123,7 +126,7 @@ child can no longer take sweet foods or drinks because they feel sick, vomit or 
 such as bloating, stomach cramps or diarrhoea. </p>
 <p>ECALTA contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ecalta"
@@ -158,7 +161,7 @@ missed. However tell your doctor or pharmacist if you think that a dose has been
 <p>Your doctor may prescribe another medicine following your treatment with ECALTA to continue 
 treating your fungal infection or prevent it from returning. </p>
 <p>If your original symptoms come back, tell your doctor or another healthcare professional immediately. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, or pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, or pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -220,7 +223,7 @@ of the following occur:</p>
 If you get any side effects, talk to your doctor or, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ecalta"
@@ -234,7 +237,7 @@ last day of that month. </p>
 <p>The reconstituted solution may be stored up to 25 C for up to 24 hours. The infusion solution may be 
 stored at 25 C (room temperature) for 48 hours (do not freeze) and should be administered at 25 C 
 (room temperature) within 48 hours. </p>
-<p>Do not throw away any medicines via wastewater or household waste. </p>         </div>"""      
+<p>Do not throw away any medicines via wastewater or household waste. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -324,7 +327,7 @@ Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL 
 Fili le Latvij<br />
 Tel: +371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -363,7 +366,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -372,7 +377,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -387,7 +393,7 @@ Usage: #inline
 3. Sådan skal du bruge ECALTA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -403,7 +409,7 @@ ECALTA hører til gruppen af medicin, der kaldes echinocandiner. Denne medicin b
 behandle alvorlige svampeinfektioner.
 ECALTA hindrer normal udvikling af svampens cellevæg. Ved tilstedeværelse af ECALTA vil 
 svampeceller have ufuldstændige eller defekte cellevægge, som gør dem svage eller ude af stand til at 
-vokse. </p>         </div>"""   
+vokse. </p> </div>"""   
           
 
              
@@ -453,7 +459,7 @@ ikke længere kan tage sød mad eller drikke, fordi det føler sig sygt, kaster 
 virkninger som oppustethed, mavekramper eller diarré.
 ECALTA indeholder natrium
 Dette længemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas. Dvs. at det i det 
-væsentlige er "natriumfrit".</p>         </div>"""   
+væsentlige er "natriumfrit".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ecalta"
@@ -488,7 +494,7 @@ Lægen vil måske give dig anden medicin, når du har stoppet behandlingen med E
 forhindre, at svampeinfektionen kommer igen.
 Fortæl det straks til lægen eller sygeplejersken, hvis dine oprindelige symptomer kommer igen.
 Spørg lægen,  apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om, eller 
-føler dig usikker på.</p>         </div>"""         
+føler dig usikker på.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -574,7 +580,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ecalta"
@@ -589,7 +595,7 @@ til 24 timer.
 Infusionsopløsningen kan opbevares ved 25 °C i 48 timer (må ikke nedfryses) og bør gives ved 
 stuetemperatur (25 °C) inden for 48 timer.
 Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.
-30</p>         </div>"""      
+30</p> </div>"""      
         
         
 * section[=].section[+]
@@ -802,7 +808,7 @@ volumen af anidulafungin (ml)
 eller 0,9 % natriumklorid til injektion, USP (normalt saltvand) til den infusionssprøjte eller 
 intravenøse pose, der skal bruges til administrationen.
 Kun til éngangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale 
-retningslinjer.</p>         </div>"""      
+retningslinjer.</p> </div>"""      
 
 
 
@@ -841,7 +847,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -850,7 +858,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -865,7 +874,7 @@ Usage: #inline
 3. Como utilizar ECALTA
 4. Efeitos indesejáveis possíveis
 5. Como conservar ECALTA
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -881,7 +890,7 @@ ECALTA pertence a um grupo de medicamentos chamado equinocandinas. Estes medicam
 utilizados para tratar infeções fúngicas graves.
 ECALTA evita o desenvolvimento normal das paredes celulares dos fungos. As paredes das células 
 fúngicas ficam incompletas ou com anomalias na presença de ECALTA, tornando-as frágeis ou 
-impedindo o seu crescimento.</p>         </div>"""   
+impedindo o seu crescimento.</p> </div>"""   
           
 
              
@@ -933,7 +942,7 @@ se o seu filho deixou de poder ingerir alimentos ou bebidas doces, porque se sen
 vómitos ou se fica com efeitos desagradáveis como inchaço, dor de estômago ou diarreia.
 ECALTA contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
-é praticamente “isento de sódio".</p>         </div>"""   
+é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ecalta"
@@ -974,7 +983,7 @@ a tratar a sua infeção fúngica ou prevenir o seu regresso.
 Deverá informar o seu médico ou outro profissional de saúde imediatamente caso os seus sintomas 
 iniciais regressem.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1062,7 +1071,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ecalta"
@@ -1077,7 +1086,7 @@ Conservar no frigorífico (2ºC - 8ºC).
 A solução reconstituída pode ser conservada até 25ºC durante 24 horas. A solução para perfusão pode 
 ser conservada a 25ºC (temperatura ambiente) durante 48 horas (não congelar) e deve ser administrada 
 a 25ºC (temperatura ambiente) no prazo de 48 horas.
-Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico.</p>         </div>"""      
+Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1197,7 +1206,7 @@ Pfizer Luxembourg SARL
 Filiāle Latvijā
 Tel: +371 670 35 775
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

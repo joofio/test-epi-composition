@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store MVASI </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +108,7 @@ with a chemotherapy regimen containing a platinum agent, MVASI will be administe
 combination with paclitaxel, or topotecan, or pegylated liposomal doxorubicin. </p>
 <p>MVASI is also used for the treatment of adult patients with persistent, recurrent or metastatic cervical 
 cancer. MVASI will be administered in combination with paclitaxel and cisplatin or, alternatively, 
-paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>         </div>"""   
+paclitaxel and topotecan in patients who cannot receive platinum therapy. </p> </div>"""   
           
 
              
@@ -217,7 +220,7 @@ disappear. </p>
 is equivalent to 0.3% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>MVASI 25 mg/mL concentrate for solution for infusion (16 mL) </p>
 <p>This medicine contains 21.7 mg sodium (main component of cooking/table salt) in each 16 mL vial. 
-This is equivalent to 1.1% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+This is equivalent to 1.1% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mvasi"
@@ -271,7 +274,7 @@ discuss this with your doctor. </li>
 <p>If you stop treatment with MVASI </p>
 <p>Stopping your treatment with MVASI may stop the effect on tumour growth. Do not stop treatment 
 with MVASI unless you have discussed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -413,7 +416,7 @@ occur: </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mvasi"
@@ -433,7 +436,7 @@ dilution has taken place in a sterile environment, MVASI is stable for 35 days a
 additional 48 hours at temperatures not exceeding 30 C. </p>
 <p>Do not use MVASI if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -537,7 +540,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -576,7 +579,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -585,7 +590,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -602,7 +608,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelse og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -644,7 +650,7 @@ pegyleret liposomal doxorubicin. </p>
 <p>MVASI bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
 livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
 metastaser). MVASI bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og topotecan til 
-patienter, som ikke kan få platin. </p>         </div>"""   
+patienter, som ikke kan få platin. </p> </div>"""   
           
 
              
@@ -793,7 +799,7 @@ betjene maskiner, før symptomerne er forsvundet. </p>
 hætteglas. Dette svarer til 0,3 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>
 <p>MVASI 25 mg/ml koncentrat til infusionsvæske, opløsning (16 ml) </p>
 <p>Dette lægemiddel indeholder 21,7 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 16 ml 
-hætteglas. Dette svarer til 1,1 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+hætteglas. Dette svarer til 1,1 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mvasi"
@@ -867,7 +873,7 @@ sygeplejersken herom. </li>
 <p>Hvis du holder op med at få MVASI </p>
 <p>Hvis behandlingen med MVASI stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
 behandlingen med MVASI før, du har diskuteret det med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1163,7 +1169,7 @@ forekomme: </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mvasi"
@@ -1183,7 +1189,7 @@ har fundet sted under sterile forhold, er MVASI stabil i 35 dage ved 2 °C - 8 �
 ved temperaturer, der ikke overstiger 30 °C. </p>
 <p>Brug ikke MVASI, hvis du opdager partikler eller misfarvning før indgift. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1334,7 +1340,7 @@ overensstemmelse hermed. </p>
 <p>På baggrund af de videnskabelige konklusioner for bevacizumab er CHMP af den opfattelse, at 
 benefit/risk-forholdet for et lægemiddel/lægemidler, der indeholder bevacizumab, forbliver uændret under 
 forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen ændres. </p> </div>"""      
 
 
 
@@ -1373,7 +1379,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1382,7 +1390,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1399,7 +1408,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar MVASI </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1446,7 +1455,7 @@ em associação com paclitaxel, ou topotecano, ou doxorrubicina lipossómica peg
 <p>MVASI também é utilizado no tratamento de doentes adultos com cancro do colo do útero com 
 doença persistente, recorrente ou metastizada. MVASI será administrado em associação com 
 paclitaxel e cisplatina, ou, alternativamente, paclitaxel e topotecano em doentes que não podem 
-receber tratamento com platina. </p>         </div>"""   
+receber tratamento com platina. </p> </div>"""   
           
 
              
@@ -1615,7 +1624,7 @@ recomendada para um adulto. </p>
 <p>MVASI 25 mg/ml concentrado para solução para perfusão (16 ml) </p>
 <p>Este medicamento contém 21,7 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada frasco para injetáveis de 16 ml. Isto é equivalente a 1,1% da ingestão diária máxima de sódio 
-recomendada para um adulto. </p>         </div>"""   
+recomendada para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mvasi"
@@ -1694,7 +1703,7 @@ seu médico. </li>
 <p>Interromper o tratamento com MVASI pode parar o seu efeito no crescimento do tumor. Não pare o 
 tratamento com MVASI exceto se o assunto tiver sido discutido com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2005,7 +2014,7 @@ olho, </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mvasi"
@@ -2027,7 +2036,7 @@ num ambiente estéril, MVASI é estável durante 35 dias a 2°C-8°C, mais um pe
 <p>Não utilize MVASI se notar qualquer partícula sólida ou descoloração antes da administração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deita fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2159,7 +2168,7 @@ Amgen Limited
 Tel: +44 (0)1223 420 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Omnitrope</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ If you have been treated with Omnitrope for growth hormone deficiency during chi
 growth hormone status will be retested after completion of growth. If severe growth hormone 
 deficiency is confirmed, your doctor will propose continuation of Omnitrope treatment.
 You should only be given this medicine by a doctor who has experience with growth hormone 
-treatment and who has confirmed your diagnosis.</p>         </div>"""   
+treatment and who has confirmed your diagnosis.</p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ You should not use Omnitrope if you are pregnant or trying to become pregnant.
 If you are pregnant or breast feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine.
 Important information about some of the ingredients of Omnitrope
-This medicine contains less than 1 mmol sodium (23 mg) per ml, i.e. essentially  sodium- free .</p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per ml, i.e. essentially  sodium- free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take omnitrope"
@@ -357,7 +360,7 @@ regularly. If you forget to use a dose, have your next injection at the usual ti
 note of any missed injections and tell your doctor at your next check-up.
 If you stop using Omnitrope
 Ask for advice from your doctor before you stop using Omnitrope.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -415,7 +418,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store omnitrope"
@@ -434,7 +437,7 @@ immediately. However, the in-use stability has been demonstrated for up to 24 ho
 <p>For single use only.
 Do not use Omnitrope if you notice that the solution is cloudy.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -467,7 +470,7 @@ Novartis Pharmaceutical Manufacturing GmbH
 Biochemiestr. A-6336 Langkampfen
 Austria
 This leaflet was last revised in {MM/YYYY}
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -506,7 +509,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -515,7 +520,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -530,7 +536,7 @@ Usage: #inline
 3. Sådan skal du bruge Omnitrope 
 4. Bivirkninger
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -568,7 +574,7 @@ din væksthormonstatus blive testet igen, når du er færdig med at vokse. Hvis 
 alvorlig væksthormonmangel, vil din læge foreslå, at du fortsætter behandling med Omnitrope.
 Du bør kun få denne medicin af en læge med erfaring i behandling med væksthormoner, som har 
 bekræftet din diagnose.
-88</p>         </div>"""   
+88</p> </div>"""   
           
 
              
@@ -689,7 +695,7 @@ Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægg
 du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
 Vigtig information om nogle af de øvrige indholdsstoffer i Omnitrope
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. ml, dvs. den er i det væsentlige 
-natriumfri.</p>         </div>"""   
+natriumfri.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take omnitrope"
@@ -878,7 +884,7 @@ væksthormon regelmæssigt. Hvis du har glemt at bruge en dosis, skal du tage di
 sædvanlig tid næste dag. Registrer alle glemte injektioner og fortæl det til lægen ved din næste kontrol.
 Hvis du holder op med at bruge Omnitrope
 Få råd fra lægen, inden du stopper med at tage Omnitrope.
-Spørg lægen, apotekspersonalet eller sygeplejersken , hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken , hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -959,7 +965,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store omnitrope"
@@ -984,7 +990,7 @@ Kun til engangsbrug.
 Brug ikke Omnitrope, hvis du opdager, at opløsningen er uklar.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-95</p>         </div>"""      
+95</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1039,7 +1045,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller du 
-får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1078,7 +1084,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1087,7 +1095,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1102,7 +1111,7 @@ Usage: #inline
 3. Como utilizar Omnitrope
 4. Efeitos indesejáveis possíveis
 5. Como conservar Omnitrope
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1151,7 +1160,7 @@ Este medicamento só lhe deve ser administrado por um médico que tenha experiê
 com hormona do crescimento e que tenha confirmado o seu diagnóstico.
 94</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1309,7 +1318,7 @@ Informações importantes sobre alguns componentes de Omnitrope
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente 
 “isento de sódio".</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar omnitrope"
@@ -1511,7 +1520,7 @@ o seu médico na próxima visita de check-up.
 Se parar de utilizar Omnitrope
 Antes de interromper a utilização de Omnitrope, consulte o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico ou enfermeiro.</p>         </div>"""         
+farmacêutico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1614,7 +1623,7 @@ indesejáveis diretamente através do sistema nacional de notificação menciona
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar omnitrope"
@@ -1647,7 +1656,7 @@ Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. P
 farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
 proteger o ambiente.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1686,7 +1695,7 @@ Biochemiestr. 10
 A-6336 Langkampfen
 Áustria
 Este folheto foi revisto pela última vez em {MM/AAAA}
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

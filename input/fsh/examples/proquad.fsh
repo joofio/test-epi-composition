@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store ProQuad</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ ProQuad may also be administered to infants from 9 months of age under special c
 conform with national vaccination schedules, outbreak situations, or travel to a region with high
 prevalence of measles).
 Although ProQuad contains live viruses, they are too weak to cause measles, mumps, rubella, or
-chickenpox (varicella) in healthy people.</p>         </div>"""   
+chickenpox (varicella) in healthy people.</p> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ This medicine contains less than 1 mmol potassium (39 mg) per dose, that is to s
 ProQuad contains sorbitol
 This medicine contains 16 mg sorbitol per dose. The additive effect of concomitantly administered
 products containing sorbitol (or fructose) and dietary intake of sorbitol (or fructose) should be taken
-into account.</p>         </div>"""   
+into account.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take proquad"
@@ -194,7 +197,7 @@ official recommendations.</p>
 <p>Reconstitution instructions intended for medical and healthcare professionals are included at
 the end of the leaflet
 If you forget to take ProQuad
-Your doctor will decide when to give the missed dose.</p>         </div>"""         
+Your doctor will decide when to give the missed dose.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ Reporting of side effects
 If the vaccinated person gets any side effects, talk to your doctor or pharmacist. This includes any
 possible side effects not listed in this leaflet. You can also report side effects directly via the national
 reporting system listed in Appendix V. By reporting side effects you can help provide more
-information on the safety of this medicine.</p>         </div>"""      
+information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store proquad"
@@ -249,7 +252,7 @@ Store and transport refrigerated (2 C-8 C).
 Do not freeze.
 Keep the vial in the outer carton in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -415,7 +418,7 @@ important information for you.
 - If you have any further questions, ask your doctor or your pharmacist.
 - This vaccine has been prescribed for you or your child only. Do not pass it on to others.
 - If you get any of the side effects talk to your doctor of pharmacist. This includes any possible
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -454,7 +457,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -463,7 +468,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -478,7 +484,7 @@ Usage: #inline
 3. Sådan får du ProQuad
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -496,7 +502,7 @@ ProQuad kan også gives til spædbørn fra 9-måneders alderen under særlige om
 overensstemmelse med nationale vaccinationsprogrammer, i forbindelse med sygdomsudbrud eller
 ved rejse til et område med høj forekomst af mæslinger).
 Selv om ProQuad indeholder levende virus, er disse for svage til at udløse mæslinger, fåresyge, røde
-hunde eller skoldkopper (varicella) hos raske mennesker.</p>         </div>"""   
+hunde eller skoldkopper (varicella) hos raske mennesker.</p> </div>"""   
           
 
              
@@ -601,7 +607,7 @@ kaliumfrit.
 ProQuad indeholder sorbitol
 Dette lægemiddel indeholder 16 mg sorbitol pr. dosis. Den additive virkning af samtidigt
 administrerede produkter indeholdende sorbitol (eller fructose) og indtagelse af sorbitol (eller
-fructose) i kosten bør tages i betragtning.</p>         </div>"""   
+fructose) i kosten bør tages i betragtning.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take proquad"
@@ -631,7 +637,7 @@ retningslinjer.</p>
 Vejledning i rekonstitution af vaccinen beregnet for læger og sundhedspersonale er anført sidst i
 indlægssedlen
 Hvis du glemmer at få ProQuad
-Din læge afgør, hvornår den manglende dosis skal gives.</p>         </div>"""         
+Din læge afgør, hvornår den manglende dosis skal gives.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -683,7 +689,7 @@ Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsse
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</p>
-<p>43</p>         </div>"""      
+<p>43</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store proquad"
@@ -697,7 +703,7 @@ Opbevares og transporteres nedkølet (2° C - 8° C).
 Må ikke nedfryses.
 Opbevar hætteglasset i den ydre karton for at beskytte det mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -884,7 +890,7 @@ Den rekonstituerede vaccine må ikke nedfryses.
 Hele hætteglassets indhold af rekonstitueret vaccine trækkes op i en injektionssprøjte, kanylen skiftes
 og hele mængden injiceres subkutant eller intramuskulært.
 Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
-Se også afsnit </p>         </div>"""      
+Se også afsnit </p> </div>"""      
 
 
 

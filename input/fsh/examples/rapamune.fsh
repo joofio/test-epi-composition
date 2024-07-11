@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Rapamune</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ used with other immunosuppressant medicines called corticosteroids and initially
 Rapamune is also used for the treatment of patients with sporadic lymphangioleiomyomatosis
 (S-LAM) with moderate lung disease or declining lung function. S-LAM is a rare progressive lung 
 disease that affects predominantly women of childbearing age. The most common symptom of S-LAM 
-is shortness of breath.</p>         </div>"""   
+is shortness of breath.</p> </div>"""   
           
 
              
@@ -169,7 +172,7 @@ harmful for those suffering from alcoholism as well as for pregnant or breast-fe
 and high-risk groups such as patients with liver disease, or epilepsy. Alcohol may modify or increase 
 the effect of other medicines.
 Maintenance doses of 4 mg or less contain small amounts of ethanol (100 mg or less) that are likely to 
-be too low to be harmful.</p>         </div>"""   
+be too low to be harmful.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rapamune"
@@ -233,7 +236,7 @@ If you miss a dose of Rapamune completely, you should inform your doctor.
 If you stop taking Rapamune
 Do not stop taking Rapamune unless your doctor tells you to, as you risk losing your transplant.
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</li>
-</ol>         </div>"""         
+</ol> </div>"""         
 
         
 * section[=].section[+]
@@ -333,7 +336,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rapamune"
@@ -353,7 +356,7 @@ temperature, but not above 25 C, for maximum 24 hours.
 Once the contents of the dosing syringe have been diluted with water or orange juice, the preparation 
 should be drunk immediately.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -459,7 +462,7 @@ important information for you.</p>
 <p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
-not listed in this leaflet. See section 4</p>         </div>"""      
+not listed in this leaflet. See section 4</p> </div>"""      
 
 
 
@@ -498,7 +501,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -507,7 +512,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -522,7 +528,7 @@ Usage: #inline
 3. Sådan skal De tage Rapamune
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -539,7 +545,7 @@ starten (de første 2-3 måneder) med ciclosporin.
 Rapamune anvendes også til behandling af patienter med sporadisk lymphangioleiomyomatosis (S-
 LAM) med moderat lungesygdom eller faldende lungefunktion. S-LAM er en sjælden
 fremadskridende lungesygdom, der hovedsageligt rammer kvinder i den fødedygtige alder. Det mest 
-almindelige symptom i forbindelse med S-LAM er åndenød.</p>         </div>"""   
+almindelige symptom i forbindelse med S-LAM er åndenød.</p> </div>"""   
           
 
              
@@ -642,7 +648,7 @@ Rapamune indeholder op til 3,17 vol % ethanol (alkohol). En initial dosis på 6 
 skadelig for alkoholikere, gravide og ammende kvinder, børn og højrisikogrupper som f.eks. patienter 
 med leversygdom eller epilepsi. Alkohol kan ændre eller øge virkningen af anden medicin.
 Vedligeholdelsesdoser på 4 mg eller derunder indeholder små mængder ethanol (100 mg eller mindre), 
-som sandsynligvis er for lave til at være skadelige.</p>         </div>"""   
+som sandsynligvis er for lave til at være skadelige.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rapamune"
@@ -711,7 +717,7 @@ Hvis De holder op med at tage Rapamune
 Hold ikke op med at tage medicinen, medmindre lægen giver Dem besked på det, da De risikerer, at 
 transplantatet afstødes.
 Spørg lægen eller på apoteket, hvis der er noget, De er i tvivl om.</li>
-</ol>         </div>"""         
+</ol> </div>"""         
 
         
 * section[=].section[+]
@@ -867,7 +873,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårø
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.
-72</p>         </div>"""      
+72</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rapamune"
@@ -887,7 +893,7 @@ stuetemperatur, men ikke over 25oC, og i højst 24 timer.
 Når indholdet af doseringssprøjten er blevet fortyndet med vand eller appelsinjuice, skal opløsningen 
 drikkes straks.
 Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1030,7 +1036,7 @@ Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har.
 -
 Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller De får bivirkninger, 
-som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

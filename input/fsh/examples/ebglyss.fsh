@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ebglyss </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +82,7 @@ systemic treatments (a medicine given by mouth or injection).  </p>
 <p>Lebrikizumab is a monoclonal antibody (a type of protein) that blocks the action of another protein 
 called interleukin-13. Interleukin-13 plays a major role in causing the symptoms of atopic dermatitis. 
 By blocking interleukin-13, Ebglyss can improve your atopic dermatitis and reduce the related itching 
-and skin pain. </p>         </div>"""   
+and skin pain. </p> </div>"""   
           
 
              
@@ -134,7 +136,7 @@ during pregnancy unless your doctor advises you to use it. </p>
 planning to breast-feed, talk to your doctor before using this medicine. You and your doctor should 
 decide if you will breast-feed or use Ebglyss. You should not do both. </p>
 <p>Driving and using machines 
-Ebglyss is unlikely to influence your ability to drive and use machines. </p>         </div>"""   
+Ebglyss is unlikely to influence your ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebglyss"
@@ -169,7 +171,7 @@ If you forgot to inject Ebglyss when you usually have planned to do it, take it 
 remember. The next dose should be injected on the regular scheduled day. </p>
 <p>If you stop using Ebglyss 
 Do not stop using Ebglyss without speaking to your doctor first. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -192,7 +194,7 @@ If you have any further questions on the use of this medicine, ask your doctor, 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ebglyss"
@@ -212,7 +214,7 @@ of refrigeration, do not place back in the refrigerator. The date of removal fro
 recorded on the carton. </p>
 <p>This medicine is for single use only. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -269,7 +271,7 @@ Almirall - Produtos Farmac uticos, Lda.
 Tel.: +351 21 415 57 Ireland/ United Kingdom (Northern Ireland) 
 Almirall, S.A. 
 Tel: +353 (0) 1431 9This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -308,7 +310,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -317,7 +321,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>  </div>"""   
 
 
 
@@ -334,7 +338,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -351,7 +355,7 @@ alene. </p>
 <p>Lebrikizumab er et monoklonalt antistof (en proteintype) der blokerer for et andet protein, kaldet 
 interleukin-13. Interleukin-13 spiller en stor rolle i det, der forårsager symptomer på atopisk 
 dermatitis. Ved at blokere for interleukin-13 kan Ebglyss forbedre din eksem og dæmpe den relaterede 
-kløe og hudsmerte. </p>         </div>"""   
+kløe og hudsmerte. </p> </div>"""   
           
 
              
@@ -419,7 +423,7 @@ af Ebglyss under graviditet, medmindre din læge anbefaler, at du bruger det. </
 amme, skal du tale med din læge, før du tager dette lægemiddel. Du og din læge bør beslutte, om du 
 skal amme eller bruge Ebglyss. Du må ikke gøre begge dele. </p>
 <p>Trafik- og arbejdssikkerhed 
-Det er usandsynligt, at Ebglyss vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+Det er usandsynligt, at Ebglyss vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebglyss"
@@ -464,7 +468,7 @@ snart, du kommer i tanke om det. Den efterfølgende dosis skal injiceres på den
 dag. </p>
 <p>Hvis du holder op med at bruge Ebglyss 
 Du må ikke holde op med at bruge Ebglyss uden først at tale med din læge. 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -508,7 +512,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ebglyss"
@@ -528,7 +532,7 @@ udtagning fra køleskabet skal Ebglyss opbevares ved temperaturer under 30 °C o
 køleskabet. Datoen for udtagning fra køleskabet kan angives på kartonen. </p>
 <p>Dette lægemiddel er kun til engangsbrug.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -832,7 +836,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, sygeplejersken eller apotekspersonalet, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Pradaxa</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ Pradaxa is used in adults to:
 prevent the formation of blood clots in the veins after knee or hip replacement surgery.
 Pradaxa is used in children to:
 -
-treat blood clots and to prevent blood clots from reoccurring.</p>         </div>"""   
+treat blood clots and to prevent blood clots from reoccurring.</p> </div>"""   
           
 
              
@@ -207,7 +210,7 @@ medicine if you are pregnant unless your doctor advises you that it is safe to d
 of child-bearing age, you should avoid becoming pregnant while you are taking Pradaxa.
 You should not breast-feed while you are taking Pradaxa.
 Driving and using machines
-Pradaxa has no known effects on the ability to drive or use machines.</p>         </div>"""   
+Pradaxa has no known effects on the ability to drive or use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pradaxa"
@@ -322,7 +325,7 @@ If you stop taking Pradaxa
 Take Pradaxa exactly as prescribed. Do not stop taking this medicine without talking to your doctor 
 first, because the risk of developing a blood clot could be higher if you stop treatment too early. 
 Contact your doctor if you experience indigestion after taking Pradaxa.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -499,7 +502,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pradaxa"
@@ -515,7 +518,7 @@ Bottle:
 Once opened, the medicine must be used within 4 months. Keep the bottle tightly closed. 
 Store in the original package in order to protect from moisture.
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment.</p>         </div>"""      
+you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -626,7 +629,7 @@ Latvijas fili le
 Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last approved in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -665,7 +668,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -674,7 +679,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -689,7 +695,7 @@ Usage: #inline
 3. Sådan skal du tage Pradaxa
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -705,7 +711,7 @@ Pradaxa anvendes til voksne for at:
 forebyggedannelse af blodpropper i venerne efter udskiftning af knæ- eller hofte.
 Pradaxa anvendes til børn for at:
 -
-behandle blodpropper samt forebygge nye blodpropper.</p>         </div>"""   
+behandle blodpropper samt forebygge nye blodpropper.</p> </div>"""   
           
 
              
@@ -854,7 +860,7 @@ hvis du er gravid, medmindre din læge siger, at det er sikkert nok for dig. Hvi
 fødedygtige alder, bør du undgå graviditet, mens du tager Pradaxa.
 Du må ikke amme, mens du tager Pradaxa.
 Trafik- og arbejdssikkerhed
-Pradaxa påvirker ikke evnen til at køre bil eller betjene maskiner.</p>         </div>"""   
+Pradaxa påvirker ikke evnen til at køre bil eller betjene maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pradaxa"
@@ -997,7 +1003,7 @@ Hvis du holder op med at tage Pradaxa
 Tag Pradaxa nøjagtigt som foreskrevet. Du må ikke holde op med at tage dette lægemiddel uden først 
 at tale med lægen, da risikoen for at udvikle en blodprop kan være større, hvis du stopper for tidligt 
 med behandlingen. Kontakt lægen, hvis du oplever fordøjelsesbesvær, efter du har taget Pradaxa.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1179,7 +1185,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pradaxa"
@@ -1195,7 +1201,7 @@ Beholder:
 Efter åbning skal medicinen anvendes i løbet af højst 4 måneder. Hold beholderen tæt 
 tillukket. Kapslerne skal opbevares i den originale yderpakning for at beskytte mod fugt.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1357,7 +1363,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

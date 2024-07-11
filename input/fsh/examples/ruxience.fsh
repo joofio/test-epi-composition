@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ruxience </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -119,7 +122,7 @@ lymphocytes are involved in the cause of these conditions. </p>
 Pemphigus vulgaris<br />
 Ruxience is used for the treatment of patients with moderate to severe pemphigus vulgaris. Pemphigus 
 vulgaris is an autoimmune condition that causes painful blisters on the skin and lining of the mouth, 
-nose, throat and genitals. </p>         </div>"""   
+nose, throat and genitals. </p> </div>"""   
           
 
              
@@ -203,7 +206,7 @@ It is not known whether rituximab has an effect on you being able to drive or us
 machines. </p>
 <p>Ruxience sodium content 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ruxience"
@@ -259,7 +262,7 @@ Each course of treatment is made up of two separate infusions which are given 2 
 respond well to treatment, you may be given Ruxience as a maintenance treatment. This will be 
 administered 1 year and 18 months after the initial treatment and then every 6 months as needed or 
 your doctor may change this, depending on how you respond to the medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -488,7 +491,7 @@ the other medicines. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ruxience"
@@ -501,7 +504,7 @@ date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2  C   8  C). Keep the container in the outer carton in order to protect from 
 light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines that you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines that you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -596,7 +599,7 @@ Tel: +44 (0)1304 616Lietuva
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel: +370 5 251 4This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -635,7 +638,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -644,7 +649,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -659,7 +665,7 @@ Usage: #inline
 3. Sådan får du Ruxience
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -715,7 +721,7 @@ e)
 Pemfigus vulgaris
 Ruxience anvendes til behandling af patienter med moderat til svær pemfigus vulgaris. Pemfigus 
 vulgaris er en autoimmun sygdom, der forårsager smertefulde blærer på huden og mundens, næsens, 
-halsens og kønsorganernes slimhinder.</p>         </div>"""   
+halsens og kønsorganernes slimhinder.</p> </div>"""   
           
 
              
@@ -807,7 +813,7 @@ Trafik og arbejdssikkerhed
 Det vides ikke, om rituximab påvirker din evne til at køre motorkøretøj eller arbejde med maskiner.
 Ruxience indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige ‘natrium-frit’.</p>         </div>"""   
+væsentlige ‘natrium-frit’.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ruxience"
@@ -865,7 +871,7 @@ Hvis du behandles for pemfigus vulgaris
 Hvert behandlingsforløb består af to separate infusioner, der gives med 2 ugers mellemrum. Hvis du 
 reagerer godt på behandlingen, kan du få Ruxience som vedligeholdelsesbehandling. 
 Vedligeholdelsesbehandling vil gives 1 år og 18 måneder efter behandlingens start og herefter hver 6. måned efter behov. Din læge kan ændre dette, afhængigt af hvordan du reagerer på behandlingen. 
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1216,7 +1222,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ruxience"
@@ -1229,7 +1235,7 @@ sidste dag i den nævnte måned.
 Opbevares i køleskab (2 C - 8 C). Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
 84
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1360,7 +1366,7 @@ Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Læ
 hjemmeside http://www.ema.europa.eu/
 86
 Denne indlægsseddel findes på alle EU-/EØS-sprog på det Europæiske Lægemiddelagenturs 
-hjemmeside.</p>         </div>"""      
+hjemmeside.</p> </div>"""      
 
 
 

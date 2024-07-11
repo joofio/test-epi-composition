@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -48,7 +50,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Tenofovir disoproxil Zentiva has been prescribed for your child, please note that all the information in 
-this leaflet is addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
+this leaflet is addressed to your child (in this case please read  your child  instead of  you ). </p>  </div>"""   
 
 
 
@@ -65,7 +67,7 @@ this leaflet is addressed to your child (in this case please read  your child  i
 <li>Possible side effects </li>
 <li>How to store Tenofovir disoproxil Zentiva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +95,7 @@ side effects. </p>
 <p>This medicine is not a cure for HIV infection. While taking Tenofovir disoproxil Zentiva you may 
 still develop infections or other illnesses associated with HIV infection. 
 You can also pass on HBV to others, so it is important to take precautions to avoid infecting other 
-people. </p>         </div>"""   
+people. </p> </div>"""   
           
 
              
@@ -276,7 +278,7 @@ Tenofovir disoproxil Zentiva contains lactose monohydrate. If you have been told
 you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Tenofovir disoproxil Zentiva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tenofovir"
@@ -350,7 +352,7 @@ particularly symptoms you associate with hepatitis B infection. </p>
 <p>Contact your doctor before you restart taking Tenofovir disoproxil Zentiva tablets. </p>
 </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -415,7 +417,7 @@ damage to kidney tubule cells. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tenofovir"
@@ -428,7 +430,7 @@ expiry date refers to the last day of that month. </p>
 <p>Use within 60 days after first opening. Do not store above 30  C. Store in the original package in order 
 to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -554,7 +556,7 @@ United Kingdom (Northern Ireland)
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -593,7 +595,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -603,7 +607,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Tenofovir disoproxil Zentiva er ordineret til dit barn, bedes du bemærke, at alle oplysninger 
-i indlægssedlen er henvendt til dit barn (i dette tilfælde bedes du læse „Dit barn“ i stedet for „du“). </p>         </div>"""   
+i indlægssedlen er henvendt til dit barn (i dette tilfælde bedes du læse „Dit barn“ i stedet for „du“). </p>  </div>"""   
 
 
 
@@ -618,7 +622,7 @@ i indlægssedlen er henvendt til dit barn (i dette tilfælde bedes du læse „D
 3. Sådan skal du tage Tenofovir disoproxil Zentiva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -657,7 +661,7 @@ infektion med HBV (hepatitis B-virus). Tabletterne er egnede til: </p>
 HBV. </p>
 <p>Denne medicin helbreder ikke hiv-infektion. Mens du tager Tenofovir disoproxil Zentiva, kan du 
 stadig udvikle infektioner eller andre sygdomme, der er forbundet med hiv-infektion. </p>
-<p>Du kan også smitte med HBV, så det er vigtigt at tage forholdsregler for at undgå at smitte andre. </p>         </div>"""   
+<p>Du kan også smitte med HBV, så det er vigtigt at tage forholdsregler for at undgå at smitte andre. </p> </div>"""   
           
 
              
@@ -846,7 +850,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>Tenofovir disoproxil Zentiva indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tenofovir"
@@ -930,7 +934,7 @@ forbinde med hepatitis B-infektion. </p>
 <p>Kontakt din læge, før du igen begynder at tage Tenofovir disoproxil Zentiva. </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1069,7 +1073,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tenofovir"
@@ -1082,7 +1086,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Anvendes inden for 60 dage efter første åbning. Må ikke opbevares ved temperaturer over 30 °C. 
 Opbevares i den originale emballage for at beskytte mod fugt. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1215,7 +1219,7 @@ Zentiva, k.s.
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside https://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside https://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1254,7 +1258,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1264,7 +1270,7 @@ Usage: #inline
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se Tenofovir disoproxil Zentiva tiver sido receitado para o seu filho, note que toda a informação 
-que consta deste folheto é dirigida ao seu filho (neste caso leia “o seu filho" em vez de “você"). </p>         </div>"""   
+que consta deste folheto é dirigida ao seu filho (neste caso leia “o seu filho" em vez de “você"). </p>  </div>"""   
 
 
 
@@ -1279,7 +1285,7 @@ que consta deste folheto é dirigida ao seu filho (neste caso leia “o seu filh
 3. Como utilizar Tenofovir disoproxil Zentiva comprimidos 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Tenofovir disoproxil Zentiva comprimidos 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1322,7 +1328,7 @@ para o VHB. </p>
 Zentiva poderá desenvolver, na mesma, infeções ou outras doenças associadas com a infeção pelo 
 VIH. </p>
 <p>Pode transmitir o VIH ou o VHB a outros, como tal, é importante tomar as precauções adequadas de 
-modo a evitar a transmissão da infeção a outros. </p>         </div>"""   
+modo a evitar a transmissão da infeção a outros. </p> </div>"""   
           
 
              
@@ -1511,7 +1517,7 @@ Se foi informado pelo seu médico de que é intolerante a alguns açúcares, dev
 tomar este medicamento. </p>
 <p>Tenofovir disoproxil Zentiva contém sódio </p>
 <p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
-praticamente isento de sódio. </p>         </div>"""   
+praticamente isento de sódio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tenofovir"
@@ -1599,7 +1605,7 @@ após parar o tratamento, particularmente sintomas que associaria à sua hepatit
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1742,7 +1748,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar 
 efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tenofovir"
@@ -1756,7 +1762,7 @@ exterior, após VAL. O prazo de validade corresponde ao último dia do mês indi
 origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1891,7 +1897,7 @@ United Kingdom (Northern Ireland)
 Zentiva, k.s 
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

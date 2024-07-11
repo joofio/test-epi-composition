@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Skytrofa  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ muscle tissues.  </p>
 <p>Skytrofa is used to treat children and adolescents, aged 3 up to 18 years, who have failed to grow 
 because their body produces no growth hormone or not enough. Doctors call this growth hormone 
 deficiency (GHD). After injection, Skytrofa is slowly converted into somatropin, supplying the 
-missing growth hormone. </p>         </div>"""   
+missing growth hormone. </p> </div>"""   
           
 
              
@@ -173,7 +176,7 @@ absorbed by mouth, it is unlikely to adversely affect the breastfed infant. If y
 intend to breast-feed, ask your doctor for advice before using Skytrofa. Skytrofa can be used during 
 breastfeeding on strict indication. </p>
 <p>Driving and using machines 
-Skytrofa does not affect the ability to drive or to use machines.  </p>         </div>"""   
+Skytrofa does not affect the ability to drive or to use machines.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take skytrofa"
@@ -223,7 +226,7 @@ usual dosing day. Leave at least 5 clear days between injections. </p>
 Do not stop using Skytrofa without talking to your doctor. If you stop taking Skytrofa prematurely, 
 your growth rate may decline, and your final height may be less than if you had completed the full 
 course of treatment. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -267,7 +270,7 @@ headache, visual disturbances and vomiting)
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store skytrofa"
@@ -290,7 +293,7 @@ Auto-Injector. If you cannot use the mixed solution immediately, it should be us
 <p>When you have finished with a cartridge with needle, you must dispose of it carefully in a suitable 
 container. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicine you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicine you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -396,7 +399,7 @@ Ascendis Pharma A/S
 Tuborg Boulevard DK-2900 Hellerup 
 Denmark </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -435,7 +438,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -444,7 +449,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -459,7 +465,7 @@ Usage: #inline
 3. Sådan skal du bruge Skytrofa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -611,7 +617,7 @@ munden, er det imidlertid usandsynligt, at det påvirker det ammede spædbarn ne
 eller har planer om at amme, skal du spørge din læge til råds, før du bruger Skytrofa. Skytrofa kan 
 anvendes under amning, hvis det er strengt nødvendigt efter aftale med lægen. </p>
 <p>Trafik- og arbejdssikkerhed 
-Skytrofa påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner.  </p>         </div>"""   
+Skytrofa påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner.  </p> </div>"""   
           
 
              
@@ -668,7 +674,7 @@ dage mellem injektionerne. </p>
 Du må ikke stoppe med at bruge Skytrofa uden at tale med lægen. Hvis du stopper for tidligt med at 
 tage Skytrofa, kan din væksthastighed falde, og din endelige højde kan blive lavere, end hvis du havde 
 fuldført hele behandlingen. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""   
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take skytrofa"
@@ -756,7 +762,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""         
+information om sikkerheden af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -781,7 +787,7 @@ Auto-Injector. Hvis du ikke kan bruge den blandede opløsning straks, skal den b
 <p>Når du er færdig med at bruge en cylinderampul med kanyle, skal du bortskaffe den forsigtigt i en 
 egnet beholder. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store skytrofa"
@@ -1187,7 +1193,7 @@ almindeligt husholdningsaffald. </p>
 <li>Så skal du tage den anden injektion ved at gentage trin 1-11 med en ny cylinderampul og 
 kanyle. </li>
 </ul>
-<p>1</p>         </div>"""      
+<p>1</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1199,7 +1205,7 @@ kanyle. </li>
 <li>Sæt den beskyttende hætte på, og opbevar 
 den ved stuetemperatur, så den er klar til 
 brug næste gang. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

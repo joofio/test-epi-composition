@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Bridion</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ Bridion is used to speed up the recovery of your muscles after an operation to a
 your own again earlier. It does this by combining with the rocuronium bromide or vecuronium
 bromide in your body. It can be used in adults whenever rocuronium bromide or vecuronium bromide
 is used and in children and adolescents (aged 2 to 17 years) when rocuronium bromide is used for a
-moderate level of relaxation.</p>         </div>"""   
+moderate level of relaxation.</p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ Driving and using machines
 Bridion has no known influence on your ability to drive and use machines.
 Bridion contains sodium
 This medicine contains up to 9.7 mg sodium (main component of cooking / table salt) in each mL.
-This is equivalent to 0.5 % of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+This is equivalent to 0.5 % of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bridion"
@@ -162,7 +165,7 @@ intravenous line.
 If more Bridion is given to you than recommended
 As your anaesthetist will be monitoring your condition carefully, it is unlikely that you will be given
 too much Bridion. But even if this happens, it is unlikely to cause any problems.
-If you have any further questions on the use of this medicine, ask your anaesthetist or other doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your anaesthetist or other doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -196,7 +199,7 @@ Reporting of side effects
 If you get any side effects, talk to your anaesthetist or other doctor. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bridion"
@@ -208,7 +211,7 @@ Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the carton and on the label after
  EXP . The expiry date refers to the last day of that month.
 Store below 30 C. Do not freeze. Keep the vial in the outer carton in order to protect from light.
-After first opening and dilution, store at 2 to 8 C and use within 24 hours.</p>         </div>"""      
+After first opening and dilution, store at 2 to 8 C and use within 24 hours.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ Detailed information on this medicine is available on the European Medicines Age
 http://www.ema.europa.eu.</p>
 <hr />
 <p>The following information is intended for healthcare professionals only:
-For detailed information refer to the Summary of Product Characteristics of BRIDION.</p>         </div>"""      
+For detailed information refer to the Summary of Product Characteristics of BRIDION.</p> </div>"""      
 
 
 
@@ -377,7 +380,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -386,7 +391,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -401,7 +407,7 @@ Usage: #inline
 3. Sådan bliver du behandlet med Bridion
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -424,7 +430,7 @@ Bridion bruges til at vække musklerne hurtigere efter en operation for at du hu
 trække vejret selv igen. Det gør det ved at binde sig til rocuroniumbromid eller vecuroniumbromid i
 kroppen. Det kan bruges hos voksne, når rocuroniumbromid eller vecuroniumbromid har været
 anvendt og hos børn og unge (i alderen 2 til 17 år), når rocuroniumbromid har været anvendt til at
-opnå et moderat afslapningsniveau. </p>         </div>"""   
+opnå et moderat afslapningsniveau. </p> </div>"""   
           
 
              
@@ -500,7 +506,7 @@ Bridion indeholder natrium
 Dette lægemiddel indeholder op til 9,7 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hver
 ml. Dette svarer til 0,5% af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bridion"
@@ -527,7 +533,7 @@ Anæstesilægen vil overvåge din tilstand nøje, og du vil derfor næppe få fo
 alligevel skulle ske, så vil det sandsynligvis ikke give problemer.
 Spørg anæstesilægen eller anden læge, hvis der er noget vedrørende medicinen, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -584,7 +590,7 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel.
 31</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bridion"
@@ -598,7 +604,7 @@ er den sidste dag i den nævnte måned.
 Opbevares ved temperaturer under 30 °C. Må ikke nedfryses. Opbevar hætteglasset i den ydre karton
 for at beskytte mod lys.
 Efter første åbning og fortynding opbevares i køleskab (2 °C - 8 °C) og skal anvendes inden for
-24 timer.</p>         </div>"""      
+24 timer.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -763,7 +769,7 @@ http://www.ema.europa.eu.</li>
 </ul>
 <hr />
 <p>Nedenstående oplysninger er til læger og sundhedspersonale:
-For mere detaljerede oplysninger henvises til Produktresuméet for Bridion.</p>         </div>"""      
+For mere detaljerede oplysninger henvises til Produktresuméet for Bridion.</p> </div>"""      
 
 
 

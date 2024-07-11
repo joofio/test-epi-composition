@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Spinraza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ the body. This results in the loss of nerve cells in the spine, leading to weakn
 shoulders, hips, thighs and upper back. It may also weaken the muscles used for breathing and 
 swallowing. </p>
 <p>Spinraza works by helping the body to produce more of the SMN protein that people with SMA are 
-lacking. This reduces the loss of nerve cells and so may improve muscle strength. </p>         </div>"""   
+lacking. This reduces the loss of nerve cells and so may improve muscle strength. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per 5 ml vial, that is to
  sodium-free  and can be used by people on a sodium-restricted diet. </p>
 <p>Spinraza contains a small amount of potassium 
 This medicine contains potassium, less than 1 mmol (39 mg) per 5 ml vial, i.e. essentially  potassium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spinraza"
@@ -149,7 +152,7 @@ with Spinraza unless your doctor tells you to. </p>
 <p>If you or your child misses an injection 
 If you or your child miss a dose of Spinraza, speak with your doctor so that Spinraza can be given as 
 soon as possible. 
-If you have any questions about how Spinraza is given, ask your doctor. </p>         </div>"""         
+If you have any questions about how Spinraza is given, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -186,7 +189,7 @@ ADR Reporting Website: www.medicinesauthority.gov.mt/adrportal </p>
 Yellow Card Scheme 
 Website: www.mhra.gov.uk/yellowcard or search for MHRA Yellow Card in the Google Play or 
 Apple App Store </p>
-<p>By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+<p>By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spinraza"
@@ -202,7 +205,7 @@ If no refrigeration is available, Spinraza may be stored in its original carton,
 below 30 C for up to 14 days. </p>
 <p>Unopened vials of Spinraza can be removed from and returned to the refrigerator if necessary. If 
 removed from the original carton, the total time out of refrigeration should not exceed 30 hours, at a 
-temperature that does not exceed 25 C. </p>         </div>"""      
+temperature that does not exceed 25 C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -298,7 +301,7 @@ Tel: + 371 68 688 United Kingdom (Northern Ireland)
 Biogen Idec (Ireland) Limited 
 Tel: +44 (0) 1628 50 1This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -337,7 +340,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -346,7 +351,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -361,7 +367,7 @@ Usage: #inline
 3. Sådan gives Spinraza
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -377,7 +383,7 @@ kroppen. Dette resulterer i et tab af nerveceller i rygmarven og fører til musk
 hofter, lår og den øvre del af ryggen. Det kan også svække de muskler, der anvendes for at trække 
 vejret og synke.
 Spinraza virker ved at hjælpe kroppen med at danne mere SMN-protein, som personer med SMA 
-mangler. Dette nedsætter tabet af nerveceller og kan forbedre muskelstyrken.</p>         </div>"""   
+mangler. Dette nedsætter tabet af nerveceller og kan forbedre muskelstyrken.</p> </div>"""   
           
 
              
@@ -428,7 +434,7 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 5 ml hættegl
 væsentlige natriumfrit og kan anvendes til patienter på en natriumbegrænset diæt.
 Spinraza indeholder en lille mængde kalium
 Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. 5 ml hætteglas, dvs. det er i det 
-væsentlige kaliumfrit.</p>         </div>"""   
+væsentlige kaliumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spinraza"
@@ -454,7 +460,7 @@ behandlingen, medmindre lægen fortæller dig det.
 Hvis du eller dit barn har sprunget over en injektion
 Hvis du eller dit barn har sprunget over en dosis Spinraza, skal du tale med lægen, så Spinraza kan 
 gives snarest muligt.
-Spørg lægen, hvis der er noget du er i tvivl om med hensyn til, hvordan Spinraza gives.</p>         </div>"""         
+Spørg lægen, hvis der er noget du er i tvivl om med hensyn til, hvordan Spinraza gives.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -483,7 +489,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge eller sy
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spinraza"
@@ -500,7 +506,7 @@ beskyttet mod lys ved eller under 30 °C i op til 14 dage.
 Uåbnede hætteglas med Spinraza kan fjernes fra og sættes tilbage i køleskabet, hvis det er 
 nødvendigt. Hvis det fjernes fra den originale karton, bør den totale tid ude af køleskabet ikke 
 overskride 30 timer ved en temperatur, der ikke overskrider 25 °C.
-30</p>         </div>"""      
+30</p> </div>"""      
         
         
 * section[=].section[+]
@@ -650,7 +656,7 @@ spinalanæstesi.
 før administration af Spinraza.
 9. Når opløsningen er trukket op i sprøjten, skal den bortskaffes, hvis den ikke anvendes inden for 
 6 timer.
-10. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+10. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

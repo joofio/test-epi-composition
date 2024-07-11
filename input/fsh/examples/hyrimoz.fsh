@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Hyrimoz</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -117,7 +119,7 @@ move across the field of vision). Hyrimoz works by reducing this inflammation.
 Hyrimoz is used to treat children from 2 years of age with chronic non-infectious uveitis with 
 inflammation affecting the front of the eye.
 Your child may first be given other medicines. If these medicines do not work well enough, your child 
-will be given Hyrimoz to reduce the signs and symptoms of his/her disease.</p>         </div>"""   
+will be given Hyrimoz to reduce the signs and symptoms of his/her disease.</p> </div>"""   
           
 
              
@@ -260,7 +262,7 @@ Hyrimoz may have a minor influence on the ability to drive, cycle or use machine
 sensation (vertigo) and vision disturbances may occur after taking Hyrimoz.
 Hyrimoz contains sodium
 This medicine contains less than 1 mmol of sodium (23 mg) per 0.4 ml dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hyrimoz"
@@ -408,7 +410,7 @@ had you not forgotten a dose.
 If you stop using Hyrimoz
 The decision to stop using Hyrimoz should be discussed with your child s doctor. The symptoms may 
 return upon stopping treatment.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -585,7 +587,7 @@ Reporting of side effects
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on 
-the safety of this medicine.</p>         </div>"""      
+the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hyrimoz"
@@ -604,7 +606,7 @@ refrigerator for room temperature storage, your pre-filled syringe must be used 
 discarded, even if it is later returned to the refrigerator. You should record the date when your pre-
 filled syringe is first removed from the refrigerator, and the date after which it should be discarded.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -846,7 +848,7 @@ This medicine has been prescribed for your child only. Do not pass it on to othe
 them, even if their signs of illness are the same as your child s.
 -
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -885,7 +887,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -896,7 +900,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsvejledning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -913,7 +917,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1043,7 +1047,7 @@ uklarheder i øjet, som bevæger sig i synsfeltet). Hyrimoz virker ved at reduce
 <p>børn fra 2 år med kronisk ikke-infektiøs uveitis med inflammation, som påvirker forreste del af 
 øjet. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1267,7 +1271,7 @@ kan få synsforstyrrelser og en fornemmelse af, at rummet drejer rundt (svimmelh
 Hyrimoz. </p>
 <p>Hyrimoz indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 0,8 ml dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hyrimoz"
@@ -1583,7 +1587,7 @@ fastlagte dag, som om du ikke havde glemt en dosis. </p>
 <p>Hvis du holder op med at bruge Hyrimoz </p>
 <p>Beslutningen om at stoppe med at bruge Hyrimoz skal diskuteres med din læge. Dine symptomer kan 
 komme igen efter ophør af behandlingen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2053,7 +2057,7 @@ blodprøver. Disse inkluderer: </p>
 <p>Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet. Dette gælder også 
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen (se detaljer nedenfor). Ved at indrapportere 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hyrimoz"
@@ -2072,7 +2076,7 @@ køleskabet og opbevaret ved stuetemperatur, skal pennen bruges indenfor 21 dage
 også selv om den senere lægges tilbage i køleskabet. Du skal registrere den dato, hvor din fyldte pen 
 først tages ud af køleskabet, og den dato efter hvilken, den skal kasseres. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2466,7 +2470,7 @@ Hyrimoz.
 til andre. Det kan være skadeligt for andre, selvom de har samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
-<p>Oversigt over indlægssedlen: </p>         </div>"""      
+<p>Oversigt over indlægssedlen: </p> </div>"""      
 
 
 
@@ -2505,7 +2509,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -2516,7 +2522,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções de utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -2531,7 +2537,7 @@ Usage: #inline
 3. Como utilizar Hyrimoz 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Hyrimoz 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -2598,7 +2604,7 @@ inflamação. </p>
 frente do olho, em crianças a partir dos 2 anos de idade </p>
 <p>O/a seu/sua filho/a poderá receber primeiro outros medicamentos. Caso estes medicamentos não sejam 
 suficientemente eficazes, o/a seu/sua filho/a receberá Hyrimoz para reduzir os sinais e sintomas da sua 
-doença. </p>         </div>"""   
+doença. </p> </div>"""   
           
 
              
@@ -2834,7 +2840,7 @@ informação sobre vacinação, ver secção “Advertências e precauções"). 
 máquinas. Depois de tomar Hyrimoz, pode ter vertigens e alterações da visão. </p>
 <p>Hyrimoz contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio  por dose de 0,4 ml, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar hyrimoz"
@@ -3006,7 +3012,7 @@ omitido a dose anterior. </p>
 <p>Se parar de utilizar Hyrimoz </p>
 <p>A decisão de parar de utilizar Hyrimoz deve ser avaliada com o médico do/a seu/sua filho/a. Os 
 sintomas do/a seu/sua filho/a podem voltar depois de parar o tratamento. </p>
-<p>Caso tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -3474,7 +3480,7 @@ identificados através de análises ao sangue. Estes incluem: </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente  através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar hyrimoz"
@@ -3495,7 +3501,7 @@ Deve registar a data em que a seringa pré-cheia foi inicialmente retirada do fr
 deve ser eliminada. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -3618,7 +3624,7 @@ Sandoz d.d. Latvia filiāle
 Tel: +371 67 892  </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

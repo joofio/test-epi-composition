@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Erbitux </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ with other anticancer medicines. </p>
 <p>a certain type of cancer of the head and neck (squamous cell cancer). In these patients, Erbitux 
 is used in combination with radiation therapy or with other anticancer medicines. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ these situations. </p>
 two months after the last dose. </p>
 <p>Driving and using machines </p>
 <p>Do not drive or use any tools or machines if you experience treatment-related symptoms that affect 
-your ability to concentrate and react. </p>         </div>"""   
+your ability to concentrate and react. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take erbitux"
@@ -179,7 +182,7 @@ receive Erbitux. </p>
 administered at least 1 hour after the end of the Erbitux infusion. </p>
 <p>If you receive Erbitux in combination with radiation therapy, treatment with Erbitux is usually started 
 one week before radiation therapy. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -284,7 +287,7 @@ related to this combination, such as:
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store erbitux"
@@ -294,7 +297,7 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 C   8 C). Once opened, Erbitux is intended for immediate use. </p>         </div>"""      
+<p>Store in a refrigerator (2 C   8 C). Once opened, Erbitux is intended for immediate use. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ Frankfurter Stra e 64293 Darmstadt
 Germany </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -364,7 +367,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -373,7 +378,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -388,7 +394,7 @@ Usage: #inline
 3. Sådan får du Erbitux 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -415,7 +421,7 @@ andre lægemidler mod kræft. </p>
 <p>En særlig type kræft i hoved og hals (pladecellekræft). Hos disse patienter anvendes Erbitux i 
 kombination med strålebehandling eller med andre lægemidler mod kræft. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -471,7 +477,7 @@ ikke er sikker). Lægen vil drøfte risici og fordele ved at anvende Erbitux i d
 sidste dosis.  </p>
 <p>Trafik- og arbejdssikkerhed  </p>
 <p>Du må ikke føre motorkøretøj eller bruge maskiner, hvis du oplever behandlingsrelaterede symptomer, 
-som påvirker din koncentrations- og reaktionsevne.  </p>         </div>"""   
+som påvirker din koncentrations- og reaktionsevne.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take erbitux"
@@ -501,7 +507,7 @@ Erbitux. </p>
 1 time efter afsluttet Erbitux-infusion.  </p>
 <p>Hvis du får Erbitux i kombination med strålebehandling, indledes behandlingen med Erbitux som 
 regel en uge før strålebehandlingen.  </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -701,7 +707,7 @@ være forbundet med denne kombination, såsom: </p>
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store erbitux"
@@ -712,7 +718,7 @@ lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). 
-Efter åbning er Erbitux beregnet til omgående brug.  </p>         </div>"""      
+Efter åbning er Erbitux beregnet til omgående brug.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -811,7 +817,7 @@ infusionshastighed, der ikke overstiger 5 mg/min. De efterfølgende doser (250 m
 legemsoverflade) gives som infusion i løbet af cirka 1 time med en infusionshastighed, der ikke 
 overstiger 10 mg/min. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

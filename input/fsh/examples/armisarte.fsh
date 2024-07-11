@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Armisarte </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ stage of lung cancer. </p>
 <p>Armisarte can be prescribed to you if you have lung cancer at an advanced stage if your disease has 
 responded to treatment or it remains largely unchanged after initial chemotherapy. </p>
 <p>Armisarte is also a treatment for patients with advanced stage of lung cancer whose disease has 
-progressed after other initial chemotherapy has been used. </p>         </div>"""   
+progressed after other initial chemotherapy has been used. </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ following receipt of treatment, seek advice from your doctor or pharmacist. Armi
 ability to have children. Talk to your doctor to seek advice about sperm storage before starting your 
 therapy. </p>
 <p>Driving and using machines 
-Armisarte may make you feel tired. Be careful when driving a car or using machines. </p>         </div>"""   
+Armisarte may make you feel tired. Be careful when driving a car or using machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take armisarte"
@@ -179,7 +182,7 @@ B12 and folic acid are given to you to reduce the possible toxic effects of the 
 <p>Your condition will be closely monitored during treatment. This routinely involves blood tests, 
 including checks on your liver and kidney function. Your dose may be changed or treatment delayed 
 depending on results from these tests. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -309,7 +312,7 @@ possible when you start experiencing any of these side effects. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store armisarte"
@@ -337,7 +340,7 @@ would normally not be longer than 24 hours at 2  C-8  C, unless method of openin
 place in controlled and validated aseptic conditions. </p>
 <p>Armisarte should not been used if there are any signs of particles. </p>
 <p>Any unused concentrate left in the vial, which has exceeded the in-use shelf life, must be disposed of 
-in accordance with local requirements. </p>         </div>"""      
+in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -448,7 +451,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -487,7 +490,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -496,7 +501,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -511,7 +517,7 @@ Usage: #inline
 3. Sådan skal De bruge Armisarte 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -530,7 +536,7 @@ patienter med fremskreden lungecancer. </p>
 <p>Armisarte kan ordineres til Dem, hvis De har fremskreden lungekræft, og Deres sygdom har reageret 
 på behandling, eller hvis den stort set er uforandret efter den indledende kemoterapibehandling. </p>
 <p>Armisarte er også en behandling til patienter med fremskreden lungekræft, hvor sygdommen har 
-udviklet sig, efter anden indledende behandling med kemoterapi har været forsøgt. </p>         </div>"""   
+udviklet sig, efter anden indledende behandling med kemoterapi har været forsøgt. </p> </div>"""   
           
 
              
@@ -593,7 +599,7 @@ under behandlingsforløbet eller tidligere end 3 måneder efter, behandlingen er
 vejledning hos Deres læge eller på apoteket. Armisarte kan påvirke Deres evne til at få børn. Tal med 
 Deres læge for at få rådgivning om opbevaring af sæd, inden behandlingen påbegyndes. </p>
 <p>Trafik- og arbejdssikkerhed 
-Armisarte kan muligvis gøre Dem træt. Vær derfor forsigtig, hvis De kører bil eller betjener maskiner. </p>         </div>"""   
+Armisarte kan muligvis gøre Dem træt. Vær derfor forsigtig, hvis De kører bil eller betjener maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take armisarte"
@@ -629,7 +635,7 @@ kræftbehandlingen. </p>
 <p>Deres tilstand vil blive nøje overvåget under behandlingen. Dette involverer rutinemæssigt blodprøver, 
 herunder kontrol af Deres lever- og nyrefunktion. Deres dosis kan ændres eller behandling forsinkes 
 afhængig af resultater fra disse tester. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -761,7 +767,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller sygeplejersken.
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store armisarte"
@@ -789,7 +795,7 @@ opbevaringsbetingelserne forud for anvendelse brugerens ansvar og vil normalt ik
 og validerede aseptiske betingelser. </p>
 <p>Armisarte bør ikke anvendes, hvis der er tegn på partikler. </p>
 <p>Ikke anvendt koncentrat tilbage i hætteglasset, hvor opbevaringstiden under brug er overskredet samt 
-affald heraf bør bortskaffes i overensstemmelse med lokale krav. </p>         </div>"""      
+affald heraf bør bortskaffes i overensstemmelse med lokale krav. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -984,7 +990,7 @@ ved stuetemperatur og 7 dage ved køleskabstemperatur. Ud fra et mikrobiologisk 
 opløsningen bruges straks. Hvis det ikke anvendes straks, er opbevaringstiden under anvendelse og 
 opbevaringsbetingelserne forud for anvendelse brugerens ansvar og vil normalt ikke være længere end 
 24 timer ved 2 °C - 8 °C med mindre fortynding har fundet sted under kontrollerede og validerede 
-aseptiske betingelser. </p>         </div>"""      
+aseptiske betingelser. </p> </div>"""      
 
 
 

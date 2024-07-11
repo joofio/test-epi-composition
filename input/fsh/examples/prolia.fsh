@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Prolia </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ risk of fracture (broken bones), reducing the risk of spinal, non-spinal and hip
 * bone loss that results from a reduction in hormone (testosterone) level caused by surgery or 
 treatment with medicines in patients with prostate cancer. 
 * bone loss that results from long-term treatment with glucocorticoids in patients who have an 
-increased risk of fracture. </p>         </div>"""   
+increased risk of fracture. </p> </div>"""   
           
 
              
@@ -174,7 +177,7 @@ of Prolia to the mother. </p>
 <p>This medicine contains 47 mg sorbitol in each mL of solution. </p>
 <p>Prolia contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 60 mg, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prolia"
@@ -198,7 +201,7 @@ injections should be scheduled every 6 months from the date of the last injectio
 <p>If you stop using Prolia </p>
 <p>To get the most benefit from your treatment in reducing the risk of fractures, it is important to use 
 Prolia for as long as your doctor prescribes it for you. Do not stop your treatment without contacting 
-your doctor. </p>         </div>"""         
+your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ could be signs of bone damage in the ear. </li>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prolia"
@@ -281,7 +284,7 @@ Keep the container in the outer carton in order to protect from light. </p>
 before injection. This will make the injection more comfortable. Once your syringe has been left to 
 reach room temperature (up to 25 C), it must be used within 30 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -387,7 +390,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -426,7 +429,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -435,7 +440,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -450,7 +456,7 @@ Usage: #inline
 3. Sådan skal du bruge Prolia 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -488,7 +494,7 @@ behandling med lægemidler hos personer med prostatakræft. </p>
 <p>knogletab, der er resultatet af langvarig behandling med glukokortikoider hos patienter, som har 
 forhøjet risiko for knoglebrud. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -591,7 +597,7 @@ og fordelen for dig ved din anvendelse af Prolia. </p>
 <p>Dette lægemiddel indeholder 47 mg sorbitol pr. ml opløsning. </p>
 <p>Prolia indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 60 mg, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prolia"
@@ -615,7 +621,7 @@ injektionerne gives hver 6. måned fra den seneste injektion. </p>
 <p>Hvis du holder op med at bruge Prolia </p>
 <p>For at opnå den største fordel af din behandling med hensyn til reduktion af risikoen for knoglebrud er 
 det vigtigt at bruge Prolia så længe, som din læge har ordineret det til. Du må ikke stoppe 
-behandlingen uden at tale med lægen. </p>         </div>"""         
+behandlingen uden at tale med lægen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -709,7 +715,7 @@ tegn på knoglebeskadigelse i øret. </li>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prolia"
@@ -727,7 +733,7 @@ injektionen. Dette vil gøre injektionen mere behagelig. Når injektionssprøjte
 (op til 25 °C), skal den bruges inden for 30 dage. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
 apotekspersonalet, hvordan du skal bortskaffe medicinrester. Disse forholdsregler er med til at 
-beskytte miljøet. </p>         </div>"""      
+beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1119,7 +1125,7 @@ der er tilovers i injektionssprøjten. </p>
 apoteket, hvordan du skal aflevere medicinrester. Disse forholdsregler er med til at beskytte 
 miljøet. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

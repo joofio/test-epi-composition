@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store IMBRUVICA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ given together with an antibody is not a suitable therapy.
 How IMBRUVICA works
 In MCL, CLL and WM, IMBRUVICA works by blocking Bruton's tyrosine kinase, a protein in the 
 body that helps these cancer cells grow and survive. By blocking this protein, IMBRUVICA helps kill 
-and reduce the number of cancer cells. It also slows down the worsening of the cancer.</p>         </div>"""   
+and reduce the number of cancer cells. It also slows down the worsening of the cancer.</p> </div>"""   
           
 
              
@@ -214,7 +217,7 @@ You may feel tired or dizzy after taking IMBRUVICA, which may affect your abilit
 any tools or machines.
 IMBRUVICA contains sodium
 IMBRUVICA contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imbruvica"
@@ -243,7 +246,7 @@ normal schedule the following day.</p>
 <p>If you are not sure, talk to your doctor, pharmacist or nurse about when to take your next dose.
 If you stop taking IMBRUVICA
 Do not stop taking this medicine unless your doctor tells you.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -326,7 +329,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imbruvica"
@@ -338,7 +341,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -455,7 +458,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -494,7 +497,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -503,7 +508,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -518,7 +524,7 @@ Usage: #inline
 3. Sådan skal du tage IMBRUVICA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -549,7 +555,7 @@ Sådan virker IMBRUVICA
 Ved MCL, CLL og WM virker IMBRUVICA ved at blokere Brutons tyrosinkinase, et protein i 
 kroppen, som hjælper disse kræftceller med at leve og vokse. Ved at blokere dette protein er 
 IMBRUVICA med til at dræbe og reducere antallet af kræftceller. Det medvirker også til, at kræften 
-forværres langsommere.</p>         </div>"""   
+forværres langsommere.</p> </div>"""   
           
 
              
@@ -712,7 +718,7 @@ Du kan føle dig træt eller svimmel, efter at du har taget IMBRUVICA, og det ka
 at køre eller anvende værktøj eller maskiner.
 IMBRUVICA indeholder natrium
 IMBRUVICA indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imbruvica"
@@ -749,7 +755,7 @@ Tal med lægen, apotekspersonalet eller sygeplejersken, hvis du ikke er sikker p
 skal tage din næste dosis.
 Hvis du holder op med at tage IMBRUVICA
 Hold ikke op med at tage dette lægemiddel, medmindre din læge beder dig om det.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -884,7 +890,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller s
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imbruvica"
@@ -897,7 +903,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og beholderens
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1075,7 +1081,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

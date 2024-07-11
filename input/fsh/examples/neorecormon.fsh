@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NeoRecormon </li>
 <li>Content of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ on dialysis, or not yet on dialysis. </li>
 <li>Treating people donating their own blood before surgery. The injections of epoetin beta will 
 increase the amount of blood that can be taken from your body before surgery and given back 
 during or after the operation (this is an autologous transfusion). </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -173,7 +176,7 @@ No effects on ability to drive or use machines have been observed. </p>
 <p>NeoRecormon contains phenylalanine and sodium 
 This medicine contains phenylalanine. May be harmful for people with phenylketonuria.  <br />
 If you have phenylketonuria, talk to your doctor about your treatment with NeoRecormon. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neorecormon"
@@ -271,7 +274,7 @@ blood levels, no symptoms of poisoning have been observed. </p>
 <p>If you forget to use NeoRecormon 
 If you have missed an injection, or injected too little, talk to your doctor.  </p>
 <p>Do not take a double dose to make up for any forgotten doses. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -329,7 +332,7 @@ the high blood pressure with drugs.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neorecormon"
@@ -346,7 +349,7 @@ period of maximum 3 days (but not above 25 C). </li>
 <li>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist 
 how to dispose of medicines no longer required. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -455,7 +458,7 @@ Roche Latvija SIA
 Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt; </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -494,7 +497,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -503,7 +508,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -518,7 +524,7 @@ Usage: #inline
 3. Sådan skal du bruge NeoRecormon 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -550,7 +556,7 @@ modtager kemoterapi. </p>
 øger mængden af blod, som kan tappes fra kroppen før operation, og som kan gives tilbage under 
 eller efter en operation (dette kaldes en autolog transfusion). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -672,7 +678,7 @@ Dette lægemiddel indeholder phenylalanin. Kan være skadeligt for patienter med
 (Føllings sygdom, PKU) . Hvis du har phenylketonuri, så tal med lægen om din 
 NeoRecormonbehandling. </p>
 <p>Dette lægemiddel indeholder mindre end 1mmol natrium (23 mg) per dosis, dvs. det er stort set 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neorecormon"
@@ -765,7 +771,7 @@ set symptomer på forgiftning. </p>
 <p>Hvis du glemmer at tage NeoRecormon 
 Hvis du har glemt en injektion eller injiceret for lidt, så tal med lægen. </p>
 <p>Tag ikke dobbeltdoser i stedet for glemte doser. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -839,7 +845,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neorecormon"
@@ -859,7 +865,7 @@ Sprøjterne kan tages ud af køleskabet og opbevares udenfor køleskab i op til 
 (men ikke over 25 °C). 
 ● 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1266,7 +1272,7 @@ Rengør venflon som instrueret af fabrikanten.
 <li>Injicer langsomt den ordinerede dosis ved forsigtigt at skubbe stemplet helt i bund. Fjern 
 nålen og injektionssprøjten fra venflon i den samme vinkel, som den blev sat ind. </li>
 </ol>
-<p>Efter injektionen følg pkt. 18 til 20 for subkutan injektion (ovenfor). </p>         </div>"""      
+<p>Efter injektionen følg pkt. 18 til 20 for subkutan injektion (ovenfor). </p> </div>"""      
 
 
 

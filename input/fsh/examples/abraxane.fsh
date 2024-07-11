@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Abraxane </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ who had only received gemcitabine. </p>
 * Abraxane is also used together with a medicine called carboplatin if you have the most common 
 type of lung cancer, called  non-small cell lung cancer . 
 * Abraxane is used in non-small cell lung cancer where surgery or radiotherapy would not be suitable 
-to treat the disease. </p>         </div>"""   
+to treat the disease. </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ any tools or machines. </p>
 driving and using machines. </p>
 <p>Abraxane contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg, that is to say essentially  sodium 
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abraxane"
@@ -182,7 +185,7 @@ treatment cycle with gemcitabine being given immediately after the Abraxane.  </
 <p>For treatment of non-small cell lung cancer Abraxane is given once every week (i.e. on days 1, 8 and 15 of 
 a 21-day cycle), with carboplatin being given once every three weeks (i.e. only on day 1 of each 21-day 
 cycle), immediately after the Abraxane dose has been given. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -283,7 +286,7 @@ toxic epidermal necrolysis) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abraxane"
@@ -301,7 +304,7 @@ carton in order to protect it from light. </p>
 <p>The total combined storage time of reconstituted medicinal product in the vial and in the infusion bag 
 when refrigerated and protected from light is 24 hours. This may be followed by storage in the infusion 
 bag for 4 hours below 25 C. </p>
-<p>Your doctor or pharmacist is responsible for disposing of any unused Abraxane correctly. </p>         </div>"""      
+<p>Your doctor or pharmacist is responsible for disposing of any unused Abraxane correctly. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ Orteliuslaan 13528 BD Utrecht<br />
 Netherlands  </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -369,7 +372,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -378,7 +383,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -393,7 +399,7 @@ Usage: #inline
 3. Sådan skal du bruge Abraxane
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -439,7 +445,7 @@ Abraxane anvendes sammen med et lægemiddel, der kaldes carboplatin, hvis du har
 almindelige type lungekræft, der kaldes "ikke-småcellet lungekræft".
 
 Abraxane anvendes til ikke-småcellet lungekræft, hvis operation eller strålebehandling ikke er 
-egnet til at behandle sygdommen.</p>         </div>"""   
+egnet til at behandle sygdommen.</p> </div>"""   
           
 
              
@@ -520,7 +526,7 @@ Hvis du får andre lægemidler som en del af din behandling, skal du spørge din
 kørsel og betjening af maskiner.
 Abraxane indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abraxane"
@@ -541,7 +547,7 @@ behandlingscyklus. Gemcitabin gives umiddelbart efter Abraxane.
 Til behandling af ikke-småcellet lungekræft gives Abraxane én gang ugentligt (dvs. på dag 1, 8 og 15 i 
 hver 21-dages cyklus), hvor carboplatin gives en gang hver tredje uge (dvs. kun på dag 1 i hver 
 21-dages cyklus), umiddelbart efter Abraxane-dosis er blevet givet.
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -720,7 +726,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårør
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
 sikkerheden af dette lægemiddel.
-48</p>         </div>"""      
+48</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abraxane"
@@ -739,7 +745,7 @@ Den rekonstituerede dispersion i det intravenøse drop kan opbevares i køleskab
 Den samlede opbevaringstid for det rekonstituerede lægemiddel i hætteglasset og i infusionsposen, når 
 det opbevares i køleskab og er beskyttet mod lys, er 24 timer. Det rekonstituerede lægemiddel kan 
 efterfølgende opbevares i infusionsposen i 4 timer ved temperaturer under 25 °C.
-Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Abraxane på korrekt vis.</p>         </div>"""      
+Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Abraxane på korrekt vis.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -849,7 +855,7 @@ Hvis produktet ikke anvendes straks, er opbevaringstid og -betingelser under anv
 ansvar.
 Den samlede opbevaringstid for det rekonstituerede lægemiddel i hætteglasset og i infusionsposen, når 
 det opbevares i køleskab og er beskyttet mod lys, er 24 timer. Det rekonstituerede lægemiddel kan 
-efterfølgende opbevares i infusionsposen i 4 timer ved temperaturer under 25 °C.</p>         </div>"""      
+efterfølgende opbevares i infusionsposen i 4 timer ved temperaturer under 25 °C.</p> </div>"""      
 
 
 

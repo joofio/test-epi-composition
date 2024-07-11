@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store ADYNOVI </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ factor VIII. The human coagulation factor VIII has been modified to prolong its 
 Factor VIII is necessary for the blood to form clots and stop bleedings. In patients with haemophilia A 
 (inborn lack of factor VIII), it is missing or not working properly. </p>
 <p>ADYNOVI is used for the treatment and prevention of bleeding in patients from 12 years of age with 
-haemophilia A (an inherited bleeding disorder caused by lack of factor VIII). </p>         </div>"""   
+haemophilia A (an inherited bleeding disorder caused by lack of factor VIII). </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ available. </p>
 <p>ADYNOVI contains up to 12.42 mg sodium (main component of cooking/table salt) in each vial. This 
 is equivalent to 0.62% of the recommended maximum daily dietary intake of sodium for an adult. 
 Depending on your body weight and your dose of ADYNOVI, you could receive multiple vials. This 
-should be taken into consideration if you are on a low salt diet.  </p>         </div>"""   
+should be taken into consideration if you are on a low salt diet.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adynovi"
@@ -170,7 +173,7 @@ are not sure. If you inject more ADYNOVI than recommended, tell your doctor as s
 scheduled and continue as advised by your doctor. </p>
 <p>If you stop using ADYNOVI </p>
 <p>Do not stop using ADYNOVI without consulting your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -218,7 +221,7 @@ Potentially life-threatening reactions (anaphylaxis) </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adynovi"
@@ -239,7 +242,7 @@ storage after storage at room temperature. Do not refrigerate the solution after
 <p>Use the product within 3 hours once the powder is completely dissolved. </p>
 <p>The product is for single use only. Discard any unused solution appropriately. </p>
 <p>Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -359,7 +362,7 @@ Tel: +371 67840medinfoEMEA@takeda.com </p>
 Takeda UK Ltd 
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -398,7 +401,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -407,7 +412,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -424,7 +430,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -437,7 +443,7 @@ VIII. Human koagulationsfaktor VIII er modificeret for at forlænge dets virknin
 VIII er nødvendigt for, at blodet kan koagulere (størkne) og stoppe blødninger. Hos patienter med 
 hæmofili A (medfødt mangel på faktor VIII) mangler det, eller det fungerer ikke ordentligt. </p>
 <p>ADYNOVI anvendes til behandling og forebyggelse af blødning hos patienter i alderen 12 år og 
-derover med hæmofili A (en arvelig blødersygdom forårsaget af mangel på faktor VIII). </p>         </div>"""   
+derover med hæmofili A (en arvelig blødersygdom forårsaget af mangel på faktor VIII). </p> </div>"""   
           
 
              
@@ -494,7 +500,7 @@ maskiner. </p>
 <p>Dette lægemiddel indeholder op til 12,42 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 0,62 % af den anbefalede maksimale daglige indtagelse af natrium for en </p>
 <p>voksen. Afhængigt af din legemsvægt og din dosis af ADYNOVI kan du få flere hætteglas. Dette skal 
-tages i betragtning, hvis du følger en diæt med lavt saltindhold.  </p>         </div>"""   
+tages i betragtning, hvis du følger en diæt med lavt saltindhold.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adynovi"
@@ -530,7 +536,7 @@ du har injiceret mere end den anbefalede dosis ADYNOVI, skal du fortælle det ti
 som planlagt, og fortsæt derefter som anvist af lægen. </p>
 <p>Hvis du holder op med at bruge ADYNOVI </p>
 <p>Du må ikke stoppe med at bruge ADYNOVI uden at have rådført dig med lægen. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -581,7 +587,7 @@ hos voksne. </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adynovi"
@@ -603,7 +609,7 @@ opbevares i køleskab efter klargøringen. </p>
 <p>Brug produktet inden for 3 timer efter, at pulveret er helt opløst. </p>
 <p>Produktet er kun til engangsbrug. Bortskaf al ubrugt opløsning på en passende måde. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -866,7 +872,7 @@ indeholder vigtige oplysninger. </p>
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.  </li>
 <li>Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt her. 
 Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

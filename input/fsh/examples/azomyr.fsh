@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Azomyr </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ itchy, red or watery eyes.  </p>
 <p>Azomyr is also used to relieve the symptoms associated with urticaria (a skin condition caused by an 
 allergy). These symptoms include itching and hives. </p>
 <p>Relief of these symptoms lasts a full day and helps you to resume your normal daily activities and 
-sleep. </p>         </div>"""   
+sleep. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ activities requiring mental alertness, such as driving a car or operating machin
 established your own response to the medicine.  </p>
 <p>Azomyr tablet contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take azomyr"
@@ -154,7 +157,7 @@ nurse immediately. </p>
 If you forget to take your dose on time, take it as soon as possible and then go back to your regular 
 dosing schedule. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Azomyr<br />
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ Not known: frequency cannot be estimated from the available data
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store azomyr"
@@ -230,7 +233,7 @@ expiry date refers to the last day of that month.  </p>
 <p>Do not store above 30 C. Store in the original package.  </p>
 <p>Do not use this medicine if you notice any change in the appearance of the tablets. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -363,7 +366,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -402,7 +405,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -411,7 +416,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -426,7 +432,7 @@ Usage: #inline
 3. Sådan skal du tage Azomyr 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -447,7 +453,7 @@ eller løbende øjne. </p>
 <p>Azomyr anvendes også til at lindre symptomerne i forbindelse med nældefeber (en hudlidelse 
 forårsaget af allergi). Symptomerne indbefatter kløe og kløende udslæt. </p>
 <p>Lindring af disse symptomer varer en hel dag og hjælper dig til at genoptage dine normale daglige 
-aktiviteter og søvn. </p>         </div>"""   
+aktiviteter og søvn. </p> </div>"""   
           
 
              
@@ -484,7 +490,7 @@ aktiviteter, der kræver mental årvågenhed, for eksempel køre bil og betjene 
 reaktion på dette lægemiddel er fastlagt. </p>
 <p>Azomyr-tabletter indeholder lactose 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take azomyr"
@@ -514,7 +520,7 @@ flere Azomyr-tabletter, end du har fået besked på. </p>
 Hvis du glemmer at tage din medicin til tiden, så tag den snarest muligt og vend derefter tilbage til din 
 sædvanlige medicineringsplan. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Azomyr 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -652,7 +658,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet og s
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store azomyr"
@@ -665,7 +671,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale yderpakning. </p>
 <p>Tag ikke lægemidlet, hvis du bemærker ændringer i tabletternes udseende. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -805,7 +811,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -844,7 +850,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -853,7 +861,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -870,7 +879,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Azomyr </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -891,7 +900,7 @@ no palato e comichão, lacrimejo ou vermelhidão dos olhos. </p>
 <p>Azomyr é também utilizado para aliviar os sintomas associados à urticária (uma alteração da pele 
 causada por uma alergia). Estes sintomas incluem comichão e urticária. </p>
 <p>O alívio destes sintomas tem a duração de um dia inteiro e ajudá-lo-á a retomar as suas atividades 
-diárias normais e o sono. </p>         </div>"""   
+diárias normais e o sono. </p> </div>"""   
           
 
              
@@ -928,7 +937,7 @@ atividades que requeiram alerta mental, como conduzir um carro ou utilizar máqu
 conhecida a sua resposta ao medicamento.  </p>
 <p>Azomyr comprimido contém lactose<br />
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
-este medicamento. </p>         </div>"""   
+este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar azomyr"
@@ -960,7 +969,7 @@ que possível e retorne, seguidamente, ao seu esquema posológico regular. Não 
 dobrar para compensar uma dose que se esqueceu de tomar.  </p>
 <p>Se parar de tomar Azomyr<br />
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.  </p>         </div>"""         
+ou enfermeiro.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1101,7 +1110,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar azomyr"
@@ -1115,7 +1124,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não utilize este medicamento se verificar qualquer alteração no aspeto dos comprimidos. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1243,7 +1252,7 @@ Tel: +371 66968dpoc.latvia@organon.com </p>
 Organon Pharma (UK) Limited 
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com  </p>
 <p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}.&gt; </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store IZBA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IZBA contains travoprost, one of a group of medicines called prostaglandin analogues. 
 IZBA is used to reduce high pressure in the eye in adults, adolescents and children from 3 years 
-old onward. This pressure can lead to an illness called glaucoma. </p>         </div>"""   
+old onward. This pressure can lead to an illness called glaucoma. </p> </div>"""   
           
 
              
@@ -118,7 +121,7 @@ pregnant you must use adequate contraception whilst you use IZBA. </p>
 You may find that your vision is blurred for a time just after you use IZBA. Do not drive or use 
 machines until this has worn off. </p>
 <p>IZBA contains hydrogenated castor oil and propylene glycol which may cause skin reactions and 
-irritation. </p>         </div>"""   
+irritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take izba"
@@ -167,7 +170,7 @@ Never use more than one drop in the affected eye(s) in a single day. </p>
 Do not stop using IZBA without first speaking to your doctor or the doctor treating your child, the 
 pressure in your eye or your child s eye will not be controlled which could lead to loss of sight. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, the doctor treating your 
-child or pharmacist. </p>         </div>"""         
+child or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -226,7 +229,7 @@ were observed with a higher incidence in children and adolescents compared to ad
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store izba"
@@ -240,7 +243,7 @@ The expiry date refers to the last day of the month. </p>
 <p>You must throw away the bottle 4 weeks after you first opened it, to prevent infections, and use a 
 new bottle. Write down the date you opened it in the space on each carton box. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer used. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer used. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -335,7 +338,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -374,7 +377,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -383,7 +388,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -400,7 +406,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -410,7 +416,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IZBA indeholder travoprost, der tilhører en gruppe lægemidler, der kaldes prostaglandin-analoger. 
 IZBA anvendes til at sænke forhøjet tryk i øjet hos voksne, unge og børn fra 3 år og derover. 
-Forhøjet tryk i øjet kan føre til en sygdom kaldet glaukom (grøn stær). </p>         </div>"""   
+Forhøjet tryk i øjet kan føre til en sygdom kaldet glaukom (grøn stær). </p> </div>"""   
           
 
              
@@ -463,7 +469,7 @@ spørge din læge eller apotekspersonalet til råds, før du bruger dette lægem
 <p>Du kan opleve, at dit syn bliver midlertidigt sløret lige efter, at du har brugt IZBA. Du må ikke køre 
 bil eller arbejde med maskiner, før dit syn er klart igen. </p>
 <p>IZBA indeholder hydrogeneret, ricinusolie og propylenglycol, som kan medføre hudreaktioner og 
-hudirritation. </p>         </div>"""   
+hudirritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take izba"
@@ -525,7 +531,7 @@ Brug aldrig mere end én dråbe dagligt i det/de pågældende øje/øjne. </p>
 <p>Hvis du holder op med at bruge IZBA 
 Hold ikke op med at bruge IZBA uden først at have talt med din læge eller dit barns læge. Trykket i 
 øjet eller dit barns øje vil ikke blive holdt nede, hvilket kan medføre tab af synet. </p>
-<p>Spørg lægen, dit barns læge eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, dit barns læge eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -584,7 +590,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteketspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store izba"
@@ -599,7 +605,7 @@ er den sidste dag i den nævnte måned. </p>
 øjeninfektion. Du skal derefter starte på en ny flaske. Skriv åbningsdatoen, hvor der er gjort plads til 
 dette på kartonen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -712,7 +718,7 @@ Tel: +44 1276 698
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -751,7 +757,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -760,7 +768,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -777,7 +786,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar IZBA </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -788,7 +797,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IZBA contém travoprost, que pertence a um grupo de medicamentos, chamados análogos das 
 prostaglandinas. 
 IZBA é usado para reduzir a pressão elevada do olho em adultos, adolescentes e crianças de 
-3 anos em diante. Esta pressão pode provocar uma doença chamada glaucoma. </p>         </div>"""   
+3 anos em diante. Esta pressão pode provocar uma doença chamada glaucoma. </p> </div>"""   
           
 
              
@@ -840,7 +849,7 @@ possibilidade de engravidar, deve utilizar contraceção adequada enquanto utili
 Poderá sentir uma turvação da visão durante algum tempo imediatamente após a utilização de IZBA. 
 Não conduza nem utilize máquinas até que a mesma tenha desaparecido. </p>
 <p>IZBA contém óleo de rícino hidrogenado e propilenoglicol, que podem causar reações e irritação na 
-pele. </p>         </div>"""   
+pele. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar izba"
@@ -907,7 +916,7 @@ Não interrompa a utilização de IZBA sem falar com o seu médico, ou com o mé
 criança, a pressão no seu olho, ou no olho da sua criança, não ficará controlada, o que pode levar a 
 perda de visão. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, com o médico 
-que segue a sua criança, ou farmacêutico. </p>         </div>"""         
+que segue a sua criança, ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -970,7 +979,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar izba"
@@ -985,7 +994,7 @@ após 'EXP'. O prazo de validade corresponde ao último dia do mês indicado. </
 um novo frasco. Escreva a data de abertura no espaço indicado em cada embalagem. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1097,7 +1106,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

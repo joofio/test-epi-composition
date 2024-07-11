@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Tolucombi</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ Tolucombi (40 mg/12.5 mg, 80 mg/12.5 mg) is used to treat high blood pressure (e
 hypertension) in adults whose blood pressure is not controlled enough when telmisartan is used alone.
 Tolucombi (80 mg/25 mg) is used to treat high blood pressure (essential hypertension) in adults 
 whose blood pressure is not adequately controlled by Tolucombi 80 mg/12.5 mg or in patients who 
-have been previously stabilised by telmisartan and hydrochlorothiazide given separately.</p>         </div>"""   
+have been previously stabilised by telmisartan and hydrochlorothiazide given separately.</p> </div>"""   
           
 
              
@@ -268,7 +271,7 @@ been diagnosed with hereditary fructose intolerance (HFI), a rare genetic disord
 cannot break down fructose, talk to your doctor before you (or your child) take or receive this 
 medicine.
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tolucombi"
@@ -294,7 +297,7 @@ If you forget to take Tolucombi
 If you forget to take a dose, do not worry. Take it as soon as you remember then carry on as before. If 
 you do not take your tablet on one day, take your normal dose on the next day. Do not take a double 
 dose to make up for forgotten individual doses.
-If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -377,7 +380,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tolucombi"
@@ -390,7 +393,7 @@ The expiry date refers to the last day of that month.
 This medicinal product does not require any special temperature storage conditions.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -493,7 +496,7 @@ KRKA Latvija SIA
 Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -532,7 +535,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -541,7 +546,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -556,7 +562,7 @@ Usage: #inline
 3. Sådan skal du tage Tolucombi
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -581,7 +587,7 @@ Tolucombi (40 mg/12,5 mg, 80 mg/12,5 mg) bruges til at sænke forhøjet blodtryk
 hypertension) hos voksne, hvis blodtryk ikke er sænket tilstrækkeligt med telmisartan.
 Tolucombi (80 mg/25 mg) bruges til at sænke forhøjet blodtryk (essentiel hypertension) hos voksne, 
 hvis blodtryk ikke er sænket tilstrækkeligt Tolucombi 80 mg/12,5 mg eller hos patienter, hvis blodtryk 
-ikke er sænket tilstrækkeligt med enten telmisartan eller med hydrochlorthiazid.</p>         </div>"""   
+ikke er sænket tilstrækkeligt med enten telmisartan eller med hydrochlorthiazid.</p> </div>"""   
           
 
              
@@ -774,7 +780,7 @@ du er blevet diagnosticeret med arvelig fructoseintolerans (HFI), en sjælden ge
 person ikke kan bryde ned fructose, skal du tale med din læge før du (eller dit barn) tager eller får 
 dette lægemiddel.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det 
-væsentlige natrium-fri.</p>         </div>"""   
+væsentlige natrium-fri.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tolucombi"
@@ -800,7 +806,7 @@ Hvis du har glemt at tage Tolucombi
 Hvis du glemmer at tage medicinen, skal du tage den straks du kommer i tanke om det, og derefter 
 fortsætte som du plejer. Hvis du en dag ikke får taget din tablet, skal du blot tage den sædvanlige dosis 
 næste dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -888,7 +894,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tolucombi"
@@ -901,7 +907,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1033,7 +1039,7 @@ KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Denne indlægsseddel blev senest ændret
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/.</p> </div>"""      
 
 
 

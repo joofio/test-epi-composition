@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Emtricitabine/Tenofovir disoproxil Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ may still develop infections or other illnesses associated with HIV infection. <
 <p>Emtricitabine/Tenofovir disoproxil Mylan is also used to reduce the risk of getting HIV-1 
 infection in adults, and adolescents aged 12 years to less than 18 years who weigh at least 35 kg, 
 when used as a daily treatment, together with safer sex practices: 
-See section 2 for a list of precautions to take against HIV infection. </p>         </div>"""   
+See section 2 for a list of precautions to take against HIV infection. </p> </div>"""   
           
 
              
@@ -223,7 +226,7 @@ soon as possible. </p>
 drive and do not use any tools or machines. </p>
 <p>Emtricitabine/Tenofovir disoproxil Mylan contains lactose </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emtricitabine"
@@ -281,7 +284,7 @@ cirrhosis, stopping treatment is not recommended as this may lead to worsening o
 which may be life-threatening.  </p>
 <p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -385,7 +388,7 @@ medicines themselves. Your doctor will test for these changes. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emtricitabine"
@@ -398,7 +401,7 @@ date refers to the last day of that month. </p>
 <p>Bottle pack: use within 90 days after first opening  </p>
 <p>Do not store above 25 C. Store in the original container in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -507,7 +510,7 @@ Viatris SIA<br />
 Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -546,7 +549,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -555,7 +560,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -570,7 +576,7 @@ Usage: #inline
 3. Sådan skal De tage Emtricitabine/Tenofovir disoproxil Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -609,7 +615,7 @@ forbundet med HIV-infektion, mens De tager Emtricitabine/Tenofovir disoproxil My
 HIV 1-infektion hos voksne og unge i alderen 12 år til under 18 år, som vejer mindst 
 35 kg, når det bruges som daglig behandling og sammen med udøvelse af sikker sex:<br />
 Se punkt 2 for en liste over de forholdsregler, der skal tages, for ikke at få HIV-infektion. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -839,7 +845,7 @@ være med at cykle, og lad være med at arbejde med værktøj eller maskiner, hv
 når De tager emtricitabin/tenofovirdisoproxil. </p>
 <p>Emtricitabine/Tenofovir disoproxil Mylan indeholder lactose </p>
 <p>Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter.  </p>         </div>"""   
+sukkerarter.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emtricitabine"
@@ -941,7 +947,7 @@ kan medføre forværring af Deres hepatitis, hvilket kan være livstruende. </li
 Hvis De lægger mærke til nye eller usædvanlige symptomer efter behandlingens ophør, 
 skal De omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, 
 som De normalt ville forbinde med hepatitis B-infektion. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1158,7 +1164,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emtricitabine"
@@ -1172,7 +1178,7 @@ Tabletbeholder: skal anvendes inden for 90 dage efter anbrud. </p>
 <p>Må ikke opbevares ved temperaturer over 25 °C. Opbevares i den originale yderpakning for at 
 beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1317,7 +1323,7 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711 
 Denne indlægsseddel blev senest ændret </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

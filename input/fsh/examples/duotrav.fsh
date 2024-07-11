@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store DuoTrav </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Travoprost is a prostaglandin analogue which works by increasing the outflow of 
 the eye, which lowers its pressure. Timolol is a beta blocker which works by reducing the production 
 of fluid within the eye. The two substances work together to reduce pressure within the eye. </p>
 <p>DuoTrav eye drops are used to treat high pressure in the eye in adults, including the elderly. This 
-pressure can lead to an illness called glaucoma. </p>         </div>"""   
+pressure can lead to an illness called glaucoma. </p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ You may find that your vision is blurred for a time just after you use DuoTrav. 
 cause hallucinations, dizziness, nervousness or fatigue in some patients. </p>
 <p>Do not drive or use machines until any such symptoms has worn off. </p>
 <p>DuoTrav contains hydrogenated castor oil and propylene glycol which may cause skin reactions 
-and irritation. </p>         </div>"""   
+and irritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take duotrav"
@@ -189,7 +192,7 @@ If you are using other eye drops in addition to DuoTrav, leave at least 5 minute
 DuoTrav and the other drops. </p>
 <p>If you wear soft contact lenses do not use the drops with your lenses in. After using the drops wait 
 15 minutes before putting your lenses back in. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -279,7 +282,7 @@ pain. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store duotrav"
@@ -294,7 +297,7 @@ The expiry date refers to the last day of that month. </p>
 Each time you start a new bottle write down the date you open it in the spaces on the bottle label and 
 carton. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -404,7 +407,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu </p>         </div>"""      
+http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -443,7 +446,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -452,7 +457,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -469,7 +475,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -482,7 +488,7 @@ Travoprost er en prostaglandin-analog, som virker ved at øge væskeafløbet fra
 trykket i øjet. Timolol er en betablokker, som virker ved at nedsætte væskeproduktionen i øjet. De to 
 stoffer arbejder sammen om at sænke trykket i øjet. </p>
 <p>DuoTrav øjendråber bruges til at sænke forhøjet tryk i øjet hos voksne, inklusive ældre. Forhøjet tryk 
-kan føre til en sygdom kaldet glaukom (grøn stær). </p>         </div>"""   
+kan føre til en sygdom kaldet glaukom (grøn stær). </p> </div>"""   
           
 
              
@@ -563,7 +569,7 @@ Du kan opleve, at dit syn bliver midlertidigt sløret lige efter, at du har brug
 også forårsage hallucinationer, svimmelhed, nervøsitet eller træthed hos nogle patienter. </p>
 <p>Du må ikke føre motorkøretøj eller arbejde med maskiner, før disse symptomer har fortaget sig. </p>
 <p>DuoTrav indeholder hydrogeneret ricinusolie og propylenglycol, som kan medføre hudreaktioner 
-og hudirritation. </p>         </div>"""   
+og hudirritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take duotrav"
@@ -627,7 +633,7 @@ nede, hvilket kan medføre tab af synet. </p>
 DuoTrav og de andre øjenlægemidler. </p>
 <p>Hvis du bruger bløde kontaktlinser, må du ikke bruge dråberne med kontaktlinser i øjnene. Vent 
 mindst 15 minutter, efter du har dryppet øjet/øjnene, før du sætter linserne i igen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -719,7 +725,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonale
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store duotrav"
@@ -734,7 +740,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 starter med at bruge en ny flaske, skal du skrive datoen for åbning, hvor der er gjort plads til det på 
 flaskens etiket og på æsken. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -860,7 +866,7 @@ Tel: +44 1276 698
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

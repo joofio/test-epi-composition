@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Mevlyq </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ the growth and spread of cancer cells.  </p>
 <p>It is used in adults for locally advanced or metastatic breast cancer (breast cancer that has spread 
 beyond the original tumour) when at least one other therapy has been tried but has lost its effect.  </p>
 <p>It is also used in adults for advanced or metastatic liposarcoma (a type of cancer that arises from fat 
-tissue) when previous therapy has been tried but has lost its effect. </p>         </div>"""   
+tissue) when previous therapy has been tried but has lost its effect. </p> </div>"""   
           
 
              
@@ -120,7 +123,7 @@ This medicine contains 80 mg of alcohol (ethanol) in each 2 mL vial. The amount 
 this medicinal product is equivalent to less than 5 mL beer or 2 mL wine. 
 The small amount of alcohol in this medicine will not have any noticeable effects. 
 This medicine contains less than 1 mmol sodium (23 mg) in each 2 mL vial, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mevlyq"
@@ -138,7 +141,7 @@ Mevlyq is usually given on Days 1 and 8 of every 21-day cycle. Your doctor will 
 cycles of treatment you should receive. Depending on the results of your blood tests, the doctor may 
 need to delay administration of the medicine until the blood tests return to normal. The doctor may 
 also then decide to reduce the dose you are given. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -225,7 +228,7 @@ internal bleeding. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mevlyq"
@@ -244,7 +247,7 @@ immediately, in-use storage times and conditions prior to use are the responsibi
 would normally not be longer than 24 hours at 2  C - 8  , unless dilution has taken place in controlled 
 and validated aseptic conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -274,7 +277,7 @@ Am Sattel 79588 Efringen-Kirchen
 Germany </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -313,7 +316,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -322,7 +327,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -337,7 +343,7 @@ Usage: #inline
 3. Sådan skal du bruge Mevlyq 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -351,7 +357,7 @@ væksten og spredningen af kræftceller. </p>
 spredt sig udover den oprindelige kræftknude), når mindst en anden behandling er prøvet, men ikke 
 længere virker. </p>
 <p>Det anvendes også hos voksne med fremskreden eller metastatisk liposarkom (en type cancer, der 
-opstår fra fedtvævet), når tidligere behandling er prøvet, men ikke længere virker. </p>         </div>"""   
+opstår fra fedtvævet), når tidligere behandling er prøvet, men ikke længere virker. </p> </div>"""   
           
 
              
@@ -396,7 +402,7 @@ Dette lægemiddel indeholder 80 mg af alkohol (ethanol) pr. 2 ml hætteglas. Mæ
 af dette lægemiddel svarer til mindre end 5 ml øl eller 2 ml vin. 
 Den mindre mængde alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 2 ml hætteglas, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mevlyq"
@@ -414,7 +420,7 @@ Mevlyq indgives normalt på Dag 1 og 8 af hver 21-dags cyklus. Din læge vil bes
 behandlingscyklusser du skal have. Afhængigt af resultaterne af dine blodprøver kan lægen udsætte 
 indgivelsen af lægemidlet, indtil blodprøverne igen er normale. Lægen kan på det tidspunkt også 
 beslutte sig for at reducere din dosis. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -489,7 +495,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i </p>
 <p>Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mevlyq"
@@ -508,7 +514,7 @@ opbevaringstiderne og forholdene under og inden anvendelse brugerens ansvar og v
 være over 24 timer ved temperaturer på 2 °C - 8 °C, medmindre fortyndingen blev udført under 
 kontrollerede og validerede aseptiske betingelser. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -541,7 +547,7 @@ Tyskland </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu/. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 
@@ -580,7 +586,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -589,7 +597,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -606,7 +615,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Mevlyq </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -621,7 +630,7 @@ que se espalhou para além do tumor de origem) nos casos em que foi tentado pelo
 tratamento, mas que perdeu o seu efeito. </p>
 <p>É também utilizado em adultos para o lipossarcoma (um tipo de cancro que surge a partir do tecido 
 gordo) avançado ou metastático quando se experimentou uma terapêutica anterior mas a mesma 
-perdeu o seu efeito. </p>         </div>"""   
+perdeu o seu efeito. </p> </div>"""   
           
 
              
@@ -666,7 +675,7 @@ quantidade por dose (5 ml) deste medicamento é equivalente a menos de 5 ml de c
 vinho. 
 A pequena quantidade de álcool neste medicamento não terá quaisquer efeitos percetíveis. 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio em cada frasco para injetáveis de 
-2 ml, ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+2 ml, ou seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mevlyq"
@@ -685,7 +694,7 @@ Mevlyq é administrado habitualmente nos Dias 1 e 8 de cada ciclo de 21 dias. O 
 determinará quantos ciclos de tratamento receberá. Dependendo dos resultados das suas análises ao 
 sangue, o médico pode necessitar de adiar a administração do medicamento até as análises sanguíneas 
 normalizarem. O médico também pode depois decidir diminuir a dose que lhe será administrada. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -758,7 +767,7 @@ sanguíneos e hemorragias internas. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mevlyq"
@@ -780,7 +789,7 @@ responsabilidade do utilizador e normalmente não serão superiores a 24 horas a
 que a diluição tenha sido efetuada em condições asséticas controladas e validadas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -810,7 +819,7 @@ Am Sattel 79588 Efringen-Kirchen
 Alemanha </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store IVEMEND</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ It belongs to a group of medicines called "neurokinin 1 (NK1) receptor antagonis
 specific area that controls nausea and vomiting. IVEMEND works by blocking signals to that area,
 thereby reducing nausea and vomiting. IVEMEND is used in adults, adolescents, and children aged
 6 months or older in combination with other medicines to prevent nausea and vomiting caused by
-chemotherapy (cancer treatment) that is a strong or moderate trigger of nausea and vomiting.</p>         </div>"""   
+chemotherapy (cancer treatment) that is a strong or moderate trigger of nausea and vomiting.</p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ side effects ).
 IVEMEND contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially
  sodium-free .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ivemend"
@@ -172,7 +175,7 @@ health care professional, such as a doctor or nurse, via an intravenous infusion
 the chemotherapy treatment in children and adolescents. Your doctor may ask you to take other
 medicines including a corticosteroid (such as dexamethasone) and a  5HT3 antagonist  (such as
 ondansetron) for preventing nausea and vomiting. Check with your doctor or pharmacist if you are not
-sure.</p>         </div>"""         
+sure.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -245,7 +248,7 @@ If you get any side effects, talk to your doctor, pharmacist, or nurse. This inc
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
 safety of this medicine.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ivemend"
@@ -258,7 +261,7 @@ first 2 numbers indicate the month; the next 4 numbers indicate the year.
 Store in a refrigerator (2 C - 8 C). 
 The reconstituted and diluted solution is stable for 24 hours at 25 C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -418,7 +421,7 @@ Discard any remaining solution and waste material. Any unused medicinal product 
 should be disposed of in accordance with local requirements.
 The medicinal product must not be reconstituted or mixed with solutions for which physical and
 chemical compatibility has not been established (see Summary of Product Characteristic (SmPC),
-section 6.2).</p>         </div>"""      
+section 6.2).</p> </div>"""      
 
 
 
@@ -457,7 +460,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -466,7 +471,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -481,7 +487,7 @@ Usage: #inline
 3. Sådan skal du bruge IVEMEND 
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -495,7 +501,7 @@ særligt område, som kontrollerer kvalme og opkastning. IVEMEND virker ved at b
 til dette område, hvorved kvalme og opkastning mindskes. IVEMEND anvendes hos voksne, unge og
 børn i alderen 6 måneder eller derover i kombination med anden medicin til at forebygge kvalme og
 opkastning i forbindelse med kemoterapi (behandling af cancer), som er en kraftig eller moderat
-udløser af kvalme og opkastning. </p>         </div>"""   
+udløser af kvalme og opkastning. </p> </div>"""   
           
 
              
@@ -580,7 +586,7 @@ lægemiddel (se punkt 4 Bivirkninger).
 IVEMEND indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
 væsentlige natriumfrit.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ivemend"
@@ -599,7 +605,7 @@ Pulveret opløses og fortyndes før brug. Opløsningen gives som drop (intraven�
 eller sygeplejerske ca. 30 minutter før du begynder på kemoterapibehandling hos voksne, eller 60 -
 90 minutter før du begynder på kemoterapi hos børn og unge. Lægen kan bede dig om at tage anden
 medicin, herunder et kortikosteroid (fx dexamethason) og en "5HT3-antagonist" (fx ondansetron) til at
-forebygge kvalme og opkastning. Er du i tvivl, så spørg lægen eller apotekspersonalet.</p>         </div>"""         
+forebygge kvalme og opkastning. Er du i tvivl, så spørg lægen eller apotekspersonalet.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -676,7 +682,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
 information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ivemend"
@@ -689,7 +695,7 @@ Brug ikke IVEMEND efter den udløbsdato, der står på pakningen og hætteglasse
 Opbevares i køleskab (2-8 °C).
 Den endelige, blandede og fortyndede opløsning er stabil i 24 timer ved højst 25 °C.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -886,7 +892,7 @@ Den rekonstituerede opløsning og fortyndingsvæsken har samme udseende.
 Bortskaf eventuel resterende rekonstitueret og fortyndet opløsning samt affald. Ikke anvendt
 lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
 Lægemidlet må ikke rekonstitueres eller blandes med opløsninger, for hvilke der ikke er fastslået
-fysisk og kemisk kompatibilitet (se pkt. 6.2 i produktresuméet).</p>         </div>"""      
+fysisk og kemisk kompatibilitet (se pkt. 6.2 i produktresuméet).</p> </div>"""      
 
 
 
@@ -925,7 +931,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -934,7 +942,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -949,7 +958,7 @@ Usage: #inline
 3. Como utilizar IVEMEND
 4. Efeitos indesejáveis possíveis
 5. Como conservar IVEMEND
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -963,7 +972,7 @@ O cérebro tem uma zona específica que controla náuseas e vómitos. IVEMEND at
 sinais para essa zona, reduzindo deste modo as náuseas e vómitos. IVEMEND é utilizado em adultos,
 adolescentes e crianças com idade igual ou superior a 6 meses em associação com outros
 medicamentos para prevenir náuseas e vómitos causados pela quimioterapia (tratamento do cancro)
-que é um forte ou moderado indutor de náuseas e vómitos. </p>         </div>"""   
+que é um forte ou moderado indutor de náuseas e vómitos. </p> </div>"""   
           
 
              
@@ -1039,7 +1048,7 @@ medicamento (ver “Efeitos indesejáveis possíveis").
 32
 IVEMEND contém sódio
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ivemend"
@@ -1062,7 +1071,7 @@ aproximadamente 30 minutos antes do início do tratamento de quimioterapia em ad
  90 minutos antes de iniciar o tratamento de quimioterapia em crianças e adolescentes. O seu médico
 pode pedir-lhe que tome outros medicamentos para prevenir náuseas e vómitos, incluindo um
 corticosteroide (como a dexametasona) e um antagonista da 5HT3 (como o ondansetrom). Fale com o
-seu médico ou farmacêutico se tiver dúvidas.</p>         </div>"""         
+seu médico ou farmacêutico se tiver dúvidas.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1130,7 +1139,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ivemend"
@@ -1146,7 +1155,7 @@ A solução reconstituída e diluída é estável durante 24 horas a 25ºC.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
 o ambiente.
-34</p>         </div>"""      
+34</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1301,7 +1310,7 @@ medinfoNI@msd.com
 Este folheto foi revisto pela última vez em 
 36
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

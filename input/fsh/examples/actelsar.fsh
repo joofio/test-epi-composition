@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Actelsar HCT </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ sometimes to heart attack, heart or kidney failure, stroke, or blindness. There 
 of high blood pressure before damage occurs. Thus it is important to regularly measure blood pressure 
 to verify if it is within the normal range. </p>
 <p>Actelsar HCT is used to treat high blood pressure (essential hypertension) in adults whose blood 
-pressure is not controlled enough when telmisartan is used alone. </p>         </div>"""   
+pressure is not controlled enough when telmisartan is used alone. </p> </div>"""   
           
 
              
@@ -231,7 +234,7 @@ Some people feel dizzy or tired when taking Actelsar HCT. If you feel dizzy or t
 operate machinery. </p>
 <p>Actelsar HCT contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take actelsar"
@@ -257,7 +260,7 @@ hospital emergency department immediately. </p>
 If you forget to take a dose, do not worry. Take it as soon as you remember, then carry on as before. If 
 you do not take your tablet on one day, take your normal dose on the next day. Do not take a double 
 dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -342,7 +345,7 @@ patients with a diagnosis of diabetes mellitus,or fat in the blood. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store actelsar"
@@ -358,7 +361,7 @@ This medicine does not require any special storage conditions.
 For Al/PVC/PVDC blister 
 Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -451,7 +454,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -490,7 +493,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -499,7 +504,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -516,7 +522,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -538,7 +544,7 @@ føre til hjerteanfald, hjerte- eller nyresvigt, slagtilfælde eller blindhed. M
 symptomer på forhøjet blodtryk, før en skade sker. Derfor er det vigtigt at få målt blodtrykket 
 regelmæssigt for at finde ud af, om det ligger i normalområdet. </p>
 <p>Actelsar HCT bruges til at sænke forhøjet blodtryk (essentiel hypertension) hos voksne, hvis 
-blodtryk ikke er sænket tilstrækkeligt med telmisartan. </p>         </div>"""   
+blodtryk ikke er sænket tilstrækkeligt med telmisartan. </p> </div>"""   
           
 
              
@@ -687,7 +693,7 @@ og lad være med at cykle eller arbejde med værktøj eller maskiner, hvis du f�
 træt. </p>
 <p>Actelsar HCT indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take actelsar"
@@ -711,7 +717,7 @@ Kontakt straks lægen, skadestuen eller apoteket. </p>
 Hvis du glemmer at tage medicinen, skal du tage den straks du kommer i tanke om det, og derefter 
 fortsætte som du plejer. Hvis du en dag ikke får taget din tablet, skal du blot tage den sædvanlige dosis 
 næste dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -797,7 +803,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store actelsar"
@@ -813,7 +819,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 <p>For Al/PVC/PVDC blister 
 Må ikke opbevares ved temperaturer over 30ºC. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -951,7 +957,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret lægemidlet til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -990,7 +996,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -999,7 +1007,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1016,7 +1025,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Actelsar HCT </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1042,7 +1051,7 @@ cerebrais ou cegueira. Habitualmente não existem sintomas de tensão arterial e
 ocorrerem danos. Assim, é importante medir regularmente a tensão arterial para verificar se esta se 
 encontra dentro dos valores normais. </p>
 <p>Actelsar HCT é utilizado para  tratar a tensão arterial elevada (hipertensão essencial) em adultos que 
-não têm a tensão arterial suficientemente controlada com o telmisartan usado monoterapia. </p>         </div>"""   
+não têm a tensão arterial suficientemente controlada com o telmisartan usado monoterapia. </p> </div>"""   
           
 
              
@@ -1201,7 +1210,7 @@ Algumas pessoas referem tonturas ou cansaço quando tomam Actelsar HCT. Se se se
 cansado, não conduza ou utilize máquinas. </p>
 <p>Actelsar HCT contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar actelsar"
@@ -1231,7 +1240,7 @@ regime de tratamento como anteriormente. Se não tomar o seu comprimido durante 
 dose normal, no dia seguinte. Não tome um comprimido a dobrar para compensar doses individuais 
 que se esqueceu de tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1331,7 +1340,7 @@ sangue/urina em doentes com diagnóstico de diabetes mellitus, ou gordura no san
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar actelsar"
@@ -1348,7 +1357,7 @@ O medicamento não necessita de quaisquer precauções especiais de conservaçã
 Não conservar acima dos 30ºC. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1473,7 +1482,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

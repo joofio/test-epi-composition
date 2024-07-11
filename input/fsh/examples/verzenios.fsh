@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Verzenios  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ inhibitors or tamoxifen, to prevent the cancer from coming back after surgery (t
 surgery is called adjuvant therapy) </li>
 <li>spread beyond the original tumour and/or to other organs. It is given together with hormonal 
 therapies, such as aromatase inhibitors or fulvestrant. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.  </p>
 <p>Verzenios contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take verzenios"
@@ -186,7 +189,7 @@ If you vomit after taking the dose or forget a dose, take your next dose at your
 a double dose to make up for the forgotten or vomited dose. </p>
 <p>If you stop taking Verzenios<br />
 Do not stop taking Verzenios unless your doctor tells you to.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -234,7 +237,7 @@ can be signs of blood clots in the vein (which may affect up to 1 in 10 people).
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store verzenios"
@@ -247,7 +250,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -347,7 +350,7 @@ Tel: +371 67364United Kingdom (Northern Ireland)
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in<br />
 Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -386,7 +389,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -395,7 +400,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -412,7 +418,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -434,7 +440,7 @@ eller tamoxifen for at forhindre, at kræften vender tilbage efter operation (be
 operation kaldes adjuverende behandling). </li>
 <li>spredt sig ud over den oprindelige kræftknude og/eller til andre organer. Det gives sammen 
 med hormonbehandlinger, såsom aromatasehæmmere eller fulvestrant. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -507,7 +513,7 @@ svimmel, skal du være ekstra forsigtig, når du fører motorkøretøj eller bet
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du har lactoseintolerans. </p>
 <p>Verzenios indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take verzenios"
@@ -541,7 +547,7 @@ dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstat
 eller opkastede dosis. </p>
 <p>Hvis du holder op med at tage Verzenios 
 Hold ikke op med at tage Verzenios uden lægens anvisning. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -634,7 +640,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store verzenios"
@@ -648,7 +654,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke dette lægemiddel, hvis du bemærker, at æsken er i stykker eller viser tegn på, at nogen har 
 forsøgt at åbne den. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -767,7 +773,7 @@ Tel: + 353-(0) 1 661 4 </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

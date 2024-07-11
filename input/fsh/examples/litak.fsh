@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store LITAK </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>LITAK contains the active substance cladribine. Cladribine is a cytostatic agent. It affects the growth 
 of malignant (cancerous) white blood cells which play a role in hairy cell leukaemia. LITAK is used to 
-treat this disease. </p>         </div>"""   
+treat this disease. </p> </div>"""   
           
 
              
@@ -134,7 +137,7 @@ LITAK dose. </p>
 <p>Driving and using machines 
 LITAK has a major effect on the ability to drive and use machines. If you feel drowsy, which may 
 occur due to a low number of red blood cells caused by LITAK treatment, or dizzy, you should not 
-drive or use machines. </p>         </div>"""   
+drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take litak"
@@ -156,7 +159,7 @@ In case you inject an incorrect dose, tell your doctor immediately. </p>
 <p>If you forget to use LITAK 
 Do not inject a double dose to make up for a forgotten dose. In case you miss an injection of a dose, 
 tell your doctor immediately. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -234,7 +237,7 @@ nerves, confusion, impaired ability to coordinate movements.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store litak"
@@ -250,7 +253,7 @@ contamination, the product should be used immediately. If not used immediately, 
 and conditions are the responsibility of the user. </p>
 <p>Do not use LITAK if you notice that the vial is damaged or that the solution is not clear or contains 
 any particles. </p>
-<p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+<p>Any unused product or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -390,7 +393,7 @@ squeezing it. </p>
 <p>Put the needle fully into the skin at an angle 
 of about 45 , as shown in the picture. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 
@@ -429,7 +432,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -438,7 +443,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -453,7 +459,7 @@ Usage: #inline
 3. Sådan skal De bruge LITAK 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -463,7 +469,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>LITAK indeholder det aktive stof cladribin. Cladribin er et cytostatisk middel. Det påvirker væksten af 
 ondartede (kankrøse) hvide blodlegemer, som spiller en rolle ved hårcelleleukæmi. LITAK anvendes 
-til behandling af denne sygdom.  </p>         </div>"""   
+til behandling af denne sygdom.  </p> </div>"""   
           
 
              
@@ -532,7 +538,7 @@ dosis LITAK. </p>
 <p>Trafik- og arbejdssikkerhed 
 LITAK påvirker i væsentlig grad evnen til at føre motorkøretøj og betjene maskiner. Hvis De føler 
 Dem døsig, hvilket kan ske på grund af et fald i antallet af røde blodlegemer på grund af behandlingen 
-med LITAK, eller svimmel, bør De ikke føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+med LITAK, eller svimmel, bør De ikke føre motorkøretøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take litak"
@@ -554,7 +560,7 @@ Hvis De indsprøjter en forkert dosis, skal De straks fortælle det til lægen. 
 <p>Hvis De har glemt at bruge LITAK 
 De må ikke indsprøjte en dobbeltdosis som erstatning for den glemte dosis. Hvis de springer 
 indsprøjtningen af en dosis over, skal De straks fortælle det til lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -728,7 +734,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apoteket. Dette
 bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store litak"
@@ -744,7 +750,7 @@ produktet anvendes straks efter åbningen. Hvis medicinen ikke anvendes straks, 
 for at opbevare LITAK som angivet ovenfor. </p>
 <p>Brug ikke LITAK, hvis hætteglasset er beskadiget, eller opløsningen ikke er klar eller indeholder 
 partikler. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -888,7 +894,7 @@ omkring 45°, som vist på billedet. </p>
 sig selv er vist her: det øverste af lårene og 
 bugen, undtaget området rundt om navlen. Hvis 
 andre foretager indsprøjtningen, kan de også 
-bruge den ydre del af overarmene eller ballerne. </p>         </div>"""      
+bruge den ydre del af overarmene eller ballerne. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Remicade</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -119,7 +122,7 @@ Crohn s disease is an inflammatory disease of the bowel. If you have Crohn s dis
 given other medicines. If these medicines do not work well enough, you will be given Remicade to:</p>
 <p>Treat active Crohn s disease</p>
 <p>Reduce the number of abnormal openings (fistulae) between your bowel and your skin that have 
-not been controlled by other medicines or surgery.</p>         </div>"""   
+not been controlled by other medicines or surgery.</p> </div>"""   
           
 
              
@@ -307,7 +310,7 @@ or unwell after having Remicade, do not drive or use any tools or machines.
 Remicade contains sodium
 Remicade contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . 
 However, before Remicade is given to you, it is mixed with a solution that contains sodium. Talk to 
-your doctor if you are on a low salt diet.</p>         </div>"""   
+your doctor if you are on a low salt diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take remicade"
@@ -345,7 +348,7 @@ There are no known side effects of having too much of Remicade.
 If you forget or miss your Remicade infusion
 If you forget or miss an appointment to receive Remicade, make another appointment as soon as 
 possible.
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -508,7 +511,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store remicade"
@@ -530,7 +533,7 @@ or the expiry date printed on the carton, whichever is earlier.</p>
 (within 3 hours). However, if the solution is prepared in germ-free conditions, it can be stored in 
 a refrigerator at 2 C to 8 C up to 28 days and for an additional 24 hours at 25 C after removal 
 from the refrigerator.</p>
-<p>Do not use this medicine if it is discoloured or if there are particles present.</p>         </div>"""      
+<p>Do not use this medicine if it is discoloured or if there are particles present.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -647,7 +650,7 @@ Limited
 Tel: +35312998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -686,7 +689,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -695,7 +700,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -710,7 +716,7 @@ Usage: #inline
 3. Sådan får du Remicade
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -781,7 +787,7 @@ andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Remic
 Behandle aktiv Crohns sygdom
 
 Sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
-behandles tilfredsstillende med andre lægemidler eller operation.</p>         </div>"""   
+behandles tilfredsstillende med andre lægemidler eller operation.</p> </div>"""   
           
 
              
@@ -1023,7 +1029,7 @@ betjene nogen form for maskiner.
 Remicade indeholder natrium
 Remicade indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
 "natriumfrit". Men før du får Remicade, blandes det sammen med en opløsning, som indeholder 
-natrium. Tal med din læge, hvis du er på en diæt med et lavt saltindhold.</p>         </div>"""   
+natrium. Tal med din læge, hvis du er på en diæt med et lavt saltindhold.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take remicade"
@@ -1068,7 +1074,7 @@ Der kendes ikke til bivirkninger efter at have fået for meget Remicade.
 Hvis du har glemt eller kommer for sent til din Remicade-infusion
 Hvis du glemmer eller kommer for sent til en aftale, hvor Remicade gives, skal du lave en ny aftale så 
 hurtigt som muligt.
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1333,7 +1339,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller s
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store remicade"
@@ -1361,7 +1367,7 @@ klargjort til infusion. Hvis opløsningen er klargjort under aseptiske betingels
 opbevares i køleskab ved 2 °C - 8 °C i op til 28 dage og i yderligere 24 timer ved 25 °C efter
 udtagning fra køleskab.
 
-Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p>         </div>"""      
+Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1568,7 +1574,7 @@ Remicade med andre midler. Infunder ikke Remicade i den samme intravenøse slang
 andre midler.
 6. Undersøg Remicade visuelt for partikler eller misfarvning før indgivelsen. Anvendes ikke, hvis 
 der observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer.
-7. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+7. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -1607,7 +1613,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1616,7 +1624,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1631,7 +1640,7 @@ Usage: #inline
 3. Como será administrado Remicade
 4. Efeitos indesejáveis possíveis
 5. Como conservar Remicade
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1705,7 +1714,7 @@ modo suficiente, ser-lhe-á administrado Remicade para:
 Tratar a doença de Crohn ativa
 
 Reduzir o número de aberturas anormais (fístulas) entre o seu intestino e a sua pele que não 
-foram controladas com outros medicamentos ou cirurgia.</p>         </div>"""   
+foram controladas com outros medicamentos ou cirurgia.</p> </div>"""   
           
 
              
@@ -1964,7 +1973,7 @@ quaisquer ferramentas ou máquinas.
 Remicade contém sódio
 Remicade contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente “isento de 
 sódio". No entanto, antes de lhe ser dado Remicade, ele é misturado com uma solução que contém 
-sódio. Fale com o seu médico se estiver numa dieta com restrição em sal.</p>         </div>"""   
+sódio. Fale com o seu médico se estiver numa dieta com restrição em sal.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar remicade"
@@ -2012,7 +2021,7 @@ Não existem efeitos indesejáveis conhecidos devido à toma excessiva de Remica
 Caso se tenha esquecido ou falte à sua perfusão de Remicade
 Se se esquecer ou faltar a uma marcação para receber Remicade, faça outra marcação o mais 
 rapidamente possível.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -2293,7 +2302,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar remicade"
@@ -2324,7 +2333,7 @@ assépticas, pode ser conservada no frigorífico entre 2°C e 8°C até 28 dias 
 adicional de 24 horas a 25ºC após retirar do frigorífico.
 
 Não utilize este medicamento se verificar que a solução apresenta alteração da coloração ou 
-partículas.</p>         </div>"""      
+partículas.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2537,7 +2546,7 @@ partículas ou apresenta sinais de alteração da cor. A solução não deverá 
 partículas opacas visíveis, partículas estranhas ou alterações da cor.
 7.
 Os produtos não utilizados ou os resíduos devem ser eliminados de acordo com as exigências 
-locais.</p>         </div>"""      
+locais.</p> </div>"""      
 
 
 

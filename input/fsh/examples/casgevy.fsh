@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Casgevy  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ This can lead to the blockage of blood vessels, causing VOCs. </p>
 Casgevy works by increasing the production of a special type of haemoglobin called Haemoglobin F 
 (foetal haemoglobin or HbF). Having more HbF improves the production and function of red blood 
 cells. Because of this, people with TDT may not need blood transfusions and people with sickle cell 
-disease may not experience VOCs. </p>         </div>"""   
+disease may not experience VOCs. </p> </div>"""   
           
 
              
@@ -224,7 +227,7 @@ This medicine contains approximately 5.3-70 mg sodium (main component of table s
 is equivalent to 0.3-4% of the recommended maximum daily dietary intake of sodium for an adult. The 
 total number of vials comprising a dose varies per patient.  </p>
 <p>This medicine contains approximately 50 mg DMSO per mL. See Section 2  Warnings and 
-precautions . </p>         </div>"""   
+precautions . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take casgevy"
@@ -256,7 +259,7 @@ large vein to access your bloodstream. The risks of catheters are infections and
 clots. The doctor and nurses will monitor you for any central venous catheter complications. It may 
 take a few hours for all of the injections to be given. After you are given Casgevy, you will stay in 
 hospital so that your healthcare team can closely monitor your recovery. This can take approximately 
-2 months, but times can vary. A doctor will decide when you can go home.  </p>         </div>"""         
+2 months, but times can vary. A doctor will decide when you can go home.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ right away if any of these side effects get worse. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store casgevy"
@@ -457,7 +460,7 @@ storage of the medicine before and during its use, as well as for its correct di
 thaw. Thaw one vial at a time. Do not thaw until ready to infuse. Do not re-freeze after thawing. Once 
 thawed, store at room temperature (20  C to 25  C) and infuse within 20 minutes. 
 This medicine contains human blood cells. Unused medicine must be disposed of in compliance with 
-the local guidelines on handling human-derived material. </p>         </div>"""      
+the local guidelines on handling human-derived material. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -507,7 +510,7 @@ Tel: +39 0697794This leaflet was last revised in  </p>
 about this medicine. The European Medicines Agency will review new information on this medicine at 
 least every year and this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -546,7 +549,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -555,7 +560,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -572,7 +578,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -606,7 +612,7 @@ gennem blodkarrene. Dette kan føre til blokering af blodkar, hvilket forårsage
 <p>Casgevy virker ved at øge produktionen af en særlig type hæmoglobin kaldet hæmoglobin F (føtalt 
 hæmoglobin eller HbF). Hvis man får mere HbF, forbedrer det produktionen og funktionen af røde 
 blodlegemer. Som følge heraf vil personer med TDT muligvis ikke have brug for blodtransfusioner, og 
-personer med seglcellesygdom vil muligvis ikke opleve VOC'er. </p>         </div>"""   
+personer med seglcellesygdom vil muligvis ikke opleve VOC'er. </p> </div>"""   
           
 
              
@@ -756,7 +762,7 @@ motorkøretøj, betjene maskiner eller deltage i aktiviteter, der kræver, at du
 Dette lægemiddel indeholder ca. 5,3-70 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 0,3-4 % af den anbefalede maksimale daglige indtagelse af natrium for en 
 voksen. Det samlede antal hætteglas, der udgør en dosis, varierer fra patient til patient. </p>
-<p>Dette lægemiddel indeholder ca. 50 mg DMSO pr. ml. Se pkt. 2 "Advarsler og forsigtighedsregler". </p>         </div>"""   
+<p>Dette lægemiddel indeholder ca. 50 mg DMSO pr. ml. Se pkt. 2 "Advarsler og forsigtighedsregler". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take casgevy"
@@ -787,7 +793,7 @@ for at få adgang til dit blodkredsløb. Katetre indebærer en risiko for infekt
 blodpropper. Lægen og sygeplejerskerne vil overvåge dig for eventuelle komplikationer som følge af 
 det centrale venekateter. Det kan tage et par timer, før alle injektionerne er givet. Efter du har fået 
 Casgevy skal du blive på hospitalet, så dit sundhedsteam kan overvåge din bedring nøje. Dette kan 
-tage ca. 2 måneder, men det kan variere. En læge vil beslutte, hvornår du kan tage hjem. </p>         </div>"""         
+tage ca. 2 måneder, men det kan variere. En læge vil beslutte, hvornår du kan tage hjem. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -980,7 +986,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store casgevy"
@@ -997,7 +1003,7 @@ korrekt opbevaring af lægemidlet før og under dets anvendelse samt for korrekt
 infusion. Må ikke nedfryses igen efter optøning. Når det er optøet, opbevares det ved stuetemperatur 
 (20 °C til 25 °C) og infunderes inden for 20 minutter. </p>
 <p>Dette lægemiddel indeholder humane blodlegemer. Ikke anvendt lægemiddel skal bortskaffes i 
-overensstemmelse med lokale retningslinjer om håndtering af humant materiale. </p>         </div>"""      
+overensstemmelse med lokale retningslinjer om håndtering af humant materiale. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1240,7 +1246,7 @@ med passende desinfektionsmiddel. </p>
 <p>Forholdsregler, der skal trækkes i forbindelse med bortskaffelse af lægemidlet </p>
 <p>Ikke anvendt lægemiddel og alt materiale, der har været i kontakt med Casgevy (fast og flydende 
 affald), skal håndteres og bortskaffes som potentielt infektiøst affald i overensstemmelse med lokale 
-retningslinjer om håndtering af humant materiale. </p>         </div>"""      
+retningslinjer om håndtering af humant materiale. </p> </div>"""      
 
 
 
@@ -1279,7 +1285,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1288,7 +1296,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1305,7 +1314,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Casgevy </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1343,7 +1352,7 @@ vasos sanguíneos. Isto pode levar ao bloqueio dos vasos sanguíneos causando CV
 Casgevy funciona ao aumentar a produção de um tipo especial de hemoglobina chamada 
 hemoglobina F (hemoglobina fetal ou HbF). A presença de mais HbF melhora a produção e função 
 dos glóbulos vermelhos. Por isso, as pessoas com TDT poderão não precisar de transfusões de sangue 
-e as pessoas com anemia de células falciformes poderão não ter CVO. </p>         </div>"""   
+e as pessoas com anemia de células falciformes poderão não ter CVO. </p> </div>"""   
           
 
              
@@ -1505,7 +1514,7 @@ mesa) por frasco para injetáveis. Isto é equivalente a 0,3%-4% da ingestão di
 recomendada na dieta para um adulto. O número total de frascos para injetáveis que compreende uma 
 dose varia de acordo com o doente. </p>
 <p>Este medicamento contém aproximadamente 50 mg de DMSO por ml. Ver secção 2 “Advertências e 
-precauções". </p>         </div>"""   
+precauções". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar casgevy"
@@ -1542,7 +1551,7 @@ médico e os enfermeiros irão monitorizá-lo para despistar quaisquer complica�
 cateter venoso central. Poderá demorar algumas horas até todas as injeções serem administradas. 
 Depois de lhe ser administrado Casgevy, ficará no hospital para que a equipa de cuidados de saúde 
 possa monitorizar cuidadosamente a sua recuperação. Isto pode levar, aproximadamente, 2 meses, mas 
-os tempos podem variar. Um médico irá decidir quando é que pode voltar para casa. </p>         </div>"""         
+os tempos podem variar. Um médico irá decidir quando é que pode voltar para casa. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1990,7 +1999,7 @@ médico ou enfermeiro imediatamente se qualquer um destes efeitos indesejáveis 
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar casgevy"
@@ -2010,7 +2019,7 @@ Descongelar um frasco para injetáveis de cada vez. Não descongelar até estar 
 Não voltar a congelar depois de ter sido descongelado. Uma vez descongelado, conservar à 
 temperatura ambiente (20 °C a 25 °C) e perfundir no período de 20 minutos. </p>
 <p>Este medicamento contém células de sangue humano. O medicamento não usado tem de ser eliminado 
-de acordo com as orientações locais sobre o manuseamento de material de origem humana. </p>         </div>"""      
+de acordo com as orientações locais sobre o manuseamento de material de origem humana. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2075,7 +2084,7 @@ significa que se aguarda mais informação sobre este medicamento. A Agência Eu
 Medicamentos irá analisar, pelo menos uma vez por ano, nova informação sobre este medicamento e 
 este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

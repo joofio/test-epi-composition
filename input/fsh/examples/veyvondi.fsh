@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store VEYVONDI  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ medicine, desmopressin, is not effective or cannot be given. </p>
 <p>Von Willebrand disease is an inherited bleeding disorder caused by the lack or an insufficient amount 
 of von Willebrand factor. In patients with the disease the blood does not clot normally leading to a 
 prolonged bleeding time. Administration of von Willebrand factor (VWF) allows for correction of von 
-Willebrand factor deficiency. </p>         </div>"""   
+Willebrand factor deficiency. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ This medicine contains 5.2 mg sodium (main component of cooking/table salt) in e
 10.4 mg sodium in each 1300 IU vial. </p>
 <p>This is equivalent to 2.2% of the recommended maximum daily dietary intake of sodium for an adult, 
 assuming 70 kg body weight and 80 IU/kg body weight. </p>
-<p>This should be taken into consideration if you are on a controlled sodium diet. </p>         </div>"""   
+<p>This should be taken into consideration if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veyvondi"
@@ -203,7 +206,7 @@ may be a risk of developing blood clots (thrombosis) in case of an accidental hi
 - Proceed with the next infusion as scheduled and continue as advised by your doctor. </p>
 <p>If you stop using VEYVONDI 
 Do not stop using VEYVONDI without consulting your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -242,7 +245,7 @@ early symptoms of severe allergic reactions:</p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veyvondi"
@@ -263,7 +266,7 @@ because the product does not contain preservatives.  </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -398,7 +401,7 @@ United Kingdom (Northern Ireland)
 Takeda UK Ltd 
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -437,7 +440,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -446,7 +451,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -463,7 +469,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -482,7 +488,7 @@ bruges, når behandling med en anden medicin, desmopressin, ikke virker eller ik
 <p>Von Willebrands sygdom er en arvelig blødersygdom, der skyldes mangel på eller en utilstrækkelig 
 mængde af von Willebrand-faktor. Hos patienter, der har sygdommen, størkner blodet ikke normalt, 
 og blødninger varer længere. Ved indgivelse af von Willebrand-faktor (VWF) kan der rettes op på 
-manglen af von Willebrand-faktor. </p>         </div>"""   
+manglen af von Willebrand-faktor. </p> </div>"""   
           
 
              
@@ -542,7 +548,7 @@ Dette lægemiddel indeholder 5,2 mg natrium (hoved komponent af madlavnings-/bor
 650 IE hætteglas eller 10,4 mg natrium i hvert 1300 IE hætteglas.  </p>
 <p>Det svarer til 2,2 % af det maksimale anbefalede daglige indtag via kosten for en voksen, når der 
 forudsættes en legemsvægt på 70 kg og en dosis på 80 IE/kg legemsvægt. </p>
-<p>Dette skal tages i betragtning, hvis du er på en natriumkontrolleret diæt. </p>         </div>"""   
+<p>Dette skal tages i betragtning, hvis du er på en natriumkontrolleret diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veyvondi"
@@ -603,7 +609,7 @@ risiko for dannelse af blodpropper (trombose) ved en utilsigtet høj dosis. </p>
 - Fortsæt med den næste infusion som planlagt, og fortsæt derefter som anvist af lægen. </p>
 <p>Hvis du holder op med at bruge VEYVONDI 
 Du må ikke stoppe med at bruge VEYVONDI uden at have rådført dig med lægen. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -643,7 +649,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veyvondi"
@@ -663,7 +669,7 @@ da lægemidlet ikke indeholder konserveringsmidler.  </li>
 <li>Dette lægemiddel er kun til engangsbrug. Bortskaf al ubrugt væske på en passende måde. </li>
 <li>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1097,7 +1103,7 @@ doser (der ikke overstiger 80 IE/kg) og/eller en øget dosishyppighed (op til tr
 <p>Lægemidlets navn og batchnummer </p>
 <p>Det anbefales på det kraftigste at registrere lægemidlets navn og batchnummer, hver gang 
 VEYVONDI administreres til en patient, for derved at bevare en forbindelse mellem patienten og 
-lægemidlets batchnummer. </p>         </div>"""      
+lægemidlets batchnummer. </p> </div>"""      
 
 
 

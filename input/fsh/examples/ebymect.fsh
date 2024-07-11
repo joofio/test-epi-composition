@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ebymect</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ diabetes. This may be another medicine taken by mouth and/or a medicine given by
 you to switch to this medicine. To avoid overdose, do not continue taking dapagliflozin and 
 metformin tablets, if you are taking Ebymect.
 It is important to continue to follow the advice on diet and exercise given to you by your doctor, 
-pharmacist or nurse.</p>         </div>"""   
+pharmacist or nurse.</p> </div>"""   
           
 
              
@@ -236,7 +239,7 @@ dizziness, increased sweating, fast heart beat, change in vision or difficulties
 your ability to drive and use machines. Do not drive or use any tools or machines, if you start to feel these 
 symptoms.
 Ebymect contains sodium
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free .</p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebymect"
@@ -276,7 +279,7 @@ medicine to make up for a forgotten dose.
 If you stop taking Ebymect
 Do not stop taking this medicine without talking to your doctor first. Your blood sugar may increase 
 without this medicine.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -368,7 +371,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ebymect"
@@ -380,7 +383,7 @@ Do not use this medicine after the expiry date which is stated on the blister or
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -483,7 +486,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -522,7 +525,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -531,7 +536,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -546,7 +552,7 @@ Usage: #inline
 3. Sådan skal du tage Ebymect
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -582,7 +588,7 @@ dig om at skifte til dette lægemiddel. For at undgå en overdosis, skal du stop
 dapagliflozin- og metformintabletter, hvis du tager Ebymect.
 Det er vigtigt, at du fortsætter med at følge de råd om kost og motion, som din læge, apotekspersonalet 
 eller sundhedspersonalet har givet dig.
-56</p>         </div>"""   
+56</p> </div>"""   
           
 
              
@@ -767,7 +773,7 @@ begynder at få disse symptomer.
 59
 Ebymect indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebymect"
@@ -815,7 +821,7 @@ glemte dosis.
 Hvis du holder op med at tage Ebymect
 Hold ikke op med at tage dette lægemiddel uden først at tale med din læge. Dit blodsukker kan stige, 
 hvis du ikke tager din medicin.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -946,7 +952,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ebymect"
@@ -959,7 +965,7 @@ er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-62</p>         </div>"""      
+62</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1104,7 +1110,7 @@ Denne indlægsseddel blev senest ændret
 64
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -1143,7 +1149,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1152,7 +1160,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1167,7 +1176,7 @@ Usage: #inline
 3. Como tomar Ebymect
 4. Efeitos secundários possíveis
 5. Como conservar Ebymect
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1204,7 +1213,7 @@ poderá pedir-lhe para mudar para este medicamento. Para evitar sobredosagem, n�
 a tomar os comprimidos de dapagliflozina e metformina se está a tomar Ebymect.
 64
 É importante que continue a seguir as recomendações do seu médico, farmacêutico ou enfermeiro 
-sobre a dieta e o exercício.</p>         </div>"""   
+sobre a dieta e o exercício.</p> </div>"""   
           
 
              
@@ -1397,7 +1406,7 @@ podem afetar a sua capacidade de conduzir e utilizar máquinas. Não conduza ou 
 ferramentas ou máquinas, se começar a sentir estes sintomas.
 Ebymect contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ebymect"
@@ -1449,7 +1458,7 @@ Se parar de tomar Ebymect
 Não pare de tomar este medicamento sem falar primeiro com o seu médico. O seu nível de açúcar 
 no sangue pode aumentar sem este medicamento.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
-farmacêutico ou enfermeiro.</p>         </div>"""         
+farmacêutico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1577,7 +1586,7 @@ Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundári
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
 secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ebymect"
@@ -1591,7 +1600,7 @@ Este medicamento não necessita de quaisquer precauções especiais de conserva�
 71
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1738,7 +1747,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How SomaKit TOC is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ tomography (PET). This medical procedure obtains images of your organs to help l
 cells or tumours, giving valuable information about your disease. </p>
 <p>The use of SomaKit TOC involves exposure to small amounts of radioactivity. Your doctor and the 
 nuclear medicine doctor have considered that the clinical benefit from the procedure with the 
-radiopharmaceutical outweighs the risk due to radiation. </p>         </div>"""   
+radiopharmaceutical outweighs the risk due to radiation. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ Please ask your nuclear medicine doctor when you can resume breast-feeding. </p>
 It is considered unlikely that SomaKit TOC will affect your ability to drive or to use machines. </p>
 <p>SomaKit TOC contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take somakit"
@@ -182,7 +185,7 @@ nuclear medicine doctor supervising the procedure. However, in the case of an ov
 receive the appropriate treatment. Drinking and emptying your bladder frequently will help remove the 
 radioactive substance from your body more quickly. </p>
 <p>Should you have any further questions on the use of SomaKit TOC, please ask the nuclear medicine 
-doctor who supervises the procedure. </p>         </div>"""         
+doctor who supervises the procedure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -211,7 +214,7 @@ of cancer and hereditary abnormalities. </p>
 If you get any side effects talk to your nuclear medicine doctor. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store somakit"
@@ -232,7 +235,7 @@ radiolabelling. </p>
 <p>SomaKit TOC must not be used if there are visible signs of deterioration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Wait for the level of 
 radioactivity to decay adequately before throwing away radioactive products. These measures will 
-help protect the environment. </p>         </div>"""      
+help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -337,7 +340,7 @@ Tel: +46 8 720 58 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -376,7 +379,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -385,7 +390,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -402,7 +408,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -421,7 +427,7 @@ hjælp til at lokalisere unormale celler eller tumorer, hvilket giver værdifuld
 sygdom. </p>
 <p>Når du får SomaKit TOC, bliver du udsat for små mængder radioaktivitet. Din læge og den 
 nuklearmedicinske læge har vurderet, at den kliniske gavn af undersøgelsen med det radioaktive 
-lægemiddel er større end strålingsrisikoen forbundet dermed. </p>         </div>"""   
+lægemiddel er større end strålingsrisikoen forbundet dermed. </p> </div>"""   
           
 
              
@@ -488,7 +494,7 @@ Det anses for usandsynligt, at SomaKit TOC vil påvirke din evne til at køre mo
 maskiner. </p>
 <p>SomaKit TOC indeholder natrium 
 Dette lægemiddel indeholder mindre en 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take somakit"
@@ -525,7 +531,7 @@ nuklearmedicinske læge, der har tilsyn med undersøgelsen. Skulle du alligevel 
 få den nødvendige behandling. At drikke og tømme blæren hyppigt vil hjælpe med at udskille det 
 radioaktive stof hurtigere fra kroppen. </p>
 <p>Hvis du har yderligere spørgsmål om brugen af SomaKit TOC, skal du spørge den nuklearmedicinske 
-læge, der har tilsyn med undersøgelsen. </p>         </div>"""         
+læge, der har tilsyn med undersøgelsen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -555,7 +561,7 @@ Hvis du oplever nogen bivirkninger, bør du tale med den nuklearmedicinske læge
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store somakit"
@@ -576,7 +582,7 @@ temperaturer over 25°C efter radioaktiv mærkning. </p>
 <p>SomaKit TOC må ikke anvendes, hvis der er synlige tegn på nedbrydning. </p>
 <p>Smid ikke medicinrester i afløbet, toilettet eller skraldespanden. Vent, indtil radioaktiviteten er faldet 
 til et passende niveau, før radioaktive produkter bortskaffes. Disse foranstaltninger er med til at 
-beskytte miljøet. </p>         </div>"""      
+beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -720,7 +726,7 @@ hjemmeside: http://www.ema.europa.eu </p>
 <p>Det fuldstændige produktresumé for SomaKit TOC er indlagt separat i lægemidlets pakning, så læger 
 og sundhedspersonale kan få supplerende videnskabelige og praktiske oplysninger om administration 
 og anvendelse af dette radioaktive lægemiddel. </p>
-<p>Se produktresuméet. </p>         </div>"""      
+<p>Se produktresuméet. </p> </div>"""      
 
 
 
@@ -759,7 +765,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -768,7 +776,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -785,7 +794,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como SomaKit TOC é conservado </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -804,7 +813,7 @@ imagens dos seus órgãos, para ajudar a localizar as células anormais ou tumor
 informações importantes sobre a sua doença. </p>
 <p>A utilização de SomaKit TOC envolve a exposição a pequenas quantidades de radioatividade. O seu 
 médico e o médico de medicina nuclear consideraram que o benefício clínico que obterá do 
-procedimento com o radiofármaco é superior ao risco da radiação. </p>         </div>"""   
+procedimento com o radiofármaco é superior ao risco da radiação. </p> </div>"""   
           
 
              
@@ -868,7 +877,7 @@ Pergunte ao seu médico de medicina nuclear quando poderá retomar a amamentaç�
 Considera-se improvável que SomaKit TOC afete a sua capacidade de conduzir ou utilizar máquinas. </p>
 <p>SomaKit TOC contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar somakit"
@@ -904,7 +913,7 @@ medicamento. Contacte o seu médico de medicina nuclear se tiver dúvidas. </p>
 Contudo, no caso de uma sobredosagem, receberá o tratamento adequado. Beber e esvaziar a bexiga 
 com frequência ajudará a remover a substância radioativa do seu corpo mais rapidamente. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização de SomaKit TOC, fale com o médico de medicina nuclear 
-responsável pela supervisão do procedimento. </p>         </div>"""         
+responsável pela supervisão do procedimento. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -932,7 +941,7 @@ cancro e anomalias hereditárias. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico de medicina nuclear. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar somakit"
@@ -953,7 +962,7 @@ acima de 25°C após a marcação radioativa. </p>
 <p>SomaKit TOC não deve ser utilizado se verificar sinais visíveis de deterioração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Aguarde até que o nível 
 de radioatividade se desintegre de forma adequada antes de deitar fora produtos radioativos. Estas 
-medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1086,7 +1095,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

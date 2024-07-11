@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Kyntheum  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ psoriasis. </p>
 scaly plaque formation on the skin. Kyntheum is used in adults with moderate to severe plaque 
 psoriasis affecting large areas of the body. </p>
 <p>Using Kyntheum will benefit you by leading to improvements of skin clearance and reducing psoriasis 
-signs and symptoms, such as itch, redness, scaling, burning, stinging, cracking, flaking and pain. </p>         </div>"""   
+signs and symptoms, such as itch, redness, scaling, burning, stinging, cracking, flaking and pain. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ using Kyntheum. Together you will consider the benefit of breast-feeding to the 
 of Kyntheum to you. </p>
 <p>Driving and using machines 
 Kyntheum is unlikely to affect your ability to drive and use machines. </p>
-<p>eDoc-000624731 - Version 28. 0</p>         </div>"""   
+<p>eDoc-000624731 - Version 28. 0</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kyntheum"
@@ -193,7 +196,7 @@ double dose to make up for a forgotten dose. </p>
 <p>If you stop using Kyntheum 
 You should not stop using Kyntheum without speaking to your doctor first. If you stop treatment, 
 symptoms of psoriasis may come back.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -239,7 +242,7 @@ have also been reported with IL-17 inhibitors, such as Kyntheum. </p>
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kyntheum"
@@ -257,7 +260,7 @@ Kyntheum if it is not used within 14 days of storage at room temperature. </p>
 <p>Do not use this medicine if you notice the solution is cloudy or discoloured or contains lumps, flakes 
 or particles. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -352,7 +355,7 @@ LEO Laboratories Ltd
 Tel: +44 (0) 1844 347This leaflet was last revised in  </p>
 <p>eDoc-000624731 - Version 28. 0</p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -391,7 +394,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -400,7 +405,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -415,7 +421,7 @@ Usage: #inline
 3. Sådan skal du bruge Kyntheum 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -433,7 +439,7 @@ betændelse og dannelse af skællende pletter på huden. Kyntheum anvendes til v
 svær plaque-psoriasis, som påvirker store dele af kroppen. </p>
 <p>Brug af Kyntheum vil gavne dig ved at forbedre hudens tilstand og mindske tegn og symptomer på 
 psoriasis, såsom kløe, rødme, afskalning, brændende og stikkende fornemmelse, revnedannelse, 
-flagedannelse og smerter. </p>         </div>"""   
+flagedannelse og smerter. </p> </div>"""   
           
 
              
@@ -551,7 +557,7 @@ planlægger at amme. Din læge vil så hjælpe dig med at beslutte, om du skal h
 eller holde op med at bruge Kyntheum. I skal sammen overveje de fordele, som amning giver barnet, 
 og de fordele, som Kyntheum giver dig. </p>
 <p>Trafik- og arbejdssikkerhed 
-Det er usandsynligt, at Kyntheum påvirker din evne til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+Det er usandsynligt, at Kyntheum påvirker din evne til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kyntheum"
@@ -611,7 +617,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 Du må ikke holde op med at bruge Kyntheum uden at have talt med din læge først. Hvis du stopper 
 behandlingen, kan symptomerne på psoriasis komme tilbage. </p>
 <p>eDoc-000648046 - Version 11. 0</p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -707,7 +713,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel. </p>
-<p>eDoc-000648046 - Version 11. 0</p>         </div>"""      
+<p>eDoc-000648046 - Version 11. 0</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kyntheum"
@@ -724,7 +730,7 @@ bortskaffes, hvis det ikke er anvendt efter 14 dages opbevaring ved stuetemperat
 <p>Brug ikke lægemidlet, hvis du bemærker, at opløsningen er uklar eller misfarvet, eller at den 
 indeholder klumper, flager eller partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1109,7 +1115,7 @@ sammen med husholdningsaffaldet. </p>
 <p>K. Kontrollér injektionsstedet 
 Hvis det bløder, skal du presse et stykke vat eller gaze mod injektionsstedet. Gnid ikke på 
 injektionsstedet. Sæt om nødvendigt et plaster på. </p>
-<p>eDoc-000648046 - Version 11. 0</p>         </div>"""      
+<p>eDoc-000648046 - Version 11. 0</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Apretude </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 retroviral medicines called integrase inhibitors (INIs). </p>
 <p>Apretude is used to help prevent HIV-1 infection in adults and adolescents weighing at least 35kg who 
 are at an increased risk of infection. This is called pre-exposure prophylaxis: PrEP (see section 2).                            <br />
-It should be used in combination with safer sex practices, such as use of condoms. </p>         </div>"""   
+It should be used in combination with safer sex practices, such as use of condoms. </p> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ feeding, or thinking about breast-feeding, check with your doctor. Your doctor w
 benefit and risks of breast-feeding for you and your baby. </p>
 <p>Driving and using machines  </p>
 <p>Apretude can make you dizzy and have other side effects that make you less alert.<br />
-  Don t drive or use machines unless you are sure you re not affected. </p>         </div>"""   
+  Don t drive or use machines unless you are sure you re not affected. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take apretude"
@@ -222,7 +225,7 @@ an Apretude injection again. </p>
 Keep receiving Apretude injections for as long as your doctor recommends. Don t stop unless your 
 doctor advises you to. If you stop and you are still at risk of getting HIV your doctor must start you on 
 another PrEP medicine within 2 months of your last Apretude injection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -285,7 +288,7 @@ tests. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet.  </p>
 <p>You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store apretude"
@@ -296,7 +299,7 @@ reporting side effects, you can help provide more information on the safety of t
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>The doctor or nurse is responsible for storing this medicine correctly. </p>
-<p>Do not freeze. </p>         </div>"""      
+<p>Do not freeze. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -399,7 +402,7 @@ ViiV Healthcare BV<br />
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {MM/YYYY}  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -438,7 +441,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -447,7 +452,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -464,7 +470,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -477,7 +483,7 @@ lægemidler, der kaldes integrasehæmmere (INI'er). </p>
 <p>Apretude anvendes som en hjælp til at forebygge hiv-1-infektion hos voksne og unge med en vægt på 
 mindst 35 kg, som har en øget infektionsrisiko. Dette kaldes præ-eksponeringsprofylakse: PrEP 
 (sepunkt 2).                                                                                                                                                               <br />
-Det bør anvendes i kombination med sikker sexpraksis, såsom brug af kondomer. </p>         </div>"""   
+Det bør anvendes i kombination med sikker sexpraksis, såsom brug af kondomer. </p> </div>"""   
           
 
              
@@ -592,7 +598,7 @@ risiciene for dig og dit barn ved at amme. </p>
 <p>Trafik- og arbejdssikkerhed  </p>
 <p>Apretude kan gøre dig svimmel og give andre bivirkninger, der gør dig mindre opmærksom.  </p>
 <p> Du må ikke føre motorkøretøj og betjene maskiner, medmindre du er sikker på, at du ikke er 
-påvirket. </p>         </div>"""   
+påvirket. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take apretude"
@@ -637,7 +643,7 @@ muligt for dig at få en injektion med Apretude igen. </p>
 Fortsæt med at få injektioner med Apretude, så længe lægen anbefaler det. Du må ikke stoppe, 
 medmindre lægen anbefaler dig det. Hvis du stopper, og du stadig er i risiko for at få hiv, skal lægen 
 starte dig op på en anden PrEP-medicin senest 2 måneder efter din sidste injektion af Apretude. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -749,7 +755,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store apretude"
@@ -760,7 +766,7 @@ lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
 <p>Lægen eller sygeplejersken er ansvarlig for at opbevare lægemidlet korrekt. </p>
-<p>Må ikke nedfryses. </p>         </div>"""      
+<p>Må ikke nedfryses. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1083,7 +1089,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

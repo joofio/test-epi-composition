@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Oprymea</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ Oprymea is used to:
 treat the symptoms of primary Parkinson's disease in adults. It can be used alone or in 
 combination with levodopa (another medicine for Parkinson s disease).
 -
-treat the symptoms of moderate to severe primary Restless Legs Syndrome in adults.</p>         </div>"""   
+treat the symptoms of moderate to severe primary Restless Legs Syndrome in adults.</p> </div>"""   
           
 
              
@@ -181,7 +184,7 @@ Oprymea can cause hallucinations (seeing, hearing or feeling things that are not
 not drive or use machines.
 Oprymea has been associated with sleepiness and episodes of suddenly falling asleep, particularly in 
 patients with Parkinson s disease. If you experience these side effects, you must not drive or operate 
-machinery. Please tell your doctor if this occurs.</p>         </div>"""   
+machinery. Please tell your doctor if this occurs.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oprymea"
@@ -311,7 +314,7 @@ depressed level of consciousness (e.g. coma).
 If you stop or reduce Oprymea you may also develop a medical condition called dopamine agonist 
 withdrawal syndrome. The symptoms include depression, apathy, anxiety, fatigue, sweating or pain. If 
 you experience these symptoms you should contact your physician.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -503,7 +506,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oprymea"
@@ -515,7 +518,7 @@ Do not use this medicine after the expiry date which is stated on the packaging 
 date refers to the last day of that month.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -615,7 +618,7 @@ KRKA Latvija SIA
 Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -654,7 +657,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -663,7 +668,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -678,7 +684,7 @@ Usage: #inline
 3. Sådan skal du tage Oprymea
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -695,7 +701,7 @@ behandling af voksne patienter med symptomer på Parkinsons sygdom. Oprymea kan 
 alene eller i kombination med levodopa (medicin til behandling af Parkinsons sygdom).
 -
 behandling af voksne patienter med symptomer på moderat til svær restless legs syndrom 
-(RLS), en sygdom, der giver uro i benene.</p>         </div>"""   
+(RLS), en sygdom, der giver uro i benene.</p> </div>"""   
           
 
              
@@ -799,7 +805,7 @@ Oprymea kan give hallucinationer (du ser, hører eller føler ting, der ikke er 
 din evne til at køre bil og betjene maskiner.
 Bivirkninger som søvnighed og pludselig indsættende søvn er set specielt for Parkinsonpatienter. Du 
 skal afstå fra at køre bil, motorcykel, eller cykel, og lade være med at arbejde med værktøj eller 
-maskiner, hvis du oplever disse bivirkninger.</p>         </div>"""   
+maskiner, hvis du oplever disse bivirkninger.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oprymea"
@@ -931,7 +937,7 @@ påvirket bevidsthedstilstand, f.eks koma
 Hvis du holder op med eller nedtrapper Oprymea, kan du også udvikle en sygelig tilstand kaldet 
 dopaminagonist-abstinenssyndrom. Symptomerne omfatter depression, apati, angst, træthed, 
 svedtendens eller smerter. Hvis du får disse symptomer, skal du kontakte din læge.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1138,7 +1144,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.
-99</p>         </div>"""      
+99</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oprymea"
@@ -1150,7 +1156,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. 
 sidste dag i den nævnte måned.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1300,7 +1306,7 @@ Lægen har ordineret dette lægemiddel dig personligt. Lad derfor være med at g
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -1339,7 +1345,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1348,7 +1356,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1363,7 +1372,7 @@ Usage: #inline
 3. Como tomar Oprymea
 4. Efeitos indesejáveis possíveis
 5. Como conservar Oprymea
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1381,7 +1390,7 @@ tratar os sintomas primários da doença de Parkinson em adultos. Pode ser utili
 ou em associação com a levodopa (outro medicamento para a doença de Parkinson).
 -
 tratar os sintomas da Síndrome das Pernas Inquietas (SPI) primária moderada a grave em 
-adultos.</p>         </div>"""   
+adultos.</p> </div>"""   
           
 
              
@@ -1488,7 +1497,7 @@ Oprymea pode provocar alucinações (ver, ouvir ou sentir coisas que não existe
 deve conduzir nem manobrar máquinas.
 Oprymea tem sido associada a sonolência e ataques súbitos de sono, particularmente em doentes com 
 a doença de Parkinson. Se observar estes efeitos indesejáveis, não deve conduzir nem manobrar 
-máquinas. Deverá informar o seu médico se tal ocorrer.</p>         </div>"""   
+máquinas. Deverá informar o seu médico se tal ocorrer.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar oprymea"
@@ -1637,7 +1646,7 @@ Se parar ou reduzir Oprymea também poderá desenvolver uma afeção médica den
 de abstinência dos agonistas da dopamina. Os sintomas incluem depressão, apatia, ansiedade, fadiga, 
 sudação ou dor. Se tiver estes sintomas, deve contactar o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1850,7 +1859,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar oprymea"
@@ -1863,7 +1872,7 @@ prazo de validade corresponde ao último dia do mês indicado.
 Conservar na embalagem de origem para proteger da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1994,7 +2003,7 @@ United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Este folheto foi revisto pela última vez em .
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

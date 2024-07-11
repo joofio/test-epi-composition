@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store ZYTIGA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ When ZYTIGA is prescribed for the early stage of disease where it is still respo
 therapy, it is used with a treatment that lowers testosterone (androgen deprivation therapy).
 When you take this medicine your doctor will also prescribe another medicine called prednisone or 
 prednisolone. This is to lower your chances of getting high blood pressure, having too much water in 
-your body (fluid retention), or having reduced levels of a chemical known as potassium in your blood.</p>         </div>"""   
+your body (fluid retention), or having reduced levels of a chemical known as potassium in your blood.</p> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ some sugars, contact your doctor before taking this medicinal product.
 -
 This medicine contains 27.2 mg sodium (main component of cooking/table salt) in a four tablet
 daily dose. This is equivalent to 1.36% of the recommended maximum daily dietary intake of 
-sodium for an adult.</p>         </div>"""   
+sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zytiga"
@@ -235,7 +238,7 @@ If you forget to take ZYTIGA or prednisone or prednisolone for more than one day
 doctor without delay.
 If you stop taking ZYTIGA
 Do not stop taking ZYTIGA or prednisone or prednisolone unless your doctor tells you to.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zytiga"
@@ -287,7 +290,7 @@ This medicinal product does not require any special storage conditions.
 -
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
-environment.</p>         </div>"""      
+environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -413,7 +416,7 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -452,7 +455,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -461,7 +466,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>  </div>"""   
 
 
 
@@ -476,7 +481,7 @@ Usage: #inline
 3. Sådan skal du tage ZYTIGA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -492,7 +497,7 @@ anvendes det sammen med en behandling, der nedsætter dannelsen af testosteron (
 deprivationsbehandling).
 Mens du er i behandling med dette lægemiddel, vil din læge også ordinere enten prednison eller 
 prednisolon til dig. Derved nedsættes risikoen for, at du får højt blodtryk, for meget væske i kroppen 
-(væskeretention) eller nedsat indhold af mineralet kalium i blodet.</p>         </div>"""   
+(væskeretention) eller nedsat indhold af mineralet kalium i blodet.</p> </div>"""   
           
 
              
@@ -605,7 +610,7 @@ fortalt dig, at du ikke tåler visse sukkerarter.
 -
 Dette lægemiddel indeholder 27,2 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. 
 daglig dosis på fire tabletter. Dette svarer til 1,36 % af den anbefalede maximale daglige 
-indtagelse af natrium for en voksen.</p>         </div>"""   
+indtagelse af natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zytiga"
@@ -655,7 +660,7 @@ Kontakt straks lægen, hvis du har glemt at tage ZYTIGA, prednison eller prednis
 end en dag.
 Hvis du holder op med at tage ZYTIGA
 Hold ikke op med at tage ZYTIGA, prednison eller prednisolon, medmindre lægen anbefaler det.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -694,7 +699,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.
-68</p>         </div>"""      
+68</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zytiga"
@@ -710,7 +715,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 -
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -873,7 +878,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -912,7 +917,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -921,7 +928,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -936,7 +944,7 @@ Usage: #inline
 3. Como tomar ZYTIGA
 4. Efeitos indesejáveis possíveis
 5. Como conservar ZYTIGA
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -953,7 +961,7 @@ androgénica).
 Quando tomar este medicamento, o seu médico também irá receitar-lhe outro medicamento chamado 
 prednisona ou prednisolona. Este é usado para diminuir as hipóteses de sofrer hipertensão arterial
 (tensão alta), de ter demasiada água acumulada no seu organismo (retenção de fluidos) ou de ter níveis 
-baixos, no seu sangue, de uma substância química conhecida por potássio.</p>         </div>"""   
+baixos, no seu sangue, de uma substância química conhecida por potássio.</p> </div>"""   
           
 
              
@@ -1070,7 +1078,7 @@ açúcares, contacte o seu médico antes de tomar este medicamento.
 -
 Este medicamento contém 27,2 mg de sódio (principal componente de sal de cozinha/sal de 
 mesa) por dose diária de quatro comprimidos. Isto é equivalente a 1,36% da ingestão diária 
-máxima de sódio recomendada na dieta para um adulto.</p>         </div>"""   
+máxima de sódio recomendada na dieta para um adulto.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zytiga"
@@ -1124,7 +1132,7 @@ Se parar de tomar ZYTIGA
 Não pare de tomar ZYTIGA, prednisona ou prednisolona a não ser que o seu médico lhe diga para 
 parar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1163,7 +1171,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zytiga"
@@ -1180,7 +1188,7 @@ Este medicamento não necessita de quaisquer precauções especiais de conserva�
 -
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1329,7 +1337,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 Este folheto informativo foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

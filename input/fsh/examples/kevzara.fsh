@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Kevzara  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ It may help you by:
 <p>How Kevzara works 
 * Kevzara attaches to another protein called interleukin-6 (IL-6) receptor and blocks its action. 
 * IL-6 plays a major role in the symptoms of rheumatoid arthritis such as pain, swollen joints, 
-morning stiffness, and fatigue. </p>         </div>"""   
+morning stiffness, and fatigue. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ pregnant  or are planning to have a baby.
 * You and your doctor should decide if you should use Kevzara if you are breast-feeding. </p>
 <p>Driving and using machines 
 The use of Kevzara is not expected to affect your ability to drive or use machines.  However, if you 
-are feeling tired or unwell after you use Kevzara, you should not drive or use machines. </p>         </div>"""   
+are feeling tired or unwell after you use Kevzara, you should not drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kevzara"
@@ -175,7 +178,7 @@ make up for a forgotten injection. <br />
 If you are unsure when to inject your next dose: ask your doctor, pharmacist or nurse for instructions.  </p>
 <p>If you stop using Kevzara 
 Do not stop using Kevzara without talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ vomiting, fever, and constipation, or less commonly diarrhoea) </p>
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kevzara"
@@ -234,7 +237,7 @@ any part of the pre-filled syringe looks damaged. </p>
 <p>After use, put the syringe into a puncture-resistant container. Always keep the container out of the 
 sight and reach of children. Ask your doctor, pharmacist, or nurse how to throw away the container. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -329,7 +332,7 @@ Swixx Biopharma SIA<br />
 Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -368,7 +371,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -377,7 +382,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -392,7 +398,7 @@ Usage: #inline
 3. Sådan skal du bruge Kevzara 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -417,7 +423,7 @@ Kevzara kobler sig til et andet protein kaldet interleukin-6 (IL-6)-receptor og 
 virkning. 
  
 IL-6 spiller en vigtig rolle i symptomerne på kronisk leddegigt som f.eks. smerter, hævede led, 
-morgenstivhed og træthed. </p>         </div>"""   
+morgenstivhed og træthed. </p> </div>"""   
           
 
              
@@ -499,7 +505,7 @@ Du bør sammen med din læge beslutte, om du kan bruge Kevzara, mens du ammer. <
 <p>Trafik- og arbejdssikkerhed 
 Det forventes ikke, at Kevzara påvirker din evne til at køre bil eller motorcykel eller betjene maskiner. 
 Hvis du imidlertid føler dig træt eller utilpas efter du er blevet behandlet med Kevzara, bør du ikke 
-køre bil eller motorcykel eller betjene maskiner. </p>         </div>"""   
+køre bil eller motorcykel eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kevzara"
@@ -536,7 +542,7 @@ Hvis du er i tvivl om, hvornår du skal injicere den næste dosis, skal du spør
 apotekspersonalet eller sygeplejersken til råds. </p>
 <p>Hvis du holder op med at bruge Kevzara 
 Du må ikke stoppe med at bruge Kevzara uden først at tale med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -585,7 +591,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kevzara"
@@ -613,7 +619,7 @@ hvis den fyldte injektionssprøjte ser ud til at være beskadiget. </p>
 børn. Spørg din læge, apotekspersonalet eller sygeplejersken, hvordan du skal kassere 
 kanylebeholderen.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1015,7 +1021,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Udover denne indlægsseddel vil du få udleveret et patientkort med vigtige sikkerhedsoplysninger, som 
 du skal bruge før og under behandling med Kevzara. </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

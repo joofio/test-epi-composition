@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Siklos </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ painful crises as well as the need for hospitalisation linked with the disease. 
 <p>The active substance of Siklos, hydroxycarbamide, is a substance which inhibits growth and 
 proliferation of some cells, such as blood cells. These effects lead to a reduction of circulating red, 
 white and coagulation blood cells (myelosuppressive effect). In sickle cell disease, hydroxycarbamide 
-helps also to prevent red blood cells from taking abnormal shape. </p>         </div>"""   
+helps also to prevent red blood cells from taking abnormal shape. </p> </div>"""   
           
 
              
@@ -137,7 +140,7 @@ Siklos. </p>
 <p>Hydroxycarbamide may decrease sperm production in male patients while they are being treated. </p>
 <p>Driving and using machines </p>
 <p>Some people may experience dizziness when using Siklos. Do not drive or use any tools or machines if 
-you experience dizziness whilst taking Siklos. </p>         </div>"""   
+you experience dizziness whilst taking Siklos. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take siklos"
@@ -186,7 +189,7 @@ hands and feet becoming scaly, </li>
 the next dose as prescribed by your doctor. </p>
 <p>If you stop taking Siklos </p>
 <p>Do not stop your treatment unless advised by your doctor. 
-If you have any further question on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further question on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ gastrointestinal disturbances, vomiting, skin dryness, fever, absence of menstru
 If you get any side effects, talk to your doctor or, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store siklos"
@@ -247,7 +250,7 @@ safety of this medicine. </p>         </div>"""
 Store below 30 C. </p>
 <p>Unused broken tablets must be replaced in the bottle and must be used within three months. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -393,7 +396,7 @@ THERAVIA
 Tel: +33 (0)1 72 69 01 United Kingdom (Northern Ireland) 
 THERAVIA 
 Tel: +44-(0)203-695 9This leaflet was last revised in MM/YYYY. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -432,7 +435,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -441,7 +446,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -458,7 +464,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -477,7 +483,7 @@ smertefulde kriser og behovet for indlæggelse i forbindelse med sygdommen.  </p
 <p>Det aktive stof i Siklos, hydroxycarbamid, er et stof, som hæmmer væksten og formeringen af visse 
 celler såsom blodlegemer. Disse virkninger fører til en reduktion af cirkulerende røde og hvide 
 blodlegemer samt blodplader (en hæmning af knoglemarven). Ved seglcellesygdom er 
-hydroxycarbamid med til at forhindre, at de røde blodlegemer får en unormal form. </p>         </div>"""   
+hydroxycarbamid med til at forhindre, at de røde blodlegemer får en unormal form. </p> </div>"""   
           
 
              
@@ -535,7 +541,7 @@ Siklos. </p>
 <p>Hydroxycarbamid kan nedsætte sædproduktionen hos mandlige patienter, mens de bliver behandlet. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Nogle personer kan opleve svimmelhed, når De tager Siklos. De må ikke køre bil eller arbejde med 
-værktøj eller maskiner, hvis De oplever svimmelhed, mens De tager Siklos. </p>         </div>"""   
+værktøj eller maskiner, hvis De oplever svimmelhed, mens De tager Siklos. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take siklos"
@@ -586,7 +592,7 @@ skæl på hænder og fødder, </li>
 at tage den næste dosis, som Deres læge har ordineret det. </p>
 <p>Hvis De holder op med at tage Siklos </p>
 <p>De må ikke standse Deres behandling, medmindre Deres læge har rådet Dem til det. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om, eller føler Dem usikker på. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om, eller føler Dem usikker på. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -637,7 +643,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store siklos"
@@ -649,7 +655,7 @@ Brug ikke Siklos efter den udløbsdato, der står på æsken og tabletbeholderen
 <p>Opbevares ved temperaturer under 30 °C.  </p>
 <p>Ubrugte, brudte tabletter skal lægges tilbage i flasken og skal bruges inden for 3 måneder. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -820,7 +826,7 @@ Tel: +44-(0)203-695 9 </p>
 <p>Denne indlægsseddel blev senest revideret d. MM/ÅÅÅÅ. </p>
 <p>De kan finde yderligere yderligere om Siklos på Det Europæiske Lægemiddelagenturs hjemmeside 
 http://www.ema.europa.eu. 
-Der er også links til websteder om sjældne sygdomme og om, hvordan de behandles. </p>         </div>"""      
+Der er også links til websteder om sjældne sygdomme og om, hvordan de behandles. </p> </div>"""      
 
 
 

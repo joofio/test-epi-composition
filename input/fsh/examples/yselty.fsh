@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Yselty </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ belly button).  </p>
 release of female sex hormones estradiol and progesterone. These hormones trigger women s periods 
 (menstruation). When blocked, the levels of the hormones estrogen and progesterone circulating in the 
 body are reduced. By decreasing their levels, linzagolix stops or reduces menstrual bleeding and 
-decreases pain and pelvic discomfort and other symptoms associated with uterine fibroids. </p>         </div>"""   
+decreases pain and pelvic discomfort and other symptoms associated with uterine fibroids. </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ Yselty has no influence on the ability to drive and use machines. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yselty"
@@ -217,7 +220,7 @@ usual. Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Yselty 
 If you would like to stop taking Yselty, talk to your doctor first. Your doctor will explain the effects of 
 stopping treatment and discuss other possibilities with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ depression, irritability, emotional disorder
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yselty"
@@ -262,7 +265,7 @@ of this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ Patheon France
 France </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -338,7 +341,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -347,7 +352,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -364,7 +370,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -380,7 +386,7 @@ muskelknuder i livmoderen forårsage kraftige menstruationsblødninger og underl
 frigivelsen af de kvindelige kønshormoner østradiol og progesteron. Disse hormoner udløser 
 menstruation. Når de blokeres, reduceres niveauet af hormonerne østrogen og progesteron, der 
 cirkulerer i kroppen. Ved at sænke deres niveau standser eller reducerer linzagolix menstruationer og 
-mindsker smerter, underlivsubehag og andre symptomer forbundet med muskelknuder i livmoderen. </p>         </div>"""   
+mindsker smerter, underlivsubehag og andre symptomer forbundet med muskelknuder i livmoderen. </p> </div>"""   
           
 
              
@@ -497,7 +503,7 @@ Yselty påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p
 Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale med lægen, før du tager dette 
 lægemiddel. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet og er således stort set 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yselty"
@@ -551,7 +557,7 @@ for en glemt tablet. </p>
 <p>Hvis du holder op med at tage Yselty 
 Hvis du gerne vil holde op med at tage Yselty, skal du først tale med din læge. Lægen vil forklare 
 virkningen af at stoppe behandlingen og drøfte andre muligheder med dig. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -619,7 +625,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yselty"
@@ -632,7 +638,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg på 
 apoteket om, hvordan du skal bortskaffe medicinrester. Disse foranstaltninger vil medvirke til at 
-beskytte miljøet. </p>         </div>"""      
+beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -691,7 +697,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -730,7 +736,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -739,7 +747,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -756,7 +765,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Yselty </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -774,7 +783,7 @@ regular a libertação das hormonas sexuais femininas, estradiol e progesterona.
 desencadeiam o período da mulher (menstruação). Quando bloqueadas, os níveis das hormonas 
 estrogénio e progesterona que circulam no organismo são reduzidos. Ao diminuir os seus níveis, o 
 linzagolix interrompe ou reduz a hemorragia menstrual e diminui a dor e o desconforto pélvico, bem 
-como outros sintomas associados aos miomas uterinos. </p>         </div>"""   
+como outros sintomas associados aos miomas uterinos. </p> </div>"""   
           
 
              
@@ -896,7 +905,7 @@ Os efeitos de Yselty sobre a capacidade de conduzir e utilizar máquinas são nu
 Se o seu médico lhe tiver dito que é intolerante a alguns açúcares, contacte o seu médico antes de 
 tomar este medicamento. </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente «isento de sódio». </p>         </div>"""   
+praticamente «isento de sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar yselty"
@@ -954,7 +963,7 @@ que se esqueceu de tomar. </p>
 Se quiser parar de tomar Yselty, fale primeiro com o seu médico. O seu médico irá explicar-lhe os 
 efeitos da interrupção do tratamento e discutir consigo outras possibilidades. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1023,7 +1032,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de comunicação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar yselty"
@@ -1036,7 +1045,7 @@ embalagem exterior após VAL. O prazo de validade corresponde ao último dia do 
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1079,7 +1088,7 @@ Patheon France
 França </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

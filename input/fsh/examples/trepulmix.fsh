@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Trepulmix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ Trepulmix lowers blood pressure within the pulmonary artery by improving blood f
 the amount of work for the heart. Improved blood flow leads to an increased supply of oxygen to the 
 body and reduced strain on the heart, causing it to function more effectively. Trepulmix improves the 
 symptoms associated with CTEPH and the ability to exercise in patients who are limited in terms of 
-activity. </p>         </div>"""   
+activity. </p> </div>"""   
           
 
              
@@ -183,7 +186,7 @@ sodium for an adult. </p>
 <p>Trepulmix 10 mg/ml solution for infusion 
 This medicine contains 37.4 mg sodium (main component of cooking/table salt) in each vial. This is 
 equivalent to 1.9% of the recommended maximum daily dietary intake of 
-sodium for an adult. </p>         </div>"""   
+sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trepulmix"
@@ -226,7 +229,7 @@ Always use Trepulmix as directed by your doctor or hospital specialist. Do not s
 unless your doctor has advised you to. </p>
 <p>Abrupt withdrawal or sudden reductions in the dose of Trepulmix may cause the pulmonary arterial 
 hypertension to return with the potential for rapid and severe deterioration in your condition. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ the gums, blood in the faeces </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V.* By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V.* By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trepulmix"
@@ -292,7 +295,7 @@ used within 72 hours. </p>
 <p>Do not use this medicine if you notice any damage to the vial, discolouration or other signs of 
 deterioration. </p>
 <p>Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ AOP Orphan Pharmaceuticals GmbH (Austrija)
 Tel: + 43 1 5037United Kingdom (Northern Ireland)<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -466,7 +472,7 @@ Usage: #inline
 3. Sådan skal du bruge Trepulmix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -492,7 +498,7 @@ unormal hjerterytme, tør hoste, brystsmerter og hævede ankler eller ben. </p>
 Trepulmix sænker blodtrykket i lungepulsåren ved at forbedre blodgennemstrømningen, så hjertet ikke 
 skal arbejde så hårdt. Forbedret blodgennemstrømning medfører forbedret forsyning af ilt til kroppen 
 og aflastning af hjertet, som derved kan fungere mere effektivt. Trepulmix bedrer symptomerne ved 
-CTEPH og den fysiske kapacitet hos patienter med aktivitetsbegrænsninger. </p>         </div>"""   
+CTEPH og den fysiske kapacitet hos patienter med aktivitetsbegrænsninger. </p> </div>"""   
           
 
              
@@ -589,7 +595,7 @@ Dette lægemiddel indeholder 39,1 mg natrium (hovedbestanddelen i køkkensalt/bo
 hætteglas, svarende til 2,0 % af det anbefalede maksimale daglige indtag af natrium for en voksen. </p>
 <p>Trepulmix 10 mg/ml infusionsvæske, opløsning 
 Dette lægemiddel indeholder 37,4 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. 
-hætteglas, svarende til 1,9 % af det anbefalede maksimale daglige indtag af natrium for en voksen. </p>         </div>"""   
+hætteglas, svarende til 1,9 % af det anbefalede maksimale daglige indtag af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trepulmix"
@@ -632,7 +638,7 @@ Trepulmix, medmindre lægen siger, du skal stoppe. </p>
 <p>For hurtigt stop af behandlingen eller pludselig reduktion i dosen af Trepulmix kan medføre, at 
 symptomerne ved pulmonal arteriel hypertension vender tilbage, og så er der risiko for hurtig og 
 alvorlig forværring af din tilstand. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -753,7 +759,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V.* Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trepulmix"
@@ -771,7 +777,7 @@ anvendes inden for 72 timer. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker tegn på beskadigelse af hætteglasset, misfarvning eller anden 
 forringelse. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -912,7 +918,7 @@ AOP Orphan Pharmaceuticals GmbH (Austria)
 Tel: + 43 1 5037 </p>
 <p>Denne indlægsseddel blev senest ændret . </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -951,7 +957,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -960,7 +968,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -975,7 +984,7 @@ Usage: #inline
 3. Como utilizar Trepulmix 
 4. Efeitos secundários possíveis 
 5. Como conservar Trepulmix 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1003,7 +1012,7 @@ Trepulmix reduz a tensão arterial dentro da artéria pulmonar, melhorando o flu
 reduzindo a quantidade de trabalho que o coração tem de fazer. O fluxo sanguíneo melhorado leva a 
 um maior fornecimento de oxigénio ao corpo e a uma tensão reduzida no coração, fazendo com que 
 este funcione de forma mais eficaz. Trepulmix melhora os sintomas associados à HPTEC e a 
-capacidade de exercício em doentes limitados em termos de atividade. </p>         </div>"""   
+capacidade de exercício em doentes limitados em termos de atividade. </p> </div>"""   
           
 
              
@@ -1121,7 +1130,7 @@ adulto. </p>
 <p>Trepulmix 10 mg/ml solução para perfusão 
 Este medicamento contém 37,4 mg de sódio (componente principal do sal de mesa/cozinha) por frasco 
 para injetáveis. Isto equivale a 1,9 % da dose máxima diária recomendada de sódio na dieta para um 
-adulto. </p>         </div>"""   
+adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trepulmix"
@@ -1165,7 +1174,7 @@ Utilize sempre Trepulmix conforme indicado pelo seu médico ou especialista hosp
 interrompa a utilização de Trepulmix, a menos que o seu médico assim o tenha aconselhado. </p>
 <p>A retirada abrupta ou reduções repentinas na dose de Trepulmix podem fazer com que a hipertensão 
 arterial pulmonar retorne com possibilidade de deterioração rápida e grave da sua condição. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1287,7 +1296,7 @@ sangramento das gengivas, sangue nas fezes. </li>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V.* Ao comunicar efeitos indesejáveis, 
-estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trepulmix"
@@ -1306,7 +1315,7 @@ Trepulmix não diluído no prazo de 72 horas. </p>
 sinais de deterioração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1443,7 +1452,7 @@ United Kingdom (Northern Ireland)<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037 </p>
 <p>Este folheto foi revisto pela última vez em . </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

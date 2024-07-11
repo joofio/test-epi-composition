@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store  Sunitinib Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ of the body. </li>
 pancreas) that have progressed or cannot be removed with surgery. </li>
 </ul>
 <p>If you have any questions about how Sunitinib Accord works or why this medicine has been 
-prescribed for you, ask your doctor. </p>         </div>"""   
+prescribed for you, ask your doctor. </p> </div>"""   
           
 
              
@@ -234,7 +237,7 @@ Accord.   </p>
 machines. </p>
 <p>Sunitinib Accord  contains sodium </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium (croscarmellose sodium) per capsule, that is 
-to say essentially  sodium-free . </p>         </div>"""   
+to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sunitinib"
@@ -255,7 +258,7 @@ stop treatment with Sunitinib Accord. </p>
 <p>If you have accidentally taken too many capsules, talk to your doctor straight away. You may require 
 medical attention. </p>
 <p>If you forget to take  Sunitinib Accord </p>
-<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""         
+<p>Do not take a double dose to make up for a forgotten dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -376,7 +379,7 @@ confusion, seizures, and vision loss (reversible posterior leukoencephalopathy s
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sunitinib"
@@ -391,7 +394,7 @@ after  EXP . The expiry date refers to the last day of that month. </li>
 <li>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -443,7 +446,7 @@ HHF003 Hal Far Industrial Estate,
 Birzebbugia, BBG3Malta </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -482,7 +485,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -491,7 +496,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -506,7 +512,7 @@ Usage: #inline
 3. Sådan skal du tage Sunitinib Accord 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -526,7 +532,7 @@ virker, eller hvor imatinib ikke kan bruges. </li>
 ikke kan opereres </li>
 </ul>
 <p>Tal med din læge, hvis du har spørgsmål om, hvordan Sunitinib Accord virker, eller hvorfor dette 
-lægemiddel er ordineret til dig. </p>         </div>"""   
+lægemiddel er ordineret til dig. </p> </div>"""   
           
 
              
@@ -694,7 +700,7 @@ Sunitinib Accord kan gøre dig svimmel eller meget træt. Det skal du tage hensy
 færdes i trafikken eller arbejde med maskiner. </p>
 <p>Sunitinib Accord indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium (croscarmellosenatrium) pr. kapsel, 
-dvs. det er i det væsentlige natriumfrit. </p>         </div>"""   
+dvs. det er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sunitinib"
@@ -720,7 +726,7 @@ Sunitinib Accord. Sunitinib Accord kan tages med eller uden mad. </p>
 Hvis du har taget for mange kapsler, skal du omgående kontakte lægen eller skadestuen. Du kan 
 måske få brug for lægehjælp. </p>
 <p>Hvis du har glemt at tage Sunitinib Accord 
-Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>         </div>"""         
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -985,7 +991,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sunitinib"
@@ -1009,7 +1015,7 @@ forfalskning. </p>
 </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1075,7 +1081,7 @@ Tel: +30 210 7488<br />
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -1114,7 +1120,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1123,7 +1131,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1140,7 +1149,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Sunitinib Accord </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1159,7 +1168,7 @@ para outras partes do corpo.
 - Tumores neuroendócrinos pancreáticos (pNET) (tumores das células produtoras de hormonas 
 no pâncreas) que progrediram ou que não podem ser removidos por cirurgia. </p>
 <p>Contacte o seu médico se tiver alguma questão relacionada com o modo de ação de Sunitinib Accord ou 
-com a razão deste medicamento lhe ter sido prescrito. </p>         </div>"""   
+com a razão deste medicamento lhe ter sido prescrito. </p> </div>"""   
           
 
              
@@ -1311,7 +1320,7 @@ com Sunitinib Accord. </p>
 invulgarmente cansado. </p>
 <p>Sunitinib Accord contém sódio </p>
 <p>Este medicamento contém menos de 1 mmol (23 mg) de sódio (croscarmelose sódica) por cápsula, ou 
-seja, é praticamente “isento de sódio". </p>         </div>"""   
+seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sunitinib"
@@ -1335,7 +1344,7 @@ tratamento com Sunitinib Accord. </p>
 <p>Informe imediatamente o seu médico se tomou acidentalmente demasiadas cápsulas. Poderá necessitar 
 de cuidados médicos. </p>
 <p>Caso se tenha esquecido de tomar Sunitinib Accord </p>
-<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>         </div>"""         
+<p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1346,7 +1355,7 @@ de cuidados médicos. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como todos os medicamentos, este medicamento pode causar efeitos indesejáveis, embora estes não se 
 manifestem em todas as pessoas. 
 Deve contactar o seu médico imediatamente se tiver algum dos seguintes efeitos indesejáveis graves </p>
-<p>(ver também a secção </p>         </div>"""      
+<p>(ver também a secção </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sunitinib"
@@ -1474,7 +1483,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1492,7 +1501,7 @@ violação. </li>
 </ul>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
 
 
 

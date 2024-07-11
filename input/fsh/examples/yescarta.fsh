@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Yescarta  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ lymphoma (DLBCL), primary mediastinal large B-cell lymphoma (PMBCL) and follicul
 called B lymphocytes and other organs in your body. Too many of these abnormal white blood cells 
 accumulate in your tissue and this is the cause of the symptoms you may have.  </p>
 <p>The medicine is made specially for you as a single administration of your own modified white blood 
-cells. </p>         </div>"""   
+cells. </p> </div>"""   
           
 
              
@@ -189,7 +192,7 @@ you that you have completely recovered. </p>
 This medicine contains 300 mg sodium (main component of cooking/table salt) in each infusion bag. 
 This is the equivalent to 15% of the recommended maximum daily dietary intake of sodium for an 
 adult.  </p>
-<p>This medicine contains DMSO and residual gentamicin which may cause severe allergic reactions. </p>         </div>"""   
+<p>This medicine contains DMSO and residual gentamicin which may cause severe allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yescarta"
@@ -233,7 +236,7 @@ for at least 10 days and will consider whether you need to stay at the hospital 
 the first 10 days after infusion. This is so your doctor can check if your treatment is working and 
 help you if you have any side effects. </p>
 <p>If you miss an appointment 
-Call your doctor or the qualified treatment centre as soon as possible to make another appointment. </p>         </div>"""         
+Call your doctor or the qualified treatment centre as soon as possible to make another appointment. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ symptoms with other medicines on your own.  </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yescarta"
@@ -349,7 +352,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intented for doctors only. </p>
 <p>Do not use this medicine after the expiry date which is stated on the container label and infusion bag. </p>
 <p>Store frozen in vapour phase of liquid nitrogen   -150  C until thawed for use. 
-Do not refreeze. </p>         </div>"""      
+Do not refreeze. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -480,7 +483,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -489,7 +494,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -506,7 +512,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -524,7 +530,7 @@ hvide blodlegemer akkumuleres i dit væv og er årsagen til de symptomer, du må
 <p>Sådan virker Yescarta </p>
 <p>De hvide blodlegemer tages fra dit blod og modificeres genetisk, så de kan rettes mod kræftcellerne i 
 din krop. Ved infusion af Yescarta i dit blod vil de modificerede hvide blodlegemer dræbe 
-kræftcellerne. </p>         </div>"""   
+kræftcellerne. </p> </div>"""   
           
 
              
@@ -687,7 +693,7 @@ fortæller dig, at du er kommet dig helt. </p>
 Dette lægemiddel indeholder 300 mg natrium (hovedkomponenten i køkkensalt) i hver infusionspose. 
 Det svarer til 15 % af det maksimale anbefalede daglige indtag af natrium i kosten for en voksen.  </p>
 <p>Dette lægemiddel indeholder DMSO og rester af gentamicin, hvilket kan forårsage alvorlige allergiske 
-reaktioner. </p>         </div>"""   
+reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yescarta"
@@ -752,7 +758,7 @@ Det er for at din læge kan kontrollere, om din behandling virker og hjælpe dig
 bivirkninger. </li>
 </ul>
 <p>Hvis du glemmer en aftale 
-Ring hurtigst muligt til lægen eller behandlingsstedet for at aftale en ny tid.  </p>         </div>"""         
+Ring hurtigst muligt til lægen eller behandlingsstedet for at aftale en ny tid.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -862,7 +868,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yescarta"
@@ -873,7 +879,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderens etiket og infusionsposen efter 
 "EXP". Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
 <p>Skal opbevares nedfrosset i dampfasen af flydende kvælstof ved ≤ -150 °C indtil det optøs til brug. 
-Må ikke nedfryses igen. </p>         </div>"""      
+Må ikke nedfryses igen. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1082,7 +1088,7 @@ desinfektionsmiddel. </p>
 <p>Foranstaltninger, der skal tages til bortskaffelse af lægemidlet 
 Ubrugt lægemiddel og alle materialer, der har været i kontakt med Yescarta (fast og flydende affald), 
 skal bortskaffes som potentielt smittefarligt affald i henhold til lokale retningslinjer for håndtering af 
-affald fra humant materiale. </p>         </div>"""      
+affald fra humant materiale. </p> </div>"""      
 
 
 

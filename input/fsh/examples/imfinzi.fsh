@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store IMFINZI</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ If you have any questions about how IMFINZI works or why this medicine has been 
 you, ask your doctor or pharmacist.
 When IMFINZI is given in combination with other anti-cancer medicines, it is important that you also 
 read the package leaflet for these other medicines. If you have any questions about these medicines, 
-ask your doctor.</p>         </div>"""   
+ask your doctor.</p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ Breast-feeding</p>
 Driving and using machines
 IMFINZI is not likely to affect you being able to drive and use machines.
 However, if you have side effects that affect your ability to concentrate and react, you should be 
-careful when driving or operating machines.</p>         </div>"""   
+careful when driving or operating machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imfinzi"
@@ -204,7 +207,7 @@ use of these other medicines. If you have questions about these medicines, ask y
 If you miss an appointment to get IMFINZI</p>
 <p>Call your doctor straight away to reschedule your appointment.</p>
 <p>It is very important that you do not miss a dose of this medicine.
-If you have any further questions about your treatment, ask your doctor.</p>         </div>"""         
+If you have any further questions about your treatment, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ Talk to your doctor straight away if you get any of the side effects listed abov
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imfinzi"
@@ -458,7 +461,7 @@ Do not freeze.
 Store in the original package in order to protect from light.
 Do not use if this medicine is cloudy, discoloured or contains visible particles.
 Do not store any unused portion of the infusion solution for re-use. Any unused medicine or waste 
-material should be disposed of in accordance with local requirements.</p>         </div>"""      
+material should be disposed of in accordance with local requirements.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -551,7 +554,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -590,7 +593,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -599,7 +604,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -614,7 +620,7 @@ Usage: #inline
 3. Sådan får du IMFINZI 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -676,7 +682,7 @@ HCC: </p>
 så spørg din læge eller apotekspersonalet. </p>
 <p>Når IMFINZI gives til dig i kombination med andre lægemidler mod kræft, er det vigtigt, at du også 
 læser indlægssedlen til disse andre lægemidler. Hvis du har spørgsmål om disse lægemidler, skal du 
-spørge lægen. </p>         </div>"""   
+spørge lægen. </p> </div>"""   
           
 
              
@@ -828,7 +834,7 @@ behandles med IMFINZI og i mindst 3 måneder efter din sidste dosis. </p>
 <p>Trafik- og arbejdssikkerhed 
 IMFINZI påvirker sandsynligvis ikke din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Men hvis du får bivirkninger, som påvirker din evne til at koncentrere dig og reagere, bør du være 
-forsigtig, når du fører motorkøretøj eller betjener maskiner. </p>         </div>"""   
+forsigtig, når du fører motorkøretøj eller betjener maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imfinzi"
@@ -877,7 +883,7 @@ andre lægemidler. Hvis du har spørgsmål om lægemidlerne, skal du spørge læ
 <p>Det er meget vigtigt, at du ikke går glip af en dosis af dette lægemiddel. 
 Hvis du har yderligere spørgsmål om din behandling, så spørg din læge. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1358,7 +1364,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imfinzi"
@@ -1375,7 +1381,7 @@ Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys. 
 Brug ikke lægemidlet, hvis opløsningen er uklar, misfarvet eller indeholder synlige partikler. </p>
 <p>Opbevar ikke ubrugt infusionsopløsning til senere brug. Ikke anvendt lægemiddel samt affald heraf 
-skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1544,7 +1550,7 @@ sterilt 0,2 eller 0,22 mikron in-line filter med lav proteinbinding. </p>
 <p>IMFINZI er enkeltdosis. Kassér eventuelt ubrugt lægemiddel, som er tilbage i hætteglasset. </p>
 </li>
 </ul>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -1583,7 +1589,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1592,7 +1600,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1609,7 +1618,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar IMFINZI </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1671,7 +1680,7 @@ quando o seu CHC: </p>
 para si, fale com o seu médico ou farmacêutico. </p>
 <p>Quando IMFINZI é administrado em associação com outros medicamentos anticancerígenos, é 
 importante que também leia o folheto informativo destes medicamentos. Se tiver dúvidas acerca destes 
-medicamentos, fale com o seu médico. </p>         </div>"""   
+medicamentos, fale com o seu médico. </p> </div>"""   
           
 
              
@@ -1826,7 +1835,7 @@ dose. </p>
 <p>Condução de veículos e utilização de máquinas 
 É pouco provável que IMFINZI afete a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>No entanto, se tiver efeitos indesejáveis que afetam a sua capacidade de concentração e reação, deve 
-ser cuidadoso ao conduzir ou utilizar máquinas. </p>         </div>"""   
+ser cuidadoso ao conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar imfinzi"
@@ -1878,7 +1887,7 @@ seu médico. </p>
 <p>É muito importante que não falhe uma dose deste medicamento. 
 Caso ainda tenha dúvidas sobre o seu tratamento, fale com o seu médico. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -2564,7 +2573,7 @@ abdómen. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar imfinzi"
@@ -2581,7 +2590,7 @@ Não congelar.
 Conservar na embalagem de origem para proteger da luz. 
 Não utilize este medicamento se estiver turvo, descolorado ou conter partículas visíveis. </p>
 <p>Não guarde qualquer porção não utilizada da solução de perfusão para reutilização. Qualquer 
-medicamento não utilizado ou resíduos devem ser eliminados de acordo com os requisitos locais. </p>         </div>"""      
+medicamento não utilizado ou resíduos devem ser eliminados de acordo com os requisitos locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2704,7 +2713,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

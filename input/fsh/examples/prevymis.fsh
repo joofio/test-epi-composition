@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store PREVYMIS</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ PREVYMIS is a medicine for adults who have recently had a stem cell (bone marrow
 kidney transplant. The medicine helps stop you from getting ill from CMV ( cytomegalovirus ).
 CMV is a virus. For most people, CMV does not hurt them. However, if your immune system is weak
 after you get a stem cell transplant or a kidney transplant, you may be at high risk of becoming ill from
-CMV.</p>         </div>"""   
+CMV.</p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ PREVYMIS contains lactose monohydrate. If you have been told by your doctor that
 intolerance to some sugars, contact your doctor before taking this medicinal product.
 PREVYMIS contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that isto say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prevymis"
@@ -188,7 +191,7 @@ Do not stop taking PREVYMIS
 Do not stop taking PREVYMIS without talking to your doctor first. Do not run out of PREVYMIS.
 This will give the medicine the best chance to keep you from becoming ill from CMV after you get a
 stem cell transplant or a kidney transplant.</p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -218,7 +221,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prevymis"
@@ -231,7 +234,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special temperature storage conditions. Store in the original
 package in order to protect from moisture.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -373,7 +376,7 @@ information for you.
 * Keep this leaflet. You may need to read it again.
 * If you have any further questions, ask your doctor, pharmacist, or nurse.
 * If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -412,7 +415,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -421,7 +426,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -436,7 +442,7 @@ Usage: #inline
 3. Sådan skal du tage Prevymis
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ transplantation eller en nyretransplantation. Lægemidlet hjælper med at forhin
 CMV (‘cytomegalovirus’).
 CMV er en virus. Hos de fleste personer skader CMV-virus dem ikke. Hvis du har et svækket
 immunsystem, efter at du har gennemgået en stamcelletransplantation eller en nyretransplantation, kan
-du imidlertid have en høj risiko for CMV-sygdom.</p>         </div>"""   
+du imidlertid have en høj risiko for CMV-sygdom.</p> </div>"""   
           
 
              
@@ -590,7 +596,7 @@ Prevymis indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prevymis"
@@ -634,7 +640,7 @@ efter at du har gennemgået en stamcelletransplantation eller en nyretransplanta
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.
 89</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -695,7 +701,7 @@ kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det natio
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
 information om sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prevymis"
@@ -709,7 +715,7 @@ Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemi
 originale yderkarton for at beskytte mod fugt.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
-90</p>         </div>"""      
+90</p> </div>"""      
         
         
 * section[=].section[+]
@@ -895,7 +901,7 @@ oplysninger.</p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -934,7 +940,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -943,7 +951,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -958,7 +967,7 @@ Usage: #inline
 3. Como tomar PREVYMIS<br />
 4. Efeitos indesejáveis possíveis 
 5. Como conservar PREVYMIS
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -973,7 +982,7 @@ células estaminais (medula óssea) ou a um transplante renal. Este medicamento 
 doente por CMV (“citomegalovírus").
 CMV é um vírus. O CMV não causa danos na maioria das pessoas. Contudo, tem maior risco de ficar
 doente por CMV, se o seu sistema imunitário estiver debilitado após um transplante de células
-estaminais ou um transplante renal. </p>         </div>"""   
+estaminais ou um transplante renal. </p> </div>"""   
           
 
              
@@ -1118,7 +1127,7 @@ PREVYMIS contém sódio
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por comprimido, ou seja, é
 praticamente “isento de sódio".</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar prevymis"
@@ -1164,7 +1173,7 @@ transplante de células estaminais ou um transplante renal.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
 ou enfermeiro.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1227,7 +1236,7 @@ indesejáveis diretamente através do sistema nacional de notificação menciona
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
 medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar prevymis"
@@ -1241,7 +1250,7 @@ O medicamento não necessita de qualquer temperatura especial de conservação. 
 embalagem de origem para proteger da humidade.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1409,7 +1418,7 @@ Limited
 Tel: +353 (0)1 2998700
 medinfoNI@msd.com
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

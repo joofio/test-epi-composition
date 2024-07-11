@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How NexoBrid is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ bromelain , which is produced from an extract from the stem of the pineapple pla
 NexoBrid is used in adults, adolescents and children of all ages to remove burnt tissue from deep or 
 partially deep burn wounds of the skin.<br />
 Using NexoBrid may reduce the need for, or the extent of, surgical removal of burnt tissue and/or skin 
-transplantation. </p>         </div>"""   
+transplantation. </p> </div>"""   
           
 
              
@@ -190,7 +193,7 @@ doctor before NexoBrid is used. </p>
 The use of NexoBrid during pregnancy is not recommended. 
 As a precautionary measure, you should not breast-feed for at least 4 days after NexoBrid application. 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, talk to 
-your doctor or pharmacist before this medicine is used. </p>         </div>"""   
+your doctor or pharmacist before this medicine is used. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nexobrid"
@@ -223,7 +226,7 @@ antibacterial solution will be applied for an additional 2 hours. </p>
 <p>The vial containing powder, gel bottle, and the prepared mixed gel are for single use only. </p>
 <p>If too much NexoBrid is used<br />
 If too much NexoBrid gel is applied on a burn wound, excess gel may be wiped off. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ burn healing process. </p>
 If you or your child get any side effects, talk to your doctor or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nexobrid"
@@ -273,7 +276,7 @@ protect from light.
 Do not freeze.  </p>
 <p>NexoBrid should be used within 15 minutes after mixing the powder with the gel. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -305,7 +308,7 @@ Am Mittelhafen 56 48155 M nster<br />
 Germany </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -344,7 +347,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -353,7 +358,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -370,7 +376,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -385,7 +391,7 @@ oprenset i bromelain", som er fremstillet fra et ekstrakt fra ananasplantens sta
 NexoBrid anvendes til voksne, unge og børn i alle aldre til at fjerne brændt væv fra dybe eller delvist 
 dybe brandsår på huden. 
 Brug af NexoBrid kan nedsætte behovet for, eller omfanget af, kirurgisk fjernelse af brændt væv 
-og/eller hudtransplantation. </p>         </div>"""   
+og/eller hudtransplantation. </p> </div>"""   
           
 
              
@@ -490,7 +496,7 @@ spørge lægen, før NexoBrid bruges. </p>
 NexoBrid bør ikke anvendes under graviditeten. 
 Som en forholdsregel må du ikke amme i mindst 4 dage efter applikation af NexoBrid. </p>
 <p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
-du spørge din læge eller apoteket til råds, før du bruger dette lægemiddel. </p>         </div>"""   
+du spørge din læge eller apoteket til råds, før du bruger dette lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nexobrid"
@@ -545,7 +551,7 @@ engangsbrug. </p>
 </ul>
 <p>Hvis der bruges for meget NexoBrid 
 Hvis der appliceres for meget NexoBrid på et brandsår, kan den overskydende gel tørres af. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -580,7 +586,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge eller sy
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nexobrid"
@@ -597,7 +603,7 @@ for at beskytte mod lys.
 Må ikke nedfryses.  </p>
 <p>NexoBrid bør anvendes i løbet af 15 minutter efter pulveret blandes med gelen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -817,7 +823,7 @@ indeholder vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, hvis der er mere, du vil vide. 
 - Tal med lægen, hvis en bivirkning bliver værre, eller du eller dit barn får bivirkninger, som ikke 
-er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store SPRYCEL </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ leukaemia (ALL) in adults, adolescents and children at least 1 year of age, and 
 adults who are not benefiting from prior therapies. In people with ALL, white cells called lymphocytes 
 multiply too quickly and live too long. SPRYCEL inhibits the growth of these leukaemic cells. </p>
 <p>If you have any questions about how SPRYCEL works or why this medicine has been prescribed for 
-you, ask your doctor. </p>         </div>"""   
+you, ask your doctor. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ Take special care when driving or using machines in case you experience side eff
 and blurred vision. </p>
 <p>SPRYCEL contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, talk to your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sprycel"
@@ -206,7 +209,7 @@ medical attention. </p>
 <p>If you forget to take SPRYCEL 
 Do not take a double dose to make up for a forgotten tablet. Take the next scheduled dose at the 
 regular time. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -318,7 +321,7 @@ red blood cell count, decreased platelets, and formation of blood clots </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Annexe V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sprycel"
@@ -330,7 +333,7 @@ this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -380,7 +383,7 @@ Loc. Fontana del Ceraso snc
 Strada Provinciale 12 Casilina, 03012 Anagni (FR) 
 Italy </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -419,7 +422,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -428,7 +433,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -445,7 +451,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -464,7 +470,7 @@ voksne, som ikke har haft gavn af tidligere behandlinger. Hos mennesker med ALL 
 blodlegemer, der kaldes lymfocytter, sig for hurtigt og lever for længe. SPRYCEL hæmmer væksten 
 af disse leukæmiske celler. </p>
 <p>Spørg lægen, hvis du har spørgsmål om, hvordan SPRYCEL virker, eller hvorfor du har fået ordineret 
-denne medicin. </p>         </div>"""   
+denne medicin. </p> </div>"""   
           
 
              
@@ -558,7 +564,7 @@ Vær særligt forsigtig når du kører bil eller bruger maskiner, da du kan ople
 eksempel svimmelhed og sløret syn. </p>
 <p>SPRYCEL indeholder lactose 
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sprycel"
@@ -615,7 +621,7 @@ for lægehjælp. </p>
 <p>Hvis du har glemt at tage SPRYCEL 
 Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag næste planlagte dosis, på det 
 planlagte tidspunkt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -807,7 +813,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sprycel"
@@ -819,7 +825,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -900,7 +906,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -939,7 +945,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -948,7 +956,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -965,7 +974,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar SPRYCEL </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -985,7 +994,7 @@ LMC em crise blástica linfoide em adultos que não estão a beneficiar de terap
 pessoas com LLA, os glóbulos brancos chamados linfócitos multiplicam-se muito rapidamente e têm 
 uma vida muito longa. SPRYCEL inibe o aumento destas células leucémicas. </p>
 <p>Se tiver quaisquer questões sobre o modo de ação de SPRYCEL ou porque este medicamento lhe foi 
-prescrito, consulte o seu médico. </p>         </div>"""   
+prescrito, consulte o seu médico. </p> </div>"""   
           
 
              
@@ -1084,7 +1093,7 @@ Caso tenha efeitos indesejáveis como tonturas e visão turva, deverá ter preca
 conduzir ou utilizar máquinas. </p>
 <p>SPRYCEL contém lactose 
 Se lhe foi dito pelo seu médico que tem uma intolerância a alguns açúcares, avise o seu médico antes 
-de tomar este medicamento. </p>         </div>"""   
+de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sprycel"
@@ -1146,7 +1155,7 @@ precisar de cuidados médicos. </p>
 Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. Tome a 
 próxima dose à hora prevista. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1345,7 +1354,7 @@ coágulos sanguíneos </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico.  Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação listado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sprycel"
@@ -1358,7 +1367,7 @@ embalagem exterior, após EXP. O prazo de validade corresponde ao último dia do
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1418,7 +1427,7 @@ External Manufacturing
 Plaza Blanchardstown Corporate Park 2 
 Dublin 15, D15 TIrlanda </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

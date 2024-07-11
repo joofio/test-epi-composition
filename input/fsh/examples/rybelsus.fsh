@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Rybelsus  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ your body makes does not lower your blood sugar the way it should. In some cases
 produce too much blood sugar. If your blood sugar increases and remains high over a long period of 
 time, this can lead to harmful effects such as heart problems, kidney disease, eye disorders and poor 
 circulation in your limbs. That is why it is important to keep your blood sugar levels within a normal 
-range. </p>         </div>"""   
+range. </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ information on increased risk of low blood sugar and section 4 for the warning s
 sugar. Talk to your doctor for further information. </p>
 <p>Rybelsus contains sodium 
 This medicine contains 23 mg sodium (main component of cooking/table salt) in each tablet. This is 
-equivalent to 1% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 1% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rybelsus"
@@ -199,7 +202,7 @@ If you forget to take a dose, skip the missed dose and just take your normal dos
 <p>If you stop taking Rybelsus 
 Do not stop using this medicine without talking to your doctor. If you stop using it, your blood sugar 
 levels may increase.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -259,7 +262,7 @@ sick (vomiting)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rybelsus"
@@ -272,7 +275,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light and moisture. This medicine does not 
 require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -301,7 +304,7 @@ DK-2880 Bagsv rd
 Denmark </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -340,7 +343,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -349,7 +354,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -366,7 +372,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -395,7 +401,7 @@ Type 2-diabetes er en tilstand, hvor din krop ikke producerer nok insulin, og hv
 krop producerer, ikke sænker dit blodsukker som den burde. I nogle tilfælde kan din krop producere 
 for meget blodsukker. Hvis dit blodsukker stiger og forbliver højt over længere tid, kan dette medføre 
 skadelige virkninger, såsom hjerteproblemer, nyresygdom, øjensygdomme og dårligt kredsløb i dine 
-arme og ben. Derfor er det vigtigt at holde dit blodsukker på et normalt niveau. </p>         </div>"""   
+arme og ben. Derfor er det vigtigt at holde dit blodsukker på et normalt niveau. </p> </div>"""   
           
 
              
@@ -491,7 +497,7 @@ punkt 4 for at få oplysninger om advarselssignalerne for lavt blodsukker. Tal m
 yderligere information. </p>
 <p>Rybelsus indeholder natrium 
 Dette lægemiddel indeholder 23 mg natrium (hovedkomponenten i køkken-/bordsalt) i hver tablet. Det 
-svarer til 1% af det maksimalt anbefalede daglige kostindtag af natrium for en voksen. </p>         </div>"""   
+svarer til 1% af det maksimalt anbefalede daglige kostindtag af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rybelsus"
@@ -540,7 +546,7 @@ dosis næste dag. </p>
 <p>Hvis du holder op med at tage Rybelsus 
 Du må ikke holde op med at tage dette lægemiddel uden først at have talt med lægen om det. Hvis du 
 holder op med at tage det, kan dit blodsukkerniveau stige.  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -663,7 +669,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rybelsus"
@@ -676,7 +682,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale æske for at beskytte mod lys og fugt. Der er ingen særlige krav vedrørende 
 opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -739,7 +745,7 @@ konklusioner og begrundelser for anbefaling. </p>
 at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder semaglutid, 
 forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
 produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -778,7 +784,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -787,7 +795,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -804,7 +813,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Rybelsus  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -836,7 +845,7 @@ seu corpo pode produzir demasiado açúcar. Se o seu nível de açúcar no sangu
 acima do normal por longos períodos de tempo, esta situação poderá levar a efeitos prejudiciais, tais 
 como problemas do coração, doença nos rins, problemas nos olhos e má circulação nos seus membros. 
 Estes são os motivos devido aos quais é importante manter os seus níveis de açúcar no sangue dentro 
-do intervalo de valores normais. </p>         </div>"""   
+do intervalo de valores normais. </p> </div>"""   
           
 
              
@@ -942,7 +951,7 @@ o seu médico para obter mais informações. </p>
 <p>Rybelsus contém sódio 
 Este medicamento contém 23 mg de sódio (componente principal do sal de cozinha) em cada 
 comprimido. Isto é equivalente a 1% da ingestão alimentar diária máxima de sódio recomendada para 
-um adulto. </p>         </div>"""   
+um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rybelsus"
@@ -993,7 +1002,7 @@ dose normal no dia seguinte. </p>
 Não pare de tomar este medicamento sem falar com o seu médico. Se parar de tomar este 
 medicamento, os seus níveis de açúcar no sangue podem aumentar.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1123,7 +1132,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rybelsus"
@@ -1137,7 +1146,7 @@ após ‘VAL’. O prazo de validade corresponde ao último dia do mês indicado
 necessita de qualquer temperatura especial de conservação.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1172,7 +1181,7 @@ DK-2880 Bagsværd
 Dinamarca </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Posaconazole AHCL </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ fungal infection, such as:</p>
 leukaemia  (AML) or  myelodysplastic syndromes  (MDS) </li>
 <li>patients having  high- dose immunosuppressive therapy  after  hematopoietic stem cell 
 transplant  (HSCT). </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -229,7 +232,7 @@ Posaconazole AHCL contains approximately 1.75 g of glucose per 5 mL of suspensio
 been told by your doctor that you have an intolerance to some sugars, contact your doctor before 
 taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 5 mL of suspension, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take posaconazole"
@@ -275,7 +278,7 @@ immediately. </p>
 If you have missed a dose, take it as soon as you remember and then carry on as before. However, if it 
 is almost time for your next dose, take your dose when it is due. Do not take a double dose to make up 
 for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -407,7 +410,7 @@ blood test) </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.  </p>         </div>"""      
+safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store posaconazole"
@@ -425,7 +428,7 @@ pharmacist. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -464,7 +467,7 @@ ul. Lutomierska 50,<br />
 Poland </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -503,7 +506,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -512,7 +517,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -527,7 +533,7 @@ Usage: #inline
 3. Sådan skal du tage Posaconazole AHCL<br />
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -565,7 +571,7 @@ risiko for at få en svampeinfektion, f.eks.:</p>
 myleoid leukæmi" (AML) eller "myelodysplastisk syndrom" (MDS) </li>
 <li>patienter, som får "højdosis-immunundertrykkende behandling" efter "stamcelletransplantation 
 af hæmopoietiske (bloddannende) stamceller" (HSCT). </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -709,7 +715,7 @@ Dette lægemiddel indeholder op til 5,2 mg propylenglycol (E1520) pr. 5 ml suspe
 <p>Posaconazole AHCL indeholder natriumbenzoat 
 Dette lægemiddel indeholder 11,4 mg natriumbenzoat (E211) pr. 5 ml suspension. </p>
 <p>Posaconazole AHCL indeholder benzoiesyre 
-Dette lægemiddel indeholder op til 0,114 mg benzoesyre (E210) pr. 5 ml suspension. </p>         </div>"""   
+Dette lægemiddel indeholder op til 0,114 mg benzoesyre (E210) pr. 5 ml suspension. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take posaconazole"
@@ -761,7 +767,7 @@ står i denne information, eller mere end lægen har foreskrevet (og du føler d
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 </li>
 </ul>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1073,7 +1079,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere </p>
-<p>information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+<p>information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store posaconazole"
@@ -1087,7 +1093,7 @@ dag i den nævnte måned. </p>
 <p>Hvis du 30 dage efter åbning af flasken har en rest af suspensionen tilbage, må du ikke anvende denne 
 medicinrest. Aflever flasken med medicinresten på apoteket. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1129,7 +1135,7 @@ Polen </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1168,7 +1174,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1177,7 +1185,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1192,7 +1201,7 @@ Usage: #inline
 3. Como tomar Posaconazole AHCL 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Posaconazole AHCL 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1226,7 +1235,7 @@ elevado de contrair uma infeção fúngica, tais como:
 - doentes cujo sistema imunitário possa estar enfraquecido devido a quimioterapia para “leucemia 
 mieloide aguda" (LMA) ou “síndromes mielodisplásticos" (SMD) 
 - doentes a tomar “doses elevadas de terapêutica imunossupressora" após “transplante de células 
-estaminais hematopoiéticas" (TCEH). </p>         </div>"""   
+estaminais hematopoiéticas" (TCEH). </p> </div>"""   
           
 
              
@@ -1361,7 +1370,7 @@ Este medicamento contém até 5,2 mg de propilenoglicol (E1520) por 5 ml de susp
 <p>Posaconazole AHCL contém benzoato de sódio 
 Este medicamento contém 11,4 mg de benzoato de sódio (E211) em cada 5 ml de suspensão. </p>
 <p>Posaconazole AHCL contém ácido benzoico 
-Este medicamento contém até 0,114 mg de ácido benzoico (E210) em cada 5 ml de suspensão. </p>         </div>"""   
+Este medicamento contém até 0,114 mg de ácido benzoico (E210) em cada 5 ml de suspensão. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar posaconazole"
@@ -1407,7 +1416,7 @@ Caso tenha omitido uma dose, tome-a logo que se lembrar e prossiga o tratamento 
 No entanto, se estiver quase na hora da dose seguinte, tome essa dose na altura devida. Não tome uma 
 dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Caso ainda tenha alguma dúvida sobre a utilização deste medicamento, pergunte ao seu médico, 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1554,7 +1563,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar posaconazole"
@@ -1572,7 +1581,7 @@ ao seu farmacêutico. </li>
 <li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1612,7 +1621,7 @@ Paola, PLA 3Malta </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
 <p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência 
-Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+Europeia de Medicamentos: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

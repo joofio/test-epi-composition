@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Abrysvo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ This vaccine helps the immune system (the body s natural defences) to make antib
 the blood that help the body fight infections) which protect against lung disease caused by RSV. In 
 pregnant individuals who are vaccinated between weeks 24 and 36 of pregnancy, these antibodies are 
 passed to the infant through the placenta before birth which protects infants when they are at most risk 
-from RSV.  </p>         </div>"""   
+from RSV.  </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ Talk to your doctor or nurse for advice before getting this vaccine if you are b
 Abrysvo is unlikely to affect your ability to drive or use machines. </p>
 <p>Abrysvo contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abrysvo"
@@ -141,7 +144,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
   * code.text = "3. How to take abrysvo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will be given one injection of 0.5 mL into a muscle of your upper arm. </p>
-<p>If you have any questions on the use of Abrysvo, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any questions on the use of Abrysvo, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -180,7 +183,7 @@ throat, hives, difficulty breathing or swallowing and dizziness. See also sectio
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abrysvo"
@@ -193,7 +196,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2 C - 8 C). </p>
 <p>Do not freeze. Discard if the carton has been frozen. </p>
 <p>After reconstitution Abrysvo should be administered immediately or within 4 hours if stored between 
-15 C and 30 C. Do not freeze. </p>         </div>"""      
+15 C and 30 C. Do not freeze. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -308,7 +311,7 @@ T : +357 22817United Kingdom (Northern Ireland)
 Pfizer Limited 
 Tel: + 44 (0) 1304 616This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -347,7 +350,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -356,7 +361,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -371,7 +377,7 @@ Usage: #inline
 3. Sådan får du Abrysvo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -398,7 +404,7 @@ Denne vaccine hjælper immunsystemet (kroppens naturlige forsvar) med at produce
 forårsaget af RSV. Hos gravide som bliver vaccineret mellem uge 24 og 36 af graviditeten overføres 
 disse antistoffer til barnet via moderkagen før fødslen. Dette gør, at barnet er beskyttet fra fødslen, 
 hvor dets risiko for RSV er størst. 
-28</p>         </div>"""   
+28</p> </div>"""   
           
 
              
@@ -448,7 +454,7 @@ Trafik- og arbejdssikkerhed
 Abrysvo påvirker sandsynligvis ikke din evne til at føre motorkøretøj eller betjene maskiner.
 Abrysvo indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abrysvo"
@@ -457,7 +463,7 @@ væsentlige natriumfrit.</p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du får én indsprøjtning på 0,5 ml i en muskel i din overarm.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål om brugen af Abrysvo.
-29</p>         </div>"""         
+29</p> </div>"""         
 
         
 * section[=].section[+]
@@ -510,7 +516,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.
-30</p>         </div>"""      
+30</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abrysvo"
@@ -523,7 +529,7 @@ den sidste dag i den nævnte måned.
 Opbevares i køleskab (2 ºC - 8 ºC).
 Må ikke nedfryses. Skal kasseres, hvis æsken har været nedfrosset.
 Efter rekonstitution skal Abrysvo administreres umiddelbart eller inden for 4 timer ved opbevaring ved 
-temperaturer mellem 15 °C og 30 °C. Må ikke nedfryses.</p>         </div>"""      
+temperaturer mellem 15 °C og 30 °C. Må ikke nedfryses.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -702,7 +708,7 @@ Abrysvo er udelukkende til intramuskulær anvendelse.
 Det uåbnede hætteglas er stabilt i 5 dage, når det opbevares ved temperaturer fra 8 °C til 30 °C. I 
 slutningen af denne periode skal Abrysvo enten anvendes eller kasseres. Disse oplysninger er kun 
 tiltænkt som vejledning til sundhedspersoner i tilfælde af midlertidige temperaturudsving.
-3</p>         </div>"""      
+3</p> </div>"""      
 
 
 
@@ -741,7 +747,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -750,7 +758,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -765,7 +774,7 @@ Usage: #inline
 3. Como é administrado Abrysvo
 4. Efeitos indesejáveis possíveis
 5. Como conservar Abrysvo
-6. Conteúdos da embalagem e outras informações</p>         </div>"""   
+6. Conteúdos da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -791,7 +800,7 @@ Esta vacina ajuda o sistema imunitário (as defesas naturais do organismo) a pro
 (substâncias existentes no sangue que ajudam o organismo a combater infeções), o que resulta na 
 proteção contra a doença pulmonar causada pelo VSR. No caso das grávidas, que são vacinadas entre 
 as 24 e as 36 semanas de gestação, estes anticorpos são transferidos para a criança através da placenta 
-antes do nascimento, o que protege as crianças quando estas estão mais vulneráveis ao VSR.</p>         </div>"""   
+antes do nascimento, o que protege as crianças quando estas estão mais vulneráveis ao VSR.</p> </div>"""   
           
 
              
@@ -846,7 +855,7 @@ Condução de veículos e utilização de máquinas
 É improvável que Abrysvo tenha influência na capacidade de conduzir ou utilizar máquinas.
 Abrysvo contém sódio
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
-"isento de sódio".</p>         </div>"""   
+"isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar abrysvo"
@@ -856,7 +865,7 @@ Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>É administrada uma injeção de 0,5 ml num músculo da parte superior do braço.
 Caso tenha dúvidas sobre a utilização de Abrysvo, fale com o seu médico, farmacêutico ou 
 enfermeiro.
-30</p>         </div>"""         
+30</p> </div>"""         
 
         
 * section[=].section[+]
@@ -913,7 +922,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá co
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.
-31</p>         </div>"""      
+31</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar abrysvo"
@@ -926,7 +935,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado.
 Conservar no frigorífico (2ºC - 8ºC).
 Não congelar. Eliminar se a embalagem tiver sido congelada.
 Após a reconstituição, Abrysvo deve ser administrado imediatamente ou num prazo até 4 horas se 
-conservado entre 15ºC e 30ºC. Não congelar.</p>         </div>"""      
+conservado entre 15ºC e 30ºC. Não congelar.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1094,7 +1103,7 @@ Pfizer Limited
 Tel: +44 (0) 1304 616161
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

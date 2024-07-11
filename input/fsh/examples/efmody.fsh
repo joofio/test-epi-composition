@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Efmody  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 medicines known as corticosteroids. </p>
 <p>Hydrocortisone is a copy of the hormone cortisol. Cortisol is made by the adrenal glands in the body.<br />
 Efmody is used when the adrenal gland are not making enough cortisol due to an inherited condition 
-called congenital adrenal hyperplasia. It is for use in adults and adolescents from 12 years of age. </p>         </div>"""   
+called congenital adrenal hyperplasia. It is for use in adults and adolescents from 12 years of age. </p> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ women. </p>
 <p>Driving and using machines 
 Efmody has minor influence on the ability to drive and use machines. Untreated adrenal insufficiency 
 may affect the ability to drive and use machines. Tell your doctor immediately if you feel tired or 
-dizzy when taking Efmody. </p>         </div>"""   
+dizzy when taking Efmody. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efmody"
@@ -224,7 +227,7 @@ surgery because your doctor may advise that you  another corticosteroid medicine
 well as, Efmody (see section 2). </p>
 <p>If you take too much Efmody 
 Poisoning or death are rare with too much Efmody, but you should inform your doctor immediately. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -279,7 +282,7 @@ development (see section 2). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet.  </p>
 <p>You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efmody"
@@ -293,7 +296,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in the original package. </p>
 <p>Keep the bottle tightly closed in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ Co. Louth, A91 DET0
 Ireland </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -400,7 +403,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -409,7 +414,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -426,7 +432,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -438,7 +444,7 @@ Usage: #inline
 lægemidler, der kaldes binyrebarkhormoner (kortikosteroider). </p>
 <p>Hydrokortison er en kopi af hormonet kortisol. Kortisol produceres i kroppen af binyrerne. Efmody 
 anvendes, når binyrerne ikke producerer nok kortisol ved den arvelige sygdom adrenogenitalt 
-syndrom. Efmody er beregnet til brug hos voksne og unge fra 12 årsalderen. </p>         </div>"""   
+syndrom. Efmody er beregnet til brug hos voksne og unge fra 12 årsalderen. </p> </div>"""   
           
 
              
@@ -549,7 +555,7 @@ vedrørende frugtbarhed hos både mænd og kvinder. </p>
 <p>Trafik- og arbejdssikkerhed 
 Efmody påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. Ubehandlet 
 binyrebarkinsufficiens kan påvirke evnen til at føre motorkøretøj og betjene maskiner. Sig det til 
-lægen med det samme, hvis du føler dig træt eller svimmel, når du tager Efmody. </p>         </div>"""   
+lægen med det samme, hvis du føler dig træt eller svimmel, når du tager Efmody. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efmody"
@@ -586,7 +592,7 @@ eller sammen med Efmody (se pkt. 2).
 Hvis du har taget for meget Efmody 
 Forgiftning eller dødsfald ses sjældent, hvis en patient har taget for meget Efmody, men du skal 
 kontakte lægen med det samme. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -645,7 +651,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. </p>
 <p>Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efmody"
@@ -659,7 +665,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale pakning. </p>
 <p>Hold beholderen tæt tillukket for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -752,7 +758,7 @@ binyrebarkinsufficiens, medfødt adrenal hyperplasi, formuleringer med modificer
 CHMP af den opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder 
 hydrocortison forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
 produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -791,7 +797,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -800,7 +808,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -817,7 +826,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Efmody </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -830,7 +839,7 @@ medicamentos conhecidos como corticosteroides. </p>
 <p>A hidrocortisona é uma cópia da hormona cortisol. O cortisol é produzido pelas glândulas suprarrenais 
 no organismo. Efmody é utilizado quando a glândula suprarrenal não está a produzir cortisol suficiente 
 devido a uma doença hereditária denominada hiperplasia suprarrenal congénita. Destina-se a ser 
-utilizado em adultos e adolescentes a partir dos 12 anos de idade. </p>         </div>"""   
+utilizado em adultos e adolescentes a partir dos 12 anos de idade. </p> </div>"""   
           
 
              
@@ -942,7 +951,7 @@ regresso da hemorragia menstrual. Ver também a secção “Advertências e prec
 <p>Condução de veículos e utilização de máquinas 
 Os efeitos de Efmody sobre a capacidade de conduzir e utilizar máquinas são reduzidos. A 
 insuficiência suprarrenal não tratada pode afetar a capacidade de conduzir e utilizar máquinas. Informe 
-imediatamente o seu médico se sentir cansaço ou tonturas ao tomar Efmody. </p>         </div>"""   
+imediatamente o seu médico se sentir cansaço ou tonturas ao tomar Efmody. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar efmody"
@@ -983,7 +992,7 @@ Se tomar demasiado Efmody
 Envenenamento ou morte são raros com Efmody em excesso, mas deve informar imediatamente o seu 
 médico. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1041,7 +1050,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. </p>
 <p>Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação 
 mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais 
-informações sobre a segurança deste medicamento. </p>         </div>"""      
+informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar efmody"
@@ -1057,7 +1066,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Manter o frasco bem fechado para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1128,7 +1137,7 @@ Co.Louth, A91 DET0
 Irlanda </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

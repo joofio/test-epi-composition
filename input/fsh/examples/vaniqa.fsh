@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vaniqa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaniqa contains the active substance eflornithine. Eflornithine slows down the growth of hair through 
 its effect on a specific enzyme (a protein in the body involved in the production of hair). </p>
 <p>Vaniqa is used to reduce the growth of excessive hair (Hirsutism) on the face of women older than 
-18 years of age. </p>         </div>"""   
+18 years of age. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ manage your facial hair if you are pregnant or trying to become pregnant. </p>
 <p>Vaniqa is not expected to have any effect on your ability to drive or use machines. </p>
 <p>Vaniqa contains cetostearyl alcohol and stearyl alcohol which may cause local skin reactions (e.g. 
 contact dermatitis). Vaniqa also contains methyl parahydroxybenzoate (E218) and propyl 
-parahydroxybenzoate (E216) which may cause allergic reactions (possibly delayed). </p>         </div>"""   
+parahydroxybenzoate (E216) which may cause allergic reactions (possibly delayed). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaniqa"
@@ -152,7 +155,7 @@ hair growth may return within 8 weeks. </p>
 <p>Apply straight away, but wait at least 8 hours before using it again. </p>
 <p>If you stop using Vaniqa </p>
 <p>To maintain the reduction of hair growth keep using Vaniqa continuously as indicated. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -183,7 +186,7 @@ not known
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine </p>         </div>"""      
+this medicine </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaniqa"
@@ -197,7 +200,7 @@ after EXP. The expiry date refers to the last day of that month. </p>
 <p>Make sure the cap of the tube is tightly closed after each use. </p>
 <p>Do not store above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ Almirall SpA
 Tel: +39 02 346Suomi/Finland 
 Orion Pharma 
 Puh/Tel: +358 10 4This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -296,7 +299,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -305,7 +310,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -320,7 +326,7 @@ Usage: #inline
 3. Sådan skal du bruge Vaniqa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -330,7 +336,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vaniqa indeholder det aktive stof eflornithin. Eflornithin nedsætter hastigheden af hårvæksten, fordi 
 det påvirker et specifikt enzym (et protein i kroppen, der medvirker til hårproduktionen).  </p>
-<p>Vaniqa bruges til at nedsætte væksten af udtalt hårvækst (hirsutisme) i ansigtet hos kvinder over 18 år. </p>         </div>"""   
+<p>Vaniqa bruges til at nedsætte væksten af udtalt hårvækst (hirsutisme) i ansigtet hos kvinder over 18 år. </p> </div>"""   
           
 
              
@@ -375,7 +381,7 @@ ansigtsbehåringen, hvis du er gravid eller forsøger at blive gravid. </p>
 <p>Vaniqa indeholder cetostearylalkohol og stearylalkohol, som kan forårsage lokale hudreaktioner 
 (f.eks. kontaktdermatitis). Vaniqa indeholder også methylparahydroxybenzoat (E218) og 
 propylparahydroxybenzoat (E216), som kan forårsage allergiske reaktioner (muligvis sene 
-reaktioner). </p>         </div>"""   
+reaktioner). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaniqa"
@@ -412,7 +418,7 @@ holder op med at bruge cremen, kan din oprindelige hårvækst vende tilbage i l�
 <p>Påfør med det samme Vaniqa, men vent mindst 8 timer, inden du igen anvender det. </p>
 <p>Hvis du holder op med at bruge Vaniqa </p>
 <p>Bliv ved med at bruge Vaniqa kontinuerligt som anvist for at bevare reduktionen af hårvækst. 
-Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -444,7 +450,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaniqa"
@@ -458,7 +464,7 @@ Udløbsdatoen (EXP) er den sidste dag i den nævnte måned. </p>
 <p>Du skal sikre, at hætten på tuben er tæt tillukket efter hver anvendelse. </p>
 <p>Må ikke opbevares over 25°C. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -536,7 +542,7 @@ Tel: +39 02 346
 Puh/Tel: +358 10 4 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -575,7 +581,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -584,7 +592,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -599,7 +608,7 @@ Usage: #inline
 3. Como utilizar Vaniqa 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Vaniqa 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -611,7 +620,7 @@ Usage: #inline
 atuar sobre uma enzima específica (uma proteína do corpo que está envolvida na produção do 
 pelo). </p>
 <p>Vaniqa é utilizado para reduzir o crescimento excessivo de pelos (hirsutismo) na face em 
-mulheres com mais de 18 anos de idade. </p>         </div>"""   
+mulheres com mais de 18 anos de idade. </p> </div>"""   
           
 
              
@@ -655,7 +664,7 @@ controlar os seus pelos faciais se estiver grávida ou a tentar engravidar. </p>
 <p>Vaniqa contém álcool cetostearílico e álcool estearílico, que podem provocar reações 
 dérmicas locais (p. ex. dermatite de contacto). Vaniqa também contém para-
 hidroxibenzoato de metilo (E218) e para-hidroxibenzoato de propilo (E216), que podem 
-causar reações alérgicas (possivelmente tardias). </p>         </div>"""   
+causar reações alérgicas (possivelmente tardias). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vaniqa"
@@ -695,7 +704,7 @@ Vaniqa, contacte o seu médico imediatamente. </p>
 <p>Para manter a redução do crescimento dos pelos, continue a utilizar Vaniqa continuamente 
 conforme indicado. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -762,7 +771,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
 V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vaniqa"
@@ -777,7 +786,7 @@ fundo da bisnaga após VAL. O prazo de validade corresponde ao último dia do m�
 <p>Não conservar acima de 25ºC. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -850,7 +859,7 @@ Orion Pharma
 Puh/Tel: +358 10 4 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da 
-Agência Europeia de Medicamentos: http://www.ema.europa.eu  </p>         </div>"""      
+Agência Europeia de Medicamentos: http://www.ema.europa.eu  </p> </div>"""      
 
 
 

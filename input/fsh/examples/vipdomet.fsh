@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Vipdomet </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ together.  </p>
 <p>If you are already taking both alogliptin and metformin as single tablets, Vipdomet can replace them in 
 one tablet. </p>
 <p>It is important that you continue to follow the advice on diet and exercise that your nurse or doctor has 
-given you. </p>         </div>"""   
+given you. </p> </div>"""   
           
 
              
@@ -199,7 +202,7 @@ are pregnant. </p>
 <p>Driving and using machines 
 Vipdomet is not known to affect your ability to drive and use machines. Taking Vipdomet in 
 combination with medicines called pioglitazone or insulin can cause too low blood sugar levels 
-(hypoglycaemia), which may affect your ability to drive and use machines.  </p>         </div>"""   
+(hypoglycaemia), which may affect your ability to drive and use machines.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vipdomet"
@@ -226,7 +229,7 @@ for a forgotten dose. </p>
 <p>If you stop taking Vipdomet 
 Do not stop taking Vipdomet without consulting your doctor first. Your blood sugar levels may 
 increase when you stop taking Vipdomet. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -300,7 +303,7 @@ loss of appetite, dark urine or yellowing of your skin or the whites of your eye
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vipdomet"
@@ -312,7 +315,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -439,7 +442,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -478,7 +481,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -487,7 +492,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -504,7 +510,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger. </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -532,7 +538,7 @@ samtidigt.  </p>
 <p>Hvis du allerede tager både alogliptin og metformin som separate tabletter, kan Vipdomet erstatte dem 
 begge. </p>
 <p>Det er vigtigt, at du bliver ved med at følge de råd om kost og motion, som din læge eller 
-sygeplejerske har givet dig. </p>         </div>"""   
+sygeplejerske har givet dig. </p> </div>"""   
           
 
              
@@ -640,7 +646,7 @@ modermælken. </p>
 <p>Trafik- og arbejdssikkerhed 
 Vipdomet har ikke nogen kendt virkning på evnen til at køre bil og betjene maskiner. Hvis du tager 
 Vipdomet samtidig med lægemidlerne pioglitazon eller insulin, kan du få for lavt blodsukker 
-(hypoglykæmi), hvilket kan påvirke din evne til at køre bil og betjene maskiner.  </p>         </div>"""   
+(hypoglykæmi), hvilket kan påvirke din evne til at køre bil og betjene maskiner.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vipdomet"
@@ -666,7 +672,7 @@ tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Vipdomet 
 Hold ikke op med at tage Vipdomet uden at tale med din læge først. Dit blodsukker kan blive højere, 
 når du holder op med at tage Vipdomet. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -744,7 +750,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteketspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vipdomet"
@@ -756,7 +762,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -889,7 +895,7 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -928,7 +934,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -937,7 +945,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -954,7 +963,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Vipdomet </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -983,7 +992,7 @@ isolada ou a metformina e a pioglitazona tomadas em conjunto.  </p>
 <p>Se já estiver a tomar alogliptina e metformina em comprimidos separados, Vipdomet pode 
 substituí-los num único comprimido. </p>
 <p>É importante que continue a seguir os conselhos sobre dieta e exercício físico que o seu enfermeiro ou 
-médico lhe deu. </p>         </div>"""   
+médico lhe deu. </p> </div>"""   
           
 
              
@@ -1089,7 +1098,7 @@ materno. </p>
 <p>Condução de veículos e utilização de máquinas 
 Desconhece-se se Vipdomet afeta a sua capacidade de conduzir e utilizar máquinas. Tomar Vipdomet 
 em associação com medicamentos denominados pioglitazona ou insulina pode causar níveis baixos de 
-açúcar no sangue (hipoglicemia), que podem afetar a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+açúcar no sangue (hipoglicemia), que podem afetar a sua capacidade de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vipdomet"
@@ -1117,7 +1126,7 @@ dobrar para compensar uma dose que se esqueceu de tomar. </p>
 Não pare de tomar Vipdomet sem antes consultar o seu médico. Os seus níveis de açúcar no sangue 
 podem subir quando para de tomar Vipdomet. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1187,7 +1196,7 @@ olhos.
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vipdomet"
@@ -1200,7 +1209,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1335,7 +1344,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

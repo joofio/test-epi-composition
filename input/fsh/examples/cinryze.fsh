@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Cinryze</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ In adults and children, Cinryze can raise the amount of C1-esterase inhibitor in
 prevent (prior to undergoing medical or dental procedures) these swelling attacks from occurring or 
 stop swelling attacks once they have begun.
 In adults, adolescents and children (aged 6 years and above), Cinryze can raise the amount of C1-
-esterase inhibitor in the blood and routinely prevent swelling attacks from occurring.</p>         </div>"""   
+esterase inhibitor in the blood and routinely prevent swelling attacks from occurring.</p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ Driving and using machines
 Cinryze has minor influence on the ability to drive and use machines.
 Cinryze contains sodium
 This medicine contains 11.5 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 0.5% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+equivalent to 0.5% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cinryze"
@@ -216,7 +219,7 @@ doctor if you are not sure. If your doctor decides that you may be suitable for 
 he/she will give you detailed instructions. You will be required to keep a diary in order to document 
 each treatment received at home and to bring it to each of your visits to the doctor. Regular review of 
 your/your carer s injection technique will be performed to ensure continued appropriate handling.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cinryze"
@@ -253,7 +256,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 Store below 25 C. Do not freeze. Store in the original package in order to protect from light.
 Once reconstituted, Cinryze solution should be used immediately.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -482,7 +485,7 @@ use if particles are observed.
 injections) of Cinryze by intravenous injection (into the vein) at a rate of 1 ml per minute over 
 10 minutes. 
 Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements.</p>         </div>"""      
+requirements.</p> </div>"""      
 
 
 
@@ -521,7 +524,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -530,7 +535,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -545,7 +551,7 @@ Usage: #inline
 3. Sådan skal du tage Cinryze
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -571,7 +577,7 @@ disse anfald med hævelser forekommer (før der udføres medicinske procedurer e
 eller procedurer hos en tandlæge), eller stoppe anfald med hævelse, efter de er begyndt.
 Cinryze kan øge indholdet af C1-esteraseinhibitor i blodet hos voksne, unge og børn (fra 6 år og 
 opefter) og rutinemæssigt forhindre, at anfald af hævelser opstår.
-28</p>         </div>"""   
+28</p> </div>"""   
           
 
              
@@ -626,7 +632,7 @@ Cinryze påvirker i mindre grad evnen til at føre motorkøretøj og betjene mas
 Cinryze indeholder natrium
 Dette lægemiddel indeholder 11,5 mg natrium (hovedbestanddelen i køkken-/bordsalt) pr. hætteglas. 
 Dette svarer til 0,5 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.
-29</p>         </div>"""   
+29</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cinryze"
@@ -725,7 +731,7 @@ lægen. Hvis din læge beslutter, at du kan være kandidat til hjemmebehandling,
 udførlige instruktioner. Det vil være påkrævet, at du fører dagbog for at dokumentere hver behandling, 
 du får i hjemmet, og at bringe dagbogen med dig til hvert lægebesøg. Regelmæssig gennemgang af 
 din / din plejers injektionsteknik vil udføres for at sikre fortsat hensigtsmæssig behandling. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -753,7 +759,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. De
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cinryze"
@@ -767,7 +773,7 @@ Opbevares ved temperaturer under 25 C. Må ikke nedfryses. Opbevares i den or
 for at beskytte mod lys.
 Efter rekonstitution skal Cinryze-opløsningen straks anvendes.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1045,7 +1051,7 @@ anvendes, hvis der observeres partikler.
 9. Sæt venepunktursættet på injektionssprøjten med Cinryze-opløsningen, og injicer intravenøst (i 
 venen) i patienten. Indgiv 1000 IE (rekonstitueret i 10 ml vand til injektionsvæsker) Cinryze ved 
 intravenøs injektion (i venen) med en hastighed på 1 ml pr. minut i løbet af 10 minutter. 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

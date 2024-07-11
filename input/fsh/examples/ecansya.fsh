@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ecansya</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ normal tissue).
 Ecansya is used in the treatment of colon, rectal, gastric, or breast cancers.
 Furthermore, Ecansya is used to prevent new occurrence of colon cancer after complete removal of the 
 tumour by surgery.
-Ecansya may be used either alone or in combination with other medicines.</p>         </div>"""   
+Ecansya may be used either alone or in combination with other medicines.</p> </div>"""   
           
 
              
@@ -188,7 +191,7 @@ Ecansya may make you feel dizzy, nauseous or tired. It is therefore possible tha
 your ability to drive a car or operate machines.
 Ecansya contains lactose
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.</p>         </div>"""   
+before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ecansya"
@@ -235,7 +238,7 @@ If you stop taking Ecansya
 There are no side-effects caused by stopping treatment with capecitabine. In case you are using 
 coumarin anticoagulants (containing e.g. phenprocoumon), stopping capecitabine might require that 
 your doctor adjusts your anticoagulant dose.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -433,7 +436,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ecansya"
@@ -448,7 +451,7 @@ This medicine does not require any special storage conditions.
 For PVC/PVdC-aluminium blisters
 Do not store above 30 C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -550,7 +553,7 @@ KRKA Latvija SIA
 Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -589,7 +592,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -598,7 +603,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -613,7 +619,7 @@ Usage: #inline
 3. Sådan skal du tage Ecansya
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -627,7 +633,7 @@ kroppen ændres det til et aktivt anti-cancer stof (fortrinsvis i svulstvæv).
 Ecansya bruges til behandling af kræft i tyktarm, endetarm, mave eller bryst.
 Desuden bruges Ecansya til forebyggelse af ny optræden af tyktarmskræft efter fuldstændig fjernelse 
 af svulsten ved operation.
-Ecansya kan anvendes enten alene eller i kombination med andre lægemidler.</p>         </div>"""   
+Ecansya kan anvendes enten alene eller i kombination med andre lægemidler.</p> </div>"""   
           
 
              
@@ -741,7 +747,7 @@ Ecansya forårsage svimmelhed, kvalme og træthed. Det er derfor muligt, at Ecan
 evne til at køre bil, og betjene maskiner.
 Ecansya indeholder lactose
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter.</p>         </div>"""   
+sukkerarter.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ecansya"
@@ -789,7 +795,7 @@ Der er ingen bivirkninger forbundet med at stoppe behandlingen med capecitabin. 
 blodfortyndende medicin (antikoagulantia) af coumarintypen (indeholdende f.eks.phenprocoumon) 
 kan det blive nødvendigt, at din læge ændrer dosis af denne medicin, hvis behandlingen med 
 capecitabin stopper.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -990,7 +996,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ecansya"
@@ -1006,7 +1012,7 @@ PVC/PVdC/aluminium-blistere:
 51
 Må ikke opbevares ved temperaturer over 30 °C.
 Spørg apotekspersonalet hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1139,7 +1145,7 @@ KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Denne indlægsseddel blev senest ændret
 Du kan finde yderligere information om Ecansya på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu.</p>         </div>"""      
+http://www.ema.europa.eu.</p> </div>"""      
 
 
 

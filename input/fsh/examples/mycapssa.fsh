@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Mycapssa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ already been shown to be of benefit. </p>
 increased production of growth hormone (usually from a non-cancerous tumour in the pituitary gland) 
 leads to enlargement of bones and certain tissues, and symptoms such as headache, excessive 
 sweating, numbness in the hands and feet, tiredness and joint pain. Treatment with Mycapssa can help 
-relieve the symptoms.  </p>         </div>"""   
+relieve the symptoms.  </p> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ driving or using machines if your ability to react is reduced due to side effect
 weakness/fatigue or headache. </p>
 <p>Mycapssa contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mycapssa"
@@ -203,7 +206,7 @@ missed dose and take your next dose at the usual time. </p>
 <p>If you stop taking Mycapssa 
 Do not stop taking this medicine without discussing with your doctor first. If you stop taking 
 Mycapssa, your acromegaly symptoms may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ difficulty in swallowing
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mycapssa"
@@ -344,7 +347,7 @@ expiry date refers to the last day of that month. </p>
 <p>Mycapssa can be kept out of refrigeration for up to 1 month, but may not be stored above 25  C, after 
 which the medicine must be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ Reichenberger Strasse 33605 Bielefeld
 Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -414,7 +417,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -423,7 +428,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -457,7 +463,7 @@ somatostatin allerede har vist sig at være gavnlige. </p>
 <p>Normalt regulerer væksthormon væksten af væv, organer og knogler. Ved akromegali fører øget 
 produktion af væksthormon (normalt fra en ikke-ondartet tumor i hypofysen) til forstørrelse af knogler 
 og visse væv samt symptomer som hovedpine, kraftig svedtendens, følelsesløshed i hænder og fødder, 
-træthed og ledsmerter. Behandling med Mycapssa kan lindre symptomerne. </p>         </div>"""   
+træthed og ledsmerter. Behandling med Mycapssa kan lindre symptomerne. </p> </div>"""   
           
 
              
@@ -544,7 +550,7 @@ Undgå dog at føre motorkøretøj eller betjene maskiner, hvis din reaktionsevn
 bivirkninger som svimmelhed, svaghed/træthed eller hovedpine. </p>
 <p>Mycapssa indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mycapssa"
@@ -580,7 +586,7 @@ springe den glemte dosis over og tage den næste dosis på det sædvanlige tidsp
 <p>Hvis du holder op med at tage Mycapssa 
 Du må ikke stoppe med at tage dette lægemiddel uden først at drøfte det med lægen. Hvis du holder op 
 med at tage Mycapssa, kan dine akromegalisymptomer vende tilbage. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -710,7 +716,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mycapssa"
@@ -724,7 +730,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Mycapssa kan opbevares uden for køleskab i op til 1 måned, men må ikke opbevares ved temperaturer 
 over 25 °C, hvorefter lægemidlet skal bortskaffes. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -755,7 +761,7 @@ Tyskland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -794,7 +800,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -803,7 +811,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -820,7 +829,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Mycapssa </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -839,7 +848,7 @@ demonstrou ser benéfico tomar medicamentos como a somatostatina. </p>
 acromegalia, o aumento da produção da hormona do crescimento (normalmente de um tumor não 
 canceroso na hipófise) leva ao alargamento dos ossos e de determinados tecidos, e sintomas como 
 cefaleia, transpiração excessiva, dormência nas mãos e nos pés, cansaço e dor nas articulações. O 
-tratamento com Mycapssa pode ajudar a aliviar os sintomas. </p>         </div>"""   
+tratamento com Mycapssa pode ajudar a aliviar os sintomas. </p> </div>"""   
           
 
              
@@ -928,7 +937,7 @@ No entanto, evite conduzir ou utilizar máquinas se a sua capacidade de reação
 efeitos secundários como tonturas, fraqueza/fadiga ou dores de cabeça. </p>
 <p>Mycapssa contém sódio 
 Este medicamento contém menos que 1 mmol de sódio (23 mg) por cápsula, ou seja, essencialmente 
-«isento de sódio». </p>         </div>"""   
+«isento de sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mycapssa"
@@ -967,7 +976,7 @@ agendada. Caso contrário, salte a dose esquecida e tome a dose seguinte na hora
 Não pare de tomar este medicamento sem falar primeiro com o seu médico. Se parar de tomar 
 Mycapssa, os seus sintomas de acromegalia podem voltar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1094,7 +1103,7 @@ permaneça fechado, causando dificuldade em engolir
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mycapssa"
@@ -1109,7 +1118,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 25 °C, depois do qual o medicamento deverá ser descartado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1140,7 +1149,7 @@ Reichenberger Strasse 33605 Bielefeld
 Alemanha </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

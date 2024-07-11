@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Beyfortus</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ to a specific target) that attaches to a protein that RSV needs to infect the bo
 protein, Beyfortus blocks its action, thereby stopping the virus from entering and infecting human 
 cells.
 What Beyfortus is used for
-Beyfortus is a medicine to protect your child from getting RSV disease.</p>         </div>"""   
+Beyfortus is a medicine to protect your child from getting RSV disease.</p> </div>"""   
           
 
              
@@ -113,7 +116,7 @@ Other medicines and Beyfortus
 Beyfortus is not known to interact with other medicines. However, tell your doctor, pharmacist or 
 nurse if your child is taking, has recently taken or might take any other medicines.
 Beyfortus may be given at the same time as vaccines that are part of the national immunisation 
-program.</p>         </div>"""   
+program.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take beyfortus"
@@ -130,7 +133,7 @@ after birth.
 If your child is to have a heart operation (cardiac surgery), he or she may be given an extra dose of 
 Beyfortus after the operation to ensure they have adequate protection over the remainder of the RSV 
 season.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -148,7 +151,7 @@ Reporting of side effects
 If your child gets any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store beyfortus"
@@ -164,7 +167,7 @@ Store in a refrigerator (2 C - 8 C). After removal from the refrigerator, Beyfor
 from light and used within 8 hours or discarded.
 Keep the pre-filled syringe in the outer carton in order to protect from light.
 Do not freeze, shake or expose to direct heat.
-Any unused medicine or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
+Any unused medicine or waste material should be disposed of in accordance with local requirements.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -259,7 +262,7 @@ Swixx Biopharma SIA
 Tel: +371 6 616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel: +44 (0) 800 035 2This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 

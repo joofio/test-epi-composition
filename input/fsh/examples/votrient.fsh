@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Votrient </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ proteins that are involved in the growth and spread of cancer cells. </p>
 <li>certain forms of soft-tissue sarcoma, which is a type of cancer that affects the supportive tissues 
 of the body. It can occur in muscles, blood vessels, fat tissue or other tissues that support, 
 surround and protect the organs. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -166,7 +169,7 @@ Votrient can have side effects that may affect your ability to drive or use mach
 low. </p>
 <p>Votrient contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take votrient"
@@ -191,7 +194,7 @@ pack, or this leaflet. </p>
 <p>If you forget to take Votrient 
 Do not take a double dose to make up for a forgotten dose. Just take your next dose at the usual time. </p>
 <p>Don t stop Votrient without advice 
-Take Votrient for as long as your doctor recommends. Don t stop unless your doctor advises you to. </p>         </div>"""         
+Take Votrient for as long as your doctor recommends. Don t stop unless your doctor advises you to. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -472,7 +475,7 @@ kidneys, vagina and brain </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store votrient"
@@ -484,7 +487,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -591,7 +594,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -630,7 +633,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -639,7 +644,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -656,7 +662,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -671,7 +677,7 @@ aktiviteten af proteiner, der er involveret i kræftcellers udvikling og evne ti
 <li>Fremskreden nyrekræft eller nyrekræft, der har spredt sig til andre organer. </li>
 <li>Visse former for bløddelssarkom, som er en kræfttype, der opstår i kroppens muskler, blodårer, 
 fedtvæv eller andre væv, som findes rundt om og beskytter organerne. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -761,7 +767,7 @@ maskiner.
 eller svag, eller hvis dit energiniveau er lavt. </p>
 <p>Votrient indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukken tablet, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take votrient"
@@ -789,7 +795,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag blot d
 sædvanlige tidspunkt. </p>
 <p>Du må ikke stoppe med at tage Votrient uden at tale med lægen først 
 Tag Votrient i den periode, lægen har foreskrevet. Du må kun stoppe behandlingen efter aftale med 
-lægen. </p>         </div>"""         
+lægen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1074,7 +1080,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store votrient"
@@ -1086,7 +1092,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Denne medicin kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1216,7 +1222,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

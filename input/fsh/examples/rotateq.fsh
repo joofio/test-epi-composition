@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store RotaTeq</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Usage: #inline
 6 weeks to 32 weeks (see section 3). The vaccine contains five types of live rotavirus strains. When an
 infant is given the vaccine, the immune system (the body s natural defences) will make antibodies
 against the most commonly occurring types of rotavirus. These antibodies help protect against
-gastroenteritis caused by these types of rotavirus.</p>         </div>"""   
+gastroenteritis caused by these types of rotavirus.</p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ professional before the vaccine is administered.<br />
 RotaTeq contains sodium
 This vaccine contains 37.6 mg sodium (main component of cooking/table salt) in each dose. This is
 equivalent to 1.88% of the recommended maximum daily dietary intake of sodium for an adult.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rotateq"
@@ -162,7 +165,7 @@ RotaTeq (and not another rotavirus vaccine) to complete the vaccination course.
 If you forget an appointment for RotaTeq
 It is important that you follow the instructions of your doctor/health care professional regarding your
 child s return visits for the follow-up doses. If you forget or are not able to go back to your
-doctor/health care professional at the scheduled time, ask him or her for advice. </p>         </div>"""         
+doctor/health care professional at the scheduled time, ask him or her for advice. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -197,7 +200,7 @@ Reporting of side effects
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rotateq"
@@ -210,7 +213,7 @@ refers to the last day of that month.
 Store and transport refrigerated (2  C to 8  C). Keep the dosing tube in the outer carton in order to
 protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -357,7 +360,7 @@ in the tip of the tube.)  </p>
 <p>Discard the empty tube and cap in approved biological waste containers
 according to local regulations.
 Any unused product or waste material should be disposed of in accordance with local requirements.
-See also section 3. How to use RotaTeq.</p>         </div>"""      
+See also section 3. How to use RotaTeq.</p> </div>"""      
 
 
 
@@ -396,7 +399,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -405,7 +410,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -420,7 +426,7 @@ Usage: #inline
 3. Sådan får dit barn RotaTeq
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -433,7 +439,7 @@ børn mod gastroenteritis (diarré og opkastning), der skyldes rotavirus-infekti
 anvendes til spædbørn i alderen 6 uger til 32 uger (se punkt 3). Vaccinen indeholder 5 levende
 rotavirus-stammer. Når et spædbarn får vaccinen, vil immunsystemet (kroppens naturlige
 forsvarssystem) producere antistoffer imod de hyppigst forekommende typer af rotavirus. Disse
-antistoffer hjælper med at beskytte imod gastroenteritis, der skyldes disse typer af rotavirus.</p>         </div>"""   
+antistoffer hjælper med at beskytte imod gastroenteritis, der skyldes disse typer af rotavirus.</p> </div>"""   
           
 
              
@@ -502,7 +508,7 @@ RotaTeq indeholder saccharose</p>
 læge/sundhedsplejerske, før vaccinen indgives.<br />
 RotaTeq indeholder natrium
 Denne vaccine indeholder 37,6 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hver dosis.
-Dette svarer til 1,88 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p>         </div>"""   
+Dette svarer til 1,88 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rotateq"
@@ -529,7 +535,7 @@ anden rotavirus-vaccine) for at fuldføre vaccinationsrunden.
 Hvis du har glemt en konsultation
 Det er vigtigt, at du følger din læges/sundhedsplejerskes instruktioner vedrørende dit barns
 konsultationer for opfølgende doser. Hvis du glemmer eller ikke er i stand til at møde hos din
-læge/sundhedsplejerske på det aftalte tidspunkt, så spørg ham eller hende til råds. </p>         </div>"""         
+læge/sundhedsplejerske på det aftalte tidspunkt, så spørg ham eller hende til råds. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -585,7 +591,7 @@ indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rappo
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information
 om sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rotateq"
@@ -598,7 +604,7 @@ sidste dag i den nævnte måned.
 Opbevares i køleskab og transporteres nedkølet (2 °C - 8 °C). Doseringstuben skal opbevares i den
 ydre pakning for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -762,7 +768,7 @@ hjemmeside http://www.ema.europa.eu.
 <p>Nedenstående oplysninger er til læger og sundhedspersonale:
 Anvisninger
 Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
-Se også punkt </p>         </div>"""      
+Se også punkt </p> </div>"""      
 
 
 

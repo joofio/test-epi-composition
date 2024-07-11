@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store ZOSTAVAX</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ your body in nerve cells. Sometimes, after many years, the virus becomes active 
 shingles. 
 What is PHN? 
 After the shingles blisters heal, pain can last for months or years and may be severe. This long-lasting
-nerve pain is called post-herpetic neuralgia or PHN. </p>         </div>"""   
+nerve pain is called post-herpetic neuralgia or PHN. </p> </div>"""   
           
 
              
@@ -137,7 +140,7 @@ This medicine contains less than 1 mmol sodium (23 milligrams) per dose, that is
  sodium-free'.
 ZOSTAVAX contains potassium
 This medicine contains less than 1 mmol potassium (39 milligrams) per dose, that is to say essentially
- potassium-free .</p>         </div>"""   
+ potassium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zostavax"
@@ -149,7 +152,7 @@ This medicine contains less than 1 mmol potassium (39 milligrams) per dose, that
 given under the skin.
 ZOSTAVAX is given as a single dose.
 Reconstitution instructions intended for healthcare professionals are included at the end of the
-leaflet.</p>         </div>"""         
+leaflet.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -178,7 +181,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of
-this vaccine.</p>         </div>"""      
+this vaccine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zostavax"
@@ -191,7 +194,7 @@ date refers to the last day of that month.
 Store and transport refrigerated (2  C   8  C). Do not freeze. Keep the vial in the outer carton in order
 to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -341,7 +344,7 @@ Do not freeze the reconstituted vaccine.
 Withdraw the entire content of the reconstituted vaccine from the vial into a syringe, change the
 needle and inject the entire volume by subcutaneous or intramuscular route.
 Any unused product or waste material should be disposed of in accordance with local requirements.
-See also section </p>         </div>"""      
+See also section </p> </div>"""      
 
 
 
@@ -380,7 +383,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -389,7 +394,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -404,7 +410,7 @@ Usage: #inline
 3. Sådan får du ZOSTAVAX
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -428,7 +434,7 @@ bliver virussen aktiv igen efter mange år og forårsager helvedesild.
 Hvad er PHN?
 Efter at blærerne i forbindelse med helvedesild er helet op, kan smerterne blive ved i månedsvis eller
 årevis, og de kan være svære. Disse langvarige nervesmerter kaldes postherpetisk neuralgi eller PHN. </p>
-<p>40</p>         </div>"""   
+<p>40</p> </div>"""   
           
 
              
@@ -491,7 +497,7 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 milligram) natrium pr. dosis,
 væsentlige natriumfrit.
 ZOSTAVAX indeholder kalium
 Dette lægemiddel indeholder mindre end 1 mmol (39 milligram) kalium pr. dosis, dvs. det er i det
-væsentlige kaliumfrit.</p>         </div>"""   
+væsentlige kaliumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zostavax"
@@ -502,7 +508,7 @@ væsentlige kaliumfrit.</p>         </div>"""
 Hvis du har en sygdom, der vedrører blodets evne til at størkne, eller hvis du har for få blodplader i blodet,
 bliver indsprøjtningen givet under huden.
 ZOSTAVAX gives i en enkelt dosis.
-Rekonstitutionsanvisninger til læger og sundhedspersonale findes sidst i indlægssedlen.</p>         </div>"""         
+Rekonstitutionsanvisninger til læger og sundhedspersonale findes sidst i indlægssedlen.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -539,7 +545,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
 information om sikkerheden af dette lægemiddel.</p>
-<p>42</p>         </div>"""      
+<p>42</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zostavax"
@@ -552,7 +558,7 @@ sidste dag i den nævnte måned.
 Opbevares i køleskab og transporteres nedkølet (2 °C-8 °C). Må ikke nedfryses. Opbevar hætteglasset i
 den ydre karton for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -728,7 +734,7 @@ Den rekonstituerede vaccine må ikke nedfryses.
 Hele hætteglassets indhold af rekonstitueret vaccine trækkes op i en injektionssprøjte, kanylen skiftes og
 hele mængden injiceres subkutant eller intramuskulært.
 Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.
-Se også punkt </p>         </div>"""      
+Se også punkt </p> </div>"""      
 
 
 

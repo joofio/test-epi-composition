@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store TAVLESSE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ reduce the risk of severe bleeding. </p>
 TAVLESSE is used to treat adults with low platelet counts due to chronic immune thrombocytopenia 
 (ITP) when an earlier treatment for ITP has not worked well enough. ITP is an autoimmune disease, in 
 which the body s own immune system attacks and destroys platelets in the blood. Platelets are needed 
-to help create clots and stop bleeding. </p>         </div>"""   
+to help create clots and stop bleeding. </p> </div>"""   
           
 
              
@@ -169,7 +172,7 @@ salt) per tablet. This is equivalent to 1.2% of the recommended maximum daily di
 sodium for an adult. </p>
 <p>TAVLESSE 150 mg film-coated tablets contains 34 mg sodium (main component of cooking/table 
 salt) per tablet. This is equivalent to 1.7% of the recommended maximum daily dietary intake of 
-sodium for an adult. </p>         </div>"""   
+sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tavlesse"
@@ -207,7 +210,7 @@ scheduled time. </p>
 <p>If you stop taking TAVLESSE 
 It is important to take TAVLESSE for as long as your doctor prescribes it. Do not stop taking this 
 medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -252,7 +255,7 @@ bowel movement </p>
 If any of the side effects gets serious, or if you notice any side effects not listed in this leaflet, please 
 tell your doctor or your pharmacist. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tavlesse"
@@ -265,7 +268,7 @@ original package to protect from moisture. Keep the bottle tightly closed. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle after EXP. The expiry date 
 refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ Grifols Polska Sp. z o. o.
 Tel: +48 22 378 85 PT 
 Grifols Portugal, Lda. 
 Tel: +351 219 255 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -356,7 +359,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -365,7 +370,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -380,7 +386,7 @@ Usage: #inline
 3. Sådan skal du tage TAVLESSE 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -398,7 +404,7 @@ TAVLESSE anvendes til behandling af voksne med et lavt antal blodplader på grun
 immun trombocytopeni (ITP), når en tidligere behandling mod ITP ikke har virket tilstrækkeligt. 
 Kronisk immun trombocytopeni er en autoimmun sygdom, hvor kroppens eget immunsystem angriber 
 og ødelægger blodpladerne i blodet. Blodplader er nødvendige for at få blodet til at størkne, så 
-blødning kan standses. </p>         </div>"""   
+blødning kan standses. </p> </div>"""   
           
 
              
@@ -537,7 +543,7 @@ er et problem. Der er ingen indvirkning på mænd. </p>
 voksen. </p>
 <p>TAVLESSE 150 mg filmovertrukne tabletter indeholder 34 mg natrium (hovedbestanddelen i køkken-
 /bordsalt) pr. tablet. Det svarer til 1,7% af det anbefalede maksimale daglige indtag af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tavlesse"
@@ -575,7 +581,7 @@ sædvanlige, planlagte tidspunkt. </p>
 <p>Hvis du holder op med at tage TAVLESSE 
 Det er vigtigt at tage TAVLESSE i så lang tid, som din læge har ordineret. Du må ikke holde op med 
 at tage dette lægemiddel, medmindre lægen har bedt dig om det. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -664,7 +670,7 @@ Hvis en bivirkning bliver værre, bør du tale med lægen eller apotekspersonale
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tavlesse"
@@ -677,7 +683,7 @@ originale pakning for at beskytte mod fugt. Beholderen holdes tæt lukket. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på beholderen efter EXP. Udløbsdatoen refererer 
 til den sidste dag i den pågældende måned. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
-apotekspersonalet, hvordan du skal bortskaffe medicinrester.  </p>         </div>"""      
+apotekspersonalet, hvordan du skal bortskaffe medicinrester.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -746,7 +752,7 @@ Grifols Portugal, Lda.
 Tel: +351 219 255 Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt; </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: 
-https://www.ema.europa.eu/en </p>         </div>"""      
+https://www.ema.europa.eu/en </p> </div>"""      
 
 
 

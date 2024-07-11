@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Trizivir  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ virus in your body and keeps it at a low level. This helps your body to increase
 your blood. CD4 cells are a type of white blood cell that are important in helping your body to fight 
 infection. </p>
 <p>Not everyone responds to treatment with Trizivir in the same way. Your doctor will monitor the 
-effectiveness of your treatment. </p>         </div>"""   
+effectiveness of your treatment. </p> </div>"""   
           
 
              
@@ -192,7 +195,7 @@ Trizivir can make you dizzy and have other side effects that make you less alert
 Don t drive or operate machines unless you re feeling well. </p>
 <p>Important information about some of the other ingredients of Trizivir tablets. 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trizivir"
@@ -222,7 +225,7 @@ symptoms were related to a hypersensitivity reaction. If the doctor thinks they 
 related, you will be told never again to take Trizivir, or any other medicine containing 
 abacavir (Kivexa,Triumeq or Ziagen). It is important that you follow this advice. </p>
 <p>If your doctor advises that you can start taking Trizivir again, you may be asked to take your first 
-doses in a place where you will have ready access to medical care if you need it. </p>         </div>"""         
+doses in a place where you will have ready access to medical care if you need it. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -450,7 +453,7 @@ acidosis </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trizivir"
@@ -462,7 +465,7 @@ this medicine. </p>         </div>"""
 day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -562,7 +565,7 @@ Tel: + 371 80205United Kingdom (Northern Ireland)
 ViiV Healthcare BV<br />
 Tel: + 44 (0)800 221customercontactuk@gsk.com   </p>
 <p>This leaflet was last revised in {MM/YYYY}  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -601,7 +604,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -610,7 +615,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -625,7 +631,7 @@ Usage: #inline
 3. Sådan skal du tage Trizivir 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -642,7 +648,7 @@ nedsætter mængden af virus i din krop og holder det på et lavt niveau. Dette 
 øge antallet af CD4-celler i dit blod. CD4-celler er en type hvide blodlegemer, der er vigtige for 
 bekæmpelse af infektion. </p>
 <p>Personer reagerer forskelligt på behandling med Trizivir. Lægen vil følge virkningen af din 
-behandling. </p>         </div>"""   
+behandling. </p> </div>"""   
           
 
              
@@ -750,7 +756,7 @@ Trizivir kan gøre dig svimmel og have andre bivirkninger, der gør dig mindre o
 Før ikke motorkøretøjer eller betjen maskiner, medmindre du føler, at du har det godt. </p>
 <p>Vigtig information om nogle af de øvrige indholdsstoffer i Trizivir tabletter<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
-væsentlige natriumfrit.  </p>         </div>"""   
+væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trizivir"
@@ -782,7 +788,7 @@ besked på aldrig mere at tage Trizivir eller ethvert andet lægemiddel med abac
 (Kivexa, Triumeq eller Ziagen). Det er vigtigt, at du følger lægens råd. </p>
 <p>Hvis lægen foreslår, at du genoptager behandlingen med Trizivir, kan det være, at du bliver rådet til at 
 tage første dosis på et sted, hvor du vil have mulighed for hurtigt at få lægehjælp, hvis det skulle blive 
-nødvendigt. </p>         </div>"""         
+nødvendigt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1018,7 +1024,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trizivir"
@@ -1030,7 +1036,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1174,7 +1180,7 @@ og begrundelser for anbefalingen. </p>
 opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder abacavir / 
 lamivudin / zidovudin forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
 produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 

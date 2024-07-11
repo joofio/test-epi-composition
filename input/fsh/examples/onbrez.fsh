@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Onbrez Breezhaler </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ in the lungs. This helps open up the airways, making it easier to get air in and
 Onbrez Breezhaler is used to make breathing easier for adult patients who have breathing difficulties 
 due to a lung disease called chronic obstructive pulmonary disease (COPD). In COPD the muscles 
 around the airways tighten. This makes breathing difficult. This medicine relaxes these muscles in the 
-lungs, making it easier for air to get in and out of the lungs. </p>         </div>"""   
+lungs, making it easier for air to get in and out of the lungs. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ your doctor or pharmacist for advice before using this medicine. </p>
 It is unlikely that Onbrez Breezhaler will affect your ability to drive and use machines. </p>
 <p>Onbrez Breezhaler contains lactose 
 This medicine contains lactose (milk sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before using this medicine. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before using this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onbrez"
@@ -169,7 +172,7 @@ double dose to make up for a forgotten dose. </p>
 when you have breathing problems or other symptoms of COPD. 
 If you have questions about how long to continue your treatment with Onbrez Breezhaler, talk to your 
 doctor or pharmacist. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -215,7 +218,7 @@ there is no need for concern. If the capsule is not empty then inhale again as d
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onbrez"
@@ -230,7 +233,7 @@ Store in the original package in order to protect from moisture and do not remov
 before use. 
 Do not use this medicine if you notice that the pack is damaged or show signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -377,7 +380,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -386,7 +391,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -401,7 +407,7 @@ Usage: #inline
 3. Sådan skal du tage Onbrez Breezhaler 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -418,7 +424,7 @@ Onbrez Breezhaler bruges til at lette vejrtrækningen hos voksne patienter, som 
 åndedrætsbesvær pga. en lungesygdom, som kaldes kronisk obstruktiv lungesygdom (KOL). Ved 
 KOL trækker musklerne omkring luftvejene sig sammen. Dette gør det svært at trække vejret. Dette 
 lægemiddel afslapper disse muskler i lungerne, hvilket gør det nemmere for luften at komme ind og ud 
-af lungerne. </p>         </div>"""   
+af lungerne. </p> </div>"""   
           
 
              
@@ -478,7 +484,7 @@ du spørge din læge eller apotekspersonalet til råds, før du tager dette læg
 Det er usandsynligt, at Onbrez Breezhaler vil påvirke din evne til at køre bil eller betjene maskiner. </p>
 <p>Onbrez Breezhaler indeholder lactose 
 Dette lægemiddel indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
-fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onbrez"
@@ -531,7 +537,7 @@ KOL er en langtidssygdom, og du skal bruge Onbrez Breezhaler hver dag og ikke bl
 har åndedrætsbesvær eller andre symptomer på KOL. 
 Hvis du har spørgsmål om, hvor lang tid du skal fortsætte din behandling med Onbrez Breezhaler, skal 
 du tale med din læge eller apoteket. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -601,7 +607,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onbrez"
@@ -616,7 +622,7 @@ Opbevares i den originale pakning for at beskytte mod fugt og må først trykkes
 Brug ikke lægemidlet, hvis du bemærker at pakningen er beskadiget eller viser tegn på at have været 
 åbnet. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -934,7 +940,7 @@ Blister
 Sideknapper 
 Inhalator 
 Inhalatorunderdel 
-Blisterkort </p>         </div>"""      
+Blisterkort </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Pepaxti </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ stop the cancer cells from growing. </p>
 myeloma. It is used when the disease does not respond to at least three types of cancer medicine. If 
 you have been treated with a blood stem cell transplant (a procedure where the cells that make your 
 blood are cleared out and replaced), the time to when the multiple myeloma came back after 
-transplantation should be at least 3 years.  </p>         </div>"""   
+transplantation should be at least 3 years.  </p> </div>"""   
           
 
              
@@ -155,7 +158,7 @@ Pepaxti can affect ovaries or sperm, which may cause infertility (inability to h
 menstruation can stop. In men, inability to father a child (sterility) due to lack of sperm can be 
 permanent. Ask your doctor for advice on sperm preservation before treatment.  </p>
 <p>Driving and using machines 
-Pepaxti can cause nausea and dizziness, which may reduce your ability to drive or use machines.   </p>         </div>"""   
+Pepaxti can cause nausea and dizziness, which may reduce your ability to drive or use machines.   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pepaxti"
@@ -173,7 +176,7 @@ This medicine will be given by your doctor or nurse. In the unlikely event that 
 (an overdose) your doctor will check you, including taking blood samples to monitor your blood cells. </p>
 <p>If a dose of Pepaxti is missed 
 It is very important to go to all your appointments, to make sure your treatment works. If you miss an 
-appointment, contact your doctor or hospital as soon as possible. </p>         </div>"""         
+appointment, contact your doctor or hospital as soon as possible. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -237,7 +240,7 @@ effects. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pepaxti"
@@ -251,7 +254,7 @@ The expiry date refers to the last day of that month.
 Store in a refrigerator (2 C 8 C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. These measures will help 
-protect the environment. </p>         </div>"""      
+protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -280,7 +283,7 @@ Belgium </p>
 Tel: +46 8 615 20 e-mail: info@oncopeptides.com </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -319,7 +322,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -328,7 +333,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -345,7 +351,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -360,7 +366,7 @@ beskadige det og medvirker derved til at forhindre kræftcellerne i at vokse. </
 myelomatose. Det anvendes, når mindst tre typer kræftlægemidler ikke virker på sygdommen. Hvis du 
 er blevet behandlet med en blodstamcelletransplantation (en procedure, hvor de celler, der danner 
 blodet, fjernes og udskiftes), skal der gå mindst tre år mellem transplantationen og det tidspunkt, hvor 
-myelomatose vender tilbage. </p>         </div>"""   
+myelomatose vender tilbage. </p> </div>"""   
           
 
              
@@ -447,7 +453,7 @@ børn). Hos kvinder kan menstruation ophøre. Hos mænd kan manglende evne til a
 behandlingen. </p>
 <p>Trafik- og arbejdssikkerhed 
 Pepaxti kan forårsage kvalme og svimmelhed, hvilket kan nedsætte din evne til at føre motorkøretøj 
-eller betjene maskiner. </p>         </div>"""   
+eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pepaxti"
@@ -466,7 +472,7 @@ meget (en overdosis), vil lægen kontrollere dig, blandt andet tage blodprøver 
 blodlegemer. </p>
 <p>Hvis du har glemt at bruge Pepaxti 
 Det er meget vigtigt, at du møder op til alle aftaler for at sikre, at behandlingen virker. Hvis du 
-glemmer en aftale, skal du kontakte lægen eller hospitalet så hurtigt som muligt. </p>         </div>"""         
+glemmer en aftale, skal du kontakte lægen eller hospitalet så hurtigt som muligt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -609,7 +615,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pepaxti"
@@ -624,7 +630,7 @@ sundhedspersoner. </p>
 Opbevares i køleskab (2 ºC - 8 ºC). Må ikke nedfryses. 
 Opbevares i den originale pakning for at beskytte mod lys. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Dette vil 
-medvirke til at skåne miljøet. </p>         </div>"""      
+medvirke til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -851,7 +857,7 @@ injektionsvæske. </p>
 Pepaxti er et cytotoksisk lægemiddel til engangsbrug. Proceduren for sikker håndtering og 
 bortskaffelse af kvælstofsennepsgas-analoger skal følges af sundhedspersoner og medicinsk personale 
 og skal følge de gældende anbefalinger for cytotoksiske lægemidler. Ikke anvendt lægemiddel samt 
-affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

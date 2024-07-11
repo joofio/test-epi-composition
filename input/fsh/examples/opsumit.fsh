@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Opsumit</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ that carry blood from the heart to the lungs (the pulmonary arteries). In people
 arteries get narrower, so the heart has to work harder to pump blood through them. This causes people 
 to feel tired, dizzy, and short of breath.
 Opsumit widens the pulmonary arteries, making it easier for the heart to pump blood through them. 
-This lowers the blood pressure, relieves the symptoms and improves the course of the disease.</p>         </div>"""   
+This lowers the blood pressure, relieves the symptoms and improves the course of the disease.</p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ intolerance to some sugars, contact your doctor before taking this medicine.
 Opsumit contains lecithin derived from soya. If you are allergic to soya, do not use this medicine (see 
 section 2  Do not take Opsumit ).
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opsumit"
@@ -202,7 +205,7 @@ at the usual times. Do not take a double dose to make up for a forgotten tablet.
 If you stop taking Opsumit
 Opsumit is a treatment that you will need to keep on taking to control your PAH. Do not stop taking 
 Opsumit unless you have agreed this with your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -234,7 +237,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opsumit"
@@ -246,7 +249,7 @@ Do not use Opsumit after the expiry date which is stated on the carton and blist
 expiry date refers to the last day of that month.
 Do not store above 30 C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer require. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer require. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -355,7 +358,7 @@ Tel: +371 678 93lv@its.jnj.com
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -394,7 +397,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -403,7 +408,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -418,7 +424,7 @@ Usage: #inline
 3. Sådan skal du tage Opsumit
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -434,7 +440,7 @@ der transporterer blodet fra hjertet til lungerne (lungearterierne). Hos persone
 disse arterier smallere, så hjertet skal arbejde hårdere for at pumpe blod igennem dem. Dette forårsager 
 træthed, svimmelhed og åndenød.
 Opsumit udvider lungearterierne, så det bliver nemmere for hjertet at pumpe blod igennem dem. Det 
-får blodtrykket til at falde, lindrer symptomerne og forbedrer sygdomsforløbet.</p>         </div>"""   
+får blodtrykket til at falde, lindrer symptomerne og forbedrer sygdomsforløbet.</p> </div>"""   
           
 
              
@@ -567,7 +573,7 @@ hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter.
 Opsumit indeholder lecithin, der er udledt fra soja. Hvis du er allergisk over for soja, må du ikke bruge 
 dette lægemiddel (se afsnit 2 "Tag ikke Opsumit").
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opsumit"
@@ -590,7 +596,7 @@ som erstatning for den glemte tablet.
 Hvis du holder op med at tage Opsumit
 Opsumit er en behandling, som du skal blive ved med at tage for at holde din PAH under kontrol. Du 
 må ikke stoppe med at tage Opsumit, medmindre du har aftalt det med lægen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -639,7 +645,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonale
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opsumit"
@@ -652,7 +658,7 @@ Brug ikke Opsumit efter den udløbsdato, der står på kartonen og blisteren eft
 den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 30 ºC.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -798,7 +804,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 Denne indlægsseddel blev senest ændret
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

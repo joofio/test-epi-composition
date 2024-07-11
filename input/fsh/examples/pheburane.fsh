@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store PHEBURANE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ because the body cannot eliminate it. Ammonia is especially toxic for the brain 
 severe cases, to reduced levels of consciousness and to coma. </p>
 <p>This medicine helps the body to eliminate waste nitrogen, reducing the amount of ammonia in 
 your body. However PHEBURANE must be used along with a diet reduced in proteins, 
-designed especially for you by the doctor and the dietician. You must follow this diet carefully. </p>         </div>"""   
+designed especially for you by the doctor and the dietician. You must follow this diet carefully. </p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ Talk to your doctor or pharmacist if you need 3 or more grams daily for a prolon
 especially if you have been advised to follow a low salt (sodium) diet.  </p>
 <p>This medicine contains 768 mg sucrose in each gram granules. This should be taken into 
 account if you have diabetes mellitus. If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine.  </p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pheburane"
@@ -192,7 +195,7 @@ nearest hospital emergency department for supportive treatment. </p>
 <p>If you forget to take PHEBURANE 
 You should take a dose as soon as possible with your next meal. Make sure that there are at least 
 3 hours between two doses. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -220,7 +223,7 @@ of the stomach, stomach ulcer, inflammation of the pancreas. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pheburane"
@@ -232,7 +235,7 @@ information on the safety of this medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>After the first opening, PHEBURANE can be used within 45 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -350,7 +353,7 @@ United Kingdom (Northern Ireland)
 Lucane Pharma 
 Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>This leaflet was last revised in:  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -389,7 +392,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -398,7 +403,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -415,7 +421,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Sådan skal du opbevare PHEBURANE  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -432,7 +438,7 @@ ikke kan udskille det. Ammoniak er især giftigt for hjernen og fører i alvorli
 nedsat bevidsthed og til koma. </p>
 <p>PHEBURANE hjælper kroppen med at fjerne kvælstofaffald, hvilket reducerer mængden af 
 ammoniak i kroppen. PHEBURANE oral opløsning skal imidlertid anvendes sammen med en 
-proteinbegrænset diæt udarbejdet af en læge og diætist specielt til dig. Du skal følge denne diæt nøje. </p>         </div>"""   
+proteinbegrænset diæt udarbejdet af en læge og diætist specielt til dig. Du skal følge denne diæt nøje. </p> </div>"""   
           
 
              
@@ -519,7 +525,7 @@ genetisk lidelse, hvor phenylalanin opbygges, fordi kroppen ikke kan udskille de
 <p>Smagsstoffet med solbærsmag indeholder propylenglycol 
 Dette lægemiddel indeholder 26,55 mg propylenglycol pr. dråbe. </p>
 <p>Hvis dit barn er under 4 uger gammelt, skal du tale med din læge eller apoteket, før du administrerer 
-dette lægemiddel, især hvis barnet får anden medicin, der indeholder propylenglycol eller alkohol. </p>         </div>"""   
+dette lægemiddel, især hvis barnet får anden medicin, der indeholder propylenglycol eller alkohol. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pheburane"
@@ -627,7 +633,7 @@ nærmeste skadestue for at få roborerende behandling. </p>
 <p>Hvis du har glemt at tage PHEBURANE oral opløsning<br />
 Du skal tage en dosis så hurtigt som muligt med næste måltid. Sørg for, at der er mindst 3 timer 
 mellem to doser. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -655,7 +661,7 @@ blødning, inflammation i maven, mavesår, betændelse i bugspytkirtlen. </p>
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
 nævnt her. Du kan også indberette bivirkninger direkte via det nationale indberetningssystem, der er 
 anført iAppendiks V*. Ved at indberette bivirkninger kan du hjælpe med at levere mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pheburane"
@@ -671,7 +677,7 @@ uger efter åbning. Flasken skal kasseres, selvom den ikke er tom. </p>
 Flasken skal kasseres, selvom den ikke er tom. </p>
 <p>Dette lægemiddel kræver ingen særlige opbevaringsforhold.  </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet. Spørg på apoteket, hvordan du skal 
-bortskaffe medicinrester. Sådanne forholdsregler hjælper med at beskytte miljøet. </p>         </div>"""      
+bortskaffe medicinrester. Sådanne forholdsregler hjælper med at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -837,7 +843,7 @@ Tel: +31 35 528 39 info@lucanepharma.com </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. </p>
-<p>Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p>         </div>"""      
+<p>Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p> </div>"""      
 
 
 

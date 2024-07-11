@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cegfila </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ chemotherapy which can cause the number of these cells in your body to decrease.
 fall to a low level there may not be enough left in the body to fight bacteria and you may have an 
 increased risk of infection. </p>
 <p>Your doctor has given you Cegfila to encourage your bone marrow (part of the bone which makes 
-blood cells) to produce more white blood cells that help your body fight infection. </p>         </div>"""   
+blood cells) to produce more white blood cells that help your body fight infection. </p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ pregnant women. It is important to tell your doctor if you:</p>
 <p>Cegfila contains sorbitol (E 420) and sodium acetate </p>
 <p>This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg / mL. </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium per 6 mg dose, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cegfila"
@@ -187,7 +190,7 @@ leaflet. </p>
 <p>If you forget to inject Cegfila </p>
 <p>If you have forgotten a dose of Cegfila, you should contact your doctor to discuss when you should 
 inject the next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -247,7 +250,7 @@ symptoms and contact your doctor or seek medical attention immediately. See also
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cegfila"
@@ -266,7 +269,7 @@ each. </p>
 <p>Keep the container in the outer carton in order to protect from light. </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -379,7 +382,7 @@ United Kingdom (Northern Ireland)
 Mundipharma Pharmaceuticals Limited<br />
 Tel: +353 1 206 3This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -418,7 +421,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -427,7 +432,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -444,7 +449,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -464,7 +469,7 @@ modtagelige for effekterne af kemoterapi, hvilket kan medføre, at antallet af d
 mindskes. Hvis antallet af hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er 
 nok celler tilbage i kroppen til at bekæmpe bakterier, og du kan have en øget risiko for infektion. </p>
 <p>Din læge har ordineret Cegfila til dig for at støtte din knoglemarv (hvor blodceller dannes) til at 
-producere flere hvide blodlegemer, der hjælper din krop med at bekæmpe infektion. </p>         </div>"""   
+producere flere hvide blodlegemer, der hjælper din krop med at bekæmpe infektion. </p> </div>"""   
           
 
              
@@ -562,7 +567,7 @@ maskiner. </p>
 <p>Cegfila indeholder sorbitol (E 420) og natriumacetat </p>
 <p>Dette lægemiddel indeholder 30 mg sorbitol i hver fyldte injektionssprøjte, svarende til 50 mg/ml. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 g) natrium pr. 6 mg dosis, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cegfila"
@@ -586,7 +591,7 @@ Cegfila. </p>
 <p>Hvis du har glemt at indsprøjte Cegfila </p>
 <p>Hvis din har glemt en dosis Cegfila, kontakt da din læge for at aftale, hvornår du skal indsprøjte den 
 næste dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -684,7 +689,7 @@ pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen v
 rapporteringssystem anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at 
 fremskaffe mere information om sikkerheden af dette lægemiddel. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cegfila"
@@ -702,7 +707,7 @@ skal den anvendes inden for 4 dage eller bortskaffes. </p>
 <p>Opbevar beholderen i den ydre karton for at beskytte mod lys. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at det er grumset eller at der er partikler i det. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -970,7 +975,7 @@ husholdningsaffaldet </p>
 <p>B 
 Undersøg injektionsstedet. 
 Tryk en tot vat eller et gazekompres ned på injektionsstedet, hvis det bløder. Gnid ikke på 
-injektionsstedet. Sæt om nødvendigt et plaster på. </p>         </div>"""      
+injektionsstedet. Sæt om nødvendigt et plaster på. </p> </div>"""      
 
 
 
@@ -1009,7 +1014,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1018,7 +1025,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1035,7 +1043,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Cegfila  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1056,7 +1064,7 @@ pode provocar uma diminuição do número destas células no seu corpo. Se o nú
 brancos diminuir até um nível baixo podem não ser suficientes para combater as bactérias e pode 
 ocorrer um risco aumentado de infeção. </p>
 <p>O seu médico prescreveu-lhe Cegfila para estimular a sua medula óssea (parte do osso que produz as 
-células do sangue) a produzir mais glóbulos brancos, que ajudarão o seu corpo a combater as infeções. </p>         </div>"""   
+células do sangue) a produzir mais glóbulos brancos, que ajudarão o seu corpo a combater as infeções. </p> </div>"""   
           
 
              
@@ -1147,7 +1155,7 @@ está a planear ter um bebé. </p>
 <p>Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia, o que é equivalente a 
 50 mg/ml. </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 6 mg, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar cegfila"
@@ -1172,7 +1180,7 @@ mesmo. </p>
 <p>No caso de se esquecer de uma dose de Cegfila, deverá contactar o seu médico para decidir quando 
 deverá ser administrada a dose seguinte. 
 - Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1256,7 +1264,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá co
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar cegfila"
@@ -1276,7 +1284,7 @@ menos de 72 horas cada. </p>
 <p>Não utilize este medicamento se estiver turvo ou com partículas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1288,7 +1296,7 @@ o ambiente. </p>         </div>"""
 - A substância ativa é o pegfilgrastim. Cada seringa pré-cheia contém 6 mg de pegfilgrastim em 
 0,6 ml de solução. 
 - Os outros componentes são acetato de sódio, sorbitol (E 420), polissorbato 20 e água para 
-preparações injetáveis. Ver secção </p>         </div>"""      
+preparações injetáveis. Ver secção </p> </div>"""      
 
 
 

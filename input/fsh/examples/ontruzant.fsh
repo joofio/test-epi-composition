@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ontruzant </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ medicines called aromatase inhibitors with patients with high levels of HER2 and
 receptor-positive metastatic breast cancer (cancer that is sensitive to the presence of female sex 
 hormones). 
 * You have metastatic gastric cancer with high levels of HER2, when it is in combination with the 
-other cancer medicines capecitabine or 5-flououracil and cisplatin. </p>         </div>"""   
+other cancer medicines capecitabine or 5-flououracil and cisplatin. </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ experience symptoms such as dizziness, sleepiness, chills or fever, you should n
 machines until these symptoms disappear. </p>
 <p>Sodium<br />
 This medicine contains less than 1 mmol of sodium (23 mg) per dose, that is to say essentially 
-sodium-free. </p>         </div>"""   
+sodium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ontruzant"
@@ -191,7 +194,7 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can. </p>
 <p>It may take up to 7 months for Ontruzant to be removed from your body. Therefore, your doctor may 
 decide to continue to check your heart functions, even after you finish treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -347,7 +350,7 @@ Ontruzant in combination with chemotherapy, some of them may also be due to the 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ontruzant"
@@ -368,7 +371,7 @@ be longer than 24 hours 2 C - 8 C. </li>
 <li>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist 
 how to dispose of medicines no longer required. These measures will help to protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -493,7 +496,7 @@ Tel: + 371 66968dpoc.latvia@organon.com  </p>
 Organon Pharma (UK) Limited 
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -532,7 +535,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -541,7 +546,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -558,7 +564,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -586,7 +592,7 @@ følsom over for tilstedeværelsen af kvindelige kønshormoner).  </p>
 <p>Du har metastatisk mavekræft med høje koncentrationer af HER2, når det er i kombination med 
 de andre kræftlægemidler, capecitabin eller 5-fluoruracil og cisplatin. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -677,7 +683,7 @@ behandlingen får symptomer såsom svimmelhed, søvnighed, kulderystelser eller 
 køre bil, motorcykel, cykle eller betjene maskiner, før symptomerne er forsvundet. </p>
 <p>Natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfri. </p>         </div>"""   
+væsentlige natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ontruzant"
@@ -707,7 +713,7 @@ doser på det rigtige tidspunkt hver uge eller hver tredje uge (afhængigt af di
 sikrer, at lægemidlet virker bedst muligt. </p>
 <p>Det kan tage op til 7 måneder at udskille Ontruzant fra kroppen. Derfor kan din læge beslutte at 
 fortsætte med at kontrollere din hjertefunktion, efter din behandling er stoppet. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1037,7 +1043,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ontruzant"
@@ -1071,7 +1077,7 @@ ansvar og vil normalt ikke overstige 24 timer ved 2 °C-8 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1303,7 +1309,7 @@ Legemsvægt (kg) x dosis (8 mg/kg til støddosis eller 6 mg/kg til vedligeholdel
 og sprøjte og tilsæt den til en infusionspose af polyvinylchlorid, polyethylen eller polypropylen 
 indeholdende 250 ml 0,9 % natriumchloridopløsning. Der må ikke anvendes glukoseholdige 
 opløsninger. Vend forsigtigt posen op og ned for at blande opløsningen og for at undgå skumdannelse. 
-Parenterale opløsninger skal inspiceres visuelt for partikler og misfarvning før administration. </p>         </div>"""      
+Parenterale opløsninger skal inspiceres visuelt for partikler og misfarvning før administration. </p> </div>"""      
 
 
 
@@ -1342,7 +1348,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1351,7 +1359,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1368,7 +1377,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Ontruzant </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1399,7 +1408,7 @@ femininas). </p>
 <p>tiver cancro gástrico metastático com níveis elevados de HER2, em associação com outros 
 medicamentos para o cancro, a capecitabina, ou 5-fluorouracilo e cisplatina. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1493,7 +1502,7 @@ sintomas como tonturas, sonolência, calafrios e febre durante o tratamento, nã
 utilizar máquinas até que estes sintomas desapareçam. </p>
 <p>Sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ontruzant"
@@ -1527,7 +1536,7 @@ esquema posológico). Isto ajudará o seu medicamento a funcionar o melhor poss�
 poderá decidir continuar a verificar o funcionamento do seu coração, mesmo depois de terminar o 
 tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1860,7 +1869,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ontruzant"
@@ -1897,7 +1906,7 @@ da responsabilidade do utilizador e normalmente não deverão ser superiores a 2
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -2033,7 +2042,7 @@ Tel: + 371 66968dpoc.latvia@organon.com  </p>
 Organon Pharma (UK) Limited 
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

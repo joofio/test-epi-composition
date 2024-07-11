@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Norvir</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 infection.  Norvir is used in combination with other anti-HIV medicines (antiretrovirals) to control 
 your HIV infection.  Your doctor will discuss with you the best combination of medicines for you.
 Norvir is used by children 2 years of age or older, adolescents and adults who are infected with HIV, 
-the virus which causes AIDS.  </p>         </div>"""   
+the virus which causes AIDS.  </p> </div>"""   
           
 
              
@@ -322,7 +325,7 @@ on to the baby in breast milk.
 If you are breast-feeding, or thinking about breast-feeding, you should discuss it with your doctor as 
 soon as possible.
 Driving and using machines
-Norvir can cause dizziness.  If you are affected do not drive or use machinery. </p>         </div>"""   
+Norvir can cause dizziness.  If you are affected do not drive or use machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take norvir"
@@ -525,7 +528,7 @@ If you miss a dose, take the missed dose as soon as possible.  If it is nearly t
 take that one.  Do not take a double dose to make up for a forgotten dose.
 If you stop taking Norvir
 Even if you feel better, do not stop taking Norvir without talking to your doctor.  Taking Norvir as 
-recommended should give you the best chance of delaying resistance to the medicines.</p>         </div>"""         
+recommended should give you the best chance of delaying resistance to the medicines.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -617,7 +620,7 @@ Not known: frequency cannot be estimated from the available data</p>
 Tell your doctor if you feel sick (nauseous), are vomiting, or have stomach pain, because these may be 
 signs of an inflamed pancreas.  Also tell your doctor if you experience joint stiffness, aches and pains 
 (especially of the hip, knee and shoulder) and difficulty moving, as this may be a sign of 
-osteonecrosis.  See also section </p>         </div>"""      
+osteonecrosis.  See also section </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store norvir"
@@ -645,7 +648,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects, you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -659,7 +662,7 @@ expiry date refers to the last day of the month.
 Norvir powder for oral suspension should be stored below 30 C.<br />
 Do not use this medicine if you notice the powder is not beige/pale yellow to yellow.
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment.</p>         </div>"""      
+you no longer use. These measures will help protect the environment.</p> </div>"""      
 
 
 
@@ -698,7 +701,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -707,7 +712,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -722,7 +728,7 @@ Usage: #inline
 3. Sådan skal du tage Norvir
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -735,7 +741,7 @@ kontrollere hiv-infektion. Norvir anvendes i kombination med andre lægemidler m
 (antiretrovirale lægemidler) til at kontrollere hiv-infektion. Din læge vil drøfte med dig, hvilken 
 kombination af lægemidler der er bedst for dig.
 Norvir bruges til børn på 2 år og derover, unge og voksne, som er inficeret med hiv, den virus som 
-forårsager AIDS.</p>         </div>"""   
+forårsager AIDS.</p> </div>"""   
           
 
              
@@ -1028,7 +1034,7 @@ cykle eller arbejde med værktøj eller maskiner.
 Norvir indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
 væsentlige natriumfrit.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take norvir"
@@ -1070,7 +1076,7 @@ Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.
 Hvis du holder op med at tage Norvir
 Selv om du føler dig bedre tilpas, må du ikke holde op med at tage Norvir uden først at have talt med 
 din læge. Ved at tage Norvir, som det er ordineret, har du størst chance for at forsinke udviklingen af 
-resistens mod medicinen.</p>         </div>"""         
+resistens mod medicinen.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1215,7 +1221,7 @@ nyresten
 Fortæl det til din læge, hvis du får kvalme, kaster op eller får ondt i maven, da dette kan være tegn på 
 betændelse i bugspytkirtlen.  Du skal også fortælle det til din læge, hvis du får stivhed, ømhed og 
 smerter i led (især hofte, knæ og skulder) samt bevægelsesbesvær, da dette kan være tegn på 
-knoglenekrose.  Se også punkt </p>         </div>"""      
+knoglenekrose.  Se også punkt </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store norvir"
@@ -1243,7 +1249,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1259,7 +1265,7 @@ Der er ingen særlige krav vedrørende opbevaringenstemperaturer for dette læge
 den originale flaske for at beskytte mod fugt.
 Brug ikke lægemidlet, hvis du bemærker nogen som helst misfarvning.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
 
 
 
@@ -1298,7 +1304,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1307,7 +1315,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1322,7 +1331,7 @@ Usage: #inline
 3. Como tomar Norvir
 4. Efeitos secundários possíveis
 5. Como conservar Norvir
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1335,7 +1344,7 @@ infeção pelo VIH. Norvir é usado em associação com outros medicamentos anti
 para controlar a sua infeção pelo VIH. O seu médico discutirá consigo qual a associação de 
 medicamentos que é melhor para si.
 Norvir é usado por crianças com 2 anos de idade ou mais, adolescentes e adultos que estão infetados 
-pelo VIH, o vírus que causa SIDA.</p>         </div>"""   
+pelo VIH, o vírus que causa SIDA.</p> </div>"""   
           
 
              
@@ -1505,7 +1514,7 @@ Sildenafil ou tadalafil para a impotência (disfunção erétil).
 Pode ser necessário diminuir a dose e/ou frequência destes medicamentos para evitar hipotensão 
 e ereção prolongada. Não deve tomar Norvir com sildenafil se sofrer de hipertensão arterial 
 pulmonar (ver também secção </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar norvir"
@@ -1623,7 +1632,7 @@ VIH pode ser transmitida ao bebé através do leite materno.
 Se estiver a amamentar ou planeia vir a amamentar, deve falar com o seu médico o mais rapidamente 
 possível.
 Condução de veículos e utilização de máquinas
-Norvir pode causar tonturas. Se tiver este efeito não deve conduzir nem utilizar máquinas. </p>         </div>"""         
+Norvir pode causar tonturas. Se tiver este efeito não deve conduzir nem utilizar máquinas. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1711,7 +1720,7 @@ Passo 10. Deite a saqueta vazia no lixo. Lave e seque a
 área de preparação. Lave imediatamente a colher e o copo 
 com água morna e detergente (ver Figura 7). Enxagúe e 
 deixe secar ao ar.
-Figura </p>         </div>"""      
+Figura </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar norvir"
@@ -2056,7 +2065,7 @@ Comunicação de efeitos secundários
 Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
 folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2070,7 +2079,7 @@ O prazo de validade corresponde ao último dia do mês indicado.
 Norvir pó para suspensão oral deve ser conservado a temperatura inferior a 30º C.
 Não utilize este medicamento se notar que o pó não é de cor bege/amarelo pálido a amarelo.
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
 
 
 

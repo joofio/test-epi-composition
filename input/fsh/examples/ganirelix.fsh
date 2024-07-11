@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ganirelix Gedeon Richter </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ methods, occasionally ovulation may occur too early causing a significant reduct
 getting pregnant. Ganirelix Gedeon Richter is used to prevent the premature LH surge that might cause 
 such a premature release of egg cells. 
 In clinical studies ganirelix was used with recombinant follicle stimulating hormone (FSH) or 
-corifollitropin alfa, a follicle stimulant with a long duration of action. </p>         </div>"""   
+corifollitropin alfa, a follicle stimulant with a long duration of action. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ Do not use Ganirelix Gedeon Richter during pregnancy and breast-feeding. </p>
 The effects of Ganirelix Gedeon Richter on ability to drive and use machines have not been studied. </p>
 <p>Ganirelix Gedeon Richter contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per injection, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ganirelix"
@@ -211,7 +214,7 @@ administer the dose as soon as possible and contact your doctor for further advi
 <p>If you stop using Ganirelix Gedeon Richter 
 Do not stop using Ganirelix Gedeon Richter unless advised to by your doctor, as this may affect the 
 outcome of your treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -246,7 +249,7 @@ the FSH-containing preparation you are treated with). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ganirelix"
@@ -264,7 +267,7 @@ undamaged containers. </p>
 <p>Alcohol swabs, gauze pads and sharps container are needed for administration of this medicine but 
 they are not provided in the pack. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ Gy mr i  t 19-21. 1103 Budapest
 Hungary </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -328,7 +331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -337,7 +342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -352,7 +358,7 @@ Usage: #inline
 3. Sådan skal du bruge Ganirelix Gedeon Richter 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -374,7 +380,7 @@ metoder, hvor der sommetider forekommer for tidlig ægløsning, hvilket forårsa
 nedsættelse af chancen for at blive gravid. Ganirelix Gedeon Richter anvendes til at forhindre den 
 tidlige bølge af LH, der kan forårsage en for tidlig ægløsning. 
 I kliniske studier blev ganirelix anvendt sammen med rekombinant follikelstimulerende hormon (FSH) 
-eller corifollitropin alfa, et follikelstimulerende stof med langtidsvirkning. </p>         </div>"""   
+eller corifollitropin alfa, et follikelstimulerende stof med langtidsvirkning. </p> </div>"""   
           
 
              
@@ -432,7 +438,7 @@ Der er ikke foretaget undersøgelser af indflydelsen på evnen til at føre moto
 maskiner. </p>
 <p>Ganirelix Gedeon Richter indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. injektion, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ganirelix"
@@ -500,7 +506,7 @@ rådgivning. </p>
 <p>Hvis du holder op med at bruge Ganirelix Gedeon Richter 
 Du må ikke stoppe med Ganirelix Gedeon Richter, medmindre din læge råder dig til det, da dette kan 
 påvirke resultatet af din behandling  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -536,7 +542,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ganirelix"
@@ -553,7 +559,7 @@ Opbevares i den originale yderpakning for at beskytte mod lys.  </p>
 <p>Spritservietter, gazekompresser og en kanylebeholder er nødvendige i forbindelse med indgivelse af 
 dette lægemiddel, men medfølger ikke i pakken. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -743,7 +749,7 @@ desinfektionsmiddel. </p>
 apoteket med henblik på korrekt bortskaffelse. Spørg apotekspersonalet, hvordan du skal 
 bortskaffe medicinrester. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 
@@ -782,7 +788,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -791,7 +799,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -808,7 +817,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Ganirelix Gedeon Richter  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -831,7 +840,7 @@ métodos, ocasionalmente pode ocorrer uma ovulação demasiado cedo causando uma
 significativa das hipóteses de engravidar. Ganirelix Gedeon Richter é usado para prevenir o pico 
 prematuro de LH que pode causar esta libertação prematura dos óvulos. 
 Em estudos clínicos, ganirelix foi utilizado com a hormona folículo-estimulante (FSH) recombinante 
-ou a corifolitropina alfa, um estimulante folicular com uma longa duração de ação. </p>         </div>"""   
+ou a corifolitropina alfa, um estimulante folicular com uma longa duração de ação. </p> </div>"""   
           
 
              
@@ -890,7 +899,7 @@ Não utilizar Ganirelix Gedeon Richter durante a gravidez e aleitamento. </p>
 máquinas. </p>
 <p>Ganirelix Gedeon Richter contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por injeção, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ganirelix"
@@ -964,7 +973,7 @@ Se o esquecimento for superior a 6 horas (o intervalo entre as duas injeções s
 Não pare de utilizar Ganirelix Gedeon Richter a não ser por indicação do seu médico, uma vez que 
 pode afetar o resultado do seu tratamento.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1019,7 +1028,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ganirelix"
@@ -1038,7 +1047,7 @@ e de embalagens não danificadas. </p>
 administração deste medicamento, mas não são fornecidos na embalagem. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1065,7 +1074,7 @@ Gyömrői út 19-21. 1103 Budapeste
 Hungria </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

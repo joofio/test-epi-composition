@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Mycamine </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ called invasive candidiasis (infection that has penetrated the body). </li>
 (oesophagus) where treatment into a vein (intravenous) is appropriate. </li>
 <li>To prevent infection with Candida in patients who are having a bone-marrow transplant or who 
 are expected to have a neutropenia (low levels of neutrophils, a type of white blood cell) for days or more. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ Please inform your doctor if you experience any effects that may cause you to ha
 driving or using other machinery. </p>
 <p>Mycamine contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mycamine"
@@ -168,7 +171,7 @@ If you miss a dose of Mycamine <br />
 Your doctor monitors your response and condition to determine what Mycamine treatment is needed. 
 However, if you are concerned that you may have missed a dose, speak to your doctor or another 
 healthcare professional immediately. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mycamine"
@@ -258,7 +261,7 @@ professional who has read the complete directions properly can prepare this medi
 <p>In order to protect the infusion bottle / bag containing the diluted infusion solution from light it should 
 be inserted into a closable opaque bag.  </p>
 <p>The vial is for single use only. Therefore, please discard unused reconstituted concentrate 
-immediately. </p>         </div>"""      
+immediately. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -351,7 +354,7 @@ Biocodex SIA
 Tel: +371 67 619United Kingdom (Northern Ireland) 
 Astellas Pharma Co., Limited 
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671This leaflet was last approved in {MM/YYYY}.   </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -390,7 +393,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -399,7 +404,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -414,7 +420,7 @@ Usage: #inline
 3. Sådan skal De bruge Mycamine 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -444,7 +450,7 @@ hvor en behandling givet ind i en vene (intravenøs) er egnet. </p>
 eller som forventes at have neutropeni (lave niveauer af neutrofiler, en type hvide blodlegemer) i 
 10 dage eller mere. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -492,7 +498,7 @@ eller betjene maskiner. Informer Deres læge, hvis De mærker eventuelle bivirkn
 problemer med at køre eller betjene maskiner. </p>
 <p>Mycamine indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, det vil sige i det<br />
-væsentlige "natriumfri". </p>         </div>"""   
+væsentlige "natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mycamine"
@@ -525,7 +531,7 @@ Hvis De har glemt at bruge Mycamine <br />
 Lægen vil vurdere, hvordan De reagerer på behandlingen, og bedømme Deres tilstand, for at afgøre, 
 hvilken dosering af Mycamine der er nødvendig. Hvis De spekulerer på, om De mangler en dosis 
 Mycamine, skal De straks tale med lægen eller en anden sundhedsperson om det. </p>
-<p>Spørg lægen eller apoteket hvis der er noget, De er i tvivl om eller føler Dem usikker på. </p>         </div>"""         
+<p>Spørg lægen eller apoteket hvis der er noget, De er i tvivl om eller føler Dem usikker på. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -597,7 +603,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mycamine"
@@ -614,7 +620,7 @@ sundhedspersonale, som har læst hele vejledningen grundigt, må tilberede dette
 <p>Brug ikke den fortyndede infusionsvæske, hvis den er uklar eller har bundfald. </p>
 <p>For at beskytte infusionsflasken/posen med den fortyndede infusionsvæske mod lys bør den anbringes 
 i en uigennemsigtig pose, der kan lukkes. </p>
-<p>Hætteglasset er kun til éngangsbrug. Derfor bør ubrugt rekonstitueret koncentrat straks kasseres. </p>         </div>"""      
+<p>Hætteglasset er kun til éngangsbrug. Derfor bør ubrugt rekonstitueret koncentrat straks kasseres. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -797,7 +803,7 @@ ca. 10 ml
 1,5 mg/ml 
 2 x 5 ml 
 ca. 10 ml 
-2,0 mg/ml </p>         </div>"""      
+2,0 mg/ml </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Stelara</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ may be given Stelara to reduce the signs and symptoms of your disease.
 Ulcerative colitis
 Ulcerative colitis is an inflammatory disease of the bowel. If you have ulcerative colitis you will first 
 be given other medicines. If you do not respond well enough or are intolerant to these medicines, you 
-may be given Stelara to reduce the signs and symptoms of your disease.</p>         </div>"""   
+may be given Stelara to reduce the signs and symptoms of your disease.</p> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ Stelara has no or negligible influence on the ability to drive and use machines.
 Stelara contains sodium
 Stelara contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . 
 However, before Stelara is given to you, it is mixed with a solution that contains sodium. Talk to your 
-doctor if you are on a low salt diet.</p>         </div>"""   
+doctor if you are on a low salt diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stelara"
@@ -214,7 +217,7 @@ If you forget or miss the appointment for receiving the dose, contact your docto
 appointment.
 If you stop using Stelara
 It is not dangerous to stop using Stelara. However, if you stop, your symptoms may come back.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -310,7 +313,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stelara"
@@ -333,7 +336,7 @@ accidentally frozen or heated).</p>
 <p>If the product has been shaken vigorously.</p>
 <p>If the seal is broken.
 Stelara is for single use only. Any diluted infusion solution or unused product remaining in the vial 
-and the syringe should be thrown away in accordance with local requirements.</p>         </div>"""      
+and the syringe should be thrown away in accordance with local requirements.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -440,7 +443,7 @@ United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -479,7 +482,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -488,7 +493,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -503,7 +509,7 @@ Usage: #inline
 3. Sådan skal du bruge Stelara
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -530,7 +536,7 @@ hvis du ikke kan tåle dem, kan du få Stelara for at reducere symptomerne på d
 Colitis ulcerosa
 Colitis ulcerosa er en betændelseslignende (inflammatorisk) sygdom i tarmen. Hvis du lider af colitis 
 ulcerosa, vil du først få andre lægemidler. Hvis du ikke reagerer godt nok på disse lægemidler, eller 
-hvis du ikke kan tåle dem, kan du få Stelara for at reducere symptomerne på din sygdom.</p>         </div>"""   
+hvis du ikke kan tåle dem, kan du få Stelara for at reducere symptomerne på din sygdom.</p> </div>"""   
           
 
              
@@ -642,7 +648,7 @@ trafikken.
 Stelara indeholder natrium
 Stelara indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige natrium-
 frit. Inden du får Stelara, blandes det dog med en opløsning, som indeholder natrium. Tal med lægen, 
-hvis du er på en saltfattig diæt.</p>         </div>"""   
+hvis du er på en saltfattig diæt.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stelara"
@@ -681,7 +687,7 @@ Kontakt lægen, hvis du glemmer eller ikke når aftalen hos lægen, hvor du skal
 Hvis du holder op med at bruge Stelara
 Det er ikke farligt at holde op med at få Stelara, men hvis du stopper behandlingen, kan dine 
 symptomer vende tilbage.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -819,7 +825,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stelara"
@@ -852,7 +858,7 @@ hvis produktet er blevet rystet voldsomt.
 
 hvis forseglingen er brudt.
 Stelara er kun til engangsbrug. Eventuelt fortyndet infusionsvæske eller ikke anvendt medicin, der er 
-tilbage i hætteglasset, skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+tilbage i hætteglasset, skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1046,7 +1052,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -1085,7 +1091,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1094,7 +1102,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1109,7 +1118,7 @@ Usage: #inline
 3. Como será administrado Stelara
 4. Efeitos indesejáveis possíveis
 5. Como conservar Stelara
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1135,7 +1144,7 @@ esses medicamentos, poderá receber Stelara para reduzir os sinais e sintomas da
 Colite ulcerosa
 A colite ulcerosa é uma doença inflamatória do intestino. No caso de sofrer de colite ulcerosa, irá 
 receber primeiro outros medicamentos. Se não tiver uma resposta suficiente ou se for intolerante a 
-esses medicamentos, poderá receber Stelara para reduzir os sinais e sintomas da sua doença.</p>         </div>"""   
+esses medicamentos, poderá receber Stelara para reduzir os sinais e sintomas da sua doença.</p> </div>"""   
           
 
              
@@ -1247,7 +1256,7 @@ Stelara contém sódio
 Stelara contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente “isento de 
 sódio".
 No entanto, antes de Stelara lhe ser administrado, é misturado com uma solução que contém sódio. 
-Fale com o seu médico se estiver a fazer uma dieta com pouco sal.</p>         </div>"""   
+Fale com o seu médico se estiver a fazer uma dieta com pouco sal.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar stelara"
@@ -1289,7 +1298,7 @@ fazer uma nova marcação.
 Se parar de utilizar Stelara
 Não é perigoso deixar de utilizar Stelara. No entanto, se parar, os seus sintomas podem voltar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1436,7 +1445,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar stelara"
@@ -1472,7 +1481,7 @@ Se o selo estiver danificado.
 Stelara destina-se apenas para administração única. Qualquer solução para perfusão diluída ou produto 
 não utilizado que fique no frasco para injetáveis e na seringa deve ser deitado fora de acordo com os 
 requisitos locais.
-114</p>         </div>"""      
+114</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1619,7 +1628,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 medinfo@its.jnj.com
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

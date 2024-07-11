@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store CINQAERO </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ lungs. Eosinophils are white blood cells involved in asthma inflammation. Interl
 your body makes that plays a key role in inflammation in asthma by activating eosinophils. </p>
 <p>What are the benefits of using CINQAERO 
 CINQAERO reduces how often you have flare-ups of your asthma, helps you breathe better and 
-decreases your asthma symptoms. </p>         </div>"""   
+decreases your asthma symptoms. </p> </div>"""   
           
 
              
@@ -137,7 +140,7 @@ It is unlikely that CINQAERO will affect your ability to drive and use machines.
 <p>CINQAERO contains sodium 
 This medicine contains 4.6 mg sodium (main component of cooking/table salt) in each vial of 10 mL, 
 and 1.15 mg sodium in each vial of 2.5 mL. This is equivalent to 0.23% and 0.06%, respectively, of 
-the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cinqaero"
@@ -157,7 +160,7 @@ If you miss a scheduled dose of CINQAERO, ask your doctor when to schedule your 
 <p>If you stop using CINQAERO 
 Do NOT stop treatment with CINQAERO unless your doctor tells you to, even if you feel better. 
 Interrupting or stopping treatment with this medicine may cause your asthma symptoms to come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -184,7 +187,7 @@ vomiting, abdominal discomfort, skin rash, redness or swelling). </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cinqaero"
@@ -197,7 +200,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2 C - 8 C). Do not freeze. 
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -336,7 +339,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -345,7 +350,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -362,7 +368,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -386,7 +392,7 @@ reaktioner) i forbindelse med astma. Interleukin-5 er et protein, der dannes i k
 vigtig rolle ved inflammation i forbindelse med astma, da det aktiverer de eosinofile celler. </p>
 <p>Hvad er fordelen ved at anvende CINQAERO 
 CINQAERO nedsætter hyppigheden af pludselig opblussen af astma, hjælper dig til nemmere at 
-trække vejret og nedsætter dine astmasymptomer. </p>         </div>"""   
+trække vejret og nedsætter dine astmasymptomer. </p> </div>"""   
           
 
              
@@ -437,7 +443,7 @@ maskiner. </p>
 <p>CINQAERO indeholder natrium 
 Dette lægemiddel indeholder 4,6 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas med 10 ml, og 1,15 mg natrium pr. hætteglas med 2,5 ml. Dette svarer til hhv. 0,23 % og 
-0,06 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+0,06 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cinqaero"
@@ -457,7 +463,7 @@ din næste behandling. </p>
 Du må IKKE stoppe behandlingen med CINQAERO, medmindre lægen fortæller dig det, heller ikke 
 selv om du får det bedre. Hvis du afbryder eller stopper behandlingen med dette lægemiddel, kan det 
 evt. medføre, at dine astmasymptomer vender tilbage. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -490,7 +496,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cinqaero"
@@ -503,7 +509,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -686,7 +692,7 @@ infusionsfiltre af polyethersulfon (PES), polyvinylidenfluorid (PVDF), nylon, ce
 6. Når infusionen er gennemført, skal infusionssættet skylles med steril natriumchlorid-
 infusionsvæske 9 mg/ml (0,9 %) for at sikre, at al CINQAERO-infusionsvæske er blevet 
 administreret. </p>
-<p>For doseringsanvisninger, se punkt 4.2 i Produktresuméet. </p>         </div>"""      
+<p>For doseringsanvisninger, se punkt 4.2 i Produktresuméet. </p> </div>"""      
 
 
 

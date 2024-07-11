@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store VYDURA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ CGRP. Rimegepant attaches to the receptor for CGRP, reducing the ability of CGRP
 the receptor. This reduces the activity of CGRP and has two effects: 
 1) it can stop an active migraine attack, and 
 2) it can decrease the number of migraine attacks that occur when taken preventively. </p>
-<p>VYDURA is used to treat and prevent migraine attacks in adults. </p>         </div>"""   
+<p>VYDURA is used to treat and prevent migraine attacks in adults. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ pregnancy as the effects of this medicine in pregnant women are not known. </p>
 <p>If you are breast-feeding or are planning to breast-feed, talk to your doctor or pharmacist before using 
 this medicine. You and your doctor should decide if you will use VYDURA while breast-feeding. </p>
 <p>Driving and using machines 
-VYDURA is not expected to affect your ability to drive or use machines. </p>         </div>"""   
+VYDURA is not expected to affect your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vydura"
@@ -162,7 +165,7 @@ leaflet with you. </p>
 <p>If you forget to take VYDURA 
 If you take VYDURA for the prevention of migraine and you miss a dose, just take the next dose at 
 the usual time. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -179,7 +182,7 @@ reaction such as severe rash or shortness of breath. Allergic reactions with VYD
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vydura"
@@ -191,7 +194,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Do not store above 30  C. Store in the original blister in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -298,7 +301,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -337,7 +340,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -346,7 +351,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -361,7 +367,7 @@ Usage: #inline
 3. Sådan skal du tage VYDURA
 4. Bivirkninger
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -375,7 +381,7 @@ niveauer af CGRP. Rimegepant binder til receptoren for CGRP og nedsætter CGRP�
 binde til receptoren. Dette nedsætter aktiviteten af CGRP, hvilket har to virkninger:
 1) det kan stoppe et aktivt migræneanfald, og
 2) det kan, når det tages forebyggende, nedsætte antallet af migræneanfald, der opstår.
-VYDURA anvendes til at behandle og forebygge migræneanfald hos voksne.</p>         </div>"""   
+VYDURA anvendes til at behandle og forebygge migræneanfald hos voksne.</p> </div>"""   
           
 
              
@@ -440,7 +446,7 @@ graviditeten, da virkningen af dette lægemiddel på gravide kvinder er ukendt.
 Hvis du ammer eller planlægger at amme, skal du kontakte lægen eller apotekspersonalet, inden du 
 bruger dette lægemiddel. Du og din læge skal beslutte, om du skal bruge VYDURA, mens du ammer.
 Trafik- og arbejdssikkerhed
-VYDURA forventes ikke at påvirke din evne til at føre køretøj eller betjene maskiner.</p>         </div>"""   
+VYDURA forventes ikke at påvirke din evne til at føre køretøj eller betjene maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vydura"
@@ -455,7 +461,7 @@ dag.
 Til at behandle et migræneanfald, efter det er påbegyndt, er den anbefalede dosis en frysetørret tablet 
 (75 mg rimegepant) efter behov, ikke mere end én gang dagligt.
 Den maksimale daglige dosis er en frysetørret tablet (75 mg rimegepant) dagligt.
-2</p>         </div>"""         
+2</p> </div>"""         
 
         
 * section[=].section[+]
@@ -480,7 +486,7 @@ Hvis du har glemt at tage VYDURA
 Hvis du tager VYDURA for at forebygge migræne, og du har glemt en dosis, skal du bare tage den 
 næste dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den 
 glemte dosis.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""      
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vydura"
@@ -497,7 +503,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -512,7 +518,7 @@ den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale blister for at beskytte mod 
 fugt.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store PROCYSBI </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ excretion of excess amounts of glucose, proteins, and electrolytes. Different or
 different ages. </p>
 <p>PROCYSBI is a medicine that reacts with cystine to decrease its level within the cells. Cysteamine 
 therapy should be initiated promptly after confirmation of the diagnosis of cystinosis to achieve 
-maximum benefit. </p>         </div>"""   
+maximum benefit. </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ This medicine may cause some drowsiness. When starting therapy, you should not d
 machines, or engage in other dangerous activities until you know how the medicine affects you. </p>
 <p>PROCYSBI contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free   </p>         </div>"""   
+ sodium-free   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take procysbi"
@@ -238,7 +241,7 @@ more PROCYSBI than you should. You may become drowsy. </p>
 If you missed a dose of medicine, you should take it as soon as possible. However, if it is within 
 4 hours of the next dose, skip the missed dose and go back to the regular dosing schedule.  </p>
 <p>Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -308,7 +311,7 @@ occur with PROCYSBI. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store procysbi"
@@ -324,7 +327,7 @@ and use a new bottle. </p>
 After opening do not store above 25 C. 
 Keep the container tightly closed in order to protect from light and moisture. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away the 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -430,7 +433,7 @@ Chiesi Pharmaceuticals GmbH<br />
 Tel: + 43 1 4073United Kingdom (Northern Ireland)<br />
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -469,7 +472,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -478,7 +483,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk/. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk/. </p>  </div>"""   
 
 
 
@@ -495,7 +500,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -511,7 +516,7 @@ skade på nyrerne og udskillelse af store mængder glukose, proteiner og elektro
 rammer forskellige organer afhængigt af patientens alder.  </p>
 <p>PROCYSBI er et lægemiddel, der reagerer med cystin og nedsætter cellernes indhold af cystin. 
 Behandlingen med cysteamin skal påbegyndes straks efter bekræftelse af diagnosen nefropatisk 
-cystinose for at patienten skal få størst mulig fordel af behandlingen. </p>         </div>"""   
+cystinose for at patienten skal få størst mulig fordel af behandlingen. </p> </div>"""   
           
 
              
@@ -587,7 +592,7 @@ motorkøretøj, betjene maskiner eller foretage andre farlige aktiviteter, før 
 påvirker dig.  </p>
 <p>PROCYSBI indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.  </p>         </div>"""   
+væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take procysbi"
@@ -684,7 +689,7 @@ Hvis du har glemt at tage en dosis af lægemidlet, skal du tage den snarest muli
 mindre end 4 timer til næste dosis, skal du i stedet overspringe den glemte dosis og fortsætte efter 
 doseringsplanen.  </p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -782,7 +787,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store procysbi"
@@ -798,7 +803,7 @@ og brug en ny flaske.  </p>
 Må ikke opbevares ved temperaturer over 25 °C efter åbning. 
 Hold beholderen tæt tillukket for at beskytte mod lys og fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet. </p>         </div>"""      
+smide medicinrester i afløbet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -951,7 +956,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se afsnit 4. </p>         </div>"""      
+er nævnt i denne indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 
@@ -990,7 +995,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -999,7 +1006,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1016,7 +1024,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar PROCYSBI </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1032,7 +1040,7 @@ acumulação de cistina provoca danos nos rins e a excreção de quantidades exc
 proteínas e eletrólitos. Diferentes órgãos são afetados em diferentes idades. </p>
 <p>PROCYSBI é um medicamento que reage com a cistina para reduzir o seu nível dentro das células. O 
 tratamento com cisteamina deve ser iniciado rapidamente após a confirmação do diagnóstico de 
-cistinose, para obter o máximo benefício. </p>         </div>"""   
+cistinose, para obter o máximo benefício. </p> </div>"""   
           
 
              
@@ -1115,7 +1123,7 @@ utilizar máquinas ou realizar outras atividades perigosas enquanto não souber 
 afeta. </p>
 <p>PROCYSBI contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar procysbi"
@@ -1215,7 +1223,7 @@ estiver a menos de 4 horas da dose seguinte, deixe passar a dose em falta e mant
 posológico habitual. </p>
 <p>Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1320,7 +1328,7 @@ efeito sobre os rins, sob a forma de inchaço das mãos e pés e aumento de peso
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar procysbi"
@@ -1336,7 +1344,7 @@ Elimine o frasco aberto e utilize um novo frasco. </p>
 Após abertura, não conservar acima de 25°C. 
 Manter o recipiente bem fechado para proteger da luz e da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1481,7 +1489,7 @@ United Kingdom (Northern Ireland)
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

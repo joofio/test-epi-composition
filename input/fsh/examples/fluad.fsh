@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Fluad Tetra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ produce its own protection against the influenza virus. None of the ingredients 
 cause flu.  </p>
 <p>Fluad Tetra is used to prevent flu in adults 50 years of age and older. </p>
 <p>The vaccine targets four strains of influenza virus following the recommendations by the World 
-Health Organisation for the 2023/2024 season. </p>         </div>"""   
+Health Organisation for the 2023/2024 season. </p> </div>"""   
           
 
              
@@ -123,7 +126,7 @@ pregnant or breast-feeding. </p>
 Fluad Tetra has no or negligible influence on the ability to drive and use machines.  </p>
 <p>Fluad Tetra contains potassium and sodium<br />
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium free . 
-This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium free . </p>         </div>"""   
+This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fluad"
@@ -133,7 +136,7 @@ This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essenti
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluad Tetra is given by your doctor or nurse as an injection into the muscle at the top of the upper arm 
 (deltoid muscle). </p>
 <p>Adults 50 years of age and older: </p>
-<p>One dose of 0.5 ml </p>         </div>"""         
+<p>One dose of 0.5 ml </p> </div>"""         
 
         
 * section[=].section[+]
@@ -194,7 +197,7 @@ other part of the body (angioedema)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fluad"
@@ -207,7 +210,7 @@ Keep the pre-filled syringe in the outer carton in order to protect from light. 
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -319,7 +322,7 @@ Tel: +31 (0) 20 204 6Latvija
 Seqirus Netherlands B.V. N derlande 
 Tel: +31 (0) 20 204 6This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -358,7 +361,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -367,7 +372,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -382,7 +388,7 @@ Usage: #inline
 3. Sådan gives Fluad Tetra 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -395,7 +401,7 @@ Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvarssyst
 beskyttelse mod influenzavirus. Ingen af indholdsstofferne i vaccinen kan forårsage influenza. </p>
 <p>Fluad Tetra anvendes til at forebygge influenza hos voksne på 50 år og derover. </p>
 <p>Vaccinen er rettet mod fire influenzavirusstammer efter Verdenssundhedsorganisationens (WHO’s) 
-anbefalinger for sæsonen 2023/2024. </p>         </div>"""   
+anbefalinger for sæsonen 2023/2024. </p> </div>"""   
           
 
              
@@ -457,7 +463,7 @@ maskiner.  </p>
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
 natriumfri. 
 Denne vaccine indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. den er i det væsentlige 
-kaliumfri. </p>         </div>"""   
+kaliumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fluad"
@@ -467,7 +473,7 @@ kaliumfri. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluad Tetra gives af lægen eller sygeplejersken som en indsprøjtning i musklen øverst på overarmen 
 (deltamusklen). </p>
 <p>Voksne på 50 år og derover: </p>
-<p>Én dosis på 0,5 ml. </p>         </div>"""         
+<p>Én dosis på 0,5 ml. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -593,7 +599,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V.<br />
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fluad"
@@ -606,7 +612,7 @@ Opbevar den fyldte injektionssprøjte i den ydre æske for at beskytte mod lys. 
 <p>Brug ikke vaccinen efter den udløbsdato, der står på etiketten og på æsken efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -757,7 +763,7 @@ beskaffenhed. </p>
 hvorefter en passende kanyle til administration fastgøres. Ved sprøjter med luer-lock fjernes hætten 
 ved at skrue den af i retningen mod uret. Når hætten er fjernet, fastgøres en kanyle til sprøjten ved at 
 skrue den på i retningen med uret, indtil den låser. Når kanylen er låst på plads, fjernes 
-kanylebeskytteren, og vaccinen administreres. </p>         </div>"""      
+kanylebeskytteren, og vaccinen administreres. </p> </div>"""      
 
 
 

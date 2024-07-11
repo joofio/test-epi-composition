@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sialanar </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ can de-activate the cells that produce saliva. </p>
 <p>Sialorrhoea (drooling or excessive salivation) is a common symptom of many diseases of the nerves 
 and muscles. It is mostly caused by poor control of muscles in the face. Acute sialorrhoea may be 
 associated with inflammation, dental infections or infections of the mouth. </p>
-<p>Sialanar acts on the salivary glands to reduce production of saliva.  </p>         </div>"""   
+<p>Sialanar acts on the salivary glands to reduce production of saliva.  </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ vehicle, ride a bicycle or use a machine until the effect in their vision and co
 completely recovered. Ask your doctor if you need further advice. </p>
 <p>Sialanar contains sodium and benzoate salt (E211) 
 This medicine contains less than 1 mmol sodium (23 mg) per maximum dose, that is to say essentially 
- sodium free . This medicine contains 2.3 mg benzoate salt (E211) in each ml. </p>         </div>"""   
+ sodium free . This medicine contains 2.3 mg benzoate salt (E211) in each ml. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sialanar"
@@ -271,7 +274,7 @@ Give the next dose when it is due. Do not give a double dose to make up for the 
 <p>If you stop giving Sialanar to your child 
 Withdrawal effects are not expected when stopping Sialanar. The child s doctor may decide to stop 
 treatment with Sialanar if side effects cannot be managed by reducing the dose.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -350,7 +353,7 @@ decreased to the previous one used and your doctor contacted. </p>
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V.<br />
-By reporting side effects you can help provide more information on the safety of this medicine.  </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sialanar"
@@ -364,7 +367,7 @@ This medicine must be used within 2 months of first opening the bottle. </p>
 refers to the last day of that month. </p>
 <p>Sialanar should not be used if the packaging has been opened or damaged. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -402,7 +405,7 @@ Z.I. d'en Sigal,<br />
 France  </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -441,7 +444,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -450,7 +455,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -467,7 +473,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -484,7 +490,7 @@ Ved at hæmme cellernes kommunikation kan produktionen af spyt nedsættes eller 
 <p>Spytflåd er et almindeligt symptom ved mange sygdomme i nerver og muskler. Spytflåd skyldes oftest 
 dårlig kontrol af musklerne i ansigtet. Akut spytflåd kan være forbundet med infektion i tænder eller 
 inflammation (en betændelseslignende reaktion) eller betændelse i munden. </p>
-<p>Sialanar påvirker spytkirtlerne, så produktionen af spyt nedsættes.  </p>         </div>"""   
+<p>Sialanar påvirker spytkirtlerne, så produktionen af spyt nedsættes.  </p> </div>"""   
           
 
              
@@ -638,7 +644,7 @@ Sialanar, må han/hun ikke køre bil, cykle eller betjene maskiner, før påvirk
 koordinationsevnen helt har fortaget sig. Spørg lægen til råds, hvis der er noget, du er i tvivl om. </p>
 <p>Sialanar indeholder natrium og benzoat (E211) 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium  pr. maksimaldosis, dvs. det er i det 
-væsentlige natriumfrit.. Dette lægemiddel indeholder 2,3 mg benzoat (E211) i hver ml. </p>         </div>"""   
+væsentlige natriumfrit.. Dette lægemiddel indeholder 2,3 mg benzoat (E211) i hver ml. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sialanar"
@@ -744,7 +750,7 @@ unge en dobbeltdosis som erstatning for den glemte dosis.  </p>
 <p>Hvis du holder op med at give barnet/den unge Sialanar 
 Sialanar forventes ikke at give abstinenser, når behandlingen stoppes. Lægen kan beslutte af standse 
 behandlingen med Sialanar, hvis bivirkningerne ikke kan håndteres ved at nedsætte dosis.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -918,7 +924,7 @@ Hvis barnet/den unge får bivirkninger, bør du tale med lægen, sygeplejersken 
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sialanar"
@@ -932,7 +938,7 @@ Dette lægemiddel skal bruges inden for 2 måneder efter, flasken er blevet åbn
 sidste dag i den nævnte måned. </p>
 <p>Brug ikke Sialanar, hvis pakningen har været åbnet eller er beskadiget. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -971,7 +977,7 @@ Frankrig </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1010,7 +1016,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1019,7 +1027,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1036,7 +1045,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Sialanar </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1053,7 +1062,7 @@ com idades iguais ou superiores a 3 anos.  </p>
 <p>A sialorreia (baba ou salivação excessiva) é um sintoma frequente de muitas doenças dos nervos e dos 
 músculos. É causada principalmente por um mau controlo dos músculos na face. A sialorreia aguda 
 poderá estar associada a inflamação, infeções dentárias ou infeções da boca. </p>
-<p>O Sialanar atua nas glândulas salivares reduzindo a produção de saliva.  </p>         </div>"""   
+<p>O Sialanar atua nas glândulas salivares reduzindo a produção de saliva.  </p> </div>"""   
           
 
              
@@ -1206,7 +1215,7 @@ mais aconselhamento. </p>
 <p>Sialanar contém sódio e sal de benzoato (E211) 
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose máxima, ou seja, é 
 praticamente “isento de sódio". Este medicamento contém 2,3 mg de sal de benzoato (E211) em cada 
-ml. </p>         </div>"""   
+ml. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sialanar"
@@ -1321,7 +1330,7 @@ Não se preveem efeitos de privação quando se interrompe o tratamento com Sial
 criança poderá decidir interromper o tratamento com Sialanar, caso os efeitos indesejáveis não possam 
 ser controlados reduzindo a dose.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1498,7 +1507,7 @@ Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis ef
 indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V.<br />
 Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
-deste medicamento.  </p>         </div>"""      
+deste medicamento.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sialanar"
@@ -1513,7 +1522,7 @@ validade corresponde ao último dia do mês indicado. </p>
 <p>O Sialanar não deve ser utilizado se a embalagem tiver sido aberta ou danificada. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1551,7 +1560,7 @@ Z.I. d'en Sigal,<br />
 França </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

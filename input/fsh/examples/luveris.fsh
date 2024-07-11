@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Luveris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ levels of some of the hormones involved in the natural reproductive cycle. The m
 together with another hormone called Follicle Stimulating Hormone, (FSH), to bring about the 
 development of follicles, which are in the ovary, the structures maturing the eggs (ova). It is followed 
 by treatment with a single dose of human Chorionic Gonadotropin (hCG), which leads to the release 
-of an egg from the follicle (ovulation). </p>         </div>"""   
+of an egg from the follicle (ovulation). </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ Ask your doctor or pharmacist for advice before taking any medicine. </p>
 <p>Driving and using machines 
 Luveris has no or negligible influence on the ability to drive and use machines. </p>
 <p>Luveris contains sodium 
-Luveris contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium free . </p>         </div>"""   
+Luveris contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take luveris"
@@ -269,7 +272,7 @@ hyperstimulation syndrome may occur (see section 4). However, this will only occ
 administered (see section 2 under  Warnings and precautions ). </p>
 <p>If you forget to use Luveris 
 Do not use a double dose to make up for a forgotten dose. Please contact your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ history of prior tubal disease. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store luveris"
@@ -323,7 +326,7 @@ powder or damage to the container. </p>
 <p>The medicine should be administered immediately after dissolving the powder. </p>
 <p>The solution should not be administered if it contains particles or is not clear. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -355,7 +358,7 @@ Merck Serono S.p.A.
 Via delle Magnolie 70026 Modugno (Bari) 
 Italy </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -394,7 +397,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -403,7 +408,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -420,7 +426,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -439,7 +445,7 @@ de hormoner, som er involveret i den naturlige menstruationscyklus. Medicinen an
 med et andet hormon, kaldet follikelstimulerende hormon (FSH), for at fremkalde udvikling af 
 follikler, som er de strukturer i æggestokken, der modner æggene (oocytter). Efter behandlingen gives 
 en enkelt dosis af human choriongonadotropin (hCG), som fører til frigivelsen af et æg fra folliklen 
-(ægløsning). </p>         </div>"""   
+(ægløsning). </p> </div>"""   
           
 
              
@@ -535,7 +541,7 @@ Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for
 Luveris påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Luveris indeholder natrium 
 Luveris indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take luveris"
@@ -658,7 +664,7 @@ hyperstimulationssyndrom kan indtræde (se punkt. 4). Det vil kun ske, hvis hCG 
 punkt 2 under“Advarsler og forsigtighedsregler"). </p>
 <p>Hvis du har glemt at bruge Luveris 
 Du må ikke bruge en dobbeltdosis som erstatning for den glemte dosis. Kontakt din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -714,7 +720,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store luveris"
@@ -731,7 +737,7 @@ pulveret eller beskadigelse af beholderen. </p>
 <p>Dette lægemiddel skal anvendes umiddelbart efter opløsning af pulveret. </p>
 <p>Opløsningen må ikke injiceres, hvis den indeholder partikler eller fremtræder uklar.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -794,7 +800,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

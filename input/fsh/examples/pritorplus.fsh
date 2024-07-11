@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store PritorPlus</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ sometimes to heart attack, heart or kidney failure, stroke, or blindness. There 
 of high blood pressure before damage occurs. Thus it is important to regularly measure blood pressure 
 to verify if it is within the normal range.
 PritorPlus is used to treat high blood pressure (essential hypertension) in adults whose blood pressure 
-is not controlled enough when telmisartan is used alone. </p>         </div>"""   
+is not controlled enough when telmisartan is used alone. </p> </div>"""   
           
 
              
@@ -253,7 +256,7 @@ PritorPlus contains milk sugar (lactose)
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 PritorPlus contains sorbitol
-This medicine contains 169 mg sorbitol in each tablet.</p>         </div>"""   
+This medicine contains 169 mg sorbitol in each tablet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pritorplus"
@@ -278,7 +281,7 @@ If you forget to take PritorPlus
 If you forget to take a dose, do not worry. Take it as soon as you remember then carry on as before. If 
 you do not take your tablet on one day, take your normal dose on the next day. Do not take a double 
 dose to make up for forgotten individual doses.
-If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pritorplus"
@@ -377,7 +380,7 @@ prior to intake.
 Occasionally, the outer layer of the blister pack separates from the inner layer between the blister 
 pockets. You do not need to take any action if this happens.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -471,7 +474,7 @@ Tel: +371 67 84 55 United Kingdom (Northern Ireland)
 Bayer AG
 Tel: +44 (0) 118 206 30 This leaflet was last revised in {MM/YYYY}
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -510,7 +513,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -519,7 +524,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -534,7 +540,7 @@ Usage: #inline
 3. Sådan skal du tage PritorPlus 
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -557,7 +563,7 @@ føre til hjerteanfald, hjerte- eller nyresvigt, slagtilfælde eller blindhed. M
 symptomer på forhøjet blodtryk, før en skade sker. Derfor er det vigtigt, at få målt blodtrykket 
 regelmæssigt for at finde ud af, om det ligger i normalområdet.
 PritorPlus bruges til at sænke forhøjet blodtryk (essentiel hypertension) hos voksne, hvis blodtryk 
-ikke er sænket tilstrækkeligt med telmisartan.</p>         </div>"""   
+ikke er sænket tilstrækkeligt med telmisartan.</p> </div>"""   
           
 
              
@@ -739,7 +745,7 @@ PritorPlus indeholder mælkesukker (lactose)
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter.
 PritorPlus indeholder sorbitol
-Dette lægemiddel indeholder 169 mg sorbitol pr. tablet.</p>         </div>"""   
+Dette lægemiddel indeholder 169 mg sorbitol pr. tablet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pritorplus"
@@ -765,7 +771,7 @@ Hvis du har glemt at tage PritorPlus
 Hvis du har glemt at tage medicinen, skal du tage den straks du kommer i tanke om det, og derefter 
 fortsætte som du plejer. Hvis du en dag ikke får taget din tablet, skal du blot tage den sædvanlige dosis 
 næste dag. Du må ikke tage en dobbeltdosis som erstatning for de glemte tabletter.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -852,7 +858,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.
-64</p>         </div>"""      
+64</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pritorplus"
@@ -868,7 +874,7 @@ indtagelse.
 Blisterpakningen består af flere lag, hvor det kan ske, at det ydre lag af blisterarket løsner sig fra det 
 indre lag. Du behøver ikke at gøre noget, hvis det sker. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1011,7 +1017,7 @@ Lægen har ordineret PritorPlus til dig personligt. Lad derfor være med at give
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -1050,7 +1056,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1059,7 +1067,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1074,7 +1083,7 @@ Usage: #inline
 3. Como tomar PritorPlus 
 4. Efeitos indesejáveis possíveis
 5. Como conservar PritorPlus 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1099,7 +1108,7 @@ cerebrais ou cegueira. Habitualmente não existem sintomas de pressão arterial 
 ocorrerem danos. Assim, é importante medir regularmente a pressão arterial para verificar se esta se 
 encontra dentro dos valores normais.
 PritorPlus é utilizado para tratar a pressão arterial elevada (hipertensão essencial) em adultos que 
-não têm a pressão arterial suficientemente controlada com o telmisartan usado em monoterapia.</p>         </div>"""   
+não têm a pressão arterial suficientemente controlada com o telmisartan usado em monoterapia.</p> </div>"""   
           
 
              
@@ -1286,7 +1295,7 @@ PritorPlus contém açúcar do leite (lactose).
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
 este medicamento.
 PritorPlus contém sorbitol
-Este medicamento contém 169 mg de sorbitol em cada comprimido.</p>         </div>"""   
+Este medicamento contém 169 mg de sorbitol em cada comprimido.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pritorplus"
@@ -1316,7 +1325,7 @@ regime de tratamento como anteriormente. Se não tomar o seu comprimido durante 
 dose normal, no dia seguinte. Não tome um comprimido a dobrar para compensar doses individuais 
 que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1413,7 +1422,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pritorplus"
@@ -1430,7 +1439,7 @@ Ocasionalmente, a camada exterior do blister separa-se da camada interior entre 
 precisa de tomar qualquer ação caso tal aconteça.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1557,7 +1566,7 @@ Bayer AG
 Tel: +44 (0) 118 206 30 00
 Este folheto foi revisto pela última vez em {MM/AAAA}
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kineret </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -111,7 +114,7 @@ older). </p>
 such as recurrent fever, fatigue, abdominal pain, muscle or joint pain and rash. Kineret can be used 
 together with colchicine, if appropriate. </p>
 <p>For Still s disease, Kineret is used to treat the signs and symptoms of inflammation associated with the 
-disease such as rash, joint pain and fever. </p>         </div>"""   
+disease such as rash, joint pain and fever. </p> </div>"""   
           
 
              
@@ -174,7 +177,7 @@ discuss with you the potential risks of taking Kineret during pregnancy. </p>
 Kineret. </p>
 <p>Kineret contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kineret"
@@ -200,7 +203,7 @@ you should contact your doctor, nurse or pharmacist if this does happen. If you 
 you should contact your doctor or nurse immediately. </p>
 <p>If you forget to use Kineret 
 If you have forgotten to take a dose of Kineret, you should contact your doctor to discuss when you 
-should take the next dose. </p>         </div>"""         
+should take the next dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ urine and light-coloured stools. </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kineret"
@@ -273,7 +276,7 @@ Store in original carton in order to protect from light. </p>
 refrigerator and has reached room temperature (up to 25  C) it must either be used within 72 hours or 
 discarded. Do not place it back in the refrigerator if it has been stored at room temperature. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ Swedish Orphan Biovitrum AB (publ)
 SE-112 76 Stockholm 
 Sweden </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -336,7 +339,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -345,7 +350,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -362,7 +368,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -413,7 +419,7 @@ børn (i alderen 8 måneder og ældre). </p>
 forbindelse med sygdommen, som f.eks. tilbagevendende feber, træthed, mavesmerter, muskel- eller 
 ledsmerte og udslæt. Kineret kan anvendes sammen med colchicin, hvis relevant. </p>
 <p>For Stills sygdom anvendes Kineret til at behandle tegn og symptomer på inflammation forbundet med 
-sygdommen, såsom udslæt, ledsmerter og feber. </p>         </div>"""   
+sygdommen, såsom udslæt, ledsmerter og feber. </p> </div>"""   
           
 
              
@@ -478,7 +484,7 @@ diskutere de mulige risici ved at tage Kineret under graviditeten med Dem. </p>
 Kineret. </p>
 <p>Kineret indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kineret"
@@ -503,7 +509,7 @@ men De skal alligevel kontakte Deres læge, sygeplejerske eller apotek. Hvis De 
 ubehag, skal De straks kontakte Deres læge eller sygeplejerske. </p>
 <p>Hvis De har glemt at bruge Kineret 
 Hvis De har glemt at injicere en dosis Kineret, skal De kontakte Deres læge for at diskutere, hvornår 
-De skal injicere næste dosis. </p>         </div>"""         
+De skal injicere næste dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -561,7 +567,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kineret"
@@ -577,7 +583,7 @@ Opbevares i den originale æske for at beskytte mod lys. </p>
 tages ud af køleskabet og har nået stuetemperatur (op til 25 °C), skal den anvendes inden for 72 timer 
 eller bortskaffes. Må ikke sættes tilbage i køleskabet, hvis det er blevet opbevaret ved stuetemperatur. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -812,7 +818,7 @@ bortskaffes i henhold til lokale retningslinjer. Spørg apotekspersonalet, hvord
 medicinrester. Af hensyn til miljøet må De ikke smide medicinrester i afløbet, toilettet eller 
 skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -851,7 +857,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -860,7 +868,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -875,7 +884,7 @@ Usage: #inline
 3. Como utilizar Kineret 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Kineret 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -922,7 +931,7 @@ como erupção cutânea, dor nas articulações, dor de cabeça e fadiga, em adu
 febre recorrente, fadiga, dor abdominal, dor nos músculos ou nas articulações e erupção na pele. 
 Kineret pode ser utilizado juntamente com colquicina, se apropriado. </p>
 <p>Na doença de Still, Kineret é utilizado para tratar os sinais e sintomas da inflamação associada à 
-doença, como erupção na pele, dor nas articulações e febre. </p>         </div>"""   
+doença, como erupção na pele, dor nas articulações e febre. </p> </div>"""   
           
 
              
@@ -988,7 +997,7 @@ seu médico discutirá consigo os riscos potenciais de tomar Kineret durante a g
 Kineret. </p>
 <p>Kineret contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 100 mg, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar kineret"
@@ -1014,7 +1023,7 @@ Contudo, deverá contactar o seu médico, enfermeiro ou farmacêutico se tal oco
 sentir mal deverá contactar imediatamente o seu médico ou enfermeiro. </p>
 <p>Caso se tenha esquecido de utilizar Kineret 
 No caso de se esquecer de tomar uma dose de Kineret deverá contactar o seu médico para decidir 
-quando poderá ser administrada a dose seguinte. </p>         </div>"""         
+quando poderá ser administrada a dose seguinte. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1066,7 +1075,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar kineret"
@@ -1084,7 +1093,7 @@ deve ser eliminada. Caso tenha estado conservado à temperatura ambiente, não o
 frigorífico. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1108,7 +1117,7 @@ Swedish Orphan Biovitrum AB (publ)
 SE-112 76 Stockholm 
 Suécia </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

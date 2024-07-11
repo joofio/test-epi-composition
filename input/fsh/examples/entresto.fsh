@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Entresto </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ active substances, sacubitril and valsartan. </p>
 and older). </p>
 <p>This type of heart failure occurs when the heart is weak and cannot pump enough blood to the lungs 
 and the rest of the body. The most common symptoms of heart failure are breathlessness, fatigue, 
-tiredness and ankle swelling. </p>         </div>"""   
+tiredness and ankle swelling. </p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ concentration, make sure you know how Entresto affects you. If you feel dizzy or
 taking this medicine, do not drive a vehicle, cycle or use any tools or machines. </p>
 <p>Entresto contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 97 mg/103 mg dose, that is to say 
-essentially  sodium free . </p>         </div>"""   
+essentially  sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take entresto"
@@ -220,7 +223,7 @@ forgotten dose. </p>
 <p>If you stop taking Entresto 
 Stopping your treatment with Entresto may cause your condition to get worse. Do not stop taking your 
 medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ standing position
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store entresto"
@@ -283,7 +286,7 @@ This medicine does not require any special temperature storage conditions.
 Store in the original package in order to protect from moisture. 
 Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -402,7 +405,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -441,7 +444,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -450,7 +455,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -467,7 +473,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -481,7 +487,7 @@ aktive stoffer, sacubitril og valsartan. </p>
 alderen ét år og derover). </p>
 <p>Denne type hjertesvigt opstår, når hjertet er svagt og ikke kan pumpe nok blod til lungerne og resten af 
 kroppen. De mest almindelige symptomer på hjertesvigt er åndenød, mathed, træthed og hævelse af 
-ankler. </p>         </div>"""   
+ankler. </p> </div>"""   
           
 
              
@@ -648,7 +654,7 @@ eller meget træt, mens du tager dette lægemiddel, må du ikke køre bil, cykle
 eller maskiner. </p>
 <p>Entresto indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 97 mg/103 mg dosis, dvs. det er 
-i det væsentlige natriumfrit. </p>         </div>"""   
+i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take entresto"
@@ -687,7 +693,7 @@ dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Entresto 
 Hvis du stopper behandlingen med Entresto, kan din tilstand forværres. Stop ikke med at tage 
 lægemidlet, medmindre din læge har bedt dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -795,7 +801,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store entresto"
@@ -810,7 +816,7 @@ Opbevares i den originale yderpakning for at beskytte mod fugt.
 Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på at have været 
 åbnet. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -973,7 +979,7 @@ indeholder vigtige oplysninger.
 lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 som du/dit barn har. 
 - Kontakt lægen eller apotekspersonalet, hvis du/dit barn får bivirkninger, herunder bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -1012,7 +1018,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1021,7 +1029,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1038,7 +1047,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Entresto </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1052,7 +1061,7 @@ angiotensina. Distribui duas substâncias ativas, sacubitril e valsartan. </p>
 e adolescentes (com um ano de idade e mais velhas). </p>
 <p>Este tipo de insuficiência cardíaca ocorre quando o coração está fraco e não consegue bombear sangue 
 suficiente para os pulmões e para o resto do corpo. Os sintomas mais comuns de insuficiência cardíaca 
-são falta de ar, fadiga, cansaço e inchaço dos tornozelos. </p>         </div>"""   
+são falta de ar, fadiga, cansaço e inchaço dos tornozelos. </p> </div>"""   
           
 
              
@@ -1222,7 +1231,7 @@ cansado enquanto estiver a tomar este medicamento, não conduza um veículo, nã
 utilize quaisquer ferramentas ou máquinas. </p>
 <p>Entresto contém sódio 
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose de 97 mg/103 mg, ou 
-seja, é praticamente “isento de sódio". </p>         </div>"""   
+seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar entresto"
@@ -1266,7 +1275,7 @@ uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 Parar o tratamento com Entresto pode causar o agravamento da sua condição. Não pare de tomar o 
 medicamento a não ser o que o seu médico lhe diga. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1378,7 +1387,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar entresto"
@@ -1392,7 +1401,7 @@ Este medicamento não requer quaisquer condições especiais de conservação.
 Conservar na embalagem de origem para proteger da humidade. 
 Não utilize este medicamento se a embalagem estiver danificada ou apresentar sinais de violação. 
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1550,7 +1559,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

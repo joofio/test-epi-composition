@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Truxima </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -118,7 +121,7 @@ affect other organs as well. B-lymphocytes are involved in the cause of these co
 Pemphigus vulgaris 
 Truxima is used for the treatment of patients with moderate to severe pemphigus vulgaris. Pemphigus 
 vulgaris is an autoimmune condition that causes painful blisters on the skin and lining of the mouth, 
-nose, throat and genitals. </p>         </div>"""   
+nose, throat and genitals. </p> </div>"""   
           
 
              
@@ -203,7 +206,7 @@ Rituximab has no or negligible influence on the ability to drive and use machine
 This medicine contains 52.6 mg sodium (main component of cooking/table salt) in each 10 mL vial 
 and 263.2 mg sodium (main component of cooking/table salt) in each 50 mL vial.<br />
 This is equivalent to 2.6% (for 10 mL vial) and 13.2% (for 50 mL vial) of the recommended maximum 
-daily dietary intake of sodium for an adult. </p>         </div>"""   
+daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take truxima"
@@ -259,7 +262,7 @@ Each course of treatment is made up of two separate infusions which are given 2 
 respond well to treatment, you may be given Truxima as a maintenance treatment. This will be 
 administered 1 year and 18 months after the initial treatment and then every 6 months as needed or 
 your doctor may change this, depending on how you respond to the medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -491,7 +494,7 @@ the other medicines. </p>
 <p>If you get any side effects talk to your doctor, pharmacist or nurse. This includes any side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store truxima"
@@ -504,7 +507,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2  C   8  C). Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines that you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -621,7 +624,7 @@ Celltrion Healthcare Ireland Limited
 Tel: +353 1 223 4enquiry_ie@celltrionhc.com<br />
 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -660,7 +663,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -669,7 +674,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -684,7 +690,7 @@ Usage: #inline
 3. Sådan får du Truxima 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelse og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelse og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -737,7 +743,7 @@ børn på 2 år og opefter. </p>
 <p>e)     Pemfigus vulgaris 
 Truxima anvendes til behandling af patienter med moderat til svær pemfigus vulgaris. Pemfigus 
 vulgaris er en autoimmun sygdom, der forårsager smertefulde blærer på huden og mundens, næsens, 
-halsens og kønsorganernes slimhinder. </p>         </div>"""   
+halsens og kønsorganernes slimhinder. </p> </div>"""   
           
 
              
@@ -839,7 +845,7 @@ Truxima indeholder natrium
 Denne medicin indeholder 52,6 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hvert 10 mL 
 hætteglas og 263,2 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hvert 50 mL hætteglas. 
 Dette svarer til 2,6 % (for 10 mL hætteglas) og 13,2 % (for 50 mL hætteglas) af det anbefalede 
-maksimale daglige indtag af natrium for en voksen. </p>         </div>"""   
+maksimale daglige indtag af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take truxima"
@@ -899,7 +905,7 @@ tid med Truxima (op til 5 år), alt efter hvor godt du reagerer på medicinen. <
 Hvert behandlingsforløb består af to separate infusioner, der gives med 2 ugers mellemrum. Hvis du 
 reagerer godt på behandlingen, kan du få Truxima som vedligeholdelsesbehandling. 
 Vedligeholdelsesbehandling vil gives 1 år og 18 måneder efter behandlingens start og herefter hver 6. måned efter behov. Din læge kan ændre dette, afhængigt af hvordan du reagerer på behandlingen. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis det er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1347,7 +1353,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store truxima"
@@ -1359,7 +1365,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1502,7 +1508,7 @@ Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/  </p> </div>"""      
 
 
 

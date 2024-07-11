@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vedrop </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vedrop contains vitamin E (in the form of tocofersolan). It is used to treat lack of vitamin E due to digestive 
 malabsorption (where nutrients from the food are not easily absorbed during digestion) in patients from birth 
 (full term newborns) up to 18 years of age suffering from chronic cholestasis (a hereditary or congenital 
-disease where bile cannot flow from the liver to the intestine). </p>         </div>"""   
+disease where bile cannot flow from the liver to the intestine). </p> </div>"""   
           
 
              
@@ -113,7 +116,7 @@ Vedrop is not likely to affect your ability to drive and use machines.  </p>
 <p>Vedrop contains sodium methyl parahydroxybenzoate (E219) and sodium ethyl parahydroxybenzoate 
 (E215), which may cause allergic reactions (possibly delayed). </p>
 <p>Vedrop contains 0.18 mmoles (4.1 mg) sodium per ml. Speak to your doctor if you are on a controlled 
-sodium diet. </p>         </div>"""   
+sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vedrop"
@@ -156,7 +159,7 @@ forgotten dose. </p>
 <p>If you stop taking Vedrop 
 Do not stop the treatment without consulting your doctor because lack of vitamin E may come back and 
 affect your health. Contact your doctor or pharmacist before stopping. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -182,7 +185,7 @@ affect your health. Contact your doctor or pharmacist before stopping. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vedrop"
@@ -195,7 +198,7 @@ expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions.  </p>
 <p>Discard the bottle one month after first opening, even if some solution remains.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -320,7 +323,7 @@ Tel: +44 (0)1491 414This leaflet was last revised in  </p>
 of this disease it has been impossible to get complete information on this medicine.<br />
 The European Medicines Agency will review any new information on this medicine every year and this 
 leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -359,7 +362,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -368,7 +373,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -385,7 +391,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -396,7 +402,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vedrop indeholder E-vitamin (i form af tocofersolan). Det bruges til behandling af mangel på E-vitamin, der 
 skyldes fordøjelsesrelateret malabsorbtion (når næringsstoffer fra maden ikke optages nemt gennem 
 fordøjelsen)  hos patienter fra fødsel (spædbørn født til tiden) op til 18 år, som lider af kronisk kolestase (en 
-arvelig eller medfødt sygdom hvor galde ikke kan udskilles fra leveren til tarmene). </p>         </div>"""   
+arvelig eller medfødt sygdom hvor galde ikke kan udskilles fra leveren til tarmene). </p> </div>"""   
           
 
              
@@ -446,7 +452,7 @@ Spørg din læge eller apotek til råds, før du tager nogen form for medicin. <
 Det er usandsynligt, at Vedrop påvirker din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Vedrop indeholder natriummethylparahydroxybenzoat (E219) og natriumethylparahydroxybenzoat 
 (E215), der kan forårsage allergiske reaktioner (eventuelt forsinket). </p>
-<p>Vedrop indeholder 0,18 mmol (4,1 mg) natrium per ml. Tal med in læge, hvis du er på en natriumfattig diæt.  </p>         </div>"""   
+<p>Vedrop indeholder 0,18 mmol (4,1 mg) natrium per ml. Tal med in læge, hvis du er på en natriumfattig diæt.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vedrop"
@@ -488,7 +494,7 @@ erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Vedrop 
 Du må ikke stoppe behandlingen uden først at tale med din læge, da mangel på E-vitamin kan vende tilbage 
 og påvirke dit helbred. Kontakt din læge eller apotekspersonalet, inden du stopper. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -516,7 +522,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vedrop"
@@ -533,7 +539,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
  
 Kassér glasset én måned efter første åbning, selv hvis der er noget tilbage.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -664,7 +670,7 @@ drejer sig om en sjælden sygdom.
 Det europæiske Lægemiddelagentur vurderer hvert år ny information vedrørende dette lægemiddel, og denne 
 indlægsseddel vil om nødvendigt blive opdateret </p>
 <p>Du kan finde yderligere information om Vedrop på Det europæiske Lægemiddelagenturs hjemmeside: 
-http://www.ema.europa.eu/.  </p>         </div>"""      
+http://www.ema.europa.eu/.  </p> </div>"""      
 
 
 

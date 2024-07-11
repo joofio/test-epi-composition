@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Information for injecting yourself </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Eporatio </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +87,7 @@ Eporatio is used for the treatment of anaemia accompanied by symptoms (for examp
 weakness and shortness of breath). Anaemia occurs when your blood does not contain enough red 
 blood cells. Treatment for anaemia is given to adult patients with chronic renal failure or to adult 
 patients with non-myeloid cancer (cancer not originating in the bone marrow) who at the same time 
-are receiving chemotherapy (medicines to treat cancer). </p>         </div>"""   
+are receiving chemotherapy (medicines to treat cancer). </p> </div>"""   
           
 
              
@@ -169,7 +171,7 @@ your doctor may decide that you should not use this medicine if you are breast-f
 This medicine does not affect your ability to drive and use machines. </p>
 <p>Eporatio contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, i.e. essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eporatio"
@@ -231,7 +233,7 @@ If you have missed an injection, or injected too little, talk to your doctor. Do
 to make up for a forgotten dose. </p>
 <p>If you stop using Eporatio 
 Before you stop using this medicine, talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine , ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine , ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -283,7 +285,7 @@ Eporatio or another epoetin. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eporatio"
@@ -301,7 +303,7 @@ to 7 days without exceeding the expiry date. Once you have removed your medicine
 refrigerator you must use it within this period or it must be discarded. </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -424,7 +426,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last approved in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -463,7 +465,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -474,7 +478,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Sådan giver du dig selv indsprøjtninger </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -489,7 +493,7 @@ Usage: #inline
 3. Sådan skal du bruge Eporatio 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -508,7 +512,7 @@ Eporatio bruges til behandling af anæmi (blodmangel) ledsaget af symptomer (for
 svækkelse og åndenød). Anæmi opstår, når dit blod ikke indeholder nok røde blodlegemer. 
 Behandlingen for anæmi gives til voksne patienter med kronisk nyresvigt eller voksne patienter med 
 non-myeloid kræft (kræft, som ikke udspringer af knoglemarven), som samtidig får kemoterapi 
-(kræftmedicin). </p>         </div>"""   
+(kræftmedicin). </p> </div>"""   
           
 
              
@@ -594,7 +598,7 @@ du ikke må bruge medicinen, mens du ammer. </p>
 Lægemidlet påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Eporatio indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. fyldt injektionssprøjte, d.v.s. den 
-er i det væsentlige natriumfri. </p>         </div>"""   
+er i det væsentlige natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eporatio"
@@ -656,7 +660,7 @@ Kontakt lægen, hvis du har glemt en indsprøjtning eller ikke fik hele dosen. D
 dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Eporatio 
 Kontakt lægen, hvis du ønsker at holde pause eller stoppe behandlingen med dette lægemiddel. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -712,7 +716,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eporatio"
@@ -730,7 +734,7 @@ dage uden at overskride udløbsdatoen. Når du har taget medicinen ud af kølesk
 den inden for denne periode - ellers skal den bortskaffes. </p>
 <p>Brug ikke lægemidlet, hvis opløsningen er uklar eller indeholder partikler. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1141,7 +1145,7 @@ Du skal til enhver tid spørge lægen eller sygeplejersken til råds, hvis du ha
 <p>Sådan bortskaffer du brugte injektionssprøjter 
 Sikkerhedsanordningen forhindrer skader fra kanylestik efter brug, så ingen særlige 
 forsigtighedsregler for bortskaffelse er påkrævet. Kanylerne med sikkerhedsanordningen indleveres på 
-apoteket som anvist af lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""      
+apoteket som anvist af lægen, apotekspersonalet eller sygeplejersken. </p> </div>"""      
 
 
 

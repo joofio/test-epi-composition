@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use</p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Trixeo Aerosphere</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +87,7 @@ Trixeo Aerosphere is used to make breathing easier and improve symptoms of COPD 
 shortness of breath, wheezing and cough. Trixeo Aerosphere can also prevent flare-ups 
 (exacerbations) of COPD.
 Trixeo Aerosphere delivers the active substances into your lungs as you breathe in. If you use this 
-medicine regularly twice a day, it will help to reduce the effects of COPD on your everyday life.</p>         </div>"""   
+medicine regularly twice a day, it will help to reduce the effects of COPD on your everyday life.</p> </div>"""   
           
 
              
@@ -158,7 +160,7 @@ Do not use Trixeo Aerosphere if you are pregnant unless your doctor tells you th
 Do not use this medicine if you are breast-feeding unless your doctor tells you that you can.
 Driving and using machines
 It is unlikely that this medicine will affect your ability to drive or use machines. However, dizziness is 
-an uncommon side effect which should be taken into account when driving or using machines.</p>         </div>"""   
+an uncommon side effect which should be taken into account when driving or using machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trixeo"
@@ -194,7 +196,7 @@ This medicine is for long-term use. Use this medicine for as long as your doctor
 only be effective as long as you are using it.
 Do not stop unless your doctor tells you to   even if you feel better   as your symptoms may get
 worse. If you want to stop treatment, talk to your doctor first.
-If you have any further questions on the use of this medicine, talk to your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, talk to your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -258,7 +260,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trixeo"
@@ -277,7 +279,7 @@ For best results, the inhaler should be at room temperature before you use it.
 Do not break, puncture or burn the pressurised container, even when apparently empty. Do not use or 
 store near heat or open flames.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -371,7 +373,7 @@ SIA AstraZeneca Latvija
 Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -410,7 +412,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -419,7 +423,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsvejledning</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsvejledning</p>  </div>"""   
 
 
 
@@ -434,7 +438,7 @@ Usage: #inline
 3. Sådan skal du bruge Trixeo Aerosphere
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -458,7 +462,7 @@ Trixeo Aerosphere bruges til at lette vejrtrækningen og til at forbedre symptom
 (eksacerbationer) af KOL.
 Trixeo Aerosphere bringer de virksomme stoffer ned i lungerne, mens du trækker vejret ind. Hvis du 
 regelmæssigt bruger denne medicin to gange om dagen, vil det hjælpe dig med at nedsætte 
-påvirkningen fra KOL i din hverdag.</p>         </div>"""   
+påvirkningen fra KOL i din hverdag.</p> </div>"""   
           
 
              
@@ -553,7 +557,7 @@ Brug ikke dette lægemiddel, hvis du ammer, medmindre din læge har fortalt dig,
 Trafik- og arbejdssikkerhed
 Det er usandsynligt, at dette lægemiddel vil påvirke din evne til at køre bil eller anvende maskiner.
 Svimmelhed er dog en ikke almindelig bivirkning, som skal tages i betragtning ved bilkørsel eller 
-betjening af maskiner.</p>         </div>"""   
+betjening af maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trixeo"
@@ -590,7 +594,7 @@ du skal bruge den. Den vil kun virke, så længe du bruger den.
 Stop ikke, medmindre din læge fortæller dig, at du skal, også selvom du føler dig bedre tilpas, da dine 
 symptomer kan blive værre. Hvis du vil stoppe behandlingen, skal du først tale med din læge.
 34
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -687,7 +691,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trixeo"
@@ -706,7 +710,7 @@ For det bedste resultat skal inhalatoren have stuetemperatur inden brug.
 Trykbeholderen må ikke brydes, perforeres eller brændes, heller ikke når den tilsyneladende er tom. 
 Må ikke anvendes eller opbevares i nærheden af varme eller åben ild.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1015,7 +1019,7 @@ Ryst og klargøringspust
 30
 sek
 30
-sek</p>         </div>"""      
+sek</p> </div>"""      
 
 
 
@@ -1054,7 +1058,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1063,7 +1069,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções de utilização</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções de utilização</p>  </div>"""   
 
 
 
@@ -1078,7 +1084,7 @@ Usage: #inline
 3. Como utilizar Trixeo Aerosphere
 4. Efeitos indesejáveis possíveis
 5. Como conservar Trixeo Aerosphere
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1103,7 +1109,7 @@ falta de ar, pieira e tosse. Trixeo Aerosphere pode também prevenir agudizaçõ
 DPOC.
 Trixeo Aerosphere liberta as substâncias ativas diretamente nos seus pulmões enquanto inspira. Se 
 utilizar este medicamento regularmente duas vezes por dia, irá ajudar a reduzir os efeitos da DPOC na 
-sua vida quotidiana.</p>         </div>"""   
+sua vida quotidiana.</p> </div>"""   
           
 
              
@@ -1202,7 +1208,7 @@ fazer.
 Condução de veículos e utilização de máquinas
 É pouco provável que este medicamento afete a sua capacidade de conduzir ou utilizar máquinas. No
 entanto, tonturas é um efeito indesejável pouco frequente que deve ser tido em consideração quando
-conduzir ou utilizar máquinas.</p>         </div>"""   
+conduzir ou utilizar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trixeo"
@@ -1243,7 +1249,7 @@ Não pare de utilizar, a não ser que o seu médico lhe diga para o fazer - mesm
 porque os seus sintomas podem agravar-se. Se pretender interromper o tratamento, fale primeiro com 
 o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1341,7 +1347,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trixeo"
@@ -1362,7 +1368,7 @@ utilizar ou conservar perto de fontes de calor ou de chamas.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-37</p>         </div>"""      
+37</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1488,7 +1494,7 @@ United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

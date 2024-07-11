@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lysodren </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lysodren is an antitumoral medicine. </p>
 <p>This medicine is used for the treatment of symptoms of advanced non operable, metastatic or recurrent 
-malignant tumours of the adrenal glands. </p>         </div>"""   
+malignant tumours of the adrenal glands. </p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ Lysodren and even after stopping it, ask your doctor for advice.  </p>
 <p>You must not breast-feed while taking Lysodren and even after stopping it. Ask your doctor for 
 advice. </p>
 <p>Driving and using machines 
-Lysodren has a major influence on your ability to drive and use machines. Ask your doctor for advice. </p>         </div>"""   
+Lysodren has a major influence on your ability to drive and use machines. Ask your doctor for advice. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lysodren"
@@ -168,7 +171,7 @@ child has accidentally swallowed some. </p>
 <p>If you forget to take Lysodren 
 If you accidentally miss a dose, just take the next dose as scheduled. Do not take a double dose to 
 make up for the forgotten one. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ been observed. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lysodren"
@@ -263,7 +266,7 @@ this medicine. </p>         </div>"""
 <p>Any unused product or waste material should be disposed of in accordance with local requirements for 
 cytotoxic medicines. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -313,7 +316,7 @@ Phone:  . </p>
 <p>For information on the product, 
  please contact: 
  HRA Pharma Rare Diseases 
-Tel: + 33 1 40 33 93 medinfo-rd@hra-pharma.com </p>         </div>"""      
+Tel: + 33 1 40 33 93 medinfo-rd@hra-pharma.com </p> </div>"""      
 
 
 
@@ -352,7 +355,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -361,7 +366,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -376,7 +382,7 @@ Usage: #inline
 3. Sådan skal De tage Lysodren 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -386,7 +392,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lysodren er et antitumormiddel. </p>
 <p>Dette lægemiddel anvendes til behandling af symptomer på fremskredne ikke-operable, metastatiske 
-eller tilbagevendende maligne tumorer i binyrerne.  </p>         </div>"""   
+eller tilbagevendende maligne tumorer i binyrerne.  </p> </div>"""   
           
 
              
@@ -454,7 +460,7 @@ behandlingen med Lysodren, og når behandlingen er slut. Spørg Deres læge til 
 <p>De må ikke amme, mens De tager Lysodren og heller ikke efter, De er holdt op. Spørg Deres læge til 
 råds. </p>
 <p>Trafik- og arbejdssikkerhed 
-Lysodren påvirker i væsentlig grad evnen til at føre og betjene maskiner. Spørg Deres læge til råds. </p>         </div>"""   
+Lysodren påvirker i væsentlig grad evnen til at føre og betjene maskiner. Spørg Deres læge til råds. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lysodren"
@@ -482,7 +488,7 @@ eller hvis et barn ved et uheld har slugt nogle. </p>
 <p>Hvis De har glemt at tage Lysodren 
 Hvis De ved et uheld springer en dosis over, så tag bare den næste dosis som planlagt. De må ikke tage 
 en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -565,7 +571,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V*. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lysodren"
@@ -579,7 +585,7 @@ dag i den nævnte måned. </p>
 <p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for 
 cytotoksiske lægemidler. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -630,7 +636,7 @@ bør der tages forsigtighedsforanstaltninger </p>
 Tlf.: …………………………………. </p>
 <p>For information om produktet, kontakt: 
  HRA Pharma Rare Diseases 
-Tlf.: + 33 1 40 33 93 Medinfo-rd@hra-pharma.com </p>         </div>"""      
+Tlf.: + 33 1 40 33 93 Medinfo-rd@hra-pharma.com </p> </div>"""      
 
 
 

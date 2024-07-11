@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Fasenra</li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ What are the benefits of using Fasenra
 Fasenra may reduce the number of asthma attacks you are experiencing, help you breathe better and 
 decrease your asthma symptoms. If you are taking medicines called  oral corticosteroids , using
 Fasenra may also allow you to reduce the daily dose or stop the oral corticosteroids you need to 
-control your asthma.</p>         </div>"""   
+control your asthma.</p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ Fasenra could harm your unborn baby.
 It is not known whether the ingredients of Fasenra can pass into breast milk. If you are 
 breast-feeding or plan to breast-feed, talk to your doctor. 
 Driving and using machines
-It is unlikely that Fasenra will affect your ability to drive and use machines. </p>         </div>"""   
+It is unlikely that Fasenra will affect your ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fasenra"
@@ -162,7 +165,7 @@ Stopping treatment with Fasenra
 Do not stop treatment with Fasenra unless your doctor advises you to. Interrupting or stopping the 
 treatment with Fasenra may cause your asthma symptoms and attacks to come back.
 If your asthma symptoms get worse while receiving injections of Fasenra, call your doctor.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -190,7 +193,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fasenra"
@@ -208,7 +211,7 @@ from the refrigerator, Fasenra must be used within 14 days or discarded, and the
 written on the carton.
 Do not shake, freeze or expose to heat.
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment.</p>         </div>"""      
+you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ SIA AstraZeneca Latvija
 Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -342,7 +345,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -351,7 +356,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -366,7 +372,7 @@ Usage: #inline
 3. Sådan skal du bruge Fasenra
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -391,7 +397,7 @@ Hvad er fordelene ved brug af Fasenra
 Fasenra kan reducere antallet af astmaanfald, som du får, hjælpe dig til en bedre vejrtrækning og 
 mindske astmasymptomerne. Hvis du tager medicin, som kaldes "orale kortikosteroider", kan brug af 
 Fasenra også lade dig reducere den daglige dosis eller stoppe med de orale kortikosteroider, som du 
-har brug for til at regulere din astma.</p>         </div>"""   
+har brug for til at regulere din astma.</p> </div>"""   
           
 
              
@@ -450,7 +456,7 @@ Det vides ikke, om indholdsstofferne i Fasenra kan passere over i modermælk. Hv
 planlægger at amme, skal du kontakte din læge, inden du bruger Fasenra.
 Trafik- og arbejdssikkerhed
 Det er usandsynligt, at Fasenra vil påvirke din evne til at køre og betjene maskiner.
-33</p>         </div>"""   
+33</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fasenra"
@@ -474,7 +480,7 @@ Hvis du holder op med at bruge Fasenra
 Stop ikke behandling med Fasenra, medmindre din læge råder dig til det. Afbrydelse eller standsning 
 af behandlingen med Fasenra kan medføre, at dine astmasymptomer og anfald kommer tilbage.
 Hvis dine astmasymptomer bliver værre, mens du får injektioner af Fasenra, skal du kontakte lægen.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -510,7 +516,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fasenra"
@@ -528,7 +534,7 @@ ud af køleskabet, skal det anvendes inden for 14 dage eller kasseres. Dato for 
 kartonen.
 Må ikke omrystes, nedfryses eller udsættes for varme.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -850,7 +856,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -889,7 +895,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -898,7 +906,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -913,7 +922,7 @@ Usage: #inline
 3. Como utilizar Fasenra
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Fasenra
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -940,7 +949,7 @@ Fasenra pode reduzir o número de ataques de asma que tem, ajuda-o a respirar me
 sintomas da asma. Se estiver a tomar medicamentos denominados “corticosteroides orais", a utilização de 
 Fasenra também pode permitir que reduza a dose diária ou pare os corticosteroides orais que precisa para 
 controlar a sua asma.
-36</p>         </div>"""   
+36</p> </div>"""   
           
 
              
@@ -997,7 +1006,7 @@ pode prejudicar o seu bebé.
 Não é conhecido se os componentes de Fasenra podem passar para o leite materno. Se está a amamentar
 ou planeia amamentar, fale com o seu médico.
 Condução de veículos e utilização de máquinas
-É improvável que Fasenra afete a sua capacidade de conduzir e utilizar máquinas. </p>         </div>"""   
+É improvável que Fasenra afete a sua capacidade de conduzir e utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar fasenra"
@@ -1021,7 +1030,7 @@ Não pare o tratamento com Fasenra, a não ser que o seu médico lhe diga para o
 parar o tratamento com Fasenra pode fazer com que seus sintomas e ataques de asma regressem.
 Se os seus sintomas da asma piorarem enquanto está a administrar Fasenra, contacte o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou
-enfermeiro.</p>         </div>"""         
+enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1064,7 +1073,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar fasenra"
@@ -1082,7 +1091,7 @@ retirar do frigorífico, Fasenra tem que ser utilizado em 14 dias ou, caso contr
 data de eliminação deve ser escrita na embalagem.
 Não agite, congele ou exponha ao calor.
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora os 
-medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1211,7 +1220,7 @@ United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Amsparity </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -122,7 +125,7 @@ that move across the field of vision). Amsparity works by reducing this inflamma
 <p>Amsparity is used to treat children and adolescents with chronic non-infectious uveitis from 2 years of 
 age with inflammation affecting the front of the eye. </p>
 <p>Your child may first be given other medicines. If these medicines do not work well enough, your child 
-will be given Amsparity to reduce the signs and symptoms of his/her disease. </p>         </div>"""   
+will be given Amsparity to reduce the signs and symptoms of his/her disease. </p> </div>"""   
           
 
              
@@ -323,7 +326,7 @@ vaccines see the  Warnings and precautions  section. </p>
 spinning sensation (vertigo) and vision disturbances may occur after taking Amsparity. </p>
 <p>Amsparity contains sodium </p>
 <p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.8 ml dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amsparity"
@@ -472,7 +475,7 @@ scheduled day, had you not forgotten a dose. </p>
 <p>If your child stops using Amsparity </p>
 <p>The decision to stop using Amsparity should be discussed with your child s doctor. Your child s 
 symptoms may return upon stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your child s doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your child s doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -673,7 +676,7 @@ Common (may affect up to 1 in 10 people) </p>
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amsparity"
@@ -692,7 +695,7 @@ Once removed from the refrigerator for room temperature storage, the syringe mus
 it should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your child s doctor or 
 pharmacist how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -784,7 +787,7 @@ Pfizer Limited
 Tel: +44 (0)1304 616Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel. +3705 2514This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -823,7 +826,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -832,7 +837,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -847,7 +853,7 @@ Usage: #inline
 3. Sådan skal du bruge Amsparity 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1096,7 +1102,7 @@ grad. Dit barn kan få en fornemmelse af, at rummet drejer rundt (vertigo), og s
 have taget Amsparity. 
 Amsparity indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 0,8 ml dosis, dvs. det er i det 
-væsentlige "natrium-frit".</p>         </div>"""   
+væsentlige "natrium-frit".</p> </div>"""   
           
 
              
@@ -1190,7 +1196,7 @@ oprindeligt fastlagte dag, som om du ikke havde glemt en dosis.
 Hvis dit barn holder op med at bruge Amsparity 
 Beslutningen om at stoppe med at bruge Amsparity skal diskuteres med barnets læge. Dit barns 
 symptomer kan komme igen efter, at behandlingen er ophørt. 
-Spørg dit barns læge eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""   
+Spørg dit barns læge eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amsparity"
@@ -1510,7 +1516,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 193
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""         
+om sikkerheden af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1530,7 +1536,7 @@ hætteglasset bruges inden for 30 dage eller kasseres, også selv om det sættes
 Du skal registrere den dato, hvor hætteglasset først tages ud af køleskabet, og den dato efter hvilken, 
 det skal kasseres.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amsparity"
@@ -1910,7 +1916,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen</p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1918,7 +1924,9 @@ er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen</p>  
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
 
 
 
@@ -1957,7 +1965,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1966,7 +1976,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1981,7 +1992,7 @@ Usage: #inline
 3. Como utilizar Amsparity
 4. Efeitos indesejáveis possíveis
 5. Como conservar Amsparity
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -2049,7 +2060,7 @@ redução desta inflamação.
 Amsparity é usado no tratamento da uveíte não infecciosa crónica, com inflamação afetando a parte da 
 frente do olho, em crianças e adolescentes a partir dos 2 anos de idade.
 A sua criança pode receber primeiro outros medicamentos. Se estes medicamentos não funcionarem
-suficientemente bem, a sua criança receberá Amsparity para reduzir os sinais e sintomas da doença.</p>         </div>"""   
+suficientemente bem, a sua criança receberá Amsparity para reduzir os sinais e sintomas da doença.</p> </div>"""   
           
 
              
@@ -2234,7 +2245,7 @@ Amsparity pode ter uma pequena influência na capacidade da sua criança conduzi
 ou utilizar máquinas. Depois de tomar Amsparity pode ocorrer vertigens e alterações da visão.
 Amsparity contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 0,8 ml, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar amsparity"
@@ -2406,7 +2417,7 @@ Se a sua criança parar de utilizar Amsparity
 A decisão de parar de utilizar Amsparity deve ser discutida com o médico da sua criança. Os sintomas 
 da sua criança podem voltar após parar o tratamento.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico da sua criança ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -2727,7 +2738,7 @@ Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis ef
 indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar amsparity"
@@ -2749,7 +2760,7 @@ Deve registar a data em que a seringa foi inicialmente retirada do frigorífico 
 eliminada.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao médico da 
 sua criança ou farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas 
-ajudarão a proteger o ambiente.</p>         </div>"""      
+ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2877,7 +2888,7 @@ Lietuva
 Pfizer Luxembourg SARL filialas Lietuvoje
 Tel. +3705 2514000
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

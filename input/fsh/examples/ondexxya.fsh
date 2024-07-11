@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How Ondexxya is stored</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 anticoagulants called factor Xa inhibitors (apixaban or rivaroxaban). Factor Xa inhibitors are given
 to prevent clots in your blood vessels. Your doctor may decide to give you Ondexxya to rapidly
 reverse the effects of the anticoagulant in case of a life-threatening or uncontrolled bleeding
-situation.</p>         </div>"""   
+situation.</p> </div>"""   
           
 
              
@@ -116,7 +119,7 @@ and are not using birth control.
 Do not breast-feed your child while you are taking this medicine. It is unknown if andexanet alfa is
 excreted in human milk.
 Driving and using machines
-This medicine is unlikely to affect your ability to drive and use machines.</p>         </div>"""   
+This medicine is unlikely to affect your ability to drive and use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ondexxya"
@@ -132,7 +135,7 @@ After you have received Ondexxya, your doctor will decide when to restart your a
 treatment.
 Detailed instructions for your doctor or nurse on how to give Ondexxya are given at the end of
 this package leaflet (see  Handling instructions ).
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -156,7 +159,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in
 Appendix V. By reporting side effects, you can help provide more information on the safety of this
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ondexxya"
@@ -171,7 +174,7 @@ EXP.
 The expiry date refers to the last day of that month.
 Store in a refrigerator (2 C to 8 C).
 Do not freeze.
-Once reconstituted, Ondexxya is for immediate use.</p>         </div>"""      
+Once reconstituted, Ondexxya is for immediate use.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -427,7 +430,7 @@ preparation for administration.
 6. Administer the reconstituted solution at the appropriate rate.
 Disposal
 All used syringes, needles, and vials, including any unused portion of reconstituted solution, should be
-disposed of in accordance with local requirements.</p>         </div>"""      
+disposed of in accordance with local requirements.</p> </div>"""      
 
 
 
@@ -466,7 +469,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -475,7 +480,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -490,7 +496,7 @@ Usage: #inline
 3. Sådan bruges Ondexxya
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -502,7 +508,7 @@ Usage: #inline
 blodfortyndende lægemidler, der kaldes faktor Xa-hæmmere (apixaban eller rivaroxaban). Faktor Xa-
 hæmmere gives for at forebygge blodpropper i dine blodkar. Din læge kan beslutte at give dig 
 Ondexxya for hurtigt at modvirke virkningen af det blodfortyndende lægemiddel i tilfælde af en
-livstruende eller ukontrolleret blødning.</p>         </div>"""   
+livstruende eller ukontrolleret blødning.</p> </div>"""   
           
 
              
@@ -549,7 +555,7 @@ Undlad at amme dit barn, mens du får dette lægemiddel. Det er ukendt, om andex
 modermælk.
 Trafik- og arbejdssikkerhed
 Det er usandsynligt, at dette lægemiddel påvirker din evne til at føre motorkøretøj og betjene 
-maskiner.</p>         </div>"""   
+maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ondexxya"
@@ -567,7 +573,7 @@ blodfortyndende lægemiddel.
 I slutningen af denne indlægsseddel findes en detaljeret vejledning til lægen eller sygeplejersken i, 
 hvordan Ondexxya skal gives (se “Håndteringsvejledning").
 Spørg lægen, hvis der er noget, du er i tvivl om.
-28</p>         </div>"""         
+28</p> </div>"""         
 
         
 * section[=].section[+]
@@ -599,7 +605,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ondexxya"
@@ -613,7 +619,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset og æsk
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i køleskab (2 °C til 8 °C).
 Må ikke nedfryses.
-Når Ondexxya er rekonstitueret, skal det bruges straks.</p>         </div>"""      
+Når Ondexxya er rekonstitueret, skal det bruges straks.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -909,7 +915,7 @@ administration.
 6. Administrér den rekonstituerede opløsning ved den passende hastighed.
 Bortskaffelse
 Alle brugte sprøjter, kanyler og hætteglas, herunder en eventuel ikke anvendt del af den 
-rekonstituerede opløsning, skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+rekonstituerede opløsning, skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -948,7 +954,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -957,7 +965,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -972,7 +981,7 @@ Usage: #inline
 3. Como utilizar Ondexxya
 4. Efeitos indesejáveis possíveis
 5. Como conservar Ondexxya
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -984,7 +993,7 @@ Usage: #inline
 anticoagulantes denominados inibidores do fator Xa (apixabano ou rivaroxabano). Os inibidores do 
 fator Xa são administrados para prevenir coágulos nos vasos sanguíneos. O seu médico poderá decidir 
 administrar-lhe Ondexxya para reverter rapidamente os efeitos do anticoagulante no caso de uma 
-situação de hemorragia não controlada ou com risco de vida.</p>         </div>"""   
+situação de hemorragia não controlada ou com risco de vida.</p> </div>"""   
           
 
              
@@ -1030,7 +1039,7 @@ a utilizar métodos contracetivos.
 Não amamente o seu bebé enquanto estiver a tomar este medicamento. Desconhece-se se andexanet 
 alfa é excretado no leite humano.
 Condução de veículos e utilização de máquinas
-É improvável que este medicamento afete a sua capacidade de conduzir e utilizar máquinas.</p>         </div>"""   
+É improvável que este medicamento afete a sua capacidade de conduzir e utilizar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ondexxya"
@@ -1046,7 +1055,7 @@ Depois de lhe ter sido administrado Ondexxya, o seu médico irá decidir quando 
 terapêutica anticoagulante.
 Instruções pormenorizadas para o seu médico ou enfermeiro sobre como administrar Ondexxya 
 encontram-se no final deste folheto informativo (ver “Instruções de manuseamento").
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1079,7 +1088,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ondexxya"
@@ -1093,7 +1102,7 @@ Não utilize este medicamento após o prazo de validade impresso no frasco para 
 embalagem exterior após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
 Conservar no frigorífico (2 °C a 8 °C).
 Não congelar.
-Uma vez reconstituído, Ondexxya deve ser utilizado imediatamente.</p>         </div>"""      
+Uma vez reconstituído, Ondexxya deve ser utilizado imediatamente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1222,7 +1231,7 @@ significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

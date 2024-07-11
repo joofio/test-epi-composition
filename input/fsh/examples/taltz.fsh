@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Taltz </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -104,7 +107,7 @@ X-rays, it is referred to as  radiographic axial spondyloarthritis ; if it occur
 signs on X-rays, it is referred to as  non-radiographic axial spondyloarthritis . If you have axial 
 spondyloarthritis you will first be given other medicines. If you do not respond well enough to these 
 medicines, you will be given Taltz to reduce the signs and symptoms of the disease, reduce 
-inflammation and improve your physical function. </p>         </div>"""   
+inflammation and improve your physical function. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ You and your doctor should decide if you can breast-feed or use Taltz. You shoul
 Taltz is unlikely to influence your ability to drive and use machines. </p>
 <p>Taltz contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 80 mg dose, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take taltz"
@@ -229,7 +232,7 @@ If you have forgotten to inject a dose of Taltz, talk to your doctor. </p>
 <p>If you stop using Taltz<br />
 You should not stop using Taltz without speaking to your doctor first. If you stop treatment, symptoms 
 of psoriasis or psoriatic arthritis may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -284,7 +287,7 @@ problems). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store taltz"
@@ -301,7 +304,7 @@ carton after  EXP . The expiry date refers to the last day of that month. </p>
 distinctly brown, or has particles in it.  </p>
 <p>This medicine is for single use only.  </p>
 <p>Do not throw away any medicines via wastewater. Ask your doctor, nurse or pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -598,7 +601,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -637,7 +640,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -646,7 +651,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -663,7 +669,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -714,7 +720,7 @@ tilstanden er synlig på røntgenbilleder, kaldes den "radiografisk aksial spond
 forekommer hos patienter uden synlige tegn på røntgenbilleder, kaldes den "nonradiografisk aksial 
 spondylartrit". Hvis du har axial spondylartrit, tilbydes du først andre lægemidler. Hvis disse 
 lægemidler ikke virker tilstrækkeligt for dig, vil du få Taltz for at mindske tegn og symptomer på 
-sygdommen, samt mindske betændelsen og forbedre din fysiske funktion. </p>         </div>"""   
+sygdommen, samt mindske betændelsen og forbedre din fysiske funktion. </p> </div>"""   
           
 
              
@@ -771,7 +777,7 @@ og lægen skal sammen afgøre, om du skal amme eller bruge Taltz. Du bør ikke g
 Det er ikke sandsynligt, at Taltz påvirker din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Taltz indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. 80 mg dosis, dvs. den er i det 
-væsentlige natriumfri.  </p>         </div>"""   
+væsentlige natriumfri.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take taltz"
@@ -840,7 +846,7 @@ Hvis du har glemt at indsprøjte en dosis Taltz, skal du tale med lægen. </p>
 <p>Hvis du holder op med at bruge Taltz<br />
 Du må ikke stoppe med at bruge Taltz uden først at have talt med lægen. Hvis du stopper 
 behandlingen, kan der igen komme symptomer på psoriasis eller psoriasisartrit. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -904,7 +910,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store taltz"
@@ -921,7 +927,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 uklar, tydeligt brun eller indeholder partikler.  </p>
 <p>Dette lægemiddel er kun til engangsbrug.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller toilettet. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller toilettet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1281,7 +1287,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Trazimera </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ presence of female sex hormones).  </p>
 <ul>
 <li>You have metastatic gastric cancer with high levels of HER2, when it is in combination with 
 the other cancer medicines capecitabine or 5-flououracil and cisplatin. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ Trazimera, as Trazimera may pass to your baby through your breast milk. </p>
 <p>Driving and using machines 
 Trazimera may affect your ability to drive a car or operate machines. If during treatment you 
 experience symptoms, such as dizziness, sleepiness, chills or fever, you should not drive or use 
-machines until these symptoms disappear. </p>         </div>"""   
+machines until these symptoms disappear. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trazimera"
@@ -200,7 +203,7 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can. </p>
 <p>It may take up to 7 months for Trazimera to be removed from your body. Therefore your doctor may 
 decide to continue to check your heart functions, even after you finish treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ Trazimera in combination with chemotherapy, some of them may also be due to the 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trazimera"
@@ -373,7 +376,7 @@ the end of this 3-month period or by the expiry date on the vial, whichever occu
 <p>Infusion solutions should be used immediately after dilution. Do not use Trazimera if you notice any 
 particulate matter or discoloration prior to administration. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how 
-to dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
+to dispose of medicines no longer required. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -470,7 +473,7 @@ Tel: +44 (0)1304 616Lietuva
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel: +370 5 251 4This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -509,7 +512,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -518,7 +523,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -533,7 +539,7 @@ Usage: #inline
 3. Sådan får du Trazimera
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -558,7 +564,7 @@ koncentrationer af HER2 samt hormonreceptor-positiv metastatisk brystkræft (bry
 følsom over for tilstedeværelsen af kvindelige kønshormoner).
 
 du har metastatisk mavekræft med høje koncentrationer af HER2, når det er i kombination med 
-de andre kræftlægemidler, capecitabin eller 5-fluoruracil og cisplatin.</p>         </div>"""   
+de andre kræftlægemidler, capecitabin eller 5-fluoruracil og cisplatin.</p> </div>"""   
           
 
              
@@ -633,7 +639,7 @@ Spørg din læge eller apotek til råds, inden du tager nogen form for medicin.
 Trafik- og arbejdssikkerhed
 Trazimera kan påvirke din evne til at køre bil eller betjene maskiner. Hvis du under behandlingen får 
 symptomer såsom svimmelhed, søvnighed, kulderystelser eller feber, må du ikke køre bil eller betjene 
-maskiner før, symptomerne er forsvundet.</p>         </div>"""   
+maskiner før, symptomerne er forsvundet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trazimera"
@@ -663,7 +669,7 @@ rigtige tidspunkt hver uge eller hver tredje uge (afhængigt af dit doseringsske
 til at virke bedst muligt.
 Det kan tage op til 7 måneder at udskille Trazimera fra kroppen. Derfor kan din læge beslutte at 
 fortsætte med at undersøge din hjertefunktion, efter din behandling er stoppet.
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -903,7 +909,7 @@ kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det natio
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trazimera"
@@ -923,7 +929,7 @@ Infusionsopløsninger skal anvendes umiddelbart efter fortynding. Brug ikke Traz
 bemærker nogle partikler eller misfarvning inden brug.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-52</p>         </div>"""      
+52</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1148,7 +1154,7 @@ og sprøjte og tilsæt den til en polyvinylchlorid-, polyethylen-, polypropylen-
 vinylacetatinfusionspose eller en glasflaske til infusion indeholdende 250 ml 9 mg/ml (0,9 %) 
 natriumchlorid injektionsvæske, opløsning. Der må ikke anvendes glucoseopløsninger. Vend forsigtigt 
 posen eller flasken op og ned for at blande opløsningen og for at undgå skumdannelse. Parenterale 
-opløsninger bør inspiceres visuelt for partikler og misfarvning før administrationen. </p>         </div>"""      
+opløsninger bør inspiceres visuelt for partikler og misfarvning før administrationen. </p> </div>"""      
 
 
 

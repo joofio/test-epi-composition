@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store BiResp Spiromax </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ inhaler for this.  </p>
 <p>Chronic obstructive pulmonary disease (COPD) 
 COPD is a long-term lung disease of the airways in the lungs, which is often caused by cigarette smoking.<br />
 Symptoms include shortness of breath, cough, chest discomfort and coughing up mucus. BiResp Spiromax 
-can also be used to treat the symptoms of severe COPD in adults only.  </p>         </div>"""   
+can also be used to treat the symptoms of severe COPD in adults only.  </p> </div>"""   
           
 
              
@@ -175,7 +178,7 @@ doctor immediately. </p>
 BiResp Spiromax is not likely to affect your ability to drive or to use tools or machines. </p>
 <p>BiResp Spiromax contains lactose<br />
 Lactose is a type of sugar found in milk. If you have been told by your doctor that you have an intolerance to 
-some sugars, talk to your doctor before using this medicine.   </p>         </div>"""   
+some sugars, talk to your doctor before using this medicine.   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take biresp"
@@ -323,7 +326,7 @@ for a forgotten dose. If it is nearly time for your next dose just take your nex
 inhaler , then seek medical advice.  </p>
 <p>If you stop using BiResp Spiromax 
 Do not stop using your inhaler without telling your doctor first.<br />
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -400,7 +403,7 @@ corticosteroid tablets.  </p>
 If you get any side effects, talk to your doctor,pharmacist or nurse. This includes any possible side effects not 
 listed in this leaflet.  </p>
 <p>You can also report side effects directly via the national reporting system listed in Appendix V. By reporting 
-side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store biresp"
@@ -416,7 +419,7 @@ after EXP. The expiry date refers to the last day of that month. </li>
 the date you open the foil pouch. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -509,7 +512,7 @@ Tel: +370 5 266 02 Hrvatska
 Pliva Hrvatska d.o.o. 
 Tel: + 385 1 37 20 This leaflet was last revised in month YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -548,7 +551,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -557,7 +562,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -574,7 +580,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -629,7 +635,7 @@ med lægen. De behøver ikke en særskilt inhalator hertil.  </p>
 <p>Kronisk obstruktiv lungesygdom (KOL) 
 KOL er en langvarig lungesygdom i lungerne, der ofte opstår som følge af cigaretrygning. 
 Symptomerne inkluderer åndenød, hoste, ubehag i brystet og ophostning af slim. BiResp Spiromax 
-kan også anvendes til at behandle symptomer på svær KOL, men kun hos voksne. </p>         </div>"""   
+kan også anvendes til at behandle symptomer på svær KOL, men kun hos voksne. </p> </div>"""   
           
 
              
@@ -763,7 +769,7 @@ BiResp Spiromax, men straks tale med din læge. </p>
 maskiner. </p>
 <p>BiResp Spiromax indeholder lactose<br />
 Lactose er en slags sukker, der findes i mælk. Kontakt lægen, før du tager denne medicin, hvis lægen 
-har fortalt dig, at du ikke tåler visse sukkerarter.  </p>         </div>"""   
+har fortalt dig, at du ikke tåler visse sukkerarter.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take biresp"
@@ -977,7 +983,7 @@ dosis. </p>
 astmaanfald, skal du bruge din inhalator med anfaldsmedicin, og derefter søge læge.  </p>
 <p>Hvis du holder op med at bruge BiResp Spiromax 
 Hold ikke op med at bruge din inhalator, uden først at fortælle din læge om det.  </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1126,7 +1132,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apoteket eller sundhed
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store biresp"
@@ -1153,7 +1159,7 @@ inhalatoren til at skrive den dato, du åbnede folieposen på. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1286,7 +1292,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
-eller du får bivirkninger, som ikke er nævnt her. Se punkt. 4. </p>         </div>"""      
+eller du får bivirkninger, som ikke er nævnt her. Se punkt. 4. </p> </div>"""      
 
 
 
@@ -1325,7 +1331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1334,7 +1342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1351,7 +1360,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar BiResp Spiromax </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1408,7 +1417,7 @@ exposto a alergénios). Não precisa de um inalador separado para isto. </p>
 <p>Doença pulmonar obstrutiva crónica (DPOC) 
 A DPOC é uma doença crónica das vias aéreas dos pulmões, frequentemente causada pelo fumo dos 
 cigarros. Os sintomas incluem falta de ar, tosse, desconforto na zona do peito e expetoração. BiResp 
-Spiromax também pode ser utilizado para tratar os sintomas da DPOC grave apenas em adultos.  </p>         </div>"""   
+Spiromax também pode ser utilizado para tratar os sintomas da DPOC grave apenas em adultos.  </p> </div>"""   
           
 
              
@@ -1548,7 +1557,7 @@ Não é provável que BiResp Spiromax afete a sua capacidade de conduzir veícul
 máquinas ou ferramentas. </p>
 <p>BiResp Spiromax contém lactose.<br />
 A lactose é um tipo de açúcar encontrado no leite. Se foi informado pelo seu médico que tem 
-intolerância a alguns açúcares, contacte-o antes de utilizar este medicamento. </p>         </div>"""   
+intolerância a alguns açúcares, contacte-o antes de utilizar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar biresp"
@@ -1772,7 +1781,7 @@ utilize o seu inalador de alívio e, em seguida, procure assistência médica. <
 <p>Se parar de utilizar BiResp Spiromax 
 Não pare de utilizar o seu inalador sem falar primeiro com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1927,7 +1936,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar biresp"
@@ -1956,7 +1965,7 @@ inalador para apontar a data em que abre a bolsa de alumínio. </p>
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -2090,7 +2099,7 @@ informação importante para si.
 - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
 ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
-neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p> </div>"""      
 
 
 

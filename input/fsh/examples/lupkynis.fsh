@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lupkynis </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ can be used to control your body s immune response (immunosuppressants). In lupu
 system (the body s natural defences) mistakenly attacks parts of your own body, including the kidneys 
 (lupus nephritis). By reducing the response of the immune system, the medicine reduces inflammation 
 of your kidneys and lessens symptoms such as swelling of the legs, ankles or feet, high blood pressure, 
-tiredness, as well as improving your kidney function. </p>         </div>"""   
+tiredness, as well as improving your kidney function. </p> </div>"""   
           
 
              
@@ -177,7 +180,7 @@ small amount of alcohol in this medicine will not have any noticeable effects. <
 This medicine contains 28.7 mg of sorbitol in each capsule. </p>
 <p>Lupkynis may contain soya lecithin<br />
 This medicine may contain trace amounts of soya lecithin. If you experience anaphylactic reactions to 
-soya or peanut, you must not use this medicine. </p>         </div>"""   
+soya or peanut, you must not use this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lupkynis"
@@ -201,7 +204,7 @@ hours have passed since the time you normally take the medicine, just skip that 
 regular dose at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Lupkynis 
 Do not stop your treatment unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -247,7 +250,7 @@ cause new or worsening swelling in your legs or feet </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lupkynis"
@@ -259,7 +262,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 The expiry date refers to the last day of that month. 
 Store in the original blister in order to protect from moisture. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -352,7 +355,7 @@ Tel: +31 (0) 20 85 46 United Kingdom (Northern Ireland)
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 This leaflet was last revised in . </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -391,7 +394,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -400,7 +405,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -415,7 +421,7 @@ Usage: #inline
 3. Sådan skal du tage Lupkynis 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -430,7 +436,7 @@ anvendes til kontrol af kroppens immunforsvar (immunsvækkende stoffer). Ved lup
 eget immunforsvar ved en fejl til angreb på dele af kroppen, herunder nyrerne (lupus nefritis). 
 Lægemidlet nedsætter immunsystemets respons og medfører derved en reduktion af 
 inflammationen/betændelsen i nyrerne og en mindskning af symptomerne, herunder hævede ben, 
-ankler eller fødder, forhøjet blodtryk og træthed, samt en bedring af nyrefunktionen. </p>         </div>"""   
+ankler eller fødder, forhøjet blodtryk og træthed, samt en bedring af nyrefunktionen. </p> </div>"""   
           
 
              
@@ -527,7 +533,7 @@ alkohol, der er i dette lægemiddel, vil ikke have nogen mærkbar effekt. </p>
 Dette lægemiddel indeholder 28,7 mg sorbitol i hver kapsel. </p>
 <p>Lupkynis kan indeholde sojalecitin<br />
 Dette lægemiddel kan indeholde spor af sojalecitin. Hvis du har oplevet anafylaktiske reaktioner på 
-soja eller jordnødder, må du ikke bruge dette lægemiddel. </p>         </div>"""   
+soja eller jordnødder, må du ikke bruge dette lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lupkynis"
@@ -554,7 +560,7 @@ skulle have taget dosen, skal du springe den over og tage den næste planlagte d
 tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Lupkynis 
 Stop ikke behandlingen, medmindre lægen siger, du skal. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -601,7 +607,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lupkynis"
@@ -613,7 +619,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterpakn
 Udløbsdatoen er den sidste dag i den nævnte måned. 
 Opbevares i den originale blisterpakning for at beskytte mod fugt. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -739,7 +745,7 @@ Tel: +31 (0) 20 85 46  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -778,7 +784,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -787,7 +795,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -802,7 +811,7 @@ Usage: #inline
 3. Como tomar Lupkynis 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Lupkynis 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -817,7 +826,7 @@ da calcineurina que podem ser utilizados para controlar a resposta imunitária d
 (imunossupressores). No lúpus, o sistema imunitário (as defesas naturais do corpo) ataca erroneamente 
 partes do seu próprio corpo, incluindo os rins (nefrite lúpica). Ao reduzir a resposta do sistema 
 imunitário, o medicamento reduz a inflamação dos rins e diminui os sintomas, como inchaço das 
-pernas, tornozelos ou pés, tensão arterial alta, cansaço, além de melhorar a função renal. </p>         </div>"""   
+pernas, tornozelos ou pés, tensão arterial alta, cansaço, além de melhorar a função renal. </p> </div>"""   
           
 
              
@@ -916,7 +925,7 @@ de vinho. A pequena quantidade de álcool neste medicamento não terá quaisquer
 Este medicamento contém 28,7 mg de sorbitol em cada cápsula. </p>
 <p>Lupkynis pode conter lecitina de soja 
 Este medicamento pode conter quantidades vestigiais de lecitina de soja. Se apresentar reações 
-anafiláticas à soja ou ao amendoim, não pode utilizar este medicamento. </p>         </div>"""   
+anafiláticas à soja ou ao amendoim, não pode utilizar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lupkynis"
@@ -944,7 +953,7 @@ compensar uma dose que se esqueceu de tomar. </p>
 <p>Se parar de tomar Lupkynis 
 Não pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -992,7 +1001,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lupkynis"
@@ -1005,7 +1014,7 @@ após “VAL.". O prazo de validade corresponde ao último dia do mês indicado.
 Conservar no blister de origem para proteger da humidade. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1129,7 +1138,7 @@ Otsuka Pharmaceutical Netherlands B.V.
 Tel: +31 (0) 20 85 46  </p>
 <p>Este folheto foi revisto pela última vez em . </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

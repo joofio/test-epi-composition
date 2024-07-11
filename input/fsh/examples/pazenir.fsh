@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pazenir </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -101,7 +104,7 @@ gemcitabine in a clinical trial lived longer than people who had only received g
 * Pazenir is also used together with a medicine called carboplatin if you have the most common 
 type of lung cancer, called  non-small cell lung cancer . 
 * Pazenir is used in non-small cell lung cancer where surgery or radiotherapy would not be 
-suitable to treat the disease. </p>         </div>"""   
+suitable to treat the disease. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ use any tools or machines. </p>
 driving and using machines. </p>
 <p>Pazenir contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pazenir"
@@ -183,7 +186,7 @@ a 21 day cycle). </p>
 treatment cycle with gemcitabine being given immediately after the Pazenir. </p>
 <p>For treatment of non-small cell lung cancer Pazenir is given once every week (i.e. on days 1, 8 and of a 21 day cycle), with carboplatin being given once every three weeks (i.e. only on day 1 of each 21-
 day cycle), immediately after the Pazenir dose has been given. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -287,7 +290,7 @@ toxic epidermal necrolysis) </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pazenir"
@@ -303,7 +306,7 @@ dispersion may be stored in a refrigerator (2 C-8 C) for up to 24 hours in the v
 outer carton in order to protect it from light. </p>
 <p>The reconstituted dispersion in the intravenous drip may be stored for up to 24 hours at 2 C-8 C, 
 protected from light followed by 4 hours at 15 C-25 C. </p>
-<p>Your doctor or pharmacist is responsible for disposing of any unused Pazenir correctly. </p>         </div>"""      
+<p>Your doctor or pharmacist is responsible for disposing of any unused Pazenir correctly. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -411,7 +414,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -450,7 +453,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -459,7 +464,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -474,7 +480,7 @@ Usage: #inline
 3. Sådan skal du bruge Pazenir 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -533,7 +539,7 @@ almindelige type lungekræft, der kaldes "ikke-småcellet lungekræft". </p>
 <p>Pazenir anvendes til ikke-småcellet lungekræft, hvis operation eller strålebehandling ikke er 
 egnet til at behandle sygdommen. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -637,7 +643,7 @@ betjene værktøj eller maskiner, hvis dette sker for dig. </p>
 vedrørende kørsel og betjening af maskiner. </p>
 <p>Pazenir indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pazenir"
@@ -656,7 +662,7 @@ en 21-dages cyklus). </p>
 behandlingscyklus. Gemcitabin gives umiddelbart efter Pazenir. </p>
 <p>Til behandling af ikke-småcellet lungekræft gives Pazenir én gang ugentligt (dvs. på dag 1, 8 og i hver 21-dages cyklus), hvor carboplatin gives en gang hver tredje uge (dvs. kun på dag 1 i hver 
 21-dages cyklus), umiddelbart efter Pazenir-dosis er blevet givet. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -916,7 +922,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pazenir"
@@ -932,7 +938,7 @@ med det samme, kan dispersionen opbevares i et køleskab (ved temperaturer på 2
 24 timer i hætteglasset, hvis den opbevares i den ydre karton for at beskytte mod lys. </p>
 <p>Den rekonstituerede dispersion i det intravenøse drop kan opbevares i op til 24 timer ved en 
 temperatur på 2 °-8 °C, beskyttet mod lys, efterfulgt af 4 timer ved en temperatur på 15 °-25 °C. </p>
-<p>Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Pazenirpå korrekt vis. </p>         </div>"""      
+<p>Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Pazenirpå korrekt vis. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1137,7 +1143,7 @@ beskyttet mod stærkt lys. </p>
 <p>Stabilitet af den rekonstituerede dispersion i infusionsposen 
 Efter rekonstitution bør den rekonstituerede dispersion i infusionsposen anvendes med det samme. 
 Kemisk og fysisk stabilitet under brug er dog blevet påvist i 24 timer ved en temperatur på 2 °-8 °C, 
-beskyttet mod lys, efterfulgt af 4 timer ved en temperatur på 15 °-25 °C. </p>         </div>"""      
+beskyttet mod lys, efterfulgt af 4 timer ved en temperatur på 15 °-25 °C. </p> </div>"""      
 
 
 
@@ -1176,7 +1182,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1185,7 +1193,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1200,7 +1209,7 @@ Usage: #inline
 3. Como utilizar Pazenir 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Pazenir 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1263,7 +1272,7 @@ células". </p>
 <p>Pazenir é utilizado no cancro do pulmão de não-pequenas células quando a cirurgia ou a 
 radioterapia não são adequadas para tratar a doença. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1373,7 +1382,7 @@ não conduza veículos nem utilize quaisquer ferramentas ou maquinaria. </p>
 junto do seu médico no que respeita à condução de veículos e utilização de máquinas. </p>
 <p>Pazenir contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 100 mg, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pazenir"
@@ -1396,7 +1405,7 @@ ciclo de tratamento de 28 dias sendo a gemcitabina administrada imediatamente de
 semana (isto é, nos dias 1, 8 e 15 de cada ciclo de 21 dias), sendo a carboplatina administrada uma vez 
 de 3 em 3 semanas (isto é, apenas no dia 1 de cada ciclo de 21 dias), imediatamente depois de se 
 administrar a dose de Pazenir. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1658,7 +1667,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pazenir"
@@ -1676,7 +1685,7 @@ frasco para injetáveis quando mantido na embalagem exterior, para proteger da l
 <p>A dispersão reconstituída para perfusão intravenosa pode ser conservada até 24 horas entre 2ºC-8ºC, 
 protegida da luz, seguida de 4 horas entre 15ºC-25ºC. </p>
 <p>O seu médico ou farmacêutico é responsável pela eliminação correta de quaisquer porções não usadas 
-de Pazenir. </p>         </div>"""      
+de Pazenir. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1818,7 +1827,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

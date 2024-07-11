@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Amlodipine/Valsartan Mylan  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ blood pressure. Valsartan works by blocking the effect of angiotensin II.<br />
 This means that both of these substances help to stop the blood vessels tightening. As a result, the 
 blood vessels relax and blood pressure is lowered.  </p>
 <p>Amlodipine/Valsartan Mylan is used to treat high blood pressure in adults whose blood pressure is not 
-controlled enough with either amlodipine or valsartan on its own. </p>         </div>"""   
+controlled enough with either amlodipine or valsartan on its own. </p> </div>"""   
           
 
              
@@ -185,7 +188,7 @@ newborn, or was born prematurely.  </p>
 <p>Driving and using machines 
 This medicine may make you feel dizzy. This can affect how well you can concentrate. So, if you are 
 not sure how this medicine will affect you, do not drive, use machinery, or do other activities that you 
-need to concentrate on. </p>         </div>"""   
+need to concentrate on. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amlodipine"
@@ -214,7 +217,7 @@ double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Amlodipine/Valsartan Mylan 
 Stopping your treatment with Amlodipine/Valsartan Mylan may cause your disease to get worse. Do 
 not stop taking your medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ spots; fever; itching; allergic reaction; blistering skin (sign of a condition c
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amlodipine"
@@ -311,7 +314,7 @@ expiry date refers to the last day of that month. </p>
 This medicine does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -431,7 +434,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited<br />
 Tel: +353 18711This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -470,7 +473,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -479,7 +484,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -494,7 +500,7 @@ Usage: #inline
 3. Sådan skal du tage Amlodipine/Valsartan Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -513,7 +519,7 @@ Angiotensin II produceres i kroppen og får blodårerne til at trække sig samme
 Dette betyder, at begge stoffer forhindrer blodårerne i at trække sig sammen. Som et resultat, bliver 
 blodårerne mere afslappede, og blodtrykket sænkes. </p>
 <p>Amlodipine/Valsartan Mylan bruges til at behandle forhøjet blodtryk hos voksne, som ikke kan få 
-deres blodtryk passende kontrolleret med enten amlodipin eller valsartan alene. </p>         </div>"""   
+deres blodtryk passende kontrolleret med enten amlodipin eller valsartan alene. </p> </div>"""   
           
 
              
@@ -632,7 +638,7 @@ tidligt. </p>
 <p>Trafik- og arbejdssikkerhed 
 Denne medicin kan få dig til at føle svimmelhed. Det kan påvirke din koncentrationsevne. Hvis du 
 ikke er sikker på, hvordan denne medicin påvirker dig, må du ikke køre bil, betjene maskiner eller 
-udføre andre aktiviteter, som kræver din koncentration. </p>         </div>"""   
+udføre andre aktiviteter, som kræver din koncentration. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amlodipine"
@@ -664,7 +670,7 @@ glemte tablet. </p>
 <p>Hvis du holder op med at tage Amlodipine/Valsartan Mylan 
 Hvis du holder op med at tage Amlodipine/Valsartan Mylan, kan det resultere i, at din sygdom bliver 
 værre. Stop ikke med at tage din medicin, medmindre din læge siger det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -749,7 +755,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amlodipine"
@@ -763,7 +769,7 @@ sidste dag i den nævnte måned. </p>
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på åbning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -899,7 +905,7 @@ Tel: +353 18711
 Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

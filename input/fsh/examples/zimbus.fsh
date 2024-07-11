@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use of Zimbus Breezhaler inhaler </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use of Zimbus Breezhaler inhaler </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zimbus Breezhaler </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +97,7 @@ wheezing, chest tightness and cough. </p>
 symptoms of asthma. This will ensure that it controls your asthma properly. Do not use this medicine 
 to relieve a sudden attack of breathlessness or wheezing. </p>
 <p>If you have any questions about how Zimbus Breezhaler works or why this medicine has been 
-prescribed for you, ask your doctor. </p>         </div>"""   
+prescribed for you, ask your doctor. </p> </div>"""   
           
 
              
@@ -164,7 +166,7 @@ use Zimbus Breezhaler. </p>
 It is unlikely that this medicine will affect your ability to drive and use machines. </p>
 <p>Zimbus Breezhaler contains lactose 
 This medicine contains about 25 mg of lactose per capsule. If you have been told by your doctor that 
-you have an intolerance to some sugars, speak with your doctor before taking this medicine. </p>         </div>"""   
+you have an intolerance to some sugars, speak with your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zimbus"
@@ -218,7 +220,7 @@ the next dose at the usual time on the next day. Do not inhale two doses on the 
 <p>If you stop using Zimbus Breezhaler 
 Do not stop using Zimbus Breezhaler unless your doctor tells you to. Your asthma symptoms may 
 come back if you stop using it. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -262,7 +264,7 @@ with water or a mouthwash solution and then spit this out. This will help to pre
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zimbus"
@@ -281,7 +283,7 @@ how to throw away medicines you no longer use. These measures will help protect 
 environment. </li>
 <li>If your pack contains an electronic sensor for Enerzair Breezhaler, see the Instructions for Use 
 provided in the sensor pack for detailed instructions on how to store and when to discard it. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +390,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -427,7 +429,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -436,7 +440,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning til Zimbus Breezhaler-inhalator </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning til Zimbus Breezhaler-inhalator </p>  </div>"""   
 
 
 
@@ -453,7 +457,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -485,7 +489,7 @@ Symptomer kommer og går og omfatter åndenød, hvæsende vejrtrækning, trykken
 andre symptomer på astma. Dette vil sikre, at din astma holdes ordentligt under kontrol. Brug ikke 
 dette lægemiddel til behandling af pludselige anfald af åndenød eller hvæsende vejrtrækning. </p>
 <p>Tal med lægen, hvis du har spørgsmål til, hvordan Zimbus Breezhaler virker, eller hvorfor denne 
-medicin er blevet ordineret til dig. </p>         </div>"""   
+medicin er blevet ordineret til dig. </p> </div>"""   
           
 
              
@@ -554,7 +558,7 @@ tage Zimbus Breezhaler. </p>
 Det er usandsynligt at dette lægemiddel påvirker evnen til at køre bil eller betjene maskiner. </p>
 <p>Zimbus Breezhaler indeholder lactose 
 Dette lægemiddel indeholder ca. 25 mg lactose pr. kapsel. Kontakt lægen, før du tager dette 
-lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zimbus"
@@ -609,7 +613,7 @@ Inhalér herefter næste dosis til sædvanlig tid næste dag. Du må ikke inhale
 <p>Hvis du holder op med at tage Zimbus Breezhaler 
 Du må ikke holde op med at tage Zimbus Breezhaler, medmindre lægen siger, at du skal stoppe. Dine 
 astmasymptomer kan vende tilbage, hvis du holder op med at tage lægemidlet. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -657,7 +661,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zimbus"
@@ -676,7 +680,7 @@ ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
 <li>Hvis din pakning indeholder en elektronisk sensor til Zimbus Breezhaler, kan du finde nærmere 
 oplysninger om, hvordan den skal opbevares, og hvornår den skal kasseres, i brugsanvisningen, 
 der følger med sensor-pakningen. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1010,7 +1014,7 @@ Kapselkammer
 Inhalator 
 Inhalatorunderdel 
 Blisterkort 
-Mundstykke </p>         </div>"""      
+Mundstykke </p> </div>"""      
 
 
 

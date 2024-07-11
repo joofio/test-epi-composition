@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Tolura</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ of high blood pressure before damage occurs. Thus it is important to regularly m
 to verify if it is within the normal range.
 Tolura is also used to reduce cardiovascular events (i.e. heart attack or stroke) in adults who are at 
 risk because they have a reduced or blocked blood supply to the heart or legs, or have had a stroke or 
-have high risk diabetes. Your doctor can tell you if you are at high risk for such events.</p>         </div>"""   
+have high risk diabetes. Your doctor can tell you if you are at high risk for such events.</p> </div>"""   
           
 
              
@@ -194,7 +197,7 @@ before taking this medicinal product.
 This medicine contains 149.8 mg sorbitol in each tablet. Sorbitol is a source of fructose. If your doctor 
 has told you that you have an intolerance to some sugars or if you have been diagnosed with hereditary 
 fructose intolerance (HFI), a rare genetic disorder in which a person cannot break down fructose, talk 
-to your doctor before you take or receive this medicine.</p>         </div>"""   
+to your doctor before you take or receive this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tolura"
@@ -226,7 +229,7 @@ If you forget to take Tolura
 If you forget to take a dose, do not worry. Take it as soon as you remember then carry on as before. If 
 you do not take your tablet on one day, take your normal dose on the next day. Do not take a double 
 dose to make up for forgotten individual doses.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -274,7 +277,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tolura"
@@ -287,7 +290,7 @@ The expiry date refers to the last day of that month.
 Do not store above 30 C.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -391,7 +394,7 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -430,7 +433,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -439,7 +444,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -454,7 +460,7 @@ Usage: #inline
 3. Sådan skal du tage Tolura
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -475,7 +481,7 @@ Tolura bruges også til at nedsætte risikoen for hjerte-kar-hændelser og blodp
 voksne, som har en forøget risiko. Den øgede risiko kan skyldes, at blodforsyningen til hjertet eller 
 benene er nedsat eller blokeret, men kan også skyldes, at man tidligere har haft en blodprop i 
 hjernen, eller at man har fremskreden sukkersyge. Din læge kan informere dig, om du er i 
-risikogruppen.</p>         </div>"""   
+risikogruppen.</p> </div>"""   
           
 
              
@@ -595,7 +601,7 @@ sukkerarter.
 Dette lægemiddel indeholder 149,8 mg sorbitol pr. tablet. Sorbitol er en kilde til fructose. Hvis din 
 læge har fortalt dig at du har intolerance over for nogle sukkerarter eller hvis du er blevet 
 diagnosticeret med arvelig fructoseintolerans (HFI), en sjælden genetisk lidelse, hvor en person ikke 
-kan nedbryde fructose, skal du tale med din læge før du tager eller får dette lægemiddel.</p>         </div>"""   
+kan nedbryde fructose, skal du tale med din læge før du tager eller får dette lægemiddel.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tolura"
@@ -626,7 +632,7 @@ Hvis du har glemt at tage Tolura
 Vær ikke bekymret, hvis du glemmer at tage én tablet. Tag tabletten så snart du kommer i tanke om 
 det og fortsæt derefter som normalt. Hvis du en dag ikke får taget din tablet, skal du blot tage den 
 sædvanlige dosis næste dag. Tag ikke en dobbeltdosis som erstatning for den glemte tablet.
-Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -678,7 +684,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tolura"
@@ -691,7 +697,7 @@ den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 30 °C.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -825,7 +831,7 @@ Lægen har ordineret Tolura til dig personligt. Lad derfor være med at give det
 kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -864,7 +870,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -873,7 +881,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -888,7 +897,7 @@ Usage: #inline
 3. Como tomar Tolura
 4. Efeitos indesejáveis possíveis
 5. Como conservar Tolura
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -911,7 +920,7 @@ se a mesma se encontra dentro dos valores normais.
 Tolura é também utilizado para a redução de acontecimentos cardiovasculares (como ataque 
 cardíaco ou AVC) em adultos que estão em risco porque têm o fornecimento de sangue ao coração ou 
 às pernas reduzido ou bloqueado, ou tiveram um AVC ou têm diabetes de elevado risco. O seu médico 
-poderá dizer-lhe se está em elevado risco de sofrer estes acontecimentos.</p>         </div>"""   
+poderá dizer-lhe se está em elevado risco de sofrer estes acontecimentos.</p> </div>"""   
           
 
              
@@ -1032,7 +1041,7 @@ Este medicamento contém 149,8 mg de sorbitol em cada comprimido.
 O sorbitol é uma fonte de frutose. Se o seu médico lhe disse que tem uma intolerância a alguns 
 açúcares ou se foi diagnosticado com intolerância hereditária à frutose (IHF), uma doença genética 
 rara em que a pessoa não consegue digerir a frutose, fale com o seu médico antes de você tomar ou 
-receber este medicamento.</p>         </div>"""   
+receber este medicamento.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tolura"
@@ -1069,7 +1078,7 @@ Se se esquecer de tomar uma dose, não se preocupe. Tome-a logo que se lembre e 
 como habitualmente. Se não tomar o seu comprimido num dia, tome a sua dose normal no dia 
 seguinte. Não tome uma dose a dobrar para compensar doses individuais que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1128,7 +1137,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tolura"
@@ -1142,7 +1151,7 @@ Não conservar acima de 30ºC.
 Conservar na embalagem de origem para proteger da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1259,7 +1268,7 @@ United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

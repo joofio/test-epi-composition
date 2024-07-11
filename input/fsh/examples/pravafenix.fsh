@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pravafenix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ building up in the arteries and because it protects against heart disease.  </p>
 cholesterol with a simple blood test. Visit your doctor regularly to keep track of your cholesterol level.  </p>
 <p>Pravafenix is used if you are an adult with an elevated risk for heart disease and need to improve 
 cholesterol and triglycerides fat levels in your blood when your  bad  cholesterol levels are being 
-adequately controlled with pravastatin alone (a statin, a cholesterol-lowering medicine). </p>         </div>"""   
+adequately controlled with pravastatin alone (a statin, a cholesterol-lowering medicine). </p> </div>"""   
           
 
              
@@ -200,7 +203,7 @@ Pravafenix contains a sugar called lactose. If you have been told by your doctor
 intolerance to some sugars, contact your doctor before taking this medicinal product. 
 This medicine contains 33.3 mg sodium (main component of cooking/table salt) in each capsule 
 (excipients and active substance). This is equivalent to 1.7% of the recommended maximum daily 
-dietary intake of sodium for an adult. </p>         </div>"""   
+dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pravafenix"
@@ -225,7 +228,7 @@ Do not take a double dose to make up for a forgotten dose, just take your normal
 at the usual time the next day. </p>
 <p>If you stop taking Pravafenix 
 Do not stop taking Pravafenix without first discussing it with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ medicine. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pravafenix"
@@ -309,7 +312,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -406,7 +409,7 @@ Laboratoires SMB S.A.
 Tel: + 32.2.411.48.28. United Kingdom (Northern Ireland) 
 Laboratoires SMB S.A. 
 Tel: + 32.2.411.48.28. This leaflet was last revised in 1104/2Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu/. </p>         </div>"""      
+http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -445,7 +448,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -454,7 +459,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -469,7 +475,7 @@ Usage: #inline
 3. Sådan skal du tage Pravafenix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -498,7 +504,7 @@ måle dit kolesterol med en enkel blodprøve. Gå til læge regelmæssigt for at
 kolesterolniveau. </p>
 <p>Pravafenix anvendes, hvis du er en voksen patient med forhøjet risiko for hjertesygdomme og har brug 
 for at forbedre kolesterol- og triglyceridfedtniveauerne i blodet, når dit niveau af "dårligt" kolesterol 
-kontrolleres tilstrækkeligt med pravastatin alene (et statin, som er et kolesterolsænkende lægemiddel). </p>         </div>"""   
+kontrolleres tilstrækkeligt med pravastatin alene (et statin, som er et kolesterolsænkende lægemiddel). </p> </div>"""   
           
 
              
@@ -614,7 +620,7 @@ Pravafenix indeholder et sukkerstof, der kaldes lactose. Hvis lægen har fortalt
 visse sukkerstoffer, skal du kontakte lægen, inden du tager dette lægemiddel. 
 Dette lægemiddel indeholder 33,3 mg natrium (den vigtigste madlavnings-/bordsaltbestanddel) pr. 
 kapsel (hjælpestoffer og aktivt stof). Dette svarer til 1,7% af en voksnes anbefalede maksimale daglige 
-natriumindtag. </p>         </div>"""   
+natriumindtag. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pravafenix"
@@ -642,7 +648,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, men skal b
 mængde Pravafenix på det sædvanlige tidspunkt næste dag. </p>
 <p>Hvis du holder op med at tage Pravafenix 
 Hold ikke op med at tage Pravafenix uden at tale med lægen først. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -717,7 +723,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonale
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pravafenix"
@@ -729,7 +735,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -857,7 +863,7 @@ begrundelse for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for fenofibrat / pravastatin er CHMP af den opfattelse, 
 at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder fenofibrat / pravastatin, 
 forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen.  </p>
-<p>CHMP anbefaler, at betingelserne i markedsføringstilladelsen/markedsføringstilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne i markedsføringstilladelsen/markedsføringstilladelserne ændres. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Fulphila </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ fall to a low level there may not be enough left in the body to fight bacteria a
 increased risk of infection.  </p>
 <p>Your doctor has given you Fulphila to encourage your bone marrow (part of the bone which makes 
 blood cells) to produce more white blood cells that help your body fight infection.  </p>
-<p>Fulphila is for use in adults aged 18 and over. </p>         </div>"""   
+<p>Fulphila is for use in adults aged 18 and over. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ Fulphila has no or negligible effect on the ability to drive or use machines.  <
 <p>Fulphila contains sorbitol and sodium 
 This medicine contains 30 mg sorbitol in each pre-filed syringe which is equivalent to 50 mg/mL.  </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fulphila"
@@ -183,7 +186,7 @@ If you use more Fulphila than you should, contact your doctor, pharmacist or nur
 <p>If you forget to inject Fulphila 
 If you have forgotten a dose of Fulphila, you should contact your doctor to discuss when you should 
 inject the next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ symptoms and contact your doctor or seek medical attention immediately. See also
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.  </p>         </div>"""      
+safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fulphila"
@@ -259,7 +262,7 @@ longer than 3 days. Once a syringe has been removed from the refrigerator and ha
 temperature (not above 30  C) it must either be used within 3 days or disposed of.  </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -352,7 +355,7 @@ Tel: 0080008250Latvija
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -391,7 +394,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -400,7 +405,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -417,7 +423,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -438,7 +444,7 @@ antallet af hvide blodlegemer falder til et lavt niveau, er der risiko for, at d
 kroppen til at bekæmpe bakterier, og du kan have en øget risiko for infektion.  </p>
 <p>Din læge har ordineret Fulphila til dig for at hjælpe din knoglemarv (hvor blodcellerne dannes) med at 
 danne flere hvide blodlegemer, der hjælper kroppen med at bekæmpe infektion.  </p>
-<p>Fulphila er beregnet til anvendelse hos voksne fra 18 år og derover. </p>         </div>"""   
+<p>Fulphila er beregnet til anvendelse hos voksne fra 18 år og derover. </p> </div>"""   
           
 
              
@@ -515,7 +521,7 @@ Fulphila påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkør
 <p>Fulphila indeholder sorbitol og natrium 
 Dette lægemiddel indeholder 30 mg sorbitol pr. fyldt injektionssprøjte, svarende til 50 mg/ml.  </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 6 mg-dosis, dvs. det er i det 
-væsentlige natriumfrit.  </p>         </div>"""   
+væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fulphila"
@@ -538,7 +544,7 @@ Kontakt din læge eller sygeplejerske, hvis du har brugt mere Fulphila, end du s
 <p>Hvis du har glemt at bruge Fulphila 
 Hvis du har glemt en dosis Fulphila, skal du kontakte lægen for at aftale, hvornår du skal tage den 
 næste dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -597,7 +603,7 @@ bivirkninger, som ikke er nævnt her. Dette gælder også mulige bivirkninger, s
 denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.  </p>         </div>"""      
+lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fulphila"
@@ -616,7 +622,7 @@ mindre end 24 timer.  </p>
 30 °C), skal den anvendes inden for 3 dage eller bortskaffes.  </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at det er grumset, eller at der er partikler i det.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -859,7 +865,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

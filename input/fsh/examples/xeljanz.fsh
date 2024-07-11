@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store XELJANZ</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -113,7 +116,7 @@ inflammatory disease of the joints often accompanied by psoriasis, in patients 2
 XELJANZ can be used together with methotrexate when previous treatment for polyarticular juvenile 
 idiopathic arthritis or juvenile psoriatic arthritis was not sufficient or was not well tolerated. 
 XELJANZ can also be taken on its own in those cases where methotrexate treatment is not tolerated or 
-treatment with methotrexate is not advised.</p>         </div>"""   
+treatment with methotrexate is not advised.</p> </div>"""   
           
 
              
@@ -262,7 +265,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.
 XELJANZ contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xeljanz"
@@ -317,7 +320,7 @@ Do not take a double dose to make up for a forgotten tablet. Take your next tabl
 continue as before.
 If you stop taking XELJANZ
 You should not stop taking XELJANZ without discussing this with your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -394,7 +397,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xeljanz"
@@ -409,7 +412,7 @@ Store in the original package in order to protect from moisture.
 Do not use this medicine if you notice the tablets show visible signs of deterioration (for example, are 
 broken or discoloured).
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -528,7 +531,7 @@ Pfizer Limited
 Pfizer Luxembourg SARL fili le Latvij 
 Tel.: +371 670 35 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -567,7 +570,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -576,7 +581,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -591,7 +597,7 @@ Usage: #inline
 3. Sådan skal du tage XELJANZ
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -649,7 +655,7 @@ XELJANZ kan bruges sammen med methotrexat, når forudgående behandling af polya
 børneleddegigt eller psoriasisrelateret børneleddegigt ikke har været tilstrækkelig eller lægemidlet ikke 
 tåles. 
 XELJANZ kan også tages alene i de tilfælde, hvor behandling med methotrexat ikke tåles eller ikke 
-tilrådes.</p>         </div>"""   
+tilrådes.</p> </div>"""   
           
 
              
@@ -807,7 +813,7 @@ Kontakt lægen, inden du tager dette lægemiddel, hvis din læge har fortalt dig
 sukkerarter.
 XELJANZ indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xeljanz"
@@ -876,7 +882,7 @@ Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag den næ
 sædvanlige tidspunkt og fortsæt som før.
 Hvis du holder op med at tage XELJANZ
 Du må ikke holde op med at tage XELJANZ uden først at diskutere det med lægen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -983,7 +989,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xeljanz"
@@ -998,7 +1004,7 @@ Opbevares i den originale pakning for at beskytte med fugt.
 Brug ikke dette lægemiddel, hvis du opdager, at tabletterne udviser tegn på beskadigelse (for eksempel 
 er gået i stykker eller er misfarvede).
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1169,7 +1175,7 @@ Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivi
 er nævnt i denne indlægsseddel. Se afsnit 4. Udover denne indlægsseddel vil lægen også give dig et patientkort, som indeholder vigtige 
 sikkerhedsoplysninger, som du skal være opmærksom på, før du tager XELJANZ, og så længe du er i 
 behandling med XELJANZ. Du skal altid have dette patientkort på dig.
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 

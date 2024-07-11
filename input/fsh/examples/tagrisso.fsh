@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TAGRISSO</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -96,7 +99,7 @@ mutation .  </p>
 medicines, it means that your cancer contains a gene defect called  T790M . Because of this defect, 
 other protein kinase medicines may no longer work.
 If you have any questions about how this medicine works or why this medicine has been prescribed for 
-you, ask your doctor.</p>         </div>"""   
+you, ask your doctor.</p> </div>"""   
           
 
              
@@ -178,7 +181,7 @@ Driving and using machines
 TAGRISSO has no or no marked influence on the ability to drive and use machines.
 TAGRISSO contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tagrisso"
@@ -212,7 +215,7 @@ dose is due, skip the missed dose. Take your next normal dose at its scheduled t
 If you stop taking TAGRISSO
 Do not stop taking this medicine - talk to your doctor first. It is important to take this medicine every day, 
 for as long as your doctor prescribes it for you. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -277,7 +280,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tagrisso"
@@ -290,7 +293,7 @@ expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if the pack is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -386,7 +389,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -425,7 +428,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -434,7 +439,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -449,7 +455,7 @@ Usage: #inline
 3. Sådan skal du tage TAGRISSO
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -491,7 +497,7 @@ Hvis din kræft har udviklet sig, mens du blev behandlet med andre proteinkinase
 lægemidler, betyder det, at din kræft indeholder en gendefekt kaldet "T790M". På grund af 
 denne defekt vil andre proteinkinaselægemidler muligvis ikke længere virke.
 Spørg lægen, hvis du har spørgsmål til, hvordan dette lægemiddel virker, eller hvorfor du skal have 
-dette lægemiddel.</p>         </div>"""   
+dette lægemiddel.</p> </div>"""   
           
 
              
@@ -609,7 +615,7 @@ anvende maskiner.
 TAGRISSO indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per tablet, dvs. det er i det 
 væsentlige natriumfrit.
-48</p>         </div>"""   
+48</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tagrisso"
@@ -653,7 +659,7 @@ sædvanlige tidspunkt.
 Hvis du holder op med at tage TAGRISSO
 Du må ikke holde op med at tage dette lægemiddel - tal først med lægen. Det er vigtigt at tage dette 
 lægemiddel hver dag lige så længe, lægen ordinerer det til dig.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -748,7 +754,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tagrisso"
@@ -761,7 +767,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at have været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -892,7 +898,7 @@ Tel: +44 1582 836 836
 Denne indlægsseddel blev senest ændret 
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -931,7 +937,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -940,7 +948,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -955,7 +964,7 @@ Usage: #inline
 3. Como tomar TAGRISSO
 4. Efeitos indesejáveis possíveis
 5. Como conservar TAGRISSO
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -996,7 +1005,7 @@ Se o seu cancro progrediu enquanto estava a ser tratado com outros medicamentos 
 proteína cinase, significa que o seu cancro contém um defeito genético chamado “T790M". Devido 
 a este defeito, outros medicamentos inibidores da proteína cinase podem não funcionar.
 Se tiver dúvidas acerca da forma como este medicamento funciona ou porque lhe foi receitado este
-medicamento a si, fale com o seu médico.</p>         </div>"""   
+medicamento a si, fale com o seu médico.</p> </div>"""   
           
 
              
@@ -1111,7 +1120,7 @@ Condução de veículos e utilização de máquinas
 Os efeitos de TAGRISSO sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis.
 TAGRISSO contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tagrisso"
@@ -1158,7 +1167,7 @@ Não pare de tomar este medicamento - fale com o seu médico primeiro. É import
 comprimido todos os dias, enquanto o seu médico o receitar para si.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
 enfermeiro.
-53</p>         </div>"""         
+53</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1254,7 +1263,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tagrisso"
@@ -1268,7 +1277,7 @@ Este medicamento não requer condições especiais de conservação.
 Não utilize este medicamento se a embalagem estiver danificada ou apresentar sinais de deterioração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente.</p>         </div>"""      
+ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1286,7 +1295,7 @@ Os outros componentes são manitol, celulose microcristalina, hidroxipropilcelul
 substituição, estearilfumarato de sódio, álcool polivinílico, dióxido de titânio, macrogol 3350, talco, 
 óxido de ferro amarelo, óxido de ferro vermelho, óxido de ferro preto (ver secção 2 “TAGRISSO 
 contém sódio").
-5</p>         </div>"""      
+5</p> </div>"""      
 
 
 

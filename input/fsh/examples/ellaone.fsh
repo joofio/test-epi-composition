@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Useful information about contraception </li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ellaOne </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -107,7 +109,7 @@ pregnant, it will not interrupt an existing pregnancy. </p>
 you against HIV infection or any other sexually transmitted diseases (e.g. chlamydia, genital herpes, 
 genital warts, gonorrhoea, hepatitis B and syphilis). Ask a healthcare professional for advice if you are 
 worried about this.  </p>
-<p>There is more information about contraception at the end of this leaflet. </p>         </div>"""   
+<p>There is more information about contraception at the end of this leaflet. </p> </div>"""   
           
 
              
@@ -189,7 +191,7 @@ of concentration (see section 4). If you experience these symptoms, do not drive
 <p>ellaOne contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
-<p>ellaOne contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
+<p>ellaOne contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ellaone"
@@ -227,7 +229,7 @@ you see your doctor. (See section  Pregnancy, breast-feeding and fertility ) </p
 <p>There have been no reports of harmful effects from taking a higher dose than recommended of this 
 medicine However do ask your pharmacist, doctor or other healthcare professional for advice. 
 If you have any further questions on the use of this medicine, ask your pharmacist, doctor or other 
-healthcare professional.  </p>         </div>"""         
+healthcare professional.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -276,7 +278,7 @@ visual disturbances </li>
 If you get any side effects, talk to your pharmacist, doctor or other healthcare professional. This 
 includes any possible side effects not listed in this leaflet. You can also report side effects directly via 
 the national reporting system listed in Appendix V. By reporting side effects you can provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ellaone"
@@ -289,7 +291,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store below 25 C. Store in the original package in order to protect from moisture. Keep the blister in 
 the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via waste water. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +390,7 @@ Orivas SIA
 Tel: +371 676 124 United Kingdom (Northern Ireland) 
 Laboratoire HRA Pharma 
 Tel: + 33-(0)1 40 33 11 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -427,7 +429,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -438,7 +442,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Nyttige oplysninger om prævention </li>
-</ul>         </div>"""   
+</ul>  </div>"""   
 
 
 
@@ -453,7 +457,7 @@ Usage: #inline
 3. Sådan skal du tage ellaOne 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -494,7 +498,7 @@ Det afbryder ikke en graviditet, hvis du allerede er gravid. </p>
 <p>Kun kondomer beskytter mod seksuelt overførte infektioner. Dette lægemiddel beskytter ikke mod 
 hiv-infektion eller andre seksuelt overførte sygdomme (f.eks. klamydia, genital herpes, kønsvorter, 
 gonorré, hepatitis B og syfilis). Hvis du har spørgsmål til dette, så spørg lægen eller sygeplejersken. </p>
-<p>Der er yderligere information om prævention i slutningen af denne indlægsseddel. </p>         </div>"""   
+<p>Der er yderligere information om prævention i slutningen af denne indlægsseddel. </p> </div>"""   
           
 
              
@@ -581,7 +585,7 @@ betjene maskiner. </p>
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ellaone"
@@ -619,7 +623,7 @@ du er gravid, er det vigtigt, at du kontakter din læge. (Se punktet “Gravidit
 <p>Der er ikke blevet indberettet skadelige virkninger i forbindelse med indtagelse af en højere dosis af 
 dette lægemiddel end anbefalet. Du bør imidlertid spørge apotekspersonalet, lægen eller 
 sygeplejersken til råds. 
-Spørg apotekspersonalet, din læge eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+Spørg apotekspersonalet, din læge eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -665,7 +669,7 @@ Hvis du oplever bivirkninger, bør du tale med apotekspersonalet, din læge elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ellaone"
@@ -678,7 +682,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 25 °C. Opbevares i den originale yderpakning for at beskytte mod 
 fugt. Opbevar blisteren i den ydre karton for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller toilettet. </p>         </div>"""      
+smide medicinrester i afløbet eller toilettet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -831,7 +835,7 @@ apotekspersonalet, lægen eller sygeplejersken har givet dig.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg apotekspersonalet, hvis der er mere, du vil vide. 
 - Kontakt apotekspersonalet, lægen eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

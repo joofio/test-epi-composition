@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Finlee </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ treatment. </p>
 BRAF gene. This mutation causes the body to make faulty proteins which in turn may cause the 
 tumour to develop. The doctor will test for this mutation before starting treatment. </p>
 <p>In combination with trametinib, Finlee targets these faulty proteins and slows down or stops the 
-development of the tumour. Also read the leaflet for trametinib oral solution. </p>         </div>"""   
+development of the tumour. Also read the leaflet for trametinib oral solution. </p> </div>"""   
           
 
              
@@ -197,7 +200,7 @@ large amounts of benzyl alcohol can build up in your child s body and may cause 
  metabolic acidosis ). </p>
 <p>Ask the doctor or pharmacist for advice if your child has a liver or kidney disease. This is because 
 large amounts of benzyl alcohol can build up in your child s body and may cause side effects (called 
- metabolic acidosis ). </p>         </div>"""   
+ metabolic acidosis ). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take finlee"
@@ -235,7 +238,7 @@ Do not give a double dose to make up for a forgotten dose. </p>
 If your child vomits after taking Finlee, do not give another dose until the next scheduled dose. </p>
 <p>If you stop giving Finlee 
 Give Finlee for as long as the doctor recommends. Do not stop unless the doctor advises you to. </p>
-<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -327,7 +330,7 @@ chest pain </p>
 If your child gets any side effects, talk to the doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store finlee"
@@ -341,7 +344,7 @@ Administer the solution no later than 30 minutes after the tablets have dissolve
 <p>This medicinal product does not require any special temperature storage conditions. 
 Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask the pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -582,7 +585,7 @@ clean.
 4. Dry the area with paper towels. 
 5. Throw away all the disposable materials used to clean the spillage into a sealable plastic bag. 
 6. Ask the pharmacist how to throw away the plastic bag. 
-7. Wash your hands well with soap and water. </p>         </div>"""      
+7. Wash your hands well with soap and water. </p> </div>"""      
 
 
 
@@ -621,7 +624,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -630,7 +635,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -645,7 +651,7 @@ Usage: #inline
 3. Sådan skal du give Finlee 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -669,7 +675,7 @@ Usage: #inline
 BRAF gen. Denne mutation får kroppen til at lave defekte proteiner, som kan få tumoren til at udvikle 
 sig. Lægen vil teste for denne mutation, før behandlingen påbegyndes. </p>
 <p>I kombination med trametinib er Finlee rettet mod disse defekte proteiner og hæmmer eller stopper 
-udviklingen af tumoren. Læs også indlægssedlen for trametinib oral opløsning. </p>         </div>"""   
+udviklingen af tumoren. Læs også indlægssedlen for trametinib oral opløsning. </p> </div>"""   
           
 
              
@@ -864,7 +870,7 @@ mængder benzylalkohol kan ophobes i barnets krop og kan medføre bivirkninger (
 acidose"). </p>
 <p>Spørg lægen eller apotekspersonalet til råds, hvis dit barn har en lever- eller nyresygdom. Dette 
 skyldes, at store mængder benzylalkohol kan ophobes i barnets krop og kan medføre bivirkninger 
-(kaldet "metabolisk acidose"). </p>         </div>"""   
+(kaldet "metabolisk acidose"). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take finlee"
@@ -909,7 +915,7 @@ næste dosis. </p>
 <p>Hvis du holder op med at give Finlee 
 Giv Finlee så længe, som lægen foreskriver. Hold ikke op med at give Finlee, medmindre lægen råder 
 dig til at stoppe. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1139,7 +1145,7 @@ Hvis dit barn oplever bivirkninger, bør du tale med lægen, apotekspersonalet e
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store finlee"
@@ -1153,7 +1159,7 @@ Opløsningen skal anvendes senest 30 minutter efter, at tabletterne er blevet op
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. 
 Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1432,7 +1438,7 @@ rent.
 5. Bortskaf alle de engangsmaterialer, du har brugt til rengøringen, i en plastikpose, der kan 
 lukkes til. 
 6. Spørg apotekspersonalet, hvordan du skal bortskaffe plastikposen. 
-7. Vask hænderne grundigt med sæbe og vand. </p>         </div>"""      
+7. Vask hænderne grundigt med sæbe og vand. </p> </div>"""      
 
 
 
@@ -1471,7 +1477,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1480,7 +1488,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1497,7 +1506,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Finlee </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1523,7 +1532,7 @@ chamado BRAF. Esta mutação leva o organismo a produzir proteínas defeituosas 
 podem fazer com que o tumor se desenvolva. O médico irá efetuar testes para esta mutação antes de 
 iniciar o tratamento. </p>
 <p>Em associação com trametinib, Finlee tem como alvo estas proteínas defeituosas e desacelera ou para 
-o desenvolvimento do tumor. Leia também o folheto informativo de trametinib solução oral. </p>         </div>"""   
+o desenvolvimento do tumor. Leia também o folheto informativo de trametinib solução oral. </p> </div>"""   
           
 
              
@@ -1726,7 +1735,7 @@ amamentar. Isto porque podem acumular-se grandes quantidades de álcool benzíli
 criança e pode causar efeitos secundários (“acidose metabólica"). </p>
 <p>Consulte o médico ou farmacêutico para aconselhamento se a sua criança tiver uma doença de fígado 
 ou rins. Isto porque podem acumular-se grandes quantidades de álcool benzílico no corpo da sua 
-criança e pode causar efeitos secundários (“acidose metabólica"). </p>         </div>"""   
+criança e pode causar efeitos secundários (“acidose metabólica"). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar finlee"
@@ -1775,7 +1784,7 @@ Se a sua criança vomitar após tomar Finlee, não administre outra dose até à
 Administre Finlee durante o período de tempo recomendado pelo médico. Não pare o tratamento, a não 
 ser por indicação do médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico, farmacêutico ou 
-enfermeiro. </p>         </div>"""         
+enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2010,7 +2019,7 @@ Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis ef
 indicados neste folheto, fale com o médico, farmacêutico ou enfermeiro. Também poderá comunicar 
 efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
 V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
-deste medicamento. </p>         </div>"""      
+deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar finlee"
@@ -2025,7 +2034,7 @@ Administre a solução não mais do que 30 minutos após os comprimidos terem di
 Conservar na embalagem de origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2153,7 +2162,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

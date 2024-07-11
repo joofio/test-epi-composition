@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Nexviadyme  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ Nexviadyme is used to treat people of all ages who have Pompe disease.  </p>
 enzyme helps control levels of glycogen (a type of carbohydrate) in the body. Glycogen provides the 
 body with energy, but in Pompe disease high levels of glycogen build up in different muscles and 
 damages them. The medicine replaces the missing enzyme so that the body can reduce the build-up of 
-glycogen. </p>         </div>"""   
+glycogen. </p> </div>"""   
           
 
              
@@ -115,7 +118,7 @@ you are breast-feeding. </p>
 <p>Driving and using machines<br />
 Nexviadyme may have a minor effect on the ability to drive and use machines. Because dizziness, low 
 blood pressure and sleepiness can occur as infusion-associated reactions, this may affect the ability to 
-drive and use machines on the day of the infusion. </p>         </div>"""   
+drive and use machines on the day of the infusion. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nexviadyme"
@@ -144,7 +147,7 @@ If you have missed an infusion, please contact your doctor. If you have any furt
 use of this medicine, ask your doctor, pharmacist, or nurse. </p>
 <p>If you stop using Nexviadyme<br />
 Speak to your doctor if you wish to stop Nexviadyme treatment. The symptoms of your disease may 
-worsen if you stop treatment.  </p>         </div>"""         
+worsen if you stop treatment.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -236,7 +239,7 @@ level of oxygen in the blood, and rash. </p>
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet.  </p>
 <p>You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nexviadyme"
@@ -256,7 +259,7 @@ After dilution, immediate use is recommended. The diluted solution can be stored
 to 8 C followed by 9 hours at room temperature (up to 25 C).  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor, pharmacist, or 
 nurse how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -348,7 +351,7 @@ Swixx Biopharma SIA<br />
 Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel +44 (0) 800 035 2This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -387,7 +390,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -396,7 +401,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -411,7 +417,7 @@ Usage: #inline
 3. Sådan skal du få Nexviadyme 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -428,7 +434,7 @@ Nexviadyme anvendes til personer i alle aldre med Pompes sygdom. </p>
 enzym hjælper kroppen med at regulere niveauet af glykogen (en type kulhydrat). Glykogen giver 
 kroppen energi, men ved Pompes sygdom ophobes et højt indhold af glykogen i forskellige muskler, 
 hvilket beskadiger dem. Dette lægemiddel erstatter det manglende enzym, så kroppen kan mindske 
-ophobningen af glykogen. </p>         </div>"""   
+ophobningen af glykogen. </p> </div>"""   
           
 
              
@@ -470,7 +476,7 @@ Nexviadyme, hvis du ammer. </p>
 <p>Trafik- og arbejdssikkerhed 
 Nexviadyme påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. 
 Eftersom svimmelhed, lavt blodtryk og søvnighed er mulige infusionsrelaterede reaktioner, kan det 
-påvirke evnen til at føre motorkøretøj og betjene maskiner på infusionsdagen. </p>         </div>"""   
+påvirke evnen til at føre motorkøretøj og betjene maskiner på infusionsdagen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nexviadyme"
@@ -501,7 +507,7 @@ Kontakt lægen, hvis du har sprunget en infusion over.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>
 <p>Hvis du holder op med at bruge Nexviadyme 
 Tal med lægen, hvis du ønsker at stoppe behandlingen med Nexviadyme. Symptomerne på din 
-sygdom kan forværres, hvis du stopper behandlingen. </p>         </div>"""         
+sygdom kan forværres, hvis du stopper behandlingen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nexviadyme"
@@ -787,7 +793,7 @@ Efter rekonstitution anbefales øjeblikkelig brug. Den rekonstituerede opløsnin
 Efter fortynding anbefales øjeblikkelig brug. Den fortyndede opløsning kan opbevares i 24 timer ved 
 2 °C -8 °C efterfulgt af 9 timer ved stuetemperatur (op til 25 °C).  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1059,7 +1065,7 @@ afhængig af, hvor godt patienten har tolereret infusionerne, før hjemmeinfusio
 <p>Hvis patienten oplever bivirkninger under hjemmeinfusionen, skal infusionen straks afbrydes og 
 passende medicinsk behandling påbegyndes (se pkt. 4.4). De efterfølgende infusioner vil muligvis 
 skulle finde sted på hospitalet eller en klinik til ambulant behandling, indtil disse bivirkninger ikke 
-længere opstår. Dosis og infusionshastighed må ikke ændres uden at konsultere den behandlende læge. </p>         </div>"""      
+længere opstår. Dosis og infusionshastighed må ikke ændres uden at konsultere den behandlende læge. </p> </div>"""      
 
 
 

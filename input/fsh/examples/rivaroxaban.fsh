@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Rivaroxaban Viatris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ take in addition to acetylsalicylic acid for a short while. </li>
 </ul>
 <p>Rivaroxaban Viatris contains the active substance rivaroxaban and belongs to a group of medicines 
 called antithrombotic agents. It works by blocking a blood clotting factor (factor Xa) and thus 
-reducing the tendency of the blood to form clots. </p>         </div>"""   
+reducing the tendency of the blood to form clots. </p> </div>"""   
           
 
              
@@ -217,7 +220,7 @@ machines if you are affected by these symptoms. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine.<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rivaroxaban"
@@ -263,7 +266,7 @@ Take Rivaroxaban Viatris on a regular basis and for as long as your doctor keeps
 <p>Do not stop taking Rivaroxaban Viatris without talking to your doctor first. If you stop taking this 
 medicine, it may increase your risk of having another heart attack or stroke or dying from a disease 
 related to your heart or your blood vessels.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -376,7 +379,7 @@ swelling, altered sensation, numbness or paralysis (compartment syndrome after a
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rivaroxaban"
@@ -390,7 +393,7 @@ bottle after EXP. The expiry date refers to the last day of that month. </p>
 <p>Crushed tablets 
 Crushed tablets are stable in water or apple puree for up to 2 hours. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -502,7 +505,7 @@ Mylan Healthcare SIA
 Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -541,7 +544,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -550,7 +555,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -565,7 +571,7 @@ Usage: #inline
 3. Sådan skal du tage Rivaroxaban Viatris 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -598,7 +604,7 @@ Du vil ikke få Rivaroxaban Viatris alene. Din læge vil også fortælle dig, at
 acetylsalicylsyre. </p>
 <p>Rivaroxaban Viatris indeholder det aktive stof rivaroxaban, og det tilhører en gruppe medicin, der 
 kaldes antitrombotika. Det fungerer ved at blokere en blodstørkningsfaktor i blodet (faktor Xa) og 
-nedsætter således blodets tendens til at klumpe sig sammen. </p>         </div>"""   
+nedsætter således blodets tendens til at klumpe sig sammen. </p> </div>"""   
           
 
              
@@ -775,7 +781,7 @@ værktøj og maskiner, hvis du oplever disse symptomer. </p>
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter.<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rivaroxaban"
@@ -816,7 +822,7 @@ Tag Rivaroxaban Viatris regelmæssigt og så længe, som din læge ordinerer det
 <p>Du må ikke holde op med at tage Rivaroxaban Viatris uden først at have talt med din læge. Hvis du 
 holder op med at tage dette lægemiddel, kan det øge risikoen for, at du får endnu et hjerteanfald eller 
 slagtilfælde, eller for, at du dør af en sygdom med relation til dit hjerte eller dine blodkar. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1008,7 +1014,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rivaroxaban"
@@ -1022,7 +1028,7 @@ efter "EXP". Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Knuste tabletter 
 Knuste tabletter er stabile i vand og æblemos i 2 timer. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1187,7 +1193,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How OBIZUR is stored  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ developed antibodies to his own factor VIII which neutralize this blood clotting
 <p>OBIZUR is used for the treatment of bleeding episodes in adults with acquired haemophilia (a 
 bleeding disorder caused by lack of factor VIII activity due to antibody development). These 
 antibodies have less neutralizing effect against OBIZUR than against human factor VIII. </p>
-<p>OBIZUR restores this missing factor VIII activity and helps blood to form clots at the site of bleeding. </p>         </div>"""   
+<p>OBIZUR restores this missing factor VIII activity and helps blood to form clots at the site of bleeding. </p> </div>"""   
           
 
              
@@ -130,7 +133,7 @@ OBIZUR has no influence on your ability to drive and use machines. </p>
 This medicine contains 4.6 mg sodium (main component of cooking/table salt) per milliliter once it is 
 made up. This is equivalent to 0.23% of the recommended maximum daily dietary intake of sodium 
 for an adult. Multiple vials must be taken per dose. </p>
-<p>Talk to your doctor if you are on a controlled sodium diet. </p>         </div>"""   
+<p>Talk to your doctor if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take obizur"
@@ -150,7 +153,7 @@ frequency of OBIZUR.
 The bleeding will usually respond within the first 24 hours, your doctor will adjust the dose and 
 duration of OBIZUR until the bleeding stops. 
 The total volume of reconstituted OBIZUR should be administered at a rate of 1 to 2 mL per minute. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -178,7 +181,7 @@ may result in lack of efficacy with continued bleeding. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store obizur"
@@ -199,7 +202,7 @@ storage of this medicine before and during its use, as well as for correct dispo
 <p>Name and batch number 
 It is strongly recommended that every time that OBIZUR is used, the name and batch number of the 
 medicine are recorded by the medical professional to maintain a link between your treatment and the 
-batch of the medicine. </p>         </div>"""      
+batch of the medicine. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -364,7 +367,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -373,7 +378,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -390,7 +396,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -407,7 +413,7 @@ hæmofili (en blodsygdom, der skyldes mangel på faktor VIII aktivitet på grund
 antistoffer). Disse antistoffer har mindre neutraliseringseffekt over for OBIZUR end over for human 
 faktor VIII. </p>
 <p>OBIZUR genopretter denne manglende faktor VIII aktivitet, og hjælper blodet med at størkne på 
-blødningsstedet. </p>         </div>"""   
+blødningsstedet. </p> </div>"""   
           
 
              
@@ -458,7 +464,7 @@ OBIZUR påvirker ikke din evne til at føre bil og betjene maskiner. </p>
 Dette lægemiddel indeholder 4,6 mg natrium ((hovedkomponenten i koge-/bordsalt) pr. milliliter, efter 
 det er blevet opblandet. Det svarer til 0,23 % af WHO's anbefalede maksimale daglige indtagpå 2 g 
 natrium for en voksen. Der skal anvendes flere hætteglas pr. dosis. </p>
-<p>Tal med lægen, hvis du er på en natriumkontrolleret diæt. </p>         </div>"""   
+<p>Tal med lægen, hvis du er på en natriumkontrolleret diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take obizur"
@@ -479,7 +485,7 @@ hyppighed af OBIZUR. </p>
 OBIZUR, indtil blødningen stopper. 
 Den totale mængde rekonstitueret OBIZUR bør administreres intravenøst med en hastighed 
 på 1 til 2 ml pr. minut. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -509,7 +515,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store obizur"
@@ -529,7 +535,7 @@ korrekt opbevaring af lægemidlet før og under dets anvendelse, samt for korrek
 <p>Navn og batchnummer 
 Det anbefales på det kraftigste, at sundhedspersonalet registrerer navn og batchnummer for produktet, 
 hver gang OBIZUR anvendes, for derved at bevare en sammenkædning mellem din behandling og 
-lægemidlets batchnummer. </p>         </div>"""      
+lægemidlets batchnummer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -790,7 +796,7 @@ svær intramuskulær,
 retroperitoneal, 
 gastrointestinal, 
 intrakranial blødning 
-&gt;80 % </p>         </div>"""      
+&gt;80 % </p> </div>"""      
 
 
 
@@ -829,7 +835,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -838,7 +846,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -855,7 +864,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar OBIZUR </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -873,7 +882,7 @@ do sangue. </p>
 desenvolvimento de anticorpos). Estes anticorpos têm um efeito neutralizador reduzido contra o 
 OBIZUR, em comparação com o fator VIII humano. </p>
 <p>OBIZUR repõe a atividade do fator VIII em falta e ajuda na formação de coágulos sanguíneos nos 
-locais com hemorragia. </p>         </div>"""   
+locais com hemorragia. </p> </div>"""   
           
 
              
@@ -924,7 +933,7 @@ OBIZUR não tem influência sobre a sua capacidade de conduzir e utilizar máqui
 Este medicamento contém 4,6 mg de sódio (componente principal do sal de cozinha) por mililitro após 
 a reconstituição. Isto é equivalente a 0,23% da ingestão diária máxima recomendada pela OMS de 2 g 
 de sódio para um adulto. Têm de ser tomados vários frascos para injetáveis por dose. </p>
-<p>Fale com o seu médico se estiver num regime de alimentação com sódio controlado. </p>         </div>"""   
+<p>Fale com o seu médico se estiver num regime de alimentação com sódio controlado. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar obizur"
@@ -946,7 +955,7 @@ subsequentes de OBIZUR. </p>
 duração de OBIZUR até a hemorragia parar. 
 O volume total de OBIZUR reconstituído deve ser administrado a uma velocidade de 1 a 2 ml por 
 minuto. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -974,7 +983,7 @@ que poderá resultar em falta de eficácia em hemorragias continuadas. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar obizur"
@@ -996,7 +1005,7 @@ como pela eliminação correta do mesmo. </p>
 <p>Nome e número do lote 
 Recomenda-se vivamente que sempre que OBIZUR for utilizado, o nome e o número de lote do 
 medicamento sejam registados pelo profissional de saúde, a fim de manter uma ligação entre o seu 
-tratamento e o número de lote do medicamento. </p>         </div>"""      
+tratamento e o número de lote do medicamento. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1128,7 +1137,7 @@ devido à raridade desta doença.
 A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
 medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

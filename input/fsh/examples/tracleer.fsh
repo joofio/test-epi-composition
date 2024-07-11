@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Tracleer</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ of the connective tissue that supports the skin and other organs);</p>
 <p>caused by congenital (inborn) heart defects with shunts (abnormal passageways) causing 
 abnormal flow of blood through the heart and lungs.</p>
 <p>Digital ulcers: (sores on the fingers and toes) in adult patients with a condition called 
-scleroderma. Tracleer reduces the number of new finger and toe ulcers that appear.</p>         </div>"""   
+scleroderma. Tracleer reduces the number of new finger and toe ulcers that appear.</p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ If these results are abnormal, your doctor may decide to reduce your dose or sto
 Tracleer and to perform further tests to investigate the cause.
 Children and adolescents
 Tracleer is not recommended in paediatric patients with systemic sclerosis and ongoing digital ulcer
-disease. Please see also section </p>         </div>"""   
+disease. Please see also section </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tracleer"
@@ -196,7 +199,7 @@ cannot be excluded that this may affect your ability to father a child. Talk to 
 any questions or concerns about this.
 Tracleer contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""         
+ sodium-free .</p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ If you stop taking Tracleer
 Suddenly stopping your treatment with Tracleer may lead to your symptoms getting worse. Do not 
 stop taking Tracleer unless your doctor tells you to. Your doctor may tell you to reduce the dose over a 
 few days before stopping completely.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tracleer"
@@ -292,7 +295,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -309,7 +312,7 @@ Do not store above 25 C.
 For white high-density polyethylene bottles:
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away any medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away any medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
 
 
 
@@ -348,7 +351,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -357,7 +362,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -372,7 +378,7 @@ Usage: #inline
 3. Sådan skal De tage Tracleer
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -408,7 +414,7 @@ blodgennemstrømning gennem hjerte og lunger.
 
 Fingersår: (sår på fingre og tæer) hos voksne patienter med en tilstand kaldet sklerodermi. 
 Tracleer nedsætter antallet af forekomsten af nye finger- og tåsår.
-68</p>         </div>"""   
+68</p> </div>"""   
           
 
              
@@ -459,7 +465,7 @@ Hvis disse resultater er unormale, kan Deres læge beslutte at nedsætte Deres d
 behandlingen med Tracleer og foretage yderligere prøver for at undersøge årsagen.
 Børn og unge
 Tracleer anbefales ikke til pædiatriske patienter med systemisk sklerose og aktiv finger/tå-sårssygdom. 
-Se også pkt. </p>         </div>"""   
+Se også pkt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tracleer"
@@ -531,7 +537,7 @@ hvis De har spørgsmål eller bekymringer i den henseende.
 70
 Tracleer indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""         
+væsentlige natriumfrit.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -570,7 +576,7 @@ Hvis De holder op med at tage Tracleer
 Hvis De pludselig stopper behandlingen med Tracleer, kan det medføre, at Deres symptomer 
 forværres. De skal ikke holde op med at tage Tracleer, medmindre Deres læge har bedt Dem om det. 
 Deres læge kan bede Dem reducere dosis over nogle få dage, før De stopper helt med behandlingen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p>         </div>"""      
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tracleer"
@@ -655,7 +661,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -671,7 +677,7 @@ Må ikke opbevares ved temperaturer over 25 °C.
 For flasker af hvidt højdensitetspopyethylen:
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
 
 
 
@@ -710,7 +716,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -719,7 +727,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -734,7 +743,7 @@ Usage: #inline
 3. Como tomar Tracleer
 4. Efeitos indesejáveis possíveis
 5. Como conservar Tracleer
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -770,7 +779,7 @@ um fluxo sanguíneo alterado pelo coração e pulmões.
 
 Úlceras digitais: (feridas nos dedos das mãos e dos pés) em doentes adultos com uma condição 
 chamada esclerodermia. Tracleer reduz o número de novas úlceras que aparecem nos dedos das 
-mãos e dos pés.</p>         </div>"""   
+mãos e dos pés.</p> </div>"""   
           
 
              
@@ -824,7 +833,7 @@ interromper o seu tratamento com Tracleer e mandar fazer mais análises para inv
 alteração.
 Crianças e adolescentes
 Tracleer não é recomendado em doentes pediátricos com esclerose sistémica e úlceras digitais em 
-curso. Por favor consulte também a secção </p>         </div>"""   
+curso. Por favor consulte também a secção </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tracleer"
@@ -899,7 +908,7 @@ com o seu médico se tiver dúvidas ou preocupações em relação a isto.
 Tracleer contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
 praticamente “isento de sódio".
-71</p>         </div>"""         
+71</p> </div>"""         
 
         
 * section[=].section[+]
@@ -942,7 +951,7 @@ sintomas. Não interrompa o tratamento com Tracleer a não ser que o seu médico
 seu médico poderá mandar reduzir a dose durante alguns dias antes de lhe dizer para parar por 
 completo.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""      
+farmacêutico.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tracleer"
@@ -1029,7 +1038,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1048,7 +1057,7 @@ Para frascos brancos de polietileno de alta densidade:
 O medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
 
 
 

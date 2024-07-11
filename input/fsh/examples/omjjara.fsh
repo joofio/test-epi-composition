@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Omjjara </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ produce enough normal blood cells and as a result the spleen becomes significant
 blocks the action of certain proteins, called Janus Kinases (JAK1, JAK2) and activin A receptor, type 
 1 (ACVR1) preventing the over production of cytokines and reducing inflammation. By doing so, 
 Omjjara relieves the enlarged spleen, anaemia, and symptoms such as fever, night sweats, bone pain 
-and weight loss caused by myelofibrosis. </p>         </div>"""   
+and weight loss caused by myelofibrosis. </p> </div>"""   
           
 
              
@@ -192,7 +195,7 @@ do not drive or operate machines until these side effects have gone away. </p>
 Omjjara contains lactose (milk sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take omjjara"
@@ -221,7 +224,7 @@ Simply take your next dose at the scheduled time the next day. Do not take a dou
 for a forgotten tablet. </p>
 <p>If you stop taking Omjjara<br />
 Do not stop taking Omjjara unless you have agreed this with your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -284,7 +287,7 @@ troublesome, or if you notice any side effects not listed in this leaflet. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on 
-the safety of this medicine. </p>         </div>"""      
+the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store omjjara"
@@ -297,7 +300,7 @@ the safety of this medicine. </p>         </div>"""
 <p>Store in the original bottle in order to protect from moisture. Do not remove the desiccant. Do not 
 swallow the desiccant. This medicine does not require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -411,7 +414,7 @@ GlaxoSmithKline Trading Services Limited<br />
 +44(0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in MM/YYYY  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -450,7 +453,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -459,7 +464,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -476,7 +482,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -502,7 +508,7 @@ tilstrækkeligt med normale blodlegemer, og som et resultat bliver milten betyde
 blokerer for virkningen af visse proteiner, som kaldes janus kinaser (JAK1, JAK2) og activin A-
 receptor, type 1 (ACVR1), hvilket forhindrer overproduktion af cytokiner og nedsætter inflammation. 
 Derved lindrer Omjjara den forstørrede milt, blodmangel og symptomer som feber, nattesved, 
-knoglesmerter og vægttab forårsaget af myelofibrose. </p>         </div>"""   
+knoglesmerter og vægttab forårsaget af myelofibrose. </p> </div>"""   
           
 
              
@@ -680,7 +686,7 @@ svimmel eller får sløret syn, må du ikke føre motorkøretøj eller betjene m
 Omjjara indeholder lactose (mælkesukker). Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
 har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take omjjara"
@@ -709,7 +715,7 @@ Du skal blot tage næste dosis på det planlagte tidspunkt den næste dag. Du m�
 dobbeltdosis som erstatning for den glemte tablet. </p>
 <p>Hvis du holder op med at tage Omjjara<br />
 Du må ikke stoppe med at tage Omjjara, medmindre du har aftalt det med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -830,7 +836,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store omjjara"
@@ -843,7 +849,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale flaske for at beskytte mod fugt. Tørremidlet må ikke fjernes. Tørremidlet 
 må ikke sluges. Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -977,7 +983,7 @@ GlaxoSmithKline Trading Services Limited<br />
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 

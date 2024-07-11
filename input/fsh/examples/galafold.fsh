@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Galafold </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ not work properly or is completely absent. This enzyme defect leads to abnormal 
 substance known as globotriaosylceramide (GL-3) in kidneys, heart, and other organs, leading to the 
 symptoms of Fabry disease.  </p>
 <p>This medicine works by stabilising the enzyme that your body produces naturally, so that it can work 
-better to reduce the amount of GL-3 that has accumulated in your cells and tissues. </p>         </div>"""   
+better to reduce the amount of GL-3 that has accumulated in your cells and tissues. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ humans have not been studied. </p>
 It is not yet known if this medicine affects fertility in women. </p>
 <p>If you are planning to have a baby, ask your doctor, pharmacist, or nurse for advice. </p>
 <p>Driving and using machines </p>
-<p>It is unlikely that this medicine will affect your ability to drive and use machines. </p>         </div>"""   
+<p>It is unlikely that this medicine will affect your ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take galafold"
@@ -220,7 +223,7 @@ taking Galafold at the next planned dosing day and time according to your every 
 schedule. Do not take two capsules to make up for your missed dose. </p>
 <p>If you stop taking Galafold 
 Do not stop taking this medicine without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ or sensation
 <p>If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store galafold"
@@ -288,7 +291,7 @@ expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special temperature storage conditions. Store in the 
 original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -413,7 +416,7 @@ Amicus Therapeutics, UK Limited<br />
 Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -452,7 +455,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -461,7 +466,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -478,7 +484,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -494,7 +500,7 @@ visse forandringer (mutationer) i generne. </p>
 Denne enzymdefekt medfører abnorme aflejringer af fedtstoffet globotriaosylceramid (GL-3) i nyrerne, 
 hjertet og andre organer. Dette er årsag til symptomerne på Fabrys sygdom. </p>
 <p>Dette lægemiddel virker ved at stabilisere det enzym, der naturligt produceres af kroppen, så det virker bedre 
-og nedsætter mængden af GL-3, der er aflejret i dine celler og væv. </p>         </div>"""   
+og nedsætter mængden af GL-3, der er aflejret i dine celler og væv. </p> </div>"""   
           
 
              
@@ -548,7 +554,7 @@ Det vides ikke, om dette lægemiddel påvirker frugtbarheden hos kvinder. </p>
 <p>Hvis du planlægger at blive gravid, skal du spørge lægen, apotekspersonalet eller sundhedspersonalet til råds. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Det er ikke sandsynligt, at dette lægemiddel vil påvirke din evne til at føre motorkøretøj eller betjene 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take galafold"
@@ -630,7 +636,7 @@ du genoptage behandlingen med Galafold på næste planlagte doseringsdag og -tid
 plan med dosering hver anden dag. Tag ikke to kapsler for at erstatte den glemte dosis. </p>
 <p>Hvis du holder op med at tage Galafold 
 Du må ikke holde op med at tage dette lægemiddel uden først at tale med lægen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -736,7 +742,7 @@ berøring (hypæstesi) </p>
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store galafold"
@@ -749,7 +755,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav til opbevaringstemperatur for dette lægemiddel. Opbevares i den originale pakning 
 for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -882,7 +888,7 @@ Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
-hvordan de behandles. </p>         </div>"""      
+hvordan de behandles. </p> </div>"""      
 
 
 

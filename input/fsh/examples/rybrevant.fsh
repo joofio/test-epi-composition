@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Rybrevant</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ The active substance in Rybrevant, amivantamab, targets two proteins found on ca
 <p>epidermal growth factor receptor (EGFR), and</p>
 <p>mesenchymal-epithelial transition factor (MET).
 This medicine works by attaching to these proteins. This may help to slow or stop your lung cancer 
-from growing. It may also help to reduce the size of the tumour.</p>         </div>"""   
+from growing. It may also help to reduce the size of the tumour.</p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ not drive or use machinery.
 Rybrevant contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free . However, before Rybrevant is given to you, it may be mixed with a solution that 
-contains sodium. Talk to your doctor if you are on a low salt diet.</p>         </div>"""   
+contains sodium. Talk to your doctor if you are on a low salt diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rybrevant"
@@ -169,7 +172,7 @@ This medicine will be given by your doctor or nurse. In the unlikely event that 
 If you forget your appointment to have Rybrevant
 It is very important to go to all your appointments. If you miss an appointment, make another one as 
 soon as possible.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -223,7 +226,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rybrevant"
@@ -242,7 +245,7 @@ Store in a refrigerator (2 C to 8 C). Do not freeze.
 Store in the original package in order to protect from light.
 Medicines should not be disposed of via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
-environment.</p>         </div>"""      
+environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ This means that there is more evidence to come about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -393,7 +396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -402,7 +407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -417,7 +423,7 @@ Usage: #inline
 3. Sådan skal du få Rybrevant
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -440,7 +446,7 @@ epidermal vækstfaktor-receptor (EGFR), og
 mesenkymal-epitelial transitionsfaktor (MET).
 Dette lægemiddel virker ved at binde sig til disse proteiner. Dette kan hjælpe med at standse 
 lungekræften i at sprede sig eller nedsætte den hastighed, den spreder sig med. Det kan måske også 
-være med til at gøre tumoren mindre.</p>         </div>"""   
+være med til at gøre tumoren mindre.</p> </div>"""   
           
 
              
@@ -504,7 +510,7 @@ du har fået Rybrevant, må du ikke køre bil eller motorcykel eller betjene mas
 Rybrevant indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
 væsentlige natriumfrit. Inden du får Rybrevant, kan det dog blandes med en opløsning, der indeholder 
-natrium. Tal med din læge, hvis du følger en diæt med lavt salt (natrium) -indhold.</p>         </div>"""   
+natrium. Tal med din læge, hvis du følger en diæt med lavt salt (natrium) -indhold.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rybrevant"
@@ -545,7 +551,7 @@ Du får dette lægemiddel af lægen eller sygeplejersken. I det usandsynlige til
 Hvis du glemmer en aftale, hvor du skal have Rybrevant
 Det er meget vigtigt, at du kommer til alle dine aftaler. Hvis du udebliver fra en aftale, skal du aftale 
 en ny tid hurtigst muligt.
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -623,7 +629,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rybrevant"
@@ -642,7 +648,7 @@ Opbevares i køleskab (2 °C til 8 °C). Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 29
 Af hensyn til miljøet må medicinrester ikke smides ud i afløbet, toilettet eller skraldespanden. Lægen 
-eller sygeplejersken vil smide eventuelle medicinrester ud, der ikke længere skal bruges.</p>         </div>"""      
+eller sygeplejersken vil smide eventuelle medicinrester ud, der ikke længere skal bruges.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -839,7 +845,7 @@ vene i uge 1 og uge 2. Infusion via et centralkateter kan administreres i efterf
 risikoen for IRR er lavere.
 Bortskaffelse
 Dette lægemiddel er kun til engangsbrug, og ikke anvendt lægemiddel, som ikke administreres inden 
-for 10 timer, skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+for 10 timer, skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -878,7 +884,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -887,7 +895,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -902,7 +911,7 @@ Usage: #inline
 3. Como é administrado Rybrevant
 4. Efeitos indesejáveis possíveis
 5. Como conservar Rybrevant
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -925,7 +934,7 @@ recetor do fator de crescimento epidérmico (EGFR), e
 
 fator de transição epitelial-mesenquimal (MET).
 Este medicamento funciona ligando-se a estas proteínas. Isto pode ajudar a abrandar ou a parar o 
-crescimento do seu cancro do pulmão. Pode também ajudar a reduzir o tamanho do tumor.</p>         </div>"""   
+crescimento do seu cancro do pulmão. Pode também ajudar a reduzir o tamanho do tumor.</p> </div>"""   
           
 
              
@@ -990,7 +999,7 @@ depois de tomar Rybrevant, não conduza nem utilize maquinaria.
 Rybrevant contém sódio
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
 “isento de sódio". No entanto, antes de lhe ser administrado Rybrevant, este pode ser misturado com 
-uma solução que contenha sódio. Fale com o seu médico se estiver a fazer uma dieta com pouco sal.</p>         </div>"""   
+uma solução que contenha sódio. Fale com o seu médico se estiver a fazer uma dieta com pouco sal.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rybrevant"
@@ -1032,7 +1041,7 @@ administrado demasiado (sobredosagem), o seu médico irá verificar se tem efeit
 Caso se esqueça da sua marcação para administração de Rybrevant
 É muito importante ir a todas as marcações. Se faltar a uma marcação, faça outra o mais depressa 
 possível.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1112,7 +1121,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rybrevant"
@@ -1133,7 +1142,7 @@ Conservar no frigorífico (2°C - 8°C). Não congelar.
 Conservar na embalagem de origem para proteger da luz.
 Os medicamentos não devem ser deitados fora na canalização ou no lixo doméstico. O seu profissional 
 de saúde deitará fora quaisquer medicamentos que já não são utilizados. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1286,7 +1295,7 @@ significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

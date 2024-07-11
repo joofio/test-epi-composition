@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store REKAMBYS</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ copies of itself. REKAMBYS injections do not cure HIV infection but help reduce 
 in your body and keeps it at a low level. This holds off damage to the immune system and the 
 development of infections and diseases associated with AIDS.
 REKAMBYS is always given with another HIV medicine called cabotegravir injection. They are used
-together in adults aged 18 years and older whose HIV-1 infection is already under control.</p>         </div>"""   
+together in adults aged 18 years and older whose HIV-1 infection is already under control.</p> </div>"""   
           
 
              
@@ -182,7 +185,7 @@ Some patients may feel tired, dizzy or drowsy during treatment with REKAMBYS. Do
 operate machinery if you have any of these side effects.
 Important information about some of the ingredients of REKAMBYS
 This medicine contains less than 1 mmol sodium (23 mg) per 2 mL injection, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rekambys"
@@ -240,7 +243,7 @@ Low levels of rilpivirine (the active ingredient of REKAMBYS) can remain in your
 4 years after stopping treatment. However, once you received your last REKAMBYS injection, the 
 low levels of rilpivirine that remain will not work well enough against the virus which then can 
 become resistant. To keep your HIV-1 infection under control and to stop the virus becoming resistant, 
-you must start a different HIV treatment by the time your next REKAMBYS injection was planned.</p>         </div>"""         
+you must start a different HIV treatment by the time your next REKAMBYS injection was planned.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rekambys"
@@ -315,7 +318,7 @@ Do not use this medicine after the expiry date which is stated on the carton aft
 refers to the last day of that month.
 Store in a refrigerator (2 C - 8 C). Do not freeze.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -419,7 +422,7 @@ United Kingdom (Northern Ireland)
 ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com 
 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -458,7 +461,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -467,7 +472,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -482,7 +488,7 @@ Usage: #inline
 3. Sådan får du REKAMBYS
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -498,7 +504,7 @@ kopier af sig selv. Injektioner med REKAMBYS helbreder ikke hiv-infektion, men h
 reducere mængden af hiv i kroppen og holde den på et lavt niveau. Dette udskyder beskadigelsen af 
 immunsystemet og udviklingen af infektioner og sygdomme forbundet med aids.
 REKAMBYS gives altid sammen med injektion af cabotegravir, som er et andet hiv-lægemiddel. De 
-anvendes sammen hos voksne i alderen 18 år og ældre, hvis hiv 1-infektion allerede er under kontrol.</p>         </div>"""   
+anvendes sammen hos voksne i alderen 18 år og ældre, hvis hiv 1-infektion allerede er under kontrol.</p> </div>"""   
           
 
              
@@ -603,7 +609,7 @@ Nogle patienter føler sig trætte, svimle eller sløve, mens de er i behandling
 ikke køre bil eller motorcykel eller betjene maskiner, hvis du har nogen af disse bivirkninger.
 Rekambys indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 2 ml-injektion, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rekambys"
@@ -665,7 +671,7 @@ du er stoppet med behandlingen. Når du har fået din sidste injektion af REKAMB
 mængde rilpivirin, som er tilbage, ikke virke godt nok mod virussen, som derefter kan blive resistent. 
 For at holde din hiv 1-infektion under kontrol og forhindre, at virussen bliver resistent, skal du starte 
 på en anden hiv-behandling senest på det tidspunkt, hvor du skulle have haft din næste injektion af 
-REKAMBYS.</p>         </div>"""         
+REKAMBYS.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -764,7 +770,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
 48
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rekambys"
@@ -776,7 +782,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udl
 dag i den nævnte måned.
 Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1213,7 +1219,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -1252,7 +1258,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1261,7 +1269,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1276,7 +1285,7 @@ Usage: #inline
 3. Como é administrado REKAMBYS
 4. Efeitos indesejáveis possíveis
 5. Como conservar REKAMBYS
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1293,7 +1302,7 @@ mas ajudam a reduzir a quantidade de VIH no seu corpo e a mantê-la num nível b
 danos ao sistema imunitário e o desenvolvimento de infeções e doenças associadas à SIDA.
 REKAMBYS é sempre administrado com outro medicamento para o VIH chamado cabotegravir 
 injetável. São usados em conjunto, em adultos com 18 anos de idade ou mais, cuja infeção por VIH-1 
-já esteja sob controlo.</p>         </div>"""   
+já esteja sob controlo.</p> </div>"""   
           
 
              
@@ -1400,7 +1409,7 @@ Alguns doentes podem sentir-se cansados, com tonturas ou com sono durante o trat
 REKAMBYS. Não conduza ou utilize máquinas se sentir algum destes efeitos indesejáveis.
 Informação importante sobre alguns ingredientes de REKAMBYS
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 2 ml de injeção, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rekambys"
@@ -1463,7 +1472,7 @@ um período até 4 anos após a interrupção do tratamento. No entanto, assim q
 injeção de REKAMBYS, os baixos níveis de rilpivirina que permanecem não irão atuar bem o 
 suficiente contra o vírus que pode, então, tornar-se resistente. Para manter a sua infeção por VIH-1 sob 
 controlo e impedir que o vírus se torne resistente, tem de iniciar um tratamento diferente para o VIH 
-na altura em que a sua próxima injeção de REKAMBYS estava planeada.</p>         </div>"""         
+na altura em que a sua próxima injeção de REKAMBYS estava planeada.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1569,7 +1578,7 @@ folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efei
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.
-49</p>         </div>"""      
+49</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rekambys"
@@ -1582,7 +1591,7 @@ prazo de validade corresponde ao último dia do mês indicado.
 Conservar no frigorífico (2°C - 8°C). Não congelar.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1781,7 +1790,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221441
 customercontactuk@gsk.com 
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

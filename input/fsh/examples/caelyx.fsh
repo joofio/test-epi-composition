@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Caelyx pegylated liposomal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ sarcoma, such as swelling around the tumour, may also improve or disappear. </p>
 <p>Caelyx pegylated liposomal contains a medicine which is able to interact with cells in such a way as to 
 selectively kill cancer cells. The doxorubicin hydrochloride in Caelyx pegylated liposomal is enclosed 
 in tiny spheres called pegylated liposomes which help to deliver the medicinal product from the blood 
-stream to the cancerous tissue rather than healthy normal tissue. </p>         </div>"""   
+stream to the cancerous tissue rather than healthy normal tissue. </p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ pegylated liposomal. </p>
 Caelyx pegylated liposomal contains soya oil.  If you are allergic to peanut or soya, do not use this 
 medicine. 
 Caelyx pegylated liposomal contains less than 1 mmol sodium (23 mg) per dose, that is to say 
- essentially sodium-free . </p>         </div>"""   
+ essentially sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take caelyx"
@@ -171,7 +174,7 @@ Acute overdosing worsens side effects like sores in the mouth or decreases the n
 cells and platelets in the blood. Treatment will include administration of antibiotics, platelet cell 
 transfusions, use of factors which stimulate production of white blood cells and symptomatic treatment 
 of mouth sores. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -335,7 +338,7 @@ reading, or listening to the radio); </li>
 <ul>
 <li>vitamin B6 is available without prescription; </li>
 <li>take 50-150 mg daily beginning at the first signs of redness or tingling. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store caelyx"
@@ -353,7 +356,7 @@ should not be longer than 24 hours at 2 C to 8 C. Partially used vials must be d
 <p>Do not use this medicine if you notice that it shows evidence of precipitation or any other particulate 
 matter. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -457,7 +460,7 @@ Baxter Latvia SIA
 Tel: +371 677 84United Kingdom (Northern Ireland) 
 Baxter Holding B.V. 
 Tel: +44 (0)1635 206This leaflet was last approved on </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -496,7 +499,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -505,7 +510,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -520,7 +526,7 @@ Usage: #inline
 3. Sådan skal du bruge Caelyx pegylated liposomal 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -542,7 +548,7 @@ såsom hævelse omkring tumor, kan også forbedres eller forsvinde. </p>
 <p>Caelyx pegylated liposomal indeholder et lægemiddel, der kan påvirke kroppens celler på en sådan 
 måde, at fortrinsvis kræftceller bliver dræbt. Doxorubicinhydrochlorid i Caelyx pegylated liposomal er 
 indkapslet i fine dråber, der kaldes pegylerede liposomer, der hjælper med at bringe medicinen fra 
-blodbanen til cancervævet i højere grad end til sundt, normalt væv. </p>         </div>"""   
+blodbanen til cancervævet i højere grad end til sundt, normalt væv. </p> </div>"""   
           
 
              
@@ -597,7 +603,7 @@ med Caelyx pegylated liposomal. </p>
 Caelyx pegylated liposomal indeholder sojaolie. Du må ikke bruge Caelyx pegylated liposomal, hvis 
 du er overfølsom over for jordnødder eller soja. 
 Caelyx pegylated liposomal indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take caelyx"
@@ -628,7 +634,7 @@ Akut overdosering forværrer bivirkninger som sår i munden eller fald i antalle
 og blodplader i blodet. Behandling vil omfatte indgift af antibiotika, transfusioner med blodplader, 
 anvendelse af faktorer som stimulerer produktionen af hvide blodlegemer og symptomatisk behandling 
 af mundsår. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -793,7 +799,7 @@ læser eller hører radio). </li>
 <ul>
 <li>vitamin B6 kan fås uden recept. </li>
 <li>tag 50-150 mg dagligt, så snart der er tegn på rødme eller prikken. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store caelyx"
@@ -810,7 +816,7 @@ opbevaringstider og -betingelser før anvendelse brugerens ansvar og skal ikke v
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten eller pakningen efter Exp. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker tegn på bundfældning eller anden partikeldannelse. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -984,7 +990,7 @@ Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilla
 På baggrund af de videnskabelige konklusioner for doxorubicin er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder doxorubicin, forbliver 
 uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. 
-CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -1023,7 +1029,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1032,7 +1040,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1047,7 +1056,7 @@ Usage: #inline
 3. Como utilizar Caelyx pegylated liposomal<br />
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Caelyx pegylated liposomal<br />
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1071,7 +1080,7 @@ inchaço à volta do tumor. </p>
 a matar seletivamente as células cancerosas. O cloridrato de doxorrubicina contido no Caelyx 
 pegylated liposomal está encerrado em minúsculas esferas designadas por lipossomas peguilados, que 
 ajudam a transportar o fármaco da circulação sanguínea para o tecido canceroso e não para o tecido 
-normal saudável. </p>         </div>"""   
+normal saudável. </p> </div>"""   
           
 
              
@@ -1127,7 +1136,7 @@ sonolento devido ao tratamento com Caelyx pegylated liposomal. </p>
 Caelyx pegylated liposomal contém óleo de soja. Se é alérgico ao amendoim ou a soja, não utilize este 
 medicamento. 
 Caelyx pegylated liposomal contém menos de 1 mmol (23 mg) de sódio por unidade de dose, ou seja, 
-é praticamente “isento de sódio".  </p>         </div>"""   
+é praticamente “isento de sódio".  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar caelyx"
@@ -1160,7 +1169,7 @@ de glóbulos brancos e plaquetas no sangue. O tratamento consiste em administra�
 transfusões de plaquetas, utilização de fatores que estimulam a produção de glóbulos brancos e 
 tratamento sintomático das feridas na boca. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1325,7 +1334,7 @@ enquanto vê televisão, lê ou ouve rádio);
 - evitar usar sapatos muito apertados ou de salto alto. </p>
 <p>Piridoxina (Vitamina B6): 
 - a vitamina B6 pode ser adquirida sem receita médica. 
-- tome 50-150 mg por dia logo aos primeiros sinais de vermelhidão ou de sensação de picadas. </p>         </div>"""      
+- tome 50-150 mg por dia logo aos primeiros sinais de vermelhidão ou de sensação de picadas. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar caelyx"
@@ -1343,7 +1352,7 @@ Os frascos parcialmente utilizados têm de ser eliminados. </p>
 <p>Não utilize este medicamento se verificar sinais de precipitação ou quaisquer partículas em suspensão. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1514,7 +1523,7 @@ Fundamentos da alteração dos termos da(s) autorização(ões) de introdução 
 Com base nas conclusões científicas relativas a doxorrubicina, o CHMP considera que o perfil de 
 benefício-risco do(s) medicamento(s) que contém (contêm) doxorrubicina se mantém inalterado na 
 condição de serem introduzidas as alterações propostas na informação do medicamento. 
-O CHMP recomenda a alteração dos termos da(s) autorização(ões) de introdução no mercado. </p>         </div>"""      
+O CHMP recomenda a alteração dos termos da(s) autorização(ões) de introdução no mercado. </p> </div>"""      
 
 
 

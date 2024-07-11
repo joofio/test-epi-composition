@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Renvela </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ phosphorus level equal to or above 1.78 mmol/l. </p>
 the development of bone disease. 
 Increased levels of serum phosphorus can lead to hard deposits in your body called calcification. These 
 deposits can stiffen your blood vessels and make it harder for blood to be pumped around the body. 
-Increased serum phosphorus can also lead to itchy skin, red eyes, bone pain and fractures. </p>         </div>"""   
+Increased serum phosphorus can also lead to itchy skin, red eyes, bone pain and fractures. </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ will decide if you can breastfeed your baby or not, and if it is necessary to st
 <p>Driving and using machines 
 Renvela is unlikely to affect your ability to drive or to use machines. </p>
 <p>Excipients 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take renvela"
@@ -182,7 +185,7 @@ with a meal. Do not take a double dose to make up for a forgotten dose. </p>
 Taking your Renvela treatment is important to maintain an appropriate phosphate level in your blood. 
 Stopping Renvela would lead to important consequences such as calcification in the blood vessels. If you 
 consider stopping your Renvela treatment, contact your doctor or pharmacist first. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ cases of itching, rash, slow intestine motility (movement) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your  doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store renvela"
@@ -230,7 +233,7 @@ expiry date refers to the last day of that month. </p>
 <p>Keep the bottle container tightly closed in order to protect from moisture.<br />
 This medicine does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -331,7 +334,7 @@ Tel: +371 6 616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -370,7 +373,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -379,7 +384,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -394,7 +400,7 @@ Usage: #inline
 3. Sådan skal du tage Renvela 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -416,7 +422,7 @@ niveau lig med eller over 1,78 mmol/l. </p>
 udviklingen af knoglesygdom. 
 Et øget indhold af serumfosfat kan føre til hårde aflejringer i din krop, kaldet forkalkning. Aflejringerne kan 
 gøre dine blodkar stive og gøre det mere besværligt for blodet at blive pumpet rundt i kroppen. Et øget 
-niveau af fosfat i blodet kan også medføre hudkløe, røde øjne og smerter i knogler eller knoglebrud. </p>         </div>"""   
+niveau af fosfat i blodet kan også medføre hudkløe, røde øjne og smerter i knogler eller knoglebrud. </p> </div>"""   
           
 
              
@@ -505,7 +511,7 @@ beslutte, om du kan amme din baby eller ej, og om det er nødvendigt at stoppe b
 Det er usandsynligt, at Renvela påvirker din evne til at køre eller betjene maskiner. </p>
 <p>Hjælpestoffer 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per tablet, dvs. det er i det væsentlige 
-"natriumfrit". </p>         </div>"""   
+"natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take renvela"
@@ -531,7 +537,7 @@ måltid. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. <
 Det er vigtigt, at du tager Renvela, for at opretholde et passende fosfatindhold i dit blod. Hvis du holder op 
 med at tage Renvela kan det medføre alvorlige konsekvenser som forkalkning i blodkarrene. Hvis du 
 overvejer at stoppe din Renvela-behandling, skal du først kontakte din læge eller apotekspersonalet. 
-Spørg lægen eller apoteketspersonalet, hvis du har yderligere spørgsmål om brugen af dette lægemiddel.  </p>         </div>"""         
+Spørg lægen eller apoteketspersonalet, hvis du har yderligere spørgsmål om brugen af dette lægemiddel.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -569,7 +575,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store renvela"
@@ -582,7 +588,7 @@ den nævnte måned. </p>
 <p>Hold tabletbeholderen tæt tillukket for at beskytte mod fugt.  </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -718,7 +724,7 @@ vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
-nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

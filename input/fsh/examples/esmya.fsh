@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Esmya </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ Esmya is used in adult women (over 18 years of age) before they reach the menopa
 (discomfort in the belly) and create pressure on other organs. </p>
 <p>This medicine acts by modifying the activity of progesterone, a naturally occuring hormone in the 
 body. It is used for long term treatment of your fibroids to reduce their size, to stop or reduce bleeding 
-and to increase your red blood cell count. </p>         </div>"""   
+and to increase your red blood cell count. </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ Esmya ).
 Esmya passes into the breast milk. Therefore, do not breast-feed your baby while taking Esmya. </p>
 <p>Driving and using machines 
 Esmya may cause mild dizziness (see section 4  Possible side effects ). Do not drive or use machines 
-if you experience these symptoms. </p>         </div>"""   
+if you experience these symptoms. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take esmya"
@@ -188,7 +191,7 @@ to make up for a forgotten tablet. </p>
 Esmya is to be taken daily during treatment courses of up to 3 months continuously. During each 
 course of treatment, do not stop taking your tablets without the advice of your doctor even if you feel 
 better, as symptoms may re-occur later. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -251,7 +254,7 @@ blood tests. </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store esmya"
@@ -263,7 +266,7 @@ this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Keep the blister in the outer carton in order to protect from light. </p>
 <p>Do not throw away via wastewater or household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -294,7 +297,7 @@ Gy mr i  t 19-21. 1103 Budapest
 Hungary </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information<br />
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -333,7 +336,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -342,7 +347,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
@@ -357,7 +362,7 @@ Usage: #inline
 3. Sådan skal du tage Esmya 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -373,7 +378,7 @@ Esmya anvendes til voksne kvinder (over 18 år), før de kommer i overgangsalder
 (mavegener) og trykke på andre organer. </p>
 <p>Dette lægemiddel virker ved at ændre progesterons aktivitet. Progesteron er et naturligt forekommende 
 hormon i kroppen. Esmya anvendes til langvarig behandling af dine fibromer for at reducere deres 
-størrelse, for at stoppe eller reducere blødning og for at øge antallet af røde blodlegemer. </p>         </div>"""   
+størrelse, for at stoppe eller reducere blødning og for at øge antallet af røde blodlegemer. </p> </div>"""   
           
 
              
@@ -455,7 +460,7 @@ anden medicin sammen med Esmya).
 Esmya går over i mælken. Du må derfor ikke amme dit barn, når du tager Esmya. </p>
 <p>Trafik- og arbejdssikkerhed 
 Esmya kan forårsage let svimmelhed (se pkt. 4 "Bivirkninger"). Kør ikke bil eller motorcykel, og lad 
-være med at arbejde med værktøj eller maskiner, hvis du oplever disse symptomer. </p>         </div>"""   
+være med at arbejde med værktøj eller maskiner, hvis du oplever disse symptomer. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take esmya"
@@ -481,7 +486,7 @@ tablet som normalt. Du må ikke tage en dobbeltdosis som erstatning for den glem
 Esmya skal tages dagligt i behandlingsforløb på op til 3 måneder uden afbrydelse. I hvert 
 behandlingsforløb må du ikke holde op med at tage tabletterne, medmindre din læge beder dig om det, 
 heller ikke selvom du har det bedre, eftersom symptomerne kan komme igen senere.  </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -539,7 +544,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store esmya"
@@ -551,7 +556,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Opbevar blisteret i den ydre karton for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -585,7 +590,7 @@ Ungarn </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

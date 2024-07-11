@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zejula </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ lining the abdomen). </p>
 <p>Zejula is used for cancer that has: 
 * responded to the first treatment with platinum-based chemotherapy, or 
 * come back (recurred) after the cancer has responded to previous treatment with standard 
-platinum-based chemotherapy. </p>         </div>"""   
+platinum-based chemotherapy. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ influence your ability to drive and use machines. Observe caution when driving o
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
 <p>Zejula contains tartrazine (E 102) 
-It may cause allergic reactions. </p>         </div>"""   
+It may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zejula"
@@ -177,7 +180,7 @@ If you take more than your normal dose, contact your doctor immediately.  </p>
 <p>If you forget to take Zejula<br />
 Do not take an additional dose if you miss a dose or vomit after taking Zejula. Take your next dose at 
 its scheduled time. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -266,7 +269,7 @@ infectious pneumonitis) </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zejula"
@@ -278,7 +281,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -397,7 +400,7 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in MM/YYYY.  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -436,7 +439,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -445,7 +450,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -462,7 +468,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -489,7 +495,7 @@ beklæder bugvæggens inderside).  </p>
 <p>er kommet tilbage efter kræften tidligere har responderet på behandling med standard 
 kemoterapi baseret på platin. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -554,7 +560,7 @@ maskiner. </p>
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
 <p>Zejula indeholder tartrazin (E 102) 
-Kan medføre allergiske reaktioner. </p>         </div>"""   
+Kan medføre allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zejula"
@@ -586,7 +592,7 @@ Kontakt straks lægen, hvis du tager mere end din normale dosis. </p>
 Du må ikke tage en ekstra dosis, hvis du glemmer en dosis eller kaster op, efter at du har taget Zejula. 
 Tag din næste dosis på det normalt planlagte tidspunkt. Du må ikke tage en dobbeltdosis som 
 erstatning for den glemte dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -791,7 +797,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zejula"
@@ -803,7 +809,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Spørg apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -960,7 +966,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -999,7 +1005,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1008,7 +1016,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1025,7 +1034,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Zejula </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1052,7 +1061,7 @@ forra o abdómen).  </p>
 <p>voltou a aparecer (regressado) após o cancro ter respondido ao tratamento padrão anterior com 
 quimioterapia à base de platina. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1123,7 +1132,7 @@ conduzir ou utilizar máquinas. </p>
 Se o seu médico lhe disse que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
 medicamento. </p>
 <p>Zejula contém tartrazina (E 102) 
-Pode causar reações alérgicas. </p>         </div>"""   
+Pode causar reações alérgicas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zejula"
@@ -1156,7 +1165,7 @@ Não tome uma dose adicional se falhar uma dose ou se vomitar depois de tomar Ze
 dose seguinte na hora planeada Não tome uma dose a dobrar para compensar uma dose que se 
 esqueceu de tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1371,7 +1380,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zejula"
@@ -1384,7 +1393,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não conservar acima de 30°C. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1531,7 +1540,7 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Este folheto foi revisto pela última vez em MM/AAAA. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

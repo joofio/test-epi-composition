@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store LIBTAYO  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ well tolerated. </li>
 <p>LIBTAYO may be given in combination with chemotherapy for NSCLC. It is important that you also 
 read the package leaflets for the specific chemotherapy you may be receiving. If you have any 
 questions about these medicines, ask your doctor. </p>
-<p>LIBTAYO works by helping your immune system fight your cancer. </p>         </div>"""   
+<p>LIBTAYO works by helping your immune system fight your cancer. </p> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ after the last dose.<br />
 </em> It is not known if LIBTAYO passes into your breast milk.  </p>
 <p>Driving and using machines 
 LIBTAYO has no or minor influence on your ability to drive and use machines. If you feel tired, do 
-not drive or use machines until you feel better.  </p>         </div>"""   
+not drive or use machines until you feel better.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take libtayo"
@@ -199,7 +202,7 @@ stopping your treatment may stop the effect of the medicine. </p>
 The information in this Package Leaflet can be found in the Patient Alert Card you have been given by 
 your doctor. It is important that you keep this Patient Alert Card and show it to your partner or 
 caregivers. </p>
-<p>If you have any questions about your treatment, ask your doctor.  </p>         </div>"""         
+<p>If you have any questions about your treatment, ask your doctor.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ urinate more often, weight loss, and feeling tired. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store libtayo"
@@ -393,7 +396,7 @@ Or
 preparation to the end of infusion. Allow the diluted solution to come to room temperature 
 prior to administration. </p>
 <p>Do not store any unused portion of the infusion solution for re-use. Any unused portion of the infusion 
-solution should not be re-used and should be disposed in accordance with local requirements. </p>         </div>"""      
+solution should not be re-used and should be disposed in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -484,7 +487,7 @@ Medison Pharma Latvia SIA
 Tel: 371 8000 5United Kingdom (Northern Ireland) 
 Regeneron Ireland DAC<br />
 Tel: 0 800 917 7This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -523,7 +526,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -532,7 +537,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -547,7 +553,7 @@ Usage: #inline
 3. Sådan får du LIBTAYO 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -577,7 +583,7 @@ ikke var veltolereret. </p>
 <p>LIBTAYO kan gives i kombination med kemoterapi til behandling af NSCLC. Det er vigtigt, at du 
 også læser indlægssedlen for den specifikke kemoterapi, du måtte få. Spørg lægen, hvis du har 
 spørgsmål til disse lægemidler. </p>
-<p>LIBTAYO virker ved at hjælpe immunsystemet med at bekæmpe kræften. </p>         </div>"""   
+<p>LIBTAYO virker ved at hjælpe immunsystemet med at bekæmpe kræften. </p> </div>"""   
           
 
              
@@ -734,7 +740,7 @@ den sidste dosis.  </p>
 <p>Trafik- og arbejdssikkerhed 
 LIBTAYO påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
 maskiner. Hvis du føler dig træt, må du ikke føre motorkøretøj eller betjene maskiner, før du får det 
-bedre.  </p>         </div>"""   
+bedre.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take libtayo"
@@ -769,7 +775,7 @@ stopper behandlingen, kan virkningen af medicinen ophøre. </p>
 <p>Patientkort 
 Du kan også finde oplysninger fra denne indlægsseddel på det patientkort, du har fået af din læge. Det 
 er vigtigt, at du gemmer dit patientkort og viser det til din partner eller andre støttepersoner. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1136,7 +1142,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store libtayo"
@@ -1166,7 +1172,7 @@ administration. </p>
 </li>
 </ul>
 <p>Eventuelt resterende infusionsvæske må ikke gemmes til senere brug. Eventuelt resterende 
-infusionsvæske må ikke genanvendes og skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+infusionsvæske må ikke genanvendes og skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1351,7 +1357,7 @@ filter med lav proteinbinding (porestørrelse på 0,2-5 mikron). </p>
 <li>
 <p>Der må ikke administreres andre lægemidler i samme infusionsslange. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1390,7 +1396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1399,7 +1407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1416,7 +1425,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar LIBTAYO  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1448,7 +1457,7 @@ quimioterapia. </p>
 <p>LIBTAYO pode ser administrado em combinação com quimioterapia para o CPNPC. É importante 
 que leia também os folhetos informativos da quimioterapia específica que possa estar a receber. Se 
 tiver alguma dúvida sobre estes medicamentos, pergunte ao seu médico. </p>
-<p>LIBTAYO funciona ajudando o sistema imunitário a combater o seu cancro. </p>         </div>"""   
+<p>LIBTAYO funciona ajudando o sistema imunitário a combater o seu cancro. </p> </div>"""   
           
 
              
@@ -1608,7 +1617,7 @@ após a última dose.  </p>
 </ul>
 <p>Condução de veículos e utilização de máquinas 
 Os efeitos de LIBTAYO sobre a capacidade de conduzir e utilizar máquinas são nulos ou reduzidos. 
-Caso se sinta cansado, não conduza nem utilize quaisquer máquinas até se sentir melhor.  </p>         </div>"""   
+Caso se sinta cansado, não conduza nem utilize quaisquer máquinas até se sentir melhor.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar libtayo"
@@ -1645,7 +1654,7 @@ Isto porque interromper o tratamento pode parar o efeito do medicamento. </p>
 A informação que consta neste Folheto Informativo pode ser encontrada no Cartão de Alerta para o 
 Doente que lhe foi fornecido pelo seu médico. É importante que mantenha este Cartão de Alerta para o 
 Doente e o mostre ao seu parceiro/parceira ou prestadores de cuidados. 
-Se tiver quaisquer perguntas sobre o seu tratamento, fale com o seu médico.  </p>         </div>"""         
+Se tiver quaisquer perguntas sobre o seu tratamento, fale com o seu médico.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2009,7 +2018,7 @@ folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
 a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar libtayo"
@@ -2040,7 +2049,7 @@ fique à temperatura ambiente antes da administração. </p>
 </ul>
 <p>Não conserve qualquer parte não utilizada da solução para perfusão para reutilização. Nenhuma parte 
 não utilizada da solução para perfusão deverá ser reutilizada, e deve ser eliminada em conformidade 
-com os requisitos locais. </p>         </div>"""      
+com os requisitos locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2225,7 +2234,7 @@ pirogénico, de baixa ligação proteica, em linha ou complementar (porosidade d
 <li>
 <p>Não coadministrar outros medicamentos através do mesmo cateter de perfusão. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

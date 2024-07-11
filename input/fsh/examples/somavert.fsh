@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store SOMAVERT</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 increased secretion of growth hormone (GH) and IGF-I (Insulin-like growth factors), which is 
 characterised by overgrowth of bone, soft tissue swelling, heart disease and related disorders.
 The active substance in SOMAVERT, pegvisomant is known as a growth hormone receptor 
-antagonist. These substances decrease the action of GH and levels of IGF-I circulating in the blood.</p>         </div>"""   
+antagonist. These substances decrease the action of GH and levels of IGF-I circulating in the blood.</p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ your doctor or pharmacist for advice before taking this medicine.
 Driving and using machines
 No studies on the effects on the ability to drive and use machines have been performed.
 SOMAVERT contains sodium
-This medicine contains less than 1 mmol of sodium (23 mg) per dose i.e. essentially  sodium-free .</p>         </div>"""   
+This medicine contains less than 1 mmol of sodium (23 mg) per dose i.e. essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take somavert"
@@ -161,7 +164,7 @@ If you forget to use SOMAVERT
 If you forget to give yourself an injection you should inject the next dose as soon as you remember 
 and then continue to inject SOMAVERT as prescribed by your doctor. Do not inject a double dose to 
 make up for forgotten individual doses.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -222,7 +225,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store somavert"
@@ -244,7 +247,7 @@ Store the pre-filled syringe(s) below 30 C or store in a refrigerator (2 C   8 C
 After preparing the SOMAVERT solution it must be used immediately.
 Do not use this medicine if you notice that the solution is cloudy or contains particulate matter.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -493,7 +496,7 @@ in the vial. This is normal. To ensure that only a trace of medicine remains, ma
 needle tip is as low as it can be in the vial when drawing off your dose.
 What should I do if I have any doubts about my medicine?</p>
 <p>All questions should be handled by a doctor, nurse or pharmacist familiar with 
-SOMAVERT.</p>         </div>"""      
+SOMAVERT.</p> </div>"""      
 
 
 
@@ -532,7 +535,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -541,7 +546,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -556,7 +562,7 @@ Usage: #inline
 3. Sådan skal du bruge SOMAVERT
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -570,7 +576,7 @@ knogle- og muskelvækst). Sygdommen er karakteriseret ved en øget knoglevækst,
 bløddele, hjertesygdomme og beslægtede sygdomme.
 Det aktive stof i SOMAVERT, pegvisomant, kaldes for en væksthormon-receptorantagonist. 
 Væksthormon receptorantagonister reducerer virkningen af væksthormon og nedsætter indholdet af 
-IGF-1 i blodet.</p>         </div>"""   
+IGF-1 i blodet.</p> </div>"""   
           
 
              
@@ -627,7 +633,7 @@ Der er ikke foretaget undersøgelser af hvorvidt SOMAVERT påvirker evnen til at
 og betjene maskiner.
 SOMAVERT indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. den er i det 
-væsentlige "natriumfri".</p>         </div>"""   
+væsentlige "natriumfri".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take somavert"
@@ -663,7 +669,7 @@ Hvis du har glemt at tage SOMAVERT
 Hvis du glemmer at give dig selv en indsprøjtning, skal du indsprøjte den næste dosis så snart du 
 kommer i tanke om det og derefter fortsætte med at indsprøjte SOMAVERT, som ordineret af din 
 læge. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -755,7 +761,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store somavert"
@@ -778,7 +784,7 @@ Opbevar de fyldte injektionssprøjter under 30°C eller i køleskab (2°C-8°C).
 SOMAVERT opløsningen skal anvendes umiddelbart efter blanding.
 Brug ikke lægemidlet, hvis opløsningen er tåget eller indeholder partikler.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1198,7 +1204,7 @@ Hvad gør jeg, hvis jeg er i tvivl om noget vedrørende lægemidlet?
 Alle spørgsmål vedrørende lægemidlet skal rettes til en læge, sygeplejerske eller 
 apotekspersonale, der er bekendt med SOMAVERT.
 Bittesmå bobler er OK
-Et lag af skum er ikke OK</p>         </div>"""      
+Et lag af skum er ikke OK</p> </div>"""      
 
 
 
@@ -1237,7 +1243,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1246,7 +1254,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1261,7 +1270,7 @@ Usage: #inline
 3. Como utilizar SOMAVERT
 4. Efeitos indesejáveis possíveis
 5. Como conservar SOMAVERT
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1275,7 +1284,7 @@ caracterizado por um crescimento excessivo do osso, inchaço dos tecidos moles, 
 distúrbios relacionados.
 A substância ativa do SOMAVERT, o pegvisomant, é conhecida como sendo um antagonista do 
 recetor da hormona de crescimento. Estas substâncias reduzem a ação da GH e os níveis de IGF-I 
-circulantes.</p>         </div>"""   
+circulantes.</p> </div>"""   
           
 
              
@@ -1331,7 +1340,7 @@ Condução de veículos e utilização de máquinas
 Não foram estudados os efeitos sobre a capacidade de conduzir e utilizar máquinas.
 SOMAVERT contém sódio
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, isto é, é essencialmente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar somavert"
@@ -1370,7 +1379,7 @@ Caso se tenha esquecido de autoadministrar a dose de SOMAVERT, deve administrar 
 logo que se lembre, e continuar a administrar o SOMAVERT tal como lhe foi prescrito pelo seu 
 médico. Não administre uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1467,7 +1476,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá co
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.
-57</p>         </div>"""      
+57</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar somavert"
@@ -1491,7 +1500,7 @@ Após ser preparada, a solução de SOMAVERT tem de ser administrada imediatamen
 Não utilize este medicamento se verificar que a solução está turva ou contém partículas.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1633,7 +1642,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: + 371 670 35 775
 Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

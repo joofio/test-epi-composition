@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Simponi</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ Polyarticular juvenile idiopathic arthritis
 Polyarticular juvenile idiopathic arthritis is an inflammatory disease that causes joint pain and swelling 
 in children. If you have polyarticular juvenile idiopathic arthritis you will first be given other 
 medicines. If you do not respond well enough to these medicines, you will be given Simponi in 
-combination with methotrexate to treat the disease.</p>         </div>"""   
+combination with methotrexate to treat the disease.</p> </div>"""   
           
 
              
@@ -234,7 +237,7 @@ A part of the pre-filled pen, the needle cover, contains latex. Because latex ma
 reactions, talk to your doctor before using Simponi if you or your carer are allergic to latex.
 Sorbitol intolerance
 This medicine contains 18.45 mg sorbitol (E420) in each pre-filled pen. Each 0.05 mL medicine 
-contains 2.05 mg sorbitol (E420).</p>         </div>"""   
+contains 2.05 mg sorbitol (E420).</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take simponi"
@@ -277,7 +280,7 @@ your doctor or pharmacist to ask when you need to take the next dose.
 If you are not sure what to do, talk to your doctor or pharmacist.
 If you stop using Simponi
 If you are considering stopping Simponi, talk to your doctor or pharmacist first.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -418,7 +421,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store simponi"
@@ -440,7 +443,7 @@ the expiry date printed on the carton, whichever is earlier.</p>
 cloudy, or contains foreign particles.</p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor or 
 pharmacist how to throw away medicines you no longer use. These measures will help to 
-protect the environment.</p>         </div>"""      
+protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -558,7 +561,7 @@ Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
 Tel: +35312998medinfoNI@msd.com
 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -597,7 +600,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -606,7 +611,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -621,7 +627,7 @@ Usage: #inline
 3. Sådan skal du tage Simponi
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -639,7 +645,7 @@ Polyartikulær juvenil idiopatisk artrit
 Polyartikulær juvenil idiopatisk artrit er en betændelsessygdom, som medfører smerter og hævelse i 
 leddene hos børn. Hvis du har polyartikulær juvenil idiopatisk artrit, vil du først få andre lægemidler. 
 Hvis du ikke reagerer godt nok på disse lægemidler, vil du få Simponi i kombination med methotrexat 
-til behandling af sygdommen.</p>         </div>"""   
+til behandling af sygdommen.</p> </div>"""   
           
 
              
@@ -830,7 +836,7 @@ anvender Simponi, hvis du eller din hjælper/plejer er allergisk over for latex,
 alvorlige allergiske reaktioner.
 Sorbitol-intolerans
 Dette lægemiddel indeholder 18,45 mg sorbitol (E420) i hver fyldt pen. Hver 0,05 ml lægemiddel 
-indeholder 2,05 mg sorbitol (E420).</p>         </div>"""   
+indeholder 2,05 mg sorbitol (E420).</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take simponi"
@@ -883,7 +889,7 @@ Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.
 Hvis du holder op med at tage Simponi
 Tal med lægen eller apotekspersonalet, hvis du overvejer at stoppe behandlingen med Simponi.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af 
-dette lægemiddel.</p>         </div>"""         
+dette lægemiddel.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1116,7 +1122,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store simponi"
@@ -1144,7 +1150,7 @@ Tag ikke lægemidlet, hvis du kan se, at væsken ikke har en klar til lys gullig
 den er grumset eller indeholder fremmede partikler.
 
 Spørg din læge eller apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til 
-miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1504,7 +1510,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Din læge har også givet dig et patientinformationskort, der indeholder vigtig sikkerhedsinformation, 
 som du skal være opmærksom på før og under behandling med Simponi.
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -1543,7 +1549,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1552,7 +1560,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1567,7 +1576,7 @@ Usage: #inline
 3. Como utilizar Simponi
 4. Efeitos indesejáveis possíveis
 5. Como conservar Simponi
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1585,7 +1594,7 @@ Artrite idiopática juvenil poliarticular
 A artrite idiopática juvenil poliarticular é uma doença inflamatória que causa dor e inchaço nas 
 articulações das crianças. Se tem artrite idiopática juvenil poliarticular receberá primeiro tratamento 
 com outros medicamentos. Se não responder de forma adequada a estes medicamentos, receberá
-Simponi em combinação com metotrexato para tratar a doença.</p>         </div>"""   
+Simponi em combinação com metotrexato para tratar a doença.</p> </div>"""   
           
 
              
@@ -1785,7 +1794,7 @@ alérgico ao látex.
 135
 Intolerância ao sorbitol
 Este medicamento contém 18,45 mg de sorbitol (E420) em cada caneta pré-cheia. Cada 0,05 ml do 
-medicamento contém 2,05 mg de sorbitol (E420).</p>         </div>"""   
+medicamento contém 2,05 mg de sorbitol (E420).</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar simponi"
@@ -1839,7 +1848,7 @@ Se estiver a considerar parar o tratamento com Simponi, fale primeiro com o seu 
 farmacêutico.
 136
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -2078,7 +2087,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar simponi"
@@ -2109,7 +2118,7 @@ se estiver enevoada ou se tiver partículas estranhas.
 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2260,7 +2269,7 @@ Limited
 Tel: +35312998700
 medinfoNI@msd.com
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

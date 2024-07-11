@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store RIXUBIS</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ IX is a normal constituent of human blood necessary for effective blood clotting
 patients with haemophilia B (Christmas disease, an inherited bleeding disorder caused by lack of 
 factor IX). It works by replacing the missing factor IX to enable the patient s blood to clot.
 RIXUBIS is used for the treatment and prevention of bleeding in patients with haemophilia B of all 
-age groups.</p>         </div>"""   
+age groups.</p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ RIXUBIS has no influence on the ability to drive and use machines.
 RIXUBIS contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
 free . However, depending on your body weight and your dose of RIXUBIS, you could receive more 
-than one vial. This should be taken into consideration if you are on a controlled sodium diet.</p>         </div>"""   
+than one vial. This should be taken into consideration if you are on a controlled sodium diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rixubis"
@@ -202,7 +205,7 @@ Do not inject a double dose to make up for a forgotten dose. Proceed with the ne
 scheduled and continue as advised by your doctor.
 If you stop using RIXUBIS
 Do not stop using RIXUBIS without consulting your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or, pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rixubis"
@@ -248,7 +251,7 @@ Do not freeze.
 Use the reconstituted solution immediately.
 Do not use RIXUBIS if the solution is not clear and colourless.
 Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -367,7 +370,7 @@ United Kingdom (Northern Ireland)
 Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in .
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -406,7 +409,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -415,7 +420,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -430,7 +436,7 @@ Usage: #inline
 3. Sådan skal du bruge RIXUBIS
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -444,7 +450,7 @@ RIXUBIS bruges til patienter med hæmofili B (Christmas' sygdom, en arvelig blod
 skyldes mangel på faktor IX). Det virker ved at erstatte den manglende faktor IX, så patientens blod 
 kan størkne.
 RIXUBIS bruges til behandling og forebyggelse af blødning hos patienter i alle aldersgrupper med 
-hæmofili B.</p>         </div>"""   
+hæmofili B.</p> </div>"""   
           
 
              
@@ -499,7 +505,7 @@ RIXUBIS påvirker ikke evnen til at føre motorkøretøj og betjene maskiner.
 RIXUBIS indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas, dvs. det er stort set 
 "natriumfrit". Afhængigt af din kropsvægt og din dosis af RIXUBIS kan du imidlertid få mere end ét 
-hætteglas. Det skal tages i betragtning, hvis du er på en natriumkontrolleret diæt. </p>         </div>"""   
+hætteglas. Det skal tages i betragtning, hvis du er på en natriumkontrolleret diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rixubis"
@@ -575,7 +581,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Fortsæt m
 som planlagt og fortsæt derefter som anvist af lægen.
 Hvis du holder op med at bruge RIXUBIS
 Du må ikke stoppe med at bruge RIXUBIS uden at have rådført dig med lægen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -610,7 +616,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rixubis"
@@ -625,7 +631,7 @@ Må ikke nedfryses.
 Brug den opblandede (rekonstituerede) injektionsvæske straks.
 RIXUBIS må ikke anvendes, hvis opløsningen ikke er klar og farveløs.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -940,7 +946,7 @@ Profylakse:
 Det anbefalede dosisområde for pædiatriske patienter under 12 år er 40-80 IE/kg med intervaller 
 på 3 til 4 dage. I nogle tilfælde kan det - afhængigt af den enkelte patients farmakokinetik, alder, 
 fysiske aktivitet samt resultatet af fænotypeanalysen - være nødvendigt med kortere 
-doseringsintervaller eller højere doser.</p>         </div>"""      
+doseringsintervaller eller højere doser.</p> </div>"""      
 
 
 
@@ -979,7 +985,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -988,7 +996,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1003,7 +1012,7 @@ Usage: #inline
 3. Como utilizar RIXUBIS
 4. Efeitos indesejáveis possíveis
 5. Como conservar RIXUBIS
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1017,7 +1026,7 @@ RIXUBIS é utilizado em doentes com hemofilia B (doença de Christmas, uma doen�
 hereditária provocada por uma insuficiência de fator IX). Este medicamento funciona através da 
 reposição do fator IX em falta, permitindo a coagulação sanguínea do doente.
 RIXUBIS é utilizado no tratamento e prevenção de hemorragia (perda de sangue) em doentes com 
-hemofilia B de todas as idades.</p>         </div>"""   
+hemofilia B de todas as idades.</p> </div>"""   
           
 
              
@@ -1073,7 +1082,7 @@ RIXUBIS contém sódio
 Este medicamento contém menos de 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, é 
 praticamente "isento de sódio". No entanto, dependendo do seu peso corporal e da sua dose de 
 RIXUBIS, poderá receber mais do que um frasco para injetáveis. Isto deve ser tido em consideração se 
-estiver numa dieta de sódio controlada..</p>         </div>"""   
+estiver numa dieta de sódio controlada..</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rixubis"
@@ -1157,7 +1166,7 @@ seguinte no momento agendado e continue o tratamento conforme a indicação do s
 Se parar de utilizar RIXUBIS
 Não pare de utilizar RIXUBIS sem consultar o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1192,7 +1201,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rixubis"
@@ -1208,7 +1217,7 @@ Utilize a solução reconstituída imediatamente.
 Não utilize RIXUBIS a menos que a solução esteja transparente e incolor.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1368,7 +1377,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 902
 medinfoEMEA@takeda.com
 Este folheto foi revisto pela última vez em .
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

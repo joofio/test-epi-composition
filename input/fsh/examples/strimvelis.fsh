@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Strimvelis </li>
 <li>Contents of the pack and further information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ the cells do not produce enough of an enzyme called adenosine deaminase (ADA) an
 system does not work properly to defend the body against infections.  </p>
 <p>To make Strimvelis, stem cells from your child s bone marrow are modified in the laboratory to insert a gene 
 that produces ADA. When these modified stem cells are given back to your child, they can divide to produce 
-different types of blood cells, including cells involved in your child s immune system.  </p>         </div>"""   
+different types of blood cells, including cells involved in your child s immune system.  </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ conditioning medicine to prepare for Strimvelis treatment, nor after treatment w
 system is recovering. </p>
 <p>Strimvelis contains sodium 
 This medicine contains 42 to 137 mg sodium (main component of cooking/table salt) in each dose. This is 
-equivalent to 2 to 7% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 2 to 7% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take strimvelis"
@@ -195,7 +198,7 @@ given </p>
 react to the infusion </p>
 <p>Strimvelis is given<br />
 by a drip into a vein. 
-This will take about 20 minutes </p>         </div>"""         
+This will take about 20 minutes </p> </div>"""         
 
         
 * section[=].section[+]
@@ -232,7 +235,7 @@ child s doctor or nurse. </p>
 <p>Reporting of side effects 
 If your child gets any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store strimvelis"
@@ -247,7 +250,7 @@ infusion bag label. </p>
 <p>This medicine contains genetically-modified human cells. Unused medicine or waste material must be 
 disposed of in compliance with the local guidelines on handling human-derived material. As this medicine 
 will be given by a qualified doctor, they are responsible for correct disposal of the product. These measures 
-will help protect the environment. </p>         </div>"""      
+will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ AGC Biologics S.p.A.
 ITALY </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -314,7 +317,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -323,7 +328,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -340,7 +346,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -357,7 +363,7 @@ producere nok af et enzym, som kaldes adenosindeaminase (ADA), så dit barns imm
 som det skal, og derfor ikke kan forsvare kroppen mod infektioner.  </p>
 <p>Strimvelis fremstilles ved at modificere stamceller fra dit barns knoglemarv på laboratoriet ved at indføre et 
 nyt gen, som producerer ADA. Når dit barn får disse modificerede stamceller igen, kan de dele sig og 
-producere forskellige typer blodceller, herunder cellerne involveret i dit barns immunsystem. </p>         </div>"""   
+producere forskellige typer blodceller, herunder cellerne involveret i dit barns immunsystem. </p> </div>"""   
           
 
              
@@ -432,7 +438,7 @@ medicin. </p>
 medicin, der gives som forberedelse på Strimvelis behandling, mens dit barns immunsystem kommer sig. </p>
 <p>Strimvelis indeholder natrium </p>
 <p>Dette lægemiddel indeholder 42 til 137 mg natrium (hovedkomponent af  madlavnings-/bordsalt) pr. dosis. 
-Dette svarer til 2 til 7 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+Dette svarer til 2 til 7 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take strimvelis"
@@ -488,7 +494,7 @@ får bivirkninger i forbindelse med
 infusionen </p>
 <p>Strimvelis gives… 
 i et drop i en vene. 
-Det tager ca. 20 minutter </p>         </div>"""         
+Det tager ca. 20 minutter </p> </div>"""         
 
         
 * section[=].section[+]
@@ -563,7 +569,7 @@ Hvis dit barn oplever bivirkninger, bør du tale med din læge eller sygeplejers
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store strimvelis"
@@ -578,7 +584,7 @@ infusionsposen. </p>
 <p>Denne medicin indeholder genmodificerede humane celler. Ikke anvendt lægemiddel samt affald heraf skal 
 bortskaffes i henhold til lokale retningslinjer vedrørende håndtering af materiale, der stammer fra mennesker. 
 Da dette lægemiddel indgives af en læge, er denne ansvarlig for korrekt bortskaffelse af præparatet. Af 
-hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -631,7 +637,7 @@ for håndtering af materiale, der stammer fra mennesker. </p>
 Eksponering for Strimvelis ved et uheld skal undgås. Lokale retningslinjer for håndtering af materiale, der 
 stammer fra mennesker, skal følges i tilfælde af utilsigtet eksponering, hvilket kan omfatte at skylle 
 kontamineret hud og fjerne kontamineret beklædning. Arbejdsoverflader og materiale, som kan have været i 
-kontakt med Strimvelis, skal dekontamineres med et passende desinfektionsmiddel. </p>         </div>"""      
+kontakt med Strimvelis, skal dekontamineres med et passende desinfektionsmiddel. </p> </div>"""      
 
 
 

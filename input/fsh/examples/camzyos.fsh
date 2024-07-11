@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store CAMZYOS </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ heart rhythms, dizziness, feeling that you are about to faint, fainting (syncope
 ankles, feet, legs, abdomen and/or veins in the neck. </p>
 <p>How CAMZYOS works 
 CAMZYOS works by reducing excess contraction of the heart and the obstruction to blood flow to the 
-body. As a result, it may improve your symptoms and your ability to be active. </p>         </div>"""   
+body. As a result, it may improve your symptoms and your ability to be active. </p> </div>"""   
           
 
              
@@ -208,7 +211,7 @@ Mavacamten may have a small effect on your ability to drive and use machines. If
 while taking this medicine, do not drive a vehicle, cycle or use any tools or machines. </p>
 <p>CAMZYOS contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per capsule, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take camzyos"
@@ -248,7 +251,7 @@ for a forgotten capsule.
 If you stop taking CAMZYOS 
 Do not stop taking CAMZYOS unless your doctor tells you to. If you wish to stop taking CAMZYOS, 
 notify your doctor to discuss the best way to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ heart failure and be life-threatening. (Common side effect) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store camzyos"
@@ -284,7 +287,7 @@ By reporting side effects you can help provide more information on the safety of
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ Plaza Blanchardstown Corporate Park 2
 Dublin 15, D15 TIreland </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -377,7 +380,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -386,7 +391,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -403,7 +409,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -430,7 +436,7 @@ hævede ankler, fødder, ben, mave og/eller blodårer i halsen. </p>
 <p>Sådan virker CAMZYOS 
 CAMZYOS får hjertet til ikke at trække sig så kraftigt sammen, og det reducerer blokeringen af 
 blodgennemstrømningen til kroppen. Derfor kan det mindske dine symptomer og give dig mulighed 
-for at være mere aktiv. </p>         </div>"""   
+for at være mere aktiv. </p> </div>"""   
           
 
              
@@ -603,7 +609,7 @@ føler dig svimmel, mens du tager dette lægemiddel, må du ikke føre motorkør
 nogen form for værktøj eller maskiner. </p>
 <p>CAMZYOS indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take camzyos"
@@ -650,7 +656,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte kapsel. </p>
 Du må ikke holde op med at tage CAMZYOS, medmindre din læge beder dig om at gøre det. Hvis du 
 ønsker at holde op med at tage CAMZYOS, skal du tale med lægen om den bedste måde at gøre det 
 på. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -686,7 +692,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store camzyos"
@@ -698,7 +704,7 @@ lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ Dublin 15, D15 TIrland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -807,7 +813,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -816,7 +824,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -833,7 +842,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar CAMZYOS </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -860,7 +869,7 @@ anormais, tonturas, sensação de se estar prestes a desmaiar, desmaio (síncope
 tornozelos, pés, pernas, abdómen e/ou veias do pescoço. </p>
 <p>Como funciona CAMZYOS 
 CAMZYOS funciona reduzindo o excesso de contração do coração e a obstrução do fluxo sanguíneo 
-para o corpo. Como resultado, pode melhorar os seus sintomas e a sua capacidade para estar ativo. </p>         </div>"""   
+para o corpo. Como resultado, pode melhorar os seus sintomas e a sua capacidade para estar ativo. </p> </div>"""   
           
 
              
@@ -1029,7 +1038,7 @@ tonturas enquanto estiver a tomar este medicamento, não conduza um veículo, n�
 nem utilize quaisquer ferramentas ou máquinas. </p>
 <p>CAMZYOS contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar camzyos"
@@ -1076,7 +1085,7 @@ para compensar uma cápsula que se esqueceu de tomar. </p>
 <p>Se parar de tomar CAMZYOS 
 Não pare de tomar CAMZYOS, a menos que o seu médico lhe diga para o fazer. Se quiser parar de 
 tomar CAMZYOS, informe o seu médico para discutir a melhor forma de o fazer. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1112,7 +1121,7 @@ suficiente), o que pode levar a insuficiência cardíaca e ser fatal. (Efeito in
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar camzyos"
@@ -1125,7 +1134,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1192,7 +1201,7 @@ Plaza Blanchardstown Corporate Park 2
 Dublin 15, D15 TIrlanda </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

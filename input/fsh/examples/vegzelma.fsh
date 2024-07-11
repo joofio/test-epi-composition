@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store VEGZELMA  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -106,7 +109,7 @@ with a chemotherapy regimen containing a platinum agent, VEGZELMA will be admini
 combination with paclitaxel, or topotecan, or pegylated liposomal doxorubicin.  </p>
 <p>VEGZELMA is also used for the treatment of adult patients with persistent, recurrent or metastatic 
 cervical cancer. VEGZELMA will be administered in combination with paclitaxel and cisplatin or, 
-alternatively, paclitaxel and topotecan in patients who cannot receive platinum therapy.  </p>         </div>"""   
+alternatively, paclitaxel and topotecan in patients who cannot receive platinum therapy.  </p> </div>"""   
           
 
              
@@ -210,7 +213,7 @@ symptoms that affect your vision or concentration, or your ability to react, do 
 machines until symptoms disappear.  </p>
 <p>Important information about some of the ingredients of VEGZELMA<br />
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free .  </p>         </div>"""   
+free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vegzelma"
@@ -255,7 +258,7 @@ discuss this with your doctor.  </p>
 <p>If you stop treatment with VEGZELMA  </p>
 <p>Stopping your treatment with VEGZELMA may stop the effect on tumour growth. Do not stop 
 treatment with VEGZELMA unless you have discussed this with your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -395,7 +398,7 @@ may occur:  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vegzelma"
@@ -415,7 +418,7 @@ has taken place in a sterile environment, VEGZELMA is stable for 60 days at 2 C 
 additional 7 days at 2 C to 30 C.  </p>
 <p>Do not use VEGZLMA if you notice any particulate matter or discolouration prior to administration.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -528,7 +531,7 @@ Celltrion Healthcare Hungary Kft.
 T lr.: +36 1 231 0Celltrion Healthcare Ireland Limited<br />
 Tel: +353 1 223 4This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -567,7 +570,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -576,7 +581,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -593,7 +599,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelse og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -635,7 +641,7 @@ eller topotecan eller pegyleret liposomal doxorubicin. </p>
 <p>VEGZELMA bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
 livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
 metastaser). VEGZELMA bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og 
-topotecan til patienter, som ikke kan få platin. </p>         </div>"""   
+topotecan til patienter, som ikke kan få platin. </p> </div>"""   
           
 
              
@@ -757,7 +763,7 @@ oplever symptomer, som påvirker dit syn eller din koncentrationsevne eller din 
 lade være med at køre bil og betjene maskiner, før symptomerne er forsvundet. </p>
 <p>Vigtig information vedrørende hjælpestoffer i VEGZELMA 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas og betragtes derfor 
-værende "natriumfri". </p>         </div>"""   
+værende "natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vegzelma"
@@ -816,7 +822,7 @@ læge herom. </p>
 <p>Hvis du holder op med at få VEGZELMA </p>
 <p>Hvis behandlingen med VEGZELMA stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
 behandlingen med VEGZELMA før, du har diskuteret det med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1029,7 +1035,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekespersonalet ell
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel </p>         </div>"""      
+information om sikkerheden af dette lægemiddel </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vegzelma"
@@ -1049,7 +1055,7 @@ fortyndingen har fundet sted under sterile forhold, er VEGZELMA stabil i 60 dage
 yderligere i 7 dage ved 2 ºC - 30 ºC. </p>
 <p>Brug ikke VEGZELMA, hvis du opdager partikler eller misfarvning før indgift. </p>
 <p>Spørg apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1183,7 +1189,7 @@ Celltrion Healthcare Ireland Limited<br />
 Tel: +353 1 223 4Denne indlægsseddel blev senest ændret den &lt;{MM/YYYY}&gt;. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

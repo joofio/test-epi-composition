@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Nerlynx </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ cell division and growth can be enhanced by estrogens and/or progesterone. </p>
 positive. You must also have previously been treated with trastuzumab. </p>
 <p>How Nerlynx works 
 Nerlynx works by blocking the HER2 receptors on the cancer cells. This helps to stop the cells from 
-dividing and growing. </p>         </div>"""   
+dividing and growing. </p> </div>"""   
           
 
              
@@ -181,7 +184,7 @@ benefits and risks of taking Nerlynx during this time. </p>
 <p>Driving and using machines 
 Nerlynx has minor influence on the ability to drive and use machines. The side effects of Nerlynx (for 
 example, dehydration and dizziness resulting from diarrhoea, fatigue, and fainting) may affect how 
-tasks that require judgment, motor or cognitive skills are carried out. </p>         </div>"""   
+tasks that require judgment, motor or cognitive skills are carried out. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nerlynx"
@@ -215,7 +218,7 @@ vomiting and dehydration. </p>
 - Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Nerlynx 
 - Do not stop taking Nerlynx without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ of urinary tract infection)  </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nerlynx"
@@ -290,7 +293,7 @@ Keep the bottle tightly closed in order to protect from moisture. </p>
 <p>Do not use Nerlynx if you notice any signs of damage to the packaging or if there are any signs of 
 tampering (e.g., inner seal is broken). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -329,7 +332,7 @@ Le Payrat
 France </p>
 <p>This leaflet was last revised in MM/YYYY </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -368,7 +371,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -377,7 +382,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -394,7 +400,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -422,7 +428,7 @@ progesteron bindes til disse proteiner og regulerer celleaktiviteten. Ved HR-pos
 positiv og HER2-positiv. Du skal også tidligere være behandlet med trastuzumab. </p>
 <p>Hvordan virker Nerlynx? 
 Nerlynx virker ved at blokere HER2-receptorerne på kræftcellerne. Dette hjælper med at stoppe 
-cellerne med at dele sig og vokse. </p>         </div>"""   
+cellerne med at dele sig og vokse. </p> </div>"""   
           
 
              
@@ -512,7 +518,7 @@ ved at tage Nerlynx under amning. </p>
 Nerlynx påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. Bivirkningerne ved 
 Nerlynx (f.eks. dehydrering og svimmelhed som følge af diarré, udmattelse og besvimelsesanfald) kan 
 indvirke på den måde, som opgaver, der kræver dømmekraft eller motoriske eller kognitive evner, 
-udføres på. </p>         </div>"""   
+udføres på. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nerlynx"
@@ -546,7 +552,7 @@ opkastning og dehydrering. </p>
 - Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Nerlynx 
 - Du må ikke holde op med at tage Nerlynx uden at tale med lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nerlynx"
@@ -626,7 +632,7 @@ Hold beholderen tæt tillukket for at beskytte mod fugt. </p>
 <p>Brug ikke Nerlynx, hvis du bemærker tegn på skader på pakningen, eller hvis der er tegn på, at den har 
 været åbnet (f.eks. brudt indvendig forsegling). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -671,7 +677,7 @@ FRANKRIG </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>
-<hr />         </div>"""      
+<hr /> </div>"""      
 
 
 
@@ -710,7 +716,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -719,7 +727,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -736,7 +745,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Nerlynx </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -765,7 +774,7 @@ aumentados pelos estrogénios e/ou progesterona. </p>
 positivo. Terá também de ter recebido tratamento prévio com trastuzumab. </p>
 <p>Como funciona Nerlynx 
 Nerlynx atua bloqueando os recetores HER2 nas células cancerígenas. Isto ajuda a impedir que as 
-células se dividam e cresçam. </p>         </div>"""   
+células se dividam e cresçam. </p> </div>"""   
           
 
              
@@ -847,7 +856,7 @@ irá discutir consigo os benefícios e os riscos de tomar Nerlynx durante este p
 Os efeitos de Nerlynx sobre a capacidade de conduzir e utilizar máquinas são reduzidos. Os efeitos 
 indesejáveis de Nerlynx (por exemplo, desidratação e tonturas resultantes da diarreia, fadiga e 
 desmaios) podem afetar o modo como tarefas que exigem discernimento, capacidades motoras ou 
-cognitivas são realizadas. </p>         </div>"""   
+cognitivas são realizadas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nerlynx"
@@ -885,7 +894,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </
 <p>Se parar de tomar Nerlynx 
 - Não pare de tomar Nerlynx sem consultar o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -941,7 +950,7 @@ uma infeção das vias urinárias)<br />
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nerlynx"
@@ -957,7 +966,7 @@ Manter o frasco bem fechado para proteger da humidade. </p>
 adulteração (por ex., se o selo interno estiver quebrado). </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -994,7 +1003,7 @@ Le Payrat
 França </p>
 <p>Este folheto foi revisto pela última vez em MM/AAAA </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

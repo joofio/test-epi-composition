@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Apealea </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ carboplatin:
 * primary peritoneal cancer   a cancer of the cells lining the space between the wall of the belly 
 and the internal organs 
 * cancer of the fallopian tubes (the connection between the ovaries and the womb) 
-It is used when other therapies have not worked. </p>         </div>"""   
+It is used when other therapies have not worked. </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ use machines. Do not drive or use machines if you have these symptoms. </p>
 <p>Apealea contains sodium </p>
 <p>After reconstitution, this medicine contains approximately up to 1.6 g sodium (component of cooking 
 salt) per dose. This is equivalent to 80% of the recommended maximum daily dietary intake of sodium 
-for an adult. </p>         </div>"""   
+for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take apealea"
@@ -156,7 +159,7 @@ for an adult. </p>         </div>"""
 one hour. The dose is based on your body surface area (worked out from your height and weight) and 
 blood test results. The usual dose is 250 mg/m2 body surface area given every three weeks for up to six 
 treatments. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -268,7 +271,7 @@ skin to peel </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store apealea"
@@ -283,7 +286,7 @@ protect from light. </p>
 <p>Once opened, Apealea is recommended to be used immediately. </p>
 <p>Any unused medicine or waste material should be disposed of in accordance with local requirements. 
 Do not throw away any medicines via wastewater or household waste. These measures will help 
-protect the environment. </p>         </div>"""      
+protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -390,7 +393,7 @@ avoid accidental administration into the surrounding tissue and to ensure admini
 complete dose. </p>
 <p>Disposal<br />
 Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements. </p>         </div>"""      
+requirements. </p> </div>"""      
 
 
 
@@ -429,7 +432,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -438,7 +443,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -455,7 +461,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -481,7 +487,7 @@ bughulens vægge og de indre organer i bughulen </p>
 <p>kræft i æggelederne (forbindelsen mellem æggestokkene og livmoderen) 
 Denne behandling anvendes, når andre behandlinger ikke har virket. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -602,7 +608,7 @@ disse symptomer. </p>
 <p>Apealea indeholder natrium </p>
 <p>Efter rekonstitution indeholder dette lægemiddel op til ca.1,6 g natrium (hovedkomponent af 
 madlavnings-/bordsalt) pr. dosis. Det svarer til 80 % af det anbefalede maksimale daglige indtag af 
-natrium for en voksen. </p>         </div>"""   
+natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take apealea"
@@ -613,7 +619,7 @@ natrium for en voksen. </p>         </div>"""
 ca. 1 time. Dosen baseres på din legemsoverflade (beregnet ud fra højde og vægt) og dine 
 blodprøveresultater. Den sædvanlige dosis er 250 mg/m2 legemsoverflade indgivet hver 3. uge i op til 
 6 behandlingsserier. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -899,7 +905,7 @@ Lægemidlet er ikke længere autoriseret til salg</p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store apealea"
@@ -913,7 +919,7 @@ den sidste dag i den nævnte måned. </p>
 at beskytte mod lys. </p>
 <p>Det anbefales, at Apealea anvendes med det samme efter åbning. </p>
 <p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. Af 
-hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1037,7 +1043,7 @@ rekonstitutionsvæsken for at undgå utilsigtet indgift i det omgivende væv og 
 indgives. </p>
 <p>Bortskaffelse<br />
 Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. 
-Lægemidlet er ikke længere autoriseret til salg</p>         </div>"""      
+Lægemidlet er ikke længere autoriseret til salg</p> </div>"""      
 
 
 
@@ -1076,7 +1082,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1085,7 +1093,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1102,7 +1111,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Apealea </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1127,7 +1136,7 @@ abdómen e os órgãos internos; </p>
 <p>cancro das trompas de Falópio (a ligação entre os ovários e o útero). 
 É utilizado quando outras terapêuticas não funcionaram. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1251,7 +1260,7 @@ sintomas. </p>
 <p>Apealea contém sódio </p>
 <p>Após reconstituição, este medicamento contém até um máximo de aproximadamente 1,6 g de sódio 
 (componente do sal para cozinhar) por dose. Isto equivale a 80% da ingestão diária máxima de sódio 
-recomendada para um adulto. </p>         </div>"""   
+recomendada para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar apealea"
@@ -1263,7 +1272,7 @@ numa veia. A administração demorará cerca de uma hora. A dose baseia-se na su
 corporal (calculada a partir da sua altura e peso) e dos resultados das análises sanguíneas. A dose 
 habitual é 250 mg/m2 de área de superfície corporal, administrada a cada três semanas durante, no 
 máximo, seis tratamentos. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1551,7 +1560,7 @@ da pele  </li>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar apealea"
@@ -1567,7 +1576,7 @@ para injetáveis dentro da embalagem exterior para proteger da luz. </p>
 <p>Medicamento já não autorizado
 Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências 
 locais. Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Estas medidas 
-ajudarão a proteger o ambiente. </p>         </div>"""      
+ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1603,7 +1612,7 @@ Suécia </p>
 <p>Para quaisquer informações sobre este medicamento, queira contactar o Titular da Autorização de 
 Introdução no Mercado: </p>
 <p>Este folheto informativo foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

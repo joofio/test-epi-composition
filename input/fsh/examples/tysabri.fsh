@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tysabri </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ over several days. Your symptoms will then usually improve gradually (this is ca
 <p>How Tysabri can help 
 In trials, this medicine approximately halved the build-up of disability caused by MS, and decreased 
 the number of MS attacks by about two-thirds. While you are treated with  this medicine you might 
-not notice any improvement, but it may still be working to prevent your MS becoming worse. </p>         </div>"""   
+not notice any improvement, but it may still be working to prevent your MS becoming worse. </p> </div>"""   
           
 
              
@@ -185,7 +188,7 @@ Dizziness is a very common side effect. If you are affected, do not drive or use
 <p>Tysabri contains sodium 
 Each vial of this medicine contains 2.3 mmol (or 52 mg) of sodium. After dilution for use, this 
 medicinal product contains 17.7 mmol (or 406 mg) sodium per dose. This should be considered if you 
-are on a controlled sodium diet. </p>         </div>"""   
+are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tysabri"
@@ -221,7 +224,7 @@ properly over time, as the body develops antibodies to the medicine. Your doctor
 this medicine is not working properly for you from blood tests and will stop the treatment, if 
 necessary. </p>
 <p>If you have any further questions on Tysabri, ask your doctor. Always use this medicine exactly as 
-described in this leaflet or as your doctor has told you. Check with your doctor if you are not sure. </p>         </div>"""         
+described in this leaflet or as your doctor has told you. Check with your doctor if you are not sure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -313,7 +316,7 @@ You will also find this information in the patient alert card you have been give
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tysabri"
@@ -330,7 +333,7 @@ Keep the vial in the outer carton in order to protect from light. </p>
 <p>Diluted solution: 
 After dilution, immediate use is recommended. If not used immediately, the diluted solution must be 
 stored at 2 C to 8 C and infused within 24 hours of dilution. </p>
-<p>Do not use this medicine if you notice particles in the liquid and/or the liquid in the vial is discoloured. </p>         </div>"""      
+<p>Do not use this medicine if you notice particles in the liquid and/or the liquid in the vial is discoloured. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -428,7 +431,7 @@ Tel: +371 68 688 United Kingdom (Northern Ireland)
 Biogen Idec (Ireland) Limited 
 Tel: +44 (0) 1628 50 1This leaflet was last revised in .  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -467,7 +470,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -476,7 +481,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -491,7 +497,7 @@ Usage: #inline
 3. Sådan gives Tysabri 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -519,7 +525,7 @@ aftage gradvis (dette kaldes en remission). </p>
 I studier har dette lægemiddel cirka halveret udviklingen af invalidering forårsaget af MS og har 
 nedsat antallet af MS-attakker med cirka to tredjedele. Mens du får behandling med dette lægemiddel, 
 vil du muligvis ikke bemærke nogen forbedring, men lægemidlet kan alligevel virke ved at forebygge 
-forværring i din MS. </p>         </div>"""   
+forværring i din MS. </p> </div>"""   
           
 
              
@@ -673,7 +679,7 @@ eller betjene maskiner. </p>
 <p>Tysabri indeholder natrium </p>
 <p>Hvert hætteglas med dette lægemiddel indeholder 2,3 mmol (eller 52 mg) natrium. Efter fortynding 
 indeholder dette lægemiddel 17,7 mmol (eller 406 mg) natrium pr. dosis. Dette skal tages i 
-betragtning, hvis du er på en diæt med lavt salt (natrium) indhold. </p>         </div>"""   
+betragtning, hvis du er på en diæt med lavt salt (natrium) indhold. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tysabri"
@@ -725,7 +731,7 @@ Hos nogle få patienter, der får Tysabri, stopper kroppens naturlige forsvar me
 virke korrekt, da kroppen udvikler antistoffer mod lægemidlet. Lægen kan beslutte, om lægemidlet 
 ikke virker korrekt for dig gennem blodprøver, og vil stoppe behandlingen, hvis det er nødvendigt. </p>
 <p>Spørg lægen, hvis der er noget, du er i tvivl om. Brug altid lægemidlet nøjagtigt som beskrevet i denne 
-indlægsseddel eller efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>         </div>"""         
+indlægsseddel eller efter lægens anvisning. Er du i tvivl, så spørg lægen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -949,7 +955,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tysabri"
@@ -967,7 +973,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 Efter fortynding anbefales omgående anvendelse. Hvis den fortyndede opløsning ikke anvendes 
 omgående, skal den opbevares ved 2 °C til 8 °C og infunderes inden for 24 timer efter fortynding. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker partikler i væsken, og/eller hvis væsken i hætteglasset er 
-misfarvet. </p>         </div>"""      
+misfarvet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1154,7 +1160,7 @@ forekomme selv efter, at du er ophørt med behandlingen. </li>
 <li>Spørg lægen, hvis der er mere, du vil vide. </li>
 <li>Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
 indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

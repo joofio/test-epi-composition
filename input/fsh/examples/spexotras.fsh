@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Spexotras </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ tumour has a specific mutation (change) in the so-called BRAF gene. This mutatio
 make faulty proteins which in turn may cause the tumour to develop. The doctor will test for this 
 mutation before starting treatment. </p>
 <p>In combination with dabrafenib, Spexotras targets these faulty proteins and slows down or stops the 
-development of the tumour. Also read the leaflet for dabrafenib dispersible tablets. </p>         </div>"""   
+development of the tumour. Also read the leaflet for dabrafenib dispersible tablets. </p> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ Spexotras oral solution. This is equivalent to 4% of the recommended maximum dai
 of sodium for an adult at the highest recommended trametinib dose. </p>
 <p>Spexotras contains potassium 
 This medicine contains potassium, less than 1 mmol (39 mg) per maximum daily dose, i.e. essentially 
- potassium-free . </p>         </div>"""   
+ potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spexotras"
@@ -206,7 +209,7 @@ Do not give a double dose to make up for a forgotten dose. </p>
 If your child vomits after taking Spexotras, do not give another dose until the next scheduled dose. </p>
 <p>If you stop giving Spexotras 
 Give Spexotras for as long as the doctor recommends. Do not stop unless the doctor advises you to. </p>
-<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask the doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -298,7 +301,7 @@ chest pain </p>
 If your child gets any side effects, talk to the doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spexotras"
@@ -313,7 +316,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>After reconstitution: Store below 25 C. Do not freeze. Discard any unused solution 35 days after 
 reconstitution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask the pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -585,7 +588,7 @@ eyes, rinse your eyes with water. </p>
 <p>Keep your Spexotras solution and oral syringe out of the sight and reach of children. </p>
 <p>Store the solution upright, in the carton provided with the cap tightly closed. </p>
 <p>Store below 25 C. Do not freeze. </p>
-<p>Store your oral syringe in the carton provided alongside your Spexotras solution. </p>         </div>"""      
+<p>Store your oral syringe in the carton provided alongside your Spexotras solution. </p> </div>"""      
 
 
 
@@ -624,7 +627,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -633,7 +638,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -650,7 +656,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -675,7 +681,7 @@ hjernesvulst har en specifik mutation (ændring) i et såkaldt BRAF gen. Denne m
 at lave defekte proteiner, som kan få tumoren til at udvikle sig. Lægen vil teste for denne mutation, før 
 behandlingen påbegyndes. </p>
 <p>I kombination med dabrafenib er Spexotras rettet mod disse defekte proteiner og hæmmer eller stopper 
-udviklingen af tumoren. Læs også indlægssedlen for dabrafenib dispergible tabletter. </p>         </div>"""   
+udviklingen af tumoren. Læs også indlægssedlen for dabrafenib dispergible tabletter. </p> </div>"""   
           
 
              
@@ -799,7 +805,7 @@ Spexotras oral opløsning. Dette svarer til 4 % af den anbefalede maksimal dagli
 for en voksen ved den højeste anbefalede trametinib-dosis. </p>
 <p>Spexotras indeholder kalium 
 Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. maksimal daglig dosis, dvs. det 
-er i det væsentlige kaliumfrit. </p>         </div>"""   
+er i det væsentlige kaliumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spexotras"
@@ -844,7 +850,7 @@ den næste dosis. </p>
 <p>Hvis du holder op med at give Spexotras 
 Giv Spexotras så længe, som lægen foreskriver. Hold ikke op med at give Spexotras, medmindre 
 lægen råder dig til at stoppe. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1074,7 +1080,7 @@ Hvis dit barn oplever bivirkninger, bør du tale med lægen, apotekspersonalet e
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spexotras"
@@ -1089,7 +1095,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Efter klargøring: Opbevares ved temperaturer under 25 ºC. Må ikke nedfryses. Bortskaf ubrugt 
 opløsning 35 dage efter rekonstitution. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1398,7 +1404,7 @@ Hvis Spexotras kommer i kontakt med øjnene, skal øjnene skylles med vand. </p>
 <p>Opbevar din Spexotras opløsning samt oral sprøjte utilgængeligt for børn. </p>
 <p>Flasken skal opbevares opretstående i den medfølgende æske, med låget tæt tillukket. </p>
 <p>Opløsningen skal opbevares ved temperatur under 25 °C. Flasken må ikke nedfryses. </p>
-<p>Opbevar din orale sprøjte i den medfølgende æske sammen med din Spexotras opløsning. </p>         </div>"""      
+<p>Opbevar din orale sprøjte i den medfølgende æske sammen med din Spexotras opløsning. </p> </div>"""      
 
 
 
@@ -1437,7 +1443,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1446,7 +1454,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1463,7 +1472,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Spexotras </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1490,7 +1499,7 @@ organismo a produzir proteínas defeituosas que, por sua vez, podem fazer com qu
 desenvolva. O médico irá efetuar testes para esta mutação antes de iniciar o tratamento. </p>
 <p>Em associação com dabrafenib, Spexotras tem como alvo estas proteínas defeituosas e desacelera ou 
 para o desenvolvimento do tumor. Leia também o folheto informativo de dabrafenib comprimidos 
-dispersíveis. </p>         </div>"""   
+dispersíveis. </p> </div>"""   
           
 
              
@@ -1615,7 +1624,7 @@ cada ml de Spexotras solução oral. Isto é equivalente a 4% da ingestão diár
 recomendada na dieta para um adulto na dose mais elevada recomendada de trametinib. </p>
 <p>Spexotras contém potássio 
 Este medicamento contém potássio, menos de 1 mmol (39 mg) por dose máxima diária, ou seja, é 
-praticamente “isento de potássio". </p>         </div>"""   
+praticamente “isento de potássio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar spexotras"
@@ -1664,7 +1673,7 @@ planeada. </p>
 Administre Spexotras durante o período de tempo recomendado pelo médico. Não pare o tratamento, a 
 não ser por indicação do médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico, farmacêutico ou 
-enfermeiro. </p>         </div>"""         
+enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1896,7 +1905,7 @@ Se a sua criança tiver quaisquer efeitos indesejáveis, incluindo possíveis ef
 indicados neste folheto, fale com o médico, farmacêutico ou enfermeiro. Também poderá comunicar 
 efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
 V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
-deste medicamento. </p>         </div>"""      
+deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar spexotras"
@@ -1912,7 +1921,7 @@ exterior após EXP. O prazo de validade corresponde ao último dia do mês indic
 utilizada 35 dias após reconstituição. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2034,7 +2043,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

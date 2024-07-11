@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Efient </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ you have been treated with a procedure to open blocked arteries in the heart. Yo
 one or more stents placed to keep open a blocked or narrowed artery supplying blood to the heart. 
 Efient reduces the chances of you having a further heart attack or stroke or of dying from one of these 
 atherothrombotic events. Your doctor will also give you acetylsalicylic acid (e.g. aspirin), another anti-
-platelet agent. </p>         </div>"""   
+platelet agent. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ Efient is unlikely to affect your ability to drive or use machines. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efient"
@@ -188,7 +191,7 @@ you last took a tablet of Efient by referring to the calendar printed on the bli
 <p>If you stop taking Efient 
 Do not stop taking Efient without consulting your doctor; if you stop taking Efient too soon, your risk 
 of a heart attack may be higher.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -244,7 +247,7 @@ swelling)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efient"
@@ -256,7 +259,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from air and moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ Tel.: +33 1 43 18 13 United Kingdom (Northern Ireland)
 SUBSTIPHARM 
 Tel: 1800300This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -393,7 +396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -402,7 +407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -417,7 +423,7 @@ Usage: #inline
 3. Sådan skal du tage Efient 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -441,7 +447,7 @@ fået en behandling for at åbne blokerede blodårer i hjertet. Du har måske og
 indsat for at holde en blokeret eller forsnævret blodåre, som forsyner hjertet med blod, åben. Efient 
 nedsætter risikoen for, at du får yderligere hjerteanfald, et slagtilfælde eller dør af en af disse 
 hændelser, som skyldes forkalkede blodårer. Din læge vil også give dig acetylsalicylsyre (f.eks 
-Aspirin), som er en anden blodfortyndende medicin. </p>         </div>"""   
+Aspirin), som er en anden blodfortyndende medicin. </p> </div>"""   
           
 
              
@@ -537,7 +543,7 @@ Det er usandsynligt, at Efient påvirker evnen til at køre eller betjene maskin
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efient"
@@ -565,7 +571,7 @@ på kalenderen, som er trykt på blisterpakningen. </p>
 <p>Hvis du holder op med at tage Efient 
 Du må ikke holde op med at tage Efient uden først at have kontaktet din læge. Hvis du stopper for 
 tidligt med at tage Efient, kan du have højere risiko for at få et hjerteanfald. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -683,7 +689,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efient"
@@ -695,7 +701,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod luft og fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -798,7 +804,7 @@ Tel: 1800300 </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

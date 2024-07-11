@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Rystiggo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ acetylcholine receptors or muscle-specific kinase. </p>
 that attack parts of a person s own body) attack and damage proteins that are involved in 
 communication between nerves and muscle, called acetylcholine receptors or muscle-specific kinase. 
 By attaching to FcRn, Rystiggo reduces the level of IgG antibodies, including IgG autoantibodies, 
-thereby helping to improve symptom of the disease. </p>         </div>"""   
+thereby helping to improve symptom of the disease. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ should breast-feed and use Rystiggo. </p>
 Proline may be harmful for patients with hyperprolinaemia, a rare genetic disorder in which an excess 
 of the amino acid, proline, builds up in the body. 
 If you have hyperprolinaemia, tell your doctor and do not use this medicine unless your doctor has 
-recommended it.  </p>         </div>"""   
+recommended it.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rystiggo"
@@ -189,7 +192,7 @@ according to the original dosing schedule until the treatment cycle is completed
 <p>If you stop using Rystiggo </p>
 <p>Do not stop using this medicine without talking to your doctor first. Interrupting or stopping treatment 
 with Rystiggo may cause your symptoms of generalised myasthenia gravis to come back.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ inflammation, discomfort, and infusion site pain </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rystiggo"
@@ -231,7 +234,7 @@ material should be disposed of in accordance with local requirements. </p>
 <p>Do not use this medicine if you notice that the liquid looks cloudy, contains foreign particles, or has 
 changed colour. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -318,7 +321,7 @@ Tel: + 371 67 370 United Kingdom (Northern Ireland)
 UCB (Pharma) Ireland Ltd. 
 Tel: + 353 / (0)1-46 37 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -357,7 +360,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -366,7 +371,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -383,7 +389,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -404,7 +410,7 @@ acetylcholinreceptorer eller muskelspecifikke tyrosinkinasereceptorer. </p>
 (proteiner i immunsystemet, der angriber dele af en persons egen krop) proteiner, der er involveret i 
 kommunikationen mellem nerver og muskler, kaldet acetylcholinreceptorer eller muskelspecifikke 
 tyrosinkinasereceptorer. Ved at binde sig til FcRn reducerer Rystiggo niveauet af IgG-antistoffer, 
-herunder IgG-autoantistoffer, og hjælper derved med at forbedre symptomerne på sygdommen. </p>         </div>"""   
+herunder IgG-autoantistoffer, og hjælper derved med at forbedre symptomerne på sygdommen. </p> </div>"""   
           
 
              
@@ -469,7 +475,7 @@ beslutte, om du bør amme og bruge Rystiggo. </p>
 Prolin kan være skadeligt for patienter med hyperprolinæmi, som er en sjælden genetisk sygdom, hvor 
 der ophobes et overskud af aminosyren prolin i kroppen. 
 Hvis du har hyperprolinæmi, skal du fortælle det til din læge. Du må ikke bruge dette lægemiddel, 
-medmindre din læge har anbefalet det. </p>         </div>"""   
+medmindre din læge har anbefalet det. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rystiggo"
@@ -512,7 +518,7 @@ henhold til den oprindelige doseringsplan, indtil behandlingscyklussen er afslut
 <p>Du må ikke holde op med at bruge dette lægemiddel uden først at have talt med din læge om det. 
 Afbrydelse eller ophør af behandlingen med Rystiggo kan få dine symptomer på generaliseret 
 myasthenia gravis til at vende tilbage.  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -539,7 +545,7 @@ inflammation, ubehag og smerter på infusionsstedet </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rystiggo"
@@ -557,7 +563,7 @@ produkt eller affaldsmateriale skal bortskaffes i overensstemmelse med lokale kr
 <p>Brug ikke lægemidlet, hvis du bemærker, at væsken er uklar, indeholder fremmede partikler eller har 
 skiftet farve. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -796,7 +802,7 @@ tabet i slangen. </p>
 <li>Bortskaf alle genstande med tilbageværende produkt i en beholder til skarpe 
 genstande, dvs. delvist brugte hætteglas, infusionssæt og eventuelle remedier 
 anvendt til administrationen. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -835,7 +841,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -844,7 +852,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -861,7 +870,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Rystiggo  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -882,7 +891,7 @@ autoanticorpos IgG contra recetores da acetilcolina ou quinase músculo-específ
 que atacam partes do próprio organismo da pessoa) atacam e danificam proteínas envolvidas na 
 comunicação entre nervos e músculos, denominadas recetores da acetilcolina ou quinase músculo-
 específica. Ao ligar-se ao FcRn, Rystiggo reduz o nível de anticorpos IgG, incluindo autoanticorpos 
-IgG, ajudando assim a melhorar os sintomas da doença. </p>         </div>"""   
+IgG, ajudando assim a melhorar os sintomas da doença. </p> </div>"""   
           
 
              
@@ -947,7 +956,7 @@ deve amamentar e utilizar Rystiggo. </p>
 A prolina pode ser prejudicial para doentes com hiperprolinemia, uma doença genética rara na qual um 
 excesso do aminoácido, a prolina, se acumula no organismo. 
 Se tiver hiperprolinemia, informe o seu médico e não utilize este medicamento, a menos que o seu 
-médico o tenha recomendado.  </p>         </div>"""   
+médico o tenha recomendado.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rystiggo"
@@ -989,7 +998,7 @@ concluído.  </p>
 parar o tratamento com Rystiggo pode provocar o reaparecimento dos seus sintomas de miastenia 
 gravis.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1016,7 +1025,7 @@ observados com Rystiggo: </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rystiggo"
@@ -1036,7 +1045,7 @@ exigências locais. </p>
 tiver mudado de cor. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1143,7 +1152,7 @@ UCB (Pharma) Ireland Ltd.
 Tel: + 353 / (0)1-46 37  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

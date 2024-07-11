@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Viread </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ due to development of resistance, or have caused side effects. </p>
 <p>Your child does not have to have HIV to be treated with Viread for HBV. </p>
 <p>This medicine is not a cure for HIV infection.  While taking Viread your child may still develop 
 infections or other illnesses associated with HIV infection.  Your child can also pass on HBV to 
-others, so it is important to take precautions to avoid infecting other people. </p>         </div>"""   
+others, so it is important to take precautions to avoid infecting other people. </p> </div>"""   
           
 
              
@@ -259,7 +262,7 @@ your child has an intolerance to some sugars, contact your child s doctor before
 medicinal product. </p>
 <p>Viread contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take viread"
@@ -321,7 +324,7 @@ treatment, particularly symptoms you associate with hepatitis B infection. </p>
 <p>Contact your child s doctor before your child restarts taking Viread tablets. </p>
 </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your child s doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your child s doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -428,7 +431,7 @@ occur due to damage to kidney tubule cells. </p>
 <p>If your child gets any side effects, talk to your child s doctor or pharmacist.  This includes any 
 possible side effects not listed in this leaflet.  You can also report side effects directly via the national 
 reporting system listed in Appendix V.  By reporting side effects you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store viread"
@@ -440,7 +443,7 @@ information on the safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -545,7 +548,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -584,7 +587,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -593,7 +598,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -608,7 +614,7 @@ Usage: #inline
 3. Sådan skal Deres barn tage Viread 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -651,7 +657,7 @@ med HBV (hepatitis B-virus). </p>
 <p>Deres barn behøver ikke at have hiv for at blive behandlet med Viread for HBV. </p>
 <p>Denne medicin helbreder ikke hiv-infektion. Mens Deres barn tager Viread, kan Deres barn stadig 
 udvikle infektioner eller andre sygdomme, der er forbundet med hiv-infektion. Deres barn kan også 
-smitte med HBV, så det er vigtigt at tage forholdsregler for at undgå at smitte andre. </p>         </div>"""   
+smitte med HBV, så det er vigtigt at tage forholdsregler for at undgå at smitte andre. </p> </div>"""   
           
 
              
@@ -853,7 +859,7 @@ ikke føre motorkøretøj eller cykle og arbejde med værktøj eller maskiner. <
 barn får dette lægemiddel, hvis lægen har fortalt Dem, at Deres barn ikke tåler visse sukkerarter. </p>
 <p>Viread indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take viread"
@@ -920,7 +926,7 @@ symptomer, som De normalt ville forbinde med hepatitis B-infektion. </p>
 <p>Kontakt Deres barns læge, før Deres barn igen begynder at tage Viread tabletter. </p>
 </li>
 </ul>
-<p>Spørg barnets læge eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg barnets læge eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1031,7 +1037,7 @@ apotekspersonalet. Dette gælder også mulige bivirkninger, som ikke er medtaget
 indlægsseddel. De eller Deres pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store viread"
@@ -1043,7 +1049,7 @@ lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1192,7 +1198,7 @@ medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme s
 Deres barn har. 
 - Kontakt Deres barns læge eller apotekspersonalet, hvis en bivirkning bliver værre, eller Deres 
 barn får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se 
-punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -1231,7 +1237,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1240,7 +1248,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1255,7 +1264,7 @@ Usage: #inline
 3. Como tomar Viread 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Viread 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1300,7 +1309,7 @@ infeção pelo VHB (vírus da hepatite B). </p>
 <p>Este medicamento não é uma cura para a infeção pelo VIH. Enquanto tomar Viread, o seu filho poderá 
 desenvolver, na mesma, infeções ou outras doenças associadas com a infeção pelo VIH. O seu filho 
 pode transmitir o VHB a outros, como tal, é importante tomar as precauções adequadas de modo a 
-evitar a transmissão da infeção a outros. </p>         </div>"""   
+evitar a transmissão da infeção a outros. </p> </div>"""   
           
 
              
@@ -1504,7 +1513,7 @@ conduzir ou andar de bicicleta e não deve utilizar quaisquer ferramentas ou má
 que ele tem intolerância a alguns açúcares, contacte-o antes de lhe dar este medicamento. </p>
 <p>Viread contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar viread"
@@ -1572,7 +1581,7 @@ habituais após parar o tratamento, particularmente sintomas que associaria à s
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o médico ou farmacêutico 
-do seu filho. </p>         </div>"""         
+do seu filho. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1688,7 +1697,7 @@ ocorrer devido a lesão nas células tubulares do rim. </p>
 indicados neste folheto, fale com o médico ou farmacêutico do seu filho. Também poderá comunicar 
 efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar viread"
@@ -1701,7 +1710,7 @@ após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. <
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1837,7 +1846,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

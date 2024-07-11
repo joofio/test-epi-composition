@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store INCRELEX</li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ factor-1 (IGF-1), which is similar to the IGF-1 made by your body.
 -
 It is used to treat children and adolescents from 2 to 18 years old who are very short for their 
 age because their bodies do not make enough IGF-1. This condition is called primary IGF-1 
-deficiency.</p>         </div>"""   
+deficiency.</p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ which does not cause side effects that make these activities risky. </p>
 <p>INCRELEX contains benzyl alcohol as a preservative which may cause toxic reactions and allergic 
 reactions in infants and children up to 3 years old. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take increlex"
@@ -179,7 +182,7 @@ taken as usual, with a meal or snack. </p>
 <p>If you stop using INCRELEX </p>
 <p>A disruption or early ending of treatment with mecasermin may impair the success of the growth 
 therapy. Please ask the doctor for advice before stopping the treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -294,7 +297,7 @@ Weight increase has been observed with mecasermin treatment. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store increlex"
@@ -308,7 +311,7 @@ expiry date refers to the last day of the month. </p>
 Keep the vial in the outer carton in order to protect from light.<br />
 After first use, the vial may be stored for up to 30 days at 2 C to 8 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -399,7 +402,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -438,7 +441,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -447,7 +452,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -462,7 +468,7 @@ Usage: #inline
 3. Sådan skal du tage INCRELEX
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -476,7 +482,7 @@ vækstfaktor-1 (IGF-1), som ligner den IGF-1, som din krop selv danner.
 -
 Det anvendes til at behandle børn og unge mellem 2 og 18 år, som er meget lave af vækst i 
 forhold til deres alder, fordi deres krop ikke danner tilstrækkeligt IGF-1. Denne tilstand kaldes 
-primær IGF-1-mangel.</p>         </div>"""   
+primær IGF-1-mangel.</p> </div>"""   
           
 
              
@@ -540,7 +546,7 @@ INCRELEX-dosis, hvor der ikke forekommer bivirkninger, som gør disse aktivitete
 <p>INCRELEX indeholder benzylalkohol, som konserveringsmiddel, hvilket kan medføre forgiftning og 
 allergiske reaktioner hos spædbørn og børn under 3 år. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take increlex"
@@ -580,7 +586,7 @@ skal tages som sædvanligt med et måltid eller mellemmåltid. </p>
 <p>Hvis du holder op med at tage INCRELEX </p>
 <p>Afbrydelse eller for tidligt ophør med behandlingen med mercasermin kan påvirke 
 vækstbehandlingens udfald. Tal med lægen, inden du holder op med behandlingen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -698,7 +704,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store increlex"
@@ -712,7 +718,7 @@ er den sidste dag i den nævnte måned. </p>
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys.<br />
 Hætteglasset kan opbevares i maks. 30 dage ved 2 °C - 8 °C, når det er åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -928,7 +934,7 @@ lukkes og kasseres på korrekt vis, som lægen har vist dig. </p>
 <p>Figur A: Knib huden let sammen, 
 og indsprøjt ifølge vejledningen 
 Figur B: Tryk med gaze 
-eller vat (må ikke gnides) </p>         </div>"""      
+eller vat (må ikke gnides) </p> </div>"""      
 
 
 
@@ -967,7 +973,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -976,7 +984,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -991,7 +1000,7 @@ Usage: #inline
 3. Como utilizar INCRELEX
 4. Efeitos indesejáveis possíveis
 5. Como conservar INCRELEX
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1005,7 +1014,7 @@ INCRELEX é um líquido que contém mecassermina que é um fator de crescimento-
 -
 É usado para tratar crianças e adolescentes dos 2 aos 18 anos de idade que são muito baixos para 
 a idade devido ao seu organismo não produzir IGF-1 suficiente. Esta situação médica é 
-denominada deficiência primária de IGF-1. </p>         </div>"""   
+denominada deficiência primária de IGF-1. </p> </div>"""   
           
 
              
@@ -1071,7 +1080,7 @@ atividades arriscadas. </p>
 <p>O INCRELEX contém álcool benzílico como conservante quepode causar reações tóxicas e reações 
 alérgicas em bebés e crianças até aos 3 anos de idade. </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar increlex"
@@ -1114,7 +1123,7 @@ tomada de forma normal, com uma refeição ou refeição ligeira. </p>
 <p>Uma interrupção ou termo precoce do tratamento com mecassermina pode prejudicar o sucesso da 
 terapêutica de crescimento. Consulte o seu médico antes de parar o tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1238,7 +1247,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar increlex"
@@ -1254,7 +1263,7 @@ Após a primeira abertura, o frasco pode ser conservado durante um período máx
 temperatura de 2ºC a 8ºC. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1484,7 +1493,7 @@ a pele e injetar de acordo
 com as instruções 
 Figura B: Pressionar 
 (sem esfregar) com uma 
-compressa ou algodão </p>         </div>"""      
+compressa ou algodão </p> </div>"""      
 
 
 

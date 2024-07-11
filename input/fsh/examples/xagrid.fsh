@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Xagrid</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ results in a decrease in the platelet count in the blood towards a more normal l
 is used to treat patients with essential thrombocythaemia.
 Essential thrombocythaemia is a condition which occurs when the bone marrow produces too many of 
 the blood cells known as platelets. Large numbers of platelets in the blood can cause serious problems 
-with blood circulation and clotting.</p>         </div>"""   
+with blood circulation and clotting.</p> </div>"""   
           
 
              
@@ -147,7 +150,7 @@ Dizziness has been reported by some patients taking Xagrid. Do not drive or use 
 dizzy.
 Xagrid contains lactose
 Lactose is an ingredient in this medicine. If you have been told that you have an intolerance to some 
-sugars, contact your doctor before taking this medicine.</p>         </div>"""   
+sugars, contact your doctor before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xagrid"
@@ -174,7 +177,7 @@ If you take more Xagrid than you should or if someone else has taken your medici
 pharmacist immediately. Show them the pack of Xagrid.
 If you forget to take Xagrid
 Take your capsules as soon as you remember. Take your next dose at the usual time. Do not take a 
-double dose to make up for a forgotten dose.</p>         </div>"""         
+double dose to make up for a forgotten dose.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xagrid"
@@ -246,7 +249,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 If your doctor stops your medicine, do not keep any leftover capsules unless your doctor tells you to. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -364,7 +367,7 @@ United Kingdom (Northern Ireland)
 Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -403,7 +406,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -412,7 +417,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -427,7 +433,7 @@ Usage: #inline
 3. Sådan skal De tage Xagrid
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -441,7 +447,7 @@ i antallet af blodplader i blodet hen imod et mere normalt niveau. Derfor anvend
 patienter med essentiel trombocytæmi.
 Essentiel trombocytæmi er en tilstand, der optræder, når knoglemarven producerer for mange af de 
 blodceller, der kaldes blodplader. Et stort antal blodplader i blodet kan medføre alvorlige problemer 
-med blodcirkulationen og dannelse af blodpropper. </p>         </div>"""   
+med blodcirkulationen og dannelse af blodpropper. </p> </div>"""   
           
 
              
@@ -525,7 +531,7 @@ Nogle patienter i behandling med Xagrid, har rapporteret om svimmelhed. Kør ikk
 maskiner, hvis De føler Dem svimmel.
 Xagrid indeholder lactose
 Lactose er et indholdsstof i dette lægemiddel. Kontakt lægen, før De tager denne medicin, hvis lægen 
-har fortalt Dem, at De ikke tåler visse sukkerarter.</p>         </div>"""   
+har fortalt Dem, at De ikke tåler visse sukkerarter.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xagrid"
@@ -552,7 +558,7 @@ Hvis De har taget for meget Xagrid, eller hvis en anden har taget Deres medicin,
 underrette Deres læge eller apotek. Vis dem Xagrid emballagen.
 Hvis De har glemt at tage Xagrid
 Tag kapslerne, så snart De kommer i tanker om det. Tag næste dosis på det sædvanlige tidspunkt. De 
-må ikke tage en dobbeltdosis som erstatning for den glemte dosis.</p>         </div>"""         
+må ikke tage en dobbeltdosis som erstatning for den glemte dosis.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -620,7 +626,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårø
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.
-27</p>         </div>"""      
+27</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xagrid"
@@ -633,7 +639,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Hvis Deres læge standser Deres medicinering, må De ikke beholde eventuelle resterende kapsler, med 
 mindre Deres læge beder Dem om det. Spørg på apoteket, hvordan De skal bortskaffe medicinrester. 
-Af hensyn til miljøet må De ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+Af hensyn til miljøet må De ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -785,7 +791,7 @@ medinfoEMEA@takeda.com
 Denne indlægsseddel blev senest ændret.
 De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles.</p>         </div>"""      
+og om, hvordan de behandles.</p> </div>"""      
 
 
 
@@ -824,7 +830,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -833,7 +841,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -848,7 +857,7 @@ Usage: #inline
 3. Como tomar Xagrid
 4. Efeitos indesejáveis possíveis
 5. Como conservar Xagrid
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -862,7 +871,7 @@ resulta numa redução da contagem das plaquetas no sangue para níveis mais nor
 utilizado para tratar doentes com trombocitemia essencial.
 A trombocitemia essencial é uma doença que ocorre quando a medula óssea produz um tipo de células 
 sanguíneas, chamadas plaquetas, em demasia. Um grande número de plaquetas no sangue pode causar 
-problemas graves na circulação e coagulação do sangue.</p>         </div>"""   
+problemas graves na circulação e coagulação do sangue.</p> </div>"""   
           
 
              
@@ -952,7 +961,7 @@ Foram comunicadas tonturas por alguns doentes a tomar Xagrid. Não conduza nem u
 se tiver tonturas.
 Xagrid contém lactose
 A lactose é um componente deste medicamento. Se foi informado que tem intolerância a alguns 
-açúcares, contacte o seu médico antes de tomar este medicamento.</p>         </div>"""   
+açúcares, contacte o seu médico antes de tomar este medicamento.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xagrid"
@@ -981,7 +990,7 @@ Se tomar mais Xagrid do que deveria ou se alguém tomou o seu medicamento, infor
 farmacêutico imediatamente. Mostre-lhes a embalagem de Xagrid.
 Caso se tenha esquecido de tomar Xagrid
 Tome as suas cápsulas assim que se lembrar. Tome a sua dose seguinte à hora habitual. Não tome uma 
-dose a dobrar para compensar uma dose que se esqueceu de tomar.</p>         </div>"""         
+dose a dobrar para compensar uma dose que se esqueceu de tomar.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1053,7 +1062,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xagrid"
@@ -1067,7 +1076,7 @@ O medicamento não necessita de quaisquer precauções especiais de conservaçã
 Se o seu médico parar a sua medicação, não guarde as cápsulas que sobrarem a menos que o seu 
 médico lhe diga para o fazer. Não deite fora quaisquer medicamentos na canalização ou no lixo 
 doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas 
-medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1219,7 +1228,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 902
 medinfoEMEA@takeda.com
 Este folheto foi revisto pela última vez em.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Velphoro </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ body. It may also lead to calcium deposits in soft tissues and bone causing effe
 itchy skin and bone pain. </p>
 <p>This medicine works by binding phosphorus from food in your digestive tract (stomach and intestines). 
 This reduces the amount of phosphorus that can be absorbed into the bloodstream and thus lowers 
-phosphorus levels in your blood. </p>         </div>"""   
+phosphorus levels in your blood. </p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. 
 This medicine may be harmful to the teeth. </p>
 <p>This medicine contains starches. If you have diabetes you should take notice that one tablet of this 
-medicine is equivalent to approximately 1.4 g of carbohydrates (equivalent to 0.116 bread units). </p>         </div>"""   
+medicine is equivalent to approximately 1.4 g of carbohydrates (equivalent to 0.116 bread units). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take velphoro"
@@ -182,7 +185,7 @@ If you have missed a dose, just take the next dose at the usual time with a meal
 dose to make up for a forgotten dose. </p>
 <p>If you stop taking Velphoro 
 Do not stop taking the medicine before talking to your doctor or pharmacist as the phosphorus level in 
-your blood may increase (see section 1). </p>         </div>"""         
+your blood may increase (see section 1). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -207,7 +210,7 @@ tests, tiredness, itch, rash, headache, shortness of breath. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store velphoro"
@@ -220,7 +223,7 @@ this medicine. </p>         </div>"""
 <p>After first opening of the bottle the chewable tablets can be used for 90 days. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ Tour Franklin La D fense 8
 France </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -296,7 +299,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -305,7 +310,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -320,7 +326,7 @@ Usage: #inline
 3. Sådan skal du tage Velphoro 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -347,7 +353,7 @@ kalkaflejringer i bløddele og knogler, hvilket kan give symptomer, som f.eks. r
 og smerter i knoglerne. </p>
 <p>Dette lægemiddel fungerer ved at binde fosfat fra maden i fordøjelseskanalen (mave og tarme). På den 
 måde reduceres den mængde fosfat, der kan optages i blodbanen, og dermed også mængden af fosfat i 
-blodet. </p>         </div>"""   
+blodet. </p> </div>"""   
           
 
              
@@ -408,7 +414,7 @@ maskiner. </p>
 sukkerarter. </p>
 <p>Dette lægemiddel kan skade tænderne. </p>
 <p>Dette lægemiddel indeholder stivelse. Hvis du har diabetes, skal du være opmærksom på, at én tablet 
-af dette lægemiddel svarer til cirka 1,4 g kulhydrater (svarende til 0,116 brødenheder). </p>         </div>"""   
+af dette lægemiddel svarer til cirka 1,4 g kulhydrater (svarende til 0,116 brødenheder). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take velphoro"
@@ -463,7 +469,7 @@ Hvis du har glemt at tage en dosis, skal du tage næste dosis på det sædvanlig
 med et måltid. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Velphoro 
 Stop ikke med at tage medicinen, før du har talt med din læge eller apotekspersonalet, da 
-fosfatmængden i dit blod kan øges (se punkt 1). </p>         </div>"""         
+fosfatmængden i dit blod kan øges (se punkt 1). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -489,7 +495,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store velphoro"
@@ -502,7 +508,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Når flasken er blevet åbnet, har tyggetabletterne en holdbarhed på 90 dage. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -558,7 +564,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - 
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

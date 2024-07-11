@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Sixmo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -73,7 +76,7 @@ Usage: #inline
   * code.text =  "1. What sixmo is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sixmo contains the active substance buprenorphine, which is a type of opioid medicine. It is used to 
-treat opioid dependence in adults who are also receiving medical, social and psychological support. </p>         </div>"""   
+treat opioid dependence in adults who are also receiving medical, social and psychological support. </p> </div>"""   
           
 
              
@@ -219,7 +222,7 @@ Do not breast-feed during Sixmo treatment, as buprenorphine passes into breast m
 <p>Buprenorphine may reduce the ability to drive and use machines; especially during the first 24 to 
 48 hours up to one week following implant insertion. You may fell dizzy, drowsy and less alert. 
 Do not drive or perform dangerous activities until you are certain Sixmo does not reduce your ability 
-in such activities. </p>         </div>"""   
+in such activities. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sixmo"
@@ -284,7 +287,7 @@ In the worst case, it can result in breathing stopping, heart failure and death.
 <p>Inform your doctor immediately if the above symptoms occur, or go to the nearest hospital and bring 
 this leaflet and your Patient Alert Card with you. Do not attempt to remove the implants by yourself as 
 this could be very dangerous. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -376,7 +379,7 @@ lactate dehydrogenase, lipase, amylase
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sixmo"
@@ -386,7 +389,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
-<p>This medicinal product does not require any special storage conditions.  </p>         </div>"""      
+<p>This medicinal product does not require any special storage conditions.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -474,7 +477,7 @@ Accord Healthcare AB
 Tel: +46 8 624 00 United Kingdom (Northern Ireland) 
 Accord-UK Ltd 
 Tel: +44 (0)1271 385This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -513,7 +516,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -522,7 +527,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -539,7 +545,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -548,7 +554,7 @@ Usage: #inline
   * code.text =  "1. What sixmo is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sixmo indeholder det aktive stof buprenorphin, som er en type opioid-lægemiddel. Det anvendes til at 
-behandle opioidafhængighed hos voksne, som også får medicinsk, social og psykologisk hjælp. </p>         </div>"""   
+behandle opioidafhængighed hos voksne, som også får medicinsk, social og psykologisk hjælp. </p> </div>"""   
           
 
              
@@ -845,7 +851,7 @@ Du må ikke amme under behandlingen med Sixmo, da buprenorphin udskilles i bryst
 24 til 48 timer og i op til en uge efter indsættelsen af implantatet. Du kan føle dig svimmel, døsig og 
 ikke så opmærksom. 
 Du må ikke føre motorkøretøj eller udføre farlige aktiviteter, indtil du er sikker på, at Sixmo ikke 
-hæmmer dine evner til at udføre sådanne aktiviteter. </p>         </div>"""   
+hæmmer dine evner til at udføre sådanne aktiviteter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sixmo"
@@ -932,7 +938,7 @@ I det værste tilfælde kan det føre til, at vejrtrækningen holder op, hjertes
 <p>Du skal straks informere lægen, hvis de ovenstående symptomer opstår, og tage på det nærmeste 
 sygehus og medbringe denne indlægsseddel og dit patientkort. Du må ikke forsøge på selv at fjerne 
 implantaterne, da det kan være meget farligt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1160,7 +1166,7 @@ hæmaglobin i cellerne </li>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sixmo"
@@ -1174,7 +1180,7 @@ er den sidste dag i den nævnte måned. </p>
 implantat ud efter indsættelsen, skal du placere implantatet i en glasbeholder med låg og opbevare det 
 utilgængeligt for andre (se også punkt 2). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1552,7 +1558,7 @@ buprenorphin. </p>
 fjerne det/dem, skal der foretages en visualiseringsprocedure med henblik på lokalisering så snart det 
 er muligt, og det næste forsøg på at fjerne implantatet skal finde sted på samme dag som 
 lokaliseringen. Hvis lokaliseringen og det andet forsøg på at fjerne implantatet ikke udføres på samme 
-dag som det første forsøg på at fjerne det, skal såret lukkes med suturer i mellemtiden. </p>         </div>"""      
+dag som det første forsøg på at fjerne det, skal såret lukkes med suturer i mellemtiden. </p> </div>"""      
 
 
 

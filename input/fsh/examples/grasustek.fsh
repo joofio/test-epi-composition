@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Grasustek </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ chemotherapy which can cause the number of these cells in your body to decrease.
 fall to a low level there may not be enough left in the body to fight bacteria and you may have an 
 increased risk of infection. </p>
 <p>Your doctor has given you Grasustek to encourage your bone marrow (part of the bone which makes 
-blood cells) to produce more white blood cells that help your body fight infection. </p>         </div>"""   
+blood cells) to produce more white blood cells that help your body fight infection. </p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ Grasustek has no or a negligible effect on the ability to drive or use machines.
 <p>Grasustek contains sorbitol (E420) and sodium 
 This medicine contains 30 mg sorbitol in each 6 mg dose, which is equivalent to 50 mg/ml.<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take grasustek"
@@ -181,7 +184,7 @@ If you use more Grasustek than you should contact your doctor, pharmacist or nur
 <p>If you forget to inject Grasustek 
 If you have forgotten a dose of Grasustek, contact your doctor to discuss when you should inject the 
 next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -234,7 +237,7 @@ symptoms and contact your doctor or seek medical attention immediately. See also
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store grasustek"
@@ -253,7 +256,7 @@ temperature (not above 30  C) it must either be used within 3 days or disposed o
 <p>Keep the container in the outer carton in order to protect from light. </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -362,7 +365,7 @@ Zentiva France
 75013 Paris 
 T l: +33 (0) 800 089 This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -401,7 +404,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -410,7 +415,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -427,7 +433,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -449,7 +455,7 @@ hvide blodlegemer falder til et lavt niveau, vil der eventuelt ikke være nok af
 at bekæmpe bakterier, og du kan have større risiko for at få en infektion. </p>
 <p>Lægen har givet dig Grasustek for at få knoglemarven (en bestanddel i knoglerne, der producerer 
 blodlegemer) til at producere flere hvide blodlegemer, som hjælper kroppen med at bekæmpe 
-infektion. </p>         </div>"""   
+infektion. </p> </div>"""   
           
 
              
@@ -553,7 +559,7 @@ maskiner. </p>
 <p>Grasustek indeholder sorbitol (E420) og natrium 
 Dette lægemiddel indeholder 30 mg sorbitol pr. dosis på 6 mg, svarende til 50 mg/ml. 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis på 6 mg, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take grasustek"
@@ -575,7 +581,7 @@ Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du har taget fo
 <p>Hvis du har glemt at bruge Grasustek 
 Hvis du har glemt en dosis Grasustek, skal du kontakte lægen for at spørge, hvornår du skal tage den 
 næste dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -673,7 +679,7 @@ pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen v
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
 fremskaffe mere information om sikkerheden af dette lægemiddel. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store grasustek"
@@ -692,7 +698,7 @@ periode på højst 24 timer. </p>
 <p>Opbevar beholderen i den ydre karton for at beskytte mod lys. </p>
 <p>Brug ikke lægemidlet, hvis opløsningen er uklar eller indeholder partikler.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -942,7 +948,7 @@ Opbevar injektionssprøjten og kanylebeholderen utilgængeligt for børn.
 B. 
  Kontrollér injektionsstedet. 
 Tryk en vatkugle eller et stykke gaze mod injektionsstedet, hvis der er blod. Gnid ikke på 
-injektionsstedet. Sæt om nødvendigt et plaster på. </p>         </div>"""      
+injektionsstedet. Sæt om nødvendigt et plaster på. </p> </div>"""      
 
 
 

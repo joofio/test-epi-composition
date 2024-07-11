@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Briumvi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ How does Briumvi work? </p>
 white blood cell which are part of the immune system. In multiple sclerosis, the immune system 
 attacks the protective layer around nerve cells. B cells are involved in this process. Briumvi targets and 
 removes the B cells and thereby reduces the chance of a relapse, relieves symptoms and slows down 
-the progression of the disease. </p>         </div>"""   
+the progression of the disease. </p> </div>"""   
           
 
              
@@ -222,7 +225,7 @@ way to feed your baby if you take Briumvi.  </li>
 <p>Briumvi is unlikely to affect your ability to drive and use machines. </p>
 <p>Briumvi contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free.  </p>         </div>"""   
+ sodium-free.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take briumvi"
@@ -271,7 +274,7 @@ helping you. </li>
 treatment, you may still experience such side effects until your B cells return to normal levels.  </li>
 <li>Before your start any other medicines, tell your doctor when you had your last Briumvi infusion.  </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -337,7 +340,7 @@ pneumonia) </p>
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store briumvi"
@@ -356,7 +359,7 @@ storage times and conditions prior to use are the responsibility of the healthca
 would normally not be longer than 24 hours at 2 C - 8 C and subsequently 8 hours at room 
 temperature.  </p>
 <p>Do not throw away any medicines via wastewater. These measures will help to protect the 
-environment.  </p>         </div>"""      
+environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -458,7 +461,7 @@ Tel: +34 93 475 96 United Kingdom (Northern Ireland)
 Neuraxpharm Ireland Ltd 
 Tel: +353 (0)1 428 7This leaflet was last revised </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -497,7 +500,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -506,7 +511,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -523,7 +529,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -554,7 +560,7 @@ forbedres mellem attakker, men skader kan akkumulere og føre til permanent inva
 type hvide blodlegemer, som er en del af immunsystemet. Ved multipel sklerose angriber 
 immunsystemet beskyttelseslaget omkring nervecellerne. B-cellerne er involveret i denne proces. 
 Briumvi sigter efter B-celler og fjerner dem, og dermed reduceres risikoen for et attak, symptomer 
-lindres og forsinker forværringen af sygdommen. </p>         </div>"""   
+lindres og forsinker forværringen af sygdommen. </p> </div>"""   
           
 
              
@@ -763,7 +769,7 @@ giver dit barn mad, hvis du tager Briumvi. </p>
 <p>Det er ikke sandsynligt, at Briumvi påvirker din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Briumvi indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take briumvi"
@@ -833,7 +839,7 @@ vender tilbage til normale niveauer. </p>
 lægemidler. </p>
 </li>
 </ul>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -939,7 +945,7 @@ herpes (såsom forkølelsessår, helvedesild eller herpes på kønsdelene) </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store briumvi"
@@ -962,7 +968,7 @@ opbevares i den ydre karton for at beskytte mod lys. </p>
 opbevaringstider og betingelser inden anvendelse sundhedspersonens ansvar og bør normalt ikke 
 overstige 24 timer ved 2 ºC - 8 ºC, og derefter i 8 timer ved stuetemperatur. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1276,7 +1282,7 @@ medmindre fortynding har fundet sted under kontrollerede og validerede aseptiske
 <p>Hvis en intravenøs infusion ikke kan afsluttes den samme dag, skal den resterende opløsning 
 bortskaffes. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1315,7 +1321,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1324,7 +1332,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1341,7 +1350,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Briumvi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1375,7 +1384,7 @@ permanente. </p>
 de glóbulo branco que fazem parte do sistema imunitário. Na esclerose múltipla, o sistema imunitário 
 ataca a camada protetora que envolve as células nervosas. As células B estão envolvidas neste 
 processo. Briumvi visa as células B e remove-as, reduzindo, desta forma, as hipóteses de ter uma 
-recidiva, alivia os sintomas e retarda a progressão da doença. </p>         </div>"""   
+recidiva, alivia os sintomas e retarda a progressão da doença. </p> </div>"""   
           
 
              
@@ -1588,7 +1597,7 @@ forma de alimentar o seu bebé se estiver a tomar Briumvi. </p>
 <p>É improvável que Briumvi afete a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>Briumvi contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar briumvi"
@@ -1662,7 +1671,7 @@ suas células B regressem aos níveis normais. </p>
 última perfusão de Briumvi. </p>
 </li>
 </ul>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1767,7 +1776,7 @@ herpes (tais como herpes labial, zona ou herpes genital) </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar briumvi"
@@ -1791,7 +1800,7 @@ frasco para injetáveis deve ser mantido dentro da embalagem exterior para prote
 imediatamente, os tempos de conservação durante a utilização e as condições antes da utilização são 
 da responsabilidade do profissional de saúde e, normalmente, não devem ser superiores a 24 horas 
 entre 2°C e 8°C e subsequentemente durante 8 horas à temperatura ambiente. </p>
-<p>Não deite fora quaisquer medicamentos na canalização. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+<p>Não deite fora quaisquer medicamentos na canalização. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1921,7 +1930,7 @@ Neuraxpharm Ireland Ltd
 Tel: +353 (0)1 428 7777   </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Dacogen</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ AML. It is used in adults.
 How Dacogen works
 Dacogen works by stopping cancer cells from growing. It also kills cancer cells.
 Talk to your doctor or nurse if you have any questions about how Dacogen works or why this 
-medicine has been prescribed for you.</p>         </div>"""   
+medicine has been prescribed for you.</p> </div>"""   
           
 
              
@@ -144,7 +147,7 @@ contains less than 1 mmol (39 mg) of potassium per dose, i.e. essentially  potas
 <p>This medicine contains 0.29 mmol (6.67 mg) sodium (main component of cooking/table salt) in 
 each vial. After preparing the medicine, it contains between 13.8 mg-138 mg sodium per dose, 
 equivalent to 0.7-7% of the recommended maximum daily dietary intake of sodium for an adult.
-Talk to your doctor if you are on a low salt diet.</p>         </div>"""   
+Talk to your doctor if you are on a low salt diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dacogen"
@@ -169,7 +172,7 @@ This medicine will be given by your doctor or nurse. In the unlikely event that 
 If you forget your appointment to have Dacogen
 If you miss an appointment, make another one as soon as possible. This is because for this medicine to 
 be as effective as possible, it is important to follow the dosing schedule.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -232,7 +235,7 @@ Reporting of side effects
 If you get side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dacogen"
@@ -248,7 +251,7 @@ after EXP. The expiry date refers to the last day of that month.</p>
 infusion fluids. This prepared diluted solution can be stored refrigerated at 2 C - 8 C for up to a 
 maximum of 3 hours, followed by up to 1 hour at room temperature (20 C - 25 C) before 
 administration.</p>
-<p>Your doctor, nurse or pharmacist is responsible for disposing of any unused Dacogen correctly.</p>         </div>"""      
+<p>Your doctor, nurse or pharmacist is responsible for disposing of any unused Dacogen correctly.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -336,7 +339,7 @@ UAB "JOHNSON &amp; JOHNSON" fili le Latvij
 Tel: +371 678 93United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in MM/YYYY
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -375,7 +378,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -384,7 +389,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -399,7 +405,7 @@ Usage: #inline
 3. Sådan skal du bruge Dacogen
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -416,7 +422,7 @@ Lægemidlet anvendes til voksne.
 Sådan virker Dacogen
 Dacogen virker ved at hindre kræftceller i at vokse. Desuden dræber det kræftceller.
 Kontakt lægen eller sygeplejersken, hvis du har spørgsmål om, hvordan Dacogen virker, eller hvorfor 
-du har fået dette lægemiddel.</p>         </div>"""   
+du har fået dette lægemiddel.</p> </div>"""   
           
 
              
@@ -502,7 +508,7 @@ Dette lægemiddel indeholder 0,29 mmol (6,67 mg) natrium (hovedkomponent af madl
 /bordsalt) i hvert hætteglas. Efter klargøring af lægemidlet indeholder det mellem 13,8 mg og 
 138 mg natrium pr. dosis. Dette svarer til 0,7-7 % af den anbefalede maksimale daglige 
 indtagelse af natrium for en voksen. Tal med lægen, hvis du er på en saltfattig diæt.
-25</p>         </div>"""   
+25</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dacogen"
@@ -532,7 +538,7 @@ Hvis du glemmer en aftale, hvor du skal have Dacogen
 Hvis du kommer til at springe en aftale over, skal du hurtigst muligt træffe en ny aftale. Dette skyldes, 
 at det er vigtigt at overholde doseringsplanen, for at lægemidlet skal kunne virke så effektivt som 
 muligt.
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -623,7 +629,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dacogen"
@@ -647,7 +653,7 @@ anvendelse.
 
 Din læge, apotekspersonalet eller sygeplejersken er ansvarlige for at bortskaffe ikke anvendt 
 Dacogen korrekt.
-27</p>         </div>"""      
+27</p> </div>"""      
         
         
 * section[=].section[+]
@@ -787,7 +793,7 @@ Se opbevaringsbetingelser og opbevaringstid efter rekonstitution i pkt. 5 i indl
 Den rekonstituerede opløsning gives som intravenøs infusion over 1 time.
 3. BORTSKAFFELSE
 Hvert hætteglas er kun til engangsbrug, og ikke anvendt opløsning skal bortskaffes.
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store CAMCEVI </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ control the growth of the cancer. </p>
 <ul>
 <li>hormone dependent metastatic prostate cancer and </li>
 <li>high-risk non-metastatic hormone dependent prostate cancer in combination with radiotherapy. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ medicines used for serious mental illnesses. </p>
 This medicine is not intended for women. </p>
 <p>Driving and using machines 
 Tiredness, dizziness and visual disturbances may occur in people being treated with CAMCEVI. If 
-you suffer from any of these side effects, do not drive, use tools or operate machines. </p>         </div>"""   
+you suffer from any of these side effects, do not drive, use tools or operate machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take camcevi"
@@ -208,7 +211,7 @@ As a general rule, the therapy for prostate cancer with CAMCEVI requires long-te
 Therefore, therapy should not be stopped too soon, even if you see your symptoms improve or if they 
 disappear completely. If the treatment is stopped too early, your symptoms may return. Do not stop the 
 treatment early without talking with your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -334,7 +337,7 @@ CAMCEVI
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store camcevi"
@@ -349,7 +352,7 @@ Store in the original package in order to protect from light.
 Prior to use allow CAMCEVI to reach room temperature (15  C to 25  C). This takes approximately 
 15 to 20 minutes. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -378,7 +381,7 @@ Accord Healthcare Polska Sp. z.o.o.
 Ul. Lutomierska 95-200, Pabianice 
 Poland </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -417,7 +420,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -426,7 +431,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -441,7 +447,7 @@ Usage: #inline
 3. Sådan får du CAMCEVI 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -456,7 +462,7 @@ hormon for at sænke niveauet af kønshormonet testosteron i kroppen. </p>
 hjælper med at kontrollere væksten af kræften. </p>
 <h2>CAMCEVI bruges til at behandle voksne mænd, der har:</h2>
 <h2>hormonafhængig metastatisk prostatakræft og</h2>
-<p>højrisiko ikke-metastatisk hormonafhængig prostatakræft i kombination med strålebehandling. </p>         </div>"""   
+<p>højrisiko ikke-metastatisk hormonafhængig prostatakræft i kombination med strålebehandling. </p> </div>"""   
           
 
              
@@ -566,7 +572,7 @@ anvendes ved alvorlige psykiske sygdomme. </p>
 Dette lægemiddel er ikke beregnet til kvinder. </p>
 <p>Trafik- og arbejdssikkerhed 
 CAMCEVI kan give bivirkninger som træthed, svimmelhed og synsforstyrrelser. Hvis du får nogen af 
-disse bivirkninger, må du ikke føre motorkøretøj, bruge værktøj eller betjene maskiner. </p>         </div>"""   
+disse bivirkninger, må du ikke føre motorkøretøj, bruge værktøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take camcevi"
@@ -598,7 +604,7 @@ Som regel er CAMCEVI-behandling af prostatakræft en langtidsbehandling. Behandl
 ikke stoppes for tidligt, heller ikke selvom dine symptomer forbedres, eller hvis de forsvinder helt. 
 Hvis behandlingen stoppes for tidligt, kan dine symptomer vende tilbage. Du må ikke stoppe med 
 behandlingen uden først at tale med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -763,7 +769,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller s
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store camcevi"
@@ -777,7 +783,7 @@ den sidste dag i den nævnte måned. </p>
 Opbevares i den originale emballage for at beskytte mod lys. 
 Lad CAMCEVI opnå stuetemperatur (15°C til 25°C) før brug. Dette tager ca. 15 til 20 minutter. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -918,7 +924,7 @@ bør ændres i overensstemmelse hermed. </p>
 den opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder 
 leuprorelin (depotformuleringerne), forbliver uændret under forudsætning af, at de foreslåede 
 ændringer indføres i produktinformationen. </p>
-<p>CHMP er nået frem til, at markedsføringstilladelsen/-tilladelserne bør ændres. </p>         </div>"""      
+<p>CHMP er nået frem til, at markedsføringstilladelsen/-tilladelserne bør ændres. </p> </div>"""      
 
 
 
@@ -957,7 +963,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -966,7 +974,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -983,7 +992,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar CAMCEVI </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -999,7 +1008,7 @@ ajuda a controlar o crescimento do cancro. </p>
 <p>CAMCEVI é utilizado para tratar homens adultos que têm: 
 - cancro da próstata metastático hormono-dependente e 
 - cancro da próstata não metastático hormono-dependente de alto risco em associação com 
-radioterapia. </p>         </div>"""   
+radioterapia. </p> </div>"""   
           
 
              
@@ -1105,7 +1114,7 @@ Este medicamento não é indicado para mulheres. </p>
 <p>Condução de veículos e utilização de máquinas 
 Podem ocorrer cansaço, tonturas e perturbações da visão em pessoas que estão a ser tratadas com 
 CAMCEVI. Se tiver qualquer um destes efeitos indesejáveis, não conduza ou utilize ferramentas ou 
-máquinas. </p>         </div>"""   
+máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar camcevi"
@@ -1140,7 +1149,7 @@ seus sintomas melhoraram ou se desaparecerem completamente. Se o tratamento for 
 cedo, os seus sintomas podem voltar. Não pare o tratamento mais cedo sem falar primeiro com o seu 
 médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1282,7 +1291,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar camcevi"
@@ -1298,7 +1307,7 @@ Antes de utilizar, deixar CAMCEVI atingir a temperatura ambiente (15 °C a 25 °
 aproximadamente 15 a 20 minutos. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1327,7 +1336,7 @@ Accord Healthcare Polska Sp. z.o.o.
 Ul. Lutomierska 95-200, Pabianice 
 Polónia </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

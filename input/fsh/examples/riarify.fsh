@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Riarify </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ you to breathe more easily. </p>
 shortness of breath, wheezing and cough in adult patients with chronic obstructive pulmonary disease 
 (COPD). Riarify can reduce exacerbations (flare-ups) of COPD symptoms. COPD is a serious long-
 term disease in which the airways become blocked and air sacs inside the lungs become damaged, 
-leading to difficulty breathing. </p>         </div>"""   
+leading to difficulty breathing. </p> </div>"""   
           
 
              
@@ -241,7 +244,7 @@ Riarify is unlikely to affect your ability to drive and use machines. </p>
 <p>Riarify contains ethanol 
 Riarify contains 8.856 mg of alcohol (ethanol) in each actuation, which is equivalent to 17.712 mg per 
 dose of two actuations. The amount in two actuations of this medicine is equivalent to less than 1 ml 
-of wine or beer. The small amount of alcohol in this medicine will not have any noticeable effects. </p>         </div>"""   
+of wine or beer. The small amount of alcohol in this medicine will not have any noticeable effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take riarify"
@@ -345,7 +348,7 @@ missed, but just take the next dose at the correct time. Do not double the dose.
 <p>If you stop using Riarify 
 It is important to use Riarify every day. Do not stop using Riarify or lower the dose, even if you are 
 feeling better or you have no symptoms. If you want to do this, talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -473,7 +476,7 @@ These events are more likely to occur in children. </p>
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store riarify"
@@ -497,7 +500,7 @@ Store the inhaler below 25 C for a maximum of
 Store the inhaler below 25 C for a maximum of 
 4 months.  </p>
 <p>Do not throw away any medicine via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -607,7 +610,7 @@ Chiesi Farmaceutici S.p.A.
 Tel: + 39 0521 2This leaflet was last revised in:. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.  </p>         </div>"""      
+http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -646,7 +649,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -655,7 +660,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -670,7 +676,7 @@ Usage: #inline
 3. Sådan skal du bruge Riarify 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -699,7 +705,7 @@ mere, og gøre det muligt for dig nemmere at trække vejret. </p>
 såsom stakåndethed, hvæsende vejrtrækning og hoste hos voksne patienter med kronisk obstruktiv 
 lungesygdom (KOL). Riarify kan nedsætte eksacerbationer (pludselige forværringer) af KOL-
 symptomer. KOL er en alvorlig langvarig sygdom, hvor luftvejene blokeres, og luftsækkene i lungerne 
-beskadiges, hvilket fører til vejrtrækningsbesvær. </p>         </div>"""   
+beskadiges, hvilket fører til vejrtrækningsbesvær. </p> </div>"""   
           
 
              
@@ -860,7 +866,7 @@ Det er ikke sandsynligt, at Riarify vil påvirke din evne til at føre motorkør
 <p>Riarify indeholder ethanol 
 Riarify indeholder 8,856 mg alkohol (ethanol) pr. pust, svarende til 17,712 mg pr. dosis med to pust. 
 Mængden i to pust af dette lægemiddel svarer til mindre end 1 ml vin eller øl. Den mindre mængde 
-alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. </p>         </div>"""   
+alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take riarify"
@@ -977,7 +983,7 @@ glemte dosis, men tag kun den næste dosis på det korrekte tidspunkt. Du må ik
 Det er vigtigt, at du bruger Riarify hver dag. Du må ikke holde op med at bruge Riarify eller bruge en 
 lavere dosis, selvom du har det bedre, eller du ikke har nogen symptomer. Hvis du gerne vil gøre dette, 
 skal du kontakte lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1279,7 +1285,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store riarify"
@@ -1303,7 +1309,7 @@ multipakning) og 180 pust:
 Inhalatoren opbevares ved temperaturer under 25 °C i 
 maksimalt 4 måneder. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1438,7 +1444,7 @@ Tel: + 39 0521 2 </p>
 <p>Denne indlægsseddel blev senest ændret . </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

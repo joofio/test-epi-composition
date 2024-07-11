@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Delstrigo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ Delstrigo works by preventing HIV from making more viruses in your body. This wi
 * reducing the amount of HIV in your blood (this is called your  viral load )
 * increasing the number of white blood cells called  CD4+ T . This can make your immune system
 stronger. This may reduce your risk of early death or catching infections because your immune
-system is weak.</p>         </div>"""   
+system is weak.</p> </div>"""   
           
 
              
@@ -178,7 +181,7 @@ sleepy after taking this medicine
 Delstrigo tablets contains lactose
 If you have been told by your doctor that you have an intolerance to lactose, talk to your doctor before
 taking this medicine.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take delstrigo"
@@ -216,7 +219,7 @@ Delstrigo is stopped your doctor may recommend that you resume hepatitis B treat
 need blood tests to check how your liver is working for 4 months after stopping treatment. In some
 patients with advanced liver disease or cirrhosis, stopping treatment is not recommended as this may
 lead to worsening of your hepatitis, which may be life-threatening.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -283,7 +286,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store delstrigo"
@@ -301,7 +304,7 @@ taking all of the medicine.</li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist
 how to throw away medicines you no longer use. These measures will help protect the
 environment.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -421,7 +424,7 @@ Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
-http://www.ema.europa.eu.</p>         </div>"""      
+http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -460,7 +463,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -469,7 +474,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -484,7 +490,7 @@ Usage: #inline
 3. Sådan skal du tage Delstrigo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -523,7 +529,7 @@ immunforsvar stærkere og kan nedsætte din risiko for tidlig død eller for at 
 følge af at dit immunforsvar er svækket.
 42</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -654,7 +660,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter (lactose).
 44</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take delstrigo"
@@ -707,7 +713,7 @@ fungerer. Det frarådes at stoppe behandlingen hos nogle patienter med fremskred
 levercirrose, da det kan føre til forværring af deres hepatitis, hvilket kan være livstruende.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -855,7 +861,7 @@ kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det natio
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
 information om sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store delstrigo"
@@ -884,7 +890,7 @@ med at tage al medicinen.</p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må
 du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1045,7 +1051,7 @@ Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
 hjemmeside http://www.ema.europa.eu.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

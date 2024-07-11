@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Plenadren</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ Plenadren replaces the natural cortisol that is missing in adrenal insufficiency
 hydrocortisone to your body throughout the day. The cortisol levels in your blood increase rapidly to a 
 maximum level, about 1 hour after taking the tablet in the morning, and then gradually decrease over 
 the day with no or almost no cortisol level in the blood in the late evening and night when the levels 
-should be low.</p>         </div>"""   
+should be low.</p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ and episodes of short-lasting dizziness (vertigo) have been reported. Poorly tre
 adrenal insufficiency reduces your ability to concentrate and will affect your ability to drive and use 
 machines. It is therefore important to take this medicine as directed by your doctor when driving or 
 using machines. If you are affected do not drive or use machines, until you have discussed the issue 
-with your doctor.</p>         </div>"""   
+with your doctor.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plenadren"
@@ -200,7 +203,7 @@ the section  The need for additional doses of Plenadren , contact your doctor im
 If you stop taking Plenadren
 Stopping Plenadren may be life threatening. It is therefore important to continue taking this medicine
 as prescribed by your doctor. Do not stop taking it without consulting your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plenadren"
@@ -253,7 +256,7 @@ Do not use this medicine after the expiry date which is stated on the bottle lab
 The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +391,7 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in .
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
-http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments.</p>         </div>"""      
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments.</p> </div>"""      
 
 
 
@@ -427,7 +430,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -436,7 +441,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>  </div>"""   
 
 
 
@@ -451,7 +456,7 @@ Usage: #inline
 3. Sådan skal De tage Plenadren 
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -470,7 +475,7 @@ Plenadren erstatter det naturlige cortisol, der mangler hos patienter med binyre
 lægemiddel sørger for hydrocortison til kroppen hele dagen igennem. Cortisolniveauerne i blodet øges 
 hurtigt til et maksimumniveau omkring en time efter indtagelse af tabletten om morgenen, og derefter 
 falder niveauet gradvis i løbet af dagen. Sent om aftenen og om natten, når niveauet bør være lavt, er 
-der næsten intet cortisol tilbage i blodet.</p>         </div>"""   
+der næsten intet cortisol tilbage i blodet.</p> </div>"""   
           
 
              
@@ -552,7 +557,7 @@ ubehandlet binyrebarkinsufficiens nedsætter evnen til at koncentrere sig og vil
 motorkøretøj og betjene maskiner. Det er derfor vigtigt, at De tager denne medicin nøjagtigt efter 
 lægens anvisning, hvis De skal føre motorkøretøj eller betjene maskiner. Hvis De bliver påvirket af 
 medicinen, må De ikke føre motorkøretøj eller betjene maskiner, før De har drøftet emnet med Deres 
-læge.</p>         </div>"""   
+læge.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plenadren"
@@ -607,7 +612,7 @@ Hvis De holder op med at tage Plenadren
 At holde op med at tage Plenadren kan være livstruende. Det er derfor vigtigt at fortsætte med at tage 
 lægemidlet som ordineret af Deres læge. Hold ikke op med at tage detuden først at have talt med 
 Deres læge.
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -668,7 +673,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apoteket. Dette
 bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plenadren"
@@ -680,7 +685,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på flaskens etiket og æ
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg på apoteket, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -853,7 +858,7 @@ Denne indlægsseddel blev senest ændret .
 Andre informationskilder 
 De kan finde yderligere oplysninger om Plenadren på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles.</p>         </div>"""      
+og om, hvordan de behandles.</p> </div>"""      
 
 
 
@@ -892,7 +897,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -901,7 +908,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -916,7 +924,7 @@ Usage: #inline
 3. Como tomar Plenadren 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Plenadren
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -937,7 +945,7 @@ O Plenadren substitui ou repõe o cortisol natural que está em falta no comprom
 medicamento fornece hidrocortisona ao seu corpo ao longo do dia. Os níveis de cortisol no sangue 
 aumentam rapidamente até um nível máximo, cerca de 1 hora depois de tomar o comprimido de 
 manhã e, em seguida, diminuem gradualmente ao longo do dia com um nível de cortisol igual a zero 
-ou quase zero no sangue ao final da tarde e à noite quando os níveis devem ser baixos.</p>         </div>"""   
+ou quase zero no sangue ao final da tarde e à noite quando os níveis devem ser baixos.</p> </div>"""   
           
 
              
@@ -1020,7 +1028,7 @@ máquinas. Foram comunicados episódios de tonturas (vertigens) de curta duraç�
 compromisso suprarrenal não tratado ou com tratamento fraco, diminui a capacidade de concentração 
 e irá afetar as capacidades de condução e utilização de máquinas. Portanto, é importante tomar este 
 medicamento conforme indicado pelo seu médico quando for conduzir ou utilizar máquinas. Se for 
-afetado, deverá falar com o seu médico antes de conduzir ou utilizar máquinas. </p>         </div>"""   
+afetado, deverá falar com o seu médico antes de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar plenadren"
@@ -1077,7 +1085,7 @@ Parar o tratamento com Plenadren por conta própria pode ser fatal. Portanto, co
 tomar este medicamento conforme receitado pelo seu médico. Antes de parar de o tomar, fale com o 
 seu médico. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1141,7 +1149,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar plenadren"
@@ -1155,7 +1163,7 @@ ao último dia do mês indicado.
 Este medicamento não exige quaisquer condições especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1328,7 +1336,7 @@ Este folheto foi revisto pela última vez em .
 Outras fontes de informação
 Informação pormenorizada sobre este medicamento está disponível no site da Agência Europeia de 
 Medicamentos: http://www.emaropa.eu. Também existem links para outros sites sobre doenças raras e 
-tratamentos.</p>         </div>"""      
+tratamentos.</p> </div>"""      
 
 
 

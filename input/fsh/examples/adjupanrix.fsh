@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Adjupanrix </li>
 <li>Contents of the pack and otherinformation </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ ordinary flu but may be more serious. </p>
 <p>How Adjupanrix works 
 When a person is given the vaccine, the body s natural defence system (immune system) produces its 
 own protection (antibodies) against the disease. None of the ingredients in the vaccine can cause flu. </p>
-<p>As with all vaccines, Adjupanrix may not fully protect all persons who are vaccinated. </p>         </div>"""   
+<p>As with all vaccines, Adjupanrix may not fully protect all persons who are vaccinated. </p> </div>"""   
           
 
              
@@ -147,7 +150,7 @@ Adjupanrix contains thiomersal as a preservative and it is possible that you may
 reaction. Tell your doctor if you have any known allergies. </p>
 <p>Adjupanrix contains sodium and potassium 
 Adjupanrix contains less than 1 mmol sodium (23 mg) and less than 1 mmol of potassium (39 mg) per 
-dose. It is essentially sodium- and potassium-free. </p>         </div>"""   
+dose. It is essentially sodium- and potassium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adjupanrix"
@@ -175,7 +178,7 @@ Adjupanrix. The second dose will be given preferably at least three weeks after 
 <li>This will usually be in the upper arm. </li>
 <li>The double injections will be given in opposite arms. </li>
 </ul>
-<p>If you have any further questions on the use of this vaccine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -295,7 +298,7 @@ kidney problems </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adjupanrix"
@@ -312,7 +315,7 @@ Do not freeze.   </p>
 <p>After the vaccine is mixed: 
 After mixing, use the vaccine within 24 hours and do not store above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -434,7 +437,7 @@ medicine.
 The European Medicines Agency will review any new information on the medicine every year and this 
 leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -473,7 +476,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -482,7 +487,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -497,7 +503,7 @@ Usage: #inline
 3. Sådan får du Adjupanrix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -517,7 +523,7 @@ Når en person vaccineres, danner kroppens naturlige forsvarsmekanisme (immunsys
 beskyttelse (antistoffer) mod sygdommen. Ingen af indholdsstofferne i vaccinen kan forårsage 
 influenza.  </p>
 <p>Som ved alle andre vacciner vil ikke alle vaccinerede personer være fuldstændig beskyttet mod 
-infektion. </p>         </div>"""   
+infektion. </p> </div>"""   
           
 
              
@@ -598,7 +604,7 @@ Adjupanrix indeholder thiomersal som konserveringsmiddel. og det er muligt, at d
 overfølsomhedsreaktion. Fortæl din læge, hvis du ved, at du har andre allergier. </p>
 <p>Adjupanrix indeholder natrium og kalium 
 Adjupanrix indeholder mindre end 1 mmol (23 mg) natrium og mindre end 1 mmol (39 mg) kalium<br />
-pr. dosis, dvs. den er i det væsentlige natrium- og kaliumfri. </p>         </div>"""   
+pr. dosis, dvs. den er i det væsentlige natrium- og kaliumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adjupanrix"
@@ -635,7 +641,7 @@ injektion). Den anden vaccination vil fortrinsvis blive givet mindst tre uger ef
 <p>Dobbeltindsprøjtninger vil blive givet i hver sin arm. </p>
 </li>
 </ul>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om, eller føler dig usikker på.  </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om, eller føler dig usikker på.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -915,7 +921,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adjupanrix"
@@ -932,7 +938,7 @@ Må ikke nedfryses.  </p>
 <p>Efter tilberedning af vaccinen: Efter sammenblanding, skal den færdige vaccine indsprøjtes inden 
 for 24 timer og må ikke opbevares over 25 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1119,7 +1125,7 @@ blandede vaccine opbevares i køleskab, skal vaccinen have antaget stuetemperatu
 minimum 15 minutter) før hver udtagning. </li>
 </ol>
 <p>Vaccinen må ikke administreres intravaskulært. </p>
-<p>Ikke anvendt vaccine samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt vaccine samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

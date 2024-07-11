@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Stimufend </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ chemotherapy which can cause the number of these cells in your body to decrease.
 fall to a low level there may not be enough left in the body to fight bacteria and you may have an 
 increased risk of infection. 
 Your doctor has given you Stimufend to encourage your bone marrow (part of the bone which makes 
-blood cells) to produce more white blood cells that help your body fight infection. </p>         </div>"""   
+blood cells) to produce more white blood cells that help your body fight infection. </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ Stimufend has no or negligible effect on the ability to drive or use machines.
 Stimufend contains sorbitol (E420) and sodium acetate 
 This medicine contains 30 mg sorbitol in each 6 mg dose, which is equivalent to 50 mg/ml.<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stimufend"
@@ -182,7 +185,7 @@ If you use more Stimufend than you should contact your doctor, pharmacist or nur
 If you forget to inject Stimufend
 If you are injecting yourself and have forgotten your dose of Stimufend, you should contact your 
 doctor to discuss when you should inject the next dose.<br />
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -236,7 +239,7 @@ symptoms and contact your doctor or seek medical attention immediately. See also
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stimufend"
@@ -254,7 +257,7 @@ Do not freeze.<br />
 Keep the pre-filled syringe in the outer carton in order to protect from light. 
 Do not use this medicine if you notice it is cloudy or there are particles in it. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -283,7 +286,7 @@ Hafnerstrasse 8055 Graz
 Austria 
 This leaflet was last revised in
 Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -322,7 +325,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -331,7 +336,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -346,7 +352,7 @@ Usage: #inline
 3. Sådan skal du bruge Stimufend 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -366,7 +372,7 @@ effekterne af kemoterapi, hvilket kan medføre, at antallet af disse celler i di
 antallet af hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er nok celler tilbage i 
 kroppen til at bekæmpe bakterier, og du kan have en øget risiko for infektion.  </p>
 <p>Din læge har ordineret Stimufend til dig for at støtte din knoglemarv (hvor blodceller dannes) til at 
-producere flere hvide blodlegemer, der hjælper din krop med at bekæmpe infektion. </p>         </div>"""   
+producere flere hvide blodlegemer, der hjælper din krop med at bekæmpe infektion. </p> </div>"""   
           
 
              
@@ -455,7 +461,7 @@ Stimufend har ingen eller kun ubetydelig virkning på evnen til at køre bil og 
 <p>Stimufend indeholder sorbitol (E420) og natriumacetat 
 Dette lægemiddel indeholder 30 mg sorbitol i hver 6 mg dosis, hvilket svarer til 50 mg/ml.<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 6 mg dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stimufend"
@@ -480,7 +486,7 @@ Kontakt din læge, sygeplejerske eller apotek, hvis du har taget mere Stimufend,
 <p>Hvis du har glemt at bruge Stimufend 
 Hvis du selv foretager injektionerne og har glemt en dosis Stimufend, kontakt da din læge for at aftale, 
 hvornår du skal tage den næste dosis.  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -554,7 +560,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stimufend"
@@ -571,7 +577,7 @@ læge, sygeplejerske eller apotekspersonalet, hvis du har spørgsmål til opbeva
 <p>Opbevar den fyldte injektionssprøjte i den ydre æske for at beskytte mod lys.  </p>
 <p>Brug ikke dette lægemiddel, hvis du bemærker, at det er grumset, eller at der er partikler i det. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -844,7 +850,7 @@ der beskriver den rigtige måde at bortskaffe en affaldsbeholder til skarpe gens
 Smid ikke din affaldsbeholder til skarpe genstande i dit husholdningsaffald medmindre dine lokale 
 retningslinjer tillader dette.<br />
 Genbrug ikke din affaldsbeholder til skarpe genstande.  </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

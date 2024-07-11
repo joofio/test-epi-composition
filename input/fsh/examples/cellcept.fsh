@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store CellCept </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Usage: #inline
 CellCept is used to prevent your body rejecting a transplanted organ. 
 * A kidney, heart or liver.<br />
 CellCept should be used together with other medicines: 
-* Ciclosporin and corticosteroids. </p>         </div>"""   
+* Ciclosporin and corticosteroids. </p> </div>"""   
           
 
              
@@ -207,7 +210,7 @@ drowsy, numb or confused, talk to your doctor or nurse and do not drive or use a
 you feel better. </p>
 <p>CellCept contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cellcept"
@@ -261,7 +264,7 @@ at the usual times. Do not take a double dose to make up for a missed dose. </p>
 <p>If you stop taking CellCept 
 Do not stop taking CellCept unless your doctor tells you to. If you stop your treatment you may increase 
 the chance of rejection of your transplant organ.<br />
-If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ you develop a persistent cough or breathlessness.<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cellcept"
@@ -337,7 +340,7 @@ medicine. </p>         </div>"""
 <li>Store in the original package in order to protect from moisture. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -445,7 +448,7 @@ if their signs of illness are the same as yours. </li>
 <li>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. See section 4.</li>
 </ul>
-<p>What is in this leaflet:  </p>         </div>"""      
+<p>What is in this leaflet:  </p> </div>"""      
 
 
 
@@ -484,7 +487,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -493,7 +498,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -508,7 +514,7 @@ Usage: #inline
 3. Sådan skal du tage CellCept 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -527,7 +533,7 @@ Usage: #inline
 <p>CellCept skal bruges sammen med anden medicin: </p>
 <ul>
 <li>Ciclosporin og kortikosteroider. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -735,7 +741,7 @@ oplever døsighed, følelsesløshed eller forvirring, bør du tale med din læge
 vente med at køre bil eller bruge værktøj eller maskiner til du har fået det bedre. </p>
 <p>CellCept indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. kapsel, dvs. den er i det væsentlige 
-natriumfri. </p>         </div>"""   
+natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cellcept"
@@ -837,7 +843,7 @@ erstatning for den glemte dosis.  </p>
 <p>Hvis du holder op med at tage CellCept 
 Stop ikke med at tage CellCept, medmindre lægen har bedt dig om det. Hvis du stopper behandlingen, 
 kan du øge risikoen for afstødning af det transplanterede organ. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -951,7 +957,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cellcept"
@@ -975,7 +981,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1115,7 +1121,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som du har. 
 - Kontakt lægen eller sundhedspersonalet, hvis en bivirkning bliver værre, eller du får 
-bivirkninger, som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

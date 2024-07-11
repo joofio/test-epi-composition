@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Desloratadine Teva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ age and older. These symptoms include sneezing, runny or itchy nose, itchy palat
 eyes. </p>
 <p>Desloratadine Teva is also used to relieve the symptoms associated with urticaria (a skin condition caused by 
 an allergy). These symptoms include itching and hives. </p>
-<p>Relief of these symptoms lasts a full day and helps you to resume your normal daily activities and sleep. </p>         </div>"""   
+<p>Relief of these symptoms lasts a full day and helps you to resume your normal daily activities and sleep. </p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ mental alertness, such as driving a car or operating machinery until you have es
 to the medicinal product. </p>
 <p>Desloratadine Teva contains lactose 
 Desloratadine Teva contains lactose. If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take desloratadine"
@@ -151,7 +154,7 @@ or nurse immediately. </p>
 If you forget to take your dose on time, take it as soon as possible and then go back to your regular dosing 
 schedule. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Desloratadine Teva 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -215,7 +218,7 @@ Not known: frequency cannot be estimated from the available data
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet.<br />
 You can also report side effects directly via the national reporting system listed in Appendix V*. By 
-reporting side effects you can help provide more information on the safety of this medicine.  </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store desloratadine"
@@ -228,7 +231,7 @@ expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice any change in the appearance of the tablets. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -331,7 +334,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -370,7 +373,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -379,7 +384,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -394,7 +400,7 @@ Usage: #inline
 3. Sådan skal du tage Desloratadine Teva 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -415,7 +421,7 @@ løbende eller kløende næse, kløe i ganen og kløende, røde eller løbende �
 hudlidelse forårsaget af allergi) hos voksne og unge i alderen 12 år og derover. Symptomerne 
 indbefatter kløe og kløende udslæt. </p>
 <p>Lindring af disse symptomer varer en hel dag og hjælper dig med at genoptage dine normale daglige 
-aktiviteter og søvn. </p>         </div>"""   
+aktiviteter og søvn. </p> </div>"""   
           
 
              
@@ -454,7 +460,7 @@ aktiviteter, der kræver mental årvågenhed, for eksempel køre bil og betjene 
 reaktion på dette lægemiddel er fastlagt. </p>
 <p>Desloratadine Teva indeholder lactose 
 Desloratadine Teva indeholder lactose. Kontakt lægen, før du tager denne medicin, hvis lægen har 
-fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take desloratadine"
@@ -484,7 +490,7 @@ sygeplejersken, hvis du tager flere Desloratadine Teva, end du har fået besked 
 Hvis du glemmer at tage din medicin til tiden, så tag den snarest muligt og vend derefter tilbage til din 
 sædvanlige medicineringsplan. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Desloratadine Teva 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -550,7 +556,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store desloratadine"
@@ -563,7 +569,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Denne medicin kræver ikke særlige opbevaringsforhold. </p>
 <p>Tag ikke lægemidler, hvis du bemærker ændringer i tabletternes udseende. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -724,7 +730,7 @@ PRAC at "øjentørhed" bør overvejes medtaget på produktetiketter og i indlæg
 <p>På baggrund af de videnskabelige konklusioner for desloratadin er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder desloratadin, forbliver 
 uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 

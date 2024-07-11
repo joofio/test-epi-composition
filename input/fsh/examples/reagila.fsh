@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Reagila </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ antipsychotics. It is used to treat adults with schizophrenia. </p>
 are not there (hallucination), suspiciousness, mistaken beliefs, incoherent speech and behaviour and 
 emotional flatness. People with this condition may also feel depressed, guilty, anxious, tense, or not 
 being able to start or keep up planned activities, unwillingness to speak, lack of emotional response to 
-a situation that would normally stimulate feelings in others. </p>         </div>"""   
+a situation that would normally stimulate feelings in others. </p> </div>"""   
           
 
              
@@ -188,7 +191,7 @@ Drowsiness, dizziness and vision problems may occur during treatment with this m
 4). Do not drive or use any tools or machines until you know that this medicine does not affect you in 
 a negative way. </p>
 <p>Reagila 3 mg, 4.5 mg, 6 mg hard capsules contain Allura red AC (E 129). 
-Allura red AC is a coloring agent, which may cause allergic reactions. </p>         </div>"""   
+Allura red AC is a coloring agent, which may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take reagila"
@@ -225,7 +228,7 @@ If you miss two or more doses, contact your doctor. </p>
 If you stop taking this medicine you will lose the effects of the medicine. Even if you feel better, do 
 not alter or stop your daily dose of Reagila unless told to do so by your doctor as your symptoms may 
 return. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -326,7 +329,7 @@ weakness, fever) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. </p>
-<p>By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+<p>By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store reagila"
@@ -339,7 +342,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Keep the blister in the outer carton in order to protect from light. 
 This medicine does not require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -485,7 +488,7 @@ Detailed and updated information on this medicine is available by scanning the Q
 the outer carton with a smartphone. 
 The same information is also available on the following URL: www.reagila.com </p>
 <p>QR code to be included  + www.reagila.com </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -524,7 +527,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -533,7 +538,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -548,7 +554,7 @@ Usage: #inline
 3. Sådan skal du tage Reagila 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -563,7 +569,7 @@ ting, som ikke er der (hallucination), mistro, misopfattelse, usammenhængende t
 mangel på følelser. Personer med denne sygdom kan også føle sig deprimerede, have skyldfølelse eller 
 være urolige, anspændte eller ude af stand til at påbegynde og gennemføre planlagte aktiviteter, være 
 fåmælte eller have utilstrækkelig følelsesmæssig reaktion på situationer, som fremkalder følelser hos 
-andre. </p>         </div>"""   
+andre. </p> </div>"""   
           
 
              
@@ -684,7 +690,7 @@ motorkøretøj og betjene maskiner. Der kan forekomme sløvhed, svimmelhed og sy
 behandlingen med dette lægemiddel (se afsnit 4). Du må ikke køre bil eller arbejde med værktøj eller 
 maskiner, før du ved, om dette lægemiddel påvirker dig negativt. </p>
 <p>Reagila 3 mg, 4,5 mg og 6 mg hårde kapsler indeholder Allura red AC (E129). 
-Allura red AC er et farvestof, som kan give allergiske reaktioner. </p>         </div>"""   
+Allura red AC er et farvestof, som kan give allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take reagila"
@@ -722,7 +728,7 @@ Kontakt lægen, hvis du har glemt at tage to eller flere doser. </p>
 Hvis du holder op med at tage dette lægemiddel, forsvinder virkningerne af lægemidlet. Selv hvis du 
 får det bedre, må du ikke holde op med at tage din daglige dosis Reagila eller ændre dosis, medmindre 
 du får besked på det af lægen, da dine symptomer ellers kan vende tilbage. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -835,7 +841,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store reagila"
@@ -848,7 +854,7 @@ sidste dag i den nævnte måned. </p>
 <p>Opbevar blisteren i den ydre karton for at beskytte mod lys. 
 Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1015,7 +1021,7 @@ nedenfor eller på yderpakningen med en smartphone.
 Disse oplysninger findes også på www.reagila.com </p>
 <p>"QR-kode skal anføres" + www.reagila.com </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

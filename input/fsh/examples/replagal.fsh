@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Replagal</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ level of enzyme in the body is absent or lower than normal as in Fabry Disease.
 After 6 months of therapy Replagal significantly reduced pain in patients when compared to placebo 
 (dummy) treated patients. Replagal reduced left ventricle mass in treated patients compared to placebo
 treated patients. These results suggest the symptoms of the disease are improving or the disease is 
-becoming stable.</p>         </div>"""   
+becoming stable.</p> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ equivalent to 0.7% of the recommended maximum daily dietary intake of sodium for
 Keeping a record
 In order to improve the traceability of biological medicinal products, the name and batch number of 
 the administered product should be clearly recorded by your healthcare professional. Speak with your 
-healthcare professional if you are not sure.</p>         </div>"""   
+healthcare professional if you are not sure.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take replagal"
@@ -171,7 +174,7 @@ If you forget to use Replagal
 If you have missed an infusion of Replagal, please contact your doctor.
 If you stop using Replagal
 Do not stop using Replagal without contacting your doctor. If you have any further questions on the 
-use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -262,7 +265,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store replagal"
@@ -275,7 +278,7 @@ expiry date refers to the last day of that month.
 Store in a refrigerator (2  C   8  C). 
 Do not use Replagal if you notice that there is discolouration or other foreign particles present.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -401,7 +404,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in . 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -440,7 +443,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -449,7 +454,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -464,7 +470,7 @@ Usage: #inline
 3. Sådan får De Replagal
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -483,7 +489,7 @@ Efter 6 måneders behandling reducerede Replagal signifikant patienternes smerte
 smerterne hos patienter, der blev behandlet med placebo (uvirksomt stof). Replagal reducerede 
 patienternes venstre hjertekammer sammenlignet med hjertekammeret hos placebobehandlede 
 patienter. Disse resultater tyder på, at sygdommens symptomer mindskes, eller at sygdommen 
-stabiliseres.</p>         </div>"""   
+stabiliseres.</p> </div>"""   
           
 
              
@@ -543,7 +549,7 @@ Registrering
 For at forbedre sporbarheden af biologiske lægemidler skal det indgivne produkts navn og 
 batchnummer tydeligt registreres af Deres læge eller sygeplejerske. Tal med Deres læge eller 
 sygeplejerske, hvis De er i tvivl.
-25</p>         </div>"""   
+25</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take replagal"
@@ -576,7 +582,7 @@ Hvis De har glemt at tage Replagal
 Kontakt lægen, hvis De har glemt en infusion af Replagal.
 Hvis De holder op med at tage Replagal
 De må ikke holde op med at tage Replagal uden at tale med lægen. Spørg lægen eller 
-apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -671,7 +677,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store replagal"
@@ -684,7 +690,7 @@ sidste dag i den nævnte måned.
 Opbevares i køleskab (2 °C - 8 °C).
 Brug ikke Replagal, hvis De bemærker misfarvning eller tilstedeværelse af andre fremmede partikler.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -871,7 +877,7 @@ påbegyndes så hurtigt som muligt. Kemisk og fysisk stabilitet af den fortynded
 imidlertid demonstreret i 24 timer ved 25 oC.
 5. Replagal må ikke infunderes samtidigt i samme intravenøse slange som andre lægemidler.
 6. Kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til
-lokale retningslinjer.</p>         </div>"""      
+lokale retningslinjer.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Roteas  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ risk factor, such as heart failure, previous stroke or high blood pressure; </li
 <li>treat blood clots in the veins of the legs (deep vein thrombosis) and in the blood vessels in 
 the lungs (pulmonary embolism), and to prevent blood clots from re-occurring in the blood 
 vessels in the legs and/or lungs. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -118,7 +121,7 @@ conditions:
 * problems with the blood vessels in your brain or spinal column; 
 - if you have a mechanical heart valve. </p>
 <p>Roteas 15 mg is only to be used when changing from Roteas 30 mg to a vitamin K antagonist (e.g. 
-warfarin) (see section </p>         </div>"""   
+warfarin) (see section </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take roteas"
@@ -165,7 +168,7 @@ kept under observation. </p>
 pregnant, use a reliable contraceptive while you are taking Roteas. If you become pregnant while you 
 are taking Roteas, immediately tell your doctor, who will decide how you should be treated. </p>
 <p>Driving and using machines </p>
-<p>Roteas has no or negligible effects on your ability to drive or use machines. </p>         </div>"""         
+<p>Roteas has no or negligible effects on your ability to drive or use machines. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -227,7 +230,7 @@ as usual. Do not take a double dose on the same day to make up for a forgotten d
 <p>If you stop taking Roteas </p>
 <p>Do not stop taking Roteas without talking to your doctor first, because Roteas treats and prevents 
 serious conditions. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store roteas"
@@ -284,7 +287,7 @@ kidneys to work properly (anticoagulant-related nephropathy). </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ this medicine. </p>         </div>"""
 bottle after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
 
 
 
@@ -336,7 +339,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -345,7 +350,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -360,7 +366,7 @@ Usage: #inline
 3. Sådan skal du tage Roteas 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -379,7 +385,7 @@ yderligere risikofaktor, såsom hjertesvigt, tidligere slagtilfælde eller højt
 <li>behandle blodpropper i blodårerne i benene (dyb venetrombose) og i blodårerne i lungerne 
 (lungeemboli) samt til at forebygge, at der opstår nye blodpropper i blodårerne i ben og/eller 
 lunger. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -414,7 +420,7 @@ tilstande:
 • problemer med blodårerne i hjerne eller rygsøjle, 
 - hvis du har en mekanisk hjerteklap. </p>
 <p>Roteas 15 mg må kun anvendes ved skift fra Roteas 30 mg til en K-vitaminagonist (f.eks. warfarin) (se 
-pkt. </p>         </div>"""   
+pkt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take roteas"
@@ -488,7 +494,7 @@ skal du anvende en pålidelig præventionsmetode, mens du tager Roteas. Hvis du 
 du tager Roteas, skal du straks fortælle det til lægen, som vil bestemme, hvilken behandling du skal 
 have. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Roteas påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene maskiner. </p>         </div>"""         
+<p>Roteas påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene maskiner. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -551,7 +557,7 @@ sædvanligt. Du må ikke tage en dobbeltdosis på den samme dag som erstatning f
 <p>Hvis du holder op med at tage Roteas </p>
 <p>Du må ikke holde op med at tage Roteas uden først at kontakte lægen, da Roteas behandler og 
 forebygger alvorlige sygdomme. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""      
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store roteas"
@@ -681,7 +687,7 @@ Lægen kan beslutte at holde dig under nøje observation eller ændre din medici
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -694,7 +700,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
 
 
 
@@ -733,7 +739,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -742,7 +750,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -757,7 +766,7 @@ Usage: #inline
 3. Como tomar Roteas 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Roteas 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -775,7 +784,7 @@ chamada fibrilhação auricular não valvular e pelo menos um fator de risco adi
 insuficiência cardíaca, AVC anterior ou tensão arterial alta; 
 - o tratamento de coágulos sanguíneos nas veias das pernas (trombose venosa profunda) e nos 
 vasos sanguíneos dos pulmões (embolia pulmonar), e para prevenir o reaparecimento de 
-coágulos nos vasos sanguíneos das pernas e/ou pulmões. </p>         </div>"""   
+coágulos nos vasos sanguíneos das pernas e/ou pulmões. </p> </div>"""   
           
 
              
@@ -826,7 +835,7 @@ seguintes afeções: </p>
 <li>se tiver uma válvula cardíaca mecânica. </li>
 </ul>
 <p>Roteas 15 mg é apenas para utilização quando alterar de Roteas 30 mg para um antagonista da 
-vitamina K (p. ex. varfarina) (ver secção </p>         </div>"""   
+vitamina K (p. ex. varfarina) (ver secção </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar roteas"
@@ -903,7 +912,7 @@ deve ser mantido sob observação. </p>
 um método contracetivo fiável enquanto estiver a tomar Roteas. Se ficar grávida enquanto está a tomar 
 Roteas, fale imediatamente com o seu médico, que decidirá como tratá-la. </p>
 <p>Condução de veículos e utilização de máquinas </p>
-<p>Os efeitos de Roteas sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>         </div>"""         
+<p>Os efeitos de Roteas sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -973,7 +982,7 @@ se esqueceu de tomar. </p>
 <p>Não pare de tomar Roteas sem primeiro falar com o seu médico, pois Roteas trata e previne situações 
 graves. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""      
+farmacêutico. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar roteas"
@@ -1104,7 +1113,7 @@ funcionamento adequado dos rins (nefropatia associada aos anticoagulantes). </li
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1118,7 +1127,7 @@ blister ou no frasco, após EXP. O prazo de validade corresponde ao último dia 
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
 
 
 

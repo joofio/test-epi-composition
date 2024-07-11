@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Iclusig </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ marrow. In this kind of leukaemia, some of the DNA (genetic material) has become
 to form an abnormal chromosome, the Philadelphia chromosome. </p>
 <p>Iclusig belongs to a group of medicines called tyrosine kinase inhibitors. In patients with CML and 
 Ph+ ALL, changes in the DNA trigger a signal that tells the body to produce abnormal white blood 
-cells. Iclusig blocks this signal, thereby stopping the production of these cells. </p>         </div>"""   
+cells. Iclusig blocks this signal, thereby stopping the production of these cells. </p> </div>"""   
           
 
              
@@ -171,7 +174,7 @@ milk. </p>
 experience visual disturbance, dizziness, sleepiness, and tiredness. </p>
 <p>Iclusig contains lactose </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take iclusig"
@@ -208,7 +211,7 @@ Do not swallow the desiccant canister contained in the bottle. </p>
 <p>Do not take a double dose to make up for a forgotten dose. Take your next dose at your regular time.  </p>
 <p>If you stop taking Iclusig </p>
 <p>Do not stop taking Iclusig without your doctor s permission. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -337,7 +340,7 @@ tiredness. Inform your doctor immediately if you experience these symptoms.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store iclusig"
@@ -351,7 +354,7 @@ The expiry date refers to the last day of that month. </p>
 <p>The bottle contains one sealed plastic canister containing a molecular sieve desiccant. Keep the 
 canister in the bottle. Do not swallow the desiccant canister. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -396,7 +399,7 @@ Netherlands </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
 <p>There are also links to other websites about rare diseases and treatments. </p>
-<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website.  </p>         </div>"""      
+<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website.  </p> </div>"""      
 
 
 
@@ -435,7 +438,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -444,7 +449,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -461,7 +467,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -486,7 +492,7 @@ Philadelphiakromosomet. </p>
 </ul>
 <p>Iclusig tilhører en gruppe lægemidler, der kaldes tyrosin-kinase-hæmmere. Hos patienter med CML og 
 Ph+ ALL udløser en ændring i DNA et signal, der fortæller kroppen, at den skal danne unormale hvide 
-blodlegemer. Iclusig blokerer dette signal, hvormed dannelsen af disse blodlegemer standses. </p>         </div>"""   
+blodlegemer. Iclusig blokerer dette signal, hvormed dannelsen af disse blodlegemer standses. </p> </div>"""   
           
 
              
@@ -645,7 +651,7 @@ human mælk. </p>
 kan opleve synsforstyrrelser, svimmelhed, søvnighed og træthed. </p>
 <p>Iclusig indeholder lactose </p>
 <p>Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take iclusig"
@@ -708,7 +714,7 @@ behandling.  </p>
 sædvanlige tidspunkt.  </p>
 <p>Hvis du holder op med at tage Iclusig </p>
 <p>Du må ikke holde op med at tage Iclusig uden lægens tilladelse. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1002,7 +1008,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store iclusig"
@@ -1016,7 +1022,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Flasken indeholder en forseglet plastdåse med et molekylær si-tørremiddel. Lad dåsen blive i flasken. 
 Dåsen med tørremiddel må ikke synkes. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1066,7 +1072,7 @@ Holland </p>
 hjemmeside http://www.ema.europa.eu. </p>
 <p>Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 

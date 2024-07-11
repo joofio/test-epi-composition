@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store BroPair Spiromax </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ This makes it easier for air to get in and out. The effects of salmeterol last f
 <p>BroPair Spiromax is used to treat asthma in adults and adolescents aged 12 years and older. </p>
 <p>BroPair Spiromax helps to prevent breathlessness and wheeziness coming on. You should not use it to 
 relieve an asthma attack. If you have an asthma attack, use a fast-acting reliever (rescue) inhaler, such 
-as salbutamol. You should always have your fast-acting rescue inhaler with you. </p>         </div>"""   
+as salbutamol. You should always have your fast-acting rescue inhaler with you. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ nurse or pharmacist before taking this medicine. </p>
 BroPair Spiromax is not likely to affect your ability to drive or use machines. </p>
 <p>BroPair Spiromax contains lactose 
 Each dose of this medicine contains approximately 5.4 milligrams of lactose. If you have been told by your 
-doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bropair"
@@ -259,7 +262,7 @@ make your breathing worse. </p>
 insufficiency can get worse and you may also have the side effects listed above. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. To prevent these symptoms, your doctor may 
 prescribe extra corticosteroids in tablet form (such as prednisolone). </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ taking BroPair Spiromax unless the doctor tells you to stop. </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bropair"
@@ -352,7 +355,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 Use within 2 months of removing from the foil wrapping. Use the label on the inhaler to write down the 
 date you open the foil pouch.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -447,7 +450,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 207 540 7This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -486,7 +489,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -495,7 +500,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -512,7 +518,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -536,7 +542,7 @@ lungerne. </p>
 <p>BroPair Spiromax hjælper med at forebygge åndenød og hvæsende vejrtrækning. Du må ikke bruge 
 det til at lindre et astmaanfald. Hvis du har et astmaanfald, skal du bruge en hurtigtvirkende 
 lindrende (nød)-inhalator, såsom salbutamol. Du skal altid have din hurtigtvirkende nødinhalator på 
-dig. </p>         </div>"""   
+dig. </p> </div>"""   
           
 
              
@@ -616,7 +622,7 @@ Det er ikke sandsynligt, at BroPair Spiromax vil påvirke din evne til at føre 
 maskiner. </p>
 <p>BroPair Spiromax indeholder lactose 
 Hver dosis af dette lægemiddel indeholder ca. 5,4 milligram lactose. Kontakt lægen, før du tager dette 
-lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bropair"
@@ -797,7 +803,7 @@ steroidhormon (adrenal insufficiens), hvilket til tider giver bivirkninger. </p>
 forværres, og du kan også få de ovenfor angivne bivirkninger. </p>
 <p>Kontakt lægen eller apotekspersonalet, hvis du oplever bivirkninger, For at undgå disse symptomer, kan 
 lægen ordinere ekstra kortikosteroider i tabletform (såsom prednisolon). </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -961,7 +967,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bropair"
@@ -976,7 +982,7 @@ folieindpakningen er fjernet.
 Præparatet skal bruges inden for 2 måneder, efter det er fjernet fra folieindpakningen. Notér den dato, 
 du åbner folieposen, på etiketten på inhalatoren.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1111,7 +1117,7 @@ vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

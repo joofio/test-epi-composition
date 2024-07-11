@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How SCENESSE is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ brown-black type of melanin pigment in the body. </p>
 erythropoietic protoporphyria (EPP). EPP is a condition in which patients have an increased sensitivity 
 to sunlight, which can cause toxic effects such as pain and burning. By increasing the amount of 
 eumelanin, SCENESSE can help to delay the onset of pain due to skin photosensitivity (sensitive to 
-sunlight). </p>         </div>"""   
+sunlight). </p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ months after the last SCENESSE implantation. </p>
 <p>Driving and using machines </p>
 <p>There is a risk of feeling drowsy and tired when using this medicine, especially within 72 hours of 
 administration. If you are affected, do not drive or use any tools or machines. If you suffer from 
-continued drowsiness, then you should speak to your doctor. </p>         </div>"""   
+continued drowsiness, then you should speak to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take scenesse"
@@ -173,7 +176,7 @@ waist or abdomen in an area known as the supra-iliac crest. </p>
 the implant will be absorbed by the body, this will happen within 50 to 60 days after implantation. </p>
 <p>If you experience discomfort and are concerned, speak to your doctor. The implant may be removed 
 by a simple surgical procedure if needed. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ level, blood in urine, </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store scenesse"
@@ -253,7 +256,7 @@ By reporting side effects you can help provide more information on the safety of
 Your doctor will check the expiry date before an implant is used. </p>
 <p>Store in a refrigerator (2oC - 8oC). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -292,7 +295,7 @@ complete information on this medicine.
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -331,7 +334,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -340,7 +345,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -357,7 +363,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -372,7 +378,7 @@ i kroppen. </p>
 <p>Afamelanotid bruges til at øge tolerancen over for sollys hos voksne med den bekræftede diagnose 
 erythropoietisk protoporfyri (EPP). EPP er en sygdom med øget følsomhed for sollys, som kan 
 medføre skadevirkninger i form af smerter og skoldning. Ved at øge mængden af eumelanin kan 
-SCENESSE forsinke indsættelsen af smerter forårsaget af følsomhed for sollys (fotosensitivitet). </p>         </div>"""   
+SCENESSE forsinke indsættelsen af smerter forårsaget af følsomhed for sollys (fotosensitivitet). </p> </div>"""   
           
 
              
@@ -446,7 +452,7 @@ implantat. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Der er risiko for døsighed og træthed ved brug dette lægemiddel, navnlig de første 72 timer efter at 
 man har fået det. Hvis det er tilfældet for dig, må du ikke føre motorkøretøj eller arbejde med værktøj 
-eller maskiner. Hvis du er konstant døsig, skal du kontakte lægen. </p>         </div>"""   
+eller maskiner. Hvis du er konstant døsig, skal du kontakte lægen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take scenesse"
@@ -466,7 +472,7 @@ hoftebenskammen. </p>
 gradvis blive absorberet af kroppen. Dette vil tage mellem 50 og 60 dage efter implantationen. </p>
 <p>Hvis du mærker ubehag og er bekymret, skal du kontakte lægen. Om nødvendigt kan implantatet 
 fjernes ved et simpelt operativt indgreb. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -537,7 +543,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du og dine pårørende kan også indberette bivirkninger direkte 
 til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store scenesse"
@@ -549,7 +555,7 @@ lægemiddel. </p>         </div>"""
 kontrollerer udløbsdatoen, før implantatet anvendes. </p>
 <p>Opbevares i køleskab (2º - 8º C). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -626,7 +632,7 @@ er blevet indført. </li>
 <li>Observer patienten i 30 minutter med henblik på allergisk reaktion eller hypersensitivitetsreaktion 
 (af straks-typen). </li>
 </ul>
-<p>Implantatet kan om nødvendigt fjernes operativt. </p>         </div>"""      
+<p>Implantatet kan om nødvendigt fjernes operativt. </p> </div>"""      
 
 
 
@@ -665,7 +671,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -674,7 +682,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -691,7 +700,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar SCENESSE </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -708,7 +717,7 @@ preto presente no organismo. </p>
 confirmado de protoporfíria eritropoiética (PPE). A PPE é uma doença na qual os doentes apresentam 
 um aumento da sensibilidade à luz solar, o que pode causar efeitos tóxicos, tais como dor e ardor. Ao 
 aumentar a quantidade de eumelanina, SCENESSE pode ajudar a retardar o aparecimento da dor 
-devido a fotossensibilidade da pele (sensível à luz solar). </p>         </div>"""   
+devido a fotossensibilidade da pele (sensível à luz solar). </p> </div>"""   
           
 
              
@@ -786,7 +795,7 @@ DIU), durante o tratamento e ao longo de três meses após a última implantaç�
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Existe o risco de se sentir sonolento e cansado quando utiliza este medicamento, sobretudo nas 
 primeiras 72 horas após a administração. Se for afetado, não conduza nem utilize quaisquer 
-ferramentas ou máquinas. Se sofre de sonolência contínua, deve falar com o seu médico. </p>         </div>"""   
+ferramentas ou máquinas. Se sofre de sonolência contínua, deve falar com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar scenesse"
@@ -808,7 +817,7 @@ passar do tempo, o implante será absorvido pelo corpo, o que acontecerá no pra
 contar da implantação. </p>
 <p>Se sentir desconforto e estiver preocupado, fale com o seu médico. Se necessário, o implante pode ser 
 retirado por meio de um simples procedimento cirúrgico. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -875,7 +884,7 @@ língua,
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar scenesse"
@@ -889,7 +898,7 @@ mesmo. </p>
 <p>Conservar no frigorífico (2oC - 8oC) </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -929,7 +938,7 @@ devido à raridade desta doença, por razões científicas e por razões éticas
 A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
 medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

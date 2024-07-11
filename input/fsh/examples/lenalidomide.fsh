@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Lenalidomide Mylan </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -136,7 +139,7 @@ Lenalidomide Mylan works by affecting the body s immune system and directly atta
 It works in a number of different ways: 
 * by stopping the cancer cells developing 
 * by stopping blood vessels growing in the cancer 
-* by stimulating part of the immune system to attack the cancer cells. </p>         </div>"""   
+* by stimulating part of the immune system to attack the cancer cells. </p> </div>"""   
           
 
              
@@ -290,7 +293,7 @@ Do not drive or operate machines if you feel dizzy, tired, sleepy, have vertigo 
 taking Lenalidomide Mylan. </p>
 <p>Lenalidomide Mylan contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free  </p>         </div>"""   
+ sodium-free  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lenalidomide"
@@ -358,7 +361,7 @@ If you forget to take Lenalidomide Mylan at your regular time and:
 * less than 12 hours have passed - take your capsule immediately. 
 * more than 12 hours have passed - do not take your capsule. Take your next capsule at the usual 
 time the next day. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -520,7 +523,7 @@ feeling nauseous or being sick). </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lenalidomide"
@@ -536,7 +539,7 @@ after  EXP . The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment.  </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -718,7 +721,7 @@ Mylan IRE Healthcare Limited<br />
 Tel: +353 18711This leaflet was last revised in &lt;{MM/YYYY}&gt;.  </p>
 <p>Other sources of information<br />
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu/. </p>         </div>"""      
+http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -757,7 +760,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -766,7 +771,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -781,7 +786,7 @@ Usage: #inline
 3. Sådan skal du tage Lenalidomide Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -891,7 +896,7 @@ virker på flere forskellige måder: </p>
 <li>
 <p>ved at stimulere en del af immunsystemet, så kræftcellerne angribes. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1130,7 +1135,7 @@ Du må ikke føre motorkøretøj eller betjene maskiner, hvis du føler dig svim
 følelse af at snurre rundt (vertigo), eller dit syn er sløret, efter du har taget Lenalidomide Mylan. </p>
 <p>Lenalidomide Mylan indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lenalidomide"
@@ -1253,7 +1258,7 @@ Hvis du har glemt at tage Lenalidomide Mylan på det normale tidspunkt og: </p>
 sædvanlige tidspunkt næste dag. 
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1609,7 +1614,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lenalidomide"
@@ -1635,7 +1640,7 @@ have været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1878,7 +1883,7 @@ Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
-http://www.laegemiddelstyrelsen.dk. </p>         </div>"""      
+http://www.laegemiddelstyrelsen.dk. </p> </div>"""      
 
 
 

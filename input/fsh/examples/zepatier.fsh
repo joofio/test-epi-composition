@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ZEPATIER</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ blocking two different proteins that the hepatitis C virus needs to grow and rep
 infection to be permanently removed from the body. 
 ZEPATIER is sometimes taken with another medicine, ribavirin.
 It is very important that you also read the leaflets for the other medicines that you will be taking with
-ZEPATIER. If you have any questions about your medicines, please ask your doctor or pharmacist.</p>         </div>"""   
+ZEPATIER. If you have any questions about your medicines, please ask your doctor or pharmacist.</p> </div>"""   
           
 
              
@@ -185,7 +188,7 @@ ZEPATIER contains lactose monohydrate. If you have been told by your doctor that
 intolerance to some sugars, talk to your doctor before taking this medicine. 
 ZEPATIER contains sodium 
 This medicine contains 69.85 mg sodium (main component of cooking / table salt) in each tablet. This
-is equivalent to 3.5% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+is equivalent to 3.5% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zepatier"
@@ -215,7 +218,7 @@ Do not stop taking ZEPATIER
 Do not stop taking this medicine unless your doctor tells you to. It is very important that you complete
 the full course of treatment. This will give the medicine the best chance to treat your hepatitis C
 infection. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zepatier"
@@ -266,7 +269,7 @@ Do not use the medicine after the expiry date which is stated on the carton and 
 This medicine does not require any special temperature storage conditions.
 Store in the original package until use to protect from moisture.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -393,7 +396,7 @@ SIA Merck Sharp &amp; Dohme Latvija
 Tel: +371 67364 msd_lv@merck.com
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site:
-http://www.ema.europa.eu.</p>         </div>"""      
+http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -432,7 +435,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -441,7 +446,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -456,7 +462,7 @@ Usage: #inline
 3. Sådan skal du tage Zepatier
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -477,7 +483,7 @@ gør det muligt at bekæmpe infektionen fuldstændigt.
 Zepatier tages nogle gange sammen med et andet lægemiddel, der hedder ribavirin.
 Det er meget vigtigt, at du også læser indlægssedlerne for de andre lægemidler, som du skal tage
 sammen med Zepatier. Spørg lægen eller apotekspersonalet, hvis du har spørgsmål om dine
-lægemidler.</p>         </div>"""   
+lægemidler.</p> </div>"""   
           
 
              
@@ -638,7 +644,7 @@ Dette lægemiddel indeholder 69,85 mg natrium (hovedbestanddelen i køkkensalt/b
 Dette svarer til 3,5% af den anbefalede maksimale daglige indtagelse af natrium for en voksen.
 50</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zepatier"
@@ -676,7 +682,7 @@ vigtigt, at du gennemfører hele behandlingsprogrammet. Derved får lægemidlet 
 for at behandle din hepatitis C-infektion. 
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -758,7 +764,7 @@ bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssys
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
 sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zepatier"
@@ -771,7 +777,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. 
 Opbevares i den originale pakning indtil brug for at beskytte mod fugt.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -933,7 +939,7 @@ Tel: +371 67364 224
 msd_lv@merck.com
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -972,7 +978,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -981,7 +989,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -996,7 +1005,7 @@ Usage: #inline
 3. Como tomar ZEPATIER 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar ZEPATIER 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1017,7 +1026,7 @@ organismo.
 ZEPATIER é algumas vezes tomado em conjunto com outro medicamento, ribavirina. 
 É muito importante que leia também os folhetos informativos dos outros medicamentos que irá tomar com
 ZEPATIER. Se tiver alguma questão relacionada com os seus medicamentos, por favor fale com o seu
-médico ou farmacêutico.</p>         </div>"""   
+médico ou farmacêutico.</p> </div>"""   
           
 
              
@@ -1181,7 +1190,7 @@ Este medicamento contém 69,85 mg de sódio (principal componente de sal de cozi
 cada comprimido. Isto é equivalente a 3,5% da ingestão diária máxima de sódio recomendada na dieta
 para um adulto.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zepatier"
@@ -1220,7 +1229,7 @@ que termine o tratamento completo para dar ao medicamento toda a possibilidade d
 pelo vírus da hepatite C. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1301,7 +1310,7 @@ folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efei
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos
 indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zepatier"
@@ -1315,7 +1324,7 @@ Este medicamento não necessita de condições de temperatura especiais de conse
 embalagem de origem até utilizar, para proteger da humidade.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o
-ambiente.</p>         </div>"""      
+ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1470,7 +1479,7 @@ Tel: +371 67364 224
 msd_lv@merck.com
 56
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

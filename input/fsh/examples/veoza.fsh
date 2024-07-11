@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Veoza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ menopause. VMS are also known as hot flashes or night sweats. </p>
 by the brain known as neurokinin B (NKB) that regulates your brain s temperature control centre. As 
 your body goes through menopause, oestrogen levels decline and this balance is disrupted, which can 
 lead to VMS. By blocking NKB binding in your temperature control centre, Veoza reduces the number 
-and intensity of hot flashes and night sweats. </p>         </div>"""   
+and intensity of hot flashes and night sweats. </p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ medicine, stop taking it immediately and talk to your doctor. Women of childbear
 use effective non-hormonal contraception. 
 Driving and using machines 
 Veoza has no effect on the ability to drive or use machines. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veoza"
@@ -155,7 +158,7 @@ not take a double dose to make up for a forgotten individual dose. </p>
 If you stop taking Veoza 
 Do not stop taking this medicine unless your doctor tells you to do so. If you decide to stop taking this 
 medicine before finishing the prescribed course of treatment, you should talk to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -173,7 +176,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veoza"
@@ -185,7 +188,7 @@ of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -274,7 +277,7 @@ Tel: +371 67 619United Kingdom (Northern Ireland)
 Astellas Pharma Co., Limited 
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -313,7 +316,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -322,7 +327,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -337,7 +343,7 @@ Usage: #inline
 3. Sådan skal du tage Veoza 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -352,7 +358,7 @@ som er forbundet med overgangsalderen. VMS er også kendt som hedeture eller nat
 fremstillet af hjernen, der kaldes neurokinin B (NKB), som styrer hjernens temperaturregulerende 
 center. Når din krop går gennem overgangsalderen, sker der en nedgang i østrogenniveauerne, og 
 denne balance forstyrres. Dette kan medføre VMS. Ved at blokere NKB-binding i dit 
-temperaturregulerende center reducerer Veoza antallet og intensiteten af hedeture og nattesved. </p>         </div>"""   
+temperaturregulerende center reducerer Veoza antallet og intensiteten af hedeture og nattesved. </p> </div>"""   
           
 
              
@@ -401,7 +407,7 @@ mens du tager dette lægemiddel, skal du øjeblikkeligt stoppe med at tage det, 
 Kvinder i den fødedygtige alder skal anvende sikker ikke-hormonel prævention. 
 Trafik- og arbejdssikkerhed 
 Veoza påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veoza"
@@ -430,7 +436,7 @@ Hvis du holder op med at tage Veoza
 Du må ikke stoppe med at tage dette lægemiddel, medmindre din læge beder dig om det. Hvis du 
 beslutter dig for at stoppe med at tage dette lægemiddel, inden du har afsluttet det ordinerede 
 behandlingsforløb, skal du først tale med lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -449,7 +455,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veoza"
@@ -461,7 +467,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterpa
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -587,7 +593,7 @@ Astellas Pharma Co., Limited
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
 <p>Denne indlægsseddel blev senest ændret    </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -626,7 +632,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -635,7 +643,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -650,7 +659,7 @@ Usage: #inline
 3. Como tomar Veoza 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Veoza 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -666,7 +675,7 @@ proteína produzida pelo cérebro chamada neurocinina B (NKB) que regula o centr
 temperatura do cérebro. À medida que o corpo atravessa a menopausa, os níveis de estrogénios 
 diminuem e este equilíbrio é alterado, o que pode resultar em SVM. Através do bloqueio da ligação da 
 NKB no centro de controlo da temperatura, Veoza reduz o número e a intensidade de afrontamentos e 
-suores noturnos. </p>         </div>"""   
+suores noturnos. </p> </div>"""   
           
 
              
@@ -716,7 +725,7 @@ enquanto estiver a tomar este medicamento, pare de o tomar imediatamente e fale 
 As mulheres com potencial para engravidar devem utilizar métodos contracetivos não hormonais 
 eficazes. 
 Condução de veículos e utilização de máquinas 
-Veoza não tem qualquer efeito sobre a capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+Veoza não tem qualquer efeito sobre a capacidade de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar veoza"
@@ -746,7 +755,7 @@ Não pare de tomar este medicamento, a não ser que receba indicação do seu m�
 decidir parar de tomar este medicamento antes de terminar o regime de tratamento prescrito, deverá 
 falar com o seu médico em primeiro lugar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -766,7 +775,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar veoza"
@@ -779,7 +788,7 @@ EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -904,7 +913,7 @@ United Kingdom (Northern Ireland)
 Astellas Pharma Co., Limited 
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
 <p>Este folheto foi revisto pela última vez em    </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

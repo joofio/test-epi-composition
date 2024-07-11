@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lacosamide UCB  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ then spread to larger areas on both sides of your brain;
 * in association with other antiepileptic medicines in adults, adolescents and children 
 aged 4 year and older to treat primary generalised tonic-clonic seizures (major fits, 
 including loss of consciousness) in patients with idiopathic generalised epilepsy (the 
-type of epilepsy that is thought to have a genetic cause). </p>         </div>"""   
+type of epilepsy that is thought to have a genetic cause). </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ They will help you decide if you should take Lacosamide UCB or not. </p>
 worsening of your disease can also harm your baby. </p>
 <p>Driving and using machines 
 Do not drive, cycle or use any tools or machines until you know how this medicine affects you. This is 
-because Lacosamide UCB may make you feel dizzy or cause blurred vision.  </p>         </div>"""   
+because Lacosamide UCB may make you feel dizzy or cause blurred vision.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lacosamide"
@@ -227,7 +230,7 @@ normally take it.<br />
 come back again or become worse.<br />
 * If your doctor decides to stop your treatment with Lacosamide UCB, they will tell you how to 
 decrease the dose step by step. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -290,7 +293,7 @@ very common side effect in children and may affect more than 1 in 10 children. <
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lacosamide"
@@ -302,7 +305,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -417,7 +420,7 @@ Tel: + 358 9 2514 4221 (Somija) </p>
 UCB (Pharma) Ireland Ltd. 
 Tel: + 353 / (0)1-46 37 This leaflet was last revised in {month/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -456,7 +459,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -465,7 +470,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -480,7 +486,7 @@ Usage: #inline
 3. Sådan skal De tage Lacosamide UCB 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -512,7 +518,7 @@ og ældre til at behandle primære generaliserede tonisk-kloniske anfald (størr
 herunder tab af bevidsthed) hos patienter med idiopatisk generaliseret epilepsi (den type 
 epilepsi, der menes at have en genetisk årsag). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -622,7 +628,7 @@ hjælpe Dem med at beslutte, om De skal tage Lacosamide UCB eller ej. </p>
 <p>Trafik- og arbejdssikkerhed 
 De må ikke føre motorkøretøj eller betjene maskiner, før De ved, om medicinen påvirker Deres evne 
 til at udføre disse aktiviteter. Dette skyldes, at Lacosamide UCB kan gøre Dem svimmel eller 
-forårsage sløret syn. </p>         </div>"""   
+forårsage sløret syn. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lacosamide"
@@ -771,7 +777,7 @@ kan komme tilbage igen eller blive værre.  </p>
 Dem, hvordan De reducerer dosis trin for trin. 
 Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -904,7 +910,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lacosamide"
@@ -916,7 +922,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1100,7 +1106,7 @@ De har. </p>
 <p>Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

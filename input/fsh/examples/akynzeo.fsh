@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Akynzeo </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ Akynzeo attach to the receptors in the nervous system through which serotonin an
 netupitant (an NK1 receptor antagonist) blocks the receptors for substance P, and palonosetron (a 5-
 HT3 receptor antagonist) blocks certain receptors for serotonin. By blocking the actions of substance P 
 and serotonin in this way, the medicines help prevent the stimulation of the vomiting centre and the 
-resulting sickness. </p>         </div>"""   
+resulting sickness. </p> </div>"""   
           
 
              
@@ -152,7 +155,7 @@ before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium per (23 mg) per hard capsule, that is to say 
 essentially  sodium-free . </p>
 <p>It may contain traces of lecithin - which comes from soya. If you are allergic to peanut or soya, do not 
-use this medicinal product. </p>         </div>"""   
+use this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take akynzeo"
@@ -179,7 +182,7 @@ If you think you have forgotten to take your dose, tell your doctor straight awa
 Akynzeo is taken to help prevent you feeling and being sick when you are having chemotherapy. If 
 you do not want to take Akynzeo, discuss this with your doctor. If you decide not to take Akynzeo (or 
 another similar medicine), your chemotherapy is likely to make you feel sick and be sick. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ in blood tests)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V By reporting side effects, you can help provide more information on the 
-safety of this medicine.  </p>         </div>"""      
+safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store akynzeo"
@@ -268,7 +271,7 @@ safety of this medicine.  </p>         </div>"""
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -374,7 +377,7 @@ information for you. </p>
 <li>If you have any further questions, ask your doctor, pharmacist or nurse. </li>
 <li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -413,7 +416,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -422,7 +427,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -439,7 +445,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -467,7 +473,7 @@ Akynzeo hæfter sig til receptorer i nervesystemet, som serotonin og substans P 
 netupitant (en NK1-receptorantagonist) blokerer receptorerne for substans P, og palonosetron (en 
 5-HT3-receptorantagonist) blokerer visse receptorer for serotonin. Ved at blokere virkningen af 
 substans P og serotonin på denne måde hjælper lægemidlerne med at forhindre stimuleringen af 
-opkastningscentret og den medfølgende kvalme/opkastning. </p>         </div>"""   
+opkastningscentret og den medfølgende kvalme/opkastning. </p> </div>"""   
           
 
              
@@ -578,7 +584,7 @@ sukkerarter. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hård kapsel, dvs. det er i det 
 væsentlige natrium-frit. </p>
 <p>Medicinen kan indeholde spor af lecithin - som kommer fra soja. Du må ikke bruge Akynzeo, hvis du 
-er overfølsom over for jordnødder eller soja. </p>         </div>"""   
+er overfølsom over for jordnødder eller soja. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take akynzeo"
@@ -614,7 +620,7 @@ Akynzeo tages for at hjælpe dig med at forhindre, at du får kvalme og kaster o
 Hvis du ikke vil tage Akynzeo, kan du tale med lægen om det. Hvis du beslutter dig for ikke at tage 
 Akynzeo (eller et andet lignende lægemiddel), er det sandsynligt, at din kemoterapi kan få dig til at få 
 kvalme eller kaste op. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -785,7 +791,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+information om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store akynzeo"
@@ -807,7 +813,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -941,7 +947,7 @@ vigtige oplysninger. </p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Jivi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ Factor VIII is a protein naturally found in the blood that helps to clot it. The
 alfa pegol has been modified (pegylated) to prolong its action in the body. </p>
 <p>Jivi is used to treat and prevent bleeding in previously treated adults and adolescents aged from 
 12 years with haemophilia A (hereditary factor VIII deficiency). It is not for use in children younger 
-than 12 years of age. </p>         </div>"""   
+than 12 years of age. </p> </div>"""   
           
 
              
@@ -122,7 +125,7 @@ your doctor for advice before using this medicine. </p>
 Jivi has no influence on your ability to drive and use machines. </p>
 <p>Jivi contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jivi"
@@ -171,7 +174,7 @@ Inject your next dose immediately and continue at regular intervals as advised b
 Do not use a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Jivi 
 Do not stop using this medicine without checking with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -215,7 +218,7 @@ burning sensation, temporary redness
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jivi"
@@ -238,7 +241,7 @@ refrigerator. </p>
 <p>This medicine is for single use only. Any unused solution must be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist or 
 physician how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -358,7 +361,7 @@ SIA Bayer
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
 Tel: +44-(0)118 206 3 This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -397,7 +400,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -406,7 +411,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -421,7 +427,7 @@ Usage: #inline
 3. Sådan skal du bruge Jivi 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -435,7 +441,7 @@ findes naturligt i blodet, og som hjælper det med at størkne. Proteinet i damo
 blevet modificeret (pegyleret) for at forlænge virkningen i kroppen. </p>
 <p>Jivi anvendes til behandling og forebyggelse af blødning hos tidligere behandlede voksne og unge i 
 alderen fra 12 år med hæmofili A (medfødt faktor VIII mangel). Det må ikke anvendes til børn under 
-12 år. </p>         </div>"""   
+12 år. </p> </div>"""   
           
 
              
@@ -499,7 +505,7 @@ du spørge din læge til råds, før du bruger dette lægemiddel. </p>
 Jivi påvirker ikke din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Jivi indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jivi"
@@ -569,7 +575,7 @@ Injicer din næste dosis med det samme, og fortsæt med regelmæssigt interval, 
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Jivi 
 Du må ikke holde op med at bruge dette lægemiddel uden at aftale det med din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -659,7 +665,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jivi"
@@ -680,7 +686,7 @@ opløsning skal anvendes inden for 3 timer. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker partikler eller hvis opløsningen er uklar. </p>
 <p>Dette lægemiddel er kun til engangsbrug. Ikke anvendt opløsning skal kasseres. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -940,7 +946,7 @@ kompressionsforbinding på indstiksstedet, og hvis nødvendigt et plaster. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må 
 du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 

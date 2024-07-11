@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Teysuno </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ and where it is not possible to continue with another fluoropyrimidine (anti-can
 from the same group of medicines as Teysuno) due to side effects on the skin of hands or feet 
 (hand-foot syndrome) or on the heart. In these patients, Teysuno is used alone or in 
 combination with other anticancer medicines. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ taking any Teysuno capsules).
 If you have taken brivudine you must wait for at least 4 weeks after stopping brivudine before 
 starting to take Teysuno. See also section  Do not take Teysuno . 
 Lactose (one type of sugar). If you have been told by your doctor that you have an intolerance to some 
-sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take teysuno"
@@ -196,7 +199,7 @@ Instead, continue your regular dosing schedule and check with your doctor. </p>
 There are no side effects caused by stopping treatment with Teysuno. In case you are using blood 
 thinning or anti-seizure medicines, stopping Teysuno might require that your doctor adjusts the dose 
 of your medicines. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -302,7 +305,7 @@ please tell your doctor. </li>
 Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store teysuno"
@@ -324,7 +327,7 @@ EXP. The expiry date refers to the last day of the month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines you no longer use. These measures will help to protect the environment. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -464,7 +467,7 @@ important information for you.
 - This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even 
 if their symptoms are the same as yours. 
 - If you get any side effects, talk to your doctor . This includes any possible side effects not listed 
-in this leaflet. See section 4.</p>         </div>"""      
+in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -503,7 +506,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -512,7 +517,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -529,7 +535,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -549,7 +555,7 @@ ikke er muligt at fortsætte med et andet fluoropyrimidin (kræftbehandlinger fr
 lægemiddelgruppe som Teysuno) på grund af bivirkninger på huden på hænder eller fødder 
 (hånd-fod-syndrom) eller på hjertet. Hos sådanne patienter anvendes Teysuno alene eller i 
 kombination med andre lægemidler mod kræft. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -630,7 +636,7 @@ Vær forsigtig når du kører bil eller motorcykel eller betjener maskiner. Teys
 dig kvalme eller sløret syn. Tal med lægen, hvis der er noget, du er i tvivl om. </p>
 <p>Teysuno indeholder<br />
 lactose (et sukkerstof). Hvis din læge har fortalt dig, at du ikke kan tåle visse sukkerarter, skal du kontakte 
-din læge, inden du begynder at tage denne medicin. </p>         </div>"""   
+din læge, inden du begynder at tage denne medicin. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take teysuno"
@@ -666,7 +672,7 @@ den glemte dosis. Fortsæt i stedet med den sædvanlige doseringsplan og spørg 
 Der er ingen bivirkninger ved at stoppe behandlingen med Teysuno. Hvis du får blodfortyndende 
 medicin eller anfaldsmedicin, skal lægen eventuelt justere dosis af lægemidlerne, når du stopper med 
 at tage Teysuno. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -797,7 +803,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store teysuno"
@@ -819,7 +825,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må 
 du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -965,7 +971,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Teysuno til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
-indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

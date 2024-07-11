@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store RILUTEK </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ instructions to the muscles lead to weakness, muscle waste and paralysis. </p>
 chemical messenger) in the brain and spinal cord. RILUTEK stops the release of glutamate and this 
 may help in preventing the nerve cells being damaged. </p>
 <p>Please consult your doctor for more information about ALS and the reason why this medicine has been 
-prescribed for you. </p>         </div>"""   
+prescribed for you. </p> </div>"""   
           
 
              
@@ -123,7 +126,7 @@ You can drive or use any tools or machines, unless you feel dizzy or lightheaded
 medicine. </p>
 <p>RILUTEK contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rilutek"
@@ -142,7 +145,7 @@ immediately.  </p>
 <p>If you forget to take your tablet, leave out that dose completely and take the next tablet at the usual 
 time. 
 Do not take a double dose to make up for a forgotten tablet. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -199,7 +202,7 @@ Very common side effects (may affect more than 1 in 10 people) of RILUTEK are:</
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rilutek"
@@ -209,7 +212,7 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>         </div>"""      
+<p>This medicine does not require any special storage conditions. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ Tel: +46 (0)8 634 50 Latvija
 Swixx Biopharma SIA 
 Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2This leaflet was last approved in {MM/YYYY}. </p>         </div>"""      
+Tel: +44 (0) 800 035 2This leaflet was last approved in {MM/YYYY}. </p> </div>"""      
 
 
 
@@ -342,7 +345,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -351,7 +356,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -366,7 +372,7 @@ Usage: #inline
 3. Sådan skal du tage Rilutek 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -383,7 +389,7 @@ instruktioner til musklerne, fører til muskelsvaghed, muskeltab og lammelse. </
 <p>Ødelæggelsen af nervecellerne i motor-neuronsygdomme kan skyldes for meget glutamat (et kemisk 
 stof) i hjernen og rygmarven. Rilutek forhindrer frigivelsen af glutamat og dette kan hjælpe med at 
 forebygge, at nerveceller bliver ødelagt.<br />
-Få mere information hos din læge om ALS, og hvorfor du får denne medicin </p>         </div>"""   
+Få mere information hos din læge om ALS, og hvorfor du får denne medicin </p> </div>"""   
           
 
              
@@ -423,7 +429,7 @@ Du kan køre bil og anvende værktøj og maskiner, når du tager Rilutek, medmin
 svimmel eller omtåget. </p>
 <p>Rilutek indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rilutek"
@@ -439,7 +445,7 @@ om morgenen og om aftenen). </p>
 Hvis du har taget for mange tabletter, skal du straks kontakte læge eller skadestue. </p>
 <p>Hvis du har glemt at tage Rilutek 
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -499,7 +505,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rilutek"
@@ -509,7 +515,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
-<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>         </div>"""      
+<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -628,7 +634,7 @@ Tel: +371 6 616 47<br />
 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2 </p>
-<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>         </div>"""      
+<p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p> </div>"""      
 
 
 

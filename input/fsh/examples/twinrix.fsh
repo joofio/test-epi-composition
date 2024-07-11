@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Twinrix Paediatric </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ or saliva (spit) of infected people. </p>
 </li>
 </ul>
 <p>Vaccination is the best way to protect against these diseases. None of the components in the vaccine 
-are infectious.  </p>         </div>"""   
+are infectious.  </p> </div>"""   
           
 
              
@@ -134,7 +137,7 @@ cause problems in breast-fed babies. </p>
 <p>Twinrix Paediatric contains neomycin and sodium 
 Please tell your doctor if you have had an allergic reaction to neomycin (antibiotic). 
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take twinrix"
@@ -159,7 +162,7 @@ protected against the diseases. </p>
 <p>The doctor will give Twinrix Paediatric as an injection into your upper arm muscle or into the thigh 
 muscle of your child.   </p>
 <p>The vaccine should never be given into a vein. </p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -205,7 +208,7 @@ of these symptoms you should contact a doctor urgently. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.   </p>         </div>"""      
+this medicine.   </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store twinrix"
@@ -219,7 +222,7 @@ the last day of that month. </p>
 Store in the original package in order to protect from light. <br />
 Do not freeze.  Freezing destroys the vaccine. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -328,7 +331,7 @@ GlaxoSmithKline Biologicals SA
 Tel: +44(0)800 221customercontactuk@gsk.com 
 This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -367,7 +370,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -376,7 +381,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -391,7 +397,7 @@ Usage: #inline
 3. Sådan får du Twinrix Pædiatrisk 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -420,7 +426,7 @@ smittede personer. </p>
 </li>
 </ul>
 <p>Vaccination er den bedste måde at beskytte sig mod sygdommene på. Ingen af komponenterne i 
-vaccinen er smitsomme. </p>         </div>"""   
+vaccinen er smitsomme. </p> </div>"""   
           
 
              
@@ -480,7 +486,7 @@ forårsage problemer for det ammede barn. </p>
 <p>Twinrix Pædiatrisk indeholder neomycin og natrium 
 Fortæl lægen, hvis du er overfølsom over for neomycin (et antibiotikum). 
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium, dvs. den er i det væsentlige 
-natriumfri. </p>         </div>"""   
+natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take twinrix"
@@ -507,7 +513,7 @@ seks måneder efter den første dosis. </p>
 måske ikke beskyttet mod disse sygdomme. </p>
 <p>Lægen vil give Twinrix Pædiatrisk som en injektion i din øvre armmuskel eller i dit barns lårmuskel. </p>
 <p>Vaccinen må aldrig gives direkte ind i en blodåre. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -556,7 +562,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store twinrix"
@@ -570,7 +576,7 @@ dag i den nævnte måned. </p>
 Opbevares i den originale yderpakning for at beskytte mod lys. 
 Må ikke nedfryses. Frysning ødelægger vaccinen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -734,7 +740,7 @@ Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale
 Cylinder 
 Hætte 
 Luer Lock Adapter 
-Nålebase </p>         </div>"""      
+Nålebase </p> </div>"""      
 
 
 

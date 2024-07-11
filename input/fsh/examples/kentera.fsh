@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kentera </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kentera is used in adults to control the symptoms of urge incontinence and/or increased urinary 
 frequency and urgency. </p>
-<p>Kentera works by allowing the bladder to expand and accommodate more urine. </p>         </div>"""   
+<p>Kentera works by allowing the bladder to expand and accommodate more urine. </p> </div>"""   
           
 
              
@@ -137,7 +140,7 @@ your doctor or pharmacist for advice before using this medicine. </p>
 of oxybutynin while breast-feeding is therefore not recommended. </p>
 <p>Driving and using machines 
 Because Kentera may produce drowsiness, somnolence, or blurred vision, patients should be advised 
-to exercise caution when driving or using machinery. </p>         </div>"""   
+to exercise caution when driving or using machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kentera"
@@ -234,7 +237,7 @@ day of application. </p>
 <p>If you stop using Kentera 
 Your urge incontinence may return and you may have increased urinary frequency if you decide to 
 stop using the patch. Continue to use Kentera as long as your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -283,7 +286,7 @@ stop using the patch. Continue to use Kentera as long as your doctor tells you t
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kentera"
@@ -297,7 +300,7 @@ date refers to the last day of that month. </p>
 <p>The used patches should be folded in half, adhesive side inwards so that the release membrane is not 
 exposed, placed in the original sachet and then discarded safely out of the reach of children. Any used 
 or unused patches should be discarded according to local requirements or returned to the pharmacy. 
-Used patches should not be flushed down the toilet nor placed in liquid waste disposal systems. </p>         </div>"""      
+Used patches should not be flushed down the toilet nor placed in liquid waste disposal systems. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -395,7 +398,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Accord Healthcare Ireland Ltd. 
 Ireland 
 Tel: +353 214619This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -434,7 +437,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -443,7 +448,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -460,7 +466,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -470,7 +476,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kentera anvendes hos voksne til at kontrollere symptomer på ufrivillig vandladning (urge-inkontinens) 
 og/eller øget vandladningshyppighed og -trang. </p>
-<p>Kentera virker ved at gøre det muligt for blæren at udvide sig og rumme mere urin.  </p>         </div>"""   
+<p>Kentera virker ved at gøre det muligt for blæren at udvide sig og rumme mere urin.  </p> </div>"""   
           
 
              
@@ -535,7 +541,7 @@ du spørge din læge eller apotekspersonalet til råds, før du bruger dette læ
 derfor ikke anvendes i amningsperioden. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Da Kentera kan medføre døsighed, søvnighed eller sløret syn, skal patienterne rådes til at udvise 
-forsigtighed, når de fører motorkøretøj eller betjener maskiner.  </p>         </div>"""   
+forsigtighed, når de fører motorkøretøj eller betjener maskiner.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kentera"
@@ -633,7 +639,7 @@ nyt plaster på en planlagt dag. </p>
 Din urge-inkontinens kan komme igen, og du kan opleve en øget vandladningshyppighed, hvis du 
 beslutter dig for at holde op med at bruge plasteret. Fortsæt med at bruge Kentera, så længe som din 
 læge har anvist. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -685,7 +691,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kentera"
@@ -700,7 +706,7 @@ dag i den nævnte måned. </p>
 stofafgivende hinde er tildækket. Det brugte plaster anbringes derefter i det originale brev og 
 bortskaffes på forsvarlig vis, så det er utilgængeligt for børn. Brugte og ubrugte plastre skal 
 bortskaffes i henhold til lokale retningslinjer eller indleveres på apoteket. Brugte plastre må ikke 
-skylles ud i toilet eller afløb. </p>         </div>"""      
+skylles ud i toilet eller afløb. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -886,7 +892,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Kentera til dig personligt. Lad derfor være med at give medicinen til andre. 
 Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, som ikke er nævnt i denne 
-indlægsseddel. Se punkt 4. </p>         </div>"""      
+indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -925,7 +931,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -934,7 +942,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -951,7 +960,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Kentera </li>
 <li>Outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -961,7 +970,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kentera é utilizado em adultos para controlar os sintomas de incontinência de urgência e/ou aumento da 
 frequência e urgência de urinar. </p>
-<p>Kentera funciona ao permitir que a bexiga se expanda e acomode mais urina. </p>         </div>"""   
+<p>Kentera funciona ao permitir que a bexiga se expanda e acomode mais urina. </p> </div>"""   
           
 
              
@@ -1021,7 +1030,7 @@ farmacêutico antes de utilizar este medicamento. </p>
 materno. Por conseguinte, não é recomendada a utilização de oxibutinina durante a amamentação. </p>
 <p>Condução de veículos e utilização de máquinas 
 Como Kentera pode produzir torpor, sonolência ou visão turva, os doentes devem ser aconselhados a ter 
-prudência ao conduzir veículos e utilizar máquinas. </p>         </div>"""   
+prudência ao conduzir veículos e utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar kentera"
@@ -1125,7 +1134,7 @@ para a aplicação. </p>
 <p>Se parar de utilizar Kentera 
 A sua incontinência de urgência pode voltar e pode sentir um aumento da frequência de urinar, se decidir 
 parar de usar o sistema transdérmico. Continue a utilizar Kentera, enquanto o seu médico aconselhar. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1177,7 +1186,7 @@ manifestem em todas as pessoas. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
-ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar kentera"
@@ -1192,7 +1201,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 face que liberta o medicamento não esteja exposta ao ar, colocado na saqueta de origem e, então, deitado 
 fora cuidadosamente sem ficar ao alcance das crianças. Qualquer sistema transdérmico, usado ou não, 
 deve ser deitado fora de acordo com as exigências locais ou devolvido à farmácia. Os sistemas 
-transdérmicos usados não devem ser eliminados na sanita nem em qualquer sistema de lixo líquido. </p>         </div>"""      
+transdérmicos usados não devem ser eliminados na sanita nem em qualquer sistema de lixo líquido. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1326,7 +1335,7 @@ Accord Healthcare Ireland Ltd.
 Ireland 
 Tel: +353 214619 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

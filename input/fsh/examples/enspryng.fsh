@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Enspryng  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +93,7 @@ comes back (relapse). The swelling causes new symptoms or a return of previous s
 <p>How Enspryng works </p>
 <p>Enspryng blocks the action of a protein called interleukin-6 (IL-6), which is involved in the processes 
 that lead to damage and swelling in the nervous system. By blocking its effects, Enspryng reduces the 
-risk of a relapse or attack of NMOSD. </p>         </div>"""   
+risk of a relapse or attack of NMOSD. </p> </div>"""   
           
 
              
@@ -159,7 +161,7 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Your doctor may advise you to stop breast-feeding if you are to be given Enspryng. It is not known 
 whether Enspryng passes into breast milk. </p>
 <p>Driving and using machines </p>
-<p>Enspryng is not likely to affect you being able to drive, cycle or use any tools or machines. </p>         </div>"""   
+<p>Enspryng is not likely to affect you being able to drive, cycle or use any tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enspryng"
@@ -202,7 +204,7 @@ injection should be either:
 <p>Check with your doctor, pharmacist or nurse if you are not sure.  </p>
 <p>If you stop using Enspryng </p>
 <p>Do not suddenly stop using Enspryng without asking your doctor first. If you have any further 
-questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -264,7 +266,7 @@ particularly in the first 24 hours after the injection:
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enspryng"
@@ -290,7 +292,7 @@ medicine from drying out and blocking the needle. If the pre-filled syringe is n
 minutes of removing the cap, you must dispose of it in a puncture-resistant container and use a new 
 pre-filled syringe. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -384,7 +386,7 @@ Roche Latvija SIA<br />
 Tel: +371 - 6 7039United Kingdom (Northern Ireland)<br />
 Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -423,7 +425,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -432,7 +436,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsvejledning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsvejledning </p>  </div>"""   
 
 
 
@@ -449,7 +453,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -482,7 +486,7 @@ symptomer vender tilbage. </p>
 <p>Sådan virker Enspryng </p>
 <p>Enspryng blokerer virkningen af et protein, der hedder interleukin-6 (IL-6), der er en del af de 
 processer, der medfører skade og hævelser i nervesystemet. Ved at blokere virkningen, mindsker 
-Enspryng risikoen for tilbagefald eller attak hos patienter med NMOSD. </p>         </div>"""   
+Enspryng risikoen for tilbagefald eller attak hos patienter med NMOSD. </p> </div>"""   
           
 
              
@@ -581,7 +585,7 @@ du spørge lægen eller apotekspersonalet til råds, før du bruger dette lægem
 vides ikke, om Enspryng udskilles i brystmælk. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Enspryng vil sandsynligvis ikke påvirke din evne til at føre motorkøretøj, cykle, betjene værktøj eller 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enspryng"
@@ -649,7 +653,7 @@ glemte indsprøjtning, skal næste indsprøjtning enten gives: </p>
 <p>Kontakt lægen, apoteket eller sygeplejersken, hvis du er i tvivl. </p>
 <p>Hvis du holder op med at bruge Enspryng </p>
 <p>Det er vigtigt, at du ikke holder op med at tage Enspryng uden at snakke med lægen først. Spørg 
-lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -788,7 +792,7 @@ lavt antal blodplader (som nemt kan medføre blødning og blå mærker) </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enspryng"
@@ -826,7 +830,7 @@ den fyldte sprøjte tørrer ud og blokerer kanylen. Hvis den fyldte sprøjte ikk
 minutter, efter hætten er fjernet, skal den smides i en beholder til skarpe genstande, og en ny fyldt 
 sprøjte gøres klar. </p>
 <p>Spørg på apoteket, hvordan du kommer af med medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1206,7 +1210,7 @@ skarpe genstande, når den er fuld.  </p>
 <li>
 <p>Beholderen til skarpe genstande må ikke genbruges. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

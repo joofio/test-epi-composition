@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Bavencio </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ chemotherapy as the first treatment.<br />
 the kidney or to other parts of the body). </p>
 <p>For renal cell cancer, Bavencio is to be used in combination with axitinib. </p>
 <p>It is important that you also read the package leaflet for the medicine containing axitinib. If you have 
-any questions about axitinib, ask your doctor. </p>         </div>"""   
+any questions about axitinib, ask your doctor. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ Tiredness is a very common side effect of Bavencio and can affect your ability t
 machines. </p>
 <p>Bavencio has a low sodium content 
 Bavencio contains less than 1 mmol sodium (23 mg) in each dose and therefore is essentially 
-sodium-free. </p>         </div>"""   
+sodium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bavencio"
@@ -184,7 +187,7 @@ appointment, ask your doctor when to schedule your next dose. </p>
 <p>If you stop receiving Bavencio 
 Do not stop treatment with Bavencio unless you have discussed this with your doctor. Stopping your 
 treatment may stop the effect of the medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ axitinib: </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bavencio"
@@ -344,7 +347,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not freeze. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not store any unused portion of the concentrate or of the diluted infusion solution for reuse. </p>
-<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -373,7 +376,7 @@ Via Delle Magnolie 15 (loc. frazione Zona Industriale)
 Italy </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -412,7 +415,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -421,7 +426,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -438,7 +444,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -469,7 +475,7 @@ end nyrerne eller til andre dele af kroppen). </p>
 </ul>
 <p>For renalcellekræft skal Bavencio anvendes i kombination med axitinib.  </p>
 <p>Det er vigtigt, at du også læser indlægssedlen for lægemidlet, der indeholder axitinib. Spørg lægen, 
-hvis du har spørgsmål om axitinib. </p>         </div>"""   
+hvis du har spørgsmål om axitinib. </p> </div>"""   
           
 
              
@@ -588,7 +594,7 @@ godt nok. Træthed er en meget almindelig bivirkning ved Bavencio, og det kan p�
 føre motorkøretøj eller betjene maskiner. </p>
 <p>Bavencio har et lavt natriumindhold 
 Bavencio indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, og derfor er det i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bavencio"
@@ -613,7 +619,7 @@ en aftale, skal du spørge lægen om, hvornår din næste dosis skal planlægges
 <p>Hvis du holder op med at få Bavencio 
 Du må ikke holde op med behandlingen med Bavencio, medmindre du har diskuteret det med lægen. 
 Hvis du holder op med behandlingen, kan det stoppe lægemidlets virkning. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -891,7 +897,7 @@ Hvis du oplever bivirkninger bør du tale med din læge. Dette gælder også mul
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bavencio"
@@ -906,7 +912,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Ubrugte dele af koncentratet eller af den fortyndede infusionsopløsning må ikke opbevares til genbrug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -998,7 +1004,7 @@ begrundelser for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for avelumab er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder avelumab, forbliver uændret 
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -1037,7 +1043,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1046,7 +1054,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1063,7 +1072,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Bavencio </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1095,7 +1104,7 @@ quimioterapia à base de platina como primeiro tratamento. </p>
 </ul>
 <p>No cancro de células renais, Bavencio deve ser utilizado em combinação com axitinib. </p>
 <p>É importante que leia também o folheto informativo do medicamento contendo axitinib. Caso ainda 
-tenha dúvidas sobre axitinib, consulte o seu médico. </p>         </div>"""   
+tenha dúvidas sobre axitinib, consulte o seu médico. </p> </div>"""   
           
 
              
@@ -1215,7 +1224,7 @@ suficientemente bem. O cansaço é um efeito indesejável muito frequente de Bav
 sua capacidade de conduzir ou utilizar máquinas. </p>
 <p>Bavencio tem um baixo teor de sódio 
 Bavencio contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente isento de 
-sódio. </p>         </div>"""   
+sódio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar bavencio"
@@ -1242,7 +1251,7 @@ esquecido de uma marcação, pergunte ao seu médico quando pode marcar o tratam
 <p>Se parar de receber Bavencio<br />
 Não pare o tratamento com Bavencio, a menos que tenha discutido o assunto com seu médico. A 
 interrupção do tratamento pode parar o efeito do medicamento. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1548,7 +1557,7 @@ consumo de alimentos que contêm glúten) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar bavencio"
@@ -1565,7 +1574,7 @@ indicado. </p>
 <p>Não conservar qualquer porção não utilizada do concentrado ou da solução para perfusão diluída para 
 reutilização. </p>
 <p>Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências 
-locais. </p>         </div>"""      
+locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1594,7 +1603,7 @@ Via Delle Magnolie 15 (loc. frazione Zona Industriale)
 Itália </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

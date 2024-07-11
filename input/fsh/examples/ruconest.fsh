@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ruconest </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ blood disorder, called Hereditary Angioedema (HAE). These patients have a shorta
 protein in their blood. This can lead to repeated attacks of swelling, pain in the abdomen, difficulty breathing 
 and other symptoms. </p>
 <p>The administration of Ruconest is to resolve the shortage of C1 inhibitor and will lead to reduction of 
-symptoms of an acute attack of HAE. </p>         </div>"""   
+symptoms of an acute attack of HAE. </p> </div>"""   
           
 
              
@@ -114,7 +117,7 @@ If you plan becoming pregnant, discuss with your doctor before starting to use R
 <p>Driving and using machines 
 Do not drive or use machinery if you feel dizzy or suffer from headache after using Ruconest.  </p>
 <p>Ruconest contains sodium (19.5 mg per vial) 
-This should be taken into consideration by patients on a controlled sodium diet. </p>         </div>"""   
+This should be taken into consideration by patients on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ruconest"
@@ -129,7 +132,7 @@ by a nurse. Your dose, up to 2 vials, will be worked out based on your weight. <
 administered if your symptoms do not improve after 120 minutes (for adults and adolescents) or 60 minutes 
 (for children). No more than 2 doses should be given within 24 hours. </p>
 <p>The instructions for use are clearly described in the doctor s information leaflet and are attached. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -158,7 +161,7 @@ Common: may affect up to 1 in 10 people
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in the leaflet. 
 You can also report side effects directly via the national reporting system listed in Appendix V. By reporting 
-side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ruconest"
@@ -173,7 +176,7 @@ Store in the original package in order to protect from light. </p>
 <p>Before Ruconest can be administered, it needs to be dissolved in water for injections, by a healthcare 
 professional. 
 Once reconstituted, the product should be used immediately.<br />
-Do not use this medicine if you notice particles in the solution or if the solution is discoloured. </p>         </div>"""      
+Do not use this medicine if you notice particles in the solution or if the solution is discoloured. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -198,7 +201,7 @@ Pharming Technologies B.V.
 Darwinweg 2333 CR Leiden 
 The Netherlands </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -237,7 +240,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -246,7 +251,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -263,7 +269,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -278,7 +284,7 @@ blodsygdom, som kaldes hereditært angioødem (HAE). Disse patienter mangler pro
 i blodet. Dette kan føre til gentagne anfald af hævelse, mavesmerter, vejrtrækningsbesvær og andre 
 symptomer. </p>
 <p>Ruconest gives for at afhjælpe manglen på C1-inhibitor og lindre symptomerne fra et akut anfald af 
-HAE. </p>         </div>"""   
+HAE. </p> </div>"""   
           
 
              
@@ -322,7 +328,7 @@ Hvis du planlægger at blive gravid, skal du spørge din læge til råds, før d
 Lad være med at køre bil eller arbejde med maskiner, hvis du føler dig svimmel eller har hovedpine 
 efter brug af Ruconest.  </p>
 <p>Ruconest indeholder natrium (19,5 mg per hætteglas) 
-Dette bør tages i betragtning hos patienter på saltfattig diæt. </p>         </div>"""   
+Dette bør tages i betragtning hos patienter på saltfattig diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ruconest"
@@ -337,7 +343,7 @@ sygeplejerske. Din dosis, op til 2 hætteglas, udregnes på basis af din vægt. 
 dosis, hvis dine symptomer ikke forbedres efter 120 minutter (for voksne og unge) eller 60 minutter 
 (for børn). Der må ikke gives mere end 2 doser inden for 24 timer. </p>
 <p>Brugsanvisningen er tydeligt angivet i lægens informationsfolder og er vedhæftet. </p>
-<p>Er du i tvivl, så spørg lægen eller sundhedspersonalet. </p>         </div>"""         
+<p>Er du i tvivl, så spørg lægen eller sundhedspersonalet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -390,7 +396,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ruconest"
@@ -404,7 +410,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Før Ruconest kan administreres af sundhedspersonale, skal det opløses i vand til injektionsvæsker. 
 Når først produktet er opløst, skal det anvendes omgående. 
-Brug ikke lægemiddlet, hvis opløsningen indeholder partikler eller er misfarvet. </p>         </div>"""      
+Brug ikke lægemiddlet, hvis opløsningen indeholder partikler eller er misfarvet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -487,7 +493,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give det til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, hvis en bivirkning bliver værre, eller du får bivirkninger, som ikke er nævnt her. 
-Se punkt 4. </p>         </div>"""      
+Se punkt 4. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Veltassa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ in their blood. </p>
 even paralysis. High potassium levels can also result in an abnormal heartbeat, which can cause 
 serious effects on your or your child s heart rhythm. </p>
 <p>This medicine works by attaching to potassium in the gut. This prevents potassium from entering the 
-bloodstream and lowers potassium levels in blood back to normal. </p>         </div>"""   
+bloodstream and lowers potassium levels in blood back to normal. </p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ and mild laxative effect. </p>
 <p>Veltassa contains calcium<br />
 If your doctor has told you to limit calcium in your or your child s diet, talk to your doctor before you 
 use this medicine. Your doctor will check the calcium level during treatment with this medicine for at 
-least 1 month. </p>         </div>"""   
+least 1 month. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veltassa"
@@ -196,7 +199,7 @@ If you or your child have missed a dose, take it as soon as possible on the same
 double dose to make up for a forgotten dose. If you miss more than one dose, contact your doctor. </p>
 <p>If you stop taking Veltassa 
 Do not stop using this medicine without your doctor s approval, as the potassium blood level may 
-increase. </p>         </div>"""         
+increase. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -221,7 +224,7 @@ age. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veltassa"
@@ -234,7 +237,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store and transport refrigerated (2 C   8 C). </p>
 <p>Once you have received this medicine, it can be stored below 25 C for up to 6 months. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ Tour Franklin La D fense 8
 92042 Paris La D fense Cedex 
 France </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -308,7 +311,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -317,7 +322,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -332,7 +338,7 @@ Usage: #inline
 3. Sådan skal du tage Veltassa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -347,7 +353,7 @@ af kalium i blodet. </p>
 svaghed eller endda lammelse. Høje niveauer af kalium kan også medføre en unormal hjerterytme, 
 hvilket kan påvirke din eller dit barns hjerterytme alvorligt. </p>
 <p>Dette lægemiddel fungerer ved at binde sig til kalium i tarmen. Dette forhindrer kalium i at komme ind 
-i blodbanen, så niveauet af kalium i blodet falder til det normale niveau. </p>         </div>"""   
+i blodbanen, så niveauet af kalium i blodet falder til det normale niveau. </p> </div>"""   
           
 
              
@@ -430,7 +436,7 @@ afførende virkning. </p>
 <p>Veltassa indeholder calcium 
 Hvis din læge har fortalt dig, at du skal begrænse calcium i din eller dit barns kost, skal du tale med 
 din læge før du bruger dette lægemiddel. Din læge vil overvåge calciumniveauer i mindst 1 måned 
-under behandling med dette lægemiddel. </p>         </div>"""   
+under behandling med dette lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veltassa"
@@ -519,7 +525,7 @@ dag. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tal m
 har glemt mere end én dosis. </p>
 <p>Hvis du holder op med at tage Veltassa 
 Du må ikke holde op med at bruge dette lægemiddel uden din læges accept, da niveauet af kalium i<br />
-blodet kan stige. </p>         </div>"""         
+blodet kan stige. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -565,7 +571,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veltassa"
@@ -578,7 +584,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab og transporteres nedkølet (2°C - 8°C). </p>
 <p>Når du har modtaget dette lægemiddel, kan du opbevare det under 25 °C i op til 6 måneder. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -624,7 +630,7 @@ Tour Franklin La Défense 8
 Frankrig </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -663,7 +669,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -672,7 +680,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -687,7 +696,7 @@ Usage: #inline
 3. Como tomar Veltassa 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Veltassa 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -703,7 +712,7 @@ músculos. Isto pode causar fraqueza ou mesmo paralisia. Os níveis elevados de 
 podem resultar em batimento cardíaco anormal, o que pode causar efeitos graves no seu ritmo cardíaco 
 ou do(a) seu(sua) filho(a). </p>
 <p>Este medicamento funciona através da ligação ao potássio no intestino. Isto previne que o potássio 
-entre na corrente sanguínea e diminua os níveis de potássio no sangue para níveis normais. </p>         </div>"""   
+entre na corrente sanguínea e diminua os níveis de potássio no sangue para níveis normais. </p> </div>"""   
           
 
              
@@ -789,7 +798,7 @@ este medicamento. O sorbitol pode causar desconforto gastrointestinal e ter um e
 <p>Veltassa contém cálcio 
 Se o seu médico lhe disse para limitar o cálcio na sua dieta ou na dieta do(a) seu(sua) filho(a), fale com 
 o seu médico antes de utilizar este medicamento. O seu médico verificará o nível de cálcio durante o 
-tratamento com este medicamento ao longo de, pelo menos, 1 mês. </p>         </div>"""   
+tratamento com este medicamento ao longo de, pelo menos, 1 mês. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar veltassa"
@@ -881,7 +890,7 @@ rapidamente possível, no mesmo dia. Não tome uma dose a dobrar para compensar 
 esqueceu de tomar. Se se esquecer de tomar mais do que uma dose, contacte o seu médico. </p>
 <p>Se parar de tomar Veltassa 
 Não pare de utilizar este medicamento sem o consentimento do seu médico, uma vez que o nível de 
-potássio no sangue pode aumentar. </p>         </div>"""         
+potássio no sangue pode aumentar. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -928,7 +937,7 @@ com 6 a 17 anos de idade. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar veltassa"
@@ -943,7 +952,7 @@ após «VAL.». O prazo de validade corresponde ao último dia do mês indicado.
 máximo, 6 meses. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -989,7 +998,7 @@ Tour Franklin La Défense 8
 92042 Paris La Défense Cedex 
 França </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

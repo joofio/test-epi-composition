@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Talzenna  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ sure that Talzenna is right for you.
 longer respond to a hormone therapy or surgical treatment to lower testosterone. </p>
 <p>Talzenna is used when the cancer has spread beyond the original tumour or to other parts of the body. </p>
 <p>If you have any questions about how Talzenna works or why this medicine has been prescribed for 
-you, ask your doctor. </p>         </div>"""   
+you, ask your doctor. </p> </div>"""   
           
 
              
@@ -184,7 +187,7 @@ known if Talzenna passes into breast milk. </p>
 Talazoparib may reduce fertility in men. </p>
 <p>Driving and using machines 
 Talzenna may have a minor influence on the ability to drive and use machines. If you feel dizzy, weak, 
-or tired (these are very common side effects of Talzenna), you should not drive or use machines. </p>         </div>"""   
+or tired (these are very common side effects of Talzenna), you should not drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take talzenna"
@@ -215,7 +218,7 @@ If you miss a dose or vomit, take your next dose as scheduled. Do not take a dou
 for the forgotten or vomited capsules. </p>
 <p>If you stop taking Talzenna 
 Do not stop taking Talzenna unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ syndrome or acute myeloid leukaemia). See Warnings and precautions in Section 2 
 If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store talzenna"
@@ -270,7 +273,7 @@ after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use this medicine if the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -384,7 +387,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35 This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -423,7 +426,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -432,7 +437,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -447,7 +453,7 @@ Usage: #inline
 3. Sådan skal du tage Talzenna 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -474,7 +480,7 @@ Talzenna bruges når kræften har spredt sig ud over den oprindelige tumor eller
 kroppen.
 Hvis du har spørgsmål til, hvordan Talzenna virker, eller hvorfor dette lægemiddel er ordineret til dig, 
 skal du spørge din læge.
-50</p>         </div>"""   
+50</p> </div>"""   
           
 
              
@@ -581,7 +587,7 @@ Talazoparib kan nedsætte mænds frugtbarhed.
 Trafik- og arbejdssikkerhed
 Talzenna kan i mindre grad påvirke evnen til at føre motorkøretøj og betjene maskiner. Hvis du føler 
 dig svimmel, svag eller træt (meget almindelige bivirkninger ved Talzenna), skal du undgå at køre bil 
-eller betjene maskiner.</p>         </div>"""   
+eller betjene maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take talzenna"
@@ -612,7 +618,7 @@ Hvis du glemmer en dosis eller kaster op, skal du tage din næste dosis som plan
 en dobbeltdosis som erstatning for de glemte kapsler eller kapsler, du har kastet op.
 Hvis du holder op med at tage Talzenna
 Du må ikke stoppe med at tage Talzenna, medmindre din læge fortæller dig det.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -673,7 +679,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store talzenna"
@@ -686,7 +692,7 @@ sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Tag ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på, at den har været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -838,7 +844,7 @@ Tel: + 371 670 35 775
 Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ.
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: https://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside: https://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -877,7 +883,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -886,7 +894,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -901,7 +910,7 @@ Usage: #inline
 3. Como tomar Talzenna 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Talzenna 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -928,7 +937,7 @@ Talzenna é utilizado quando o cancro se espalhou para além do tumor original o
 corpo.<br />
 Se tiver quaisquer dúvidas sobre como Talzenna atua ou por que motivo este medicamento lhe foi 
 receitado, pergunte ao seu médico.
-52</p>         </div>"""   
+52</p> </div>"""   
           
 
              
@@ -1042,7 +1051,7 @@ Condução de veículos e utilização de máquinas
 Os efeitos de Talzenna sobre a capacidade de conduzir e utilizar máquinas são reduzidos. Se sentir 
 tonturas, fraqueza ou cansaço (estes são efeitos indesejáveis muito frequentes de Talzenna), não deve 
 conduzir ou utilizar máquinas.
-54</p>         </div>"""   
+54</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar talzenna"
@@ -1076,7 +1085,7 @@ que vomitou.
 Se parar de tomar Talzenna
 Não pare de tomar Talzenna a não ser que o seu médico lhe diga para o fazer.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1139,7 +1148,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar talzenna"
@@ -1154,7 +1163,7 @@ Não utilize este medicamento se a embalagem estiver danificada ou se mostrar si
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-56</p>         </div>"""      
+56</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1311,7 +1320,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: + 371 670 35 775
 Este folheto foi revisto pela última vez em MM/AAAA.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

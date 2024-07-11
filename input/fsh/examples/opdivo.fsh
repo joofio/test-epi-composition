@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store OPDIVO </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -102,7 +105,7 @@ off your T cells. This helps increase their activity against the melanoma, lung,
 and neck, bladder, colon, rectal, stomach, oesophageal or gastro-oesophageal junction cancer cells. </p>
 <p>OPDIVO may be given in combination with other anti-cancer medicines. It is important that you also 
 read the package leaflet for these other medicines. If you have any questions about these medicines, 
-please ask your doctor. </p>         </div>"""   
+please ask your doctor. </p> </div>"""   
           
 
              
@@ -205,7 +208,7 @@ OPDIVO contains 10 mg sodium per 4 mL vial, 25 mg sodium per 10 mL vial, 30 mg s
 respectively, of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>You will also find key messages from this package leaflet in the patient alert card you have been given 
 by your doctor. It is important that you keep this patient alert card and show it to your partner or 
-caregivers. </p>         </div>"""   
+caregivers. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opdivo"
@@ -299,7 +302,7 @@ unless you have discussed this with your doctor. </p>
 When OPDIVO is given in combination with other anti-cancer medicines, you will first be given 
 OPDIVO followed by the other medicine. </p>
 <p>Please refer to the package leaflet of these other medicines in order to understand the use of these 
-medicines. If you have questions about them, please ask your doctor. </p>         </div>"""         
+medicines. If you have questions about them, please ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -521,7 +524,7 @@ starch
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opdivo"
@@ -537,7 +540,7 @@ Store in the original package in order to protect from light.
 The unopened vial can be stored at controlled room temperature up to 25 C with room light for up to 
 48 hours. </p>
 <p>Do not store any unused portion of the infusion solution for reuse. Any unused medicine or waste 
-material should be disposed of in accordance with local requirements. </p>         </div>"""      
+material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -571,7 +574,7 @@ Cruiserath Road, Mulhuddart
 Dublin 15, D15 H6EF 
 Ireland </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -610,7 +613,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -619,7 +624,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -636,7 +642,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -707,7 +713,7 @@ kræftceller ved melanom, lungekræft, nyrekræft, lymfekræft, hoved-halskræft
 tyktarmskræft, endetarmskræft, mavekræft, spiserørskræft eller gastroøsofageal junction kræft. </p>
 <p>Du får muligvis OPDIVO sammen med andre lægemidler mod kræft. Det er vigtigt, at du også læser 
 indlægssedlen for disse andre lægemidler. Spørg lægen, hvis du har nogen spørgsmål om disse 
-lægemidler. </p>         </div>"""   
+lægemidler. </p> </div>"""   
           
 
              
@@ -871,7 +877,7 @@ natrium i hvert 10 ml hætteglas, 30 mg natrium i hvert 12 ml hætteglas eller 6
 maksimale daglige indtagelse af natrium for en voksen. </p>
 <p>Hovedbudskaberne fra denne indlægsseddel står også i det patient-informationskort, som du har fået af 
 din læge. Det er vigtigt, at du har patient-informationskortet på dig og viser det til din partner eller 
-omsorgsperson. </p>         </div>"""   
+omsorgsperson. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opdivo"
@@ -958,7 +964,7 @@ med OPDIVO, medmindre du har aftalt det med lægen. </p>
 <p>Hvis du får OPDIVO i kombination med andre lægemidler mod kræft, vil du få OPDIVO først 
 efterfulgt af det andet lægemiddel. </p>
 <p>Du skal læse indlægssedlen for de andre lægemidler, så du også kender til brugen af disse lægemidler. 
-Kontakt lægen, hvis du har spørgsmål til disse andre lægemidler. </p>         </div>"""         
+Kontakt lægen, hvis du har spørgsmål til disse andre lægemidler. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1435,7 +1441,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opdivo"
@@ -1452,7 +1458,7 @@ Det uåbnede hætteglas kan opbevares ved stuetemperaturer på op til 25 °C og 
 48 timer. </p>
 <p>Eventuelle rester af infusionsvæsken må ikke gemmes til senere brug. Spørg apotekspersonalet, 
 hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i 
-afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1658,7 +1664,7 @@ brug være brugerens ansvar og vil normalt ikke være længere end 7 dage ved 2 
 sikres ved klargørelse af infusionen. </p>
 <p>Bortskaffelse 
 Eventuelle rester af infusionsvæsken må ikke gemmes til senere brug. Ikke anvendte lægemidler 
-samt affald heraf bør bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+samt affald heraf bør bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -1697,7 +1703,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1706,7 +1714,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1723,7 +1732,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar OPDIVO </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1794,7 +1803,7 @@ melanoma, do pulmão, do rim, do tecido linfóide, da cabeça e pescoço, da bex
 estômago, do esófago ou da junção gastroesofágica. </p>
 <p>OPDIVO pode ser administrado em associação com outros medicamentos anti-cancro. É importante 
 que também leia o folheto informativo destes medicamentos. Fale com o seu médico se tiver dúvidas 
-acerca destes medicamentos. </p>         </div>"""   
+acerca destes medicamentos. </p> </div>"""   
           
 
              
@@ -1958,7 +1967,7 @@ injetáveis por 12 ml ou 60 mg de sódio por frasco para injetáveis de 24 ml, o
 1,25%, 1,5% ou 3% respetivamente, da ingestão diária máxima recomendada para um adulto. </p>
 <p>Também encontrará informação relevante deste folheto informativo no cartão de alerta para o doente 
 que lhe foi dado pelo seu médico. É importante que guarde este cartão de alerta para o doente e que o 
-mostre ao seu acompanhante ou ao prestador de cuidados de saúde. </p>         </div>"""   
+mostre ao seu acompanhante ou ao prestador de cuidados de saúde. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar opdivo"
@@ -2059,7 +2068,7 @@ médico. </p>
 <p>Quando OPDIVO é administrado em associação com outros medicamentos anti-cancro, primeiro 
 ser-lhe-á administrado OPDIVO, seguido do outro medicamento. </p>
 <p>Por favor, consulte o folheto informativo destes outros medicamentos de modo a compreender a 
-utilização destes medicamentos. Fale com o seu médico se tiver dúvidas acerca destes medicamentos. </p>         </div>"""         
+utilização destes medicamentos. Fale com o seu médico se tiver dúvidas acerca destes medicamentos. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2542,7 +2551,7 @@ sangue, níveis aumentados do produto residual bilirrubina no sangue) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, 
-estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar opdivo"
@@ -2558,7 +2567,7 @@ Conservar na embalagem de origem para proteger da luz.
 O frasco para injetáveis fechado pode ser conservado a temperatura ambiente controlada até 25°C com 
 luz ambiente até 48 horas. </p>
 <p>Não conserve para reutilização qualquer porção não utilizada da solução para perfusão. Os produtos 
-não utilizados ou os resíduos devem ser eliminados de acordo com as exigências locais. </p>         </div>"""      
+não utilizados ou os resíduos devem ser eliminados de acordo com as exigências locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2597,7 +2606,7 @@ Cruiserath Road, Mulhuddart
 Dublin 15, D15 H6EF 
 Irlanda </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

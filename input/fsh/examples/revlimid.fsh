@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Revlimid </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -134,7 +137,7 @@ Revlimid works by affecting the body s immune system and directly attacking the 
 number of different ways: 
 * by stopping the cancer cells developing 
 * by stopping blood vessels growing in the cancer 
-* by stimulating part of the immune system to attack the cancer cells. </p>         </div>"""   
+* by stimulating part of the immune system to attack the cancer cells. </p> </div>"""   
           
 
              
@@ -275,7 +278,7 @@ Do not drive or operate machines if you feel dizzy, tired, sleepy, have vertigo 
 Revlimid. </p>
 <p>Revlimid contains lactose 
 Revlimid contains lactose. If you have been told by your doctor that you have intolerance to some sugars, 
-contact your doctor before taking this medicine. </p>         </div>"""   
+contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take revlimid"
@@ -336,7 +339,7 @@ If you forget to take Revlimid at your regular time and:
 * less than 12 hours have passed - take your capsule immediately. 
 * more than 12 hours have passed - do not take your capsule. Take your next capsule at the usual time the 
 next day. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -490,7 +493,7 @@ and eyes, dark brown-colored urine, right-sided stomach pain, fever and feeling 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 30TAppendix V30T. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store revlimid"
@@ -505,7 +508,7 @@ medicine. </p>         </div>"""
 <li>Do not use this medicine if you notice any damage or signs of tampering to the pack. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Please return unused medicines 
 to your pharmacist. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -623,7 +626,7 @@ Orteliuslaan 13528 BD Utrecht<br />
 Netherlands </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information: </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency: </p> </div>"""      
 
 
 
@@ -662,7 +665,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -671,7 +676,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -686,7 +692,7 @@ Usage: #inline
 3. Sådan skal du tage Revlimid 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -798,7 +804,7 @@ forskellige måder: </p>
 <li>
 <p>ved at stimulere en del af immunsystemet, så kræftcellerne angribes. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1034,7 +1040,7 @@ Du må ikke føre motorkøretøj eller betjene maskiner, hvis du føler dig svim
 følelse af at snurre rundt (vertigo), eller dit syn er sløret, efter du har taget Revlimid.  </p>
 <p>Revlimid indeholder lactose 
 Revlimid indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, 
-at du ikke tåler visse sukkerarter. </p>         </div>"""   
+at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take revlimid"
@@ -1155,7 +1161,7 @@ Hvis du har glemt at tage Revlimid på det normale tidspunkt og: </p>
 sædvanlige tidspunkt næste dag.  </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1512,7 +1518,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i 87TAppendiks V87T. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store revlimid"
@@ -1538,7 +1544,7 @@ have været åbnet. </p>
 <p>Aflevér ubrugt medicin på apoteket. Af hensyn til miljøet må du ikke smide medicinrester i 
 afløbet, toilettet eller skraldespanden.  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1687,7 +1693,7 @@ Holland </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside 87Thttp://www.ema.europa.eu87T.  </p>
-<p>Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p>         </div>"""      
+<p>Der er også links til andre websteder om sjældne sygdomme og om, hvordan de behandles. </p> </div>"""      
 
 
 

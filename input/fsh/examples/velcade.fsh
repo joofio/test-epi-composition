@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store VELCADE</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ chemotherapy with blood stem cell transplantation (induction treatment).
 VELCADE is used for the treatment of mantle cell lymphoma (a type of cancer affecting the lymph 
 nodes) in patients 18 years or older in combination with the medicines rituximab, cyclophosphamide, 
 doxorubicin and prednisone, for patients whose disease has not been previously treated and for whom 
-blood stem cell transplantation is unsuitable.</p>         </div>"""   
+blood stem cell transplantation is unsuitable.</p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ thalidomide you must follow the pregnancy prevention programme for thalidomide (
 leaflet for thalidomide).
 Driving and using machines
 VELCADE might cause tiredness, dizziness, fainting, or blurred vision. Do not drive or operate tools 
-or machines if you experience such side effects; even if you do not, you should still be cautious.</p>         </div>"""   
+or machines if you experience such side effects; even if you do not, you should still be cautious.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take velcade"
@@ -231,7 +234,7 @@ VELCADE powder has to be dissolved before administration. This will be done by a
 professional. The resulting solution is then injected into a vein rapidly, over 3 to 5 seconds.
 If you are given too much VELCADE
 As this medicine is being given by your doctor or nurse, it is unlikely that you will be given too much.
-In the unlikely event of an overdose, your doctor will monitor you for side effects.</p>         </div>"""         
+In the unlikely event of an overdose, your doctor will monitor you for side effects.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -491,7 +494,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store velcade"
@@ -507,7 +510,7 @@ user. However, the reconstituted solution is stable for 8 hours at 25 C stored i
 a syringe, with a total storage time for the reconstituted medicine not exceeding 8 hours prior to 
 administration.
 VELCADE is for single use only. Any unused product or waste material should be disposed of in 
-accordance with local requirements.</p>         </div>"""      
+accordance with local requirements.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -612,7 +615,7 @@ Tel: +371 678 93lv@its.jnj.com
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in
-Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -651,7 +654,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -660,7 +665,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -675,7 +681,7 @@ Usage: #inline
 3. Sådan skal du bruge VELCADE
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -703,7 +709,7 @@ transplantation af blodstamceller (induktionsbehandling).
 VELCADE benyttes til behandling af mantle-celle-lymfom (en type kræft, som påvirker 
 lymfeknuderne) i kombination med lægemidlerne rituximab, cyclophosphamid, doxorubicin og 
 prednison, hos patienter på 18 år og derover, hvis sygdom ikke tidligere er blevet behandlet, og som 
-ikke er egnede til at gennemgå en transplantation af blodstamceller.</p>         </div>"""   
+ikke er egnede til at gennemgå en transplantation af blodstamceller.</p> </div>"""   
           
 
              
@@ -794,7 +800,7 @@ thalidomid).
 Trafik- og arbejdssikkerhed
 VELCADE kan forårsage træthed, svimmelhed, besvimelse og uklart/sløret syn. Du må ikke køre bil, 
 motorcykel eller cykle eller arbejde med værktøj eller maskiner, hvis du oplever disse bivirkninger. 
-Selv om du ikke mærker nogen af disse virkninger, skal du alligevel være forsigtig.</p>         </div>"""   
+Selv om du ikke mærker nogen af disse virkninger, skal du alligevel være forsigtig.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take velcade"
@@ -862,7 +868,7 @@ bliver derefter indsprøjtet i en vene over 3-5 sekunder.
 Hvis du har brugt for meget VELCADE
 Da dette lægemiddel gives af din læge eller sygeplejerske, er det ikke sandsynligt at du vil blive givet 
 for meget. Skulle overdosering mod al forventning ske, vil din læge overvåge dig for tegn på 
-bivirkninger.</p>         </div>"""         
+bivirkninger.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1314,7 +1320,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store velcade"
@@ -1330,7 +1336,7 @@ Den færdigblandede injektionsvæske er stabil i 8 timer ved 25 °C ved opbevari
 hætteglas og/eller en sprøjte. Den samlede opbevaringstid for det rekonstituerede lægemiddel må ikke 
 overstige 8 timer inden administration.
 VELCADE er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i 
-henhold til lokale retningslinjer.</p>         </div>"""      
+henhold til lokale retningslinjer.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1533,7 +1539,7 @@ Gem indlægssedlen. Du kan få brug for at læse den igen.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

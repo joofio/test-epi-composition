@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Litfulo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ system attacks hair follicles, causing inflammation that leads to hair loss on t
 other parts of the body.   </p>
 <p>Litfulo works by reducing the activity of enzymes called JAK3 and TEC kinases, which are involved 
 in inflammation at the hair follicle. This reduces the inflammation, leading to hair regrowth in patients 
-with alopecia areata. </p>         </div>"""   
+with alopecia areata. </p> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ medicine. </p>
 Litfulo has no or limited effect on the ability to drive or use machines. </p>
 <p>Litfulo contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take litfulo"
@@ -201,7 +204,7 @@ dose as usual when it is due.
 You should not stop taking Litfulo without discussing this with your doctor. </p>
 <p>If you need to stop taking Litfulo for a short time (not more than 6 weeks), the risk of losing your 
 scalp hair is low. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -234,7 +237,7 @@ phosphokinase increased) </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store litfulo"
@@ -247,7 +250,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original 
 package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -351,7 +354,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -390,7 +393,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -399,7 +404,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -414,7 +420,7 @@ Usage: #inline
 3. Sådan skal du tage Litfulo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -428,7 +434,7 @@ kroppens eget immunsystem angriber hårfolliklerne, hvilket forårsager betænde
 i hovedbunden, ansigtet og/eller andre dele af kroppen.
 Litfulo virker ved at begrænse aktiviteten af visse enzymer, kaldet JAK3- og TEC-kinaser, som er 
 involveret i betændelsen i hårfolliklerne. Dette reducerer betændelsen, hvilket fører til fornyet 
-hårvækst hos patienter med alopecia areata.</p>         </div>"""   
+hårvækst hos patienter med alopecia areata.</p> </div>"""   
           
 
              
@@ -546,7 +552,7 @@ Trafik- og arbejdssikkerhed
 Litfulo har ingen eller begrænset indvirkning på evnen til at føre bil eller betjene maskiner.
 Litfulo indeholder lactose
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter.</p>         </div>"""   
+sukkerarter.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take litfulo"
@@ -575,7 +581,7 @@ Hvis du holder op med at tage Litfulo
 Du må ikke holde op med at tage Litfulo uden først at tale med din læge om det.
 Hvis du har behov for kortvarigt (ikke længere end 6 uger) at holde op med at tage Litfulo, er risikoen 
 for at tabe håret på hårbunden lav.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -620,7 +626,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårør
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
 sikkerheden af dette lægemiddel.
-34</p>         </div>"""      
+34</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store litfulo"
@@ -633,7 +639,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
 Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
 originale yderpakning for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ Tel: + 371 670 35 775
 Denne indlægsseddel blev senest ændret .
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside https://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside https://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -807,7 +813,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -816,7 +824,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -831,7 +840,7 @@ Usage: #inline
 3. Como tomar Litfulo
 4. Efeitos indesejáveis possíveis
 5. Como conservar Litfulo
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -845,7 +854,7 @@ sistema imunitário ataca os folículos pilosos, causando uma inflamação que r
 pilosidade no couro cabeludo, face e/ou outras partes do corpo.
 Litfulo atua ao reduzir a atividade de enzimas chamadas JAK3 e cinases da família TEC que estão 
 envolvidas na inflamação dos folículos pilosos. Isto, reduz a inflamação, levando a novo crescimento 
-de cabelo em doentes com alopecia areata.</p>         </div>"""   
+de cabelo em doentes com alopecia areata.</p> </div>"""   
           
 
              
@@ -965,7 +974,7 @@ Condução de veículos e utilização de máquinas
 Litfulo produz pouco ou nenhum efeito sobre a capacidade de conduzir e utilizar máquinas.
 Litfulo contém lactose
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
-este medicamento.</p>         </div>"""   
+este medicamento.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar litfulo"
@@ -995,7 +1004,7 @@ Não deve parar de tomar Litfulo sem falar sobre isso com o seu médico.
 Caso necessite de parar de tomar Litfulo durante um curto período de tempo (não mais de 6 semanas), 
 o risco de perda capilar no couro cabeludo é reduzido.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1042,7 +1051,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar litfulo"
@@ -1057,7 +1066,7 @@ O medicamento não necessita de quaisquer precauções especiais de conservaçã
 temperatura. Conservar na embalagem de origem para proteger da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1192,7 +1201,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel:+ 371 670 35 775
 Este folheto foi revisto pela última vez em.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

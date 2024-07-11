@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Kirsty </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ complications from your diabetes.  </p>
 <p>Kirsty will start to lower your blood sugar 10-20 minutes after you inject it, a maximum effect occurs 
 between 1 and 3 hours after the injection and the effect lasts for 3-5 hours. Due to this short action 
 Kirsty should normally be used in combination with intermediate-acting or long-acting insulin 
-preparations. Moreover Kirsty can be used for continuous infusion in a pump system. </p>         </div>"""   
+preparations. Moreover Kirsty can be used for continuous infusion in a pump system. </p> </div>"""   
           
 
              
@@ -180,7 +183,7 @@ yourself or others.  </p>
 an injection when compared to soluble human insulin. </p>
 <p>Kirsty contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kirsty"
@@ -247,7 +250,7 @@ If you forget to use your insulin your blood sugar may get too high (hyperglycae
 from diabetes in section 4. If you stop using your insulin<br />
 Do not stop using your insulin without speaking with a doctor, who will tell you what needs to be 
 done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
-Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -335,7 +338,7 @@ tired; flushed; dry skin; dry mouth and a fruity (acetone) smell of the breath. 
 can, then seek medical advice immediately.  </p>
 <p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
 the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
-could lead to diabetic coma and eventually death. </p>         </div>"""      
+could lead to diabetic coma and eventually death. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kirsty"
@@ -351,7 +354,7 @@ expiry date refers to the last day of that month. </p>
 not refrigerate or freeze.  </p>
 <p>Discard the needle after each injection.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -446,7 +449,7 @@ Tel: 0080008250Latvija
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -485,7 +488,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -494,7 +499,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -511,7 +517,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -528,7 +534,7 @@ komplikationer fra din diabetes.  </p>
 <p>Kirsty vil begynde at nedsætte dit blodsukker 10-20 minutter efter injektionen, den maksimale 
 virkning ses mellem 1 og 3 timer efter injektionen, og virkningen varer 3-5 timer. På grund af denne 
 korte virkningstid skal Kirsty normalt gives i kombination med et insulinpræparat med mellemlang 
-eller lang virkningstid. Kirsty kan også anvendes til løbende infusion i et pumpesystem. </p>         </div>"""   
+eller lang virkningstid. Kirsty kan også anvendes til løbende infusion i et pumpesystem. </p> </div>"""   
           
 
              
@@ -690,7 +696,7 @@ dig selv eller andre i fare.  </p>
 forekommer hurtigere efter injektion sammenlignet med opløseligt humaninsulin. </p>
 <p>Kirsty indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.  </p>         </div>"""   
+væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kirsty"
@@ -767,7 +773,7 @@ Hvis du glemmer at tage dit insulin, kan dit blodsukker blive for højt (hypergl
 diabetes under punkt 4. Hvis du holder op med at tage dit insulin<br />
 Du må ikke holde op med at tage dit insulin uden først at tale med din læge, der kan fortælle dig, hvad 
 der skal gøres. Dette kan føre til meget højt blodsukker (alvorlig hyperglykæmi) og ketoacidose. Se c) 
-Følger af diabetes under punkt 4. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Følger af diabetes under punkt 4. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -897,7 +903,7 @@ din urin for ketonstoffer, og søg straks lægehjælp.<br />
  
 Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet diabetisk ketoacidose 
 (ophobning af syre i blodet, da kroppen nedbryder fedt i stedet for sukker). Denne tilstand kan 
-ubehandlet resultere i diabetisk koma og i værste fald død. </p>         </div>"""      
+ubehandlet resultere i diabetisk koma og i værste fald død. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kirsty"
@@ -913,7 +919,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 under 30 °C. Må ikke opbevares i køleskab eller nedfryses.  </p>
 <p>Kassér nålen efter hver injektion.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Spørg på apoteket, hvordan du 
-skal bortskaffe medicinrester. Disse foranstaltninger hjælper med at beskytte miljøet. </p>         </div>"""      
+skal bortskaffe medicinrester. Disse foranstaltninger hjælper med at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1053,7 +1059,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. 
-Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

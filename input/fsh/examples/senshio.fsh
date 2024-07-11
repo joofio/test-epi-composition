@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Senshio </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ vulvar and vaginal atrophy. It is caused by a lowering in the levels of the fema
 your body. When this happens, the vaginal walls can become thinner. This happens naturally after 
 menopause (post-menopause). </p>
 <p>Senshio works in a similar way to some of the helpful effects of oestrogen, helping to improve these 
-symptoms and the underlying causes of vulvar and vaginal atrophy. </p>         </div>"""   
+symptoms and the underlying causes of vulvar and vaginal atrophy. </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. 
 Senshio contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take senshio"
@@ -185,7 +188,7 @@ within the same day. Do not take two tablets in one day to make up for a forgott
 You will not benefit from the effects of Senshio if you stop using it without talking to your doctor. 
 Your doctor will explain the effects of stopping treatment and will also discuss other possibilities for 
 treatment with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -216,7 +219,7 @@ or swallowing. </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store senshio"
@@ -228,7 +231,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -284,7 +287,7 @@ Shionogi SAS
 Tel: +33 (0) 186655contactfrance@shionogi.eu </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -323,7 +326,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -332,7 +337,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -349,7 +355,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -365,7 +371,7 @@ omkring skeden, som f.eks. kløe, tørhed, brændende fornemmelse og smerter ved
 kønshormon østrogen i din krop. Når dette sker, bliver slimhinden i skeden tyndere. Dette forekommer 
 naturligt efter overgangsalderen (post-menopause). </p>
 <p>Senshio virker på en måde, som minder om østrogens gavnlige virkning, ved at det er med til at lindre 
-disse gener og underliggende årsager til atrofi af vulva og vagina. </p>         </div>"""   
+disse gener og underliggende årsager til atrofi af vulva og vagina. </p> </div>"""   
           
 
              
@@ -460,7 +466,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>Senshio indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take senshio"
@@ -484,7 +490,7 @@ tablet. </p>
 Du vil ikke drage fordel af virkningen af Senshio, hvis du holder op med at tage det uden først at have 
 talt med din læge. Din læge vil forklare virkningen af at stoppe behandlingen og kan også drøfte andre 
 behandlingstilbud med dig. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -515,7 +521,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store senshio"
@@ -527,7 +533,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -587,7 +593,7 @@ Tel: +33 (0) 186655contactfrance@shionogi.eu </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -626,7 +632,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -635,7 +643,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -652,7 +661,7 @@ Usage: #inline
 <li>Efeitos secundários possíveis </li>
 <li>Como conservar Senshio </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -668,7 +677,7 @@ interior e no exterior da vagina, tais como comichão, secura, ardor e dor duran
 níveis da hormona feminina estrogénio no seu corpo. Quando isso acontece, as paredes da vagina 
 podem ficar mais finas. Isto acontece naturalmente após a menopausa (pós-menopausa). </p>
 <p>Senshio atua de forma semelhante a alguns efeitos úteis do estrogénio, ajudando a melhorar estes 
-sintomas e as causas subjacentes da atrofia vulvar e vaginal. </p>         </div>"""   
+sintomas e as causas subjacentes da atrofia vulvar e vaginal. </p> </div>"""   
           
 
              
@@ -771,7 +780,7 @@ Se foi informado pelo seu médico que tem intolerância a alguns açúcares, con
 este medicamento. </p>
 <p>Senshio contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio" </p>         </div>"""   
+praticamente “isento de sódio" </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar senshio"
@@ -796,7 +805,7 @@ Não beneficiará dos efeitos de Senshio se parar de o utilizar sem falar com o 
 médico explicar-lhe-á os efeitos de parar o tratamento e também discutirá consigo outras 
 possibilidades de tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -824,7 +833,7 @@ dificuldade ao respirar ou engolir. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar senshio"
@@ -837,7 +846,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -896,7 +905,7 @@ Shionogi SAS
 Tel: +33 (0) 186655contactfrance@shionogi.eu </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

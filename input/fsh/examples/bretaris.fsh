@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for Use </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for Use </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Bretaris Genuair </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +84,7 @@ Bretaris Genuair is indicated to help open the airways and relieve symptoms of C
 term lung disease characterised by breathing difficulties. Regular use of Bretaris Genuair can help you 
 when you have ongoing shortness of breath related to your disease to help you minimise the effects of 
 the disease on your everyday life and reduce the number of flare-ups (the worsening of your COPD 
-symptoms for several days). </p>         </div>"""   
+symptoms for several days). </p> </div>"""   
           
 
              
@@ -131,7 +133,7 @@ drive or use machinery until the headache has cleared, the feeling of dizziness 
 vision has returned to normal. </p>
 <p>Bretaris Genuair contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product. </p>         </div>"""   
+before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bretaris"
@@ -164,7 +166,7 @@ Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Bretaris Genuair 
 This medicine is for long-term use. If you want to stop treatment, first talk to your doctor, as your 
 symptoms may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -200,7 +202,7 @@ Common: may affect up to 1 in 10 people
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. . You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bretaris"
@@ -215,7 +217,7 @@ safety of this medicine. </p>         </div>"""
 <p>Do not use the Bretaris Genuair if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>After you have taken the last dose, the inhaler has to be disposed of. Do not throw away any medicines 
 via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer 
-use. These measures will help protect the environment. </p>         </div>"""      
+use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -314,7 +316,7 @@ SIA Berlin-Chemie/Menarini Baltic<br />
 Tel: +371 67103United Kingdom (Northern Ireland) 
 Covis Pharma Europe B.V. 
 Tel: 08004334This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -353,7 +355,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -362,7 +366,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>  </div>"""   
 
 
 
@@ -377,7 +381,7 @@ Usage: #inline
 3. Sådan skal du bruge Bretaris Genuair 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -395,7 +399,7 @@ Bretaris Genuair anvendes til at hjælpe med at åbne luftvejene og aflaste symp
 alvorlig, langsigtet lungesygdom karakteriseret ved vejrtrækningsbesvær. Regelmæssig brug af 
 Bretaris Genuair kan hjælpe dig, når du oplever vedvarende åndenød relateret til din sygdom, ved at 
 minimere sygdommens påvirkning af din hverdag og reducere antallet af opblusninger (forværring af 
-dine KOL-symptomer i flere dage). </p>         </div>"""   
+dine KOL-symptomer i flere dage). </p> </div>"""   
           
 
              
@@ -448,7 +452,7 @@ disse bivirkninger, må du ikke føre motorkøretøjer eller betjene maskiner, f
 fornemmelsen af svimmelhed er gået væk, og dit syn er blevet normalt igen. </p>
 <p>Bretaris Genuair indeholder lactose 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bretaris"
@@ -481,7 +485,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Bretaris Genuair 
 Lægemidlet er beregnet til langvarig brug. Tal med din læge inden, hvis du ønsker at stoppe 
 behandlingen, da dine symptomer kan blive værre. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -519,7 +523,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bretaris"
@@ -535,7 +539,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 manipulering. </p>
 <p>Når du har taget den sidste dosis, skal inhalatoren bortskaffes. Spørg apotekspersonalet, hvordan du 
 skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet 
-eller skraldespanden.  </p>         </div>"""      
+eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -784,7 +788,7 @@ Dosisindikator </p>
 <p>Hvis du ønsker at rengøre din inhalator, skal du bare tørre ydersiden af mundstykket af med et tørt 
 stykke køkkenrulle eller papirlommetørklæde. </p>
 <p>Figur O 
-Låst </p>         </div>"""      
+Låst </p> </div>"""      
 
 
 

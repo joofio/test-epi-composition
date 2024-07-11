@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Topotecan Hospira </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ infusion into a vein in hospital. </p>
 <p>advanced cervical cancer if surgery or radiotherapy treatment is not possible. When treating 
 cervical cancer, Topotecan Hospira is combined with another medicine called cisplatin.  </p>
 <p>Your doctor will decide with you whether Topotecan Hospira therapy is better than further treatment 
-with your initial chemotherapy. </p>         </div>"""   
+with your initial chemotherapy. </p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ Topotecan can make people feel tired. If you feel tired or weak, do not drive or
 <p>Topotecan Hospira contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free . If your doctor uses a solution of common salt to dilute Topotecan Hospira, the dose of 
-sodium received would be larger. </p>         </div>"""   
+sodium received would be larger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take topotecan"
@@ -143,7 +146,7 @@ When treating cervical cancer, Topotecan Hospira is combined with another medici
 cisplatin. Your doctor will determine the correct dose of cisplatin.  </p>
 <p>The treatment may vary, depending on the results of your regular blood tests. </p>
 <p>How topotecan is given 
-A doctor or nurse will administer topotecan as an infusion into your arm lasting about 30 minutes. </p>         </div>"""         
+A doctor or nurse will administer topotecan as an infusion into your arm lasting about 30 minutes. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -212,7 +215,7 @@ cisplatin patient leaflet.  </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store topotecan"
@@ -228,7 +231,7 @@ used immediately, Topotecan Hospira can be used for up to 24 hours when stored i
 (protected from light) or at room temperature (in normal daylight conditions). </p>
 <p>If visible particles are observed, the medicine should not be administered. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: +371 670 35 This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -360,7 +363,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -369,7 +374,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -384,7 +390,7 @@ Usage: #inline
 3. Sådan får du Topotecan Hospira
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -402,7 +408,7 @@ fremskreden livmoderhalskræft, hvis behandling med kirurgi eller stråleterapi 
 Ved behandling af livmoderhalskræft gives Topotecan Hospira sammen med et andet lægemiddel, 
 der kaldes cisplatin.
 Din læge vil tage stilling til om behandling med Topotecan Hospira er bedre end fortsat behandling 
-med kemoterapi.</p>         </div>"""   
+med kemoterapi.</p> </div>"""   
           
 
              
@@ -449,7 +455,7 @@ Kør ikke bil eller betjen ikke maskiner, hvis du føler dig træt eller svag.
 Topotecan Hospira indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
 væsentlige natriumfrit. Hvis din læge bruger en saltvandsopløsning til at fortynde Topotecan Hospira
-med, vil den dosis af natrium, du får, være højere.</p>         </div>"""   
+med, vil den dosis af natrium, du får, være højere.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take topotecan"
@@ -469,7 +475,7 @@ Ved behandling af livmoderhalskræft gives Topotectan Hospira sammen med et ande
 lægemiddelstof, der kaldes cisplatin. Din læge vil fastlægge den korrekte dosering af cisplatin.
 Behandlingen kan variere afhængigt af resultaterne af dine blodprøver. 
 Sådan gives topotecan
-En læge eller sygeplejerske vil give dig topotecan i din arm som en infusion, der varer omkring minutter. </p>         </div>"""         
+En læge eller sygeplejerske vil give dig topotecan i din arm som en infusion, der varer omkring minutter. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -552,7 +558,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsenvia det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store topotecan"
@@ -569,7 +575,7 @@ anvendes straks, kan Topotecan Hospira anvendes i op til 24 timer ved opbevaring
 (beskyttet mod lys) eller ved stuetemperatur (ved normale dagslys betingelser).<br />
 Hvis der er synlige partikler, bør produktet ikke bruges.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet eller, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet eller, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -746,7 +752,7 @@ anbringes i højrisikoaffaldsposer beregnet til forbrænding ved høj temperatur
 affaldsmateriale kan skylles ud i vasken med rigelige mængder vand. 
 • Hvis man ved et uheld får lægemidlet på huden eller i øjnene, skal der straks skylles med rigelige 
 mængder vand. Hvis der er blivende irritation skal man kontakte en læge.
-• Medicinrester og affald heraf skal bortskaffes i overensstemmelse med de lokale krav. </p>         </div>"""      
+• Medicinrester og affald heraf skal bortskaffes i overensstemmelse med de lokale krav. </p> </div>"""      
 
 
 
@@ -785,7 +791,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -794,7 +802,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -809,7 +818,7 @@ Usage: #inline
 3. Como Topotecano Hospira é utilizado
 4. Efeitos indesejáveis possíveis
 5. Como conservar Topotecano Hospira
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -831,7 +840,7 @@ medicamento chamado cisplatina.<br />
 O seu médico irá decidir consigo se a terapêutica com o Topotecano Hospira é melhor do que 
 continuar a receber tratamento com a sua quimioterapia inicial.  </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -878,7 +887,7 @@ utilize máquinas.
 Topotecano Hospira contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
 “isento de sódio". Se o seu médico utilizar uma solução salina comum para diluir Topotecano Hospira
-antes da administração, a dose de sódio recebida será maior.</p>         </div>"""   
+antes da administração, a dose de sódio recebida será maior.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar topotecan"
@@ -907,7 +916,7 @@ O esquema de tratamento pode variar, dependendo dos resultados das suas análise
 regulares.
 Como é administrado o Topotecano<br />
 Um médico ou enfermeiro administrar-lhe-á topotecano por perfusão no seu braço durante um período 
-de 30 minutos. </p>         </div>"""         
+de 30 minutos. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1018,7 +1027,7 @@ folheto, fale com o seu médico ou farmacêutico.Também poderá comunicar efeit
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar topotecan"
@@ -1036,7 +1045,7 @@ conservado refrigerado (e protegido da luz), ou à temperatura ambiente (nas con
 luminosidade diurnas normais).
 Não utilize este medicamento se verificar particulas em suspenção.
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1230,7 +1239,7 @@ O contacto acidental com a pele ou os olhos deverá ser imediatamente tratado, l
 abundantemente com água. Se houver irritação contínua, consulte um médico.
 
 Os produtos não utilizados ou os resíduos devem ser eliminados de acordo com as exigências 
-locais. </p>         </div>"""      
+locais. </p> </div>"""      
 
 
 

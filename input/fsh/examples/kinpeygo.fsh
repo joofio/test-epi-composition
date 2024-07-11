@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Kinpeygo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kinpeygo contains the active substance budesonide, a corticosteroid medicine which mainly acts 
 locally in the intestine to reduce the inflammation associated with primary immunoglobulin A (IgA) 
 nephropathy. </p>
-<p>Kinpeygo is used to treat primary IgA nephropathy in adults 18 years of age or older.  </p>         </div>"""   
+<p>Kinpeygo is used to treat primary IgA nephropathy in adults 18 years of age or older.  </p> </div>"""   
           
 
              
@@ -150,7 +153,7 @@ baby is being breast-fed.  </p>
 Kinpeygo is not expected to affect your ability to drive or use any machines. </p>
 <p>Kinpeygo contains sucrose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.  </p>         </div>"""   
+before taking this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kinpeygo"
@@ -179,7 +182,7 @@ Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Kinpeygo 
 Do not stop taking Kinpeygo without discussing it with your doctor first. If you suddenly stop taking 
 the medicine, you may become ill. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -208,7 +211,7 @@ the medicine, you may become ill. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V.* By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kinpeygo"
@@ -220,7 +223,7 @@ of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -328,7 +331,7 @@ Tel: +49 61016This leaflet was last revised in 07/2023 .  </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. </p>
 <p>The European Medicines Agency will review new information on this medicine at least every year and 
-this leaflet will be updated as necessary. </p>         </div>"""      
+this leaflet will be updated as necessary. </p> </div>"""      
 
 
 
@@ -367,7 +370,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -376,7 +381,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -393,7 +399,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -404,7 +410,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kinpeygo indeholder det aktive stof budesonid, som er et binyrebarkhormon, der hovedsagelig virker 
 lokalt i tarmen ved at reducere den betændelse, der er forbundet med primær immunglobulin A (IgA)-
 nefropati. </p>
-<p>Kinpeygo anvendes til behandling af primær IgA-nefropati hos voksne på 18 år eller derover. </p>         </div>"""   
+<p>Kinpeygo anvendes til behandling af primær IgA-nefropati hos voksne på 18 år eller derover. </p> </div>"""   
           
 
              
@@ -518,7 +524,7 @@ barn. </p>
 Kinpeygo forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Kinpeygo indeholder saccharose 
 Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale med lægen, før du tager dette 
-lægemiddel. </p>         </div>"""   
+lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kinpeygo"
@@ -553,7 +559,7 @@ Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis. </p>
 <p>Hvis du holder op med at tage Kinpeygo 
 Du må ikke holde op med at tage Kinpeygo uden først at have talt med lægen om det. Hvis du 
 pludselig holder op med at tage lægemidlet, kan du blive syg. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -599,7 +605,7 @@ Hvis du oplever bivirkninger, skal du tale med din læge eller apoteket. Det gæ
 der ikke er nævnt i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kinpeygo"
@@ -611,7 +617,7 @@ lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25 °C.  </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg på 
-apoteket, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p>         </div>"""      
+apoteket, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -732,7 +738,7 @@ Tel: +49 61016Denne indlægsseddel blev senest ændret
 Dette lægemiddel er godkendt under "betingede omstændigheder". Det betyder, at der forventes 
 yderligere dokumentation for lægemidlet. 
 Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplysninger om 
-lægemidlet, og denne indlægsseddel vil om nødvendigt blive opdateret. </p>         </div>"""      
+lægemidlet, og denne indlægsseddel vil om nødvendigt blive opdateret. </p> </div>"""      
 
 
 

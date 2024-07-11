@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Praxbind</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ the effect of Pradaxa is required:
 -
 For emergency surgery/urgent procedures;
 -
-In life-threatening or uncontrolled bleeding.</p>         </div>"""   
+In life-threatening or uncontrolled bleeding.</p> </div>"""   
           
 
              
@@ -118,7 +121,7 @@ does not affect any functions in the body as such, so your doctor may decide to 
 medicine, if the expected benefits outweigh any potential risks.
 Praxbind contains sodium
 This medicine contains 50 mg sodium (main component of cooking/table salt) in each dose. This is 
-equivalent to 2.5% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+equivalent to 2.5% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take praxbind"
@@ -135,7 +138,7 @@ to prevent blood clot formation. Dabigatran can be given again 24 hours after ad
 medicine.
 Detailed instructions for your doctor or nurse on how to administer this medicine can be found at the 
 end of this package leaflet (see 'Handling instructions').
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -149,7 +152,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store praxbind"
@@ -162,7 +165,7 @@ expiry date refers to the last day of that month.
 Store in a refrigerator (2 C-8 C).
 Do not freeze.
 Store in the original package in order to protect from light.
-Once opened, this medicine is intended for immediate use.</p>         </div>"""      
+Once opened, this medicine is intended for immediate use.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -265,7 +268,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -304,7 +307,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -313,7 +318,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -328,7 +334,7 @@ Usage: #inline
 3. Sådan får du Praxbind
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -347,7 +353,7 @@ inaktivere Pradaxa:
 -
 Inden akutte operationer/akutte procedurer.
 -
-Ved livstruende eller ukontrolleret blødning.</p>         </div>"""   
+Ved livstruende eller ukontrolleret blødning.</p> </div>"""   
           
 
              
@@ -384,7 +390,7 @@ Praxbind påvirker ikke kroppens funktioner, så lægen kan beslutte at give dig
 forventede fordele opvejer de mulige risici.
 Praxbind indeholder natrium
 Dette lægemiddel indeholder 50 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. dosis.
-Dette svarer til 2,5 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p>         </div>"""   
+Dette svarer til 2,5 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take praxbind"
@@ -401,7 +407,7 @@ forhindre, at  du får en blodprop. Dabigatran kan normalt gives igen 24 timer e
 dette lægemiddel.
 I slutningen af denne indlægsseddel findes en detaljeret vejledning til lægen eller sygeplejersken i, 
 hvordan dette lægemiddel gives (se "Brugervejledning").
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -417,7 +423,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårør
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.
-27</p>         </div>"""      
+27</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store praxbind"
@@ -430,7 +436,7 @@ er den sidste dag i den nævnte måned.
 Opbevares i køleskab (2 °C - 8 °C).
 Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys.
-Efter åbning skal dette lægemiddel anvendes omgående.</p>         </div>"""      
+Efter åbning skal dette lægemiddel anvendes omgående.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -620,7 +626,7 @@ Ud fra en mikrobiologisk betragtning skal præparatet anvendes straks efter åbn
 åbningsmetoden udelukker risiko for mikrobiel kontaminering. Hvis præparatet ikke anvendes straks, 
 er opbevaringstid og -forhold før brug brugerens ansvar.
 Der er ikke observeret uforligeligheder mellem Praxbind og infusionssæt af polyvinylchlorid, 
-polyethylen eller polyurethan eller sprøjter af polypropylen.</p>         </div>"""      
+polyethylen eller polyurethan eller sprøjter af polypropylen.</p> </div>"""      
 
 
 
@@ -659,7 +665,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -668,7 +676,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -683,7 +692,7 @@ Usage: #inline
 3. Como utilizar Praxbind
 4. Efeitos indesejáveis possíveis
 5. Como conservar Praxbind
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -702,7 +711,7 @@ necessária a inativação rápida do efeito de Pradaxa:
 -
 Para intervenções cirúrgicas de emergência/procedimentos urgentes;
 -
-Em hemorragias potencialmente fatais ou descontroladas.</p>         </div>"""   
+Em hemorragias potencialmente fatais ou descontroladas.</p> </div>"""   
           
 
              
@@ -742,7 +751,7 @@ decidir dar-lhe este medicamento se os benefícios ultrapassarem os potenciais r
 Praxbind contém sódio
 Este medicamento contém 50 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada dose. Isto é equivalente a 2,5% da ingestão diária máxima de sódio recomendada na dieta para 
-um adulto.</p>         </div>"""   
+um adulto.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar praxbind"
@@ -760,7 +769,7 @@ o seu tratamento para prevenir a formação de coágulos sanguíneos. O dabigatr
 administrado novamente 24 horas após a administração deste medicamento.
 Podem ser encontradas instruções detalhadas para o seu médico ou enfermeiro acerca de como 
 administrar este medicamento no final deste folheto informativo (ver “Instruções de manuseamento").
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -776,7 +785,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar praxbind"
@@ -789,7 +798,7 @@ embalagem exterior, após “EXP". O prazo de validade corresponde ao último di
 Conservar no frigorífico (2ºC-8ºC).
 Não congelar.
 Conservar na embalagem de origem para proteger da luz.
-Uma vez aberto, este medicamento destina-se a utilização imediata.</p>         </div>"""      
+Uma vez aberto, este medicamento destina-se a utilização imediata.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -924,7 +933,7 @@ Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

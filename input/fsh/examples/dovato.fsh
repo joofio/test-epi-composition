@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Dovato  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ analogue reverse transcriptase inhibitors (NRTIs). </p>
 maintain the number of CD4 cells in your blood. CD4 cells are a type of white blood cells that are important 
 in helping your body to fight infection. </p>
 <p>Not everyone responds to treatment with Dovato in the same way. Your doctor will monitor the effectiveness 
-of your treatment. </p>         </div>"""   
+of your treatment. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ the baby in breast milk.  </p>
 as possible.  </p>
 <p>Driving and using machines<br />
 Dovato can make you dizzy, and have other side effects that make you less alert. </p>
-<p>Don t drive or operate machinery unless you are sure you re not affected.  </p>         </div>"""   
+<p>Don t drive or operate machinery unless you are sure you re not affected.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dovato"
@@ -205,7 +208,7 @@ dose you missed and take the next one at the usual time. Then continue your trea
 <p>Don t stop taking Dovato without advice from your doctor<br />
 Take Dovato for as long as your doctor recommends. Don t stop unless your doctor tells you to. Stopping 
 Dovato can affect your health and how future treatment works. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ will test for these changes. </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dovato"
@@ -335,7 +338,7 @@ Appendix V. By reporting side effects you can help provide more information on t
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -449,7 +452,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {month YYYY}.  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -488,7 +491,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -497,7 +502,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -514,7 +520,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -531,7 +537,7 @@ antiretrovirale lægemidler, der kaldes nukleosidanalog revers transkriptasehæm
 Dette hjælper din krop til at bevare antallet af CD4-celler i dit blod. CD4-celler er en type hvide 
 blodceller, der spiller en vigtig rolle, når kroppen skal bekæmpe infektioner. </p>
 <p>Behandlingen med Dovato virker ikke ens på alle. Lægen vil holde øje med, hvor effektiv din 
-behandling er. </p>         </div>"""   
+behandling er. </p> </div>"""   
           
 
              
@@ -670,7 +676,7 @@ Dovato kan gøre dig svimmel og give dig andre bivirkninger, der gør dig mindre
 ikke er påvirket.  </p>
 <p>Dovato indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.  </p>         </div>"""   
+væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dovato"
@@ -713,7 +719,7 @@ tidspunkt. Fortsæt derefter med behandlingen som normalt.
 <p>Du må ikke stoppe med at tage Dovato, medmindre lægen har sagt det. 
 Tag Dovato så længe, som lægen anbefaler. Du må ikke stoppe, medmindre lægen har sagt det. Hvis 
 du stopper med Dovato, kan det påvirke dit helbred, og hvordan din behandling vil virke i fremtiden. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -981,7 +987,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dovato"
@@ -993,7 +999,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.   </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.   </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1138,7 +1144,7 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -1177,7 +1183,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1186,7 +1194,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1203,7 +1212,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Dovato  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1222,7 +1231,7 @@ pesem pelo menos 40 kg. </p>
 Isto contribui para manter o número de células CD4 no seu sangue. As células CD4 são um tipo de 
 glóbulo branco e são importantes para ajudar o seu organismo no combate à infeção. </p>
 <p>Nem todas as pessoas respondem da mesma forma ao tratamento com Dovato. O seu médico 
-monitorizará a eficácia do tratamento. </p>         </div>"""   
+monitorizará a eficácia do tratamento. </p> </div>"""   
           
 
              
@@ -1364,7 +1373,7 @@ Dovato pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam me
 é afetado.  </p>
 <p>Dovato contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio" </p>         </div>"""   
+praticamente “isento de sódio" </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar dovato"
@@ -1410,7 +1419,7 @@ Tome Dovato durante o período de tempo recomendado pelo seu médico. Não pare 
 ser por indicação do seu médico. Parar Dovato pode afetar a sua saúde e a eficácia de tratamentos 
 futuros. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1676,7 +1685,7 @@ vezes, com os próprios medicamentos para a infeção VIH. O seu medico avaliar�
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar dovato"
@@ -1689,7 +1698,7 @@ fitas contentoras blister, após EXP. O prazo de validade corresponde ao último
 <p>Este medicamento não necessita de quaisquer condições especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1834,7 +1843,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Este folheto foi revisto pela última vez em {mês de AAAA}. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

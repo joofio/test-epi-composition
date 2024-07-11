@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store TREVICTA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ normally present. For example, a person with schizophrenia may appear withdrawn 
 respond at all emotionally or may have trouble speaking in a clear and logical way. People with this 
 disease may also feel depressed, anxious, guilty, or tense.
 TREVICTA can help alleviate the symptoms of your disease and reduce the chance of your symptoms 
-coming back.</p>         </div>"""   
+coming back.</p> </div>"""   
           
 
              
@@ -203,7 +206,7 @@ section 4). This should be considered in cases where full alertness is required,
 or handling machines.
 TREVICTA contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trevicta"
@@ -232,7 +235,7 @@ tracing of the heart), or slow or abnormal movements of the face, body, arms or 
 If you stop using TREVICTA
 If you stop receiving your injections, your symptoms of schizophrenia may get worse. You should not 
 stop using this medicine unless told to do so by your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -421,7 +424,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trevicta"
@@ -433,7 +436,7 @@ Do not use this medicine after the expiry date which is stated on the carton. Th
 the last day of that month.
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -532,7 +535,7 @@ Tel: +371 678 93United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -571,7 +574,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -580,7 +585,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -595,7 +601,7 @@ Usage: #inline
 3. Sådan får du TREVICTA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -616,7 +622,7 @@ en person med skizofreni virke tilbageholdende og reagerer måske slet ikke føl
 kan have svært ved at tale på en klar og logisk måde. Personer med denne sygdom kan også føle 
 sig deprimerede, angste, have skyldfølelse eller være anspændte.
 TREVICTA kan hjælpe med at lindre symptomerne på din sygdom og nedsætte risikoen for, at dine 
-symptomer vender tilbage.</p>         </div>"""   
+symptomer vender tilbage.</p> </div>"""   
           
 
              
@@ -739,7 +745,7 @@ er påkrævet, f.eks. ved bilkørsel og betjening af maskiner.
 TREVICTA indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
 væsentlige natriumfrit.
-46</p>         </div>"""   
+46</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trevicta"
@@ -769,7 +775,7 @@ eller benene.
 Hvis du holder op med at få TREVICTA
 Hvis du ophører med at få indsprøjtningerne, kan dine symptomer på skizofreni blive værre. 
 Du bør ikke holde op med at bruge dette lægemiddel, med mindre du får besked på det af lægen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1079,7 +1085,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trevicta"
@@ -1091,7 +1097,7 @@ Få ikke lægemidlet efter den udløbsdato, der står på æsken. Udløbsdatoen 
 nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1339,7 +1345,7 @@ Bortskaf på korrekt vis
 Bortskaf sprøjten og den ubrugte kanyle i en godkendt beholder til skarpe genstande.
 De tyndvæggede sikkerhedskanyler er specielt fremstillet til brug 
 med TREVICTA. Den ubrugte kanyle skal bortskaffes og må ikke 
-gemmes til fremtidig brug.</p>         </div>"""      
+gemmes til fremtidig brug.</p> </div>"""      
 
 
 

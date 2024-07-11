@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Degarelix Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Usage: #inline
 of high-risk prostate cancer prior to radiotherapy and in combination with radiotherapy in adult male 
 patients. Degarelix mimics a natural hormone (gonadotrophin-relasing hormone, GnRH) and directly 
 blocks its effects. By doing so, degarelix immediately reduces the level of the male hormone 
-testosterone that stimulates the prostate cancer. </p>         </div>"""   
+testosterone that stimulates the prostate cancer. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ medicines obtained without a prescription. </p>
 <p>Driving and using machines 
 Tiredness and dizziness are common side effects that may impair your ability to drive and use 
 machines. These side effects may be due to the treatment or effects resulting from the underlying 
-disease. </p>         </div>"""   
+disease. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take degarelix"
@@ -133,7 +136,7 @@ NOT be given into a blood vessel (intravenously). Precautions must be taken to a
 injection into a vein. The site of injection is likely to vary within the abdominal region. </p>
 <p>If you forget to use Degarelix Accord 
 If you believe your monthly dose of Degarelix Accord has been forgotten, please talk to your doctor. If 
-you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -186,7 +189,7 @@ serious, including muscle breakdown resulting in kidney damage. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store degarelix"
@@ -202,7 +205,7 @@ This medicine is stable for 4 hours at 25 C.
 Due to the risk of microbial contamination, this medicine should be used immediately. If not used 
 immediately, the use of this medicine are the responsibility of the user. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ Pharmadox Healthcare Limited
 KW20A Kordin Industrial Park, Paola 
 PLA 3000, Malta </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -289,7 +292,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -298,7 +303,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -313,7 +319,7 @@ Usage: #inline
 3. Sådan vil du få Degarelix Accord 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -326,7 +332,7 @@ Degarelix er en syntetisk hormonblokker, der anvendes til behandling af prostata
 behandling af højrisiko postatakræft før strålebehandling og i kombination med strålebehandling hos 
 voksne mænd. Degarelix efterligner et naturligt hormon (gonadotropinfrigørende hormon, GnRH) og 
 blokerer direkte for dets virkninger. Hermed nedsætter degarelix øjeblikkeligt niveauet af det 
-mandlige hormon testosteron, som stimulerer prostatakræften. </p>         </div>"""   
+mandlige hormon testosteron, som stimulerer prostatakræften. </p> </div>"""   
           
 
              
@@ -371,7 +377,7 @@ naturlægemidler, vitaminer og mineraler. </p>
 <p>Trafik- og arbejdssikkerhed 
 Træthed og svimmelhed er almindelige bivirkninger, som kan svække din evne til at føre motorkøretøj 
 eller betjene maskiner. Disse bivirkninger kan skyldes behandlingen eller opstå på grund af din 
-sygdom. </p>         </div>"""   
+sygdom. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take degarelix"
@@ -387,7 +393,7 @@ i en blodåre (intravenøst). Forsigtighedsregler skal tages for at undgå injek
 fejl. Injektionsstedet varierer sandsynligvis inden for maveregionen. </p>
 <p>Hvis du har glemt at få Degarelix Accord 
 Fortæl det til din læge, hvis du tror, at din månedlige dosis af Degarelix Accord er blevet glemt. Spørg 
-lægen, hvis du har yderligere spørgsmål om brug af dette lægemiddel. </p>         </div>"""         
+lægen, hvis du har yderligere spørgsmål om brug af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -464,7 +470,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen. Dette gælder også mulig
 er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store degarelix"
@@ -480,7 +486,7 @@ Dette lægemiddel er stabilt i 4 timer ved 25ºC.
 Dette lægemiddel skal anvendes straks på grund af risikoen for mikrobiologisk kontaminering. Hvis 
 det ikke anvendes umiddelbart, er brugen af dette lægemiddel på brugerens ansvar. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
 Spørg lægen, hvis der er mere, du vil vide. 
  
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

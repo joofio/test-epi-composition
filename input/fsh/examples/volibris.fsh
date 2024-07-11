@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Volibris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ blood from the heart to the lungs. In people with PAH, these arteries get narrow
 work harder to pump blood through them. This causes people to feel tired, dizzy and short of breath. </p>
 <p>Volibris widens the pulmonary arteries, making it easier for the heart to pump blood through them. 
 This lowers the blood pressure and relieves the symptoms. </p>
-<p>Volibris may also be used in combination with other medicines used to treat PAH. </p>         </div>"""   
+<p>Volibris may also be used in combination with other medicines used to treat PAH. </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ If you are allergic to soya, do not use this medicine (see section 2  Don t take
 This may cause allergic reactions (see section 4). </p>
 <p>Volibris contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take volibris"
@@ -218,7 +221,7 @@ If you forget a dose of Volibris, just take the tablet as soon as you remember, 
 <p>If you stop taking Volibris 
 Volibris is a treatment that you will need to keep on taking to control your PAH. </p>
 <p>Don t stop taking Volibris unless you have agreed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ These are expected to be similar to those listed above for adults. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store volibris"
@@ -309,7 +312,7 @@ safety of this medicine. </p>         </div>"""
 <p>The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -424,7 +427,7 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -463,7 +466,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -472,7 +477,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -487,7 +493,7 @@ Usage: #inline
 3. Sådan skal du tage Volibris 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -504,7 +510,7 @@ kraftigere for at få blod igennem. Dette medfører, at man føler sig træt, sv
 <p>Volibris udvider blodkarrene til lungerne (lungearterierne) og gør det nemmere for hjertet at pumpe 
 blod igennem. Dette sænker blodtrykket og lindrer symptomerne. </p>
 <p>Volibris kan også anvendes i kombination med andre lægemidler, som anvendes til behandling af 
-PAH. </p>         </div>"""   
+PAH. </p> </div>"""   
           
 
              
@@ -636,7 +642,7 @@ fortalt dig, at du ikke tåler visse sukkerarter: </p>
 fremkalde allergiske reaktioner (se punkt 4). </p>
 <p>Volibris indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det væsentlige 
-natrium-fri. </p>         </div>"""   
+natrium-fri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take volibris"
@@ -688,7 +694,7 @@ det. Fortsæt derefter som før.  </p>
 <p>Hvis du stopper med at tage Volibris 
 Volibris er en behandling, som du skal blive ved med at tage for at holde din PAH under kontrol.  </p>
 <p>→ Stop ikke med at tage Volibris, medmindre du har aftalt det med lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -850,7 +856,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store volibris"
@@ -862,7 +868,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -998,7 +1004,7 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -1037,7 +1043,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1046,7 +1054,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1061,7 +1070,7 @@ Usage: #inline
 3. Como tomar Volibris 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Volibris 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1079,7 +1088,7 @@ delas. Isto faz com que as pessoas se sintam cansadas, com tonturas e falta de a
 <p>Volibris alarga as artérias pulmonares, tornando mais fácil para o coração bombear o sangue através 
 delas. Isto baixa a pressão arterial e alivia os sintomas. </p>
 <p>Volibris pode também ser utilizado em associação com outros medicamentos utilizados para tratar a 
-HAP. </p>         </div>"""   
+HAP. </p> </div>"""   
           
 
              
@@ -1217,7 +1226,7 @@ allura AC (E129)
 Pode causar reações alérgicas (ver secção 4). </p>
 <p>Volibris contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar volibris"
@@ -1280,7 +1289,7 @@ Volibris é um tratamento que irá necessitar de continuar a tomar para controla
 <p>→ Não pare de tomar Volibris a não ser que tenha acordado parar o tratamento com o seu 
 médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1445,7 +1454,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar volibris"
@@ -1458,7 +1467,7 @@ medicamento. </p>         </div>"""
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1590,7 +1599,7 @@ GlaxoSmithKline (Ireland) Limited<br />
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
 <p>Outras fontes de informação  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

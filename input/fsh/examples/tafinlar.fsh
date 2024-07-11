@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tafinlar </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ has been removed by surgery. </p>
 lung cancer (NSCLC). </p>
 <p>Both cancers have a particular change (mutation) in a gene called BRAF at the V600 position. This 
 mutation in the gene may have caused the cancer to develop. Your medicine targets proteins made 
-from this mutated gene and slows down or stops the development of your cancer. </p>         </div>"""   
+from this mutated gene and slows down or stops the development of your cancer. </p> </div>"""   
           
 
              
@@ -266,7 +269,7 @@ Tafinlar can have side effects that may affect your ability to drive or use mach
 Avoid driving or using machines if you have problems with your vision or if you feel tired or weak, or 
 if your energy levels are low. 
 Descriptions of these effects can be found in sections 2 and 4. Discuss with your doctor, pharmacist or nurse if you are unsure about anything. Even your disease, 
-symptoms and treatment situation may affect your ability to drive or use machines. </p>         </div>"""   
+symptoms and treatment situation may affect your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tafinlar"
@@ -326,7 +329,7 @@ pharmacist. Take Tafinlar capsules and trametinib tablets with you when possible
 show them the Tafinlar and trametinib pack with each leaflet. 
 * If you get side effects your doctor may decide that you should take lower doses of Tafinlar and / 
 or trametinib. Take the doses of Tafinlar and trametinib exactly as your doctor, nurse or 
-pharmacist tells you. </p>         </div>"""         
+pharmacist tells you. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -553,7 +556,7 @@ palpitations and chest pain
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tafinlar"
@@ -565,7 +568,7 @@ safety of this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -677,7 +680,7 @@ Tel: +44 1276 698This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
-<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      
+<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p> </div>"""      
 
 
 
@@ -716,7 +719,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -725,7 +730,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -742,7 +748,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -759,7 +765,7 @@ kaldes ikke-småcellet lungekræft (NSCLC). </p>
 det er blevet fjernet ved operation. </p>
 <p>Begge kræfttyper har en bestemt ændring (mutation) ved position V600 i et gen, der kaldes BRAF. 
 Denne ændring i genet kan have været årsagen til udviklingen af kræften. Dit lægemiddel er rettet mod 
-proteiner, der er lavet fra dette muterede gen og hæmmer eller stopper udviklingen af din kræft. </p>         </div>"""   
+proteiner, der er lavet fra dette muterede gen og hæmmer eller stopper udviklingen af din kræft. </p> </div>"""   
           
 
              
@@ -1061,7 +1067,7 @@ Undgå at føre motorkøretøj og betjene maskiner, hvis du har problemer med di
 dig træt eller svag, eller hvis dit energiniveau er lavt. 
 Beskrivelser af disse bivirkninger kan findes i punkt 2 og punkt 4. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du er i tvivl om noget. Selv din sygdom, 
 dine symptomer og din behandlingssituation kan påvirke din evne til at føre motorkøretøj og betjene 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tafinlar"
@@ -1144,7 +1150,7 @@ indlægsseddel. </p>
 trametinib. Tag doserne af Tafinlar og trametinib nøjagtigt efter lægens, apotekspersonalets eller 
 sygeplejerskens anvisning. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1646,7 +1652,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tafinlar"
@@ -1658,7 +1664,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1791,7 +1797,7 @@ Tel: +44 1276 698 </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside https://www.ema.europa.eu. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Herzuma  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ with medicines called aromatase inhibitors with patients with high levels of HER
 receptor-positive metastatic breast cancer (cancer that is sensitive to the presence of female sex 
 hormones). </p>
 <p>you have metastatic gastric cancer with high levels of HER2, when it is in combination with the 
-other cancer medicines capecitabine or 5-fluorouracil and cisplatin. </p>         </div>"""   
+other cancer medicines capecitabine or 5-fluorouracil and cisplatin. </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ as Herzuma may pass to your baby through your breast milk. </p>
 experience symptoms, such as dizziness, sleepiness, chills or fever, you should not drive or use 
 machines until these symptoms disappear.  </p>
 <p>Sodium </p>
-<p>Herzuma contains less than 1 mmol of sodium (23 mg) per dose, that is to say essentially sodium-free. </p>         </div>"""   
+<p>Herzuma contains less than 1 mmol of sodium (23 mg) per dose, that is to say essentially sodium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take herzuma"
@@ -181,7 +184,7 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can.  </p>
 <p>It may take up to 7 months for Herzuma to be removed from your body. Therefore your doctor may 
 decide to continue to check your heart functions, even after you finish treatment.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ Herzuma in combination with chemotherapy, some of them may also be due to the ch
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store herzuma"
@@ -353,7 +356,7 @@ after EXP. The expiry date refers to the last day of that month. </p>
 <p>Infusion solutions should be used immediately after dilution. Do not use Herzuma if you notice any 
 particulate matter or discoloration prior to administration. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -481,7 +484,7 @@ Celltrion Healthcare Ireland Limited
 T lr.: +36 1 231 0Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -520,7 +523,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -529,7 +534,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -544,7 +550,7 @@ Usage: #inline
 3. Sådan får du Herzuma 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -572,7 +578,7 @@ følsom over for tilstedeværelsen af kvindelige kønshormoner). </p>
 <p>du har metastatisk mavekræft med høje koncentrationer af HER2, når det er i kombination med 
 de andre kræftlægemidler, capecitabin eller 5-fluoruracil og cisplatin. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -663,7 +669,7 @@ behandlingen får symptomer såsom svimmelhed, søvnighed, kulderystelser eller 
 motorkøretøj eller betjene maskiner, før symptomerne er forsvundet. </p>
 <p>Natrium  </p>
 <p>Herzuma indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, det vil sige, at er i det væsentlige 
-natriumfri. </p>         </div>"""   
+natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take herzuma"
@@ -690,7 +696,7 @@ rigtige tidspunkt hver uge eller hver tredje uge (afhængigt af dit doseringsske
 til at virke bedst muligt. </p>
 <p>Det kan tage op til 7 måneder at udskille Herzuma fra kroppen. Derfor kan din læge beslutte at 
 fortsætte med at undersøge din hjertefunktion, efter din behandling er stoppet. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1013,7 +1019,7 @@ Herzuma i kombination med kemoterapi, kan nogle af bivirkningerne skyldes kemote
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store herzuma"
@@ -1027,7 +1033,7 @@ efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Infusionsopløsninger skal anvendes umiddelbart efter fortynding. Brug ikke Herzuma hvis du 
 bemærker nogle partikler eller misfarvning inden brug. </p>
 <p>Spørg på apoteket, hvordan du skal aflevere medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1257,7 +1263,7 @@ indeholder vigtige oplysninger. </p>
 <p>Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

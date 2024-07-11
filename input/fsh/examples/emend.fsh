@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store EMEND</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ vomiting. EMEND works by blocking signals to that area, thereby reducing nausea 
 EMEND capsules are used in adults and adolescents from the age of 12 years in combination with
 other medicines to prevent nausea and vomiting caused by chemotherapy (cancer treatment) that are
 strong and moderate triggers of nausea and vomiting (such as cisplatin, cyclophosphamide,
-doxorubicin or epirubicin).</p>         </div>"""   
+doxorubicin or epirubicin).</p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ child have an intolerance to some sugars, contact the doctor before taking this 
 EMEND contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially
  sodium-free .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emend"
@@ -188,7 +191,7 @@ capsules, contact your doctor immediately.
 If you forget to take EMEND
 If you or the child has missed a dose, contact your doctor for advice.
 If you have any further questions on the use of this medicine, ask the doctor or pharmacist.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -255,7 +258,7 @@ If you or the child gets any side effects, talk to your doctor, pharmacist, or n
 possible side effects not listed in this leaflet. You can also report side effects directly via the national
 reporting system listed in Appendix V. By reporting side effects you can help provide more
 information on the safety of this medicine.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emend"
@@ -268,7 +271,7 @@ refers to the last day of that month.
 Store in the original package in order to protect from moisture.
 Do not remove the capsule from its blister until you are ready to take it.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -412,7 +415,7 @@ medicine to the child - please read this information carefully.
 - This medicine has been prescribed for the child only. Do not pass it on to others. It may harm
 them, even if their signs of illness are the same.
 - If the child gets any side effects, talk to the doctor, pharmacist, or nurse. This includes any
-possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+possible side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -451,7 +454,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -460,7 +465,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -475,7 +481,7 @@ Usage: #inline
 3. Sådan skal du tage EMEND
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -489,7 +495,7 @@ og opkastning. EMEND virker ved at blokere signalerne til dette område, hvorved
 opkastning mindskes. EMEND kapsler bruges hos voksne og unge fra 12-års alderen i kombination
 med anden medicin til at forebygge kvalme og opkastning i forbindelse med kemoterapibehandling
 (behandling af kræft), der er kraftige og moderate udløsere af kvalme og opkastning (fx cisplatin,
-cyclophosphamid, doxorubicin eller epirubicin). </p>         </div>"""   
+cyclophosphamid, doxorubicin eller epirubicin). </p> </div>"""   
           
 
              
@@ -569,7 +575,7 @@ lægen har fortalt dig eller barnet, at du eller barnet ikke tåler visse sukker
 EMEND indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det
 væsentlige natriumfrit.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emend"
@@ -603,7 +609,7 @@ mange kapsler, skal du eller barnet straks kontakte lægen.
 Hvis du har glemt at tage EMEND
 Hvis du eller barnet har glemt at tage en dosis, skal du kontakte lægen for vejledning.
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -671,7 +677,7 @@ sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe
 med at fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emend"
@@ -685,7 +691,7 @@ Opbevares i den originale yderpakning for at beskytte mod fugt.
 Tag ikke kapslen ud af blisterpakningen, før du er klar til at indtage den.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-62</p>         </div>"""      
+62</p> </div>"""      
         
         
 * section[=].section[+]
@@ -863,7 +869,7 @@ skal give medicinen til barnet - læs denne information grundigt.</li>
 medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer.</li>
 <li>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis barnet får bivirkninger, herunder
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

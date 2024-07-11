@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rydapt </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ and growth. </p>
 <p>At the start of treatment in AML Rydapt is always used together with chemotherapy (medicines for 
 treating cancer). </p>
 <p>If you have any questions about how Rydapt works or why this medicine has been prescribed for you, 
-ask your doctor, pharmacist or nurse. </p>         </div>"""   
+ask your doctor, pharmacist or nurse. </p> </div>"""   
           
 
              
@@ -195,7 +198,7 @@ noticeable effects. Alcohol may be harmful if you have alcohol-related problems,
 problems, or if you are pregnant or breast-feeding. </p>
 <p>Rydapt contains macrogolglycerol hydroxystearate (castor oil) 
 This medicine contains macrogolglycerol hydroxystearate, which may cause stomach discomfort and 
-diarrhoea. </p>         </div>"""   
+diarrhoea. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rydapt"
@@ -241,7 +244,7 @@ take a double dose to make up for a forgotten dose. Instead, wait until it is ti
 <p>If you stop taking Rydapt 
 Stopping your treatment with Rydapt may cause your condition to become worse. Do not stop taking 
 your medicine unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -400,7 +403,7 @@ aminotransferase (AST)) </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rydapt"
@@ -418,7 +421,7 @@ tampering. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -514,7 +517,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -553,7 +556,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -562,7 +567,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -577,7 +583,7 @@ Usage: #inline
 3. Sådan skal du tage Rydapt 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -603,7 +609,7 @@ deling og vækst. </p>
 <p>Ved AML anvendes Rydapt altid sammen med kemoterapi (lægemidler til behandling af kræft) i 
 starten af behandling. </p>
 <p>Hvis du har spørgsmål til, hvordan Rydapt virker, eller hvorfor dette lægemiddel er blevet ordineret til 
-dig, så tal med lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""   
+dig, så tal med lægen, apotekspersonalet eller sygeplejersken. </p> </div>"""   
           
 
              
@@ -713,7 +719,7 @@ Alkohol kan have en skadelig virkning, hvis du har alkoholrelaterede problemer, 
 leverproblemer, eller hvis du er gravid eller ammer. </p>
 <p>Rydapt indeholder ricinusolie, polyoxyleret, hydrogeneret 
 Dette lægemiddel indeholder ricinusolie, polyoxyleret, hydrogeneret, hvilket kan give mavebesvær og 
-diarré. </p>         </div>"""   
+diarré. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rydapt"
@@ -762,7 +768,7 @@ stedet, til det er tid til din næste dosis. </p>
 <p>Hvis du holder op med at tage Rydapt 
 Hvis du stopper behandlingen med Rydapt, kan din tilstand forværres. Stop ikke med at tage din 
 medicin, medmindre lægen har bedt dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -925,7 +931,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rydapt"
@@ -942,7 +948,7 @@ i den originale yderpakning for at beskytte mod fugt. </li>
 den har været åbnet. </li>
 <li>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må 
 du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1060,7 +1066,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu  </p> </div>"""      
 
 
 
@@ -1099,7 +1105,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1108,7 +1116,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1125,7 +1134,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Rydapt </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1152,7 +1161,7 @@ sua divisão e crescimento. </p>
 <p>No início do tratamento da LMA Rydapt é sempre utilizado em associação com quimioterapias 
 (medicamentos para tratamento do cancro). </p>
 <p>Se tiver quaisquer questões sobre como Rydapt funciona ou o motivo porque este medicamento lhe foi 
-receitado fale com o seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+receitado fale com o seu médico, farmacêutico ou enfermeiro. </p> </div>"""   
           
 
              
@@ -1253,7 +1262,7 @@ relacionados com o álcool como epilepsia ou problemas no fígado ou se estiver 
 amamentar. </p>
 <p>Rydapt contém hidroxiestearato de macrogolglicerol (óleo de rícino) 
 Rydapt contém hidroxiestearato de macrogolglicerol, que pode provocar desconforto no estômago e 
-diarreia. </p>         </div>"""   
+diarreia. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rydapt"
@@ -1303,7 +1312,7 @@ vez disso, espere até à hora de tomar a dose seguinte. </p>
 Interromper o seu tratamento com Rydapt pode piorar a sua doença. Não pare de tomar o medicamento 
 a não ser que o seu médico lhe diga para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1461,7 +1470,7 @@ aminotransferase (ALT) e/ou aspartato aminotransferase (AST)) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rydapt"
@@ -1479,7 +1488,7 @@ quaisquer sinais de adulteração. </li>
 <li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1596,7 +1605,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

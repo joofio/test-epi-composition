@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Anagrelide Viatris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ which results in a decrease in the platelet count in the blood towards a more no
 reason, it is used to treat patients with essential thrombocythaemia. </p>
 <p>Essential thrombocythaemia is a condition which occurs when the bone marrow produces too many of 
 the blood cells known as platelets. Large numbers of platelets in the blood can cause serious problems 
-with blood circulation and clotting. </p>         </div>"""   
+with blood circulation and clotting. </p> </div>"""   
           
 
              
@@ -150,7 +153,7 @@ feel dizzy. </p>
 <p>This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
 some sugars, contact your doctor before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take anagrelide"
@@ -178,7 +181,7 @@ If you take more Anagrelide Viatris than you should or if someone else has taken
 doctor or pharmacist immediately. Show them the pack of Anagrelide Viatris. </p>
 <p>If you forget to take Anagrelide Viatris 
 Take your capsules as soon as you remember. Take your next dose at the usual time. Do not take a 
-double dose to make up for a forgotten dose. </p>         </div>"""         
+double dose to make up for a forgotten dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -238,7 +241,7 @@ scaring of the lungs) (allergic alveolitis, including interstitial lung disease,
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store anagrelide"
@@ -252,7 +255,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special temperature storage conditions. </p>
 <p>If your doctor stops your medicine, do not keep any leftover capsules unless your doctor tells you to. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -351,7 +354,7 @@ Mylan Healthcare SIA
 Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -390,7 +393,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -399,7 +404,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -414,7 +420,7 @@ Usage: #inline
 3. Sådan skal du tage Anagrelide Viatris 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -428,7 +434,7 @@ medfører et fald i antallet af blodplader i blodet hen imod et mere normalt niv
 til behandling af patienter med essentiel trombocytæmi. </p>
 <p>Essentiel trombocytæmi er en tilstand, der optræder, når knoglemarven producerer for mange af de 
 blodceller, der kaldes blodplader. Et stort antal blodplader i blodet kan medføre alvorlige problemer 
-med blodcirkulationen og dannelse af blodpropper.  </p>         </div>"""   
+med blodcirkulationen og dannelse af blodpropper.  </p> </div>"""   
           
 
              
@@ -537,7 +543,7 @@ ikke maskiner, hvis du føler dig svimmel. </p>
 Dette lægemiddel indeholder lactose. Kontakt lægen, før du tager denne medicin, hvis lægen har 
 fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take anagrelide"
@@ -564,7 +570,7 @@ Hvis du har taget for meget Anagrelide Viatris, eller hvis en anden har taget di
 straks underrette din læge eller apoteket. Vis dem Anagrelide Viatris emballagen. </p>
 <p>Hvis du har glemt at tage Anagrelide Viatris 
 Tag kapslerne, så snart du kommer i tanker om det. Tag næste dosis på det sædvanlige tidspunkt. 
-Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>         </div>"""         
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -639,7 +645,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store anagrelide"
@@ -654,7 +660,7 @@ Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemi
 <p>Hvis din læge standser din medicinering, må du ikke beholde eventuelle resterende kapsler, 
 medmindre din læge beder dig om det. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -796,7 +802,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

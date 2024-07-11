@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects.  </li>
 <li>How to store Epidyolex. </li>
 <li>Contents of the pack and other information. </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ treat seizures that occur with two rare conditions, called Dravet syndrome and L
 syndrome. It can be used in adults, adolescents and children of at least 2 years of age.  </p>
 <p>Epidyolex is also used in combination with other antiepileptic medicines to treat seizures that occur 
 with a genetic disorder called tuberous sclerosis complex (TSC). It can be used in adults, adolescents 
-and children of at least 2 years of age.  </p>         </div>"""   
+and children of at least 2 years of age.  </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ Epidyolex contains refined sesame oil which may rarely cause severe allergic rea
 7 ml of wine per dose.  </p>
 <p>This medicine contains 0.0003 mg/ml benzyl alcohol corresponding 0.0026 mg per maximal 
 Epidyolex dose (Epidyolex 12.5 mg/kg per dose for an adult weighing 70 kg). 
-Benzyl alcohol may cause allergic reactions. </p>         </div>"""   
+Benzyl alcohol may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take epidyolex"
@@ -310,7 +313,7 @@ take.
 If you or your patient stop taking Epidyolex 
 Do not reduce the dose or stop taking Epidyolex without first talking to your doctor. The doctor will 
 explain how to gradually stop taking Epidyolex. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ following: </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store epidyolex"
@@ -368,7 +371,7 @@ day of that month. </p>
 use it. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicine in the wastewater or household waste. Ask your pharmacist about 
-how to throw away any medicine that you no longer use. This will help protect the environment. </p>         </div>"""      
+how to throw away any medicine that you no longer use. This will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -442,7 +445,7 @@ Tel: +44 8081890387 (toll free) </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p> </div>"""      
 
 
 
@@ -481,7 +484,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -490,7 +495,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -507,7 +513,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -522,7 +528,7 @@ behandle anfald, som sker ved to sjældne sygdomme, der hedder Dravets syndrom o
 Lennox-Gastauts syndrom. Det kan bruges til voksne, unge og børn over 2 år.  </p>
 <p>Epidyolex bruges desuden sammen med andre lægemidler mod epilepsi til at behandle anfald, som 
 sker ved en genetisk lidelse, der kaldes tuberøs sclerose-kompleks (TSC). Det kan bruges til voksne, 
-unge og børn på 2 år og derover. </p>         </div>"""   
+unge og børn på 2 år og derover. </p> </div>"""   
           
 
              
@@ -611,7 +617,7 @@ reaktioner. </p>
 pr. dosis. </p>
 <p>Dette lægemiddel indeholder 0,0003 mg benzylalkohol svarende til 0,0026 mg pr. maksimal 
 Epidyolex-dosis (12,5 mg/kg Epidyolex pr. dosis for en voksen, der vejer 70 kg). 
-Benzylalkohol kan medføre allergiske reaktioner. </p>         </div>"""   
+Benzylalkohol kan medføre allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take epidyolex"
@@ -775,7 +781,7 @@ med lægen om, hvilken dosis du skal tage.
 Hvis du eller patienten holder op med at tage Epidyolex 
 Du må ikke tage en mindre dosis eller holde op med at tage Epidyolex uden først at tale med lægen. 
 Lægen vil forklare, hvordan du gradvist skal holde op med at tage Epidyolex. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -820,7 +826,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store epidyolex"
@@ -833,7 +839,7 @@ dag i den nævnte måned. </p>
 <p>Hvis der er mere væske tilbage i flasken 12 uger efter første åbning, må du ikke bruge det. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -938,7 +944,7 @@ Tel: +44 8081890387 (toll free) </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -977,7 +983,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -986,7 +994,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1003,7 +1012,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis.  </li>
 <li>Como conservar Epidyolex. </li>
 <li>Conteúdo da embalagem e outras informações. </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1020,7 +1029,7 @@ menos 2 anos de idade.  </p>
 <p>O Epidyolex é também usado em combinação com outros medicamentos antiepiléticos para o 
 tratamento de convulsões que ocorrem com uma perturbação genética que se designa por complexo de 
 esclerose tuberosa (CET). Pode ser usado em adultos, adolescentes e crianças com pelo menos 2 anos 
-de idade.  </p>         </div>"""   
+de idade.  </p> </div>"""   
           
 
              
@@ -1104,7 +1113,7 @@ Epidyolex contém óleo de sésamo refinado que pode, raramente, provocar reaç�
 ou 7 ml de vinho por dose. </p>
 <p>Este medicamento contém 0,0003 mg/ml de álcool benzílico, correspondendo a 0,0026 mg por dose 
 máxima de Epidyolex (Epidyolex 12,5 mg/kg por dose (CET) para um adulto que pese 70 kg). O 
-álcool benzílico poderá provocar reações alérgicas. </p>         </div>"""   
+álcool benzílico poderá provocar reações alérgicas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar epidyolex"
@@ -1281,7 +1290,7 @@ Se você ou o seu doente parar de tomar Epidyolex
 Não reduza a dose ou pare de tomar Epidyolex sem falar primeiro com o seu médico. O médico irá 
 explicar-lhe como reduzir gradualmente a toma de Epidyolex. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1326,7 +1335,7 @@ tenha qualquer um dos seguintes: </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar epidyolex"
@@ -1340,7 +1349,7 @@ corresponde ao último dia do mês indicado. </p>
 deverá usá-la. </p>
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos no esgoto ou lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1441,7 +1450,7 @@ United Kingdom (Northern Ireland)
 Tel: +44 8081890387 (toll free) </p>
 <p>Este folheto foi revisto pela última vez em . </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

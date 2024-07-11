@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Temodal</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ treatment).</li>
 <li>in children 3 years and older and adult patients with malignant glioma, such as glioblastoma
 multiforme or anaplastic astrocytoma. Temodal is used in these tumours if they return or get
 worse after standard treatment.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -152,7 +155,7 @@ This medicine contains lactose (a kind of sugar). If you have been told by your 
 intolerance to some sugars, contact your doctor before taking this medicine.
 Temodal contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take temodal"
@@ -239,7 +242,7 @@ Take the missed dose as soon as possible during the same day. If a full day has 
 your doctor. Do not take a double dose to make up for a forgotten dose, unless your doctor tells you to
 do so.
 If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -332,7 +335,7 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
 safety of this medicine.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store temodal"
@@ -346,7 +349,7 @@ refers to the last day of that month.
 Do not store above 30  C
 Tell your pharmacist if you notice any change in the appearance of the capsules.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -521,7 +524,7 @@ important information for you.
 - Keep this leaflet. You may need to read it again.
 - If you have any further questions, ask your doctor, pharmacist or nurse.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -560,7 +563,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -569,7 +574,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -584,7 +590,7 @@ Usage: #inline
 3. Sådan skal De tage Temodal
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -602,7 +608,7 @@ strålebehandling (konkomitant fase af behandlingen) og efterfølgende alene
 <li>hos børn i alderen 3 år og ældre og voksne patienter med malignt (ondartet) gliom, såsom
 glioblastoma multiforme eller anaplastisk astrocytoma. Temodal bruges til behandling af disse
 svulster, hvis der er tegn på, at de vender tilbage eller bliver værre efter standardbehandling. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -676,7 +682,7 @@ Dette lægemiddel indeholder lactose (en form for sukker). Hvis Deres læge har 
 tåler visse sukkerstoffer, skal De kontakte Deres læge, før De tager dette lægemiddel.
 Temodal indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take temodal"
@@ -770,7 +776,7 @@ Deres læge straks. De må ikke tage en dobbeltdosis som erstatning for den glem
 Deres læge beder Dem gøre dette.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -872,7 +878,7 @@ Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsse
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store temodal"
@@ -886,7 +892,7 @@ den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 30 C.
 Tal med apotekspersonalet, hvis De bemærker et ændret udseende af kapslerne.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1097,7 +1103,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Temodal til Dem personligt. Lad derfor være med at give medicinen til
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis får bivirkninger, herunder
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

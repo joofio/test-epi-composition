@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cayston </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ lung infection caused by the bacteria Pseudomonas aeruginosa in patients aged 6 
 cystic fibrosis.  Cystic fibrosis, also known as mucoviscidosis, is a life-threatening inherited disease 
 that affects the mucus glands of internal organs, especially the lungs, but also of the liver, pancreas, 
 and the digestive system.  Cystic fibrosis in the lungs leads to clogging them with thick sticky mucus.<br />
-This makes it hard to breathe. </p>         </div>"""   
+This makes it hard to breathe. </p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ Cayston during pregnancy unless specifically discussed with your doctor. </p>
 during treatment with Cayston because the amount of Cayston likely to be passed to your child during 
 breast-feeding will be extremely small. </p>
 <p>Driving and using machines </p>
-<p>Cayston is not expected to affect your ability to drive or use machines. </p>         </div>"""   
+<p>Cayston is not expected to affect your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cayston"
@@ -294,7 +297,7 @@ mist, more than 5 minutes), please refer to the Altera Nebuliser instructions fo
 can t leave a gap of 4 hours just skip the missed dose. </p>
 <p>If you stop taking Cayston </p>
 <p>Do not stop taking Cayston without first talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -331,7 +334,7 @@ blistering of the skin.  All these may be signs of an allergic reaction. </p>
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cayston"
@@ -349,7 +352,7 @@ be stored at 2 C - 8 C and used within 8 hours.  Do not prepare more than one do
 <p>Do not use this medicine if you notice that the package has been tampered with. </p>
 <p>Do not use this medicine if it has been stored outside a refrigerator for more than 28 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -454,7 +457,7 @@ Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -493,7 +496,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -502,7 +507,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -517,7 +523,7 @@ Usage: #inline
 3. Sådan skal du bruge Cayston 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -530,7 +536,7 @@ undertrykke kronisk lungeinfektion, der er forårsaget af bakterien Pseudomonas 
 patienter i alderen 6 år og derover med cystisk fibrose. Cystisk fibrose, også kendt som 
 mucoviscidosis, er en livstruende, arvelig sygdom, som påvirker slimkirtlerne i de indre organer, 
 særligt i lungerne, men også i leveren, bugspytkirtlen og fordøjelsessystemet. Cystisk fibrose i 
-lungerne medfører, at lungerne stoppes til med tyk, klistret slim. Det gør det svært at trække vejret. </p>         </div>"""   
+lungerne medfører, at lungerne stoppes til med tyk, klistret slim. Det gør det svært at trække vejret. </p> </div>"""   
           
 
              
@@ -575,7 +581,7 @@ graviditeten, medmindre du specifikt har drøftet det med lægen. </p>
 amme under behandlingen med Cayston, fordi den mængde af Cayston, som muligvis bliver givet 
 videre til dit barn via mælken, er meget lille. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Cayston forventes ikke at påvirke din evne til at føre motorkøretøj eller bruge maskiner. </p>         </div>"""   
+<p>Cayston forventes ikke at påvirke din evne til at føre motorkøretøj eller bruge maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cayston"
@@ -764,7 +770,7 @@ imellem. Hvis det ikke er muligt at inhalere med 4 timers mellemrum, skal du blo
 dosis over. </p>
 <p>Hvis du holder op med at bruge Cayston </p>
 <p>Du må ikke holde op med at bruge Cayston uden først at tale med lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -801,7 +807,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cayston"
@@ -820,7 +826,7 @@ end én dosis ad gangen. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pakken har været åbnet. </p>
 <p>Brug ikke lægemidlet, hvis det har været opbevaret uden for køleskab i mere end 28 dage. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -960,7 +966,7 @@ Tel: + 44 (0) 8000 113 </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
-http://www.laegemiddelstyrelsen.dk. </p>         </div>"""      
+http://www.laegemiddelstyrelsen.dk. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Zyllt</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -103,7 +106,7 @@ forming and prevent existing clots from growing. You should have been told that 
 anticoagulants  are more effective than acetylsalicylic acid or the combined use of Zyllt and 
 acetylsalicylic acid for this condition. Your doctor should have prescribed Zyllt plus 
 acetylsalicylic acid if you cannot take  oral anticoagulants  and you do not have a risk of major 
-bleeding.</p>         </div>"""   
+bleeding.</p> </div>"""   
           
 
              
@@ -194,7 +197,7 @@ Driving and using machines
 Zyllt is unlikely to affect your ability to drive or to use machines.
 Zyllt contains lactose
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product.</p>         </div>"""   
+before taking this medicinal product.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zyllt"
@@ -226,7 +229,7 @@ double dose to make up for a forgotten tablet.
 If you stop taking Zyllt 
 Do not stop the treatment unless your doctor tells you so. Contact your doctor or pharmacist before 
 stopping.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -276,7 +279,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zyllt"
@@ -288,7 +291,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 expiry date refers to the last day of that month.
 Store in the original package in order to protect from moisture and light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -381,7 +384,7 @@ KRKA Latvija SIA
 Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in MM/YYYY.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -420,7 +423,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -429,7 +434,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -444,7 +450,7 @@ Usage: #inline
 3. Sådan skal du tage Zyllt
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -485,7 +491,7 @@ om, at "orale antikoagulantia" er mere effektive mod denne sygdom end acetylsali
 kombinationen af Zyllt og acetylsalicylsyre. Din læge bør have udskrevet Zyllt plus 
 acetylsalicylsyre, hvis du ikke må tage "orale antikoagulantia", og du ikke har risiko for alvorlig 
 blødning.
-35</p>         </div>"""   
+35</p> </div>"""   
           
 
              
@@ -600,7 +606,7 @@ Trafik- og arbejdssikkerhed
 Det er usandsynligt at Zyllt påvirker din evne til at køre eller betjene maskiner.
 Zyllt indeholder lactose
 Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter (f.eks. lactose), skal du kontakte lægen, 
-før du tager dette lægemiddel.</p>         </div>"""   
+før du tager dette lægemiddel.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zyllt"
@@ -632,7 +638,7 @@ tid. Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.
 Hvis du holder op med at tage Zyllt
 Du må ikke stoppe behandlingen, medmindre din læge fortæller dig, at du skal gøre det. Kontakt 
 din læge eller apoteket, før du holder op.
-Spørg lægen eller apoteksperonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apoteksperonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -685,7 +691,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zyllt"
@@ -697,7 +703,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. 
 sidste dag i den nævnte måned.
 Opbevares i den originale pakning for at beskytte mod fugt og lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -819,7 +825,7 @@ KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Denne indlægsseddel blev senest godkendt MM/ÅÅÅÅ
 De kan finde yderligere information om Zyllt på Det europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu/.</p>         </div>"""      
+http://www.ema.europa.eu/.</p> </div>"""      
 
 
 

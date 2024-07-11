@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Vizarsin</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ phosphodiesterase type 5 (PDE5) inhibitors. It works by helping to relax the blo
 penis, allowing blood to flow into your penis when you get sexually excited. Vizarsin will only help 
 you to get an erection if you are sexually stimulated.
 Vizarsin is a treatment for adult men with erectile dysfunction, sometimes known as impotence. This 
-is when a man cannot get, or keep a hard, erect penis suitable for sexual activity.</p>         </div>"""   
+is when a man cannot get, or keep a hard, erect penis suitable for sexual activity.</p> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ Vizarsin contains lactose and sodium
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product.
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vizarsin"
@@ -200,7 +203,7 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy.
 You should not take more tablets than your doctor tells you to.
 Contact your doctor if you take more tablets than you should.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -263,7 +266,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vizarsin"
@@ -275,7 +278,7 @@ Do not use this medicine after the expiry date which is stated on the box and bl
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ KRKA Latvija SIA
 Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -408,7 +411,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -417,7 +422,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -432,7 +438,7 @@ Usage: #inline
 3. Sådan skal du tage Vizarsin
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -446,7 +452,7 @@ strømme ind i penis ved seksuel stimulation. Vizarsin vil kun hjælpe dig med a
 bliver seksuelt stimuleret.
 Vizarsin er til behandling af voksne mænd med erektil dysfunktion, også kendt som impotens, hvilket 
 er manglende evne til at opnå og/eller opretholde erektion tilstrækkelig til at gennemføre 
-tilfredsstillende seksuel aktivitet.</p>         </div>"""   
+tilfredsstillende seksuel aktivitet.</p> </div>"""   
           
 
              
@@ -546,7 +552,7 @@ Vizarsin indeholder lactose og natrium
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vizarsin"
@@ -571,7 +577,7 @@ Hvis du har taget for meget Vizarsin
 Du kan opleve flere og kraftigere bivirkninger. Doser på over 100 mg vil ikke forøge virkningen.
 Du bør ikke tage flere tabletter, end din læge har sagt.
 Kontakt lægen, hvis du har taget flere tabletter, end du skal.
-Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -637,7 +643,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vizarsin"
@@ -649,7 +655,7 @@ Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken og blist
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet eller, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -790,7 +796,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

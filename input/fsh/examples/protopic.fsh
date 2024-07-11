@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Protopic </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ prevent flares coming back or prolong the time you are free from flares by using
 ointment twice weekly. </p>
 <p>In atopic dermatitis, an over-reaction of the skin s immune system causes skin inflammation 
 (itchiness, redness, dryness). Protopic alters the abnormal immune response and relieves the skin 
-inflammation and the itch. </p>         </div>"""   
+inflammation and the itch. </p> </div>"""   
           
 
              
@@ -144,7 +147,7 @@ If you are pregnant or breast-feeding, think you may be pregnant or are planning
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Protopic contains butylhydroxytoluene (E321) 
 Protopic contains butylhydroxytoluene (E321), which may cause local skin reactions (e.g. contact 
-dermatitis), or irritation to the eyes and mucous membranes. </p>         </div>"""   
+dermatitis), or irritation to the eyes and mucous membranes. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take protopic"
@@ -188,7 +191,7 @@ not try to induce vomiting. </p>
 <p>If you forget to use Protopic 
 If you forget to apply the ointment at the scheduled time, do it as soon as you remember and then 
 continue as before. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -223,7 +226,7 @@ experience. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store protopic"
@@ -235,7 +238,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. 
 Do not store above 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -327,7 +330,7 @@ LEO Pharma A/S
 Tel: +45 44 94 58 United Kingdom (Northern Ireland) 
 LEO Laboratories Ltd 
 Tel: +44 (0) 1844 347This leaflet was last revised in. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -366,7 +369,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -375,7 +380,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -390,7 +396,7 @@ Usage: #inline
 3. Sådan skal du bruge Protopic 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -409,7 +415,7 @@ være muligt at forebygge tilbagevenden af eksemudbrud eller at forlænge den ti
 eksemudbrud ved at bruge Protopic 0,03% salve to gange ugentlig.  </p>
 <p>Ved atopisk dermatitis ses inflammation af huden (kløe, rødme og tørhed) på grund af en overreaktion 
 af hudens immunsystem. Protopic dæmper den unormale hudreaktion og lindrer hudinflammation og 
-kløe. </p>         </div>"""   
+kløe. </p> </div>"""   
           
 
              
@@ -503,7 +509,7 @@ Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægg
 du spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel. </p>
 <p>Protopic indeholder butylhydroxytoluen (E321) 
 Protopic indeholder butylhydroxytoluen (E321), som kan medføre lokale hudreaktioner (f.eks. 
-kontaktdermatitis) eller irritation af øjne og slimhinder. </p>         </div>"""   
+kontaktdermatitis) eller irritation af øjne og slimhinder. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take protopic"
@@ -560,7 +566,7 @@ eller apotekspersonalet. Du skal ikke forsøge at fremkalde en opkastning. </p>
 <p>Hvis du har glemt at bruge Protopic 
 Hvis du glemmer at påsmøre salven på det fastsatte tidspunkt, påsmør salve straks du kommer i tanke 
 om det, og fortsæt behandlingen som tidligere. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -619,7 +625,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store protopic"
@@ -631,7 +637,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. 
 Må ikke opbevares ved temperaturer over 25 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -767,7 +773,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Protopic til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

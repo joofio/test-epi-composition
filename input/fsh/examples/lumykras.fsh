@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store LUMYKRAS </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ make sure that LUMYKRAS is right for you. </p>
 attaches to the protein and stops it from working, which may slow down or stop the growth of the 
 cancer. </p>
 <p>If you have any questions about how LUMYKRAS works or why this medicine has been prescribed 
-for you, ask your doctor, pharmacist, or nurse. </p>         </div>"""   
+for you, ask your doctor, pharmacist, or nurse. </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ your baby. </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>LUMYKRAS contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium- free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium- free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lumykras"
@@ -210,7 +213,7 @@ your regular scheduled time. </p>
 <p>If you forget to take LUMYKRAS </p>
 <p>If you forget to take a dose of LUMYKRAS at your regular scheduled time, and less than 6 hours have 
 passed, take your dose as normal. If more than 6 hours have passed from your regular scheduled time, 
-do not take the dose. Take your next dose at your regular scheduled time the next day. </p>         </div>"""         
+do not take the dose. Take your next dose at your regular scheduled time the next day. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -248,7 +251,7 @@ phosphatase, bilirubin and gamma-glutamyltransferase)
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lumykras"
@@ -262,7 +265,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -377,7 +380,7 @@ about this medicine. </p>
 <p>The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -416,7 +419,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -425,7 +430,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -442,7 +448,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -463,7 +469,7 @@ LUMYKRAS er det rigtige valg til dig. </p>
 binder sig til proteinet og forhindrer det i at fungere, hvilket kan forsinke eller stoppe væksten af 
 kræften. </p>
 <p>Hvis du har nogen spørgsmål om, hvordan LUMYKRAS virker, eller hvorfor dette lægemiddel er 
-blevet ordineret til dig, skal du spørge lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""   
+blevet ordineret til dig, skal du spørge lægen, apotekspersonalet eller sygeplejersken. </p> </div>"""   
           
 
              
@@ -584,7 +590,7 @@ kan skade dit barn. </p>
 sukkerarter. </p>
 <p>LUMYKRAS indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lumykras"
@@ -645,7 +651,7 @@ den næste dosis på det sædvanlige planlagte tidspunkt. </p>
 <p>Hvis du har glemt at tage en dosis LUMYKRAS på det sædvanlige planlagte tidspunkt, og der er gået 
 mindre end 6 timer, skal du tage din dosis som normalt. Hvis der er gået mere end 6 timer siden det 
 sædvanlige planlagte tidspunkt, må du ikke tage dosen. Tag den næste dosis på det sædvanlige 
-planlagte tidspunkt den næste dag. </p>         </div>"""         
+planlagte tidspunkt den næste dag. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -720,7 +726,7 @@ bilirubin og gammaglutamyltransferase) </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lumykras"
@@ -734,7 +740,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og beholderen 
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -909,7 +915,7 @@ lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 

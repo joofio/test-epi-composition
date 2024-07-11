@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Comirnaty </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Comirnaty is a vaccine used for preventing COVID-19 caused by SARS-CoV-2. Comirnaty 30 micrograms/dose concentrate for dispersion for injection is given to adults and 
 adolescents from 12 years of age and older.  </p>
 <p>The vaccine causes the immune system (the body s natural defences) to produce antibodies and blood 
-cells that work against the virus, so giving protection against COVID-19. As Comirnaty does not contain the virus to produce immunity, it cannot give you COVID-19. The use of this vaccine should be in accordance with official recommendations.   </p>         </div>"""   
+cells that work against the virus, so giving protection against COVID-19. As Comirnaty does not contain the virus to produce immunity, it cannot give you COVID-19. The use of this vaccine should be in accordance with official recommendations.   </p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ use machines. </p>
 This vaccine contains less than 1 mmol potassium (39 mg) per dose, that is to say essentially 
  potassium-free . </p>
 <p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take comirnaty"
@@ -152,7 +155,7 @@ This vaccine contains less than 1 mmol potassium (39 mg) per dose, that is to sa
 <p>If you were previously vaccinated with a COVID-19 vaccine, you should not receive a dose of 
 Comirnaty until at least 3 months after the most recent dose.  </p>
 <p>If you are immunocompromised, you may receive additional doses of Comirnaty.  </p>
-<p>If you have any further questions on the use of Comirnaty, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of Comirnaty, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ dermatological fillers)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V and include batch/Lot number if available. By reporting side effects you 
-can help provide more information on the safety of this medicine. </p>         </div>"""      
+can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store comirnaty"
@@ -244,7 +247,7 @@ unused vaccine. </p>
 time. Once thawed, the vaccine cannot be re-frozen. </p>
 <p>Do not use this vaccine if you notice particulates in the dilution or discolouration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -367,7 +370,7 @@ information for you.
 * Keep this leaflet. You may need to read it again.<br />
 * If you have any further questions, ask your doctor, pharmacist or nurse. 
 * If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -406,7 +409,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -415,7 +420,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -430,7 +436,7 @@ Usage: #inline
 3. Sådan gives Comirnaty 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -441,7 +447,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Comirnaty er en vaccine, der anvendes til at forebygge COVID-19 forårsaget af SARS-CoV-2. Comirnaty 30 mikrogram/dosis injektionsvæske, dispersion, gives til voksne og unge fra 12 år og 
 ældre. </p>
 <p>Vaccinen får immunsystemet (kroppens naturlige forsvar) til at danne antistoffer og blodlegemer, der 
-modarbejder virusset, så der gives beskyttelse mod COVID-19. Da Comirnaty ikke indeholder virus for at danne immunitet, kan vaccinen ikke give dig COVID-19. Denne vaccine bør anvendes i overensstemmelse med officielle retningslinjer. </p>         </div>"""   
+modarbejder virusset, så der gives beskyttelse mod COVID-19. Da Comirnaty ikke indeholder virus for at danne immunitet, kan vaccinen ikke give dig COVID-19. Denne vaccine bør anvendes i overensstemmelse med officielle retningslinjer. </p> </div>"""   
           
 
              
@@ -517,7 +523,7 @@ der ikke observeret nogen ændring i risikoen for spontan abort. </p>
 <p>Trafik- og arbejdssikkerhed 
 Nogle af virkningerne af vaccinationen nævnt i punkt 4 (Bivirkninger) kan have en forbigående 
 påvirkning af din evne til at føre motorkøretøj eller betjene maskiner. Vent indtil disse virkninger er 
-gået væk, inden du fører motorkøretøj eller betjener maskiner. </p>         </div>"""   
+gået væk, inden du fører motorkøretøj eller betjener maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take comirnaty"
@@ -530,7 +536,7 @@ gået væk, inden du fører motorkøretøj eller betjener maskiner. </p>        
 mindst 3 måneder efter den seneste dosis.  </p>
 <p>Hvis du er immunkompromitteret, vil du muligvis få yderligere doser af Comirnaty. </p>
 <p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget vedrørende brugen af 
-Comirnaty, du er i tvivl om. </p>         </div>"""         
+Comirnaty, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -643,7 +649,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V og inkludere batch/lotnummer, hvis det er tilgængeligt. Ved at indrapportere 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store comirnaty"
@@ -675,7 +681,7 @@ optøning kan vaccinen ikke nedfryses igen. </p>
 12 timer, som omfatter op til 6 timers transporttid. Bortskaf al ikke anvendt vaccine. </p>
 <p>Brug ikke denne vaccine, hvis du bemærker, at den indeholder partikler, eller at den er misfarvet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -893,7 +899,7 @@ indeholder vigtige oplysninger. </p>
 <p>Kontakt dit barns læge, apotekspersonalet eller sygeplejersken, hvis dit barn får bivirkninger, 
 herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -932,7 +938,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -941,7 +949,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -956,7 +965,7 @@ Usage: #inline
 3. Como Comirnaty é administrado<br />
 4. Efeitos indesejáveis possíveis<br />
 5. Como conservar Comirnaty 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -970,7 +979,7 @@ Comirnaty é administrado a adultos e adolescentes a partir dos 12 anos de idade
 <p>A vacina faz com que o sistema imunitário (as defesas naturais do organismo) produza anticorpos e 
 células sanguíneas que atuam contra o vírus, dando proteção contra a COVID-19.<br />
 Dado que Comirnaty não contém o vírus para induzir a imunidade, não pode provocar COVID-19.<br />
-A utilização desta vacina deve seguir as recomendações oficiais. </p>         </div>"""   
+A utilização desta vacina deve seguir as recomendações oficiais. </p> </div>"""   
           
 
              
@@ -1047,7 +1056,7 @@ qualquer alteração no risco de aborto.  </p>
 <p>Condução de veículos e utilização de máquinas 
 Alguns dos efeitos mencionados na secção 4 (Efeitos indesejáveis possíveis) podem afetar 
 temporariamente a sua capacidade de conduzir ou utilizar máquinas. Aguarde até que estes efeitos 
-desapareçam antes de conduzir ou utilizar máquinas. </p>         </div>"""   
+desapareçam antes de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar comirnaty"
@@ -1060,7 +1069,7 @@ Se foi vacinado anteriormente com uma vacina contra a COVID-19, não deve recebe
 Comirnaty até, pelo menos, 3 meses depois da dose mais recente. </p>
 <p>Se for imunocomprometido, poderá receber doses adicionais de Comirnaty. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização de Comirnaty, fale com o seu médico, farmacêutico ou 
-enfermeiro. </p>         </div>"""         
+enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1175,7 +1184,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, enfermeiro ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V e 
 incluir o número de lote, se disponível. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer 
-mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar comirnaty"
@@ -1213,7 +1222,7 @@ Eliminar qualquer vacina não usada. </p>
 <p>Não usar esta vacina se observar a presença de partículas ou descoloração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1316,7 +1325,7 @@ Este folheto foi revisto pela última vez em  </p>
 <p>Digitalizar o código com um dispositivo móvel para obter o folheto informativo em diferentes 
 idiomas. </p>
 <p>URL: http://www.comirnatyglobal/ </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

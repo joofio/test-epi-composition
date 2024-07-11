@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rasagiline ratiopharm </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Parkinson s disease in adults. It can be used together with or without Levodopa 
 used to treat Parkinson s disease). </p>
 <p>With Parkinson s disease, there is a loss of cells that produce dopamine in the brain. Dopamine is a 
 chemical in the brain involved in movement control. Rasagiline ratiopharm helps to increase and sustain 
-levels of dopamine in the brain. </p>         </div>"""   
+levels of dopamine in the brain. </p> </div>"""   
           
 
              
@@ -147,7 +150,7 @@ ratiopharm can make you feel dizzy or drowsy; it can also cause episodes of sudd
 This might be enhanced if you take other medicines to treat the symptoms of your Parkinson s disease, or 
 if you take medicines which can make you feel drowsy, or if you drink alcohol while taking Rasagiline 
 ratiopharm. If you have experienced somnolence and/or episodes of sudden sleep onset before, or while 
-taking Rasagiline ratiopharm do not drive or operate machinery (see section 2). </p>         </div>"""   
+taking Rasagiline ratiopharm do not drive or operate machinery (see section 2). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rasagiline"
@@ -169,7 +172,7 @@ Do not take a double dose to make up for a forgotten dose. Take the next dose no
 to take it. </p>
 <p>If you stop taking Rasagiline ratiopharm 
 Do not stop taking Rasagiline ratiopharm without first talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -237,7 +240,7 @@ headedness (orthostatic hypotension)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rasagiline"
@@ -249,7 +252,7 @@ medicine. </p>         </div>"""
 The expiry date refers to the last day of that month.  </p>
 <p>Do not store above 30oC. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -347,7 +350,7 @@ UAB Teva Baltics fili le Latvij <br />
 Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: +44 2075407This leaflet was last revised in MM/YYYY. </p>         </div>"""      
+Tel: +44 2075407This leaflet was last revised in MM/YYYY. </p> </div>"""      
 
 
 
@@ -386,7 +389,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -395,7 +400,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -410,7 +416,7 @@ Usage: #inline
 3. Sådan skal De tage Rasagilin ratiopharm 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -423,7 +429,7 @@ sygdom hos voksne. Det kan bruges sammen med eller uden levodopa (et andet læge
 anvendes til behandling af Parkinsons sygdom). </p>
 <p>Parkinsons sygdom forårsager et tab af celler, som producerer dopamin i hjernen. Dopamin er et stof i 
 hjernen, som er med til at styre bevægelser. Rasagilin ratiopharm er med til at øge og opretholde 
-dopaminniveauet i hjernen.  </p>         </div>"""   
+dopaminniveauet i hjernen.  </p> </div>"""   
           
 
              
@@ -500,7 +506,7 @@ Dette kan forstærkes, hvis De tager anden medicin til behandling af Deres sympt
 sygdom, eller hvis De tager medicin, som kan få Dem til at føle døsighed, eller hvis De drikker 
 alkohol, mens De tager Rasagilin ratiopharm. Hvis De har oplevet søvnighed og/eller episoder med </p>
 <p>pludseligt opstået søvn før, eller mens De tager Rasagilin ratiopharm, skal De undlade at køre bil eller 
-betjene maskiner (se punkt 2). </p>         </div>"""   
+betjene maskiner (se punkt 2). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rasagiline"
@@ -522,7 +528,7 @@ De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Tag den n�
 tidspunkt, hvor De normalt tager Deres Rasagilin ratiopharm. </p>
 <p>Hvis De holder op med at tage Rasagilin ratiopharm 
 Hold ikke op med at tage Rasagilin ratiopharm uden først at have talt med Deres læge om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -593,7 +599,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rasagiline"
@@ -605,7 +611,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Exp. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 oC. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -738,7 +744,7 @@ United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407 </p>
-<p>Denne indlægsseddel blev senest ændret måned/ÅÅÅÅ.  </p>         </div>"""      
+<p>Denne indlægsseddel blev senest ændret måned/ÅÅÅÅ.  </p> </div>"""      
 
 
 

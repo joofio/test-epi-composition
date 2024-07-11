@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store AFLUNOV </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ same or a similar strain. </p>
 <p>When a person is given the vaccine, the immune system (the body s natural defence system) will 
 produce its own protection (antibodies) against the disease. None of the ingredients in the vaccine 
 can cause flu. </p>
-<p>As with all vaccines, AFLUNOV may not fully protect all persons who are vaccinated. </p>         </div>"""   
+<p>As with all vaccines, AFLUNOV may not fully protect all persons who are vaccinated. </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ and potential risks of giving you the vaccine.   </p>
 machines. </p>
 <p>AFLUNOV contains sodium and potassium. </p>
 <p>AFLUNOV contains less than 1 mmol sodium (23 mg) and less than 1 mmol of potassium (39 mg) 
-per 0.5 ml dose, i.e. essentially sodium- and potassium-free. </p>         </div>"""   
+per 0.5 ml dose, i.e. essentially sodium- and potassium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aflunov"
@@ -174,7 +177,7 @@ There is limited experience in children between 6 months and 17 years of age. Va
 not recommended in this age group. </p>
 <p>Children aged less than 6 months of age<br />
 Vaccination is currently not recommended in this age group. </p>
-<p>If you have any further questions on the use of this medicinal product, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicinal product, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -279,7 +282,7 @@ than one week (Injection site cellulitis-like reaction) </li>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects, you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aflunov"
@@ -293,7 +296,7 @@ date refers to the last day of that month. </p>
 Do not freeze.<br />
 Store in the original package in order to protect from light. </p>
 <p>Do not throw any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -342,7 +345,7 @@ Seqirus Netherlands B.V.
 Paasheuvelweg 1105BJ Amsterdam 
 Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -381,7 +384,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -390,7 +395,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -407,7 +413,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -427,7 +433,7 @@ af den samme eller en tilsvarende stamme. </p>
 <p>Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvar) skabe sin egen beskyttelse 
 (antistoffer) mod sygdommen. Ingen af ingredienserne i vaccinen kan give influenza. </p>
 <p>Som med alle vacciner er det ikke sikkert, at AFLUNOV beskytter alle vaccinerede personer 
-fuldstændigt. </p>         </div>"""   
+fuldstændigt. </p> </div>"""   
           
 
              
@@ -500,7 +506,7 @@ fordelene og de mulige risici ved at give dig vaccinen. </p>
 at føre motorkøretøj og betjene maskiner. </p>
 <p>AFLUNOV indeholder natrium og kalium </p>
 <p>AFLUNOV indeholder mindre end 1 mmol natrium (23 mg) og mindre end 1 mmol kalium (39 mg) 
-per 0,5 ml dosis, dvs. at det i det væsentlige er natrium- og kaliumfrit. </p>         </div>"""   
+per 0,5 ml dosis, dvs. at det i det væsentlige er natrium- og kaliumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aflunov"
@@ -519,7 +525,7 @@ Erfaringerne hos børn i alderen 6 måneder til 17 år er begrænsede. Vaccineri
 ikke hos denne aldersgruppe. </p>
 <p>Børn under 6 måneder 
 Vaccinering anbefales i øjeblikket ikke hos denne aldersgruppe. </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -690,7 +696,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. De
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aflunov"
@@ -704,7 +710,7 @@ sidste dag i den nævnte måned. </p>
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -754,7 +760,7 @@ Paasheuvelweg 1105BJ Amsterdam
 Holland </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Du kan finde yderligere information om AFLUNOV på Det europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu </p> </div>"""      
 
 
 

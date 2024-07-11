@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Fasturtec </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ and adolescents (aged 0 to 17 years) with disorders of the blood cells (haematol
 are about to receive or are receiving chemotherapy treatment.  </p>
 <p>When chemotherapy is given, cancer cells are destroyed, releasing large amounts of uric acid into the 
 bloodstream.<br />
-Fasturtec works by allowing uric acid to more easily be removed from the body by the kidneys.  </p>         </div>"""   
+Fasturtec works by allowing uric acid to more easily be removed from the body by the kidneys.  </p> </div>"""   
           
 
              
@@ -120,7 +123,7 @@ Tell your doctor if you are, or think you may be pregnant, or if you are breast-
 No information on the ability to drive and use machines is available. </p>
 <p>Fasturtec contains sodium 
 This medicine contains up to 10.5 mg sodium, (main component of cooking/table salt) per vial. This is 
-equivalent to 0.53% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 0.53% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fasturtec"
@@ -139,7 +142,7 @@ Your doctor may also test your blood to make sure that you do not develop any bl
 If it does occur, the doctor will closely monitor the effects on your red blood cells and treat any 
 symptoms that follow. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, nurse or hospital 
-pharmacist. </p>         </div>"""         
+pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -191,7 +194,7 @@ down (haemolysis), destroyed (haemolytic anaemia), or abnormal blood pigment lev
 If you get any side effects, talk to your doctor, nurse or hospital pharmacist. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fasturtec"
@@ -204,7 +207,7 @@ refers to the last day of that month. </p>
 <p>Store in a refrigerator (2 C   8 C).<br />
 Do not freeze. 
 Store in the original package in order to protect from light. </p>
-<p>Do not use this medicine if you notice that the solution is unclear and/or contains particles. </p>         </div>"""      
+<p>Do not use this medicine if you notice that the solution is unclear and/or contains particles. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -306,7 +309,7 @@ Tel: +371 6 616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -345,7 +348,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -354,7 +359,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -371,7 +377,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -384,7 +390,7 @@ Rasburikase bruges til at nedsætte eller forebygge høje niveauer af urinsyre i
 og unge (i alderen 0 til 17 år) med blodsygdomme (hæmatologiske sygdomme) lige før eller under 
 kemoterapeutisk behandling.  </p>
 <p>Når du er i kemoterapi, bliver kræftceller ødelagt, og der frigives store mængder urinsyre til blodet.<br />
-Fasturtec gør det lettere for kroppen at fjerne denne urinsyre via nyrerne.  </p>         </div>"""   
+Fasturtec gør det lettere for kroppen at fjerne denne urinsyre via nyrerne.  </p> </div>"""   
           
 
              
@@ -439,7 +445,7 @@ Der findes ingen tilgængelig information om evnen til at køre eller betjene ma
 <p>Fasturtec indeholder natrium 
 Dette lægemiddel indeholder op til 10,5 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 0,53 % af den anbefalede maximale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fasturtec"
@@ -457,7 +463,7 @@ behandlingen. Lægen kan også teste dit blod for at sikre sig, at du ikke udvik
 Hvis det sker, vil din læge nøje overvåge påvirkningen af dine røde blodlegemer og behandle de 
 symptomer, der måtte opstå. </p>
 <p>Spørg lægen, sygeplejersken eller den kliniske farmaceut, hvis der er noget, du er i tvivl om 
-vedrørende brugen af dette lægemiddel. </p>         </div>"""         
+vedrørende brugen af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -517,7 +523,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller sy
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fasturtec"
@@ -530,7 +536,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2°C - 8°C). 
 Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
-<p>Brug ikke dette lægemiddel, hvis opløsningen er uklar og/eller indeholder partikler. </p>         </div>"""      
+<p>Brug ikke dette lægemiddel, hvis opløsningen er uklar og/eller indeholder partikler. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -694,7 +700,7 @@ Hvis det er nødvendigt at overvåge urinsyreværdier, skal følgende procedurer
 følges nøje for at undgå ex vivo nedbrydning af analytten. Blodet indsamles i nedkølede rør med 
 heparin til modvirkning af koagulation. Prøverne nedsænkes i is-/vandbad. Plasmaprøverne tilberedes 
 straks ved centrifugering i en nedkølet centrifuge (4C). Endelig skal plasma opbevares i is-/vandbad 
-og analyseres for urinsyre inden for 4 timer. </p>         </div>"""      
+og analyseres for urinsyre inden for 4 timer. </p> </div>"""      
 
 
 

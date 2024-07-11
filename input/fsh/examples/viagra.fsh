@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store VIAGRA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ phosphodiesterase type 5 (PDE5) inhibitors. It works by helping to relax the blo
 penis, allowing blood to flow into your penis when you get sexually excited. VIAGRA will only help 
 you to get an erection if you are sexually stimulated.  </p>
 <p>VIAGRA is a treatment for adult men with erectile dysfunction, sometimes known as impotence. This 
-is when a man cannot get, or keep a hard, erect penis suitable for sexual activity. </p>         </div>"""   
+is when a man cannot get, or keep a hard, erect penis suitable for sexual activity. </p> </div>"""   
           
 
              
@@ -166,7 +169,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 contact your doctor before taking VIAGRA. </p>
 <p>VIAGRA contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take viagra"
@@ -191,7 +194,7 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy. </p>
 <p>You should not take more tablets than your doctor tells you to.  </p>
 <p>Contact your doctor if you take more tablets than you should. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -252,7 +255,7 @@ directly related to VIAGRA. </p>
 If you get any side effects, talk to you doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store viagra"
@@ -265,7 +268,7 @@ Do not store above 30 oC. </p>
 expiry date refers to the last day of that month. 
 Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ Tel: +371 676 055 Lietuva
 Viatris UAB 
 Tel. +370 52051This leaflet was last revised in. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -393,7 +396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -402,7 +407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -419,7 +425,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -433,7 +439,7 @@ strømme ind i penis ved seksuel stimulation. VIAGRA vil kun hjælpe dig med at 
 du bliver seksuelt stimuleret.  </p>
 <p>VIAGRA er til behandling af voksne mænd med erektil dysfunktion, også kendt som impotens, hvilket 
 er manglende evne til at opnå og/eller opretholde erektion tilstrækkelig til at gennemføre 
-tilfredsstillende seksuel aktivitet. </p>         </div>"""   
+tilfredsstillende seksuel aktivitet. </p> </div>"""   
           
 
              
@@ -547,7 +553,7 @@ på VIAGRA inden bilkørsel eller betjening af maskiner. </p>
 lactose. </p>
 <p>VIAGRA indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take viagra"
@@ -572,7 +578,7 @@ gennemføre samleje, bør du sige det til lægen.  </p>
 <p>Du kan opleve flere og kraftigere bivirkninger. Doser på over 100 mg vil ikke forøge virkningen.  </p>
 <p>Du bør ikke tage flere tabletter, end din læge har sagt. </p>
 <p>Kontakt lægen, hvis du har taget flere tabletter, end du skal. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -643,7 +649,7 @@ disse bivirkninger er direkte relateret til VIAGRA.  </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V.Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store viagra"
@@ -656,7 +662,7 @@ Må ikke opbevares ved temperaturer over 30 °C. </p>
 sidste dag i den nævnte måned. 
 Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -790,7 +796,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret VIAGRA til dig personligt. Lad derfor være med at give lægemidlet til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

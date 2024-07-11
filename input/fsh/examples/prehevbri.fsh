@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store PreHevbri </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ including anyone who has previously been infected and who is now a carrier of th
 <li>Prehevbri is a  3-antigenic  vaccine, which contains small amounts of the three antigens 
 (pre-S1, pre-S2, S) from the  outer coating  of the hepatitis B virus. This  outer coating  is not 
 infectious and cannot make you ill. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ feel well again.  </p>
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, i.e. that is to say is essentially 
 'sodium-free . </p>
 <p>This vaccine  contains less than 1 mmol potassium (39 mg) per dose, i.e. that is to say is essentially 
- potassium-free . </p>         </div>"""   
+ potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prehevbri"
@@ -187,7 +190,7 @@ usually be injected into a muscle in your upper arm. </p>
 If you miss a scheduled dose, talk to your doctor, pharmacist or nurse to arrange another visit to 
 receive the missed dose. </p>
 <p>Make sure you receive the complete course of three injections or you may not be fully protected.  </p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -225,7 +228,7 @@ receive the missed dose. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this vaccine. </p>         </div>"""      
+safety of this vaccine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prehevbri"
@@ -239,7 +242,7 @@ refers to the last day of that month. </p>
 Do not freeze.  </p>
 <p>Do not throw away any vaccines via wastewater. Any unused medicinal product or waste material 
 should be disposed of in accordance with local requirements. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -418,7 +421,7 @@ particulate matter and/or variation of physical aspect being observed, discard t
 - PreHevbri must not be mixed with other medicinal products. </p>
 <p>Disposal 
 Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements. </p>         </div>"""      
+requirements. </p> </div>"""      
 
 
 
@@ -457,7 +460,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -466,7 +471,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -481,7 +487,7 @@ Usage: #inline
 3. Sådan gives PreHevbri 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -519,7 +525,7 @@ B-virus, herunder enhver, som tidligere er smittet, og som nu er bærer af virus
 <li>PreHevbri er en "3-antigen"-vaccine, der indeholder små mængder af de tre antigener (pre S1, 
 pre S2, S) fra hepatitis B-virussets "ydre lag". Dette "ydre lag" er ikke smitsomt og kan ikke 
 gøre dig syg. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -589,7 +595,7 @@ betjene maskiner, før du får det godt igen. </p>
 Denne vaccine indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. er i det væsentlige 
 "natriumfri". </p>
 <p>Denne vaccine indeholder mindre end 1 mmol kalium (39 mg) pr. dosis, dvs. er i det væsentlige 
-"kaliumfri". </p>         </div>"""   
+"kaliumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prehevbri"
@@ -609,7 +615,7 @@ vil normalt blive injiceret i en muskel i overarmen. </p>
 Hvis du har glemt en planlagt dosis, skal tale med lægen, apotekspersonalet eller sygeplejersken om at 
 få den glemte dosis. </p>
 <p>Vær sikker på, at du får alle tre injektioner, ellers er du måske ikke er fuldt beskyttet. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -647,7 +653,7 @@ få den glemte dosis. </p>
 Kontakt lægen eller apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale indberetningssystem anført i Appendix V. Ved at indberette 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af denne vaccine. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af denne vaccine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prehevbri"
@@ -660,7 +666,7 @@ dag i den nævnte måned. </p>
 <p>Opbevar hætteglas i køleskab (2°C-8°C). Opbevares i den originale pakning for at beskytte mod lys. 
 Må ikke nedfryses. </p>
 <p>Smid ikke vacciner i afløbet. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til 
-lokale retningslinjer. Dette er med til at beskytte miljøet. </p>         </div>"""      
+lokale retningslinjer. Dette er med til at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -841,7 +847,7 @@ partikler og/eller variationer i den fysiske fremtoning, skal vaccinen kasseres.
 - Hætteglassene er kun til engangsbrug. 
 - PreHevbri må ikke blandes med andre lægemidler. </p>
 <p>Bortskaffelse 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

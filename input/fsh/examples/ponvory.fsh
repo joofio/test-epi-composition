@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ponvory</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ Ponvory reduces circulating lymphocytes, which are white blood cells involved in
 It does this by keeping them in the lymphoid organs (lymph nodes). This means that fewer
 lymphocytes are available to attack the myelin sheath around the nerves in the brain and spinal cord.
 Decreasing nerve damage in patients with MS reduces the number of attacks (relapses) and slows 
-down worsening of the disease.</p>         </div>"""   
+down worsening of the disease.</p> </div>"""   
           
 
              
@@ -259,7 +262,7 @@ Ponvory contains lactose which is a type of sugar. If you have been told by your
 an intolerance to some sugars, talk to your doctor before taking this medicine.
 Ponvory contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ponvory"
@@ -329,7 +332,7 @@ row.
 Do not stop taking Ponvory without talking with your doctor first.
 Do not restart Ponvory after stopping it for 4 or more days in a row without seeking advice from your 
 doctor. You will need to restart your treatment with a new treatment initiation pack.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -393,7 +396,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ponvory"
@@ -405,7 +408,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 The expiry date refers to the last day of that month.
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -563,7 +566,7 @@ United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in {month YYYY}.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -602,7 +605,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -611,7 +616,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -626,7 +632,7 @@ Usage: #inline
 3. Sådan skal du tage Ponvory
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -658,7 +664,7 @@ Ponvory reducerer cirkulerende lymfocytter, som er hvide blodlegemer involveret 
 Det gør det ved at holde dem i de lymfoide organer (lymfeknuderne). Det betyder, at der er færre 
 lymfocytter tilgængelige, som kan angribe myelinskeden omkring nerverne i hjernen og rygmarven.
 Nedsat nerveskade hos patienter med MS reducerer antallet af attakker (tilbagefald) og sinker 
-forværringen af sygdommen.</p>         </div>"""   
+forværringen af sygdommen.</p> </div>"""   
           
 
              
@@ -885,7 +891,7 @@ har fortalt dig, at du ikke tåler visse sukkerarter.
 61
 Ponvory indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ponvory"
@@ -974,7 +980,7 @@ flere doser i træk.
 Du må ikke holde op med at tage Ponvory uden først at tale med din læge.
 Hvis du ikke har taget Ponvory i 4 eller flere dage i træk, må du ikke begynde at tage det igen uden 
 først at tale med lægen. Du skal begynde forfra på behandlingen med en ny behandlingsstartpakning.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1079,7 +1085,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ponvory"
@@ -1091,7 +1097,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterfoli
 er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1294,7 +1300,7 @@ medinfo@its.jnj.com
 Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}.
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

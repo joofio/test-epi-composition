@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Vaborem  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ Vaborem is used in adults to treat certain serious bacterial infections:
 * of the lungs (pneumonia) </p>
 <p>It is also used to treat infections 
 * of the blood associated with any of the infections mentioned above 
-* caused by bacteria that other antibiotics may not be able to kill </p>         </div>"""   
+* caused by bacteria that other antibiotics may not be able to kill </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ Vaborem may make you feel dizzy, sleepy and sluggish, give you a headache or tin
 or machines.  </p>
 <p>Vaborem contains sodium 
 This medicine contains 250 mg of sodium (main component of cooking salt) in each vial. This is 
-equivalent to 12,5% of the recommended maximum daily dietary intake of sodium salt for an adult. </p>         </div>"""   
+equivalent to 12,5% of the recommended maximum daily dietary intake of sodium salt for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaborem"
@@ -172,7 +175,7 @@ Vaborem will be given to you by a doctor or a nurse, so it is unlikely you will 
 you think you have been given too much Vaborem, tell your doctor or nurse straight away.  </p>
 <p>If you miss a dose of Vaborem 
 If you think you have missed a dose, tell your doctor or nurse straight away. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ reaction of your immune system to Vaborem
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaborem"
@@ -279,7 +282,7 @@ V. By reporting side effects you can help provide more information on the safety
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the container. The expiry date refers to 
 the last day of that month. </p>
-<p>Do not store above 25  C. </p>         </div>"""      
+<p>Do not store above 25  C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -416,7 +419,7 @@ is clear to light yellow.  </p>
 <p>From a microbiological point of view, the medicinal product should be used immediately upon 
 reconstitution and dilution. </p>
 <p>Vaborem is not chemically compatible with glucose-containing solutions. This medicinal product must not 
-be mixed with other medicinal products except those mentioned in section 6.6 of the SmPC. </p>         </div>"""      
+be mixed with other medicinal products except those mentioned in section 6.6 of the SmPC. </p> </div>"""      
 
 
 
@@ -455,7 +458,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -464,7 +469,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -481,7 +487,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -510,7 +516,7 @@ i lungerne (pneumoni) </p>
  
 i blodet i forbindelse med en af ovenstående infektioner 
  
-der skyldes bakterier, som andre antibiotika muligvis ikke kan dræbe </p>         </div>"""   
+der skyldes bakterier, som andre antibiotika muligvis ikke kan dræbe </p> </div>"""   
           
 
              
@@ -591,7 +597,7 @@ fornemmelse eller i sjældne tilfælde medføre kramper eller krampeanfald. Dett
 føre motorkøretøj, bruge værktøj eller betjene maskiner.  </p>
 <p>Vaborem indeholder natrium 
 Dette lægemiddel indeholder 250 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. hætteglas. 
-Dette svarer til 12,5% af den anbefalede maximale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+Dette svarer til 12,5% af den anbefalede maximale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaborem"
@@ -611,7 +617,7 @@ forkerte dosis. Fortæl det straks til lægen eller sundhedspersonalet, hvis du 
 Vaborem.  </p>
 <p>Hvis en dosis Vaborem er sprunget over 
 Fortæl det straks til lægen eller sundhedspersonalet, hvis du mener, at en dosis er sprunget over. </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -764,7 +770,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. De
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaborem"
@@ -774,7 +780,7 @@ dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter ’EXP’. Udløbsdatoen er den sidste 
 dag i den nævnte måned. </p>
-<p>Må ikke opbevares ved temperaturer over 25 °C. </p>         </div>"""      
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -931,7 +937,7 @@ til lysegul.  </p>
 22 timer ved opbevaring i køleskab ved 2-8 °C. </p>
 <p>Fra et mikrobiologisk synspunkt bør lægemidlet anvendes straks efter rekonstitution og fortynding. </p>
 <p>Vaborem er ikke kemisk kompatibelt med glucoseholdige opløsninger. Dette lægemiddel må ikke blandes 
-med andre lægemidler end dem, der er anført under pkt. 6.6 i produktresuméet. </p>         </div>"""      
+med andre lægemidler end dem, der er anført under pkt. 6.6 i produktresuméet. </p> </div>"""      
 
 
 
@@ -970,7 +976,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -979,7 +987,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -996,7 +1005,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Vaborem </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1025,7 +1034,7 @@ dos pulmões (pneumonia)</p>
  
 do sangue, associadas a qualquer uma das infeções acima mencionadas
  
-causadas por bactérias que outros antibióticos podem não conseguir matar</p>         </div>"""   
+causadas por bactérias que outros antibióticos podem não conseguir matar</p> </div>"""   
           
 
              
@@ -1111,7 +1120,7 @@ afetar a sua capacidade de conduzir e utilizar ferramentas ou máquinas. </p>
 <p>Vaborem contém sódio 
 Este medicamento contém 250 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada frasco para injetáveis. Isto é equivalente a 12,5% da ingestão diária máxima de sódio recomendada 
-na dieta para um adulto. </p>         </div>"""   
+na dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vaborem"
@@ -1132,7 +1141,7 @@ administrada a dose errada. Se achar que lhe administraram uma dose excessiva de
 imediatamente o seu médico ou enfermeiro. </p>
 <p>Se falhar uma dose de Vaborem 
 Se achar que não lhe administraram uma dose, informe imediatamente o seu médico ou enfermeiro. 
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1293,7 +1302,7 @@ Desorientação e confusão agudas (delírio) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente através<br />
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vaborem"
@@ -1303,7 +1312,7 @@ a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
 <p>Não utilize este medicamento após o prazo de validade impresso no recipiente. O prazo de validade 
 corresponde ao último dia do mês indicado. </p>
-<p>Não conservar acima de 25°C. </p>         </div>"""      
+<p>Não conservar acima de 25°C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1408,7 +1417,7 @@ A. Menarini Farmaceutica Internazionale S.R.L.
 Tel: +44 (0)1628 856 
 Este folheto foi revisto pela última vez em: </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

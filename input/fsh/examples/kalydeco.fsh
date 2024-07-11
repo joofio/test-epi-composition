@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kalydeco </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +100,7 @@ who have CF, with at least one F508del mutation in the CFTR gene. If you have be
 Kalydeco to be taken with ivacaftor/tezacaftor/elexacaftor, read the package leaflet of the latter. 
 It contains important information about how to take these two medicines. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -195,7 +198,7 @@ breast-feeding for the child and the benefit of therapy for you. </p>
 <p>Kalydeco contains lactose and sodium.  </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p>Kalydeco contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
+<p>Kalydeco contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kalydeco"
@@ -272,7 +275,7 @@ wait until your next scheduled dose as you normally would. Do not take a double 
 a forgotten dose. </p>
 <p>If you stop taking Kalydeco </p>
 <p>Take Kalydeco for as long as your doctor recommends. Do not stop unless your doctor advises you to.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -340,7 +343,7 @@ increased liver enzymes in the blood are more frequently seen in young children.
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kalydeco"
@@ -352,7 +355,7 @@ this medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -445,7 +448,7 @@ important information for your child.
 * This medicine has been prescribed for your child only. Do not pass it on to others. It may harm 
 them, even if their signs of illness are the same as your child s. 
 * If your child gets any side effects, talk to your child s doctor or pharmacist. This includes any 
-possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+possible side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -484,7 +487,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -493,7 +498,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -510,7 +516,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -546,7 +552,7 @@ Kalydeco skal tages sammen med ivacaftor/tezacaftor/elexacaftor, bør du læse i
 for sidstnævnte. Den indeholder vigtig information om, hvordan du skal tage disse to 
 lægemidler. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -675,7 +681,7 @@ fordele for dig. </p>
 betjene maskiner. </p>
 <p>Kalydeco indeholder lactose og natrium </p>
 <p>Kalydeco indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kalydeco"
@@ -760,7 +766,7 @@ som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Kalydeco  </p>
 <p>Tag Kalydeco så længe, som lægen anbefaler det. Du må ikke stoppe, medmindre lægen råder dig til 
 det.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -915,7 +921,7 @@ niveauer af leverenzymer i blodet observeres dog hyppigere hos små børn. </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kalydeco"
@@ -927,7 +933,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1056,7 +1062,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 <p>Kontakt dit barns læge eller apotekspersonalet, hvis dit barn får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

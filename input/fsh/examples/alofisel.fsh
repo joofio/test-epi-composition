@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Alofisel </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ collections of pus (infected liquid also called abscesses). Perianal fistulas ca
 discharge of pus through the openings to the skin. </p>
 <p>Alofisel is used when the fistulas have not responded sufficiently well to previous treatment. When 
 injected close to the perianal fistulas, Alofisel reduces their inflammation, increasing the likelihood of 
-the fistulas healing. </p>         </div>"""   
+the fistulas healing. </p> </div>"""   
           
 
              
@@ -125,7 +128,7 @@ during treatment with Alofisel.  </p>
 Your doctor will help you decide whether to stop breast-feeding, or whether to stop taking Alofisel, 
 considering the benefit of breast-feeding to the baby and the benefit of Alofisel to the mother.  </p>
 <p>Driving and using machines </p>
-<p>Alofisel is not likely to affect your ability to drive or use tools or machines. </p>         </div>"""   
+<p>Alofisel is not likely to affect your ability to drive or use tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alofisel"
@@ -145,7 +148,7 @@ administration. The following information is related to the day when Alofisel is
 fistulas, and half of the dose in the tissue walls along the fistulas. 
 * massage softly for 20 to 30 seconds the area where the fistula opens on to the skin near your 
 anus. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or surgeon. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or surgeon. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -166,7 +169,7 @@ may occur up to seven days after the procedure. </p>
 <p>If you get any side effects, talk to your doctor or surgeon. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alofisel"
@@ -179,7 +182,7 @@ medicine. </p>         </div>"""
 <p>Do not refrigerate or freeze. </p>
 <p>Keep the medicine inside the cardboard box to protect from light and moisture, and within the 
 shipping container at all times until its administration, to maintain the required temperature. </p>
-<p>Alofisel must not be irradiated or otherwise sterilised. </p>         </div>"""      
+<p>Alofisel must not be irradiated or otherwise sterilised. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ Grange Castle Business Park<br />
 Nangor Road, Dublin 22, D22 XRIreland </p>
 <p>This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -256,7 +259,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -265,7 +270,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -282,7 +288,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -305,7 +311,7 @@ ansamling af pus (som er betændt væske også kaldet bylder). Perianale fistler
 irritation og udflåd af pus gennem åbningerne i huden. </p>
 <p>Alofisel anvendes, når tidligere behandling ikke har virket tilstrækkeligt på fistler. Når Alofisel 
 injiceres nær en perianal fistel, reducerer Alofisel inflammationen og øger derved sandsynligheden for, 
-at fistlen heles. </p>         </div>"""   
+at fistlen heles. </p> </div>"""   
           
 
              
@@ -346,7 +352,7 @@ vil hjælpe dig med at beslutte, om du skal ophøre med at amme eller holde op m
 Alofisel, idet der tages højde for fordelene for barnet ved amning og fordelene for moderen ved 
 behandling med Alofisel. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Det er usandsynligt, at Alofisel vil påvirke din evne til at føre motorkøretøj eller betjene maskiner.  </p>         </div>"""   
+<p>Det er usandsynligt, at Alofisel vil påvirke din evne til at føre motorkøretøj eller betjene maskiner.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alofisel"
@@ -376,7 +382,7 @@ nedenfor er gældende for den dag, hvor Alofisel indgives.  </p>
 30 sekunder. </p>
 </li>
 </ul>
-<p>Spørg lægen eller kirurgen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller kirurgen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -408,7 +414,7 @@ forekomme op til syv dage efter indgrebet. </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alofisel"
@@ -421,7 +427,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Må ikke opbevares i køleskab eller nedfryses. </p>
 <p>Opbevar altid lægemidlet i original emballage for at beskytte mod lys og fugt og i 
 forsendelsesbeholderen, helt indtil det skal indgives for at opretholde den korrekte temperatur. </p>
-<p>Alofisel må ikke bestråles eller steriliseres på anden vis. </p>         </div>"""      
+<p>Alofisel må ikke bestråles eller steriliseres på anden vis. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -541,7 +547,7 @@ eksterne åbninger med en steril forbinding. </li>
 <p>Forholdsregler, der skal træffes vedrørende bortskaffelse af lægemidlet </p>
 <p>Ikke anvendt lægemiddel og alt materiale, der har været i kontakt med Alofisel (fast og flydende 
 affald), skal håndteres og bortskaffes som potentielt smittefarligt affald i overensstemmelse med 
-lokale retningslinjer for håndtering af materiale, der stammer fra mennesker. </p>         </div>"""      
+lokale retningslinjer for håndtering af materiale, der stammer fra mennesker. </p> </div>"""      
 
 
 
@@ -580,7 +586,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -589,7 +597,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -606,7 +615,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Alofisel </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -629,7 +638,7 @@ por abcesso). As fístulas perianais podem causar dor, irritação e corrimento 
 aberturas na pele. </p>
 <p>Alofisel é utilizado quando as fístulas não responderam suficientemente bem ao tratamento anterior. 
 Quando é injetado perto das fístulas perianais, Alofisel reduz a inflamação, aumentando a 
-probabilidade de as fístulas sararem. </p>         </div>"""   
+probabilidade de as fístulas sararem. </p> </div>"""   
           
 
              
@@ -672,7 +681,7 @@ amamentar. O seu médico irá ajudar a decidir se pára a amamentação, ou se p
 considerando o benefício da amamentação para o bebé e o benefício do Alofisel para a mãe. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Não é provável que Alofisel afete a sua capacidade de conduzir ou de utilizar ferramentas ou 
-máquinas. </p>         </div>"""   
+máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar alofisel"
@@ -702,7 +711,7 @@ das fístulas e a outra metade da dose no tecido das paredes ao longo das fístu
 <p>massajar suavemente durante 20 a 30 segundos a área onde a fístula abre na pele perto do ânus. </p>
 </li>
 </ul>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou cirurgião. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou cirurgião. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -735,7 +744,7 @@ procedimento. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou cirurgião. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar alofisel"
@@ -748,7 +757,7 @@ efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a se
 <p>Não refrigerar ou congelar. </p>
 <p>Manter o medicamento dentro da embalagem de cartão para proteger da luz e humidade e dentro do 
 recipiente de expedição até à sua administração, para manter a temperatura necessária. </p>
-<p>Alofisel não pode ser irradiado ou esterilizado de outra forma. </p>         </div>"""      
+<p>Alofisel não pode ser irradiado ou esterilizado de outra forma. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -878,7 +887,7 @@ cobrir as aberturas externas com um penso estéril. </p>
 <p>Precauções a serem tomadas para eliminação do medicamento </p>
 <p>Qualquer medicamento não utilizado e todos os materiais que tenham estado em contacto com Alofisel 
 (resíduos sólidos e líquidos) têm de ser tratados e eliminados de acordo com as exigências locais sobre 
-processamento de material biológico humano. </p>         </div>"""      
+processamento de material biológico humano. </p> </div>"""      
 
 
 

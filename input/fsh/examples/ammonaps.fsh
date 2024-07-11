@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store AMMONAPS </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ Nitrogen is a building block of proteins, because of this, there is a build up o
 after eating protein. Nitrogen waste, in the form of ammonia, is especially toxic for the brain and 
 leads, in severe cases, to reduced levels of consciousness and to coma.  </p>
 <p>AMMONAPS helps the body to eliminate nitrogen waste, reducing the amount of ammonia in your 
-body. </p>         </div>"""   
+body. </p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ No studies on the effects on the ability to drive and use machines have been per
 <p>AMMONAPS contains sodium 
 Each AMMONAPS tablet contains 62 mg of sodium.  </p>
 <p>Talk to your doctor or pharmacist if you need 6 or more tablets daily for a prolonged period, especially 
-if you have been advised to follow a low salt (sodium) diet.  </p>         </div>"""   
+if you have been advised to follow a low salt (sodium) diet.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ammonaps"
@@ -172,7 +175,7 @@ hospital emergency department for supportive treatment. </p>
 <p>If you forget to take AMMONAPS 
 You should take a dose as soon as possible with your next meal. Make sure that there are at least 
 3 hours between two doses. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -204,7 +207,7 @@ heart rhythm, rectal bleeding, stomach irritation, stomach ulcer, inflammation o
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ammonaps"
@@ -216,7 +219,7 @@ this medicine. </p>         </div>"""
  EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -245,7 +248,7 @@ PATHEON France   BOURGOIN JALLIEU
 BOURGOIN JALLIEU 
 38France </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -284,7 +287,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -293,7 +298,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -308,7 +314,7 @@ Usage: #inline
 3. Sådan skal du tage AMMONAPS 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -323,7 +329,7 @@ kvælstof i kroppen, når man har indtaget proteiner. De kvælstofholdige affald
 i form af ammoniak som er specielt giftigt for hjernen og i alvorlige tilfælde kan føre til 
 bevidsthedsforstyrrelser og koma.  </p>
 <p>AMMONAPS hjælper kroppen med at fjerne de kvælstofholdige affaldsstoffer og dermed reducere 
-mængden af ammoniak i kroppen. </p>         </div>"""   
+mængden af ammoniak i kroppen. </p> </div>"""   
           
 
              
@@ -380,7 +386,7 @@ maskiner. </p>
 <p>AMMONAPS indeholder natrium, hvor advarsel er påkrævet 
 Hver AMMONAPS tablet indeholder 62 mg natrium. </p>
 <p>Tal med lægen eller apotekspersonalet, hvis du i en længere periode skal tage 6 eller flere tabletter 
-dagligt, især hvis du er blevet rådet til at følge en diæt, der har et lavt indhold af salt (natrium). </p>         </div>"""   
+dagligt, især hvis du er blevet rådet til at følge en diæt, der har et lavt indhold af salt (natrium). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ammonaps"
@@ -416,7 +422,7 @@ nærmeste hospital for at få understøttende behandling. </p>
 <p>Hvis du har glemt at tage AMMONAPS 
 Du skal tage en dosis så hurtigt som muligt sammen med dit næste måltid. Der skal være mindst 
 3 timer mellem to doser. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -449,7 +455,7 @@ bugspytkirtlen. </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ammonaps"
@@ -461,7 +467,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30°C. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -500,7 +506,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret AMMONAPS til dig personligt. Lad derfor være med at give det til andre. 
 Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 

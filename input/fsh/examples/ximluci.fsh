@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ximluci</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ factor A (VEGF-A) present in the eye. In excess, VEGF-A causes abnormal blood ve
 swelling in the eye which can lead to impairment of vision in diseases like AMD, DME, PDR, RVO, 
 PM and CNV. By binding to VEGF-A, Ximluci can block its actions and prevent this abnormal 
 growth and swelling.
-In these diseases, Ximluci can help to stabilise and in many cases improve your vision.</p>         </div>"""   
+In these diseases, Ximluci can help to stabilise and in many cases improve your vision.</p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ doctor before treatment with Ximluci.</p>
 passes into human milk. Ask your doctor or pharmacist for advice before Ximluci treatment.
 Driving and using machines
 After Ximluci treatment you may experience some temporary vision blurring. If this happens, do not 
-drive or use machines until this resolves.</p>         </div>"""   
+drive or use machines until this resolves.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ximluci"
@@ -164,7 +167,7 @@ Before stopping Ximluci treatment
 If you are considering stopping Ximluci treatment, please go to your next appointment and discuss this 
 with your doctor. Your doctor will advise you and decide how long you should be treated with 
 Ximluci.
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -242,7 +245,7 @@ Visual side effects include</p>
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ximluci"
@@ -255,7 +258,7 @@ after EXP. The expiry date refers to the last day of that month.</p>
 <p>Store in a refrigerator (2  C  8  C). Do not freeze.</p>
 <p>Prior to use, the unopened vial may be kept at room temperature (25  C) for up to 48 hours.</p>
 <p>Keep the vial in the outer carton in order to protect from light.</p>
-<p>Do not use any pack that is damaged.</p>         </div>"""      
+<p>Do not use any pack that is damaged.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -451,7 +454,7 @@ The injection needle should be inserted 3.5 4.0 mm posterior to the limbus into 
 avoiding the horizontal meridian and aiming towards the centre of the globe. The injection volume of 
 0.05 mL is then delivered; a different scleral site should be used for subsequent injections.
 After injection, do not recap the needle or detach it from the syringe. Dispose of the used syringe 
-together with the needle in a sharps disposal container or in accordance with local requirements.</p>         </div>"""      
+together with the needle in a sharps disposal container or in accordance with local requirements.</p> </div>"""      
 
 
 
@@ -490,7 +493,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -499,7 +504,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -514,7 +520,7 @@ Usage: #inline
 3. Sådan gives Ximluci
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -545,7 +551,7 @@ blodårer og opsvulmen i øjet, der kan medføre synsnedsættelse ved sygdomme s
 PDR, RVO, PM og CNV. Ved at bindes til VEGF-A kan Ximluci blokere dets funktion og forhindre 
 denne unormale vækst og opsvulmen.
 Ved disse sygdomme kan Ximluci hjælpe til at stabilisere, og i mange tilfælde forbedre, dit syn.
-40</p>         </div>"""   
+40</p> </div>"""   
           
 
              
@@ -602,7 +608,7 @@ Ximluci anbefales ikke under amning, da det ikke vides, om Ximluci går over i m
 Spørg din læge eller apoteket til råds, før behandling med Ximluci.
 Trafik- og arbejdssikkerhed
 Efter behandling med Ximluci kan du opleve en vis midlertidig sløring af synet. Hvis det sker, må du 
-ikke køre bil eller betjene maskiner, før det er forsvundet.</p>         </div>"""   
+ikke køre bil eller betjene maskiner, før det er forsvundet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ximluci"
@@ -627,7 +633,7 @@ Hvis du holder op med at få behandling med Ximluci
 Hvis du overvejer at holde op med Ximluci-behandlingen, bedes du komme til din næste aftale og 
 drøfte det med din læge. Din læge vil rådgive dig og beslutte, hvor længe du bør behandles med 
 Ximluci.
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -754,7 +760,7 @@ ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også ind
 43
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ximluci"
@@ -773,7 +779,7 @@ Forud for brug kan det uåbnede hætteglas opbevares ved stuetemperatur (25 ºC)
 -
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
 -
-Brug ikke Ximluci, hvis pakningen er beskadiget.</p>         </div>"""      
+Brug ikke Ximluci, hvis pakningen er beskadiget.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1018,7 +1024,7 @@ horisontale meridian undgås, og der sigtes mod øjeæblets centrum. Injektionsv
 indsprøjtes så. Stedet på sklera skal roteres ved efterfølgende injektioner.
 Hætten må ikke sættes på kanylen igen efter injektionen, og kanylen må ikke fjernes fra sprøjten. 
 Bortskaf den brugte sprøjte sammen med kanylen i en kanyleboks eller i henhold til lokale 
-retningslinjer.</p>         </div>"""      
+retningslinjer.</p> </div>"""      
 
 
 
@@ -1057,7 +1063,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1066,7 +1074,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1081,7 +1090,7 @@ Usage: #inline
 3. Como é administrado Ximluci
 4. Efeitos indesejáveis possíveis
 5. Como conservar Ximluci
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1113,7 +1122,7 @@ vasos sanguíneos e edema no olho, que pode levar a perda de visão em doenças 
 RDP, OVR, MP e NVC. Através da ligação ao VEGF-A, Ximluci pode bloquear a sua ação e prevenir 
 este crescimento anormal e edema.
 Nestas doenças, Ximluci pode ajudar a estabilizar e, em muitos casos, a melhorar a sua visão.
-41</p>         </div>"""   
+41</p> </div>"""   
           
 
              
@@ -1171,7 +1180,7 @@ desconhece se Ximluci passa para o leite humano. Consulte o seu médico ou farma
 do tratamento com Ximluci.
 Condução de veículos e utilização de máquinas
 Após o tratamento com Ximluci poderá sentir temporariamente a visão turva. Se tal acontecer, não 
-conduza ou utilize máquinas até ao desaparecimento dos sintomas.</p>         </div>"""   
+conduza ou utilize máquinas até ao desaparecimento dos sintomas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ximluci"
@@ -1197,7 +1206,7 @@ Antes de parar o tratamento com Ximluci
 Se está a pensar parar o tratamento com Ximluci, por favor vá à sua próxima consulta e discuta o 
 assunto com o seu médico. O seu médico irá aconselhá-lo e decidir durante quanto tempo deverá ser 
 tratado com Ximluci.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1279,7 +1288,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
 a ajudar a fornecer mais informações sobre a segurança deste medicamento.
-44</p>         </div>"""      
+44</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ximluci"
@@ -1300,7 +1309,7 @@ Antes de utilizar, o frasco para injetáveis fechado pode ser mantido à tempera
 -
 Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz.
 -
-Não utilize qualquer embalagem que esteja danificada.</p>         </div>"""      
+Não utilize qualquer embalagem que esteja danificada.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1426,7 +1435,7 @@ STADA Arzneimittel AG
 Tel: +49 61016030
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

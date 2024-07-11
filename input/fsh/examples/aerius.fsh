@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Aerius </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ watery eyes.  </p>
 <p>Aerius is also used to relieve the symptoms associated with urticaria (a skin condition caused by an 
 allergy). These symptoms include itching and hives. </p>
 <p>Relief of these symptoms lasts a full day and helps you to resume your normal daily activities and 
-sleep. </p>         </div>"""   
+sleep. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ activities requiring mental alertness, such as driving a car or operating machin
 established your own response to the medicine.  </p>
 <p>Aerius tablet contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.  </p>         </div>"""   
+before taking this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aerius"
@@ -154,7 +157,7 @@ nurse immediately. </p>
 If you forget to take your dose on time, take it as soon as possible and then go back to your regular 
 dosing schedule. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Aerius<br />
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -215,7 +218,7 @@ Not known: frequency cannot be estimated from the available data
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aerius"
@@ -228,7 +231,7 @@ expiry date refers to the last day of that month.  </p>
 <p>Do not store above 30 C. Store in the original package.  </p>
 <p>Do not use this medicine if you notice any change in the appearance of the tablets. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -362,7 +365,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -401,7 +404,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -410,7 +415,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -425,7 +431,7 @@ Usage: #inline
 3. Sådan skal du tage Aerius 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -446,7 +452,7 @@ eller løbende øjne. </p>
 <p>Aerius anvendes også til at lindre symptomerne i forbindelse med nældefeber (en hudlidelse forårsaget 
 af allergi). Symptomerne indbefatter kløe og kløende udslæt. </p>
 <p>Lindring af disse symptomer varer en hel dag og hjælper dig til at genoptage dine normale daglige 
-aktiviteter og søvn. </p>         </div>"""   
+aktiviteter og søvn. </p> </div>"""   
           
 
              
@@ -483,7 +489,7 @@ aktiviteter, der kræver mental årvågenhed, for eksempel køre bil og betjene 
 reaktion på dette lægemiddel er fastlagt. </p>
 <p>Aerius-tabletter indeholder lactose 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aerius"
@@ -513,7 +519,7 @@ flere Aerius-tabletter, end du har fået besked på. </p>
 Hvis du glemmer at tage din medicin til tiden, så tag den snarest muligt og vend derefter tilbage til din 
 sædvanlige medicineringsplan. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Aerius 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -651,7 +657,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aerius"
@@ -664,7 +670,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale yderpakning. </p>
 <p>Tag ikke lægemidlet, hvis du bemærker ændringer i tabletternes udseende. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -805,7 +811,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

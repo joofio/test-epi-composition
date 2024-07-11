@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ryeqo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ blocked, the levels of estrogen and progesterone circulating in the body are red
 also contains two types of female hormones, estradiol which belongs to a group of medicines called 
 estrogens and norethisterone which belongs to a group of medicines called progestogens. The 
 inclusion of these hormones in Ryeqo maintains a hormonal state similar to the beginning of your 
-menstrual cycle and thus relieves your symptoms while helping to protect the strength of your bones.  </p>         </div>"""   
+menstrual cycle and thus relieves your symptoms while helping to protect the strength of your bones.  </p> </div>"""   
           
 
              
@@ -282,7 +285,7 @@ If you need a blood or urine test, tell your doctor or the laboratory staff that
 because this medicine can affect the results of some tests. </p>
 <p>Ryeqo contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.  </p>         </div>"""   
+before taking this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ryeqo"
@@ -309,7 +312,7 @@ contraceptive (e.g. condoms) for the next 7 days of treatment.  </p>
 <p>If you stop taking Ryeqo<br />
 If you would like to stop taking Ryeqo, talk to your doctor first. Your doctor will explain the effects of 
 stopping treatment and discuss other possibilities with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -349,7 +352,7 @@ usually with increased bleeding from the vagina). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ryeqo"
@@ -361,7 +364,7 @@ of this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage condition. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -392,7 +395,7 @@ Gy mr i  t 19-21. 1103 Budapest
 Hungary </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -431,7 +434,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -440,7 +445,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -455,7 +461,7 @@ Usage: #inline
 3. Sådan skal du tage Ryeqo 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -488,7 +494,7 @@ Lægemidlet indeholder også to typer kvindelige hormoner, østradiol, som høre
 lægemidler, der kaldes østrogener og norethisteron, som hører til en gruppe af lægemidler, der kaldes 
 gestagener. Indholdet af disse hormoner i Ryeqo gør, at der opretholdes en hormonstatus i kroppen, 
 der svarer til den, der ses i begyndelsen af menstruationscyklussen. Dette gør det muligt at lindre 
-symptomerne og samtidig beskytte knoglestyrken. </p>         </div>"""   
+symptomerne og samtidig beskytte knoglestyrken. </p> </div>"""   
           
 
              
@@ -756,7 +762,7 @@ Hvis du skal have taget en blod- eller urinprøve, skal du fortælle til lægen 
 at du tager Ryeqo, da lægemidlet kan påvirke resultatet af visse prøver. </p>
 <p>Ryeqo indeholder lactose 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ryeqo"
@@ -784,7 +790,7 @@ hormonel prævention (f.eks. kondom) de næste 7 dage af behandlingen. </p>
 <p>Hvis du holder op med at tage Ryeqo 
 Hvis du ønsker at holde op med at tage Ryeqo, skal du først tale med din læge. Lægen vil forklare 
 virkningen af at stoppe behandlingen og diskutere andre muligheder med dig. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -843,7 +849,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ryeqo"
@@ -855,7 +861,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -889,7 +895,7 @@ Ungarn </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -928,7 +934,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -937,7 +945,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -952,7 +961,7 @@ Usage: #inline
 3. Como tomar Ryeqo 
 4. Efeitos indesejáveis possíveis<br />
 5. Como conservar Ryeqo 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -984,7 +993,7 @@ medicamento também contém dois tipos de hormonas femininas, estradiol, que per
 de medicamentos chamados estrogénios e noretisterona, que pertence a um grupo de medicamentos 
 chamados progestagénios. A inclusão destas hormonas em Ryeqo mantém um estado hormonal 
 semelhante ao início do seu ciclo menstrual e alivia assim os seus sintomas enquanto ajuda a proteger 
-a resistência dos seus ossos.  </p>         </div>"""   
+a resistência dos seus ossos.  </p> </div>"""   
           
 
              
@@ -1261,7 +1270,7 @@ Se precisar de uma análise de sangue ou urina, informe o seu médico ou o pesso
 está a tomar Ryeqo porque este medicamento pode afetar os resultados de algumas análises. </p>
 <p>Ryeqo contém lactose 
 Se foi informada pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
-este medicamento.  </p>         </div>"""   
+este medicamento.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ryeqo"
@@ -1291,7 +1300,7 @@ hormonal (por ex., preservativos) durante os 7 dias de tratamento seguintes. </p
 Se quiser parar de tomar Ryeqo, fale primeiro com o seu médico. O seu médico explicar-lhe-á os 
 efeitos da interrupção do tratamento e discutirá consigo outras possibilidades. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1349,7 +1358,7 @@ com aumento de hemorragia da vagina). </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ryeqo"
@@ -1362,7 +1371,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.  </p>         </div>"""      
+o ambiente.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1395,7 +1404,7 @@ Gyömrői út 19-21. 1103 Budapeste
 Hungria </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

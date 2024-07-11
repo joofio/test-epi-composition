@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Tecfidera  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ off balance and visual difficulties (e.g. blurred or double vision). These sympt
 completely when the relapse is over, but some problems may remain. </p>
 <p>How Tecfidera works </p>
 <p>Tecfidera seems to work by stopping the body s defence system from damaging your brain and spinal 
-cord. This may also help to delay future worsening of your MS.  </p>         </div>"""   
+cord. This may also help to delay future worsening of your MS.  </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ benefit of breast-feeding for your child, and the benefit of therapy for you. </
 <p>Tecfidera is not expected to affect your ability to drive and use machines. </p>
 <p>Tecfidera contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium free . </p>         </div>"""   
+ sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tecfidera"
@@ -185,7 +188,7 @@ effects similar to those described below in section 4. If you forget to take Tec
 <p>If you forget or miss a dose, do not take a double dose.  </p>
 <p>You may take the missed dose if you leave at least 4 hours between the doses. Otherwise wait until 
 your next planned dose.<br />
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ menstrual periods. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tecfidera"
@@ -283,7 +286,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. 
 Keep the blisters in the outer carton in order to protect from light. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+dispose of medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -381,7 +384,7 @@ Biogen Latvia SIA
 Tel: +371 68 688 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Limited 
 Tel: +44 (0) 1628 50 1This leaflet was last revised in {MM YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -420,7 +423,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -429,7 +434,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -446,7 +452,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -466,7 +472,7 @@ balanceproblemer og synsforstyrrelser (f.eks. sløret syn eller dobbeltsyn). Dis
 forsvinde helt, når tilbagefaldet er overstået, men nogle gener kan vare ved. </p>
 <p>Sådan virker Tecfidera </p>
 <p>Tecfidera lader til at virke ved at forhindre kroppens forsvarssystem i at skade din hjerne og rygmarv. 
-Dette kan også hjælpe med til at forsinke fremtidig forværring af MS. </p>         </div>"""   
+Dette kan også hjælpe med til at forsinke fremtidig forværring af MS. </p> </div>"""   
           
 
              
@@ -546,7 +552,7 @@ fordelen for dit barn ved at amme og fordelen for dig ved behandling. </p>
 <p>Det forventes ikke, at Tecfidera påvirker din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Tecfidera indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tecfidera"
@@ -568,7 +574,7 @@ ligner dem, der beskrives herunder i punkt 4. Hvis du har glemt at tage Tecfider
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Du kan tage den glemte dosis, hvis du lader mindst 4 timer gå mellem hver dosis, eller skal du vente til 
 næste planlagte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -658,7 +664,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tecfidera"
@@ -671,7 +677,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 ºC. 
 Opbevar blisterpakningen i den ydre karton for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -796,7 +802,7 @@ Biogen Idec (Ireland) Limited
 Tel: +44 (0) 1628 50 1 </p>
 <p>Denne indlægsseddel blev senest ændret {MM ÅÅÅÅ}. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -835,7 +841,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -844,7 +852,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -861,7 +870,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tecfidera </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -882,7 +891,7 @@ dupla). Estes sintomas podem desaparecer completamente quando o surto acaba, mas
 permanecer alguns problemas. </p>
 <p>Como funciona Tecfidera </p>
 <p>Tecfidera parece funcionar impedindo que o sistema de defesa do corpo danifique o cérebro e medula 
-espinal. Isto pode ajudar a retardar o agravamento futuro da sua EM. </p>         </div>"""   
+espinal. Isto pode ajudar a retardar o agravamento futuro da sua EM. </p> </div>"""   
           
 
              
@@ -960,7 +969,7 @@ de amamentar o seu bebé e o benefício do tratamento para si. </p>
 <p>Não se prevê que Tecfidera afete a sua capacidade de conduzir e de utilizar máquinas. </p>
 <p>Tecfidera contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tecfidera"
@@ -985,7 +994,7 @@ Caso se tenha esquecido de tomar Tecfidera </p>
 <p>Pode tomar a dose em falta se deixar passar, pelo menos, 4 horas entre as doses. Caso contrário, espere 
 até à próxima dose planeada. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1083,7 +1092,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tecfidera"
@@ -1098,7 +1107,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 Manter os blisters dentro da embalagem exterior para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como eliminar os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1220,7 +1229,7 @@ Tel: +371 68 688 United Kingdom (Northern Ireland)
 Biogen Idec (Ireland) Limited 
 Tel: +44 (0) 1628 50 1 
 Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

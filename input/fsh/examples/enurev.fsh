@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Enurev Breezhaler </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ This medicine is used to make breathing easier for adult patients who have breat
 a lung disease called chronic obstructive pulmonary disease (COPD). </p>
 <p>In COPD the muscles around the airways tighten. This makes breathing difficult. This medicine blocks 
 the tightening of these muscles in the lungs, making it easier for air to get in and out of the lungs. </p>
-<p>If you use this medicine once a day, it will help to reduce the effects of COPD on your everyday life. </p>         </div>"""   
+<p>If you use this medicine once a day, it will help to reduce the effects of COPD on your everyday life. </p> </div>"""   
           
 
              
@@ -130,7 +133,7 @@ active substance of this medicine passes into human milk. </p>
 It is unlikely that this medicine will affect your ability to drive and use machines. </p>
 <p>Enurev Breezhaler contains lactose 
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enurev"
@@ -171,7 +174,7 @@ same day. Then take the next dose as usual. </p>
 you have breathing problems or other symptoms of COPD. 
 If you have questions about how long to continue your treatment with this medicine, talk to your 
 doctor or pharmacist. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -226,7 +229,7 @@ tract infection (frequency common). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enurev"
@@ -242,7 +245,7 @@ blister until immediately before use. </p>
 <p>The inhaler in each pack should be disposed of after all capsules in that pack have been used. </p>
 <p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -539,7 +542,7 @@ buttons
 Capsule 
 chamber 
 Mouthpiece 
-Screen </p>         </div>"""      
+Screen </p> </div>"""      
 
 
 
@@ -578,7 +581,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -587,7 +592,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -604,7 +610,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -621,7 +627,7 @@ Dette lægemiddel anvendes til at lette vejrtrækning hos voksne patienter, som 
 <p>Ved KOL trækker musklerne sig sammen omkring luftvejene. Dette gør det svært at trække vejret. 
 Dette lægemiddel hindrer, at musklerne i lungerne trækker sig sammen, og gør det derved nemmere at 
 trække vejret ind og ud af lungerne. </p>
-<p>Hvis du tager dette lægemiddel én gang dagligt, vil det mindske påvirkningen af KOL i din dagligdag. </p>         </div>"""   
+<p>Hvis du tager dette lægemiddel én gang dagligt, vil det mindske påvirkningen af KOL i din dagligdag. </p> </div>"""   
           
 
              
@@ -671,7 +677,7 @@ aktive stof i denne medicin udskilles i human mælk. </p>
 Dette lægemiddel menes ikke at påvirke evnen til at køre bil eller betjene maskiner. </p>
 <p>Enurev Breezhaler indeholder lactose 
 Dette lægemiddel indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
-fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enurev"
@@ -714,7 +720,7 @@ dag. Tag derefter næste dosis til sædvanlig tid. </p>
 åndedrætsbesvær eller andre symptomer på KOL. 
 Hvis du har spørgsmål om, hvor lang tid du skal fortsætte din behandling med dette lægemiddel, skal 
 du tale med din læge eller apotekspersonalet. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -834,7 +840,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enurev"
@@ -851,7 +857,7 @@ før brug. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker at pakningen er beskadiget eller viser tegn på at have været 
 åbnet. </p>
 <p>Spørg på apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+ikke smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1174,7 +1180,7 @@ Hætte
 Sideknapper 
 Kapselkammer 
 Mundstykke 
-Gitter </p>         </div>"""      
+Gitter </p> </div>"""      
 
 
 

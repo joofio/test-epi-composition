@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store AZARGA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 pressure within the eye. </p>
 <p>AZARGA is used to treat high pressure in the eyes, also called glaucoma or ocular hypertension, in 
 adult patients that are more than 18 years of age and in whom high pressure in the eyes cannot be 
-controlled effectively by one medicine alone. </p>         </div>"""   
+controlled effectively by one medicine alone. </p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ lenses and may change the colour of the contact lenses. You should remove contac
 using this medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause 
 eye irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of 
 the eye). If you feel abnormal eye sensation, stinging or pain in the eye after using this medicine, talk 
-to your doctor. </p>         </div>"""   
+to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take azarga"
@@ -219,7 +222,7 @@ breathing and your nervous system may be affected </p>
 make up for the forgotten dose. Do not use more than one drop in the affected eye(s) twice daily. </p>
 <p>If you stop using AZARGA without speaking to your doctor, the pressure in your eye will not be 
 controlled which could lead to loss of sight. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ gravis (muscle disorder).
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store azarga"
@@ -311,7 +314,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Throw away the bottle 4 weeks after first opening to prevent infections, and use a new bottle. Write 
 down the date of opening on the bottle label and carton label in the space provided. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -417,7 +420,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -456,7 +459,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -465,7 +470,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -482,7 +488,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -494,7 +500,7 @@ Usage: #inline
 sænke trykket i øjet. </p>
 <p>Azarga bruges til at behandle forhøjet tryk i øjnene, også betegnet som glaukom eller okulær 
 hypertension, hos voksne patienter over 18 år, som har forhøjet tryk i øjnene, der ikke kan bringes 
-effektivt under kontrol med et enkelt lægemiddel alene. </p>         </div>"""   
+effektivt under kontrol med et enkelt lægemiddel alene. </p> </div>"""   
           
 
              
@@ -625,7 +631,7 @@ kontaktlinser og ændre farven på kontaklinserne. Du skal tage kontaktlinserne 
 bruges, og vente mindst 15 minutter, før du sætter kontaktlinserne i igen. Benzalkoniumchlorid kan 
 også give øjenirritation, især hvis du har tørre øjne eller hornhinde problemer (det klare lag forrest i 
 øjet). Hvis du har unormale fornemmelser i øjet såsom svie eller smerte, når du bruger dette 
-lægemiddel, skal du tale med din læge. </p>         </div>"""   
+lægemiddel, skal du tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take azarga"
@@ -715,7 +721,7 @@ ikke tage en dobbeltdosis som erstatning for den glemte dosis. Brug ikke mere en
 pågældende øje/øjne 2 gange dagligt. </p>
 <p>Hvis du holder op med at bruge Azarga uden at tale med din læge, vil trykket i øjet ikke blive holdt 
 nede, hvilket kan medføre tab af synet. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -847,7 +853,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store azarga"
@@ -862,7 +868,7 @@ sidste dag i den nævnte måned. </p>
 flaske i brug. Når du åbner en ny flaske, skal du skrive datoen, hvor der er gjort plads til det på 
 flaskens etiket og på kartonen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1000,7 +1006,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -1039,7 +1045,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1048,7 +1056,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1065,7 +1074,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar AZARGA </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1077,7 +1086,7 @@ Usage: #inline
 para reduzir a pressão no interior do olho. </p>
 <p>O AZARGA é utilizado para tratar a pressão elevada dentro do olho, uma doença chamada glaucoma 
 ou hipertensão ocular, em doentes adultos maiores de 18 anos cuja elevada pressão no olho não pode 
-ser controlada de forma efetiva apenas com um medicamento. </p>         </div>"""   
+ser controlada de forma efetiva apenas com um medicamento. </p> </div>"""   
           
 
              
@@ -1208,7 +1217,7 @@ contacto moles e pode alterar a cor das lentes de contacto. Deve remover as lent
 utilização deste medicamento e voltar a colocá-las 15 minutos depois. Cloreto de benzalcónio também 
 pode causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a 
 camada transparente na frente do olho). Se sentir uma sensação estranha no olho, picadas ou dor no 
-olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+olho após utilizar este medicamento, fale com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar azarga"
@@ -1298,7 +1307,7 @@ no(s) olho(s) afetado(s) duas vezes ao dia. </p>
 <p>Se parar de utilizar AZARGA sem falar com o seu médico, a pressão no seu olho não estará 
 controlada, o que pode originar perda de visão. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1434,7 +1443,7 @@ sinais e sintomas de miastenia gravis (doença muscular). </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar azarga"
@@ -1449,7 +1458,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 novo. Escreva a data de abertura no rótulo do frasco e da embalagem, no espaço indicado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1584,7 +1593,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Prialt </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prialt contains the active substance ziconotide which belongs to a group of medicines, called 
 analgesics or  painkillers . Prialt is used for the treatment of severe, long-term pain in adults who need 
 a painkiller by intrathecal injection (injection into the space that surrounds the spinal cord and the 
-brain). </p>         </div>"""   
+brain). </p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ The use of Prialt has been reported to cause confusion and drowsiness. Ask your 
 before you drive or operate machinery. </p>
 <p>Prialt contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per maximum recommended intrathecal dose 
-(21.6 micrograms per day), that is to say essentially  sodium-free . </p>         </div>"""   
+(21.6 micrograms per day), that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prialt"
@@ -180,7 +183,7 @@ If you receive more Prialt than your doctor intended, you may feel unwell with s
 confusion, problems with speech, word finding difficulties, excessive shaking, light-headedness, 
 excessive sleepiness, feeling or being sick. If this happens, consult your doctor or hospital 
 immediately. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ measurements (ECG), raised body temperature, difficulty walking. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prialt"
@@ -271,7 +274,7 @@ has taken place in controlled and validated aseptic conditions. </p>
 <p>Do not use this medicine if you notice any discolouration or cloudiness or if particulate matter is 
 observed. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -433,7 +436,7 @@ info.germany@esteve.com
 (Germany)  </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -472,7 +475,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -481,7 +486,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -496,7 +502,7 @@ Usage: #inline
 3. Sådan skal De bruge Prialt 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -507,7 +513,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prialt indeholder det aktive stof ziconotid, som tilhører en gruppe lægemidler, der kaldes analgetika 
 eller ‘smertestillende midler’. Prialt anvendes til behandling af svære længevarende smerter hos 
 voksne, som har behov for at få et smertestillende middel via intratekal injektion (injektion i området 
-omkring rygmarven og hjernen). </p>         </div>"""   
+omkring rygmarven og hjernen). </p> </div>"""   
           
 
              
@@ -585,7 +591,7 @@ Det er rapporteret, at brugen af Prialt kan forårsage konfusion og søvnighed. 
 inden De fører motorkøretøj eller betjener maskiner. </p>
 <p>Prialt indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. maksimalt anbefalet intratekal 
-dosis (21,6 mikrogram pr. dag), dvs. den er i det væsentlige natriumfri. </p>         </div>"""   
+dosis (21,6 mikrogram pr. dag), dvs. den er i det væsentlige natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prialt"
@@ -614,7 +620,7 @@ Hvis De får mere Prialt, end Deres læge havde påtænkt, vil De muligvis føle
 opleve tegn på konfusion, taleproblemer, vanskelighed ved at finde ord, overdreven rystelse, 
 omtågethed, voldsom søvnighed, kvalme eller opkastning. Hvis dette sker, skal De omgående kontakte 
 Deres læge eller hospital. </p>
-<p>Spørg lægen, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -690,7 +696,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge. Dette gælder også 
 som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prialt"
@@ -710,7 +716,7 @@ brug brugerens ansvar. Disse vil normalt ikke være længere end 24 timer ved 2 
 fortynding er foregået under kontrollerede og validerede aseptiske forhold. </p>
 <p>Brug ikke lægemidlet, hvis De bemærker misfarvning eller uklarhed eller partikler. </p>
 <p>Spørg apotekspersonalet, hvordan De du skal bortskaffe medicinrester. Af hensyn til miljøet må De du 
-ikke smide medicinrester i afløbet, eller toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide medicinrester i afløbet, eller toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -923,7 +929,7 @@ vigtige oplysninger.
 - Gem indlægssedlen. De kan få brug for at læse den igen. 
 - Spørg lægen, hvis der er mere, De vil vide. 
 - Kontakt lægen, hvis De får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
-indlægsseddel. Se punkt 4. </p>         </div>"""      
+indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -962,7 +968,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -971,7 +979,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -986,7 +995,7 @@ Usage: #inline
 3. Como utilizar Prialt 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Prialt 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -996,7 +1005,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prialt contém a substância ativa ziconotida que pertence a um grupo de medicamentos designados por 
 analgésicos. Prialt é utilizado para o tratamento da dor prolongada intensa em adultos que necessitam 
-de um analgésico por injeção intratecal (injeção no espaço que rodeia a medula espinal e o cérebro). </p>         </div>"""   
+de um analgésico por injeção intratecal (injeção no espaço que rodeia a medula espinal e o cérebro). </p> </div>"""   
           
 
              
@@ -1078,7 +1087,7 @@ Foi referido que a utilização de Prialt provoca confusão e sonolência. Consu
 conduzir ou utilizar máquinas. </p>
 <p>Prialt contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose intratecal máxima 
-recomendada (21,6 microgramas por dia), ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+recomendada (21,6 microgramas por dia), ou seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar prialt"
@@ -1109,7 +1118,7 @@ Se lhe for administrado mais Prialt do que o seu médico pretendia, pode sentir-
 sinais como, por exemplo, confusão, problemas com a fala, dificuldade em encontrar palavras, tremura 
 excessiva, atordoamento, sonolência excessiva, sensação de enjoo ou vómitos. Se tal acontecer, 
 consulte imediatamente o seu médico ou hospital. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1189,7 +1198,7 @@ andar. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar prialt"
@@ -1212,7 +1221,7 @@ feita em condições assépticas controladas e validadas. </p>
 partículas em suspensão. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1379,7 +1388,7 @@ info.germany@esteve.com
 (Germany) </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

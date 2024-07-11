@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Repaglinide Krka</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ treatment is usually started if diet, exercise and weight reduction alone have n
 (or lower) your blood sugar.
 Repaglinide Krka can also be given with metformin, another medicine for diabetes.
 Repaglinide Krka has been shown to lower the blood sugar, which helps to prevent complications
-from your diabetes.</p>         </div>"""   
+from your diabetes.</p> </div>"""   
           
 
              
@@ -115,7 +118,7 @@ If you get a hypo (low blood sugar)
 You may get a hypo (short for hypoglycaemia) if your blood sugar gets too low. This may happen:</p>
 <p>if you take too much Repaglinide Krka</p>
 <p>if you exercise more than usual</p>
-<p>if you take other medicines or suffer from liver or kidney problems (see other sections of </p>         </div>"""   
+<p>if you take other medicines or suffer from liver or kidney problems (see other sections of </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take repaglinide"
@@ -188,7 +191,7 @@ that you could endanger yourself or others. Please ask your doctor whether you c
 <p>have few or no warning signs of hypos.
 Repaglinide Krka contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .</p>         </div>"""         
+free .</p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ Do not take a double dose to make up for a forgotten tablet.
 If you stop taking Repaglinide Krka
 Be aware that the desired effect is not achieved if you stop taking Repaglinide Krka. Your diabetes 
 may get worse. If any change of your treatment is necessary contact your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store repaglinide"
@@ -248,7 +251,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ Do not use this medicine after the expiry date which is stated on the blister an
 expiry date refers to the last day of that month.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
 
 
 
@@ -300,7 +303,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -309,7 +314,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -324,7 +330,7 @@ Usage: #inline
 3. Sådan skal du tage Repaglinide Krka
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -342,7 +348,7 @@ motion: Behandling påbegyndes normalt, hvis diæt, motion og vægttab alene ikk
 tilstrækkeligt til at regulere (eller reducere) blodsukkeret.
 Repaglinide Krka kan også ordineres sammen med metformin, et andet lægemiddel mod sukkersyge.
 Repaglinide Krka er i stand til at sænke blodsukkeret, hvilket kan hjælpe med til at forhindre 
-komplikationer forårsaget af sukkersyge.</p>         </div>"""   
+komplikationer forårsaget af sukkersyge.</p> </div>"""   
           
 
              
@@ -390,7 +396,7 @@ Hvis du tager for mange Repaglinide Krka
 Hvis du motionerer mere end normalt
 
 Hvis du tager anden medicin eller lider af lever- eller nyreproblemer (se andre afsnit under 
-punkt. </p>         </div>"""   
+punkt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take repaglinide"
@@ -493,7 +499,7 @@ Ofte har hypoglykæmi
 Har få eller ingen advarselstegn på hypoglykæmi.
 Repaglinide Krka indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""         
+væsentlige natriumfrit.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -521,7 +527,7 @@ Hvis du stopper med at tage Repaglinide Krka
 Vær opmærksom på, at den ønskede virkning ikke opnås, hvis du stopper med at tage Repaglinide 
 Krka. Din diabetes kan muligvis forværres. Hvis det er nødvendigt at ændre din behandling, skal du
 først kontakte din læge.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""      
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store repaglinide"
@@ -566,7 +572,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -579,7 +585,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen og d
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Spørg apotekspersonalet hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
 
 
 

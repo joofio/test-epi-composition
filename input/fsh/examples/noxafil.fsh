@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Noxafil</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -96,7 +99,7 @@ fungal infection, such as:
 * patients who have a weak immune system due to having chemotherapy for  acute myelogenous
 leukaemia  (AML) or  myelodysplastic syndromes  (MDS) 
 * patients having  high-dose immunosuppressive therapy  after  hematopoietic stem cell
-transplant  (HSCT).</p>         </div>"""   
+transplant  (HSCT).</p> </div>"""   
           
 
              
@@ -220,7 +223,7 @@ Noxafil contains benzyl alcohol
 This medicine contains up to 1.25 mg of benzyl alcohol per 5 mL of suspension. Benzyl alcohol may
 cause allergic reactions.
 Noxafil contains propylene glycol
-This medicine contains up to 24.75 mg of propylene glycol (E1520) per 5 mL of suspension.</p>         </div>"""   
+This medicine contains up to 24.75 mg of propylene glycol (E1520) per 5 mL of suspension.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take noxafil"
@@ -266,7 +269,7 @@ If you forget to take Noxafil
 If you have missed a dose, take it as soon as you remember and then carry on as before. However, if it
 is almost time for your next dose, take your dose when it is due. Do not take a double dose to make up
 for a forgotten dose. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -396,7 +399,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store noxafil"
@@ -410,7 +413,7 @@ Do not freeze.
 If you have any suspension left in a bottle more than four weeks after it was first opened, you should
 not use this medicine. Please return the bottle containing any leftover suspension to your pharmacist.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -548,7 +551,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them,
 even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -587,7 +590,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -596,7 +601,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -611,7 +617,7 @@ Usage: #inline
 3. Sådan skal du tage Noxafil
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -662,7 +668,7 @@ myleoid leukæmi" (AML) eller "myelodysplastisk syndrom" (MDS)
 <p>patienter, som får "højdosis-immunundertrykkende behandling" efter "stamcelletransplantation
 af hæmopoietiske (bloddannende) stamceller" (HSCT).</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -869,7 +875,7 @@ medføre allergiske reaktioner.
 Noxafil indeholder propylenglycol
 Dette lægemiddel indeholder op til 24,75 mg propylenglycol (E1520) pr. 5 ml suspension.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take noxafil"
@@ -921,7 +927,7 @@ Hvis du har glemt at tage Noxafil</p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1235,7 +1241,7 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel.
 115</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store noxafil"
@@ -1249,7 +1255,7 @@ Må ikke nedfryses.
 Hvis du fire uger efter åbning af flasken har en rest af suspensionen tilbage, må du ikke anvende denne
 medicinrest. Aflever flasken med medicinresten på apoteket.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1419,7 +1425,7 @@ indeholder vigtige oplysninger.</li>
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.</li>
 <li>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

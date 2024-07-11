@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store RoActemra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -111,7 +114,7 @@ antigen receptor (CAR) T-cell therapies used to treat certain types of cancer.  
 <p>RoActemra is used to treat adults with coronavirus disease 2019 (COVID-19), receiving 
 systemic corticosteroids and requiring supplemental oxygen or mechanical ventilation. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -213,7 +216,7 @@ This medicine can cause dizziness. If you feel dizzy, do not drive or use machin
 <p>RoActemra contains sodium 
 This medicine contains 26.55 mg sodium per maximum dose of 1200 mg. Take this into account if 
 you are on a low-sodium diet. However, doses below 1025 mg of this medicine contain less than 
-23 mg sodium, so they are virtually sodium free. </p>         </div>"""   
+23 mg sodium, so they are virtually sodium free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take roactemra"
@@ -255,7 +258,7 @@ Since RoActemra is given by a doctor or nurse, it is unlikely that you will miss
 you are worried, talk to your doctor or nurse. </p>
 <p>If you stop being given RoActemra 
 You should not stop using RoActemra without discussing with your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -333,7 +336,7 @@ higher liver enzymes. </p>
 <p>Children with pJIA<br />
 In general, side effects in pJIA patients were of a similar type to those in adults with RA. Some side 
 effects were seen more often: inflamed nose and throat, headache, feeling sick (nausea) and lower 
-white blood cell counts.  </p>         </div>"""      
+white blood cell counts.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store roactemra"
@@ -343,7 +346,7 @@ white blood cell counts.  </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep RoActemra out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton.  </p>
 <p>Store in a refrigerator (2 C - 8 C). Do not freeze.  </p>
-<p>Keep the vial in the outer carton in order to protect from light. </p>         </div>"""      
+<p>Keep the vial in the outer carton in order to protect from light. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -493,7 +496,7 @@ even if their signs of illness are the same as yours. </li>
 <li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. See section 4. In addition to this leaflet, you will be given a Patient Alert Card, which contains important safety 
 information that you need to be aware of before and during treatment with RoActemra. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -532,7 +535,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -541,7 +546,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -556,7 +562,7 @@ Usage: #inline
 3. Sådan gives RoActemra<br />
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -605,7 +611,7 @@ visse typer af kræft.  </p>
 </li>
 </ul>
 <p>• RoActemra bruges til at behandle voksne med coronavirussygdom 2019 (COVID-19), som 
-får systemiske kortikosteroider og har behov for supplerende ilt eller mekanisk ventilering </p>         </div>"""   
+får systemiske kortikosteroider og har behov for supplerende ilt eller mekanisk ventilering </p> </div>"""   
           
 
              
@@ -731,7 +737,7 @@ motorkøretøj og betjene maskiner. </p>
 <p>RoActemra indeholder natrium 
 En maksimumdosis på 1.200 mg RoActemra indeholder 26,55 mg natrium. Hvis du er på en 
 kontrolleret natriumdiæt, skal der tages højde for det. Dog indeholder RoActemra-doser på mindre end 
-1.025 mg mindre end 23 mg natrium og er derfor i princippet "natriumfrie". </p>         </div>"""   
+1.025 mg mindre end 23 mg natrium og er derfor i princippet "natriumfrie". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take roactemra"
@@ -786,7 +792,7 @@ Det er ikke sandsynligt, at du glemmer en dosis RoActemra, da du får det af en 
 sygeplejerske. Hvis du er i tvivl, skal du tale med lægen eller sundhedspersonalet. </p>
 <p>Hvis du holder op med at få RoActemra 
 Beslutningen om at stoppe behandlingen med RoActemra aftales med din læge. </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om </p> </div>"""         
 
         
 * section[=].section[+]
@@ -954,7 +960,7 @@ diarré, nedsat antal hvide blodlegemer og forhøjede leverenzymer. </p>
 <p>Børn med polyartikulær juvenil idiopatisk artrit 
 Generelt svarede bivirkningerne hos pJIA-patienter til de typer af bivirkninger, som ses hos voksne 
 patienter med leddegigt. Dog blev følgende bivirkninger set hyppigere: infektion i næse og hals, 
-hovedpine, kvalme samt nedsat antal hvide blodlegemer. </p>         </div>"""      
+hovedpine, kvalme samt nedsat antal hvide blodlegemer. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store roactemra"
@@ -964,7 +970,7 @@ hovedpine, kvalme samt nedsat antal hvide blodlegemer. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar RoActemra utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, som står på den ydre karton. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.  </p>
-<p>Opbevar hætteglassene i den ydre karton for at beskytte mod lys. </p>         </div>"""      
+<p>Opbevar hætteglassene i den ydre karton for at beskytte mod lys. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1158,7 +1164,7 @@ eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. Udover denne ind
 sikkerhed, som du skal være opmærksom på, før og under behandlingen med RoActemra. </p>
 </li>
 </ul>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1197,7 +1203,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1206,7 +1214,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1221,7 +1230,7 @@ Usage: #inline
 3. Como é administrado RoActemra 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar RoActemra 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1274,7 +1283,7 @@ para tratar certos tipos de cancro. </p>
 que se encontrem a receber corticosteroides sistémicos e que necessitem de oxigénio 
 suplementar ou ventilação mecânica. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1402,7 +1411,7 @@ Este medicamento pode causar tonturas. Se tiver tonturas, não deve conduzir ou 
 <p>RoActemra contém sódio 
 Este medicamento contém 26,55 mg de sódio por dose máxima de 1200 mg. Este facto deve ser tido 
 em conta se estiver sob dieta pobre em sódio. No entanto, doses deste medicamento menores que 
-1025 mg contêm menos de 23 mg de sódio, isto é, são praticamente isentas de sódio. </p>         </div>"""   
+1025 mg contêm menos de 23 mg de sódio, isto é, são praticamente isentas de sódio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar roactemra"
@@ -1459,7 +1468,7 @@ Não é provável que se esqueça de uma dose de RoActemra, uma vez que é admin
 médico ou enfermeiro. No entanto, se estiver preocupado fale com o seu médico ou enfermeiro. </p>
 <p>Se parar de utilizar RoActemra 
 Não deve parar de utilizar RoActemra sem primeiro falar com o seu médico. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1628,7 +1637,7 @@ inflamados, diarreia, baixo número de glóbulos brancos e aumento das enzimas d
 <p>Crianças com AIJp 
 Em geral, o tipo de efeitos indesejáveis em doentes com AIJp foi semelhante aos observados em 
 adultos com AR. Alguns efeitos indesejáveis foram observados com mais frequência: nariz e garganta 
-inflamados, dor de cabeça, sentir má-disposição (náuseas) e baixo número de glóbulos brancos. </p>         </div>"""      
+inflamados, dor de cabeça, sentir má-disposição (náuseas) e baixo número de glóbulos brancos. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar roactemra"
@@ -1638,7 +1647,7 @@ inflamados, dor de cabeça, sentir má-disposição (náuseas) e baixo número d
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter RoActemra fora da vista e do alcance das crianças. </p>
 <p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior. </p>
 <p>Conservar no frigorífico (entre 2 ºC - 8 ºC). Não congelar. </p>
-<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>         </div>"""      
+<p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1764,7 +1773,7 @@ UAB “Roche Lietuva"
 Tel: +370 5 2546 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

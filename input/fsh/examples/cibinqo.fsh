@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Cibinqo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ in the body called  Janus kinase , which is involved in inflammation.  </p>
 <p>Cibinqo is used to treat adults with moderate-to-severe atopic dermatitis, also known as atopic eczema. 
 By reducing the activity of Janus kinase enzymes, Cibinqo lessens itching and inflammation of the 
 skin. This in turn can reduce sleep disturbances and other consequences of atopic eczema such as 
-anxiety or depression and improves overall quality of life.   </p>         </div>"""   
+anxiety or depression and improves overall quality of life.   </p> </div>"""   
           
 
              
@@ -188,7 +191,7 @@ before taking this medicine. </p>
  sodium-free . </p>
 <p>Elderly 
 Patients aged 65 years and older may be at increased risk of infections, heart attack and some types of 
-cancer. Your doctor may decide that Cibinqo is not suitable for you. </p>         </div>"""   
+cancer. Your doctor may decide that Cibinqo is not suitable for you. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cibinqo"
@@ -227,7 +230,7 @@ usual dose when it is due.<br />
 - Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Cibinqo<br />
 You should not stop taking Cibinqo without discussing this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -263,7 +266,7 @@ or shortness of breath </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix  . By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cibinqo"
@@ -275,7 +278,7 @@ this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -382,7 +385,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -421,7 +424,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -430,7 +435,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -445,7 +451,7 @@ Usage: #inline
 3. Sådan skal du tage Cibinqo 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -461,7 +467,7 @@ Cibinqo bruges til at behandle voksne og unge på 12 år og derover, som har mod
 dermatitis, også kaldet atopisk eksem. Cibinqo mindsker kløe og betændelse i huden ved at reducere 
 aktiviteten af Januskinase-enzymer. Dette kan så reducere søvnforstyrrelser og andre følger af atopisk 
 eksem som fx angst eller depression, og det forbedrer den generelle livskvalitet.<br />
-42</p>         </div>"""   
+42</p> </div>"""   
           
 
              
@@ -589,7 +595,7 @@ væsentlige natriumfrit.
 44
 Ældre
 Patienter på 65 år og derover kan have øget risiko for infektioner, hjerteanfald og visse typer af kræft. 
-Din læge vil muligvis beslutte, at Cibinqo ikke er egnet til dig.</p>         </div>"""   
+Din læge vil muligvis beslutte, at Cibinqo ikke er egnet til dig.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cibinqo"
@@ -640,7 +646,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.
 Hvis du holder op med at tage Cibinqo 
 Du må ikke holde op med at tage Cibinqo uden at drøfte det med din læge.
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.
-45</p>         </div>"""         
+45</p> </div>"""         
 
         
 * section[=].section[+]
@@ -689,7 +695,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cibinqo"
@@ -702,7 +708,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
-46</p>         </div>"""      
+46</p> </div>"""      
         
         
 * section[=].section[+]
@@ -841,7 +847,7 @@ Denne indlægsseddel blev senest ændret
 48
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ovitrelle </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ assisted reproductive technologies (procedure that may help you to become pregna
 follicles. 
 * To help release an egg from the ovary (ovulation induction) in women who cannot produce eggs 
 ( anovulation ), or women who produce too few eggs ( oligo-ovulation ). Other medicines will 
-be given first to develop and ripen the follicles. </p>         </div>"""   
+be given first to develop and ripen the follicles. </p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ If you are pregnant or breast-feeding, ask your doctor for advice before taking 
 <p>It is not expected that Ovitrelle will affect your ability to drive and use machines. </p>
 <p>Ovitrelle contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ovitrelle"
@@ -218,7 +221,7 @@ container. Any unused solution must be discarded. </li>
 <p>The effects of an overdose of Ovitrelle are unknown, nevertheless there is a possibility that ovarian 
 hyperstimulation syndrome (OHSS) may occur, which is further described in section 4. If you forget to use Ovitrelle </p>
 <p>If you forget to use Ovitrelle, please talk to your doctor as soon as you notice. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ also in section 2. under  Blood clotting problems ). </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ovitrelle"
@@ -267,7 +270,7 @@ expiry date refers to the last day of that month. </p>
 for injection may be stored at room temperature (at or below +25 C) for up to 30 days without being 
 refrigerated again during this period, and must be discarded if not used during these 30 days. </p>
 <p>Do not throw away any medicine via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines no longer used. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines no longer used. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ hydroxide, water for injections. </li>
 <p>Manufacturer </p>
 <p>Merck Serono S.p.A., Via delle Magnolie 15, 70026 Modugno (Bari), Italy </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -328,7 +331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -337,7 +342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -354,7 +360,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -382,7 +388,7 @@ producere æg (en tilstand, der kaldes anovulation), eller hos kvinder, der prod
 (oligo-ovulation). Der anvendes først andre lægemidler, der medfører vækst og udvikling af 
 flere follikler. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -475,7 +481,7 @@ Hvis du er gravid eller ammer, skal du spørge din læge til råds, før du tage
 <p>Ovitrelle forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Ovitrelle indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ovitrelle"
@@ -555,7 +561,7 @@ ubrugt opløsning skal kasseres. </li>
 <p>Effekterne af en overdosering af Ovitrelle er ukendte, men der er risiko for, at ovarielt 
 hyperstimulationssyndrom (OHSS) kan indtræde, som beskrevet nærmere under punkt 4. Hvis du har glemt at bruge Ovitrelle </p>
 <p>Hvis du har glemt at bruge Ovitrelle, skal du kontakte lægen så snart du bemærker det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -610,7 +616,7 @@ hændelser)'). </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ovitrelle"
@@ -625,7 +631,7 @@ injektionsvæske, opløsning kan opbevares ved eller under temperaturer på 25 �
 igen at blive nedkølet i denne periode og skal kasseres, hvis lægemidlet ikke er blevet anvendt i løbet 
 af disse 30 dage. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -666,7 +672,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Ovitrelle til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -705,7 +711,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -714,7 +722,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -731,7 +740,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Ovitrelle </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -759,7 +768,7 @@ conseguem produzir óvulos (‘anovulação’), ou em mulheres que produzem mui
 (‘oligo-ovulação’). Outros medicamentos serão administrados antes para desenvolverem e 
 amadurecerem os folículos. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -853,7 +862,7 @@ Se está grávida ou a amamentar, consulte o seu médico antes de tomar este med
 <p>Não é de se esperar que Ovitrelle afete a sua capacidade para conduzir e utilizar máquinas. </p>
 <p>Ovitrelle contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ovitrelle"
@@ -932,7 +941,7 @@ ocorrência da síndrome de hiperestimulação ovárica (OHSS), que se encontra 
 Caso se tenha esquecido de utilizar Ovitrelle </p>
 <p>Caso se tenha esquecido de utilizar Ovitrelle, contacte o seu médico assim que se aperceber. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -989,7 +998,7 @@ do sangue"). </p>
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ovitrelle"
@@ -1005,7 +1014,7 @@ sem voltar a ser colocado no frigorífico durante este período. Caso não seja 
 30 dias, deverá ser rejeitado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1034,7 +1043,7 @@ Está disponível em embalagens com uma seringa pré-cheia. </p>
 <p>Fabricante </p>
 <p>Merck Serono S.p.A., Via delle Magnolie 15, 70026 Modugno (Bari), Itália. </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

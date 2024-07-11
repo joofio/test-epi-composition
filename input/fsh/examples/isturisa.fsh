@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Isturisa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ periods, excessive body and facial hair, and generally feeling weak, tired or un
 <p>How Isturisa works 
 Isturisa blocks the main enzyme that makes cortisol in the adrenal glands. The effect of this is to 
 decrease the over-production of cortisol and improve the symptoms of endogenous Cushing s 
-syndrome. </p>         </div>"""   
+syndrome. </p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ and for at least one week after the last dose. Ask your doctor about the need fo
 you start taking Isturisa. </p>
 <p>Driving and using machines 
 Dizziness and tiredness may occur during treatment with Isturisa. Do not drive or operate machines if 
-you get these symptoms. </p>         </div>"""   
+you get these symptoms. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take isturisa"
@@ -174,7 +177,7 @@ Do not take a double dose to make up for a forgotten dose. Instead, just wait un
 next dose and take that at the scheduled time. </p>
 <p>If you stop taking Isturisa 
 Do not stop taking Isturisa unless your doctor tells you to. If you stop your treatment with Isturisa, 
-your symptoms may come back. </p>         </div>"""         
+your symptoms may come back. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -230,7 +233,7 @@ hormone, also known as ACTH, low levels of potassium) </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store isturisa"
@@ -243,7 +246,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not store above 25 C. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -379,7 +382,7 @@ United Kingdom (Northern Ireland)
 Recordati Rare Diseases UK Ltd. 
 Tel: +44 (0)1491 414This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -418,7 +421,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -427,7 +432,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -442,7 +448,7 @@ Usage: #inline
 3. Sådan skal du tage Isturisa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -460,7 +466,7 @@ mærker, uregelmæssig menstruation, øget hårvækst på kroppen og i ansigtet 
 eller utilpashed. </p>
 <p>Hvordan Isturisa virker 
 Isturisa blokerer det enzym, der hovedsagelig laver kortisol i binyrerne. Dette gør, at overproduktionen af 
-kortisol bremses, og at symptomerne på endogent Cushings syndrom bliver mindre. </p>         </div>"""   
+kortisol bremses, og at symptomerne på endogent Cushings syndrom bliver mindre. </p> </div>"""   
           
 
              
@@ -526,7 +532,7 @@ mindst én uge efter den sidste dosis. Spørg din læge om behovet for præventi
 tage Isturisa. </p>
 <p>Trafik- og arbejdssikkerhed 
 Svimmelhed og træthed kan forekomme under behandlingen med Isturisa. Du må ikke føre motorkøretøj 
-eller betjene maskiner, hvis du får disse symptomer. </p>         </div>"""   
+eller betjene maskiner, hvis du får disse symptomer. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take isturisa"
@@ -550,7 +556,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Vent i ste
 næste dosis, og tag så den dosis på det planlagte tidspunkt. </p>
 <p>Hvis du holder op med at tage Isturisa 
 Stop ikke med at tage Isturisa, medmindre din læge har bedt dig om det. Hvis du stopper din behandling 
-med Isturisa, kan dine symptomer komme igen. </p>         </div>"""         
+med Isturisa, kan dine symptomer komme igen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -604,7 +610,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store isturisa"
@@ -617,7 +623,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25°C. </p>
 <p>Opbevares i den originale pakning for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -767,7 +773,7 @@ Tel: +44 (0)1491 414
 Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -806,7 +812,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -815,7 +823,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -832,7 +841,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Isturisa </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -850,7 +859,7 @@ em lua-cheia, aparecimento de nódoas negras com facilidade, períodos irregular
 faciais e corporais e sensação geral de fraqueza, cansaço ou indisposição. </p>
 <p>Como funciona Isturisa 
 Isturisa bloqueia a principal enzima que produz o cortisol nas glândulas suprarrenais. O efeito disso é 
-diminuir a produção excessiva de cortisol e melhorar os sintomas da Síndrome de Cushing endógena. </p>         </div>"""   
+diminuir a produção excessiva de cortisol e melhorar os sintomas da Síndrome de Cushing endógena. </p> </div>"""   
           
 
              
@@ -912,7 +921,7 @@ tratamento e durante pelo menos uma semana após a última dose. Fale com o seu 
 necessidade de contraceção antes de começar a tomar Isturisa. </p>
 <p>Condução de veículos e utilização de máquinas 
 Podem ocorrer tonturas e cansaço durante o tratamento com Isturisa. Não conduza ou utilize máquinas 
-se tiver estes sintomas. </p>         </div>"""   
+se tiver estes sintomas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar isturisa"
@@ -937,7 +946,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Es
 da próxima dose e tome-a na hora prevista. </p>
 <p>Se parar de tomar Isturisa 
 Não pare de tomar Isturisa a menos que o seu médico lhe diga para o fazer. Se parar o seu tratamento 
-com Isturisa, os seus sintomas podem regressar. </p>         </div>"""         
+com Isturisa, os seus sintomas podem regressar. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -987,7 +996,7 @@ potássio)
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar isturisa"
@@ -1001,7 +1010,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar na embalagem de origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1145,7 +1154,7 @@ Recordati Rare Diseases UK Ltd.
 Tel: +44 (0)1491 414 
 Este folheto foi revisto pela última vez em   </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

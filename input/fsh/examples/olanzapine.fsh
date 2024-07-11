@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Olanzapine Teva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ disease may also feel depressed, anxious or tense. </li>
 <li>Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </li>
 </ul>
 <p>Olanzapine Teva has been shown to prevent recurrence of these symptoms in patients with bipolar 
-disorder whose manic episode has responded to olanzapine treatment. </p>         </div>"""   
+disorder whose manic episode has responded to olanzapine treatment. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ There is a risk of feeling drowsy when you are given Olanzapine Teva. If this ha
 operate any tools or machines. Tell your doctor. </p>
 <p>Olanzapine Teva contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product. </p>         </div>"""   
+before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take olanzapine"
@@ -193,7 +196,7 @@ Olanzapine Teva for as long as your doctor tells you.
 If you suddenly stop taking Olanzapine Teva, symptoms such as sweating, unable to sleep, tremor, 
 anxiety or nausea and vomiting might occur. Your doctor may suggest you to reduce the dose 
 gradually before stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ skin and have trouble walking. Some fatal cases have been reported in this parti
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store olanzapine"
@@ -261,7 +264,7 @@ this medicine. </p>         </div>"""
 refers to the last day of that month. </p>
 <p>Do not store above 25 C. Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -386,7 +389,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -425,7 +428,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -434,7 +439,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -451,7 +457,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -472,7 +478,7 @@ lidelse kan også føle sig deprimerede, angste eller anspændte. </p>
 </li>
 </ul>
 <p>Det er vist, at Olanzapine Teva forebygger tilbagefald af disse symptomer ved bipolar lidelse 
-(maniodepressiv sygdom) hos patienter, hvis maniske episode har reageret på olanzapinbehandling. </p>         </div>"""   
+(maniodepressiv sygdom) hos patienter, hvis maniske episode har reageret på olanzapinbehandling. </p> </div>"""   
           
 
              
@@ -597,7 +603,7 @@ Der er risiko for døsighed, når du får Olanzapine Teva. Hvis dette opstår, m
 betjene værktøj eller maskiner. Fortæl det til din læge. </p>
 <p>Olanzapine Teva indeholder lactose 
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take olanzapine"
@@ -631,7 +637,7 @@ med at tage Olanzapine Teva, så længe lægen beder dig om det. </p>
 <p>Hvis du pludseligt holder op med at tage Olanzapine Teva, kan der forekomme symptomer som 
 svedtendens, søvnbesvær, rysten, angst, kvalme og opkastning. Din læge vil måske foreslå dig, at du 
 nedsætter din dosis gradvist, før du helt stopper. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -698,7 +704,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store olanzapine"
@@ -710,7 +716,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Må ikke opbevares over 25°C. Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -881,7 +887,7 @@ indeholder vigtige oplysninger. </p>
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </li>
 <li>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -920,7 +926,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -929,7 +937,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -944,7 +953,7 @@ Usage: #inline
 3. Como tomar Olanzapina Teva 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Olanzapina Teva 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -959,7 +968,7 @@ ilusões, suspeitas invulgares e retraimento emocional e social. As pessoas com 
 podem também sentir-se deprimidas, ansiosas ou tensas. 
 - Episódios maníacos, moderados a graves, uma situação com sintomas de excitação ou euforia. </p>
 <p>Olanzapina Teva mostrou prevenir a recorrência destes sintomas em doentes com distúrbios bipolares, 
-cujos episódios maníacos responderam ao tratamento com olanzapina. </p>         </div>"""   
+cujos episódios maníacos responderam ao tratamento com olanzapina. </p> </div>"""   
           
 
              
@@ -1042,7 +1051,7 @@ Olanzapina Teva. Se isto se verificar, não conduza nem trabalhe com quaisquer f
 máquinas. Informe o seu médico. </p>
 <p>Olanzapina Teva contém lactose </p>
 <p>Olanzapina Teva contém lactose. Se o seu médico lhe disser que você tem intolerância a alguns tipos 
-de açúcar, contacte o seu médico antes de tomar este medicamento. </p>         </div>"""   
+de açúcar, contacte o seu médico antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar olanzapine"
@@ -1077,7 +1086,7 @@ Se parar abruptamente de tomar Olanzapina Teva, podem ocorrer sintomas como suda
 em dormir, tremor, ansiedade ou náuseas e vómitos. O seu médico pode sugerir-lhe que vá diminuindo 
 gradualmente a dose antes de parar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1139,7 +1148,7 @@ grupo específico de doentes. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar olanzapine"
@@ -1152,7 +1161,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não conservar acima de 25 ºC. Conservar na sua embalagem de origem para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1317,7 +1326,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 </p>
 <p>Este folheto foi revisto pela última vez em &lt;{MM/YYYY}&gt;&lt;{mês de YYYY}&gt;. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

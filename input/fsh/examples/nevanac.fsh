@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NEVANAC </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ nonsteroidal anti-inflammatory drugs (NSAIDs). </p>
 <li>to prevent and relieve eye pain and inflammation following cataract surgery on the eye </li>
 <li>to reduce the risk of macular oedema (swelling in the back of the eye) following cataract 
 surgery on the eye in diabetic patients. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ may change the colour of the contact lenses. You should remove contact lenses be
 medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause eye 
 irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of the 
 eye). If you feel abnormal eye sensation, stinging or pain in the eye after using this medicine, talk to 
-your doctor. </p>         </div>"""   
+your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nevanac"
@@ -190,7 +193,7 @@ a forgotten dose. Do not use more than one drop in the affected eye(s) 3 times d
 Do not stop using NEVANAC without speaking to your doctor first. You can usually carry on using 
 the drops, unless you experience serious side effects. If you are worried talk to your doctor or 
 pharmacist. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -243,7 +246,7 @@ healing of the eye, eye surface scar, clouding, reduced vision, eye swelling, bl
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nevanac"
@@ -257,7 +260,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Throw away the bottle 4 weeks after first opening, to prevent infections. Write the date of opening on 
 the bottle and carton label in the space provided. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -353,7 +356,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -392,7 +395,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -401,7 +406,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -418,7 +424,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -434,7 +440,7 @@ non-steroide antiinflammatoriske stoffer (NSAID-præparater). </p>
 operation for grå stær (katarakt) </li>
 <li>til at nedsætte risikoen for makulært ødem (hævelse i den bageste del af øjet) efter en operation 
 for grå stær (katarakt) hos patienter med sukkersyge (diabetes). </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -493,7 +499,7 @@ kan ændre farven af kontaktlinserne. Du skal tage kontaktlinserne ud, inden læ
 vente mindst 15 minutter, før du sætter kontaktlinserne i igen. Benzalkoniumchlorid kan også give 
 øjenirritation, især hvis du har tørre øjne eller hornhinde problemer (det klare lag forrest i øjet). Hvis 
 du har unormale fornemmelser i øjet såsom svie eller smerte, når du bruger dette lægemiddel, skal du 
-tale med din læge. </p>         </div>"""   
+tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nevanac"
@@ -567,7 +573,7 @@ pågældende øje/øjne 3 gange dagligt. </p>
 Du må ikke holde op med at bruge NEVANAC uden først at informere din læge. Du kan som regel 
 fortsætte med at bruge dråberne, medmindre du får alvorlige bivirkninger. Kontakt lægen eller 
 apotekspersonalet, hvis der er noget, der bekymrer dig. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -625,7 +631,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nevanac"
@@ -639,7 +645,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Kassér flasken 4 uger efter åbning for at forhindre infektioner. Skriv åbningsdatoen, hvor der er gjort 
 plads til dette på flaskens etiket og på kartonen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ indeholder vigtige oplysninger.
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
-<p>Oversigt over indlægssedlen </p>         </div>"""      
+<p>Oversigt over indlægssedlen </p> </div>"""      
 
 
 
@@ -805,7 +811,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -814,7 +822,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -831,7 +840,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar NEVANAC </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -844,7 +853,7 @@ anti-inflamatórios não-esteroides (AINE). </p>
 <p>NEVANAC é utilizado nos adultos: 
 - para prevenir e aliviar a dor e a inflamação dos olhos, após cirurgia da catarata 
 - reduzir o risco de edema macular (inchaço na parte posterior do olho) após cirurgia da 
-catarata, em doentes diabéticos </p>         </div>"""   
+catarata, em doentes diabéticos </p> </div>"""   
           
 
              
@@ -902,7 +911,7 @@ e pode alterar a cor das lentes de contacto. Deve remover as lentes de contacto 
 deste medicamento e voltar a colocá-las 15 minutos depois. O cloreto de benzalcónio pode também 
 causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a camada 
 transparente na parte da frente do olho). Se tiver uma sensação estranha no olho, picadas ou dor no 
-olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+olho após utilizar este medicamento, fale com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nevanac"
@@ -976,7 +985,7 @@ Não pare de utilizar NEVANAC sem falar primeiro com o seu médico. Em geral, po
 utilizar as gotas, a não ser que os efeitos indesejáveis sejam graves. Se está preocupado fale com o 
 seu medico ou farmacêutico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1034,7 +1043,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nevanac"
@@ -1049,7 +1058,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 abertura no rótulo do frasco e na caixa, no espaço indicado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1160,7 +1169,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

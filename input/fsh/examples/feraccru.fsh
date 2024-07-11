@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects. </li>
 <li>How to store Feraccru. </li>
 <li>Contents of the pack and other information. </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -73,7 +76,7 @@ Usage: #inline
   * code.text =  "1. What feraccru is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Feraccru contains iron (as ferric maltol). Feraccru is used in adults to treat low iron stores in 
-your body. Low iron causes anaemia (too few red blood cells). </p>         </div>"""   
+your body. Low iron causes anaemia (too few red blood cells). </p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ doctor before taking this medicine. </p>
 Sunset Yellow FCF (E 110) and Allura Red AC (E 129) may cause allergic reactions. </p>
 <p>Feraccru contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take feraccru"
@@ -148,7 +151,7 @@ you take this leaflet and any remaining capsules with you to show to the doctor.
 <p>If you forget to take your Feraccru 
 Skip the missed dose and take the next dose as normal. Do not take a double dose to make up for a 
 forgotten capsule. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -182,7 +185,7 @@ stimulating hormone) that stimulates the thyroid gland. </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects, you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store feraccru"
@@ -192,7 +195,7 @@ information on the safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP: The expiry 
 date refers to the last day of that month. </p>
-<p>Do not use this medicine for more than 45 days after first opening the bottle. Store below 25 C. </p>         </div>"""      
+<p>Do not use this medicine for more than 45 days after first opening the bottle. Store below 25 C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ Norgine Denmark A/S.
 +45 33170 Minfonordic@norgine.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -311,7 +314,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -320,7 +325,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -337,7 +343,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -346,7 +352,7 @@ Usage: #inline
   * code.text =  "1. What feraccru is and what it is used for"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Feraccru indeholder jern (som ferrimaltol). Feraccru anvendes hos voksne til behandling af lavt 
-indhold af jern i kroppen. Lavt indhold af jern medfører for få røde blodlegemer (anæmi). </p>         </div>"""   
+indhold af jern i kroppen. Lavt indhold af jern medfører for få røde blodlegemer (anæmi). </p> </div>"""   
           
 
              
@@ -410,7 +416,7 @@ tager Feraccru. </p>
 Sunset Yellow FCF (E 110) og Allura Red AC (E 129) kan forårsage allergiske reaktioner. </p>
 <p>Feraccru indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take feraccru"
@@ -429,7 +435,7 @@ indlægsseddel og resten af kapslerne for at vise dem til lægen. </p>
 <p>Hvis du har glemt at tage Feraccru 
 Spring den glemte dosis over, og tag næste dosis som du plejer. Du må ikke tage en dobbeltdosis som 
 erstatning for en glemt kapsel. </p>
-<p>Tal med lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p>         </div>"""         
+<p>Tal med lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -496,7 +502,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store feraccru"
@@ -507,7 +513,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen efter EXP. Udløbsdatoen er den sidste 
 dag i den nævnte måned. </p>
 <p>Brug ikke dette lægemiddel mere end 45 dage efter første anbrud af flasken. Opbevares ved 
-temperaturer under 25º C. </p>         </div>"""      
+temperaturer under 25º C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -616,7 +622,7 @@ Signature Page for 00240545 v1.0
 Approval
 Corinne Granet
 Lifecycle Management
-19-Oct-2023 10:19:01 GMT+0000</p>         </div>"""      
+19-Oct-2023 10:19:01 GMT+0000</p> </div>"""      
 
 
 
@@ -655,7 +661,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -664,7 +672,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -681,7 +690,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis. </li>
 <li>Como conservar Feraccru. </li>
 <li>Conteúdo da embalagem e outras informações. </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -691,7 +700,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Feraccru contém ferro (como maltol férrico). Feraccru é utilizado em adultos para tratar as baixas 
 reservas de ferro no seu organismo. Valores baixos de ferro causam anemia (número demasiado 
-pequeno de glóbulos vermelhos). </p>         </div>"""   
+pequeno de glóbulos vermelhos). </p> </div>"""   
           
 
              
@@ -757,7 +766,7 @@ este medicamento. </p>
 <p>Feraccru contém amarelo-sol FCF (E 110) e vermelho allura AC (E Amarelo-sol FCF (E 110) e vermelho allura AC (E 129) podem causar reações alérgicas. </p>
 <p>Feraccru contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar feraccru"
@@ -779,7 +788,7 @@ folheto informativo e quaisquer cápsulas restantes para mostrar ao médico. </p
 Não tome a dose em falta e tome a dose seguinte como normalmente. Não tome uma dose a dobrar 
 para compensar uma cápsula que se esqueceu de tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -848,7 +857,7 @@ folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efei
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar feraccru"
@@ -859,7 +868,7 @@ efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a se
 <p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior, após VAL:. 
 O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não utilize este medicamento durante mais de 45 dias após a primeira abertura do frasco. Conservar a 
-temperatura inferior a 25 °C. </p>         </div>"""      
+temperatura inferior a 25 °C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -970,7 +979,7 @@ Norgine Denmark A/S.
 +45 33170Minfonordic@norgine.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Truvada </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ infections or other illnesses associated with HIV infection. </p>
 adolescents aged 12 years to less than 18 years who weigh at least 35 kg, when taken daily, 
 together with safer sex practices: 
 See section 2 for a list of precautions to take against HIV infection. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -267,7 +270,7 @@ tools or machines. </p>
 before taking this medicine. </p>
 <p>Truvada contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take truvada"
@@ -346,7 +349,7 @@ recommended as this may lead to worsening of your hepatitis, which may be life-t
 </ul>
 <p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -462,7 +465,7 @@ including<br />
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store truvada"
@@ -474,7 +477,7 @@ of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture.  Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -577,7 +580,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -616,7 +619,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -625,7 +630,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -640,7 +646,7 @@ Usage: #inline
 3. Sådan skal De tage Truvada 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -677,7 +683,7 @@ forbundet med hiv-infektion, mens De tager Truvada. </p>
 alderen 12 år til under 18 år, som vejer mindst 35 kg, når det bruges dagligt og sammen med 
 udøvelse af sikker sex: 
 Se punkt 2 for en liste over de forholdsregler, der skal tages, for ikke at få hiv-infektion. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -893,7 +899,7 @@ være med at arbejde med værktøj eller maskiner, hvis De bliver svimmel, når 
 sukkerarter. </p>
 <p>Truvada indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take truvada"
@@ -988,7 +994,7 @@ hvilket kan være livstruende. </li>
 Hvis De lægger mærke til nye eller usædvanlige symptomer efter behandlingens ophør, 
 skal De omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, 
 som De normalt ville forbinde med hepatitis B-infektion. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1218,7 +1224,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store truvada"
@@ -1230,7 +1236,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1384,7 +1390,7 @@ konklusioner og begrundelser for anbefalingen. </p>
 opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder 
 emtricitabin/tenofovirdisproxil, forbliver uændret under forudsætning af, at de foreslåede ændringer 
 indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -1423,7 +1429,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1432,7 +1440,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1447,7 +1456,7 @@ Usage: #inline
 3. Como tomar Truvada 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Truvada 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1486,7 +1495,7 @@ desenvolver, na mesma, infeções ou outras doenças associadas com a infeção 
 adultos e adolescentes com idade compreendida entre os 12 e &lt; 18 anos que pesam, pelo 
 menos, 35 kg, quando tomado diariamente, juntamente com práticas de sexo seguro: 
 Consulte a lista de precauções a tomar contra a infeção por VIH na secção 2.  </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1708,7 +1717,7 @@ utilize quaisquer ferramentas ou máquinas. </p>
 este medicamento.  </p>
 <p>Truvada contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar truvada"
@@ -1806,7 +1815,7 @@ Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouc
 habituais após parar o tratamento, particularmente sintomas que associaria à sua 
 hepatite B. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2038,7 +2047,7 @@ Se observar qualquer um destes sintomas, informe o seu médico. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar truvada"
@@ -2051,7 +2060,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2185,7 +2194,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

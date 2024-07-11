@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -48,7 +50,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Genvoya has been prescribed for your child, please note that all the information in this leaflet 
-is addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
+is addressed to your child (in this case please read  your child  instead of  you ). </p>  </div>"""   
 
 
 
@@ -65,7 +67,7 @@ is addressed to your child (in this case please read  your child  instead of  yo
 <li>Possible side effects </li>
 <li>How to store Genvoya </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +87,7 @@ inhibitor (NtRTI) </li>
 <p>Genvoya is a single tablet for the treatment of human immunodeficiency virus 1 (HIV-1) infection 
 in adults, adolescents and children 2 years of age and older, who weigh at least 14 kg. </p>
 <p>Genvoya reduces the amount of HIV in your body.  This will improve your immune system and 
-reduce the risk of developing illnesses linked to HIV infection. </p>         </div>"""   
+reduce the risk of developing illnesses linked to HIV infection. </p> </div>"""   
           
 
              
@@ -319,7 +321,7 @@ free . </p>
 <p>Genvoya contains lactose </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p>If any of these applies to you, talk to your doctor before taking Genvoya. </p>         </div>"""   
+<p>If any of these applies to you, talk to your doctor before taking Genvoya. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take genvoya"
@@ -373,7 +375,7 @@ stopping treatment.  In some patients with advanced liver disease or cirrhosis, 
 recommended as this may lead to worsening of your hepatitis, which may be life-threatening. </p>
 <p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -454,7 +456,7 @@ medicines themselves.  Your doctor will test for these changes. </p>
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store genvoya"
@@ -466,7 +468,7 @@ of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. 
 Store in the original package in order to protect from moisture.  Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -574,7 +576,7 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: + 48 22 262 8United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC<br />
 Tel: + 44 (0) 8000 113 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -613,7 +615,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -624,7 +628,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Deres barn er blevet ordineret Genvoya, skal De bemærke, at alle oplysninger i denne 
 indlægsseddel er henvendt til Deres barn (i dette tilfælde skal det læses som "Deres barn" i 
-stedet for "De"). </p>         </div>"""   
+stedet for "De"). </p>  </div>"""   
 
 
 
@@ -641,7 +645,7 @@ stedet for "De"). </p>         </div>"""
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -669,7 +673,7 @@ transkriptase-hæmmer (NtRTI) </p>
 <p>Genvoya er en enkelt tablet til behandling af infektion med humant immundefekt virus 1 (hiv 1) 
 hos voksne, unge og børn i alderen 2 år og ældre, som vejer mindst 14 kg. </p>
 <p>Genvoya nedsætter mængden af hiv i Deres krop. Dette vil forbedre Deres immunsystem og nedsætte 
-risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p>         </div>"""   
+risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p> </div>"""   
           
 
              
@@ -935,7 +939,7 @@ væsentlige natriumfrit. </p>
 <p>Genvoya indeholder lactose </p>
 <p>Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at De ikke tåler visse 
 sukkerarter. </p>
-<p> Hvis noget af dette gælder for Dem, skal De kontakte lægen, før De tager Genvoya. </p>         </div>"""   
+<p> Hvis noget af dette gælder for Dem, skal De kontakte lægen, før De tager Genvoya. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take genvoya"
@@ -1000,7 +1004,7 @@ kan være livstruende. </p>
 <p> Bemærker De nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal De 
 omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De normalt 
 ville forbinde med hepatitis B-infektion. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1118,7 +1122,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store genvoya"
@@ -1130,7 +1134,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1272,7 +1276,7 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113  </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>De kan finde yderligere oplysninger om Genvoya på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu/. </p>         </div>"""      
+http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -1311,7 +1315,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1321,7 +1327,7 @@ Usage: #inline
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se Genvoya tiver sido receitado para o seu filho, note que toda a informação que consta deste 
-folheto é dirigida ao seu filho (neste caso leia “o seu filho" em vez de “você"). </p>         </div>"""   
+folheto é dirigida ao seu filho (neste caso leia “o seu filho" em vez de “você"). </p>  </div>"""   
 
 
 
@@ -1338,7 +1344,7 @@ folheto é dirigida ao seu filho (neste caso leia “o seu filho" em vez de “v
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Genvoya </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1367,7 +1373,7 @@ inibidor nucleotídeo da transcriptase reversa (INtTR) </p>
 humana 1 (VIH-1) em adultos, adolescentes e crianças com 2 anos ou mais de idade, com um peso 
 de, pelo menos, 14 kg. </p>
 <p>Genvoya diminui a quantidade de VIH no seu corpo. Isto irá melhorar o seu sistema imunológico e 
-diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH. </p>         </div>"""   
+diminuir o risco de desenvolvimento de doenças ligadas à infeção pelo VIH. </p> </div>"""   
           
 
              
@@ -1628,7 +1634,7 @@ praticamente “isento de sódio". </p>
 <p>Genvoya contém lactose </p>
 <p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
 este medicamento. </p>
-<p> Se qualquer uma destas situações se aplicar a si, fale com o seu médico antes de tomar Genvoya. </p>         </div>"""   
+<p> Se qualquer uma destas situações se aplicar a si, fale com o seu médico antes de tomar Genvoya. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar genvoya"
@@ -1696,7 +1702,7 @@ agravamento da sua hepatite, que pode ser potencialmente fatal. </p>
 <p> Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
 após parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1811,7 +1817,7 @@ para determinar estas alterações. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar genvoya"
@@ -1824,7 +1830,7 @@ após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. <
 <p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1968,7 +1974,7 @@ Tel: + 48 22 262 8United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

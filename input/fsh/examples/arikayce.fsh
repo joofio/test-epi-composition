@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ARIKAYCE liposomal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +80,7 @@ Usage: #inline
 belongs to a group of antibiotics called aminoglycosides which stop the growth of certain bacteria that 
 cause infections. </p>
 <p>ARIKAYCE liposomal is used by inhalation to treat lung infection caused by Mycobacterium avium 
-Complex in adults with limited treatment options who do not have cystic fibrosis. </p>         </div>"""   
+Complex in adults with limited treatment options who do not have cystic fibrosis. </p> </div>"""   
           
 
              
@@ -139,7 +141,7 @@ will advise you whether to stop breast-feeding or stop treatment with this medic
 <p>Driving and using machines 
 ARIKAYCE liposomal can cause dizziness and other vestibular disturbances, such as vertigo and 
 balance disorders. You are advised not to drive or operate machinery while inhaling ARIKAYCE 
-liposomal. If you have questions, please talk to your doctor. </p>         </div>"""   
+liposomal. If you have questions, please talk to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arikayce"
@@ -172,7 +174,7 @@ If you forget to take your medicine, take it as soon as possible on the day of t
 take more than one dose on the same day to make up for a forgotten dose. </p>
 <p>If you stop using ARIKAYCE liposomal 
 You must tell your doctor if you decide to stop using ARIKAYCE liposomal for any reason. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +237,7 @@ Tell your doctor or pharmacist if you experience any of the following: </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store arikayce"
@@ -254,7 +256,7 @@ to 4 weeks. Once at room temperature, any unused medicinal product must be disca
 <p>This medicine is a milky white liquid in a clear vial. Do not use if you notice change in colour or any 
 small lumps floating in the vial.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -286,7 +288,7 @@ Dundalk, Co. Louth, A91 P9KD,
 Ireland </p>
 <p>This leaflet was last revised in {month/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -325,7 +327,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -336,7 +340,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsanvisning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -353,7 +357,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -366,7 +370,7 @@ tilhører en gruppe af antibiotika, der kaldes aminoglycosider, som stopper væk
 der forårsager infektioner. </p>
 <p>ARIKAYCE liposomal anvendes ved inhalation til behandling af lungeinfektion forårsaget af 
 Mycobacterium avium-kompleks hos voksne med begrænsede behandlingsmuligheder, som ikke har 
-cystisk fibrose. </p>         </div>"""   
+cystisk fibrose. </p> </div>"""   
           
 
              
@@ -429,7 +433,7 @@ om, hvorvidt du skal stoppe med amningen eller stoppe behandlingen med dette læ
 <p>Trafik- og arbejdssikkerhed 
 ARIKAYCE liposomal kan forårsage svimmelhed og andre vestibulære forstyrrelser, såsom vertigo og 
 balanceforstyrrelser. Du bør ikke føre motorkøretøj eller betjene maskiner, mens du inhalerer 
-ARIKAYCE liposomal. Tal med lægen, hvis du har spørgsmål. </p>         </div>"""   
+ARIKAYCE liposomal. Tal med lægen, hvis du har spørgsmål. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arikayce"
@@ -465,7 +469,7 @@ manglende dosis. Du må ikke tage mere end én dosis samme dag som erstatning fo
 <p>Hvis du holder op med at bruge ARIKAYCE liposomal 
 Du skal fortælle det til lægen, hvis du beslutter at stoppe med at bruge ARIKAYCE liposomal uanset 
 årsagen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -530,7 +534,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store arikayce"
@@ -548,7 +552,7 @@ mulighed for at nå stuetemperatur, før det bruges.  </p>
 <p>Dette lægemiddel er en mælkeagtig, hvid væske i et klart hætteglas. Brug ikke lægemidlet, hvis du 
 bemærker en farveændring eller små klumper, der flyder i hætteglasset.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -667,7 +671,7 @@ indeholder amikacin (kun centralt godkendt produkt), skal ændres i overensstemm
 CHMP af den opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder 
 amikacin (kun centralt godkendt produkt), forbliver uændret under forudsætning af, at de foreslåede 
 ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -706,7 +710,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -717,7 +723,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções de utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -734,7 +740,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar ARIKAYCE lipossómico </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -747,7 +753,7 @@ pertence a um grupo de antibióticos denominados aminoglicosídeos que impedem o
 determinadas bactérias que provocam infeções. </p>
 <p>ARIKAYCE lipossómico é utilizado por inalação para tratar infeções pulmonares causadas pelo 
 complexo Mycobacterium avium em adultos com opções de tratamento limitadas e que não têm 
-fibrose quística. </p>         </div>"""   
+fibrose quística. </p> </div>"""   
           
 
              
@@ -807,7 +813,7 @@ médico irá aconselhá-la se deve parar de amamentar ou parar o tratamento com 
 <p>Condução de veículos e utilização de máquinas 
 ARIKAYCE lipossómico pode provocar tonturas e outros distúrbios vestibulares, tais como vertigem 
 e distúrbios do equilíbrio. É aconselhado não conduzir ou operar máquinas enquanto estiver a inalar 
-ARIKAYCE lipossómico. Fale com o seu médico se tiver dúvidas. </p>         </div>"""   
+ARIKAYCE lipossómico. Fale com o seu médico se tiver dúvidas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar arikayce"
@@ -844,7 +850,7 @@ de tomar. </p>
 <p>Se parar de utilizar ARIKAYCE lipossómico 
 Tem de informar o seu médico se por algum motivo decidir parar de utilizar ARIKAYCE lipossómico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -906,7 +912,7 @@ Informe o seu médico ou farmacêutico se sentir algum dos seguintes: </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar arikayce"
@@ -926,7 +932,7 @@ medicamento não utilizado tem de ser eliminado ao fim de 4 semanas. </p>
 alterações na cor ou pequenas partículas a flutuar no frasco.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -960,7 +966,7 @@ Dundalk, Co. Louth, A91 P9KD,
 Irlanda </p>
 <p>Este folheto foi revisto pela última vez em {mês/AAAA}. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

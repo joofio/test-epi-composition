@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store VANFLYTA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ beforehand to make sure that VANFLYTA is right for you. </p>
 In AML, the body makes a large amount of abnormal white blood cells that do not mature to become 
 healthy cells. VANFLYTA works by blocking the action of proteins called  tyrosine kinases  in these 
 abnormal cells. This slows down or stops the abnormal cells from dividing and growing 
-uncontrollably, and helps immature cells grow into normal cells. </p>         </div>"""   
+uncontrollably, and helps immature cells grow into normal cells. </p> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ If you are breast-feeding, ask your doctor, pharmacist or nurse for advice befor
 <p>VANFLYTA may reduce fertility in women and men. You should discuss this with your doctor before 
 starting treatment. </p>
 <p>Driving and using machines 
-VANFLYTA is unlikely to affect your ability to drive or use machines. </p>         </div>"""   
+VANFLYTA is unlikely to affect your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vanflyta"
@@ -220,7 +223,7 @@ your usual time on the next day. </p>
 <p>If you stop taking VANFLYTA 
 Stopping your treatment with VANFLYTA may cause your condition to become worse. Do not stop 
 taking your medicine unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -266,7 +269,7 @@ chambers of the heart) </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vanflyta"
@@ -280,7 +283,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
 tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -398,7 +401,7 @@ Daiichi Sankyo Europe GmbH
 Tel: +49-(0) 89 7808 0 </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -437,7 +440,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -446,7 +451,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -463,7 +469,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -483,7 +489,7 @@ mutationer for at sikre, at VANFLYTA er det rigtige til dig. </p>
 Ved AML danner kroppen store mængder unormale hvide blodlegemer, der ikke modner og bliver til 
 sunde celler. VANFLYTA virker ved at blokere aktiviteten af proteiner, der kaldes ʼtyrosinkinaser’, i 
 disse unormale celler. Dette stopper eller sænker hastigheden af delingen og den ukontrollerede vækst 
-af de unormale celler og hjælper umodne celler med at udvikle sig til normale celler. </p>         </div>"""   
+af de unormale celler og hjælper umodne celler med at udvikle sig til normale celler. </p> </div>"""   
           
 
              
@@ -622,7 +628,7 @@ dette lægemiddel. </p>
 dette, før du starter behandlingen. </p>
 <p>Trafik- og arbejdssikkerhed 
 Det er usandsynligt, at VANFLYTA vil påvirke din evne til at føre motorkøretøj eller betjene 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vanflyta"
@@ -675,7 +681,7 @@ din næste dosis til sædvanlig tid næste dag. </p>
 <p>Hvis du holder op med at tage VANFLYTA 
 Hvis du stopper behandlingen med VANFLYTA, kan din tilstand forværres. Du må ikke holde op med 
 at tage lægemidlet, medmindre lægen siger, du skal gøre det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -774,7 +780,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vanflyta"
@@ -788,7 +794,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget, eller hvis der er tegn på, at 
 nogen har forsøgt at åbne den. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -916,7 +922,7 @@ Tel: +49-(0) 89 7808 0 </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -955,7 +961,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -964,7 +972,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -981,7 +990,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar VANFLYTA </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1004,7 +1013,7 @@ Na LMA, o organismo produz uma grande quantidade de glóbulos brancos anormais q
 amadurecem para se transformarem em células saudáveis. VANFLYTA atua bloqueando a ação de 
 proteínas chamadas “tirosina cinases" nestas células anormais. Isto abranda ou para a divisão e 
 crescimento descontrolado das células anormais e ajuda as células imaturas a se desenvolverem em 
-células normais. </p>         </div>"""   
+células normais. </p> </div>"""   
           
 
              
@@ -1143,7 +1152,7 @@ medicamento. </p>
 <p>VANFLYTA pode diminuir a fertilidade em mulheres e homens. Fale sobre este assunto com o seu 
 médico antes de iniciar o tratamento. </p>
 <p>Condução de veículos e utilização de máquinas 
-É improvável que VANFLYTA tenha efeitos sobre a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+É improvável que VANFLYTA tenha efeitos sobre a sua capacidade de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vanflyta"
@@ -1200,7 +1209,7 @@ de tomar. </p>
 A interrupção do seu tratamento com VANFLYTA pode piorar a sua doença. Não pare de tomar este 
 medicamento a menos que o seu médico lhe diga para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1300,7 +1309,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vanflyta"
@@ -1315,7 +1324,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 manipulação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1443,7 +1452,7 @@ Daiichi Sankyo Europe GmbH
 Tel: +49-(0) 89 7808 0 </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

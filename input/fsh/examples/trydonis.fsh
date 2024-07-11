@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Trydonis </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ you to breathe more easily. </p>
 shortness of breath, wheezing and cough in adult patients with chronic obstructive pulmonary disease 
 (COPD). Trydonis can reduce exacerbations (flare-ups) of COPD symptoms. COPD is a serious long-
 term disease in which the airways become blocked and air sacs inside the lungs become damaged, 
-leading to difficulty breathing. </p>         </div>"""   
+leading to difficulty breathing. </p> </div>"""   
           
 
              
@@ -242,7 +245,7 @@ Trydonis is unlikely to affect your ability to drive and use machines. </p>
 Trydonis contains 8.856 mg of alcohol (ethanol) in each actuation, which is equivalent to 17.712 mg 
 per dose of two actuations. The amount in two actuations of this medicine is equivalent to less than 
 1 ml of wine or beer. The small amount of alcohol in this medicine will not have any noticeable 
-effects. </p>         </div>"""   
+effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trydonis"
@@ -345,7 +348,7 @@ missed, but just take the next dose at the correct time. Do not double the dose.
 <p>If you stop using Trydonis 
 It is important to use Trydonis every day. Do not stop using Trydonis or lower the dose, even if you are 
 feeling better or you have no symptoms. If you want to do this, talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -473,7 +476,7 @@ These events are more likely to occur in children. </p>
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trydonis"
@@ -497,7 +500,7 @@ Store the inhaler below 25 C for a maximum of
 Store the inhaler below 25 C for a maximum of 
 4 months.  </p>
 <p>Do not throw away any medicine via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -618,7 +621,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -657,7 +660,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -666,7 +671,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -681,7 +687,7 @@ Usage: #inline
 3. Sådan skal du bruge Trydonis 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -710,7 +716,7 @@ mere, og gøre det muligt for dig nemmere at trække vejret. </p>
 såsom stakåndethed, hvæsende vejrtrækning og hoste hos voksne patienter med kronisk obstruktiv 
 lungesygdom (KOL). Trydonis kan nedsætte eksacerbationer (pludselige forværringer) af KOL-
 symptomer. KOL er en alvorlig langvarig sygdom, hvor luftvejene blokeres, og luftsækkene i lungerne 
-beskadiges, hvilket fører til vejrtrækningsbesvær. </p>         </div>"""   
+beskadiges, hvilket fører til vejrtrækningsbesvær. </p> </div>"""   
           
 
              
@@ -871,7 +877,7 @@ Det er ikke sandsynligt, at Trydonis vil påvirke din evne til at føre motorkø
 <p>Trydonis indeholder ethanol 
 Trydonis indeholder 8,856 mg alkohol (ethanol) pr. pust, svarende til 17,712 mg pr. dosis med to pust. 
 Mængden i to pust af dette lægemiddel svarer til mindre end 1 ml vin eller øl. Den mindre mængde 
-alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. </p>         </div>"""   
+alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trydonis"
@@ -987,7 +993,7 @@ glemte dosis, men tag kun den næste dosis på det korrekte tidspunkt. Du må ik
 Det er vigtigt, at du bruger Trydonis hver dag. Du må ikke holde op med at bruge Trydonis eller bruge 
 en lavere dosis, selvom du har det bedre, eller du ikke har nogen symptomer. Hvis du gerne vil gøre 
 dette, skal du kontakte lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1285,7 +1291,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trydonis"
@@ -1309,7 +1315,7 @@ multipakning) og 180 pust:
 Inhalatoren opbevares ved temperaturer under 25 °C i 
 maksimalt 4 måneder. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1459,7 +1465,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1498,7 +1504,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1507,7 +1515,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1522,7 +1531,7 @@ Usage: #inline
 3. Como utilizar Trydonis 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Trydonis 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1551,7 +1560,7 @@ as vias respiratórias e permitindo-lhe respirar mais facilmente. </p>
 de ar, pieira e tosse em doentes adultos com doença pulmonar obstrutiva crónica (DPOC). Trydonis 
 pode reduzir as exacerbações (surtos) dos sintomas de DPOC. A DPOC é uma doença grave, de longa 
 duração, na qual as vias respiratórias ficam bloqueadas e os sacos de ar nos pulmões ficam 
-danificados, levando a dificuldade ao respirar. </p>         </div>"""   
+danificados, levando a dificuldade ao respirar. </p> </div>"""   
           
 
              
@@ -1721,7 +1730,7 @@ tendo em conta o benefício da amamentação para a sua criança e o benefício 
 Trydonis contém 8,856 mg de álcool (etanol) em cada atuação, que é equivalente a 17,712 mg por 
 cada dose de duas atuações. A quantidade em duas atuações deste medicamento é equivalente a menos 
 de 1 ml de vinho ou cerveja. A pequena quantidade de álcool neste medicamento não terá quaisquer 
-efeitos percetíveis. </p>         </div>"""   
+efeitos percetíveis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trydonis"
@@ -1847,7 +1856,7 @@ se esqueceu, e tome a dose seguinte na altura correta. Não duplique a dose. </p
 É importante que utilize Trydonis todos os dias. Não pare de tomar Trydonis nem diminua a dose, 
 mesmo que se sinta melhor ou não tenha sintomas. Se quiser fazê-lo, fale com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2152,7 +2161,7 @@ Existe uma maior probabilidade que estes acontecimentos ocorram em crianças. </
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trydonis"
@@ -2176,7 +2185,7 @@ embalagem unitária ou múltipla) e 180 atuações:  Conserve o inalador a uma t
 25°C durante um máximo de 4 meses. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2314,7 +2323,7 @@ Chiesi Farmaceutici S.p.A.
 Tel: + 39 0521 2 </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

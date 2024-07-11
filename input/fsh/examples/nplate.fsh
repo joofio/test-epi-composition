@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Nplate </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ don t work. Nplate is also used to treat children aged 1 year and over with chro
 may not have had their spleen removed and who have been previously treated with corticosteroids or 
 immunoglobulins, where these treatments don t work. </p>
 <p>Nplate works by stimulating the bone marrow (part of the bone which makes blood cells) to produce 
-more platelets. This should help to prevent bruising and bleeding associated with ITP. </p>         </div>"""   
+more platelets. This should help to prevent bruising and bleeding associated with ITP. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ with romiplostim should be made taking into account the benefit of breast-feedin
 the benefit of romiplostim therapy to you. </p>
 <p>Driving and using machines </p>
 <p>You should speak with your doctor before driving or using machines, as some side effects (e.g. 
-temporary bouts of dizziness) may impair your ability to do so safely. </p>         </div>"""   
+temporary bouts of dizziness) may impair your ability to do so safely. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nplate"
@@ -196,7 +199,7 @@ or symptoms of side effects and that you are given appropriate treatment immedia
 next dose. </p>
 <p>If you stop using Nplate </p>
 <p>If you stop using Nplate, your low blood platelet count (thrombocytopenia) is likely to reoccur. Your 
-doctor will decide if you should stop using Nplate. </p>         </div>"""         
+doctor will decide if you should stop using Nplate. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -337,7 +340,7 @@ cells in the blood that prevents bleeding (platelet count abnormal);
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nplate"
@@ -353,7 +356,7 @@ Store in the original carton in order to protect from light. </p>
 <p>This medicine may be removed from the refrigerator for a period of 30 days at room temperature (up 
 to 25 C) when stored in the original carton. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -470,7 +473,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -509,7 +512,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -518,7 +523,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -535,7 +540,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -555,7 +560,7 @@ eventuelt har fået fjernet milten, og som tidligere er behandlet med kortikoste
 immunglobuliner, hvor disse former for behandling ikke virker. </p>
 <p>Nplate virker ved at stimulere knoglemarven (den del af knoglen, som producerer blodceller) til at 
 producere flere blodplader. Dette skal hjælpe med at forhindre blå mærker og blødning forbundet med 
-ITP. </p>         </div>"""   
+ITP. </p> </div>"""   
           
 
              
@@ -637,7 +642,7 @@ romiplostim ophøre, skal træffes under hensyntagen til fordelen for barnet ved
 Dem ved behandling med romiplostim. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>De skal tale med Deres læge, inden De kører bil eller betjener maskiner, da nogle bivirkninger (f.eks. 
-forbigående anfald af svimmelhed) kan forringe Deres evne til at gøre dette på en sikker måde. </p>         </div>"""   
+forbigående anfald af svimmelhed) kan forringe Deres evne til at gøre dette på en sikker måde. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nplate"
@@ -674,7 +679,7 @@ De skulle, tilrådes det, at De overvåges for eventuelle tegn og symptomer på 
 Deres næste dosis. </p>
 <p>Hvis De holder op med at bruge Nplate </p>
 <p>Hvis De ophører med at få Nplate, vil Deres lave blodpladetal (trombocytopeni) sandsynligvis vende 
-tilbage. Deres læge beslutter, om De skal holde op med at bruge Nplate. </p>         </div>"""         
+tilbage. Deres læge beslutter, om De skal holde op med at bruge Nplate. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -982,7 +987,7 @@ hindrer blodet i at størkne); unormalt antal blodplader, </p>
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nplate"
@@ -998,7 +1003,7 @@ Skal opbevares i den originale karton for at beskytte mod lys. </p>
 <p>Dette lægemiddel kan opbevares uden for køleskab i 30 dage ved stuetemperatur (op til 25 °C) i den 
 originale karton. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1271,7 +1276,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Nplate til Dem personligt. Lad derfor være med at give medicinen til andre. 
 Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1310,7 +1315,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1319,7 +1326,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1336,7 +1344,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Nplate </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1354,7 +1362,7 @@ tratamento sem efeito com corticosteroides ou imunoglobulinas. Nplate também é
 crianças com 1 ano ou mais, com PTI crónica às quais pode ou não ter sido removido o baço após 
 tratamento sem efeito com corticosteroides ou imunoglobulinas. </p>
 <p>Nplate estimula a medula óssea (a parte do osso que produz as células do sangue) a produzir mais 
-plaquetas. Isto ajudará a prevenir a formação de nódoas negras e hemorragias associadas à PTI. </p>         </div>"""   
+plaquetas. Isto ajudará a prevenir a formação de nódoas negras e hemorragias associadas à PTI. </p> </div>"""   
           
 
              
@@ -1436,7 +1444,7 @@ terapêutica com romiplostim deve ser tomada tendo em consideração o benefíci
 para a criança e o benefício da terapêutica com romiplostim para si. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Deve conversar com o seu médico antes de conduzir ou utilizar máquinas, uma vez que alguns efeitos 
-indesejáveis (p. ex., crises temporárias de tonturas) podem impedir que o faça com segurança. </p>         </div>"""   
+indesejáveis (p. ex., crises temporárias de tonturas) podem impedir que o faça com segurança. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nplate"
@@ -1476,7 +1484,7 @@ sinais e sintomas de efeitos indesejáveis e que lhe seja dado tratamento adequa
 sua dose seguinte. </p>
 <p>Se parar de utilizar Nplate </p>
 <p>Se parar de utilizar Nplate é provável que o número de plaquetas no seu sangue volte a baixar 
-(trombocitopenia). O seu médico decidirá se deve parar a utilização de Nplate. </p>         </div>"""         
+(trombocitopenia). O seu médico decidirá se deve parar a utilização de Nplate. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1801,7 +1809,7 @@ sanguínea aumentada); </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nplate"
@@ -1818,7 +1826,7 @@ Conservar na embalagem de origem para proteger da luz. </p>
 (até 25°C) quando conservado na embalagem de origem. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1962,7 +1970,7 @@ Amgen Limited
 Tel: +44 (0)1223 420 
 Este folheto informativo foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

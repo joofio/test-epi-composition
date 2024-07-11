@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Protaphane </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ Diabetes is a disease where your body does not produce enough insulin to control
 blood sugar. Treatment with Protaphane helps to prevent complications from your diabetes.  </p>
 <p>Protaphane will start to lower your blood sugar about 1  hours after you inject it, and the effect will 
 last for approximately 24 hours. Protaphane is often given in combination with fast-acting insulin 
-preparations. </p>         </div>"""   
+preparations. </p> </div>"""   
           
 
              
@@ -178,7 +181,7 @@ also your ability to drive or operate a machine. Bear in mind that you could end
 others. </p>
 <p>Protaphane contains sodium </p>
 <p>Protaphane contains less than 1 mmol sodium (23 mg) per dose, i.e. Protaphane is essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take protaphane"
@@ -238,7 +241,7 @@ and very common side effects in section 4. If you forget to take your insulin </
 from diabetes in section 4. If you stop taking your insulin </p>
 <p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
 done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See Effects 
-from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -327,7 +330,7 @@ fruity (acetone) smell of the breath. </p>
 can, then seek medical advice immediately. </p>
 <p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
 the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
-could lead to diabetic coma and eventually death. </p>         </div>"""      
+could lead to diabetic coma and eventually death. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store protaphane"
@@ -344,7 +347,7 @@ keep it at room temperature (below 30 C) for up to 6 weeks. </p>
 <p>Always keep the cartridge in the outer carton when you are not using it, in order to protect from light. </p>
 <p>Discard the needle after each injection. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -387,7 +390,7 @@ important information for you.  </p>
 <p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -426,7 +429,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -435,7 +440,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -452,7 +458,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -466,7 +472,7 @@ mellitus). Sukkersyge er en sygdom, hvor din krop ikke producerer nok insulin ti
 niveauet af dit blodsukker. Behandling med Protaphane hjælper med at forebygge komplikationer som 
 skyldes din sukkersyge. </p>
 <p>Protaphane begynder at nedsætte blodsukkeret ca. 1½ time efter, at du har injiceret det, og virkningen 
-varer i ca. 24 timer. Protaphane gives ofte i kombination med hurtigtvirkende insulinpræparater. </p>         </div>"""   
+varer i ca. 24 timer. Protaphane gives ofte i kombination med hurtigtvirkende insulinpræparater. </p> </div>"""   
           
 
              
@@ -624,7 +630,7 @@ også din evne til at køre bil eller arbejde med maskiner. Vær opmærksom på,
 og andre i fare. </p>
 <p>Protaphane indeholder natrium </p>
 <p>Protaphane indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. Protaphane er stort set 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take protaphane"
@@ -697,7 +703,7 @@ alvorlige og meget almindelige bivirkninger under punkt 4. Hvis du har glemt at 
 diabetes under punkt 4. Hvis du holder op med at tage insulin </p>
 <p>Stop ikke med at tage dit insulin uden først at tale med din læge, der kan fortælle dig, hvad der skal 
 gøres. Manglende insulin kan føre til meget højt blodsukker (alvorlig hyperglykæmi) og ketoacidose. 
-Se Følger af diabetes under punkt 4. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+Se Følger af diabetes under punkt 4. Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -828,7 +834,7 @@ urinen for ketonstoffer og søg straks lægehjælp.
 ► 
 Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet diabetisk ketoacidose 
 (ophobning af syre i blodet, da kroppen nedbryder fedt i stedet for sukker). Denne tilstand kan 
-ubehandlet resultere i diabetisk koma og i værste fald død. </p>         </div>"""      
+ubehandlet resultere i diabetisk koma og i værste fald død. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store protaphane"
@@ -845,7 +851,7 @@ den med dig og opbevare den ved stuetemperatur (under 30°C) i op til 6 uger. </
 <p>Opbevar altid cylinderampullen i den ydre karton, når du ikke anvender den, for at beskytte mod lys. </p>
 <p>Kassér nålen efter hver injektion. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -901,7 +907,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer som du har. 
 - 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen: </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen: </p> </div>"""      
 
 
 

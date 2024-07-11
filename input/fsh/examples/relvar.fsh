@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Step-by-step instructions for use </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Step-by-step instructions for use </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Relvar Ellipta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -99,7 +101,7 @@ reduce flare-ups and symptoms of asthma.  </p>
 <p>Chronic obstructive pulmonary disease (COPD) is a serious, long term lung disease where the 
 airways become inflamed and thickened. Symptoms include shortness of breath, cough, chest 
 discomfort and coughing up mucus. Relvar Ellipta has been shown to reduce flare-ups of COPD 
-symptoms. </p>         </div>"""   
+symptoms. </p> </div>"""   
           
 
              
@@ -169,7 +171,7 @@ you are breast-feeding unless your doctor tells you that you can.  </p>
 This medicine is unlikely to affect your ability to drive or use machines. </p>
 <p>Relvar Ellipta contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, , contact your doctor 
-before using this medicine. </p>         </div>"""   
+before using this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take relvar"
@@ -220,7 +222,7 @@ quick-acting inhaler (e.g. salbutamol), then seek medical advice.  </p>
 <p>Do not stop using Relvar Ellipta without advice<br />
 Use this medicine for as long as your doctor recommends. It will only be effective as long as you are 
 using it. Do not stop unless your doctor advises you to, even if you feel better. </p>
-<p>If you have further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -286,7 +288,7 @@ These may affect up to 1 in 1,000 people:<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V . By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store relvar"
@@ -304,7 +306,7 @@ The date should be added as soon as the inhaler has been removed from the tray. 
 <p>If stored in a refrigerator, allow the inhaler to return to room temperature for at least an hour 
 before use.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -429,7 +431,7 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt;  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -468,7 +470,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -477,7 +481,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugervejledning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugervejledning </p>  </div>"""   
 
 
 
@@ -494,7 +498,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -529,7 +533,7 @@ vejrtrækning, trykken for brystet og hoste. Det er påvist, at Relvar Ellipta r
 symptomer på astma. </p>
 <p>Kronisk obstruktiv lungesygdom (KOL) er en alvorlig, langvarig lungesygdom, hvor luftvejene bliver 
 irriterede (inflammation) og fortykkede. Symptomerne omfatter åndenød, hoste, ubehag i brystet og 
-ophostning af slim. Det er påvist, at Relvar Ellipta reducerer opblussen af KOL-symptomer. </p>         </div>"""   
+ophostning af slim. Det er påvist, at Relvar Ellipta reducerer opblussen af KOL-symptomer. </p> </div>"""   
           
 
              
@@ -602,7 +606,7 @@ medmindre din læge siger du kan. </p>
 Det er ikke sandsynligt, at dette lægemiddel vil påvirke din evne til at føre motorkøretøj eller betjene 
 maskiner. </p>
 <p>Relvar Ellipta indeholder lactose 
-Kontakt lægen, før du tager denne medicin, hvis din læge har fortalt dig, at du ikke tåler visse sukkerarter.  </p>         </div>"""   
+Kontakt lægen, før du tager denne medicin, hvis din læge har fortalt dig, at du ikke tåler visse sukkerarter.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take relvar"
@@ -653,7 +657,7 @@ inhalere et lægemiddel med hurtig virkning (f.eks. salbutamol) og derefter søg
 <p>Stop ikke med at tage Relvar Ellipta uden lægens anvisning<br />
 Tag dette lægemiddel i den periode, som lægen anbefaler. Medicinen virker kun, så længe du tager den. Du 
 må ikke stoppe behandlingen, medmindre lægen siger det. Heller ikke selvom du får det bedre. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -720,7 +724,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store relvar"
@@ -737,7 +741,7 @@ Datoen skal skrives på etiketten umiddelbart efter, at inhalatoren er taget ud 
 <p>Må ikke opbevares ved temperaturer over 25 °C. </p>
 <p>Hvis inhalatoren opbevares på køl, skal den ligge ved stuetemperatur i mindst én time før brug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -974,7 +978,7 @@ Luftkanaler </p>
 <p>Efter brug af inhalatoren skylles munden med vand uden at synke det. 
 Det nedsætter sandsynligheden for udvikling af bivirkninger i form af ømhed i mund eller hals. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 

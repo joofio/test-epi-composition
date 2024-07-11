@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Opatanol </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 <p>Allergic conjunctivitis. Some materials (allergens) like pollens, house dust or animal fur may cause 
 allergic reactions resulting in itching, redness as well as swelling of the surface of your eye. </p>
 <p>Opatanol is a medicine for treatment of allergic conditions of the eye. It works by reducing the 
-intensity of the allergic reaction. </p>         </div>"""   
+intensity of the allergic reaction. </p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ in the eye after using this medicine, talk to your doctor. </p>
 <p>This medicine contains 16.72 mg phosphates (in 63.05 mg disodium phosphate dodecahydrate) in each 
 bottle of 5 ml, which is equivalent to 3.34 mg/ml. </p>
 <p>If you suffer from severe damage to the clear layer at the front of the eye (the cornea), phosphates may 
-cause in very rare cases cloudy patches on the cornea due to calcium build-up during treatment. </p>         </div>"""   
+cause in very rare cases cloudy patches on the cornea due to calcium build-up during treatment. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opatanol"
@@ -169,7 +172,7 @@ However, if it is almost time for your next dose, skip the missed dose before go
 regular dosing routine. Do not use a double dose to make up for the one missed. </p>
 <p>If you stop using Opatanol 
 Do not stop using this medicine without first speaking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -204,7 +207,7 @@ cornea) have developed cloudy patches on the cornea due to calcium build-up duri
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opatanol"
@@ -218,7 +221,7 @@ The expiry date refers to the last day of the month. </p>
 <p>You should throw away the bottle four weeks after you first opened it to prevent infections, and use a 
 new bottle. Write down the date you opened it in the space on each bottle label and box. </p>
 <p>Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -361,7 +364,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -370,7 +375,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -387,7 +393,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -399,7 +405,7 @@ Usage: #inline
 <p>Øjenallergi: Visse bestanddele (allergener) som pollen, husstøv eller dyrehår kan være årsag til 
 allergiske reaktioner, som medfører kløe, rødme og hævelse af øjet. </p>
 <p>Opatanol er et lægemiddel til behandling af allergiske tilstande i øjet. Det virker ved at nedsætte 
-intensiteten af den allergiske reaktion. </p>         </div>"""   
+intensiteten af den allergiske reaktion. </p> </div>"""   
           
 
              
@@ -443,7 +449,7 @@ smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p>
 flaske af 5 ml, svarende til 3,34 mg/ml. </p>
 <p>Hvis du har alvorlige skader på det forreste, klare lag i øjet (hornhinden), kan phosphater i meget sjældne 
 tilfælde forårsage, at der dannes uklare pletter på hornhinden. Pletterne skyldes kalkophobning under 
-behandlingen. </p>         </div>"""   
+behandlingen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opatanol"
@@ -514,7 +520,7 @@ snart skal tage den næste dosis, så spring den glemte dosis over. Du må ikke 
 erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Opatanol 
 Du må ikke holde op med at bruge Opatanol, uden at du har talt med din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -549,7 +555,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med til at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opatanol"
@@ -564,7 +570,7 @@ dag i den nævnte måned. </p>
 ny flaske. Skriv dato for, hvornår du har åbnet flasken på hver flaskeetiket og æsken samt på linjerne 
 herunder. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -684,7 +690,7 @@ Tel: +44 1276 698
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -723,7 +729,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -732,7 +740,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -749,7 +758,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Opatanol </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -762,7 +771,7 @@ Usage: #inline
 animais podem provocar reacções alérgicas que originam comichão, vermelhidão, assim como inchaço 
 da superfície do olho. </p>
 <p>Opatanol é um medicamento para tratamento de processos alérgicos do olho. Actua de duas formas 
-diferentes, reduzindo e controlando a intensidade da reacção alérgica. </p>         </div>"""   
+diferentes, reduzindo e controlando a intensidade da reacção alérgica. </p> </div>"""   
           
 
              
@@ -814,7 +823,7 @@ estranha no olho, picadas ou dor no olho após utilizar este medicamento, fale c
 em cada frasco de 5 ml, o que é equivalente a 3,34 mg/ml. </p>
 <p>Se sofrer de lesão grave na camada transparente na parte da frente do olho (córnea), os fosfatos podem 
 causar em casos muito raros zonas nubladas na córnea devido a acumulação de cálcio durante o 
-tratamento. </p>         </div>"""   
+tratamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar opatanol"
@@ -889,7 +898,7 @@ compensar a dose que se esqueceu de aplicar. </p>
 <p>Se parar de utilizar Opatanol 
 Não pare de utilizar este medicamento sem falar primeiro com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -926,7 +935,7 @@ tratamento. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar opatanol"
@@ -941,7 +950,7 @@ efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a se
 frasco novo. Escreva a data em que abriu o frasco no espaço indicado em cada rótulo e cartonagem. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos de que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1060,7 +1069,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

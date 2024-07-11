@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zydelig </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ treatment. </p>
 <p>Follicular lymphoma (FL) is a cancer of a type of white blood cell called B-lymphocytes. In follicular 
 lymphoma, the B-lymphocytes multiply too quickly and live for too long, so there are too many of 
 them in the lymph nodes. In FL Zydelig is used on its own in patients whose cancer has not responded 
-to treatment with two previous cancer treatments. </p>         </div>"""   
+to treatment with two previous cancer treatments. </p> </div>"""   
           
 
              
@@ -202,7 +205,7 @@ human milk. </p>
 <p>Zydelig is unlikely to affect your ability to drive or use machines. </p>
 <p>Zydelig contains sunset yellow FCF (E110) </p>
 <p>Tell your doctor if you have an allergy to sunset yellow FCF (E110). Zydelig contains sunset yellow 
-FCF which may cause allergic reactions. </p>         </div>"""   
+FCF which may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zydelig"
@@ -227,7 +230,7 @@ right away. Then take your next dose as usual. If you miss a dose by more than 6
 the next dose at your usual time. </p>
 <p>Do not stop taking Zydelig </p>
 <p>Do not stop taking this medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -262,7 +265,7 @@ epidermal necrolysis).<br />
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zydelig"
@@ -274,7 +277,7 @@ By reporting side effects you can help provide more information on the safety of
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -414,7 +417,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -423,7 +428,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -463,7 +469,7 @@ højrisiko-faktorer og hos patienter, hvor kræften er vendt tilbage efter minds
 <p>Follikulært lymfom (FL) er en kræftsygdom i en type hvide blodlegemer, som kaldes B-lymfocytter. 
 Ved follikulært lymfom deler B-lymfocytterne sig for hurtigt og lever for længe, så der er for mange af 
 dem i lymfeknuderne. Ved FL anvendes Zydelig alene hos patienter, hvis deres kræftsygdom ikke 
-responderede på behandling med to tidligere kræftbehandlinger. </p>         </div>"""   
+responderede på behandling med to tidligere kræftbehandlinger. </p> </div>"""   
           
 
              
@@ -664,7 +670,7 @@ starter behandlingen. Det er ukendt, om det aktive stof i Zydelig udskilles i hu
 <p>Det er ikke sandsynligt, at Zydelig påvirker din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Zydelig indeholder sunset yellow FCF (E110) </p>
 <p>Fortæl det til lægen, hvis du har allergi over for sunset yellow FCF (E110). Zydelig (100 mg 
-filmovertrukne tabletter) indeholder sunset yellow FCF, hvilket kan medføre allergiske reaktioner. </p>         </div>"""   
+filmovertrukne tabletter) indeholder sunset yellow FCF, hvilket kan medføre allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zydelig"
@@ -689,7 +695,7 @@ dernæst din næste dosis som sædvanligt. Hvis du har sprunget en dosis over, o
 6 timer siden, du skulle have taget dosen, skal du vente og tage den næste dosis til den sædvanlige tid. </p>
 <p>Du må ikke holde op med at tage Zydelig </p>
 <p>Du må ikke holde op med at tage dette lægemiddel, medmindre lægen fortæller dig det. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -754,7 +760,7 @@ syndrom, toksisk epidermal nekrolyse). </p>
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zydelig"
@@ -766,7 +772,7 @@ lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -896,7 +902,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, hvis en bivirkning bliver værre, eller du får bivirkninger, som ikke er nævnt i 
-denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

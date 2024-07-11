@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Elucirem </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ resonance imaging (MRI) examinations. Elucirem contains the active substance gad
 and helps in the differentiation between healthy and diseased tissue.<br />
 It is used in adults and children (2 years of age and older). </p>
 <p>It is given as an injection into your vein. This medicine is for diagnostic use only and will only be 
-administered by healthcare professionals experienced in the field of clinical MRI practice. </p>         </div>"""   
+administered by healthcare professionals experienced in the field of clinical MRI practice. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ Elucirem has no or negligible effect on the ability to drive and use machines. H
 after the examination, you should not drive or use machines. </p>
 <p>Elucirem contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 15 mL vial, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elucirem"
@@ -151,7 +154,7 @@ check how well your kidneys are working. </p>
 <p>It is highly unlikely that you will receive an overdose of Elucirem, as it will be given to you by a trained 
 healthcare professional. If it does happen, Elucirem can be removed from the body by haemodialysis 
 (blood cleaning). </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, radiologist or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, radiologist or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ no NSF case has been reported with Elucirem during the clinical trials. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elucirem"
@@ -218,7 +221,7 @@ Chemical and physical in-use stability has been demonstrated for 24 hours at up 
 microbiological point of view, the product should be used immediately after opening. </p>
 <p>For pre-filled syringes: Do not freeze. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -259,7 +262,7 @@ Guerbet  </p>
 France </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -298,7 +301,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -307,7 +312,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -324,7 +330,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -338,7 +344,7 @@ undersøgelser. Elucirem indeholder det aktive stof gadopiclenol. </p>
 og hjælper med at skelne mellem sundt og sygt væv.<br />
 Det bruges til voksne og børn (2 år og derover). </p>
 <p>Det gives som en injektion i din vene. Denne medicin er kun til diagnostisk brug og vil kun blive 
-administreret af sundhedspersonale med erfaring inden for klinisk MRI-praksis. </p>         </div>"""   
+administreret af sundhedspersonale med erfaring inden for klinisk MRI-praksis. </p> </div>"""   
           
 
              
@@ -384,7 +390,7 @@ Elucirem har ingen eller ubetydelig indflydelse på evnen til at køre eller anv
 dig dårlig efter undersøgelsen, skal du dog ikke køre eller anvende maskiner. </p>
 <p>Elucirem indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. 15 ml hætteglas, det vil sige, at den 
-stort set er "natriumfri". </p>         </div>"""   
+stort set er "natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elucirem"
@@ -410,7 +416,7 @@ blodprøve for at kontrollere, om dine nyrer fungerer korrekt. </p>
 Det er højst usandsynligt, at du vil få en overdosis af Elucirem, da den vil blive givet til dig af uddannet 
 sundhedspersonale. Hvis det alligevel sker, kan Elucirem fjernes fra kroppen ved hæmodialyse 
 (blodrensning). </p>
-<p>Spørg lægen, radiologen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, radiologen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -463,7 +469,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elucirem"
@@ -480,7 +486,7 @@ Kemisk og fysisk stabilitet under brug er blevet påvist i 24 timer ved op til 2
 mikrobiologisk synspunkt bør produktet anvendes umiddelbart efter åbning. </p>
 <p>Fyldte sprøjter: Må ikke nedfryses. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet,toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet,toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -527,7 +533,7 @@ hjemmeside http://www.ema.europa.eu.  </p>
 <p>&lt;------------------------------------------------------------------------------------------------------------------------&gt; </p>
 <p>Nedenstående oplysninger er kun til sundhedspersoner: </p>
 <p>For detaljer om, hvordan produktet skal bruges, henvises til punkt 6.6 Særlige forholdsregler for 
-bortskaffelse og anden form for håndtering i produktresuméet for dette produkt. </p>         </div>"""      
+bortskaffelse og anden form for håndtering i produktresuméet for dette produkt. </p> </div>"""      
 
 
 
@@ -566,7 +572,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -575,7 +583,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -592,7 +601,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Elucirem </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -607,7 +616,7 @@ na diferenciação entre tecido saudável e tecido doente.<br />
 É utilizado em adultos e crianças (idade igual ou superior a 2 anos). </p>
 <p>É administrado sob a forma de uma injeção na veia. Este medicamento é apenas para utilização em 
 diagnóstico e será administrado apenas por profissionais de saúde com experiência no campo da prática 
-da ressonância magnética clínica. </p>         </div>"""   
+da ressonância magnética clínica. </p> </div>"""   
           
 
              
@@ -653,7 +662,7 @@ Elucirem não tem efeito ou é negligenciável sobre a capacidade de conduzir e 
 em caso de indisposição após o exame, não deve conduzir nem utilizar máquinas. </p>
 <p>Elucirem contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por frasco para injetáveis de 15 ml, ou 
-seja, é essencialmente "isento de sódio". </p>         </div>"""   
+seja, é essencialmente "isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar elucirem"
@@ -683,7 +692,7 @@ fazer análises ao sangue para verificar se os rins estão a funcionar bem. </p>
 administrado por um profissional de saúde com formação. No entanto, se tal acontecer, Elucirem pode ser 
 removido do corpo através de hemodiálise (limpeza do sangue). </p>
 <p>Caso ainda tenha dúvidas quanto à utilização deste medicamento, fale com o seu médico, radiologista ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -734,7 +743,7 @@ contudo não foi relatado nenhum caso de FSN com Elucirem durante os ensaios cl�
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar elucirem"
@@ -754,7 +763,7 @@ a sua abertura. </p>
 <p>Seringas pré-cheias: Não congelar. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -794,7 +803,7 @@ Guerbet<br />
 França </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

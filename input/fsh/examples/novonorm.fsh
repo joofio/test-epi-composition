@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NovoNorm </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ sugar in your blood or where your body does not respond normally to the insulin 
 usually started if diet, exercise and weight reduction alone have not been able to control (or lower) 
 your blood sugar. NovoNorm can also be given with metformin, another medicine for diabetes. </p>
 <p>NovoNorm has been shown to lower the blood sugar, which helps to prevent complications from your 
-diabetes. </p>         </div>"""   
+diabetes. </p> </div>"""   
           
 
              
@@ -118,7 +121,7 @@ doctor will advise you. </p>
 <p>You may get a hypo (short for hypoglycaemia) if your blood sugar gets too low. This may happen: 
 * If you take too much NovoNorm 
 * If you exercise more than usual 
-* If you take other medicines or suffer from liver or kidney problems (see other sections of </p>         </div>"""   
+* If you take other medicines or suffer from liver or kidney problems (see other sections of </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novonorm"
@@ -188,7 +191,7 @@ your doctor for advice before taking this medicine. </p>
 mind that you could endanger yourself or others. Please ask your doctor whether you can drive a car if 
 you: 
 * Have frequent hypos 
-* Have few or no warning signs of hypos. </p>         </div>"""         
+* Have few or no warning signs of hypos. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -214,7 +217,7 @@ you get a hypo on what a hypo is and how to treat it. </p>
 <p>If you stop taking NovoNorm </p>
 <p>Be aware that the desired effect is not achieved if you stop taking NovoNorm. Your diabetes may get 
 worse. If any change of your treatment is necessary contact your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novonorm"
@@ -249,7 +252,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -262,7 +265,7 @@ of this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last date of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
 
 
 
@@ -301,7 +304,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -310,7 +315,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -327,7 +333,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -344,7 +350,7 @@ Behandling påbegyndes normalt, hvis diæt, motion og vægttab alene ikke har v�
 regulere (eller reducere) blodsukkeret. NovoNorm kan også ordineres sammen med metformin, et 
 andet lægemiddel mod sukkersyge. </p>
 <p>NovoNorm er i stand til at sænke blodsukkeret, hvilket kan hjælpe med til at forhindre komplikationer 
-forårsaget af sukkersyge. </p>         </div>"""   
+forårsaget af sukkersyge. </p> </div>"""   
           
 
              
@@ -410,7 +416,7 @@ rigtige løsning for dig. Lægen vil rådgive dig. </p>
 <p>Hvis du tager anden medicin eller lider af lever- eller nyreproblemer (se andre afsnit under 
 punkt </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novonorm"
@@ -547,7 +553,7 @@ læge om du kan køre bil, hvis du: </p>
 <li>
 <p>Har få eller ingen advarselstegn på hypoglykæmi. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -579,7 +585,7 @@ dobbeltdosis som erstatning for den glemte dosis.  </p>
 <p>Vær opmærksom på, at den ønskede virkning ikke opnås, hvis du stopper med at tage NovoNorm. Din 
 diabetes kan muligvis forværres. Hvis det er nødvendigt at ændre din behandling, skal du først 
 kontakte din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""      
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novonorm"
@@ -638,7 +644,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -651,7 +657,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt.  </p>
 <p>Spørg på apoteket hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
 
 
 
@@ -690,7 +696,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -699,7 +707,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -716,7 +725,7 @@ Usage: #inline
 <li>Efeitos secundários possíveis </li>
 <li>Como conservar NovoNorm </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -734,7 +743,7 @@ exercício: o tratamento é, geralmente, iniciado se a dieta, o exercício físi
 só não foram suficientes para controlar (ou diminuir) o seu açúcar no sangue. NovoNorm também 
 pode ser administrado com metformina, que é outro medicamento para a diabetes. </p>
 <p>Foi demonstrado que NovoNorm baixa o açúcar no sangue, o que ajuda a prevenir as complicações da 
-sua diabetes. </p>         </div>"""   
+sua diabetes. </p> </div>"""   
           
 
              
@@ -800,7 +809,7 @@ acontecer: </p>
 <p>Se tomar outros medicamentos ou sofrer de problemas do fígado ou dos rins (ver outras secções 
 em </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar novonorm"
@@ -942,7 +951,7 @@ em perigo. Pergunte ao seu médico se pode conduzir caso: </p>
 <li>
 <p>Tenha poucos ou nenhuns sinais de aviso de hipoglicemia.  </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1034,7 +1043,7 @@ Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundári
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar novonorm"
@@ -1047,7 +1056,7 @@ após VAL. O prazo de validade corresponde ao últimodia do mês indicado.  </p>
 <p>Conservar na embalagem de origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1074,7 +1083,7 @@ quatro embalagens em blister. Cada embalagem contém 30, 90, 120 ou 270 comprimi
 Novo Allé, DK-2880 Bagsværd, Dinamarca </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

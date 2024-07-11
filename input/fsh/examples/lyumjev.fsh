@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lyumjev </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ your diabetes. Lyumjev has its maximum effect 1 to 3 hours after injection and t
 to 5 hours. You should use Lyumjev at the start of the meal, or up to 20 minutes after starting the 
 meal. </p>
 <p>Your doctor may tell you to use Lyumjev as well as a longer- or intermediate-acting insulin. Do not 
-change your insulin unless your doctor tells you to.  </p>         </div>"""   
+change your insulin unless your doctor tells you to.  </p> </div>"""   
           
 
              
@@ -203,7 +206,7 @@ a car or using machines). You should contact your doctor about driving if you ha
 * reduced or absent warning signs of hypoglycaemia </p>
 <p>Lyumjev contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lyumjev"
@@ -296,7 +299,7 @@ vomiting, abdominal pain, dehydration, unconsciousness, coma or even death (see 
 * Always keep spare syringes and a spare vial of Lyumjev. 
 * Always carry something to show you are diabetic. 
 * Always carry sugar with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -387,7 +390,7 @@ See section  If you forget to use Lyumjev . </p>
 <p>Illness 
 If you are ill, especially if you feel sick or are sick, the amount of insulin you need may change. Even 
 when you are not eating normally, you still need insulin. Test your urine or blood, follow your 
- sick rules , and tell your doctor. </p>         </div>"""      
+ sick rules , and tell your doctor. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lyumjev"
@@ -405,7 +408,7 @@ Store in a refrigerator (2  C to 8  C).  </p>
 Do not store above 30  C. 
 Discard after 28 days even if some of the solution remains. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -491,7 +494,7 @@ Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -530,7 +533,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -539,7 +544,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -554,7 +560,7 @@ Usage: #inline
 3. Sådan skal du bruge Lyumjev 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -576,7 +582,7 @@ komplikationer ved din diabetes. Lyumjev når sin maksimale virkning 1-3 timer e
 virkningen varer i op til 5 timer. Du skal bruge Lyumjev ved starten af måltidet eller op til 20 minutter 
 efter starten på måltidet. </p>
 <p>Din læge kan bede dig om at bruge Lyumjev samt et længerevirkende eller intermediært virkende 
-insulin. Skift ikke insulin, medmindre din læge beder dig om det.  </p>         </div>"""   
+insulin. Skift ikke insulin, medmindre din læge beder dig om det.  </p> </div>"""   
           
 
              
@@ -746,7 +752,7 @@ betjening af maskiner). Du bør drøfte med din læge om bilkørsel er tilrådel
 </ul>
 <p>Lyumjev indeholder natirum 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lyumjev"
@@ -909,7 +915,7 @@ døden (se punkt 4).  </p>
 <p>Hav altid sukker på dig. </p>
 </li>
 </ul>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1058,7 +1064,7 @@ Se punktet ‘Hvis du har glemt at tage Lyumjev’. </p>
 <p>Sygdom 
 Hvis du er syg, særligt hvis du har kvalme eller opkastning, kan dit insulinbehov ændre sig. Selv når 
 du ikke spiser normalt, har du stadig brug for insulin. Test din urin eller dit blod, følg de 
-almindelige regler ved sygdom og informér din læge. </p>         </div>"""      
+almindelige regler ved sygdom og informér din læge. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lyumjev"
@@ -1076,7 +1082,7 @@ Opbevares i køleskab (2 °C til 8 °C).  </p>
 Må ikke opbevares ved temperaturer over 30 °C. 
 Bortskaf efter 28 dage, også selvom noget af opløsningen er tilbage. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1225,7 +1231,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, Dette gælder 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1264,7 +1270,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1273,7 +1281,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1290,7 +1299,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Lyumjev  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1313,7 +1322,7 @@ complicações originadas pela sua diabetes. Lyumjev atinge o seu efeito máximo
 injeção, e o efeito dura até 5 horas. Deve administrar Lyumjev no início da refeição ou até 20 minutos 
 após o início da refeição. </p>
 <p>O seu médico pode dizer-lhe para utilizar Lyumjev como uma insulina de ação prolongada ou de ação 
-intermédia. Não mude a sua insulina, a não ser que o seu médico lhe diga para o fazer.  </p>         </div>"""   
+intermédia. Não mude a sua insulina, a não ser que o seu médico lhe diga para o fazer.  </p> </div>"""   
           
 
              
@@ -1492,7 +1501,7 @@ médico sobre a condução de viaturas no caso de:  </p>
 </ul>
 <p>Lyumjev contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja é essencialmente 
-“livre de sódio". </p>         </div>"""   
+“livre de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lyumjev"
@@ -1662,7 +1671,7 @@ morte (ver secção 4 ).  </p>
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1832,7 +1841,7 @@ Ver secção “Caso se tenha esquecido de utilizar Lyumjev". </p>
 Se estiver doente, especialmente se sentir náuseas ou estiver adoentado, as suas necessidades de 
 insulina podem mudar. Mesmo que não esteja a comer como normalmente faz, continua a 
 necessitar de insulina. Faça um teste à urina ou uma análise ao sangue, siga as “instruções relativas a 
-doença" e informe o seu médico.  </p>         </div>"""      
+doença" e informe o seu médico.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lyumjev"
@@ -1851,7 +1860,7 @@ Não conservar acima dos 30º C.
 Deite fora após 28 dias mesmo que ainda reste alguma insulina.  </p>
 <p>Os medicamentos não devem ser eliminados na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.  </p>         </div>"""      
+o ambiente.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1994,7 +2003,7 @@ informação importante para si.<br />
 - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode ser-
 lhes prejudicial mesmo que apresentem os mesmos sinais de doença.<br />
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
-neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p> </div>"""      
 
 
 

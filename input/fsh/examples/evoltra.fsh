@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Evoltra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ kills them. It works best against cells which are multiplying quickly   such as 
 <p>Evoltra is used to treat children (  1 year old), teenagers and young adults up to 21 years old with 
 acute lymphoblastic leukaemia (ALL) when previous treatments have not worked or have stopped 
 working. Acute lymphoblastic leukaemia is caused by abnormal growth of some types of white blood 
-cells. </p>         </div>"""   
+cells. </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ Do not drive or use any tools or machines if you feel dizzy, light-headed or fai
 This medicine contains 72 mg sodium (main component of cooking/table salt) in each vial. This is 
 equivalent to 3.6 % of the recommended maximum daily dietary intake of sodium for an adult. Talk to 
 your pharmacist or doctor if you need 5 or more vials daily during your treatment cycle for a 
-prolonged period, especially if you have been advised to follow a low salt (sodium) diet. </p>         </div>"""   
+prolonged period, especially if you have been advised to follow a low salt (sodium) diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evoltra"
@@ -178,7 +181,7 @@ If you think you may have been given too much medicine, tell your doctor straigh
 <p>If you forget to use Evoltra 
 Your doctor will tell you when you need to be given this medicine. If you think that you have missed a 
 dose, tell your doctor straight away. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ regular blood tests to check whether your body is working properly;  </li>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evoltra"
@@ -247,7 +250,7 @@ expiry date refers to the last day of that month. </p>
 <p>Once prepared and diluted, Evoltra should be used straight away or within 24 hours if stored in a 
 refrigerator (at 2 oC to 8oC). </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -382,7 +385,7 @@ amounts of water.
 Evoltra should not be handled by pregnant women. </p>
 <p>Disposal </p>
 <p>Evoltra is for single use only. Any unused medicinal product or waste material should be disposed of 
-in accordance with local requirements. </p>         </div>"""      
+in accordance with local requirements. </p> </div>"""      
 
 
 
@@ -421,7 +424,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -430,7 +435,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -445,7 +451,7 @@ Usage: #inline
 3. Sådan får du Evoltra 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -458,7 +464,7 @@ kræftmedicin. Clofarabin virker ved at hindre væksten af disse abnorme hvide b
 ende dræbe dem. Lægemidlet virker bedst på celler, der formerer sig hurtigt, såsom kræftceller. </p>
 <p>Evoltra anvendes til at behandle børn (≥ 1 år) og unge i alderen op til 21 år med akut lymfoid leukæmi 
 (ALL), når tidligere behandlinger ikke virkede eller er holdt op med at virke. Akut lymfoid leukæmi 
-skyldes abnorm vækst af visse typer hvide blodlegemer. </p>         </div>"""   
+skyldes abnorm vækst af visse typer hvide blodlegemer. </p> </div>"""   
           
 
              
@@ -535,7 +541,7 @@ besvime. </p>
 Dette lægemiddel indeholder 72 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 3,6% af den anbefalede maximale daglige indtagelse af natrium for en 
 voksen. Tal med din læge eller apotekspersonalet, hvis du skal tage 5 eller flere hætteglas dagligt i 
-længere tid, især hvis du er blevet rådet til at følge en diæt med lavt salt (natrium) indhold. </p>         </div>"""   
+længere tid, især hvis du er blevet rådet til at følge en diæt med lavt salt (natrium) indhold. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evoltra"
@@ -558,7 +564,7 @@ Hvis du tror, at du har fået for meget medicin, skal du omgående fortælle det
 <p>Hvis du har glemt at få Evoltra 
 Din læge giver dig besked, når du skal have behandlingen. Hvis du mener, at du er gået glip af en 
 dosis, skal du omgående fortælle det til din læge. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -630,7 +636,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evoltra"
@@ -644,7 +650,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Efter tilberedning og fortynding skal Evoltra anvendes med det samme eller i løbet af 24 timer, hvis 
 det er blevet opbevaret i køleskab (2 °C - 8 °C). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -809,7 +815,7 @@ omgående med rigelige mængder vand ved kontakt med øjne, hud eller slimhinder
 Evoltra må ikke håndteres af gravide kvinder. </p>
 <p>Bortskaffelse 
 Evoltra er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i 
-overensstemmelse med lokale retningslinjer. </p>         </div>"""      
+overensstemmelse med lokale retningslinjer. </p> </div>"""      
 
 
 

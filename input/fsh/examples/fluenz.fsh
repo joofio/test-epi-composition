@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Fluenz Tetra</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ When a person is given the vaccine, the immune system (the body s natural defenc
 produce its own protection against the influenza virus. None of the ingredients in the vaccine can 
 cause the flu.
 Fluenz Tetra vaccine viruses are grown in chicken eggs. Each year the vaccine targets four strains of 
-influenza, following the annual recommendations by the World Health Organisation.</p>         </div>"""   
+influenza, following the annual recommendations by the World Health Organisation.</p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ Pregnancy and breast-feeding</p>
 breast-feeding, tell your doctor, nurse or pharmacist before receiving this vaccine. Fluenz 
 Tetra is not recommended for women who are pregnant or are breast-feeding.
 Driving and using machines</p>
-<p>Fluenz Tetra has no or negligible influence on the ability to drive and use machines.</p>         </div>"""   
+<p>Fluenz Tetra has no or negligible influence on the ability to drive and use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fluenz"
@@ -144,7 +147,7 @@ The recommended dose for children and adolescents is 0.2 ml Fluenz Tetra, admini
 in each nostril. Children who have not previously had an influenza vaccine will receive a second, 
 follow-up dose after an interval of at least 4 weeks. Follow your doctor, nurse or pharmacist s
 instructions about if and when your child should return for the second dose.
-If you have any further questions on this vaccine, ask your doctor, nurse or pharmacist.</p>         </div>"""         
+If you have any further questions on this vaccine, ask your doctor, nurse or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -183,7 +186,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fluenz"
@@ -199,7 +202,7 @@ Before use, the vaccine may be taken out of the refrigerator once for a maximum 
 a temperature not above 25 C. If the vaccine has not been used after this 12 hour period, it should be
 discarded.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -310,7 +313,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -349,7 +352,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -358,7 +363,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -373,7 +379,7 @@ Usage: #inline
 3. Sådan gives Fluenz Tetra
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -389,7 +395,7 @@ Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvarssyst
 egen beskyttelse mod influenzavirus. Ingen af indholdsstofferne i vaccinen kan forårsage influenza.
 Fluenz Tetra-vaccinens virus er dyrket i hønseæg. Hvert år er vaccinen er rettet mod fire stammer af 
 influenzavirus, efter de årlige anbefalinger fra Verdenssundhedsorganisationen (World Health 
-Organisation, WHO).</p>         </div>"""   
+Organisation, WHO).</p> </div>"""   
           
 
              
@@ -451,7 +457,7 @@ du får denne vaccine. Fluenz Tetra frarådes til kvinder, som er gravide eller 
 Trafik- og arbejdssikkerhed
 
 Fluenz Tetra påvirker ikke eller kun i ubetydelig grad evnen til at køre motorkøretøj eller bruge
-maskiner.</p>         </div>"""   
+maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fluenz"
@@ -469,7 +475,7 @@ Den anbefalede dosis for børn og unge er 0,2 ml Fluenz Tetra, indgivet som 0,1 
 Børn, som ikke tidligere har fået en influenzavaccine, vil få en anden, opfølgende dosis efter en 
 periode på mindst 4 uger. Følg vejledningen fra lægen, sygeplejersken eller apoteket om, hvorvidt og
 hvornår dit barn skal have den anden dosis.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -519,7 +525,7 @@ Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsse
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
 fremskaffe mere information om sikkerheden af dette lægemiddel.
-26</p>         </div>"""      
+26</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fluenz"
@@ -534,7 +540,7 @@ Vaccinen kan tages ud af køleskabet højst 12 timer før brug og opbevares ved 
 overstiger 25°C. Hvis vaccinen ikke er blevet anvendt i løbet af denne 12-timers periode, skal den 
 bortskaffes.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -754,7 +760,7 @@ Stempelstopper
 Beskyttelseshætte
 Stempelstang
 Klips til 
-dosisfordeling</p>         </div>"""      
+dosisfordeling</p> </div>"""      
 
 
 
@@ -793,7 +799,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -802,7 +810,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -817,7 +826,7 @@ Usage: #inline
 3. Como é administrado Fluenz Tetra
 4. Efeitos indesejáveis possíveis
 5. Como conservar Fluenz Tetra
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -834,7 +843,7 @@ organismo) produzirá a sua própria proteção contra o vírus da gripe. Nenhum
 vacina pode causar a gripe.
 Os vírus da vacina Fluenz Tetra são produzidos em ovos de galinha. Em cada ano, a vacina tem como
 alvo quatro estirpes do vírus da gripe, seguindo as recomendações anuais da Organização Mundial de 
-Saúde.</p>         </div>"""   
+Saúde.</p> </div>"""   
           
 
              
@@ -898,7 +907,7 @@ vacina. Fluenz Tetra não é recomendado em mulheres que estão grávidas ou a a
 Condução de veículos e utilização de máquinas
 
 Os efeitos de Fluenz Tetra sobre a capacidade de conduzir e utilizar máquinas são nulos ou
-desprezíveis.</p>         </div>"""   
+desprezíveis.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar fluenz"
@@ -919,7 +928,7 @@ gripe, receberão uma segunda dose, após um intervalo de pelo menos 4 semanas. 
 seu médico, enfermeiro ou farmacêutico sobre se e quando o seu filho deve voltar para a segunda 
 dose.
 Caso ainda tenha dúvidas sobre a utilização desta vacina, fale com o seu médico, farmacêutico ou
-enfermeiro.</p>         </div>"""         
+enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -971,7 +980,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá co
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
 deste medicamento.
-26</p>         </div>"""      
+26</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar fluenz"
@@ -987,7 +996,7 @@ período máximo de 12 horas a uma temperatura não superior a 25°C. Se a vacin
 durante este período de 12 horas, deverá ser eliminada.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1134,7 +1143,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NUBEQA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ testosterone (also called metastatic hormone-sensitive prostate cancer). </li>
 </ul>
 <p>How NUBEQA works 
 NUBEQA blocks the activity of male sex hormones called androgens, such as testosterone. By blocking 
-these hormones, darolutamide stops prostate cancer cells from growing and dividing. </p>         </div>"""   
+these hormones, darolutamide stops prostate cancer cells from growing and dividing. </p> </div>"""   
           
 
              
@@ -134,7 +137,7 @@ a woman who can become pregnant. </li>
 This medicine is unlikely to affect your ability to drive and use machines. </p>
 <p>NUBEQA contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nubeqa"
@@ -157,7 +160,7 @@ Take your missed dose as soon as you remember before the next scheduled dose. Do
 dose to make up for 1 or more forgotten tablets. </p>
 <p>If you stop taking NUBEQA 
 Do not stop taking this medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -202,7 +205,7 @@ transaminase and aspartate transaminase </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nubeqa"
@@ -214,7 +217,7 @@ of this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ SIA Bayer
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
 Tel: +44-(0)118 206 3This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -356,7 +359,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -365,7 +370,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -380,7 +386,7 @@ Usage: #inline
 3. Sådan skal du tage NUBEQA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -400,7 +406,7 @@ sænker testosteron (også kaldet metastatisk hormonfølsom prostatakræft).
 Sådan virker NUBEQA
 NUBEQA blokerer aktiviteten af mandlige kønshormoner, der kaldes for androgener, såsom 
 testosteron. Ved at blokere disse hormoner, forhindrer darolutamid prostatakræftcellerne i at vokse og 
-dele sig.</p>         </div>"""   
+dele sig.</p> </div>"""   
           
 
              
@@ -452,7 +458,7 @@ Det er ikke sandsynligt, at dette lægemiddel vil påvirke din evne til at føre
 maskiner. </p>
 <p>NUBEQA indeholder lactose 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nubeqa"
@@ -474,7 +480,7 @@ Tag din glemte dosis så snart du husker det, før den næste planlagte dosis. D
 dobbeltdosis som erstatning for 1 eller flere glemte tabletter. </p>
 <p>Hvis du holder op med at tage NUBEQA 
 Du må ikke holde op med at tage dette lægemiddel, medmindre lægen fortæller dig det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -520,7 +526,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nubeqa"
@@ -532,7 +538,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -656,7 +662,7 @@ for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for darolutamid  er CHMP af den opfattelse, at 
 benefit/risk-forholdet for lægemidlet/lægemidlerne indeholdende darolutamid forbliver uændret under 
 forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -695,7 +701,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -704,7 +712,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -719,7 +728,7 @@ Usage: #inline
 3. Como tomar NUBEQA
 4. Efeitos indesejáveis possíveis 
 5. Como conservar NUBEQA
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -740,7 +749,7 @@ hormonossensível).
 Como funciona o NUBEQA
 O NUBEQA bloqueia a atividade das hormonas sexuais masculinas denominadas androgénios, tais 
 como a testosterona. Ao bloquear estas hormonas, a darolutamida impede o crescimento e a divisão 
-das células do cancro da próstata.</p>         </div>"""   
+das células do cancro da próstata.</p> </div>"""   
           
 
              
@@ -793,7 +802,7 @@ grávida. </p>
 Não é provável que este medicamento afete a sua capacidade de conduzir e de utilizar máquinas. </p>
 <p>NUBEQA contém lactose 
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
-este medicamento. </p>         </div>"""   
+este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nubeqa"
@@ -818,7 +827,7 @@ a dobrar para compensar 1 ou mais comprimidos que se tenha esquecido de tomar. <
 <p>Se parar de tomar NUBEQA 
 Não pare de tomar este medicamento, a menos que o seu médico o instrua a fazê-lo. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -858,7 +867,7 @@ bilirrubina, alanina aminotransferase e aspartato aminotransferase </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nubeqa"
@@ -871,7 +880,7 @@ blister, após “VAL". O prazo de validade corresponde ao último dia do mês i
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -891,7 +900,7 @@ Os outros componentes são:
 - estearato de magnésio (E 470b) 
 - povidona (E 1201) 
 - dióxido de titânio (E 171) </p>
-<p>Para mais informações, consulte “NUBEQA contém lactose" na secção </p>         </div>"""      
+<p>Para mais informações, consulte “NUBEQA contém lactose" na secção </p> </div>"""      
 
 
 

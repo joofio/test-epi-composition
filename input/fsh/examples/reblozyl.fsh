@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Reblozyl </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +100,7 @@ Having Reblozyl can avoid or reduce the need for red blood cell transfusions.
 * Red blood cell transfusions can cause abnormally high levels of iron in the blood and in 
 different organs of the body. This can be harmful over time. </p>
 <p>For  -thalassaemia patients not in need of regular blood transfusions<br />
-Having Reblozyl can improve your aneamia by increasing your haemoglobin level.  </p>         </div>"""   
+Having Reblozyl can improve your aneamia by increasing your haemoglobin level.  </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ You may feel tired, dizzy, or faint, while using Reblozyl. If this happens do no
 tools or machines and contact your doctor straight away. </p>
 <p>Reblozyl contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take reblozyl"
@@ -187,7 +190,7 @@ The maximum single dose is 1.25 mg for each kilogram of body weight. </p>
 If you miss an injection of Reblozyl, or an appointment is delayed, you will receive a Reblozyl 
 injection as soon as possible. Then, your dose will continue as prescribed   with at least 3 weeks 
 between doses. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ albuminuria). </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in 44TAppendix V44T. By reporting side effects you can help provide more information 
-on the safety of this medicine. </p>         </div>"""      
+on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store reblozyl"
@@ -258,7 +261,7 @@ for up to 8 hours at room temperature (  25 C) or for up to 24 hours at 2 C   8 
 <p>Do not freeze the reconstituted solution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -286,7 +289,7 @@ Orteliuslaan 13528 BD Utrecht
 Netherlands </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -325,7 +328,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -334,7 +339,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -351,7 +357,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -398,7 +404,7 @@ Når Reblozyl indgives, kan behovet for transfusion af røde blodlegemer mindske
 forskellige organer i kroppen. Dette kan være skadeligt over tid. </li>
 </ul>
 <p>Til patienter med MDS og β-talassæm, der ikke har behov for regelmæssig blodtransfusion 
-Når Reblozyl indgives, forbedres din anæmi ved at forøge dit hæmoglobinniveau. </p>         </div>"""   
+Når Reblozyl indgives, forbedres din anæmi ved at forøge dit hæmoglobinniveau. </p> </div>"""   
           
 
              
@@ -495,7 +501,7 @@ Du kan føle dig træt, svimmel eller besvime under anvendelsen af Reblozyl. Hvi
 ikke køre bil eller betjene værktøj eller maskiner, og du skal omgående kontakte din læge. </p>
 <p>Reblozyl indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take reblozyl"
@@ -528,7 +534,7 @@ Den maksimale enkeltdosis er 1,25 mg for hvert kg kropsvægt. </p>
 Hvis du springer en injektion af Reblozyl over, eller hvis et besøg udsættes, vil du få en injektion med 
 Reblozyl så hurtigt som muligt. Derefter vil din dosis fortsætte som ordineret med mindst 3 uger 
 mellem doserne. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -682,7 +688,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store reblozyl"
@@ -699,7 +705,7 @@ anvendes med det samme, og det opbevares i den originale karton, kan det rekonst
 opbevares i op til 8 timer ved stuetemperatur (≤ 25 °C) eller i op til 24 timer ved 2 °C - 8 °C. </p>
 <p>Den rekonstituerede opløsning må ikke nedfryses. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -804,7 +810,7 @@ passende antal hætteglas med Reblozyl for at opnå den ønskede dosis. </p>
 subkutan injektion. Kassér alle ubrugte portioner. Der må ikke indgives mere end én dosis fra et 
 hætteglas. </p>
 <p>Bortskaffelse 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Daptomycin Hospira  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ tissues below the skin. It is also used to treat infections in the blood when as
 used to treat infections in the blood caused by the same type of bacteria when associated with heart 
 infection.  </p>
 <p>Depending on the type of infection(s) that you have, your doctor may also prescribe other antibacterials 
-while you are receiving treatment with Daptomycin Hospira.  </p>         </div>"""   
+while you are receiving treatment with Daptomycin Hospira.  </p> </div>"""   
           
 
              
@@ -173,7 +176,7 @@ and could affect the baby.  </p>
 <p>Driving and using machines  </p>
 <p>Daptomycin Hospira has no known effects on the ability to drive or use machines.  </p>
 <p>Daptomycin Hospira contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take daptomycin"
@@ -197,7 +200,7 @@ of infection being treated. This dose is given directly into the blood stream (i
 lasting about 30-60 minutes. </p>
 <p>A course of treatment usually lasts for 1 to 2 weeks for skin infections. For blood or heart infections and 
 skin infections your doctor will decide how long you should be treated.  </p>
-<p>Detailed instructions for use and handling are given at the end of the leaflet. </p>         </div>"""         
+<p>Detailed instructions for use and handling are given at the end of the leaflet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -293,7 +296,7 @@ nosebleeds.  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.  </p>         </div>"""      
+medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store daptomycin"
@@ -305,7 +308,7 @@ medicine.  </p>         </div>"""
 <li>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
 expiry date refers to the last day of the month.  </li>
 <li>Do not store above 30 C.  </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -395,7 +398,7 @@ Pfizer Limited<br />
 Tel: + 44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -434,7 +437,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -443,7 +448,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -458,7 +464,7 @@ Usage: #inline
 3. Sådan får du Daptomycin Hospira
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -476,7 +482,7 @@ hjertet (herunder hjerteklapperne), som er forårsaget af en type bakterie kalde
 Det bruges også til behandling af infektioner i blodet, som er forårsaget af samme type bakterie i 
 forbindelse med infektion i hjertet.
 Afhængig af hvilken infektioner eller hvilke infektioner du har, vil din læge muligvis også ordinere 
-andre antibakterielle midler, mens du er i behandling med Daptomycin Hospira.</p>         </div>"""   
+andre antibakterielle midler, mens du er i behandling med Daptomycin Hospira.</p> </div>"""   
           
 
              
@@ -583,7 +589,7 @@ Daptomycin Hospira har ingen kendt indvirkning på evnen til at føre motorkøre
 maskiner.
 Daptomycin Hospira indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take daptomycin"
@@ -609,7 +615,7 @@ behandles. Denne dosis gives direkte ind i blodbanen (i en blodåre) som en infu
 En behandling varer normalt 1-2 uger ved hudinfektioner. Ved infektioner i blodet eller hjertet og 
 hudinfektioner vil lægen afgøre, hvor lang tid du skal behandles.
 Detaljerede instruktioner i brug og håndtering findes i slutningen af denne indlægsseddel.
-39</p>         </div>"""         
+39</p> </div>"""         
 
         
 * section[=].section[+]
@@ -749,7 +755,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store daptomycin"
@@ -762,7 +768,7 @@ Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. Udløbsdatoen er 
 den sidste dag i den nævnte måned.
 -
-Må ikke opbevares ved temperaturer over 30°C.</p>         </div>"""      
+Må ikke opbevares ved temperaturer over 30°C.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1007,7 +1013,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cyramza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ adult patients with advanced stage of lung cancer whose disease has worsened aft
 medicines to treat cancer. </p>
 <p>Cyramza is used to treat liver cancer that is advanced or cannot be taken out by surgery, in adults who 
 have been previously treated with another anticancer medicine (sorafenib) and who have an elevated 
-level of a particular protein in the blood (alpha fetoprotein). </p>         </div>"""   
+level of a particular protein in the blood (alpha fetoprotein). </p> </div>"""   
           
 
              
@@ -259,7 +262,7 @@ effect goes away. </p>
 Each 10 ml vial contains less than 1 mmol sodium (23 mg), that is to say essentially  sodium free .<br />
 Each 50 ml vial contains approximately 85 mg sodium (main component of cooking/table salt). This is 
 equivalent to approximately 4% of the recommended maximum daily dietary intake of sodium for an 
-adult.  </p>         </div>"""   
+adult.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cyramza"
@@ -337,7 +340,7 @@ why you can't use these medicines. </p>
 <p>When receiving Cyramza in combination with erlotinib 
 Please read the erlotinib package leaflet for information on erlotinib and whether it is suitable for you. 
 If you are unsure, ask your doctor, pharmacist or nurse if there are any reasons why you can't use 
-erlotinib. </p>         </div>"""         
+erlotinib. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -429,7 +432,7 @@ sodium; presence of protein in the urine. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cyramza"
@@ -445,7 +448,7 @@ Keep the vial in the outer carton in order to protect from light. </p>
 <p>Do not freeze or shake the infusion solution. Do not administer the solution if you notice any 
 particulate matter or discolouration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -548,7 +551,7 @@ Tel: +371 67364United Kingdom (Northern Ireland)
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in . 
 Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -587,7 +590,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -596,7 +601,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -611,7 +617,7 @@ Usage: #inline
 3. Sådan får du Cyramza 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -640,7 +646,7 @@ gen kaldet epidermal vækstfaktorreceptor. </p>
 lungekræft hos voksne, hvis sygdom er blevet værre efter behandling med medicin mod kræft.  </p>
 <p>Cyramza bruges til behandling af leverkræft, der er fremskreden eller ikke kan fjernes ved operation, 
 hos voksne, som tidligere har været behandlet med et andet lægemiddel mod kræft (sorafenib) og som 
-har forhøjet niveau af et bestemt protein i blodet (alfaføtoprotein). </p>         </div>"""   
+har forhøjet niveau af et bestemt protein i blodet (alfaføtoprotein). </p> </div>"""   
           
 
              
@@ -811,7 +817,7 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium i hvert 10 ml hæ
 det væsentlige natrium-frit.<br />
 Dette lægemiddel indeholder ca. 85 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hvert 
 50 ml hætteglas. Dette svarer til ca. 4 % af den anbefalede maximale daglige indtagelse af natrium for 
-en voksen. </p>         </div>"""   
+en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cyramza"
@@ -889,7 +895,7 @@ nogle grunde til, at du ikke kan få disse lægemidler. </p>
 <p>Når du får Cyramza i kombination med erlotinib 
 Læs indlægssedlen til erlotinib for information om erlotinib og om det er egnet til dig. Tal med din 
 læge, apoteket eller sygeplejerske, hvis du er usikker på om der findes nogen grund til at du ikke kan 
-bruge erlotinib. </p>         </div>"""         
+bruge erlotinib. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -980,7 +986,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cyramza"
@@ -996,7 +1002,7 @@ Opbevar hætteglasset i yderpakningen for at beskytte mod lys. </p>
 <p>Infusionsopløsningen må ikke nedfryses eller rystes. Opløsningen må ikke indgives, hvis De 
 observerer partikler eller misfarvning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1156,7 +1162,7 @@ indeholder antimikrobielle konserveringsmidler. </p>
 <p>Indgives via infusionspumpe. Der skal anvendes en separat infusionsslange med et proteinbesparende 
 0,22 mikron filter til infusionen, og slangen skal skylles med 9 mg/ml (0,9 %) 
 natriumchloridinjektionsvæske efter infusionen. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </p> </div>"""      
 
 
 

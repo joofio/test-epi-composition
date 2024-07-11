@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Trumenba  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ sometimes life threatening infections such as meningitis (inflammation of the co
 and spinal cord) and sepsis (blood poisoning). </p>
 <p>The vaccine contains 2 important components from the surface of the bacteria.  </p>
 <p>The vaccine works by helping the body to make antibodies (the body s natural defences) which protect 
-you or your child against this disease.  </p>         </div>"""   
+you or your child against this disease.  </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ Trumenba has no or little influence on the ability to drive and use machines.  <
 affect you. If this occurs, wait until the effects wear off before driving or using machines. </p>
 <p>Trumenba contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trumenba"
@@ -141,7 +144,7 @@ months after the first injection;<br />
 or 
 - You or your child will receive 2 injections of the vaccine given at least 1 month apart and a 
 third injection at least 4 months after the second injection.<br />
-- You or your child may be given a booster. </p>         </div>"""         
+- You or your child may be given a booster. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -169,7 +172,7 @@ third injection at least 4 months after the second injection.<br />
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trumenba"
@@ -183,7 +186,7 @@ expiry date refers to the last day of that month. </p>
 <p>Syringes should be stored in the refrigerator horizontally to minimize the re-dispersion time. </p>
 <p>Do not freeze.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ observed, do not administer the vaccine. </p>
 <p>Trumenba is for intramuscular use only. Do not administer intravascularly or subcutaneously.  </p>
 <p>Trumenba must not be mixed with any other vaccines in the same syringe.  </p>
 <p>When given at the same time with other vaccines Trumenba must be given at separate injection sites. </p>
-<p>Any unused vaccine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+<p>Any unused vaccine or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
 
 
 
@@ -336,7 +339,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -345,7 +350,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -360,7 +366,7 @@ Usage: #inline
 3. Sådan gives Trumenba 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -374,7 +380,7 @@ visse tilfælde livstruende infektioner som meningitis (betændelse i hjernehind
 blodforgiftning (sepsis).
 Vaccinen indeholder to vigtige bestanddele fra bakteriens overflade. 
 Vaccinen virker ved at hjælpe kroppen med at danne antistoffer (kroppens naturlige forsvar), som 
-beskytter dig eller dit barn mod denne sygdom. </p>         </div>"""   
+beskytter dig eller dit barn mod denne sygdom. </p> </div>"""   
           
 
              
@@ -428,7 +434,7 @@ Nogle af bivirkningerne i afsnit 4 kan måske påvirke dig midlertidigt. Hvis de
 med at føre motorkøretøj eller betjene maskiner, indtil virkningen har fortaget sig.
 Trumenba indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trumenba"
@@ -450,7 +456,7 @@ mellemrum, og derefter en tredje indsprøjtning mindst 4 måneder efter den ande
 indsprøjtning. 
 
 Du eller dit barn kan eventuelt få en opfølgende indsprøjtning.
-26</p>         </div>"""         
+26</p> </div>"""         
 
         
 * section[=].section[+]
@@ -490,7 +496,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trumenba"
@@ -505,7 +511,7 @@ Injektionssprøjterne skal opbevares i køleskab og ligge vandret for at nedsæt
 suspensionen.
 Må ikke nedfryses. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -655,7 +661,7 @@ Omrystes grundigt inden brug for at få en ensartet hvid suspension.
 Trumenba er kun til intramuskulær anvendelse. Må ikke administreres intravaskulært eller subkutant. 
 Trumenba må ikke blandes med andre vacciner i samme sprøjte. 
 Ved administration samtidigt med andre vacciner skal Trumenba gives på et separat injektionssted.
-Ikke anvendt vaccine samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt vaccine samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -694,7 +700,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -703,7 +711,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -718,7 +727,7 @@ Usage: #inline
 3. Como se administra Trumenba 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Trumenba 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -732,7 +741,7 @@ bactéria que pode causar infeções graves e, por vezes, potencialmente fatais,
 (inflamação das membranas que revestem o cérebro e a medula espinhal) e sépsis (infeção do sangue).
 A vacina contém 2 componentes importantes da superfície da bactéria. 
 A vacina atua auxiliando o organismo a produzir anticorpos (as defesas naturais do organismo), que o 
-protegem a si ou à sua criança desta doença. </p>         </div>"""   
+protegem a si ou à sua criança desta doença. </p> </div>"""   
           
 
              
@@ -787,7 +796,7 @@ podem afetá-lo temporariamente. Se isto ocorrer, aguarde até os efeitos desapa
 conduzir ou utilizar máquinas.
 Trumenba contém sódio
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trumenba"
@@ -805,7 +814,7 @@ ou
 - Irá receber, ou a sua criança irá receber, duas injeções da vacina administradas com pelo menos 
 um mês de intervalo, e uma terceira injeção pelo menos 4 meses após a segunda injeção. 
 - Poderá receber, ou a sua criança poderá receber, uma dose de reforço.
-28</p>         </div>"""         
+28</p> </div>"""         
 
         
 * section[=].section[+]
@@ -847,7 +856,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trumenba"
@@ -863,7 +872,7 @@ re-dispersão.
 Não congelar. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -999,7 +1008,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel.: + 371 670 35 775
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

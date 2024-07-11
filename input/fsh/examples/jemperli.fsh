@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store JEMPERLI  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ the womb). It is given when cancer has spread, or cannot be taken out by surgery
 on or following prior treatment. </p>
 <p>JEMPERLI may be given in combination with other anticancer medicines. It is important that you also 
 read the package leaflets for the other anticancer medicines you may be receiving. If you have any 
-questions about these medicines, ask your doctor. </p>         </div>"""   
+questions about these medicines, ask your doctor. </p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ operating machines. </p>
 <p>JEMPERLI contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
  sodium-free.  However, before JEMPERLI is given to you, it is mixed with a solution that may 
-contain sodium. Talk to your doctor if you are on a low salt diet. </p>         </div>"""   
+contain sodium. Talk to your doctor if you are on a low salt diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jemperli"
@@ -166,7 +169,7 @@ unless you have discussed this with your doctor. </p>
 Important information from this Package Leaflet can be found in the Patient Card you have been given 
 by your doctor. It is important that you keep this Patient Card and show it to your partner or 
 caregivers. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -384,7 +387,7 @@ carboplatin and paclitaxel. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jemperli"
@@ -403,7 +406,7 @@ from light. </p>
 administration. </p>
 <p>Do not use if this medicine contains visible particles. </p>
 <p>Do not store any unused medicine for reuse. Any unused medicine or waste material should be 
-disposed of in accordance with local requirements. These measures will help protect the environment. </p>         </div>"""      
+disposed of in accordance with local requirements. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -517,7 +520,7 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -556,7 +559,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -565,7 +570,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -580,7 +586,7 @@ Usage: #inline
 3. Sådan får du Jemperli 
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -596,7 +602,7 @@ slimhinde). Det gives, når kræften har spredt sig eller ikke kan fjernes ved e
 forværret under eller efter en tidligere behandling. </p>
 <p>Du kan få Jemperli i kombination med andre lægemidler mod kræft. Det er vigtigt, at du også læser 
 indlægssedlerne for de andre lægemidler mod kræft, som du måske får. Spørg lægen, hvis du har 
-spørgsmål om de pågældende lægemidler. </p>         </div>"""   
+spørgsmål om de pågældende lægemidler. </p> </div>"""   
           
 
              
@@ -688,7 +694,7 @@ forsigtig, når du fører motorkøretøj eller betjener maskiner. </p>
 <p>Jemperli indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
 væsentlige "natriumfrit". Inden du får Jemperli, blandes det dog med en opløsning, som kan indeholde 
-natrium. Tal med lægen, hvis du er på saltfattig diæt. </p>         </div>"""   
+natrium. Tal med lægen, hvis du er på saltfattig diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jemperli"
@@ -715,7 +721,7 @@ med Jemperli, medmindre du har talt om det med din læge.  </p>
 Vigtige oplysninger fra denne indlægsseddel kan findes på det patientkort, som du har fået af 
 din læge. Det er vigtigt, at du har dette patientkort på dig og viser det til din partner eller 
 dine omsorgspersoner. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1064,7 +1070,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jemperli"
@@ -1083,7 +1089,7 @@ ved 2 °C - 8 °C eller i 6 timer ved stuetemperatur (op til 25 °C) fra tidspun
 klargøring/fortynding indtil afsluttet administration.  </p>
 <p>Brug ikke lægemidlet, hvis det indeholder synlige partikler. </p>
 <p>Eventuelt ikke anvendt lægemiddel må ikke opbevares til senere genbrug. Af hensyn til miljøet skal 
-ikke anvendt lægemiddel samt affald heraf bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+ikke anvendt lægemiddel samt affald heraf bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1294,7 +1300,7 @@ CHMP gennemgik de oplysninger, som indehaveren af markedsføringstilladelsen hav
 artikel 14, stk. 11, i forordning (EC) nr. 726/2004, og er af den opfattelse, at den nye terapeutiske 
 indikation giver en væsentlig klinisk fordel sammenlignet med eksisterende behandlinger. Dette er 
 nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

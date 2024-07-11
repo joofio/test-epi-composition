@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tasigna </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -102,7 +105,7 @@ called an  ECG ). </li>
 Tasigna. If you are told to discontinue this medicine, your doctor will continue to monitor your CML 
 and may tell you to re-start Tasigna if your condition indicates that this is necessary. </p>
 <p>If you have any questions about how Tasigna works or why it has been prescribed for you or your 
-child, ask your doctor. </p>         </div>"""   
+child, ask your doctor. </p> </div>"""   
           
 
              
@@ -232,7 +235,7 @@ ability to safely drive or use any tools or machines after taking this medicine,
 these activities until the effect has disappeared. </p>
 <p>Tasigna contains lactose 
 This medicine contains lactose (also known as milk sugar). If you have been told by your doctor that 
-you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+you have an intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tasigna"
@@ -294,7 +297,7 @@ Your doctor will regularly evaluate your treatment with a specific diagnostic te
 you should continue to take this medicine. If you are told to discontinue Tasigna, your doctor will 
 continue to carefully monitor your CML before, during and after you have discontinued Tasigna and 
 may tell you to re-start Tasigna if your condition indicates that this is necessary. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -519,7 +522,7 @@ swelling in the feet, ankles and abdomen. </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tasigna"
@@ -536,7 +539,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -680,7 +683,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -719,7 +722,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -728,7 +733,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -743,7 +749,7 @@ Usage: #inline
 3. Sådan skal du tage Tasigna 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -783,7 +789,7 @@ Tasigna. Hvis du får at vide, at du skal holde op med at tage dette lægemiddel
 med at overvåge din CML og kan bede dig om at genoptage behandlingen med Tasigna, hvis det 
 bliver nødvendigt. </p>
 <p>Hvis du har spørgsmål til, hvordan Tasigna virker, eller hvorfor det er ordineret til dig eller dit barn, 
-skal du spørge din læge. </p>         </div>"""   
+skal du spørge din læge. </p> </div>"""   
           
 
              
@@ -918,7 +924,7 @@ køre bil forsvarligt eller bruge værktøj eller maskiner, når du har taget de
 afholde dig fra disse aktiviteter, indtil bivirkningen er forsvundet. </p>
 <p>Tasigna indeholder lactose 
 Denne medicin indeholder lactose (også kendt som mælkesukker). Kontakt lægen, før du tager denne 
-medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tasigna"
@@ -980,7 +986,7 @@ skal fortsætte med at tage dette lægemiddel. Hvis du får at vide, at du skal 
 Tasigna, vil din læge fortsætte med at overvåge din CML nøje før, under og efter at du er holdt op med 
 at tage Tasigna. Lægen kan bede dig om at genoptage behandlingen med Tasigna, hvis det bliver 
 nødvendigt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1206,7 +1212,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tasigna"
@@ -1223,7 +1229,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 nogen har forsøgt at åbne den. </li>
 <li>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1383,7 +1389,7 @@ Tel: +44 1276 698 </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -1422,7 +1428,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1431,7 +1439,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1448,7 +1457,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tasigna </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1487,7 +1496,7 @@ Se lhe disserem para suspender este medicamento, o seu médico irá continuar a 
 pode dizer-lhe que tem de recomeçar a tomar Tasigna se a sua condição de saúde indicar que isso é 
 necessário. </p>
 <p>Se tiver quaisquer questões sobre o modo como Tasigna atua ou porque lhe foi prescrito ou à sua 
-criança, fale com o seu médico. </p>         </div>"""   
+criança, fale com o seu médico. </p> </div>"""   
           
 
              
@@ -1621,7 +1630,7 @@ na capacidade de conduzir ou usar quaisquer ferramentas ou máquinas com seguran
 medicamento, deve evitar estas atividades até que o efeito tenha desaparecido. </p>
 <p>Tasigna contém lactose 
 Este medicamento contém lactose, também conhecida como açúcar do leite. Se foi informado pelo seu 
-médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tasigna"
@@ -1684,7 +1693,7 @@ decidir se deve continuar a tomar este medicamento. Se lhe disserem para deixar 
 seu médico irá continuar a monitorizar a LMC antes, durante e após a interrupção de Tasigna e pode 
 dizer-lhe que tem de recomeçar a tomar Tasigna se a sua condição indicar que é necessário. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1919,7 +1928,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tasigna"
@@ -1937,7 +1946,7 @@ de deterioração. </li>
 <li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -2104,7 +2113,7 @@ Tel: +44 1276 698 </p>
 <p>Outras fontes de informação </p>
 <p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
 Europeia de Medicamentos: http://www.ema.europa.eu. Também existem links para outros sítios da 
-internet sobre doenças raras e tratamentos. </p>         </div>"""      
+internet sobre doenças raras e tratamentos. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Axura </li>
 <li>Content of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ signals important in learning and memory. Axura belongs to a group of medicines 
 receptor antagonists. Axura acts on these NMDA-receptors improving the transmission of nerve 
 signals and the memory. </p>
 <p>What is Axura used for 
-Axura is used for the treatment of patients with moderate to severe Alzheimer s disease. </p>         </div>"""   
+Axura is used for the treatment of patients with moderate to severe Alzheimer s disease. </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ Your doctor will tell you whether your illness allows you to drive and to use ma
 Also, Axura may change your reactivity, making driving or operating machinery inappropriate. </p>
 <p>Axura contains Sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take axura"
@@ -188,7 +191,7 @@ need medical attention. </p>
 - If you find you have forgotten to take your dose of Axura, wait and take your next dose at the 
 usual time. 
 - Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -214,7 +217,7 @@ have been reported in patients treated with Axura. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store axura"
@@ -226,7 +229,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -349,7 +352,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -388,7 +391,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -397,7 +402,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -412,7 +418,7 @@ Usage: #inline
 3. Sådan skal De tage Axura 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -429,7 +435,7 @@ for indlæring og hukommelse. Axura hører til en gruppe af medicin kaldet N-met
 (NMDA)-receptor-antagonister. Axura indvirker på disse NMDA-receptorer og forbedrer overførslen 
 af nervesignaler samt hukommelsen. </p>
 <p>Hvad anvendes Axura til? 
-Axura anvendes til behandling af patienter med moderat til svær Alzheimers sygdom. </p>         </div>"""   
+Axura anvendes til behandling af patienter med moderat til svær Alzheimers sygdom. </p> </div>"""   
           
 
              
@@ -496,7 +502,7 @@ betjene maskiner. Derudover kan Axura påvirke Deres reaktionsevne, så det ikke
 køre bil eller betjene maskiner. </p>
 <p>Axura indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take axura"
@@ -549,7 +555,7 @@ medicinsk behandling. </p>
 - Hvis De har glemt at tage Deres dosis af Axura, skal De vente og tage Deres næste dosis på det 
 sædvanlige tidspunkt. 
 - De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller på apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -585,7 +591,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store axura"
@@ -597,7 +603,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -727,7 +733,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Axura til Dem personligt. Lad derfor være med at give Axura til andre. Det 
 kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller De får 
-bivirkninger, som ikke er nævnt her. Se afsnit 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se afsnit 4. </p> </div>"""      
 
 
 

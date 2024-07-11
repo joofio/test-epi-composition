@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ZYPREXA VELOTAB </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ there, mistaken beliefs, unusual suspiciousness, and becoming withdrawn. People 
 disease may also feel depressed, anxious or tense. 
   Moderate to severe manic episodes, a condition with symptoms of excitement or euphoria. </p>
 <p>ZYPREXA VELOTAB has been shown to prevent recurrence of these symptoms in patients with 
-bipolar disorder whose manic episode has responded to olanzapine treatment. </p>         </div>"""   
+bipolar disorder whose manic episode has responded to olanzapine treatment. </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ which may cause allergic reactions (possibly delayed). An allergic reaction may 
 rash, itching or shortness of breath. This may occur immediately or some time after you take 
 ZYPREXA VELOTAB. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zyprexa"
@@ -211,7 +214,7 @@ ZYPREXA VELOTAB for as long as your doctor tells you. </p>
 <p>If you suddenly stop taking ZYPREXA VELOTAB, symptoms such as sweating, unable to sleep, 
 tremor, anxiety or nausea and vomiting might occur. Your doctor may suggest you to reduce the dose 
 gradually before stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ skin and have trouble walking. Some fatal cases have been reported in this parti
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zyprexa"
@@ -276,7 +279,7 @@ medicine. </p>         </div>"""
 <p>ZYPREXA VELOTAB should be stored in its original pack in order to protect from light and 
 moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -302,7 +305,7 @@ CHEPLAPHARM Registration GmbH, Weiler Stra e 5e, 79540 L rrach, Germany. </p>
 <p>Manufacturer 
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain. </p>
 <p>This leaflet was last revised in {month XXXX} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -341,7 +344,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -350,7 +355,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -365,7 +371,7 @@ Usage: #inline
 3. Sådan skal du tage ZYPREXA VELOTAB 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -386,7 +392,7 @@ lidelse kan også føle sig deprimerede, angste eller anspændte. </p>
 </li>
 </ul>
 <p>Det er vist, at ZYPREXA VELOTAB forebygger tilbagefald af disse symptomer ved bipolar lidelse 
-(maniodepressiv sygdom) hos patienter, hvis maniske episode har reageret på olanzapinbehandling. </p>         </div>"""   
+(maniodepressiv sygdom) hos patienter, hvis maniske episode har reageret på olanzapinbehandling. </p> </div>"""   
           
 
              
@@ -516,7 +522,7 @@ natriumpropylparahydroxybenzoat, som kan give allergiske reaktioner (kan optræd
 behandlingen). En allergisk reaktion kan kendes på et udslæt, kløe eller åndenød. Dette kan komme 
 straks eller noget tid efter, at du har taget ZYPREXA VELOTAB. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zyprexa"
@@ -563,7 +569,7 @@ fortsætter med at tage ZYPREXA VELOTAB, så længe din læge beder dig om det. 
 <p>Hvis du pludseligt holder op med at tage ZYPREXA VELOTAB, kan der forekomme symptomer som 
 svedtendens, søvnbesvær, rysten, angst, kvalme og opkastning. Din læge vil måske foreslå dig, at du 
 nedsætter din dosis gradvist, før du helt stopper. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -622,7 +628,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zyprexa"
@@ -634,7 +640,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>ZYPREXA VELOTAB bør opbevares i den originale yderpakning for at beskytte mod lys og fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -659,7 +665,7 @@ CHEPLAPHARM Registration GmbH, Weiler Straße 5e, 79540 Lörrach, Tyskland. </p>
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spanien. </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu  </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lyxumia  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ high. It is used in adults with type 2 diabetes. </p>
 <p>Lyxumia is used with other medicines for diabetes when they are not enough to control your blood 
 sugar levels. These may include: 
 * oral antidiabetics (such as metformin, pioglitazone, sulphonylurea medicines) and/or,<br />
-* a basal insulin, a type of insulin which works all day. </p>         </div>"""   
+* a basal insulin, a type of insulin which works all day. </p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ If you use Lyxumia with a sulphonylurea or a basal insulin, you may get low bloo
 happens do not drive or use any tools or machines. </p>
 <p>Important information about some of the ingredients of Lyxumia 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e., essentially  sodium-free . 
-This medicine contains metacresol which may cause allergic reactions. </p>         </div>"""   
+This medicine contains metacresol which may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lyxumia"
@@ -194,7 +197,7 @@ doses at the same time to make up for a forgotten injection. </p>
 <p>If you stop using Lyxumia<br />
 Do not stop using Lyxumia without talking with your doctor. If you stop using Lyxumia, your blood 
 sugar levels can increase. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -246,7 +249,7 @@ reduce your dose of these medicines before you start using Lyxumia. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lyxumia"
@@ -263,7 +266,7 @@ The pen can be used for 14 days when stored at a temperature below 30 C. Do not 
 with a needle attached. When you are not using the pen, keep the cap on the pen in order to protect 
 from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -365,7 +368,7 @@ Swixx Biopharma SIA
 Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -404,7 +407,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -413,7 +418,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -428,7 +434,7 @@ Usage: #inline
 3. Sådan skal du tage Lyxumia<br />
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -448,7 +454,7 @@ kontrollere blodsukkerniveauet. Det kan f.eks. være: </p>
 <li>
 <p>basalinsulin, en insulintype, der virker hele dagen. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -522,7 +528,7 @@ søvnig. Hvis dette sker for dig, må du ikke køre bil eller bruge værktøjer 
 <p>Lyxumia indeholder natrium og metacresol 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
 natriumfri. 
-Dette lægemiddel indeholder metacresol, som kan medføre allergiske reaktioner. </p>         </div>"""   
+Dette lægemiddel indeholder metacresol, som kan medføre allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lyxumia"
@@ -588,7 +594,7 @@ ikke to doser på en gang for at kompensere for en glemt injektion. </p>
 <p>Hvis du holder op med at tage Lyxumia 
 Hold ikke op med at tage Lyxumia uden at tale med lægen om det. Hvis du holder op med at tage 
 Lyxumia, kan dine blodsukkerniveauer blive forhøjet. </p>
-<p>Spørg lægen, apotekspersonaletet eller sundhedsspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonaletet eller sundhedsspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -681,7 +687,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lyxumia"
@@ -698,7 +704,7 @@ Pennen kan bruges i 14 dage, hvis den opbevares ved en temperatur under 30 °C. 
 Må ikke opbevares med en nål påsat. Når du ikke bruger pennen, skal hætten sættes på pennen igen for 
 at beskytte mod lys.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1712,7 +1718,7 @@ hjælp. </p>
 <p>Hvis du har nogen spørgsmål om Lyxumia eller om diabetes, så spørg din læge, apotekspersonalet 
 eller sygeplejersken, eller kontakt den lokale repræsentant for indehaveren af 
 markedsføringstilladelsen, som du finder i Lyxumia "Indlægsseddel: Information til brugeren" 
-(medfølger separat i æsken). </p>         </div>"""      
+(medfølger separat i æsken). </p> </div>"""      
 
 
 

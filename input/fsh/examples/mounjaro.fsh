@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Mounjaro </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ heart attack, stroke or blood vessel problems) </li>
 </ul>
 <p>BMI (Body Mass Index) is a measure of your weight in relation to your height. 
 It is important to continue to follow the advice on diet and exercise given to you by your doctor, nurse 
-or pharmacist. </p>         </div>"""   
+or pharmacist. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ irritability, fast heartbeat and sweating (see section 4). See section 2,  Warni
 information on increased risk of low blood sugar. Talk to your doctor for further information. </p>
 <p>Mounjaro contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mounjaro"
@@ -198,7 +201,7 @@ be at least 3 days. </p>
 <p>If you stop using Mounjaro<br />
 Do not stop using Mounjaro without talking with your doctor. If you stop using Mounjaro, and you 
 have type 2 diabetes, your blood sugar levels can increase. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -260,7 +263,7 @@ stomach acid coming up into the tube from your stomach to your mouth
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mounjaro"
@@ -277,7 +280,7 @@ must be discarded. </p>
 <p>Do not use this medicine if you notice that the pen is damaged, or the medicine is cloudy, discoloured 
 or has particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -373,7 +376,7 @@ Tel: +371 67364United Kingdom (Northern Ireland)
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -412,7 +415,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -421,7 +426,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -438,7 +444,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -470,7 +476,7 @@ slagtilfælde eller problemer med blodkar) </li>
 </ul>
 <p>BMI (Body Mass Index) er et mål for din vægt i forhold til din højde. </p>
 <p>Det er vigtigt, at du fortsætter med at følge de kost- og motionsråd, som lægen, sygeplejersken eller 
-apotekspersonalet har givet dig. </p>         </div>"""   
+apotekspersonalet har givet dig. </p> </div>"""   
           
 
              
@@ -524,7 +530,7 @@ svaghed, svimmelhed, sultfølelse, forvirring, irritabilitet, hurtig hjerterytme
 Kontakt lægen for at få yderligere oplysninger. </p>
 <p>Mounjaro indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mounjaro"
@@ -588,7 +594,7 @@ skal være mindst 3 dage. </p>
 <p>Hvis du holder op med at bruge Mounjaro 
 Du må ikke stoppe med at bruge Mounjaro uden at tale med lægen. Hvis du stopper med at bruge 
 Mounjaro, og du har type 2-diabetes, kan dit blodsukker stige. </p>
-<p>Spørg lægen, sygeplejersken, eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, sygeplejersken, eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -654,7 +660,7 @@ Kontakt lægen, sygeplejersken, eller apotekspersonalet, hvis du får bivirkning
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mounjaro"
@@ -672,7 +678,7 @@ pennen smides ud. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pennen er beskadiget, eller at medicinen er uklar, 
 misfarvet eller indeholder partikler. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet eller toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet eller toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -972,7 +978,7 @@ indeholder vigtige oplysninger.
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, sygeplejersken, eller apotekspersonalet eller sygeplejersken, hvis du får 
 bivirkninger. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne 
-indlægsseddel. Se afsnit 4. </p>         </div>"""      
+indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 
@@ -1011,7 +1017,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1020,7 +1028,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1037,7 +1046,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Mounjaro </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1066,7 +1075,7 @@ chamados “apneia obstrutiva do sono" ou uma história de ataque do coração, 
 problemas nas veias sanguíneas). </p>
 <p>O IMC (Índice de Massa Corporal) é uma medida do seu peso em relação à sua altura. </p>
 <p>É importante continuar a seguir os conselhos do seu médico, enfermeiro ou farmacêutico 
-relativamente à dieta e ao exercício. </p>         </div>"""   
+relativamente à dieta e ao exercício. </p> </div>"""   
           
 
              
@@ -1120,7 +1129,7 @@ e precauções" para informações sobre o risco acrescido de baixos níveis de 
 mais informações, fale com o seu médico.  </p>
 <p>Mounjaro contém sódio<br />
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mounjaro"
@@ -1185,7 +1194,7 @@ intervalo mínimo de tempo entre duas doses tem de ser pelo menos 3 dias. </p>
 Não pare de utilizar Mounjaro sem falar com o seu médico. Se deixar de utilizar Mounjaro, e tiver 
 diabetes tipo 2, os seus níveis de açúcar no sangue podem aumentar.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, enfermeiro ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1254,7 +1263,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, enfermeiro ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mounjaro"
@@ -1272,7 +1281,7 @@ período máximo de 21 dias cumulativos e posteriormente a caneta tem de ser eli
 turvo, com cor ou contiver partículas.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1606,7 +1615,7 @@ informação importante para si.
 - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
 ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.<br />
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
-neste folheto, fale com o seu médico, enfermeiro ou farmacêutico. Ver secção 4.  </p>         </div>"""      
+neste folheto, fale com o seu médico, enfermeiro ou farmacêutico. Ver secção 4.  </p> </div>"""      
 
 
 

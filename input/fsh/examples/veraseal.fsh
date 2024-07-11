@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How VeraSeal is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 form a clot when they are mixed together. </p>
 <p>VeraSeal is used as a sealant during surgical operations in adults. It is applied to the surface of 
 bleeding tissue to reduce bleeding during and after the operation when standard surgical techniques are 
-not sufficient. </p>         </div>"""   
+not sufficient. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ medicines. </p>
 <p>Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before being treated with this medicine. Your doctor will decide whether you 
-should be treated with VeraSeal. </p>         </div>"""   
+should be treated with VeraSeal. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veraseal"
@@ -140,7 +143,7 @@ mix evenly, which is important for the sealant to work at its best. </p>
 <p>The amount of VeraSeal that will be applied depends on a number of factors, including the type of 
 surgery, the size of the area to be treated during your operation and the way VeraSeal is applied. The 
 surgeon will decide how much is appropriate, and will apply just enough to form a thin, even layer. If 
-it does not seem to be enough, a second layer can be applied. </p>         </div>"""         
+it does not seem to be enough, a second layer can be applied. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -251,7 +254,7 @@ the body). There is also a risk of a severe allergic reaction. </p>
 If you get any side effects, talk to your doctor or surgeon. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veraseal"
@@ -266,7 +269,7 @@ completely before use. Do not refreeze once thawed. After thawing, it can be mai
 than 7 days at 2  C - 8  C or 24 hours not above 25  C before use. </p>
 <p>Once the blister is opened, VeraSeal should be used immediately. </p>
 <p>It must not be used if the solutions are cloudy or have deposits. </p>
-<p>Discard if the package is damaged. </p>         </div>"""      
+<p>Discard if the package is damaged. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -327,7 +330,7 @@ Tel: +48 22 378 85 PT
 Grifols Portugal, Lda. 
 Tel: +351 219 255 This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -366,7 +369,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -375,7 +380,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -392,7 +398,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -405,7 +411,7 @@ som danner en prop, når de blandes sammen. </p>
 <p>VeraSeal anvendes som en vævsklæber under kirurgi hos patienter. Det påføres på overfladen af det 
 blødende væv for at reducere blødning under og efter operationen, når standard kirurgiske teknikker 
 ikke er tilstrækkelige. </p>
-<p>VeraSeal er indiceret til alle aldersgrupper. </p>         </div>"""   
+<p>VeraSeal er indiceret til alle aldersgrupper. </p> </div>"""   
           
 
              
@@ -454,7 +460,7 @@ medicin eller planlægger at tage anden medicin. </p>
 <p>Graviditet og amning </p>
 <p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
 du spørge din læge til råds, før du bliver behandlet med dette lægemiddel. Lægen vil beslutte, om du 
-skal behandles med VeraSeal. </p>         </div>"""   
+skal behandles med VeraSeal. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take veraseal"
@@ -469,7 +475,7 @@ vævsklæberen virker bedst muligt. </p>
 <p>Den mængde VeraSeal, der påføres, afhænger af flere forskellige faktorer, herunder typen af kirurgi, 
 størrelsen af det område, der skal behandles under operationen, og den måde, VeraSeal påføres på. 
 Kirurgen vil beslutte, hvor meget der er hensigtsmæssigt, og han/hun vil påføre lige akkurat nok til at 
-danne et tyndt, jævnt lag. Hvis det ikke ser ud til at være nok, kan der påføres et lag til. </p>         </div>"""         
+danne et tyndt, jævnt lag. Hvis det ikke ser ud til at være nok, kan der påføres et lag til. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -581,7 +587,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller kirurgen. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store veraseal"
@@ -596,7 +602,7 @@ Optøs fuldstændigt før brug. Må ikke nedfryses igen efter optøning. Efter o
 højst 7 dage ved 2 ºC - 8 ºC eller 24 timer ved temperaturer under 25 ºC før brug. </p>
 <p>Når blisteren er anbrudt, skal VeraSeal straks bruges. </p>
 <p>Det må ikke bruges, hvis opløsningerne er uklare eller indeholder partikler. </p>
-<p>Bortskaffes, hvis pakningen er beskadiget. </p>         </div>"""      
+<p>Bortskaffes, hvis pakningen er beskadiget. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -863,7 +869,7 @@ Bortskaffelse </p>
 <p>Figur 5 </p>
 <p>Figur 6 </p>
 <p>Figur 7 </p>
-<p>Figur 8 </p>         </div>"""      
+<p>Figur 8 </p> </div>"""      
 
 
 

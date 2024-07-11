@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pyrukynd </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ too fast, a process known as haemolytic anaemia. </p>
 <p>Pyrukynd helps the pyruvate kinase enzyme to work better. It increases the energy in your red blood 
 cells and stops them from being broken down too fast. </p>
 <p>Talk to your doctor, pharmacist or nurse if you have any questions about how Pyrukynd works or why 
-this medicine has been prescribed for you. </p>         </div>"""   
+this medicine has been prescribed for you. </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ you, be careful when driving or using machines. </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pyrukynd"
@@ -222,7 +225,7 @@ Do not take a double dose to make up for a forgotten dose. </li>
 gradually.<br />
 This is to prevent any side effects caused by sudden breakdown of the red blood cells. 
 See section 4 below for more information about these side effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ Talk to your doctor straight away if you have any of these symptoms after stoppi
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pyrukynd"
@@ -262,7 +265,7 @@ safety of this medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>Store below 25 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ United Kingdom (Northern Ireland) </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p> </div>"""      
 
 
 
@@ -361,7 +364,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -370,7 +375,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -387,7 +393,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -403,7 +409,7 @@ bliver nedbrudt for hurtigt, en proces, der kaldes hæmolytisk anæmi. </p>
 <p>Pyrukynd hjælper pyruvatkinase-enzymet med at virke bedre. Det øger energien i dine røde 
 blodlegemer og forhindrer dem i at blive nedbrudt for hurtigt. </p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål om, hvordan Pyrukynd 
-virker, eller hvorfor du har fået ordineret dette lægemiddel. </p>         </div>"""   
+virker, eller hvorfor du har fået ordineret dette lægemiddel. </p> </div>"""   
           
 
              
@@ -542,7 +548,7 @@ dette, skal du være forsigtig, hvis du fører motorkøretøj eller betjener mas
 <p>Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pyrukynd"
@@ -616,7 +622,7 @@ Dette er for at forhindre bivirkninger forårsaget af en pludselig nedbrydning a
 Se punkt 4 nedenfor for flere oplysninger om disse bivirkninger. </p>
 </li>
 </ul>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -672,7 +678,7 @@ lægemiddel. </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pyrukynd"
@@ -684,7 +690,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 25 °C. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -747,7 +753,7 @@ Storbritannien (Nordirland) </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -786,7 +792,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -795,7 +803,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -812,7 +821,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Pyrukynd </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -829,7 +838,7 @@ anemia hemolítica. </p>
 <p>Pyrukynd ajuda a enzima piruvato cinase a funcionar melhor. Este medicamento aumenta a energia 
 nos seus glóbulos vermelhos e impede-os de se degradarem com demasiada rapidez. </p>
 <p>Fale com o seu médico, farmacêutico ou enfermeiro se tiver quaisquer dúvidas sobre o modo como 
-Pyrukynd atua ou porque é que este medicamento lhe foi prescrito. </p>         </div>"""   
+Pyrukynd atua ou porque é que este medicamento lhe foi prescrito. </p> </div>"""   
           
 
              
@@ -970,7 +979,7 @@ tenha cuidado ao conduzir ou ao utilizar máquinas. </p>
 <p>Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
 este medicamento. </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pyrukynd"
@@ -1048,7 +1057,7 @@ Ver a secção 4 abaixo para obter mais informação sobre estes efeitos indesej
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1105,7 +1114,7 @@ este medicamento. </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pyrukynd"
@@ -1118,7 +1127,7 @@ blister e blister após EXP. O prazo de validade corresponde ao último dia do m
 <p>Conservar a temperatura inferior a 25 ºC. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1180,7 +1189,7 @@ BT63 5UA
 Reino Unido (Irlanda do Norte) </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

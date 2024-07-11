@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Optruma </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ oestrogen goes down. Optruma mimics some of the helpful effects of oestrogen aft
 <p>Osteoporosis is a disease that causes your bones to become thin and fragile - this disease is especially 
 common in women after the menopause. Although it may have no symptoms at first, osteoporosis 
 makes you more likely to break bones, especially in your spine, hips and wrists and may cause back 
-pain, loss of height and a curved back. </p>         </div>"""   
+pain, loss of height and a curved back. </p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ Optruma is for use only by postmenopausal women and must not be taken by women w
 have a baby. Optruma could harm your unborn child. 
 Do not take Optruma if you are breast-feeding as it might be excreted in mother's milk. </p>
 <p>Driving and using machines 
-Optruma has no or negligible effects on driving or using machines. </p>         </div>"""   
+Optruma has no or negligible effects on driving or using machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take optruma"
@@ -169,7 +172,7 @@ up for a forgotten tablet dose. </p>
 You should talk to your doctor first. 
 It is important that you continue taking Optruma for as long as your doctor prescribes the medicine, 
 Optruma can treat or prevent your osteoporosis only if you continue to take the tablets. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -203,7 +206,7 @@ majority of side effects seen with Optruma have been mild. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store optruma"
@@ -215,7 +218,7 @@ this medicine. </p>         </div>"""
 last day of the month.  </p>
 <p>Store in the original package. Do not freeze.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -305,7 +308,7 @@ Tel: +371 67364United Kingdom (Northern Ireland)
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in month YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency (EMA) web 
-site: http://www.ema.europa.eu </p>         </div>"""      
+site: http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -344,7 +347,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -353,7 +358,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -368,7 +374,7 @@ Usage: #inline
 3. Sådan skal De tage Optruma 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -389,7 +395,7 @@ efter overgangsalderen.  </p>
 almindelig hos kvinder efter overgangsalderen. Selvom knogleskørhed i begyndelsen ikke giver 
 symptomer, kan den øge risikoen for, at De brækker Deres knogler, specielt rygsøjlen, hofterne og 
 håndleddene. Knogleskørhed kan også medføre, at De får rygsmerter, bliver lavere og får en rund 
-ryg. </p>         </div>"""   
+ryg. </p> </div>"""   
           
 
              
@@ -474,7 +480,7 @@ Optruma må kun anvendes af kvinder, der har passeret overgangsalderen og må ik
 kvinder, der stadig kan få børn. Optruma kunne skade det ufødte barn. 
 Anvend ikke Optruma hvis De ammer, da det muligvis udskilles i modermælk. </p>
 <p>Trafik- og arbejdssikkerhed 
-Optruma påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>         </div>"""   
+Optruma påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take optruma"
@@ -502,7 +508,7 @@ dobbeltdosis som erstatning for den glemte. </p>
 De skal først tale med Deres læge om det. 
 Det er vigtigt, at De fortsætter med at tage Optruma i så lang tid, som lægen har ordineret medicinen. 
 Optruma kan kun behandle eller forebygge knogleskørhed, hvis De fortsætter med at tage tabletterne. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -576,7 +582,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store optruma"
@@ -588,7 +594,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
 nævnte måned. </p>
 <p>Opbevares i originalemballagen. Må ikke fryses.  </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -685,7 +691,7 @@ Eli Lilly and Company (Ireland)Limited
 Tel: + 353-(0) 1 661 4 
 Denne indlægsseddel blev senest ændret  </p>
 <p>De kan finde yderligere oplysninger om Optruma på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/.  </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pioglitazone Actavis </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ Pioglitazone Actavis is working 3 to 6 months after you start taking it. </p>
 <p>Pioglitazone Actavis may be used on its own in patients who are unable to take metformin, and where 
 treatment with diet and exercise has failed to control blood sugar or may be added to other therapies 
 (such as metformin, sulphonylurea or insulin) which have failed to provide sufficient control of blood 
-sugar. </p>         </div>"""   
+sugar. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ Pioglitazone will not affect your ability to drive or use machines but take care
 abnormal vision. </p>
 <p>Pioglitazone Actavis contains lactose monohydrate 
 If you have been told by your doctor that you have intolerance to some sugars, contact your doctor 
-before taking Pioglitazone Actavis. </p>         </div>"""   
+before taking Pioglitazone Actavis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pioglitazone"
@@ -183,7 +186,7 @@ of Pioglitazone Actavis by referring to the calendar printed on the blister. </p
 <p>If you stop taking Pioglitazone Actavis<br />
 Pioglitazone Actavis should be used every day to work properly. If you stop using Pioglitazone 
 Actavis, your blood sugar may go up. Talk to your doctor before stopping this treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -251,7 +254,7 @@ other antidiabetic medicines are: </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pioglitazone"
@@ -263,7 +266,7 @@ this medicine. </p>         </div>"""
 after the word  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage precautions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -372,7 +375,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -411,7 +414,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -420,7 +425,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -435,7 +441,7 @@ Usage: #inline
 3. Sådan skal du tage Pioglitazon Actavis 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -453,7 +459,7 @@ undersøge om Pioglitazon Actavis virker 3 til 6 måneder efter du starter med a
 <p>Pioglitazon Actavis kan anvendes alene til patienter, som ikke er i stand til at tage metformin, og 
 hos hvem diæt og motion ikke har været i stand til at kontrollere blodsukkeret, eller det kan 
 anvendes som supplement til andre lægemidler (såsom metformin, sulfonylurinstof eller insulin), 
-hvis dette ikke har været i stand til at kontrollere blodsukkeret tilstrækkeligt. </p>         </div>"""   
+hvis dette ikke har været i stand til at kontrollere blodsukkeret tilstrækkeligt. </p> </div>"""   
           
 
              
@@ -518,7 +524,7 @@ Pioglitazon vil ikke påvirke din evne til at køre bil eller arbejde med maskin
 får synsforstyrrelser. </p>
 <p>Pioglitazon Actavis indeholder lactosemonohydrat<br />
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pioglitazone"
@@ -553,7 +559,7 @@ din tablet Pioglitazon Actavis ved at se på kalenderen trykt på blisterpakning
 <p>Hvis du holder op med at tage Pioglitazon Actavis 
 For at opnå den ønskede virkning skal du tage Pioglitazon Actavis hver dag. Hvis du holder op med at 
 tage Pioglitazon Actavis, kan dit blodsukker stige. Tal med lægen, før du stopper behandlingen. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -619,7 +625,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pioglitazone"
@@ -631,7 +637,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -779,7 +785,7 @@ Ireland
 Tel: +44 2075407 </p>
 <p>Denne indlægsseddel blev senest ændret { MM/ÅÅÅÅ } </p>
 <p>Du kan finde yderligere information om Pioglitazon Actavis på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

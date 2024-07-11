@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Amvuttra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ stopping them from working normally. This causes the symptoms of the illness. </
 <p>How Amvuttra works </p>
 <p>Amvuttra works by lowering the amount of TTR protein made by the liver which means there is less 
 TTR protein in the blood that can form amyloid. This can help to reduce the effects of this illness. </p>
-<p>Amvuttra is used in adults only. </p>         </div>"""   
+<p>Amvuttra is used in adults only. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ treatment for you - compared with the risks of breast-feeding for your baby. </p
 your condition allows you to drive vehicles and use machines safely. </p>
 <p>Amvuttra contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amvuttra"
@@ -171,7 +174,7 @@ effects. </p>
 <p>If you miss your dose of Amvuttra </p>
 <p>If you miss an appointment for your Amvuttra injection, contact your doctor, pharmacist or nurse as 
 soon as you can to arrange to have the injection you missed. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -192,7 +195,7 @@ Very common: may affect more than 1 in 10 people
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amvuttra"
@@ -205,7 +208,7 @@ safety of this medicine. </p>         </div>"""
 <p>Do not store above 30  C. Do not freeze. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -320,7 +323,7 @@ Alnylam Netherlands B.V.
 Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -359,7 +362,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -368,7 +373,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -385,7 +391,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -407,7 +413,7 @@ sygdommen. </p>
 <p>Amvuttra virker ved at reducere mængden af TTR-protein, som leveren fremstiller, hvilket betyder, at 
 der er mindre TTR-protein i blodet, som kan danne amyloid. Dette kan hjælpe med at reducere 
 effekterne af denne sygdom. </p>
-<p>Amvuttra må kun bruges til voksne. </p>         </div>"""   
+<p>Amvuttra må kun bruges til voksne. </p> </div>"""   
           
 
              
@@ -493,7 +499,7 @@ betjene maskiner. Din læge vil fortælle dig, om du sikkert kan føre motorkør
 din tilstand. </p>
 <p>Amvuttra indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. ml, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amvuttra"
@@ -515,7 +521,7 @@ kontrollere dig for bivirkninger. </p>
 <p>Hvis du ikke kommer til et besøg/en aftale, hvor du skal gives Amvuttra, skal du kontakte lægen, 
 apotekspersonalet eller sygeplejersken snarest muligt for at aftale et nyt besøg til at få den glemte 
 injektion. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -551,7 +557,7 @@ injektion. </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amvuttra"
@@ -563,7 +569,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares over 30 °C. Må ikke nedfryses. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden. Din læge eller 
-sygeplejerske vil kassere medicinresterne. </p>         </div>"""      
+sygeplejerske vil kassere medicinresterne. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -793,7 +799,7 @@ administrere dosen og aktivere kanyleskjoldet. </p>
 <ol>
 <li>Kasser injektionssprøjten </li>
 </ol>
-<p>Kasser straks den brugte injektionssprøjte i en kanylebeholder. </p>         </div>"""      
+<p>Kasser straks den brugte injektionssprøjte i en kanylebeholder. </p> </div>"""      
 
 
 

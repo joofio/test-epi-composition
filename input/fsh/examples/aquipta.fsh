@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store AQUIPTA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AQUIPTA contains the active substance atogepant. AQUIPTA is used to prevent migraine in adult 
 patients who have at least 4 migraine days per month.
 AQUIPTA is thought to block the activity of the calcitonin/calcitonin gene related peptide (CGRP)-
-receptor family, which have been linked to migraine.</p>         </div>"""   
+receptor family, which have been linked to migraine.</p> </div>"""   
           
 
              
@@ -116,7 +119,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to sa
 free .
 AQUIPTA 60 mg tablets 
 This medicine contains 31.5 mg sodium (main component of cooking/table salt) in each tablet. This is 
-equivalent to 1.6% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+equivalent to 1.6% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aquipta"
@@ -143,7 +146,7 @@ usual the following day.</p>
 If you stop taking AQUIPTA
 Do not stop taking AQUIPTA without talking to your doctor first. Your symptoms may return if you 
 stop the treatment.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -168,7 +171,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listing in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aquipta"
@@ -180,7 +183,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -286,7 +289,7 @@ Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu/.
 To listen to or request a copy of this leaflet in <em>Braille</em>, <em>large print</em> or <em>audio</em>, please contact 
-the local representative of the Marketing Authorisation Holder.</p>         </div>"""      
+the local representative of the Marketing Authorisation Holder.</p> </div>"""      
 
 
 
@@ -325,7 +328,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -334,7 +339,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -349,7 +355,7 @@ Usage: #inline
 3. Sådan skal du tage AQUIPTA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -360,7 +366,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AQUIPTA indeholder det aktive stof atogepant. AQUIPTA bruges til at forebygge migræne hos 
 voksne patienter, der har mindst 4 migrænedage pr. måned.
 AQUIPTA menes at virke ved at blokere aktiviteten af det  calcitonin /calcitonin-gen relaterede peptid 
-fra (CGRP)-receptor familien, som er blevet forbundet med migræne. </p>         </div>"""   
+fra (CGRP)-receptor familien, som er blevet forbundet med migræne. </p> </div>"""   
           
 
              
@@ -409,7 +415,7 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. 
 væsentlige natriumfrit.
 AQUIPTA 60 mg tabletter 
 Dette lægemiddel indeholder 31,5 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. tablet. 
-Dette svarer til 1,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p>         </div>"""   
+Dette svarer til 1,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aquipta"
@@ -442,7 +448,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage AQUIPTA
 Du må ikke holde op med at tage AQUIPTA uden først at tale med din læge. Dine symptomer kan 
 vende tilbage, hvis du stopper behandlingen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -476,7 +482,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aquipta"
@@ -488,7 +494,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren e
 den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -630,7 +636,7 @@ Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/.
 Hvis du ønsker at rekvirere denne indlægsseddel i <em>brailleskrift</em> eller &lt; magnaprint&gt; eller som 
-<em>lydfil</em>, kan du kontakte den lokale repræsentant for indehaveren af markedsføringstilladelsen.</p>         </div>"""      
+<em>lydfil</em>, kan du kontakte den lokale repræsentant for indehaveren af markedsføringstilladelsen.</p> </div>"""      
 
 
 

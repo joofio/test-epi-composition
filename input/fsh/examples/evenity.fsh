@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store EVENITY  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ designed to recognize and attach to specific proteins in the body. EVENITY attac
 called sclerostin. By attaching to and blocking the activity of sclerostin, EVENITY:<br />
 * helps to form new bone, and 
 * slows down the loss of existing bone. 
-This makes the bones stronger, and lowers the risk of fractures. </p>         </div>"""   
+This makes the bones stronger, and lowers the risk of fractures. </p> </div>"""   
           
 
              
@@ -183,7 +186,7 @@ EVENITY is expected to have no effect or very little effect on the ability to dr
 <p>EVENITY contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
 free . </p>
-<p>Draft </p>         </div>"""   
+<p>Draft </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evenity"
@@ -221,7 +224,7 @@ If you are considering stopping EVENITY treatment, please discuss this with your
 will advise you on how long you should be treated with EVENITY. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>
 <p>Discuss with your doctor the need to switch to another osteoporosis treatment after the end of your 
-treatment with EVENITY. </p>         </div>"""         
+treatment with EVENITY. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -265,7 +268,7 @@ reaction (rare: may affect up to 1 in 1,000 people):
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evenity"
@@ -284,7 +287,7 @@ If not used within this period the product should be discarded. </p>
 <p>Visually check the solution. Do not use it if the solution is discoloured, cloudy, or contains flakes or 
 particles. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -378,7 +381,7 @@ Tel: + 358 9 2514 4221 (Somija) </p>
 UCB (Pharma) Ireland Ltd.<br />
 Tel : + 353 / (0)1-46 37 This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -417,7 +420,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -426,7 +431,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -443,7 +449,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -471,7 +477,7 @@ sclerostin. Ved at binde sig til og blokere aktiviteten af sclerostin, gør EVEN
 <p>nedsætter hastigheden af tabet af eksisterende knogle. 
 Dette gør knoglerne stærkere og mindsker risikoen for knoglebrud. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -620,7 +626,7 @@ EVENITY forventes ikke eller kun i ubetydelig grad at påvirke evnen til at før
 betjene maskiner. </p>
 <p>EVENITY indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evenity"
@@ -678,7 +684,7 @@ Hvis du overvejer at stoppe behandlingen med EVENITY, skal du drøfte det med l�
 rådgive dig om, hvor længe du skal have behandling med EVENITY. </p>
 <p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
 <p>Tal med lægen om eventuelt behov for at skifte til en anden behandling mod knogleskørhed efter 
-afslutning af din behandling med EVENITY.  </p>         </div>"""         
+afslutning af din behandling med EVENITY.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -769,7 +775,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evenity"
@@ -787,7 +793,7 @@ lægemidlet ikke anvendes inden for denne periode, skal produktet bortskaffes. <
 <p>Check opløsningen visuelt. Brug ikke opløsningen, hvis den er misfarvet, grumset eller indeholder 
 flager eller partikler. </p>
 <p>Spørg på apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1192,7 +1198,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt her. Se punkt 4. - Du vil få udleveret et patientinformationskort med vigtige sikkerhedsinformationer, som du skal 
 være opmærksom på før og under din behandling med EVENITY. </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

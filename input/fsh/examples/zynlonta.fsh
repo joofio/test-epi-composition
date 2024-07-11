@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zynlonta  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ medicine has been prescribed for you. </p>
 attach to a specific target) and a cytotoxic agent (a medicine able to kill cells, including cancer cells). 
 The antibody in this medicine is designed to attach to CD19, a protein that is found on the surface of 
 B cells. When the antibody binds to these cells, including the cancer cells, the medicine enters the cells 
-and kills them. </p>         </div>"""   
+and kills them. </p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ information.  </p>
 Zynlonta has no or negligible influence on your ability to drive and use machines. If you get 
 infusion-related reactions or if you feel tired, weak or dizzy (see section 4) do not drive, cycle or use 
 tools or machines until you feel better. </p>
-<p>See section 4 for more information about side effects. </p>         </div>"""   
+<p>See section 4 for more information about side effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zynlonta"
@@ -202,7 +205,7 @@ You should not stop the therapy early without talking with your doctor first. </
 infusions that you receive will depend on how you are responding to treatment. Therefore, even if you 
 see your symptoms improve, you should continue to take Zynlonta until your doctor decides that your 
 medicine should be stopped. If the treatment is stopped too early, your symptoms may return. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -285,7 +288,7 @@ liver problems
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zynlonta"
@@ -305,7 +308,7 @@ direct sunlight. </p>
 <p>Zynlonta is a cytotoxic medicine. Applicable special handling and disposal procedures must be 
 followed.  </p>
 <p>Your doctor or pharmacist is responsible for disposing of any unused Zynlonta correctly. These 
-measures will help protect the environment. </p>         </div>"""      
+measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -336,7 +339,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -375,7 +378,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -384,7 +389,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -401,7 +407,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -429,7 +435,7 @@ hvorfor denne medicin er blevet ordineret til dig. </p>
 binde til et specifikt mål) og et cytotoksisk middel (et lægemiddel, der er i stand til at dræbe celler, 
 herunder cancerceller). Antistoffet i dette lægemiddel er designet til at binde til CD19, et protein, der 
 findes på overfladen af B-celler. Når antistoffet binder til disse celler, herunder cancercellerne, trænger 
-lægemidlet ind i cellerne og dræber dem. </p>         </div>"""   
+lægemidlet ind i cellerne og dræber dem. </p> </div>"""   
           
 
              
@@ -498,7 +504,7 @@ Tal med lægen, hvis du har brug for flere oplysninger.  </p>
 Zynlonta påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. 
 Hvis du får infusionsforbundne reaktioner, eller hvis du føler dig træt, svag eller svimmel (se punkt 4), 
 må du ikke føre motorkøretøj, cykle eller betjene værktøj eller maskiner, før du har fået det bedre. </p>
-<p>Se punkt 4 for flere oplysninger om bivirkninger. </p>         </div>"""   
+<p>Se punkt 4 for flere oplysninger om bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zynlonta"
@@ -547,7 +553,7 @@ Du bør ikke stoppe behandlingen før tid uden at tale med lægen først. </p>
 du vil få, afhænger af, hvordan du reagerer på behandlingen. Du skal derfor, også selvom du 
 observerer, at dine symptomer bedres, fortsætte med Zynlonta, indtil lægen beslutter, at din medicin 
 skal stoppes. Hvis behandlingen stoppes for tidligt, kan dine symptomer vende tilbage. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -654,7 +660,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zynlonta"
@@ -676,7 +682,7 @@ må nedfryses eller udsættes for direkte sollys. </p>
 <p>Zynlonta er et cytotoksisk lægemiddel. Passende særlige procedurer til håndtering og bortskaffelse 
 skal følges. </p>
 <p>Lægen eller apotekspersonalet er ansvarlig for korrekt bortskaffelse af eventuelt ubrugt Zynlonta. 
-Disse forholdsregler vil medvirke til at beskytte miljøet. </p>         </div>"""      
+Disse forholdsregler vil medvirke til at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -777,7 +783,7 @@ ikke anvendes straks, er opbevaringstider og -forhold før anvendelse brugerens 
 højst 24 timer på køl (2 ℃-8 ℃) eller 8 timer ved stuetemperatur (20 ℃-25 ℃), medmindre 
 fortynding har fundet sted under kontrollerede og validerede aseptiske forhold. Kemisk og fysisk 
 brugsstabilitet af den klargjorte opløsning til infusion er blevet vist i op til 24 timer ved stuetemperatur 
-(20 ℃-25 ℃). </p>         </div>"""      
+(20 ℃-25 ℃). </p> </div>"""      
 
 
 
@@ -816,7 +822,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -825,7 +833,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -842,7 +851,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Zynlonta  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -870,7 +879,7 @@ o motivo por que este medicamento lhe foi receitado. </p>
 reconhecer e ligar-se a um alvo específico) e um agente citotóxico (um medicamento capaz de matar 
 células, incluindo células cancerígenas). O anticorpo deste medicamento foi concebido para se ligar à 
 CD19, uma proteína que se encontra na superfície das células B. Quando o anticorpo se liga a estas 
-células, incluindo às células canceríngenas, o medicamento entra nas células e mata-as. </p>         </div>"""   
+células, incluindo às células canceríngenas, o medicamento entra nas células e mata-as. </p> </div>"""   
           
 
              
@@ -941,7 +950,7 @@ Os efeitos de Zynlonta sobre a sua capacidade de conduzir e utilizar máquinas s
 desprezáveis. Se tiver reações relacionadas com a perfusão ou se sentir cansaço, fraqueza ou tonturas 
 (ver secção 4), não conduza, não ande de bicicleta nem utilize ferramentas ou máquinas até se sentir 
 melhor. </p>
-<p>Para mais informação sobre efeitos indesejáveis, ver secção 4.  </p>         </div>"""   
+<p>Para mais informação sobre efeitos indesejáveis, ver secção 4.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zynlonta"
@@ -994,7 +1003,7 @@ Não deve parar o tratamento precocemente sem falar primeiro com o seu médico. 
 que recebe irá depender da sua resposta ao tratamento. Assim, mesmo se os seus sintomas 
 melhorarem, deve continuar a tomar Zynlonta até que o seu médico decida que o seu medicamento 
 deve ser interrompido. Se o tratamento for parado demasiado cedo, os seus sintomas podem regressar. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1103,7 +1112,7 @@ pequenos altos
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zynlonta"
@@ -1125,7 +1134,7 @@ expostas à luz solar direta. </p>
 <p>Zynlonta é um medicamento citotóxico. Devem ser observados os procedimentos de manuseamento e 
 eliminação aplicáveis. </p>
 <p>O seu médico ou farmacêutico é responsável pela eliminação correta de qualquer Zynlonta não 
-utilizado. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+utilizado. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1164,7 +1173,7 @@ significa que se aguarda mais informação sobre este medicamento. </p>
 <p>A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

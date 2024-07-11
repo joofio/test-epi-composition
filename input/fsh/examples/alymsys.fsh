@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Alymsys </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +108,7 @@ with a chemotherapy regimen containing a platinum agent, Alymsys will be adminis
 combination with paclitaxel, topotecan, or pegylated liposomal doxorubicin. </p>
 <p>Alymsys is also used for the treatment of adult patients with persistent, recurrent or metastatic cervical 
 cancer. Alymsys will be administered in combination with paclitaxel and cisplatin or, alternatively, 
-paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>         </div>"""   
+paclitaxel and topotecan in patients who cannot receive platinum therapy. </p> </div>"""   
           
 
              
@@ -256,7 +259,7 @@ your vision or concentration, or your ability to react, do not drive and use mac
 disappear. </p>
 <p>Alymsys contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alymsys"
@@ -302,7 +305,7 @@ discuss this with your doctor. </p>
 <p>If you stop treatment with Alymsys 
 Stopping your treatment with Alymsys may stop the effect on tumour growth. Do not stop treatment 
 with Alymsys unless you have discussed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -425,7 +428,7 @@ oxygen), which may be severe. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alymsys"
@@ -444,7 +447,7 @@ dilution has taken place in a sterile environment, Alymsys is stable for a perio
 to 8 C after dilution and a period of up to 48 hours at temperatures not exceeding 30 C. </p>
 <p>Do not use Alymsys if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -542,7 +545,7 @@ Tel: +371 67893United Kingdom (Northern Ireland)
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -581,7 +584,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -590,7 +595,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -607,7 +613,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelse og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -650,7 +656,7 @@ topotecan eller pegyleret liposomal doxorubicin. </p>
 <p>Alymsys bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
 livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
 metastaser). Alymsys bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og 
-topotecan til patienter, som ikke kan få platin. </p>         </div>"""   
+topotecan til patienter, som ikke kan få platin. </p> </div>"""   
           
 
              
@@ -827,7 +833,7 @@ påvirker dit syn eller din koncentrationsevne eller din reaktionsevne, skal du 
 og betjene maskiner, før symptomerne er forsvundet. </p>
 <p>Alymsys indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alymsys"
@@ -903,7 +909,7 @@ herom. </li>
 <p>Hvis du holder op med at få Alymsys 
 Hvis behandlingen med Alymsys stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
 behandlingen med Alymsys før, du har diskuteret det med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1170,7 +1176,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alymsys"
@@ -1189,7 +1195,7 @@ fortyndingen har fundet sted under sterile forhold, er Alymsys stabil i 30 dage 
 fortynding og i op til 48 timer ved temperaturer, der ikke overstiger 30 ºC.  </p>
 <p>Brug ikke Alymsys, hvis du opdager partikler eller misfarvning før indgift. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1325,7 +1331,7 @@ Tel: +44 (0) 800 090 2 </p>
 <p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}&gt;. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1364,7 +1370,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1373,7 +1381,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1390,7 +1399,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Alymsys </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1437,7 +1446,7 @@ associação com paclitaxel, topotecano, ou doxorrubicina lipossómica peguilada
 <p>Alymsys também é utilizado no tratamento de doentes adultos com cancro do colo do útero com 
 doença persistente, recorrente ou metastizada. Alymsys será administrado em associação com 
 paclitaxel e cisplatina, ou, alternativamente, paclitaxel e topotecano em doentes que não podem 
-receber tratamento com platina. </p>         </div>"""   
+receber tratamento com platina. </p> </div>"""   
           
 
              
@@ -1629,7 +1638,7 @@ Alymsys. Se teve sintomas que afetam a sua visão ou de concentração, ou a sua
 não conduza ou utilize máquinas até que os sintomas desapareçam. </p>
 <p>Alymsys contém sódio 
 Este medicamento contém menos de 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar alymsys"
@@ -1708,7 +1717,7 @@ seu médico. </li>
 Interromper o tratamento com Alymsys pode parar o seu efeito no crescimento do tumor. Não pare o 
 tratamento com Alymsys exceto se o assunto tiver sido discutido com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1987,7 +1996,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar alymsys"
@@ -2008,7 +2017,7 @@ estéril, Alymsys é estável durante até 30 dias a 2°C-8°C após a diluiçã
 <p>Não utilize Alymsys se notar qualquer partícula sólida ou descoloração antes da administração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2145,7 +2154,7 @@ Tel: +44 (0) 800 090 2 </p>
 <p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês YYYY}&gt;. </p>
 <p>Outras fontes de informação </p>
 <p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
-Europeia de Medicamentos: http://www.ema.europa.eu </p>         </div>"""      
+Europeia de Medicamentos: http://www.ema.europa.eu </p> </div>"""      
 
 
 

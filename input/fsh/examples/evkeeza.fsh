@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Evkeeza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ birth. Such high levels can lead to heart attacks, heart valve disease or other 
 Evinacumab, the active substance in Evkeeza, attaches to a protein in the body called ANGPTL3 and 
 blocks its effects. ANGPTL3 is involved in controlling the production of cholesterol, and blocking its 
 effect reduces the production of cholesterol. In this way, Evkeeza can lower blood levels of 
-LDL-cholesterol and so prevent problems caused by high LDL-cholesterol levels. </p>         </div>"""   
+LDL-cholesterol and so prevent problems caused by high LDL-cholesterol levels. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ Talk to your doctor about the best contraception method for you during this time
 this medicine. 
 * It is not known if Evkeeza passes into the breast milk. </p>
 <p>Driving and using machines 
-Evkeeza is not likely to affect you being able to drive, or use any tools or machines. </p>         </div>"""   
+Evkeeza is not likely to affect you being able to drive, or use any tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evkeeza"
@@ -142,7 +145,7 @@ over 60 minutes. </p>
 <p>If you miss your dose of Evkeeza 
 If you have missed an appointment to receive Evkeeza, talk to your doctor or nurse as soon as 
 possible. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -183,7 +186,7 @@ Tell your doctor or nurse if you notice any of the following side effects: </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evkeeza"
@@ -198,7 +201,7 @@ Do not freeze. Do not shake.
 Store in the original carton to protect from light. 
 Do not use this medicine if you notice it is cloudy, discoloured or contains particulate matter. </p>
 <p>Do not store any unused portion of the infusion solution for re-use. Any unused portion of the infusion 
-solution should not be re-used and should be disposed in accordance with local requirements. </p>         </div>"""      
+solution should not be re-used and should be disposed in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -284,7 +287,7 @@ administer evinacumab as an intravenous push or bolus.
 * Do not mix other medicinal products with evinacumab or administer concomitantly via the same 
 infusion line. </p>
 <p>The rate of infusion may be slowed, interrupted or discontinued if the patient develops any signs of 
-adverse reactions, including infusion-associated symptoms. </p>         </div>"""      
+adverse reactions, including infusion-associated symptoms. </p> </div>"""      
 
 
 
@@ -323,7 +326,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -332,7 +337,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -349,7 +355,7 @@ Usage: #inline
 <li>Mulige bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -375,7 +381,7 @@ Evinacumab, som er det aktive stof i Evkeeza, fæstner sig til et protein i krop
 ANGPTL3 og blokerer virkningen af dette. ANGPTL3 er en medvirkende del i styringen af 
 kolesterolproduktionen, og blokering af dets virkning reducerer kolesterolproduktionen. På den måde 
 kan Evkeeza sænke blodets indhold af LDL-kolesterol og således forebygge problemer, der forårsages 
-af høje LDL-kolesterolniveauer. </p>         </div>"""   
+af høje LDL-kolesterolniveauer. </p> </div>"""   
           
 
              
@@ -420,7 +426,7 @@ lægemiddel.
  
 Det er ukendt, om Evkeeza udskilles i modermælk. </p>
 <p>Trafik- og arbejdssikkerhed 
-Evkeeza forventes ikke at påvirke evnen til at føre motorkøretøj eller brug af værktøj eller maskiner. </p>         </div>"""   
+Evkeeza forventes ikke at påvirke evnen til at føre motorkøretøj eller brug af værktøj eller maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evkeeza"
@@ -439,7 +445,7 @@ infusion") over 60 minutter. </p>
 <p>Hvis du ikke får din dosis Evkeeza 
 Hvis du ikke når din aftalte tid til at få Evkeeza , skal du tale med din læge eller sygeplejerske hurtigst 
 muligt. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -498,7 +504,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evkeeza"
@@ -513,7 +519,7 @@ Må ikke nedfryses. Må ikke omrystes.
 Opbevares i den originale karton for at beskytte mod lys. 
 Dette lægemiddel må ikke anvendes, hvis det er uklart, misfarvet eller indeholder partikler. </p>
 <p>Opbevar ikke ubrugte portioner af infusionsvæsken med henblik på genbrug. Enhver ubrugt portion af 
-infusionsvæsken må ikke genbruges og skal bortskaffes i overensstemmelse med lokale retningslinjer. </p>         </div>"""      
+infusionsvæsken må ikke genbruges og skal bortskaffes i overensstemmelse med lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -613,7 +619,7 @@ Evinacumab må ikke administreres intravenøst på én gang eller som en bolus.
 Andre lægemidler må ikke blandes med evinacumab eller administreres samtidig gennem den 
 samme infusionsslange. </p>
 <p>Infusionshastigheden kan sænkes, afbrydes eller seponeres, hvis patienten udvikler tegn på 
-bivirkninger, herunder symptomer i forbindelse med infusionen. </p>         </div>"""      
+bivirkninger, herunder symptomer i forbindelse med infusionen. </p> </div>"""      
 
 
 

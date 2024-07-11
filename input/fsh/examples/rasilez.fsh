@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rasilez </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ amount of angiotensin II allows the blood vessels to relax, which lowers blood p
 <p>This helps to lower high blood pressure in adult patients. High blood pressure increases the workload 
 of the heart and arteries. If this continues for a long time, it can damage the blood vessels of the brain, 
 heart and kidneys, and may result in a stroke, heart failure, heart attack or kidney failure. Lowering the 
-blood pressure to a normal level reduces the risk of developing these disorders. </p>         </div>"""   
+blood pressure to a normal level reduces the risk of developing these disorders. </p> </div>"""   
           
 
              
@@ -186,7 +189,7 @@ you if you wish to breast-feed. </p>
 <p>Driving and using machines 
 This medicine may make you feel dizzy and this can affect your ability to concentrate. Before you 
 drive a vehicle, use machinery, or carry out other activities that require concentration, you should 
-make sure you know how you react to the effects of this medicine. </p>         </div>"""   
+make sure you know how you react to the effects of this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rasilez"
@@ -221,7 +224,7 @@ may require medical attention. </p>
 <p>If you forget to take Rasilez 
 If you forget to take a dose of this medicine, take it as soon as you remember and then take the next 
 dose at its usual time. However, if it is almost time for your next dose you should simply take the next 
-tablet at the usual time. Do not take a double dose to make up for a forgotten dose. </p>         </div>"""         
+tablet at the usual time. Do not take a double dose to make up for a forgotten dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -254,7 +257,7 @@ appetite, dark coloured urine or yellowing of skin and eyes). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rasilez"
@@ -267,7 +270,7 @@ refers to the last day of that month.
 Do not store above 25 C. 
 Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ Segrate (MI),
 Italy. </p>
 <p>This leaflet was last revised in 02/2Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu </p>         </div>"""      
+http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -360,7 +363,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -369,7 +374,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -384,7 +390,7 @@ Usage: #inline
 3. Sådan skal du tage Rasilez 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -399,7 +405,7 @@ angiotensin-II mindskes, kan blodkarrene slappe af, og det sænker blodtrykket. 
 <p>Dette hjælper til at sænke forhøjet blodtryk hos voksne patienter. Forhøjet blodtryk øger belastningen 
 på hjerte og blodkar. Hvis det fortsætter i lang tid, kan det beskadige blodkarrene i hjernen, hjertet og 
 nyrerne, som kan føre til slagtilfælde, hjertesvigt, hjerteanfald eller nyresvigt. Når blodtrykket sænkes 
-til normalt niveau, mindskes risikoen for at få disse sygdomme. </p>         </div>"""   
+til normalt niveau, mindskes risikoen for at få disse sygdomme. </p> </div>"""   
           
 
              
@@ -508,7 +514,7 @@ behandling til dig. </p>
 <p>Trafik- og arbejdssikkerhed 
 Dette lægemiddel kan få dig til at føle dig svimmel, og det kan påvirke din koncentrationsevne. Du 
 skal sørge for at finde ud af, hvordan du reagerer på dette lægemiddel, før du kører bil, betjener 
-maskiner eller udfører andre aktiviteter, som kræver koncentration. </p>         </div>"""   
+maskiner eller udfører andre aktiviteter, som kræver koncentration. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rasilez"
@@ -543,7 +549,7 @@ Det kan være nødvendigt med lægebehandling. </p>
 Hvis du glemmer at tage en dosis af denne medicin, skal du tage det så snart, du kommer i tanker om 
 det, og derefter tage den næste dosis til sædvanlig tid. Hvis det næsten er tid til den næste dosis, skal 
 du bare tage den næste tablet til sædvanlig tid. Du må ikke tage en dobbeltdosis som erstatning for den 
-glemte dosis. </p>         </div>"""         
+glemte dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -582,7 +588,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rasilez"
@@ -595,7 +601,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 25 °C. 
 Opbevares i den originale pakning for at beskytte mod fugt. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -647,7 +653,7 @@ Italien </p>
 <p>Denne indlægsseddel blev senest ændret 02/2 
 Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 

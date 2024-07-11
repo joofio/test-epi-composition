@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Kapruvia </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ kidney disease who need dialysis to clean their blood. </p>
 the perception of itching. By stimulating these receptors on nerves and immune cells outside the brain, 
 Kapruvia relieves the sensation of itch caused by chronic kidney disease. The active substance 
 difelikefalin does not pass the blood-brain barrier (the natural protective barrier between blood vessels 
-and the brain), which reduces the risk of side effects. </p>         </div>"""   
+and the brain), which reduces the risk of side effects. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ use machines if your ability to react is reduced or you do not know the effect o
 ability to react. </p>
 <p>Kapruvia contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free .  </p>         </div>"""   
+free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kapruvia"
@@ -148,7 +151,7 @@ these patients. </p>
 <p>If you have been given more Kapruvia than you should 
 This increases the occurrence of side effects listed in section 4. Inform your doctor if you think this 
 applies to you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -172,7 +175,7 @@ feeling or sensitivity </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kapruvia"
@@ -182,7 +185,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after  EXP . The 
 expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>         </div>"""      
+<p>This medicine does not require any special storage conditions. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -214,7 +217,7 @@ Tour Franklin La D fense 8
 France </p>
 <p>For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -253,7 +256,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -262,7 +267,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -279,7 +285,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -293,7 +299,7 @@ kronisk nyresygdom, som har behov for dialyse til at få renset blodet. </p>
 kontrollere opfattelsen af kløe. Ved at stimulere disse receptorer på nerver og immunceller uden for 
 hjernen, lindrer Kapruvia følelsen af kløe, som skyldes kronisk nyresygdom. Det aktive stof, 
 difelikefalin, passerer ikke blod-hjerne-barrieren (den naturlige beskyttende barriere mellem 
-blodkarrene og hjernen), hvilket mindsker risikoen for bivirkninger. </p>         </div>"""   
+blodkarrene og hjernen), hvilket mindsker risikoen for bivirkninger. </p> </div>"""   
           
 
              
@@ -353,7 +359,7 @@ køre bil eller betjene maskiner, hvis din reaktionsevne er nedsat, eller hvis d
 virkning på din reaktionsevne. </p>
 <p>Kapruvia indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kapruvia"
@@ -378,7 +384,7 @@ patientgruppe. </p>
 <p>Hvis du har fået for meget Kapruvia 
 Dette øger forekomsten af de bivirkninger, som er angivet i punkt 4. Informer lægen, hvis du mener, at 
 det gælder for dig. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -421,7 +427,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kapruvia"
@@ -431,7 +437,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og kartonen efter EXP. Udløbsdatoen 
 er den sidste dag i den nævnte måned. </p>
-<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>         </div>"""      
+<p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -471,7 +477,7 @@ Frankrig </p>
 repræsentant for indehaveren af markedsføringstilladelsen. </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

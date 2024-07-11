@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Xigduo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ production of insulin when your blood sugar is high).</p>
 ask you to switch to this medicine. To avoid overdose, do not continue taking dapagliflozin and 
 metformin tablets, if you are taking Xigduo.
 It is important to continue to follow the advice on diet and exercise given to you by your doctor, 
-pharmacist or nurse.</p>         </div>"""   
+pharmacist or nurse.</p> </div>"""   
           
 
              
@@ -233,7 +236,7 @@ and may affect your ability to drive and use machines. Do not drive or use any t
 you start to feel these symptoms.
 Sodium content
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say it is essentially
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xigduo"
@@ -273,7 +276,7 @@ this medicine to make up for a forgotten dose.
 If you stop taking Xigduo
 Do not stop taking this medicine without talking to your doctor first. Your blood sugar may increase 
 without this medicine.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -365,7 +368,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xigduo"
@@ -377,7 +380,7 @@ Do not use this medicine after the expiry date which is stated on the blister or
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -480,7 +483,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -519,7 +522,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -528,7 +533,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -543,7 +549,7 @@ Usage: #inline
 3. Sådan skal du tage Xigduo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -580,7 +586,7 @@ dig om at skifte til dette lægemiddel. For at undgå en overdosis, skal du stop
 dapagliflozin- og metformintabletter, hvis du tager Xigduo.
 Det er vigtigt, at du fortsætter med at følge de råd om kost og motion, som din læge, apotekspersonalet 
 eller sundhedspersonalet har givet dig.
-53</p>         </div>"""   
+53</p> </div>"""   
           
 
              
@@ -746,7 +752,7 @@ betjene maskiner. Lad være med at køre i trafikken eller arbejde med værktøj
 begynder at få disse symptomer.
 Xigduo indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. det er i det 
-væsentlige natriumfri.</p>         </div>"""   
+væsentlige natriumfri.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xigduo"
@@ -794,7 +800,7 @@ glemte dosis.
 Hvis du holder op med at tage Xigduo
 Hold ikke op med at tage dette lægemiddel uden først at tale med din læge. Dit blodsukker kan stige, 
 hvis du ikke tager din medicin.
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -923,7 +929,7 @@ også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xigduo"
@@ -935,7 +941,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisteren eller æske
 er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1074,7 +1080,7 @@ Tel: +44 1582 836 836
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -1113,7 +1119,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1122,7 +1130,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1137,7 +1146,7 @@ Usage: #inline
 3. Como tomar Xigduo
 4. Efeitos indesejáveis possíveis
 5. Como conservar Xigduo
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1175,7 +1184,7 @@ Se já está a tomar comprimidos de dapagliflozina e metformina isoladamente, o 
 poderá pedir-lhe para mudar para este medicamento. Para evitar sobredosagem, não continue a 
 tomar os comprimidos de dapagliflozina e metformina se está a tomar Xigduo.
 É importante que continue a seguir as recomendações do seu médico, farmacêutico ou enfermeiro 
-sobre a dieta e o exercício.</p>         </div>"""   
+sobre a dieta e o exercício.</p> </div>"""   
           
 
              
@@ -1349,7 +1358,7 @@ sua capacidade de conduzir e utilizar máquinas. Não conduza ou utilize quaisqu
 máquinas, se começar a sentir estes sintomas.
 Conteúdo em sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xigduo"
@@ -1401,7 +1410,7 @@ Se parar de tomar Xigduo
 Não pare de tomar este medicamento sem falar primeiro com o seu médico. O seu nível de açúcar no 
 sangue pode aumentar sem este medicamento.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1528,7 +1537,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xigduo"
@@ -1541,7 +1550,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
 Este medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1687,7 +1696,7 @@ Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em
 70
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

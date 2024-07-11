@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Xultophy </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ insulin) are not enough to control your blood sugar levels.  </p>
 <p>If you use GLP-1 treatment 
 You should stop your GLP-1 treatment prior to starting on Xultophy. </p>
 <p>If you use insulin 
-You should stop your insulin treatment prior to starting on Xultophy. </p>         </div>"""   
+You should stop your insulin treatment prior to starting on Xultophy. </p> </div>"""   
           
 
              
@@ -190,7 +193,7 @@ dangerous to yourself or others. Ask your doctor whether you can drive if:
 * you find it hard to recognise low blood sugar. </p>
 <p>Important information about some of the ingredients of Xultophy<br />
 Xultophy contains less than 1 mmol sodium (23 mg) per dose. This means that the medicine is 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xultophy"
@@ -260,7 +263,7 @@ next regular scheduled dose, do not take a double dose. </p>
 <p>If you stop using Xultophy<br />
 Do not stop using Xultophy without talking to your doctor. If you stop using Xultophy this could lead 
 to a very high blood sugar level, see the advice in section 4  High blood sugar (hyperglycaemia) . </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -384,7 +387,7 @@ coma and eventually death. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.  </p>         </div>"""      
+safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xultophy"
@@ -402,7 +405,7 @@ or in a refrigerator (2 C to 8 C) for up to 21 days. The product should be throw
 first opening. </p>
 <p>Always keep the cap on the pre-filled pen when you are not using it in order to protect it from light.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -428,7 +431,7 @@ DK-2880 Bagsv rd, Denmark </p>
 <p>Now turn over for information on how to use your pre-filled pen. </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -467,7 +470,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -476,7 +481,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -493,7 +499,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -530,7 +536,7 @@ behandling eller sammen med basalinsulin) ikke er nok til at kontrollere dit blo
 <p>Hvis du er i behandling med en GLP-1-analog 
 Du skal stoppe behandlingen med GLP-1-analogen, før du begynder at bruge Xultophy. </p>
 <p>Hvis du bruger insulin 
-Du skal stoppe behandlingen med insulin, før du begynder at bruge Xultophy. </p>         </div>"""   
+Du skal stoppe behandlingen med insulin, før du begynder at bruge Xultophy. </p> </div>"""   
           
 
              
@@ -703,7 +709,7 @@ reaktionsevne. Det kan være farligt for dig selv eller andre. Spørg din læge,
 </ul>
 <p>Vigtig information om nogle af indholdsstofferne i Xultophy<br />
 Xultophy indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xultophy"
@@ -818,7 +824,7 @@ din næste regelmæssige planlagte dosis, må du ikke tage en dobbeltdosis. </p>
 Du må ikke holde op med at bruge Xultophy uden først at have talt med din læge om det. Hvis du 
 holder op med at tage Xultophy, kan det føre til et meget højt blodsukkerniveau, se informationen i 
 punkt 4 "Højt blodsukker (hyperglykæmi)". </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1060,7 +1066,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xultophy"
@@ -1077,7 +1083,7 @@ Må ikke fryses. Du kan medbringe Xultophy og opbevare det ved stuetemperatur (i
 eller i køleskab (2°C - 8°C) i op til 21 dage. Produktet skal kasseres 21 dage efter ibrugtagning. </p>
 <p>Lad altid hætten sidde på den fyldte pen, når den ikke er i brug, for at beskytte den mod lys.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1450,7 +1456,7 @@ nål på og kontrollere gennemløbet, før du injicerer. </p>
 <li>
 <p>Forsøg ikke at reparere din pen eller skille den ad. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Rhokiinsa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ called  Rho kinase inhibitors , which work to reduce the amount of fluid inside 
 its pressure.  </p>
 <p>Rhokiinsa is used to lower pressure in the eyes in adults who have an eye condition known as 
 glaucoma or who have raised pressure in their eyes. If the pressure in the eye is too high, it can 
-damage your sight. </p>         </div>"""   
+damage your sight. </p> </div>"""   
           
 
              
@@ -111,7 +114,7 @@ This medicine contains approximately 150 micrograms benzalkonium chloride in eac
 contact lenses. You should remove contact lenses before using this medicine and put them back minutes afterwards.   </p>
 <p>Benzalkonium chloride may also cause eye irritation, especially if you have dry eyes or disorders of 
 the cornea (the clear layer at the front of the eye).  If you feel abnormal eye sensation, stinging or pain 
-in the eye after using this medicine, talk to your doctor. </p>         </div>"""   
+in the eye after using this medicine, talk to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rhokiinsa"
@@ -151,7 +154,7 @@ Do not use more than one drop in the affected eye(s) once a day.  </p>
 <p>If you stop using Rhokiinsa 
 Do not stop using Rhokiinsa without first speaking to your doctor. If you stop using Rhokiinsa the 
 pressure in your eye will not be controlled which could lead to loss of sight.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -186,7 +189,7 @@ the skin  </p>
 If you get any side effects, talk to your doctor,  or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rhokiinsa"
@@ -200,7 +203,7 @@ The expiry date refers to the last day of that month. </p>
 After opening the bottle: Do not store above 25 C. 
 Throw away the bottle 4 weeks after first opening to prevent infections and use a new bottle.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -291,7 +294,7 @@ Santen Oy </p>
 <p>Tel: +353 (0) 169 500 (UK Tel: + 44 (0) 345 075 4863) </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -330,7 +333,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -339,7 +344,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -356,7 +362,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -368,7 +374,7 @@ Usage: #inline
 "Rho-kinase-hæmmere", og de reducerer mængden af væske i øjet og får derved trykket til at falde. </p>
 <p>Rhokiinsa anvendes til at sænke trykket i øjet hos voksne, der har en øjensygdom, som hedder 
 glaukom (grøn stær), eller som har et øget tryk i øjnene. Hvis trykket i øjet er for stort, kan det skade 
-synet. </p>         </div>"""   
+synet. </p> </div>"""   
           
 
              
@@ -404,7 +410,7 @@ Du skal tage kontaktlinserne ud, inden lægemidlet bruges, og vente mindst 15 mi
 kontaktlinserne i igen. </p>
 <p>Benzalkoniumchlorid kan også forårsage øjenirritation, især hvis du har tørre øjne eller problemer med 
 hornhinden (den klare hinde forrest på øjet).  Hvis du har unormale fornemmelser i øjet såsom svie 
-eller smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p>         </div>"""   
+eller smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rhokiinsa"
@@ -457,7 +463,7 @@ Anvend ikke mere end 1 dråbe i det eller de berørte øjne én gang dagligt. </
 <p>Hvis du holder op med at bruge Rhokiinsa 
 Hold ikke op med at bruge Rhokiinsa uden at tale med lægen først. Hvis du holder op med at bruge 
 Rhokiinsa, vil trykket i dit øje ikke være kontrolleret, og det kan medføre synstab. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -495,7 +501,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rhokiinsa"
@@ -509,7 +515,7 @@ sidste dag i den nævnte måned. </p>
 Efter åbning af flasken: Må ikke opbevares ved temperaturer over 25 °C. 
 Smid flasken ud 4 uger efter åbning for at undgå infektioner, og anvend derefter en ny flaske. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -623,7 +629,7 @@ Santen Oy </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -662,7 +668,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -671,7 +679,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -688,7 +697,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Rhokiinsa </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -701,7 +710,7 @@ medicamentos chamados "inibidores da quinase Rho", que  atuam reduzindo a quanti
 dentro do olho e, assim, diminuindo a sua pressão. </p>
 <p>Rhokiinsa é utilizado para diminuir a pressão nos olhos em adultos que tenham uma condição ocular 
 conhecida como glaucoma ou que tenham pressão aumentada nos olhos. Se a pressão no olho for 
-muito alta, pode danificar a sua visão. </p>         </div>"""   
+muito alta, pode danificar a sua visão. </p> </div>"""   
           
 
              
@@ -738,7 +747,7 @@ lentes de contacto. Deve remover  as lentes de contacto antes da utilização de
 a colocá-las após 15 minutos. </p>
 <p>O cloreto de benzalcónio também pode causar irritação nos olhos, especialmente se tem os olhos secos 
 ou alteraçõesda córnea (a camada transparente na parte da frente do olho).  Se sentir uma sensação 
-estranha no olho, picadas ou dor no olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+estranha no olho, picadas ou dor no olho após utilizar este medicamento, fale com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rhokiinsa"
@@ -792,7 +801,7 @@ Não utilize mais do que uma gota no(s) olho(s) afetado(s) uma vez por dia. </p>
 Não pare de utilizar Rhokiinsa sem consultar primeiro o seu médico. Se parar de utilizar Rhokiinsa a 
 pressão no olho não será controlada, o que poderá resultar em perda de visão. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -833,7 +842,7 @@ dermatotilexomania </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rhokiinsa"
@@ -848,7 +857,7 @@ Após abrir o frasco: Não conservar acima de 25 °C.
 Deite fora o frasco 4 semanas após a primeira abertura para evitar infeções e utilize um frasco novo. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -960,7 +969,7 @@ SantenOy </p>
 <p>Tel: +353 (0) 169 500 (UK Tel: + 44 (0) 345 075 4863) </p>
 <p>Este folheto foi revisto pela última vez em . </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

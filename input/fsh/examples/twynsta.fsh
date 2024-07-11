@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Twynsta</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ wish to take instead the same doses in one tablet for convenience.
 High blood pressure, if not treated, can damage blood vessels in several organs, which puts patients at 
 risk of serious events such as heart attack, heart or kidney failure, stroke, or blindness. There are usually 
 no symptoms of high blood pressure before damage occurs. Thus it is important to regularly measure 
-blood pressure to verify if it is within the normal range.</p>         </div>"""   
+blood pressure to verify if it is within the normal range.</p> </div>"""   
           
 
              
@@ -197,7 +200,7 @@ Twynsta contains sorbitol
 This medicine contains 168.64 mg sorbitol in each tablet.
 Twynsta contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take twynsta"
@@ -226,7 +229,7 @@ for forgotten individual doses.
 If you stop taking Twynsta
 It is important that you take Twynsta every day until your doctor tells you otherwise. If you have the 
 impression that the effect of Twynsta is too strong or too weak, talk to your doctor or pharmacist.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store twynsta"
@@ -317,7 +320,7 @@ This medicine does not require any special temperature storage conditions. Store
 in order to protect from light and moisture. Remove your Twynsta tablet from the blister only directly 
 prior to intake.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -425,7 +428,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -464,7 +467,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -473,7 +478,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -488,7 +494,7 @@ Usage: #inline
 3. Sådan skal du tage Twynsta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -517,7 +523,7 @@ hos voksne patienter, der allerede får telmisartan og amlodipin fra forskellige
 Ubehandlet højt blodtryk kan medføre skader på blodkarrene i flere organer, hvilket betyder, at der er 
 risiko for alvorlige hændelser hos patienten såsom hjerteanfald, hjerte- eller nyresvigt, slagtilfælde eller 
 blindhed. Sædvanligvis er der ingen symptomer på højt blodtryk, før skader er indtruffet. Derfor er det 
-vigtigt jævnligt at få sit blodtryk målt for at kontrollere, om det ligger inden for normalområdet.</p>         </div>"""   
+vigtigt jævnligt at få sit blodtryk målt for at kontrollere, om det ligger inden for normalområdet.</p> </div>"""   
           
 
              
@@ -665,7 +671,7 @@ Dette lægemiddel indeholder 168,64 mg sorbitol pr. tablet.
 Twynsta indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
 natriumfrit.
-122</p>         </div>"""   
+122</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take twynsta"
@@ -695,7 +701,7 @@ Hvis du holder op med at tage Twynsta
 Det er vigtigt, at du tager Twynsta hver dag, indtil din læge siger noget andet. Hvis du føler, at 
 virkningen af Twynsta er for kraftig eller for svag, bør du tale med din læge eller apotekspersonalet 
 herom.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -775,7 +781,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store twynsta"
@@ -789,7 +795,7 @@ Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemi
 originale yderpakning for at beskytte mod lys og fugt. Tryk først Twynsta tabletten ud af blisteren, 
 umiddelbart før du skal tage den.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -951,7 +957,7 @@ Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.
-Oversigt over indlægssedlen</p>         </div>"""      
+Oversigt over indlægssedlen</p> </div>"""      
 
 
 
@@ -990,7 +996,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -999,7 +1007,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1014,7 +1023,7 @@ Usage: #inline
 3. Como tomar Twynsta
 4. Efeitos indesejáveis possíveis
 5. Como conservar Twynsta
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1047,7 +1056,7 @@ A tensão arterial elevada, se não for tratada, pode causar danos nos vasos san
 o que pode colocar os doentes em risco de acontecimentos graves, como ataque cardíaco, insuficiência 
 cardíaca ou renal, acidente vascular cerebral ou cegueira. Normalmente, não há sintomas de tensão 
 arterial elevada antes de ocorrerem danos. Por isso, é importante medir regularmente a tensão arterial 
-para verificar se a mesma se encontra dentro dos valores normais.</p>         </div>"""   
+para verificar se a mesma se encontra dentro dos valores normais.</p> </div>"""   
           
 
              
@@ -1194,7 +1203,7 @@ Este medicamento contém 168,64 mg de sorbitol em cada comprimido.
 126
 Twynsta contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar twynsta"
@@ -1226,7 +1235,7 @@ Se parar de tomar Twynsta
 É importante que tome Twynsta todos os dias até o seu médico lhe dar instruções em contrário. Se tiver 
 a sensação de que o efeito de Twynsta é demasiado forte ou demasiado fraco, fale com o seu médico ou 
 farmacêutico.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1315,7 +1324,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar twynsta"
@@ -1330,7 +1339,7 @@ embalagem de origem para proteger da luz e da humidade. Retire o seu comprimido 
 blister apenas imediatamente antes de o tomar.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente.</p>         </div>"""      
+ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1479,7 +1488,7 @@ Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

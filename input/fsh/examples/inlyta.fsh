@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Inlyta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ tumour and slows down the growth of cancer. </p>
 adults, when another medicine (called sunitinib or a cytokine) is no longer stopping disease from 
 progressing. </p>
 <p>If you have any questions about how this medicine works or why this medicine has been prescribed 
-for you, ask your doctor. </p>         </div>"""   
+for you, ask your doctor. </p> </div>"""   
           
 
              
@@ -215,7 +218,7 @@ driving or using machines. </p>
 before taking this medicine. </p>
 <p>Inlyta contains sodium </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium per film-coated tablet, that is to say 
-essentially  sodium-free .  </p>         </div>"""   
+essentially  sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inlyta"
@@ -240,7 +243,7 @@ usual time. </p>
 <p>If you stop taking Inlyta 
 If you are not able to take this medicine as your doctor prescribed or you feel you do not need it 
 anymore, contact your doctor right away.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -332,7 +335,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inlyta"
@@ -345,7 +348,7 @@ bottle after  EXP . The expiry date refers to the last day of the month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use any pack that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -456,7 +459,7 @@ Tel.: + 371 670 35 United Kingdom (Northern Ireland)
 Pfizer Limited 
 Tel: +44 (0) 1304 616This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -495,7 +498,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -504,7 +509,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -519,7 +525,7 @@ Usage: #inline
 3. Sådan skal du tage Inlyta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -531,7 +537,7 @@ Usage: #inline
 væksten af kræft.
 Inlyta er medicin, der bruges til behandling af fremskreden nyrekræft (fremskreden renalcellekræft) 
 hos voksne, når anden medicin mod kræft (sunitinib eller et cytokin) ikke virker længere.
-Kontakt lægen, hvis du vil vide mere om, hvordan medicinen virker, eller hvorfor du skal tage den.</p>         </div>"""   
+Kontakt lægen, hvis du vil vide mere om, hvordan medicinen virker, eller hvorfor du skal tage den.</p> </div>"""   
           
 
              
@@ -658,7 +664,7 @@ sukkerarter.
 49
 Inlyta indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inlyta"
@@ -681,7 +687,7 @@ Du skal ikke tage en ekstra tablet, hvis du kaster op. Tag blot den næste dosis
 Hvis du holder op med at tage Inlyta
 Hvis du ikke er i stand til at tage medicinen, som lægen har anvist, eller du føler, at du ikke behøver 
 den mere, skal du straks kontakte lægen. 
-Spørg lægen, på apotekespersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, på apotekespersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -794,7 +800,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inlyta"
@@ -808,7 +814,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 Brug ikke dette lægemiddel, hvis du bemærker at pakningen er ødelagt eller viser tegn på at have 
 været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -948,7 +954,7 @@ Pfizer Limited
 Tel: +44 (0)1304 616161
 Denne indlægsseddel blev senest ændret 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/</p> </div>"""      
 
 
 
@@ -987,7 +993,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -996,7 +1004,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1011,7 +1020,7 @@ Usage: #inline
 3. Como tomar Inlyta
 4. Efeitos secundários possíveis
 5. Como conservar Inlyta
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1025,7 +1034,7 @@ Inlyta está indicado no tratamento do cancro do rim avançado (carcinoma de cé
 em adultos, quando outro medicamento (denominado sunitinib ou uma citocina) já não está a impedir 
 a progressão da doença.
 Se tem questões sobre como funciona este medicamento ou porque é que este medicamento lhe foi 
-receitado, pergunte ao seu médico.</p>         </div>"""   
+receitado, pergunte ao seu médico.</p> </div>"""   
           
 
              
@@ -1164,7 +1173,7 @@ Se o seu médico lhe disse que tem uma intolerância a alguns açúcares, contac
 tomar este medicamento.
 Inlyta contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido revestido por 
-película ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+película ou seja, é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar inlyta"
@@ -1191,7 +1200,7 @@ Se não consegue tomar este medicamento como o seu médico lhe receitou ou se se
 necessita dele, contacte o seu médico imediatamente. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
 ou enfermeiro.
-51</p>         </div>"""         
+51</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1310,7 +1319,7 @@ Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundári
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar inlyta"
@@ -1331,7 +1340,7 @@ Não utilize nenhuma embalagem caso esteja danificada ou apresente sinais de adu
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente.
-53</p>         </div>"""      
+53</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1473,7 +1482,7 @@ Pfizer Limited
 Tel: +44 (0) 1304 616161
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

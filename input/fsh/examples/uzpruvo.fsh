@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Uzpruvo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ enough to these medicines, you may be given Uzpruvo to:<br />
 <p>Crohn s disease 
 Crohn s disease is an inflammatory disease of the bowel. If you have Crohn s disease you will first be 
 given other medicines. If you do not respond well enough or are intolerant to these medicines, you 
-may be given Uzpruvo to reduce the signs and symptoms of your disease. </p>         </div>"""   
+may be given Uzpruvo to reduce the signs and symptoms of your disease. </p> </div>"""   
           
 
              
@@ -186,7 +189,7 @@ baby s doctor recommends otherwise.
 breast-feeding or are planning to breast-feed. You and your doctor should decide if you should 
 breast-feed or use Uzpruvo - do not do both.  </p>
 <p>Driving and using machines<br />
-Uzpruvo has no or negligible influence on the ability to drive and use machines.  </p>         </div>"""   
+Uzpruvo has no or negligible influence on the ability to drive and use machines.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take uzpruvo"
@@ -240,7 +243,7 @@ If you forget a dose, contact your doctor or pharmacist. Do not take a double do
 forgotten dose.  </p>
 <p>If you stop using Uzpruvo<br />
 It is not dangerous to stop using Uzpruvo. However, if you stop, your symptoms may come back.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -332,7 +335,7 @@ possibly with joint pains). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.  </p>         </div>"""      
+this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store uzpruvo"
@@ -364,7 +367,7 @@ accidentally frozen or heated).<br />
 </em> If the product has been shaken vigorously.  </p>
 <p>Uzpruvo is for single use only. Any unused product remaining in the syringe should be thrown away. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -452,7 +455,7 @@ Tel: +370 52603United Kingdom (Northern Ireland)
 STADA Arzneimittel AG 
 Tel: +49 61016This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -491,7 +494,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -500,7 +505,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -515,7 +521,7 @@ Usage: #inline
 3. Sådan skal du bruge Uzpruvo 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -567,7 +573,7 @@ virkning af disse lægemidler, kan du få Uzpruvo: </p>
 <p>Crohns sygdom 
 Crohns sygdom er en betændelseslignende (inflammatorisk) sygdom i tarmen. Hvis du lider af Crohns 
 sygdom, vil du først få andre lægemidler. Hvis du ikke reagerer godt nok på disse lægemidler, eller 
-hvis du ikke kan tåle dem, kan du få Uzpruvo for at reducere symptomerne på din sygdom. </p>         </div>"""   
+hvis du ikke kan tåle dem, kan du få Uzpruvo for at reducere symptomerne på din sygdom. </p> </div>"""   
           
 
              
@@ -699,7 +705,7 @@ eller bruge Uzpruvo - du må ikke gøre begge dele. </p>
 </ul>
 <p>Trafik- og arbejdssikkerhed 
 Uzpruvo påvirker ikke eller kun i ubetydelig grad arbejdssikkerheden eller evnen til at færdes sikkert i 
-trafikken. </p>         </div>"""   
+trafikken. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take uzpruvo"
@@ -785,7 +791,7 @@ som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Uzpruvo 
 Det er ikke farligt at holde op med at bruge Uzpruvo. Hvis du stopper behandlingen, kan dine 
 symptomer dog komme tilbage. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -971,7 +977,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store uzpruvo"
@@ -1026,7 +1032,7 @@ og pakningsstørrelser"). </p>
 </ul>
 <p>Uzpruvo er kun til engangsbrug. Eventuelt ikke anvendt medicin, der er tilbage i sprøjten, skal 
 bortskaffes. Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet 
-må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1365,7 +1371,7 @@ omsorgspersoner, som skal give Uzpruvo til et barn, skal læse indlægssedlen gr
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </li>
 <li>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se afsnit 4. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1404,7 +1410,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1413,7 +1421,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1428,7 +1437,7 @@ Usage: #inline
 3. Como utilizar Uzpruvo 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Uzpruvo 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1480,7 +1489,7 @@ responder de forma adequada a estes medicamentos, Uzpruvo poderá ser utilizado:
 <p>Doença de Crohn 
 A doença de Crohn é uma doença inflamatória do intestino. No caso de sofrer de doença de Crohn, irá 
 receber primeiro outros medicamentos. Se não tiver uma resposta suficiente ou se for intolerante a 
-esses medicamentos, poderá receber Uzpruvo para reduzir os sinais e sintomas da sua doença. </p>         </div>"""   
+esses medicamentos, poderá receber Uzpruvo para reduzir os sinais e sintomas da sua doença. </p> </div>"""   
           
 
              
@@ -1611,7 +1620,7 @@ se deve amamentar ou utilizar Uzpruvo - não faça ambos. </p>
 </li>
 </ul>
 <p>Condução de veículos e utilização de máquinas 
-Os efeitos de Uzpruvo sobre a capacidade de conduzir ou utilizar máquinas são nulos ou desprezáveis. </p>         </div>"""   
+Os efeitos de Uzpruvo sobre a capacidade de conduzir ou utilizar máquinas são nulos ou desprezáveis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar uzpruvo"
@@ -1699,7 +1708,7 @@ dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Se parar de utilizar Uzpruvo 
 Não é perigoso deixar de utilizar Uzpruvo. No entanto, se parar, os seus sintomas podem voltar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1889,7 +1898,7 @@ descamativa em áreas da pele expostas ao sol, possivelmente com dores articular
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar uzpruvo"
@@ -1947,7 +1956,7 @@ acidentalmente congelado ou aquecido). </p>
 <p>Uzpruvo destina-se apenas para administração única. Qualquer produto não utilizado que fique na 
 seringa deve ser deitado fora. Não deite fora quaisquer medicamentos na canalização ou no lixo 
 doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que já não utiliza. Estas 
-medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2059,7 +2068,7 @@ STADA Arzneimittel AG
 Tel: +49 61016 
 Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

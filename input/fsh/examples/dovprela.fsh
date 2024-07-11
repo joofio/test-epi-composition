@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Dovprela  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ to kill bacteria that cause diseases. </p>
 tuberculosis that affects the lungs, when the disease has become resistant to many other antibiotics: 
 * extensively drug resistant tuberculosis or 
 * treatment-intolerant or multidrug-resistant tuberculosis 
-It is used in adults 18 years and over. </p>         </div>"""   
+It is used in adults 18 years and over. </p> </div>"""   
           
 
              
@@ -188,7 +191,7 @@ drive or operate machinery if this happens. </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dovprela"
@@ -226,7 +229,7 @@ made up. Talk to your doctor or pharmacist if you have missed a dose and you are
 doctor s permission. Skipping doses or not completing the full course of therapy may make treatment 
 ineffective and your tuberculosis could get worse. In addition, this would increase the chance that 
 bacteria become resistant to these medicines. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -328,7 +331,7 @@ tongue </li>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dovprela"
@@ -340,7 +343,7 @@ safety of this medicine. </p>         </div>"""
  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. </p>
 <p>Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements. </p>         </div>"""      
+requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited<br />
 Tel: +353 18711This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -480,7 +483,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -489,7 +494,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -506,7 +512,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -527,7 +533,7 @@ andre antibiotika: </p>
 <p>behandlingsintolerant eller multiresistent tuberkulose. 
 Det anvendes til voksne over 18 år. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -685,7 +691,7 @@ fald må du ikke køre bil eller betjene maskiner. </p>
 <p>Dovprela indeholder laktose og natrium </p>
 <p>Kontakt lægen, før du tager dette lægemiddel, hvis du ikke kan tåle eller fordøje visse sukkerarter. 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dovprela"
@@ -732,7 +738,7 @@ hvad du skal gøre. </p>
 læges tilladelse. Hvis doser springes over eller behandlingsforløbet ikke følges, kan det gøre 
 behandlingen ineffektiv og din tuberkulose kan blive værre. Desuden kan det øge risikoen for, at 
 bakterierne blive modstandsdygtige over for disse lægemidler. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -945,7 +951,7 @@ følelsesløshed </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dovprela"
@@ -956,7 +962,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Tag ikke lægemidlet efter den udløbsdato, der står på æsken, tabletholderen eller blisteren efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1087,7 +1093,7 @@ Tel: +353 18711
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: https://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: https://www.ema.europa.eu. </p> </div>"""      
 
 
 

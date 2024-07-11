@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Zavicefta</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ Zavicefta is used in adults and paediatric patients aged 3 months and over to tr
 Zavicefta is used in adults to treat infection of the blood associated with infections of the abdomen,
 urinary tract, or pneumonia.
 How Zavicefta works
-Zavicefta works by killing certain types of bacteria, which can cause serious infections.</p>         </div>"""   
+Zavicefta works by killing certain types of bacteria, which can cause serious infections.</p> </div>"""   
           
 
              
@@ -144,7 +147,7 @@ This medicine contains approximately 146 mg sodium (main component of cooking/ta
 vial. This is equivalent to 7.3% of the recommended maximum daily dietary intake for sodium for an 
 adult.
 Talk to your doctor or pharmacist if you need 3 or more vials daily for a prolonged period, especially 
-if you have been advised to have a low salt (sodium) diet.</p>         </div>"""   
+if you have been advised to have a low salt (sodium) diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zavicefta"
@@ -169,7 +172,7 @@ doctor or nurse straight away. If you have too much Zavicefta it could have an e
 cause fits or coma.
 If you miss a dose of Zavicefta
 If you think you have missed a dose, tell your doctor or nurse straight away.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zavicefta"
@@ -245,7 +248,7 @@ Do not use this medicine after the expiry date which is stated on the container.
 to the last day of that month.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer require. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer require. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -336,7 +339,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
 Tel: + 371 670 35 This leaflet was last revised in MM/YYYY
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -375,7 +378,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -384,7 +389,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -399,7 +405,7 @@ Usage: #inline
 3. Sådan får du Zavicefta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -428,7 +434,7 @@ infektioner forårsaget af bakterier, som andre antibiotika ikke kan slå ihjel
 Zavicefta anvendes til voksne til behandling af infektioner i blodet forbundet med infektioner i mave 
 og tarm, urinvejene eller lungebetændelse.
 Sådan virker Zavicefta
-Zavicefta virker ved at slå visse typer bakterier ihjel, som kan forårsage alvorlige infektioner.</p>         </div>"""   
+Zavicefta virker ved at slå visse typer bakterier ihjel, som kan forårsage alvorlige infektioner.</p> </div>"""   
           
 
              
@@ -499,7 +505,7 @@ hætteglas. Dette svarer til 7,3 % af den anbefalede maksimale daglige indtagels
 voksen. 
 Kontakt lægen eller apotekspersonalet, hvis du skal have 3 eller flere hætteglas om dagen i en længere 
 periode, især hvis du er blevet rådet til at spise en saltfattig (natriumfattig) kost.
-32</p>         </div>"""   
+32</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zavicefta"
@@ -524,7 +530,7 @@ det til lægen eller sundhedspersonalet. Hvis du har fået for meget Zavicefta, 
 og forårsage krampeanfald eller koma.
 Hvis en dosis er glemt
 Fortæl det straks til lægen eller sundhedspersonalet, hvis du tror, at du mangler at få en dosis.
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -619,7 +625,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårør
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V.. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel.</p>         </div>"""      
+af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zavicefta"
@@ -632,7 +638,7 @@ i den nævnte måned.
 Opbevares i den originale pakning for at beskytte mod lys.
 34
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1175,7 +1181,7 @@ ceftazidim
 150
 0,9
 6,6
-1 Baseret på ceftazidim-komponenten alene.</p>         </div>"""      
+1 Baseret på ceftazidim-komponenten alene.</p> </div>"""      
 
 
 
@@ -1214,7 +1220,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1223,7 +1231,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1238,7 +1247,7 @@ Usage: #inline
 3. Como utilizar Zavicefta
 4. Efeitos indesejáveis possíveis
 5. Como conservar Zavicefta
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1267,7 +1276,7 @@ infeções causadas por bactérias que outros antibióticos podem não ser capaz
 Zavicefta é utilizado em adultos para tratar infeção do sangue associada a infeções do abdómen, trato 
 urinário ou pneumonia.
 Como funciona Zavicefta
-Zavicefta mata determinados tipos de bactérias, que podem causar infeções graves.</p>         </div>"""   
+Zavicefta mata determinados tipos de bactérias, que podem causar infeções graves.</p> </div>"""   
           
 
              
@@ -1340,7 +1349,7 @@ máxima de sódio recomendada na dieta para um adulto.
 33
 Fale com o seu médico ou farmacêutico se precisar de 3 ou mais frascos para injetáveis diariamente 
 durante um período prolongado, especialmente se foi aconselhado a seguir uma dieta com pouco sal
-(sódio).</p>         </div>"""   
+(sódio).</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zavicefta"
@@ -1366,7 +1375,7 @@ mais Zavicefta do que deveria, informe o seu médico ou enfermeiro imediatamente
 administrado demasiado Zavicefta, este pode ter um efeito no cérebro e causar convulsões ou coma.
 Caso se tenha esquecido de utilizar Zavicefta
 Se pensa ter-se esquecido de uma dose, informe o seu médico ou enfermeiro imediatamente.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1467,7 +1476,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.
-35</p>         </div>"""      
+35</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zavicefta"
@@ -1480,7 +1489,7 @@ corresponde ao último dia do mês indicado.
 Conservar na embalagem de origem para proteger da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1604,7 +1613,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: + 371 670 35 775
 Este folheto foi revisto pela última vez em MM/AAAA
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

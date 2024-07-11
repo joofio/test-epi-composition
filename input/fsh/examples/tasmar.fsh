@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tasmar </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ Tasmar is used when all other alternative medicines cannot stabilise your Parkin
 A natural protein (enzyme) in your body, the (COMT) Catechol-O-methyltransferase breaks down the 
 levodopa. Tasmar blocks this enzyme and thus slows the breakdown of levodopa. This means when it 
 is taken together with levodopa (as levodopa/benserazide or levodopa/carbidopa) you should have an 
-improvement in the symptoms of your Parkinson s disease.  </p>         </div>"""   
+improvement in the symptoms of your Parkinson s disease.  </p> </div>"""   
           
 
              
@@ -210,7 +213,7 @@ or operating machines until such recurrent episodes and excessive drowsiness hav
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tasmar"
@@ -259,7 +262,7 @@ to make up for forgotten individual doses. If you have forgotten several doses, 
 doctor and follow the advice given to you. </p>
 <p>If you stop taking Tasmar 
 Do not reduce or stop taking your medicine unless your doctor tells you to. Always follow the 
-instructions of your doctor about the duration of the treatment with Tasmar. </p>         </div>"""         
+instructions of your doctor about the duration of the treatment with Tasmar. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -342,7 +345,7 @@ or reducing the symptoms. </p>
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V*. </p>
-<p>By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+<p>By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tasmar"
@@ -352,7 +355,7 @@ Appendix V*. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use after the expiry date which is stated on the pack. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
-<p>Do not use Tasmar if you notice that the tablets are damaged. </p>         </div>"""      
+<p>Do not use Tasmar if you notice that the tablets are damaged. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -465,7 +468,7 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711Lietuva 
 Meda Pharma SIA 
  algirio str. 90-Vilnius LT-09Tel. + 370 52051This leaflet was last revised in:  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -504,7 +507,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -513,7 +518,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -528,7 +534,7 @@ Usage: #inline
 3. Sådan skal du tage Tasmar 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -542,7 +548,7 @@ Tasmar anvendes, når alle andre lægemidler ikke kan stabilisere din parkinsoni
 <p>Du tager allerede levodopa mod Parkinsons sygdom.. Et naturligt protein (enzym) i kroppen (COMT) 
 catechol-O-methyltransferasenedbryder  levodopa,. Tasmar blokerer dette enzym og nedsætte derfor 
 nedbrydningen af levodopa. Når Tasmar tages sammen med levodopa (som levodopa/benserazid eller 
-levodopa/carbidopa) betyder det, at symptomerne på  Parkinsons sygdom mindskes. </p>         </div>"""   
+levodopa/carbidopa) betyder det, at symptomerne på  Parkinsons sygdom mindskes. </p> </div>"""   
           
 
              
@@ -675,7 +681,7 @@ overdreven træthed er ophørt.   </p>
 <p>Tasmar indeholder laktose og natrium 
 Kontakt lægen før du tager Tasmar, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukne tablet , dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tasmar"
@@ -726,7 +732,7 @@ erstatning for den glemte dosis. Fortæl din læge, hvis du har glemt at tage fl
 anvisninger. </p>
 <p>Hvis du holder op med at tage Tasmar 
 Du må ikke nedsætte dosis eller stoppe med at tage din medicin, medmindre du har fået besked på det 
-af lægen. Følg altid lægens råd om, hvor længe du skal tage Tasmar. </p>         </div>"""         
+af lægen. Følg altid lægens råd om, hvor længe du skal tage Tasmar. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -808,7 +814,7 @@ Axel Heides Gade 1
 DK-2300 København S 
 Websted: www.meldenbivirkning.dk </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tasmar"
@@ -820,7 +826,7 @@ Brug ikke Tasmar efter den udløbsdato, der står på pakningen.<br />
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. 
 Brug ikke Tasmar, hvis du bemærker, at tabletterne er beskadiget. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -999,7 +1005,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Tasmar til dig personligt. Lad derfor være med at give det til andre. Det kan 
 være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Tal med lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt her (se afsnit 4). </p>         </div>"""      
+som ikke er nævnt her (se afsnit 4). </p> </div>"""      
 
 
 

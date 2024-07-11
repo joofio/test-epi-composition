@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store EXJADE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ inadequate in patients with beta thalassaemia major with iron overload caused by
 transfusions, in patients with other types of anaemias, and in children aged 2 to 5 years. </p>
 <p>EXJADE is also used when deferoxamine therapy is contraindicated or inadequate to treat patients 
 aged 10 years or older who have iron overload associated with their thalassaemia syndromes, but who 
-are not transfusion dependent. </p>         </div>"""   
+are not transfusion dependent. </p> </div>"""   
           
 
              
@@ -196,7 +199,7 @@ If you feel dizzy after taking EXJADE, do not drive or operate any tools or mach
 feeling normal again. </p>
 <p>EXJADE contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium free . </p>         </div>"""   
+essentially  sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take exjade"
@@ -250,7 +253,7 @@ If you miss a dose, take it as soon as you remember on that day. Take your next 
 not take a double dose on the next day to make up for the forgotten tablet(s). </p>
 <p>If you stop taking EXJADE 
 Do not stop taking EXJADE unless your doctor tells you to. If you stop taking it, the excess iron will 
-no longer be removed from your body (see also above section  How long to take EXJADE ). </p>         </div>"""         
+no longer be removed from your body (see also above section  How long to take EXJADE ). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ the number of all kinds of blood cells (pancytopenia)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store exjade"
@@ -338,7 +341,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -465,7 +468,7 @@ important information for you.
 - This medicine has been prescribed only for you or your child. Do not pass it on to others. It may 
 harm them, even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -504,7 +507,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -513,7 +518,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -530,7 +536,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -560,7 +566,7 @@ forårsaget af sjældne blodtransfusioner. Endvidere anvendes EXJADE til patient
 anæmier og til børn i alderen 2 til 5 år. </p>
 <p>EXJADE anvendes også til ikke-transfusionsafhængige patienter i alderen 10 år eller derover, der har 
 fået jernophobning i forbindelse med deres talassæmi-syndromer, når deferoxamin-behandling er 
-kontraindiceret eller utilstrækkelig. </p>         </div>"""   
+kontraindiceret eller utilstrækkelig. </p> </div>"""   
           
 
              
@@ -666,7 +672,7 @@ Hvis du føler dig svimmel, efter at du har taget EXJADE, må du ikke køre bil 
 eller maskiner før du har det godt igen. </p>
 <p>EXJADE indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take exjade"
@@ -744,7 +750,7 @@ planlagt. Du må ikke tage en dobbeltdosis den næste dag som erstatning for de(
 <p>Hvis du holder op med at tage EXJADE 
 Hold ikke op med at tage EXJADE, medmindre din læge giver dig besked på det. Hvis du stopper med 
 at tage EXJADE, vil det overskydende jern ikke længere blive fjernet fra din krop (se også 
-ovenstående pkt.: "Hvor længe skal du tage EXJADE"). </p>         </div>"""         
+ovenstående pkt.: "Hvor længe skal du tage EXJADE"). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -896,7 +902,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store exjade"
@@ -919,7 +925,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet eller, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1082,7 +1088,7 @@ indeholder vigtige oplysninger.
 give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme 
 symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

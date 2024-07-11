@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Fotivda  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ supply of blood to the cancer, which slows down the growth and spread of cancer 
 blocking the action of a protein called vascular endothelial growth factor (VEGF). Blocking the action 
 of VEGF prevents the formation of new blood vessels. </p>
 <p>Fotivda is used to treat adults with advanced kidney cancer. It is used where other treatments such as 
-interferon-alpha or interleukin-2 have either not yet been used or have not helped to stop your disease. </p>         </div>"""   
+interferon-alpha or interleukin-2 have either not yet been used or have not helped to stop your disease. </p> </div>"""   
           
 
              
@@ -238,7 +241,7 @@ Fotivda can have side effects that may affect your ability to drive or use machi
 using machines if you feel weak, tired, or dizzy. See also Section 4  Possible side effects . </p>
 <p>Fotivda contains tartrazine (E102) 
 The printing ink used on the Fotivda 890 microgram capsule contains tartrazine (E102), which may 
-cause allergic reactions.  </p>         </div>"""   
+cause allergic reactions.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fotivda"
@@ -284,7 +287,7 @@ at the usual time.  </p>
 <p>If you stop taking Fotivda<br />
 Do not stop taking this medicine unless your doctor tells you to. If you stop taking the capsules your 
 condition may get worse. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fotivda"
@@ -387,7 +390,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Keep the bottle tightly closed in order to protect from moisture.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -439,7 +442,7 @@ Co. Louth<br />
 A91 P9KD<br />
 Ireland </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -478,7 +481,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -487,7 +492,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -504,7 +510,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -518,7 +524,7 @@ fungerer ved at blokere handlingen af et protein kaldet vaskulær endotelial væ
 Blokeringen af VEGF’s handling forebygger dannelsen af nye blodkar. </p>
 <p>Fotivda bruges til at behandle voksne med avanceret nyrekræft. Det bruges, hvor andre behandlinger 
 som f.eks. interferon-alfa eller interleukin-2 enten endnu ikke er blevet brugt eller ikke har hjulpet 
-med at standse din sygdom. </p>         </div>"""   
+med at standse din sygdom. </p> </div>"""   
           
 
              
@@ -710,7 +716,7 @@ maskiner. Undgå at føre motorkøretøj eller betjene maskiner, hvis du føler 
 svimmel. Se også punkt 4 “Bivirkninger". </p>
 <p>Fotivda indeholder tartrazin (E102) 
 Prægeblækket, der anvendes på kapslen med Fotivda 890 mikrogram, indeholder tartrazin (E102), som 
-kan medføre allergiske reaktioner.  </p>         </div>"""   
+kan medføre allergiske reaktioner.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fotivda"
@@ -756,7 +762,7 @@ med at tage din næste dosis på det sædvanlige tidspunkt.  </p>
 <p>Hvis du holder op med at tage Fotivda<br />
 Hold ikke op med at tage dette lægemiddel, med mindre din læge beder dig om det. Hvis du holder op 
 med at tage kapslerne, kan din tilstand blive forværret. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -951,7 +957,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fotivda"
@@ -963,7 +969,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Hold flasken tæt til lukket for at beskytte mod fugt.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1017,7 +1023,7 @@ A91 P9KD<br />
 Irland </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -1056,7 +1062,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1065,7 +1073,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1082,7 +1091,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Fotivda  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1096,7 +1105,7 @@ cancerígenas. Funciona bloqueando a ação de uma proteína chamada fator de cr
 vascular (VEGF). O bloqueio da ação do VEGF impede a formação de novos vasos sanguíneos. </p>
 <p>O Fotivda é utilizado para tratar adultos com cancro do rim avançado. É utilizado onde outros 
 tratamentos como o interferão-alfa ou interleucina-2 não foram ainda utilizados ou não ajudaram a 
-travar a doença. </p>         </div>"""   
+travar a doença. </p> </div>"""   
           
 
              
@@ -1309,7 +1318,7 @@ máquinas. Evite conduzir ou utilizar máquinas se se sentir fraco, cansado ou t
 secção 4 “Possíveis efeitos indesejáveis". </p>
 <p>Fotivda contém tartrazina (E102) 
 A tinta de impressão utilizada em Fotivda 890 microgramas cápsulas contém tartrazina (E102), que 
-pode causar reações alérgicas. </p>         </div>"""   
+pode causar reações alérgicas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar fotivda"
@@ -1358,7 +1367,7 @@ seguinte à hora habitual.  </p>
 Só deixe de tomar este medicamento se o seu médico lho indicar. Se parar de tomar as cápsulas, o seu 
 estado pode piorar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1556,7 +1565,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar fotivda"
@@ -1569,7 +1578,7 @@ VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Manter o frasco bem fechado para proteger da humidade.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1619,7 +1628,7 @@ Co. Louth<br />
 A91 P9KD<br />
 Irlanda </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

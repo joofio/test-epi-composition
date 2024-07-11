@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NutropinAq </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ or continue from when you were a child. </p>
 <p>Benefits if using this medicine </p>
 <p>In children, it helps the body to grow and the bones to develop normally. 
 In adults, it helps to maintain normal body shape and metabolism for example lipid profile and 
-glucose levels. </p>         </div>"""   
+glucose levels. </p> </div>"""   
           
 
              
@@ -177,7 +180,7 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 <p>No effect on ability to drive or use machines has been noticed while using NutropinAq. </p>
 <p>NutropinAq is essentially  sodium free  </p>
 <p>This medicinal product contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nutropinaq"
@@ -226,7 +229,7 @@ day and tell your doctor at your next appointment. </p>
 <p>If you stop using NutropinAq </p>
 <p>Ask advice from you doctor before you stop using NutropinAq. If you stop using NutropinAq too 
 early or for too long, the results will not be as expected. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -318,7 +321,7 @@ pain, breast pain and breast enlargement (gynaecomastia). </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nutropinaq"
@@ -334,7 +337,7 @@ Keep the blister in the outer carton. </p>
 that is being used from the NutropinAq Pen between injections. </p>
 <p>Do not use NutropinAq if you notice that the solution is cloudy. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -404,7 +407,7 @@ Ipsen SpA
 Tel: + 39 - 02 - 39 22 Hrvatska 
 Biomapas Zagreb d.o.o. 
 Tel: + 385 17 757 This leaflet was last revised in &lt;{Month/YYYY}&gt; </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -443,7 +446,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -452,7 +457,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -467,7 +473,7 @@ Usage: #inline
 3. Sådan skal du tage NutropinAq 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -503,7 +509,7 @@ fortsætte fra, da du var barn. </li>
 <p>Fordelene ved at tage denne medicin </p>
 <p>Hos børn hjælper medicinen kroppen med at vokse og knoglerne med at udvikle sig normalt.<br />
 Hos voksne hjælper medicinen med at opretholde en normal kropsform og et normalt stofskifte, 
-for eksempel med normalt niveau af fedtstoffer (lipider) og blodsukker. </p>         </div>"""   
+for eksempel med normalt niveau af fedtstoffer (lipider) og blodsukker. </p> </div>"""   
           
 
              
@@ -626,7 +632,7 @@ du spørge din læge eller apotekspersonalet til råds, før du tager dette læg
 NutropinAq. </p>
 <p>NutropinAq er i det væsentlige "natriumfri" </p>
 <p>Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. cylinderampul dvs. at den i det 
-væsentlige er natriumfri. </p>         </div>"""   
+væsentlige er natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nutropinaq"
@@ -674,7 +680,7 @@ næste dag, og fortæl det til lægen ved næste konsultation. </p>
 <p>Spørg lægen til råds, inden du stopper med at tage NutropinAq. Hvis du stopper med at tage 
 NutropinAq for tidligt eller holder pause i for lang tid, vil resultaterne ikke blive som 
 forventet. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -765,7 +771,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+information om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nutropinaq"
@@ -781,7 +787,7 @@ Opbevar blisterpakken i den ydre karton. </p>
 Tag ikke den cylinderampul, der aktuelt anvendes, ud af NutropinAq Pen mellem injektionerne. </p>
 <p>Brug ikke NutropinAq, hvis du bemærker, at opløsningen er uklar. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1144,7 +1150,7 @@ for kontaktmuligheder. </p>
 <p>CE 0Fremstiller: IPSEN PHARMA BIOTECH S.A.S., Parc d’Activités du Plateau de Signes, CD no 402, 
 83870 Signes, Frankrig </p>
 <p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; </p>
-<p>NutropinAq er et registreret varemærke ejet af Genentech, Inc. </p>         </div>"""      
+<p>NutropinAq er et registreret varemærke ejet af Genentech, Inc. </p> </div>"""      
 
 
 

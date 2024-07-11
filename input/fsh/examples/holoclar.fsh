@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How Holoclar is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ Damage to the limbus stops normal healing, which means that the damage to your e
 properly repaired. </p>
 <p>By taking some healthy limbal cells, a new layer of healthy tissue is grown in the laboratory on a 
 supporting layer of fibrin, a protein scaffold. This layer of tissue is then implanted by a surgeon into the 
-damaged cornea helping your eye to heal normally. </p>         </div>"""   
+damaged cornea helping your eye to heal normally. </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ medicine should be delayed.  </p>
 <p>Driving and using machines 
 Holoclar is given by surgery on your eye and this will impact on your ability to drive and use 
 machines. Therefore, do not drive or use machines after having Holoclar put in your eye until your 
-surgeon tells you that it is safe to do so. Follow their advice carefully. </p>         </div>"""   
+surgeon tells you that it is safe to do so. Follow their advice carefully. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take holoclar"
@@ -174,7 +177,7 @@ the chance of an infection and steroids to reduce swelling and irritation. It is
 take all the medicines prescribed by your surgeon, otherwise Holoclar may not work. 
 Please read the package leaflets for the individual medicines you are given for further information on 
 these medicines. </p>
-<p>Ask your surgeon if you have any further questions about the treatment with Holoclar. </p>         </div>"""         
+<p>Ask your surgeon if you have any further questions about the treatment with Holoclar. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -209,7 +212,7 @@ the cornea and eye irritation
 If you get any side effects, talk to your surgeon. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store holoclar"
@@ -224,7 +227,7 @@ Keep Holoclar within the steel container in the plastic bag until surgery. This 
 contamination by bacteria. 
 Holoclar must not be irradiated or sterilised. </p>
 <p>Since this medicine will be used during your surgery, the hospital staff are responsible for the correct 
-storage of the medicine before and during its use, as well as for the correct disposal. </p>         </div>"""      
+storage of the medicine before and during its use, as well as for the correct disposal. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -292,7 +295,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -301,7 +306,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -316,7 +322,7 @@ Usage: #inline
 3. Sådan får du Holoclar 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -353,7 +359,7 @@ blive beskadiget. Beskadigelse af limbus standser normal heling, hvilket betyder
 dit øje aldrig helt kan repareres. </p>
 <p>Ved at tage nogle raske limbale celler, dyrkes et nyt lag raskt væv i laboratoriet på et understøttende 
 fibrinlag, som er en proteinstruktur. En kirurg implanterer dernæst dette vævslag i den beskadigede 
-hornhinde, som hjælper dit øje med at hele normalt. </p>         </div>"""   
+hornhinde, som hjælper dit øje med at hele normalt. </p> </div>"""   
           
 
              
@@ -409,7 +415,7 @@ behandlingen med dette lægemiddel udsættes.  </p>
 Holoclar gives til dig via et indgreb i øjet og dette vil påvirke din evne til at føre motorkøretøj og 
 betjene maskiner. Derfor må du ikke føre motorkøretøj eller betjene maskiner, når du har fået 
 Holoclar anbragt i øjet, indtil kirurgen fortæller dig, at det er sikkert at gøre dette. Følg kirurgens råd 
-nøje. </p>         </div>"""   
+nøje. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take holoclar"
@@ -446,7 +452,7 @@ Antibiotika for at reducere risikoen for en infektion og steroider for at reduce
 Det er meget vigtigt, at du bruger alle lægemidler, der er ordineret af din kirurg, da Holoclar måske 
 ellers ikke virker. Du bedes læse indlægssedlen for de enkelte lægemidler, du får, for yderligere 
 information om disse lægemidler. </p>
-<p>Spørg kirurgen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg kirurgen, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -533,7 +539,7 @@ Hvis du oplever bivirkninger, bør du tale med kirurgen. Dette gælder også mul
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført Appendix V*. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store holoclar"
@@ -549,7 +555,7 @@ Opbevar Holoclar i stålbeholderen i plastposen indtil indgrebet. Det er for at 
 forurening med bakterier. 
 Holoclar må ikke bestråles eller steriliseres. </p>
 <p>Da lægemidlet vil blive anvendt under et indgreb, er hospitalspersonalet ansvarligt for den korrekte 
-opbevaring af lægemidlet før og under dets anvendelse, samt for den korrekte bortskaffelse. </p>         </div>"""      
+opbevaring af lægemidlet før og under dets anvendelse, samt for den korrekte bortskaffelse. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -617,7 +623,7 @@ dekontamineres med passende desinfektionsmiddel. </p>
 <p>Forholdsregler, der skal tages ved bortskaffelse af lægemidlet </p>
 <p>Ikke anvendt lægemiddel og alt materiale, som har været i kontakt med Holoclar (fast og flydende 
 affald), skal håndteres og bortskaffes som potentielt smitsomt affald i overensstemmelse med de lokale 
-retningslinier om håndering af materiale af human oprindelse. </p>         </div>"""      
+retningslinier om håndering af materiale af human oprindelse. </p> </div>"""      
 
 
 

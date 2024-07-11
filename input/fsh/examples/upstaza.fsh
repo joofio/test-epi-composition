@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How Upstaza is stored  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ virus that has been modified to include a copy of the DDC gene that works correc
 by infusion (drip) into an area of the brain called the putamen, where AADC is made. The 
 adeno-associated virus allows the DDC gene to pass into brain cells. In this way, Upstaza enables the 
 cells to produce AADC so that the body can then make the substances that the nervous system needs.  </p>
-<p>The adeno-associated virus used to deliver the gene does not cause disease in humans.  </p>         </div>"""   
+<p>The adeno-associated virus used to deliver the gene does not cause disease in humans.  </p> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ medicines. </p>
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free . </p>
 <p>This medicine contains less than 1 mmol potassium (39 mg) per dose, that is to say essentially 
- potassium-free . </p>         </div>"""   
+ potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take upstaza"
@@ -162,7 +165,7 @@ for any side effects from the surgery and treatment. </li>
 <p>If you or your child is given more Upstaza than should be 
 As this medicine is given to you or your child by a doctor, it is unlikely that you or your child will be 
 given too much. If it does occur, your doctor will treat the symptoms, as necessary.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -206,7 +209,7 @@ Upstaza, due to either anaesthesia or to post-surgery effects: </p>
 If you or your child gets any side effects, talk to your doctor or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store upstaza"
@@ -216,7 +219,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intended for doctors only. </p>
 <p>Upstaza will be stored at the hospital. It has to be stored and transported frozen at   -65 oC. It is 
 thawed before use and, once thawed, has to be used within 6 hours. It should not be re-frozen. 
-Do not use this medicine after the expiry date, which is stated on the carton after EXP. </p>         </div>"""      
+Do not use this medicine after the expiry date, which is stated on the carton after EXP. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -259,7 +262,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -298,7 +301,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -307,7 +312,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -324,7 +330,7 @@ Usage: #inline
 <li>Mulige bivirkninger  </li>
 <li>Opbevaring af Upstaza </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -350,7 +356,7 @@ virus gør det muligt for DDC-genet at passere ind i hjernecellerne. På denne m
 muligt for cellerne at producere AADC, så kroppen derefter kan fremstille de stoffer, som 
 nervesystemet har brug for.  </p>
 <p>Den adeno-associerede virus, der anvendes til at overbringe genet, forårsager ikke sygdom hos 
-mennesker.  </p>         </div>"""   
+mennesker.  </p> </div>"""   
           
 
              
@@ -417,7 +423,7 @@ vaccinationstidsplanen er påkrævet. </p>
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, det vil sige det er i det 
 væsentlige natriumfrit.<br />
 Dette lægemiddel indeholder mindre end 1 mmol kalium (39 mg) pr. dosis, det vil sige det er i det 
-væsentlige kaliumfrit. </p>         </div>"""   
+væsentlige kaliumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take upstaza"
@@ -458,7 +464,7 @@ tjekke for eventuelle bivirkninger fra operationen og behandlingen. </p>
 <p>Hvis du eller dit barn har fået for meget Upstaza 
 Da dette lægemiddel gives til dig eller dit barn af en læge, er det usandsynligt, at du eller dit barn vil få 
 for meget. Hvis det sker, vil din læge behandle symptomerne efter behov.  </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om vedrørende denne medicin. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om vedrørende denne medicin. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -506,7 +512,7 @@ Upstaza på grund af enten bedøvelse eller post-kirurgiske effekter: </p>
 Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge eller sygeplejersken. Dette 
 inkluderer bivirkninger, som ikke er nævnt i denne indlægsseddel. Du kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe flere oplysninger om sikkkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe flere oplysninger om sikkkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store upstaza"
@@ -516,7 +522,7 @@ med at fremskaffe flere oplysninger om sikkkerheden af dette lægemiddel. </p>  
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følgende information er kun beregnet til læger. </p>
 <p>Upstaza vil blive opbevaret på hospitalet. Det skal opbevares og transporteres nedfrosset ved ≤ -65 °C. 
 Det optøs før brug og skal anvendes inden for 6 timer, når det er optøet. Det må ikke fryses igen. 
-Brug ikke lægemidlet efter den udløbsdato, der står på kartonen efter EXP. </p>         </div>"""      
+Brug ikke lægemidlet efter den udløbsdato, der står på kartonen efter EXP. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -727,7 +733,7 @@ uønskede hændelser. </p>
 <p>Patienterne vil få tilbudt at tilmelde sig et register, for yderligere at evaluere den langsigtede 
 sikkerhed og effektivitet af behandlingen under normale betingelser for klinisk praksis. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

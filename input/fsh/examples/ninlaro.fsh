@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NINLARO </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ Multiple myeloma is a cancer of the blood which affects a type of cell, called t
 plasma cell is a blood cell that normally produces proteins to fight infections. People with multiple 
 myeloma have cancerous plasma cells, also called myeloma cells, which can damage the bones. 
 Protein produced by myeloma cells can damage the kidneys. Treatment for multiple myeloma involves 
-killing myeloma cells and reducing the symptoms of the disease.  </p>         </div>"""   
+killing myeloma cells and reducing the symptoms of the disease.  </p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ prevention programme of lenalidomide because lenalidomide can be harmful to the 
 and breast-feeding </p>
 <p>Driving and using machines 
 NINLARO may affect your ability to drive or use machines. You may feel tired and dizzy while 
-taking NINLARO. Do not drive or operate machines if you have these side effects. </p>         </div>"""   
+taking NINLARO. Do not drive or operate machines if you have these side effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ninlaro"
@@ -179,7 +182,7 @@ than 3 days or 72 hours away. Do not take a missed dose if it is within 3 days o
 scheduled dose. </p>
 <p>If you vomit after taking a dose, do not take an extra dose. Take the next dose, as normal, when it is 
 due.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -254,7 +257,7 @@ zoster)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ninlaro"
@@ -269,7 +272,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not remove the capsule until you need to take a dose. </p>
 <p>Do not use this medicine if you notice any damage or signs of tampering to medicine packaging. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -422,7 +425,7 @@ Takeda UK Ltd<br />
 Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -461,7 +464,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -470,7 +475,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -485,7 +491,7 @@ Usage: #inline
 3. Sådan skal du tage NINLARO<br />
 4. Bivirkninger<br />
 5. Opbevaring af NINLARO<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -508,7 +514,7 @@ Myelomatose er en type kræft i blodet, som påvirker en celletype, kaldet plasm
 er en blodcelle, der normalt danner proteiner for at bekæmpe infektioner. Personer med myelomatose 
 har kræftramte plasmaceller, også kaldet myelomceller, som kan beskadige knoglerne. Protein dannet 
 af myelomceller kan beskadige nyrerne. Behandling af myelomatose skal slå myelomcellerne ihjel og 
-reducere sygdommens symptomer.  </p>         </div>"""   
+reducere sygdommens symptomer.  </p> </div>"""   
           
 
              
@@ -583,7 +589,7 @@ amning. </p>
 <p>Trafik- og arbejdssikkerhed 
 NINLARO kan påvirke din evne til at køre motorkøretøj og betjene maskiner. Du kan føle dig træt og 
 svimmel, mens du tager NINLARO. Undgå at køre motorkøretøj og betjene maskiner, hvis du får 
-disse bivirkninger. </p>         </div>"""   
+disse bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ninlaro"
@@ -658,7 +664,7 @@ Dag til NINLARO
 <p> </p>
 <p> </p>
 <p> </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -783,7 +789,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejersken eller a
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ninlaro"
@@ -799,7 +805,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker eventuelle skader eller tegn på, at emballagen har været 
 åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1022,7 +1028,7 @@ begrundelser for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for ixazomib er CHMP af den opfattelse, at 
 benefit/risk-forholdet for lægemidlet/lægemidlerne indeholdende ixazomib, forbliver uændret under 
 forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne bør ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne bør ændres. </p> </div>"""      
 
 
 

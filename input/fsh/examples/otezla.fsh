@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Otezla </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -112,7 +115,7 @@ symptoms of the disease. </p>
 completely. It can also reduce the associated pain. </p>
 <p>Otezla has also been shown to improve the quality of life in patients with psoriasis, psoriatic arthritis 
 or Beh et s disease. This means that the impact of your condition on daily activities, relationships and 
-other factors should be less than it was before.  </p>         </div>"""   
+other factors should be less than it was before.  </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ feeding.  </p>
 <p>Otezla has no effect on the ability to drive and use machines. </p>
 <p>Otezla contains lactose  </p>
 <p>Otezla contains lactose (a type of sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take otezla"
@@ -251,7 +254,7 @@ Day 6 onwards
 30 mg (beige) 
 60 mg 
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ nausea and vomiting. If your gut problems become severe, you should talk to your
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store otezla"
@@ -315,7 +318,7 @@ on the carton after EXP. The expiry date refers to the last day of that month. <
 packaging. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -429,7 +432,7 @@ Tel: +44 (0)1223 420This leaflet was last revised in  </p>
 <p>Detailed and updated information on this medicine is available by scanning the QR code on the outer 
 packaging with a smartphone. The same information is also available on the following URL:<br />
 www.otezla-eu-pil.com. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -468,7 +471,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -477,7 +482,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -494,7 +500,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -553,7 +559,7 @@ tegn og symptomer for sygdommen. </p>
 forsvinde helt. Det kan også reducere den forbundne smerte. </p>
 <p>Otezla har også vist sig at forbedre livskvaliteten for patienter med psoriasis, psoriasis artritis og 
 Behcets sygdom. Dette betyder, at den påvirkning, din sygdom har på daglige aktiviteter, forhold og 
-andre faktorer bør være mindre end før. </p>         </div>"""   
+andre faktorer bør være mindre end før. </p> </div>"""   
           
 
              
@@ -619,7 +625,7 @@ ammer. </p>
 <p>Otezla påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Otezla indeholder lactose </p>
 <p>Otezla indeholder lactose (en form for sukker). Kontakt lægen, før du tager dette lægemiddel, hvis 
-lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take otezla"
@@ -734,7 +740,7 @@ Dag 6 og fremover
 <p>Du må ikke holde op med at tage Otezla, uden først at kontakte din læge. </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -839,7 +845,7 @@ kvalme og opkastning. Hvis dine maveproblemer bliver alvorlige, bør du tale med
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store otezla"
@@ -863,7 +869,7 @@ have været åbnet. </p>
 </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1034,7 +1040,7 @@ Tel: +44 (0)1223 420 </p>
 ydre emballage med en smarttelefon. De samme oplysninger kan også ses ved at klikke på følgende 
 URL: www.otezla-eu-pil.com. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1073,7 +1079,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1082,7 +1090,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1099,7 +1108,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Otezla </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1156,7 +1165,7 @@ sinais e sintomas da doença. </p>
 completamente. Pode também reduzir a dor associada. </p>
 <p>Otezla também demonstrou melhorar a qualidade de vida nos doentes com psoríase, com artrite 
 psoriática ou com doença de Behçet. Isto significa que o impacto da sua doença nas atividades diárias, 
-relacionamentos e outros fatores deve ser menor do que anteriormente. </p>         </div>"""   
+relacionamentos e outros fatores deve ser menor do que anteriormente. </p> </div>"""   
           
 
              
@@ -1218,7 +1227,7 @@ enquanto estiver a amamentar. </p>
 <p>Otezla não tem efeito na capacidade de conduzir e utilizar máquinas. </p>
 <p>Otezla contém lactose </p>
 <p>Otezla contém lactose (um tipo de açúcar). Se foi informado pelo seu médico que tem intolerância a 
-alguns açúcares, contacte o seu médico antes de tomar este medicamento. </p>         </div>"""   
+alguns açúcares, contacte o seu médico antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar otezla"
@@ -1333,7 +1342,7 @@ da hora da sua dose seguinte, não tome a dose em falta. Tome a dose seguinte à
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1441,7 +1450,7 @@ médico. </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar otezla"
@@ -1466,7 +1475,7 @@ embalagem do medicamento. </p>
 </ul>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1639,7 +1648,7 @@ Tel: +44 (0)1223 420 </p>
 <p>Está disponível informação detalhada e atualizada sobre este medicamento através da leitura do código 
 QR na embalagem exterior com um smartphone. A mesma informação também está disponível no 
 seguinte URL: www.otezla-eu-pil.com. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

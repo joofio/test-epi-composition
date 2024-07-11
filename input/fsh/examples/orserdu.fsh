@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ORSERDU </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ binds to the oestrogen receptors in the cancer cells and stops them from working
 destroying oestrogen receptors, ORSERDU can reduce the growth and spread of breast cancer and 
 help to kill cancer cells. </p>
 <p>If you have any questions about how ORSERDU works or why this medicine has been prescribed for 
-you, ask your doctor, pharmacist, or nurse. </p>         </div>"""   
+you, ask your doctor, pharmacist, or nurse. </p> </div>"""   
           
 
              
@@ -171,7 +174,7 @@ ORSERDU may impair fertility in women and men. </p>
 ORSERDU has no or negligible influence on the ability to drive and use machines. However, since 
 fatigue, weakness, and difficulty sleeping have been reported in some patients taking elacestrant, 
 caution should be observed by patients who experience those adverse reactions when driving or 
-operating machinery. </p>         </div>"""   
+operating machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orserdu"
@@ -203,7 +206,7 @@ time the next day. Do not take a double dose to make up for the one that you mis
 <p>If you stop taking ORSERDU 
 Do not stop using this medicine without talking to your doctor or pharmacist. If treatment with 
 ORSERDU is stopped, your condition may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ count decreased)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orserdu"
@@ -271,7 +274,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not use this medicine if you notice any damage to the packaging or if there are any signs of 
 tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -350,7 +353,7 @@ Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
 Stemline Therapeutics B.V. 
 T l: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -389,7 +392,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -398,7 +403,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -413,7 +419,7 @@ Usage: #inline
 3. Sådan skal du tage ORSERDU 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -443,7 +449,7 @@ til østrogenreceptorerne i kræftcellerne og forhindrer dem i at virke. Ved at 
 østrogenreceptorerne kan ORSERDU bremse væksten og spredningen af brystkræft og hjælpe med at 
 dræbe kræftcellerne. </p>
 <p>Hvis du har spørgsmål om, hvordan ORSERDU virker, eller hvorfor du har fået det ordineret, skal du 
-spørge lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""   
+spørge lægen, apotekspersonalet eller sygeplejersken. </p> </div>"""   
           
 
              
@@ -524,7 +530,7 @@ ORSERDU kan nedsætte fertiliteten hos kvinder og mænd. </p>
 ORSERDU påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene 
 maskiner. Der er imidlertid rapporteret træthed, svaghed og søvnbesvær hos nogle patienter, der tager 
 elacestrant. Patienter, der oplever disse bivirkninger, bør udvise forsigtighed, når de fører motorkøretøj 
-eller betjener maskiner. </p>         </div>"""   
+eller betjener maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orserdu"
@@ -557,7 +563,7 @@ dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage ORSERDU 
 Du må ikke holde op med at tage dette lægemiddel uden først at kontakte din læge eller 
 apotekspersonalet. Hvis behandlingen med ORSERDU stoppes, kan din tilstand forværres. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -688,7 +694,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orserdu"
@@ -702,7 +708,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget, eller hvis der er tegn på, at 
 nogen har forsøgt at åbne den. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -790,7 +796,7 @@ Stemline Therapeutics B.V.
 Tél: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -829,7 +835,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -838,7 +846,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -855,7 +864,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar ORSERDU </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -888,7 +897,7 @@ estrogénio nas células cancerosas fazendo com que estes deixem de funcionar. A
 os recetores de estrogénio, ORSERDU consegue reduzir o crescimento e disseminação do cancro da 
 mama e ajudar a eliminar as células cancerosas. </p>
 <p>Se tiver quaisquer perguntas a fazer sobre o modo como funciona ORSERDU ou porque razão este 
-medicamento lhe foi receitado, fale com o seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+medicamento lhe foi receitado, fale com o seu médico, farmacêutico ou enfermeiro. </p> </div>"""   
           
 
              
@@ -966,7 +975,7 @@ ORSERDU poderá comprometer a fertilidade nas mulheres e nos homens. </p>
 Os efeitos de ORSERDU sobre a capacidade de conduzir e utilizar máquinas são nulos ou 
 desprezáveis. Contudo, dado que a fadiga, fraqueza e dificuldade em dormir foram comunicadas em 
 alguns doentes a tomar elacestrant, os doentes que tenham estas reações adversas deverão proceder 
-com precaução ao conduzir ou ao utilizar máquinas. </p>         </div>"""   
+com precaução ao conduzir ou ao utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar orserdu"
@@ -1002,7 +1011,7 @@ que se esqueceu de tomar. </p>
 Não pare de tomar este medicamento sem falar com o seu médico ou farmacêutico. Se parar o 
 tratamento com ORSERDU, a sua doença poderá agravar-se. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1135,7 +1144,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar orserdu"
@@ -1150,7 +1159,7 @@ embalagem blister após EXP. O prazo de validade corresponde ao último dia do m
 violação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1239,7 +1248,7 @@ Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
 Stemline Therapeutics B.V. 
 Tél: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

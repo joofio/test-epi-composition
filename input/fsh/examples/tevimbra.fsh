@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tevimbra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ it from switching off your T cells which helps your immune system fight the canc
 other parts of the body, has already been treated by anti-cancer therapy and cannot be removed 
 by surgery. </p>
 <p>If you have any questions about how Tevimbra works or why this medicine has been prescribed for 
-you, ask your doctor. </p>         </div>"""   
+you, ask your doctor. </p> </div>"""   
           
 
              
@@ -183,7 +186,7 @@ have been given Tevimbra unless you are sure you are feeling well. </p>
 Tell your doctor if you are on a low-sodium (low-salt) diet before you are given Tevimbra. This 
 medicine contains 1.6 mg sodium (main component of cooking/table salt) in each ml of concentrate. A 
 single infusion of Tevimbra contains 32 mg sodium in two 10 ml vials. This is equivalent to 1.6% of 
-the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tevimbra"
@@ -202,7 +205,7 @@ tolerate the first dose well, then the next infusion may be given over a period 
 <p>If you stop Tevimbra treatment 
 Stopping your treatment may stop the effect of the medicine. Do not stop treatment with Tevimbra 
 unless you have discussed this with your doctor. </p>
-<p>If you have any further questions about your treatment or the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions about your treatment or the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -296,7 +299,7 @@ gland problems (hypophysitis)
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tevimbra"
@@ -320,7 +323,7 @@ contamination, the product should be used immediately. </p>
 <p>If not used immediately, in-use storage times and conditions are the responsibility of the user. The 
 diluted solution must not be frozen. </p>
 <p>Do not store any unused portion of the infusion solution for reuse. Any unused medicine or waste 
-material should be disposed of in accordance with local requirements. </p>         </div>"""      
+material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ Roonstrasse 90429 Nuremberg
 Germany </p>
 <p>This leaflet was last revised in 
 Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -393,7 +396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -402,7 +407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -419,7 +425,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -440,7 +446,7 @@ andre dele af kroppen, allerede er blevet behandlet med lægemidler mod kræft o
 fjernes ved operation. </li>
 </ul>
 <p>Tal med lægen, hvis du har spørgsmål om, hvordan Tevimbra virker, eller hvorfor du har fået ordineret 
-dette lægemiddel. </p>         </div>"""   
+dette lægemiddel. </p> </div>"""   
           
 
              
@@ -542,7 +548,7 @@ maskiner, efter at du har fået Tevimbra, medmindre du er sikker på, at du har 
 Fortæl det til din læge, hvis du er på en diæt med lavt saltindhold (lavt natriumindhold), før du får 
 Tevimbra. Dette lægemiddel indeholder 1,6 mg natrium (hovedkomponent af madlavnings-/bordsalt) 
 pr. ml koncentrat. En enkel infusion med Tevimbra indeholder 32 mg natrium i to 10 ml hætteglas. 
-Dette svarer til 1,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+Dette svarer til 1,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tevimbra"
@@ -563,7 +569,7 @@ tåler den første dosis godt, kan det være, at den næste infusion vil blive g
 Hvis du stopper behandlingen, kan virkningen af lægemidlet ophøre. Stop ikke behandlingen med 
 Tevimbra, medmindre du har aftalt det med lægen. </p>
 <p>Spørg lægen, hvis der er noget, du er i tvivl om ved behandlingen eller anvendelsen af dette 
-lægemiddel. </p>         </div>"""         
+lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -669,7 +675,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen. Dette gælder også mulig
 er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tevimbra"
@@ -693,7 +699,7 @@ udelukker risikoen for mikrobiel kontaminering. </p>
 <p>Hvis produktet ikke anvendes med det samme, er opbevaringstid og -forhold brugerens ansvar. Den 
 fortyndede opløsning må ikke nedfryses. </p>
 <p>Eventuelle rester af infusionsvæsken må ikke gemmes til senere brug. Ikke anvendt lægemiddel samt 
-affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -793,7 +799,7 @@ bruges med det samme, er opbevaringstid og -forhold brugerens ansvar. </p>
 <li>
 <p>Tevimbra-hætteglas er kun til engangsbrug. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -832,7 +838,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -841,7 +849,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -858,7 +867,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tevimbra </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -880,7 +889,7 @@ espalhou para outras partes do corpo, já foi tratado com terapêutica anticance
 ser removido por cirurgia. </li>
 </ul>
 <p>Pergunte ao seu médico, caso tenha dúvidas sobre como funciona Tevimbra ou por que motivo este 
-medicamento lhe foi prescrito. </p>         </div>"""   
+medicamento lhe foi prescrito. </p> </div>"""   
           
 
              
@@ -983,7 +992,7 @@ Fale com o seu médico se estiver a seguir uma dieta com pouco sódio (pouco sal
 Tevimbra. Este medicamento contém 1,6 mg de sódio (principal componente do sal de cozinha/sal de 
 mesa) em cada ml de concentrado. Uma única perfusão de Tevimbra contém 32 mg de sódio em dois 
 frascos para injetáveis de10 ml. Isto é equivalente a 1,6% da ingestão diária máxima recomendada na 
-dieta para um adulto. </p>         </div>"""   
+dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tevimbra"
@@ -1004,7 +1013,7 @@ tolerar bem a primeira dose, a próxima perfusão poderá ser administrada por u
 Parar o seu tratamento pode parar o efeito deste medicamento. Não pare o tratamento com Tevimbra a 
 menos que tenha discutido isso com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre o seu tratamento ou sobre a utilização deste medicamento, fale com o 
-seu médico. </p>         </div>"""         
+seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1114,7 +1123,7 @@ gripe (SJS ou NET) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não incluidos neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tevimbra"
@@ -1139,7 +1148,7 @@ microbiana, o medicamento deve ser utilizado imediatamente. </p>
 <p>Caso não seja utilizado imediatamente, os tempos e condições de armazenamento em utilização são da 
 responsabilidade do utilizador. A solução diluída não deve ser congelada. </p>
 <p>Não conserve qualquer porção da solução para perfusão não utilizada para reutilização. Qualquer 
-medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências locais. </p>         </div>"""      
+medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1172,7 +1181,7 @@ Evert Van De Beekstraat 1/Schiphol
 Países Baixos </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

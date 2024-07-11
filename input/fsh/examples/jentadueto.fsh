@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Jentadueto</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ What is type 2 diabetes?
 Type 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that 
 your body produces does not work as well as it should. Your body can also make too much sugar. 
 When this happens, sugar (glucose) builds up in the blood. This can lead to serious medical problems 
-like heart disease, kidney disease, blindness, and amputation.</p>         </div>"""   
+like heart disease, kidney disease, blindness, and amputation.</p> </div>"""   
           
 
              
@@ -229,7 +232,7 @@ Driving and using machines
 Jentadueto has no or negligible influence on the ability to drive and use machines.
 However, taking Jentadueto in combination with medicines called sulphonylureas or with insulin can 
 cause too low blood sugar level (hypoglycaemia), which may affect your ability to drive and use 
-machines or work without safe foothold.</p>         </div>"""   
+machines or work without safe foothold.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jentadueto"
@@ -273,7 +276,7 @@ two doses at the same time (morning or evening).
 If you stop taking Jentadueto
 Keep taking Jentadueto until your doctor tells you to stop. This is to help keep your blood sugar under 
 control. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -336,7 +339,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jentadueto"
@@ -351,7 +354,7 @@ Blister: Store in the original package in order to protect from moisture.
 Bottle: Keep the bottle tightly closed in order to protect from moisture.
 Do not use this medicine if the package is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -474,7 +477,7 @@ Latvijas fili le
 Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in {MM/YYYY} 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -513,7 +516,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -522,7 +527,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -537,7 +543,7 @@ Usage: #inline
 3. Sådan skal du tage Jentadueto
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -563,7 +569,7 @@ Hvad er type 2-diabetes?
 Type 2-diabetes er en tilstand, hvor din krop ikke danner tilstrækkeligt meget insulin samtidig med, at 
 det insulin, som kroppen danner, ikke virker så godt, som det burde. Din krop kan også danne for 
 meget sukker. Når dette sker, ophobes sukker (glucose) i blodet og dette kan føre til alvorlige 
-helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p>         </div>"""   
+helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p> </div>"""   
           
 
              
@@ -709,7 +715,7 @@ Trafik- og arbejdssikkerhed
 Jentadueto påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner.
 Jentadueto kan dog sammen med lægemidler kaldet sulfonylurinstoffer eller insulin medføre for lavt 
 blodsukker (hypoglykæmi). Dette kan påvirke evnen til at føre motorkøretøj og betjene maskiner eller 
-arbejde uden sikkert fodfæste.</p>         </div>"""   
+arbejde uden sikkert fodfæste.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jentadueto"
@@ -754,7 +760,7 @@ den glemte dosis. Tag aldrig to doser på samme tid (morgen eller aften).
 Hvis du holder op med at tage Jentadueto
 Fortsæt med at tage Jentadueto indtil lægen fortæller dig, at du skal holde op. Dette lægemiddel er med 
 til at holde dit blodsukker under kontrol.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -820,7 +826,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jentadueto"
@@ -835,7 +841,7 @@ Blister: Opbevares i den originale yderpakning for at beskytte mod fugt.
 Beholder: Hold beholderen tæt tillukket for at beskytte mod fugt.
 Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at være forsøgt åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -995,7 +1001,7 @@ Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1034,7 +1040,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1043,7 +1051,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1058,7 +1067,7 @@ Usage: #inline
 3. Como tomar Jentadueto
 4. Efeitos indesejáveis possíveis
 5. Como conservar Jentadueto
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1084,7 +1093,7 @@ O que é a diabetes tipo 2?
 A diabetes tipo 2 é uma doença na qual o seu corpo não produz insulina suficiente e a insulina que o 
 seu corpo produz não funciona tão bem como deveria. O seu corpo pode também produzir demasiado 
 açúcar. Quando isto acontece, o açúcar (glucose) acumula-se no sangue. Tal pode levar a problemas 
-médicos graves, como doenças cardíacas, doenças renais, cegueira e amputação.</p>         </div>"""   
+médicos graves, como doenças cardíacas, doenças renais, cegueira e amputação.</p> </div>"""   
           
 
              
@@ -1237,7 +1246,7 @@ Condução de veículos e utilização de máquinas
 Os efeitos de Jentadueto sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis.
 No entanto, a toma de Jentadueto em associação com medicamentos chamados sulfonilureias ou com 
 insulina pode causar níveis de açúcar no sangue demasiado baixos (hipoglicemia), o que poderá afetar 
-a sua capacidade de conduzir veículos e utilizar máquinas ou realizar trabalhos sem base de segurança.</p>         </div>"""   
+a sua capacidade de conduzir veículos e utilizar máquinas ou realizar trabalhos sem base de segurança.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar jentadueto"
@@ -1284,7 +1293,7 @@ Se parar de tomar Jentadueto
 Continue a tomar Jentadueto até que o seu médico lhe diga para parar. Isto ajuda a manter o açúcar no 
 seu sangue sob controlo.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1354,7 +1363,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. 
 Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar jentadueto"
@@ -1371,7 +1380,7 @@ Não utilize este medicamento se verificar que a embalagem está danificada ou a
 de deterioração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1535,7 +1544,7 @@ United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Este folheto foi revisto pela última vez em {MM/AAAA}
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

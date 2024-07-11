@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ilumetri </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ This medicine works by blocking the activity of a protein called IL-23, a substa
 which is involved in normal inflammatory and immune responses and which is present at increased levels 
 in diseases such as psoriasis. </p>
 <p>Ilumetri is used to treat a skin condition called plaque psoriasis, in adults with moderate to severe disease.<br />
-Using Ilumetri will benefit you by improvements of skin clearance and reducing your symptoms. </p>         </div>"""   
+Using Ilumetri will benefit you by improvements of skin clearance and reducing your symptoms. </p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ treatment. </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your 
 doctor or pharmacist for advice before using this medicine.  </p>
 <p>Driving and using machines 
-Ilumetri has no or little effect on the ability to drive and use machines. </p>         </div>"""   
+Ilumetri has no or little effect on the ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ilumetri"
@@ -158,7 +161,7 @@ resume dosing at the regularly scheduled interval. </p>
 <p>If you stop using Ilumetri 
 The decision to stop using Ilumetri should be discussed with your doctor. Your symptoms may return 
 upon discontinuation.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -190,7 +193,7 @@ pharmacist. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ilumetri"
@@ -210,7 +213,7 @@ Write down the date of removal from the refrigerator in the space provided on th
 appropriate discard date. Use the syringe within 30 days after taking it out of the refrigerator or by the 
 expiry date whichever occurs first. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ Puh/Tel: +358 10 4 sland<br />
 Vistor hf. 
 S mi: +354 535 70 This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -311,7 +314,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -320,7 +325,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -337,7 +343,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -352,7 +358,7 @@ som er involveret i normalt betændelses- og immunrespons, og som findes i forh�
 sygdomme som psoriasis. </p>
 <p>Ilumetri anvendes til at behandle en hudsygdom, der kaldes pletpsoriasis (plaque-psoriasis) hos voksne 
 med moderat til svær sygdom.<br />
-Brug af Ilumetri vil forbedre hudens tilstand og mindske dine symptomer. </p>         </div>"""   
+Brug af Ilumetri vil forbedre hudens tilstand og mindske dine symptomer. </p> </div>"""   
           
 
              
@@ -400,7 +406,7 @@ mens du får Ilumetri og i mindst 17 uger efter endt behandling. </p>
 <p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal du 
 spørge din læge eller apotekspersonalet til råds, før du bruger dette lægemiddel.  </p>
 <p>Trafik- og arbejdssikkerhed 
-Ilumetri påvirker ikke eller kun i mindre grad evnen til at køre og betjene maskiner. </p>         </div>"""   
+Ilumetri påvirker ikke eller kun i mindre grad evnen til at køre og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ilumetri"
@@ -431,7 +437,7 @@ muligt. Fortsæt med at tage de næste doser ved de planlagte intervaller. </p>
 <p>Hvis du holder op med at bruge Ilumetri 
 Du må kun stoppe med at bruge Ilumetri efter aftale med lægen. Dine symptomer kan komme igen, hvis 
 behandlingen stoppes.<br />
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -464,7 +470,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ilumetri"
@@ -486,7 +492,7 @@ Skriv datoen, hvor produktet er taget ud af køleskabet, i feltet på den ydre k
 udløbsdato. Brug injektionssprøjten inden for 30 dage, efter den er taget ud af køleskabet eller inden 
 udløbsdatoen, afhængig af hvad der kommer først. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -731,7 +737,7 @@ indeholder vigtige oplysninger.<br />
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Insulin lispro Sanofi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ should normally use Insulin lispro Sanofi within 15 minutes of a meal. </p>
 <p>Your doctor may tell you to use Insulin lispro Sanofi as well as a longer-acting insulin. Each kind of 
 insulin comes with another patient information leaflet to tell you about it. Do not change your insulin 
 unless your doctor tells you to. Be very careful if you do change insulin. </p>
-<p>Insulin lispro Sanofi is suitable for use in adults and children. </p>         </div>"""   
+<p>Insulin lispro Sanofi is suitable for use in adults and children. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ a car or using machines). You should contact your doctor about the advisability 
 * reduced or absent warning signs of hypoglycaemia </p>
 <p>Insulin lispro Sanofi contains sodium 
 This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take insulin"
@@ -248,7 +251,7 @@ diabetic ketoacidosis in section 4  Possible Side Effects ). </p>
 <p>If you stop using Insulin lispro Sanofi<br />
 If you use less Insulin lispro Sanofi than you need, a high blood sugar may occur. Do not change your 
 insulin unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -320,7 +323,7 @@ hours or days. The symptoms include the following:
 <p>C. Illness 
 If you are ill, especially if you feel sick or are sick, the amount of insulin you need may change. Even 
 when you are not eating normally, you still need insulin. Test your urine or blood, follow your  sick 
-rules , and tell your doctor. </p>         </div>"""      
+rules , and tell your doctor. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store insulin"
@@ -337,7 +340,7 @@ vial in a refrigerator. Keep the vial in the outer carton in order to protect fr
 <p>Do not use Insulin lispro Sanofi if it is coloured or it has solid pieces in it. You must use it only if it 
 looks like water. Check this each time you inject yourself. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -429,7 +432,7 @@ Tel: +371 6616 47 United Kingdom (Northern Ireland)
 Sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other source of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -468,7 +471,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -477,7 +482,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -492,7 +498,7 @@ Usage: #inline
 3. Sådan skal du bruge Insulin lispro Sanofi 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -510,7 +516,7 @@ Du bør normalt anvende Insulin lispro Sanofi inden for 15 minutter før eller e
 hver insulintype hører en separat indlægsseddel med oplysninger om den enkelte insulintype. Du må 
 ikke ændre din insulinbehandling, medmindre din læge beder dig om det. Vær meget forsigtig, hvis du 
 skal ændre insulintype. </p>
-<p>Insulin lispro Sanofi kan bruges af voksne og børn.  </p>         </div>"""   
+<p>Insulin lispro Sanofi kan bruges af voksne og børn.  </p> </div>"""   
           
 
              
@@ -643,7 +649,7 @@ du har: </p>
 </ul>
 <p>Insulin lispro Sanofi indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 g) natrium pr. dosis, dvs. den er i det væsentligste 
-"natriumfri". </p>         </div>"""   
+"natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take insulin"
@@ -782,7 +788,7 @@ ketoacidose i punkt 4 "Bivirkninger"). </p>
 <p>Hvis du holder op med at bruge Insulin lispro Sanofi 
 Hvis du holder op med at tage Insulin lispro Sanofi, kan det ske, at dit blodsukker bliver for højt. Du 
 må ikke ændre din insulinbehandling, medmindre din læge beder dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -923,7 +929,7 @@ mange timer eller dage. Symptomerne inkluderer følgende: </p>
 <p>C. Sygdom 
 Hvis du er syg, særligt hvis du har kvalme eller opkastning, kan dit insulinbehov ændre sig. Selv når 
 du ikke spiser normalt, har du stadig brug for insulin. Test din urin eller dit blod, følg de 
-almindelige regler ved sygdom og informér din læge. </p>         </div>"""      
+almindelige regler ved sygdom og informér din læge. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store insulin"
@@ -940,7 +946,7 @@ Opbevar det ikke i køleskabet. Opbevar hætteglasset i yderkartonen for at besk
 <p>Brug ikke Insulin lispro Sanofi, hvis det er farvet eller der er faste partikler i opløsningen. Du må kun 
 bruge det, hvis det ser ud som vand. Kontrollér det hver gang, du skal injicere dig selv.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1080,7 +1086,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1119,7 +1125,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1128,7 +1136,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1145,7 +1154,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Insulina lispro Sanofi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1165,7 +1174,7 @@ espaço de 15 minutos antes ou após a refeição. </p>
 mais prolongada. Cada uma destas insulinas contém um folheto informativo com informações sobre a 
 insulina. Não mude a sua insulina a não ser por indicação do médico. Seja extremamente cuidadoso se 
 mudar de insulina. </p>
-<p>Insulina lispro Sanofi é adequada para utilização em adultos e crianças.  </p>         </div>"""   
+<p>Insulina lispro Sanofi é adequada para utilização em adultos e crianças.  </p> </div>"""   
           
 
              
@@ -1299,7 +1308,7 @@ o seu médico sobre a condução de viaturas no caso de ter: </p>
 </ul>
 <p>Insulina lispro Sanofi contém sódio 
 Este medicamento contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar insulin"
@@ -1443,7 +1452,7 @@ mais. </p>
 Se utilizar menos Insulina lispro Sanofi do que necessita, pode ocorrer hiperglicemia. Não mude a sua 
 insulina, a não ser por indicação do médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1585,7 +1594,7 @@ durante muitas horas ou dias. Eles incluem: </p>
 <p>C. Doença 
 Se estiver doente, especialmente se sentir náuseas ou vomitar, as suas necessidades de insulina podem 
 mudar. Mesmo que não esteja a comer normalmente, continua a necessitar de insulina. Faça uma 
-análise de sangue ou urina, siga as “instruções relativas a doença" e informe o seu médico. </p>         </div>"""      
+análise de sangue ou urina, siga as “instruções relativas a doença" e informe o seu médico. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar insulin"
@@ -1604,7 +1613,7 @@ injetáveis dentro da embalagem exterior para proteger da luz. </p>
 aparência for semelhante à da água. Examine a solução de cada vez que se injetar. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1729,7 +1738,7 @@ Sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel: +44 (0) 800 035 2 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

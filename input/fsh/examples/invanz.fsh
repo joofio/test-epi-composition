@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store INVANZ</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ types of infection: </p>
 <p>Gynaecological infections</p>
 <p>Skin infections of the foot in diabetic patients. 
 Prevention:</p>
-<p>Prevention of surgical site infections in adults following surgery of the colon or rectum.</p>         </div>"""   
+<p>Prevention of surgical site infections in adults following surgery of the colon or rectum.</p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ INVANZ contains sodium
 This medicine contains approximately 137 mg sodium (main component of cooking / table salt) in
 each 1.0 g dose. This is equivalent to 6.85 % of the recommended maximum daily dietary intake of
 sodium for an adult.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take invanz"
@@ -161,7 +164,7 @@ If you are concerned that you may have been given too much INVANZ, contact your 
 healthcare professional immediately.
 If you miss a dose of INVANZ
 If you are concerned that you may have missed a dose, contact your doctor or another healthcare
-professional immediately.</p>         </div>"""         
+professional immediately.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -246,7 +249,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store invanz"
@@ -256,7 +259,7 @@ safety of this medicine.</p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the container.
 The first 2 numbers indicate the month; the next 4 numbers indicate the year.
-Do not store above 25 C</p>         </div>"""      
+Do not store above 25 C</p> </div>"""      
         
         
 * section[=].section[+]
@@ -420,7 +423,7 @@ the refrigerator. Do not freeze the reconstituted solutions.
 The reconstituted solutions should be inspected visually for particulate matter and discolouration prior
 to administration, whenever the container permits. Solutions of INVANZ range from colourless to
 pale yellow. Variations of colour within this range do not affect potency.
-Any unused product or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
+Any unused product or waste material should be disposed of in accordance with local requirements.</p> </div>"""      
 
 
 
@@ -459,7 +462,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -468,7 +473,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -483,7 +489,7 @@ Usage: #inline
 3. Sådan får du Invanz
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -507,7 +513,7 @@ Hudinfektion i foden hos sukkersyge (diabetes) patienter
 Forebyggelse:
  
 Forebyggelse af infektioner på operationsstedet hos voksne efter operation af tyktarmen eller
-endetarmen.</p>         </div>"""   
+endetarmen.</p> </div>"""   
           
 
              
@@ -567,7 +573,7 @@ Dette lægemiddel indeholder ca. 137 mg natrium (hovedbestanddelen i køkkensalt
 1,0 g dosis. Dette svarer til 6,85% af den anbefalede maksimale daglige indtagelse af natrium for en
 voksen.
 27</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take invanz"
@@ -587,7 +593,7 @@ Hvis du er bekymret for, om du har fået for meget Invanz, skal du straks kontak
 sygeplejersken.
 Hvis du har glemt at få Invanz
 Hvis du er bekymret for, om du har sprunget en dosis over, skal du straks kontakte lægen eller
-sygeplejersken.</p>         </div>"""         
+sygeplejersken.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -723,7 +729,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store invanz"
@@ -733,7 +739,7 @@ information om sikkerheden af dette lægemiddel.</p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasetiketten efter EXP. De
 første 2 tal angiver måneden; de næste 4 tal angiver årstallet.
-Må ikke opbevares ved temperaturer over 25 °C.</p>         </div>"""      
+Må ikke opbevares ved temperaturer over 25 °C.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -937,7 +943,7 @@ Rekonstituerede opløsninger bør, i det omfang beholderen gør det muligt, efte
 misfarvning inden administration. Opløsninger af Invanz kan variere fra farveløse til lysegule i
 udseende. Farvevariationer inden for denne skala påvirker ikke styrken.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
 
 
 
@@ -976,7 +982,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -985,7 +993,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1000,7 +1009,7 @@ Usage: #inline
 3. Como utilizar INVANZ
 4. Efeitos indesejáveis possíveis
 5. Como conservar INVANZ
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1025,7 +1034,7 @@ Infeções da pele do pé em doentes diabéticos.
 Prevenção:
  
 Prevenção de infeções em adultos no local de intervenção cirúrgica após cirurgia do intestino
-grosso ou do reto.</p>         </div>"""   
+grosso ou do reto.</p> </div>"""   
           
 
              
@@ -1088,7 +1097,7 @@ podem afetar a capacidade de alguns doentes para conduzir ou utilizar máquinas.
 INVANZ contém sódio
 Este medicamento contém aproximadamente 137 mg sódio (principal componente de sal de cozinha/
 sal de mesa) em cada dose de 1,0 g. Isto é equivalente a 6,85 % da ingestão diária máxima de sódio
-recomendada na dieta para um adulto.</p>         </div>"""   
+recomendada na dieta para um adulto.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar invanz"
@@ -1111,7 +1120,7 @@ Se achar que pode ter-lhe sido administrada uma quantidade excessiva de INVANZ, 
 imediatamente o seu médico ou outro profissional de saúde.
 Caso se tenha esquecido de utilizar INVANZ
 Se achar que pode ter-se esquecido de receber uma dose, consulte imediatamente o seu médico ou
-outro profissional de saúde.</p>         </div>"""         
+outro profissional de saúde.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1250,7 +1259,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar invanz"
@@ -1260,7 +1269,7 @@ medicamento. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças.
 Não utilize este medicamento após o prazo de validade impresso no recipiente. 
 Os 2 primeiros algarismos indicam o mês; os últimos 4 algarismos indicam o ano.
-Não conservar acima de 25ºC.</p>         </div>"""      
+Não conservar acima de 25ºC.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1415,7 +1424,7 @@ Health) Limited
 Tel: +353 (0)1 2998700
 medinfoNI@msd.com
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

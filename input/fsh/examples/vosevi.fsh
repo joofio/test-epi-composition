@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -48,7 +50,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Vosevi has been prescribed for your child, please note that all the information in this leaflet is 
-addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
+addressed to your child (in this case please read  your child  instead of  you ). </p>  </div>"""   
 
 
 
@@ -65,7 +67,7 @@ addressed to your child (in this case please read  your child  instead of  you )
 <li>Possible side effects </li>
 <li>How to store Vosevi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +80,7 @@ single tablet. It is given to treat a chronic (long-term) viral infection of the
 patients aged 12 years and older and weighing at least 30 kg. </p>
 <p>The active substances in this medicine work together by blocking three different proteins that the 
 hepatitis C virus needs to grow and reproduce itself, causing the infection to be eliminated from the 
-body. </p>         </div>"""   
+body. </p> </div>"""   
           
 
              
@@ -213,7 +215,7 @@ monohydrate. If you have been told by your doctor that you have an intolerance t
 contact your doctor before taking this medicine. </p>
 <p>Vosevi contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vosevi"
@@ -256,7 +258,7 @@ dose. </p>
 <p>Do not stop taking this medicine unless your doctor tells you to. It is very important that you complete 
 the full course of treatment to give the medicine the best chance to treat your hepatitis C virus 
 infection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -294,7 +296,7 @@ frequency of the side effect is not known) </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vosevi"
@@ -307,7 +309,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original 
 package in order to protect from moisture. Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -418,7 +420,7 @@ Gilead Sciences Poland Sp. z o.o.
 Tel: + 48 22 262 8United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -457,7 +459,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -468,7 +472,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Vosevi er blevet ordineret til dit barn, skal du være opmærksom på, at alle oplysningerne i 
 denne indlægsseddel vedrører dit barn (hvis det er tilfældet skal du læse "dit barn" i stedet for 
-"du"). </p>         </div>"""   
+"du"). </p>  </div>"""   
 
 
 
@@ -485,7 +489,7 @@ denne indlægsseddel vedrører dit barn (hvis det er tilfældet skal du læse "d
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -497,7 +501,7 @@ denne indlægsseddel vedrører dit barn (hvis det er tilfældet skal du læse "d
 samme tablet. Det gives til behandling af patienter i alderen 12 år og derover, og som vejer mindst kg, med en kronisk (langvarig) virusinfektion i leveren, der kaldes hepatitis C. </p>
 <p>De aktive stoffer i dette lægemiddel arbejder sammen ved at blokere tre forskellige proteiner, som 
 hepatitis C-virusset skal bruge til at vokse og formere sig, og forårsager derved at infektionen 
-udryddes i kroppen. </p>         </div>"""   
+udryddes i kroppen. </p> </div>"""   
           
 
              
@@ -718,7 +722,7 @@ modermælken hos mennesker. </p>
 lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Vosevi indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vosevi"
@@ -774,7 +778,7 @@ tæt på hinanden), som erstating for den glemte dosis. </p>
 <p>Du må ikke holde op med at tage dette lægemiddel, medmindre lægen fortæller dig det. Det er meget 
 vigtigt, at du gennemfører hele behandlingsprogrammet, så lægemidlet får de bedste betingelser for at 
 behandle din infektion med hepatitis C. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -842,7 +846,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vosevi"
@@ -855,7 +859,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
 originale yderpakning for at beskytte mod fugt. Hold beholderen tæt tillukket. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -998,7 +1002,7 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113  </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -1037,7 +1041,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1048,7 +1054,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>No caso de Vosevi ter sido prescrito a uma criança, queira por favor ter em conta que todas as 
 informações neste folheto são destinadas à criança (neste caso, leia “a criança" em vez de 
-“você"). </p>         </div>"""   
+“você"). </p>  </div>"""   
 
 
 
@@ -1065,7 +1071,7 @@ informações neste folheto são destinadas à criança (neste caso, leia “a c
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Vosevi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1079,7 +1085,7 @@ designada por hepatite C em doentes com idade igual ou superior a 12 anos e que 
 30 kg. </p>
 <p>As substâncias ativas presentes neste medicamento atuam em conjunto bloqueando três proteínas 
 diferentes que o vírus da hepatite C necessita para crescer e reproduzir-se, fazendo com que a infeção 
-seja eliminada do organismo. </p>         </div>"""   
+seja eliminada do organismo. </p> </div>"""   
           
 
              
@@ -1311,7 +1317,7 @@ lactose mono-hidratada. Se foi informado pelo seu médico que tem intolerância 
 contacte-o antes de tomar este medicamento. </p>
 <p>Vosevi contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vosevi"
@@ -1370,7 +1376,7 @@ para compensar uma dose esquecida. </p>
 importante que termine o ciclo completo de tratamento para dar ao medicamento toda a possibilidade 
 de tratar a sua infeção pelo vírus da hepatite C. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1439,7 +1445,7 @@ Stevens-Johnson) (a frequência do efeito indesejável é desconhecida) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vosevi"
@@ -1453,7 +1459,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
 embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1598,7 +1604,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

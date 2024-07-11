@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Pedmarqsi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pedmarqsi contains the active substance sodium thiosulfate.  </p>
 <p>Pedmarqsi is used to reduce the risk of hearing loss from the cancer medicine cisplatin. It is given to 
 children and adolescents aged 1 month to 18 years who are being treated with cisplatin for solid 
-tumours that have not spread to other areas of the body.  </p>         </div>"""   
+tumours that have not spread to other areas of the body.  </p> </div>"""   
           
 
              
@@ -114,7 +117,7 @@ This medicine contains boric acid which may impair fertility when given chronica
 <p>Pedmarqsi contains sodium 
 This medicine contains 23 mg sodium (main component of cooking/table salt) in each mL. This is 
 equivalent to 1-2% of the safe dietary intake of sodium for children aged 1 to 17 years and 12% in 
-babies aged 7 to 11 months.  </p>         </div>"""   
+babies aged 7 to 11 months.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pedmarqsi"
@@ -136,7 +139,7 @@ child will be given the wrong amount. In case of overdose, you or your child may
 vomiting, changes to levels of sodium, phosphate or potassium in the blood, changes to blood pressure, 
 or acidic blood (metabolic acidosis) which can cause nausea, vomiting, drowsiness and breathlessness. 
 Your doctor may give you or your child symptomatic treatment for these side effects.  </p>
-<p>If you have any further questions on the use of this medicine, ask the doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask the doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -166,7 +169,7 @@ breathlessness </p>
 If you or your child get any side effects, talk to the doctor or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pedmarqsi"
@@ -178,7 +181,7 @@ safety of this medicine. </p>         </div>"""
 refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -214,7 +217,7 @@ Co. Dublin
 Ireland  </p>
 <p>This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -253,7 +256,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -262,7 +267,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -279,7 +285,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -290,7 +296,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pedmarqsi indeholder det aktive stof natriumthiosulfat. </p>
 <p>Pedmarqsi anvendes til at nedbringe risikoen for høretab forårsaget af kræftlægemidlet cisplatin. Det 
 gives til børn og unge i alderen 1 måned til 18 år, som behandles med cisplatin for solide tumorer, der 
-ikke har spredt sig til andre dele af kroppen. </p>         </div>"""   
+ikke har spredt sig til andre dele af kroppen. </p> </div>"""   
           
 
              
@@ -329,7 +335,7 @@ Dette lægemiddel indeholder borsyre, som kan nedsætte frugtbarheden, når det 
 <p>Pedmarqsi indeholder natrium 
 Dette lægemiddel indeholder 23 mg natrium (hovedbestanddelen i køkken-/bordsalt) pr. ml. Dette 
 svarer til 1-2 % af det sikre indtag af natrium via kosten for børn i alderen 1 til 17 år og 12 % for 
-spædbørn i alderen 7 til 11 måneder. </p>         </div>"""   
+spædbørn i alderen 7 til 11 måneder. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pedmarqsi"
@@ -351,7 +357,7 @@ få den forkerte dosis. I tilfælde af overdosering kan du eller dit barn opleve
 ændringer i indholdet af natrium, fosfat eller kalium i blodet, ændringer i blodtrykket, eller surt blod 
 (metabolisk acidose), som kan give kvalme, opkastning, træthed og åndedrætsbesvær. Lægen kan give 
 dig eller dit barn symptomundertrykkende behandling for disse bivirkninger. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget ved brugen af dette lægemiddel, du/I er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget ved brugen af dette lægemiddel, du/I er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -399,7 +405,7 @@ Kontakt lægen eller sygeplejersken, hvis du eller dit barn får bivirkninger. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pedmarqsi"
@@ -411,7 +417,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. Spørg 
-på apoteket, hvordan du skal bortskaffe lægemiddelrester. Dette vil være med til at skåne miljøet. </p>         </div>"""      
+på apoteket, hvordan du skal bortskaffe lægemiddelrester. Dette vil være med til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -551,7 +557,7 @@ genoptag CIS-hydrering
 Varighed af CIS-
 infusion maks. 6 timer 
 Næste infusion af 
-CIS </p>         </div>"""      
+CIS </p> </div>"""      
 
 
 

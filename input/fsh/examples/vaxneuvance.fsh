@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vaxneuvance</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ media),
 * individuals 18 years of age and older to help protect against diseases such as lung infection
 (pneumonia), inflammation of the coverings of the brain and spinal cord (meningitis) and a
 severe infection in the blood (bacteraemia), caused by 15 types of bacteria called Streptococcus
-pneumoniae or pneumococcus.</p>         </div>"""   
+pneumoniae or pneumococcus.</p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ of the effects mentioned under section 4  Possible side effects  may temporarily
 drive or use machines.
 Vaxneuvance contains sodium
 This medicine contains less than 1 mmol sodium (23 milligrams) per dose, that is to say essentially
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaxneuvance"
@@ -159,7 +162,7 @@ Special populations
 One or more injections of Vaxneuvance may be given to individuals who have one or more underlying
 conditions that increase their risk for pneumococcal disease (such as individuals with sickle cell
 disease or living with human immunodeficiency virus [HIV] or recipients of a stem cell transplant). 
-If you have any further questions on the use of Vaxneuvance, ask your doctor, pharmacist, or nurse.</p>         </div>"""         
+If you have any further questions on the use of Vaxneuvance, ask your doctor, pharmacist, or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -231,7 +234,7 @@ Reporting of side effects
 If you or your child gets any side effects, talk to your doctor, pharmacist, or nurse. This includes any
 possible side effects not listed in this leaflet. You can also report side effects directly via the national
 reporting system listed in Appendix V. By reporting side effects you can help provide more
-information on the safety of this medicine.</p>         </div>"""      
+information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaxneuvance"
@@ -245,7 +248,7 @@ Store in a refrigerator (2  C   8  C). Do not freeze. Keep the pre-filled syring
 order to protect from light. 
 Vaxneuvance should be administered as soon as possible after being removed from the refrigerator.
 However, in circumstances where Vaxneuvance is temporarily held outside of refrigeration, the
-vaccine is stable at temperatures up to 25  C for 48 hours.</p>         </div>"""      
+vaccine is stable at temperatures up to 25  C for 48 hours.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -400,7 +403,7 @@ Vaxneuvance should be administered as soon as possible after being removed from 
 In the event of temporary temperature excursions, stability data indicate that Vaxneuvance is stable at
 temperatures up to 25    for 48 hours.
 Any unused medicinal product or waste material should be disposed of in accordance with local
-requirements.</p>         </div>"""      
+requirements.</p> </div>"""      
 
 
 
@@ -439,7 +442,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -448,7 +453,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -463,7 +469,7 @@ Usage: #inline
 3. Sådan får du eller dit barn Vaxneuvance
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -485,7 +491,7 @@ hjernehindebetændelse (meningitis, en infektion i hinderne omkring hjernen og r
 en alvorlig infektion i blodet (bakteriæmi), forårsaget af 15 bakterietyper kaldet Streptococcus
 pneumoniae eller pneumokok. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -542,7 +548,7 @@ Vaxneuvance indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaxneuvance"
@@ -596,7 +602,7 @@ seglcellesygdom eller humant immundefektvirus (hiv)-infektion eller personer, so
 en stamcelletransplantation).
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -762,7 +768,7 @@ nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirk
 med at fremskaffe mere information om sikkerheden af dette lægemiddel.
 40</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaxneuvance"
@@ -776,7 +782,7 @@ Opbevares i køleskab (2 C - 8 C). Må ikke nedfryses. Opbevar den fyldte 
 ydre karton for at beskytte mod lys.
 Vaxneuvance skal administreres så hurtigt som muligt, efter det er taget ud af køleskabet. I tilfælde
 hvor Vaxneuvance opbevares midlertidigt uden for køleskabet, er vaccinen dog stabil ved temperaturer
-op til 25 C i 48 timer.</p>         </div>"""      
+op til 25 C i 48 timer.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -973,7 +979,7 @@ I tilfælde af midlertidige temperaturudsving indikerer stabilitetsdata, at Vaxn
 temperaturer op til 25 °C i 48 timer.
 Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

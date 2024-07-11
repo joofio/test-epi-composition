@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cotellic </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ have led to the development of melanoma.  </p>
 <p>How Cotellic works 
 Cotellic targets a protein called  MEK  that is important in controlling cancer cell growth. When 
 Cotellic is used in combination with vemurafenib (which targets the changed  BRAF  protein), it 
-further slows down or stops the growth of your cancer. </p>         </div>"""   
+further slows down or stops the growth of your cancer. </p> </div>"""   
           
 
              
@@ -196,7 +199,7 @@ tired. Talk to your doctor if you are not sure.  </p>
 The tablets contain lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, talk to your doctor before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .   </p>         </div>"""   
+free .   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cotellic"
@@ -230,7 +233,7 @@ the usual time.
 * Do not take a double dose to make up for a missed dose. </p>
 <p>If you stop taking Cotellic 
 It is important to keep taking Cotellic for as long as your doctor prescribes it.<br />
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ eyes
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cotellic"
@@ -322,7 +325,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -413,7 +416,7 @@ Roche Latvija SIA<br />
 Tel: +371 - 6 7039United Kingdom (Northern Ireland) <br />
 Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366This leaflet was last revised in {MM/YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -452,7 +455,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -461,7 +466,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -476,7 +482,7 @@ Usage: #inline
 3. Sådan skal du tage Cotellic 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -502,7 +508,7 @@ Denne mutation kan være skyld i melanomet.  </p>
 <p>Hvordan virker Cotellic? 
 Cotellic virker på et protein, der kaldes MEK. Dette protein har stor betydning for kontrollen af 
 kræftcellernes vækst. Når Cotellic tages sammen med vemurafenib (som virker på det muterede 
-BRAF-protein), vil det yderligere nedsætte eller stoppe væksten af kræftcellerne. </p>         </div>"""   
+BRAF-protein), vil det yderligere nedsætte eller stoppe væksten af kræftcellerne. </p> </div>"""   
           
 
              
@@ -625,7 +631,7 @@ påvirke din evne, f.eks. hvis du er svimmel eller træt. Tal med lægen, hvis d
 Tabletterne indeholder lactose (en sukkerart). Kontakt lægen, inden du tager denne medicin, hvis 
 lægen har fortalt dig, at du ikke tåler visse former for sukker. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, det vil sige, den er i det 
-væsentlige natrium-fri. </p>         </div>"""   
+væsentlige natrium-fri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cotellic"
@@ -683,7 +689,7 @@ næste dosis på det planlagte tidspunkt. </p>
 </ul>
 <p>Hvis du holder op med at tage Cotellic 
 Det er vigtigt, at du bliver ved med at tage Cotellic lige så længe, lægen har ordineret det.<br />
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -762,7 +768,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cotellic"
@@ -784,7 +790,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -910,7 +916,7 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366 </p>
 <p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}.&gt; </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

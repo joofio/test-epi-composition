@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Esperoct </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ stop bleeding. </p>
 Esperoct is used to treat and prevent bleeding in people 12 years and above with haemophilia A 
 (inborn factor VIII deficiency). </p>
 <p>In people with haemophilia A, factor VIII is missing or does not work properly. Esperoct replaces this 
-faulty or missing factor VIII and helps blood to form clots at the site of bleeding. </p>         </div>"""   
+faulty or missing factor VIII and helps blood to form clots at the site of bleeding. </p> </div>"""   
           
 
              
@@ -131,7 +134,7 @@ This medicine contains 30.5 mg sodium (main component of cooking/table salt) per
 This is equivalent to 1.5% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>Decreased factor VIII activity in previously treated patients 
 A decreased factor VIII activity may occur in the beginning of your treatment. If you think your 
-medicine works less than expected, tell your doctor. </p>         </div>"""   
+medicine works less than expected, tell your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take esperoct"
@@ -169,7 +172,7 @@ your doctor. If you are in doubt, contact your doctor. </p>
 <p>If you stop using Esperoct 
 Do not stop using Esperoct without talking to your doctor. 
 If you stop using Esperoct, you may no longer be protected against bleeding or a current bleed may not 
-stop. If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+stop. If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -211,7 +214,7 @@ Decreased factor VIII activity in the absence of factor VIII inhibitors. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store esperoct"
@@ -248,7 +251,7 @@ changed. </p>
 <p>The reconstituted solution must be clear and colourless. Do not use the reconstituted solution if you 
 notice any particles or discolouration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -278,7 +281,7 @@ Novo All<br />
 DK-2880 Bagsv rd, Denmark </p>
 <p>This leaflet was last revised in<br />
 Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -317,7 +320,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -326,7 +331,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -343,7 +349,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -359,7 +365,7 @@ forebygge og stoppe blødning. </p>
 Esperoct anvendes til at behandle og forebygge blødning hos personer i alderen 12 år og derover med 
 hæmofili A (medfødt faktor VIII-mangel). </p>
 <p>Hos patienter med hæmofili A mangler eller fungerer faktor VIII ikke ordentligt. Esperoct erstatter 
-denne defekte eller manglende faktor VIII og hjælper blodet til at størkne på blødningsstedet. </p>         </div>"""   
+denne defekte eller manglende faktor VIII og hjælper blodet til at størkne på blødningsstedet. </p> </div>"""   
           
 
              
@@ -428,7 +434,7 @@ Dette lægemiddel indeholder 30,5 mg natrium (hovedkomponenten i køkken-/bordsa
 hætteglas. Det svarer til 1,5% af det anbefalede maksimale daglige indtag af natrium for voksne. </p>
 <p>Nedsat aktivitet af faktor VIII hos tidligere behandlede patienter 
 En nedsat aktivitet af faktor VIII kan forekomme i begyndelsen af din behandling. Hvis du mistænker, 
-at din medicin virker mindre end forventet, skal du fortælle det til din læge.  </p>         </div>"""   
+at din medicin virker mindre end forventet, skal du fortælle det til din læge.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take esperoct"
@@ -465,7 +471,7 @@ planlagt, og fortsæt derefter som anvist af lægen. Spørg lægen, hvis du er i
 <p>Hvis du holder op med at bruge Esperoct 
 Du må ikke holde op med at bruge Esperoct uden først at have talt med lægen om det. 
 Hvis du holder op med at tage Esperoct, er du måske ikke længere beskyttet mod blødning, eller en 
-aktuel blødning vil måske ikke stoppe. Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+aktuel blødning vil måske ikke stoppe. Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -543,7 +549,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store esperoct"
@@ -600,7 +606,7 @@ se partikler eller misfarvning.
 Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
 smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -996,7 +1002,7 @@ apotekspersonalet. </p>
 husholdningsaffaldet. 
  M </p>
 <p>Skil ikke udstyret fra hinanden før bortskaffelse. </p>
-<p>Genbrug ikke udstyret. </p>         </div>"""      
+<p>Genbrug ikke udstyret. </p> </div>"""      
 
 
 
@@ -1035,7 +1041,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1044,7 +1052,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1061,7 +1070,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Esperoct </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1078,7 +1087,7 @@ Esperoct é utilizado para tratar e prevenir hemorragias em doentes com 12 anos 
 hemofilia A (deficiência congénita do fator VIII). </p>
 <p>Nos doentes com hemofilia A, o fator VIII está em falta ou não atua adequadamente. Esperoct 
 substitui este fator VIII defeituoso ou em falta e ajuda o sangue a formar coágulos no local da 
-hemorragia. </p>         </div>"""   
+hemorragia. </p> </div>"""   
           
 
              
@@ -1152,7 +1161,7 @@ reconstituído. Isto é equivalente a 1,5% da ingestão alimentar diária máxim
 para um adulto. </p>
 <p>Diminuição da atividade do fator VIII em doentes previamente tratados 
 Pode ocorrer uma diminuição da atividade do fator VIII no início do seu tratamento. Se pensa que o 
-seu medicamento tem menos efeito do que o esperado, fale com o seu médico. </p>         </div>"""   
+seu medicamento tem menos efeito do que o esperado, fale com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar esperoct"
@@ -1193,7 +1202,7 @@ seu médico. </p>
 Não pare de utilizar Esperoct sem falar com o seu médico. 
 Se parar de utilizar Esperoct, pode já não estar protegido contra hemorragias ou a hemorragia que tem 
 pode não parar. Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu 
-médico. </p>         </div>"""         
+médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1273,7 +1282,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar esperoct"
@@ -1333,7 +1342,7 @@ cor diferente. </p>
 quaisquer partículas ou descoloração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1372,7 +1381,7 @@ Novo Allé
 DK-2880 Bagsværd, Dinamarca </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

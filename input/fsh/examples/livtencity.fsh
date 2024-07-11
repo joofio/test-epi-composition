@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store LIVTENCITY</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ CMV ( cytomegalovirus ) infection that did not go away or came back again after 
 antiviral medicine.
 CMV is a virus that a lot of people have without symptoms and normally just stays in the body
 without causing any harm. However, if your immune system is weakened after you get an organ or 
-bone marrow transplant, you may be at higher risk of becoming ill from CMV.</p>         </div>"""   
+bone marrow transplant, you may be at higher risk of becoming ill from CMV.</p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ Driving and using machines
 LIVTENCITY has no influence on your ability to drive or to use machines.
 LIVTENCITY contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take livtencity"
@@ -164,7 +167,7 @@ If you stop taking LIVTENCITY
 Even if you feel better, do not stop taking LIVTENCITY without talking to your doctor. Taking 
 LIVTENCITY as recommended should give you the best chance of clearing CMV infection and/or 
 disease.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -190,7 +193,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store livtencity"
@@ -202,7 +205,7 @@ Do not use this medicine after the expiry date that is stated on the carton and 
 The expiry date refers to the last day of that month.
 Do not store above 30  C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -329,7 +332,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -368,7 +371,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -377,7 +382,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -394,7 +400,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -408,7 +414,7 @@ knoglemarvstransplantation og derefter udviklet en CMV(cytomegalovirus)-infektio
 forsvundet eller er kommet tilbage, efter at være behandlet med et andet antiviralt lægemiddel. </p>
 <p>CMV er en virus, som mange mennesker har uden symptomer, og normalt bliver den bare i kroppen 
 uden at forårsage skade. Men hvis dit immunsystem er svækket, efter du har fået en organ- eller 
-knoglemarvstransplantation, kan du have større risiko for at blive syg af CMV. </p>         </div>"""   
+knoglemarvstransplantation, kan du have større risiko for at blive syg af CMV. </p> </div>"""   
           
 
              
@@ -489,7 +495,7 @@ udskilles i modermælk, eller om det kan påvirke dit barn. </p>
 LIVTENCITY påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>LIVTENCITY indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take livtencity"
@@ -511,7 +517,7 @@ glemte dosis. </p>
 Selvom du har det bedre, må du ikke holde op med at tage LIVTENCITY uden at tale med lægen. Du 
 har den bedste chance for at komme dig over CMV-infektion og/eller -sygdom ved at tage 
 LIVTENCITY som anbefalet. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -549,7 +555,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store livtencity"
@@ -561,7 +567,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -705,7 +711,7 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

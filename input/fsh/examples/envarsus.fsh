@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Envarsus </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ transplanted organ. </p>
 <p>You may also be given Envarsus for an ongoing rejection of your transplanted liver, kidney, heart or 
 other organ when any previous treatment you were taking was unable to control this immune response 
 after your transplantation. </p>
-<p>Envarsus is used in adults. </p>         </div>"""   
+<p>Envarsus is used in adults. </p> </div>"""   
           
 
              
@@ -219,7 +222,7 @@ Envarsus contains lactose (milk sugar).<br />
 * Envarsus 4 mg tablets:<br />
 104 mg 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take envarsus"
@@ -263,7 +266,7 @@ same day.  </p>
 <p>If you stop taking Envarsus<br />
 Stopping your treatment with Envarsus may increase the risk of rejection of your transplanted organ. 
 Do not stop your treatment unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ Very rare side effects (may affect up to 1 in 10 000 people):</p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store envarsus"
@@ -455,7 +458,7 @@ this medicine. </p>         </div>"""
 Store in the original aluminium foil wrapper in order to protect from light. </p>
 <p>Use all the prolonged-release tablets within 45 days of opening the aluminium wrapping. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -567,7 +570,7 @@ Tel: +43 1 4073United Kingdom (Northern Ireland)
 Chiesi Farmaceutici S.p.A. 
 Tel: +39 0521 2This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -606,7 +609,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -615,7 +620,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -632,7 +638,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -646,7 +652,7 @@ transplanterede organ. </p>
 <p>Du kan også få Envarsus ved en igangværende afstødning af den transplanterede lever, nyre, hjerte 
 eller andet organ, når din tidligere behandling ikke har kunnet kontrollere immunforsvarets reaktion 
 efter transplantationen. </p>
-<p>Envarsus anvendes til voksne. </p>         </div>"""   
+<p>Envarsus anvendes til voksne. </p> </div>"""   
           
 
              
@@ -807,7 +813,7 @@ Envarsus indeholder lactose (mælkesukker).  </p>
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take envarsus"
@@ -852,7 +858,7 @@ muligt samme dag.  </p>
 <p>Hvis du holder op med at tage Envarsus<br />
 Hvis du ophører med din behandling med Envarsus, kan det øge risikoen for afstødning af det 
 transplanterede organ. Du må ikke ophøre med behandlingen, medmindre din læge siger, at du skal. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1027,7 +1033,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, eller apotekspersonale
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store envarsus"
@@ -1041,7 +1047,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale alufoliepakning for at beskytte mod lys. </p>
 <p>Brug alle depottabletterne inden for 45 dage efter åbning af alufoliepakningen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1181,7 +1187,7 @@ Tel: +39 0521 2 </p>
 <p>Denne indlægsseddel blev senest ændret. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1220,7 +1226,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1229,7 +1237,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1246,7 +1255,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Envarsus </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1261,7 +1270,7 @@ rim ou de fígado, o seu sistema imunitário irá tentar rejeitar o novo órgão
 <p>Também lhe pode ser administrado Envarsus quando estiver a ocorrer uma rejeição do fígado, rim, 
 coração ou outro órgão transplantado, nas situações em que o tratamento, que estava a fazer 
 anteriormente, não foi capaz de controlar a sua resposta imunitária após o transplante. </p>
-<p>O Envarsus é usado em adultos. </p>         </div>"""   
+<p>O Envarsus é usado em adultos. </p> </div>"""   
           
 
              
@@ -1423,7 +1432,7 @@ O Envarsus contém lactose (açúcar do leite).  </p>
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte o seu médico antes 
 de tomar este medicamento. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar envarsus"
@@ -1469,7 +1478,7 @@ comprimido assim que possível no mesmo dia.  </p>
 Parar o tratamento com Envarsus poderá aumentar o risco de rejeição do seu órgão transplantado. Não 
 pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1628,7 +1637,7 @@ enzima lactato desidrogenase no sangue, perda de peso </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar envarsus"
@@ -1644,7 +1653,7 @@ na bolsa, após VAL. O prazo de validade corresponde ao último dia do mês indi
 de alumínio. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1784,7 +1793,7 @@ Chiesi Farmaceutici S.p.A.
 Tel: +39 0521 2791  </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ebvallo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ a vein.  </p>
 lymphoproliferative disease (EBV+ PTLD) for adults and children 2 years of age and older. Some 
 people experience this condition months or years after they have had a transplant. Patients will have 
 received treatment with other medicines for this condition, such as monoclonal antibodies or 
-chemotherapy, before they are given Ebvallo. </p>         </div>"""   
+chemotherapy, before they are given Ebvallo. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ and tell your doctor immediately. </p>
 <p>Ebvallo contains sodium and dimethyl sulfoxide (DMSO) 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
 free .  </p>
-<p>This medicine contains 100 mg DMSO per mL. See Section 2  Warnings and precautions . </p>         </div>"""   
+<p>This medicine contains 100 mg DMSO per mL. See Section 2  Warnings and precautions . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebvallo"
@@ -179,7 +182,7 @@ Ebvallo. </p>
 Your doctor or nurse will monitor your vital signs prior to each injection. </p>
 <p>After you are given Ebvallo 
 Your doctor or nurse will monitor your vital signs, including blood pressure, for about 1 hour 
-following the injection. </p>         </div>"""         
+following the injection. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ If you get any side effects, talk to your doctor or nurse. This includes any pos
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
 medicine. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ebvallo"
@@ -279,7 +282,7 @@ Sheet (LIS) and carton. </p>
 The medicine should be thawed and diluted within 1 hour from the start of thaw. Administration must 
 be completed within 3 hours from the start of thaw. </p>
 <p>Store between 15  C to 25  C after thawing and dilution are complete. Protect product from light. Do 
-not refreeze. Do not irradiate. </p>         </div>"""      
+not refreeze. Do not irradiate. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ rarity of this disease, it has been impossible to get complete information on th
 European Medicines Agency will review any new information on this medicine every year and this 
 leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -351,7 +354,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -360,7 +365,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -375,7 +381,7 @@ Usage: #inline
 3. Sådan indgives Ebvallo 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -394,7 +400,7 @@ Ebvallo indgives som en injektion i en vene.  </p>
 posttransplantations-lymfoproliferativ sygdom (EBV+ PTLD), hos voksne og børn på 2 år og ældre. 
 Nogle personer oplever denne sygdom måneder eller år, efter de har fået en transplantation. 
 Patienterne vil have modtaget behandling af denne sygdom med andre lægemidler, for eksempel 
-monoklonale antistoffer eller kemoterapi, før de får Ebvallo. </p>         </div>"""   
+monoklonale antistoffer eller kemoterapi, før de får Ebvallo. </p> </div>"""   
           
 
              
@@ -489,7 +495,7 @@ føre motorkøretøj og betjene maskiner og informere lægen med det samme. </p>
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
 væsentlige natrium-frit.  </p>
 <p>Dette lægemiddel indeholder 100 mg DMSO pr. ml. Se “Advarsler og forsigtighedsregler" under 
-punkt 2. </p>         </div>"""   
+punkt 2. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ebvallo"
@@ -506,7 +512,7 @@ cyklusser, du skal have, afhængigt af hvordan din sygdom reagerer på Ebvallo. 
 Lægen eller sygeplejersken vil kontrollere dine vitalparametre før hver injektion. </p>
 <p>Efter du har fået Ebvallo 
 Lægen eller sygeplejersken vil overvåge dine vitalparametre, herunder dit blodtryk, i cirka 1 time efter 
-injektionen. </p>         </div>"""         
+injektionen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -713,7 +719,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ebvallo"
@@ -728,7 +734,7 @@ oplysningsarket og æsken.    </p>
 optøs og anvendes. Lægemidlet skal optøs og fortyndes inden for 1 time fra optøningens start. 
 Indgivelse skal være afsluttet inden for 3 timer fra optøningens start. </p>
 <p>Opbevares ved temperaturer mellem 15 °C og 25 °C efter optøning og fortynding. Beskyttes mod lys. 
-Må ikke nedfryses igen. Må ikke bestråles. </p>         </div>"""      
+Må ikke nedfryses igen. Må ikke bestråles. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -881,7 +887,7 @@ skal dekontamineres med et passende desinfektionsmiddel. </p>
 <p>Forsigtighedsregler vedrørende bortskaffelse af lægemidlet </p>
 <p>Ikke anvendt lægemiddel samt alle materialer, der har været i kontakt med Ebvallo (fast og flydende 
 affald), skal håndteres og bortskaffes som potentielt smitsomt affald i henhold til lokale retningslinjer 
-for håndtering af humanderiveret materiale. </p>         </div>"""      
+for håndtering af humanderiveret materiale. </p> </div>"""      
 
 
 

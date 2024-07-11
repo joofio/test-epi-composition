@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for Use </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for Use </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Duaklir Genuair </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +83,7 @@ Genuair inhaler delivers the active ingredients directly into your lungs as you 
 Duaklir Genuair is used for adult patients who have breathing difficulties due to a lung disease called 
 chronic obstructive pulmonary disease (COPD), in which the airways and air sacs in the lungs become 
 damaged or blocked. By opening the airways, the medicine helps relieve symptoms such as shortness 
-of breath. Taking Duaklir Genuair regularly will reduce the effects of COPD on your everyday life. </p>         </div>"""   
+of breath. Taking Duaklir Genuair regularly will reduce the effects of COPD on your everyday life. </p> </div>"""   
           
 
              
@@ -146,7 +148,7 @@ medicine may cause blurred vision or dizziness. If you are affected by either of
 not drive or use machines until the dizziness has cleared or your vision has returned to normal. </p>
 <p>Duaklir Genuair contains lactose 
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take duaklir"
@@ -184,7 +186,7 @@ usual time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Duaklir Genuair 
 This medicine is for long-term use. If you want to stop treatment, first talk to your doctor, as your 
 symptoms may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -256,7 +258,7 @@ rhythm
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store duaklir"
@@ -272,7 +274,7 @@ bag after  EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not use Duaklir Genuair if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>After you have taken the last dose, the inhaler has to be disposed of.  Do not throw away any 
 medicines via household waste. Ask your pharmacist how to throw away medicines you no longer use. 
-These measures will help protect the environment. </p>         </div>"""      
+These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -369,7 +371,7 @@ Covis Pharma Europe B.V.
 Tel: 80005United Kingdom (Northern Ireland) 
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -408,7 +410,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -417,7 +421,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>  </div>"""   
 
 
 
@@ -432,7 +436,7 @@ Usage: #inline
 3. Sådan skal du bruge Duaklir Genuair<br />
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +455,7 @@ Duaklir Genuair anvendes til voksne patienter, som lider af åndedrætsbesvær p
 der hedder kronisk obstruktiv lungesygdom (KOL), hvor luftvejene og luftlommerne i lungerne 
 beskadiges eller blokeres. Ved at åbne luftvejene hjælper medicinen med at lindre symptomer som 
 f.eks. åndenød. Ved at tage Duaklir Genuair regelmæssigt nedsættes KOL's påvirkning af din 
-dagligdag. </p>         </div>"""   
+dagligdag. </p> </div>"""   
           
 
              
@@ -527,7 +531,7 @@ påvirket af en af disse bivirkninger, må du ikke føre motorkøretøjer eller 
 svimmelheden er gået væk, og dit syn er blevet normalt igen. </p>
 <p>Duaklir Genuair indeholder lactose<br />
 Lægemidlet indeholder lactose. Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, 
-at du ikke tåler visse sukkerarter. </p>         </div>"""   
+at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take duaklir"
@@ -566,7 +570,7 @@ glemte dosis. </p>
 <p>Hvis du holder op med at bruge Duaklir Genuair 
 Lægemidlet er beregnet til langvarig brug. Tal med din læge inden, hvis du ønsker at stoppe 
 behandlingen, da dine symptomer kan blive værre. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -641,7 +645,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store duaklir"
@@ -659,7 +663,7 @@ begynder. </p>
 manipulering. </p>
 <p>Efter du har taget den sidste dosis, skal inhalatoren bortskaffes. Spørg på apoteket, hvordan du skal 
 bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller 
-skraldespanden.  </p>         </div>"""      
+skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -920,7 +924,7 @@ Dosisindikator flytter langsomt fra
 Brug ALDRIG vand til at rengøre inhalatoren, da det kan ødelægge medicinen. 
 Hvis du ønsker at rengøre din inhalator, skal du bare tørre ydersiden af mundstykket af med et tørt 
 stykke køkkenrulle eller papirlommetørklæde. </p>
-<p>Låst </p>         </div>"""      
+<p>Låst </p> </div>"""      
 
 
 

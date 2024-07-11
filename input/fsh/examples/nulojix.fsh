@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NULOJIX </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ immunosuppressants. These are medicines that reduce the activity of the immune s
 natural defences. </p>
 <p>NULOJIX is used in adults to prevent the immune system from attacking your transplanted kidney and 
 causing transplant rejection. It is used with other immunosuppressive medicines, including 
-mycophenolic acid and corticosteroids. </p>         </div>"""   
+mycophenolic acid and corticosteroids. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ drive or operate any machines if you are feeling tired or unwell after receiving
 <p>NULOJIX contains sodium 
 Tell your doctor if you are on a low-sodium (low-salt) diet before you are treated with NULOJIX. 
 This medicine contains 0.55 mmol (or 13 mg) sodium per vial. This is equivalent to 0.64% of the 
-recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nulojix"
@@ -200,7 +203,7 @@ Your body may reject the transplanted kidney if you stop using NULOJIX. The deci
 NULOJIX should be discussed with your doctor and another therapy will generally be started. 
 If you stop treatment with NULOJIX for a long period of time, without taking any other medicines to 
 prevent rejection, and then restart, it is not known if belatacept will have the same effect as before. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -364,7 +367,7 @@ counts decreased, low blood sugar </p>
 If any of the side effects gets serious, please tell your doctor or pharmacist. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nulojix"
@@ -387,7 +390,7 @@ The NULOJIX infusion must be completed within 24 hours of reconstitution of the 
 <p>Do not use NULOJIX if you notice any particles or discolouration in the reconstituted or diluted 
 solution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -420,7 +423,7 @@ Cruiserath Road, Mulhuddart
 Dublin 15, D15 H6EF 
 Ireland </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -459,7 +462,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -468,7 +473,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -483,7 +489,7 @@ Usage: #inline
 3. Sådan skal du bruge NULOJIX 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -496,7 +502,7 @@ Disse typer medicin mindsker aktiviteten af immunsystemet, som er kroppens natur
 forsvarssystem. </p>
 <p>NULOJIX anvendes hos voksne til at forhindre, at immunsystemet angriber den transplanterede nyre 
 og frastøder den transplanterede nyre. Det anvendes sammen med anden immunundertrykkende 
-medicin, herunder mycophenolsyre og kortikosteroider. </p>         </div>"""   
+medicin, herunder mycophenolsyre og kortikosteroider. </p> </div>"""   
           
 
              
@@ -609,7 +615,7 @@ NULOJIX. </p>
 Fortæl det til lægen, hvis du følger en diæt med lavt salt (natrium) indhold, inden du behandles med 
 NULOJIX. 
 Dette lægemiddel indeholder 0,55 mmol (eller 13 mg) natrium pr. hætteglas. Dette svarer til 0,64 % af 
-den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nulojix"
@@ -649,7 +655,7 @@ påbegyndt.
 Hvis du stopper din behandling med NULOJIX i længere tid og ikke anvender anden medicin, der skal 
 forhindre afstødning og igen begynder at anvende belatacept, er det uvist, om belatacept vil have den 
 samme effekt igen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -976,7 +982,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nulojix"
@@ -999,7 +1005,7 @@ Infusionen af NULOJIX skal være fuldført inden for 24 timer efter rekonstituer
 <p>Brug ikke NULOJIX, hvis du bemærker uigennemsigtige partikler, misfarvning eller andre 
 fremmedlegemer i infusionsvæsken. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1121,7 +1127,7 @@ udført fysiske eller biokemiske undersøgelser vedrørende eventuelle uforligel
 den samtidig administration af NULOJIX med andre lægemidler. </p>
 <p>Eventuelle rester fra infusionsvæsken må ikke gemmes til senere brug. </p>
 <p>Bortskaffelse 
-Ikke anvendte lægemidler samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendte lægemidler samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

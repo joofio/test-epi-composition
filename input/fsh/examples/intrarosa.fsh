@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Intrarosa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ menopause. </p>
 <p>How Intrarosa works </p>
 <p>Prasterone corrects the symptoms and signs of vulvar and vaginal atrophy by replacing the oestrogens 
 which are normally produced before menopause by the ovaries of women. It is inserted into your vagina, 
-so the hormone is released where it is needed. This may relieve discomfort in the vagina. </p>         </div>"""   
+so the hormone is released where it is needed. This may relieve discomfort in the vagina. </p> </div>"""   
           
 
              
@@ -264,7 +267,7 @@ contact your doctor. </p>
 <p>Intrarosa is not meant for women with child-bearing potential. It is not known if this medicine affects 
 fertility. </p>
 <p>Driving and using machines 
-Intrarosa does not affect your ability to drive and use machines. </p>         </div>"""   
+Intrarosa does not affect your ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take intrarosa"
@@ -292,7 +295,7 @@ less than 8 hours, skip the missed pessary. </p>
 <p>If you need to have surgery<br />
 If you are going to have surgery, tell the surgeon that you are using Intrarosa. You may need to stop 
 using Intrarosa about 4 to 6 weeks before the operation to reduce the risk of a blood clot (see section 2, 
- Blood clots in a vein (thrombosis) ). Ask your doctor when you can start using Intrarosa again. </p>         </div>"""         
+ Blood clots in a vein (thrombosis) ). Ask your doctor when you can start using Intrarosa again. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ during clinical studies:
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store intrarosa"
@@ -343,7 +346,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store below 30  C. </p>
 <p>Do not freeze. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -502,7 +505,7 @@ On the basis of the scientific conclusions for the results of the study for the 
 mentioned above, the CHMP is of the opinion that the benefit-risk balance of these medicinal product(s) is 
 unchanged, subject to the proposed changes to the product information. 
 The CHMP is of the opinion that the terms of the marketing authorisation of the medicinal product 
-mentioned above should be varied. </p>         </div>"""      
+mentioned above should be varied. </p> </div>"""      
 
 
 
@@ -541,7 +544,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -550,7 +555,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -567,7 +573,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -584,7 +590,7 @@ denne overgangsalderrelaterede tørhed og irritation i skeden. Årsagen er et fa
 <p>Virkning </p>
 <p>Prasteron afhjælper symptomer og tegn på tørre slimhinder i skeden ved at erstatte det østrogen, som 
 kvindernes æggestokke normalt producerer før overgangsalderen. Det indføres i skeden, så hormonet 
-frigives dér, hvor der er brug for det. Dette kan afhjælpe ubehag i skeden. </p>         </div>"""   
+frigives dér, hvor der er brug for det. Dette kan afhjælpe ubehag i skeden. </p> </div>"""   
           
 
              
@@ -870,7 +876,7 @@ med at bruge Intrarosa og kontakte din læge. </p>
 <p>Intrarosa er ikke beregnet til brug hos kvinder, der kan blive gravide. Det vides ikke, om dette 
 lægemiddel påvirker frugtbarheden. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Intrarosa påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+<p>Intrarosa påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take intrarosa"
@@ -899,7 +905,7 @@ næste dosis er planlagt til mindre end 8 timer senere, bør du dog springe det 
 <p>Hvis du skal opereres, skal du fortælle kirurgen, at du bruger Intrarosa. Det kan være nødvendigt at 
 stoppe brugen af Intrarosa ca. 4-6 uger før operationen for at reducere risikoen for en blodprop (se 
 punkt 2 "Blodpropper i en vene (trombose)"). Spørg lægen, hvornår du kan begynde at bruge Intrarosa 
-igen. </p>         </div>"""         
+igen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -957,7 +963,7 @@ men ikke med Intrarosa i de kliniske undersøgelser: </p>
 <p>Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket, herunder bivirkninger, som ikke 
 er nævnt her. Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen 
 via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du 
-hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store intrarosa"
@@ -970,7 +976,7 @@ sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 30 °C. </p>
 <p>Må ikke nedfryses. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1142,7 +1148,7 @@ ovennævnte lægemidler, er CHMP af den opfattelse, at benefit/risk-forholdet fo
 uændret, forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
 produktinformationen. 
 CHMP er af den opfattelse, at vilkårene for markedsføringstilladelsen for det ovenfor nævnte 
-lægemiddel bør varieres. </p>         </div>"""      
+lægemiddel bør varieres. </p> </div>"""      
 
 
 
@@ -1181,7 +1187,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1190,7 +1198,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1207,7 +1216,7 @@ Usage: #inline
 <li>Efeitos indesejáveispossíveis  </li>
 <li>Como conservar Intrarosa </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1224,7 +1233,7 @@ Isto acontece naturalmente após a menopausa. </p>
 <p>Como funciona Intrarosa? </p>
 <p>A prasterona corrige os sintomas e sinais de atrofia vulvar e vaginal ao repor os estrogénios que são 
 normalmente produzidos antes da menopausa pelos ovários das mulheres. É inserido na vagina, para 
-que a hormona seja libertada onde é necessária. Isto pode aliviar o desconforto na vagina. </p>         </div>"""   
+que a hormona seja libertada onde é necessária. Isto pode aliviar o desconforto na vagina. </p> </div>"""   
           
 
              
@@ -1513,7 +1522,7 @@ utilizar Intrarosa e consulte o seu médico. </p>
 <p>Intrarosa não se destina a mulheres com potencial para engravidar. Não é conhecido se este 
 medicamento afeta a fertilidade. </p>
 <p>Condução de veículos e utilização de máquinas 
-Intrarosa não afeta a sua capacidade de condução de veículos ou utilização de máquinas. </p>         </div>"""   
+Intrarosa não afeta a sua capacidade de condução de veículos ou utilização de máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar intrarosa"
@@ -1543,7 +1552,7 @@ de 8 horas para a dose seguinte, salte a aplicação do óvulo esquecido. </p>
 <p>Se vai ser submetida a uma cirurgia, informe o cirurgião de que está a utilizar Intrarosa. Poderá ter de 
 interromper a utilização de Intrarosa cerca de 4 a 6 semanas antes da operação, para reduzir o risco de 
 formação de um coágulo de sangue (ver secção 2, Coágulos de sangue numa veia (trombose)). 
-Pergunte ao seu médico quando pode voltar a utilizar Intrarosa. </p>         </div>"""         
+Pergunte ao seu médico quando pode voltar a utilizar Intrarosa. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1601,7 +1610,7 @@ gravidez» (cloasma); </li>
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveisdiretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar intrarosa"
@@ -1615,7 +1624,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não congelar. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1677,7 +1686,7 @@ Theramex Ireland Limited
 Tel/Teл./Τηλ: + 353 (0) 15138INTRAROSA.Enquiries@theramex.com </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

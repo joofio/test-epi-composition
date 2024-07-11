@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zerbaxa</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ blocking their action, tazobactam makes ceftolozane more effective at killing ba
 Zerbaxa is used in all age groups to treat complicated infections within the abdomen, and kidney and
 urinary system.
 Zerbaxa is also used in adults to treat an infection of the lungs called  pneumonia .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ equivalent to 11.5% of the recommended maximum daily dietary intake of sodium fo
 reconstituted vial with 10 mL of 0.9% sodium chloride (normal saline) for injection contains 265 mg
 sodium in each vial. This is equivalent to 13.3% of the recommended maximum daily dietary intake of
 sodium for an adult.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zerbaxa"
@@ -167,7 +170,7 @@ pharmacist know immediately.
 If you stop taking Zerbaxa
 If you think you have not been given a dose of Zerbaxa, tell your doctor or other healthcare
 professional immediately.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -219,7 +222,7 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of
 this medicine.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zerbaxa"
@@ -233,7 +236,7 @@ Unopened vials: Store in a refrigerator (2  C   8  C).
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater. Any unused medicinal product or waste material
 should be disposed of in accordance with local requirements. These measures will help protect the
-environment.</p>         </div>"""      
+environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -458,7 +461,7 @@ One of the active ingredients, ceftolozane, may have harmful effects if it reach
 aquatic environment. Do not throw away any unused medicinal product or waste
 material via wastewater. Any unused medicinal product or waste material should be
 disposed of in accordance with local requirements. These measures will help protect the
-environment.</p>         </div>"""      
+environment.</p> </div>"""      
 
 
 
@@ -497,7 +500,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -506,7 +511,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -521,7 +527,7 @@ Usage: #inline
 3. Sådan får du Zerbaxa
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -542,7 +548,7 @@ Zerbaxa anvendes til alle aldersgrupper til at behandle komplicerede infektioner
 urinvejene.
 Zerbaxa anvendes også til voksne til at behandle en infektion i lungerne kaldet "pneumoni"
 (lungebetændelse).</li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -595,7 +601,7 @@ hætteglas. Dette svarer til 11,5% af den anbefalede maksimale daglige indtagels
 voksen. Det rekonstituerede hætteglas med 10 ml 0,9% natriumchloridinjektionsvæske (normal
 saltvandsopløsning) indeholder 265 mg natrium i hvert hætteglas. Dette svarer til 13,3% af den
 anbefalede maksimale daglige indtagelse af natrium for en voksen.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zerbaxa"
@@ -630,7 +636,7 @@ apotekspersonalet vide det.
 Hvis du holder op med at få Zerbaxa
 Hvis du tror, at du mangler af få en dosis Zerbaxa, skal du straks sige det til din læge eller andet
 sundhedspersonale.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -685,7 +691,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information
 om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zerbaxa"
@@ -698,7 +704,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Hætteglas inden åbning: Opbevares i køleskab (2 °C - 8 °C).
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller toilettet. Ikke anvendt lægemiddel
-samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -965,7 +971,7 @@ fundet sted under kontrollerede og validerede aseptiske forhold.
 Et af de aktive stoffer, ceftolozan, kan have skadelig effekt, hvis det udledes i
 vandmiljøet. Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller
 toilettet. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale
-retningslinjer.</p>         </div>"""      
+retningslinjer.</p> </div>"""      
 
 
 

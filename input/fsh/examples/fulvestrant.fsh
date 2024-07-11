@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Fulvestrant Mylan  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ locally advanced or has spread to other parts of the body (metastatic). Women wh
 reached menopause will also be treated with a medicine called a luteinizing hormone 
 releasing hormone (LHRH) agonist. </p>
 <p>When fulvestrant is given in combination with palbociclib, it is important that you also read the 
-package leaflet for palbociclib. If you have any questions about palbociclib, please ask your doctor. </p>         </div>"""   
+package leaflet for palbociclib. If you have any questions about palbociclib, please ask your doctor. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ This medicine contains 500 mg benzyl alcohol in each 5 ml which is equivalent to
 w/v). Benzyl alcohol may cause allergic reactions.  </p>
 <p>Fulvestrant Mylan contains benzyl benzoate 
 This medicine contains 750 mg benzyl benzoate in each 5 ml, which is equivalent to 150 mg/ml 
-(15%w/v). </p>         </div>"""   
+(15%w/v). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fulvestrant"
@@ -146,7 +149,7 @@ with an additional 500 mg dose given 2 weeks after the initial dose. </p>
 <p>Your doctor or nurse will give you Fulvestrant Mylan as a slow intramuscular injection, one into 
 each of your buttocks. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or 
-nurse. </p>         </div>"""         
+nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -209,7 +212,7 @@ underlying disease. </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fulvestrant"
@@ -232,7 +235,7 @@ damage the product providing it is not stored below   20 C.  </p>
 Fulvestrant Mylan. </p>
 <p>This medicine may pose a risk to the aquatic environment. Do not throw away any medicines via 
 wastewater or household waste.  Ask your pharmacist how to throw away medicines you no 
-longer use.  These measures will help protect the environment. </p>         </div>"""      
+longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -334,7 +337,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel:  +353 18711This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -373,7 +376,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -382,7 +387,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -397,7 +402,7 @@ Usage: #inline
 3. Sådan skal du bruge Fulvestrant Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -424,7 +429,7 @@ luteiniserende hormonfrigivende hormon (LHRH)-agonist. </p>
 </li>
 </ul>
 <p>Når fulvestrant gives i kombination med palbociclib er det vigtigt, at du også læser indlægssedlen for 
-palbociclib. Spørg lægen, hvis du har spørgsmål om palbociclib. </p>         </div>"""   
+palbociclib. Spørg lægen, hvis du har spørgsmål om palbociclib. </p> </div>"""   
           
 
              
@@ -474,7 +479,7 @@ Dette lægemiddel indeholder 500 mg benzylalkohol pr. 5 ml, hvilket svarer til 1
 vægt/volumen). Benzylalkohol kan medføre allergiske reaktioner. </p>
 <p>Fulvestrant Mylan indeholder benzylbenzoat 
 Dette lægemiddel indeholder 750 mg benzylbenzoat pr. 5 ml, hvilket svarer til 150 mg/ml (15 % 
-vægt/volumen). </p>         </div>"""   
+vægt/volumen). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fulvestrant"
@@ -487,7 +492,7 @@ lægen eller apotekspersonalet. </p>
 måneden, samt en ekstra 500 mg dosis givet 2 uger efter den første dosis. </p>
 <p>Din læge eller sygeplejerske vil give dig Fulvestrant Mylan som en langsom intramuskulær injektion, 
 én i hver balle. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -609,7 +614,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fulvestrant"
@@ -631,7 +636,7 @@ forudsat at det ikke opbevares ved temperaturer under -20°C. </p>
 <p>Personalet har ansvaret for den korrekte opbevaring, anvendelse og bortskaffelse af Fulvestrant Mylan. </p>
 <p>Dette lægemiddel kan udgøre en risiko for vandmiljøet. Spørg på apoteket, hvordan du skal bortskaffe 
 medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller 
-skraldespanden. </p>         </div>"""      
+skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -842,7 +847,7 @@ kanylespidsen er helt dækket. </p>
 <p>Bortskaffelse 
 Fyldte sprøjter er kun til engangsbrug. 
 Dette lægemiddel kan udgøre en risiko for vandmiljøet. Ikke anvendt lægemiddel samt affald heraf 
-skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

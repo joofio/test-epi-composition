@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Votubia </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ renal angiomyolipomas and brain tumours called subependymal giant cell astrocyto
 These tumours are caused by a genetic disorder called tuberous sclerosis complex (TSC). </p>
 <p>Votubia tablets are used to treat: </p>
 <p>TSC with angiomyolipoma of the kidney in adults who do not require immediate surgery. </p>
-<p>SEGA associated with TSC in adults and children for whom surgery is not appropriate. </p>         </div>"""   
+<p>SEGA associated with TSC in adults and children for whom surgery is not appropriate. </p> </div>"""   
           
 
              
@@ -198,7 +201,7 @@ If you feel unusually tired (fatigue is a common side effect), take special care
 machines. </p>
 <p>Votubia contains lactose 
 Votubia contains lactose (milk sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take votubia"
@@ -250,7 +253,7 @@ If you miss a dose, take your next dose as scheduled. Do not take a double dose 
 forgotten tablets. </p>
 <p>If you stop taking Votubia 
 Do not stop taking Votubia tablets unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -376,7 +379,7 @@ dark urine may also be signs of hepatitis. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store votubia"
@@ -391,7 +394,7 @@ expiry date refers to the last day of that month. </p>
 <p>Open the blister just before taking the Votubia tablets. </p>
 <p>Do not use this medicine if the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -515,7 +518,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -554,7 +557,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -563,7 +568,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -580,7 +586,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -594,7 +600,7 @@ angiomyolipomer, og hjernesvulster, kaldet subependymale kæmpecelle-astrocytome
 tumorer er forårsaget af en genetisk lidelse, der kaldes tuberøst sclerose-kompleks (TSC). </p>
 <h2>Votubia tabletter anvendes til at behandle:</h2>
 <h2>voksne med TSC og renalt angiomyolipom, som ikke kræver umiddelbart indgreb.</h2>
-<p>SEGA forbundet med TSC hos voksne og børn, hvor operation ikke er hensigtsmæssig. </p>         </div>"""   
+<p>SEGA forbundet med TSC hos voksne og børn, hvor operation ikke er hensigtsmæssig. </p> </div>"""   
           
 
              
@@ -748,7 +754,7 @@ Hvis du føler dig usædvanlig træt (træthed er en almindelig bivirkning), ska
 med at køre eller betjene maskiner. </p>
 <p>Votubia indeholder lactose 
 Votubia indeholder lactose (mælkesukker). Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
-har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take votubia"
@@ -812,7 +818,7 @@ Hvis du glemmer en dosis, skal du tage din næste dosis efter planen. Du må ikk
 som erstatning for de glemte tabletter. </p>
 <p>Hvis du holder op med at tage Votubia 
 Hold ikke op med at tage Votubia tabletter, medmindre lægen siger det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1011,7 +1017,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteketspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store votubia"
@@ -1032,7 +1038,7 @@ Opbevares i den originale yderpakning for at beskytte mod lys og fugt.
 − 
 Brug ikke lægemidlet, hvis emballagen er beskadiget eller viser tegn på at have været åbnet. </p>
 <p>Spørg på apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1175,7 +1181,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Votubia til dig personligt. Lad derfor være med at give medicinen til andre. 
 Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

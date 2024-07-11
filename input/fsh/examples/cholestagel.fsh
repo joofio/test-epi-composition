@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cholestagel </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ inappropriate or not well tolerated.<br />
 - Cholestagel may be used together with a statin and the diet low in fat and cholesterol when 
 patients are not appropriately controlled by the statin on its own.<br />
 - Cholestagel may also be used together with ezetimibe (a cholesterol-lowering medicine that works 
-by reducing cholesterol absorption from the gut), with or without a statin. </p>         </div>"""   
+by reducing cholesterol absorption from the gut), with or without a statin. </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ are pregnant or if you are planning to become pregnant because statins must not 
 pregnancy; the patient information leaflet that comes with that particular statin should be consulted. 
 Tell your doctor if you are breast-feeding. Your doctor may stop your medicine. </p>
 <p>Driving and using machines 
-Your ability to drive or operate machines is not affected by taking Cholestagel tablets. </p>         </div>"""   
+Your ability to drive or operate machines is not affected by taking Cholestagel tablets. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cholestagel"
@@ -195,7 +198,7 @@ You may take your dose with a later meal, but never take in one day more than th
 tablets that your doctor has prescribed to you in a single day. </p>
 <p>If you stop taking Cholestagel 
 Your cholesterol may increase to the level it was before treatment was started. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ can increase among patients with a history of blockage of the intestines or inte
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cholestagel"
@@ -229,7 +232,7 @@ this medicine. </p>         </div>"""
  EXP  </p>
 <p>Keep the bottle tightly closed in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ Germany  </p>
 Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Ireland </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -311,7 +314,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -320,7 +325,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -335,7 +341,7 @@ Usage: #inline
 3. Sådan skal De tage Cholestagel 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -359,7 +365,7 @@ uhensigtsmæssigt eller ikke tåles godt.<br />
 patienterne ikke behandles hensigtsmæssigt med statin alene. Medens De tager Cholestagel, skal 
 de også følge en kolesterolsænkende diæt.<br />
 - Cholestagel kan også − med eller uden statin − anvendes sammen med ezetimib (et 
-kolesterolsænkende lægemiddel, der virker ved at nedsætte optagelsen af kolesterol fra tarmen). </p>         </div>"""   
+kolesterolsænkende lægemiddel, der virker ved at nedsætte optagelsen af kolesterol fra tarmen). </p> </div>"""   
           
 
              
@@ -450,7 +456,7 @@ hvis De er gravid, eller hvis De planlægger at blive gravid, idet statiner ikke
 graviditet; der henvises til den indlægsseddel, der følger med det pågældende statin. 
 Fortæl Deres læge det, hvis De ammer. Deres læge vil måske afbryde Deres medicinering. </p>
 <p>Trafik- og arbejdssikkerhed 
-Deres evne til at køre bil og betjene maskiner påvirkes ikke af, at De tager Cholestagel tabletter. </p>         </div>"""   
+Deres evne til at køre bil og betjene maskiner påvirkes ikke af, at De tager Cholestagel tabletter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cholestagel"
@@ -485,7 +491,7 @@ De kan tage Deres dosis sammen med et senere måltid, men De må aldrig på én 
 samlede antal tabletter, som Deres læge har ordineret til Dem.  </p>
 <p>Hvis De holder op med at tage Cholestagel 
 Deres kolesteroltal kan stige til det niveau, det lå på før behandlingens start.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -510,7 +516,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cholestagel"
@@ -521,7 +527,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter “EXP". </p>
 <p>Hold tabletbeholderen tæt tillukket for at beskytte mod fugt. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -565,7 +571,7 @@ Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Irland
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

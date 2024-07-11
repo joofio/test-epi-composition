@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How Enrylaze is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ other medicines to treat acute lymphoblastic leukaemia (ALL) and lymphoblastic l
 Enrylaze can be given to patients aged 1 months of age or older.<br />
 Enrylaze contains a protein made in the laboratory by recombinant DNA technology. This protein 
 works by decreasing the amount of a protein called asparagine. This protein is needed by the ALL and 
-LBL cancer cells to survive. </p>         </div>"""   
+LBL cancer cells to survive. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ Enrylaze can cause you to feel sick and have a headache. This may impact your ab
 operate machines. </p>
 <p>Enrylaze contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose unit, that is to say essentially 
- sodium free . </p>         </div>"""   
+ sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enrylaze"
@@ -159,7 +162,7 @@ Enrylaze into a muscle, several injection sites may be used. </p>
 <p>If you think you have been given more Enrylaze than you should 
 If you have any concerns, contact your doctor or any healthcare professional immediately. </p>
 <p>If you think you have missed a dose of Enrylaze 
-If you have any concerns, contact your doctor or any healthcare professional immediately. </p>         </div>"""         
+If you have any concerns, contact your doctor or any healthcare professional immediately. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ decreased antithrombin III, decreased blood fibrinogen)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enrylaze"
@@ -254,7 +257,7 @@ vial in the outer carton in order to protect from light. </p>
 been withdrawn from the unopened vials. </p>
 <p>Do not use this medicine if you notice any particles in the solution. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -282,7 +285,7 @@ Ireland
 Tel: +353 1 968 1Email: medinfo-int@jazzpharma.com </p>
 <p>This leaflet was last revised in:  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -321,7 +324,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -330,7 +335,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -347,7 +353,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -360,7 +366,7 @@ sammen med andre lægemidler til behandling af akut lymfoblastær leukæmi (ALL)
 lymfom (LBL). Enrylaze kan gives til patienter i alderen 1 måned og derover. 
 Enrylaze indeholder et protein, der er fremstillet i laboratoriet ved rekombinant DNA-teknologi. Dette 
 protein virker ved at reducere mængden af et protein, der kaldes asparagin. Dette protein skal ALL- og 
-LBL-kræftcellerne bruge for at overleve. </p>         </div>"""   
+LBL-kræftcellerne bruge for at overleve. </p> </div>"""   
           
 
              
@@ -470,7 +476,7 @@ Enrylaze kan give dig kvalme og hovedpine. Dette kan påvirke din evne til at f�
 betjene maskiner. </p>
 <p>Enrylaze indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enrylaze"
@@ -487,7 +493,7 @@ en muskel, kan der blive anvendt flere injektionssteder. </p>
 <p>Hvis du tror, at du har fået for meget Enrylaze 
 Hvis du er bekymret, skal du straks kontakte lægen eller en anden sundhedsperson. </p>
 <p>Hvis du tror, at du har glemt at få en dosis Enrylaze 
-Hvis du er bekymret, skal du straks kontakte lægen eller en anden sundhedsperson. </p>         </div>"""         
+Hvis du er bekymret, skal du straks kontakte lægen eller en anden sundhedsperson. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -658,7 +664,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enrylaze"
@@ -677,7 +683,7 @@ er den sidste dag i den nævnte måned. </p>
 når opløsningen er trukket op af de uåbnede hætteglas.  </p>
 <p>Brug ikke lægemidlet, hvis du bemærker partikler i opløsningen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller toilettet. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller toilettet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -715,7 +721,7 @@ Tlf.: +353 1 968 1E-mail: medinfo-int@jazzpharma.com </p>
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
 og om, hvordan de behandles. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -754,7 +760,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -763,7 +771,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -780,7 +789,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como Enrylaze é conservado </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -793,7 +802,7 @@ conjunto com outros medicamentos, para tratar a leucemia linfoblástica aguda (L
 linfoblástico (LLB). Enrylaze pode ser administrado a doentes a partir de 1 mês de idade. 
 Enrylaze contém uma proteína produzida em laboratório através de tecnologia de DNA recombinante. 
 A ação desta proteína diminui a quantidade de uma proteína chamada asparagina, a qual é necessária à 
-sobrevivência das células do cancro da LLA e do LLB. </p>         </div>"""   
+sobrevivência das células do cancro da LLA e do LLB. </p> </div>"""   
           
 
              
@@ -909,7 +918,7 @@ Enrylaze pode provocar náuseas e dores de cabeça. Isto poderá afetar a sua ca
 utilizar máquinas. </p>
 <p>Enrylaze contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por unidade de dose ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar enrylaze"
@@ -926,7 +935,7 @@ superficial do corpo e resposta à terapêutica.  </p>
 <p>Se pensa que recebeu mais Enrylaze do que deveria 
 Se tiver alguma preocupação, contacte o seu médico ou qualquer profissional de saúde imediatamente. </p>
 <p>Se pensa que saltou uma dose de Enrylaze 
-Se tiver alguma preocupação, contacte o seu médico ou qualquer profissional de saúde imediatamente. </p>         </div>"""         
+Se tiver alguma preocupação, contacte o seu médico ou qualquer profissional de saúde imediatamente. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1097,7 +1106,7 @@ prolongado, antitrombina III diminuída, fibrinogenemia diminuída) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar enrylaze"
@@ -1116,7 +1125,7 @@ temperatura ambiente (15 °C - 25 °C) ou 24 horas no frigorífico (2 °C - 8 °
 conservação tem início assim que a solução for recolhida dos frascos para injetáveis por abrir. </p>
 <p>Não utilize este medicamento se verificar partículas na solução. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1152,7 +1161,7 @@ Irlanda
 Tel.: +353 1 968 1E-mail: medinfo-int@jazzpharma.com </p>
 <p>Este folheto foi revisto pela última vez em:  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

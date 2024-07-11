@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How TOOKAD is stored  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ Vascular-Targeted Photodynamic (VTP) therapy. The treatment is carried out under
 anaesthetic (medicines that send you to sleep to prevent pain and discomfort). </p>
 <p>Hollow needles are used to insert the fibres into the right place in the prostate. Once it has been given, 
 TOOKAD has to be activated by laser light shone along a fibre that targets the light onto the cancer. 
-The activated medicine then causes the death of the cancer cells. </p>         </div>"""   
+The activated medicine then causes the death of the cancer cells. </p> </div>"""   
           
 
              
@@ -230,7 +233,7 @@ TOOKAD is not indicated for the treatment of women. </p>
 <p>Driving and using machines 
 TOOKAD has no influence on the ability to drive or use machines. However, as the procedure 
 includes general anaesthesia, you should not perform complex tasks like driving or using machines 
-until 24 hours after a general anaesthetic is used. </p>         </div>"""   
+until 24 hours after a general anaesthetic is used. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tookad"
@@ -253,7 +256,7 @@ to clean the rectum. Your doctor may prescribe antibiotics to prevent infection 
 you to sleep before the VTP procedure. Fibres to carry the laser light are inserted into the prostate 
 gland by using hollow needles. TOOKAD is activated immediately after injection by shining light 
 through the fibres from a connected laser device. </p>
-<p>If you have any questions on the use of this medicine, ask your doctor, your pharmacist or your nurse. </p>         </div>"""         
+<p>If you have any questions on the use of this medicine, ask your doctor, your pharmacist or your nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -314,7 +317,7 @@ phosphokinase increased, potassium decreased, prostatic specific antigen (PSA) i
 If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tookad"
@@ -329,7 +332,7 @@ specialist.  </p>
 to the last day of that month. </p>
 <p>Store in a refrigerator (2 C-8 C). 
 Store in the outer carton in order to protect it from light. </p>
-<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -364,7 +367,7 @@ Parque Tecnol gico Mi ano
 Spain </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -403,7 +406,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -412,7 +417,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -429,7 +435,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -443,7 +449,7 @@ hedder Vascular-Targeted Photodynamic (VTP)-behandling. Behandlingen udføres un
 bedøvelse (ved hjælp af lægemidler, der får dig til at sove, så du ikke mærker smerter og ubehag). </p>
 <p>Der anvendes hule nåle til at indsætte fibre det rigtige sted i din prostata. Når TOOKAD er 
 administreret, skal det aktiveres ved hjælp af laserlys, der sendes gennem en fiber, som målretter lyset 
-mod kræftknuden. Det aktiverede lægemiddel får derefter kræftcellerne til at dø. </p>         </div>"""   
+mod kræftknuden. Det aktiverede lægemiddel får derefter kræftcellerne til at dø. </p> </div>"""   
           
 
              
@@ -600,7 +606,7 @@ TOOKAD er ikke indiceret til behandling af kvinder. </p>
 <p>Trafik- og arbejdssikkerhed 
 TOOKAD påvirker ikke evnen til at føre motorkøretøj eller betjene maskiner. Da proceduren 
 gennemføres under fuld bedøvelse, bør du ikke udføre komplekse opgaver som at føre motorkøretøj 
-eller betjene maskiner før 24 timer efter indgrebet. </p>         </div>"""   
+eller betjene maskiner før 24 timer efter indgrebet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tookad"
@@ -622,7 +628,7 @@ antibiotika (mod infektion) og alfa-blokkere (mod vandladningsbesvær). Du vil f
 bedøvelsesmiddel, der får dig til at sove før VTP-proceduren. De fibre, der skal guide laserlyset, 
 indsættes i prostatakirtlen ved hjælp af hule nåle. TOOKAD aktiveres straks efter injektionen ved, at 
 der sendes lys gennem fibrene fra et tilkoblet laserapparat. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -684,7 +690,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tookad"
@@ -699,7 +705,7 @@ ansvar.  </p>
 sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2-8 °C). 
 Opbevares i den ydre æske for at beskytte mod lys. </p>
-<p>Ikke-anvendt lægemiddel samt affald herfra skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke-anvendt lægemiddel samt affald herfra skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Efter rekonstitution med en 5 %-glucoseopløsning i hætteglasset er TOOKAD's kemiske og fysiske 
 brugsstabilitet påvist i 8 timer ved 15-25 °C og ved 5 °C ± 3 °C. Ud fra et mikrobiologisk synspunkt 
 bør lægemidlet anvendes med det samme. Hvis det ikke anvendes med det samme, er 
-opbevaringstiden og opbevaringsforholdene før ibrugtagning brugerens ansvar. </p>         </div>"""      
+opbevaringstiden og opbevaringsforholdene før ibrugtagning brugerens ansvar. </p> </div>"""      
 
 
 

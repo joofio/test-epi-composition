@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store CEPROTIN </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ prevention of excessive clot formation thus, prevent and/or treat intravascular 
 (named purpura fulminans) in patients with severe congenital protein C deficiency. CEPROTIN may 
 also be used in the treatment and prevention of a rare complication of a blood thinner medicine 
 (anticoagulant medicine named coumarin) which may result in severe skin lesion (necrosis). 
-Additionally, CEPROTIN may be used in the treatment of blood clot (venous thrombotic) events. </p>         </div>"""   
+Additionally, CEPROTIN may be used in the treatment of blood clot (venous thrombotic) events. </p> </div>"""   
           
 
              
@@ -137,7 +140,7 @@ Your doctor will decide if CEPROTIN may be used during pregnancy and lactation. 
 <p>CEPROTIN has no influence on your ability to drive or to operate machines. </p>
 <p>CEPROTIN contains Sodium </p>
 <p>This medicine contains 22.5 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 1.1% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 1.1% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ceprotin"
@@ -214,7 +217,7 @@ doctor as soon as possible. </p>
 <p>Not applicable. </p>
 <p>If you stop using CEPROTIN </p>
 <p>Do not stop using CEPROTIN without consulting your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -237,7 +240,7 @@ pain and redness at the injection site. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ceprotin"
@@ -251,7 +254,7 @@ Store in a refrigerator (2 C   8 C). Do not freeze.
 Keep the vial in the outer carton in order to protect from light. </p>
 <p>The reconstituted solution should be used immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -365,7 +368,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last approved in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -404,7 +407,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -413,7 +418,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -430,7 +436,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -447,7 +453,7 @@ hudlæsioner (kaldet purpura fulminans) hos patienter med alvorlig medfødt prot
 CEPROTIN kan også anvendes til behandling og forebyggelse af sjældne komplikationer fra en 
 blodfortyndende medicin (antikoaguleringsmedicin kaldet coumarin), som kan medføre alvorlige 
 hudlæsioner (nekrose). CEPROTIN kan yderligere anvendes til behandling af blodpropper 
-(venetromboser). </p>         </div>"""   
+(venetromboser). </p> </div>"""   
           
 
              
@@ -506,7 +512,7 @@ Lægen vil derefter afgøre, hvorvidt CEPROTIN kan anvendes under graviditet og 
 <p>CEPROTIN indeholder natrium </p>
 <p>Dette lægemiddel indeholder 22,5 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 1,1 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ceprotin"
@@ -585,7 +591,7 @@ derom så hurtigt som muligt. </p>
 <p>Ikke relevant </p>
 <p>Hvis De holder op med at bruge CEPROTIN </p>
 <p>Hold ikke op med at anvende CEPROTIN uden at konsultere Deres læge. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -612,7 +618,7 @@ sveddannelse samt smerte og rødme på injektionsstedet. </p>
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ceprotin"
@@ -627,7 +633,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 <p>Tilberedt opløsning bør anvendes omgående. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. Disse forholdsregler er med til at beskytte 
-miljøet. </p>         </div>"""      
+miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ medicinen til andre. Det kan være skadeligt for dem, selv om de har de samme sy
 De har. </li>
 <li>Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt her. Se punkt 4. Oversigt over indlægssedlen: </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Voxzogo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ appearance. </p>
 confirmed by genetic testing. </p>
 <p>How does Voxzogo work 
 The active substance in Voxzogo works directly on the growth points of your bones to promote new 
-bone growth. </p>         </div>"""   
+bone growth. </p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ injection. If this happens, you should not drive, ride a bicycle, do physical ac
 for around an hour after injection or until you feel better. </p>
 <p>Voxzogo contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take voxzogo"
@@ -224,7 +227,7 @@ time. If more than 12 hours have passed since the scheduled dose time, do not in
 Wait until the next day and continue with the usual dose at the usual time. </p>
 <p>If you stop using Voxzogo<br />
 Always talk to your child s doctor before deciding to stop your child s treatment. If you or your child 
-have any further questions on the use of this medicine, ask your doctor or pharmacist  </p>         </div>"""         
+have any further questions on the use of this medicine, ask your doctor or pharmacist  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -251,7 +254,7 @@ These may affect up to 1 in 10 people:
 If you or your child get any side effects, talk to your doctor or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store voxzogo"
@@ -270,7 +273,7 @@ carton the date you remove Voxzogo from the refrigerator to store at room temper
 of making it up. Do not use this medicine if the solution for injection is cloudy or contains any 
 particles. </p>
 <p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ Shanbally, Ringaskiddy
 County Cork 
 Ireland 
 P43 RThis leaflet was last revised in MM/YYYY. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -346,7 +349,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -355,7 +360,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -372,7 +378,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -393,7 +399,7 @@ statur med et karakteristisk udseende. </p>
 ved hjælp af gentest.  </p>
 <p>Hvordan virker Voxzogo? 
 Det aktive stof i Voxzogo virker direkte på dine knoglers vækstområder for at fremme ny 
-knoglevækst. </p>         </div>"""   
+knoglevækst. </p> </div>"""   
           
 
              
@@ -437,7 +443,7 @@ din injektion. Hvis dette sker, må du ikke føre motorkøretøj, køre på cyke
 eller betjene maskiner i ca. 1 time efter injektionen, eller før du har det godt igen. </p>
 <p>Voxzogo indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take voxzogo"
@@ -537,7 +543,7 @@ må den glemte dosis ikke gives. Vent til næste dag, og fortsæt med den sædva
 sædvanlige tidspunkt. </p>
 <p>Hvis du holder op med at bruge Voxzogo 
 Kontakt altid dit barns læge, før du beslutter dig for at stoppe dit barns behandling. Spørg lægen eller 
-apotekspersonalet, hvis der er noget, du eller dit barn er i tvivl om. </p>         </div>"""         
+apotekspersonalet, hvis der er noget, du eller dit barn er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -586,7 +592,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge eller sy
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store voxzogo"
@@ -605,7 +611,7 @@ datoen, hvor du tog Voxzogo ud af køleskabet til opbevaring ved stuetemperatur,
 efter det er klargjort. Brug ikke dette lægemiddel, hvis injektionsopløsningen er uklar eller indeholder 
 partikler. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1029,7 +1035,7 @@ genstande igennem </p>
 <p>Når din beholder til skarpe genstande er næsten fuld, skal du følge de lokale retningslinjer for korrekt 
 bortskaffelse af beholderen med skarpe genstande. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester, hætteglas, løse kanyler og sprøjter i skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester, hætteglas, løse kanyler og sprøjter i skraldespanden. </p> </div>"""      
 
 
 

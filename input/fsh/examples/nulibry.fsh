@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store NULIBRY  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ compounds (sulphites) formed in the body cannot be broken down. These compounds 
 brain and can negatively affect or delay the development of a child. </p>
 <p>How NULIBRY works 
 NULIBRY provides the missing substance that you or your child s body needs to break down the 
-harmful sulphite compounds. </p>         </div>"""   
+harmful sulphite compounds. </p> </div>"""   
           
 
              
@@ -114,7 +117,7 @@ It is unlikely that NULIBRY has an influence on or is influenced by other medici
 your doctor if your child is taking, has recently taken, or might take any other medicines. </p>
 <p>NULIBRY contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nulibry"
@@ -137,7 +140,7 @@ If you think you or your child may have been given more NULIBRY than prescribed,
 immediately. </p>
 <p>If you forgot to give a dose of NULIBRY. 
 If a dose of NULIBRY is missed, give the missed dose as soon as possible. Wait at least 6 hours 
-before you give the next dose. </p>         </div>"""         
+before you give the next dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -160,7 +163,7 @@ giving a dose of NULIBRY. </p>
 If you notice any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nulibry"
@@ -186,7 +189,7 @@ approximately 30 minutes) before giving NULIBRY.<br />
 medicine if you notice any particles or if the solution is discoloured.  </p>
 <p>Do not throw away any medicines or waste material, including materials used for reconstitution and 
 administration via wastewater or household waste. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -219,7 +222,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -258,7 +261,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -267,7 +272,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -284,7 +290,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -309,7 +315,7 @@ der dannes i kroppen, ikke nedbrydes. Disse forbindelser er giftige for hjernen 
 udvikling eller påvirke  udviklingen negativt. </p>
 <p>Sådan virker NULIBRY: 
 NULIBRY tilfører det manglende stof, som du eller dit barns krop skal bruge for at kunne nedbryde de 
-skadelige sulfitforbindelser. </p>         </div>"""   
+skadelige sulfitforbindelser. </p> </div>"""   
           
 
              
@@ -335,7 +341,7 @@ Det er usandsynligt, at NULIBRY påvirker eller påvirkes af andre lægemidler. 
 hvis dit barn tager anden medicin eller har gjort det for nylig. </p>
 <p>NULIBRY indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nulibry"
@@ -358,7 +364,7 @@ Hvis du tror, du eller dit barn kan have fået mere NULIBRY end ordineret, skal 
 til din læge. </p>
 <p>Hvis du har glemt at indgive en dosis NULIBRY. 
 Hvis du har glemt at indgive en dosis NULIBRY, så giv den glemte dosis så hurtigt som muligt. Vent 
-mindst 6 timer, før du giver den næste dosis. </p>         </div>"""         
+mindst 6 timer, før du giver den næste dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -384,7 +390,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nulibry"
@@ -410,7 +416,7 @@ ved omgivende temperatur i ca. 30 minutter), inden NULIBRY indgives.<br />
 lægemidlet, hvis du bemærker partikler, eller hvis opløsningen er misfarvet.  </p>
 <p>Af hensyn til miljøet må du ikke smide medicin eller affaldsmateriale, herunder materialer brugt til 
 rekonstitution og administration, i afløbet eller skraldespanden. Spørg apotekspersonalet, hvordan du 
-skal bortskaffe medicinrester.  </p>         </div>"""      
+skal bortskaffe medicinrester.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -791,7 +797,7 @@ affaldsmaterialer som anvist af apotekspersonalet.
 Smid det ikke ud med husholdningsaffald. Disse forholdsregler er 
 med til at beskytte miljøet. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

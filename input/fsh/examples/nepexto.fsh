@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Nepexto </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -113,7 +115,7 @@ when other widely used treatments have not worked well enough or are not suitabl
 <p>Severe psoriasis in patients from the age of 6 years and weighing 62.5 kg or more who have had 
 an inadequate response to (or are unable to take) phototherapies or other systemic therapies. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -217,7 +219,7 @@ breastfeeding before your baby receives any vaccine. </p>
 <p>Driving and using machines </p>
 <p>The use of Nepexto is not expected to affect the ability to drive or use machines. </p>
 <p>Nepexto contains sodium </p>
-<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say, essentially  sodium- free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say, essentially  sodium- free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nepexto"
@@ -269,7 +271,7 @@ not remember until the day that the next injection is due, do not use a double d
 same day) to make up for a forgotten dose. </p>
 <p>If you stop using Nepexto </p>
 <p>Your symptoms may return upon discontinuation. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -381,7 +383,7 @@ above. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nepexto"
@@ -403,7 +405,7 @@ contain small white or almost transparent particles of protein. This appearance 
 the solution if it is discoloured, cloudy, or if particles other than those described above are present. If 
 you are concerned with the appearance of the solution, then contact your pharmacist for assistance. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -497,7 +499,7 @@ Biocon Biologics Finland OY<br />
 Tel: 0080008250Latvija 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -536,7 +538,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -547,7 +551,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugervejledning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -564,7 +568,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -626,7 +630,7 @@ behandling har været utilstrækkelig eller ikke kan anvendes. </p>
 lysbehandling eller systemisk behandling har været utilstrækkelig, eller patienten ikke har 
 kunnet tåle det. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -779,7 +783,7 @@ før dit barn får en hvilken som helst vaccine. </p>
 <p>Anvendelse af Nepexto forventes ikke at påvirke evnen til at køre bil eller betjene maskiner. </p>
 <p>Nepexto indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nepexto"
@@ -830,7 +834,7 @@ skal tage den næste dosis, må du ikke tage en dobbeltdosis (to doser på samme
 den glemte dosis. </p>
 <p>Hvis du holder op med at tage Nepexto </p>
 <p>Symptomerne kan vende tilbage, hvis behandlingen stopper. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -964,7 +968,7 @@ og en betændelseslignende reaktion i musklerne og hududslæt). </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nepexto"
@@ -989,7 +993,7 @@ normalt for Nepexto. Opløsningen må ikke bruges, hvis den er misfarvet eller u
 indeholder andre partikler end dem, der er beskrevet ovenfor. Hvis du er bekymret over opløsningens 
 udseende, skal du kontakte dit apotek for assistance. </p>
 <p>Spørg apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1262,7 +1266,7 @@ Du kan købe kanylebeholdere på dit lokale apotek. </p>
 </ul>
 <p>Hvis det er nødvendigt, kan du dække injektionsstedet med et plaster. </p>
 <p>Hvis du har spørgsmål eller brug for oplysninger, bedes du henvende dig til lægen, 
-sygeplejersken eller apotekspersonalet. </p>         </div>"""      
+sygeplejersken eller apotekspersonalet. </p> </div>"""      
 
 
 
@@ -1301,7 +1305,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1312,7 +1318,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções de utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -1329,7 +1335,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Nepexto </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1394,7 +1400,7 @@ largamente utilizados ou que não os possam tomar </p>
 que tenham tido uma resposta inadequada a (ou que não possam tomar) fototerapias ou outras 
 terapêuticas sistémicas. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1552,7 +1558,7 @@ gravidez e a amamentação, antes que o seu bebé receba qualquer vacina. </p>
 <p>Não se espera que a utilização de Nepexto afete a capacidade para conduzir ou utilizar máquinas. </p>
 <p>Nepexto contém sódio </p>
 <p>Este medicamento contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nepexto"
@@ -1612,7 +1618,7 @@ para compensar uma dose que se esqueceu de tomar. </p>
 <p>Se parar de utilizar Nepexto </p>
 <p>Os seus sintomas podem voltar após a descontinuação do tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1759,7 +1765,7 @@ descritos acima. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nepexto"
@@ -1782,7 +1788,7 @@ utilize a solução se esta se apresentar com alteração de cor, turva ou se ap
 das descritas acima. Se tiver dúvidas quanto à aparência da solução, consulte o seu farmacêutico. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1900,7 +1906,7 @@ Latvija
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

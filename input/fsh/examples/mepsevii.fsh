@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Mepsevii  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ This medicine replaces beta-glucuronidase   this helps to break down the sugars 
 tissues of people with MPS VII.<br />
 - Treatment may improve various signs and symptoms of illness, like walking difficulties and 
 tiredness. </p>
-<p>Starting treatment early in children may stop the illness getting worse and reduce permanent damage. </p>         </div>"""   
+<p>Starting treatment early in children may stop the illness getting worse and reduce permanent damage. </p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ Mepsevii is not likely to affect you being able to drive or use machines.  </p>
 This medicine contains 17.8 mg sodium (main component of cooking/table salt) in each 5-mL vial, 
 and is administered with sodium chloride 9 mg/mL as a diluent. Each vial dosed is therefore 
 equivalent to 1.8% of the recommended maximum daily dietary intake of sodium for an adult. Take 
-this into account if you are on a controlled sodium diet. </p>         </div>"""   
+this into account if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mepsevii"
@@ -159,7 +162,7 @@ The dose you will receive is based on how much you weigh.<br />
 <p>If you are given more Mepsevii than you should 
 Mepsevii is given to you and monitored by your doctor. He or she will check that the correct dose has 
 been given and take action as needed.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -195,7 +198,7 @@ swelling or infusion site extravasation) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mepsevii"
@@ -213,7 +216,7 @@ date refers to the last day of that month. </p>
 <li>Do not use this medicine if you notice particles. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -258,7 +261,7 @@ rarity of this disease, it has been impossible to get complete information on th
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -297,7 +300,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -306,7 +311,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -323,7 +329,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -351,7 +357,7 @@ samler sig i vævet på personer med MPS VII.<br />
 - Behandling kan forbedre forskellige tegn og symptomer på sygdommen, som f.eks. gangbesvær 
 og træthed. </p>
 <p>Hvis behandlingen påbegyndes tidligt hos børn, kan det forhindre, at sygdommen forværres og 
-reducere permanent skade. </p>         </div>"""   
+reducere permanent skade. </p> </div>"""   
           
 
              
@@ -402,7 +408,7 @@ Det er ikke sandsynligt, at Mepsevii påvirker din evne til at føre motorkøret
 Dette lægemiddel indeholder 17,8 mg natrium (hovedingrediensen i køkken-/bordsalt) i hvert 5 ml 
 hætteglas og indgives med 9 mg/ml natriumchlorid som fortyndingsmiddel. Hvert hætteglas svarer 
 derfor til 1,8 % af det anbefalede maksimale daglige indtag af natrium for en voksen. Tag højde for 
-dette, hvis du er på natriumfattig diæt. </p>         </div>"""   
+dette, hvis du er på natriumfattig diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mepsevii"
@@ -423,7 +429,7 @@ Den dosis, du vil få, er baseret på din vægt.<br />
 <p>Hvis du har taget for meget Mepsevii 
 Mepsevii gives til dig og overvåges af din læge. Lægen vil kontrollere, at den rette dosis er givet og 
 tage forholdsregler efter behov.  </p>
-<p>Spørg lægen, hvis du har flere spørgsmål om brugen af dette lægemiddel. </p>         </div>"""         
+<p>Spørg lægen, hvis du har flere spørgsmål om brugen af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -466,7 +472,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mepsevii"
@@ -484,7 +490,7 @@ sidste dag i den nævnte måned. </p>
 <li>Brug ikke lægemidlet, hvis du bemærker partikler. </li>
 </ul>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg på 
-apoteket, hvordan du skal bortskaffe medicinrester. Disse forholdsregler er med til at beskytte miljøet. </p>         </div>"""      
+apoteket, hvordan du skal bortskaffe medicinrester. Disse forholdsregler er med til at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -535,7 +541,7 @@ lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
 og om, hvordan de behandles.  </p>
-<hr />         </div>"""      
+<hr /> </div>"""      
 
 
 
@@ -574,7 +580,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -583,7 +591,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -600,7 +609,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Mepsevii  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -629,7 +638,7 @@ tecidos das pessoas que sofrem da doença MPS VII.<br />
 - O tratamento pode melhorar vários sinais e sintomas da doença, como dificuldades para 
 caminhar e o cansaço. </p>
 <p>O início precoce do tratamento em crianças pode deter o agravamento da doença e reduzir lesões 
-permanentes. </p>         </div>"""   
+permanentes. </p> </div>"""   
           
 
              
@@ -681,7 +690,7 @@ Não é provável que o Mepsevii afete a sua capacidade de conduzir ou de utiliz
 Este medicamento contém 17,8 mg de sódio (principal componente do sal de cozinha/de mesa) em 
 cada frasco de 5 ml e é administrado com cloreto de sódio a 9 mg/ml como diluente. Cada frasco de 
 dose é, por conseguinte, equivalente a 1,8% da ingestão diária máxima recomendada de sódio na dieta 
-para um adulto. Tenha isto em consideração se estiver a fazer uma dieta com baixo teor de sódio. </p>         </div>"""   
+para um adulto. Tenha isto em consideração se estiver a fazer uma dieta com baixo teor de sódio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mepsevii"
@@ -704,7 +713,7 @@ A dose que irá receber é baseada no seu peso.<br />
 <p>Se lhe for administrado mais Mepsevii do que deveria 
 Mepsevii é-lhe administrado e monitorizado pelo seu médico. O seu médico verificará se recebeu a 
 dose correta e tomará as medidas necessárias.  </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -741,7 +750,7 @@ pode necessitar de tratamento médico urgente: </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mepsevii"
@@ -758,7 +767,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 - Não utilize este medicamento se observar partículas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -806,7 +815,7 @@ devido à raridade desta doença.
 A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
 medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store KIMMTRAK  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ of the body s immune system. By binding to gp100 and CD3, KIMMTRAK activates you
 system to recognise and destroy the cancer cells. </p>
 <p>KIMMTRAK is used to treat adults with a rare eye cancer called  uveal melanoma . The medicine is 
 used when the uveal melanoma has grown despite local treatment, or has spread to other parts of the 
-body. </p>         </div>"""   
+body. </p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ KIMMTRAK is unlikely to affect your ability to drive or use machines. If you fee
 treated with this medicine you should not drive or operate machinery until you feel well again. </p>
 <p>KIMMTRAK contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kimmtrak"
@@ -168,7 +171,7 @@ for at least 3 months without a break lasting longer than 2 weeks, then monitori
 after each dose to at least 30 minutes. </p>
 <p>If you miss an appointment for your next KIMMTRAK dose, contact your doctor or nurse as soon 
 as possible to reschedule your appointment.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ cells dying </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kimmtrak"
@@ -265,7 +268,7 @@ The expiry date refers to the last day of that month. </p>
 to 8  C for 24 hours from the time of preparation/dilution until the end of administration. </p>
 <p>Do not use this medicine if you notice visible signs of deterioration (i.e. particles, discolouration). </p>
 <p>Do not store any unused medicine for reuse. Any unused medicine or waste material should be 
-disposed of in accordance with local requirements. These measures will help protect the environment. </p>         </div>"""      
+disposed of in accordance with local requirements. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -304,7 +307,7 @@ EL: </p>
 ande/Irska/ rorsz g/ rland/Irlanda/Airija/ rija/L-
 Irlanda/Ierland/Irlandia/ rsko/Irska 
 T l/Tel/Tel./Te ./Tlf/ /S mi/Puh: +3531 5This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -343,7 +346,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -352,7 +357,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -369,7 +374,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -385,7 +390,7 @@ på visse celler i kroppens immunsystem. Ved at binde sig til gp100 og CD3 aktiv
 immunsystem til at genkende og ødelægge cancercellerne. </p>
 <p>KIMMTRAK anvendes til at behandle voksne med en sjælden cancer i øjnene ved navn ‘uvealt 
 melanom’. Lægemidlet anvendes, når det uveale melanom er vokset på trods af lokalbehandling, eller 
-har spredt sig til andre dele af kroppen. </p>         </div>"""   
+har spredt sig til andre dele af kroppen. </p> </div>"""   
           
 
              
@@ -453,7 +458,7 @@ du føler dig utilpas, mens du bliver behandlet med dette lægemiddel, bør du i
 maskiner, indtil du har det godt igen. </p>
 <p>KIMMTRAK indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. ml, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kimmtrak"
@@ -491,7 +496,7 @@ KIMMTRAK-behandling i et ambulant behandlingsmiljø uden pauser af længere vari
 da kan overvågningen nedsættes til mindst 30 minutter efter hver dosis. </p>
 <p>Hvis du går glip af en aftale til din næste KIMMTRAK-dosis, skal du kontakte lægen eller 
 sygeplejersken så hurtigt som muligt for at aftale en ny tid. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -676,7 +681,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kimmtrak"
@@ -694,7 +699,7 @@ indtil afsluttet administration. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker synlige tegn på nedbrydning (dvs. partikler, misfarvning). </p>
 <p>Ikke anvendt lægemiddel må ikke opbevares til senere anvendelse. Ikke anvendt lægemiddel samt 
 affald heraf bør bortskaffes i overensstemmelse med lokale krav. Disse forholdsregler er med til at 
-beskytte miljøet. </p>         </div>"""      
+beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -869,7 +874,7 @@ infusionsposen at nå stuetemperatur samt infusionens varighed. </p>
 <p>Når KIMMTRAK-infusionsposen er taget ud af køleskabet, må den ikke lægges tilbage. 
 Bortskaf ubrugt KIMMTRAK-opløsning, der er ældre end den anbefalede opbevaringstid. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

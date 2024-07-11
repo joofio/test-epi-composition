@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Privigen</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -102,7 +105,7 @@ children. It is characterised by inflammation of blood vessels throughout the bo
 chronic disease that is characterised by inflammation of the peripheral nerves that causes
 muscle weakness and/or numbness mainly in the legs and upper limbs.
 5. Patients with multifocal motor neuropathy (MMN). This is a slowly progressive disease of 
-the motor nerves with weakness of arms and legs.</p>         </div>"""   
+the motor nerves with weakness of arms and legs.</p> </div>"""   
           
 
              
@@ -220,7 +223,7 @@ before you are given Privigen ).</p>
 <p>Tell your doctor prior to treatment.
 Sodium content
 This medicine contains less than 2.3 mg sodium (main component of cooking/table salt) in 100 ml. 
-This is equivalent to 0.12% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+This is equivalent to 0.12% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take privigen"
@@ -238,7 +241,7 @@ Overdose is very unlikely to occur because Privigen is usually administered unde
 supervision. If, in spite of this, you receive more Privigen than you should, your blood may become 
 too thick (hyperviscous) which might increase the risk of developing blood clots. This may happen 
 particularly if you are a patient at risk, for example if you are elderly or if you suffer from a heart or
-kidney disease. Tell your doctor if you are known to have medical problems.</p>         </div>"""         
+kidney disease. Tell your doctor if you are known to have medical problems.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -319,7 +322,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or healthcare professional. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store privigen"
@@ -335,7 +338,7 @@ immediately after opening the vial.</p>
 <p>Do not freeze.</p>
 <p>Keep the vial in the outer carton in order to protect from light.</p>
 <p>Do not use this medicine if you notice that the solution is cloudy or contains particles floating 
-within the solution.</p>         </div>"""      
+within the solution.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -513,7 +516,7 @@ solution. Aseptic technique must be strictly observed during the dilution of Pri
 Once the vial has been entered under aseptic conditions, its contents should be used promptly. Because 
 the solution contains no preservative, Privigen should be infused as soon as possible.
 Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements.</p>         </div>"""      
+requirements.</p> </div>"""      
 
 
 
@@ -552,7 +555,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -561,7 +566,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -576,7 +582,7 @@ Usage: #inline
 3. Sådan skal du bruge Privigen
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -617,7 +623,7 @@ mindre børn. Den er karakteriseret ved betændelse i hele kroppens blodkar.
 kronisk sygdom, der er karakteriseret ved inflammation i de perifere nerver, der 
 forårsager muskelsvaghed og/eller følelsesløshed hovedsageligt i benene og armene.
 5. Patienter med multifokal motorisk neuropati (MMN). Dette er en langsomt udviklende 
-sygdom i de motoriske nerver, der giver svaghed i arme og ben.</p>         </div>"""   
+sygdom i de motoriske nerver, der giver svaghed i arme og ben.</p> </div>"""   
           
 
              
@@ -764,7 +770,7 @@ Fortæl det til din læge før behandlingen.
 Privigen indeholder natrium
 Dette lægemiddel indeholder mindre end 2,3 mg natrium (hovedkomponenten i
 madlavnings-/bordsalt) pr. 100 ml, svarende til 0,12 % af den anbefalede maksimale daglige 
-indtagelse af natrium for en voksen.</p>         </div>"""   
+indtagelse af natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take privigen"
@@ -783,7 +789,7 @@ lægelig overvågning. Hvis du, på trods af dette, får indgivet mere Privigen,
 blod for tykt (hyperviskøst), hvilket kan forøge risikoen for at udvikle blodpropper. Dette kan især ske, 
 hvis du er en patient, der er i risikogruppe, hvis f.eks. du er ældre eller lider af en hjerte- eller 
 nyresygdom. Fortæl det til lægen, hvis du har nogen helbredsproblemer eller sygdomme
-34</p>         </div>"""         
+34</p> </div>"""         
 
         
 * section[=].section[+]
@@ -880,7 +886,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store privigen"
@@ -903,7 +909,7 @@ Må ikke nedfryses.
 Opbevar flasken i yderkarton for at beskytte mod lys.
 
 Brug ikke lægemidlet, hvis du bemærker, at injektionsvæskeen er uklar eller indeholder 
-partikler, der flyder rundt i opløsningen.</p>         </div>"""      
+partikler, der flyder rundt i opløsningen.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1120,7 +1126,7 @@ tilsvarende volumen glucoseopløsning. Aseptisk teknik skal strengt overholdes u
 Privigen.
 Når hætteglasset er åbnet under aseptiske forhold, skal indholdet anvendes omgående. Da 
 injektionsvæskeen ikke indeholder konserveringsmidler, skal Privigen infunderes så snart som muligt.
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

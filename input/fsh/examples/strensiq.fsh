@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Strensiq  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ walking, as well as difficulties with breathing and a risk of seizures (fits). <
 The active substance in Strensiq can replace the missing enzyme (alkaline phosphatase) in 
 hypophosphatasia. It is used for long-term enzyme replacement treatment to manage symptoms. </p>
 <p>What benefits of Strensiq have been shown in clinical studies 
-Strensiq has shown benefits for patients  mineralization of the skeleton and growth. </p>         </div>"""   
+Strensiq has shown benefits for patients  mineralization of the skeleton and growth. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 This medicine is not expected to have any effect on the ability to drive or use machines. </p>
 <p>Important information about some of the ingredients of Strensiq 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, which means it is essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take strensiq"
@@ -442,7 +445,7 @@ please contact your doctor for advice. </p>
 <p>If you forget to use Strensiq 
 Do not inject a double dose to make up for a forgotten dose and contact your doctor for advice. </p>
 <p>For more information, please consult: </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -489,7 +492,7 @@ Kidney stones (nephrolithiasis) </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store strensiq"
@@ -505,7 +508,7 @@ Store in the original package in order to protect from light.<br />
 After opening the vial, the product should be used immediately (within 3 hours maximum at room 
 temperature, between 23 C and 27 C). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -543,7 +546,7 @@ on this medicine.
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -582,7 +585,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -591,7 +596,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -608,7 +614,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -629,7 +635,7 @@ Det aktive stof i Strensiq kan erstatte det manglende enzym (basisk phosphatase)
 hypophosphatasi. Det anvendes til langvarig enzym-erstatningsbehandling for at behandle 
 symptomerne. </p>
 <p>Fordele ved Strensiq påvist i kliniske studier 
-Strensiq har vist sig at gavne patienternes mineralisering af skelettet og vækst. </p>         </div>"""   
+Strensiq har vist sig at gavne patienternes mineralisering af skelettet og vækst. </p> </div>"""   
           
 
              
@@ -714,7 +720,7 @@ Dette lægemiddel forventes ikke at have nogen virkning på evnen til at føre m
 maskiner. </p>
 <p>Strensiq indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take strensiq"
@@ -1025,7 +1031,7 @@ kontakte lægen for rådgivning. </p>
 <p>Hvis du har glemt at bruge Strensiq 
 Du må ikke injicere en dobbeltdosis som erstatning for den glemte dosis. Kontakt lægen for at få råd. </p>
 <p>For yderligere oplysninger, se: asfotasealfa-patient.dk </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1074,7 +1080,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store strensiq"
@@ -1090,7 +1096,7 @@ Opbevares i den originale yderpakning for at beskytte mod lys.
 Efter åbning af hætteglasset skal præparatet straks anvendes (inden for maks. 3 timer ved 
 stuetemperatur fra 23 °C til 27 °C). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1144,7 +1150,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1183,7 +1189,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1192,7 +1200,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1209,7 +1218,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Strensiq </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1230,7 +1239,7 @@ um risco de convulsões (crises convulsivas). </p>
 A substância ativa em Strensiq pode substituir a enzima que falta (fosfatase alcalina) na hipofosfatasia. 
 É utilizada para o tratamento de substituição da enzima de longa duração para controlar os sintomas. </p>
 <p>Quais foram os benefícios de Strensiq demonstrados em ensaios clínicos 
-Strensiq demonstrou benefícios para a mineralização do esqueleto e crescimento dos doentes. </p>         </div>"""   
+Strensiq demonstrou benefícios para a mineralização do esqueleto e crescimento dos doentes. </p> </div>"""   
           
 
              
@@ -1320,7 +1329,7 @@ Não é de se prever que este medicamento tenha efeitos sobre a capacidade de co
 máquinas. </p>
 <p>Informações importantes sobre alguns componentes de Strensiq 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por frasco para injetáveis, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar strensiq"
@@ -1646,7 +1655,7 @@ prescrita, consulte o seu médico. </p>
 Não injete uma dose a dobrar para compensar uma dose que se esqueceu de injetar e consulte o seu 
 médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1696,7 +1705,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar strensiq"
@@ -1713,7 +1722,7 @@ Após abertura do frasco para injetáveis, o medicamento deve ser utilizado imed
 de 3 horas no máximo à temperatura ambiente, entre 23°C e 27°C). </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1753,7 +1762,7 @@ raridade desta doença.
 A Agência Europeia de Medicamentos irá rever todos os anos qualquer nova informação sobre este 
 medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

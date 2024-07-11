@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Gavreto  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ make an abnormal protein called a RET fusion protein, which can lead to uncontro
 cancer. Gavreto blocks the action of RET fusion proteins and may help to slow or stop your lung 
 cancer from growing. It may also help to shrink your cancer. </p>
 <p>If you have any questions about how Gavreto works or why this medicine has been prescribed for you, 
-please ask your doctor. </p>         </div>"""   
+please ask your doctor. </p> </div>"""   
           
 
              
@@ -194,7 +197,7 @@ this happens, you should not drive or operate heavy machinery until your symptom
 your doctor about whether it is okay for you to drive or use machines. </p>
 <p>Gavreto contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per hard capsule, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gavreto"
@@ -215,7 +218,7 @@ Gavreto the next day. </p>
 medical attention. </p>
 <p>If you forget to take Gavreto </p>
 <p>If you miss a dose of Gavreto, take it as soon as you remember on the same day. Take your regular 
-dose of Gavreto the next day. </p>         </div>"""         
+dose of Gavreto the next day. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -276,7 +279,7 @@ function (creatinine)
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gavreto"
@@ -290,7 +293,7 @@ after  EXP . The expiry date refers to the last day of that month. </p>
 package in order to protect from moisture. </p>
 <p>Do not use this medicine if you notice that the bottle is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -396,7 +399,7 @@ this medicine.  </p>
 <p>The European Medicines Agency will review new information on this medicine at least every year and this 
 leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -435,7 +438,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -444,7 +449,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -461,7 +467,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -481,7 +487,7 @@ fusionsprotein, som får cellerne til at vokse ukontrolleret og forårsager kræ
 proteinets aktivitet og kan derved forsinke eller forhindre lungekræften i at vokse. Det kan måske også 
 få kræftsvulster til at blive mindre. </p>
 <p>Hvis du har spørgsmål til, hvordan Gavreto virker, eller hvorfor du har fået lægemidlet, skal du 
-kontakte lægen. </p>         </div>"""   
+kontakte lægen. </p> </div>"""   
           
 
              
@@ -645,7 +651,7 @@ dig udmattet. Hvis du føler dig udmattet, bør du ikke føre motorkøretøj ell
 før du føler dig frisk igen. Tal med din læge, om du bør føre motorkøretøj eller betjene maskiner. </p>
 <p>Gavreto indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) per hård kapsel og er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gavreto"
@@ -667,7 +673,7 @@ sædvanlige dosis dagen efter. </p>
 for at blive tilset af en læge. </p>
 <p>Hvis du har glemt at tage Gavreto </p>
 <p>Hvis du kommer til at glemme en dosis Gavreto, skal du tage den, så snart du kommer i tanke om den 
-samme dag. Tag din sædvanlige dosis dagen efter. </p>         </div>"""         
+samme dag. Tag din sædvanlige dosis dagen efter. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -803,7 +809,7 @@ aminotransferase, alanin-aminotransferase, alkalisk fosfatase, bilirubin) </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gavreto"
@@ -818,7 +824,7 @@ beskytte mod fugt. </p>
 <p>Brug ikke lægemidlet, hvis du kan se, at flasken er beskadiget, eller der er tegn på, at den har været 
 forsøgt åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -960,7 +966,7 @@ Det Europæiske Lægemiddelagentur vil mindst én gang om året vurdere nye oply
 lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -999,7 +1005,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1008,7 +1016,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1025,7 +1034,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Gavreto  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1046,7 +1055,7 @@ produza uma proteína alterada chamada proteína de fusão RET, que pode levar a
 descontrolado e cancro. Gavreto bloqueia a ação das proteínas de fusão RET e pode ajudar a retardar 
 ou impedir o crescimento do cancro do pulmão. Também pode ajudar a diminuir o cancro. </p>
 <p>Se tiver alguma dúvida sobre como funciona Gavreto ou porque este medicamento lhe foi prescrito, 
-consulte o seu médico. </p>         </div>"""   
+consulte o seu médico. </p> </div>"""   
           
 
              
@@ -1222,7 +1231,7 @@ fadiga. Se isto acontecer, não deve conduzir ou utilizar maquinaria pesada até
 desaparecerem. Fale com o seu médico sobre se é seguro para si conduzir ou utilizar máquinas. </p>
 <p>Gavreto contém sódio </p>
 <p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por cápsula, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar gavreto"
@@ -1244,7 +1253,7 @@ Gavreto no dia seguinte. </p>
 necessitar de atenção médica. </p>
 <p>Caso se tenha esquecido de tomar Gavreto </p>
 <p>Caso se esqueça de uma dose de Gavreto, tome-a assim que se lembrar no mesmo dia. Tome a sua 
-dose habitual de Gavreto no dia seguinte. </p>         </div>"""         
+dose habitual de Gavreto no dia seguinte. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1382,7 +1391,7 @@ muscular no seu sangue (creatina fosfoquinase) </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar gavreto"
@@ -1397,7 +1406,7 @@ embalagem de origem para proteger da humidade. </p>
 <p>Não utilize este medicamento se verificar que o frasco está danificado ou mostra sinais de adulteração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1537,7 +1546,7 @@ significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário              </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

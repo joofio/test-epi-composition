@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zoledronic Acid Teva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ of cancer from primary site to the bone).
 * To reduce the amount of calcium in the blood in adult patients where it is too high due to the 
 presence of a tumour. Tumours can accelerate normal bone change in such a way that the 
 release of calcium from bone is increased. This condition is known as tumour-induced 
-hypercalcaemia (TIH). </p>         </div>"""   
+hypercalcaemia (TIH). </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ should therefore be careful when driving, using machines or performing other tas
 attention. </p>
 <p>Zoledronic Acid Teva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zoledronic"
@@ -191,7 +194,7 @@ If you have received doses higher than those recommended, you must be carefully 
 doctor. This is because you may develop serum electrolyte abnormalities (e.g. abnormal levels of 
 calcium, phosphorus and magnesium) and/or changes in kidney function, including severe kidney 
 impairment. If your level of calcium falls too low, you may have to be given supplemental calcium by 
-infusion. </p>         </div>"""         
+infusion. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -290,7 +293,7 @@ the thigh bone. </li>
 If you get any side effects, talk to your doctor pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zoledronic"
@@ -306,7 +309,7 @@ storage times and conditions prior to use are the responsibility of the user. Th
 dilution, storage in a refrigerator at 2 C   8 C and end of administration must not exceed 24 hours. </p>
 <p>Do not use this medicine if you notice any particles or discoloration in the solution.  </p>
 <p>Do not throw away any medicines via wastewater (or household waste). Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -466,7 +472,7 @@ Usage: #inline
 3. Sådan bliver du behandlet med Zoledronsyre Teva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -488,7 +494,7 @@ tilstedeværelsen af en tumor. Tumorer kan accelerere den normale knogleomsætni
 sådan måde, at afgivelsen af calcium fra knoglerne forøges. Denne tilstand kaldes 
 tumorinduceret hyperkalcæmi (TIH). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -571,7 +577,7 @@ derfor særlig opmærksom når du fører motorkøretøj, betjener maskiner eller
 der kræver din fulde opmærksomhed. </p>
 <p>Zoledronsyre Teva indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zoledronic"
@@ -605,7 +611,7 @@ D-vitamin. </p>
 Hvis du har fået højere doser end dem, der er anbefalet, skal du nøje overvåges af din læge. Grunden 
 er, at du måske kan udvikle serum-elektrolyt afvigelser (fx unormale niveauer af calcium, fosfor og 
 magnesium) og/eller ændringer i nyrefunktionen, inkl. alvorlig nedsat nyrefunktion. Hvis dit 
-calciumniveau falder for meget, skal du måske have ekstra calcium tilført som infusion. </p>         </div>"""         
+calciumniveau falder for meget, skal du måske have ekstra calcium tilført som infusion. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -713,7 +719,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zoledronic"
@@ -730,7 +736,7 @@ fortynding, opbevaring i køleskab ved 2 °C til 8 °C og indgiftens afslutning 
 24 timer. </p>
 <p>Du må ikke anvende lægemidlet, hvis opløsningen indeholder partikler eller er misfarvet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal aflevere medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -913,7 +919,7 @@ opløsningen ikke anvendes straks, er brugeren ansvarlig for, at opløsningen f�
 køleskab ved 2°C - 8°C.<br />
 − 
 Den samlede tid mellem rekonstituering, opbevaring i køleskab og indgiftens afslutning må ikke 
-overskride 24 timer. </p>         </div>"""      
+overskride 24 timer. </p> </div>"""      
 
 
 

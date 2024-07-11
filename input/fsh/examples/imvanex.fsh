@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store IMVANEX</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ When a person is given the vaccine, the immune system (the body s natural defenc
 produce its own protection in the form of antibodies against the smallpox, monkeypox and vaccinia 
 viruses. 
 IMVANEX does not contain smallpox virus (Variola) or monkeypox virus or vaccinia viruses. It 
-cannot spread or cause smallpox, monkeypox or vaccinia infection and disease. </p>         </div>"""   
+cannot spread or cause smallpox, monkeypox or vaccinia infection and disease. </p> </div>"""   
           
 
              
@@ -120,7 +123,7 @@ However, it is possible that if you experience any of the side effects listed in
 these may affect your ability to drive or use machines (e.g. dizziness). 
 IMVANEX contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imvanex"
@@ -140,7 +143,7 @@ If you have previously been vaccinated against smallpox, monkeypox or vaccinia v
 less than 28 days after the first.
 If you miss an appointment for your injection of IMVANEX 
 If you miss a scheduled injection, tell your doctor or nurse and arrange another visit. 
-If you have any further questions on the use of this vaccine, ask your doctor or nurse. </p>         </div>"""         
+If you have any further questions on the use of this vaccine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -223,7 +226,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imvanex"
@@ -236,7 +239,7 @@ refers to the last day of that month.
 Store in a freezer (at -20 C +/-5 C or -50 C +/-10 C or -80 C +/-10 C). Expiry date depends on 
 storage temperature. Do not refreeze the vaccine once thawed. After thawing, the vaccine can be 
 stored at 2 C 8 C in the dark for up to 2 months within the approved shelf-life prior to use. 
-Store in the original package to protect from light. </p>         </div>"""      
+Store in the original package to protect from light. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -279,7 +282,7 @@ This means that because of the rarity of this disease it has been impossible to 
 on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -318,7 +321,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -327,7 +332,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -344,7 +350,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -357,7 +363,7 @@ vacciniavirus hos voksne. </p>
 <p>Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvarssystem) producere dens 
 egen beskyttelse i form af antistoffer mod kopper, abekopper og vacciniavira. 
 IMVANEX indeholder hverken koppevirus (Variola) eller abekoppevirus eller vacciniavira. Den kan 
-ikke sprede eller forårsage kopper, abekopper eller vacciniainfektion og -sygdom. </p>         </div>"""   
+ikke sprede eller forårsage kopper, abekopper eller vacciniainfektion og -sygdom. </p> </div>"""   
           
 
              
@@ -412,7 +418,7 @@ at nogle af disse kan påvirke din evne til at føre motorkøretøj eller betjen
 svimmelhed). </p>
 <p>IMVANEX indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imvanex"
@@ -447,7 +453,7 @@ mindre end 28 dage efter den første. </p>
 <p>Hvis du har glemt at komme til et besøg for at få din injektion med IMVANEX </p>
 <p>Hvis du har glemt en skemalagt injektion, skal du fortælle det til lægen eller sygeplejersken, og 
 arrangere et andet besøg. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -571,7 +577,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imvanex"
@@ -585,7 +591,7 @@ dag i den nævnte måned. </p>
 afhænger af opbevaringstemperaturen. Vaccinen må ikke fryses igen, efter den er optøet. Efter 
 optøning kan vaccinen opbevares ved temperaturer på 2 °C- 8 °C i mørke i op til 2 måneder inden for 
 den godkendte opbevaringstid før brug. </p>
-<p>Opbevares i den originale yderpakning for at beskytte mod lys. </p>         </div>"""      
+<p>Opbevares i den originale yderpakning for at beskytte mod lys. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -669,7 +675,7 @@ vacciniavirus Ankara) er CHMP af den opfattelse, at benefit/risk-forholdet for
 lægemidlet/lægemidlerne, der indeholder koppe- og abekoppevaccine (levende modificeret 
 vacciniavirus Ankara) forbliver uændret under forudsætning af, at de foreslåede ændringer indføres i 
 produktinformationen 
-CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 

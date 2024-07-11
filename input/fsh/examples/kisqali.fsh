@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kisqali </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ Kisqali works by blocking proteins called cyclin-dependent kinases 4 and 6, whic
 the growth and division of cells. Blocking these proteins can slow down the growth of cancer cells and 
 delay the progression of your cancer. </p>
 <p>If you have any questions about how Kisqali works or why this medicine has been prescribed for you, 
-ask your doctor, pharmacist or nurse. </p>         </div>"""   
+ask your doctor, pharmacist or nurse. </p> </div>"""   
           
 
              
@@ -204,7 +207,7 @@ You should not breast-feed while taking Kisqali and for at least 21 days after t
 Treatment with Kisqali may lead to tiredness, dizziness or spinning sensation. You should therefore be 
 cautious when driving or using machines during your treatment with Kisqali. </p>
 <p>Kisqali contains soya lecithin 
-If you are allergic to peanut or soya, do not use this medicine. </p>         </div>"""   
+If you are allergic to peanut or soya, do not use this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kisqali"
@@ -252,7 +255,7 @@ scheduled dose and then take your usual dose. </p>
 <p>If you stop taking Kisqali 
 Stopping your treatment with Kisqali may cause your condition to get worse. Do not stop taking 
 Kisqali unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -347,7 +350,7 @@ of the gastrointestinal tract)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kisqali"
@@ -361,7 +364,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not take this medicine if you notice any damage to the packaging or if there are any signs of 
 tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -474,7 +477,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -513,7 +516,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -522,7 +527,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -537,7 +543,7 @@ Usage: #inline
 3. Sådan skal du tage Kisqali 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -560,7 +566,7 @@ Kisqali virker ved at blokere proteiner, der kaldes cyclin-afhængige kinaser 4 
 vækst og deling af celler. Blokering af disse proteiner kan nedsætte væksten af kræftceller og udskyde 
 videreudvikling af din kræft. </p>
 <p>Tal med lægen, apotekspersonalet eller sundhedspersonalet, hvis du har spørgsmål til, hvordan Kisqali 
-virker, eller hvorfor dette lægemiddel er blevet ordineret til dig. </p>         </div>"""   
+virker, eller hvorfor dette lægemiddel er blevet ordineret til dig. </p> </div>"""   
           
 
              
@@ -754,7 +760,7 @@ Behandling med Kisqali kan gøre dig træt, svimmel eller give en fornemmelse af
 Derfor skal du være forsigtig med at føre motorkøretøj eller betjene maskiner under din behandling 
 med Kisqali. </p>
 <p>Kisqali indeholder sojalecithin 
-Du må ikke tage Kisqali, hvis du er overfølsom over for jordnødder eller soja. </p>         </div>"""   
+Du må ikke tage Kisqali, hvis du er overfølsom over for jordnødder eller soja. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kisqali"
@@ -811,7 +817,7 @@ næste planlagte dosis, og tag så din sædvanlige dosis. </p>
 <p>Hvis du holder op med at tage Kisqali 
 Stop af behandling med Kisqali kan forværre din tilstand. Stop ikke med at tage Kisqali, medmindre 
 lægen har bedt dig om det. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1010,7 +1016,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kisqali"
@@ -1024,7 +1030,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Tag ikke lægemidlet, hvis du bemærker at pakningen er beskadiget, eller hvis der er tegn på, at den har 
 været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1159,7 +1165,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -1198,7 +1204,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1207,7 +1215,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1224,7 +1233,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Kisqali </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1247,7 +1256,7 @@ Kisqali atua através do bloqueio das proteínas denominadas cinases dependentes
 são importantes para o crescimento e divisão de células. O bloqueio destas proteínas pode atrasar o 
 desenvolvimento das células cancerígenas e a progressão do seu cancro. </p>
 <p>Se tiver questões sobre como atua Kisqali ou porque este medicamento lhe foi receitado fale com o 
-seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+seu médico, farmacêutico ou enfermeiro. </p> </div>"""   
           
 
              
@@ -1444,7 +1453,7 @@ dose. </p>
 O tratamento com Kisqali pode provocar cansaço (fadiga), tonturas ou sensação de andar à roda. Por 
 este motivo, deve tomar precaução ao conduzir ou utilizar máquinas durante o tratamento com Kisqali. </p>
 <p>Kisqali contém lecitina de soja 
-Se for alérgico ao amendoim ou soja, não utilize este medicamento. </p>         </div>"""   
+Se for alérgico ao amendoim ou soja, não utilize este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar kisqali"
@@ -1504,7 +1513,7 @@ dose seguinte à hora habitual. </p>
 Parar o seu tratamento com Kisqali pode provocar o agravamento da sua condição. Não pare de tomar 
 Kisqali a menos que o seu médico lhe diga para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1712,7 +1721,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar kisqali"
@@ -1727,7 +1736,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 quaisquer sinais de adulteração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1859,7 +1868,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

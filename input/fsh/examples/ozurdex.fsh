@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store OZURDEX</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ tasks like reading.  OZURDEX works by reducing this swelling of the macular whic
 lessen or prevent more damage to the macula.</p>
 <p>Inflammation of the back of the eye. This inflammation leads to a decrease of vision and/or 
 the presence of floaters in the eye, (black dots or wispy lines that move across the field of 
-vision). OZURDEX works by reducing this inflammation.</p>         </div>"""   
+vision). OZURDEX works by reducing this inflammation.</p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ discuss this with your doctor before OZURDEX treatment. Ask your doctor for advi
 any medicine.
 Driving and using machines
 After OZURDEX treatment you may experience some reduced vision for a short time.  If this happens, 
-do not drive or use any tools or machines until your vision improves. </p>         </div>"""   
+do not drive or use any tools or machines until your vision improves. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ozurdex"
@@ -179,7 +182,7 @@ to reduce or prevent any pain you might have with the injection. You may hear a 
 injection of OZURDEX; this is normal.
 Detailed instructions for your doctor on how to carry out the OZURDEX injection are provided 
 in the medicine carton.
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -218,7 +221,7 @@ The more injections you have the more these effects can occur.
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V.
-By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ozurdex"
@@ -230,7 +233,7 @@ Do not use OZURDEX after the expiry date which is stated on the carton and the p
 The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines no longer required. These measures will help to protect the environment.</p>         </div>"""      
+dispose of medicines no longer required. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -324,7 +327,7 @@ AbbVie SIA
 Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -363,7 +366,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -372,7 +377,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -387,7 +393,7 @@ Usage: #inline
 3. Sådan får du OZURDEX 
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -410,7 +416,7 @@ som læsning. OZURDEX virker ved at reducere hævelsen i macula, hvilket er med 
 nedsætte eller forebygge yderligere beskadigelse af macula.
  Inflammation (irritation / betændelse) bagerst i øjet. Denne inflammation fører til nedsat syn 
 og/eller forekomst af "falske fluer" i øjet (sorte pletter eller vattede linjer, der bevæger sig på 
-tværs af synsfeltet). OZURDEX virker ved at reducere denne inflammation.</p>         </div>"""   
+tværs af synsfeltet). OZURDEX virker ved at reducere denne inflammation.</p> </div>"""   
           
 
              
@@ -485,7 +491,7 @@ Trafik- og arbejdssikkerhed
 28
 Efter behandling med OZURDEX kan du opleve nedsat syn i en kort periode. Kør ikke bil eller 
 motorcykel, og lad være med at cykle, hvis dette sker, og indtil dit syn har forbedret sig. Lad være med 
-at arbejde med værktøj eller maskiner.</p>         </div>"""   
+at arbejde med værktøj eller maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ozurdex"
@@ -504,7 +510,7 @@ nedsætte eller forebygge eventuel smerte i forbindelse med injektionen. Der hø
 under injektionen med OZURDEX. Dette er normalt.
 Æsken med lægemidlet indeholder detaljerede instruktioner til lægen om, hvordan OZURDEX-
 injektionen skal gives.
-Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -546,7 +552,7 @@ ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også ind
 direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
 lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ozurdex"
@@ -558,7 +564,7 @@ Brug ikke OZURDEX efter den udløbsdato, der står på pakningen eller posen eft
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Denne medicin kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg på apoteket, hvordan du skal aflevere medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -874,7 +880,7 @@ systemorganklasse i nedenstående tabel ved brug af følgende konvention:
 Meget almindelig (≥ 1/10), almindelig (≥ 1/100 til &lt; 1/10), ikke almindelig (≥ 1/1.000 til &lt; 1/100), 
 sjælden (≥ 1/10.000 til &lt; 1/1.000), meget sjælden (&lt; 1/10.000). Bivirkningerne inden for hver 
 hyppighedsgruppering er angivet efter aftagende alvorlighed.
-Tabel </p>         </div>"""      
+Tabel </p> </div>"""      
 
 
 

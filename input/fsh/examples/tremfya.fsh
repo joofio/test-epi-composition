@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Tremfya</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ given Tremfya to reduce the signs and symptoms of the disease. Tremfya can be us
 another medicine named methotrexate.
 Using Tremfya in psoriatic arthritis will benefit you by reducing the signs and symptoms of the 
 disease, slowing down the damage to the cartilage and bone of the joints and improving your ability to 
-do normal daily activities.</p>         </div>"""   
+do normal daily activities.</p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ or are planning to have a baby.</p>
 <p>Talk to your doctor if you are breast-feeding or are planning to breast-feed. You and your doctor 
 should decide if you will breast-feed or use Tremfya.
 Driving and using machines
-Tremfya is unlikely to influence your ability to drive and use machines.</p>         </div>"""   
+Tremfya is unlikely to influence your ability to drive and use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tremfya"
@@ -181,7 +184,7 @@ If you have forgotten to inject a dose of Tremfya, inform your doctor.
 If you stop using Tremfya
 You should not stop using Tremfya without speaking to your doctor first. If you stop treatment, your
 symptoms may come back.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tremfya"
@@ -253,7 +256,7 @@ particles. Before use, remove the carton from the refrigerator and keep the pre-
 carton and allow to reach room temperature by waiting for 30 minutes.
 This medicine is for single use only. Do not throw away any medicines via wastewater or household 
 waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will 
-help protect the environment.</p>         </div>"""      
+help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -359,7 +362,7 @@ Tel: +371 678 93lv@its.jnj.com
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -398,7 +401,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -407,7 +412,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -422,7 +428,7 @@ Usage: #inline
 3. Sådan skal du bruge Tremfya
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -448,7 +454,7 @@ alene eller sammen med et andet lægemiddel, der hedder methotrexat.
 Brug af Tremfya ved psoriasisartrit vil gavne dig ved at reducere tegn og symptomer på sygdommen, 
 nedsætte hastigheden, hvormed leddenes brusk og knogler beskadiges, og forbedre dine evner til at 
 udføre normale dagligdags aktiviteter.
-46</p>         </div>"""   
+46</p> </div>"""   
           
 
              
@@ -518,7 +524,7 @@ planlægger at blive gravid.
 Tal med din læge, hvis du ammer eller planlægger at amme. Sammen med din læge skal du 
 beslutte, om du skal amme eller bruge Tremfya.
 Trafik- og arbejdssikkerhed
-Tremfya påvirker sandsynligvis ikke arbejdssikkerheden eller din evne til at færdes i trafikken.</p>         </div>"""   
+Tremfya påvirker sandsynligvis ikke arbejdssikkerheden eller din evne til at færdes i trafikken.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tremfya"
@@ -558,7 +564,7 @@ Fortæl det til lægen, hvis du har glemt at injicere en dosis af Tremfya.
 Hvis du holder op med at bruge Tremfya
 Du må ikke holde op med at bruge Tremfya uden først at tale med lægen. Hvis du stopper 
 behandlingen, kan dine symptomer vende tilbage.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -615,7 +621,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tremfya"
@@ -634,7 +640,7 @@ kartonen, mens den får lov at nå stuetemperatur ved at vente i 30 minutter.
 49
 Dette lægemiddel er kun til engangsbrug. Spørg apotekspersonalet, hvordan du skal bortskaffe 
 medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller 
-skraldespanden.</p>         </div>"""      
+skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -914,7 +920,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 

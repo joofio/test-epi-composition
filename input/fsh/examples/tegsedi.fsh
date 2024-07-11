@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Tegsedi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ working properly. Tegsedi is used when the disease is causing symptoms of polyne
 damage). </p>
 <p>Inotersen, is a type of medicine called an antisense oligonucleotide inhibitor. It works by reducing 
 production of transthyretin by the liver and so lowers the risk of fibres of transthyretin being deposited 
-in body organs and causing symptoms. </p>         </div>"""   
+in body organs and causing symptoms. </p> </div>"""   
           
 
              
@@ -193,7 +196,7 @@ consult your doctor if you should either stop breast-feeding or stop the treatme
 Use of Tegsedi has not been shown to affect ability to drive or use machinery. </p>
 <p>Tegsedi contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 1.5 mL, that is to say essentially  sodium 
-free  </p>         </div>"""   
+free  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tegsedi"
@@ -415,7 +418,7 @@ dose given at the scheduled time. </p>
 <p>Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Tegsedi </p>
 <p>Do not stop using Tegsedi unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -469,7 +472,7 @@ Very common (may affect more than 1 in 10 people)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tegsedi"
@@ -486,7 +489,7 @@ and not used within 6 weeks then this medicine should be discarded.<br />
 Store in the original package in order to protect from light. </p>
 <p>Do not use this medicine if you notice that the contents are cloudy or contains particles. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -514,7 +517,7 @@ D02 Y017, Ireland </p>
 Brunnerstra e 63/18-1230 Vienna 
 Austria </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -553,7 +556,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -562,7 +567,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -579,7 +585,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring   </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -594,7 +600,7 @@ fungerer ordentligt. Tegsedi bruges, hvis sygdommen giver symptomer på polyneur
 (nervebeskadigelse). </p>
 <p>Inotersen er en type medicin, som kaldes for en antisense-oligonukleotid-hæmmer. Det virker ved at 
 nedsætte leverens produktion af transthyretin og mindsker dermed risikoen for, at der aflejres fibre af 
-transthyretin i kroppens organer og forårsager symptomer. </p>         </div>"""   
+transthyretin i kroppens organer og forårsager symptomer. </p> </div>"""   
           
 
              
@@ -710,7 +716,7 @@ Det er ikke observeret, at anvendelse af Tegsedi påvirker evnen til at føre mo
 maskiner. </p>
 <p>Tegsedi indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 1,5 ml, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tegsedi"
@@ -945,7 +951,7 @@ næste dosis gives på det planlagte tidspunkt. </p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Tegsedi 
 Du må ikke holde op med at bruge Tegsedi, medmindre din læge har sagt, at du skal. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1004,7 +1010,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tegsedi"
@@ -1021,7 +1027,7 @@ lægemiddel er blevet opbevaret uden for køleskab og ikke er brugt inden for 6 
 Opbevares i den originale pakning for at beskytte mod lys. </p>
 <p>Brug ikke lægemidlet, hvis du kan se, at indholdet er grumset eller indeholder partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1052,7 +1058,7 @@ Brunnerstraße 63/18-1230 Wien
 Østrig </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1091,7 +1097,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1100,7 +1108,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1117,7 +1126,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Tegsedi   </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1132,7 +1141,7 @@ corpo, impedindo-os de funcionar corretamente. Tegsedi é utilizado quando a doe
 sintomas de polineuropatia (lesões a nível dos nervos). </p>
 <p>Inotersen é um tipo de medicamento chamado inibidor dos oligonucleotídeos antisense. Funciona ao 
 reduzir a produção de transtirretina pelo fígado e, portanto, reduz o risco das fibras de transtirretina se 
-depositarem nos órgãos do corpo e causarem sintomas. </p>         </div>"""   
+depositarem nos órgãos do corpo e causarem sintomas. </p> </div>"""   
           
 
              
@@ -1253,7 +1262,7 @@ consultar o seu médico, para saber se deve deixar de amamentar ou parar o trata
 <p>A utilização de Tegsedi não demonstrou afetar a capacidade de conduzir ou utilizar maquinaria. </p>
 <p>Tegsedi contém sódio 
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por 1,5 ml, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tegsedi"
@@ -1518,7 +1527,7 @@ perfurante
 Se parar de utilizar Tegsedi 
 Não pare de utilizar Tegsedi, a não ser por indicação do seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1583,7 +1592,7 @@ gripe) </li>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tegsedi"
@@ -1603,7 +1612,7 @@ Conservar na embalagem de origem para proteger da luz. </p>
 partículas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1633,7 +1642,7 @@ D02 Y017, Irlanda  </p>
 Brunnerstraße 63/18-1230 Viena 
 Áustria </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

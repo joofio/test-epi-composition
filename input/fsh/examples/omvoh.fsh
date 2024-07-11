@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Omvoh </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ associated with ulcerative colitis. </p>
 <p>Ulcerative colitis is a chronic inflammatory disease of the large bowel. If you have ulcerative colitis, 
 you will first be given other medicines. If you do not respond well enough or cannot tolerate these 
 medicines, you may be given Omvoh to reduce signs and symptoms of ulcerative colitis such as 
-diarrhoea, abdominal pain, urgency and rectal bleeding. </p>         </div>"""   
+diarrhoea, abdominal pain, urgency and rectal bleeding. </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ Omvoh is unlikely to influence your ability to drive and use machines. </p>
 This medicine contains 60 mg sodium (main component of cooking/table salt) in each 300 mg dose. 
 This is equivalent to 3 % of the recommended maximum daily dietary intake of sodium for an adult. 
 Before Omvoh is given to you, it is mixed with a solution that might contain sodium. Talk to your 
-doctor if you are on a low salt diet. </p>         </div>"""   
+doctor if you are on a low salt diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take omvoh"
@@ -184,7 +187,7 @@ If you missed a dose of Omvoh, talk to your doctor. </p>
 <p>If you stop using Omvoh<br />
 You should not stop using Omvoh without speaking to your doctor first. If you stop treatment, 
 symptoms of ulcerative colitis may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -207,7 +210,7 @@ symptoms of ulcerative colitis may come back. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store omvoh"
@@ -237,7 +240,7 @@ immediately, in-use storage times and conditions prior to use are the responsibi
 would normally not be longer than 24 hours at 2 to 8  C, unless dilution has taken place in controlled 
 and validated aseptic conditions. </p>
 <p>Keep the diluted solution away from direct heat or light. 
-Do not freeze the diluted solution. </p>         </div>"""      
+Do not freeze the diluted solution. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -372,7 +375,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -411,7 +414,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -420,7 +425,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -437,7 +443,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -453,7 +459,7 @@ betændelsestilstanden og andre symptomer forbundet med colitis ulcerosa. </p>
 <p>Colitis ulcerosa er en kronisk betændelsessygdom i tyktarmen. Hvis du har colitis ulcerosa, vil du 
 først få andre lægemidler. Hvis du ikke reagerer godt nok eller ikke kan tåle disse lægemidler, kan du 
 få Omvoh for at reducere tegn og symptomer på colitis ulcerosa, såsom diaré, mavesmerter, 
-afføringstrang og blødning fra endetarmen. </p>         </div>"""   
+afføringstrang og blødning fra endetarmen. </p> </div>"""   
           
 
              
@@ -549,7 +555,7 @@ Dette lægemiddel indeholder 60 mg natrium (hovedkomponenten i kogesalt/bordsalt
 300 mg. Dette svarer til 3 % af den anbefalede maksimale daglige indtagelse af natrium gennem 
 kosten for en voksen person. 
 Inden Omvoh gives til dig, blandes det med en opløsning, der kan indeholde natrium. Tal med 
-lægen, hvis du er på en saltfattig diæt. </p>         </div>"""   
+lægen, hvis du er på en saltfattig diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take omvoh"
@@ -587,7 +593,7 @@ Kontakt lægen, hvis du har glemt at tage en dosis Omvoh. </p>
 <p>Hvis du holder op med at bruge Omvoh 
 Du må ikke stoppe med at bruge Omvoh uden først at have talt med lægen. Hvis du stopper 
 behandlingen, kan der igen komme symptomer på colitis ulcerosa. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Hvis du oplever bivirkninger, bør du tale med læge eller apotekspersonalet ell
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via  det nationale rapporteringssystem anført 
 i  Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store omvoh"
@@ -642,7 +648,7 @@ det samme, er opbevaringstid og -betingelser inden brug, brugerens ansvar og vil
 længere end 24 timer ved 2 til 8 °C, medmindre fortynding har fundet sted under kontrollerede og 
 validerede aseptiske forhold. </p>
 <p>Den fortyndede opløsning må ikke udsættes for direkte varme eller lys. 
-Den fortyndede opløsning må ikke nedfryses. </p>         </div>"""      
+Den fortyndede opløsning må ikke nedfryses. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -792,7 +798,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give det til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, eller apotekspersonalet eller sygeplejersken, hvis du får bivirkninger. Dette 
-gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Se afsnit 4. </p>         </div>"""      
+gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 

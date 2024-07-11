@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Fintepla </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ epilepsy called Dravet syndrome or one called Lennox-Gastaut syndrome. It can he
 number and severity of seizures. </p>
 <p>It is not completely known how Fintepla works. However, it is thought to work by increasing the 
 activity in the brain of a natural substance called serotonin and the sigma 1 receptor, and this may 
-reduce seizures. </p>         </div>"""   
+reduce seizures. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicinal product. </p>
 <p>Fintepla contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 12 ml, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fintepla"
@@ -267,7 +270,7 @@ Do not stop taking Fintepla without talking to your doctor. If your doctor decid
 medicine, the doctor will ask you or your child to slowly lower the amount taken each day. Slowly 
 lowering the dose will reduce the risk of having a seizure and status epilepticus. 
 Six months after the last dose of Fintepla, you or your child will need to have an echocardiogram. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -331,7 +334,7 @@ Very common: may affect more than 1 in 10 people
 If you experience any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fintepla"
@@ -349,7 +352,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 syringe provided in your pack, or speak to your pharmacist. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines you no longer use. These measures will help to protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -457,7 +460,7 @@ Tel: . +371 67 370 United Kingdom (Northern Ireland)
 UCB (Pharma) Ireland Ltd.<br />
 Tel : + 353 / (0)1-46 37 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -496,7 +499,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -505,7 +510,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -520,7 +526,7 @@ Usage: #inline
 3. Sådan skal du eller dit barn tage Fintepla 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -534,7 +540,7 @@ har en type epilepsi, der hedder Dravets syndrom, eller en type epilepsi, der he
 syndrom. Det kan hjælpe med at reducere antallet og sværhedsgraden af epileptiske anfald. </p>
 <p>Det vides ikke fuldt ud, hvordan Fintepla virker. Det menes imidlertid at virke ved at øge aktiviteten i 
 hjernen af et naturligt stof, der hedder serotonin, og sigma-1-receptoren, og dette kan reducere 
-epileptiske anfald. </p>         </div>"""   
+epileptiske anfald. </p> </div>"""   
           
 
              
@@ -660,7 +666,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>Fintepla indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 12 ml, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fintepla"
@@ -804,7 +810,7 @@ at standse behandlingen med lægemidlet, vil lægen bede dig eller dit barn om a
 langsomt over flere dage. Ved langsomt at reducere dosen bliver risikoen for epileptiske anfald og 
 status epilepticus mindre. 
 Seks måneder efter den sidste dosis Fintepla skal du eller dit barn have taget et ekkokardiogram. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -964,7 +970,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge, apoteks
 sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fintepla"
@@ -996,7 +1002,7 @@ sprøjten, skal du bruge en anden mundsprøjte fra æsken eller kontakte apoteks
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1193,7 +1199,7 @@ Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilla
 På baggrund af de videnskabelige konklusioner for fenfluramin er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder fenfluramin, forbliver 
 uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. 
-CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -1232,7 +1238,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1241,7 +1249,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1258,7 +1267,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Fintepla </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1273,7 +1282,7 @@ denominado síndrome de Lennox-Gastaut. O medicamento pode ajudar a reduzir o n�
 gravidade das convulsões. </p>
 <p>A forma como Fintepla funciona não é totalmente conhecida. No entanto, pensa-se que funciona 
 aumentando a atividade cerebral de uma substância natural chamada serotonina e o recetor sigma 1, o 
-que pode reduzir as convulsões. </p>         </div>"""   
+que pode reduzir as convulsões. </p> </div>"""   
           
 
              
@@ -1376,7 +1385,7 @@ Se o seu médico lhe tiver dito que é intolerante a alguns açúcares, contacte
 tomar este medicamento. </p>
 <p>Fintepla contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 12 ml, ou seja, é praticamente 
-«isento de sódio». </p>         </div>"""   
+«isento de sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar fintepla"
@@ -1507,7 +1516,7 @@ todos os dias. A diminuição gradual da dose reduz o risco de ter convulsões e
 Seis meses após a sua última dose de Fintepla, ou da sua criança, será necessário realizar um 
 ecocardiograma. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1619,7 +1628,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar fintepla"
@@ -1643,7 +1652,7 @@ utilize outra das seringas fornecidas na embalagem, ou fale com o seu farmacêut
  
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1803,7 +1812,7 @@ UCB (Pharma) Ireland Ltd.<br />
 Tel : + 353 / (0)1-46 37  </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

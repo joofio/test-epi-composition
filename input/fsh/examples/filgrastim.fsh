@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Filgrastim HEXAL</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ collected and given back to you after your treatment. These can be taken from yo
 donor. The stem cells will then go back into the bone marrow and produce blood cells;</p>
 <p>to increase the number of white blood cells if you suffer from severe chronic neutropenia to help 
 prevent infections;</p>
-<p>in patients with advanced HIV infection which will help reduce the risk of infections.</p>         </div>"""   
+<p>in patients with advanced HIV infection which will help reduce the risk of infections.</p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ You must tell your doctor before receiving this medicine if you (or your child) 
 child can no longer take sweet foods or drinks because they feel sick, vomit or get unpleasant effects 
 such as bloating, stomach cramps or diarrhoea.
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take filgrastim"
@@ -199,7 +202,7 @@ should, contact your doctor as soon as possible.
 If you forget to use Filgrastim HEXAL
 If you have missed an injection, or injected too little, contact your doctor as soon as possible. Do not 
 take a double dose to make up for any missed doses.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -319,7 +322,7 @@ body), see section 2. Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store filgrastim"
@@ -338,7 +341,7 @@ in the refrigerator and should be disposed of.
 Do not use this medicine if you notice discolouration, cloudiness or particles, it should be a clear, 
 colourless to slightly yellowish liquid.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -451,7 +454,7 @@ Tel: +49 8024 908 0
 Latvija
 Sandoz d.d. Latvia fili le
 Tel: +371 67 892 This leaflet was last revised in .
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -490,7 +493,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -499,7 +504,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -516,7 +522,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -554,7 +560,7 @@ med at forebygge infektioner, </p>
 <p>hos patienter med fremskreden hiv-infektion, hvor det vil hjælpe med at reducere risikoen for 
 infektioner. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -638,7 +644,7 @@ fructose, hvilket kan medføre alvorlige bivirkninger.  </p>
 barn ikke længere må få sød mad eller drikke, fordi barnet føler sig sygt, kaster op eller får 
 ubehagelige bivirkninger som oppustethed, mavekramper eller diarré. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take filgrastim"
@@ -672,7 +678,7 @@ HEXAL, skal du kontakte din læge så snart som muligt. </p>
 <p>Hvis du har glemt at bruge Filgrastim HEXAL </p>
 <p>Hvis du har glemt en indsprøjtning, eller hvis du har indsprøjtet for lidt, skal du kontakte din læge så 
 snart som muligt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -950,7 +956,7 @@ med feber (Sweets syndrom) </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store filgrastim"
@@ -969,7 +975,7 @@ ikke sættes tilbage i køleskabet, men skal bortskaffes. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker misfarvning, uigennemsigtighed eller partikler. Det skal være 
 en klar, farveløs til let gullig væske. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1149,7 +1155,7 @@ ikke injektionssprøjtens normale funktion. Tryk stemplet langsomt og jævnt i b
 givet, og stemplet ikke kan trykkes længere ned. Mens trykket bevares på stemplet, fjernes 
 injektionssprøjten fra patienten. Kanylebeskyttelsen dækker kanylen, når stemplet slippes. </p>
 <p>Bortskaffelse </p>
-<p>Ikke anvendt præparat samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt præparat samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

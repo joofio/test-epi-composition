@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Piqray </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ Piqray works by blocking the effects of enzymes called phosphatidylinositol-3-ki
 enzymes help cancer cells to grow and multiply. By blocking their action, Piqray can reduce growth 
 and spread of the cancer and help to destroy cancer cells. </p>
 <p>If you have any questions about how Piqray works or why this medicine has been prescribed for you, 
-ask your doctor, pharmacist or nurse. </p>         </div>"""   
+ask your doctor, pharmacist or nurse. </p> </div>"""   
           
 
              
@@ -200,7 +203,7 @@ Treatment with Piqray may lead to tiredness. You should therefore be cautious wh
 machines during your treatment with Piqray. </p>
 <p>Piqray contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take piqray"
@@ -252,7 +255,7 @@ double dose to make up for the one that you missed. </p>
 <p>If you stop taking Piqray 
 Stopping your treatment with Piqray may cause your condition to become worse. Do not stop taking 
 Piqray unless your doctor tells you to stop. </p>
-<p>If you have any further questions on the use of Piqray, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of Piqray, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ aminotransferase, lipase </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store piqray"
@@ -389,7 +392,7 @@ safety of this medicine. </p>         </div>"""
 <p>Do not take this medicine if you notice any damage to the packaging or if there are any signs of 
 tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -519,7 +522,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -558,7 +561,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -567,7 +572,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -584,7 +590,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -609,7 +615,7 @@ Piqray virker ved at blokere virkningen af enzymer, der kaldes for fosfatidylino
 Disse enzymer får kræftceller til at vokse og dele sig. Ved at blokere deres virkning kan Piqray 
 reducere vækst og spredning af kræft og hjælpe med at ødelægge kræftceller. </p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du har spørgsmål til, hvordan Piqray 
-virker, eller hvorfor du har fået ordineret dette lægemiddel. </p>         </div>"""   
+virker, eller hvorfor du har fået ordineret dette lægemiddel. </p> </div>"""   
           
 
              
@@ -719,7 +725,7 @@ Behandlingen med Piqray kan medføre træthed. Du skal derfor være forsigtig, n
 motorkøretøj eller betjener maskiner under behandling med Piqray. </p>
 <p>Piqray indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take piqray"
@@ -771,7 +777,7 @@ dosis. </p>
 <p>Hvis du holder op med at tage Piqray 
 Hvis du stopper behandlingen med Piqray, kan din sygdom blive værre. Du må ikke stoppe med at 
 tage Piqray, medmindre lægen har bedt dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -895,7 +901,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store piqray"
@@ -909,7 +915,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Tag ikke lægemidlet, hvis du bemærker pakningen er beskadiget, eller hvis der er tegn på, at den har 
 været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1064,7 +1070,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1103,7 +1109,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1112,7 +1120,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1129,7 +1138,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Piqray </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1156,7 +1165,7 @@ Piqray atua através do bloqueio dos efeitos de enzimas denominadas fosfatidilin
 da sua ação, Piqray pode reduzir o crescimento e disseminação do cancro e ajudar a destruir as células 
 cancerígenas. </p>
 <p>Se tiver questões sobre como atua Piqray ou porque lhe foi receitado este medicamento, fale com o seu 
-médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+médico, farmacêutico ou enfermeiro. </p> </div>"""   
           
 
              
@@ -1265,7 +1274,7 @@ O tratamento com Piqray pode provocar cansaço. Por este motivo, deve tomar prec
 ou utilizar máquinas durante o tratamento com Piqray. </p>
 <p>Piqray contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido revestido por 
-película ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+película ou seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar piqray"
@@ -1320,7 +1329,7 @@ compensar uma dose que se esqueceu de tomar. </p>
 Parar o seu tratamento com Piqray pode provocar o agravamento da sua condição. Não pare de tomar 
 Piqray a menos que o seu médico lhe diga para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1442,7 +1451,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar piqray"
@@ -1457,7 +1466,7 @@ cartonado, após “EXP". O prazo de validade corresponde ao último dia do mês
 quaisquer sinais de adulteração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1606,7 +1615,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store XGEVA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ destruction caused by cancer spreading to the bone (bone metastasis) or by giant
 metastasis (e.g. fracture, pressure on the spinal cord or the need to receive radiation therapy or 
 surgery). </p>
 <p>XGEVA is also used to treat giant cell tumour of bone, which cannot be treated by surgery or where 
-surgery is not the best option, in adults and adolescents whose bones have stopped growing. </p>         </div>"""   
+surgery is not the best option, in adults and adolescents whose bones have stopped growing. </p> </div>"""   
           
 
              
@@ -173,7 +176,7 @@ and the benefit of XGEVA to the mother. </p>
 <p>This medicine contains 78 mg sorbitol in each vial. </p>
 <p>XGEVA contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 120 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xgeva"
@@ -188,7 +191,7 @@ after the first dose. </p>
 <p>Do not shake. </p>
 <p>You should also take calcium and vitamin D supplements while being treated with XGEVA unless 
 you have an excess of calcium in the blood. Your doctor will discuss this with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -234,7 +237,7 @@ could be signs of bone damage in the ear. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xgeva"
@@ -251,7 +254,7 @@ Keep the vial in the outer carton in order to protect from light. </p>
 This will make the injection more comfortable. Once your vial has been left to reach room temperature 
 (up to 25 C), it must be used within 30 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -357,7 +360,7 @@ Amgen Switzerland AG R gas fili le
 Tel: +371 257 25United Kingdom (Northern Ireland) 
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -396,7 +399,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -405,7 +410,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -422,7 +428,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -438,7 +444,7 @@ på grund af knoglemetastaser (for eksempel knoglebrud, tryk på rygmarven eller
 strålebehandling eller operation). </p>
 <p>XGEVA bruges også til behandling af kæmpecelletumorer i knogle, der ikke kan behandles kirurgisk, 
 eller hvor en operation ikke er den bedste løsning, hos voksne og unge, hvis knogler er færdige med at 
-vokse. </p>         </div>"""   
+vokse. </p> </div>"""   
           
 
              
@@ -550,7 +556,7 @@ barnet og fordelen for dig ved din anvendelse af XGEVA. </p>
 <p>Dette lægemiddel indeholder 78 mg sorbitol i hvert hætteglas. </p>
 <p>XGEVA indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 120 mg, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xgeva"
@@ -565,7 +571,7 @@ efter den første dosis. </p>
 <p>Må ikke omrystes. </p>
 <p>Du skal også tage tilskud af calcium og D-vitamin, mens du er i behandling med XGEVA, medmindre 
 du har for meget calcium i blodet. Din læge vil fortælle dig mere om dette. </p>
-<p>Er du i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""         
+<p>Er du i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -647,7 +653,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xgeva"
@@ -664,7 +670,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 vil gøre injektionen mere behagelig. Når hætteglasset har fået stuetemperatur (op til 25 °C), må det 
 ikke lægges tilbage i køleskabet og skal bruges inden for 30 dage. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -833,7 +839,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. - Din læge vil udlevere et patientkort til dig, der indeholder vigtige sikkerhedsoplysninger, du 
 skal være opmærksom på inden og under din behandling med XGEVA. </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk/ </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk/ </p> </div>"""      
 
 
 

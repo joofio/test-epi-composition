@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Edistride</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -109,7 +112,7 @@ What is chronic kidney disease and how does Edistride help?</p>
 means they would not be able to clean and filter your blood the way they should. Loss of kidney 
 function can lead to serious medical problems and need for hospital care. </p>
 <p>Edistride helps protect your kidneys from losing their function. That can help some patients to 
-live longer.</p>         </div>"""   
+live longer.</p> </div>"""   
           
 
              
@@ -203,7 +206,7 @@ change in vision, and may affect your ability to drive and use machines.
 Do not drive or use any tools or machines, if you feel dizzy taking Edistride.
 Edistride contains lactose
 Edistride contains lactose (milk sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine.</p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take edistride"
@@ -238,7 +241,7 @@ the usual time.</p>
 If you stop taking Edistride
 Do not stop taking Edistride without talking to your doctor first. If you have diabetes, your blood 
 sugar may increase without this medicine.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store edistride"
@@ -337,7 +340,7 @@ Do not use this medicine after the expiry date, which is stated on the blister o
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -443,7 +446,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -482,7 +485,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -491,7 +496,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -506,7 +512,7 @@ Usage: #inline
 3. Sådan skal du tage Edistride
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -568,7 +574,7 @@ ikke vil være i stand til at rense og filtrere dit blod, som det ellers er meni
 nyrefunktion kan medføre alvorlige helbredsproblemer og behov for hospitalsbehandling.
 
 Edistride hjælper med at beskytte dine nyrer mod at miste deres funktion. Det kan hjælpe nogle 
-patienter til at leve længere.</p>         </div>"""   
+patienter til at leve længere.</p> </div>"""   
           
 
              
@@ -681,7 +687,7 @@ Lad være med at føre motorkøretøj og arbejde med værktøj eller maskiner, h
 du tager Edistride.
 Edistride indeholder laktose
 Edistride indeholder laktose (mælkesukker). Kontakt din læge, før du tager dette lægemiddel, hvis 
-lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer.</p>         </div>"""   
+lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take edistride"
@@ -726,7 +732,7 @@ Du må ikke tage en dobbeltdosis Edistride som erstatning for den glemte dosis.
 Hvis du holder op med at tage Edistride
 Hold ikke op med at tage Edistride uden først at tale med din læge. Hvis du har diabetes, kan dit 
 blodsukker stige, hvis du ikke tager din medicin.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -844,7 +850,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store edistride"
@@ -856,7 +862,7 @@ Brug ikke Edistride efter den udløbsdato, der står på blisterkort og pakning 
 er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1001,7 +1007,7 @@ Tel: +44 1582 836 836
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

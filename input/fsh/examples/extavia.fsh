@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Annex   self-injection procedure </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Annex   self-injection procedure </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Extavia </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -107,7 +109,7 @@ symptoms before you are treated. </p>
 <p>who suffer from relapsing-remitting multiple sclerosis, with at least two relapses within 
 the last two years. </p>
 <p>who suffer from secondary progressive multiple sclerosis with active disease shown by 
-relapses. </p>         </div>"""   
+relapses. </p> </div>"""   
           
 
              
@@ -297,7 +299,7 @@ Extavia may cause side effects in the central nervous system (see section 4  Pos
 you are especially sensitive, this might influence your ability to drive or use machines. </p>
 <p>Extavia contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per ml, i.e. essentially 'sodium-
-free'. </p>         </div>"""   
+free'. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take extavia"
@@ -339,7 +341,7 @@ then follow on with the next one 48 hours later. </p>
 Talk to your doctor if you stop or wish to stop treatment. Stopping Extavia is not known to cause acute 
 withdrawal symptoms. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or 
-nurse. </p>         </div>"""         
+nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -496,7 +498,7 @@ medicine (drug-induced lupus erythematosus), </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store extavia"
@@ -511,7 +513,7 @@ last day of that month. </p>
 will remain usable for a period of 3 hours, if kept in a refrigerator (2 C - 8 C). </p>
 <p>Do not use this medicine if you notice it contains particles or is discoloured. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -623,7 +625,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -662,7 +664,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -671,7 +675,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bilag - Fremgangsmåde, når du selv skal indsprøjte lægemidlet </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bilag - Fremgangsmåde, når du selv skal indsprøjte lægemidlet </p>  </div>"""   
 
 
 
@@ -688,7 +692,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -738,7 +742,7 @@ som lider af recidiverende-remitterende dissemineret sklerose, der blusser op mi
 gange inden for de sidste to år. 
 ► 
 som lider af sekundær progressiv dissemineret sklerose med aktiv sygdom, som har vist 
-sig ved opblussen. </p>         </div>"""   
+sig ved opblussen. </p> </div>"""   
           
 
              
@@ -936,7 +940,7 @@ Extavia kan forårsage bivirkninger i centralnervesystemet (se afsnit 4 "Bivirkn
 særligt følsom, kan det påvirke din evne til at køre bil eller betjene maskiner. </p>
 <p>Extavia indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. ml, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take extavia"
@@ -981,7 +985,7 @@ tanke om det, og så tage den næste indsprøjtning 48 timer senere. </p>
 Hvis du stopper eller ønsker at stoppe behandlingen, skal du kontakte din læge. Ophør med Extavia-
 behandling giver, så vidt det vides, ikke akutte abstinenssymptomer. </p>
 <p>► 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1149,7 +1153,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store extavia"
@@ -1164,7 +1168,7 @@ dag i den nævnte måned. </p>
 den, vil den dog kunne bruges i 3 timer, hvis den opbevares i et køleskab ved 2 °C - 8 °C. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at det indeholder partikler, eller hvis det er misfarvet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1591,7 +1595,7 @@ knæet
 10-15 cm 
 fra lysken 
 Extavia behandlingskalender 
-Venstre del af maven </p>         </div>"""      
+Venstre del af maven </p> </div>"""      
 
 
 
@@ -1630,7 +1634,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1639,7 +1645,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Anexo - Procedimento de auto-injeção </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Anexo - Procedimento de auto-injeção </p>  </div>"""   
 
 
 
@@ -1656,7 +1662,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Extavia </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1703,7 +1709,7 @@ que têm esclerose múltipla por surtos de exacerbação-remissão, com pelo men
 recidivas nos últimos dois anos. 
 ► 
 que têm esclerose múltipla secundária progressiva com doença activa evidenciada por 
-recidivas. </p>         </div>"""   
+recidivas. </p> </div>"""   
           
 
              
@@ -1913,7 +1919,7 @@ secundários possíveis"). Se for especialmente suscetível, este medicamento po
 capacidade de conduzir e de utilizar máquinas. </p>
 <p>Extavia contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar extavia"
@@ -1960,7 +1966,7 @@ Fale com o seu médico se parar ou quiser parar o tratamento. De acordo com o qu
 tratamento com Extavia não causa sintomas agudos de privação. </p>
 <p>► 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2135,7 +2141,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar extavia"
@@ -2151,7 +2157,7 @@ poderá ser utilizada por um período de 3 horas se conservada a 2C - 8C (
 <p>Não utilize este medicamento se verificar partículas ou descoloração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2293,7 +2299,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Tesavel</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ What is type 2 diabetes?
 Type 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that
 your body produces does not work as well as it should. Your body can also make too much sugar.
 When this happens, sugar (glucose) builds up in the blood. This can lead to serious medical problems
-like heart disease, kidney disease, blindness, and amputation.</p>         </div>"""   
+like heart disease, kidney disease, blindness, and amputation.</p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ foothold.
 Tesavel contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially
  sodium-free .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tesavel"
@@ -168,7 +171,7 @@ this medicine.
 If you stop taking Tesavel
 Continue to take this medicine as long as your doctor prescribes it so you can continue to help control
 your blood sugar. You should not stop taking this medicine without talking to your doctor first. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -216,7 +219,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tesavel"
@@ -228,7 +231,7 @@ Do not use this medicine after the expiry date which is stated on the blister an
 The expiry date refers to the last day of that month.
 Store below 25  C.
 Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -359,7 +362,7 @@ Health) Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site:
-http://www.ema.europa.eu.</p>         </div>"""      
+http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -398,7 +401,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -407,7 +412,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -422,7 +428,7 @@ Usage: #inline
 3. Sådan skal De tage Tesavel
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -443,7 +449,7 @@ Hvad er type 2-diabetes?
 Type 2-diabetes er en tilstand, hvor Deres krop ikke danner nok insulin, samtidig med at det insulin,
 som Deres krop danner, ikke virker så godt, som det burde. Deres krop kan også danne for meget
 sukker. Når dette sker, øges sukkerindholdet (glucose) i blodet. Dette kan føre til alvorlige
-helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p>         </div>"""   
+helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p> </div>"""   
           
 
              
@@ -502,7 +508,7 @@ Tesavel indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
 væsentlige natriumfrit.
 35</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tesavel"
@@ -540,7 +546,7 @@ at kontrollere Deres blodsukker. De bør ikke holde op med at tage dette lægemi
 lægen først.
 Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -594,7 +600,7 @@ Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsse
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tesavel"
@@ -606,7 +612,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og kartonen
 er den sidste dag i den nævnte måned.
 Opbevares ved temperaturer under 25 °C.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -773,7 +779,7 @@ medinfoNI@msd.com
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
 De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
 hjemmeside http://www.ema.europa.eu.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -812,7 +818,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -821,7 +829,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -836,7 +845,7 @@ Usage: #inline
 3. Como tomar Tesavel
 4. Efeitos indesejáveis possíveis
 5. Como conservar Tesavel
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -857,7 +866,7 @@ O que é a diabetes tipo 2?
 A diabetes tipo 2 é uma doença em que o organismo não produz insulina suficiente, e mesmo a que o
 seu organismo produz não funciona tão bem como deveria. O seu organismo pode também produzir
 demasiado açúcar. Quando isto acontece, o açúcar (glucose) do sangue aumenta. Isto pode originar
-problemas médicos graves como doença de coração, doença de rins, cegueira e amputação.</p>         </div>"""   
+problemas médicos graves como doença de coração, doença de rins, cegueira e amputação.</p> </div>"""   
           
 
              
@@ -916,7 +925,7 @@ máquinas ou trabalhar sem uma base de apoio seguro.
 Tesavel contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja é
 praticamente “isento de sódio".
-36</p>         </div>"""   
+36</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tesavel"
@@ -948,7 +957,7 @@ Continue a tomar este medicamento durante o tempo indicado pelo seu médico, par
 continuar a ajudar a controlar o seu açúcar no sangue. Não deve parar de tomar este medicamento sem
 falar com o seu médico primeiro.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1007,7 +1016,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá co
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
 medicamento.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tesavel"
@@ -1021,7 +1030,7 @@ Conservar a temperatura inferior a 25 °C.
 38
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1190,7 +1199,7 @@ Health) Limited
 Tel: +353 (0)1 2998700
 medinfoNI@msd.com
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

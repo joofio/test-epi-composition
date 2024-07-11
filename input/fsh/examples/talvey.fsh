@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Talvey</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ They can also destroy cancer cells. When this medicine attaches to these cells, 
 cells and T cells together. This encourages the T cells to destroy the multiple myeloma cancer cells.
 Talvey is used to treat adults with multiple myeloma, a cancer of the bone marrow.
 It is used when patients have had at least three other types of treatment that have not worked or have 
-stopped working.</p>         </div>"""   
+stopped working.</p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ Some people may feel tired, dizzy, or confused while taking Talvey. Do not drive
 machines from recieving your first dose until at least 48 hours after receiving your first treatment dose 
 of Talvey or as instructed by your doctor.
 Talvey contains sodium
-Talvey contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free .</p>         </div>"""   
+Talvey contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take talvey"
@@ -218,7 +221,7 @@ overdose) your doctor will check you for side effects.
 If you forget your appointment to have Talvey
 It is very important to go to all your appointments to make sure your treatment works. If you miss an 
 appointment, make another one as soon as possible.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store talvey"
@@ -316,7 +319,7 @@ colourless to light yellow. Do not use this medicine if it is cloudy, discoloure
 particles.
 Medicines should not be disposed of via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
-environment.</p>         </div>"""      
+environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -427,7 +430,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -466,7 +469,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -475,7 +480,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -490,7 +496,7 @@ Usage: #inline
 3. Sådan får du Talvey
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -508,7 +514,7 @@ celler, fører det kræftcellerne og T-cellerne sammen. Dette tilskynder T-celle
 myelomatose-kræftcellerne.
 Talvey anvendes til behandling af voksne med myelomatose, en kræftsygdom i knoglemarven.
 Det anvendes hos patienter, der har fået mindst tre andre typer behandling, som ikke har virket eller er 
-holdt op med at virke.</p>         </div>"""   
+holdt op med at virke.</p> </div>"""   
           
 
              
@@ -595,7 +601,7 @@ værktøj eller betjene maskiner fra du får din første dosis til mindst 48 tim
 din første behandlingsdosis af Talvey, eller som anvist af lægen.
 Talvey indeholder natrium
 Talvey indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take talvey"
@@ -668,7 +674,7 @@ lægen kontrollere, om du får bivirkninger.
 Hvis du har glemt en aftale, hvor du skulle have Talvey
 Det er meget vigtigt, at du kommer til alle dine aftaler for at sikre, at behandlingen virker. Hvis du 
 udebliver fra en aftale, skal du aftale en ny tid hurtigst muligt.
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -797,7 +803,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dett
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store talvey"
@@ -815,7 +821,7 @@ Før du bruger lægemidlet, skal du kontrollere opløsningen for partikler eller
 skal være farveløs til lysegul. Brug ikke lægemidlet, hvis det er uigennemsigtigt eller misfarvet eller 
 indeholder synlige partikler.
 Sundhedspersoner vil bortskaffe eventuelle lægemiddelrester. Af hensyn til miljøet må 
-lægemiddelrester ikke smides i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+lægemiddelrester ikke smides i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1301,7 +1307,7 @@ Hvis der kræves flere injektioner, skal Talvey injektionerne være mindst 2 cm 
 Må ikke injiceres i tatoveringer eller ar eller områder, hvor huden er rød, har blå mærker eller er 
 øm, hård eller ikke er intakt.
 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

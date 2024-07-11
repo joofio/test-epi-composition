@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Cuprior  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ to liver damage and problems in the nervous system. This medicine mainly works b
 copper in the body which then allows it to be removed in the urine instead, helping to lower copper 
 levels. It may also attach to copper in the gut and so reduce the amount taken up into the body.<br />
 Cuprior is given to adults, adolescents and children aged 5 years and over who cannot tolerate another 
-medicine that is used to treat this disease, called penicillamine. </p>         </div>"""   
+medicine that is used to treat this disease, called penicillamine. </p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ situation. </p>
 Cuprior is not expected to affect your ability to drive a car or use any tools or machines. </p>
 <p>Cuprior contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free.  </p>         </div>"""   
+free.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cuprior"
@@ -176,7 +179,7 @@ dose at its usual scheduled time. </p>
 <p>If you stop taking Cuprior 
 This medicine is for long-term use. Do not stop your treatment without the advice of your doctor even 
 if you feel better because Wilson s disease is a life-long condition. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -203,7 +206,7 @@ stools (colitis)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cuprior"
@@ -215,7 +218,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ France </p>
 <p>You can find the information also when flashing the QR code below with a smartphone or via the 
 website QR code to be included http://www.cuprior.com </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -288,7 +291,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -297,7 +302,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -314,7 +320,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -331,7 +337,7 @@ kroppens indhold af kobber, der derved i stedet kan udskilles gennem urinen, så
 mindskes. Det kan desuden bindes til kobber i tarmen og derved mindske den mængde, der optages i 
 kroppen.<br />
 Cuprior gives til voksne og børn over 5 år, som ikke tåler et andet lægemiddel (penicillamin), der 
-anvendes til behandling af sygdommen. </p>         </div>"""   
+anvendes til behandling af sygdommen. </p> </div>"""   
           
 
              
@@ -392,7 +398,7 @@ Cuprior for dig. Lægen vil afgøre, hvilken behandling og hvilken dosis der er 
 Cuprior forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Cuprior indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cuprior"
@@ -428,7 +434,7 @@ tag blot næste dosis til den sædvanlige tid. </p>
 <p>Hvis du holder op med at tage Cuprior 
 Dette lægemiddel er til langtidsbehandling. Stop ikke behandlingen, medmindre lægen har sagt, at du 
 skal gøre det, også selv om du føler dig bedre, da Wilsons sygdom er en livsvarig sygdom. </p>
-<p>Tal med lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p>         </div>"""         
+<p>Tal med lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -461,7 +467,7 @@ afføring (colitis) </li>
 Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket, herunder bivirkninger, som ikke 
 er nævnt her. Du kan desuden indberette bivirkninger direkte gennem det nationale 
 indberetningssystem, der er anført i Appendiks V. Ved at indberette bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cuprior"
@@ -473,7 +479,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
 sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden. Spørg på 
-apoteket, hvordan du skal bortskaffe medicinrester. Dette vil medvirke til at skåne miljøet. </p>         </div>"""      
+apoteket, hvordan du skal bortskaffe medicinrester. Dette vil medvirke til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -510,7 +516,7 @@ gennem webstedet QR code to be included http://www.cuprior.com </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles.  </p>         </div>"""      
+og om, hvordan de behandles.  </p> </div>"""      
 
 
 

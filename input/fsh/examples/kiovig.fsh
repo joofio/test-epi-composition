@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store KIOVIG</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +100,7 @@ body (Kawasaki disease).
 4. Patients who suffer from a rare condition characterized by slow progressive asymmetrical 
 weakness of limbs without sensory loss (multifocal motor neuropathy, MMN).
 5. Patients who suffer from chronic inflammatory demyelinating polyradiculoneuropathy
-(CIDP).</p>         </div>"""   
+(CIDP).</p> </div>"""   
           
 
              
@@ -180,7 +183,7 @@ in the breast milk. Therefore, your baby may be protected from certain infection
 Driving and using machines
 Patients may experience reactions (for example dizziness or nausea) during the treatment with 
 KIOVIG, which might affect the ability to drive and use machines. If this happens, you should
-wait until the reactions have disappeared.</p>         </div>"""   
+wait until the reactions have disappeared.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kiovig"
@@ -199,7 +202,7 @@ If you use more KIOVIG than you should
 If you get more KIOVIG than you should, your blood may become too thick (hyperviscous).
 This could particularly happen when you are a patient at risk, e.g. an elderly patient or a patient 
 having problems with your kidneys. Be sure that you take adequate fluids so you are not 
-dehydrated and notify your physician if you are known to have medical problems.</p>         </div>"""         
+dehydrated and notify your physician if you are known to have medical problems.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on 
-the safety of this medicine.</p>         </div>"""      
+the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kiovig"
@@ -254,7 +257,7 @@ EXP. The expiry date refers to the last day of that month.</p>
 <p>Do not use this medicine if you notice particulate matter or discolouration.</p>
 <p>Do not store above 25 C.</p>
 <p>Do not freeze.</p>
-<p>Keep the container in the outer carton in order to protect from light.</p>         </div>"""      
+<p>Keep the container in the outer carton in order to protect from light.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in .
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -408,7 +411,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -417,7 +422,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -432,7 +438,7 @@ Usage: #inline
 3. Sådan skal du bruge KIOVIG
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -468,7 +474,7 @@ for en stor risiko for blødning, eller som skal opereres i nær fremtid.</li>
 asymmetrisk svækkelse af ben og arme uden tab af følesans (multifokal motorisk 
 neuropati, MMN).</li>
 <li>Patienter, der lider af kronisk inflammatorisk demyeliniserende polyneuropati (CIDP).</li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -564,7 +570,7 @@ Trafik- og arbejdssikkerhed
 Patienter kan opleve bivirkninger (f.eks. svimmelhed eller kvalme) under behandling med KIOVIG,
 der kan påvirke evnen til at køre bil eller til at arbejde med værktøj eller maskiner. Hvis det sker, bør 
 du vente, indtil bivirkningerne er gået over.
-31</p>         </div>"""   
+31</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kiovig"
@@ -582,7 +588,7 @@ Hvis du har brugt for meget KIOVIG
 Hvis du får mere KIOVIG, end du bør have, kan dit blod blive for tykt (hyperviskøst). Dette kan især 
 forekomme, hvis du er en patient, der er udsat for risiko, f.eks. en ældre patient eller en patient, der har 
 problemer med nyrerne. Sørg for at drikke rigeligt med væske, så du ikke dehydrerer, og giv din læge 
-besked, hvis du har kendte medicinske problemer.</p>         </div>"""         
+besked, hvis du har kendte medicinske problemer.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -632,7 +638,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kiovig"
@@ -651,7 +657,7 @@ Må ikke opbevares ved temperaturer over 25 °C.
 
 Må ikke nedfryses.
 
-Opbevar beholderen i den ydre karton for at beskytte mod lys.</p>         </div>"""      
+Opbevar beholderen i den ydre karton for at beskytte mod lys.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -905,7 +911,7 @@ eller
 givet over 2 - 5 dage
 hver 2. - 4. uge
 eller
-hver 4. - 8. uge over 2-5 dage</p>         </div>"""      
+hver 4. - 8. uge over 2-5 dage</p> </div>"""      
 
 
 
@@ -944,7 +950,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -953,7 +961,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -968,7 +977,7 @@ Usage: #inline
 3. Como utilizar KIOVIG
 4. Efeitos secundários possíveis
 5. Como conservar KIOVIG
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1003,7 +1012,7 @@ e que apresentam o risco de hemorragia ou que serão operados num futuro próxim
 4. Doentes que sofram de uma doença rara caracterizada por uma fraqueza muscular 
 assimétrica dos membros, lentamente progressiva, sem perda sensorial (neuropatia 
 motora multifocal, NMM)
-5. Doentes que sofram de polirradiculoneuropatia desmielinizante inflamatória crónica (PDIC).</p>         </div>"""   
+5. Doentes que sofram de polirradiculoneuropatia desmielinizante inflamatória crónica (PDIC).</p> </div>"""   
           
 
              
@@ -1102,7 +1111,7 @@ Condução de veículos e utilização de máquinas
 Durante o tratamento com KIOVIG os doentes podem ter reações (por exemplo tonturas ou náuseas), 
 que podem afetar a capacidade de conduzir e utilizar máquinas. Se tal acontecer, deve aguardar até as 
 reações desaparecerem.
-33</p>         </div>"""   
+33</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar kiovig"
@@ -1122,7 +1131,7 @@ Se receber mais KIOVIG do que deveria, o seu sangue poderá tornar-se mais espes
 (hiperviscosidade). Isto pode acontecer particularmente se for um doente de risco, por exemplo, 
 um doente idoso ou um doente com problemas de rins. Certifique-se de que toma uma quantidade 
 adequada de líquidos para que não desidrate e avise o seu médico se tiver problemas clínicos 
-conhecidos.</p>         </div>"""         
+conhecidos.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1174,7 +1183,7 @@ Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundári
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar kiovig"
@@ -1193,7 +1202,7 @@ Não armazenar a mais de 25ºC
 
 Não congelar.
 
-Manter o recipiente dentro da embalagem exterior para o proteger da luz.</p>         </div>"""      
+Manter o recipiente dentro da embalagem exterior para o proteger da luz.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1348,7 +1357,7 @@ Tel: +44 (0) 2830 640 902
 medinfoEMEA@takeda.com
 Este folheto foi revisto pela última vez em .
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

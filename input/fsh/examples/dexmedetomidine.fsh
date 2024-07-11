@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dexmedetomidine Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dexmedetomidine Accord contains an active substance called dexmedetomidine which belongs to a 
 medicine group called sedatives. It is used to provide sedation (a state of calm, drowsiness or sleep) 
 for adult patients in hospital intensive care settings or awake sedation during different diagnostic or 
-surgical procedures.   </p>         </div>"""   
+surgical procedures.   </p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ situations until the effects are completely gone. Ask your doctor when you can s
 activities again and when you can go back to this kind of work.  </p>
 <p>Excipients </p>
 <p>Dexmedetomidine Accord contains less than 1 mmol sodium (23 mg) per ml, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dexmedetomidine"
@@ -165,7 +168,7 @@ use of these medicines and about the use of alcohol.  </li>
 <p>If you are given too much Dexmedetomidine Accord, your blood pressure may go up or down, your 
 heartbeat may slow down, you may breathe more slowly and you may feel more drowsy. Your doctor 
 will know how to treat you based on your condition.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -202,7 +205,7 @@ diabetes insipidus. Contact a doctor if these occur. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dexmedetomidine"
@@ -221,7 +224,7 @@ would not normally be longer than 24 hours at 2  to 8 C, unless dilution has tak
 and validated aseptic conditions. </p>
 <p>Do not use this medicine if you notice discoloration or visible particles. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -280,7 +283,7 @@ Accord Healthcare B.V.
 Winthontlaan 200, 3526KV Utrecht 
 Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -319,7 +322,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -328,7 +333,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -343,7 +349,7 @@ Usage: #inline
 3. Sådan bliver du behandlet med Dexmedetomidine Accord 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -354,7 +360,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dexmedetomidine Accord indeholder en aktiv substans, der kaldes dexmedetomidin og som tilhører 
 en gruppe medicin, der kaldes sedativa. Det anvendes til at fremkalde en let bedøvelse (en tilstand af 
 ro, døsighed eller søvn) af voksne på en intensivafdeling på et sygehus eller vågen bedøvelse ved 
-forskellige diagnostiske eller kirurgiske indgreb. </p>         </div>"""   
+forskellige diagnostiske eller kirurgiske indgreb. </p> </div>"""   
           
 
              
@@ -416,7 +422,7 @@ situationer, før virkningen er helt væk. Spørg din læge, hvornår du kan beg
 hvornår du kan lave denne type arbejde igen. </p>
 <p>Hjælpestoffer </p>
 <p>Dexmedetomidine Accord indeholder mindre end 1 mmol natrium (23 mg) pr. ml, det vil sige det er i 
-det væsentlige natriumfrit. </p>         </div>"""   
+det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dexmedetomidine"
@@ -446,7 +452,7 @@ læge om brugen af disse lægemidler og om brugen af alkohol. </li>
 Hvis du har fået for meget Dexmedetomidine Accord, kan dit blodtryk stige eller falde, din puls kan 
 blive langsommere, du kan trække vejret langsommere og du kan føle dig mere omtåget. Din læge vil 
 vide, hvordan du skal behandles baseret på din tilstand. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -484,7 +490,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dexmedetomidine"
@@ -502,7 +508,7 @@ opbevaringstider og -betingelser er på brugerens eget ansvar og må ikke overst
 8°C, medmindre fortynding er udført under kontrollerede og validerede aseptiske betingelser. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker misfarvning eller synlige partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -629,7 +635,7 @@ syntetiske pakninger eller overtrukne naturgummipakninger. </p>
 Kemisk og fysisk stabilitet efter åbning er dokumenteret i 72 timer ved 25C og 2° til 8°C. </p>
 <p>Ud fra et mikrobiologisk synspunkt skal præparatet bruges med det samme. Anvendelse af andre 
 opbevaringstider og -betingelser er på brugerens eget ansvar og må ikke overstige 24 timer ved 2-8°C, 
-medmindre fortynding er udført under kontrollerede og validerede aseptiske betingelser. </p>         </div>"""      
+medmindre fortynding er udført under kontrollerede og validerede aseptiske betingelser. </p> </div>"""      
 
 
 
@@ -668,7 +674,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -677,7 +685,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -692,7 +701,7 @@ Usage: #inline
 3. Como utilizar Dexmedetomidina Accord 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Dexmedetomidina Accord 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -703,7 +712,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dexmedetomidina Accord contém uma substância ativa chamada dexmedetomidina que pertence a um 
 grupo de medicamentos chamados sedativos. É utilizado para provocar sedação (um estado de calma, 
 sonolência ou sono) em doentes adultos em unidades de cuidados intensivos hospitalares ou sedação 
-consciente durante diferentes procedimentos de diagnóstico ou cirúrgicos.  </p>         </div>"""   
+consciente durante diferentes procedimentos de diagnóstico ou cirúrgicos.  </p> </div>"""   
           
 
              
@@ -767,7 +776,7 @@ seu médico quando poderá retomar estas atividades e quando poderá voltar a re
 trabalho.  </p>
 <p>Excipientes </p>
 <p>Dexmedetomidina Accord contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar dexmedetomidine"
@@ -799,7 +808,7 @@ Fale com o seu médico sobre o uso destes medicamentos e sobre o consumo de álc
 <p>Se lhe for administrado demasiado Dexmedetomidina Accord, a sua tensão arterial poderá subir ou 
 descer, o coração bater mais devagar, respirar mais lentamente e sentir-se mais sonolento. O seu 
 médico saberá como tratá-lo, tendo em conta o seu estado. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -838,7 +847,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar dexmedetomidine"
@@ -859,7 +868,7 @@ tenha sido realizada em condições asséticas controladas e validadas. </p>
 <p>Não utilize este medicamento se verificar descoloração ou partículas visíveis. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -919,7 +928,7 @@ Accord Healthcare B.V.
 Winthontlaan 200, 3526KV Utrecht 
 Países Baixos </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

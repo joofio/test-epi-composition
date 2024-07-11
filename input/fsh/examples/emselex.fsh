@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Emselex </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ to the toilet and it increases the amount of urine that your bladder can hold. <
 Emselex belongs to a class of medicines which relax the muscles of the bladder. It is used in adults for 
 the treatment of the symptoms of overactive bladder conditions - such as a sudden urge to rush to the 
 toilet, needing to go to the toilet frequently and/or not getting to the toilet in time and wetting yourself 
-(urge incontinence). </p>         </div>"""   
+(urge incontinence). </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ Emselex may cause effects such as dizziness, blurred vision, trouble sleeping or
 have any of these symptoms whilst taking Emselex, consult your doctor for advice on changing the 
 dose or considering an alternative treatment. You should not drive or use machines if you are affected 
 by these symptoms. For Emselex, these side effects have been reported to be uncommon (see 
-section 4). </p>         </div>"""   
+section 4). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emselex"
@@ -197,7 +200,7 @@ Your doctor will tell you how long your treatment with Emselex will last. Do not
 because you do not see an immediate effect. Your bladder will need some time to adapt. Finish the 
 course of treatment prescribed by your doctor. If you have not noticed any effect by then, discuss it 
 with your doctor. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -228,7 +231,7 @@ Depressed mood/mood alterations, hallucination. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emselex"
@@ -244,7 +247,7 @@ expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -285,7 +288,7 @@ important information for you.
 - This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even 
 if their symptoms are the same as yours. 
 If you get any side effects, talk your doctor or pharmacist. This includes any possible side effects not 
-listed in this leaflet. See section 4.</p>         </div>"""      
+listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -324,7 +327,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -333,7 +338,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -348,7 +354,7 @@ Usage: #inline
 3. Sådan skal du tage Emselex 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger  </p> </div>"""   
           
 
 * section[=].section[+]
@@ -363,7 +369,7 @@ behøver at gå på toilettet, og det øger den urinmængde, som din blære kan 
 Emselex hører til gruppen af stoffer som virker afslappende på blæremusklen. Det anvendes til voksne 
 til behandling af tilstande med symptomer på overaktiv blære - såsom pludselig trang til hurtigt at 
 skulle på toilettet, behov for hyppige toiletbesøg og/eller ikke at nå på toilettet i tide og derfor bliver 
-våd (urgeinkontinens). </p>         </div>"""   
+våd (urgeinkontinens). </p> </div>"""   
           
 
              
@@ -517,7 +523,7 @@ Emselex kan give bivirkninger såsom svimmelhed, sløret syn, søvnproblemer ell
 oplever nogen af disse bivirkninger, mens du tager Emselex, skal du kontakte din læge for råd om 
 ændring af doseringen eller overvejelse af alternativ behandling. Du bør ikke køre bil eller betjene 
 maskiner, hvis du oplever disse bivirkninger. Disse bivirkninger er for Emselex rapporteret til at være 
-"ikke almindelige" (se pkt. 4). </p>         </div>"""   
+"ikke almindelige" (se pkt. 4). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emselex"
@@ -549,7 +555,7 @@ Din læge vil fortælle dig hvor længe behandlingen med Emselex skal vare. Du m
 behandlingen, selvom du ikke mærker nogen umiddelbar virkning. Din blære har brug for nogen tid til 
 at tilpasse sig. Gennemfør behandlingsforløbet som din læge har foreskrevet. Hvis du ikke har mærket 
 nogen effekt ved behandlingens afslutning, skal du tale med din læge om det. </p>
-<p>Spørg lægen eller på apoteket hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -581,7 +587,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emselex"
@@ -607,7 +613,7 @@ været åbnet. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -649,7 +655,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

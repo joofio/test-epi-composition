@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ertapenem SUN </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ following types of infection:<br />
 * Gynaecological infections 
 * Skin infections of the foot in diabetic patients.  </p>
 <p>Prevention: 
-* Prevention of surgical site infections in adults following surgery of the colon or rectum. </p>         </div>"""   
+* Prevention of surgical site infections in adults following surgery of the colon or rectum. </p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ may affect some patients  ability to drive or operate machinery. </p>
 <p>Ertapenem SUN contains sodium 
 This medicine contains approximately 158 mg sodium (main component of cooking / table salt) in 
 each 1 g dose. This is equivalent to 7.9 % of the recommended maximum daily dietary intake of 
-sodium for an adult. </p>         </div>"""   
+sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ertapenem"
@@ -163,7 +166,7 @@ If you are concerned that you may have been given too much Ertapenem SUN, contac
 another healthcare professional immediately. </p>
 <p>If you miss a dose of Ertapenem SUN 
 If you are concerned that you may have missed a dose, contact your doctor or another healthcare 
-professional immediately. </p>         </div>"""         
+professional immediately. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -248,7 +251,7 @@ data) are:
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ertapenem"
@@ -258,7 +261,7 @@ safety of this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month.  </p>
-<p>Do not store above 25 C. </p>         </div>"""      
+<p>Do not store above 25 C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ Terapia S.A.
 Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
 Rom nia 
 Tel. +40 (264) 501 This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -369,7 +372,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -378,7 +383,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -393,7 +399,7 @@ Usage: #inline
 3. Sådan får du Ertapenem SUN 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -417,7 +423,7 @@ Hudinfektion i foden hos sukkersyge (diabetes) patienter </p>
 <p>Forebyggelse: 
  
 Forebyggelse af infektioner på operationsstedet hos voksne efter operation af tyktarmen eller 
-endetarmen. </p>         </div>"""   
+endetarmen. </p> </div>"""   
           
 
              
@@ -475,7 +481,7 @@ påvirke nogle patienters evne til at køre bil eller betjene maskiner. </p>
 <p>Ertapenem SUN indeholder natrium 
 Dette lægemiddel indeholder ca. 158 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hver 
 1 g dosis. Dette svarer til 7,9 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ertapenem"
@@ -495,7 +501,7 @@ Hvis du er bekymret for, om du har fået for meget Ertapenem SUN, skal du straks
 andet sundhedspersonale. </p>
 <p>Hvis du har glemt at få Ertapenem SUN 
 Hvis du er bekymret for, om du har sprunget en dosis over, skal du straks kontakte lægen eller andet 
-sundhedspersonale. </p>         </div>"""         
+sundhedspersonale. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -630,7 +636,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ertapenem"
@@ -640,7 +646,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og hætteglasetiketten efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Må ikke opbevares ved temperaturer over 25 °C. </p>         </div>"""      
+<p>Må ikke opbevares ved temperaturer over 25 °C. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ opløsninger må ikke nedfryses. </p>
 misfarvning inden administration. Opløsninger af Ertapenem SUN kan variere fra farveløse til gule i 
 udseende. Farvevariationer inden for denne skala påvirker ikke styrken. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
 
 
 
@@ -805,7 +811,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -814,7 +822,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -831,7 +840,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Ertapenem SUN </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -857,7 +866,7 @@ Infeções da pele do pé em doentes diabéticos. </p>
 <p>Prevenção: 
  
 Prevenção de infeções em adultos no local de intervenção cirúrgica após cirurgia do intestino 
-grosso ou do reto. </p>         </div>"""   
+grosso ou do reto. </p> </div>"""   
           
 
              
@@ -920,7 +929,7 @@ podem afetar a capacidade de alguns doentes para conduzir ou utilizar máquinas.
 <p>Ertapenem SUN contém sódio 
 Este medicamento contém aproximadamente 158 mg sódio (principal componente de sal de cozinha/ 
 sal de mesa) em cada dose de 1 g. Isto é equivalente a 7,9 % da ingestão diária máxima de sódio 
-recomendada na dieta para um adulto. </p>         </div>"""   
+recomendada na dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ertapenem"
@@ -943,7 +952,7 @@ Se achar que pode ter-lhe sido administrada uma quantidade excessiva de Ertapene
 imediatamente o seu médico ou outro profissional de saúde. </p>
 <p>Caso se tenha esquecido de utilizar Ertapenem SUN 
 Se achar que pode ter-se esquecido de receber uma dose, consulte imediatamente o seu médico ou 
-outro profissional de saúde. </p>         </div>"""         
+outro profissional de saúde. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1080,7 +1089,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.  </p>         </div>"""      
+medicamento.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ertapenem"
@@ -1091,7 +1100,7 @@ medicamento.  </p>         </div>"""
 <p>Não utilize este medicamento após o prazo de validade impresso na embalagem exterior e no rótulo do 
 frasco para injetáveis após VAL.<br />
 A data de validade refere-se ao último dia desse mês </p>
-<p>Não conservar acima de 25ºC. </p>         </div>"""      
+<p>Não conservar acima de 25ºC. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1171,7 +1180,7 @@ Str. Fabricii nr Cluj-Napoca, Judeţul Cluj
 România 
 Tel. +40 (264) 501<br />
 Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

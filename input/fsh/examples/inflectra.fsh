@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Inflectra</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -121,7 +124,7 @@ Crohn s disease is an inflammatory disease of the bowel. If you have Crohn s dis
 given other medicines. If these medicines do not work well enough, you will be given Inflectra to:</p>
 <p>treat active Crohn s disease,</p>
 <p>reduce the number of abnormal openings (fistulae) between your bowel and your skin that have 
-not been controlled by other medicines or surgery.</p>         </div>"""   
+not been controlled by other medicines or surgery.</p> </div>"""   
           
 
              
@@ -310,7 +313,7 @@ unwell after having Inflectra, do not drive or use any tools or machines.
 Inflectra contains sodium
 Inflectra contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free . However, 
 before Inflectra is given to you, it is mixed with a solution that contains sodium. Talk to your doctor if 
-you are on a low salt diet.</p>         </div>"""   
+you are on a low salt diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inflectra"
@@ -348,7 +351,7 @@ There are no known side effects of having too much of Inflectra.
 If you forget or miss your Inflectra infusion
 If you forget or miss an appointment to receive Inflectra, make another appointment as soon as 
 possible.
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -511,7 +514,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inflectra"
@@ -533,7 +536,7 @@ or the expiry date printed on the carton, whichever is earlier.</p>
 (within 3 hours). However, if the solution is prepared in germ-free conditions, it can be stored in 
 a refrigerator at 2  C   8  C up to 60 days and for an additional 24 hours at 25  C after removal 
 from the refrigerator.</p>
-<p>Do not use this medicine if it is discoloured or if there are particles present.</p>         </div>"""      
+<p>Do not use this medicine if it is discoloured or if there are particles present.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -625,7 +628,7 @@ Tel: + 44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
 Tel: + 371 670 35 This leaflet was last revised in {MM/YYYY}.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -664,7 +667,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -673,7 +678,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -688,7 +694,7 @@ Usage: #inline
 3. Sådan får du Inflectra
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -760,7 +766,7 @@ andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Infle
 behandle aktiv Crohns sygdom
 
 sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
-behandles tilfredsstillende med andre lægemidler eller operation.</p>         </div>"""   
+behandles tilfredsstillende med andre lægemidler eller operation.</p> </div>"""   
           
 
              
@@ -1015,7 +1021,7 @@ Inflectra indeholder natrium
 57
 Inflectra indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
 natriumfrit. Inden du får Inflectra, bliver det imidlertid blandet med en opløsning, der indeholder 
-natrium. Fortæl det til lægen, hvis du får en diæt med lavt saltindhold.</p>         </div>"""   
+natrium. Fortæl det til lægen, hvis du får en diæt med lavt saltindhold.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inflectra"
@@ -1060,7 +1066,7 @@ Der kendes ikke til nogen bivirkninger efter at have fået for meget Inflectra.
 Hvis du har glemt eller kommer for sent til din Inflectra-infusion
 Hvis du glemmer eller kommer for sent til en aftale, hvor Inflectra gives, skal du lave en ny aftale så 
 hurtigt som muligt.
-Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1330,7 +1336,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inflectra"
@@ -1358,7 +1364,7 @@ klargjort til infusion. Hvis opløsningen er klargjort under aseptiske betingels
 opbevares i køleskab ved 2°C - 8°C i op til 60 dage og i yderligere 24 timer ved 25°C efter 
 udtagning fra køleskab.
 
-Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p>         </div>"""      
+Brug ikke dette lægemiddel, hvis det er misfarvet, eller hvis det indeholder partikler.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1539,7 +1545,7 @@ opbevares til fornyet brug.
 5. Inflectra bør undersøges visuelt for partikler eller misfarvning før indgivelsen. Hvis der 
 observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer må det ikke 
 anvendes.
-6. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+6. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

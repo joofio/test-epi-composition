@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store VYEPTI </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ related peptide (CGRP), a naturally occurring substance in the body. People with
 increased levels of this substance. </p>
 <p>VYEPTI is used to prevent migraine in adults who have migraine at least 4 days per month. </p>
 <p>VYEPTI can reduce the number of days with migraine and improve your quality of life. You may feel 
-the preventive effect starting the day after receiving this medicine. </p>         </div>"""   
+the preventive effect starting the day after receiving this medicine. </p> </div>"""   
           
 
              
@@ -119,7 +122,7 @@ VYEPTI has no or negligible effect on the ability to drive or use machines. </p>
 Sorbitol is a source of fructose. If you have hereditary fructose intolerance (HFI), a rare genetic 
 disorder, you must not receive this medicine. Patients with HFI cannot break down fructose, which 
 may cause serious side effects. 
-You must tell your doctor before receiving this medicine if you have HFI. </p>         </div>"""   
+You must tell your doctor before receiving this medicine if you have HFI. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyepti"
@@ -140,7 +143,7 @@ Because the medicine will be given to you by a healthcare professional, it is un
 too much VYEPTI. Inform your doctor if you think this has happened. </p>
 <p>If you forget to use VYEPTI 
 If a dose is missed, your doctor will decide when the next dose should be given. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -174,7 +177,7 @@ are usually non-serious and of short duration. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyepti"
@@ -195,7 +198,7 @@ After dilution, the solution may be stored at room temperature (below 25 C) or i
 <p>Do not use this medicine if you notice that the solution contains visible particles or is cloudy or 
 discolored. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ latvia@lundbeck.com </p>
 Lundbeck Ireland Limited 
 Tel: +353 1 468 9This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -328,7 +331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -337,7 +342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -354,7 +360,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -368,7 +374,7 @@ forhøjede niveauer af dette stof. </p>
 <p>VYEPTI anvendes til at forebygge migræne hos voksne, som har mindst 4 migrænedage om 
 måneden. </p>
 <p>VYEPTI kan reducere antallet af dage med migræne og forbedre din livskvalitet. Du vil muligvis 
-opleve, at den forebyggende virkning starter dagen efter, at du får dette lægemiddel. </p>         </div>"""   
+opleve, at den forebyggende virkning starter dagen efter, at du får dette lægemiddel. </p> </div>"""   
           
 
              
@@ -424,7 +430,7 @@ maskiner. </p>
 Sorbitol er en kilde til fructose. Hvis du har arvelig fruktoseintolerans (HFI), en sjælden genetisk 
 sygdom, må du ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde fructose, hvilket kan 
 medføre alvorlige bivirkninger. 
-Inden du får dette lægemiddel, skal du fortælle det til din læge, hvis du har HFI. </p>         </div>"""   
+Inden du får dette lægemiddel, skal du fortælle det til din læge, hvis du har HFI. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyepti"
@@ -444,7 +450,7 @@ Medicinen vil blive givet til dig af en læge, så det er usandsynligt, at du vi
 Fortæl det til din læge, hvis du tror, det er sket. </p>
 <p>Hvis du har glemt at bruge VYEPTI 
 Hvis en dosis bliver sprunget over, vil din læge afgøre, hvornår den næste dosis skal gives. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -491,7 +497,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyepti"
@@ -512,7 +518,7 @@ når først det er taget ud. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at opløsningen indeholder synlige partikler eller er uklar 
 eller misfarvet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller toilettet. </p>         </div>"""      
+smide medicinrester i afløbet eller toilettet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -679,7 +685,7 @@ hætteglassets indhold i en 100 ml-pose med 0,9 % natriumchlorid til injektion i
 infusionen er fuldført, skylles slangen med 20 ml 0,9 % natriumchlorid til injektion. </p>
 <p>VYEPTI må ikke administreres som en bolusinjektion.  </p>
 <p>Ingen andre lægemidler må administreres gennem infusionssættet eller blandes med VYEPTI. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -718,7 +724,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -727,7 +735,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -744,7 +753,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar VYEPTI </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -758,7 +767,7 @@ enxaqueca têm níveis aumentados desta substância. </p>
 <p>VYEPTI é utilizado para prevenir a enxaqueca em adultos que tenham enxaqueca, pelo menos, 
 4 dias por mês. </p>
 <p>VYEPTI pode reduzir o número de dias com enxaqueca e melhorar a sua qualidade de vida. Pode 
-sentir o efeito preventivo um dia após receber este medicamento. </p>         </div>"""   
+sentir o efeito preventivo um dia após receber este medicamento. </p> </div>"""   
           
 
              
@@ -814,7 +823,7 @@ Os efeitos de VYEPTI sobre a capacidade de conduzir ou utilizar máquinas são n
 O sorbitol é uma fonte de frutose. Se tiver intolerância hereditária à frutose (IHF), um distúrbio 
 genético raro, não pode receber este medicamento. Os doentes com IHF não conseguem decompor a 
 frutose, o que pode causar efeitos indesejáveis graves. 
-Se tiver IHF, tem de informar o seu médico antes de receber este medicamento. </p>         </div>"""   
+Se tiver IHF, tem de informar o seu médico antes de receber este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vyepti"
@@ -834,7 +843,7 @@ Dado que o medicamento lhe vai ser administrado por um profissional de saúde, �
 receba demasiado VYEPTI. Informe o seu médico se pensar que isso aconteceu. </p>
 <p>Caso se tenha esquecido de utilizar VYEPTI 
 Se não tomar uma dose, o seu médico irá decidir quando deverá ser administrada a próxima dose. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -878,7 +887,7 @@ Geralmente, estes sintomas não são graves e são de curta duração. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vyepti"
@@ -900,7 +909,7 @@ Após a diluição, a solução pode ser conservada à temperatura ambiente (a t
 <p>Não utilize este medicamento se verificar que a solução contém partículas visíveis ou está turva ou 
 descolorada. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1022,7 +1031,7 @@ Lundbeck Ireland Limited
 Tel: ++353 1 468 9 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

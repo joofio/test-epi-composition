@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Leqvio </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ another cholesterol-lowering treatment if the maximum dose of the statin does no
 enough, or </li>
 <li>alone or together with other cholesterol-lowering medicines when statins do not work well or 
 cannot be used. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ for your baby. </p>
 Leqvio is not expected to affect your ability to drive or use machines. </p>
 <p>Leqvio contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take leqvio"
@@ -147,7 +150,7 @@ professional will check you for side effects. </p>
 <p>If you miss your dose of Leqvio 
 If you miss your appointment for your Leqvio injection, contact your doctor, pharmacist or nurse as 
 soon as you can to arrange your next injection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -162,7 +165,7 @@ soon as you can to arrange your next injection. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store leqvio"
@@ -176,7 +179,7 @@ expiry date refers to the last day of that month. </p>
 <p>The doctor, pharmacist or nurse will check this medicine and will discard it if it contains particles. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Your doctor, pharmacist or 
 nurse will throw away medicines no longer being used. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -314,7 +317,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -323,7 +328,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -340,7 +346,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -365,7 +371,7 @@ kombineret med anden kolesterolsænkende behandling, hvis den maksimale dosis af
 ikke virker tilstrækkeligt, eller </li>
 <li>alene eller sammen med andre kolesterolsænkende lægemidler, hvis statiner ikke giver den 
 ønskede virkning eller ikke kan anvendes. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -402,7 +408,7 @@ fordele og risici, der er ved amning, for dit barn. </p>
 Leqvio forventes ikke at påvirke evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Leqvio indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take leqvio"
@@ -425,7 +431,7 @@ andet sundhedspersonale undersøge dig for bivirkninger. </p>
 <p>Hvis du har glemt at få en dosis af Leqvio 
 Hvis du glemmer din aftale om at få Leqvio, skal du kontakte lægen, apotekspersonalet eller 
 sygeplejersken, så snart du kan, så du kan få en ny tid til en indsprøjtning. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -443,7 +449,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store leqvio"
@@ -457,7 +463,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Lægen, apotekspersonalet eller sygeplejersken vil kontrollere dette lægemiddel og bortskaffe det, hvis 
 det indeholder partikler. </p>
 <p>Lægen, apotekspersonalet eller sygeplejersken bortskaffer medicinrester. Af hensyn til miljøet må 
-medicinrester ikke smides i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester ikke smides i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -711,7 +717,7 @@ oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlægsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlægsseddel.dk. </p> </div>"""      
 
 
 

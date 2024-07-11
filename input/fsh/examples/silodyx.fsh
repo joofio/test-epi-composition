@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Silodyx </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ and relieves your symptoms. </p>
 prostate (prostatic hyperplasia), such as: 
 * difficulty in starting to pass water, 
 * a feeling of not completely emptying the bladder, 
-* a more frequent need to pass water, even at night. </p>         </div>"""   
+* a more frequent need to pass water, even at night. </p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ Silodyx may be reduced. </p>
 If you are planning to have a baby, ask your doctor or pharmacist for advice before taking this 
 medicine. </p>
 <p>Driving and using machines </p>
-<p>Do not drive or operate machines if you feel faint, dizzy, drowsy or have blurred vision. </p>         </div>"""   
+<p>Do not drive or operate machines if you feel faint, dizzy, drowsy or have blurred vision. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take silodyx"
@@ -187,7 +190,7 @@ time for the next dose, skip the dose you missed. Do not take a double dose to m
 capsule. </p>
 <p>If you stop taking Silodyx </p>
 <p>If you stop treatment, your symptoms may re-appear. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ medicine
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store silodyx"
@@ -254,7 +257,7 @@ expiry date refers to the last day of that month. </p>
 Store in the original package in order to protect from light and moisture. </p>
 <p>Do not use this medicine if you notice that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -355,7 +358,7 @@ Tel: + 353 21 4379United Kingdom (Northern Ireland)
 Recordati Ireland Ltd. 
 Tel: + 353 21 4379This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -394,7 +397,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -403,7 +408,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -420,7 +426,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -446,7 +452,7 @@ forstørrelse af blærehalskirtlen (prostatahyperplasi), såsom: </p>
 <li>
 <p>et hyppigere behov for at lade vandet, selv om natten. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -540,7 +546,7 @@ af Silodyx kan være nedsat. </p>
 kvinde gravid. Hvis De planlægger at blive far til et barn, skal De spørge Deres læge eller 
 apotekspersonalet til råds, før De tager dette lægemiddel. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Kør ikke bil og betjen ikke maskiner hvis De føler dem svag, svimmel, døsig eller har sløret syn. </p>         </div>"""   
+<p>Kør ikke bil og betjen ikke maskiner hvis De føler dem svag, svimmel, døsig eller har sløret syn. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take silodyx"
@@ -564,7 +570,7 @@ det næsten er tidspunktet for den næste dosis, skal De springe den glemte dosi
 en dobbeltdosis som erstatning for den glemte kapsel. </p>
 <p>Hvis De holder op med at tage Silodyx </p>
 <p>Hvis De holder op med behandlingen, kan Deres symptomer komme igen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -657,7 +663,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store silodyx"
@@ -671,7 +677,7 @@ er den sidste dag i den nævnte måned. </p>
 Opbevares i den originale yderpakning for at beskytte mod lys og fugt. </p>
 <p>Brug ikke lægemidlet, hvis det er beskadiget, eller pakningen viser tegn på, at den har været åbnet. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -800,7 +806,7 @@ Tel: + 353 21 4379 </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Andre informationskilder 
 De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

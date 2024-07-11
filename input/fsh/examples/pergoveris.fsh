@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pergoveris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ The active substances in Pergoveris are copies of the natural hormones FSH and L
 * LH stimulates the release of the eggs. </p>
 <p>By replacing the missing hormones, Pergoveris allows women with low levels of FSH and LH to 
 develop a follicle. This will then release an egg, after an injection of the hormone  human chorionic 
-gonadotropin (hCG) . This helps the women to become pregnant. </p>         </div>"""   
+gonadotropin (hCG) . This helps the women to become pregnant. </p> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ Do not use Pergoveris if you are pregnant or breast-feeding. </p>
 <p>Driving and using machines 
 It is not expected that this medicine will affect your ability to drive or use machines. </p>
 <p>Pergoveris contains sodium 
-Pergoveris contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium-free . </p>         </div>"""   
+Pergoveris contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pergoveris"
@@ -303,7 +306,7 @@ However this will only occur if hCG is administered (see in section 2. under  Ov
 hyperstimulation syndrome (OHSS) ). </p>
 <p>If you forget to use Pergoveris 
 Do not use a double dose to make up for a forgotten dose. Please contact your doctor. </p>
-<p>If you have any further question on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further question on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -350,7 +353,7 @@ can also happen independently of OHSS (see in section 2. under  Blood clotting p
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pergoveris"
@@ -365,7 +368,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not use Pergoveris if you notice any visible signs of deterioration. </p>
 <p>The reconstituted solution should not be administered if it contains particles or is not clear. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -409,7 +412,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -448,7 +451,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -457,7 +462,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -474,7 +480,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -502,7 +508,7 @@ De aktive stoffer i Pergoveris er kopier af de naturlige hormoner FSH og LH. I d
 </li>
 </ul>
 <p>Gennem erstatning af de manglende hormoner gør Pergoveris det muligt for kvinder med lave FSH- og LH-niveauer at udvikle en follikel. Denne vil dernæst frigive et æg, efter en injektion af hormonet 
-“humant choriongonadotropin (hCG)". Det hjælper kvinder med at blive gravid.  </p>         </div>"""   
+“humant choriongonadotropin (hCG)". Det hjælper kvinder med at blive gravid.  </p> </div>"""   
           
 
              
@@ -608,7 +614,7 @@ Brug ikke Pergoveris, hvis du er gravid eller ammer. </p>
 Det forventes ikke, at denne medicin vil påvirke din evne til at føre motorkøretøj. </p>
 <p>Pergoveris indeholder natrium 
 Pergoveris indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pergoveris"
@@ -795,7 +801,7 @@ indtræde. Det vil dog kun ske, hvis hCG administreres (se pkt. 2 “Ovarielt hy
 (OHSS)").  </p>
 <p>Hvis du har glemt at bruge Pergoveris 
 Du må ikke bruge en dobbeltdosis som erstatning for den glemte dosis. Kontakt venligst din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -875,7 +881,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pergoveris"
@@ -891,7 +897,7 @@ mod lys. </p>
 <p>Brug ikke Pergoveris, hvis du bemærker synlige tegn på nedbrydning. </p>
 <p>Den rekonstituerede opløsning må ikke injiceres, hvis den indeholder partikler eller er uklar. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -953,7 +959,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

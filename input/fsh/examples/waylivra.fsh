@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Waylivra  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ triglycerides in blood without them having much effect. </p>
 pancreatitis is considered very high.. </p>
 <p>You should continue the very low-fat diet that your doctor has prescribed during treatment with 
 Waylivra.  </p>
-<p>This medicine is intended for patients aged 18 years and above. </p>         </div>"""   
+<p>This medicine is intended for patients aged 18 years and above. </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ with your doctor to see what is best for you and your child. </p>
 Waylivra is not likely to affect your ability to drive or use machines. </p>
 <p>Sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take waylivra"
@@ -186,7 +189,7 @@ noticed within 48 hours, you should give the missed dose as soon as possible. If
 more than one dose within 2 days. </p>
 <p>If you stop using Waylivra<br />
 Do not stop using Waylivra unless you have discussed stopping your medicine with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -248,7 +251,7 @@ the heart </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store waylivra"
@@ -269,7 +272,7 @@ during the 6 week period at room temperature, do not use the syringe and discard
 <p>Do not use this medicine if the solution is cloudy or contains particles; it should be clear and 
 colourless to slightly yellow.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -306,7 +309,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -345,7 +348,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -354,7 +359,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -371,7 +377,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -390,7 +396,7 @@ triglycerider i dit blod, som dog ikke har haft nogen særlig virkning. </p>
 risiko for betændelse i bugspytkirtlen betragtes som at være meget høj. </p>
 <p>Du skal fortsætte med at følge den meget fedtfattige diæt, som lægen har anvist, under behandlingen med 
 Waylivra.  </p>
-<p>Dette lægemiddel er beregnet til patienter over 18 år. </p>         </div>"""   
+<p>Dette lægemiddel er beregnet til patienter over 18 år. </p> </div>"""   
           
 
              
@@ -471,7 +477,7 @@ af, hvad der er bedst for dig og dit barn. </p>
 Waylivra påvirker sandsynligvis ikke evnen til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Waylivra indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take waylivra"
@@ -502,7 +508,7 @@ som muligt. Hvis du ikke opdager det inden for 48 timer, skal den glemte dosis s
 næste planlagte injektion foretages. Du må ikke indsprøjte mere end én dosis inden for 2 dage. </p>
 <p>Hvis du holder op med at bruge Waylivra<br />
 Du må ikke holde op med at bruge Waylivra, medmindre du har drøftet det med lægen. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -566,7 +572,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store waylivra"
@@ -587,7 +593,7 @@ ugers periode ved rumtemperatur, må du ikke anvende sprøjten, og den skal bort
 <p>Brug ikke lægemidlet, hvis opløsningen er uklar eller indeholder partikler. Opløsningen skal være klar og 
 farveløs til let gullig.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -820,7 +826,7 @@ rumtemperatureller sættes tilbage i køleskabet. </p>
 <p>Du må ikke tage sprøjten ud af pakningen eller tage kanylehætten af, før du er klar til at indgive 
 injektionen. </p>
 <p>Bortskaf lægemidlet med det samme, hvis det ikke bliver brugt i løbet af 6 uger efter første udtagning 
-af køleskabet. Se den dato, du har noteret på kartonen, for at være sikker. </p>         </div>"""      
+af køleskabet. Se den dato, du har noteret på kartonen, for at være sikker. </p> </div>"""      
 
 
 

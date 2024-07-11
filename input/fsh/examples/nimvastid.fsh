@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Nimvastid</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ Alzheimer s disease and dementia associated with Parkinson s disease.
 Nimvastid is used for the treatment of adult patients with mild to moderately severe Alzheimer s 
 dementia, a progressive brain disorder that gradually affects memory, intellectual ability and 
 behaviour. The capsules and orodispersible tablets can also be used for the treatment of dementia in 
-adult patients with Parkinson s disease.</p>         </div>"""   
+adult patients with Parkinson s disease.</p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ Driving and using machines
 Your doctor will tell you whether your illness allows you to drive vehicles and use machines safely. 
 Nimvastid may cause dizziness and somnolence, mainly at the start of treatment or when increasing 
 the dose. If you feel dizzy or sleepy, do not drive, use machines or perform any tasks that require your 
-attention.</p>         </div>"""   
+attention.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nimvastid"
@@ -192,7 +195,7 @@ heartbeat and fainting may also occur.
 If you forget to take Nimvastid
 If you find you have forgotten to take your dose of Nimvastid, wait and take the next dose at the usual 
 time. Do not take a double dose to make up for a forgotten dose.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -280,7 +283,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nimvastid"
@@ -292,7 +295,7 @@ Do not use this medicine after the expiry date which is stated on the packaging 
 date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -414,7 +417,7 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -453,7 +456,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -462,7 +467,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -477,7 +483,7 @@ Usage: #inline
 3. Sådan skal du tage Nimvastid
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -496,7 +502,7 @@ symptomerne på Alzheimers sygdom og demens forbundet med Parkinsons sygdom.
 Nimvastid anvendes til behandling af voksne patienter med mild til moderat svær Alzheimers demens, 
 en fremadskridende hjernesygdom, der gradvis påvirker hukommelse, åndsevner og adfærd. Kapsler 
 og smeltetabletter kan også anvendes til behandling af demens hos voksne patienter med Parkinsons 
-sygdom.</p>         </div>"""   
+sygdom.</p> </div>"""   
           
 
              
@@ -575,7 +581,7 @@ Trafik- og arbejdssikkerhed
 Din læge vil fortælle dig, om du kan køre bil eller betjene maskiner i forbindelse med din sygdom. 
 Nimvastid kan give svimmelhed og døsighed, specielt i starten af behandlingen, eller når dosis 
 øges.Hvis du føler dig svimmel eller træt, skal du lade være med at køre bil, betjene maskiner eller 
-gøre andet, som kræver opmærksomhed.</p>         </div>"""   
+gøre andet, som kræver opmærksomhed.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nimvastid"
@@ -615,7 +621,7 @@ langsom hjerterytme og besvimelsesanfald kan ligeledes forekomme.
 Hvis du har glemt at tage Nimvastid
 Hvis du finder ud af, at du har glemt at tage en dosis Nimvastid, skal du blot vente og tage næste dosis 
 på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -756,7 +762,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nimvastid"
@@ -768,7 +774,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter Exp. 
 sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -918,7 +924,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
-eller du får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4</p>         </div>"""      
+eller du får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4</p> </div>"""      
 
 
 
@@ -957,7 +963,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -966,7 +974,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -981,7 +990,7 @@ Usage: #inline
 3. Como tomar Nimvastid
 4. Efeitos indesejáveis possíveis
 5. Como conservar Nimvastid
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1001,7 +1010,7 @@ Parkinson.
 Nimvastid utiliza-se para o tratamento de doentes adultos com demência de Alzheimer ligeira a 
 moderadamente grave, uma perturbação progressiva do cérebro que afeta gradualmente a memória, a 
 capacidade intelectual e o comportamento. As cápsulas e os comprimidos orodispersíveis também
-podem ser utilizadas para o tratamento da demência em doentes adultos com doença de Parkinson.</p>         </div>"""   
+podem ser utilizadas para o tratamento da demência em doentes adultos com doença de Parkinson.</p> </div>"""   
           
 
              
@@ -1082,7 +1091,7 @@ Condução de veículos e utilização de máquinas
 O seu médico irá dizer-lhe se a sua doença lhe permite conduzir veículos e utilizar máquinas com 
 segurança. Nimvastid pode causar tonturas e sonolência, principalmente no início do tratamento ou 
 quando se aumenta a dose. Se sentir tonturas ou sonolência, não conduza, não utilize máquinas nem 
-realize outras tarefas que requeiram a sua atenção.</p>         </div>"""   
+realize outras tarefas que requeiram a sua atenção.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nimvastid"
@@ -1123,7 +1132,7 @@ Caso se tenha esquecido de tomar Nimvastid
 Se verificar que se esqueceu de tomar uma dose de Nimvastid aguarde e tome a próxima dose à hora 
 habitual. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1268,7 +1277,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nimvastid"
@@ -1281,7 +1290,7 @@ de validade corresponde ao último dia do mês indicado.
 O medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1418,7 +1427,7 @@ United Kingdom (Northern Ireland)
 KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3710
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

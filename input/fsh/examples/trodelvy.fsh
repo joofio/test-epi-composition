@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Trodelvy </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ at least two additional other treatments for a locally advanced cancer or metast
 spread to areas outside the breast (locally advanced) or has spread to other sites in the body 
 (metastasised).  </p>
 <p>Talk to your doctor or nurse if you have any questions about how Trodelvy works or why this 
-medicine has been prescribed for you. </p>         </div>"""   
+medicine has been prescribed for you. </p> </div>"""   
           
 
              
@@ -197,7 +200,7 @@ Breast-feeding </p>
 whether this medicine passes into breast milk and could affect the baby. </p>
 <p>Driving and using machines </p>
 <p>Trodelvy may affect your ability to drive and use machines e.g. feeling dizzy, fatigue. You should 
-therefore be cautious when driving, using tools or operating machines after being given Trodelvy. </p>         </div>"""   
+therefore be cautious when driving, using tools or operating machines after being given Trodelvy. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trodelvy"
@@ -241,7 +244,7 @@ fully effective, it is very important not to miss a dose. </p>
 infusions that you receive will depend on how you are responding to treatment. Therefore, you should 
 continue receiving Trodelvy even if you see your symptoms improve and until your doctor decides 
 that Trodelvy should be stopped. If the treatment is stopped too early, your symptoms may return.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -333,7 +336,7 @@ related to coagulation  </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trodelvy"
@@ -351,7 +354,7 @@ EXP. The expiry date refers to the last day of that month.
 solution can be stored in a refrigerator (2 C - 8 C) for up to 24 hours protected from light.<br />
 </em> Do not use this medicine if you notice the reconstituted solution is cloudy or discoloured. </p>
 <p>Trodelvy is a cytotoxic medicine. Applicable special handling and disposal procedures must be 
-followed. </p>         </div>"""      
+followed. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -443,7 +446,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -482,7 +485,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -491,7 +496,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -508,7 +514,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -532,7 +538,7 @@ behandlinger for en lokalt fremskreden kræft eller metastaseret kræft. </p>
 områder uden for brystet (lokalt fremskreden), eller har spredt sig til andre steder i kroppen 
 (metastaseret).  </p>
 <p>Tal med lægen eller sygeplejersken, hvis du har spørgsmål om, hvordan Trodelvy virker, eller hvorfor 
-denne medicin er ordineret til dig. </p>         </div>"""   
+denne medicin er ordineret til dig. </p> </div>"""   
           
 
              
@@ -689,7 +695,7 @@ ikke kendt om medicinen udskilles i modermælk og kan påvirke barnet. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Trodelvy kan påvirke evnen til at føre motorkøretøj og betjene maskiner f.eks. svimmelhed, træthed. 
 Du skal derfor udvise forsigtighed, når du kører, benytter værktøj eller betjener maskiner, efter du har 
-fået Trodelvy. </p>         </div>"""   
+fået Trodelvy. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trodelvy"
@@ -732,7 +738,7 @@ er det meget vigtigt ikke at springe en dosis over. </p>
 infusioner, som du får, afhænger af, hvordan du reagerer på behandlingen. Derfor skal du fortsætte 
 med at få Trodelvy, selvom du ser, at dine symptomer forbedres og indtil lægen beslutter, at Trodelvy 
 skal stoppes. Hvis behandlingen stoppes før tid, kan dine symptomer komme tilbage.  </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -897,7 +903,7 @@ blodprøver relateret til koagulation. </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trodelvy"
@@ -930,7 +936,7 @@ misfarvet. </p>
 </li>
 </ul>
 <p>Trodelvy er et cytotoksisk lægemiddel. Gældende procedurer for håndtering og bortskaffelse skal 
-følges. </p>         </div>"""      
+følges. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1151,7 +1157,7 @@ CHMP gennemgik de oplysninger, som indehaveren af markedsføringstilladelsen hav
 artikel 14, stk. 11, i forordning (EC) nr. 726/2004, og er af den opfattelse, at den nye terapeutiske 
 indikation giver en væsentlig klinisk fordel sammenlignet med eksisterende behandlinger. Dette er 
 nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1190,7 +1196,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1199,7 +1207,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1216,7 +1225,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Trodelvy </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1242,7 +1251,7 @@ adicionais para o cancro localmente avançado ou metastizado. </p>
 <p>O medicamento é usado quando não é possível remover o cancro com cirurgia porque o cancro 
 alastrou para áreas fora da mama (localmente avançado) ou para outros sítios no corpo (metastizado).  </p>
 <p>Fale com o seu médico ou enfermeiro se tiver questões sobre como Trodelvy atua ou porque é que este 
-medicamento lhe foi prescrito. </p>         </div>"""   
+medicamento lhe foi prescrito. </p> </div>"""   
           
 
              
@@ -1401,7 +1410,7 @@ este medicamento passa para o leite materno e afeta o bebé. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Trodelvy poderá afetar a sua capacidade de conduzir e utilizar máquinas, por exemplo pode sentir 
 tonturas, fadiga. Portanto, deve ter cuidado quando conduzir, usar ferramentas ou operar máquinas 
-depois de lhe ser dado Trodelvy. </p>         </div>"""   
+depois de lhe ser dado Trodelvy. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trodelvy"
@@ -1450,7 +1459,7 @@ número de perfusões que recebe irá depender da forma como está a responder a
 deve continuar a receber Trodelvy mesmo se vir que os seus sintomas melhoram e até o seu médico 
 decidir que Trodelvy deve ser interrompido. Se o tratamento for interrompido demasiado cedo, os seus 
 sintomas poderão voltar.  </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1623,7 +1632,7 @@ sangue relacionada com a coagulação anormais </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trodelvy"
@@ -1658,7 +1667,7 @@ alteração de cor. </p>
 </li>
 </ul>
 <p>Trodelvy é um medicamento citotóxico. Têm de ser seguidos os procedimentos de manuseamento e 
-eliminação especiais aplicáveis. </p>         </div>"""      
+eliminação especiais aplicáveis. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1777,7 +1786,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

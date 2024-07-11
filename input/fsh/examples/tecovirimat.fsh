@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Tecovirimat SIGA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Usage: #inline
 children weighing at least 13 kg. </p>
 <p>Tecovirimat SIGA is also used to treat complications from smallpox vaccines. </p>
 <p>Tecovirimat SIGA works by stopping the virus from spreading.  This will help your own body to build 
-up protection against the virus until you are better. </p>         </div>"""   
+up protection against the virus until you are better. </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ planning to breast-feed before taking this medicine. </p>
 intolerance to some sugars, contact your doctor before taking this medicine.  </li>
 <li>This medicine also contains sunset yellow (E110), a colouring agent.  This may cause allergic 
 reactions. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tecovirimat"
@@ -232,7 +235,7 @@ doctor or pharmacist first. </p>
 <p>If you vomit within 30 minutes of taking Tecovirimat SIGA, you may take another dose right away.<br />
 If you vomit more than 30 minutes after taking Tecovirimat SIGA, do not take another dose and 
 continue with your next scheduled dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -288,7 +291,7 @@ blood cells or platelets than usual.
 <p>If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tecovirimat"
@@ -302,7 +305,7 @@ refers to the last day of that month. </p>
 <p>Store below 25 C. </p>
 <p>Do not use this medicine if you notice that the capsule is broken or damaged in any way. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -345,7 +348,7 @@ reasons it has been impossible to get complete information on this medicine.
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -384,7 +387,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -393,7 +398,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -410,7 +416,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -423,7 +429,7 @@ Usage: #inline
 hos voksne og børn, der vejer mindst 13 kg. </p>
 <p>Tecovirimat SIGA bruges også til behandling af komplikationer efter koppervacciner. </p>
 <p>Tecovirimat SIGA virker ved at forhindre virussen i at sprede sig. Det vil hjælpe din egen krop med at 
-danne beskyttelse mod virussen, indtil du har det bedre. </p>         </div>"""   
+danne beskyttelse mod virussen, indtil du har det bedre. </p> </div>"""   
           
 
              
@@ -506,7 +512,7 @@ har fortalt dig, at du ikke tåler visse sukkerarter.  </p>
 <p>Dette lægemiddel indeholder også farvestoffet Sunset Yellow (E 110). Det kan medføre 
 allergiske reaktioner. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tecovirimat"
@@ -612,7 +618,7 @@ din læge eller apotekspersonalet. </p>
 <p>Hvis du kaster op inden for 30 minutter, efter du har taget Tecovirimat SIGA, kan du tage en ny dosis 
 med det samme. Hvis du kaster op mere end 30 minutter, efter du har taget Tecovirimat SIGA, må du 
 ikke tage en ny dosis, men skal fortsætte med din næste planlagte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -746,7 +752,7 @@ blodlegemer eller blodplader end normalt. </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tecovirimat"
@@ -761,7 +767,7 @@ dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at kapslen er brudt eller ødelagt på den ene eller anden 
 måde. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
-apotekspersonalet, hvordan du skal bortskaffe medicinrester.  </p>         </div>"""      
+apotekspersonalet, hvordan du skal bortskaffe medicinrester.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -805,7 +811,7 @@ Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om læg
 indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -844,7 +850,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -853,7 +861,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -870,7 +879,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Tecovirimat SIGA </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -883,7 +892,7 @@ Usage: #inline
 mpox e varíola bovina em adultos e crianças que pesem pelo menos 13 kg. </p>
 <p>Tecovirimat SIGA também é utilizado para tratar complicações resultantes de vacinas contra a varíola. </p>
 <p>Tecovirimat SIGA atua ao impedir que o vírus se espalhe. Isto ajudará o seu próprio corpo a 
-desenvolver proteção contra o vírus até se sentir melhor. </p>         </div>"""   
+desenvolver proteção contra o vírus até se sentir melhor. </p> </div>"""   
           
 
              
@@ -970,7 +979,7 @@ alguns açúcares, contacte-o antes de tomar este medicamento. </p>
 <p>Este medicamento também contém amarelo sunset FCF (E110), um agente corante. Isto pode 
 causar reações alérgicas. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tecovirimat"
@@ -1080,7 +1089,7 @@ seu médico ou farmacêutico. </p>
 imediato. Se vomitar mais de 30 minutos depois de tomar Tecovirimat SIGA, não tome outra dose e 
 continue com a próxima dose agendada. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1213,7 +1222,7 @@ brancos ou plaquetas mais baixos do que é habitual. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tecovirimat"
@@ -1228,7 +1237,7 @@ validade corresponde ao último dia do mês indicado. </p>
 <p>Não utilize este medicamento se verificar que a cápsula está partida ou danificada de alguma forma. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1273,7 +1282,7 @@ por razões éticas.
 A Agência Europeia de Medicamentos irá analisar todos os anos, qualquer nova informação sobre este 
 medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

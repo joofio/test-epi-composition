@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Icandra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ to rise. </p>
 Both active substances, vildagliptin and metformin, help to control the level of sugar in the blood. The 
 substance vildagliptin works by making the pancreas produce more insulin and less glucagon. The 
 substance metformin works by helping the body to make better use of insulin. This medicine has been 
-shown to reduce blood sugar, which may help to prevent complications from your diabetes. </p>         </div>"""   
+shown to reduce blood sugar, which may help to prevent complications from your diabetes. </p> </div>"""   
           
 
              
@@ -197,7 +200,7 @@ taking Icandra during pregnancy.
 - Do not use Icandra if you are pregnant or breast-feeding (see also  Do not take Icandra ). </p>
 <p>Ask your doctor or pharmacist for advice before taking any medicine. </p>
 <p>Driving and using machines 
-If you feel dizzy while taking Icandra, do not drive or use any tools or machines. </p>         </div>"""   
+If you feel dizzy while taking Icandra, do not drive or use any tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take icandra"
@@ -231,7 +234,7 @@ Do not take a double dose (two tablets at once) to make up for a forgotten table
 Continue to take this medicine as long as your doctor prescribes it so that it can continue to control 
 your blood sugar. Do not stop taking Icandra unless your doctor tells you to. If you have any questions 
 about how long to take this medicine, talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -277,7 +280,7 @@ red, round spots under the skin's surface or bruising. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store icandra"
@@ -293,7 +296,7 @@ safety of this medicine. </p>         </div>"""
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu </p>         </div>"""      
+http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -466,7 +472,7 @@ Usage: #inline
 3. Sådan skal du tage Icandra 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -490,7 +496,7 @@ De to aktive stoffer, vildagliptin og metformin, hjælper med at kontrollere blo
 vildagliptin virker ved at få bugspytkirtlen til at producere mere insulin og mindre glucagon. Stoffet 
 metformin virker ved at hjælpe kroppen til at udnytte insulinet bedre. Dette lægemiddel har vist sig at 
 reducere blodsukkerniveauet, og dette kan medføre, at du undgår komplikationer, som opstår på grund 
-af sukkersyge. </p>         </div>"""   
+af sukkersyge. </p> </div>"""   
           
 
              
@@ -607,7 +613,7 @@ risici ved at tage Icandra under graviditet.
 <p>Spørg din læge eller apoteket til råds, før du bruger nogen form for medicin. </p>
 <p>Trafik- og arbejdssikkerhed 
 Hvis du føler dig svimmel, når du tager Icandra, må du ikke køre bil, arbejde med værktøj eller 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take icandra"
@@ -642,7 +648,7 @@ på én gang) som erstatning for den glemte tablet. </p>
 Bliv ved med at tage dette lægemiddel så længe din læge ordinerer det, så dit blodsukker vedbliver 
 kontrolleret. Hold ikke op med at tage Icandra, medmindre lægen siger det. Tal med din læge, hvis du 
 har spørgsmål til, hvor længe du skal tage medicinen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -710,7 +716,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store icandra"
@@ -725,7 +731,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 <li>Opbevares i den originale pakning (blister) for at beskytte mod fugt. </li>
 <li>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -856,7 +862,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -895,7 +901,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -904,7 +912,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -921,7 +930,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Icandra </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -946,7 +955,7 @@ Ambas as substâncias ativas, vildagliptina e metformina ajudam a controlar o n�
 sangue. A substância vildagliptina atua estimulando o pâncreas a produzir mais insulina e menos 
 glucagom. A substância metformina atua ajudando o organismo a utilizar melhor a insulina. Este 
 medicamento provou reduzir o açúcar no sangue, o que pode ajudar a prevenir complicações da 
-diabetes. </p>         </div>"""   
+diabetes. </p> </div>"""   
           
 
              
@@ -1058,7 +1067,7 @@ durante a gravidez.
 <p>Consulte o seu médico ou farmacêutico antes de tomar qualquer medicamento. </p>
 <p>Condução de veículos e utilização de máquinas 
 Se sentir tonturas enquanto está a tomar Icandra, não conduza nem utilize quaisquer ferramentas ou 
-máquinas. </p>         </div>"""   
+máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar icandra"
@@ -1096,7 +1105,7 @@ controlar o seu açúcar no sangue. Não deixe de tomar Icandra a menos que o se
 indicação. Fale com o seu médico se tiver dúvidas sobre durante quanto tempo deve tomar este 
 medicamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico, 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1149,7 +1158,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar icandra"
@@ -1165,7 +1174,7 @@ exterior após “EXP". O prazo de validade corresponde ao último dia do mês i
 <li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1294,7 +1303,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

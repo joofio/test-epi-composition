@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Hizentra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -109,7 +112,7 @@ that causes muscle weakness and/or numbness mainly in the legs and arms. It is b
 body s defense attack underlines such inflammation, and the immunoglobulins present in Hizentra 
 help to protect the nerves from being attacked (immunomodulatory therapy). </p>
 </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
              
@@ -208,7 +211,7 @@ number of the product are recorded in order to maintain a record of the batches 
 section 3  How to use Hizentra ). </p>
 <p>Hizentra contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial/syringe, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hizentra"
@@ -333,7 +336,7 @@ professional. </p>
 <p>If you use more Hizentra than you should 
 If you think you have had too much Hizentra, speak to your doctor as soon as possible. </p>
 <p>If you forget to use Hizentra 
-If you think you have missed a dose, speak to your doctor as soon as possible. </p>         </div>"""         
+If you think you have missed a dose, speak to your doctor as soon as possible. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -401,7 +404,7 @@ on circumstances which increase the risk of side effect. </p>
 If you get any side effects, talk to your doctor or healthcare professional. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hizentra"
@@ -420,7 +423,7 @@ opening the vial. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your healthcare 
 professional how to throw away medicines you no longer use. These measures will help protect 
 the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -516,7 +519,7 @@ CentralPharma Communications SIA
 Tel: +371 6 7450Lietuva 
 CentralPharma Communications UAB 
 Tel: +370 5 243 0This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -555,7 +558,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -564,7 +569,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -579,7 +585,7 @@ Usage: #inline
 3. Sådan skal du bruge Hizentra 
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -622,7 +628,7 @@ Hizentra bruges også til patienter med kronisk inflammatorisk demyeliniserende 
 (CIDP), en form for autoimmun sygdom. CIDP er kendetegnet ved en kronisk betændelsestilstand i de 
 perifere nerver, der forårsager muskelsvaghed og/eller følelsesløshed i ben og arme. Det menes, at 
 kroppens forsvarsangreb understreger en sådan betændelsestilstand, og immunglobulinerne i Hizentra 
-hjælper med til at beskytte nerverne mod angreb (immunmodulerende terapi).</p>         </div>"""   
+hjælper med til at beskytte nerverne mod angreb (immunmodulerende terapi).</p> </div>"""   
           
 
              
@@ -742,7 +748,7 @@ Hizentra, så der foreligger en liste over de batches, du har fået (se afsnit 3
 Hizentra").
 Hizentra indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas/injektionssprøjte, dvs. 
-det er i det væsentlige natriumfrit.</p>         </div>"""   
+det er i det væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hizentra"
@@ -882,7 +888,7 @@ Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om.
 Hvis du bruger mere Hizentra, end du skulle
 Tal med lægen snarest muligt, hvis du mener, du har brugt for meget Hizentra.
 Hvis du har glemt at bruge Hizentra
-Tal med lægen snarest, hvis du tror, at du har glemt en dosis.</p>         </div>"""         
+Tal med lægen snarest, hvis du tror, at du har glemt en dosis.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -987,7 +993,7 @@ Tal med lægen eller sundhedspersonalet, hvis du får bivirkninger, herunder biv
 fremgår af denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hizentra"
@@ -1010,7 +1016,7 @@ Må ikke nedfryses.
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1157,7 +1163,7 @@ Lægen har ordineret Hizentra til dig personligt. Lad derfor være med at give d
 kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Tal med lægen eller sundhedspersonalet, hvis en bivirkning bliver værre, eller du får 
-bivirkninger, som ikke er nævnt her. Se pkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se pkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -1196,7 +1202,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1205,7 +1213,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1220,7 +1229,7 @@ Usage: #inline
 3. Como utilizar Hizentra
 4. Efeitos indesejáveis possíveis
 5. Como conservar Hizentra
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1267,7 +1276,7 @@ Hizentra é também utilizado em doentes com polineuropatia desmielinizante infl
 nervos periféricos que provoca fraqueza muscular e/ou dormência principalmente nas pernas e nos 
 braços. Pensa-se que o mecanismo de defesa do corpo realça esta inflamação e as imunoglobulinas 
 presentes no Hizentra ajudam a proteger os nervos de serem atacados (terapêutica de 
-imunomodulação).</p>         </div>"""   
+imunomodulação).</p> </div>"""   
           
 
              
@@ -1393,7 +1402,7 @@ registado o nome e o número de lote do medicamento por forma a manter um regist
 utilizados (ver secção 3 “Como utilizar Hizentra").
 Hizentra contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis/seringa, 
-ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+ou seja, é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar hizentra"
@@ -1548,7 +1557,7 @@ Se acha que administrou demasiado Hizentra, fale com o seu médico assim que pos
 Caso se tenha esquecido de utilizar Hizentra
 Se acha que falhou uma dose, fale com o seu médico assim que possível.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1654,7 +1663,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou profissional de saúde. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar hizentra"
@@ -1678,7 +1687,7 @@ Manter o frasco para injetáveis dentro da embalagem exterior para proteger da l
 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 profissional de saúde como deitar fora os medicamentos que já não utiliza. Estas medidas 
-ajudarão a proteger o ambiente.</p>         </div>"""      
+ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1811,7 +1820,7 @@ Lietuva
 CentralPharma Communications UAB
 Tel: +370 5 243 0444
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

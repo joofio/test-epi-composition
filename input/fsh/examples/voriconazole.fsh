@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Voriconazole Hikma </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ antifungal medicine),
 fungi). </p>
 <p>Voriconazole Hikma is intended for patients with worsening, possibly life-threatening, fungal infections. </p>
 <p>Prevention of fungal infections in high risk bone marrow transplant recipients. </p>
-<p>This medicinal product should only be used under the supervision of a doctor. </p>         </div>"""   
+<p>This medicinal product should only be used under the supervision of a doctor. </p> </div>"""   
           
 
              
@@ -214,7 +217,7 @@ This medicine contains 217.6 mg sodium (main component of cooking/table salt) in
 equivalent to 10.9% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>Voriconazole Hikma contains cyclodextrins 
 This medicine contains 3200 mg cyclodextrins in each vial which is equivalent to 160 mg/ml when 
-reconstituted in 20 ml. If you have a kidney disease, talk to your doctor before you receive this medicine. </p>         </div>"""   
+reconstituted in 20 ml. If you have a kidney disease, talk to your doctor before you receive this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take voriconazole"
@@ -269,7 +272,7 @@ treatment with voriconazole should be no more than 6 months. </p>
 to prevent the infection from returning. You may be switched from the intravenous infusion to tablets once 
 your condition improves. </p>
 <p>When Voriconazole Hikma treatment is stopped by your doctor you should not experience any effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -391,7 +394,7 @@ liver enzymes were also observed more frequently in children. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this leaflet. 
 You can also report side effects directly via the national reporting system listed in Appendix V. By reporting 
-side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store voriconazole"
@@ -404,7 +407,7 @@ to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original package in 
 order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -447,7 +450,7 @@ Tel.: +351 219 608 UK
 Consilient Health Ltd 
 Tel.: +44(0)203 751 1FR 
 Hikma France 
-+33(0) 1 87 69 98 This leaflet was last revised in 05/2Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
++33(0) 1 87 69 98 This leaflet was last revised in 05/2Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -486,7 +489,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -495,7 +500,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -512,7 +518,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -544,7 +550,7 @@ svampearter). </p>
 <p>Voriconazole Hikma er beregnet til patienter med forværrede og potentielt livstruende 
 svampeinfektioner. </p>
 <p>Forebyggelse af svampeinfektioner hos højrisikopatienter, der har fået knoglemarvstransplantation. </p>
-<p>Dette lægemiddel bør kun bruges under tilsyn af en læge. </p>         </div>"""   
+<p>Dette lægemiddel bør kun bruges under tilsyn af en læge. </p> </div>"""   
           
 
              
@@ -686,7 +692,7 @@ voksen. </p>
 <p>Voriconazole Hikma indeholder cyclodextriner 
 Dette lægemiddel indeholder 3.200 mg cyclodextriner pr. hætteglas, svarende til 160 mg/ml, når det 
 rekonstitueres i 20 ml. Hvis du har en nyresygdom, skal du tale med lægen, inden du får dette 
-lægemiddel. </p>         </div>"""   
+lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take voriconazole"
@@ -747,7 +753,7 @@ dog højst behandles med voriconazol i 6 måneder. </p>
 behandling for at undgå, at infektionen kommer igen. De kan blive skiftet fra intravenøs infusion til 
 tabletter, så snart Deres tilstand forbedres. </p>
 <p>Når Deres læge stopper behandlingen med Voriconazole Hikma, bør De ikke kunne mærke det. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -871,7 +877,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge. Dette gælder også 
 som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix 
 V.Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store voriconazole"
@@ -884,7 +890,7 @@ sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
 originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1071,7 +1077,7 @@ lægemiddelinfusioner, herunder parenteral ernæring (f.eks. Aminofusin 10 % Plu
 <p>Infusioner med blodprodukter må ikke indgives samtidigt med Voriconazole Hikma. </p>
 <p>Infusion med total parenteral ernæring kan ske samtidig med Voriconazole Hikma, men ikke i samme 
 dropslange eller kanyle. </p>
-<p>Voriconazole Hikma må ikke fortyndes med 4,2 % natriumcarbonat-infusionsvæske. </p>         </div>"""      
+<p>Voriconazole Hikma må ikke fortyndes med 4,2 % natriumcarbonat-infusionsvæske. </p> </div>"""      
 
 
 
@@ -1110,7 +1116,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1119,7 +1127,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1136,7 +1145,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Voriconazol Hikma </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1167,7 +1176,7 @@ diferentes de fungos). </p>
 <p>Voriconazol Hikma destina-se a doentes com infeções fúngicas graves, possivelmente com risco de 
 vida.  </p>
 <p>Prevenção de infeções fúngicas em recetores de transplante de medula óssea de elevado risco. </p>
-<p>Este medicamento deve apenas ser utilizado sob supervisão de um médico. </p>         </div>"""   
+<p>Este medicamento deve apenas ser utilizado sob supervisão de um médico. </p> </div>"""   
           
 
              
@@ -1426,7 +1435,7 @@ para um adulto. </p>
 <p>Voriconazol Hikma contém ciclodextrina 
 Este medicamento contém 3.200 mg de ciclodextrina em cada frasco para injetáveis que é 
 equivalente a 160 mg/ml quando reconstituído em 20 ml. Se tem uma doença renal, fale com o seu 
-médico antes de tomar este medicamento. </p>         </div>"""   
+médico antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar voriconazole"
@@ -1496,7 +1505,7 @@ comprimidos. </p>
 <p>Quando o tratamento com Voriconazol Hikma é interrompido pelo seu médico não deverá sentir 
 quaisquer efeitos. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1762,7 +1771,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar voriconazole"
@@ -1776,7 +1785,7 @@ de validade corresponde ao último dia do mês indicado. </p>
 embalagem de origem para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1823,7 +1832,7 @@ Tel.: +44(0)203 751 1 </p>
 Hikma France<br />
 Tel.: +33(0) 1 87 69 98  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

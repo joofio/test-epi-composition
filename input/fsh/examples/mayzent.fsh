@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Mayzent </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ and </li>
 <li>stopping these cells from reaching the brain and spinal cord. 
 This reduces nerve damage caused by SPMS and as a result Mayzent helps to slow down the effects of 
 the disease activity (such as worsening disability, brain lesions and relapses). </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -273,7 +276,7 @@ treatment with Mayzent, therefore, you should not drive or use machines. </p>
 <p>Mayzent contains lactose and soya lecithin 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
-<p>If you are allergic to peanut or soya, do not use this medicine. </p>         </div>"""   
+<p>If you are allergic to peanut or soya, do not use this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mayzent"
@@ -342,7 +345,7 @@ section 4). </p>
 a new titration pack and you will have to restart treatment at day 1 again. </p>
 <p>Tell your doctor straight away if you think your MS worsens after you have stopped treatment with 
 Mayzent. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -397,7 +400,7 @@ doctor or pharmacist. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mayzent"
@@ -410,7 +413,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not store above 25 C. </p>
 <p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -539,7 +542,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -578,7 +581,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -587,7 +592,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -602,7 +608,7 @@ Usage: #inline
 3. Sådan skal du tage Mayzent 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -626,7 +632,7 @@ og </li>
 <li>forhindre disse blodlegemer i at nå frem til hjernen og rygmarven. 
 Dette nedsætter nervebeskadigelse forårsaget af SPMS, og dermed hjælper Mayzent med at forsinke 
 virkningerne af sygdomsaktivitet (som fx forværring af invaliditet, hjernelæsioner og attakker). </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -876,7 +882,7 @@ Mayzent. </p>
 <p>Mayzent indeholder lactose og sojalecithin 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
-<p>Brug ikke dette lægemiddel, hvis du er allergisk over for jordnødder eller soja. </p>         </div>"""   
+<p>Brug ikke dette lægemiddel, hvis du er allergisk over for jordnødder eller soja. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mayzent"
@@ -946,7 +952,7 @@ indlægsseddel (se “Bivirkninger" i punkt 4). </p>
 det, vil lægen udskrive en ny titreringspakning, og du skal starte behandlingen forfra ved dag 1 igen. </p>
 <p>Fortæl det omgående til lægen, hvis du synes, at din MS bliver værre, efter at du er stoppet med at tage 
 Mayzent.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1052,7 +1058,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mayzent"
@@ -1066,7 +1072,7 @@ sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at æsken/blisteren er beskadiget eller viser tegn på at have 
 været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1235,7 +1241,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

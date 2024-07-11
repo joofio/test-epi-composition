@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Thyrogen </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ up iodine which is important for radioiodine imaging. It also stimulates the pro
 thyroid hormones if there is any thyroid tissue left. These hormones can be measured in your blood. </p>
 <p>Thyrogen is also used with radioiodine treatment to eliminate (ablate) the thyroid tissue left over after surgical 
 removal of the thyroid gland (remnant) in patients who do not have secondary cancer growths (metastases) and 
-who are taking thyroid hormone. </p>         </div>"""   
+who are taking thyroid hormone. </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ advice from your doctor. </p>
 Some patients may feel dizzy or have headaches after administration of Thyrogen which may affect the ability 
 to drive and use machines. </p>
 <p>Thyrogen contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take thyrogen"
@@ -161,7 +164,7 @@ Patients who accidentally received too much Thyrogen have reported nausea, weakn
 vomiting and hot flashes.  </p>
 <p>A suggested treatment in case of overdose would be the reestablishment of fluid balance and administration of 
 an antiemetic may also be considered. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -214,7 +217,7 @@ thyroid gland. </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store thyrogen"
@@ -231,7 +234,7 @@ The reconstituted solution can be stored for up to 24 hours in a refrigerator (2
 light, while avoiding microbial contamination. </p>
 <p>Do not use this medicine if you notice foreign particles, cloudiness or discoloration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -332,7 +335,7 @@ sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel: +44 (0) 800 035 2Lietuva 
 Swixx Biopharma UAB 
 Tel. +370 5 236 91 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -371,7 +374,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -380,7 +385,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -395,7 +401,7 @@ Usage: #inline
 3. Sådan skal du bruge Thyrogen 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -412,7 +418,7 @@ radioaktivt iod. Det stimulerer også dannelsen af thyroglobulin og thyroidea-ho
 noget skjoldbruskvæv tilbage. Disse hormoner kan måles i dit blod. </p>
 <p>Thyrogen bruges også ved behandling med radioaktivt iod til eliminering (ablation) af det resterende 
 skjoldbruskvæv efter kirurgisk fjernelse af skjoldbruskkirtlen (resterende) hos patienter, der ikke har 
-kræft der har spredt sig (metastaser), og som tager thyroideahormon. </p>         </div>"""   
+kræft der har spredt sig (metastaser), og som tager thyroideahormon. </p> </div>"""   
           
 
              
@@ -481,7 +487,7 @@ Nogle patienter kan føle sig svimle eller få hovedpine efter administration af
 påvirke evnen til at køre og betjene maskiner. </p>
 <p>Thyrogen indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. den er i det 
-væsentlige "natriumfri". </p>         </div>"""   
+væsentlige "natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take thyrogen"
@@ -508,7 +514,7 @@ Patienter, der utilsigtet har fået for meget Thyrogen, har indberettet kvalme, 
 hovedpine, opkastning og hedeture. 
 I tilfælde af en overdosering bør væskebalancen genoprettes, og indgivelse af et kvalmestillende 
 middel bør overvejes. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -633,7 +639,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen  via det nationale rapporteringssystem 
 anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store thyrogen"
@@ -650,7 +656,7 @@ opløsning kan opbevares i op til 24 timer i køleskab (2°C - 8°C) beskyttet m
 forurening. </p>
 <p>Du må ikke bruge denne medicin, hvis du får øje på fremmedlegemer, uklarheder eller misfarvning. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -793,7 +799,7 @@ Ingen særlige forholdsregler vedrørende bortskaffelse. </p>
 <p>Efter rekonstitution skal opløsningen injiceres inden for tre timer. Den rekonstituerede opløsning kan 
 opbevares i op til 24 timer i køleskab (2°C - 8°C) beskyttet mod lys og mikrobiel forurening. 
 Det er vigtigt at bemærke, at den mikrobiologiske sikkerhed afhænger af de aseptiske forhold under 
-tilberedningen af opløsningen. </p>         </div>"""      
+tilberedningen af opløsningen. </p> </div>"""      
 
 
 

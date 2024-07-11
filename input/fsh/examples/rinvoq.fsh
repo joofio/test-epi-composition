@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store RINVOQ</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -126,7 +129,7 @@ commonly affects the bowel. RINVOQ is used to treat adults with Crohn s disease 
 respond well enough or did not tolerate previous therapy.
 RINVOQ can help to reduce the signs and symptoms of the disease including the need to rush to and 
 the number of times you go to the toilet, abdominal pain, and the inflammation of your intestinal 
-lining. These effects can enable your normal daily activities and reduce fatigue.</p>         </div>"""   
+lining. These effects can enable your normal daily activities and reduce fatigue.</p> </div>"""   
           
 
              
@@ -234,7 +237,7 @@ pregnant while taking RINVOQ and for at least 4 weeks after your last dose of RI
 become pregnant during this time, you must talk to your doctor straight away.
 If your child has her first menstrual period while taking RINVOQ, you should inform the doctor.
 Driving and using machines
-RINVOQ has no effect or limited effect on the ability to drive and use machines.</p>         </div>"""   
+RINVOQ has no effect or limited effect on the ability to drive and use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rinvoq"
@@ -305,7 +308,7 @@ move the cutting tool round the edge of the
 foil to continue cutting the foil.
 3. When you have taken your tablet, put the 
 cap back on and close the bottle.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -357,7 +360,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rinvoq"
@@ -370,7 +373,7 @@ Do not use this medicine after the expiry date which is stated on the blister la
 This medicine does not require any special temperature storage conditions.
 Store in original blister or bottle with the lid tightly closed to protect from moisture.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -510,7 +513,7 @@ Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -549,7 +552,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -558,7 +563,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -575,7 +581,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -658,7 +664,7 @@ Crohns sygdom, som ikke har fået tilstrækkelig virkning af eller ikke har kunn
 behandling. </p>
 <p>RINVOQ kan hjælpe med at reducere tegn og symptomer på sygdommen, herunder behovet for 
 hurtige toiletbesøg og antallet af disse, mavesmerter samt inflammationen i slimhinden i din tarm. 
-Dette kan gøre det muligt for dig at foretage almindelige daglige aktiviteter og reducere træthed. </p>         </div>"""   
+Dette kan gøre det muligt for dig at foretage almindelige daglige aktiviteter og reducere træthed. </p> </div>"""   
           
 
              
@@ -832,7 +838,7 @@ gravid i dette tidsrum, skal du tale med lægen med det samme. </p>
 om dette.  </p>
 <p>Trafik- og arbejdssikkerhed 
 Kør ikke motorkøretøj eller betjen maskiner, hvis du oplever svimmelhed eller en snurrende 
-fornemmelse (vertigo), når du er i behandling med RINVOQ, før disse tilstande ophører. </p>         </div>"""   
+fornemmelse (vertigo), når du er i behandling med RINVOQ, før disse tilstande ophører. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rinvoq"
@@ -927,7 +933,7 @@ foliekanten. </p>
 låget tilbage på plads og skrue det godt fast. </p>
 </li>
 </ol>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1054,7 +1060,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rinvoq"
@@ -1066,7 +1072,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Opbevares i den originale blisterpakning eller beholder med tæt tillukket låg for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1285,7 +1291,7 @@ tydeliggøre advarslen til sundhedspersoner og patienter). </p>
 <p>På baggrund af de videnskabelige konklusioner for upadacitinib er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder upadacitinib, forbliver 
 uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -1324,7 +1330,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1333,7 +1341,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1350,7 +1359,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar RINVOQ </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1435,7 +1444,7 @@ adultos com doença de Crohn que não tenham obtido uma resposta suficiente ou q
 tolerado a terapêutica anterior. </p>
 <p>RINVOQ pode ajudar a reduzir os sinais e sintomas da doença, incluindo a necessidade e o número de 
 vezes que vai à casa de banho, a dor abdominal e a inflamação do revestimento dos seus intestinos. 
-Estes efeitos podem permitir as suas atividades diárias normais e reduzir a fadiga. </p>         </div>"""   
+Estes efeitos podem permitir as suas atividades diárias normais e reduzir a fadiga. </p> </div>"""   
           
 
              
@@ -1616,7 +1625,7 @@ engravidar durante este período, consulte imediatamente o seu médico. </p>
 médico. </p>
 <p>Condução de veículos e utilização de máquinas 
 Não conduza nem utilize máquinas se sentir tonturas ou a andar à roda (vertigens) ao tomar RINVOQ, 
-até à resolução destes sintomas.  </p>         </div>"""   
+até à resolução destes sintomas.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rinvoq"
@@ -1725,7 +1734,7 @@ volte a colocar a tampa e feche o frasco. </p>
 </li>
 </ol>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1852,7 +1861,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rinvoq"
@@ -1866,7 +1875,7 @@ exterior após “EXP". </p>
 <p>Conservar no blister de origem ou frasco com a tampa bem fechada para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2055,7 +2064,7 @@ AbbVie Deutschland GmbH &amp; Co. KG<br />
 Tel.: +44 (0)1628 561 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

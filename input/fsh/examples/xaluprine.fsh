@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Xaluprine </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ called chemotherapy). </p>
 ALL). This is a fast-growing disease which increases the number of new white blood cells.  These new 
 white blood cells are immature (not fully formed) and unable to grow and work properly.  They 
 therefore cannot fight infections and may cause bleeding. </p>
-<p>Ask your doctor if you would like more explanation about this disease. </p>         </div>"""   
+<p>Ask your doctor if you would like more explanation about this disease. </p> </div>"""   
           
 
              
@@ -180,7 +183,7 @@ builds up because the body cannot remove it properly.  </p>
 <p>Xaluprine also contains sodium methyl parahydroxybenzoate (E219) and sodium ethyl 
 parahydroxybenzoate (E215) which may cause allergic reactions (possibly delayed).  </p>
 <p>Xaluprine contains sucrose. If you have been told by your doctor that you have an intolerance to some 
-sugars, contact your doctor before taking this medicinal product. May be harmful to the teeth. </p>         </div>"""   
+sugars, contact your doctor before taking this medicinal product. May be harmful to the teeth. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xaluprine"
@@ -259,7 +262,7 @@ Tell your doctor.  Do not take a double dose to make up for a forgotten dose. </
 <p>If you stop taking Xaluprine 
 Do not stop taking your medicine unless your doctor tells you to or you may get a relapse of your 
 condition. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -335,7 +338,7 @@ tell your doctor or pharmacist. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xaluprine"
@@ -353,7 +356,7 @@ accidental spillage. </li>
 <li>After first opening of the bottle, discard any unused contents after 56 days. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -386,7 +389,7 @@ Dublin Road Business Park
 Carraroe, Sligo 
 F91 DIreland 
 This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -425,7 +428,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -434,7 +439,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -449,7 +455,7 @@ Usage: #inline
 3. Sådan skal du tage Xaluprine 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere informationer </p>         </div>"""   
+6. Pakningsstørrelser og yderligere informationer </p> </div>"""   
           
 
 * section[=].section[+]
@@ -463,7 +469,7 @@ kaldet kemoterapi). </p>
 Det er en sygdom, som udvikler sig hurtigt, og som øger antallet af nye hvide blodlegemer. De nye 
 hvide blodlegemer er umodne (ikke færdigdannede) og kan ikke vokse og fungere korrekt. Derfor kan 
 de ikke bekæmpe infektioner og kan forårsage blødning. </p>
-<p>Spørg din læge, hvis du vil have mere at vide om sygdommen. </p>         </div>"""   
+<p>Spørg din læge, hvis du vil have mere at vide om sygdommen. </p> </div>"""   
           
 
              
@@ -571,7 +577,7 @@ phenylalanin ophobes, fordi kroppen ikke kan fjerne det ordentligt. </p>
 natriumethylparahydroxy-benzoat (E215), som kan give allergiske reaktioner (muligvis forsinkede). </p>
 <p>Xaluprine indeholder saccharose. Hvis din læge har fortalt dig, at du har intolerans over for visse 
 sukkerarter, skal du kontakte lægen, inden du tager dette lægemiddel. Kan være skadeligt for 
-tænderne. </p>         </div>"""   
+tænderne. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xaluprine"
@@ -649,7 +655,7 @@ Fortæl det til lægen. Du må ikke tage en dobbeltdosis som erstatning for den 
 <p>Hvis du holder op med at tage Xaluprine 
 Du må ikke stoppe med at tage din medicin, medmindre lægen siger det. Ellers kan du få et tilbagefald 
 af din sygdom. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -713,7 +719,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xaluprine"
@@ -734,7 +740,7 @@ risikoen for at komme til at spilde det.
 -
 Ubrugt indhold skal kasseres 56 dage efter åbning af flasken.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -769,7 +775,7 @@ Carraroe, Sligo
 F91 DIrland 
 Denne indlægsseddel blev senest ændret 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

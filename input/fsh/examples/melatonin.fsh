@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Melatonin Neurim </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ produced by the body. </p>
 <p>Melatonin Neurim is used on its own for the short-term treatment of primary insomnia (persistent 
 difficulty in getting to sleep or staying asleep, or poor quality of sleep) in patients aged 55 years and 
 older.  Primary  means that the insomnia does not have any identified cause, including any medical, 
-mental or environmental cause. </p>         </div>"""   
+mental or environmental cause. </p> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ Melatonin Neurim may cause drowsiness.  If you are affected, you should not driv
 machinery.  If you suffer from continued drowsiness, then you should consult your doctor. </p>
 <p>Melatonin Neurim contains lactose monohydrate. 
 Melatonin Neurim contains lactose monohydrate.  If you have been told by your doctor that you have 
-an intolerance to some sugars, contact your doctor before taking this medicinal product. </p>         </div>"""   
+an intolerance to some sugars, contact your doctor before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take melatonin"
@@ -161,7 +164,7 @@ until it is time to take your next dose, then go on as before. </p>
 <p>If you stop taking Melatonin Neurim 
 There are no known harmful effects if treatment is interrupted or ended early.  The use of Melatonin 
 Neurim is not known to cause any withdrawal effects after treatment completion. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -216,7 +219,7 @@ secretion. </p>
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store melatonin"
@@ -228,7 +231,7 @@ of this medicine. </p>         </div>"""
 refers to the last day of that month. </p>
 <p>Do not store above 25 C.  Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ V a Complutense, Alcal  de Henares
 Madrid, 28Spain </p>
 <p>This leaflet was last revised in {month/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -303,7 +306,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -312,7 +317,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -327,7 +333,7 @@ Usage: #inline
 3. Sådan skal du tage Melatonin Neurim 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -340,7 +346,7 @@ selv danner. </p>
 <p>Melatonin Neurim anvendes som monoterapi (et enkelt lægemiddel) til korttidsbehandling af primær 
 søvnløshed (vedvarende vanskelighed ved at falde i søvn eller blive ved med at sove eller dårlig 
 søvnkvalitet) hos patienter i alderen 55 år og derover. "Primær" vil sige, at søvnløsheden ikke har 
-nogen identificeret årsag, hverken medicinsk, psykisk eller miljømæssig årsag. </p>         </div>"""   
+nogen identificeret årsag, hverken medicinsk, psykisk eller miljømæssig årsag. </p> </div>"""   
           
 
              
@@ -402,7 +408,7 @@ Melatonin Neurim kan medføre døsighed. Hvis du er døsig, bør du ikke køre b
 maskiner. Hvis du lider af vedvarende døsighed, skal du spørge din læge til råds. </p>
 <p>Melatonin Neurim indeholder lactosemonohydrat 
 Melatonin Neurim indeholder lactosemonohydrat. Kontakt lægen, før du tager dette lægemiddel, hvis 
-lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take melatonin"
@@ -426,7 +432,7 @@ seng, eller vente til det er tid for næste dosis. Fortsæt derefter som før. <
 Der er ingen kendte skadelige virkninger, hvis behandlingen afbrydes eller afsluttes før tiden. Brugen 
 af Melatonin Neurim menes ikke at give abstinenser efter, at behandlingen er afsluttet. </p>
 <p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er tvivl om eller føler dig usikker på med 
-hensyn til brugen af denne medicin. </p>         </div>"""         
+hensyn til brugen af denne medicin. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -509,7 +515,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store melatonin"
@@ -522,7 +528,7 @@ den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25°C. Opbevares i den originale emballage for at beskytte 
 mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -560,7 +566,7 @@ Madrid, 28Spanien </p>
 <p>Denne indlægsseddel blev senest ændret den (måned ÅÅÅÅ) </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

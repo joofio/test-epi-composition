@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Competact  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ being overweight and where the body either does not produce enough insulin (a ho
 blood sugar levels), or cannot effectively use the insulin it produces. Your doctor will check whether 
 Competact is working 3 to 6 months after you start taking it. </p>
 <p>Competact helps control the level of sugar in your blood when you have type 2 diabetes by helping 
-your body make better use of the insulin it produces. </p>         </div>"""   
+your body make better use of the insulin it produces. </p> </div>"""   
           
 
              
@@ -204,7 +207,7 @@ This medicine will not affect your ability to drive or use machines but take car
 abnormal vision. </p>
 <p>Competact contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take competact"
@@ -237,7 +240,7 @@ on with the next dose as normal. Do not take a double dose to make up for a forg
 <p>If you stop taking Competact 
 Competact should be used every day to work properly. If you stop using Competact, your blood sugar 
 may go up. Talk to your doctor before stopping this treatment. </p>
-<p>If you have any further questions on the use of this medicine ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ taking this medicine and talk to your doctor immediately. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store competact"
@@ -311,7 +314,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ Delpharm Novara S.r.l., Via Crosa, 86, I-28065 Cerano (NO), Italy
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain </p>
 <p>This leaflet was last revised in August 2023. Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -378,7 +381,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -387,7 +392,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
@@ -402,7 +407,7 @@ Usage: #inline
 3. Sådan skal De tage Competact 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -418,7 +423,7 @@ hormon, som kontrollerer blodsukkerniveauet), eller kroppen udnytter ikke den in
 producerer, tilstrækkeligt effektivt. Når De har taget Competact i 3-6 måneder, vil Deres læge 
 undersøge, om medicinen virker. </p>
 <p>Når De har type 2-diabetes, hjælper Competact Deres krop med bedre at udnytte den insulin, kroppen 
-producerer. Dermed hjælper Competact med til at kontrollere sukkerniveauet i Deres blod. </p>         </div>"""   
+producerer. Dermed hjælper Competact med til at kontrollere sukkerniveauet i Deres blod. </p> </div>"""   
           
 
              
@@ -542,7 +547,7 @@ Dette lægemiddel vil ikke påvirke Deres evne til at køre bil eller arbejde me
 hvis De får synsforstyrrelser. </p>
 <p>Competact indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take competact"
@@ -576,7 +581,7 @@ dobbeltdosis som erstatning for en glemt tablet. </p>
 <p>Hvis De holder op med at tage Competact 
 For at opnå den ønskede virkning skal De tage Competact hver dag. Hvis De holder op med at tage 
 Competact, kan Deres blodsukker stige. Tal med lægen, før De stopper behandlingen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -641,7 +646,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store competact"
@@ -653,7 +658,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -681,7 +686,7 @@ Delpharm Novara S.r.l., Via Crosa, 86, I-28065 Cerano (NO), Italien
 Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spanien </p>
 <p>Denne indlægsseddel blev senest ændret august 2023. Andre informationskilder </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

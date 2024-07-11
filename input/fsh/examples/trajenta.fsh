@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Trajenta</li>
 <li>Contents of the pack and other information.</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ oral anti-diabetic medicine (metformin or sulphonylureas) or diet and exercise a
 used together with other anti-diabetic medicines e.g. metformin, sulphonylureas (e.g. glimepiride, 
 glipizide), empagliflozin, or insulin.
 It is important to keep following the advice about diet and exercise that you have been given by your
-doctor or nurse.</p>         </div>"""   
+doctor or nurse.</p> </div>"""   
           
 
              
@@ -134,7 +137,7 @@ Taking Trajenta in combination with medicines called sulphonylureas and/or insul
 blood sugar levels (hypoglycaemia), which may affect your ability to drive and use machines or work 
 without safe foothold. However, more frequent blood glucose testing might be recommended to 
 minimise the risk for hypoglycaemia, especially when Trajenta is combined with sulphonylurea and/or 
-insulin.</p>         </div>"""   
+insulin.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trajenta"
@@ -157,7 +160,7 @@ day.
 If you stop taking Trajenta
 Do not stop taking Trajenta without first consulting your doctor. Your blood sugar levels may increase 
 when you stop taking Trajenta.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -199,7 +202,7 @@ Reporting of side effects
 If you get any side effects talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trajenta"
@@ -212,7 +215,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use Trajenta if the package is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -362,7 +365,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -371,7 +376,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -386,7 +392,7 @@ Usage: #inline
 3. Sådan skal du tage Trajenta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -402,7 +408,7 @@ med et oralt antidiabetikum (metformin eller sulfonylurinstof) eller udelukkende
 Trajenta kan bruges sammen med andre antidiabetika, f.eks. metformin, sulfonylurinstof (f.eks. 
 glimepirid eller glipizid), empagliflozin eller insulin.
 Det er vigtigt, at du fortsætter med at følge de råd om diæt og motion, som lægen eller sygeplejersken 
-har givet dig.</p>         </div>"""   
+har givet dig.</p> </div>"""   
           
 
              
@@ -463,7 +469,7 @@ Brug af Trajenta i kombination med lægemidler kaldet sulfonylurinstof og/eller 
 for lavt blodsukker (hypoglykæmi). Dette kan påvirke evnen til at føre motorkøretøj og betjene 
 maskiner eller arbejde uden sikkert fodfæste. Det kan være hensigtsmæssigt at teste blodsukkeret 
 hyppigere for at minimere risikoen for for lavt blodsukker, især når Trajenta kombineres med 
-sulfonylurinstof og/eller insulin.</p>         </div>"""   
+sulfonylurinstof og/eller insulin.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trajenta"
@@ -489,7 +495,7 @@ samme dag.
 Hvis du holder op med at tage Trajenta
 Du må ikke holde op med at tage Trajenta uden først at have rådført dig med din læge. Dit 
 blodsukkerniveau kan stige, hvis du holder op med at tage Trajenta.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -537,7 +543,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 28
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trajenta"
@@ -550,7 +556,7 @@ den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Brug ikke Trajenta, hvis pakningen er beskadiget eller viser tegn på at være forsøgt åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -700,7 +706,7 @@ Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Denne indlægsseddel blev senest ændret
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

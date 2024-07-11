@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store PREZISTA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ What it is used for?
 PREZISTA is used to treat HIV infected adults as well as HIV infected children of 3 years of age and 
 above, and at least 15 kilogram body weight (see How to take PREZISTA).
 PREZISTA must be taken in combination with a low dose of cobicistat or ritonavir and other anti-HIV 
-medicines. Your doctor will discuss with you which combination of medicines is best for you.</p>         </div>"""   
+medicines. Your doctor will discuss with you which combination of medicines is best for you.</p> </div>"""   
           
 
              
@@ -328,7 +331,7 @@ PREZISTA oral suspension contains sodium methyl parahydroxybenzoate. This ingred
 cause allergic reactions (sometimes delayed).
 PREZISTA contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per ml, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prezista"
@@ -509,7 +512,7 @@ Contact your doctor if you are uncertain about what to do if you miss a dose or 
 Do not stop taking PREZISTA without talking to your doctor first
 Anti-HIV medicines may make you feel better. Even when you feel better, do not stop taking 
 PREZISTA. Talk to your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -613,7 +616,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prezista"
@@ -627,7 +630,7 @@ Do not store above 30 C.
 Do not refrigerate or freeze. Avoid exposure to excessive heat.
 Store in the original container.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away any medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away any medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -733,7 +736,7 @@ Tel: +371 678 93lv@its.jnj.com
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -772,7 +775,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -781,7 +786,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -796,7 +802,7 @@ Usage: #inline
 3. Sådan skal du tage PREZISTA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -814,7 +820,7 @@ Hvad anvendes det til?
 PREZISTA anvendes til at behandle hiv-infektion hos voksne samt hos børn fra 3 år og opefter med 
 en legemsvægt på mindst 15 kg (se Sådan skal du tage PREZISTA).
 PREZISTA skal tages i kombination med en lavdosis cobicistat eller ritonavir og anden hiv-medicin. 
-Din læge vil fortælle dig, hvilken medicinkombination, der er bedst for dig.</p>         </div>"""   
+Din læge vil fortælle dig, hvilken medicinkombination, der er bedst for dig.</p> </div>"""   
           
 
              
@@ -1076,7 +1082,7 @@ PREZISTA oral suspension indeholder natriummethylparahydroxybenzoat
 Dette indholdsstof kan give allergiske reaktioner (kan optræde efter behandlingen).
 PREZISTA indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. ml, dvs. det er i det væsentlige 
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prezista"
@@ -1240,7 +1246,7 @@ kastet op.
 Du må ikke stoppe med at tage PREZISTA uden først at tale med din læge
 Lægemidler til behandling af hiv kan få dig til at føle dig bedre. Selvom du har det bedre, må du ikke 
 stoppe med at tage PREZISTA. Tal med din læge først.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1346,7 +1352,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prezista"
@@ -1360,7 +1366,7 @@ Må ikke opbevares ved temperaturer over 30 °C.
 Må ikke opbevares i køleskab eller nedfryses. Må ikke udsættes for høje temperaturer.
 Opbevares i den originale beholder.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1516,7 +1522,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -1555,7 +1561,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1564,7 +1572,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1579,7 +1588,7 @@ Usage: #inline
 3. Como tomar PREZISTA
 4. Efeitos indesejáveis possíveis
 5. Como conservar PREZISTA
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1599,7 +1608,7 @@ com, pelo menos, 15 quilogramas de peso corporal infetados pelo VIH (ver Como to
 PREZISTA).
 PREZISTA deve ser administrado em associação com uma dose baixa de cobicistate ou ritonavir e 
 outros medicamentos anti-VIH. O seu médico falará consigo sobre qual será a associação de 
-medicamentos melhor para o seu caso.</p>         </div>"""   
+medicamentos melhor para o seu caso.</p> </div>"""   
           
 
              
@@ -1872,7 +1881,7 @@ PREZISTA suspensão oral contém para-hidroxibenzoato de metilo sódico. Este in
 causar reações alérgicas (por vezes retardadas).
 PREZISTA contém sódio
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por ml, ou seja, é praticamente
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar prezista"
@@ -2071,7 +2080,7 @@ Não pare de tomar PREZISTA sem falar previamente com o seu médico
 Os medicamentos anti-VIH podem fazê-lo sentir-se melhor. Não deixe de tomar PREZISTA mesmo 
 que se sinta melhor. Fale primeiro com o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -2186,7 +2195,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar prezista"
@@ -2201,7 +2210,7 @@ Não refrigerar ou congelar. Evitar a exposição excessiva ao calor.
 Conservar na embalagem de origem.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2343,7 +2352,7 @@ United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 Este folheto foi revisto pela última vez em MM/AAAA
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

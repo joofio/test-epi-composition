@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TEPADINA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ alkylating agents. </p>
 <p>TEPADINA is used to prepare patients for bone marrow transplantation. It works by destroying bone 
 marrow cells. This enables the transplantation of new bone marrow cells (haematopoietic progenitor 
 cells), which in turn enable the body to produce healthy blood cells. 
-TEPADINA can be used in adults and children and adolescents. </p>         </div>"""   
+TEPADINA can be used in adults and children and adolescents. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ women must not breast-feed during treatment with TEPADINA. </p>
 preservation before therapy is started. </p>
 <p>Driving and using machines 
 It is likely that certain adverse reactions of thiotepa like dizziness, headache and blurred vision could 
-affect your ability to drive and use machines. If you are affected, do not drive or use machines. </p>         </div>"""   
+affect your ability to drive and use machines. If you are affected, do not drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tepadina"
@@ -130,7 +133,7 @@ TEPADINA is administered by a qualified healthcare professional as an intravenou
 vein) after dilution of the individual vial. Each infusion will last 2-4 hours. </p>
 <p>Frequency of administration 
 You will receive your infusions every 12 or 24 hours. The duration of treatment can last up to 5 days. 
-Frequency of administration and duration of treatment depend on your disease. </p>         </div>"""         
+Frequency of administration and duration of treatment depend on your disease. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -247,7 +250,7 @@ threatening (leukoencephalopathy). </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tepadina"
@@ -263,7 +266,7 @@ Do not freeze. </p>
 <p>After dilution the product is stable for 24 hours when stored at 2 C -8 C and for 4 hours when stored 
 at 25 C. From a microbiological point of view, the product should be used immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -348,7 +351,7 @@ Tel: +46 8 624 00 United Kingdom (Northern Ireland)<br />
 Accord-UK Ltd 
 Tel: +44 (0)1271 385This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -387,7 +390,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -396,7 +401,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -413,7 +419,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -426,7 +432,7 @@ kaldes alkylerende midler. </p>
 <p>TEPADINA bruges til forberedelse af patienter til knoglemarvstransplantation. Det fungerer ved at 
 ødelægge knoglemarvsceller, hvilket muliggør transplantation af nye knoglemarvsceller 
 (hæmatopoietiske progenitorceller). Derved bliver kroppen i stand til at producere sunde blodlegemer. 
-TEPADINA kan anvendes til voksne, børn og unge. </p>         </div>"""   
+TEPADINA kan anvendes til voksne, børn og unge. </p> </div>"""   
           
 
              
@@ -469,7 +475,7 @@ nedfrysning af sæd, inden behandling påbegyndes.  </p>
 <p>Trafik- og arbejdssikkerhed 
 Det er sandsynligt, at visse bivirkninger ved thiotepa, som f.eks. svimmelhed, hovedpine og sløret syn, 
 kan påvirke din evne til at føre motorkøretøj og betjene maskiner. Hvis du bemærker disse 
-bivirkninger, må du ikke føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+bivirkninger, må du ikke føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tepadina"
@@ -482,7 +488,7 @@ TEPADINA indgives af en kvalificeret sundhedperson som en intravenøs infusion (
 efter rekonstitution af den enkelte pose. Hver infusion tager 2-4 timer. </p>
 <p>Indgivelseshyppighed<br />
 Du vil modtage dine infusioner hver 12. eller 24. time. Behandlingen kan vare op til 5 dage. 
-Indgivelseshyppigheden og varigheden af behandlingen afhænger af din sygdom. </p>         </div>"""         
+Indgivelseshyppigheden og varigheden af behandlingen afhænger af din sygdom. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -602,7 +608,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tepadina"
@@ -618,7 +624,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Efter fortynding er lægemidlet stabilt i 24 timer, hvis det opbevares ved 2 °C - 8 °C, og i 4 timer, hvis 
 det opbevares ved 25 °C. Fra et mikrobiologisk synspunkt bør lægemidlet anvendes øjeblikkeligt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -903,7 +909,7 @@ indeholder vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, hvis der er mere, du vil vide. 
 - Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
-indlægsseddel. Se afsnit 4. </p>         </div>"""      
+indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Jyseleca </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ you to perform your normal daily activities, and improve your quality of life. <
 <p>Ulcerative colitis 
 Jyseleca is used to treat adults with ulcerative colitis, an inflammatory disease of the bowel. It can be 
 used if you did not respond well enough or did not tolerate previous therapy. It helps to reduce the 
-signs and symptoms of ulcerative colitis and to reduce your need for steroids. </p>         </div>"""   
+signs and symptoms of ulcerative colitis and to reduce your need for steroids. </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ tools or machines. </p>
 <p>Jyseleca contains lactose 
 Each Jyseleca 100 mg film-coated tablet contains 76 mg of lactose, and each Jyseleca 200 mg 
 film-coated tablet contains 152 mg of lactose. If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jyseleca"
@@ -194,7 +197,7 @@ take a single dose at your usual time.
 * Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Jyseleca 
 If you stop taking Jyseleca, tell your doctor straight away. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -232,7 +235,7 @@ Talk to your doctor if you notice any of the following side effects: </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jyseleca"
@@ -245,7 +248,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. Keep the bottle tightly closed. Do not 
 use this medicine if you notice that the seal over the bottle opening is broken or missing. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -343,7 +346,7 @@ Oy Swedish Orphan Biovitrum Ab
 Tel: +358 201 558 United Kingdom (Northern Ireland) 
 Galapagos Biotech Limited 
 Tel: 0800 072 7This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -382,7 +385,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -391,7 +396,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -408,7 +413,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -428,7 +433,7 @@ dig med at udføre dine normale daglige aktiviteter og forbedre din livskvalitet
 <p>Colitis ulcerosa 
 Jyseleca anvendes til at behandle voksne med colitis ulcerosa, en inflammationssygdom i tarmen. Det 
 kan anvendes, hvis du ikke reagerede godt nok på eller ikke kunne tåle den tidligere behandling. Det 
-hjælper med at mindske tegn og symptomer på colitis ulcerosa og mindske dit behov for steroider. </p>         </div>"""   
+hjælper med at mindske tegn og symptomer på colitis ulcerosa og mindske dit behov for steroider. </p> </div>"""   
           
 
              
@@ -548,7 +553,7 @@ maskiner. </p>
 <p>Jyseleca indeholder lactose 
 Hver Jyseleca 100 mg filmovertrukket tablet indeholder 76 mg lactose, og hver Jyseleca 200 mg 
 filmovertrukket tablet indeholder 152 mg lactose. Hvis lægen har fortalt dig, at du er intolerant over 
-for bestemte sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel. </p>         </div>"""   
+for bestemte sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jyseleca"
@@ -585,7 +590,7 @@ dosis over og tage en enkelt dosis på det sædvanlige tidspunkt. </p>
 </ul>
 <p>Hvis du holder op med at tage Jyseleca 
 Hvis du holder op med at tage Jyseleca, skal du fortælle det til lægen med det samme. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -655,7 +660,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jyseleca"
@@ -668,7 +673,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale pakning for at beskytte mod fugt. Hold beholderen tæt tillukket. Tag ikke 
 lægemidlet, hvis du bemærker, at forseglingen over beholderens åbning er brudt eller mangler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -709,7 +714,7 @@ Belgien </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>
 <p>QR-kode indsættes 
-www.jyseleca.eu </p>         </div>"""      
+www.jyseleca.eu </p> </div>"""      
 
 
 
@@ -748,7 +753,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -757,7 +764,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -774,7 +782,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Jyseleca </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -796,7 +804,7 @@ vida. </p>
 <p>Colite ulcerosa 
 Jyseleca é utilizado para tratar adultos com colite ulcerosa, uma doença inflamatória do intestino. Pode 
 ser utilizado se não tiver respondido bem o suficiente ou não tiver tolerado a terapêutica anterior. 
-Ajuda a reduzir os sinais e sintomas de colite ulcerosa e a reduzir a sua necessidade de esteroides. </p>         </div>"""   
+Ajuda a reduzir os sinais e sintomas de colite ulcerosa e a reduzir a sua necessidade de esteroides. </p> </div>"""   
           
 
              
@@ -916,7 +924,7 @@ nem utilize quaisquer ferramentas ou máquinas. </p>
 <p>Jyseleca contém lactose 
 Cada comprimido revestido por película de 100 mg de Jyseleca contém 76 mg de lactose, e cada 
 comprimido revestido por película de 200 mg de Jyseleca contém 152 mg de lactose. Se foi informado 
-pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar jyseleca"
@@ -954,7 +962,7 @@ Se tomar mais comprimidos do que deveria, fale com o seu médico de imediato. </
 <p>Se parar de tomar Jyseleca 
 Se parar de tomar Jyseleca, fale com o seu médico de imediato. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1025,7 +1033,7 @@ Fale com o seu médico se notar qualquer um dos seguintes efeitos indesejáveis:
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar jyseleca"
@@ -1039,7 +1047,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 utilizar se o selo por cima da abertura do frasco estiver partido ou ausente. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1078,7 +1086,7 @@ Gen. De Wittelaan L11 A3
 2800 Mechelen 
 Bélgica </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

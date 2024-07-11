@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Palynziq </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ phenylketonuria (PKU), a rare inherited disorder that causes phenylalanine from 
 build up in the body. People who have PKU have high levels of phenylalanine and this can lead to 
 serious health problems. Palynziq reduces the levels of phenylalanine in the blood of patients who 
 have PKU whose blood phenylalanine levels cannot be kept below 600 micromol/l by other means 
-such as by diet.  </p>         </div>"""   
+such as by diet.  </p> </div>"""   
           
 
              
@@ -172,7 +175,7 @@ difficulty becoming pregnant if their phenylalanine levels are abnormally low. <
 Palynziq can affect your ability to drive and use machines if you have a severe allergic reaction. </p>
 <p>Palynziq contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take palynziq"
@@ -264,7 +267,7 @@ up for a missed dose. </p>
 <p>If you stop taking Palynziq 
 If you stop taking Palynziq treatment, your blood phenylalanine levels are likely to increase. Talk to 
 your doctor before stopping Palynziq treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ inflammation)
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store palynziq"
@@ -357,7 +360,7 @@ refrigerator. </p>
 cloudy, or if you can see particles. </p>
 <p>Use safe disposal procedures for syringes. Do not throw away any medicines via wastewater or 
 household waste. Ask your pharmacist how to throw away medicines you no longer use. These 
-measures will help protect the environment. </p>         </div>"""      
+measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -389,7 +392,7 @@ County Cork<br />
 Ireland 
 P43 RThis leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -428,7 +431,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -437,7 +442,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -454,7 +460,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -468,7 +474,7 @@ fenylketonuri (PKU), som er en sjælden nedarvet sygdom, der medfører, at fenyl
 kosten ophobes i kroppen. Mennesker, der har PKU, har et højt niveau af fenylalanin, og det kan føre 
 til alvorlige helbredsproblemer. Palynziq sænker niveauet af fenylalanin i blodet hos patienter, der har 
 PKU og hvor niveauet af fenylalanin i blodet ikke kan holdes under 600 mikromol/l med andre midler 
-som f.eks. diæt. </p>         </div>"""   
+som f.eks. diæt. </p> </div>"""   
           
 
              
@@ -563,7 +569,7 @@ Palynziq kan påvirke din evne til at føre motorkøretøj og betjene maskiner, 
 allergisk reaktion. </p>
 <p>Palynziq indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. fyldt injektionssprøjte, dvs. det 
-er i det væsentlige "natriumfrit". </p>         </div>"""   
+er i det væsentlige "natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take palynziq"
@@ -689,7 +695,7 @@ doser Palynziq som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Palynziq 
 Hvis du holder op med behandlingen med Palynziq, vil fenylalaninniveauet i dit blod sandsynligvis 
 stige. Kontakt lægen, før du stopper med Palynziq-behandlingen. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store palynziq"
@@ -785,7 +791,7 @@ for køleskabet, må du ikke lægge det i køleskabet igen. </p>
 væsken er misfarvet eller uklar, eller hvis du kan se partikler. </p>
 <p>Anvend en sikker bortskaffelsesprocedure for injektionssprøjter. Spørg apotekspersonalet, hvordan du 
 skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet 
-eller skraldespanden. </p>         </div>"""      
+eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1116,7 +1122,7 @@ indeholder pegvaliase, bør ændres i overensstemmelse hermed.  </p>
 <p>På baggrund af de videnskabelige konklusioner for pegvaliase er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder pegvaliase, forbliver uændret 
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -1155,7 +1161,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1164,7 +1172,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1181,7 +1190,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Palynziq </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1196,7 +1205,7 @@ acumulação no organismo da fenilalanina proveniente das proteínas nos aliment
 fenilcetonúria apresentam níveis altos de fenilalanina, o que pode resultar em problemas de saúde 
 graves. Palynziq reduz os níveis de fenilalanina no sangue dos doentes com fenilcetonúria e cujos 
 níveis de fenilalanina no sangue não se consigam manter abaixo dos 600 micromol/l através de outros 
-métodos como, por exemplo, a alimentação. </p>         </div>"""   
+métodos como, por exemplo, a alimentação. </p> </div>"""   
           
 
              
@@ -1296,7 +1305,7 @@ Palynziq pode afetar a sua capacidade de conduzir veículos e utilizar máquinas
 alérgica grave. </p>
 <p>Palynziq contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por seringa pré-cheia, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar palynziq"
@@ -1429,7 +1438,7 @@ Palynziq para compensar uma dose em falta. </p>
 <p>Se parar de tomar Palynziq 
 Se parar o tratamento com Palynziq, os seus níveis de fenilalanina no sangue deverão aumentar. Fale 
 com o seu médico antes de parar o tratamento com Palynziq. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1517,7 +1526,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar palynziq"
@@ -1537,7 +1546,7 @@ frigorífico, o medicamento não pode ser colocado novamente no frigorífico. </
 apresenta um aspeto descolorado ou turvo ou partículas visíveis. </p>
 <p>Utilize procedimentos de eliminação seguros para as seringas. Não deite fora quaisquer medicamentos 
 na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos 
-que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1570,7 +1579,7 @@ Irlanda
 P43 R 
 Este folheto foi revisto pela última vez em MM/YYYY. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

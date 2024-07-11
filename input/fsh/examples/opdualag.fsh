@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Opdualag </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ body. Nivolumab attaches to a target protein called PD 1. Relatlimab attaches to
 LAG-3. PD 1 and LAG-3 can switch off the activity of T cells (a type of white blood cell that forms part of the 
 immune system, the body s natural defences). By attaching to the two proteins, nivolumab and 
 relatlimab block their actions and prevent them from switching off your T cells. This helps increase 
-the T cell activity against the melanoma cancer cells. </p>         </div>"""   
+the T cell activity against the melanoma cancer cells. </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ performing these activities until you are sure that Opdualag does not adversely 
 <p>Patient card 
 You will also find key messages from this package leaflet on the patient card you have been given by 
 your doctor. It is important that you keep this patient card at all times and show it to your partner or 
-caregivers. </p>         </div>"""   
+caregivers. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opdualag"
@@ -194,7 +197,7 @@ appointment, ask your doctor when to schedule your next dose. </p>
 <p>If you stop using Opdualag 
 Stopping your treatment may stop the effect of the medicine. Do not stop treatment with Opdualag 
 unless you have discussed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -293,7 +296,7 @@ Changes in the results of tests carried out by your doctor may show:
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opdualag"
@@ -310,7 +313,7 @@ Do not freeze.
 Keep the vial in the outer carton in order to protect from light. 
 The unopened vial can be stored at controlled room temperature (up to 25  C) for up to 72 hours. </p>
 <p>Do not store any unused portion of the infusion solution for reuse. Any unused medicine or waste 
-material should be disposed of in accordance with local requirements. </p>         </div>"""      
+material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -435,7 +438,7 @@ Tel: + 371 66164medinfo.latvia@swixxbiopharma.com </p>
 Bristol-Myers Squibb Pharmaceutical Limited 
 Tel: +44 (0)800 731 1medical.information@bms.com </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -474,7 +477,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -483,7 +488,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -500,7 +506,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -517,7 +523,7 @@ kroppen. Nivolumab binder sig til et målprotein, der kaldes PD-1. Relatlimab bi
 målprotein, der kaldes LAG-3. PD-1 og LAG-3 kan slukke for aktiviteten af T-cellerne (en type hvide blodlegemer, der udgør en del 
 af immunsystemet, kroppens naturlige forsvarssystem). Ved at binde sig til de to proteiner blokerer 
 nivolumab og relatlimab deres virkninger og forhindrer dem i at slukke for aktiveringen af dine 
-T-celler. Dette er med til at øge T-celleaktiviteten mod modermærkekræftcellerne. </p>         </div>"""   
+T-celler. Dette er med til at øge T-celleaktiviteten mod modermærkekræftcellerne. </p> </div>"""   
           
 
              
@@ -661,7 +667,7 @@ imidlertid være forsigtig, når du udfører disse aktiviteter, indtil du er sik
 påvirker dig. </p>
 <p>Patientkort 
 Hovedbudskaberne fra denne indlægsseddel står også på det patientkort, som du har fået af din læge. 
-Det er vigtigt, at du altid har patientkortet på dig og viser det til din partner eller omsorgspersoner. </p>         </div>"""   
+Det er vigtigt, at du altid har patientkortet på dig og viser det til din partner eller omsorgspersoner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opdualag"
@@ -686,7 +692,7 @@ glemmer en aftale, skal du bede lægen om at få en ny aftale om behandling. </p
 <p>Hvis du holder op med at tage Opdualag 
 Hvis du stopper behandlingen, kan virkningen af medicinen ophøre. Du må ikke stoppe behandlingen 
 med Opdualag, medmindre du har aftalt det med lægen. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -890,7 +896,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opdualag"
@@ -908,7 +914,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
 Det uåbnede hætteglas kan opbevares ved stuetemperaturer (op til 25 °C) i op til 72 timer. </p>
 <p>Eventuelle rester af infusionsvæsken må ikke gemmes til senere brug. Spørg apotekspersonalet, 
 hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i 
-afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1142,7 +1148,7 @@ være brugerens ansvar og vil normalt ikke være længere end 24 timer ved 2 °C
 klargøringen har fundet sted under kontrollerede og validerede aseptiske betingelser. </p>
 <p>Bortskaffelse 
 Eventuelle rester af infusionsvæsken må ikke gemmes til senere brug. Ikke anvendt lægemiddel samt 
-affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

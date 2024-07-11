@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Opzelura </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ kinase inhibitors. </p>
 12 years. Vitiligo is an autoimmune disease, where the body s immune system attacks the cells that 
 produce the skin pigment melanin. This causes a loss of melanin, leading to patches of pale pink or 
 white skin. In vitiligo, ruxolitinib reduces the immune system s activity against the melanin-producing 
-cells, allowing the skin to produce pigment and regain its normal colour.  </p>         </div>"""   
+cells, allowing the skin to produce pigment and regain its normal colour.  </p> </div>"""   
           
 
              
@@ -122,7 +125,7 @@ cause skin irritation.
 - Methyl parahydroxybenzoate (E218) and propyl parahydroxybenzoate may cause allergic 
 reactions (possibly delayed). 
 - Butylated hydroxytoluene (E321) may cause local skin reactions (e.g. contact dermatitis), or 
-irritation to the eyes and mucous membranes. </p>         </div>"""   
+irritation to the eyes and mucous membranes. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opzelura"
@@ -156,7 +159,7 @@ Wipe off the excess cream if this occurs. </p>
 If you forget to apply the cream at the scheduled time, do it as soon as you remember, then continue 
 your normal dosing schedule. However, if the next scheduled dose is due within 8 hours, skip the 
 missed dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -172,7 +175,7 @@ Common (may affect up to 1 in 10 people)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opzelura"
@@ -185,7 +188,7 @@ expiry date refers to the last day of that month. </p>
 <p>Do not store above 30  C. </p>
 <p>Once the tube has been opened, use the cream within 6 months but not after the expiry date.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -211,7 +214,7 @@ Incyte Biosciences Distribution B.V.
 Paasheuvelweg 1105 BP Amsterdam 
 Netherlands </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -250,7 +253,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -259,7 +264,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -274,7 +280,7 @@ Usage: #inline
 3. Sådan skal du bruge Opzelura 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -288,7 +294,7 @@ januskinasehæmmere. </p>
 unge fra 12 år. Vitiligo er en autoimmun sygdom, hvor kroppens immunforsvar angriber de celler, der 
 producerer hudpigmentet melanin. Dette medfører tab af melanin, så der opstår pletter af svagt lyserød 
 eller hvid hud. Ruxolitinib virker mod vitiligo ved at reducere immunforsvarets aktivitet mod de 
-melaninproducerende celler, så huden kan producere pigment og genvinde sin normale farve. </p>         </div>"""   
+melaninproducerende celler, så huden kan producere pigment og genvinde sin normale farve. </p> </div>"""   
           
 
              
@@ -332,7 +338,7 @@ irritation af huden.
 - Methylparahydroxybenzoat (E218) og propylparahydroxybenzoat kan give allergiske reaktioner 
 (kan optræde efter behandlingen). 
 - Butylhydroxytoluen (E321) kan give lokalt hududslæt (f.eks. kontakteksem) og irritation af øjne 
-og slimhinder. </p>         </div>"""   
+og slimhinder. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opzelura"
@@ -366,7 +372,7 @@ Tør den overskydende creme af, hvis dette sker. </p>
 Hvis du glemmer at påføre cremen på det planlagte tidspunkt, skal du gøre det, så snart du kommer i 
 tanke om det. Fortsæt derefter med den normale plan. Hvis der er mindre end 8 timer til den næste 
 planlagte dosis, skal du dog springe den glemte dosis over. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -383,7 +389,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opzelura"
@@ -396,7 +402,7 @@ sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Når tuben er åbnet, skal cremen bruges inden for 6 måneder, dog ikke senere end udløbsdatoen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toiletter eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toiletter eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -425,7 +431,7 @@ Paasheuvelweg 1105 BP Amsterdam
 Holland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -464,7 +470,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -473,7 +481,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -490,7 +499,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Opzelura </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -505,7 +514,7 @@ adolescentes a partir dos 12 anos de idade. O vitiligo é uma doença autoimune,
 imunitário do corpo ataca as células que produzem o pigmento da pele melanina. Pode causar uma 
 perda de melanina, levando a zonas de pele rosa pálido ou brancas. No vitiligo, o ruxolitinib reduz a 
 atividade do sistema imunitário contra as células produtoras de melanina, permitindo que a pele 
-produza pigmento e volte a ganhar a sua cor normal.  </p>         </div>"""   
+produza pigmento e volte a ganhar a sua cor normal.  </p> </div>"""   
           
 
              
@@ -550,7 +559,7 @@ de contacto).
 - O para-hidroxibenzoato de metilo (E218) e para-hidroxibenzoato de propilo podem causar reações 
 alérgicas (possivelmente retardadas). 
 - O hidroxitolueno butilado (E321) pode causar reações cutâneas locais (por exemplo dermatite de 
-contacto) ou irritação nos olhos e nas membranas mucosas. </p>         </div>"""   
+contacto) ou irritação nos olhos e nas membranas mucosas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar opzelura"
@@ -584,7 +593,7 @@ Caso se tenha esquecido de aplicar o creme no horário previsto, faça-o assim q
 continue no seu horário de administração habitual. Porém, se a administração da dose agendada 
 seguinte for em menos de 8 horas, ignore a dose em falta. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -601,7 +610,7 @@ Frequentes (podem afetar até 1 em 10 pessoas)
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar opzelura"
@@ -615,7 +624,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Depois da bisnaga ser aberta, use o creme no prazo de 6 meses, mas não após o prazo de validade.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -641,7 +650,7 @@ Incyte Biosciences Distribution B.V.
 Paasheuvelweg 1105 BP Amesterdão 
 Países Baixos </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

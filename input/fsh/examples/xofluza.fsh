@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Xofluza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ spreading in the body and helps shorten the time to recovery from symptoms.  </p
 symptoms for less than 48 hours. </li>
 <li>Xofluza is used to prevent influenza in individuals aged 1 year and above who have been in 
 close contact with someone who is known or suspected to have influenza. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -118,7 +121,7 @@ advice before taking this medicine. </p>
 <p>Xofluza contains lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, talk to your doctor before taking this medicine. </p>
 <p>Xofluza contains sodium </p>
-<p>This medicine contains less than 23 mg of sodium per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
+<p>This medicine contains less than 23 mg of sodium per tablet, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xofluza"
@@ -155,7 +158,7 @@ advice. </p>
 <p>If you forget to take some or all of your dose, take it as soon as possible.  </p>
 <p>For the treatment of influenza, Xofluza should be taken within 48 hours of your flu symptoms starting. </p>
 <p>For the prevention of influenza, Xofluza should be taken within 48 hours of close contact with 
-someone who is known or suspected to have flu. </p>         </div>"""         
+someone who is known or suspected to have flu. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -179,7 +182,7 @@ The following side effects are common (this can affect up to 1 in every 10 patie
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xofluza"
@@ -192,7 +195,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not need any special temperature storage conditions. </p>
 <p>Store in the original package in order to protect from moisture. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -290,7 +293,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -329,7 +332,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -338,7 +343,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -355,7 +361,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -378,7 +384,7 @@ influenzasymptomer i mindre end 48 timer,  </p>
 <p>Xofluza bruges til at forebygge influenza hos personer på 1 år og derover, som har været i tæt 
 kontakt med én, der har eller formodes at have influenza. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -418,7 +424,7 @@ maskiner. </p>
 lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Xofluza indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 23 mg natrium per tablet, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xofluza"
@@ -453,7 +459,7 @@ apotekspersonalet for at få vejledning. </p>
 <p>Ved behandling af influenza, skal Xofluza tages inden for 48 timer efter influenzasymptomerne er 
 startet. </p>
 <p>Ved forebyggelse af influenza, skal Xofluza tages inden for 48 timer efter tæt kontakt med én person, 
-der vides eller mistænkes for at have influenza. </p>         </div>"""         
+der vides eller mistænkes for at have influenza. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -484,7 +490,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xofluza"
@@ -497,7 +503,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -654,7 +660,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se afsnit 4. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -693,7 +699,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -702,7 +710,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -719,7 +728,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Xofluza </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -742,7 +751,7 @@ tenham sintomas de gripe há menos de 48 horas. </p>
 <p>Xofluza é utilizado para prevenir a gripe em indivíduos com idade igual ou superior a 1 ano que 
 tenham estado em contacto próximo com alguém que se saiba, ou se suspeite, ter gripe. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -780,7 +789,7 @@ tomar este medicamento. </p>
 alguns açúcares, contacte-o antes de tomar este medicamento. </p>
 <p>Xofluza contém sódio </p>
 <p>Este medicamento contém menos do que 23 mg de sódio por comprimido, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xofluza"
@@ -817,7 +826,7 @@ farmacêutico. </p>
 <p>Para o tratamento da gripe, Xofluza deve ser tomado até 48 horas após o início dos seus sintomas de 
 gripe. </p>
 <p>Para a prevenção da gripe, Xofluza deve ser tomado até 48 horas após o contacto próximo com alguém 
-que se saiba ou se suspeite ter gripe. </p>         </div>"""         
+que se saiba ou se suspeite ter gripe. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -849,7 +858,7 @@ Os efeitos indesejáveis seguintes são frequentes (podem afetar até 1 em cada 
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xofluza"
@@ -863,7 +872,7 @@ após EXP/VAL. O prazo de validade corresponde ao último dia do mês indicado. 
 <p>Conservar na embalagem de origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -998,7 +1007,7 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

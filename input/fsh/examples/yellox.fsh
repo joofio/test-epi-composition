@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Yellox  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yellox contains bromfenac and belongs to a group of medicines called non-steroidal anti-
 inflammatory drugs (NSAIDs). It works by blocking certain substances involved in causing 
 inflammation.<br />
-Yellox is used to reduce eye inflammation following cataract surgery in adults. </p>         </div>"""   
+Yellox is used to reduce eye inflammation following cataract surgery in adults. </p> </div>"""   
           
 
              
@@ -123,7 +126,7 @@ Benzalkonium chloride may be absorbed by soft contact lenses and may change the 
 contact lenses. You should remove contact lenses before using this medicine and put them back minutes afterwards.<br />
 Benzalkonium chloride may also cause eye irritation, especially if you have dry eyes or disorders of 
 the cornea (the clear layer at the front of the eye). If you feel abnormal eye sensation, stinging or pain 
-in the eye after using this medicine, talk to your doctor. </p>         </div>"""   
+in the eye after using this medicine, talk to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yellox"
@@ -167,7 +170,7 @@ forgotten dose.  </p>
 Do not stop using Yellox without speaking to your doctor. </p>
 <p>In rare cases upon withdrawal of Yellox, a flare-up of the inflammatory response, e.g. in the form of 
 retina swelling, due to the cataract operation has been observed. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -191,7 +194,7 @@ Damage of the eye surface, redness of the eye, asthma. </p>
 If you get any side effects, talk to your  doctor  or pharmacist. </p>
 <p>This includes any possible side effects not listed in this leaflet. You can also report side effects directly 
 via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yellox"
@@ -205,7 +208,7 @@ By reporting side effects you can help provide more information on the safety of
 <p>Discard the bottle 4 weeks after first opening to prevent infection even if there is solution remaining. 
 Write the date of opening on the carton label in the space provided. </p>
 <p>Do  not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away of medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away of medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -236,7 +239,7 @@ Chem.-pharm. Fabrik GmbH
 Brunsb tteler Damm 165/13581 Berlin 
 Germany </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -275,7 +278,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -284,7 +289,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -299,7 +305,7 @@ Usage: #inline
 3. Sådan skal du bruge Yellox 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -310,7 +316,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Yellox indeholder bromfenac og tilhører en gruppe lægemidler, der kaldes non-steroide anti-
 inflammatoriske lægemidler (NSAID’er). Det virker ved at blokere visse stoffer, der er involveret i 
 udviklingen af betændelsen.<br />
-Yellox bruges til at reducere øjenbetændelse efter kataraktoperation hos voksne. </p>         </div>"""   
+Yellox bruges til at reducere øjenbetændelse efter kataraktoperation hos voksne. </p> </div>"""   
           
 
              
@@ -358,7 +364,7 @@ Du skal tage kontaktlinserne ud, inden lægemidlet bruges, og vente mindst 15 mi
 kontaktlinserne i igen. 
 Benzalkoniumchlorid kan også give øjenirritation, især hvis du har tørre øjne eller problemer med 
 hornhinderne (det klare lag forrest i øjet). Hvis du har unormale fornemmelser i øjet såsom svie eller 
-smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p>         </div>"""   
+smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yellox"
@@ -406,7 +412,7 @@ bruge en dobbeltdosis som erstatning for den glemte dosis.  </p>
 Du må ikke holde op med at bruge Yellox uden at tale med din læge. </p>
 <p>I sjældne tilfælde er der ved behandlingsophør med Yellox blevet observeret en opblussen af det 
 inflammatoriske respons, f.eks. i form af hævelse af nethinden, efter operation for grå stær. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -431,7 +437,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V.  </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yellox"
@@ -446,7 +452,7 @@ sidste dag i den nævnte måned. </p>
 opbrugt. 
 Skriv datoen for åbning af kartonetiketten i det dertil beregnede område. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -482,7 +488,7 @@ Brunbütteler Damm 165/13581 Berlin
 Tyskland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om Yellox på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu/. </p>         </div>"""      
+http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

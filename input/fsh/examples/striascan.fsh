@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How Striascan is stored  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ feel that the scan would help in finding out more about your condition and decid
 <p>When Striascan is used, you are exposed to small amounts of radioactivity. This exposure is less than in 
 some types of X-ray investigation. Your doctor and the nuclear medicine doctor have considered that the 
 clinical benefit of this procedure with the radiopharmaceutical outweighs the risk of being exposed to 
-these small amounts of radiation. </p>         </div>"""   
+these small amounts of radiation. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ It is considered unlikely that Striascan will affect your ability to drive or to
 <p>Striascan contains alcohol (ethanol): up to 197 mg of alcohol in each dose which is equivalent to 39.5 
 mg/mL (5% by volume). The amount in 5 mL of this medicine is equivalent to 5 mL beer or 2 mL wine. 
 The small amount of alcohol in this medicine will not have any noticeable effects. </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take striascan"
@@ -182,7 +185,7 @@ rid of the medicine. You will need to be careful with the water (urine) that you
 you what to do. This is normal practice with medicines like Striascan. Any ioflupane (123I) which remains 
 in your body will naturally lose its radioactivity. </p>
 <p>If you have any further questions on the use of this medicine, ask your nuclear medicine doctor who 
-supervises the procedure. </p>         </div>"""         
+supervises the procedure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -221,7 +224,7 @@ cancer and hereditary abnormalities.  </p>
 If you get any side effects, talk to your nuclear medicine doctor. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V.<br />
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store striascan"
@@ -236,7 +239,7 @@ on radioactive materials. </p>
 * Do not freeze. </p>
 <p>Do not use this medicine after the expiry date which is stated on the labels after EXP. Hospital staff will 
 ensure that the product is stored and thrown away correctly and not used after the expiry date stated on 
-the label. </p>         </div>"""      
+the label. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ RN 306   Saclay
 B.P. F-91192 Gif-sur-Yvette Cedex 
 FRANCE </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -300,7 +303,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -309,7 +314,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -324,7 +330,7 @@ Usage: #inline
 3. Sådan skal De Striascan bruge 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -367,7 +373,7 @@ træffe beslutning om mulig behandling.  </p>
 <p>Når De får Striascan, eksponeres De for en lille mængde radioaktivitet. Denne eksponering er mindre 
 end under visse former for røntgenundersøgelser. Deres læge og den nuklearmedicinske læge har 
 vurderet, at de kliniske fordele ved denne undersøgelse med det radioaktive lægemiddel, overstiger 
-risikoen ved at blive udsat for disse små mængder stråling. </p>         </div>"""   
+risikoen ved at blive udsat for disse små mængder stråling. </p> </div>"""   
           
 
              
@@ -454,7 +460,7 @@ maskiner. </p>
 (5 volumen%). Mængden i 5 ml af lægemidlet svarer til 5 ml øl eller 2 ml vin. Den lille mængde 
 alkohol, der er i dette lægemiddel, vil ikke have nogen mærkbar effekt. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take striascan"
@@ -488,7 +494,7 @@ kroppen med at slippe af med medicinen. De skal være påpasselig med den urin, 
 forbindelse med vandladning - Deres læge vil fortælle Dem, hvad De skal gøre. Dette er normal 
 praksis for lægemidler som Striascan. Det ioflupan (123I), som forbliver i Deres krop, vil naturligt 
 miste dets radioaktivitet.  </p>
-<p>Spørg den nuklearmedicinske læge, der overvåger undersøgelsen, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg den nuklearmedicinske læge, der overvåger undersøgelsen, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -528,7 +534,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres nuklearmedicinske læge, sy
 apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De<br />
 eller Deres pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store striascan"
@@ -549,7 +555,7 @@ bestemmelser vedrørende radioaktive materialer.  </p>
 </ul>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketterne efter Exp. Hospitalets personale 
 sørger for, at produktet opbevares og bortskaffes korrekt og ikke anvendes efter udløbsdatoen angivet 
-på etiketten. </p>         </div>"""      
+på etiketten. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -586,7 +592,7 @@ hjemmeside.
 <p>Det fuldstændige produktresumé for Striascan er indlagt som et separat dokument i pakningen med det 
 formål at give sundhedspersonalet yderligere videnskabelig og praktisk information om administration 
 og brug af dette radioaktive præparat. 
-Der henvises til produktresuméet. </p>         </div>"""      
+Der henvises til produktresuméet. </p> </div>"""      
 
 
 

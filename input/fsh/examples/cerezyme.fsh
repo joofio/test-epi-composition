@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects. </li>
 <li>How Cerezyme is stored. </li>
 <li>Contents of the pack and other information.  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ body, made of sugar and fat. In Gaucher disease glucosylceramide levels can get 
 <p>Cerezyme is an artificial enzyme called imiglucerase - this can replace the natural enzyme acid 
  -glucosidase which is lacking or not active enough in patients with Gaucher disease. </p>
 <p>The information in this leaflet applies to all patient groups including children, adolescents, adults and 
-the elderly. </p>         </div>"""   
+the elderly. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ pregnancy and breastfeeding is recommended. </p>
 This medicine contains 41 mg sodium (main component of cooking/table salt) per vial. This is 
 equivalent to 2% of the recommended maximum daily dietary intake of sodium for an adult. It is 
 administered in 0.9% sodium chloride intravenous solution. This should be taken into consideration by 
-patients on a controlled sodium diet.  </p>         </div>"""   
+patients on a controlled sodium diet.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cerezyme"
@@ -149,7 +152,7 @@ information about you. </p>
 There are no cases of overdose of Cerezyme reported. </p>
 <p>If you forget to use Cerezyme 
 If you have missed an infusion, please contact your doctor. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -204,7 +207,7 @@ medicines to prevent an allergic reaction (e.g. antihistamines and/or corticoste
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cerezyme"
@@ -221,7 +224,7 @@ It is recommended that Cerezyme is used immediately after it has been mixed with
 mixed solution in the vial cannot be stored and should be promptly diluted in an infusion bag; only the 
 diluted solution can be held for up to 24 hours if it is kept cool (2 C   8 C) and in the dark. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -306,7 +309,7 @@ Swixx Biopharma SIA<br />
 Tel: +371 6 616 47 Lietuva 
 Swixx Biopharma UAB 
 Tel: +370 5 236 91 This leaflet was last revised in:  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -345,7 +348,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -354,7 +359,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -369,7 +375,7 @@ Usage: #inline
 3. Sådan skal du bruge Cerezyme 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -388,7 +394,7 @@ glukosylceramid være for høje. </p>
 <p>Cerezyme er et kunstigt enzym, der kaldes imiglucerase - dette kan erstatte det naturlige enzym 
 β-glucosidasesyre, der mangler eller ikke er aktivt nok hos patienter med Gauchers sygdom. </p>
 <p>Oplysningerne i denne indlægsseddel gælder for alle patientgrupper, inklusive børn, unge, voksne og 
-de ældre. </p>         </div>"""   
+de ældre. </p> </div>"""   
           
 
              
@@ -430,7 +436,7 @@ anvendes med forsigtighed under graviditet og amning. </p>
 Dette lægemiddel indeholder 41 mg natrium (hovedbestanddel i madlavnings-/bordsalt) per hætteglas. 
 Det svarer til 2 % af det maksimalt anbefalede daglige indtag af natrium til en voksen. 
 Det indgives i 0,9 % natriumchlorid infusionsvæske. Dette skal tages i betragtning hos patienter, der er 
-på en kontrolleret natriumdiæt.  </p>         </div>"""   
+på en kontrolleret natriumdiæt.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cerezyme"
@@ -463,7 +469,7 @@ er oplysninger om dig. </p>
 Der er ikke rapporteret tilfælde af overdosering med Cerezyme. </p>
 <p>Hvis du har glemt at få Cerezyme 
 Hvis du har hoppet en infusion over, så kontakt din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -519,7 +525,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cerezyme"
@@ -536,7 +542,7 @@ Det anbefales, at Cerezyme anvendes umiddelbart efter, at det er blevet blandet 
 blandede opløsning i hætteglasset kan ikke opbevares og bør straks fortyndes i en infusionspose. Den 
 fortyndede opløsning kan holde sig op til 24 timer, hvis den opbevares køligt (2°C-8°C) og i mørke. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -662,7 +668,7 @@ anbefales, at den fortyndede opløsning gives inden 3 timer efter rekonstituerin
 det opbevares ved 2°C og 8°C, beskyttet mod lys. Mikrobiologisk sikkerhed er betinget af, at 
 rekonstituering og opløsning er udført aseptisk. </p>
 <p>Cerezyme indeholder ikke konserveringsmidler. Ikke anvendt lægemiddel samt affald heraf bør 
-bortskaffes i overensstemmelse med lokale krav.  </p>         </div>"""      
+bortskaffes i overensstemmelse med lokale krav.  </p> </div>"""      
 
 
 

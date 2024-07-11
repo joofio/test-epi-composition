@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Foclivia </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ ordinary flu but may be more serious. </p>
 <p>It is for use in  to prevent flu caused by the H5N1 type of the virus. </p>
 <p>When a person is given the vaccine, the body s natural defence system (immune system) produces its 
 own protection (antibodies) against the disease. None of the ingredients in the vaccine can cause flu. </p>
-<p>As with all vaccines, Foclivia may not fully protect all persons who are vaccinated. </p>         </div>"""   
+<p>As with all vaccines, Foclivia may not fully protect all persons who are vaccinated. </p> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ Some side effects listed in Section 4.  Possible side effects  may affect your a
 tools or machines.  </p>
 <p>Foclivia contains sodium and potassium 
 Foclivia contains less than 1 mmol sodium (23 mg) and less than 1 mmol of potassium (39 mg) per 
-dose. It is essentially sodium- and potassium-free. </p>         </div>"""   
+dose. It is essentially sodium- and potassium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take foclivia"
@@ -146,7 +149,7 @@ dose. It is essentially sodium- and potassium-free. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor or nurse administers the vaccine in accordance with official recommendations. 
 A dose (0.5 ml) of the vaccine will be injected into the upper arm (deltoid muscle) or upper thigh, 
 depending on the muscle mass. </p>
-<p>A second dose of vaccine should be given after an interval of at least 3 weeks. </p>         </div>"""         
+<p>A second dose of vaccine should be given after an interval of at least 3 weeks. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -258,7 +261,7 @@ than one week (Injection site cellulitis-like reaction). </li>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed 
 in Appendix V. By reporting side effects, you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store foclivia"
@@ -271,7 +274,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2 C - 8 C). Do not freeze. Discard if the vaccine has been frozen. Store in the 
 original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -324,7 +327,7 @@ Netherlands </p>
 This means that for scientific reasons, it has not been possible to obtain complete information on this 
 medicinal product. The European Medicines Agency (EMA) will review any new information on the 
 medicine every year and this leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -363,7 +366,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -372,7 +377,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -389,7 +395,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -405,7 +411,7 @@ symptomerne på almindelig influenza, men de kan være mere alvorlige. </p>
 <p>Vaccinen er til anvendelse til forebyggelse af influenza forårsaget af virustypen H5N1. Efter indsprøjtning af vaccinen vil kroppens naturlige forsvarssystem (immunsystemet) danne sin egen 
 beskyttelse (antistoffer) mod sygdommen. Ingen af stofferne i vaccinen kan give influenza. </p>
 <p>Ligesom med andre vacciner er det ikke sikkert, at Foclivia yder fuld beskyttelse til alle, der får 
-vaccinen. </p>         </div>"""   
+vaccinen. </p> </div>"""   
           
 
              
@@ -465,7 +471,7 @@ Nogle af de bivirkninger, der er omtalt under punkt 4 "Bivirkninger", kan påvir
 motorkøretøj og betjene maskiner.  </p>
 <p>Foclivia indeholder natrium og kalium 
 Foclivia indeholder mindre end 1 mmol natrium (23 mg) og mindre end 1 mmol kalium (39 mg) per 
-dosis. Det er stort set natrium- og kaliumfrit. </p>         </div>"""   
+dosis. Det er stort set natrium- og kaliumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take foclivia"
@@ -475,7 +481,7 @@ dosis. Det er stort set natrium- og kaliumfrit. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen eller sygeplejersken giver vaccinen i overensstemmelse med de officielle retningslinjer. 
 En dosis (0,5 ml) vaccine injiceres i overarmen (deltamusklen) eller øverst på låret afhængig af 
 muskelmassen. </p>
-<p>Der bør gives en ny dosis vaccine efter et interval på mindst 3 uger. </p>         </div>"""         
+<p>Der bør gives en ny dosis vaccine efter et interval på mindst 3 uger. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -667,7 +673,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. De
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store foclivia"
@@ -680,7 +686,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. Skal kasseres, hvis vaccinen har været 
 nedfrosset. Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -758,7 +764,7 @@ oplysninger. </p>
 <li>Spørg lægen eller sundhedspersonalet, hvis der er mere, du vil vide. </li>
 <li>Kontakt lægen eller sundhedspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt her. Se punkt 4. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -797,7 +803,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -806,7 +814,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -823,7 +832,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Foclivia </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -841,7 +850,7 @@ graves. </p>
 <p>Quando uma pessoa recebe a vacina, as defesas naturais do organismo (o sistema imunitário) 
 produzem proteções próprias (anticorpos) contra a doença. Nenhum dos ingredientes na vacina tem 
 a capacidade de provocar a gripe. </p>
-<p>Tal como acontece com todas as vacinas, Foclivia pode não proteger totalmente as pessoas vacinadas. </p>         </div>"""   
+<p>Tal como acontece com todas as vacinas, Foclivia pode não proteger totalmente as pessoas vacinadas. </p> </div>"""   
           
 
              
@@ -902,7 +911,7 @@ Alguns dos efeitos indesejáveis indicados na Secção 4 “Efeitos indesejávei
 a capacidade de condução ou de utilização de ferramentas ou máquinas. </p>
 <p>Foclivia contém sódio e potássio 
 Foclivia contém menos de 1 mmol de sódio (23 mg) e menos de 1 mmol de potássio (39 mg) por dose, 
-sendo essencialmente isenta de sódio e de potássio. </p>         </div>"""   
+sendo essencialmente isenta de sódio e de potássio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar foclivia"
@@ -912,7 +921,7 @@ sendo essencialmente isenta de sódio e de potássio. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico ou enfermeiro administra a vacina de acordo com as recomendações oficiais. 
 Uma dose (0,5 ml) de vacina será injetada no antebraço (músculo deltoide) ou na parte superior da 
 coxa (dependendo da massa muscular). </p>
-<p>Deve administrar-se uma segunda dose da vacina após um intervalo de, pelo menos, 3 semanas. </p>         </div>"""         
+<p>Deve administrar-se uma segunda dose da vacina após um intervalo de, pelo menos, 3 semanas. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1112,7 +1121,7 @@ duração superior a uma semana (reação do tipo celulite no local da injeção
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar foclivia"
@@ -1126,7 +1135,7 @@ a EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 Conservar na embalagem de origem para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1180,7 +1189,7 @@ Países Baixos </p>
 excecionais". Isto significa que não foi possível obter informação completa sobre este medicamento 
 por razões científicas. A Agência Europeia de Medicamentos irá rever, pelo menos uma vez por ano, 
 qualquer nova informação sobre este medicamento e este folheto será atualizado se necessário. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

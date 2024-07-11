@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store OKEDI </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ that are not there, believe things that are not true or feel unusually suspiciou
 <p>OKEDI is intended for patients who show tolerability and effectiveness to oral (e.g. tablets) 
 risperidone. </p>
 <p>OKEDI can help alleviate the symptoms of your disease and stop your symptoms from coming 
-back. </p>         </div>"""   
+back. </p> </div>"""   
           
 
              
@@ -196,7 +199,7 @@ doctor.
 (see section 4 Possible side effects). 
 Driving and using machines 
 Dizziness, tiredness, and vision problems may occur during treatment with OKEDI. Do not 
-drive or use any tools or machines without talking to your doctor first. </p>         </div>"""   
+drive or use any tools or machines without talking to your doctor first. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take okedi"
@@ -227,7 +230,7 @@ do so by your doctor as your symptoms may return.  </p>
 <p>It is important not to miss your appointments when you are supposed to receive your injections 
 of this medicine once every 28 days. If you cannot keep your appointment, make sure to contact 
 your doctor right away to discuss another date when you can come in for your injection.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -359,7 +362,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects, you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store okedi"
@@ -373,7 +376,7 @@ Store below 30 C. Store in the original package in order to protect from moistur
 Use OKEDI immediately after reconstitution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -636,7 +639,7 @@ contains important information for you.
 * This medicine has been prescribed for you only. Do not pass it on to others. It may harm 
 them, even if their signs of illness are the same as yours. 
 * If you get any side effects, talk to your doctor or pharmacist. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -675,7 +678,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -684,7 +689,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -699,7 +705,7 @@ Usage: #inline
 3. Sådan skal du bruge OKEDI 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -714,7 +720,7 @@ eller føler ting, som ikke er der i virkeligheden, tror ting, der ikke er sande
 mistroisk eller forvirret. </p>
 <p>OKEDI er beregnet til patienter, der har vist sig at kunne tåle og have gavn af oral risperidon (f.eks. i 
 tabletform). </p>
-<p>OKEDI kan være med til at lindre symptomerne på din sygdom og forhindre dem i at vende tilbage. </p>         </div>"""   
+<p>OKEDI kan være med til at lindre symptomerne på din sygdom og forhindre dem i at vende tilbage. </p> </div>"""   
           
 
              
@@ -920,7 +926,7 @@ frugtbarheden (se afsnit 4. Bivirkninger). </p>
 </ul>
 <p>Trafik- og arbejdssikkerhed 
 Behandling med OKEDI kan give svimmelhed, træthed og synsproblemer. Du må ikke føre 
-motorkøretøj eller betjene maskiner uden først at tale med din læge. </p>         </div>"""   
+motorkøretøj eller betjene maskiner uden først at tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take okedi"
@@ -955,7 +961,7 @@ får besked på det af lægen, da dine symptomer kan vende tilbage. </p>
 <p>Det er vigtigt, at du møder op for at få den aftalte indsprøjtning med dette lægemiddel hver 28. dag. 
 Kontakt straks lægen, hvis du er forhindret i at møde til den aftalte tid, så I kan finde en anden tid, 
 hvor du kan få din indsprøjtning. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1194,7 +1200,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store okedi"
@@ -1208,7 +1214,7 @@ sprøjteetiketterne efter (EXP). Udløbsdatoen er den sidste dag i den nævnte m
 fugt. </p>
 <p>OKEDI skal anvendes straks efter rekonstitution. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1522,7 +1528,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1561,7 +1567,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1570,7 +1578,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1585,7 +1594,7 @@ Usage: #inline
 3. Como utilizar OKEDI 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar OKEDI 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1600,7 +1609,7 @@ coisas que não existem, acreditar em coisas que não são reais ou sentir uma d
 habitual ou sentir-se confuso. </p>
 <p>OKEDI destina-se a doentes que apresentam tolerabilidade e eficácia à risperidona oral (p. ex., 
 comprimidos). </p>
-<p>OKEDI pode ajudar a aliviar os sintomas da sua doença e impedir que os seus sintomas regressem. </p>         </div>"""   
+<p>OKEDI pode ajudar a aliviar os sintomas da sua doença e impedir que os seus sintomas regressem. </p> </div>"""   
           
 
              
@@ -1812,7 +1821,7 @@ fertilidade (ver secção 4 “Efeitos indesejáveis possíveis"). </p>
 </ul>
 <p>Condução de veículos e utilização de máquinas 
 Podem ocorrer tonturas, cansaço e problemas visuais durante o tratamento com OKEDI. Não 
-conduza ou utilize ferramentas ou máquinas sem falar primeiro com o seu médico. </p>         </div>"""   
+conduza ou utilize ferramentas ou máquinas sem falar primeiro com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar okedi"
@@ -1852,7 +1861,7 @@ médico lhe diga para o fazer, dado que os seus sintomas podem voltar. </p>
 de que contacta imediatamente o seu médico para discutir outra data em que possa ir levar a sua 
 injeção. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2103,7 +2112,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar okedi"
@@ -2119,7 +2128,7 @@ humidade. </p>
 <p>Utilizar OKEDI imediatamente após a reconstituição. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2458,7 +2467,7 @@ ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
 neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

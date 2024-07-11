@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Xiliarx </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ level to rise. The pancreas makes both of these substances. </p>
 Xiliarx works by making the pancreas produce more insulin and less glucagon. This helps to control 
 the blood sugar level. This medicine has been shown to reduce blood sugar, which may help to prevent 
 complications from your diabetes. Even though you are now starting a medicine for your diabetes, it is 
-important that you continue to follow the diet and/or exercise which has been recommended for you. </p>         </div>"""   
+important that you continue to follow the diet and/or exercise which has been recommended for you. </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ Xiliarx contains lactose (milk sugar). If you have been told by your doctor that
 intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Xiliarx contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xiliarx"
@@ -188,7 +191,7 @@ dose at the usual time. If it is almost time for your next dose, skip the dose y
 double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Xiliarx 
 Do not stop taking Xiliarx unless your doctor tells you to. If you have questions about how long to 
-take this medicine, talk to your doctor. </p>         </div>"""         
+take this medicine, talk to your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -226,7 +229,7 @@ red, round spots under the skin's surface or bruising. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xiliarx"
@@ -242,7 +245,7 @@ safety of this medicine. </p>         </div>"""
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -346,7 +349,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu </p>         </div>"""      
+http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -385,7 +388,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -394,7 +399,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -411,7 +417,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -437,7 +443,7 @@ Xiliarx virker ved at få bugspytkirtlen til at producere mere insulin og mindre
 at regulere blodsukkeret. Dette lægemiddel har vist sig at reducere blodsukkerniveauet, og dette kan 
 medføre, at du undgår komplikationer, som opstår på grund af sukkersyge.<br />
 Selvom du nu begynder at tage medicin for din sukkersyge, er det vigtigt, at du følger den diæt 
-og/eller den motionsplan, du har fået anbefalet. </p>         </div>"""   
+og/eller den motionsplan, du har fået anbefalet. </p> </div>"""   
           
 
              
@@ -514,7 +520,7 @@ Xiliarx indeholder lactose (mælkesukker). Kontakt lægen, før du tager dette l
 har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Xilarx indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xiliarx"
@@ -567,7 +573,7 @@ næste dosis til sædvanlig tid. Hvis det næsten er tid til næste dosis, sprin
 Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet.  </p>
 <p>Hvis du holder op med at tage Xiliarx 
 Hold ikke op med at tage Xiliarx, medmindre lægen siger det. Tal med din læge, hvis du har 
-spørgsmål til, hvor længe du skal tage medicinen. </p>         </div>"""         
+spørgsmål til, hvor længe du skal tage medicinen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -627,7 +633,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xiliarx"
@@ -653,7 +659,7 @@ den.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -782,7 +788,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -821,7 +827,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -830,7 +838,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -847,7 +856,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Xiliarx </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -872,7 +881,7 @@ provocando o aumento do nível de açúcar no sangue. O pâncreas produz estas d
 Xiliarx atua estimulando o pâncreas a produzir mais insulina e menos glucagom. Isto ajuda a controlar 
 o nível de açúcar no sangue. Este medicamento provou reduzir o açúcar no sangue, o que pode ajudar 
 a prevenir complicações da diabetes. Mesmo que esteja agora a iniciar um medicamento para a 
-diabetes, é importante que mantenha a dieta e/ou o exercício que lhe foi recomendado. </p>         </div>"""   
+diabetes, é importante que mantenha a dieta e/ou o exercício que lhe foi recomendado. </p> </div>"""   
           
 
              
@@ -945,7 +954,7 @@ Xiliarx contém lactose. Se foi informado pelo seu médico que tem intolerância
 contacte-o antes de tomar este medicamento. </p>
 <p>Xiliarx contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xiliarx"
@@ -998,7 +1007,7 @@ dose seguinte à hora habitual. Se estiver quase na hora de tomar a dose seguint
 Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </p>
 <p>Se parar de tomar Xiliarx 
 Não deixe de tomar Xiliarx a menos que o seu médico lhe dê essa indicação. Fale com o seu médico se 
-tiver dúvidas sobre durante quanto tempo deve tomar este medicamento. </p>         </div>"""         
+tiver dúvidas sobre durante quanto tempo deve tomar este medicamento. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1062,7 +1071,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xiliarx"
@@ -1089,7 +1098,7 @@ deterioração. </p>
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1219,7 +1228,7 @@ Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
 Está disponivel informação pormenorizada sobre este medicamento no sítio da internet da Agência 
-Europeia de Medicamentos: http://www.ema.europa.eu </p>         </div>"""      
+Europeia de Medicamentos: http://www.ema.europa.eu </p> </div>"""      
 
 
 

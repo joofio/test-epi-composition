@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Kaletra</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ with HIV, the virus which causes AIDS.  </p>
 <p>Kaletra contains the active substances lopinavir and ritonavir.  Kaletra is an antiretroviral 
 medicine.  It belongs to a group of medicines called protease inhibitors.</p>
 <p>Kaletra is prescribed for use in combination with other antiviral medicines.  Your doctor will 
-discuss with you and determine which medicines are best for you.</p>         </div>"""   
+discuss with you and determine which medicines are best for you.</p> </div>"""   
           
 
              
@@ -268,7 +271,7 @@ Kaletra contains sodium as saccharin sodium, sodium chloride and sodium citrate,
 harmful to people on a low sodium diet.
 Kaletra contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per 1 ml, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kaletra"
@@ -406,7 +409,7 @@ of resistance to the product.</p>
 <p>If a side effect is preventing you from taking Kaletra as directed tell your doctor right away. </p>
 <p>Always keep enough Kaletra on hand so you don t run out.  When you travel or need to stay in 
 the hospital make sure you will have enough Kaletra to last until you can get a new supply.</p>
-<p>Continue to take this medicine until your doctor tells you otherwise.</p>         </div>"""         
+<p>Continue to take this medicine until your doctor tells you otherwise.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -500,7 +503,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kaletra"
@@ -519,7 +522,7 @@ refrigerator on the package.</p>
 Do not transfer it to any other container. 
 How should I dispose of any unused Kaletra?
 Do not throw away any medicines via wastewater.  Ask your pharmacist how to throw away 
-medicines you no longer use.  These measures will help protect the environment.</p>         </div>"""      
+medicines you no longer use.  These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -618,7 +621,7 @@ AbbVie SIA
 Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in: {MM/YYYY}
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -657,7 +660,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -666,7 +671,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -681,7 +687,7 @@ Usage: #inline
 3. Sådan skal du tage Kaletra
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -703,7 +709,7 @@ Kaletra indeholder de aktive stoffer lopinavir og ritonavir. Kaletra er et antir
 lægemiddel. Det tilhører en gruppe af lægemidler, der kaldes proteasehæmmere.
 
 Kaletra ordineres til brug i kombination med andre antivirale lægemidler. Din læge vil diskutere 
-med dig og afgøre, hvilke lægemidler der er mest velegnede til dig. </p>         </div>"""   
+med dig og afgøre, hvilke lægemidler der er mest velegnede til dig. </p> </div>"""   
           
 
              
@@ -969,7 +975,7 @@ Kaletra indeholder natrium som saccharinnatrium, natriumchlorid og natriumcitrat
 skadeligt for personer på en diæt med lavt natriumindhold.
 Kaletra indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 1 ml, dvs. det er i det væsentlige 
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kaletra"
@@ -1131,7 +1137,7 @@ Sørg altid for at have tilstrækkeligt med Kaletra på lager, så du ikke løbe
 eller skal indlægges på hospital, skal du sørge for at have tilstrækkeligt med Kaletra, indtil du 
 kan få en ny forsyning.
 
-Fortsæt med at tage denne medicin, indtil lægen anbefaler noget andet.</p>         </div>"""         
+Fortsæt med at tage denne medicin, indtil lægen anbefaler noget andet.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1285,7 +1291,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kaletra"
@@ -1311,7 +1317,7 @@ dosis. Hæld den ikke over i en anden beholder.
 Sådan bortskaffer du ubrugt Kaletra
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-153</p>         </div>"""      
+153</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1460,7 +1466,7 @@ medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme s
 du har.
 -
 Kontakt lægen eller apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, 
-eller du får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+eller du får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 

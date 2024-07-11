@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for injecting Plegridy pre-filled syringe  </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Plegridy  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +99,7 @@ numbness in the face, arms or legs </li>
 Plegridy seems to work by stopping the body s immune system from damaging your brain and 
 spinal cord. This can help to reduce the number of relapses that you have and slow down the disabling 
 effects of MS. Treatment with Plegridy can help to prevent you from getting worse, although it will 
-not cure MS. </p>         </div>"""   
+not cure MS. </p> </div>"""   
           
 
              
@@ -169,7 +171,7 @@ feeding. </p>
 <p>Driving and using machines<br />
 Plegridy has no or negligible influence on the ability to drive and use machines. </p>
 <p>Plegridy contains sodium<br />
-This medicine contains less than 1 mmol sodium (23 mg), that is to say it is essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg), that is to say it is essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plegridy"
@@ -212,7 +214,7 @@ You need to inject Plegridy once every 2 weeks. This regular schedule helps to d
 evenly as possible.  </p>
 <p>If you do miss your usual day, inject as soon as you can and carry on as usual. However, do not inject 
 more than once in a 7-day period. Do not use two injections to make up for a missed injection.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -361,7 +363,7 @@ system listed in Appendix V. By reporting side effects you can help provide more
 safety of this medicine. </p>
 <p>In order to improve the traceability of this medicine, your doctor or pharmacist should record the name 
 and the lot number of the product you have been given in your patient file. You may also wish to make 
-a note of these details in case you are asked for this information in the future. </p>         </div>"""      
+a note of these details in case you are asked for this information in the future. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plegridy"
@@ -405,7 +407,7 @@ the syringe away.   </li>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines you no longer use. These measures will help protect the environment. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -510,7 +512,7 @@ Biogen Latvia SIA
 Biogen Idec (Ireland) Limited 
   +44 (0) 1628 50 1This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -549,7 +551,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -560,7 +564,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Sådan injicerer du den fyldte Plegridy-injektionssprøjte </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -577,7 +581,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -608,7 +612,7 @@ synet </li>
 Plegridy synes at virke ved, at det forhindrer kroppens immunsystem i at beskadige hjernen og 
 rygmarven. Det kan være med til at reducere antallet af dine attakker, og det kan forsinke de 
 invaliderende virkninger af MS. Behandling med Plegridy kan være med til at forhindre, at du får det 
-værre, men det vil ikke helbrede din MS. </p>         </div>"""   
+værre, men det vil ikke helbrede din MS. </p> </div>"""   
           
 
              
@@ -684,7 +688,7 @@ under amning. </p>
 Plegridy påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Plegridy indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plegridy"
@@ -728,7 +732,7 @@ behandlingen så jævnt som muligt. </p>
 <p>Hvis du glemmer din sædvanlige dag, skal du injicere en dosis, så snart du kan, og fortsætte som normalt. 
 Du må dog ikke injicere mere end én gang i løbet af en periode på 7 dage. Du må ikke tage to injektioner 
 som erstatning for den glemte injektion. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -878,7 +882,7 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p>
 <p>For at forbedre sporbarheden af dette lægemiddel skal lægen eller apotekspersonalet registrere navn og 
 batchnummer på det produkt, du har fået, i din patientjournal. Du kan eventuelt også selv notere disse 
-oplysninger i tilfælde af, at du skulle blive bedt om at udlevere dem i fremtiden. </p>         </div>"""      
+oplysninger i tilfælde af, at du skulle blive bedt om at udlevere dem i fremtiden. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plegridy"
@@ -924,7 +928,7 @@ køleskab, skal du smide injektionssprøjten væk. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1329,7 +1333,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

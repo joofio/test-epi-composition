@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Xydalba</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ in the layers of flesh below the skin.
 Xydalba works by killing certain bacteria, which can cause serious infections. It kills these bacteria by 
 interfering with the formation of bacterial cell walls.
 If you also have other bacteria that cause your infection, your doctor may decide to treat you with 
-other antibiotics in addition to Xydalba.</p>         </div>"""   
+other antibiotics in addition to Xydalba.</p> </div>"""   
           
 
              
@@ -125,7 +128,7 @@ Xydalba may cause dizziness. Take care with driving and using machines after you
 this medicine.
 Xydalba contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xydalba"
@@ -151,7 +154,7 @@ Tell your doctor or nurse immediately if you are concerned that you may have bee
 Xydalba.
 If you miss a dose of Xydalba
 Tell your doctor or nurse immediately if you are concerned that you are missing the 2nd dose.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -211,7 +214,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xydalba"
@@ -227,7 +230,7 @@ The prepared Xydalba solution for infusion must not be used if there are any par
 cloudy.
 Xydalba is for single use only.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -343,7 +346,7 @@ Tel: + 371 6721 1United Kingdom (Northern Ireland)
 Mercury Pharmaceuticals Limited
 Tel: +44 (0)208 588 9medicalinformation@advanzpharma.com
 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -382,7 +385,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -391,7 +396,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -406,7 +412,7 @@ Usage: #inline
 3. Sådan får du Xydalba 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -420,7 +426,7 @@ infektioner i lagene under huden.  </p>
 <p>Xydalba virker ved at dræbe bestemte bakterier, som forårsager alvorlige infektioner. Den dræber 
 bakterier ved at forstyrre dannelse af bakteriernes cellevæg. </p>
 <p>Hvis der også er andre bakterier, som er skyld i din infektion, skal din læge beslutte, om du skal 
-behandles med andre antibiotika udover Xydalba. </p>         </div>"""   
+behandles med andre antibiotika udover Xydalba. </p> </div>"""   
           
 
              
@@ -475,7 +481,7 @@ får Xydalba. </p>
 du har fået dette lægemiddel. </p>
 <p>Xydalba indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) per dosis, så det er stort set 
-"natrium-frit". </p>         </div>"""   
+"natrium-frit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xydalba"
@@ -507,7 +513,7 @@ meget Xydalba </p>
 <p>Hvis du har glemt at få en dosis Xydalba  </p>
 <p>Fortæl øjeblikkeligt din læge eller sundhedspersonalet, hvis du er bekymret over, at du mangler at få 
 den anden dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -631,7 +637,7 @@ leveren og andre kropsvæv) </p>
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xydalba"
@@ -647,7 +653,7 @@ emballage. </p>
 uklar. </p>
 <p>Xydalba er kun til engangsbrug. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -892,7 +898,7 @@ sprøjtepumpe (ml)
 54,0 </p>
 <p>Bortskaffelse </p>
 <p>Kasser den del af den rekonstituerede opløsning der ikke er anvendt. </p>
-<p>Ikke anvendte lægemidler eller affald heraf bør bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendte lægemidler eller affald heraf bør bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -931,7 +937,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -940,7 +948,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -955,7 +964,7 @@ Usage: #inline
 3. Como utilizar Xydalba 
 4. Efeitos secundários possíveis 
 5. Como conservar Xydalba 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -969,7 +978,7 @@ pele ou das suas camadas mais profundas. </p>
 <p>Xydalba atua por eliminação de certas bactérias, que podem causar infeções graves. Mata essas 
 bactérias interferindo na formação das paredes das células bacterianas. </p>
 <p>Se também tiver outras bactérias que provoquem infeção, o seu médico pode decidir tratá-lo com 
-outros antibióticos além de Xydalba. </p>         </div>"""   
+outros antibióticos além de Xydalba. </p> </div>"""   
           
 
              
@@ -1024,7 +1033,7 @@ Não deverá amamentar enquanto estiver a receber Xydalba. </p>
 recebido este medicamento. </p>
 <p>Xydalba contém sódio </p>
 <p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente ‘isento 
-de sódio’. </p>         </div>"""   
+de sódio’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xydalba"
@@ -1060,7 +1069,7 @@ Xydalba. </p>
 <p>Se falhar uma dose de Xydalba </p>
 <p>Informe de imediato o seu médico ou enfermeiro se falhar a segunda dose. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, informe-se junto do seu médico, 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1185,7 +1194,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também pode comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 relatar efeitos indesejáveis, pode ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xydalba"
@@ -1202,7 +1211,7 @@ a solução estiver turva. </p>
 <p>Xydalba destina-se a uma única utilização. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza.Estas medidas ajudarão a proteger o 
-ambiente.  </p>         </div>"""      
+ambiente.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1337,7 +1346,7 @@ Tel: + 39 06 78 0 </p>
 Mercury Pharmaceuticals Limited 
 Tel: +44 (0)208 588 9medicalinformation@advanzpharma.com </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

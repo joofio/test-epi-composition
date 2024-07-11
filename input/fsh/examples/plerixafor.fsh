@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Plerixafor Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ until your transplant. </p>
 collection, storage and reintroduction (transplantation), </p>
 <p>In adults who have lymphoma (a cancer of the white blood cells) or multiple myeloma (a cancer 
 that affects plasma cells in the bone marrow). </p>
-<p>In children age 1 to less than 18 years of age with lymphoma or solid tumours. </p>         </div>"""   
+<p>In children age 1 to less than 18 years of age with lymphoma or solid tumours. </p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ Plerixafor Accord may cause dizziness and fatigue. Therefore, you should avoid d
 dizzy, tired or unwell. </p>
 <p>Plerixafor Accord contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plerixafor"
@@ -145,7 +148,7 @@ You will receive your first dose 6 to 11 hours before apheresis (collection of y
 <p>How long will Plerixafor Accord be given? 
 Treatment lasts 2 to 4 consecutive days (in some cases up to 7 days), until enough stem cells have 
 been collected for your transplant. In a few cases, enough stem cells may not be collected, and the 
-collection attempt will be stopped. </p>         </div>"""         
+collection attempt will be stopped. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -186,7 +189,7 @@ You may also have an increase in white blood cells count (leucocytosis), in your
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plerixafor"
@@ -199,7 +202,7 @@ the last day of that month.  </p>
 <p>This medicine does not require any special storage conditions  </p>
 <p>After opening the vial, Plerixafor Accord should be used immediately.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ The Netherlands </p>
 Pharmadox Healthcare Limited 
 KW20A Kordin Industrial Park, Paola 
 PLA 3000, Malta </p>
-<p>This leaflet was last revised in  </p>         </div>"""      
+<p>This leaflet was last revised in  </p> </div>"""      
 
 
 
@@ -279,7 +282,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -288,7 +293,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -303,7 +309,7 @@ Usage: #inline
 3. Sådan får du Plerixafor Accord 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -323,7 +329,7 @@ blodstamceller fra patienten med henblik på indsamling, opbevaring og genindfø
 hos voksne, der har lymfom (kræft i de hvide blodlegemer) eller myelomatose (en kræftform, 
 som påvirker plasmacellerne i knoglemarven). 
 − 
-hos børn i alderen 1år til under 18 år, der har lymfom eller faste tumorer. </p>         </div>"""   
+hos børn i alderen 1år til under 18 år, der har lymfom eller faste tumorer. </p> </div>"""   
           
 
              
@@ -368,7 +374,7 @@ Plerixafor Accord kan forårsage svimmelhed og træthed. Du må derfor ikke før
 betjene maskiner, hvis du føler dig svimmel, træt eller utilpas. </p>
 <p>Plerixafor Accord indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plerixafor"
@@ -392,7 +398,7 @@ Du får din første dosis 6 til 11 timer inden opsamling af dine blodstamceller 
 <p>Hvor lang tid gives Plerixafor Accord? 
 Behandlingen varer 2 til 4 dage i træk (i nogle tilfælde op til 7 dage), indtil der er indsamlet nok 
 stamceller til din transplantation. I nogle få tilfælde kan der muligvis ikke indsamles nok stamceller, 
-og forsøget på at indsamle dem vil ophøre. </p>         </div>"""         
+og forsøget på at indsamle dem vil ophøre. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -451,7 +457,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plerixafor"
@@ -464,7 +470,7 @@ sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Plerixafor Accord skal anvendes umiddelbart efter åbning af hætteglasset. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -518,7 +524,7 @@ Tel: +34 93 301 00<br />
 EL 
 Win Medica Pharmaceutical S.A.<br />
 Tel: +30 210 7488  </p>
-<p>Denne indlægsseddel blev senest ændret </p>         </div>"""      
+<p>Denne indlægsseddel blev senest ændret </p> </div>"""      
 
 
 
@@ -557,7 +563,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -566,7 +574,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -581,7 +590,7 @@ Usage: #inline
 3. Como utilizar Plerixafor Accord 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Plerixafor Accord 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -605,7 +614,7 @@ hematopoiéticas para a recolha, armazenamento e reintrodução (transplantaçã
 <li>
 <p>Em crianças com idades entre 1 e menos de 18 anos com linfoma ou tumores sólidos. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -657,7 +666,7 @@ Plerixafor Accord pode causar tonturas e fadiga. Por conseguinte, deverá evitar
 tonturas, se se sentir cansado ou mal disposto. </p>
 <p>Plerixafor Accord contém sódio 
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar plerixafor"
@@ -685,7 +694,7 @@ hematopoiéticas). </p>
 <p>Durante quanto tempo será administrado o Plerixafor Accord? 
 O tratamento dura 2 a 4 dias consecutivos (em alguns casos até 7 dias), até terem sido colhidas células </p>
 <p>estaminais suficientes para o seu transplante. Em alguns casos, poderão não ser colhidas células 
-estaminais suficientes e a tentativa de colheita será parada. </p>         </div>"""         
+estaminais suficientes e a tentativa de colheita será parada. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -733,7 +742,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar plerixafor"
@@ -747,7 +756,7 @@ validade corresponde ao último dia do mês indicado. </p>
 <p>Depois de abrir o frasco para injetáveis, Plerixafor Accord deve ser utilizado imediatamente. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -799,7 +808,7 @@ Tel: +34 93 301 00<br />
 EL 
 Win Medica Pharmaceutical S.A.<br />
 Tel: +30 210 7488  </p>
-<p>Este folheto foi revisto pela última vez em  </p>         </div>"""      
+<p>Este folheto foi revisto pela última vez em  </p> </div>"""      
 
 
 

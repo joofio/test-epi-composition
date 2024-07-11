@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How Luxturna is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ copy of the RPE65 gene. After injection it delivers this gene into the cells of 
 back of the eye that detects light. This enables the retina to produce the proteins needed for vision. The 
 virus used to deliver the gene does not cause disease in humans. </p>
 <p>Luxturna will be given to you only if genetic testing shows that your vision loss is caused by 
-mutations in the RPE65 gene. </p>         </div>"""   
+mutations in the RPE65 gene. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ You may have temporary visual disturbances after receiving Luxturna. Do not driv
 machines until your vision has recovered. Talk to your doctor before resuming these activities. </p>
 <p>Luxturna contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take luxturna"
@@ -166,7 +169,7 @@ taking the medicine without first talking to your doctor. </p>
 As this medicine is given to you by a doctor, it is unlikely that you will be given too much. If it does 
 occur, your doctor will treat the symptoms as necessary. Tell your doctor or nurse if you have any 
 visual problems. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -214,7 +217,7 @@ vision does not return. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store luxturna"
@@ -224,7 +227,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Luxturna will be stored by the healthcare professionals at your healthcare facility. 
 Concentrate and solvent must be stored and transported frozen at  -65  C. Once thawed, the medicine 
 should not be re-frozen and should be left at room temperature (below 25  C). 
-Do not use this medicine after the expiry date which is stated on the label and carton after EXP. </p>         </div>"""      
+Do not use this medicine after the expiry date which is stated on the label and carton after EXP. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -329,7 +332,7 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 This leaflet is available as an audio file and in a large print from the web site: 
 http://www.voretigeneneparvovec.support </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -368,7 +371,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -377,7 +382,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -394,7 +400,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -411,7 +417,7 @@ fungerende kopi af genet RPE65. Når det er blevet indsprøjtet, overføres dett
 nethinden, som er det lag bagest i øjet, der registrerer lys. Dette giver nethinden mulighed for at danne 
 de proteiner, der skal bruges til synet. Den virus, der anvendes til at indføre genet, medfører ikke 
 sygdom hos mennesker. </p>
-<p>Du vil kun få Luxturna, hvis gentest viser, at dit synstab skyldes mutationer i genet RPE65. </p>         </div>"""   
+<p>Du vil kun få Luxturna, hvis gentest viser, at dit synstab skyldes mutationer i genet RPE65. </p> </div>"""   
           
 
              
@@ -492,7 +498,7 @@ Du kan få midlertidige synsforstyrrelser, når du har fået Luxturna. Du må ik
 betjene maskiner, før dit syn igen er normalt. Tal med lægen, inden du genoptager disse aktiviteter. </p>
 <p>Luxturna indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis; dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take luxturna"
@@ -514,7 +520,7 @@ med at tage denne medicin uden først at tale med lægen. </p>
 Da du får denne medicin af en læge, er det usandsynligt, at du vil få for meget. Hvis det sker, vil lægen 
 behandle symptomerne på passende vis. Fortæl det til lægen eller sygeplejersken, hvis du får 
 synsproblemer. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -625,7 +631,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store luxturna"
@@ -635,7 +641,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Luxturna opbevares af sundhedspersonalet på klinikken. 
 Koncentrat og solvens skal opbevares og transporteres nedfrosset ved ≤ -65 ºC. Når lægemidlet er 
 optøet, må det ikke nedfryses igen og skal opbevares ved stuetemperatur (under 25 °C). 
-Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. </p>         </div>"""      
+Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og æsken efter EXP. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -951,7 +957,7 @@ for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for voretigen neparvovec er CHMP af den opfattelse, 
 at benefit/risk-forholdet for lægemidlet/lægemidlerne indeholdende voretigen neparvovec forbliver 
 uændret under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.  </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.  </p> </div>"""      
 
 
 

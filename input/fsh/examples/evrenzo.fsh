@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Evrenzo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ Roxadustat, the active substance in Evrenzo, works by increasing the level of HI
 body which increases the production of red blood cells when oxygen levels are low. By raising HIF 
 levels, the medicine increases the production of red blood cells and raises the levels of haemoglobin 
 (the oxygen-carrying protein in red blood cells). This improves the oxygen supply to your body and 
-may reduce your symptoms of anaemia. </p>         </div>"""   
+may reduce your symptoms of anaemia. </p> </div>"""   
           
 
              
@@ -169,7 +172,7 @@ section 4).   </p>
 Evrenzo contains sugar (lactose), traces of peanut and soya (soya lecithin), and an azo colouring agent 
 (Allura Red AC aluminium lake). If you have been told by your doctor that you have an intolerance to 
 some sugars or are allergic to peanut, soya or azo colouring agents, contact your doctor before taking 
-this medicine.  </p>         </div>"""   
+this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evrenzo"
@@ -219,7 +222,7 @@ soon as possible and take the next dose on the next scheduled day.<br />
 take the next dose on the next scheduled day.  </p>
 <p>If you stop taking Evrenzo 
 Do not stop taking this medicine unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -259,7 +262,7 @@ vascular access to close up or stop working if you are using a fistula or graft 
 If you get any side effects, talk to your doctor, or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evrenzo"
@@ -271,7 +274,7 @@ of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater, or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -374,7 +377,7 @@ Tel: +371 67 619United Kingdom (Northern Ireland)
 Astellas Pharma Co., Limited 
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800783 5This leaflet was last revised in MM/YYYY  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -413,7 +416,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -422,7 +427,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -437,7 +443,7 @@ Usage: #inline
 3. Sådan skal du tage Evrenzo 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -457,7 +463,7 @@ symptomer som træthed, svaghed eller stakåndethed. </p>
 Roxadustat, som er det aktive stof i Evrenzo, øger niveauet af HIF, et stof i kroppen, der øger 
 produktionen af røde blodlegemer, når iltniveauet er lavt. Ved at øge HIF-niveauet øger lægemidlet 
 samtidig produktionen af røde blodlegemer og niveauet af hæmoglobin (det iltbærende protein i røde 
-blodlegemer). Dette forbedrer iltforsyningen til kroppen og kan reducere symptomerne på anæmi. </p>         </div>"""   
+blodlegemer). Dette forbedrer iltforsyningen til kroppen og kan reducere symptomerne på anæmi. </p> </div>"""   
           
 
              
@@ -545,7 +551,7 @@ anfald som bivirkning (se punkt 4).  </p>
 Evrenzo indeholder sukker (lactose), spor af jordnødder og soja (sojalecithin) og et azo-farvestof 
 (Allura Red AC aluminiumlak). Hvis din læge har fortalt dig, at du er allergisk over for visse 
 sukkerarter eller jordnødder, soja eller azo-farvestoffer, skal du kontakte lægen, før du tager dette 
-lægemiddel. </p>         </div>"""   
+lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evrenzo"
@@ -604,7 +610,7 @@ og tag næste dosis på den næste planlagte dag. </p>
 </ul>
 <p>Hvis du holder op med at tage Evrenzo 
 Du må ikke holde op med at tage dette lægemiddel, medmindre din læge siger det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -654,7 +660,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evrenzo"
@@ -666,7 +672,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren e
 den sidste dag i den nævnte måned. 
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. <br />
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -813,7 +819,7 @@ Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
 <p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -852,7 +858,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -861,7 +869,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -876,7 +885,7 @@ Usage: #inline
 3. Como tomar Evrenzo 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Evrenzo 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -897,7 +906,7 @@ Roxadustate, a substância ativa de Evrenzo, leva ao aumento do nível do HIF, u
 corpo que aumenta a produção de glóbulos vermelhos quando os níveis de oxigénio estão baixos. Ao 
 aumentar os níveis do HIF, o medicamento aumenta a produção de glóbulos vermelhos e aumenta os 
 níveis de hemoglobina (a proteína que transporta o oxigénio nos glóbulos vermelhos). Isto melhora o 
-fornecimento de oxigénio no corpo e pode reduzir os sintomas da anemia. </p>         </div>"""   
+fornecimento de oxigénio no corpo e pode reduzir os sintomas da anemia. </p> </div>"""   
           
 
              
@@ -985,7 +994,7 @@ convulsões como efeito indesejável (ver secção 4).   </p>
 Evrenzo contém açúcar (lactose), vestígios de amendoim e de soja (lecitina de soja) e um agente 
 corante do grupo Azo (laca de alumínio Allura Red AC). Se tiver sido informado pelo seu médico que 
 tem intolerância a alguns açúcares ou alergia a amendoins, à soja ou a agentes corantes do grupo azo, 
-contacte o seu médico antes de tomar este medicamento.  </p>         </div>"""   
+contacte o seu médico antes de tomar este medicamento.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar evrenzo"
@@ -1041,7 +1050,7 @@ a dose seguinte no próximo dia agendado. </p>
 <p>Se parar de tomar Evrenzo 
 Não pare de tomar este medicamento sem indicação por parte do seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1086,7 +1095,7 @@ até 1 em 10 pessoas). </li>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis. não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar evrenzo"
@@ -1099,7 +1108,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1238,7 +1247,7 @@ Astellas Pharma Co., Limited
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
 <p>Este folheto foi revisto pela última vez em MM/AAAA  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

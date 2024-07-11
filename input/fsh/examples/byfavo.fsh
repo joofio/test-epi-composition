@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How Byfavo is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byfavo is a medicine that contains the active substance remimazolam. 
 Remimazolam is one of a group of substances known as benzodiazepines. </p>
 <p>Byfavo is a sedative given before a medical test or procedure to make you feel relaxed and sleepy 
-(sedated). </p>         </div>"""   
+(sedated). </p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ Ask your doctor about when you can drive or operate machinery again. </p>
 <p>Byfavo contains dextran 40 for injection<br />
 This medicine contains 79.13 mg of dextran 40 for injection in each vial. Rarely, dextrans can cause 
 severe allergic reactions. If you have breathing difficulty or swelling or you feel faint, get medical help 
-at once.  </p>         </div>"""   
+at once.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take byfavo"
@@ -169,7 +172,7 @@ If you are given too much Byfavo, you may have the following symptoms:</p>
 <li>you may lose consciousness </li>
 </ul>
 <p>Your doctor will know how to treat you. </p>
-<p>Ask your doctor or nurse if you have any questions about the use of this medicine. </p>         </div>"""         
+<p>Ask your doctor or nurse if you have any questions about the use of this medicine. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -198,7 +201,7 @@ If you are given too much Byfavo, you may have the following symptoms:</p>
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store byfavo"
@@ -213,7 +216,7 @@ date refers to the last day of that month. </p>
 <p>From a microbiological point of view, unless the method of opening/reconstitution/dilution precludes 
 the risk of microbial contamination, the product should be used immediately. If not used immediately, 
 in-use storage times and conditions are the responsibility of the user (see SmPC section 6.3). </p>
-<p>Do not use this medicine if you notice visible particulate matter or discolouration. </p>         </div>"""      
+<p>Do not use this medicine if you notice visible particulate matter or discolouration. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ information for you.
 - Keep this leaflet. You may need to read it again.<br />
 - If you have any further questions, ask your doctor or nurse. 
 - If you get any side effects, talk to your doctor or nurse. This includes any possible side effects 
-not listed in this leaflet. See section 4.</p>         </div>"""      
+not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -414,7 +417,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -423,7 +428,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byfavo er et lægemiddel, der indeholder det aktive stof remimazolam. 
 Remimazolam tilhører en gruppe stoffer, der kaldes benzodiazepiner. </p>
 <p>Byfavo er et sedativ (beroligende middel), der gives inden en medicinsk test eller procedure for at gøre 
-patienten afslappet og søvnig (sederet). </p>         </div>"""   
+patienten afslappet og søvnig (sederet). </p> </div>"""   
           
 
              
@@ -515,7 +521,7 @@ helt forsvundet. Spørg lægen, hvornår du kan føre motorkøretøj og betjene 
 <p>Byfavo indeholder dextran 40 til injektion 
 Hvert hætteglas af dette lægemiddel indeholder 79,13 mg dextran 40 til injektion. Dextraner kan i 
 sjældne tilfælde forårsage alvorlige allergiske reaktioner. Hvis du får vejrtrækningsproblemer eller er 
-ved at besvime, skal du straks søge lægehjælp. </p>         </div>"""   
+ved at besvime, skal du straks søge lægehjælp. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take byfavo"
@@ -545,7 +551,7 @@ Hvis du har fået for meget Byfavo, kan du få følgende symptomer:</p>
 <li>bevidsthedstab. </li>
 </ul>
 <p>Lægen ved, hvilken behandling du skal have. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -575,7 +581,7 @@ Hvis du har fået for meget Byfavo, kan du få følgende symptomer:</p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store byfavo"
@@ -591,7 +597,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 /rekonstitutions-/fortyndingsmetoden udelukker risiko for mikrobiel kontamination. Hvis det ikke 
 anvendes straks, er opbevaringstider- og forhold før anvendelse på brugerens ansvar (se pkt. 6.3 i 
 produktresuméet). </p>
-<p>Hvis der ses partikler eller misfarvning, skal lægemidlet kasseres. </p>         </div>"""      
+<p>Hvis der ses partikler eller misfarvning, skal lægemidlet kasseres. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -758,7 +764,7 @@ oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
-nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -797,7 +803,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -806,7 +814,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -823,7 +832,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como é conservado Byfavo </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -834,7 +843,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byfavo é um medicamento que contém a substância ativa remimazolam. 
 O remimazolam pertence a um grupo de substâncias conhecidas como benzodiazepinas. </p>
 <p>Byfavo é um sedativo administrado antes de um exame ou procedimento médico para o fazer sentir-se 
-relaxado e sonolento (sedado). </p>         </div>"""   
+relaxado e sonolento (sedado). </p> </div>"""   
           
 
              
@@ -893,7 +902,7 @@ novo. </p>
 <p>Byfavo contém dextrano 40 para injetáveis 
 Este medicamento contém 79,13 mg de dextrano 40 para injetáveis em cada frasco. Raramente, os 
 dextranos podem causar reações alérgicas graves. Se tiver dificuldade em respirar ou inchaço ou se 
-sente que vai desmaiar, procure ajuda médica imediatamente. </p>         </div>"""   
+sente que vai desmaiar, procure ajuda médica imediatamente. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar byfavo"
@@ -922,7 +931,7 @@ Se lhe for administrado demasiado Byfavo, pode apresentar os seguintes sintomas:
 - sua respiração pode ficar lenta e superficial 
 - pode perder a consciência </p>
 <p>O seu médico saberá como tratá-lo. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -952,7 +961,7 @@ se manifestem em todas as pessoas. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar byfavo"
@@ -968,7 +977,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 risco de contaminação microbiana, o medicamento deve ser utilizado imediatamente. Caso não seja 
 imediatamente utilizado, os tempos e condições de conservação em utilização são da responsabilidade 
 do utilizador (ver secção 6.3 do RCM). </p>
-<p>Não utilize este medicamento se verificar partículas visíveis ou descoloração. </p>         </div>"""      
+<p>Não utilize este medicamento se verificar partículas visíveis ou descoloração. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1067,7 +1076,7 @@ PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

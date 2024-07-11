@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Flebogamma DIF </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -123,7 +126,7 @@ disease causing limb weakness, numbness, pain and fatigue. </p>
 <p>Multifocal motor neuropathy (MMN), a rare disease causing slow progressive asymmetric limb 
 weakness without sensory loss. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -238,7 +241,7 @@ your child can no longer take sweet foods or drinks because they feel sick, vomi
 unpleasant effects such as bloating, stomach cramps or diarrhoea. </p>
 <p>Flebogamma DIF contains sodium </p>
 <p>This medicine contains less than 7.35 mg sodium (main component of cooking/table salt) in 100 ml. 
-This is equivalent to 0.37% of the recommended maximum daily dietary intake of sodium for an adult.  </p>         </div>"""   
+This is equivalent to 0.37% of the recommended maximum daily dietary intake of sodium for an adult.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take flebogamma"
@@ -268,7 +271,7 @@ with your heart or your kidneys. Tell your doctor immediately.  </p>
 </ul>
 <p>Tell your doctor or pharmacist immediately and follow his/her instructions. 
 You must not be given a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ children was higher than in adults. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store flebogamma"
@@ -376,7 +379,7 @@ safety of this medicine. </p>         </div>"""
 solution is cloudy or has deposits. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -561,7 +564,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -600,7 +603,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -609,7 +614,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -624,7 +630,7 @@ Usage: #inline
 3. Sådan skal du bruge Flebogamma DIF 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -680,7 +686,7 @@ tiltagende sygdom, der forårsager svaghed, følelsesløshed, smerter og træthe
 <p>Multifokal motorisk neuropati (MMN), en sjælden sygdom, der forårsager en langsom, 
 tiltagende, asymmetrisk svaghed i lemmerne uden sensorisk tab. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -816,7 +822,7 @@ diarré. </p>
 <p>Flebogamma DIF indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 7,35 mg natrium (hovedkomponenten i madlavnings-
 /bordsalt) pr. 100 ml, svarende til 0,37 % af den anbefalede maksimale daglige indtagelse af natrium 
-for en voksen. </p>         </div>"""   
+for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take flebogamma"
@@ -844,7 +850,7 @@ læge.  </p>
 <p>Hvis du har glemt at bruge Flebogamma DIF  </p>
 <p>Underret straks din læge eller apoteket, og følg deres anvisninger. 
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1046,7 +1052,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store flebogamma"
@@ -1059,7 +1065,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Opløsningen skal være klar eller let opaliserende. Brug ikke lægemidlet, hvis du bemærker, at 
 opløsningen er uklar eller indeholder bundfald. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1260,7 +1266,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Flebogamma DIF til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
-eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store CRYSVITA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -99,7 +102,7 @@ tumours.
 pain and fractures.<br />
 How CRYSVITA works 
 CRYSVITA attaches to FGF23 in the blood which stops FGF23 from working and increases the 
-phosphate levels in the blood so that normal levels of phosphate can be achieved. </p>         </div>"""   
+phosphate levels in the blood so that normal levels of phosphate can be achieved. </p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ It is possible that CRYSVITA could cause dizziness and affect you being able to 
 tools or machines or to drive. If you think you are affected, do not ride a bike, use any tools or machines 
 or drive, and tell your doctor. </p>
 <p>CRYSVITA contains sorbitol<br />
-This medicine contains 45.91 mg of sorbitol in each vial which is equivalent to 45.91 mg/ml.  </p>         </div>"""   
+This medicine contains 45.91 mg of sorbitol in each vial which is equivalent to 45.91 mg/ml.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take crysvita"
@@ -207,7 +210,7 @@ If you think that you have been given too much CRYSVITA, tell your doctor straig
 <p>If you miss a dose of CRYSVITA 
 If a dose is missed, talk to your doctor straight away. The missed dose should be given as soon as 
 possible and your doctor will re-arrange future doses accordingly. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ sensations in the legs especially prior to sleep or at night time)
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store crysvita"
@@ -277,7 +280,7 @@ Do not throw away any medicines via wastewater or household waste. These measure
 the environment. 
 If self-injecting, see step 5 of the  Instructions for Use  in the end of the Package Leaflet for instructions 
 on disposal of unused medicines and supplies. If you have questions on how to throw away medicines 
-you no longer use, ask your healthcare provider or pharmacist. </p>         </div>"""      
+you no longer use, ask your healthcare provider or pharmacist. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -305,7 +308,7 @@ Hildebrandstr. 10-37081 G ttingen
 Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -344,7 +347,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -353,7 +358,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -368,7 +374,7 @@ Usage: #inline
 3. Sådan skal du bruge CRYSVITA 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -417,7 +423,7 @@ knoglesmerter og -brud.  </p>
 </ul>
 <p>Sådan virker CRYSVITA 
 CRYSVITA binder til FGF23 i blodet, hvilket stopper virkningen af FGF23 og øger fosfatniveauerne i 
-blodet, så der kan opnås normale niveauer af fosfat. </p>         </div>"""   
+blodet, så der kan opnås normale niveauer af fosfat. </p> </div>"""   
           
 
              
@@ -518,7 +524,7 @@ Det er muligt, at CRYSVITA kan forårsage svimmelhed og påvirke din evne til at
 værktøj eller maskiner eller føre motorkøretøj. Hvis du mener, at det påvirker dig, må du ikke cykle, 
 betjene værktøj eller maskiner eller føre motorkøretøj, og du skal fortælle det til lægen. </p>
 <p>CRYSVITA indeholder sorbitol 
-Dette lægemiddel indeholder 45,91 mg sorbitol pr. hætteglas, svarende til 45,91 mg/ml. </p>         </div>"""   
+Dette lægemiddel indeholder 45,91 mg sorbitol pr. hætteglas, svarende til 45,91 mg/ml. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take crysvita"
@@ -562,7 +568,7 @@ Hvis du mener, at du har fået for meget CRYSVITA, skal du straks fortælle det 
 <p>Hvis du glemmer en dosis CRYSVITA 
 Hvis der glemmes en dosis, skal du straks kontakte lægen. Den glemte dosis skal gives snarest muligt, 
 og lægen vil omlægge fremtidige doser i henhold hertil. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -675,7 +681,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store crysvita"
@@ -691,7 +697,7 @@ Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet ell
 Hvis du selvinjicerer, henvises til trin 5 i ’Brugsanvisning’ sidst i indlægssedlen for anvisninger 
 vedrørende bortskaffelse af ubrugte lægemidler og udstyr. 
 Hvis du har spørgsmål om, hvordan du skal bortskaffe medicinrester, skal du spørge 
-sundhedspersonalet eller apotekspersonalet. </p>         </div>"""      
+sundhedspersonalet eller apotekspersonalet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -952,7 +958,7 @@ Anvend nyt udstyr til hver injektion. </p>
 <p>Registrer injektionsdatoen og alle de områder, du har injiceret, så du kan bruge et andet sted til den 
 næste injektion. </p>
 <p>Du kan se en video om, hvordan du skal forberede og give injektionen på det følgende link: 
-www.myinject.eu </p>         </div>"""      
+www.myinject.eu </p> </div>"""      
 
 
 

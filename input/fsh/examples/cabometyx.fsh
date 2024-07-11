@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store CABOMETYX </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ medicines, please ask your doctor. </p>
 involved in the growth of cells and the development of new blood vessels that supply them. These 
 proteins can be present in high amounts in cancer cells, and by blocking their action this medicine can 
 slow down the rate at which the tumour grows and help to cut off the blood supply that the cancer 
-needs.  </p>         </div>"""   
+needs.  </p> </div>"""   
           
 
              
@@ -181,7 +184,7 @@ This medicine contains lactose (a type of sugar). If you have been told by your 
 an intolerance to some sugars, talk to your doctor before taking this medicine. </p>
 <p>CABOMETYX contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cabometyx"
@@ -216,7 +219,7 @@ unless you have discussed this with your doctor. </p>
 <p>When this medicine is given in combination with nivolumab, you will first be given nivolumab 
 followed by CABOMETYX. </p>
 <p>Please refer to the package leaflet of nivolumab in order to understand the use of this medicine. If you 
-have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -415,7 +418,7 @@ shortness of breath (pneumothorax) </li>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cabometyx"
@@ -427,7 +430,7 @@ of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -524,7 +527,7 @@ Tel: + 420 242 481 Ireland, United Kingdom (Northern Ireland) </p>
 <p>Ipsen Pharmaceuticals Limited<br />
 Tel: + 44 (0)1753 62 77 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -563,7 +566,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -572,7 +577,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -589,7 +595,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -614,7 +620,7 @@ også læser indlægssedlen for nivolumab. Spørg din læge hvis du har spørgsm
 CABOMETYX blokerer virkningen af proteiner, der kaldes receptor-tyrosinkinaser (RTK'er), og som er 
 involveret i cellevækst og udvikling af nye blodkar til at forsyne celler. Disse proteiner kan være til stede i 
 store mængder i kræftceller, og ved at blokere deres virkning kan dette lægemiddel forsinke hastigheden, 
-med hvilken tumoren vokser, og hjælpe med til at afskære forsyningen af blod, som kræften har brug for.  </p>         </div>"""   
+med hvilken tumoren vokser, og hjælpe med til at afskære forsyningen af blod, som kræften har brug for.  </p> </div>"""   
           
 
              
@@ -705,7 +711,7 @@ Dette lægemiddel indeholder lactose (en sukkerart). Kontakt lægen, før du tag
 har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>CABOMETYX indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cabometyx"
@@ -737,7 +743,7 @@ lægemiddel medmindre du har snakket med din læge omkring det. </p>
 <p>Når dette lægemiddel gives i kombination med nivolumab, vil du først få nivolumab efterfulgt af 
 CABOMETYX.  </p>
 <p>Læs indlægssedlen for nivolumab for at forstå brugen af dette lægemiddel. Spørg din læge hvis du har 
-yderligere spørgsmål til brugen af dette lægemiddel. </p>         </div>"""         
+yderligere spørgsmål til brugen af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1158,7 +1164,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cabometyx"
@@ -1170,7 +1176,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1281,7 +1287,7 @@ Tel: +44 (0)153 62 77<br />
 Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1320,7 +1326,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1329,7 +1337,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1346,7 +1355,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar CABOMETYX </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1371,7 +1380,7 @@ acerca destes medicamentos. </p>
 envolvidas no crescimento de células e no desenvolvimento de novos vasos sanguíneos que as alimentam. 
 Estas proteínas podem estar presentes em quantidades elevadas em células cancerosas e, ao bloquear a sua 
 ação, este medicamento pode abrandar a velocidade a que o tumor cresce e ajudar a cortar o fornecimento de 
-sangue necessário ao cancro.  </p>         </div>"""   
+sangue necessário ao cancro.  </p> </div>"""   
           
 
              
@@ -1476,7 +1485,7 @@ este medicamento contém lactose (um tipo de açúcar). Caso tenha sido informad
 tem intolerância a alguns açúcares, fale com o seu médico antes de tomar este medicamento. </p>
 <p>CABOMETYX contém sódio 
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por comprimido, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar cabometyx"
@@ -1511,7 +1520,7 @@ ser que o tenha discutido com o seu médico. </p>
 <p>Quando este medicamento é administrado em associação com nivolumab, primeiro ser-lhe-á administrado 
 nivolumab, seguido por CABOMETYX. </p>
 <p>Leia o folheto informativo do nivolumab de modo a compreender a utilização deste medicamento. Caso 
-ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1932,7 +1941,7 @@ de ar (pneumotórax) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Anexo V. Ao comunicar efeitos indesejáveis, estará a 
-ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar cabometyx"
@@ -1944,7 +1953,7 @@ ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> 
 VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2053,7 +2062,7 @@ Tel: + 420 242 481 821  </p>
 <p>Tel:  44 (0)1753 62 77  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

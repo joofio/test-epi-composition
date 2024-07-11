@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store MYLOTARG </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ certain cancer cells.  </p>
 <p>MYLOTARG is used to treat a certain type of blood cancer called acute myeloid leukaemia (AML) in which 
 the bone marrow makes abnormal white blood cells. MYLOTARG is intended for the treatment of AML for 
 patients aged 15 years and above who have not tried other treatments. MYLOTARG is not for use in patients 
-with a type of cancer called acute promyelocytic leukaemia (APL). </p>         </div>"""   
+with a type of cancer called acute promyelocytic leukaemia (APL). </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ If you feel unusually tired, dizzy or have a headache (these are very common sid
 you should not drive or use machines.  </p>
 <p>MYLOTARG contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say it is essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mylotarg"
@@ -150,7 +153,7 @@ MYLOTARG if you have certain side effects.
 treatment. 
   Before you receive MYLOTARG, you will be given some medicines to help reduce symptoms such as 
 fever and chills, known as infusion reactions, during or shortly after the MYLOTARG infusion. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -236,7 +239,7 @@ may also include feeling sick (nausea) and/or vomiting.  </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mylotarg"
@@ -260,7 +263,7 @@ time required for preparation of the diluted solution, equilibration, if needed,
 maximum time from preparation of the diluted solution through administration should not exceed hours. </p>
 <p>Do not use this medicine if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -354,7 +357,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35 This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -393,7 +396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -402,7 +407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -417,7 +423,7 @@ Usage: #inline
 3. Sådan får du MYLOTARG
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -432,7 +438,7 @@ genkender visse kræftceller.
 MYLOTARG anvendes til behandling af en særlig type blodkræft, der kaldes akut myeloid leukæmi 
 (AML), hvor knoglemarven producerer unormale hvide blodlegemer. MYLOTARG er beregnet til 
 behandling af patienter i alderen fra 15 år og derover, som ikke har prøvet andre behandlinger. 
-MYLOTARG kan ikke bruges til patienter med den type kræft, som hedder promyelocyt leukæmi.</p>         </div>"""   
+MYLOTARG kan ikke bruges til patienter med den type kræft, som hedder promyelocyt leukæmi.</p> </div>"""   
           
 
              
@@ -489,7 +495,7 @@ Hvis du føler dig usædvanligt træt, svimmel eller har hovedpine (det er meget
 bivirkninger af MYLOTARG), bør du ikke føre køretøjer eller betjene maskiner. 
 MYLOTARG indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mylotarg"
@@ -507,7 +513,7 @@ du reagerer på behandlingen.
  Inden du får MYLOTARG, får du medicin, der hjælper med at mindske symptomer såsom feber 
 og kuldegysninger, kaldet infusionsreaktioner, under og kort efter MYLOTARG-infusionen.
 Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
-38</p>         </div>"""         
+38</p> </div>"""         
 
         
 * section[=].section[+]
@@ -642,7 +648,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mylotarg"
@@ -669,7 +675,7 @@ om nødvendigt, og administration. Den maksimale tid fra fremstilling af den for
 opløsning til og med administration bør ikke overstige 24 timer.
 Brug ikke lægemidlet, hvis du bemærker et partikelagtigt stof eller misfarvning før indgivelsen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -864,7 +870,7 @@ eller polyætylen.
 MYLOTARG må ikke blandes eller indgives som infusion med andre lægemidler.
 Bortskaffelse
  Der skal anvendes procedurer for korrekt håndtering og bortskaffelse af cytotoksiske 
-lægemidler.</p>         </div>"""      
+lægemidler.</p> </div>"""      
 
 
 
@@ -903,7 +909,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -912,7 +920,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -927,7 +936,7 @@ Usage: #inline
 3. Como MYLOTARG será administrado
 4. Efeitos indesejáveis possíveis
 5. Como conservar MYLOTARG
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -943,7 +952,7 @@ MYLOTARG é utilizado para tratar um determinado tipo de cancro do sangue chamad
 mieloide aguda (LMA), no qual a medula óssea produz glóbulos brancos alterados. MYLOTARG 
 destina-se ao tratamento da LMA em doentes com idade igual ou superior a 15 anos que não tenham 
 recebido outros tratamentos. MYLOTARG não se destina a ser utilizado em doentes com um tipo de 
-cancro chamado leucemia promielocítica aguda (LPA).</p>         </div>"""   
+cancro chamado leucemia promielocítica aguda (LPA).</p> </div>"""   
           
 
              
@@ -1002,7 +1011,7 @@ Caso sinta cansaço fora do normal, tonturas ou dor de cabeça (estes são efeit
 frequentes do MYLOTARG), não deve conduzir ou utilizar máquinas. 
 MYLOTARG contém sódio
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é  praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mylotarg"
@@ -1021,7 +1030,7 @@ indesejáveis e avaliar a sua resposta ao tratamento.
 como febre e arrepios, conhecidos como reações à perfusão, durante ou pouco tempo depois da 
 perfusão de MYLOTARG.
 39
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1156,7 +1165,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mylotarg"
@@ -1185,7 +1194,7 @@ até ao final da administração não deve exceder as 24 horas.
 Não utilize este medicamento se observar qualquer partícula ou alteração de cor antes da 
 administração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1318,7 +1327,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: + 371 670 35 775
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

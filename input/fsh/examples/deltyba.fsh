@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Deltyba </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deltyba contains the active substance delamanid, an antibiotic for the treatment of tuberculosis in the 
 lung caused by bacteria that are not killed by the most commonly used antibiotics to treat tuberculosis. 
 It must always be taken together with other medicines for treating tuberculosis. 
-Deltyba is used in adults, adolescents, children and infants who are weighing at least 10 kg. </p>         </div>"""   
+Deltyba is used in adults, adolescents, children and infants who are weighing at least 10 kg. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ experience side effects that might affect your ability to concentrate and react,
 machines. </p>
 <p>Deltyba 50 mg film-coated tablets contain lactose monohydrate. 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product. </p>         </div>"""   
+before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take deltyba"
@@ -176,7 +179,7 @@ just skip the missed dose. </p>
 <p>If you stop taking Deltyba 
 DO NOT stop taking the tablets unless your doctor tells you to. Stopping too early could allow the 
 bacteria to recover and to become resistant to delamanid. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -228,7 +231,7 @@ after initial improvement during treatment) </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store deltyba"
@@ -240,7 +243,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -333,7 +336,7 @@ Tel: +49 (0)89 206020 This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -372,7 +375,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -381,7 +386,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -398,7 +404,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -410,7 +416,7 @@ Usage: #inline
 på grund af bakterier, der ikke dræbes af de fleste almindeligt anvendte antibiotika, der bruges til at 
 behandle tuberkulose. 
 Det skal altid tages sammen med andre lægemidler til behandling af tuberkulose. 
-Deltyba anvendes til voksne, unge, børn og spædbørn med en legemsvægt på mindst 10 kg. </p>         </div>"""   
+Deltyba anvendes til voksne, unge, børn og spædbørn med en legemsvægt på mindst 10 kg. </p> </div>"""   
           
 
              
@@ -494,7 +500,7 @@ maskiner. Hvis du oplever bivirkninger, der kan påvirke din koncentrations- og 
 undlad at føre motorkøretøj og betjene maskiner. </p>
 <p>Deltyba 50 mg filmovertrukne tabletter indeholder laktosemonohydrat 
 Hvis din læge har fortalt dig, at du lider af intolerans over for visse sukkerarter, skal du kontakte 
-lægen, før du tager dette lægemiddel. </p>         </div>"""   
+lægen, før du tager dette lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take deltyba"
@@ -522,7 +528,7 @@ næste dosis, så spring den manglende dosis over. </p>
 <p>Hvis du holder op med at tage Deltyba 
 Stop ikke med at tage tabletterne, medmindre din læge giver dig besked på det. Hvis du stopper for 
 tidligt med at tage tabletterne, kan bakterierne komme sig og blive resistente over for delamanid. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -631,7 +637,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, der ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store deltyba"
@@ -643,7 +649,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale emballage for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -755,7 +761,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller du 
-får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se pkt. 4. </p>         </div>"""      
+får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se pkt. 4. </p> </div>"""      
 
 
 

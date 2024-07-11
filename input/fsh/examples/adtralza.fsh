@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Adtralza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ IL-13. IL-13 plays a major role in causing the symptoms of atopic dermatitis. </
 atopic dermatitis, also known as atopic eczema. Adtralza may be used with eczema medicines that you 
 apply to the skin or it may be used on its own. </p>
 <p>Using Adtralza for atopic dermatitis can improve your eczema and reduce the related itching and skin 
-pain. </p>         </div>"""   
+pain. </p> </div>"""   
           
 
              
@@ -129,7 +132,7 @@ not do both. </p>
 Adtralza is unlikely to reduce your ability to drive and use machines. </p>
 <p>Adtralza contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 150 mg that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adtralza"
@@ -158,7 +161,7 @@ If you miss injecting a dose at the right time, inject Adtralza as soon as possi
 should be injected at the regular scheduled time. </p>
 <p>If you stop using Adtralza 
 Do not stop using Adtralza without speaking to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -190,7 +193,7 @@ allergic reaction. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adtralza"
@@ -210,7 +213,7 @@ the carton, and use Adtralza within 14 days. Adtralza must not be refrigerated a
 <p>Do not use this medicine if you notice that it is cloudy, discoloured or has particles in it. 
 Do not throw away any medicines via wastewater or household waste. Ask your doctor, pharmacist or 
 nurse how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -296,7 +299,7 @@ LEO Pharma A/S
 Tel: +45 44 94 58 United Kingdom (Northern Ireland) 
 LEO Laboratories Ltd 
 Tel: +44 (0) 1844 347This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -335,7 +338,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -344,7 +349,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -359,7 +365,7 @@ Usage: #inline
 3. Sådan skal du bruge Adtralza 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -374,7 +380,7 @@ navn IL-13. IL-13 spiller en væsentlig rolle ved symptomer på atopisk dermatit
 atopisk dermatitis, også kendt som atopisk eksem. Adtralza kan bruges sammen med medicin mod 
 eksem, som du påfører huden, eller det kan bruges alene. </p>
 <p>Når Adtralza bruges mod atopisk dermatitis, kan det forbedre din eksem og reducere den dermed 
-forbundne kløe og smerter i huden. </p>         </div>"""   
+forbundne kløe og smerter i huden. </p> </div>"""   
           
 
              
@@ -426,7 +432,7 @@ må ikke gøre begge dele. </p>
 Det er usandsynligt, at Adtralza nedsætter evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Adtralza indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 150 mg, dvs. det er i det 
-væsentlige "natriumfrit". </p>         </div>"""   
+væsentlige "natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adtralza"
@@ -461,7 +467,7 @@ Hvis du glemmer at injicere en dosis på det rette tidspunkt, skal du injicere A
 Derefter skal den næste dosis injiceres på det planlagte tidspunkt. </p>
 <p>Hvis du holder op med at bruge Adtralza 
 Du må ikke holde op med at bruge Adtralza uden at have talt med din læge først. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -520,7 +526,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adtralza"
@@ -540,7 +546,7 @@ køleskabet på kartonen og bruge Adtralza inden for 14 dage. Adtralza må ikke 
 køleskabet inden for dette tidsrum. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at det er uklart, misfarvet eller indeholder partikler. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -955,7 +961,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -994,7 +1000,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1003,7 +1011,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1018,7 +1027,7 @@ Usage: #inline
 3. Como utilizar Adtralza 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Adtralza 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1035,7 +1044,7 @@ com dermatite atópica moderada a grave, também conhecida por eczema atópico. 
 utilizado em conjunto com medicamentos para o eczema que aplica na pele ou pode ser utilizado 
 sozinho. </p>
 <p>A utilização de Adtralza para a dermatite atópica pode melhorar o seu eczema e reduzir a comichão e a 
-dor da pele que lhe estão associadas. </p>         </div>"""   
+dor da pele que lhe estão associadas. </p> </div>"""   
           
 
              
@@ -1086,7 +1095,7 @@ Não deverá fazer ambos. </p>
 É improvável que Adtralza reduza a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>Adtralza contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 150 mg, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar adtralza"
@@ -1124,7 +1133,7 @@ seguinte deve ser injetada à hora marcada habitual. </p>
 <p>Se parar de utilizar Adtralza 
 Não pare de utilizar Adtralza sem falar primeiro com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1184,7 +1193,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar adtralza"
@@ -1205,7 +1214,7 @@ durante este período. </p>
 <p>Não utilize este medicamento se verificar que está turvo, descorado ou tem partículas. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico, 
 farmacêutico ou enfermeiro como deitar fora os medicamentos que já não utiliza. Estas medidas 
-ajudarão a proteger o ambiente. </p>         </div>"""      
+ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1318,7 +1327,7 @@ United Kingdom (Northern Ireland)
 LEO Laboratories Ltd 
 Tel: +44 (0) 1844 347 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

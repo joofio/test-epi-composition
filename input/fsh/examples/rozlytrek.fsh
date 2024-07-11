@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rozlytrek </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -96,7 +99,7 @@ likely to result in severe complications (see  How Rozlytrek works  below), and
 <p>How Rozlytrek works </p>
 <p>Rozlytrek works by blocking the action of abnormal enzymes caused by a change in the NTRK or 
 ROS1 genes that make them. The faulty enzymes encourage the cancer cells to grow. </p>
-<p>Rozlytrek may slow down or stop the cancer growing. It may also help to shrink your cancer. </p>         </div>"""   
+<p>Rozlytrek may slow down or stop the cancer growing. It may also help to shrink your cancer. </p> </div>"""   
           
 
              
@@ -199,7 +202,7 @@ resolve. Talk to your doctor or pharmacist about whether it is okay for you to d
 some sugars, contact your doctor before taking this medicine. </li>
 <li>sunset yellow FCF (E110) in 200 mg hard capsules only. This is a colouring agent, which 
 may cause allergic reactions. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rozlytrek"
@@ -239,7 +242,7 @@ next dose at the usual time. </li>
 <p>If you stop taking Rozlytrek </p>
 <p>Do not stop taking this medicine without talking to your doctor first. It is important to take Rozlytrek 
 every day for as long as your doctor prescribes it for you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -314,7 +317,7 @@ may cause damage to organs, including the kidneys, heart, and liver. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rozlytrek"
@@ -329,7 +332,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -433,7 +436,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -472,7 +475,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -481,7 +486,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -498,7 +504,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -552,7 +558,7 @@ nedenfor hvordan Rozlytrek virker),   </p>
 </ul>
 <p>Sådan virker Rozlytrek  </p>
 <p>Rozlytrek virker ved at blokere virkningen af abormale enzymer, forårsaget af en ændring i NTRK- eller ROS1-genet, som laver dem. De fejlbehæftede enzymer får kræftcellerne til at vokse.  </p>
-<p>Rozlytrek kan forsinke eller stoppe væksten. Det kan måske også få tumoren til at blive mindre. </p>         </div>"""   
+<p>Rozlytrek kan forsinke eller stoppe væksten. Det kan måske også få tumoren til at blive mindre. </p> </div>"""   
           
 
              
@@ -729,7 +735,7 @@ skal du kontakte lægen, inden du tager denne medicin. </p>
 <p>sunset yellow FCF (E110) i 200 mg hårde kapsler. Dette er et farvestof sunset yellow FCF 
 (E110), som kan give allergiske reaktioner. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rozlytrek"
@@ -783,7 +789,7 @@ dosis til planlagt tid.  </p>
 <p>Hvis du holder op med at tage Rozlytrek </p>
 <p>Hold ikke op med at tage medicinen, før du har talt med lægen. Det er vigtigt, at du tager Rozlytrek 
 hver dag, så længe lægen ordinerer det. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -951,7 +957,7 @@ bivirkninger. </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V*. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rozlytrek"
@@ -973,7 +979,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. 
 Spørg på apoteket, hvordan du skal komme af med medicinrester. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1113,7 +1119,7 @@ Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplys
 lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 

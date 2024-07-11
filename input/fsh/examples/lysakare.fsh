@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store LysaKare </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ LysaKare contains the active substances arginine and lysine, two different amino
 group of medicines which are used to reduce the side effects of anti-cancer medicine. </p>
 <p>What LysaKare is used for 
 LysaKare is used in adult patients to protect kidneys from unnecessary radiation during treatment with 
-Lutathera (lutetium (177Lu) oxodotreotide), a radioactive medicine used to treat certain tumours. </p>         </div>"""   
+Lutathera (lutetium (177Lu) oxodotreotide), a radioactive medicine used to treat certain tumours. </p> </div>"""   
           
 
              
@@ -113,7 +116,7 @@ Tell your doctor if you are taking, have recently taken, or might take any other
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this medicine. </p>
 <p>Driving and using machines 
-It is considered unlikely that LysaKare will affect your ability to drive or to use machines. </p>         </div>"""   
+It is considered unlikely that LysaKare will affect your ability to drive or to use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lysakare"
@@ -129,7 +132,7 @@ LysaKare will be given in a controlled clinical setting and is provided as a sin
 therefore unlikely that you will receive more of the infusion than you should as your doctor will 
 monitor you during the treatment. However, in the case of an overdose, you will receive the 
 appropriate treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -146,7 +149,7 @@ flushing. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lysakare"
@@ -166,7 +169,7 @@ Do not use this medicine:</p>
 <li>if you notice the solution is cloudy or has deposits. </li>
 <li>if overwrap has been previously opened or damaged. </li>
 <li>if the infusion bag is damaged or leaking  </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ Tel: +46 8 720 58 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -303,7 +306,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -312,7 +317,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -329,7 +335,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -344,7 +350,7 @@ kræft. </p>
 <p>Anvendelse 
 LysaKare anvendes hos voksne patienter til at beskytte nyrerne mod unødig stråling under behandling 
 med Lutathera (lutetium (177Lu)-oxodotreotid), som er et radioaktivt lægemiddel, der anvendes til at 
-behandle visse tumorer. </p>         </div>"""   
+behandle visse tumorer. </p> </div>"""   
           
 
              
@@ -405,7 +411,7 @@ du spørge din læge til råds, før du får dette lægemiddel, da Lutathera ikk
 fordi stråling er farligt for den ufødte baby. Undgå også amning under behandling med Lutathera. </p>
 <p>Trafik- og arbejdssikkerhed 
 Det anses for usandsynligt, at LysaKare vil påvirke din evne til at føre motorkøretøj eller anvende 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lysakare"
@@ -423,7 +429,7 @@ LysaKare vil blive givet under kontrollerede kliniske forhold og leveres i en po
 Det er derfor usandsynligt, at du vil få mere infusion, end du skal have, eftersom din læge vil overvåge 
 dig under behandlingen. Du vil imidlertid modtage passende behandling i tilfælde af, at du får en 
 overdosis. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -469,7 +475,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lysakare"
@@ -489,7 +495,7 @@ Lægemidlet må ikke anvendes:</p>
 <li>hvis du bemærker, at opløsningen er uklar eller indeholder udfældninger. </li>
 <li>hvis yderposen tidligere har været åbnet eller er beskadiget. </li>
 <li>hvis infusionsposen er beskadiget eller utæt. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

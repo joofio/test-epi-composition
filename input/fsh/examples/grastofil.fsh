@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Grastofil </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ prevent infections; </p>
 <p>in patients with advanced HIV infection which will help reduce the risk of infections;  </p>
 <p>before high-dose chemotherapy to make the bone marrow produce more stem cells which can be 
 collected and given back to you after your treatment. These can be taken from you or from a 
-donor. The stem cells will then go back into the bone marrow and produce blood cells.  </p>         </div>"""   
+donor. The stem cells will then go back into the bone marrow and produce blood cells.  </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
 free .  </p>
 <p>Grastofil pre-filled syringe contains dry natural rubber 
 The needle cover of the pre-filled syringe contains dry natural rubber (a derivative of latex) which may 
-cause an allergic reaction. </p>         </div>"""   
+cause an allergic reaction. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take grastofil"
@@ -248,7 +251,7 @@ should, contact your doctor as soon as possible. </p>
 <p>If you forget to use Grastofil </p>
 <p>If you have missed an injection, or injected too little, contact your doctor as soon as possible. </p>
 <p>Do not take a double dose to make up for any missed doses.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -367,7 +370,7 @@ body), see section 2. Reporting of side effects  </p>
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V By reporting side effects you can help provide more information on the safety of this 
-medicine.  </p>         </div>"""      
+medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store grastofil"
@@ -386,7 +389,7 @@ out of the refrigerator for longer than 15 days should not be used and should be
 accordance with local requirements. </p>
 <p>Do not use Grastofil if you notice it is cloudy, or there is discoloration or there are particles in it. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
+dispose of medicines no longer required. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -429,7 +432,7 @@ Rafarm AEBE
   12,  .  , 15451, <br />
  : +30/2106776This leaflet was last revised in MM/YYYY </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -468,7 +471,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -477,7 +482,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -494,7 +500,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -525,7 +531,7 @@ infektioner.
  
 inden højdosis kemoterapi for at få knoglemarven til at producere flere stamceller, som kan 
 høstes og gives tilbage til dig efter behandlingen. Disse kan tages fra dig eller fra en donor. 
-Stamcellerne vil så nå tilbage i knoglemarven og producere blodlegemer. </p>         </div>"""   
+Stamcellerne vil så nå tilbage i knoglemarven og producere blodlegemer. </p> </div>"""   
           
 
              
@@ -610,7 +616,7 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. d
 væsentlige natrium-frit. </p>
 <p>Grastofil fyldt injektionssprøjte indeholder tør naturgummi 
 Kanylehætten på den fyldte injektionssprøjte indeholder tør naturgummi (et latexderivat), som kan 
-forårsage allergiske reaktioner. </p>         </div>"""   
+forårsage allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take grastofil"
@@ -699,7 +705,7 @@ skal du kontakte din læge så hurtigt som muligt. </p>
 <p>Hvis du har sprunget en injektion over eller har indsprøjtet for lidt, skal du kontakte lægen hurtigst </p>
 <p>muligt. </p>
 <p>Du må ikke tage en dobbelt dosis som erstatning for en glemt dosis. </p>
-<p>Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -887,7 +893,7 @@ betændelse i aorta (den store pulsåre, der transporterer blod fra hjertet ud i
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store grastofil"
@@ -907,7 +913,7 @@ henhold til lokale retningslinjer.
 Brug ikke Grastofil, hvis du bemærker, at opløsningen er uklar eller der er misfarvning eller den 
 indeholder partikler. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -983,7 +989,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
  
 Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
-eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 

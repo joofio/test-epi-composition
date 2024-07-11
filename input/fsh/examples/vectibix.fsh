@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vectibix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ monoclonal antibodies. Monoclonal antibodies are proteins, which specifically re
 receptor (EGFR), which is found on the surface of some cancer cells. When growth factors (other 
 body proteins) attach to the EGFR, the cancer cell is stimulated to grow and divide. Panitumumab 
 binds onto the EGFR and prevents the cancer cell from receiving the messages it needs for growth and 
-division. </p>         </div>"""   
+division. </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ the last dose. It is important to tell your doctor if you plan to breast-feed. <
 your ability to do so safely. </p>
 <p>Vectibix contains sodium </p>
 <p>This medicine contains 3.45 mg sodium (main component of cooking/table salt) in each mL unit. This 
-is equivalent to 0.17% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+is equivalent to 0.17% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vectibix"
@@ -157,7 +160,7 @@ the use of anti-cancer medicines. </p>
 <p>Vectibix is administered intravenously (into a vein) with an infusion pump (a device that gives a slow 
 injection). </p>
 <p>The recommended dose of Vectibix is 6 mg/kg (milligrams per kilogram of body weight) given once 
-every two weeks. The treatment will usually be given over a period of approximately 60 minutes. </p>         </div>"""         
+every two weeks. The treatment will usually be given over a period of approximately 60 minutes. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -246,7 +249,7 @@ loosening of the nails (onycholysis); ingrowing nail; excessive hair growth (hir
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vectibix"
@@ -261,7 +264,7 @@ Store in the original carton in order to protect from light. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
 expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -363,7 +366,7 @@ Amgen Switzerland AG R gas fili le
 Tel: +371 257 25United Kingdom (Northern Ireland) 
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -402,7 +405,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -411,7 +416,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -428,7 +434,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -446,7 +452,7 @@ monoklonale antistoffer. Monoklonale antistoffer er proteiner, som specifikt gen
 vækstfaktorreceptor (EGFR), som findes på overfladen af visse cancerceller. Når vækstfaktorer (andre 
 kropsproteiner) fastgør sig til EGFR, stimuleres cancercellen til at vokse og dele sig. Panitumumab 
 binder sig til EGFR og forhindrer cancercellen i at modtage de meddelelser, den skal bruge for at 
-vokse og dele sig. </p>         </div>"""   
+vokse og dele sig. </p> </div>"""   
           
 
              
@@ -516,7 +522,7 @@ sidste dosis. Det er vigtigt, at De fortæller det til Deres læge, hvis De plan
 Deres evne til at gøre dette sikkert. </p>
 <p>Vectibix indeholder natrium </p>
 <p>Dette lægemiddel indeholder 3,45 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. ml. 
-Dette svarer til 0,17 % af den anbefalede maximale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+Dette svarer til 0,17 % af den anbefalede maximale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vectibix"
@@ -528,7 +534,7 @@ anvendelsen af medicin mod cancer. </p>
 <p>Vectibix administreres intravenøst (i en vene) med en infusionspumpe (et apparat, der giver en 
 langsom injektion). </p>
 <p>Den anbefalede dosis Vectibix er 6 mg/kg (milligram pr. kg legemsvægt), som administreres én gang 
-hver anden uge. Behandlingen vil sædvanligvis blive givet over en periode på ca. 60 minutter. </p>         </div>"""         
+hver anden uge. Behandlingen vil sædvanligvis blive givet over en periode på ca. 60 minutter. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -683,7 +689,7 @@ næsetørhed, løsning af neglene (onykolyse), nedgroede negle, kraftig hårvæk
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vectibix"
@@ -698,7 +704,7 @@ Opbevares i den originale karton for at beskytte mod lys. </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og pakningen efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -863,7 +869,7 @@ proteinbindende 0,2 eller 0,22 μm integreret filter gennem en perifer slange el
 Den anbefalede infusionstid er ca. 60 minutter. Doser, der er højere end 1.000 mg, bør infunderes over 
 ca. 90 minutter. </p>
 <p>Der er ikke observeret nogen uforligeligheder mellem Vectibix og 9 mg/ml (0,9 %) 
-natriumchloridinjektionsvæske, opløsning, i polyvinylchloridposer eller polyolefinposer. </p>         </div>"""      
+natriumchloridinjektionsvæske, opløsning, i polyvinylchloridposer eller polyolefinposer. </p> </div>"""      
 
 
 
@@ -902,7 +908,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -911,7 +919,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -928,7 +937,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Vectibix </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -947,7 +956,7 @@ ligam especificamente a outras proteínas específicas existentes no corpo. </p>
 crescimento epidérmico (EGFR), que se encontra na superfície de algumas células cancerosas. Quando 
 os fatores de crescimento (outras proteínas do nosso organismo) se ligam ao EGFR, a célula cancerosa 
 é estimulada a crescer e a dividir-se. Panitumumab liga-se ao EGFR e evita que as células cancerosas 
-recebam as mensagens de que necessitam para crescer e dividirem-se. </p>         </div>"""   
+recebam as mensagens de que necessitam para crescer e dividirem-se. </p> </div>"""   
           
 
              
@@ -1019,7 +1028,7 @@ podem afetar a sua capacidade para o fazer em segurança. </p>
 <p>Vectibix contém sódio </p>
 <p>Este medicamento contém 3,45 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada ml. Isto é equivalente a 0,17% da ingestão diária máxima de sódio recomendada na dieta para um 
-adulto. </p>         </div>"""   
+adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vectibix"
@@ -1032,7 +1041,7 @@ experiência na utilização de medicamentos anticancerígenos. </p>
 que permite uma injeção lenta). </p>
 <p>A dose recomendada para Vectibix é de 6 mg/kg (miligramas por quilograma de peso corporal) 
 administrada uma vez de duas em duas semanas. O tratamento será geralmente administrado durante 
-um período de aproximadamente 60 minutos. </p>         </div>"""         
+um período de aproximadamente 60 minutos. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1192,7 +1201,7 @@ excessivo de pelos (hirsutismo); </p>
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vectibix"
@@ -1208,7 +1217,7 @@ Conservar na embalagem de origem para proteger da luz. </p>
 EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1374,7 +1383,7 @@ perfusão, utilizando um filtro em linha de 0,2 ou 0,22 micrómetros, com baixa 
 recomendado é de, aproximadamente, 60 minutos. Doses superiores a 1.000 mg devem ser 
 perfundidas durante aproximadamente 90 minutos. </p>
 <p>Não foram observadas incompatibilidades entre Vectibix e a solução para injetáveis de cloreto de 
-sódio 9 mg/ml (0,9%) em sacos de cloreto de polivinil ou em sacos de poliolefina. </p>         </div>"""      
+sódio 9 mg/ml (0,9%) em sacos de cloreto de polivinil ou em sacos de poliolefina. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Mysildecard </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 phosphodiesterase type 5 (PDE5) inhibitors.<br />
 Mysildecard brings down blood pressure in the lungs by widening the blood vessels in the lungs.<br />
 Mysildecard is used to treat adults and children and adolescents from 1 to 17 years old with high blood 
-pressure in the blood vessels in the lungs (pulmonary arterial hypertension). </p>         </div>"""   
+pressure in the blood vessels in the lungs (pulmonary arterial hypertension). </p> </div>"""   
           
 
              
@@ -166,7 +169,7 @@ Mysildecard can cause dizziness and can affect vision. You should be aware of ho
 medicine before you drive or use machines. </p>
 <p>Mysildecard contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mysildecard"
@@ -195,7 +198,7 @@ medicine at the usual times. Do not take a double dose to make up for a forgotte
 Suddenly stopping your treatment with Mysildecard may lead to your symptoms getting worse. Do not 
 stop taking Mysildecard unless your doctor tells you to. Your doctor may tell you to reduce the dose 
 over a few days before stopping completely.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -243,7 +246,7 @@ pneumonia and runny nose. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mysildecard"
@@ -255,7 +258,7 @@ this medicine. </p>         </div>"""
 refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage condition. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -356,7 +359,7 @@ Tel: +371 67887United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited<br />
 Tel:  +353 18711This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -395,7 +398,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -404,7 +409,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -421,7 +427,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -433,7 +439,7 @@ Usage: #inline
 fosfodiesterase-type 5- (PDE5)-hæmmere.  </p>
 <p>Mysildecard nedsætter blodtrykket i lungerne ved at udvide blodkarrene i lungerne.  </p>
 <p>Mysildecard anvendes til at behandle voksne, børn og unge fra 1-17 år med for højt blodtryk i 
-blodkarrene i lungerne (pulmonal arteriel hypertension).  </p>         </div>"""   
+blodkarrene i lungerne (pulmonal arteriel hypertension).  </p> </div>"""   
           
 
              
@@ -547,7 +553,7 @@ Mysildecard kan give svimmelhed og kan påvirke synet. Vær opmærksom på, hvor
 medicinen, inden bilkørsel eller betjening af maskiner. </p>
 <p>Mysildecard indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mysildecard"
@@ -576,7 +582,7 @@ for den glemte dosis. </p>
 Hvis De pludseligt stopper med at tage Mysildecard, kan Deres symptomer blive forværret. Stop ikke 
 med at tage Mysildecard, medmindre det sker i samråd med lægen. Lægen vil bede Dem om at 
 nedsætte dosis over nogle få dage, førend De standser behandlingen fuldstændigt. </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -627,7 +633,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mysildecard"
@@ -639,7 +645,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige opbevaringsforhold. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -753,7 +759,7 @@ Tel: +353 18711600  </p>
 <p>Andre informationskilder </p>
 <p>De kan finde yderligere information om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -792,7 +798,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -801,7 +809,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -818,7 +827,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Mysildecard </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -832,7 +841,7 @@ Mysildecard reduz a pressão sanguínea nos pulmões através da dilatação dos
 pulmões.<br />
 Mysildecard é utilizado no tratamento de adultos e de crianças e adolescentes com idades 
 compreendidas entre 1 e 17 anos com pressão sanguínea elevada nos vasos sanguíneos dos pulmões 
-(hipertensão arterial pulmonar). </p>         </div>"""   
+(hipertensão arterial pulmonar). </p> </div>"""   
           
 
              
@@ -900,7 +909,7 @@ tomar outros medicamentos. </p>
 <p> 
 Medicamentos contendo nitratos, ou dadores de óxido nítrico tal como o nitrilo de amilo 
 (“poppers"). Estes medicamentos são habitualmente utilizados para o alívio da angina de peito 
-ou “dor no peito" (ver secção </p>         </div>"""   
+ou “dor no peito" (ver secção </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mysildecard"
@@ -944,7 +953,7 @@ Mysildecard pode provocar tonturas e alterações da visão. Deve estar conscien
 medicamento antes de conduzir ou utilizar máquinas. </p>
 <p>Mysildecard contém sódio 
 Este medicamento contem menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""         
+praticamente “isento de sódio". </p> </div>"""         
 
         
 * section[=].section[+]
@@ -977,7 +986,7 @@ se agravem. Não pare de tomar Mysildecard, a não ser que o seu médico lhe dê
 <p>O seu médico poderá dizer-lhe para reduzir gradualmente a sua dose durante alguns dias antes de parar 
 completamente o tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""      
+farmacêutico. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mysildecard"
@@ -1031,7 +1040,7 @@ náusea, aumento das ereções, pneumonia e nariz a pingar. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1045,7 +1054,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
 
 
 

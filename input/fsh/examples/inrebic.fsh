@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Inrebic </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ bone marrow, in which the marrow is replaced by scar tissue. The abnormal marrow
 produce enough normal blood cells and as a result the spleen becomes significantly enlarged. By 
 blocking the action of certain enzymes (called Janus Associated Kinases), Inrebic can reduce the size 
 of the spleen in patients with myelofibrosis and relieve symptoms such as fever, night sweats, bone 
-pain and weight loss in patients with myelofibrosis. </p>         </div>"""   
+pain and weight loss in patients with myelofibrosis. </p> </div>"""   
           
 
              
@@ -174,7 +177,7 @@ if this medicine passes into breast milk. </p>
 If you feel dizzy, do not drive or operate machines until these side effects have gone away. </p>
 <p>Inrebic contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inrebic"
@@ -203,7 +206,7 @@ dose at your regular time the next day. Do not take a double dose to make up for
 vomited capsule. </p>
 <p>If you stop taking Inrebic 
 Do not stop taking Inrebic unless your doctor tells you to. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -248,7 +251,7 @@ signs of liver, kidney or pancreas problems. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inrebic"
@@ -261,7 +264,7 @@ expiry date refers to the last day of that month. </p>
 <p>Keep the bottle tightly closed in order to protect from moisture. </p>
 <p>This medicine does not require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -296,7 +299,7 @@ Orteliuslaan 13528 BD Utrecht
 Netherlands </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -335,7 +338,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -344,7 +349,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -361,7 +367,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -381,7 +387,7 @@ hvor knoglemarven erstattes af arvæv. Den unormale marv kan ikke længere produ
 normale blodlegemer, og derfor forstørres milten betydeligt. Ved at blokere virkningen af visse 
 enzymer (kaldet janus-associerede kinaser) kan Inrebic reducere størrelsen af milten hos patienter med 
 myelofibrose og lindre symptomer såsom feber, nattesved, knoglesmerter og vægttab hos patienter 
-med myelofibrose. </p>         </div>"""   
+med myelofibrose. </p> </div>"""   
           
 
              
@@ -540,7 +546,7 @@ Hvis du er svimmel, må du ikke føre motorkøretøj eller betjene maskiner, fø
 væk. </p>
 <p>Inrebic indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inrebic"
@@ -577,7 +583,7 @@ dosis over og tage din næste planlagte dosis på dit sædvanlige tidspunkt den 
 tage en dobbeltdosis som erstatning for den glemte eller opkastede kapsel. </p>
 <p>Hvis du holder op med at tage Inrebic 
 Stop ikke behandlingen med Inrebic, medmindre lægen siger, at du skal. 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -674,7 +680,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Bilag V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inrebic"
@@ -687,7 +693,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Hold beholderen tæt tillukket for at beskytte mod fugt. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -737,7 +743,7 @@ hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om 
 og om, hvordan de behandles. </p>
 <p>Detaljerede og opdaterede oplysninger om dette lægemiddel kan også ses ved at scanne QR-koden på 
 den ydre emballage med en smartphone. De samme oplysninger kan ses ved at klikke på følgende 
-URL: www.inrebic-eu-pil.com. </p>         </div>"""      
+URL: www.inrebic-eu-pil.com. </p> </div>"""      
 
 
 
@@ -776,7 +782,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -785,7 +793,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -802,7 +811,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Inrebic </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -822,7 +831,7 @@ medula óssea, em que a medula é substituída por tecido cicatricial. A medula 
 produzir suficientes células sanguíneas normais e como resultado o baço fica significativamente 
 aumentado. Ao bloquear a ação de determinadas enzimas (chamadas de cinases associadas a Janus), 
 Inrebic pode reduzir o tamanho do baço em doentes com mielofibrose e aliviar sintomas como febre, 
-suores noturnos, dor óssea e perda de peso em doentes com mielofibrose. </p>         </div>"""   
+suores noturnos, dor óssea e perda de peso em doentes com mielofibrose. </p> </div>"""   
           
 
              
@@ -981,7 +990,7 @@ uma vez que se desconhece se este medicamento passa para o leite materno. </p>
 Se sentir tonturas, não conduzir ou utilizar máquinas até estes efeitos secundários terem desaparecido. </p>
 <p>Inrebic contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar inrebic"
@@ -1019,7 +1028,7 @@ esqueceu de tomar ou vomitou. </p>
 <p>Se parar de tomar Inrebic 
 Não pare de tomar Inrebic a menos que o seu médico lhe diga para o fazer. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1117,7 +1126,7 @@ de amilase e lipase). Estas podem ser um sinal de problemas no fígado, rins ou 
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar inrebic"
@@ -1131,7 +1140,7 @@ EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de qualquer temperatura especial de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1181,7 +1190,7 @@ Orteliuslaan 13528 BD Utrecht
 Países Baixos </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

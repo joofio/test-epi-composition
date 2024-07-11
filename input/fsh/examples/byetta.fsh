@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Byetta</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ basal or long acting insulins. Your doctor is now prescribing Byetta as an addit
 control your blood sugar. Continue to follow your food and exercise plan.
 You have diabetes because your body does not make enough insulin to control the level of sugar in 
 your blood or if your body is not able to use the insulin properly. The medicine in Byetta helps your 
-body to increase the production of insulin when your blood sugar is high. </p>         </div>"""   
+body to increase the production of insulin when your blood sugar is high. </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ a car or using machines).
 Byetta contains metacresol
 Metacresol may cause allergic reactions.
 Byetta contains sodium
-This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free .</p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take byetta"
@@ -202,7 +205,7 @@ If you stop using Byetta
 If you feel you should stop using this medicine, consult your doctor first. If you stop using this 
 medicine this can affect your blood sugar levels.
 If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or diabetes 
-nurse.</p>         </div>"""         
+nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -278,7 +281,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or diabetes nurse. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
-information on the safety of this medicine.</p>         </div>"""      
+information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store byetta"
@@ -296,7 +299,7 @@ Do not use this medicine if you notice particles in the solution, or if it is cl
 Do not store the pen with the needle attached. If the needle is left on, medicine may leak from the pen 
 or air bubbles may form in the cartridge.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -394,7 +397,7 @@ SIA AstraZeneca Latvija
 Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -433,7 +436,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -442,7 +447,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -457,7 +463,7 @@ Usage: #inline
 3. Sådan skal du tage Byetta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -474,7 +480,7 @@ ekstra medicin for at hjælpe dig med at kontrollere dit blodsukker. Fortsæt me
 motionsplan.
 Du har diabetes, fordi din krop ikke producerer tilstrækkeligt insulin til at kontrollere niveauet af 
 sukker i blodet, eller fordi din krop ikke er i stand til at bruge insulinet rigtigt. Det aktive stof i Byetta 
-hjælper din krop til at øge produktionen af insulin, når dit blodsukker er højt.</p>         </div>"""   
+hjælper din krop til at øge produktionen af insulin, når dit blodsukker er højt.</p> </div>"""   
           
 
              
@@ -557,7 +563,7 @@ Byetta indeholder metacresol
 Metacresol kan fremkalde allergiske reaktioner.
 Byetta indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis. Det vil sige, at det stort 
-set er "natrium-frit".</p>         </div>"""   
+set er "natrium-frit".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take byetta"
@@ -604,7 +610,7 @@ for den glemte dosis.
 Hvis du holder op med at tage Byetta
 Hvis du mener, at du bør holde op med at tage dette lægemiddel, skal du først kontakte lægen. Hvis du 
 holder op med at tage dette lægemiddel, kan det påvirke dit blodsukkerniveau.
-Spørg lægen, apotekspersonalet eller din diabetessygeplejerske, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller din diabetessygeplejerske, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -721,7 +727,7 @@ diabetessygeplejersken. Dette gælder også mulige bivirkninger, som ikke er med
 indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store byetta"
@@ -739,7 +745,7 @@ Tag ikke lægemidlet, hvis du ser partikler i opløsningen, eller hvis den er uk
 Pennen må ikke opbevares med påsat nål. Hvis nåles efterlades påsat, kan der løbe medicin ud af 
 pennen, eller der kan dannes luftbobler i cylinderampullen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1159,7 +1165,7 @@ Sæt den blå hætte på pennen igen før opbevaring.
 
 Kassér nålen i en egnet beholder til spidse genstande, eller som anbefalet af din læge eller 
 diabetessygeplejerske.
-TRIN </p>         </div>"""      
+TRIN </p> </div>"""      
 
 
 
@@ -1198,7 +1204,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1207,7 +1215,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1222,7 +1231,7 @@ Usage: #inline
 3. Como utilizar Byetta
 4. Efeitos indesejáveis possíveis
 5. Como conservar Byetta
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1238,7 +1247,7 @@ medicamento adicional que ajuda a controlar o açúcar no seu sangue. Continue a
 seu plano de exercício.
 Você tem diabetes porque o seu corpo não produz insulina suficiente para controlar o nível de açúcar 
 no seu sangue ou porque o seu corpo não é capaz de utilizar a insulina apropriadamente. Byetta ajuda 
-o seu corpo a produzir mais insulina quando o seu nível de açúcar no sangue está alto.</p>         </div>"""   
+o seu corpo a produzir mais insulina quando o seu nível de açúcar no sangue está alto.</p> </div>"""   
           
 
              
@@ -1326,7 +1335,7 @@ Byetta contém metacresol
 O metacresol pode provocar reações alérgicas.
 Byetta contém sódio
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, i.e. essencialmente “livre de 
-sódio".</p>         </div>"""   
+sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar byetta"
@@ -1377,7 +1386,7 @@ Se parar de utilizar Byetta
 Se achar que deve interromper a administração deste medicamento consulte primeiro o seu médico. Se
 deixar de administrar este medicamento isso pode afetar os seus níveis de açúcar no sangue.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro diabetologista.</p>         </div>"""         
+ou enfermeiro diabetologista.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1497,7 +1506,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro diabetologista. Tam
 comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no
 35
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a
-segurança deste medicamento.</p>         </div>"""      
+segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar byetta"
@@ -1517,7 +1526,7 @@ Não guarde a caneta com a agulha enroscada. Se deixar a agulha enroscada, pode 
 da caneta ou formarem-se bolhas de ar no cartucho.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1652,7 +1661,7 @@ United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

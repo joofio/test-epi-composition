@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Nimenrix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ Nimenrix may be given to adults, adolescents, children and infants over the age 
 Nimenrix helps your body to produce its own protection (antibodies) against the bacteria. These 
 antibodies help protect you against the diseases. </p>
 <p>Nimenrix will only protect against infections caused by the bacteria  Neisseria meningitidis  types A, 
-C, W-135 and Y. </p>         </div>"""   
+C, W-135 and Y. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ Nimenrix is not likely to affect your ability to drive or use machines. However,
 machines if you are feeling unwell. 
 Nimenrix contains sodium 
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nimenrix"
@@ -174,7 +177,7 @@ caused by Neisseria meningitidis types A, C, W-135 and Y </p>
 <p>You will be informed when you or your child should come back for the next injection. If you or your 
 child misses a scheduled injection, it is important that you make another appointment. </p>
 <p>Make sure you or your child finishes the complete vaccination course. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -218,7 +221,7 @@ hard lump. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nimenrix"
@@ -233,7 +236,7 @@ refers to the last day of that month. </p>
 <p>Do not freeze. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35 This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -378,7 +381,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -387,7 +392,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -402,7 +408,7 @@ Usage: #inline
 3. Sådan gives Nimenrix
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -425,7 +431,7 @@ Virkning
 Nimenrix hjælper kroppen med at danne sin egen beskyttelse (antistoffer) mod bakterierne. Disse 
 antistoffer er med til at beskytte dig mod sygdommene.
 Nimenrix beskytter kun mod de infektioner, der forårsages af bakterierne "Neisseria meningitidis" 
-type A, C, W-135 og Y.</p>         </div>"""   
+type A, C, W-135 og Y.</p> </div>"""   
           
 
              
@@ -490,7 +496,7 @@ trafikken. Du må dog ikke køre i trafikken eller arbejde med maskiner, hvis du
 70
 Nimenrix indeholder natrium
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. den er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nimenrix"
@@ -525,7 +531,7 @@ Neisseria meningitidis typerne A, C, W-135 og Y
 Du vil få at vide, hvornår du eller dit barn skal komme igen for at få den næste indsprøjtning. Det er 
 vigtigt, at du laver en ny aftale for dig eller dit barn, hvis der glemmes en planlagt indsprøjtning.
 Sørg for, at du eller dit barn afslutter hele vaccinationsforløbet.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -595,7 +601,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nimenrix"
@@ -616,7 +622,7 @@ Må ikke nedfryses.
 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden.
-72</p>         </div>"""      
+72</p> </div>"""      
         
         
 * section[=].section[+]
@@ -818,7 +824,7 @@ til andre.
 Kontakt lægen eller apotekspersonalet, hvis får bivirkninger, herunder bivirkninger, som ikke er 
 nævnt i denne indlægsseddel. Se punkt 4. Denne indlægsseddel er skrevet til den, der får vaccinen. Da vaccinen kan gives til både voksne og 
 børn, kan du eventuelt læse den for dit barn.
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -857,7 +863,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -866,7 +874,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -881,7 +890,7 @@ Usage: #inline
 3. Como é administrado Nimenrix 
 4. Efeitos indesejáveis possíveis
 5. Como conservar Nimenrix
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -905,7 +914,7 @@ Como Nimenrix atua
 Nimenrix ajuda o seu organismo a produzir a sua própria proteção (anticorpos) contra a bactéria. Estes 
 anticorpos ajudam a proteger contra as doenças.
 Nimenrix apenas pode proteger contra as infeções causadas pela bactéria “Neisseria meningitidis" dos 
-tipos A, C, W-135 e Y.</p>         </div>"""   
+tipos A, C, W-135 e Y.</p> </div>"""   
           
 
              
@@ -972,7 +981,7 @@ Não é provável que Nimenrix afete a sua capacidade de conduzir ou utilizar m�
 conduza ou utilize nenhuma máquina se não estiver a sentir-se bem.
 Nimenrix contém sódio
 Esta vacina contém menos do que 1 mmol de sódio (23 mg) por dose, isto é, é essencialmente “isento 
-de sódio".</p>         </div>"""   
+de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nimenrix"
@@ -1011,7 +1020,7 @@ Se você ou a sua criança faltarem a uma vacinação programada, é importante 
 Certifique-se de que você ou a sua criança completam o esquema de vacinação.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
 farmacêutico.
-73</p>         </div>"""         
+73</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1082,7 +1091,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nimenrix"
@@ -1104,7 +1113,7 @@ Não congelar.
 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1250,7 +1259,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel.: + 371 670 35 775
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

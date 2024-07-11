@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store MIRAPEXIN</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ MIRAPEXIN is used to:
 treat the symptoms of primary Parkinson s disease in adults. It can be used alone or in 
 combination with levodopa (another medicine for Parkinson s disease).
 -
-treat the symptoms of moderate to severe primary Restless Legs Syndrome in adults.</p>         </div>"""   
+treat the symptoms of moderate to severe primary Restless Legs Syndrome in adults.</p> </div>"""   
           
 
              
@@ -183,7 +186,7 @@ MIRAPEXIN can cause hallucinations (seeing, hearing or feeling things that are n
 do not drive or use machines.
 MIRAPEXIN has been associated with sleepiness and episodes of suddenly falling asleep, particularly 
 in patients with Parkinson s disease. If you experience these side effects, you must not drive or operate 
-machinery. You should tell your doctor if this occurs.</p>         </div>"""   
+machinery. You should tell your doctor if this occurs.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mirapexin"
@@ -317,7 +320,7 @@ depressed level of consciousness (e.g. coma)
 If you stop or reduce MIRAPEXIN you may also develop a medical condition called dopamine 
 agonist withdrawal syndrome. The symptoms include depression, apathy, anxiety, fatigue, sweating or 
 pain. If you experience these symptoms you should contact your physician.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -512,7 +515,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mirapexin"
@@ -525,7 +528,7 @@ refers to the last day of that month.
 Do not store above 30 C.
 Store in the original package to protect the tablets from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -637,7 +640,7 @@ Latvijas fili le
 Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -676,7 +679,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -685,7 +690,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -700,7 +706,7 @@ Usage: #inline
 3. Sådan skal du tage Mirapexin
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -714,7 +720,7 @@ dopaminreceptorerne udløser nerveimpulser i hjernen, som hjælper med at kontro
 bevægelser.
 Mirapexin bruges til behandling af voksne patienter med symptomer på Parkinsons sygdom. 
 Mirapexin kan tages alene eller i kombination med levodopa (anden medicin til behandling af 
-Parkinsons sygdom)</p>         </div>"""   
+Parkinsons sygdom)</p> </div>"""   
           
 
              
@@ -818,7 +824,7 @@ Mirapexin kan give hallucinationer (du ser, hører eller føler ting, der ikke e
 dette, må du ikke føre motorkøretøj eller betjene maskiner.
 Mirapexin er blevet forbundet med søvnighed og pludselig indsættende søvn, specielt for 
 Parkinsonpatienter. Du må ikke føre motorkøretøj eller betjene maskiner, hvis du oplever disse 
-bivirkninger. Du bør fortælle det til din læge, hvis dette sker.</p>         </div>"""   
+bivirkninger. Du bør fortælle det til din læge, hvis dette sker.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mirapexin"
@@ -909,7 +915,7 @@ påvirket bevidsthedstilstand, (f.eks. koma)
 Hvis du holder op med eller nedtrapper Mirapexin, kan du også udvikle en sygelig tilstand kaldet 
 dopaminagonist-abstinenssyndrom. Symptomerne omfatter depression, apati, angst, træthed, 
 svedtendens eller smerter. Hvis du får disse symptomer, skal du kontakte din læge.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1032,7 +1038,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mirapexin"
@@ -1046,7 +1052,7 @@ Opbevares i den originale yderpakning for at beskytte mod fugt.
 Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
-85</p>         </div>"""      
+85</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1193,7 +1199,7 @@ Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -1232,7 +1238,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1241,7 +1249,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1256,7 +1265,7 @@ Usage: #inline
 3. Como tomar MIRAPEXIN
 4. Efeitos indesejáveis possíveis
 5. Como conservar MIRAPEXIN
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1274,7 +1283,7 @@ tratar os sintomas da doença de Parkinson em adultos. Este medicamento pode ser
 isoladamente ou em associação com a levodopa (outro medicamento para a doença de 
 Parkinson).
 -
-tratar os sintomas da Síndrome das Pernas Inquietas primária moderada a grave em adultos.</p>         </div>"""   
+tratar os sintomas da Síndrome das Pernas Inquietas primária moderada a grave em adultos.</p> </div>"""   
           
 
              
@@ -1388,7 +1397,7 @@ MIRAPEXIN pode causar alucinações (ver, ouvir ou sentir coisas que não existe
 não conduza nem utilize máquinas.
 MIRAPEXIN tem sido associado a sonolência e ataques súbitos de sono, particularmente em doentes 
 com doença de Parkinson. Se observar estes efeitos indesejáveis, não conduza nem utilize máquinas. 
-Deverá informar o seu médico se tal ocorrer.</p>         </div>"""   
+Deverá informar o seu médico se tal ocorrer.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mirapexin"
@@ -1543,7 +1552,7 @@ Se parar ou reduzir MIRAPEXIN também poderá desenvolver uma afeção médica d
 síndrome de abstinência dos agonistas da dopamina. Os sintomas incluem depressão, apatia, 
 ansiedade, fadiga, sudação ou dor. Se tiver estes sintomas, deve contactar o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1757,7 +1766,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mirapexin"
@@ -1771,7 +1780,7 @@ Não conservar acima de 30 °C.
 Conservar na embalagem original para proteger os comprimidos da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1923,7 +1932,7 @@ United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9620
 Este folheto foi revisto pela última vez em {MM/AAAA}
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Mekinist </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ has been removed by surgery. </p>
 cell lung cancer (NSCLC). </p>
 <p>Both cancers have a particular change (mutation) in a gene called BRAF at the V600 position. This 
 mutation in the gene may have caused the cancer to develop. Your medicine targets proteins made 
-from this mutated gene and slows down or stops the development of your cancer. </p>         </div>"""   
+from this mutated gene and slows down or stops the development of your cancer. </p> </div>"""   
           
 
              
@@ -242,7 +245,7 @@ Discuss with your doctor, nurse or pharmacist if you are unsure about anything. 
 symptoms and treatment situation may also affect your ability to drive or use machines. </p>
 <p>Mekinist contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mekinist"
@@ -297,7 +300,7 @@ pharmacist. Take Mekinist tablets and dabrafenib capsules with you when possible
 show them the Mekinist and dabrafenib pack with each leaflet. 
 * If you get side effects your doctor may decide that you should take lower doses of Mekinist and 
 dabrafenib. Take the doses of Mekinist and dabrafenib exactly as your doctor, nurse or 
-pharmacist tells you. </p>         </div>"""         
+pharmacist tells you. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -539,7 +542,7 @@ palpitations and chest pain.
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mekinist"
@@ -554,7 +557,7 @@ Store in the original package in order to protect from light and moisture.
 Keep the bottle tightly closed with the dessicant inside (small cylinder shaped container). 
 Once opened, the bottle may be stored for 30 days at not more than 30 C. 
 Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -667,7 +670,7 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
-<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      
+<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p> </div>"""      
 
 
 
@@ -706,7 +709,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -715,7 +720,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -732,7 +738,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -750,7 +756,7 @@ det er blevet fjernet ved operation. </p>
 ikke-småcellet lungekræft (NSCLC). </p>
 <p>Begge kræfttyper har en bestemt ændring (mutation) ved position V600 i et gen, der kaldes BRAF. 
 Denne ændring i genet kan have været årsagen til udviklingen af kræften. Dit lægemiddel er rettet mod 
-proteiner, der er lavet fra dette muterede gen, og hæmmer eller stopper udviklingen af din kræft. </p>         </div>"""   
+proteiner, der er lavet fra dette muterede gen, og hæmmer eller stopper udviklingen af din kræft. </p> </div>"""   
           
 
              
@@ -987,7 +993,7 @@ symptomer og din behandlingssituation kan også påvirke din evne til at føre m
 maskiner. </p>
 <p>Mekinist indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mekinist"
@@ -1066,7 +1072,7 @@ indlægsseddel. </p>
 dabrafenib. Tag doserne af Mekinist og dabrafenib nøjagtigt efter lægens, apotekspersonalets 
 eller sygeplejerskens anvisning. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1608,7 +1614,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mekinist"
@@ -1623,7 +1629,7 @@ Opbevares i den originale beholder for at beskytte mod lys og fugt.
 Hold beholderen tæt tillukket med tørremidlet indeni (lille cylinderformet beholder). 
 Når beholderen er anbrudt, kan den opbevares i 30 dage ved temperaturer ikke højere end 30 °C. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1764,7 +1770,7 @@ Tel: +44 1276 698 </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside https://www.ema.europa.eu. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 
@@ -1803,7 +1809,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1812,7 +1820,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1829,7 +1838,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Mekinist </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1847,7 +1856,7 @@ melanoma após ter sido removido por cirurgia. </p>
 chamado cancro do pulmão não pequenas células (CPNPC). </p>
 <p>Ambos os cancros têm uma alteração especial (mutação) num gene chamado BRAF na posição V600. Esta mutação no gene pode ter feito com que o cancro se desenvolva. O seu medicamento tem como 
 alvo proteínas feitas a partir deste gene alterado e desacelera ou para o desenvolvimento do seu 
-cancro. </p>         </div>"""   
+cancro. </p> </div>"""   
           
 
              
@@ -2085,7 +2094,7 @@ sua doença, os sintomas e a situação do tratamento podem também afetar a sua
 ou utilizar máquinas. </p>
 <p>Mekinist contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mekinist"
@@ -2165,7 +2174,7 @@ informativo. </p>
 Mekinist e dabrafenib. Tome as doses de Mekinist e dabrafenib exatamente como o seu médico, 
 farmacêutico ou enfermeiro lhe disser. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -2713,7 +2722,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mekinist"
@@ -2730,7 +2739,7 @@ cilindro).
 Uma vez aberto, o frasco pode ser conservado durante 30 dias a temperatura inferior a 30°C. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2863,7 +2872,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

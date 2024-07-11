@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Imraldi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -160,7 +162,7 @@ well enough, you will be given Imraldi to reduce the signs and symptoms of your 
 <p>Children from 2 years of age with chronic non-infectious uveitis with inflammation affecting 
 the front of the eye </p>
 <p>This inflammation may lead to a decrease of vision and/or the presence of floaters in the eye (black 
-dots or wispy lines that move across the field of vision). Imraldi works by reducing this inflammation. </p>         </div>"""   
+dots or wispy lines that move across the field of vision). Imraldi works by reducing this inflammation. </p> </div>"""   
           
 
              
@@ -333,7 +335,7 @@ your doctor that you have an intolerance to some sugars, contact your doctor bef
 medicinal product. </p>
 <p>Sodium 
 This medicinal product contains less than 1 mmol of sodium (23 mg) per 0.8 ml dose, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imraldi"
@@ -457,7 +459,7 @@ forgotten a dose. </p>
 <p>If you stop using Imraldi </p>
 <p>The decision to stop using Imraldi should be discussed with your doctor. Your symptoms may return 
 upon stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -656,7 +658,7 @@ through blood tests. These include: </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imraldi"
@@ -676,7 +678,7 @@ Once removed from the refrigerator for room temperature storage, the syringe mus
 You should record the date when the syringe is first removed from refrigerator, and the date after 
 which it should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -772,7 +774,7 @@ Biogen Latvia SIA
 Tel: + 371 66 16 40 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Ltd. 
 Tel: +44 (0)20 360 886 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -811,7 +813,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -822,7 +826,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsanvisning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -837,7 +841,7 @@ Usage: #inline
 3. Sådan skal du bruge Imraldi 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -964,7 +968,7 @@ af øjet. </p>
 </li>
 </ul>
 <p>Inflammationen kan føre til nedsat syn og/eller fluer i øjet (sværm af uklarheder i øjet, som bevæger 
-sig i synsfeltet). Imraldi virker ved at reducere denne inflammation. </p>         </div>"""   
+sig i synsfeltet). Imraldi virker ved at reducere denne inflammation. </p> </div>"""   
           
 
              
@@ -1173,7 +1177,7 @@ Dette lægemiddel indeholder 20 mg sorbitol pr. fyldt injektionssprøjte. Kontak
 denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 0,8 ml-dosis, dvs. det er i det 
-væsentlige natriumfrit.  </p>         </div>"""   
+væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imraldi"
@@ -1295,7 +1299,7 @@ fastlagte dag, som om du ikke havde glemt en dosis. </p>
 <p>Hvis du holder op med at bruge Imraldi </p>
 <p>Beslutningen om at stoppe med at bruge Imraldi skal diskuteres med din læge. Dine symptomer kan 
 komme igen, hvis du stopper behandlingen. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1778,7 +1782,7 @@ blodprøver. Disse inkluderer: </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i </p>
 <p>Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imraldi"
@@ -1798,7 +1802,7 @@ injektionssprøjten bruges indenfor 28 dage eller kasseres, også selv om den l�
 Du skal registrere den dato, hvor injektionssprøjten først tages ud af køleskabet, og den dato efter 
 hvilken, den skal kasseres. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2058,7 +2062,7 @@ injektion med Imraldi.
 - Lægen har ordineret Imraldi til dig personligt. Lad derfor være med at give medicinen til andre. 
 Det kan være skadeligt for andre, selvom de har samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på http://www.indlaegsseddel.dk </p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på http://www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -2097,7 +2101,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -2108,7 +2114,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções de utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -2125,7 +2131,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Imraldi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -2255,7 +2261,7 @@ partir dos 2 anos de idade </p>
 </ul>
 <p>Esta inflamação pode levar a uma diminuição da visão e/ou à presença de moscas volantes no olho 
 (pontos pretos ou linhas finas que se movem através do campo de visão). Imraldi atua através da 
-redução da inflamação. </p>         </div>"""   
+redução da inflamação. </p> </div>"""   
           
 
              
@@ -2471,7 +2477,7 @@ Este medicamento contém 20 mg de sorbitol em cada seringa pré-cheia. Se foi in
 médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
 <p>Sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 0,8 ml, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar imraldi"
@@ -2603,7 +2609,7 @@ anterior. </p>
 <p>A decisão de parar de utilizar Imraldi deve ser avaliada com o seu médico. Os seus sintomas podem 
 voltar após a interrupção do tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -3084,7 +3090,7 @@ identificados através de análises ao sangue. Estes incluem: </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar imraldi"
@@ -3105,7 +3111,7 @@ Deve registar a data em que a seringa foi inicialmente retirada do frigorífico 
 eliminada. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -3228,7 +3234,7 @@ United Kingdom (Northern Ireland)
 Biogen Idec (Ireland) Ltd. 
 Tel: +44 (0)20 360 886<br />
 Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

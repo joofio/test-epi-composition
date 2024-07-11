@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Onglyza</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ Onglyza is used for adult patients aged 18 years and older with  type 2 diabetes
 be adequately controlled with one oral anti-diabetic medicine, diet and exercise. Onglyza is used alone 
 or together with insulin or other anti-diabetic medicines.
 It is important to keep following the advice about diet and exercise that you have been given by your 
-doctor or nurse.</p>         </div>"""   
+doctor or nurse.</p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ The tablets contain lactose (milk sugar). If you have been told by your doctor t
 intolerance to some sugars, contact your doctor before taking this medicine.
 Sodium content
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say it is essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onglyza"
@@ -177,7 +180,7 @@ day.
 If you stop taking Onglyza
 Keep taking Onglyza until your doctor tells you to stop. This is to help keep your blood sugar under 
 control.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -238,7 +241,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse.  This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onglyza"
@@ -251,7 +254,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if the package is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -408,7 +411,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -417,7 +422,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -432,7 +438,7 @@ Usage: #inline
 3. Sådan skal du tage Onglyza 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -446,7 +452,7 @@ antidiabetika’. De hjælper med at kontrollere sukkerindholdet i blodet. </p>
 ikke kan kontrolleres tilstrækkeligt med et oralt antidiabetisk lægemiddel, diæt og motion. Onglyza 
 bruges alene eller sammen med insulin eller andre antidiabetiske lægemidler. </p>
 <p>Det er vigtigt, at du fortsætter med at følge de råd om diæt og motion, som din læge eller 
-sygeplejerske har givet dig. </p>         </div>"""   
+sygeplejerske har givet dig. </p> </div>"""   
           
 
              
@@ -549,7 +555,7 @@ Tabletterne indeholder lactose (mælkesukker). Kontakt lægen før du tager dett
 lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer. </p>
 <p>Onglyza indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onglyza"
@@ -584,7 +590,7 @@ samme dag. </p>
 <p>Hvis du holder op med at tage Onglyza 
 Bliv ved med at tage Onglyza, indtil lægen siger, du skal stoppe. Det hjælper dig med at holde dit 
 blodsukker under kontrol. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -671,7 +677,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onglyza"
@@ -684,7 +690,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på at være forsøgt åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -848,7 +854,7 @@ indeholder vigtige oplysninger.
 lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -887,7 +893,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -896,7 +904,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -911,7 +920,7 @@ Usage: #inline
 3. Como tomar Onglyza 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Onglyza 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -927,7 +936,7 @@ quando não se consegue controlar adequadamente a doença com um medicamento ant
 dieta e exercício. Onglyza é utilizado isoladamente ou em associação com insulina ou outros 
 antidiabéticos. </p>
 <p>É importante que continue a seguir as recomendações do seu médico ou enfermeiro sobre a dieta e o 
-exercício. </p>         </div>"""   
+exercício. </p> </div>"""   
           
 
              
@@ -1033,7 +1042,7 @@ Os comprimidos contêm lactose (açúcar do leite). Se foi informado pelo seu m�
 intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>
 <p>Onglyza contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar onglyza"
@@ -1070,7 +1079,7 @@ duas doses no mesmo dia. </p>
 Continue a tomar Onglyza até que o seu médico lhe diga para parar. Isto é para ajudar a controlar o 
 seu açúcar no sangue. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1168,7 +1177,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar onglyza"
@@ -1183,7 +1192,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 de deterioração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1335,7 +1344,7 @@ United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd 
 Tel: +44 1582 836  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Jardiance</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -111,7 +114,7 @@ and high blood pressure or even by your own immune system attacking the kidneys.
 chronic kidney disease, your kidneys may gradually lose their ability to clean and filter the blood 
 properly. This can lead to serious medical problems such as swollen legs, heart failure or need for 
 hospital care. 
-Jardiance helps protect your kidneys from losing their function.</p>         </div>"""   
+Jardiance helps protect your kidneys from losing their function.</p> </div>"""   
           
 
              
@@ -193,7 +196,7 @@ Jardiance contains lactose (milk sugar). If you have been told by your doctor th
 intolerance to some sugars, contact your doctor before taking this medicine.
 Jardiance contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jardiance"
@@ -232,7 +235,7 @@ the usual time.</p>
 If you stop taking Jardiance
 Do not stop taking Jardiance without first consulting your doctor. If you have type 2 diabetes mellitus, 
 your blood sugar levels may increase when you stop taking Jardiance.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -306,7 +309,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jardiance"
@@ -319,7 +322,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if you notice that the packaging is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -444,7 +447,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9Eli Lilly and Company (Ireland) Limited
 Tel: +353 1 661 4This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -483,7 +486,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -492,7 +497,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -507,7 +513,7 @@ Usage: #inline
 3. Sådan skal du tage Jardiance
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -560,7 +566,7 @@ højt blodtryk, men også af dit eget immunsystem, der angriber nyrerne. Når du
 nyresygdom, kan dine nyrer gradvist miste evnen til at rense og filtrere blodet korrekt. Dette kan føre 
 til alvorlige medicinske problemer som hævede ben, hjertesvigt eller behov for behandling på 
 hospitalet.
-Jardiance hjælper med at beskytte dine nyrer mod at miste deres funktion.</p>         </div>"""   
+Jardiance hjælper med at beskytte dine nyrer mod at miste deres funktion.</p> </div>"""   
           
 
              
@@ -655,7 +661,7 @@ Jardiance indeholder lactose (mælkesukker). Hvis din læge har fortalt dig, at 
 sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel.
 Jardiance indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natrium-frit.</p>         </div>"""   
+væsentlige natrium-frit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jardiance"
@@ -703,7 +709,7 @@ Hvis du holder op med at tage Jardiance
 Du må ikke holde op med at tage Jardiance uden først at have rådført dig med din læge. Hvis du har 
 type 2-diabetes mellitus, kan blodsukkerniveauet stige, hvis du holder op med at tage Jardiance.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.
-53</p>         </div>"""         
+53</p> </div>"""         
 
         
 * section[=].section[+]
@@ -812,7 +818,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jardiance"
@@ -826,7 +832,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 Brug ikke lægemidlet, hvis du bemærker at pakningen er beskadiget eller viser tegn på, at nogen har 
 forsøgt at åbne den. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -997,7 +1003,7 @@ Tel: +353 1 661 4377
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside
-http://www.laegemiddelstyrelsen.dk.</p>         </div>"""      
+http://www.laegemiddelstyrelsen.dk.</p> </div>"""      
 
 
 

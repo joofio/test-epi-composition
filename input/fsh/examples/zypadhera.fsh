@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ZYPADHERA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ medicines called antipsychotics and is used to treat schizophrenia - a disease w
 hearing, seeing or sensing things which are not there, mistaken beliefs, unusual suspiciousness, and 
 becoming withdrawn. People with this disease may also feel depressed, anxious or tense. </p>
 <p>ZYPADHERA is intended for adult patients who are sufficiently stabilised during treatment with oral 
-olanzapine. </p>         </div>"""   
+olanzapine. </p> </div>"""   
           
 
              
@@ -177,7 +180,7 @@ symptoms you may need to contact your doctor. </p>
 Do not drive or operate machinery for the remainder of the day after each injection.  </p>
 <p>ZYPADHERA contains sodium 
 After reconstitution this medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say 
-essentially sodium-free. </p>         </div>"""   
+essentially sodium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zypadhera"
@@ -205,7 +208,7 @@ Do not stop your treatment just because you feel better. It is important that yo
 ZYPADHERA for as long as your doctor has told you to.  </p>
 <p>If you miss an injection, you should contact your doctor to arrange your next injection as soon as you 
 can. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ skin and have trouble walking. Some fatal cases have been reported in this parti
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zypadhera"
@@ -287,7 +290,7 @@ discolouration or other visible signs of deterioration. </p>
 <p>If the medicine is not used right away, it should be shaken vigorously to re-suspend. Once withdrawn 
 from vial into the syringe, the suspension should be used immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -320,7 +323,7 @@ CHEPLAPHARM Registration GmbH, Weiler Stra e 5e, 79540 L rrach, Germany. </p>
 <p>Manufacturer  </p>
 <p>Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain. </p>
 <p>This leaflet was last revised in {mmm YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -359,7 +362,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -368,7 +373,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -383,7 +389,7 @@ Usage: #inline
 3. Sådan bliver du behandlet med ZYPADHERA 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -395,7 +401,7 @@ Usage: #inline
 der kaldes antipsykotika, og bruges til behandling af skizofreni - en sygdom med symptomer såsom at 
 man hører, ser og mærker ting, som ikke eksisterer, er mistroisk, ualmindelig mistænksom og 
 indesluttet. Mennesker med denne sygdom kan også føle sig deprimerede, angste eller anspændte. </p>
-<p>ZYPADHERA er beregnet til voksne patienter, som er tilstrækkeligt stabiliseret med oral olanzapin. </p>         </div>"""   
+<p>ZYPADHERA er beregnet til voksne patienter, som er tilstrækkeligt stabiliseret med oral olanzapin. </p> </div>"""   
           
 
              
@@ -567,7 +573,7 @@ symptomer, bør du kontakte din læge. </p>
 Du må ikke køre eller arbejde med maskiner resten af den dag, du har fået indsprøjtning.  </p>
 <p>ZYPADHERA indeholder natrium 
 Efter rekonstitution indeholder dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 
-hætteglas, dvs. det er i det væsentlige natriumfrit. </p>         </div>"""   
+hætteglas, dvs. det er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zypadhera"
@@ -601,7 +607,7 @@ Du må ikke stoppe med din behandling, fordi du føler dig bedre tilpas. Det er 
 med at få ZYPADHERA, så længe din læge har fortalt dig, at du skal have denne medicin. </p>
 <p>Hvis du har glemt at få en indsprøjtning, skal du kontakte din læge, for at du kan få den næste 
 indsprøjtning så hurtigt som muligt. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -672,7 +678,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zypadhera"
@@ -691,7 +697,7 @@ på nedbrydning. </p>
 <p>Hvis medicinen ikke anvendes straks derefter, skal den rystes kraftigt for at genopblandes. Når 
 suspensionen er trukket op i sprøjten fra hætteglasset, skal den anvendes straks. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -855,7 +861,7 @@ GNID IKKE PÅ INJEKTIONSSTEDET. </li>
 <li>Fastgør sikkerhedskanylens kanylebeskyttelsesudstyr (Fig. 1 og 2). </li>
 <li>Kasser hætteglas, sprøjter, brugte kanyler, den ekstra kanyle og ikke anvendt solvens i 
 overensstemmelse med de relevante kliniske procedurer. Hætteglasset er kun til engangsbrug. </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 

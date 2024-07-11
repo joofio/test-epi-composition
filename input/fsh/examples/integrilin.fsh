@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Integrilin </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 forming.  </p>
 <p>It is used in adults with manifestation of severe coronary insufficiency defined as spontaneous and recent 
 chest pain with electrocardiographic abnormalities or biological changes. It is usually given with aspirin 
-and unfractionated heparin. </p>         </div>"""   
+and unfractionated heparin. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ you against the risk to your baby of using Integrilin while you are pregnant. </
 <p>Integrilin contains sodium </p>
 <p>This medicine contains 161 mg sodium (main component of cooking/table salt) in each 100 ml 
 vial. This is equivalent to 8.1% of the recommended maximum daily dietary intake of sodium 
-for an adult. </p>         </div>"""   
+for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take integrilin"
@@ -139,7 +142,7 @@ given is based on your weight. The recommended dose is 180 microgram/kg administ
 solution may be continued for up to 96 hours. </p>
 <p>You must also be given doses of aspirin and heparin (if not contraindicated in your case). </p>
 <p>If you have any further questions on the use of this product, ask your doctor or hospital pharmacist or 
-nurse. </p>         </div>"""         
+nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -180,7 +183,7 @@ shock or cardiac arrest. </p>
 If you get any side effects, talk to your doctor, hospital pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store integrilin"
@@ -197,7 +200,7 @@ from light is not necessary during administration. </p>
 Integrilin should not be used if it is noticed that particulate matter or discoloration is present.  </p>
 <p>Any unused medicine after opening should be thrown away.   </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your hospital pharmacist how 
-to throw away medicines you no longer use. </p>         </div>"""      
+to throw away medicines you no longer use. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -294,7 +297,7 @@ GlaxoSmithKline (Ireland) Limited
 Tel: + 44 (0)800 221customercontactuk@gsk.com 
 This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -333,7 +336,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -342,7 +347,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -357,7 +363,7 @@ Usage: #inline
 3. Sådan får du Integrilin 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -369,7 +375,7 @@ Usage: #inline
 blodpropper. </p>
 <p>Det bruges til voksne med tegn på svær koronarinsufficiens defineret som spontane og nylige 
 brystsmerter med unormale ændringer i elektrokardiogrammet eller biologiske forandringer. Det gives 
-normalt sammen med acetylsalicylsyre og ufraktioneret heparin. </p>         </div>"""   
+normalt sammen med acetylsalicylsyre og ufraktioneret heparin. </p> </div>"""   
           
 
              
@@ -420,7 +426,7 @@ få Integrilin, mens du er gravid, op mod risikoen for dit ufødte barn. </p>
 <p>Integrilin indeholder natrium 
 Dette lægemiddel indeholder 161 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 100 ml hætteglas. Dette svarer til 8,1% af den anbefalede maximale daglige indtagelse 
-af natrium for en voksen. </p>         </div>"""   
+af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take integrilin"
@@ -434,7 +440,7 @@ nyrefunktion, kan dosis blive nedsat til 1 mikrogram/kg/minut. </p>
 <p>Hvis perkutan koronarintervention (PCI) foretages under behandlingen med Integrilin, kan behandlingen 
 fortsættes i indtil 96 timer. </p>
 <p>Du skal også have acetylsalicylsyre og heparin (medmindre du ikke kan tåle disse). </p>
-<p>Spørg lægen eller sygeplejersken, hvis du har spørgsmål til brugen af dette produkt. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis du har spørgsmål til brugen af dette produkt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -475,7 +481,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store integrilin"
@@ -492,7 +498,7 @@ Integrilin mod lys under behandlingen. </p>
 Brug ikke Integrilin, hvis der er bundfald eller misfarvning. </p>
 <p>Bortskaf al ikke anvendt lægemiddel efter åbning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -621,7 +627,7 @@ vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlægsseddel.dk. </p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlægsseddel.dk. </p> </div>"""      
 
 
 

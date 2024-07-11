@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Aimovig </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ monoclonal antibodies. </p>
 <p>Aimovig works by blocking the activity of the CGRP molecule, which has been linked to migraine 
 (CGRP stands for calcitonin gene-related peptide). </p>
 <p>Aimovig is used to prevent migraine in adults who have at least 4 migraine days per month when 
-starting treatment with Aimovig. </p>         </div>"""   
+starting treatment with Aimovig. </p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ Aimovig. </p>
 <p>Driving and using machines 
 Aimovig is unlikely to affect your ability to drive and use machines. </p>
 <p>Aimovig contains sodium 
-Aimovig contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
+Aimovig contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aimovig"
@@ -162,7 +165,7 @@ the new schedule exactly as your doctor has told you. </p>
 <p>If you stop using Aimovig 
 Do not stop using Aimovig without talking to your doctor first. Your symptoms may return if you stop 
 the treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -184,7 +187,7 @@ the treatment. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aimovig"
@@ -203,7 +206,7 @@ refrigerator once it has been removed. </p>
 yellow. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. There may be local regulations for disposal. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -300,7 +303,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -339,7 +342,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -348,7 +353,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -365,7 +371,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -378,7 +384,7 @@ monoklonale antistoffer. </p>
 <p>Aimovig virker ved at blokere aktiviteten af CGRP-molekylet, som er blevet forbundet med migræne 
 (CGRP står for calcitonin-gen-relateret peptid). </p>
 <p>Aimovig anvendes til at forebygge migræne hos voksne, der har mindst 4 migrænedage om måneden, 
-når de starter behandling med Aimovig. </p>         </div>"""   
+når de starter behandling med Aimovig. </p> </div>"""   
           
 
              
@@ -429,7 +435,7 @@ at bruge Aimovig. </p>
 Det er ikke sandsynligt, at Aimovig påvirker din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Aimovig indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aimovig"
@@ -465,7 +471,7 @@ dosis. Følg den nye tidsplan nøjagtigt efter lægens anvisning. </p>
 <p>Hvis du holder op med at bruge Aimovig 
 Du må ikke holde op med at bruge Aimovig uden først at have talt med lægen. Dine symptomer kan 
 komme igen, hvis du stopper med behandlingen. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -489,7 +495,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aimovig"
@@ -507,7 +513,7 @@ først det har været ude. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at injektionsvæsken indeholder partikler, er uklar eller er 
 tydeligt gul. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller toilettet. Der kan være en lokal lovgivning om bortskaffelse. </p>         </div>"""      
+smide medicinrester i afløbet eller toilettet. Der kan være en lokal lovgivning om bortskaffelse. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -807,7 +813,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -816,7 +824,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -833,7 +842,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Aimovig </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -846,7 +855,7 @@ anticorpos monoclonais. </p>
 <p>Aimovig atua através do bloqueio da atividade da molécula CGRP, que foi relacionada com a 
 enxaqueca (CGRP significa peptídeo relacionado com o gene da calcitonina). </p>
 <p>Aimovig é utilizado para prevenir a enxaqueca em adultos que têm pelo menos 4 dias de enxaqueca 
-por mês quando inicia o tratamento com Aimovig. </p>         </div>"""   
+por mês quando inicia o tratamento com Aimovig. </p> </div>"""   
           
 
              
@@ -896,7 +905,7 @@ de amamentar ou parar de utilizar Aimovig. </p>
 É improvável que Aimovig afete a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>Aimovig contém sódio 
 Aimovig contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente “isento de 
-sódio". </p>         </div>"""   
+sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar aimovig"
@@ -934,7 +943,7 @@ novo esquema exatamente como o seu médico lhe indicou. </p>
 Não pare de utilizar Aimovig sem consultar o seu médico primeiro. Os seus sintomas podem regressar 
 se parar o tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -961,7 +970,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar aimovig"
@@ -980,7 +989,7 @@ Aimovig de novo no frigorífico uma vez que tenha sido removido. </p>
 distintamente amarela. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
 os medicamentos que já não utiliza. Poderão existir regulamentos locais para eliminação. Estas 
-medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1096,7 +1105,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

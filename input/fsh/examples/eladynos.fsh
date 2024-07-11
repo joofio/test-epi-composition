@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Eladynos </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ menopause. </p>
 <p>Osteoporosis is especially common in women after menopause. The disease causes bones to become thin 
 and fragile. If you have osteoporosis, you are more likely to break bones, especially in your spine, hips 
 and wrists. </p>
-<p>This medicine is used to make bone stronger and less likely to break. </p>         </div>"""   
+<p>This medicine is used to make bone stronger and less likely to break. </p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ Some patients may feel dizzy after injecting this medicine. If you feel dizzy do
 until you feel better. </p>
 <p>Eladynos contains sodium 
 This medicine contains less than 1 mmol sodium (23 milligrams) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eladynos"
@@ -162,7 +165,7 @@ day. </p>
 <p>If you stop using Eladynos 
 Discuss this with your doctor before stopping treatment. Your doctor will advise you and decide how long 
 you should be treated with Eladynos. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -205,7 +208,7 @@ Very common (may affect more than 1 in 10 people)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eladynos"
@@ -229,7 +232,7 @@ accordance with local requirements, even if it still contains unused medicine. <
 <li>Do not use this medicine if the solution is cloudy, coloured or contains particles. </li>
 </ul>
 <p>Do not throw away any medicines or needles via wastewater or household waste. Ask your pharmacist 
-how to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+how to throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -265,7 +268,7 @@ Pembroke House, 28-32 Pembroke Street
 Dublin, D02 EK84, Ireland </p>
 <p>This leaflet was last revised in. 
 Other source of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -304,7 +307,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -313,7 +318,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -330,7 +336,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -343,7 +349,7 @@ hos kvinder efter overgangsalderen. </p>
 <p>Knogleskørhed er særlig almindeligt hos kvinder efter overgangsalderen. Sygdommen medfører, at 
 knoglerne bliver tynde og skrøbelige. Hvis du har knogleskørhed, er det mere sandsynligt, at du får 
 knoglebrud, især i rygsøjle, hofter og håndled. </p>
-<p>Dette lægemiddel bruges til at gøre knoglerne stærkere og med mindre sandsynlighed for brud. </p>         </div>"""   
+<p>Dette lægemiddel bruges til at gøre knoglerne stærkere og med mindre sandsynlighed for brud. </p> </div>"""   
           
 
              
@@ -426,7 +432,7 @@ Nogle patienter kan føle sig svimle efter injektion af denne medicin. Hvis du f
 ikke føre motorkøretøjer eller betjene maskiner, før du føler dig bedre tilpas. </p>
 <p>Eladynos indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 milligram) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eladynos"
@@ -463,7 +469,7 @@ injektion den samme dag. </p>
 <p>Hvis du holder op med at bruge Eladynos 
 Tal med din læge, inden du stopper behandlingen. Din læge vil drøfte det med dig og beslutte, hvor længe 
 du bør blive behandlet med Eladynos. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -556,7 +562,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eladynos"
@@ -587,7 +593,7 @@ væk i henhold til lokale retningslinjer, også selvom den stadig indeholder ubr
 </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester eller nåle. Af hensyn til miljøet må 
-du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -816,7 +822,7 @@ eller stopper inden “●0". Nålen kan være blokeret eller forkert sat på. <
 <p>Kontakt apotekspersonalet, sygeplejersken eller lægen, hvis den grønne injektionsknap stadig ikke 
 kan trykkes ned eller stopper inden “●0". </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

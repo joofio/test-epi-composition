@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Respreeza</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ Emphysema develops when the lack of alpha1-proteinase inhibitor results in a con
 neutrophil elastase is not being properly controlled, damaging the tiny air sacs in the lungs through 
 which oxygen passes into the body. Because of this damage, the lungs do not work properly.
 Using this medicine regularly increases the blood and lung levels of alpha1-proteinase inhibitor, thus 
-slowing the progression of emphysema.</p>         </div>"""   
+slowing the progression of emphysema.</p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ This medicinal product contains approximately 37 mg sodium per 1,000 mg Respreez
 sodium per 4,000 mg Respreeza vial and 186 mg sodium per 5,000 mg Respreeza vial, equivalent to 
 1.9%, 7.4% and 9.3% respectively, of the WHO recommended maximum daily intake of 2 g sodium 
 for an adult. Your doctor or healthcare professional will take that into consideration if you are on a 
-controlled sodium diet.</p>         </div>"""   
+controlled sodium diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take respreeza"
@@ -200,7 +203,7 @@ doctor or healthcare professional.</p>
 <p>Do not take a double dose to make up for a forgotten dose.
 If you stop using Respreeza</p>
 <p>Do no stop using this medicine without consulting your doctor or healthcare professional. If 
-treatment with Respreeza is stopped, your condition may worsen.</p>         </div>"""         
+treatment with Respreeza is stopped, your condition may worsen.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ Reporting of side effects
  If you get any side effects, talk to your doctor or healthcare professional. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the 
 national reporting system listed in Appendix V. By reporting side effects you can help provide 
-more information on the safety of this medicine. </p>         </div>"""      
+more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store respreeza"
@@ -253,7 +256,7 @@ Do not use this medicine after the expiry date which is stated on the outer cart
 after EXP. The expiry date refers to the last day of that month.
 Do not store above 25  C. Do not freeze.
 After reconstitution, the solution should be used immediately. If this is not possible, solutions can be 
-stored up to 3 hours at room temperature (up to 25  C). Do not freeze the reconstituted solution.</p>         </div>"""      
+stored up to 3 hours at room temperature (up to 25  C). Do not freeze the reconstituted solution.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -360,7 +363,7 @@ CentralPharma Communications SIA
 Tel: +371 6 7450United Kingdom (Northern Ireland)
 CSL Behring GmbH
 Tel: +49 69 30517This leaflet was last revised in MM/YYYY.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -399,7 +402,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -408,7 +413,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -423,7 +429,7 @@ Usage: #inline
 3. Sådan skal du tage Respreeza
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -447,7 +453,7 @@ lungerne, som ilten passerer igennem ud i kroppen. På grund af denne beskadigel
 ikke korrekt.
 Regelmæssig anvendelse af dette lægemiddel øger lungernes og blodets indhold af alfa-1-
 proteinasehæmmer og forsinker således udviklingen af emfysem.
-41</p>         </div>"""   
+41</p> </div>"""   
           
 
              
@@ -535,7 +541,7 @@ Dette lægemiddel indeholder cirka 37 mg natrium pr. hætteglas med 1.000 mg Res
 natrium pr. hætteglas med 4.000 mg Respreeza og 186 mg natrium pr. hætteglas med 5.000 mg 
 Respreeza, svarende til henholdsvis 1,9 %, 7,4 % og 9,3 % af den WHO-anbefalede maksimale 
 daglige indtagelse af 2 g natrium for en voksen. Din læge eller sundhedspersonalet vil have dette 
-under overvejelse, hvis du er på en kontrolleret saltfattig diæt.</p>         </div>"""   
+under overvejelse, hvis du er på en kontrolleret saltfattig diæt.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take respreeza"
@@ -583,7 +589,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Respreeza
 
 Hold ikke op med at tage dette lægemiddel uden at rådføre dig med lægen eller 
-sundhedspersonalet. Hvis du stopper behandlingen med Respreeza, kan din tilstand forværres.</p>         </div>"""         
+sundhedspersonalet. Hvis du stopper behandlingen med Respreeza, kan din tilstand forværres.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -628,7 +634,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sundhedspersonale
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med 
-at fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+at fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store respreeza"
@@ -641,7 +647,7 @@ sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 25 °C. Må ikke nedfryses.
 Efter fremstilling skal infusionsvæsken anvendes med det samme. Hvis dette ikke er muligt, kan 
 infusionsvæsken opbevares i op til 3 timer ved stuetemperatur (op til 25 °C). Infusionsvæsken må ikke 
-nedfryses.</p>         </div>"""      
+nedfryses.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -905,7 +911,7 @@ komfort. Det vil tage ca. 15 minutter at infundere den anbefalede dosis på 60 m
 kropsvægt.
 Et hætteglas Respreeza er kun til engangsbrug.
 Eventuelt ubrugt medicin eller medicinrester skal bortskaffes som anvist af din læge eller 
-sundhedspersonalet.</p>         </div>"""      
+sundhedspersonalet.</p> </div>"""      
 
 
 

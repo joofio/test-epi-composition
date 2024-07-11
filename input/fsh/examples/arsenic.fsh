@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Arsenic trioxide Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Arsenic trioxide Mylan is used in adult patients with newly diagnosed low-to-intermediate risk acute 
 promyelocytic leukaemia (APL), and in adult patients, whose disease has not responded to other 
 therapies. APL is a unique type of myeloid leukaemia, a disease in which abnormal white blood cells 
-and abnormal bleeding and bruising occur. </p>         </div>"""   
+and abnormal bleeding and bruising occur. </p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ If you experience discomfort or if you feel unwell after a Arsenic trioxide Myla
 wait until the symptoms go away before driving or using machines.  </p>
 <p>Arsenic trioxide Mylan contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arsenic"
@@ -190,7 +193,7 @@ medicines.  </p>
 <p>If your doctor or nurse gives you more Arsenic trioxide Mylan than he/she should<br />
 You may experience convulsions, muscle weakness and confusion. If this happens, treatment with 
 Arsenic trioxide Mylan must be stopped immediately and your doctor will treat the arsenic overdose.  </p>
-<p>If you have any further question on the use of this medicine, ask your doctor or pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further question on the use of this medicine, ask your doctor or pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -254,7 +257,7 @@ including difficulties to use arms and legs, speech disorders and confusion </li
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store arsenic"
@@ -270,7 +273,7 @@ place in a sterile environment.  </p>
 <p>This medicine must not be used if you notice foreign particulate matter or if the solution is 
 discoloured.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -400,7 +403,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -409,7 +414,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -426,7 +432,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -437,7 +443,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Arsenic trioxide Mylan anvendes til voksne patienter med nydiagnosticeret lav til intermediær risiko 
 akut promyelocyt-leukæmi (APL), og til voksne patienter, hvis sygdom ikke har reageret på andre 
 behandlinger. APL er en speciel type myeloid leukæmi, en sygdom, hvor der forekommer unormale 
-hvide blodlegemer og unormal blødning og blå mærker. </p>         </div>"""   
+hvide blodlegemer og unormal blødning og blå mærker. </p> </div>"""   
           
 
              
@@ -539,7 +545,7 @@ Hvis du mærker ubehag eller føler dig utilpas efter en Arsenic trioxide Mylan-
 indtil symptomerne forsvinder, før du fører motorkøretøj eller betjener maskiner. </p>
 <p>Arsenic trioxide Mylan indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arsenic"
@@ -572,7 +578,7 @@ samme slange som anden medicin. </p>
 <p>Hvis din læge eller sundhedspersonalet giver dig for meget Arsenic trioxide Mylan 
 Du kan opleve kramper, muskelsvaghed og forvirring. Hvis dette sker, skal behandlingen med Arsenic 
 trioxide Mylan omgående stoppes, og din læge vil behandle arsen-overdoseringen. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -648,7 +654,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store arsenic"
@@ -664,7 +670,7 @@ medmindre fortyndingen har fundet sted i et sterilt miljø. </p>
 <p>Brug ikke lægemidlet, hvis der er fremmede partikler i infusionsvæsken, eller hvis den er misfarvet. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller toilettet eller skraldespanden. 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Disse tiltag hjælper med at beskytte 
-miljøet. </p>         </div>"""      
+miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -817,7 +823,7 @@ anvendelse brugerens ansvar og vil normalt ikke være længere end 24 timer ved 
 fortynding har fundet sted under kontrollerede og aseptiske forhold. </p>
 <p>Procedure for korrekt bortskaffelse 
 Ikke anvendt lægemiddel, eventuelle genstande, der kommer i kontakt hermed samt affald heraf skal 
-bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -856,7 +862,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -865,7 +873,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -882,7 +891,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Trióxido de arsénio Mylan </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -893,7 +902,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trióxido de arsénio Mylan é utilizado em doentes adultos com leucemia promielocítica aguda (APL) 
 recentemente diagnosticada, de risco baixo a intermédio, e em doentes adultos cuja doença não 
 respondeu a outras terapêuticas. A APL constitui um tipo de leucemia mieloide única, uma doença na 
-qual ocorrem glóbulos brancos anormais e hemorragia anormal e nódoas negras. </p>         </div>"""   
+qual ocorrem glóbulos brancos anormais e hemorragia anormal e nódoas negras. </p> </div>"""   
           
 
              
@@ -1001,7 +1010,7 @@ Se sentir desconforto ou se não se sentir bem após uma injeção de Trióxido 
 esperar que os sintomas desapareçam antes de conduzir ou utilizar máquinas. </p>
 <p>Trióxido de arsénio Mylan contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
-é praticamente “isento de sódio". </p>         </div>"""   
+é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar arsenic"
@@ -1037,7 +1046,7 @@ Poderá sentir convulsões, fraqueza muscular e confusão. No caso de isto acont
 Trióxido de arsénio Mylan deve ser imediatamente suspenso e o seu médico tratará a sobredosagem de 
 arsénio. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1115,7 +1124,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar arsenic"
@@ -1133,7 +1142,7 @@ utilização são da responsabilidade do seu médico e normalmente não deverão
 apresentar descoloração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1254,7 +1263,7 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

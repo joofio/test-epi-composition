@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Spravato</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ worthless, sleeping difficulties, change in appetite, loss of interest in favour
 being slowed down. It is given, together with another antidepressant, if you have tried at least 2 other 
 antidepressant medicines but they have not helped.
 Spravato is also used in adults to rapidly reduce symptoms of depression in a situation requiring 
-immediate treatment (also known as a psychiatric emergency).</p>         </div>"""   
+immediate treatment (also known as a psychiatric emergency).</p> </div>"""   
           
 
              
@@ -188,7 +191,7 @@ Driving and using machines
 Spravato can make you feel sleepy, dizzy, and have other side effects that can temporarily affect your 
 ability to drive vehicles or use machines and do activities that need you to be completely alert. After 
 being treated with this medicine, do not take part in these activities until the next day following a 
-restful sleep.</p>         </div>"""   
+restful sleep.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spravato"
@@ -224,7 +227,7 @@ If you use too much Spravato, you are more likely to get side effects (see  Poss
 If you stop using Spravato
 It is important to make sure you come in for your scheduled appointments, so that this medicine is 
 effective for you.
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spravato"
@@ -311,7 +314,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -424,7 +427,7 @@ United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in {MM/YYYY} OR {month YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -463,7 +466,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -472,7 +477,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -487,7 +493,7 @@ Usage: #inline
 3. Sådan skal du bruge Spravato
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -504,7 +510,7 @@ eller værdiløs, søvnbesvær, appetitændringer, tab af interesse i yndlingsak
 langsommere. Det gives sammen med et andet antidepressivt lægemiddel, hvis du har prøvet mindst 2 
 andre antidepressive lægemidler, men uden af disse har hjulpet.
 Spravato anvendes også til voksne til hurtigt at reducere symptomerne på depression i en situation, der 
-kræver øjeblikkelig behandling (også kaldet et akut psykiatrisk tilfælde).</p>         </div>"""   
+kræver øjeblikkelig behandling (også kaldet et akut psykiatrisk tilfælde).</p> </div>"""   
           
 
              
@@ -643,7 +649,7 @@ Spravato kan få dig til at føle dig søvnig, svimmel, og det kan give andre bi
 midlertidigt kan påvirke din evne til at føre motorkøretøj eller betjene maskiner og udføre aktiviteter, 
 der kræver din fulde opmærksomhed. Efter behandling med dette lægemiddel, må du ikke udføre 
 sådanne aktiviteter før næste dag, og efter en god nats søvn.
-48</p>         </div>"""   
+48</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spravato"
@@ -681,7 +687,7 @@ derfor usandsynligt, at du vil bruge for meget.
 Hvis du bruger for meget Spravato, er det mere sandsynligt, at du får bivirkninger (se "Bivirkninger").
 Hvis du holder op med at bruge Spravato
 Det er vigtigt, at du husker at møde op til dine planlagte aftaler, så lægemidlet kan virke for dig.
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -815,7 +821,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spravato"
@@ -827,7 +833,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten
 sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1105,7 +1111,7 @@ lægemidlet tid til at absorberes.
 Bortskaffelse
 De(n) brugte anordninger(er) skal bortskaffes i overensstemmelse med lokale krav.
 Revideret: {måned ÅÅÅÅ}
-Næste anordning (hvis påkrævet)</p>         </div>"""      
+Næste anordning (hvis påkrævet)</p> </div>"""      
 
 
 

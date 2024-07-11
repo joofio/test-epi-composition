@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Synjardy</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -98,7 +101,7 @@ be medicines taken by mouth or given by injection such as insulin.</p>
 as single tablets. To avoid overdose, do not continue taking empagliflozin and metformin tablets
 separately, if you are taking this medicine.
 It is important that you continue with your diet and exercise plan as told by your doctor, pharmacist or 
-nurse.</p>         </div>"""   
+nurse.</p> </div>"""   
           
 
              
@@ -238,7 +241,7 @@ Synjardy has minor influence on the ability to drive and use machines.
 Taking this medicine in combination with medicines called sulphonylureas or with insulin can cause 
 blood sugar levels to drop too low (hypoglycaemia), which may cause symptoms such as shaking, 
 sweating and change in vision, and may affect your ability to drive and use machines. Do not drive or 
-use any tools or machines if you feel dizzy while taking Synjardy.</p>         </div>"""   
+use any tools or machines if you feel dizzy while taking Synjardy.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take synjardy"
@@ -281,7 +284,7 @@ medicine.
 If you stop taking Synjardy
 Do not stop taking Synjardy without first consulting your doctor. Your blood sugar levels may increase 
 when you stop taking Synjardy.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -370,7 +373,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store synjardy"
@@ -383,7 +386,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if you notice that the packaging is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -520,7 +523,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd. 
 Tel: +353 1 295 9Eli Lilly and Company (Ireland) Limited 
 Tel: +353 1 661 4This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -559,7 +562,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -568,7 +573,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -583,7 +589,7 @@ Usage: #inline
 3. Sådan skal du tage Synjardy
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -621,7 +627,7 @@ Synjardy kan endvidere bruges i stedet for at tage både empagliflozin og metfor
 særskilte tabletter. Hvis du bruger Synjardy, skal du stoppe med at tage de særskilte tabletter, 
 med empagliflozin og metformin, for at undgå en overdosis.
 Det er vigtigt, at du fortsætter med den kost- og motionsplan, som din læge, apotekspersonalet eller 
-sygeplejersken har anvist.</p>         </div>"""   
+sygeplejersken har anvist.</p> </div>"""   
           
 
              
@@ -793,7 +799,7 @@ Hvis du tager Synjardy i kombination med lægemidler, der kaldes for sulfonyluri
 insulin, kan dit blodsukker blive for lavt (hypoglykæmi). Det kan give symptomer som rysten, 
 svedtendens og synsforstyrrelser, og det kan påvirke din evne til at køre selv og betjene maskiner. Lad 
 være med at køre selv eller bruge værktøj eller betjene maskiner, hvis du føler dig svimmel.
-73</p>         </div>"""   
+73</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take synjardy"
@@ -837,7 +843,7 @@ erstatning for den glemte dosis.
 Hvis du holder op med at tage Synjardy
 Du må ikke holde op med at tage Synjardy, før du har talt med din læge. Dit blodsukker kan stige, hvis 
 du ikke tager din medicin.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -970,7 +976,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store synjardy"
@@ -985,7 +991,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på, at nogen har 
 forsøgt at åbne den. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1167,7 +1173,7 @@ Tel: +353 1 661 4377
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside
-http://www.laegemiddelstyrelsen.dk.</p>         </div>"""      
+http://www.laegemiddelstyrelsen.dk.</p> </div>"""      
 
 
 

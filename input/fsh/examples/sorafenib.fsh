@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sorafenib Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 Sorafenib Accord is also used to treat kidney cancer (advanced renal cell carcinoma) at an advanced 
 stage when standard therapy has not helped to stop your disease or is considered unsuitable. </p>
 <p>Sorafenib Accord is a so-called multikinase inhibitor. It works by slowing down the rate of growth of 
-cancer cells and cutting off the blood supply that keeps cancer cells growing. </p>         </div>"""   
+cancer cells and cutting off the blood supply that keeps cancer cells growing. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ interfere with the growth and development of your baby. </p>
 There is no evidence that Sorafenib Accord will affect the ability to drive or to operate machines. </p>
 <p>Sorafenib Accord contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium 
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sorafenib"
@@ -184,7 +187,7 @@ Taking too much Sorafenib Accord makes side effects more likely or more severe, 
 diarrhoea and skin reactions. Your doctor may tell you to stop taking this medicine. </p>
 <p>If you forget to take Sorafenib Accord 
 If you have missed a dose, take it as soon as you remember. If it is nearly time for the next dose, forget 
-about the missed one and carry on as normal. Do not take a double dose to make up for forgotten dose. </p>         </div>"""         
+about the missed one and carry on as normal. Do not take a double dose to make up for forgotten dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -290,7 +293,7 @@ tiredness (Tumour lysis syndrome (TLS)) (see section 2). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sorafenib"
@@ -302,7 +305,7 @@ this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage condition. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -345,7 +348,7 @@ The Netherlands </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -384,7 +387,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -393,7 +398,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -408,7 +414,7 @@ Usage: #inline
 3. Sådan skal du tage Sorafenib Accord 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -421,7 +427,7 @@ Sorafenib Accord bruges også til behandling af nyrecancer (fremskredent renalce
 fremskredent stadie, når standardbehandling ikke har hjulpet til at stoppe sygdommen, eller ikke er 
 passende.  </p>
 <p>Sorafenib Accord er en såkaldt multikinase-hæmmer. Den virker ved at nedsætte hastigheden af 
-cancercellernes vækst og afskære den blodforsyning, der gør, at cellerne kan vokse. </p>         </div>"""   
+cancercellernes vækst og afskære den blodforsyning, der gør, at cellerne kan vokse. </p> </div>"""   
           
 
              
@@ -506,7 +512,7 @@ Der er intet, der tyder på, at Sorafenib Accord vil påvirke evnen til at føre
 maskiner. </p>
 <p>Sorafenib Accord indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sorafenib"
@@ -535,7 +541,7 @@ lægemiddel. </p>
 <p>Hvis du har glemt at tage Sorafenib Accord 
 Hvis du har glemt at tage en dosis, så tag den, så snart du opdager det. Hvis det er lige før den næste 
 dosis, se da bort fra den glemte dosis, og fortsæt som normalt. 
-Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>         </div>"""         
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -642,7 +648,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sorafenib"
@@ -654,7 +660,7 @@ af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -704,7 +710,7 @@ Tel: +30 210 7488<br />
 Denne indlægsseddel blev senest ændret   </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om Sorafenib Accord på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -743,7 +749,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -752,7 +760,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -767,7 +776,7 @@ Usage: #inline
 3. Como tomar Sorafenib Accord 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Sorafenib Accord 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -781,7 +790,7 @@ avançado) numa fase avançada quando os tratamentos usuais não ajudaram a para
 considerados inadequados.  </p>
 <p>Sorafenib Accord é denominado um inibidor multiquinase. Atua reduzindo a velocidade de 
 crescimento das células cancerígenas e cortando o fornecimento de sangue que mantém o crescimento 
-das células cancerígenas. </p>         </div>"""   
+das células cancerígenas. </p> </div>"""   
           
 
              
@@ -871,7 +880,7 @@ Não existem evidências que o Sorafenib Accord possa afetar a capacidade de con
 máquinas. </p>
 <p>Sorafenib Accord contém sódio 
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sorafenib"
@@ -900,7 +909,7 @@ lhe para parar de tomar este medicamento. </p>
 <p>Caso se tenha esquecido de tomar Sorafenib Accord 
 Se se esqueceu de uma dose, tome-a logo que se lembre. Se forem quase horas da próxima dose, 
 esqueça a dose em falta e continue como normalmente. Não tome uma dose a dobrar para compensar 
-uma dose que se esqueceu de tomar. </p>         </div>"""         
+uma dose que se esqueceu de tomar. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1009,7 +1018,7 @@ urina e cansaço (Síndrome de lise tumoral (SLT)) (ver secção 2). </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sorafenib"
@@ -1022,7 +1031,7 @@ um dos blisters após EXP. O prazo de validade corresponde ao último dia do mê
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1074,7 +1083,7 @@ Win Medica Pharmaceutical S.A.<br />
 Tel: +30 210 7488<br />
 Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store VFEND  </li>
 <li>Content of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ antifungal medicine),
 fungi). </p>
 <p>VFEND is intended for patients with worsening, possibly life-threatening, fungal infections. </p>
 <p>Prevention of fungal infections in high risk bone marrow transplant recipients.  </p>
-<p>This product should only be taken under the supervision of a doctor.  </p>         </div>"""   
+<p>This product should only be taken under the supervision of a doctor.  </p> </div>"""   
           
 
              
@@ -222,7 +225,7 @@ taking VFEND.  </p>
 This medicine contains less than 1 mmol sodium (23 mg) per 50 mg tablet, that is to say essentially 
  sodium-free . </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per 200 mg tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vfend"
@@ -291,7 +294,7 @@ correctly, as described above.  </p>
 infection may not be cured. Patients with a weakened immune system or those with difficult infections may 
 require long-term treatment to prevent the infection from returning.  </p>
 <p>When VFEND treatment is stopped by your doctor you should not experience any effects.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -426,7 +429,7 @@ liver enzymes were also observed more frequently in children. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vfend"
@@ -438,7 +441,7 @@ Appendix V. By reporting side effects you can help provide more information on t
 day of that month. </p>
 <p>This medicine does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -538,7 +541,7 @@ Tel: +44 (0)1304 616Latvija<br />
 Pfizer Luxembourg SARL<br />
 Fili le Latvij <br />
 Tel: +371 670 35 This leaflet was last approved in {MM/YYYY}. 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -577,7 +580,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -586,7 +591,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -601,7 +607,7 @@ Usage: #inline
 3. Sådan skal du tage VFEND
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -625,7 +631,7 @@ alvorlige svampeinfektioner forårsaget af Scedosporium- eller Fusarium-arter (t
 svamp).
 VFEND er beregnet til patienter med forværrede og potentielt livstruende svampeinfektioner.
 Forebyggelse af svampeinfektioner hos højrisikopatienter, der har fået en knoglemarvstransplantation.
-Dette lægemiddel bør kun anvendes under opsyn af en læge.</p>         </div>"""   
+Dette lægemiddel bør kun anvendes under opsyn af en læge.</p> </div>"""   
           
 
              
@@ -806,7 +812,7 @@ VFEND indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 50 mg tablet, dvs. det er i det 
 væsentlige natriumfrit.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 200 mg tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vfend"
@@ -876,7 +882,7 @@ Fortsæt med at tage VFEND indtil din læge siger, at du skal stoppe. Stop ikke 
 din infektion muligvis ikke er kureret. Patienter med et nedsat immunsystem eller med alvorlige 
 infektioner kan have behov for behandling i lang tid for at undgå, at infektionen kommer igen.
 Når din læge stopper VFEND-behandlingen, bør du ikke kunne mærke det. 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1064,7 +1070,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vfend"
@@ -1076,7 +1082,7 @@ Tag ikke lægemidlet efter den udløbsdato, der står på etiketten. Udløbsdato
 nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1221,7 +1227,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.
-Oversigt over indlægssedlen</p>         </div>"""      
+Oversigt over indlægssedlen</p> </div>"""      
 
 
 
@@ -1260,7 +1266,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1269,7 +1277,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1284,7 +1293,7 @@ Usage: #inline
 3. Como tomar VFEND
 4. Efeitos indesejáveis possíveis
 5. Como conservar VFEND
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1308,7 +1317,7 @@ infeções fúngicas graves causadas por Scedosporium sp. ou Fusarium sp. (duas 
 diferentes de fungos).
 VFEND destina-se a doentes com infeções fúngicas graves, possivelmente com risco de vida.
 Prevenção de infeções fúngicas em recetores de transplante de medula óssea de elevado risco.
-Este medicamento deve apenas ser utilizado sob supervisão de um médico. </p>         </div>"""   
+Este medicamento deve apenas ser utilizado sob supervisão de um médico. </p> </div>"""   
           
 
              
@@ -1509,7 +1518,7 @@ VFEND contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido de 50 mg, ou seja, 
 é praticamente “isento de sódio".
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido de 200 mg, ou 
-seja, é praticamente “isento de sódio".</p>         </div>"""   
+seja, é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vfend"
@@ -1593,7 +1602,7 @@ de modo a prevenir que a infeção volte a surgir.
 Quando o tratamento com VFEND é interrompido pelo seu médico não deverá sentir quaisquer 
 efeitos. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1788,7 +1797,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vfend"
@@ -1802,7 +1811,7 @@ corresponde ao último dia do mês indicado.
 O medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1931,7 +1940,7 @@ Pfizer Luxembourg SARL
 Filiāle Latvijā 
 Tel: +371 670 35 775
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

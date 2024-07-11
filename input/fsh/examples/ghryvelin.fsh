@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How GHRYVELIN is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 hormone into the blood stream. </p>
 <p>GHRYVELIN is used in adults to test the body s ability to produce growth hormone. It is used when your doctor thinks that you may not have enough growth 
 hormone (adult growth hormone deficiency). This is not a treatment for patients who do not have enough growth hormone. It is a test that helps your doctor to 
-diagnose this condition. </p>         </div>"""   
+diagnose this condition. </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ Dizziness can occur with GHRYVELIN. If this happens, do not drive or use machine
 <p>GHRYVELIN contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>GHRYVELIN contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per sachet, that is to say it is essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per sachet, that is to say it is essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ghryvelin"
@@ -162,7 +165,7 @@ You will have three blood samples taken to measure growth hormone, one sample ea
 <p>If you are given more GHRYVELIN than you should 
 If you are given more GHRYVELIN than you should, tell your doctor or nurse. Possible side effects in cases of overdosing could include headache, nausea, 
 vomiting and diarrhoea. In case you should have heart rhythm disturbances, an ECG monitoring will be performed. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -194,7 +197,7 @@ vomiting and diarrhoea. In case you should have heart rhythm disturbances, an EC
 * changes in the electrocardiogram (ECG) 
 Reporting of side effects 
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not listed in this leaflet. You can also report side effects directly 
-via the national reporting system listed in Appendix V. By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+via the national reporting system listed in Appendix V. By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ghryvelin"
@@ -210,7 +213,7 @@ The shelf life of a sachet is 5 years.
 Reconstituted suspension 
 The suspension must be taken within 30 minutes after preparation. 
 Any remaining suspension must be discarded by your doctor or nurse according to local regulations. </p>
-<p>Do not throw away any medicines via wastewater or household waste. These measures will help protect the environment. </p>         </div>"""      
+<p>Do not throw away any medicines via wastewater or household waste. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -237,7 +240,7 @@ Weism llerstrasse D-60314 Frankfurt am Main
 Germany </p>
 <p>This leaflet was last revised in 
 Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: http://www.ema.europa.eu </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -276,7 +279,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -285,7 +290,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -302,7 +308,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -315,7 +321,7 @@ og får hypofysen til at frigive væksthormon til blodbanen. </p>
 <p>GHRYVELIN anvendes hos voksne for at undersøge kroppens evne til at producere væksthormon. 
 Det anvendes, når lægen mener, at du måske ikke har nok væksthormon (væksthormonmangel hos 
 voksne). Det er ikke en behandling til patienter, der ikke har tilstrækkeligt væksthormon. Det er en 
-test, der hjælper lægen med at diagnosticere denne tilstand. </p>         </div>"""   
+test, der hjælper lægen med at diagnosticere denne tilstand. </p> </div>"""   
           
 
              
@@ -458,7 +464,7 @@ Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale m
 lægemiddel. </p>
 <p>GHRYVELIN indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. brev, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ghryvelin"
@@ -481,7 +487,7 @@ indtagelse af dosen). </p>
 Hvis du har fået for meget GHRYVELIN, skal du fortælle det til lægen eller sundhedspersonalet. 
 Mulige bivirkninger i tilfælde af overdosering omfatter hovedpine, kvalme, opkastning og diarré. Hvis 
 du har fået hjerterytmeforstyrrelser, vil der blive taget et EKG (hjertediagram). </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -554,7 +560,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dett
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ghryvelin"
@@ -571,7 +577,7 @@ Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Rekonstitueret suspension </p>
 <p>Suspensionen skal tages inden for 30 minutter efter klargøring. 
 Ubrugt suspension skal bortskaffes af lægen eller sundhedspersonalet i henhold til lokaleretningslinjer. </p>
-<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -641,7 +647,7 @@ må ikke gemmes, men skal bortskaffes. </p>
 Tag venøse blodprøver til test af væksthormonniveauet 45, 60 og 90 minutter efter administration. </p>
 <p>Trin 7 
 Klargør plasma- eller serumprøver, og send dem til et laboratorium med henblik på bestemmelse af 
-væksthormonniveauet. </p>         </div>"""      
+væksthormonniveauet. </p> </div>"""      
 
 
 

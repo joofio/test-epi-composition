@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Shingrix  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -98,7 +101,7 @@ common. </p>
 <p>How Shingrix works 
 Shingrix reminds your body about the virus that causes shingles. This helps your immune system (the 
 body s natural defences) stay prepared to fight the virus and protect you against shingles and its 
-complications. </p>         </div>"""   
+complications. </p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ ability to drive or use machines. Do not drive or use machines if you are feelin
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free .<br />
 This medicine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially 
- potassium-free . </p>         </div>"""   
+ potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take shingrix"
@@ -169,7 +172,7 @@ injection 1 month after the first injection.  </li>
 <p>Make sure you finish the complete vaccination course. This will maximise the protection offered by 
 Shingrix. </p>
 <p>Shingrix can be given if you have already been vaccinated with a live attenuated herpes zoster 
-vaccine. Speak to your doctor for more information. </p>         </div>"""         
+vaccine. Speak to your doctor for more information. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -204,7 +207,7 @@ immunocompromised adults aged   50 years. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store shingrix"
@@ -217,7 +220,7 @@ refers to the last day of that month. </p>
 <p>Store in a refrigerator (2  C   8  C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -336,7 +339,7 @@ GlaxoSmithKline Biologicals SA
 Tel: +44(0)800 221 customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -375,7 +378,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -384,7 +389,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -399,7 +405,7 @@ Usage: #inline
 3. Sådan får du Shingrix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ almindeligt. </p>
 <p>Sådan virker Shingrix 
 Shingrix minder din krop om virussen, der forårsager helvedesild. Dette hjælper dit immunsystem 
 (kroppens naturlige forsvar) med at forblive parat til at bekæmpe virussen og beskytte dig mod 
-helvedesild og komplikationer heraf. </p>         </div>"""   
+helvedesild og komplikationer heraf. </p> </div>"""   
           
 
              
@@ -515,7 +521,7 @@ du føler dig utilpas. </p>
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
 væsentlige natriumfrit. 
 Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. det er i det væsentlige 
-kaliumfrit. </p>         </div>"""   
+kaliumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take shingrix"
@@ -540,7 +546,7 @@ efter den første injektion. </p>
 <p>Du skal sørge for at fuldføre hele vaccinationsprogrammet. Dette vil maksimere den beskyttelse, som 
 Shingrix yder. </p>
 <p>Du kan få Shingrix, selvom du tidligere er blevet vaccineret med en levende, svækket herpes zoster 
-vaccine. Tal med din læge for mere information. </p>         </div>"""         
+vaccine. Tal med din læge for mere information. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -606,7 +612,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store shingrix"
@@ -619,7 +625,7 @@ dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -795,7 +801,7 @@ Antigen
 Pulver </p>
 <p>Adjuvans 
 Suspension </p>
-<p>1 dosis (0,5 ml) </p>         </div>"""      
+<p>1 dosis (0,5 ml) </p> </div>"""      
 
 
 

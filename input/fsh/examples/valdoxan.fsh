@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Valdoxan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ depression vary from one person to another, but often include deep sadness, feel
 of interest in favourite activities, sleep disturbances, feeling of being slowed down, feelings of anxiety, 
 changes in weight. 
 The expected benefits of Valdoxan are to reduce and gradually remove the symptoms related to your 
-depression. </p>         </div>"""   
+depression. </p> </div>"""   
           
 
              
@@ -175,7 +178,7 @@ Make sure that your reactions are normal before driving or operating machines. <
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>Valdoxan contains sodium 
-Valdoxan contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
+Valdoxan contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take valdoxan"
@@ -229,7 +232,7 @@ The calendar printed on the blister containing the tablets should help you remem
 a tablet of Valdoxan. </p>
 <p>If you stop taking Valdoxan<br />
 Do not stop taking your medicine without the advice of your doctor even if you feel better. </p>
-<p>If you have any further questions on the use of this product, please ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, please ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -268,7 +271,7 @@ mental unrest), inability to completely empty the bladder. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store valdoxan"
@@ -280,7 +283,7 @@ medicine. </p>         </div>"""
 refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -384,7 +387,7 @@ SIA Servier Latvia
 United Kingdom (Northern Ireland) 
 Servier Laboratories (Ireland) Ltd </p>
 <p>Tel: +371 67502Tel: +44 (0)1753 666This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -423,7 +426,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -432,7 +437,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -447,7 +453,7 @@ Usage: #inline
 3. Sådan skal De tage Valdoxan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -463,7 +469,7 @@ Symptomerne på en depression er forskellige hos forskellige personer, men vil o
 tristhed, en følelse af ikke at slå til, manglende lyst til at gøre selv det, man bedst kan lide, søvn-
 forstyrrelser, en fornemmelse af at køre på nedsat kraft, angst og vægtforandringer. 
 De forventede fordele af Valdoxan er at reducere og gradvist fjerne symptomer relateret til Deres 
-depression. </p>         </div>"""   
+depression. </p> </div>"""   
           
 
              
@@ -569,7 +575,7 @@ Kontakt lægen, før De tager dette lægemiddel, hvis lægen har fortalt Dem, at
 sukkerarter. </p>
 <p>Valdoxan indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take valdoxan"
@@ -627,7 +633,7 @@ har taget en Valdoxan tablet. </p>
 <p>Hvis De holder op med at tage Valdoxan 
 Selv om De får det bedre, må De ikke holde op med at tage medicinen medmindre lægen anbefaler 
 det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -662,7 +668,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store valdoxan"
@@ -674,7 +680,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -812,7 +818,7 @@ Servier Laboratories (Ireland) Ltd
 Tel: +44 (0)1753 666 
 Denne indlægsseddel blev senest ændret </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

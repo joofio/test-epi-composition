@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Parsabiv </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ need haemodialysis to clear their blood of waste products. </p>
 glands in the neck).  Secondary  means that the hyperparathyroidism is caused by another condition, 
 e.g. kidney disease. Secondary hyperparathyroidism can cause the loss of calcium from the bones, 
 which can lead to bone pain and fractures and problems with blood and heart vessels. By controlling 
-the levels of PTH, Parsabiv helps to control calcium and phosphate in your body. </p>         </div>"""   
+the levels of PTH, Parsabiv helps to control calcium and phosphate in your body. </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ symptoms of low calcium levels (such as fits or convulsions) can affect your abi
 machinery. </p>
 <p>Parsabiv contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take parsabiv"
@@ -146,7 +149,7 @@ machine. Parsabiv will be given 3 times per week. The dose may be increased up t
 down to 2.5 mg depending on your response. </p>
 <p>You may need to take calcium and vitamin D supplements while being treated with Parsabiv. Your 
 doctor will discuss this with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -181,7 +184,7 @@ calcium levels are too low. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store parsabiv"
@@ -201,7 +204,7 @@ from direct sunlight. </p>
 <p>Do not use this medicine if you notice it has particles or it has changed colour. </p>
 <p>For single use only. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -342,7 +345,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -351,7 +356,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -368,7 +374,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -385,7 +391,7 @@ meget PTH. “Sekundær" betyder, at hyperparatyreoidismen skyldes en anden tils
 nyresygdom. Sekundær hyperparatyreoidisme kan medføre tab af calcium (kalk) fra knoglerne, som 
 kan medføre knoglesmerter og knoglebrud samt problemer med blod- og hjertekar. Parsabiv regulerer 
 indholdet af PTH i blodet og er på den måde med til at regulere indholdet af calcium og fosfat i 
-kroppen. </p>         </div>"""   
+kroppen. </p> </div>"""   
           
 
              
@@ -442,7 +448,7 @@ Visse symptomer på lavt calciumniveau (for eksempel kramper) kan dog påvirke e
 motorkøretøj og betjene maskiner. </p>
 <p>Parsabiv indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas, dvs. den er i det 
-væsentlige natriumfri. </p>         </div>"""   
+væsentlige natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take parsabiv"
@@ -455,7 +461,7 @@ Du vil få Parsabiv 3 gange om ugen. Dosis kan øges til op til 15 mg eller neds
 afhængigt af, hvordan du reagererpå behandlingen. </p>
 <p>Du vil muligvis få behov for tilskud af calcium og vitamin D, mens du er i behandling med Parsabiv. 
 Din læge vil fortælle dig mere om dette. </p>
-<p>Er du i tvivl, så spørg lægen eller sygeplejersken. </p>         </div>"""         
+<p>Er du i tvivl, så spørg lægen eller sygeplejersken. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -508,7 +514,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store parsabiv"
@@ -530,7 +536,7 @@ beskyttet mod direkte sollys. </p>
 <p>Brug ikke lægemidlet, hvis du kan se, at det indeholder partikler eller har skiftet farve. </p>
 <p>Kun til engangsbrug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -662,7 +668,7 @@ Tel: +44 (0)1223 420 </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
-http://www.laegemiddelstyrelsen.dk </p>         </div>"""      
+http://www.laegemiddelstyrelsen.dk </p> </div>"""      
 
 
 
@@ -701,7 +707,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -710,7 +718,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -727,7 +736,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Parsabiv </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -744,7 +753,7 @@ pescoço) produzem uma quantidade excessiva de PTH. “Secundário" significa qu
 hiperparatiroidismo é provocado por outra condição, por exemplo, doença renal. O 
 hiperparatiroidismo secundário pode levar à perda de cálcio nos ossos, o que poderá originar dores nos 
 ossos e fraturas, bem como problemas no sangue e nos vasos sanguíneos do coração. Através do 
-controlo dos valores de PTH, Parsabiv ajuda a controlar os valores de cálcio e de fosfato no seu corpo. </p>         </div>"""   
+controlo dos valores de PTH, Parsabiv ajuda a controlar os valores de cálcio e de fosfato no seu corpo. </p> </div>"""   
           
 
              
@@ -801,7 +810,7 @@ de conduzir e utilizar máquinas. Contudo, alguns sintomas de valores baixos de 
 convulsões) podem afetar a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>Parsabiv contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio  por frasco para injetáveis, ou seja, 
-é praticamente “isento de sódio". </p>         </div>"""   
+é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar parsabiv"
@@ -814,7 +823,7 @@ hemodiálise. Parsabiv será administrado 3 vezes por semana. A dose pode ser au
 reduzida até 2,5 mg dependendo da sua resposta. </p>
 <p>Pode precisar de tomar suplementos de cálcio e vitamina D durante o tratamento com Parsabiv. O seu 
 médico irá discutir este assunto consigo. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -867,7 +876,7 @@ Reações alérgicas (incluindo reações anafiláticas) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar parsabiv"
@@ -890,7 +899,7 @@ de 4 horas, se protegido da luz solar direta. </p>
 <p>Apenas para uma utilização. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1018,7 +1027,7 @@ Amgen Limited
 Tel: +44 (0)1223 420 </p>
 <p>Este folheto informativo foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

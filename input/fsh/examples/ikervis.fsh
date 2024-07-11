@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store IKERVIS </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ known as immunosuppressive agents that are used to reduce inflammation. </p>
 in the front part of the eye). It is used in those patients who have dry eye disease, which has not 
 improved despite treatment with tear substitutes (artificial tears). </p>
 <p>Talk to a doctor if you do not feel better or if you feel worse. </p>
-<p>You should visit your doctor at least every 6 months to assess the effect of IKERVIS. </p>         </div>"""   
+<p>You should visit your doctor at least every 6 months to assess the effect of IKERVIS. </p> </div>"""   
           
 
              
@@ -123,7 +126,7 @@ your vision clears before you drive or use machines. </p>
 This medicine contains 0.05 mg cetalkonium chloride in 1 mL. You should remove contact lenses 
 before using this medicine and you can reinsert them when you wake up. Cetalkonium chloride may 
 cause eye irritation. If you feel abnormal eye sensation, stinging or pain in the eye after using this 
-medicine, talk to your doctor. </p>         </div>"""   
+medicine, talk to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ikervis"
@@ -165,7 +168,7 @@ until it is time for your next regular dose. </p>
 make up for the forgotten dose. Do not use more than one drop each day in the affected eye(s). </p>
 <p>If you stop using IKERVIS without speaking to your doctor, the inflammation of the transparent 
 front part of your eye (known as keratitis) will not be controlled and could lead to impaired vision. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -208,7 +211,7 @@ is something in the eye,
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ikervis"
@@ -224,7 +227,7 @@ After opening of the aluminium pouches, the single-dose containers should be kep
 order to protect from light and avoid evaporation. Discard any opened individual single-dose container 
 with any remaining emulsion immediately after use. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ Tel: +371 677 917 United Kingdom (Northern Ireland)
 Santen Oy 
 Tel: +353 (0) 16950(UK Tel: +44 (0) 345 075 4863) </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -360,7 +363,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -369,7 +374,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -386,7 +392,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -400,7 +406,7 @@ immunhæmmende midler, der anvendes til at reducere betændelse. </p>
 gennemsigtige lag foran øjet). Det anvendes hos voksne patienter med øjentørhed, som ikke er blevet 
 bedre på trods af behandling med kunstige tårer. </p>
 <p>Kontakt lægen, hvis du får det værre, eller hvis du ikke får det bedre. </p>
-<p>Du bør besøge din læge mindst hver 6. måned for at vurdere virkningen af IKERVIS. </p>         </div>"""   
+<p>Du bør besøge din læge mindst hver 6. måned for at vurdere virkningen af IKERVIS. </p> </div>"""   
           
 
              
@@ -446,7 +452,7 @@ dig, skal du vente, indtil synet er klart, før du fører motorkøretøj eller b
 Dette lægemiddel indeholder 0,05 mg cetalkoniumchlorid i 1 ml. Du skal tage kontaktlinserne ud, før 
 lægemidlet bruges, og du kan sætte dem i igen om morgenen. Cetalkoniumchlorid kan forårsage 
 øjenirritation. Hvis du mærker en unormal fornemmelse i øjet, svien eller smerter i øjet efter brug af 
-dette lægemiddel, skal du tale med din læge. </p>         </div>"""   
+dette lægemiddel, skal du tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ikervis"
@@ -501,7 +507,7 @@ planlagt. Du må ikke bruge en dobbeltdosis som erstatning for den glemte dosis.
 overskride en dråbe i det/de berørte øjne dagligt. </p>
 <p>Hvis du holder op med at tage IKERVIS uden at tale med lægen, kontrolleres betændelsen i den 
 gennemsigtige hinde foran øjet (kendt som keratitis) ikke, og det kan føre til forringet syn.  </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -545,7 +551,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ikervis"
@@ -561,7 +567,7 @@ Efter anbrud af aluminiumsposerne, skal enkeltdosisbeholderne opbevares i posern
 dem mod lys og for at undgå fordampning. Bortskaf anbrudte enkeltdosisbeholdere med eventuel 
 overskydende emulsion umiddelbart efter brug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -697,7 +703,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -736,7 +742,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -745,7 +753,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -762,7 +771,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar IKERVIS </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -777,7 +786,7 @@ inflamação. </p>
 na parte frontal do olho) grave. É utilizado nos doentes que sofrem de doença do olho seco que não 
 tenha melhorado apesar do tratamento com substitutos lacrimais (lágrimas artificiais). </p>
 <p>Se não se sentir melhor ou se piorar, tem de consultar um médico. </p>
-<p>Deve consultar o seu médico, pelo menos, a cada 6 meses para avaliar o efeito de IKERVIS. </p>         </div>"""   
+<p>Deve consultar o seu médico, pelo menos, a cada 6 meses para avaliar o efeito de IKERVIS. </p> </div>"""   
           
 
              
@@ -825,7 +834,7 @@ até que a visão regresse ao normal antes de conduzir ou utilizar máquinas. </
 Este medicamento contém 0,05 mg de cloreto de cetalcónio em cada ml. Deve remover as lentes de 
 contacto antes da utilização deste medicamento, pode voltar a colocá-las quando acordar. O cloreto de 
 cetalcónio pode causar irritação nos olhos. Se tiver uma sensação estranha no olho, picadas ou dor no 
-olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+olho após utilizar este medicamento, fale com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ikervis"
@@ -884,7 +893,7 @@ Não utilize mais do que uma gota por dia no(s) olho(s) afetado(s). </p>
 transparente do olho (conhecida como queratite) não será controlada, podendo dar origem a 
 insuficiência visual. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -928,7 +937,7 @@ sensação da presença de algo no olho,
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ikervis"
@@ -946,7 +955,7 @@ saquetas de modo a proteger da luz e evitar a evaporação. Eliminar qualquer re
 com eventuais restos de emulsão imediatamente após a utilização. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1068,7 +1077,7 @@ Tel: +371 677 917 United Kingdom (Northern Ireland)
 Santen Oy 
 Tel: +353 (0) 169 500 (UK Tel: +44 (0) 345 075 4863) </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Lunsumio  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ attaches to specific targets in the body. In this case, mosunetuzumab attaches t
 found on B cells, including the cancerous B cells, and another target found on  T cells , a different 
 type of white blood cell. T cells are another part of the body s defences that can destroy invading cells. 
 By attaching the two cells together like a bridge, Lunsumio encourages the T cells to destroy the 
-cancerous B cells. This helps control the FL and prevent its spread. </p>         </div>"""   
+cancerous B cells. This helps control the FL and prevent its spread. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ not known whether any Lunsumio passes into breast milk and could therefore affec
 <p>Driving and using machines  </p>
 <p>Lunsumio has minor influence on your ability to drive, cycle or use any tools or machines. If you feel 
 any symptoms that may affect your ability to drive, do not drive, cycle or use tools or machines until 
-the reaction stops. See section 4 for more information about side effects. </p>         </div>"""   
+the reaction stops. See section 4 for more information about side effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lunsumio"
@@ -186,7 +189,7 @@ is very important not to miss a dose. </p>
 <p>If you stop receiving Lunsumio </p>
 <p>Do not stop treatment with Lunsumio unless you have discussed this with your doctor. This is because 
 stopping treatment may make your condition worse.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -276,7 +279,7 @@ organs, including the kidneys, heart, and liver (tumour lysis syndrome) </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lunsumio"
@@ -296,7 +299,7 @@ ambient temperature (9 C   30 C). </li>
 <li>Keep the container in the outer carton in order to protect from light. </li>
 </ul>
 <p>Your healthcare professional will dispose of any unneeded medicine appropriately. These measures 
-will help protect the environment. </p>         </div>"""      
+will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -395,7 +398,7 @@ about this medicine.  </p>
 <p>The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -434,7 +437,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -443,7 +448,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -460,7 +466,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -482,7 +488,7 @@ specifikke mål i kroppen. I dette tilfælde binder mosunetuzumab til et målsto
 herunder de ondartede B-celler, samt et andet mål på "T-celler", der er en anden type hvide 
 blodlegemer. T-celler udgør en anden del af kroppens forsvar, som kan dræbe invaderende celler. Ved 
 at binde de to celler sammen som en bro, tilskyndes Lunsumio T-cellerne til at dræbe de ondartede B-
-celler. Dette gør det muligt at kontrollere FL og forhindre spredning. </p>         </div>"""   
+celler. Dette gør det muligt at kontrollere FL og forhindre spredning. </p> </div>"""   
           
 
              
@@ -567,7 +573,7 @@ vides, om Lunsumio udskilles i modermælk og derfor vil kunne påvirke barnet. <
 <p>Trafik- og arbejdssikkerhed  </p>
 <p>Lunsumio har mindre virkning på din evne til at føre motorkøretøj, cykle eller betjene maskiner. Hvis 
 du føler symptomer, der kan påvirke din evne til at køre bil, må du ikke køre bil, cykle eller bruge 
-værktøj eller maskiner, før reaktionen stopper. Se afsnit 4 for flere oplysninger om bivirkninger. </p>         </div>"""   
+værktøj eller maskiner, før reaktionen stopper. Se afsnit 4 for flere oplysninger om bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lunsumio"
@@ -626,7 +632,7 @@ fuldt effektiv, er det meget vigtigt ikke at gå glip af en dosis. </p>
 <p>Hvis du holder op med at bruge Lunsumio </p>
 <p>Du må ikke stoppe behandlingen med Lunsumio, medmindre du har drøftet det med din læge. Dette 
 skyldes, at det kan gøre din tilstand værre at stoppe behandlingen.  </p>
-<p>Spørg lægen eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af dette lægemiddel. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -877,7 +883,7 @@ histiocytter og lymfocytter (hæmofagocytisk lymfohistiocytose). </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lunsumio"
@@ -909,7 +915,7 @@ ved rumtemperatur (9 °C - 30 °C). </p>
 </li>
 </ul>
 <p>Sundhedspersonalet vil bortskaffe medicinrester på passende vis. Disse foranstaltninger vil bidrage til 
-at beskytte miljøet. </p>         </div>"""      
+at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1101,7 +1107,7 @@ rystes. </li>
 opbevaringstider og -forhold, som normalt ikke vil være længere end 24 timer ved 2 °C til 8 °C, 
 medmindre fortynding er foretaget under kontrollerede og validerede aseptiske forhold. </p>
 <p>Peel-off etiket  </p>
-<p>Påfør denne etiket på infusionsposen </p>         </div>"""      
+<p>Påfør denne etiket på infusionsposen </p> </div>"""      
 
 
 
@@ -1140,7 +1146,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1149,7 +1157,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1166,7 +1175,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Lunsumio  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1189,7 +1198,7 @@ alvo que se encontra nas células B, incluindo as células B cancerígenas, e a 
 nas células T, um tipo de glóbulo branco diferente. As células T são outro componente das defesas do 
 organismo que conseguem destruir células invasoras. Ao ligar-se a ambas as células, como uma ponte, 
 Lunsumio incentiva as células T a destruir as células B cancerígenas. Isto ajuda a controlar o LF e a 
-prevenir que este se dissemine. </p>         </div>"""   
+prevenir que este se dissemine. </p> </div>"""   
           
 
              
@@ -1285,7 +1294,7 @@ afetar o bebé. </p>
 <p>Os efeitos de Lunsumio sobre a capacidade de conduzir, andar de bicicleta ou utilizar quaisquer 
 ferramentas ou máquinas são reduzidos. Se tiver qualquer sintoma que possa afetar a sua capacidade 
 de conduzir, não conduza, não ande de bicicleta nem use ferramentas ou máquinas até a reação 
-desaparecer. Consulte mais informações sobre efeitos indesejáveis na secção 4.  </p>         </div>"""   
+desaparecer. Consulte mais informações sobre efeitos indesejáveis na secção 4.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lunsumio"
@@ -1347,7 +1356,7 @@ administração. </p>
 <p>Se parar de utilizar Lunsumio </p>
 <p>Não pare o tratamento com Lunsumio exceto se já discutiu o assunto com o seu médico. Isto porque 
 parar o tratamento pode fazer com que a sua doença piore.  </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1598,7 +1607,7 @@ chamadas histiócitos e linfócitos (linfohistiocitose hemofagocítica). </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V.* Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lunsumio"
@@ -1631,7 +1640,7 @@ de 24 horas à temperatura ambiente (9 °C a 30 °C). </p>
 </li>
 </ul>
 <p>O seu profissional de saúde irá eliminar adequadamente qualquer medicamento que não seja 
-necessário. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+necessário. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1766,7 +1775,7 @@ significa que se aguarda mais informação sobre este medicamento.  </p>
 <p>A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

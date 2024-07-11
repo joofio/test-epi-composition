@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ enzyme (reverse transcriptase) that is essential for the virus to multiply. </p>
 <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva is a treatment for Human 
 Immunodeficiency Virus (HIV) infection in adults aged 18 years and over who have previously been 
 treated with other antiretroviral medicines and have their HIV-1 infection under control for at least 
-three months. Patients must not have experienced failure of a previous HIV therapy. </p>         </div>"""   
+three months. Patients must not have experienced failure of a previous HIV therapy. </p> </div>"""   
           
 
              
@@ -355,7 +358,7 @@ Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva may cause dizziness, impair
 concentration and drowsiness. If you are affected, do not drive and do not use any tools or machines. </p>
 <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efavirenzemtricitabinetenofovir"
@@ -412,7 +415,7 @@ patients with advanced liver disease or cirrhosis, stopping treatment is not rec
 lead to worsening of your hepatitis, which may be life-threatening. </p>
 <p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, particularly 
 symptoms you associate with hepatitis B infection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -518,7 +521,7 @@ occur due to damage to kidney tubule cells. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efavirenzemtricitabinetenofovir"
@@ -532,7 +535,7 @@ expiry date refers to the last day of that month. </p>
 conditions. Store in the original package in order to protect from moisture. Keep the bottle tightly 
 closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -654,7 +657,7 @@ United Kingdom (Northern Ireland)
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -693,7 +696,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -702,7 +707,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -717,7 +723,7 @@ Usage: #inline
 3. Sådan skal du tage Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -743,7 +749,7 @@ til at behandle human immundefekt virus (hiv)-infektion: </p>
 <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva er til behandling af Human Immundefekt 
 Virus (hiv)-infektion hos voksne i alderen 18 år og derover, som tidligere er blevet behandlet med 
 anden antiretroviral medicin, og hvis hiv-1-infektion har været under kontrol i mindst tre måneder. 
-Patienterne må ikke have oplevet, at en tidligere hiv-behandling ikke har virket. </p>         </div>"""   
+Patienterne må ikke have oplevet, at en tidligere hiv-behandling ikke har virket. </p> </div>"""   
           
 
              
@@ -1108,7 +1114,7 @@ koncentrationsevne og døsighed. Kør ikke bil eller motorcykel og lad være med
 med at arbejde med værktøj eller maskiner, hvis du føler dig påvirket. </p>
 <p>Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per tablet, dvs. det er i det </p>
-<p>væsentlige "natriumfri". </p>         </div>"""   
+<p>væsentlige "natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efavirenzemtricitabinetenofovir"
@@ -1170,7 +1176,7 @@ forværring af din hepatitis, hvilket kan være livstruende. </p>
 <p>Bemærker du nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal du omgående 
 oplyse din læge herom, især hvis det drejer sig om symptomer, som du forbinder med hepatitis B-
 infektion. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1386,7 +1392,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efavirenzemtricitabinetenofovir"
@@ -1400,7 +1406,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 opbevaringsbetingelser. Opbevares i den originale yderpakning for at beskytte mod fugt. Hold 
 beholderen tæt tillukket. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1534,7 +1540,7 @@ Zentiva, k.s.
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1573,7 +1579,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1582,7 +1590,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1597,7 +1606,7 @@ Usage: #inline
 3. Como utilizar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1625,7 +1634,7 @@ multiplicar. </p>
 pelo Vírus da Imunodeficiência Humana (VIH) em adultos com 18 anos de idade ou mais que 
 foram previamente tratados com outros medicamentos antirretrovirais e têm a sua infeção pelo VIH-1 
 controlada há pelo menos três meses. Os doentes não devem ter tido um insucesso com uma 
-terapêutica prévia contra o VIH. </p>         </div>"""   
+terapêutica prévia contra o VIH. </p> </div>"""   
           
 
              
@@ -2009,7 +2018,7 @@ concentração e sonolência. No caso de se sentir afetado, não conduza e não 
 ferramentas ou máquinas. </p>
 <p>Efavirenz/Emtricitabina/Tenofovir disoproxil Zentiva contém sódio. 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar efavirenzemtricitabinetenofovir"
@@ -2075,7 +2084,7 @@ potencialmente fatal. </p>
 <p>Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais após 
 parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2292,7 +2301,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar 
 efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar efavirenzemtricitabinetenofovir"
@@ -2307,7 +2316,7 @@ especial de conservação. Conservar na embalagem de origem para proteger da hum
 frasco bem fechado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2444,7 +2453,7 @@ United Kingdom (Northern Ireland)
 Zentiva, k.s. 
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

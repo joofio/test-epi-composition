@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Quofenix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ antibiotics cannot be used or have not worked:
 * infections of the skin and tissue under the skin 
 * infection of the lungs called  pneumonia . </p>
 <p>It works by blocking bacteria enzymes needed to copy and to repair their DNA. By blocking these 
-enzymes, Quofenix kills bacteria that cause the infection. </p>         </div>"""   
+enzymes, Quofenix kills bacteria that cause the infection. </p> </div>"""   
           
 
              
@@ -188,7 +191,7 @@ activities that require mental alertness or coordination until you know how Quof
 This medicine contains 2480 mg of sulfobutylbetadex sodiumin each vial. </p>
 <p>Quofenix contains sodium 
 This medicine contains 175 mg of sodium (main component of cooking salt) in each vial. This is 
-equivalent to 8.8% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 8.8% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take quofenix"
@@ -207,7 +210,7 @@ Tell your doctor or nurse immediately if you are concerned that you may have bee
 Quofenix. </p>
 <p>If you miss a dose of Quofenix 
 Tell your doctor or nurse immediately if you are concerned that you may have missed a dose. 
-If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ patients receiving fluoroquinolones. See also section 2. Reporting of side effec
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store quofenix"
@@ -341,7 +344,7 @@ container. </p>
 after reconstitution and dilution. If not used immediately, in-use storage times and conditions prior to 
 use are the responsibility of the user and would normally not be longer than 24 hours at 2 to 8 C, 
 unless reconstitution and dilution has taken place in controlled and validated aseptic conditions. </p>
-<p>Do not freeze. </p>         </div>"""      
+<p>Do not freeze. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -442,7 +445,7 @@ SIA Berlin-Chemie/Menarini Baltic
 Tel: +371 67103United Kingdom (Northern Ireland) 
 A. Menarini Farmaceutica Internazionale S.R.L. 
 Tel: +44 (0)1628 856This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -481,7 +484,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -490,7 +495,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -505,7 +511,7 @@ Usage: #inline
 3. Sådan skal du bruge Quofenix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -526,7 +532,7 @@ når de sædvanlige antibiotika ikke kan anvendes eller ikke har virket: </p>
 </li>
 </ul>
 <p>Lægemidlet virker ved at blokere enzymer, der er nødvendige for at kopiere og reparere bakteriernes 
-DNA. Ved at blokere disse enzymer, dræber Quofenix de bakterier, der har forårsaget infektionen. </p>         </div>"""   
+DNA. Ved at blokere disse enzymer, dræber Quofenix de bakterier, der har forårsaget infektionen. </p> </div>"""   
           
 
              
@@ -688,7 +694,7 @@ Dette lægemiddel indeholder 2.480 mg sulfobutylether-beta-cyclodextrinnatrium i
 <p>Quofenix indeholder natrium 
 Dette lægemiddel indeholder 175 mg natrium (hovedkomponent i madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 8,8 % af den anbefalede maximale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take quofenix"
@@ -708,7 +714,7 @@ Quofenix. </p>
 <p>Hvis du har glemt at få Quofenix 
 Sig det straks til lægen eller sygeplejersken, hvis du er bekymret for, om du kan have sprunget en dosis 
 over. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -979,7 +985,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store quofenix"
@@ -996,7 +1002,7 @@ rekonstitution og fortynding. Hvis produktet ikke anvendes med det samme, er opb
 opbevaringsforholdene før anvendelse brugerens ansvar, og vil normalt højst være 24 timer ved 2 til 
 8 °C, medmindre rekonstitution og fortynding har fundet sted under kontrollerede og validerede 
 aseptiske forhold. </p>
-<p>Må ikke nedfryses. </p>         </div>"""      
+<p>Må ikke nedfryses. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1155,7 +1161,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Oversigt over indlægssedlen </p> </div>"""      
 
 
 
@@ -1194,7 +1200,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1203,7 +1211,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1220,7 +1229,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Quofenix </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1236,7 +1245,7 @@ quando os antibióticos habituais não podem ser utilizados ou não funcionaram:
 da pele e dos tecidos sob a pele 
 infeção dos pulmões chamada "pneumonia". 
 Funciona bloqueando as enzimas bacterianas necessárias para copiar e reparar o seu ADN. Ao bloquear 
-essas enzimas, Quofenix mata as bactérias que causam a infeção. </p>         </div>"""   
+essas enzimas, Quofenix mata as bactérias que causam a infeção. </p> </div>"""   
           
 
              
@@ -1359,7 +1368,7 @@ atividades que exijam estado de alerta mental ou coordenação até saber como o
 Este medicamento contém 2480 mg de sulfobutílico betadex de sódio em cada frasco. </p>
 <p>Quofenix contém sódio 
 Este medicamento contém 175 mg de sódio (componente principal do sal de cozinha) por frasco. Isto é 
-equivalente a 8,8% da ingestão diária máxima recomendada de sódio na dieta de um adulto. </p>         </div>"""   
+equivalente a 8,8% da ingestão diária máxima recomendada de sódio na dieta de um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar quofenix"
@@ -1379,7 +1388,7 @@ Informe imediatamente o seu médio ou enfermeiro se estiver preocupado com o fac
 dado Quofenix em excesso. </p>
 <p>Caso se tenha esquecido de uma dose de Quofenix 
 Informe imediatamente o seu médico ou enfermeiro se estiver preocupado por ter esquecido uma dose. 
-Se ainda tiver dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+Se ainda tiver dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1570,7 +1579,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar quofenix"
@@ -1588,7 +1597,7 @@ reconstituição e diluição. Se não for utilizado imediatamente, o tempo e as
 antes da utilização são da responsabilidade do utilizador e normalmente não serão superiores a 24 horas 
 entre 2 e 8°C, salvo se a reconstituição e a diluição tiverem ocorrido em condições assépticas controladas 
 e validadas.  </p>
-<p>Não congele. </p>         </div>"""      
+<p>Não congele. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1701,7 +1710,7 @@ United Kingdom (Northern Ireland)
 A. Menarini Farmaceutica Internazionale S.R.L. 
 Tel: +44 (0)1628 856 
 Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

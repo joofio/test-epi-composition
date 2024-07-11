@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Temomedac </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ treatment). </li>
 <li>in children 3 years and older and adult patients with malignant glioma, such as glioblastoma 
 multiforme or anaplastic astrocytoma. Temomedac is used in these tumours if they return or get 
 worse after standard treatment. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ intolerance to some sugars, contact your doctor before taking this medicine. </p
 This medicine contains less than 1 mmol sodium (23 mg) per hard capsule, that is to say essentially 
  sodium-free . </p>
 <p>Additional information for Temomedac 20 mg hard capsules 
-The excipient sunset yellow FCF (E110) included in the capsules shell may cause allergic reactions. </p>         </div>"""   
+The excipient sunset yellow FCF (E110) included in the capsules shell may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take temomedac"
@@ -254,7 +257,7 @@ pharmacist or nurse immediately. </p>
 Take the missed dose as soon as possible during the same day. If a full day has gone by, check with 
 your doctor. Do not take a double dose to make up for a forgotten dose, unless your doctor tells you to 
 do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -341,7 +344,7 @@ impotence </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store temomedac"
@@ -357,7 +360,7 @@ Store in the original package in order to protect from moisture.<br />
 Keep the bottle tightly closed. </p>
 <p>Tell your pharmacist if you notice any change in the appearance of the capsules. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -420,7 +423,7 @@ Germany </p>
 <p>This leaflet was last revised in 
 Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -459,7 +462,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -468,7 +473,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -483,7 +489,7 @@ Usage: #inline
 3. Sådan skal du tage Temomedac 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -506,7 +512,7 @@ glioblastoma multiforme eller anaplastisk astrocytoma. Temomedac bruges til beha
 disse svulster, hvis der er tegn på, at de vender tilbage eller bliver værre efter 
 standardbehandling. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -610,7 +616,7 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hårde kapsel
 væsentlige natriumfrit. </p>
 <p>Yderligere oplysninger for Temomedac 20 mg hårde kapsler 
 Hjælpestoffet Sunset Yellow FCF (E 110), der findes i kapselskallen, kan fremkalde allergiske 
-reaktioner. </p>         </div>"""   
+reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take temomedac"
@@ -713,7 +719,7 @@ apotekspersonalet eller sygeplejersken. </p>
 Tag den glemte dosis så snart som muligt samme dag. Hvis der er gået en hel dag, skal du kontakte 
 din læge. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, medmindre din læge 
 beder dig gøre dette. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -858,7 +864,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store temomedac"
@@ -874,7 +880,7 @@ Opbevares i den originale yderpakning for at beskytte mod fugt.
 Hold flasken tæt tillukket. </p>
 <p>Tal med apotekspersonalet, hvis du bemærker et ændret udseende af kapslerne. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -937,7 +943,7 @@ Tyskland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -976,7 +982,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -985,7 +993,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1000,7 +1009,7 @@ Usage: #inline
 3. Como tomar Temomedac 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Temomedac 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1016,7 +1025,7 @@ Temomedac é utilizado em associação com radioterapia (fase concomitante do tr
 posteriormente sozinho (fase de monoterapia do tratamento). 
 - em crianças com idade igual ou superior a 3 anos e adultos com glioma maligno, tal como 
 glioblastoma multiforme ou astrocitoma anaplásico. Temomedac é utilizado nestes tumores 
-caso demonstrem recorrência ou progressão após uma terapêutica padrão. </p>         </div>"""   
+caso demonstrem recorrência ou progressão após uma terapêutica padrão. </p> </div>"""   
           
 
              
@@ -1096,7 +1105,7 @@ intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. <
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por cápsula, ou seja, é 
 praticamente “isento de sódio". </p>
 <p>Informação adicional sobre Temomedac 20 mg ca'sulas 
-O excipiente amarelo sunset FCF (E 110) presente nas cápsulas pode provocar reacções alérgicas. </p>         </div>"""   
+O excipiente amarelo sunset FCF (E 110) presente nas cápsulas pode provocar reacções alérgicas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar temomedac"
@@ -1212,7 +1221,7 @@ imediatamente o seu médico, farmacêutico u enfermeiro. </p>
 inteiro, consulte o seu médico. Não tome uma dose a dobrar para compensar uma dose que se 
 esqueceu de tomar, a não ser por indicação do seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1349,7 +1358,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar temomedac"
@@ -1366,7 +1375,7 @@ Manter o frasco bem fechado. </p>
 <p>Informe o seu farmacêutico se detectar qualquer alteração no aspecto das cápsulas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1426,7 +1435,7 @@ Theaterstr. 6
 Alemanha </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

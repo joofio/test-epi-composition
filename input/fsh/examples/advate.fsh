@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store ADVATE</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ In patients with haemophilia A (inborn lack of factor VIII), it is missing or no
 ADVATE is used for the treatment and prevention of bleeding in patients of all age groups with 
 haemophilia A (an inherited bleeding disorder caused by lack of factor VIII).
 ADVATE is prepared without the addition of any human- or animal-derived protein in the entire 
-manufacturing process.</p>         </div>"""   
+manufacturing process.</p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ Driving and using machines
 ADVATE has no influence on your ability to drive or to use machines.
 ADVATE contains sodium
 This medicine contains 10 mg sodium (main component of cooking salt) per vial. This is equivalent to 
-0.5 % of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+0.5 % of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take advate"
@@ -168,7 +171,7 @@ Do not inject a double dose to make up for a forgotten dose. Proceed with the ne
 scheduled and continue as advised by your doctor.
 If you stop using ADVATE
 Do not stop using ADVATE without consulting your doctor.
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -223,7 +226,7 @@ studies.
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store advate"
@@ -245,7 +248,7 @@ This product is for single use only. Discard any unused solution appropriately.
 Use the product immediately once the powder is completely dissolved.
 Do not refrigerate the solution after preparation.
 Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ United Kingdom (Northern Ireland)
 Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -400,7 +403,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -409,7 +414,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -424,7 +430,7 @@ Usage: #inline
 3. Sådan skal du bruge ADVATE
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -439,7 +445,7 @@ dette stof, eller det virker ikke ordentligt.
 ADVATE anvendes til behandling og forebyggelse af blødning til patienter i alle aldersgrupper med 
 hæmofili A (en arvelig blødersygdom forårsaget af mangel på faktor VIII).
 ADVATE er fremstillet uden tilsætning af protein fra mennesker eller dyr under hele 
-fremstillingsprocessen.</p>         </div>"""   
+fremstillingsprocessen.</p> </div>"""   
           
 
              
@@ -489,7 +495,7 @@ med værktøj og maskiner.
 ADVATE indeholder natrium
 Dette lægemiddel indeholder 10 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 0,5 % af den anbefalede maximale daglige indtagelse af natrium for en 
-voksen.</p>         </div>"""   
+voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take advate"
@@ -535,7 +541,7 @@ Du må ikke injicere en dobbeltdosis som erstatning for en glemt dosis. Tag i st
 dosis, og fortsæt i henhold til din læges anvisninger.
 Hvis du holder op med at bruge ADVATE
 Hold ikke op med at bruge ADVATE uden at kontakte din læge eller sundhedspersonalet.
-Spørg lægen eller sundhedspersonalet hvis der er noget, du er i tvivl om eller føler dig usikker på.</p>         </div>"""         
+Spørg lægen eller sundhedspersonalet hvis der er noget, du er i tvivl om eller føler dig usikker på.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -599,7 +605,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 som ikke er medtaget i denne indlægsseddel. Du dine pårørende kan også indberette bivirkninger 
 direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel.</p>         </div>"""      
+dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store advate"
@@ -623,7 +629,7 @@ Produktet er til engangsbrug. Kassér ubrugt væske på en passende måde.
 Anvend produktet straks efter fuldstændig opløsning af pulveret.
 Opbevar ikke produktet i køleskab efter opløsning.
 Spørg på apoteket hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -916,7 +922,7 @@ Lægen har ordineret ADVATE til dig personligt. Lad derfor være med at give med
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, hvis en bivirkning bliver værre, eller du får bivirkninger, som ikke er nævnt her. 
-Se punkt 4. </p>         </div>"""      
+Se punkt 4. </p> </div>"""      
 
 
 

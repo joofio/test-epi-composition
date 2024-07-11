@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Glivec </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ in which some cells start growing out of control. Glivec inhibits the growth of 
 In the rest of this leaflet, we will use the abbreviations when talking about these diseases. </li>
 </ul>
 <p>If you have any questions about how Glivec works or why this medicine has been prescribed for you, 
-ask your doctor. </p>         </div>"""   
+ask your doctor. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ may harm your baby.
 their doctor. </p>
 <p>Driving and using machines 
 You may feel dizzy or drowsy or get blurred vision while taking this medicine. If this happens, do not 
-drive or use any tools or machines until you are feeling well again. </p>         </div>"""   
+drive or use any tools or machines until you are feeling well again. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take glivec"
@@ -229,7 +232,7 @@ medical attention. Take the medicine pack with you. </p>
 dose, skip the missed dose. 
 - Then continue with your normal schedule. 
 - Do not take a double dose to make up a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -379,7 +382,7 @@ If any of these affects you severely, tell your doctor. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store glivec"
@@ -395,7 +398,7 @@ safety of this medicine. </p>         </div>"""
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -495,7 +498,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -534,7 +537,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -543,7 +548,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -558,7 +564,7 @@ Usage: #inline
 3. Sådan skal du tage Glivec 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -596,7 +602,7 @@ visse celler vokser ukontrolleret. Glivec hæmmer væksten af disse celler.
 I resten af denne indlægsseddel vil vi bruge forkortelserne, når vi omtaler disse sygdomme. </li>
 </ul>
 <p>Hvis du har spørgsmål om, hvordan Glivec virker, eller hvorfor du har fået ordineret dette lægemiddel, 
-kontakt din læge. </p>         </div>"""   
+kontakt din læge. </p> </div>"""   
           
 
              
@@ -662,7 +668,7 @@ da det kan skade din baby.
 - Hvis du er bekymret for din frugtbarhed, mens du tager Glivec, skal du kontakte din læge. </p>
 <p>Trafik- og arbejdssikkerhed 
 Du kan blive svimmel eller søvnig eller få sløret syn, mens du tager dette lægemiddel. Hvis dette sker, 
-bør du ikke køre bil eller bruge værktøj og maskiner, før du føler dig godt tilpas igen. </p>         </div>"""   
+bør du ikke køre bil eller bruge værktøj og maskiner, før du føler dig godt tilpas igen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take glivec"
@@ -734,7 +740,7 @@ Lægebehandling kan være nødvendig. Tag pakningen med dig. </p>
 næsten er tid til at tage den næste dosis, skal du springe den glemte dosis over. 
 - Fortsæt derefter med den planlagte dosering. 
 - Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1091,7 +1097,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store glivec"
@@ -1119,7 +1125,7 @@ været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1251,7 +1257,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

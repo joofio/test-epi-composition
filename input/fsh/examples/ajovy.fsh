@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store AJOVY </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ AJOVY is used to prevent migraine in adults who have at least 4 migraine days pe
 <p>What are the benefits of using AJOVY 
 AJOVY reduces the frequency of migraine attacks and days with headache. This medicine also 
 decreases the disability associated with migraine and it reduces the need for medicines used to treat 
-migraine attacks. </p>         </div>"""   
+migraine attacks. </p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ this medicine. You and your doctor should decide if you will use AJOVY while bre
 <p>Driving and using machines 
 This medicine is not expected to have any effect on your ability to drive or use machines. </p>
 <p>AJOVY contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. is essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, i.e. is essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ajovy"
@@ -146,7 +149,7 @@ If you have used more AJOVY than you should, tell your doctor. </p>
 If you have missed a dose of AJOVY, inject your missed dose as soon as you can. Do not take a 
 double dose to make up for a forgotten dose. If you are not sure when to inject AJOVY, talk to your 
 doctor, pharmacist or nurse. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -170,7 +173,7 @@ rash) (see section 2.  Warnings and precautions ). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ajovy"
@@ -189,7 +192,7 @@ for longer than 7 days. Once stored at room temperature, do not place back in th
 damaged, or the medicine is cloudy, discoloured, or contains particles. </p>
 <p>The syringe is for single use only. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -328,7 +331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -337,7 +342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -352,7 +358,7 @@ Usage: #inline
 3. Sådan skal du bruge AJOVY 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -372,7 +378,7 @@ AJOVY bruges til at forebygge migræne hos voksne, som har mindst 4 migrænedage
 <p>Hvad er fordelene ved at bruge AJOVY 
 AJOVY sænker hyppigheden af migræneanfald og dage med hovedpine. Denne medicin mindsker 
 også de invaliderende symptomer, som forekommer i forbindelse med migræne, og den mindsker 
-behovet for lægemidler til behandling af migræneanfald. </p>         </div>"""   
+behovet for lægemidler til behandling af migræneanfald. </p> </div>"""   
           
 
              
@@ -407,7 +413,7 @@ bruger denne medicin. Du og din læge skal beslutte, om du kan bruge AJOVY, så 
 Dette lægemiddel forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>AJOVY indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ajovy"
@@ -436,7 +442,7 @@ Fortæl det til lægen, hvis du har brugt mere AJOVY, end du skulle. </p>
 Hvis du har glemt at injicere en dosis AJOVY, skal den manglende dosis injiceres snarest muligt. Du 
 må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Hvis du er i tvivl om, hvornår du 
 skal injicere AJOVY, skal du kontakte lægen, apotekspersonalet eller sygeplejersken. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -461,7 +467,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ajovy"
@@ -481,7 +487,7 @@ tilbage i køleskabet. </p>
 injektionssprøjten er beskadiget, eller lægemidlet er uklart, misfarvet eller indeholder partikler. </p>
 <p>Injektionssprøjten er udelukkende til engangsbrug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -750,7 +756,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

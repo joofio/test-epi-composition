@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Semglee  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Semglee contains insulin glargine. This is a modified insulin, very similar to human insulin. </p>
 <p>Semglee is used to treat diabetes mellitus in adults, adolescents and children aged 2 years and above. 
 Diabetes mellitus is a disease where your body does not produce enough insulin to control the level of 
-blood sugar. Insulin glargine has a long and steady blood-sugar-lowering action. </p>         </div>"""   
+blood sugar. Insulin glargine has a long and steady blood-sugar-lowering action. </p> </div>"""   
           
 
              
@@ -203,7 +206,7 @@ your diet. </p>
 <li>the first warning symptoms which help you to recognise hypoglycaemia are reduced or absent. </li>
 </ul>
 <p>Semglee contains sodium </p>
-<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, i.e. it is essentially  sodium-free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol (23 mg) sodium per dose, i.e. it is essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take semglee"
@@ -272,7 +275,7 @@ the treatment of hyperglycaemia, see box at the end of this leaflet. </p>
 <p>This could lead to severe hyperglycaemia (very high blood sugar) and ketoacidosis (build-up of acid in 
 the blood because the body is breaking down fat instead of sugar). Do not stop Semglee without 
 speaking to a doctor, who will tell you what needs to be done. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -324,7 +327,7 @@ There is no experience in children under 2 years. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store semglee"
@@ -346,7 +349,7 @@ The pen cap must be put back on the pen after each injection in order to protect
 <p>Remove the needle after the injection and store the pen without the needle. Also, be sure to remove the 
 needle before disposing of the pen. Needles must not be re-used. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -444,7 +447,7 @@ Tel: 0080008250Latvija
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -483,7 +486,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -492,7 +497,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -507,7 +513,7 @@ Usage: #inline
 3. Sådan skal du bruge Semglee 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -520,7 +526,7 @@ kroppen. </p>
 <p>Semglee anvendes til behandling af sukkersyge (diabetes mellitus) hos voksne, unge og børn fra 2 år 
 og opefter. Diabetes mellitus er en sygdom, som skyldes, at kroppen ikke danner tilstrækkeligt insulin 
 til at holde blodsukkeret under kontrol. Insulin glargin er langtidsvirkende og har en jævn 
-blodsukkersænkende effekt. </p>         </div>"""   
+blodsukkersænkende effekt. </p> </div>"""   
           
 
              
@@ -659,7 +665,7 @@ mangler. </li>
 </ul>
 <p>Semglee indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take semglee"
@@ -733,7 +739,7 @@ behandling af hyperglykæmi findes i det indrammede afsnit sidst i indlægssedle
 <p>Dette kan medføre alvorlig hyperglykæmi (meget forhøjet blodsukker) og ketoacidose (syreophobning 
 i blodet fordi kroppen nedbryder fedt i stedet for sukker). Afbryd ikke behandlingen med Semglee 
 uden at tale med din læge, som vil fortælle dig, hvad der skal gøres. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -799,7 +805,7 @@ Axel Heides Gade 1
 DK-2300 København S 
 Websted: www.meldenbivirkning.dk </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store semglee"
@@ -822,7 +828,7 @@ Penhætten skal sættes på pennen efter hver injektion for at beskytte mod lys.
 <p>Fjern kanylen efter injektion og opbevar pennen uden kanyle. Du skal også sikre dig, at du har fjernet 
 kanylen, før du kasserer pennen. Kanylen må ikke genbruges. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1289,7 +1295,7 @@ kan beskadige den.  </p>
 nålen som beskrevet i Trin 7, og kassér pennen eller lever den tilbage til apoteket. Brug i stedet 
 en ny pen. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1328,7 +1334,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1337,7 +1345,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1352,7 +1361,7 @@ Usage: #inline
 3. Como utilizar Semglee 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Semglee 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1366,7 +1375,7 @@ humana. </p>
 2 anos de idade ou mais. 
 A diabetes mellitus é uma doença em que o seu organismo não produz insulina suficiente para 
 controlar o nível de açúcar no sangue. A insulina glargina possui uma ação de redução de açúcar no 
-sangue longa e estável. </p>         </div>"""   
+sangue longa e estável. </p> </div>"""   
           
 
              
@@ -1495,7 +1504,7 @@ médico para o aconselhar acerca da condução se:
 ou ausentes. </p>
 <p>Semglee contém sódio </p>
 <p>Este medicamento contém menos de 1 mmol (23 mg) de sódio por dose, isto é «essencialmente livre 
-de sódio». </p>         </div>"""   
+de sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar semglee"
@@ -1571,7 +1580,7 @@ folheto. </p>
 (acumulação de ácido no sangue porque o organismo está a utilizar gordura em vez de açúcar). Não 
 pare o tratamento com Semglee sem falar com o seu médico, que lhe dirá o que deve ser feito. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1632,7 +1641,7 @@ Não há experiência em crianças com menos de 2 anos de idade. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar semglee"
@@ -1656,7 +1665,7 @@ A tampa da caneta deve ser colocada de novo após cada administração para prot
 retira a agulha antes de deitar fora a caneta. As agulhas não devem ser reutilizadas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1776,7 +1785,7 @@ Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 </p>
 <p>Este folheto foi revisto pela última vez em {mês de AAAA}. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

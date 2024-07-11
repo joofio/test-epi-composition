@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for Use </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for Use </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Brimica Genuair </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +83,7 @@ Genuair inhaler delivers the active ingredients directly into your lungs as you 
 Brimica Genuair is used for adult patients who have breathing difficulties due to a lung disease called 
 chronic obstructive pulmonary disease (COPD), in which the airways and air sacs in the lungs become 
 damaged or blocked. By opening the airways, the medicine helps relieve symptoms such as shortness 
-of breath. Taking Brimica Genuair regularly will reduce the effects of COPD on your everyday life. </p>         </div>"""   
+of breath. Taking Brimica Genuair regularly will reduce the effects of COPD on your everyday life. </p> </div>"""   
           
 
              
@@ -146,7 +148,7 @@ medicine may cause blurred vision or dizziness. If you are affected by either of
 not drive or use machines until the dizziness has cleared or your vision has returned to normal. </p>
 <p>Brimica Genuair contains lactose 
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brimica"
@@ -184,7 +186,7 @@ usual time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Brimica Genuair 
 This medicine is for long-term use. If you want to stop treatment, first talk to your doctor, as your 
 symptoms may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -256,7 +258,7 @@ rhythm
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store brimica"
@@ -272,7 +274,7 @@ bag after  EXP . The expiry date refers to the last day of that month. </p>
 <p>Do not use Brimica Genuair if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>After you have taken the last dose, the inhaler has to be disposed of.  Do not throw away any 
 medicines via household waste. Ask your pharmacist how to throw away medicines you no longer use. 
-These measures will help protect the environment. </p>         </div>"""      
+These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -373,7 +375,7 @@ SIA Berlin-Chemie/Menarini Baltic<br />
 Tel: +371 67103United Kingdom (Northern Ireland) 
 Covis Pharma Europe B.V. 
 Tel: 08004334This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -412,7 +414,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -421,7 +425,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>  </div>"""   
 
 
 
@@ -436,7 +440,7 @@ Usage: #inline
 3. Sådan skal du bruge Brimica Genuair<br />
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -455,7 +459,7 @@ Brimica Genuair anvendes til voksne patienter, som lider af åndedrætsbesvær p
 der hedder kronisk obstruktiv lungesygdom (KOL), hvor luftvejene og luftlommerne i lungerne 
 beskadiges eller blokeres. Ved at åbne luftvejene hjælper medicinen med at lindre symptomer som 
 f.eks. åndenød. Ved at tage Brimica Genuair regelmæssigt nedsættes KOL's påvirkning af din 
-dagligdag. </p>         </div>"""   
+dagligdag. </p> </div>"""   
           
 
              
@@ -531,7 +535,7 @@ påvirket af en af disse bivirkninger, må du ikke føre motorkøretøjer eller 
 svimmelheden er gået væk, og dit syn er blevet normalt igen. </p>
 <p>Brimica Genuair indeholder lactose<br />
 Lægemidlet indeholder lactose. Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, 
-at du ikke tåler visse sukkerarter. </p>         </div>"""   
+at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brimica"
@@ -570,7 +574,7 @@ glemte dosis. </p>
 <p>Hvis du holder op med at bruge Brimica Genuair 
 Lægemidlet er beregnet til langvarig brug. Tal med din læge inden, hvis du ønsker at stoppe 
 behandlingen, da dine symptomer kan blive værre. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -644,7 +648,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store brimica"
@@ -662,7 +666,7 @@ begynder. </p>
 manipulering. </p>
 <p>Efter du har taget den sidste dosis, skal inhalatoren bortskaffes. Spørg på apoteket, hvordan du skal 
 bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller 
-skraldespanden.  </p>         </div>"""      
+skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -914,7 +918,7 @@ Dosisindikator flytter langsomt fra
 Brug ALDRIG vand til at rengøre inhalatoren, da det kan ødelægge medicinen. 
 Hvis du ønsker at rengøre din inhalator, skal du bare tørre ydersiden af mundstykket af med et tørt 
 stykke køkkenrulle eller papirlommetørklæde. </p>
-<p>Låst </p>         </div>"""      
+<p>Låst </p> </div>"""      
 
 
 
@@ -953,7 +957,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -962,7 +968,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções de Utilização </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instruções de Utilização </p>  </div>"""   
 
 
 
@@ -977,7 +983,7 @@ Usage: #inline
 3. Como utilizar Brimica Genuair<br />
 4. Efeitos indesejáveis possíveis<br />
 5. Como conservar Brimica Genuair<br />
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -996,7 +1002,7 @@ Brimica Genuair é utilizado para doentes adultos que têm dificuldades respirat
 doença dos pulmões designada por doença pulmonar obstrutiva crónica (DPOC), na qual as vias 
 respiratórias e os alvéolos pulmonares ficam danificados ou obstruídos. Ao abrir as vias respiratórias, 
 este medicamento ajuda a aliviar sintomas como a falta de ar. Utilizar Brimica Genuair regularmente 
-irá reduzir os efeitos da DPOC na sua vida quotidiana. </p>         </div>"""   
+irá reduzir os efeitos da DPOC na sua vida quotidiana. </p> </div>"""   
           
 
              
@@ -1084,7 +1090,7 @@ indesejáveis, não conduza nem utilize máquinas até que as tonturas tenham pa
 tenha voltado ao normal. </p>
 <p>Brimica Genuair contém lactose<br />
 Este medicamento contém lactose. Se o seu médico o informou de que sofre de intolerância a alguns 
-açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+açúcares, contacte-o antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar brimica"
@@ -1126,7 +1132,7 @@ esqueceu de tomar. </p>
 Este medicamento destina-se a utilização prolongada. Se pretender interromper o tratamento, fale 
 primeiro com o seu médico, uma vez que os seus sintomas podem agravar-se. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1204,7 +1210,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar brimica"
@@ -1223,7 +1229,7 @@ administração. </p>
 adulteração. </p>
 <p>Depois de tomar a última dose, é necessário eliminar o inalador. Não deite fora quaisquer 
 medicamentos no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos que 
-já não utiliza. Estas medidas ajudarão a proteger o ambiente.  </p>         </div>"""      
+já não utiliza. Estas medidas ajudarão a proteger o ambiente.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1349,7 +1355,7 @@ Tel: +371 67103210  </p>
 Covis Pharma Europe B.V. 
 Tel: 08004334 
 Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

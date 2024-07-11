@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Victoza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ and you cannot use metformin (another diabetes medicine). </p>
 <p>Victoza is used with other medicines for diabetes when they are not enough to control your blood 
 sugar levels. These may include: 
 * oral antidiabetics (such as metformin, pioglitazone, sulfonylurea, sodium-glucose cotransporter 
-2 inhibitor (SGLT2i)) and/or insulin. </p>         </div>"""   
+2 inhibitor (SGLT2i)) and/or insulin. </p> </div>"""   
           
 
              
@@ -144,7 +147,7 @@ machines if you experience signs of hypoglycaemia. Please see section 4 for the 
 blood sugar. Please consult your doctor for further information on this topic. </p>
 <p>Important information about some of the ingredients of Victoza 
 This medicine contains less than 1 mmol sodium (23 mg) per dose. This means that it is essentially 
- sodium free . </p>         </div>"""   
+ sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take victoza"
@@ -180,7 +183,7 @@ Do not take an extra dose or increase the dose on the following day to make up f
 <p>If you stop using Victoza 
 Do not stop using Victoza without talking to your doctor. If you stop using it, your blood sugar levels 
 may increase. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -251,7 +254,7 @@ of fluids. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store victoza"
@@ -269,7 +272,7 @@ You can keep the pen for 1 month when stored at a temperature below 30 C or in a
 When you are not using the pen, keep the pen cap on in order to protect from light. </p>
 <p>Do not use this medicine if the solution is not clear and colourless or almost colourless. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -405,7 +408,7 @@ accordance with local requirements. </p>
 <p>This reduces the risk of contamination, infection, leakage of liraglutide, blocked needles and 
 inaccurate dosing. </p>
 <p>Caregivers must be very careful when handling used needles   to prevent needle injury and 
-cross-infection. </p>         </div>"""      
+cross-infection. </p> </div>"""      
 
 
 
@@ -444,7 +447,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -453,7 +458,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -470,7 +476,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -488,7 +494,7 @@ kan kontrollere dit blodsukkerniveau. Disse kan inkludere: </p>
 <ul>
 <li>lægemidler mod diabetes i tabletform (såsom metformin, pioglitazon, sulfonylurinstof, natrium-
 glucose co-transporter-2-hæmmer (SGLT2i)) og/eller insulin. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -568,7 +574,7 @@ maskiner, hvis du oplever tegn på hypoglykæmi. Se advarselssignalerne for lavt
 punkt 4. Spørg din læge for yderligere information om dette emne. </p>
 <p>Vigtig information om nogle af indholdsstofferne i Victoza 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. det er i det 
-væsentlige ’natriumfrit’. </p>         </div>"""   
+væsentlige ’natriumfrit’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take victoza"
@@ -610,7 +616,7 @@ Du må ikke tage en dobbeltdosis eller øge dosis den følgende dag som erstatni
 <p>Hvis du holder op med at bruge Victoza 
 Du må ikke holde op med at bruge Victoza uden først at have talt med din læge om det. Hvis du holder 
 op med at bruge lægemidlet, kan dit blodsukkerniveau stige. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -753,7 +759,7 @@ bivirkninger, som ikke fremgår af denne indlægsseddel. Dette gælder også mul
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store victoza"
@@ -771,7 +777,7 @@ Du kan opbevare pennen i 1 måned, hvis den opbevares ved temperaturer under 30�
 Når du ikke bruger pennen, skal den opbevares med hætten påsat for at beskytte mod lys. </p>
 <p>Brug ikke lægemidlet, hvis opløsningen ikke er klar og farveløs eller næsten farveløs. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -926,7 +932,7 @@ overensstemmelse med lokale krav. </p>
 <p>Dette reducerer risikoen for urenheder, infektioner, lækage af liraglutid, blokerede nåle og 
 unøjagtig dosering. </p>
 <p>For at undgå stikuheld og krydsinfektion skal omsorgspersoner være meget forsigtige ved 
-håndtering af brugte nåle. </p>         </div>"""      
+håndtering af brugte nåle. </p> </div>"""      
 
 
 

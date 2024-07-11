@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store FORSTEO </li>
 <li>Content of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 reduce the risk of fractures by stimulating bone formation. </p>
 <p>FORSTEO is used to treat osteoporosis in adults. Osteoporosis is a disease that causes your bones to 
 become thin and fragile. This disease is especially common in women after the menopause, but it can 
-also occur in men. Osteoporosis is also common in patients receiving corticosteroids. </p>         </div>"""   
+also occur in men. Osteoporosis is also common in patients receiving corticosteroids. </p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ Some patients may feel dizzy after injecting FORSTEO. If you feel dizzy you shou
 machines until you feel better. </p>
 <p>FORSTEO contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take forsteo"
@@ -163,7 +166,7 @@ same day. Do not try to make up for a missed dose. </p>
 <p>If you stop taking FORSTEO 
 If you are considering stopping FORSTEO treatment, please discuss this with your doctor. Your 
 doctor will advise you and decide how long you should be treated with FORSTEO. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -224,7 +227,7 @@ or pain which lead to hospitalisation.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store forsteo"
@@ -242,7 +245,7 @@ prevent freezing. Do not use FORSTEO if it is, or has been, frozen. </p>
 <p>FORSTEO contains a clear and colourless solution. Do not use FORSTEO if solid particles appear or 
 if the solution is cloudy or coloured.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -327,7 +330,7 @@ Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: + 371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -366,7 +369,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -375,7 +380,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -390,7 +396,7 @@ Usage: #inline
 3. Sådan skal De tage FORSTEO 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -403,7 +409,7 @@ risikoen for knoglebrud ved at fremme knogledannelse. </p>
 <p>FORSTEO anvendes til behandling af knogleskørhed hos voksne. Knogleskørhed er en sygdom, der 
 gør dine knogler tynde og skrøbelige. Sygdommen er især almindelig hos kvinder efter 
 overgangsalderen, men den kan også forekomme hos mænd. Knogleskørhed er også almindeligt 
-forekommende hos patienter, der får binyrebarkhormoner.  </p>         </div>"""   
+forekommende hos patienter, der får binyrebarkhormoner.  </p> </div>"""   
           
 
              
@@ -479,7 +485,7 @@ Nogle patienter kan føle sig svimle efter en indsprøjtning med FORSTEO. Hvis D
 svimmel, må De ikke køre bil eller betjene værktøj eller maskiner, før De har det bedre. </p>
 <p>FORSTEO indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr dosis, dvs. den er i det væsentlige 
-natriumfri. </p>         </div>"""   
+natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take forsteo"
@@ -517,7 +523,7 @@ glemte dosis. </p>
 <p>Hvis De holder op med at bruge FORSTEO 
 Hvis De overvejer at holde op med at bruge FORSTEO, skal De tale med Deres læge om det først. 
 Deres læge kan råde Dem og beslutte, hvor længe De skal behandles med FORSTEO.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -578,7 +584,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store forsteo"
@@ -596,7 +602,7 @@ eventuel frostboks i køleskabet. FORSTEO må ikke bruges, hvis det er eller har
 <p>FORSTEO indeholder en klar og farveløs opløsning. FORSTEO må ikke anvendes, hvis opløsningen 
 er uklar, farvet eller indeholder partikler. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1001,7 +1007,7 @@ instrueret i rigtig brug af pennen. </p>
 </ul>
 <p>Fremstillet af Lilly France, F-67640 Fegersheim, Frankrig 
 for Eli Lilly and Company. 
-Denne brugervejledning blev senest ændret {MM/ÅÅÅÅ} </p>         </div>"""      
+Denne brugervejledning blev senest ændret {MM/ÅÅÅÅ} </p> </div>"""      
 
 
 

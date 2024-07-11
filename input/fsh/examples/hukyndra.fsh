@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Hukyndra</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -169,7 +171,7 @@ This inflammation may lead to a decrease of vision and/or the presence of floate
 dots or wispy lines that move across the field of vision). Hukyndra works by reducing this 
 inflammation.
 You may first be given other medicines. If you do not respond well enough to these medicines, you 
-will be given Hukyndra.</p>         </div>"""   
+will be given Hukyndra.</p> </div>"""   
           
 
              
@@ -304,7 +306,7 @@ Hukyndra may have a small effect on your ability to drive, cycle or use machines
 sensation and vision disturbances may occur after taking Hukyndra.
 Hukyndra contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per 0.4 ml, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hukyndra"
@@ -545,7 +547,7 @@ forgotten a dose.
 If you stop using Hukyndra
 The decision to stop using Hukyndra should be discussed with your doctor. Your symptoms may 
 return if you stop using Hukyndra.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -724,7 +726,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hukyndra"
@@ -745,7 +747,7 @@ You should record the date when the syringe is first removed from refrigerator a
 which it should be discarded.
 Do not use this medicine if the liquid is cloudy, discoloured, or has flakes or particles in it.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -842,7 +844,7 @@ Tel: +370 52603United Kingdom (Northern Ireland)
 STADA Arzneimittel AG
 Tel: +49 61016This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -881,7 +883,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -892,7 +896,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsanvisning</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -907,7 +911,7 @@ Usage: #inline
 3. Sådan skal du bruge Hukyndra
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1036,7 +1040,7 @@ børn fra 2 år med kronisk ikke-infektiøs uveitis, hvor inflammationen påvirk
 Inflammationen kan føre til nedsat syn og/eller fluer i øjet (sværm af uklarheder i øjet, som bevæger 
 sig i synsfeltet). Hukyndra virker ved at reducere denne inflammation.
 Du vil muligvis først få anden medicin. Hvis du ikke reagerer godt nok på disse lægemidler, kan du få 
-Hukyndra.</p>         </div>"""   
+Hukyndra.</p> </div>"""   
           
 
              
@@ -1207,7 +1211,7 @@ Hukyndra kan i lettere grad påvirke din evne til at føre motorkøretøj, cykle
 kan få synsforstyrrelse og en fornemmelse af, at rummet drejer rundt efter at have taget Hukyndra.
 Hukyndra indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 0,4 ml, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hukyndra"
@@ -1444,7 +1448,7 @@ oprindeligt fastlagte dag, som om du ikke havde glemt en dosis.
 Hvis du holder op med at tage Hukyndra
 Beslutningen om at stoppe med at tage Hukyndra skal diskuteres med din læge. Dine symptomer kan 
 komme igen, hvis du stopper med at tage Hukyndra.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1773,7 +1777,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hukyndra"
@@ -1795,7 +1799,7 @@ Du skal registrere den dato, hvor injektionssprøjten først tages ud af kølesk
 hvilken, den skal kasseres.
 Du må ikke anvende dette lægemiddel, hvis opløsningen er uklar eller indeholder flager eller partikler.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2138,7 +2142,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

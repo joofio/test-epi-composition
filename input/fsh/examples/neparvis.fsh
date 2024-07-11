@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Neparvis </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ active substances, sacubitril and valsartan. </p>
 and older). </p>
 <p>This type of heart failure occurs when the heart is weak and cannot pump enough blood to the lungs 
 and the rest of the body. The most common symptoms of heart failure are breathlessness, fatigue, 
-tiredness and ankle swelling. </p>         </div>"""   
+tiredness and ankle swelling. </p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ concentration, make sure you know how Neparvis affects you. If you feel dizzy or
 taking this medicine, do not drive a vehicle, cycle or use any tools or machines. </p>
 <p>Neparvis contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 97 mg/103 mg dose, that is to say 
-essentially  sodium free . </p>         </div>"""   
+essentially  sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neparvis"
@@ -220,7 +223,7 @@ forgotten dose. </p>
 <p>If you stop taking Neparvis 
 Stopping your treatment with Neparvis may cause your condition to get worse. Do not stop taking 
 your medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ standing position
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neparvis"
@@ -283,7 +286,7 @@ This medicine does not require any special temperature storage conditions.
 Store in the original package in order to protect from moisture. 
 Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -468,7 +474,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -482,7 +488,7 @@ aktive stoffer, sacubitril og valsartan. </p>
 alderen ét år og derover). </p>
 <p>Denne type hjertesvigt opstår, når hjertet er svagt og ikke kan pumpe nok blod til lungerne og resten af 
 kroppen. De mest almindelige symptomer på hjertesvigt er åndenød, mathed, træthed og hævelse af 
-ankler. </p>         </div>"""   
+ankler. </p> </div>"""   
           
 
              
@@ -649,7 +655,7 @@ eller meget træt, mens du tager dette lægemiddel, må du ikke køre bil, cykle
 eller maskiner. </p>
 <p>Neparvis indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 97 mg/103 mg dosis, dvs. det er 
-i det væsentlige natriumfrit. </p>         </div>"""   
+i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neparvis"
@@ -688,7 +694,7 @@ dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Neparvis 
 Hvis du stopper behandlingen med Neparvis, kan din tilstand forværres. Stop ikke med at tage 
 lægemidlet, medmindre din læge har bedt dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -797,7 +803,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neparvis"
@@ -812,7 +818,7 @@ Opbevares i den originale yderpakning for at beskytte mod fugt.
 Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på at have været 
 åbnet. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -976,7 +982,7 @@ indeholder vigtige oplysninger.
 lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 som du/dit barn har. 
 - Kontakt lægen eller apotekspersonalet, hvis du/dit barn får bivirkninger, herunder bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

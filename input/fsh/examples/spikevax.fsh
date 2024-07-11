@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Spikevax </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ Spikevax stimulates the body s natural defences (immune system). The vaccine wor
 body to produce protection (antibodies) against the virus that causes COVID-19. Spikevax uses a 
 substance called messenger ribonucleic acid (mRNA) to carry instructions that cells in the body can 
 use to make the spike protein that is also on the virus. The cells then make antibodies against the spike 
-protein to help fight off the virus. This will help to protect you against COVID-19. </p>         </div>"""   
+protein to help fight off the virus. This will help to protect you against COVID-19. </p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ Do not drive or use machines if you are feeling unwell after vaccination. Wait u
 vaccine have worn off before you drive or use machines.  </p>
 <p>Spikevax contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spikevax"
@@ -360,7 +363,7 @@ or nurse.
 upper arm. </p>
 <p>After each injection of the vaccine, your doctor, pharmacist or nurse will watch over you for at least 
 15 minutes to monitor for signs of an allergic reaction. </p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -436,7 +439,7 @@ injections.)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this vaccine. </p>         </div>"""      
+safety of this vaccine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spikevax"
@@ -449,7 +452,7 @@ refers to the last day of that month. </p>
 <p>Information about storage, expiry, and use and handling are described in the section intended for 
 healthcare professionals at the end of the package leaflet. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -838,7 +841,7 @@ information for you.
 - Keep this leaflet. You may need to read it again.<br />
 - If you have any further questions, ask your doctor, pharmacist or nurse. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -877,7 +880,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -886,7 +891,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -903,7 +909,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -919,7 +925,7 @@ Spikevax stimulerer kroppens naturlige forsvar (immunsystemet). Vaccinen virker 
 producere beskyttelse (antistoffer) mod den virus, der forårsager COVID-19. Spikevax bruger et stof 
 kaldet messenger ribonukleinsyre (mRNA) til at bære instruktioner, som celler i kroppen kan bruge til at 
 danne det spike-protein, som også er på virussen. Cellerne danner dernæst antistoffer mod spike-proteinet 
-for at hjælpe med at bekæmpe virussen. Dette vil hjælpe med at beskytte dig mod COVID-19. </p>         </div>"""   
+for at hjælpe med at bekæmpe virussen. Dette vil hjælpe med at beskytte dig mod COVID-19. </p> </div>"""   
           
 
              
@@ -987,7 +993,7 @@ Undlad at føre motorkøretøj eller betjene maskiner, hvis du føler dig utilpa
 at føre motorkøretøj eller betjene maskiner, indtil eventuelle virkninger af vaccinen har fortaget sig. </p>
 <p>Spikevax indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spikevax"
@@ -1163,7 +1169,7 @@ læge, apotekspersonalet eller sygeplejersken.
 injektion) i din overarm. </p>
 <p>Efter hver injektion af vaccinen vil din læge, apotekspersonalet eller sygeplejersken holde øje med dig i 
 mindst 15 minutter for at overvåge for tegn på en allergisk reaktion. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1243,7 +1249,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spikevax"
@@ -1256,7 +1262,7 @@ den nævnte måned. </p>
 <p>Oplysninger om opbevaring, udløbsdato samt anvendelse og håndtering er beskrevet i afsnittet beregnet til 
 sundhedspersonale i slutningen af indlægssedlen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1679,7 +1685,7 @@ oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
 - Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1718,7 +1724,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1727,7 +1735,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1744,7 +1753,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar a Spikevax </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1763,7 +1772,7 @@ com que o corpo produza proteção (anticorpos) contra o vírus que causa COVID-
 utiliza uma substância chamada ácido ribonucleico mensageiro (mRNA) para transmitir instruções que 
 as células do corpo podem utilizar para produzir a proteína S, que também se encontra no vírus. As 
 células produzem então anticorpos contra a proteína S, para ajudar a combater o vírus. Isto irá ajudá-lo 
-a proteger-se contra a COVID-19.  </p>         </div>"""   
+a proteger-se contra a COVID-19.  </p> </div>"""   
           
 
              
@@ -1833,7 +1842,7 @@ Não conduza nem utilize máquinas se não se sentir bem após a vacinação. Ag
 efeitos da vacina terem desaparecido antes de conduzir ou utilizar máquinas. </p>
 <p>A Spikevax contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar spikevax"
@@ -2092,7 +2101,7 @@ parte superior do seu braço. </p>
 <p>Após cada injeção da vacina, o seu médico, farmacêutico ou enfermeiro irá vigiá-lo durante pelo 
 menos 15 minutos para monitorizar sinais de uma reação alérgica. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização desta vacina, fale com o seu médico, farmacêutico ou 
-enfermeiro. </p>         </div>"""         
+enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2164,7 +2173,7 @@ pele (urticária mecânica)
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança desta vacina. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança desta vacina. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar spikevax"
@@ -2178,7 +2187,7 @@ corresponde ao último dia do mês indicado. </p>
 destinada aos profissionais de saúde, no final do folheto informativo. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2659,7 +2668,7 @@ importante para si.
 - Conserve este folheto. Pode ter necessidade de o ler novamente.<br />
 - Caso ainda tenha dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. 
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
-neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p> </div>"""      
 
 
 

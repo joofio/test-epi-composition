@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -48,7 +50,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Vemlidy has been prescribed for your child, please note that all the information in this leaflet 
-is addressed to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
+is addressed to your child (in this case please read  your child  instead of  you ). </p>  </div>"""   
 
 
 
@@ -65,7 +67,7 @@ is addressed to your child (in this case please read  your child  instead of  yo
 <li>Possible side effects </li>
 <li>How to store Vemlidy </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +80,7 @@ a nucleotide reverse transcriptase inhibitor (NtRTI). </p>
 <p>Vemlidy is used to treat chronic (long-term) hepatitis B in adults and children 6 years of age and 
 older, who weigh at least 25 kg. Hepatitis B is an infection affecting the liver, caused by the 
 hepatitis B virus. In patients with hepatitis B, this medicine controls the infection by stopping the virus 
-from multiplying. </p>         </div>"""   
+from multiplying. </p> </div>"""   
           
 
              
@@ -192,7 +194,7 @@ tools or machines. </p>
 before taking this medicine. </p>
 <p>Vemlidy contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vemlidy"
@@ -243,7 +245,7 @@ particularly symptoms you associate with hepatitis B infection. </p>
 <p>Talk to your doctor before you restart taking Vemlidy tablets. </p>
 </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -281,7 +283,7 @@ Your doctor will test for these changes. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vemlidy"
@@ -293,7 +295,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -392,7 +394,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -431,7 +433,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -442,7 +446,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Vemlidy er ordineret til dit barn, skal du være opmærksom på, at alle oplysningerne i 
 indlægssedlen henvender sig til dit barn (i dette tilfælde skal du læse “dit barn" i stedet for 
-“du"). </p>         </div>"""   
+“du"). </p>  </div>"""   
 
 
 
@@ -459,7 +463,7 @@ indlægssedlen henvender sig til dit barn (i dette tilfælde skal du læse “di
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -472,7 +476,7 @@ lægemiddel) og kaldes en nukleotid revers transkriptasehæmmer (NtRTI). </p>
 <p>Vemlidy bruges til behandling af kronisk (langvarig) hepatitis B hos voksne og børn over 6 år, som 
 vejer mindst 25 kg. Hepatitis B er en infektion, som påvirker leveren. Den skyldes hepatitis B-virus. 
 Hos patienter med hepatitis B kontrollerer dette lægemiddel infektionen ved at hindre, at virus 
-formerer sig. </p>         </div>"""   
+formerer sig. </p> </div>"""   
           
 
              
@@ -600,7 +604,7 @@ motorkøretøj eller bruge værktøj eller maskiner. </p>
 sukkerarter. </p>
 <p>Vemlidy indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vemlidy"
@@ -652,7 +656,7 @@ behandlingen, især symptomer, som du forbinder med hepatitis B-infektion. </p>
 <p>Tal med lægen, før du begynder at tage Vemlidy-tabletter igen. </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -725,7 +729,7 @@ blodsukker. Lægen vil måle, om der er sådanne ændringer. </p>
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vemlidy"
@@ -737,7 +741,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale pakning for at beskytte mod fugt. Beholderen skal holdes tæt tillukket. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -866,7 +870,7 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113  </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

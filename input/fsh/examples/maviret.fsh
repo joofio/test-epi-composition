@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Maviret</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 ( chronic ) hepatitis C. This is an infectious disease that affects the liver, caused by the hepatitis C 
 virus. Maviret contains the active substances glecaprevir and pibrentasvir.
 Maviret works by stopping the hepatitis C virus from multiplying and infecting new cells. This allows
-the infection to be eliminated from the body.</p>         </div>"""   
+the infection to be eliminated from the body.</p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.
 Maviret contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take maviret"
@@ -189,7 +192,7 @@ If you do miss a dose, work out how long it is since you should have last taken 
 possible. Then take the next dose at your usual time.</p>
 <p>If you notice 18 hours or more after the time you usually take Maviret, wait and take the next 
 dose at your usual time. Do not take a double dose to make up for a forgotten tablet.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -215,7 +218,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store maviret"
@@ -227,7 +230,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -369,7 +372,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -378,7 +383,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -393,7 +399,7 @@ Usage: #inline
 3. Sådan skal du tage Maviret
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -405,7 +411,7 @@ Usage: #inline
 og børn fra 3 år og ældre med kronisk hepatitis C. Dette er en smitsom leversygdom, som forårsages af 
 hepatitis C-virus. Maviret indeholder de aktive stoffer glecaprevir og pibrentasvir.
 Maviret virker ved at forhindre hepatitis C-virusset i at formere sig og inficere nye celler. På den måde 
-kan infektionen fjernes fra kroppen. </p>         </div>"""   
+kan infektionen fjernes fra kroppen. </p> </div>"""   
           
 
              
@@ -501,7 +507,7 @@ Maviret indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) i en tablet, dvs. det er i det 
 væsentlige natriumfrit.
 68</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take maviret"
@@ -544,7 +550,7 @@ den så hurtigt som muligt. Derefter skal du tage den næste dosis på det sædv
 Hvis der er gået 18 timer eller derover, siden du skulle have taget din dosis Maviret, skal du 
 vente med at tage en dosis til det næste planlagte tidspunkt. Du må ikke tage en dobbeltdosis som 
 erstatning for en glemt tablet (to doser for tæt på hinanden). 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -580,7 +586,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store maviret"
@@ -592,7 +598,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blistere
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -749,7 +755,7 @@ medicinen til andre. Det kan være skadeligt for andre, selvom de har samme symp
 barn har.
 
 Kontakt dit barns læge eller apotekspersonalet, hvis barnet får bivirkninger, herunder bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

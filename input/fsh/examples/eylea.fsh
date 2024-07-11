@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Eylea  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ blood vessels may leak fluid or blood into the eye. Leaky blood vessels that cau
 macula cause DME. Both disorders may impact your vision. </p>
 <p>How Eylea works 
 Eylea stops growth of new abnormal blood vessels in the eye. Eylea can help to stabilise and often 
-improve vision. </p>         </div>"""   
+improve vision. </p> </div>"""   
           
 
              
@@ -150,7 +153,7 @@ Therefore, if you are pregnant or breast-feeding, think you may be pregnant or a
 baby, ask your doctor for advice before you receive this medicine. </p>
 <p>Driving and using machines 
 After receiving Eylea, you may experience some temporary vision problems. Do not drive or use 
-machines as long as these last. </p>         </div>"""   
+machines as long as these last. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eylea"
@@ -173,7 +176,7 @@ Make a new appointment with your doctor as soon as possible. </p>
 <p>Before stopping Eylea treatment 
 Speak with your doctor before stopping treatment. Stopping treatment may increase your risk of vision 
 loss and your vision may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ clinical studies:</p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eylea"
@@ -262,7 +265,7 @@ By reporting side effects you can help provide more information on the safety of
 The expiry date refers to the last day of that month. </li>
 <li>Store in a refrigerator (2  C   8  C). Do not freeze. </li>
 <li>Keep the vial in the outer carton in order to protect from light. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -351,7 +354,7 @@ SIA Bayer
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
 Tel: +44-(0)118 206 3This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -390,7 +393,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -399,7 +404,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -416,7 +422,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -439,7 +445,7 @@ kan lække væske eller blod ind i øjet. Lækkende blodkar, der medfører hæve
 DME. Begge sygdomme kan påvirke dit syn. </p>
 <p>Anvendelse 
 Eylea stopper vækst af nye unormale blodkar i øjet. Eylea kan hjælpe med at stabilisere og ofte 
-forbedre synet. </p>         </div>"""   
+forbedre synet. </p> </div>"""   
           
 
              
@@ -509,7 +515,7 @@ Derfor skal du spørge din øjenlæge til råds, før du får lægemidlet, hvis 
 mistanke om, at du er gravid, eller planlægger at blive gravid. </p>
 <p>Trafik- og arbejdssikkerhed 
 Efter injektion af Eylea kan du opleve nogle midlertidige synsproblemer. Du må ikke føre 
-motorkøretøj eller betjene maskiner, så længe disse synsforstyrrelser varer ved. </p>         </div>"""   
+motorkøretøj eller betjene maskiner, så længe disse synsforstyrrelser varer ved. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eylea"
@@ -532,7 +538,7 @@ Aftal et nyt besøg med øjenlægen snarest muligt. </p>
 <p>Før du holder op med Eylea-behandlingen 
 Tal med øjenlægen, før du holder op med behandlingen. Det kan øge risikoen for synstab og dit syn 
 kan blive værre, hvis du holder op med behandlingen. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -616,7 +622,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V.Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eylea"
@@ -641,7 +647,7 @@ den sidste dag i den nævnte måned. </p>
 <li>
 <p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -802,7 +808,7 @@ Opløsning efter luftbobler og
 overskydende lægemiddel er fjernet 
 Flad 
 stempel-
-kant </p>         </div>"""      
+kant </p> </div>"""      
 
 
 

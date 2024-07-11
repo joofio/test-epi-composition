@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Spherox </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ cartilage material derived from your own body. To make the spheroids, a small ca
 taken from one of your joints during a minor operation, and then grown in the laboratory to make the 
 medicine. The spheroids are implanted by surgery to the damaged cartilage area and stick to the 
 damaged part. They are then expected to repair the damage with healthy and functional cartilage over 
-time. </p>         </div>"""   
+time. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ your doctor for advice before using this medicine. </p>
 <p>Driving and using machines </p>
 <p>The surgical procedure to implant this medicine will have a major influence on your ability to drive 
 and use machines. Driving cars and using machines may be limited during the rehabilitation period. 
-Strictly follow the advice of your doctor or physical therapist. </p>         </div>"""   
+Strictly follow the advice of your doctor or physical therapist. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spherox"
@@ -160,7 +163,7 @@ Be very careful when bending and putting weight on your treated joint. During th
 period, the amount of weight you can put on the joint will increase gradually. How quickly this occurs 
 depends for example on your body weight and the extent of the damage to the cartilage. Depending on 
 the condition of the treated knee joint, you may have to wear a brace. </p>
-<p>Ask your doctor or physical therapist if you have any further questions about treatment with Spherox. </p>         </div>"""         
+<p>Ask your doctor or physical therapist if you have any further questions about treatment with Spherox. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -229,7 +232,7 @@ the skin (symptoms: e.g. redness and/or warmth of the skin along the vein, tende
 <p>If you get any side effects, talk to your doctor or physical therapist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spherox"
@@ -241,7 +244,7 @@ to you, and the storage instruction for them are as follow: </p>
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP. 
 Store and transport refrigerated (1  C to 10  C). 
 Do not freeze. Do not irradiate. 
-Do not open the outer packaging before use to prevent microbial contamination. </p>         </div>"""      
+Do not open the outer packaging before use to prevent microbial contamination. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -277,7 +280,7 @@ Warthestra e 14513 Teltow, Germany </p>
 Deutscher Platz 5d 
 04103 Leipzig, Germany </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -316,7 +319,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -325,7 +330,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -342,7 +348,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -360,7 +366,7 @@ Spherox anvendes til at behandle defekter op til 10 cm² i areal.  </p>
 bruskmateriale fra din egen krop. For at fremstille sfæroiderne tages et lille stykke brusk fra et af dine 
 led ved et lille indgreb. Det dyrkes derefter i laboratoriet for at fremstille lægemidlet. Sfæroiderne 
 implanteres kirurgisk i det beskadigede bruskområde og sætter sig fast på den beskadigede del. De 
-forventes efterhånden at reparere skaden med sund og velfungerende brusk. </p>         </div>"""   
+forventes efterhånden at reparere skaden med sund og velfungerende brusk. </p> </div>"""   
           
 
              
@@ -413,7 +419,7 @@ du spørge din læge til råds, før du bruger dette lægemiddel. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Operationen for at implantere dette lægemiddel vil i væsentlig grad påvirke din evne til at føre 
 motorkøretøj og betjene maskiner. Din mulighed for at føre motorkøretøj og betjene maskiner kan 
-være begrænset i rehabiliteringsperioden. Følg nøje anvisningerne fra lægen eller fysioterapeuten. </p>         </div>"""   
+være begrænset i rehabiliteringsperioden. Følg nøje anvisningerne fra lægen eller fysioterapeuten. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spherox"
@@ -445,7 +451,7 @@ Vær meget forsigtig, når du bøjer og belaster det behandlede led. I løbet af
 du efterhånden belaste leddet mere og mere. Hvor hurtigt dette går, afhænger f.eks. af din vægt og 
 omfanget af beskadigelsen af brusken. Afhængigt af tilstanden af det behandlede knæled skal du 
 muligvis have en skinne på. </p>
-<p>Spørg lægen eller fysioterapeuten, hvis du har flere spørgsmål om behandling med Spherox. </p>         </div>"""         
+<p>Spørg lægen eller fysioterapeuten, hvis du har flere spørgsmål om behandling med Spherox. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -596,7 +602,7 @@ venen, ømhed og smerter) </p>
 <p>Kontakt lægen eller fysioterapeuten, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
 nævnt her. Du kan desuden indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 indberetningssystem, der er anført i Appendiks V. Ved at indberette bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spherox"
@@ -608,7 +614,7 @@ lægemidlet, og opbevaringsinstruktionerne for det er følgende: </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. 
 Opbevares og transporteres nedkølet (1 °C til 10 °C). 
 Må ikke nedfryses. Må ikke bestråles. 
-Undgå at åbne den ydre emballage før brug for at undgå mikrobiel kontaminering. </p>         </div>"""      
+Undgå at åbne den ydre emballage før brug for at undgå mikrobiel kontaminering. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -649,7 +655,7 @@ Deutscher Platz 5d
 04103 Leipzig, Tyskland </p>
 <p>Denne indlægsseddel blev senest revideret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

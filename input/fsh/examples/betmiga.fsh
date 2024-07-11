@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Betmiga </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ symptoms. </p>
 <li>suddenly needing to empty your bladder (called urgency) </li>
 <li>having to empty your bladder more than usual (called increased urinary frequency) </li>
 <li>not being able to control when to empty your bladder (called urgency incontinence) </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ Betmiga. </p>
 likely that this medicine passes into your breast milk. You and your doctor should decide if you should 
 take Betmiga or breastfeed. You should not do both. </p>
 <p>Driving and using machines 
-There is no information to suggest that this medicine affects your ability to drive or use machines. </p>         </div>"""   
+There is no information to suggest that this medicine affects your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take betmiga"
@@ -167,7 +170,7 @@ bladder condition improves. Stopping treatment may result in recurrence of sympt
 bladder. </p>
 <p>Do not stop taking Betmiga without talking to your doctor first, as your overactive bladder symptoms 
 may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -222,7 +225,7 @@ if you are unable to empty your bladder. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store betmiga"
@@ -234,7 +237,7 @@ this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -328,7 +331,7 @@ Tel: +371 67 619United Kingdom (Northern Ireland)
 Astellas Pharma Co., Limited 
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -367,7 +370,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -376,7 +381,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -391,7 +397,7 @@ Usage: #inline
 3. Sådan skal du tage Betmiga 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -405,7 +411,7 @@ dermed forbundne symptomer. </p>
 <p>Betmiga anvendes til behandling af symptomerne på en overaktiv blære hos voksne<br />
 - med pludselig vandladningstrang (såkaldt imperiøs vandladning) 
 - med vandladningstrang oftere end normalt (såkaldt øget vandladningshyppighed)<br />
-- med manglende evne til at styre vandladningen (såkaldt urge-inkontinens) </p>         </div>"""   
+- med manglende evne til at styre vandladningen (såkaldt urge-inkontinens) </p> </div>"""   
           
 
              
@@ -459,7 +465,7 @@ sandsynligt, at dette lægemiddel udskilles i modermælk. Du og din læge skal b
 Betmiga eller amme. Du må ikke gøre begge dele. 
 Trafik- og arbejdssikkerhed 
 Der er ingen oplysninger, der tyder på, at dette lægemiddel påvirker din evne til at føre motorkøretøj 
-og betjene maskiner. </p>         </div>"""   
+og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take betmiga"
@@ -489,7 +495,7 @@ dem ved bedring af din blæresygdom. Standsning af behandlingen kan resultere i 
 symptomer på overaktiv blære. </p>
 <p>Hold ikke op med at tage Betmiga uden først at tale med lægen, da dine symptomer på overaktiv blære 
 kan vende tilbage. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -544,7 +550,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store betmiga"
@@ -556,7 +562,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -687,7 +693,7 @@ Astellas Pharma Co., Limited
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 </p>
 <p>Denne indlægsseddel blev senest ændret {DD/MM/ÅÅÅÅ}<br />
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-http://www.ema.europa.eu hjemmeside.  </p>         </div>"""      
+http://www.ema.europa.eu hjemmeside.  </p> </div>"""      
 
 
 

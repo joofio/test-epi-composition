@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -48,7 +50,7 @@ Usage: #inline
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If Harvoni has been prescribed for your child, please note that all the information in this leaflet 
-is applicable to your child (in this case please read  your child  instead of  you ). </p>         </div>"""   
+is applicable to your child (in this case please read  your child  instead of  you ). </p>  </div>"""   
 
 
 
@@ -65,7 +67,7 @@ is applicable to your child (in this case please read  your child  instead of  y
 <li>Possible side effects </li>
 <li>How to store Harvoni </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +83,7 @@ blocking two different proteins that the virus needs to grow and reproduce itsel
 to be permanently eliminated from the body. </p>
 <p>Harvoni is sometimes taken with another medicine, ribavirin. </p>
 <p>It is very important that you also read the leaflets for the other medicines that you will be taking with 
-Harvoni. If you have any questions about your medicines, please ask your doctor or pharmacist. </p>         </div>"""   
+Harvoni. If you have any questions about your medicines, please ask your doctor or pharmacist. </p> </div>"""   
           
 
              
@@ -219,7 +221,7 @@ allergic reactions<br />
 this medicine. </p>
 <p>Harvoni contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take harvoni"
@@ -259,7 +261,7 @@ your usual time. Do not take a double dose (two doses close together). </p>
 <p>Do not stop taking this medicine unless your doctor tells you to. It is very important that you complete 
 the full course of treatment to give the medicine the best chance to treat your hepatitis C virus 
 infection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -289,7 +291,7 @@ symptoms, blisters in the mouth, eyes, and/or genitals (Stevens-Johnson syndrome
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store harvoni"
@@ -301,7 +303,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -412,7 +414,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -451,7 +453,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -462,7 +466,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvis Harvoni er blevet ordineret til dit barn, bedes du være opmærksom på, at alle 
 oplysningerne i denne indlægsseddel er gældende for dit barn (i dette tilfælde bedes du forstå og 
-læse "du" som "dit barn"). </p>         </div>"""   
+læse "du" som "dit barn"). </p>  </div>"""   
 
 
 
@@ -477,7 +481,7 @@ læse "du" som "dit barn"). </p>         </div>"""
 3. Sådan skal du tage Harvoni 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -494,7 +498,7 @@ muligt at fjerne infektionen permanent fra kroppen. </p>
 <p>Harvoni tages nogle gange med et andet lægemiddel, ribavirin. </p>
 <p>Det er meget vigtigt, at du også læser indlægssedlerne for de andre lægemidler, som du vil tage 
 sammen med Harvoni. Spørg lægen eller apotekspersonalet, hvis du har spørgsmål om dine 
-lægemidler. </p>         </div>"""   
+lægemidler. </p> </div>"""   
           
 
              
@@ -712,7 +716,7 @@ før du tager denne medicin. </li>
 </ul>
 <p>Harvoni indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take harvoni"
@@ -768,7 +772,7 @@ tæt på hinanden). </p>
 <p>Du må ikke holde op med at tage dette lægemiddel, medmindre lægen fortæller dig det. Det er meget 
 vigtigt, at du gennemfører hele behandlingsprogrammet, for at give lægemidlet de bedste betingelser 
 for at behandle din virusinfektion med hepatitis C. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -812,7 +816,7 @@ influenzalignende symptomer, blærer i munden, øjnene og/eller på kønsorganer
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store harvoni"
@@ -824,7 +828,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -984,7 +988,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -1023,7 +1027,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1033,7 +1039,7 @@ Usage: #inline
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se Harvoni foi prescrito para o seu filho, tenha em conta que todas as informações neste folheto 
-são aplicáveis ao seu filho (neste caso, leia “o seu filho" em vez de “você"). </p>         </div>"""   
+são aplicáveis ao seu filho (neste caso, leia “o seu filho" em vez de “você"). </p>  </div>"""   
 
 
 
@@ -1048,7 +1054,7 @@ são aplicáveis ao seu filho (neste caso, leia “o seu filho" em vez de “voc
 3. Como tomar Harvoni 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Harvoni 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1065,7 +1071,7 @@ crescer e reproduzir-se, permitindo que a infeção seja eliminada permanentemen
 <p>Harvoni é por vezes tomado com outro medicamento, a ribavirina. </p>
 <p>É muito importante que também leia os folhetos informativos dos outros medicamentos que tomará 
 com Harvoni. Se tiver quaisquer dúvidas sobre os seus medicamentos, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""   
+farmacêutico. </p> </div>"""   
           
 
              
@@ -1289,7 +1295,7 @@ de tomar este medicamento. </li>
 </ul>
 <p>Harvoni contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar harvoni"
@@ -1346,7 +1352,7 @@ próximas). </p>
 importante que termine o ciclo completo de tratamento para dar ao medicamento toda a possibilidade 
 de tratar a sua infeção pelo vírus da hepatite C. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1390,7 +1396,7 @@ de Stevens-Johnson). </li>
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar harvoni"
@@ -1403,7 +1409,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1553,7 +1559,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

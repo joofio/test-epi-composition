@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Gefitinib Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gefitinib Mylan contains the active substance gefitinib which blocks a protein called  epidermal 
 growth factor receptor  (EGFR). This protein is involved in the growth and spread of cancer cells. </p>
 <p>Gefitinib Mylan is used to treat adults with non-small cell lung cancer. This cancer is a disease in 
-which malignant (cancer) cells form in the tissues of the lung. </p>         </div>"""   
+which malignant (cancer) cells form in the tissues of the lung. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. </p>
 <p>Gefitinib Mylan contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially<br />
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gefitinib"
@@ -162,7 +165,7 @@ Then take the next dose as usual.
 * If it is less than 12 hours until your next dose: skip the missed tablet. Then take the next tablet at 
 the usual time. 
 Do not take a double dose (two tablets at the same time) to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -231,7 +234,7 @@ with blood in the urine). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gefitinib"
@@ -243,7 +246,7 @@ safety of this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -340,7 +343,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -379,7 +382,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -388,7 +393,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -403,7 +409,7 @@ Usage: #inline
 3. Sådan skal du tage Gefitinib Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -414,7 +420,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gefitinib Mylan indeholder det aktive stof gefitinib. Gefitinib blokerer et protein, der kaldes EGFR 
 (epidermal vækstfaktorreceptor). Dette protein er involveret i vækst og spredning af kræftceller. </p>
 <p>Gefitinib Mylan bruges til at behandle voksne med ikke-småcellet lungekræft. Ved denne form for 
-kræftsygdom dannes der ondartede (kræft)celler i lungevævet. </p>         </div>"""   
+kræftsygdom dannes der ondartede (kræft)celler i lungevævet. </p> </div>"""   
           
 
              
@@ -479,7 +485,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>Gefitinib Mylan indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gefitinib"
@@ -524,7 +530,7 @@ næste tablet på samme tid, som du plejer.
 Du må ikke tage en dobbeltdosis (to tabletter på samme tid) som erstatning for den glemte tablet. </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -664,7 +670,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gefitinib"
@@ -676,7 +682,7 @@ af dette lægemiddel. </p>         </div>"""
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -803,7 +809,7 @@ Denne indlægsseddel blev senest ændret juni 2022. Andre informationskilder </p
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 
@@ -842,7 +848,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -851,7 +859,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -866,7 +875,7 @@ Usage: #inline
 3. Como tomar Gefitinib Mylan 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Gefitinib Mylan 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -878,7 +887,7 @@ Usage: #inline
 do crescimento epidérmico» (EGFR). Esta proteína está envolvida no crescimento e disseminação das 
 células cancerosas. </p>
 <p>Gefitinib Mylan é usado para tratar adultos com cancro das células não pequenas do pulmão. Este 
-cancro é uma doença na qual se formam células malignas (cancerosas) nos tecidos do pulmão. </p>         </div>"""   
+cancro é uma doença na qual se formam células malignas (cancerosas) nos tecidos do pulmão. </p> </div>"""   
           
 
              
@@ -943,7 +952,7 @@ Se foi informado pelo seu médico que tem intolerância a alguns açúcares, con
 este medicamento. </p>
 <p>Gefitinib Mylan contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente «isento de sódio». </p>         </div>"""   
+praticamente «isento de sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar gefitinib"
@@ -989,7 +998,7 @@ esqueceu de tomar. </p>
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1131,7 +1140,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar gefitinib"
@@ -1144,7 +1153,7 @@ na bolsa, após EXP. O prazo de validade corresponde ao último dia do mês indi
 <p>Não conservar acima de 30 °C. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1271,7 +1280,7 @@ Mylan IRE Healthcare Limited
 Tel.: +353 18711 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

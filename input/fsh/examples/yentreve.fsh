@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store YENTREVE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ urine during physical exertion or activities such as laughing, coughing, sneezin
 <p>YENTREVE is believed to work by increasing the strength of the muscle that holds back urine when 
 you laugh, sneeze, or perform physical activities. </p>
 <p>The efficacy of YENTREVE is reinforced when combined with a training program called Pelvic Floor 
-Muscle Training (PFMT). </p>         </div>"""   
+Muscle Training (PFMT). </p> </div>"""   
           
 
              
@@ -224,7 +227,7 @@ YENTREVE contains sucrose. If you have been told by your doctor that you have an
 some sugars, contact your doctor before taking this medicinal product.  </p>
 <p>YENTREVE contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yentreve"
@@ -265,7 +268,7 @@ shaking (tremor), headaches, muscle pain, feeling irritable, diarrhoea, excessiv
 vertigo.<br />
 These symptoms are usually not serious and disappear within a few days, but if you have symptoms 
 that are troublesome you should ask your doctor for advice. </p>
-<p>If you have further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -352,7 +355,7 @@ missed periods, abnormal production of breast milk
 <p>If you get any side effects, talk to your doctor of pharmacist. This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yentreve"
@@ -363,7 +366,7 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton. </p>
 <p>Store in the original package to protect from moisture. Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away of medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away of medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -457,7 +460,7 @@ Tel: + 371 67364United Kingdom (Northern Ireland)
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web 
-site: http://www.ema.europa.eu. </p>         </div>"""      
+site: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -496,7 +499,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -505,7 +510,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -520,7 +526,7 @@ Usage: #inline
 3. Sådan skal De tage YENTREVE 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -535,7 +541,7 @@ noradrenalin i nervesystemet. </p>
 anstrengelse eller aktiviteter såsom latter, hoste, nysen, løft eller motion.  </p>
 <p>YENTREVE menes at virke ved at øge styrken i lukkemusklen i blæren, som holder urinen tilbage, 
 når De ler, nyser eller udøver fysisk aktivitet. </p>
-<p>Virkningen af YENTREVE forstærkes, når behandlingen kombineres med bækkenbundstræning. </p>         </div>"""   
+<p>Virkningen af YENTREVE forstærkes, når behandlingen kombineres med bækkenbundstræning. </p> </div>"""   
           
 
              
@@ -684,7 +690,7 @@ YENTREVE indeholder saccharose. Hvis Deres læge har fortalt Dem, at De ikke kan
 sukkerarter, skal De kontakte Deres læge, inden De tager denne medicin. </p>
 <p>YENTREVE indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yentreve"
@@ -723,7 +729,7 @@ rastløshed eller uro, angst, kvalme eller opkastning, rystelser (tremor), hoved
 muskelsmerter, irritation, diaré, forøget tendens til at svede eller svimmelhed.<br />
 Disse symptomer er normalt ikke alvorlige og forsvinder inden for få dage, men hvis De oplever 
 meget generende symptomer, skal De rådføre Dem med lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -912,7 +918,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yentreve"
@@ -925,7 +931,7 @@ sidste dag i den nævnte måned. </p>
 <p>Skal opbevares i den originale emballage beskyttet mod fugt. Må ikke opbevares ved temperaturer 
 over 30 °C. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1043,7 +1049,7 @@ Eli Lilly and Company (Ireland) Limited
 Tel: + 353-(0) 1 661 4 </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

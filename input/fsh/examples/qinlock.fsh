@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store QINLOCK </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ cancer of the digestive system including the stomach and bowel, that has:</p>
 <li>been treated with at least 3 previous cancer medicines, including imatinib. </li>
 </ul>
 <p>If you have any questions about how QINLOCK works or why this medicine has been prescribed for 
-you, please ask your doctor. </p>         </div>"""   
+you, please ask your doctor. </p> </div>"""   
           
 
              
@@ -210,7 +213,7 @@ tired while being treated with QINLOCK you should not drive or operate machinery
 to do so. </p>
 <p>QINLOCK contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.  </p>         </div>"""   
+before taking this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take qinlock"
@@ -248,7 +251,7 @@ Do not take a double dose to make up a forgotten dose.  </li>
 If you are sick (vomiting) after taking this medicine, do not take an additional dose, but carry on as 
 normal. Take your next dose of tablets the next day at the usual time and tell your doctor you have 
 been sick.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -335,7 +338,7 @@ on the skin that is covered with small bumps or acne </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store qinlock"
@@ -350,7 +353,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 moisture.  </p>
 <p>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -384,7 +387,7 @@ Netherlands </p>
 <p>Deciphera Pharmaceuticals (Netherlands) B.V., NL 
 Tel/ T l/ Te / Tlf/  / S mi/ Puh: +318006333e-mail: medicalinformation@deciphera.com </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -423,7 +426,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -432,7 +437,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -449,7 +455,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -467,7 +473,7 @@ en sjælden type kræft i fordøjelsessystemet, herunder maven og tarmen, der:</
 <li>er blevet behandlet med mindst 3 tidligere kræftlægemidler, herunder imatinib. </li>
 </ul>
 <p>Spørg lægen, hvis du har spørgsmål til, hvordan QINLOCK virker, eller hvorfor du har fået ordineret 
-dette lægemiddel. </p>         </div>"""   
+dette lægemiddel. </p> </div>"""   
           
 
              
@@ -599,7 +605,7 @@ dig utilpas eller meget træt under behandling med QINLOCK, bør du ikke føre m
 betjene maskiner, før du føler dig sikker på at gøre det. </p>
 <p>QINLOCK indeholder lactose 
 Hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter, skal du tale med lægen, før du får dette 
-lægemiddel. </p>         </div>"""   
+lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take qinlock"
@@ -639,7 +645,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </li>
 Hvis du kaster op efter at have taget dette lægemiddel, skal du ikke tage en ekstra dosis, men fortsætte 
 som normalt. Tag den næste dosis tabletter næste dag på det sædvanlige tidspunkt, og fortæl det til 
 lægen, hvis du har været syg. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -733,7 +739,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store qinlock"
@@ -748,7 +754,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på, at der er pillet 
 ved den. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -786,7 +792,7 @@ repræsentant for indehaveren af markedsføringstilladelsen:  </p>
 Tél/Tel/Teл/Tlf/Τηλ/Sími/Puh: +318006333e-mail: medicalinformation@deciphera.com </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

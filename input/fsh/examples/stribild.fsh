@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Stribild </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ in adults. </p>
 <p>Stribild is also used to treat HIV-1 infected adolescents aged 12 to less than 18 years who weigh at 
 least 35 kg, and who have already been treated with other HIV medicines that have caused side effects. </p>
 <p>Stribild reduces the amount of HIV in your body.  This will improve your immune system and 
-reduce the risk of developing illnesses linked to HIV infection. </p>         </div>"""   
+reduce the risk of developing illnesses linked to HIV infection. </p> </div>"""   
           
 
              
@@ -355,7 +358,7 @@ drive and do not use any tools or machines. </p>
 before taking this medicine. </p>
 <p>Stribild contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stribild"
@@ -403,7 +406,7 @@ recommended as this may lead to worsening of your hepatitis, which may be life-t
 particularly symptoms you associate with hepatitis B infection (such as yellowing of your skin or 
 the white part of your eyes, dark  tea-coloured  urine, light-coloured stools, loss of appetite for 
 several days or longer, feeling or being sick, or stomach-area pain). </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -538,7 +541,7 @@ effects not listed in this leaflet. </p>
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stribild"
@@ -550,7 +553,7 @@ of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture.  Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -651,7 +654,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in  &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt; </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -690,7 +693,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -699,7 +704,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -716,7 +722,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -747,7 +753,7 @@ immundefekt virus (hiv) hos voksne. </p>
 vejer mindst 35 kg, og som allerede er blevet behandlet med anden hiv-medicin, der har forårsaget 
 bivirkninger. </p>
 <p>Stribild nedsætter mængden af hiv i Deres krop. Dette vil forbedre Deres immunsystem og 
-nedsætte risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p>         </div>"""   
+nedsætte risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p> </div>"""   
           
 
              
@@ -1036,7 +1042,7 @@ tager Stribild. </p>
 sukkerarter. </p>
 <p>Stribild indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stribild"
@@ -1095,7 +1101,7 @@ omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, som 
 ville forbinde med hepatitis B-infektion (såsom gulfarvning af huden eller det hvide i øjnene, mørk 
 "te-farvet" urin, lys afføring, manglende appetit i flere dage eller mere, kvalme eller opkastning 
 eller smerter i maveregionen). </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1322,7 +1328,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stribild"
@@ -1334,7 +1340,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1466,7 +1472,7 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113  </p>
 <p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}&gt; &lt;{måned ÅÅÅÅ}&gt; </p>
 <p>De kan finde yderligere oplysninger om Stribild på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1505,7 +1511,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1514,7 +1522,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1531,7 +1540,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Stribild </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1563,7 +1572,7 @@ imunodeficiência humana (VIH) em adultos. </p>
 compreendida entre 12 e menos de 18 anos, que pesam, pelo menos, 35 kg, e que já tenham sido 
 tratados com outros medicamentos contra o VIH que tenham causado efeitos indesejáveis. </p>
 <p>Stribild diminui a quantidade de VIH no seu corpo. Isto irá melhorar o seu sistema imunológico 
-e diminuir o risco de desenvolvimento de doenças ligadas à infeção por VIH. </p>         </div>"""   
+e diminuir o risco de desenvolvimento de doenças ligadas à infeção por VIH. </p> </div>"""   
           
 
              
@@ -1843,7 +1852,7 @@ tomar Stribild, não conduza e não utilize quaisquer ferramentas ou máquinas. 
 este medicamento. </p>
 <p>Stribild contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar stribild"
@@ -1905,7 +1914,7 @@ cor amarela na sua pele ou parte branca dos seus olhos, urina escura "cor de ch�
 clara, perda de apetite durante vários dias ou por um período prolongado, sentir-se enjoado 
 (náuseas) ou estar enjoado (vómitos) ou dor na zona do estômago). </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2128,7 +2137,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar stribild"
@@ -2141,7 +2150,7 @@ após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. <
 <p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2273,7 +2282,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt; &lt;{mês de AAAA}&gt; </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kovaltry  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ octocog alfa. Kovaltry is prepared by recombinant technology without addition of
 animal derived components in the manufacturing process. Factor VIII is a protein naturally found in 
 the blood that helps to clot it. </p>
 <p>Kovaltry is used to treat and prevent  bleeding in adults, adolescents and children of all ages with 
-haemophilia A (hereditary factor VIII deficiency). </p>         </div>"""   
+haemophilia A (hereditary factor VIII deficiency). </p> </div>"""   
           
 
              
@@ -125,7 +128,7 @@ If you experience dizziness or any other symptoms affecting your ability to conc
 not drive or use machines until the reaction subsides. </p>
 <p>Kovaltry contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kovaltry"
@@ -183,7 +186,7 @@ Administer your next dose immediately and continue at regular intervals as advis
 Do not use a double dose to make up for a forgotten dose.  </p>
 <p>If you stop using Kovaltry 
 Do not stop using this medicine without checking with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -225,7 +228,7 @@ swelling, burning sensation, temporary redness)
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kovaltry"
@@ -246,7 +249,7 @@ refrigerator. </p>
 3 hours. This product is for single use only. Any unused solution must be discarded. </p>
 <p>Do not use this medicine if you notice any particles in the solution or if the solution is cloudy. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -344,7 +347,7 @@ SIA Bayer
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
 Tel: +44-(0)118 206 3This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -383,7 +386,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -392,7 +397,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -407,7 +413,7 @@ Usage: #inline
 3. Sådan skal du bruge Kovaltry 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -420,7 +426,7 @@ alfa. Kovaltry fremstilles ved rekombinant teknologi uden tilsætning af kompone
 eller dyr i fremstillingsprocessen. Faktor VIII er et protein, der findes naturligt i blodet, og som hjælper 
 det med at størkne. </p>
 <p>Kovaltry anvendes til at behandle og forebygge blødning hos voksne, unge og børn i alle aldre med 
-blødersygdommen hæmofili A (arvelig faktor VIII-mangel). </p>         </div>"""   
+blødersygdommen hæmofili A (arvelig faktor VIII-mangel). </p> </div>"""   
           
 
              
@@ -487,7 +493,7 @@ Hvis du bliver svimmel eller får andre symptomer, der påvirker din koncentrati
 må du ikke føre motorkøretøj eller betjene maskiner, før symptomerne aftager. </p>
 <p>Kovaltry indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kovaltry"
@@ -559,7 +565,7 @@ læge.
 Du må ikke bruge en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Kovaltry 
 Du må ikke holde op med at bruge dette lægemiddel uden at aftale det med din læge. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -643,7 +649,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kovaltry"
@@ -664,7 +670,7 @@ skal anvendes inden for 3 timer. Dette lægemiddel er kun til engangsbrug. Event
 opløsning skal kasseres. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker partikler i opløsningen, eller hvis opløsningen er uklar. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -876,7 +882,7 @@ kompressionsforbinding på indstiksstedet, og hvis nødvendigt et plaster. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 
@@ -915,7 +921,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -924,7 +932,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -939,7 +948,7 @@ Usage: #inline
 3. Como utilizar Kovaltry 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Kovaltry 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -952,7 +961,7 @@ por octocog alfa. Kovaltry é produzido por tecnologia recombinante sem adição
 componente de origem humana ou animal no processo de fabrico. O Fator VIII é uma proteína que se 
 encontra naturalmente no sangue e que ajuda o sangue a coagular. </p>
 <p>Kovaltry é utilizado para tratar e prevenir hemorragias em adultos, adolescentes e crianças de todas 
-as idades com hemofilia A (deficiência hereditária de fator VIII). </p>         </div>"""   
+as idades com hemofilia A (deficiência hereditária de fator VIII). </p> </div>"""   
           
 
              
@@ -1020,7 +1029,7 @@ Se tiver tonturas ou outros sintomas que afectem a sua capacidade de concentraç
 conduza ou utilize máquinas até ao desaparecimento destes sintomas.  </p>
 <p>Kovaltry contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio".  </p>         </div>"""   
+“isento de sódio".  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar kovaltry"
@@ -1097,7 +1106,7 @@ pelo seu médico.<br />
 Não utilize uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Se parar de utilizar Kovaltry 
 Não pare de utilizar  este medicamento sem confirmar com o seu médico. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1183,7 +1192,7 @@ irregularmente) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar kovaltry"
@@ -1207,7 +1216,7 @@ Este medicamento destina-se a utilização única. Qualquer solução não utili
 estiver turva.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1320,7 +1329,7 @@ Tel: +371 67 84 55 United Kingdom (Irlanda do Norte)
 Bayer AG 
 Tel: +44-(0)118 206 3 
 Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

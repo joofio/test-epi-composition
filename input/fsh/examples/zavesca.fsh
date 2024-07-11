@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Zavesca</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ If you have Niemann-Pick type C disease, fats such as glycosphingolipids build u
 brain. This can result in disturbances in neurological functions such as slow eye movements, balance, 
 swallowing, and memory, and in seizures.
 Zavesca works by inhibiting the enzyme called  glucosylceramide synthase  which is responsible for 
-the first step in the synthesis of most glycosphingolipids.</p>         </div>"""   
+the first step in the synthesis of most glycosphingolipids.</p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ Driving and using machines
 Zavesca may make you feel dizzy. Do not drive or use any tools or machines if you feel dizzy.
 Zavesca contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zavesca"
@@ -177,7 +180,7 @@ effects similar to those described in section 4. If you forget to take Zavesca
 Take the next capsule at the usual time. Do not take a double dose to make up for a forgotten dose.
 If you stop taking Zavesca
 Don t stop taking Zavesca without talking to your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zavesca"
@@ -229,7 +232,7 @@ Do not take this medicine after the expiry date which is stated on the carton af
 date refers to the last day of that month.
 Do not store above 30 C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer take. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer take. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -340,7 +343,7 @@ United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in:
 Detailed information on this medicine is available on the European Medicines Agency website:
-http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments.</p>         </div>"""      
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments.</p> </div>"""      
 
 
 
@@ -379,7 +382,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -388,7 +393,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -403,7 +409,7 @@ Usage: #inline
 3. Sådan skal De tage Zavesca
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -427,7 +433,7 @@ Hvis De har Niemann-Picks sygdom, type C, ophobes fedt f.eks. glycosphingolipide
 hjerne. Det kan resultere i forstyrrelser i neurologiske funktioner som f.eks. langsomme
 øjenbevægelser, balance, synkning og hukommelse samt i krampeanfald.
 Zavesca virker ved at hæmme et enzym, som kaldes ’glucosylceramidsyntase’, som er ansvarlig for det 
-første trin i omdannelsen af de fleste glycosphingolipider.</p>         </div>"""   
+første trin i omdannelsen af de fleste glycosphingolipider.</p> </div>"""   
           
 
              
@@ -489,7 +495,7 @@ hvis De føler Dem svimmel.
 Zavesca indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
 væsentlige natriumfrit.
-22</p>         </div>"""   
+22</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zavesca"
@@ -524,7 +530,7 @@ Tag den næste kapsel til sædvanlig tid. De må ikke tage en dobbeltdosis som e
 dosis.
 Hvis De holder op med at tage Zavesca
 Stop ikke med at tage Zavesca uden at rådføre Dem med lægen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -567,7 +573,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zavesca"
@@ -579,7 +585,7 @@ Tag ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udl�
 i den nævnte måned.
 Må ikke opbevares ved temperaturer over 30 °C.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -729,7 +735,7 @@ Denne indlægsseddel blev senest ændret
 De kan finde yderligere oplysninger om Zavesca på Det Europæiske Lægemiddelagenturs hjemmeside: 
 http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om,
 hvordan de behandles.
-26</p>         </div>"""      
+26</p> </div>"""      
 
 
 

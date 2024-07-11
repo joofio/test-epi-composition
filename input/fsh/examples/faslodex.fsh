@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Faslodex</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ locally advanced or has spread to other parts of the body (metastatic). Women wh
 reached menopause will also be treated with a medicine called a luteinizing hormone releasing 
 hormone (LHRH) agonist.
 When Faslodex is given in combination with palbociclib, it is important that you also read the package 
-leaflet for palbociclib. If you have any questions about palbociclib, please ask your doctor.</p>         </div>"""   
+leaflet for palbociclib. If you have any questions about palbociclib, please ask your doctor.</p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ Harmful for those suffering from alcoholism.
 To be taken into account in high-risk groups such as patients with liver disease, or epilepsy.
 Faslodex contains 500 mg benzyl alcohol per injection, equivalent to 100 mg/ml.
 Benzyl alcohol may cause allergic reactions.
-Faslodex contains 750 mg benzyl benzoate per injection, equivalent to 150 mg/ml.</p>         </div>"""   
+Faslodex contains 750 mg benzyl benzoate per injection, equivalent to 150 mg/ml.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take faslodex"
@@ -146,7 +149,7 @@ The recommended dose is 500 mg fulvestrant (two 250 mg/5 ml injections) given on
 an additional 500 mg dose given 2 weeks after the initial dose.
 Your doctor or nurse will give you Faslodex as a slow intramuscular injection, one into each of your 
 buttocks.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -198,7 +201,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store faslodex"
@@ -221,7 +224,7 @@ Keep the pre-filled syringe in the original package, in order to protect from li
 Your healthcare professional will be responsible for the correct storage, use and disposal of Faslodex.
 This medicine may pose a risk to the aquatic environment. Do not throw away any medicines via 
 wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. 
-These measures will help protect the environment.</p>         </div>"""      
+These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -360,7 +363,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -369,7 +374,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -384,7 +390,7 @@ Usage: #inline
 3. Sådan skal du bruge Faslodex
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -407,7 +413,7 @@ lokalt fremskreden eller har spredt sig til andre dele af kroppen (metastatisk).
 har nået overgangsalderen, vil også blive behandlet med et lægemiddel kaldet en luteiniserende 
 hormonfrigivende hormon (LHRH)-agonist.
 Når Faslodex gives i kombination med palbociclib er det vigtigt, at du også læser indlægssedlen for 
-palbociclib. Spørg lægen, hvis du har spørgsmål om palbociclib.</p>         </div>"""   
+palbociclib. Spørg lægen, hvis du har spørgsmål om palbociclib.</p> </div>"""   
           
 
              
@@ -456,7 +462,7 @@ Skadeligt for personer der lider af alkoholisme.
 Tag hensyn ved behandling af højrisikogrupper så som patienter med leversygdomme eller epilepsi.
 Faslodex indeholder 500 mg benzylalkohol per injektion, hvilket svarer til 100 mg/ml.
 Benzylalkohol kan give allergiske reaktioner.
-Faslodex indeholder 750 mg benzylbenzoat per injektion, hvilket svarer til 150 mg/ml.</p>         </div>"""   
+Faslodex indeholder 750 mg benzylbenzoat per injektion, hvilket svarer til 150 mg/ml.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take faslodex"
@@ -469,7 +475,7 @@ Den anbefalede dosis er 500 mg fulvestrant (to 250 mg/5 ml-injektioner), der giv
 måneden, samt en ekstra 500 mg dosis givet 2 uger efter den første dosis.
 Din læge eller sygeplejerske vil give dig Faslodex som en langsom intramuskulær injektion, én i hver 
 balle.
-Spørg lægen eller apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -549,7 +555,7 @@ også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store faslodex"
@@ -572,7 +578,7 @@ produktet, forudsat at det ikke opbevares ved temperaturer under -20 °C.
 Behold den fyldte injektionssprøjte i den originale pakning, for at beskytte den mod lys.
 Personalet har ansvar for den korrekte opbevaring, brug og destruktion af Faslodex.
 Dette lægemiddel kan udgøre en risiko for vandmiljøet. Spørg på apoteket, hvordan du skal bortskaffe 
-medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden.</p>         </div>"""      
+medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -762,7 +768,7 @@ Figur 5
 Bortskaffelse
 Fyldte sprøjter er kun til engangsbrug.
 Dette lægemiddel kan udgøre en risiko for vandmiljøet. Ikke anvendt lægemiddel samt affald heraf 
-skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -801,7 +807,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -810,7 +818,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -825,7 +834,7 @@ Usage: #inline
 3. Como utilizar Faslodex
 4. Efeitos secundários possíveis
 5. Como conservar Faslodex
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -849,7 +858,7 @@ partes do corpo (metastático). As mulheres que não chegaram à menopausa serã
 tratadas com um medicamento chamado agonista da hormona libertadora da hormona 
 luteinizante (LHRH).
 Quando Faslodex é administrado em associação com palbociclib, é importante que leia o folheto 
-informativo de palbociclib. Se tiver alguma dúvida sobre palbociclib, pergunte ao seu médico.</p>         </div>"""   
+informativo de palbociclib. Se tiver alguma dúvida sobre palbociclib, pergunte ao seu médico.</p> </div>"""   
           
 
              
@@ -901,7 +910,7 @@ Para ter em consideração quando utilizado em grupos de alto risco tais como do
 de fígado ou epilepsia.
 Faslodex contém 500 mg de álcool benzílico em cada injeção, equivalente a 100 mg/ml.
 O álcool benzílico pode causar reações alérgicas.
-Faslodex contém 750 mg de benzoato de benzilo em cada injeção, equivalente a 150 mg/ml.</p>         </div>"""   
+Faslodex contém 750 mg de benzoato de benzilo em cada injeção, equivalente a 150 mg/ml.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar faslodex"
@@ -915,7 +924,7 @@ por mês, com uma dose adicional de 500 mg administrada 2 semanas após a dose i
 O seu médico ou enfermeiro irá administrar Faslodex como injeção intramuscular lenta, uma em cada 
 nádega.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -999,7 +1008,7 @@ secundários diretamente através do sistema nacional de notificação mencionad
 34
 comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar faslodex"
@@ -1024,7 +1033,7 @@ O seu profissional de saúde será responsável pela correta conservação, util
 Faslodex.
 Este medicamento pode representar um risco para o ambiente aquático. Não deite fora quaisquer 
 medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os 
-medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1150,7 +1159,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store ZOLSKETIL pegylated liposomal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ sarcoma, such as swelling around the tumour, may also improve or disappear. </p>
 <p>ZOLSKETIL pegylated liposomal contains a medicine which is able to interact with cells in such a 
 way as to selectively kill cancer cells. The doxorubicin hydrochloride in ZOLSKETIL pegylated 
 liposomal is enclosed in tiny spheres called pegylated liposomes which help to deliver the medicinal 
-product from the blood stream to the cancerous tissue rather than healthy normal tissue. </p>         </div>"""   
+product from the blood stream to the cancerous tissue rather than healthy normal tissue. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ pegylated liposomal. </p>
 ZOLSKETIL pegylated liposomal contains soya oil. If you are allergic to peanut or soya, do not use 
 this medicine. 
 ZOLSKETIL pegylated liposomal contains less than 1 mmol sodium (23 mg) per dose, that is to say 
- essentially sodium-free . </p>         </div>"""   
+ essentially sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zolsketil"
@@ -191,7 +194,7 @@ Acute overdosing worsens side effects like sores in the mouth or decreases the n
 cells and platelets in the blood. Treatment will include administration of antibiotics, platelet cell 
 transfusions, use of factors which stimulate production of white blood cells and symptomatic treatment 
 of mouth sores. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ physical activity (Interstitial lung disease) </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zolsketil"
@@ -357,7 +360,7 @@ than 24 hours at 2 C to 8 C. Partially used vials must be discarded. </p>
 <p>Do not use this medicine if you notice that it shows evidence of precipitation or any other particulate 
 matter. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +391,7 @@ ul. Lutomierska 50, Pabianice, 95-Poland </p>
 Winthontlaan 200, Utrecht, 3526KV ,<br />
 Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -427,7 +430,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -436,7 +441,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -453,7 +459,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -475,7 +481,7 @@ såsom hævelse omkring tumor, kan også forbedres eller forsvinde. </p>
 <p>ZOLSKETIL pegylated liposomal indeholder et lægemiddel, der kan påvirke kroppens celler på en 
 sådan måde, at fortrinsvis kræftceller bliver dræbt. Doxorubicinhydrochlorid i ZOLSKETIL pegylated 
 liposomal er indkapslet i fine dråber, der kaldes pegylerede liposomer, der hjælper med at bringe 
-lægemidlet fra blodbanen til kræftvævet i højere grad end til sundt, normalt væv. </p>         </div>"""   
+lægemidlet fra blodbanen til kræftvævet i højere grad end til sundt, normalt væv. </p> </div>"""   
           
 
              
@@ -553,7 +559,7 @@ af behandlingen med ZOLSKETIL pegylated liposomal. </p>
 ZOLSKETIL pegylated liposomal indeholder sojaolie. Du må ikke bruge ZOLSKETIL pegylated 
 liposomal, hvis du er overfølsom over for jordnødder eller soja. 
 ZOLSKETIL pegylated liposomal indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zolsketil"
@@ -584,7 +590,7 @@ Akut overdosering forværrer bivirkninger som sår i munden eller fald i antalle
 og blodplader i blodet. Behandling vil omfatte administration af antibiotika, transfusioner med 
 blodplader, anvendelse af faktorer som stimulerer produktionen af hvide blodlegemer og 
 symptomatisk behandling af mundsår. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -732,7 +738,7 @@ lungesygdom) </p>
 Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller sygeplejersken. Dette 
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
-anført i Appendiks V </p>         </div>"""      
+anført i Appendiks V </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zolsketil"
@@ -749,7 +755,7 @@ opbevaringstider og -betingelser er på brugerens eget ansvar og må ikke overst
 8°C. Delvis brugte hætteglas skal bortskaffes. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker tegn på bundfældning eller anden partikeldannelse. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -821,7 +827,7 @@ tilstedeværelse af bakteriostatiske stoffer som f.eks benzylalkohol kan forårs
 ZOLSKETIL pegylated liposomal. </p>
 <p>Det anbefales, at infusionsslangen med ZOLSKETIL pegylated liposomal forbindes via en sideport 
 til en intravenøs infusion med glucose 50 mg/ml (5 %). Infusionen kan gives i en perifer vene. Må 
-ikke anvendes sammen med in-line filtre. </p>         </div>"""      
+ikke anvendes sammen med in-line filtre. </p> </div>"""      
 
 
 
@@ -860,7 +866,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -869,7 +877,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -884,7 +893,7 @@ Usage: #inline
 3. Como utilizar ZOLSKETIL pegylated liposomal 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar ZOLSKETIL pegylated liposomal 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -908,7 +917,7 @@ como o inchaço à volta do tumor. </p>
 modo a matar seletivamente as células cancerosas. O cloridrato de doxorrubicina contido no 
 ZOLSKETIL pegylated liposomal está encerrado em minúsculas esferas designadas por lipossomas 
 peguilados, que ajudam a transportar o fármaco da circulação sanguínea para o tecido canceroso e não 
-para o tecido normal saudável. </p>         </div>"""   
+para o tecido normal saudável. </p> </div>"""   
           
 
              
@@ -985,7 +994,7 @@ sonolento devido ao tratamento com ZOLSKETIL pegylated liposomal. </p>
 ZOLSKETIL pegylated liposomal contém óleo de soja. Se é alérgico ao amendoim ou a soja, não 
 utilize este medicamento. 
 ZOLSKETIL pegylated liposomal contém menos de 1 mmol (23 mg) de sódio por dose, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zolsketil"
@@ -1018,7 +1027,7 @@ de glóbulos brancos e plaquetas no sangue. O tratamento consiste em administra�
 transfusões de plaquetas, utilização de fatores que estimulam a produção de glóbulos brancos e 
 tratamento sintomático das feridas na boca. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1175,7 +1184,7 @@ física (doença pulmonar intersticial) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zolsketil"
@@ -1193,7 +1202,7 @@ Os frascos para injetáveis parcialmente utilizados têm de ser eliminados. </p>
 <p>Não utilize este medicamento se verificar sinais de precipitação ou quaisquer partículas em suspensão. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1271,7 +1280,7 @@ corticosteroide de ação rápida) e reiniciar o tratamento a uma velocidade mai
 provocar a precipitação do ZOLSKETIL pegylated liposomal. </p>
 <p>Recomenda-se a ligação do sistema de perfusão de ZOLSKETIL pegylated liposomal a uma porta 
 lateral de um sistema de perfusão intravenosa de glucose de 50 mg/ml (5%). A perfusão deve ser 
-administrada através de uma veia periférica. Não utilizar filtros no sistema de perfusão. </p>         </div>"""      
+administrada através de uma veia periférica. Não utilizar filtros no sistema de perfusão. </p> </div>"""      
 
 
 

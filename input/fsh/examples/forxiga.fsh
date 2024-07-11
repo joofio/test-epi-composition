@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Forxiga</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -108,7 +111,7 @@ What is chronic kidney disease and how does Forxiga help?</p>
 means they would not be able to clean and filter your blood the way they should. Loss of kidney 
 function can lead to serious medical problems and need for hospital care. </p>
 <p>Forxiga helps protect your kidneys from losing their function. That can help some patients to 
-live longer.</p>         </div>"""   
+live longer.</p> </div>"""   
           
 
              
@@ -196,7 +199,7 @@ change in vision, and may affect your ability to drive and use machines.
 Do not drive or use any tools or machines, if you feel dizzy taking Forxiga.
 Forxiga contains lactose
 Forxiga contains lactose (milk sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine.</p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take forxiga"
@@ -231,7 +234,7 @@ the usual time.</p>
 If you stop taking Forxiga
 Do not stop taking Forxiga without talking to your doctor first. If you have diabetes, your blood sugar 
 may increase without this medicine.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -316,7 +319,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store forxiga"
@@ -328,7 +331,7 @@ Do not use this medicine after the expiry date, which is stated on the blister o
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -436,7 +439,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -475,7 +478,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -484,7 +489,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -499,7 +505,7 @@ Usage: #inline
 3. Sådan skal du tage Forxiga
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -561,7 +567,7 @@ ikke vil være i stand til at rense og filtrere dit blod, som det ellers er meni
 nyrefunktion kan medføre alvorlige helbredsproblemer og behov for hospitalsbehandling.
 
 Forxiga hjælper med at beskytte dine nyrer mod at miste deres funktion. Det kan hjælpe nogle 
-patienter til at leve længere.</p>         </div>"""   
+patienter til at leve længere.</p> </div>"""   
           
 
              
@@ -670,7 +676,7 @@ Lad være med at køre bil og arbejde med værktøj eller maskiner, hvis du bliv
 Forxiga.
 Forxiga indeholder laktose
 Forxiga indeholder laktose (mælkesukker). Kontakt din læge, før du tager dette lægemiddel, hvis 
-lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer.</p>         </div>"""   
+lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take forxiga"
@@ -715,7 +721,7 @@ Du må ikke tage en dobbeltdosis Forxiga som erstatning for den glemte dosis.
 Hvis du holder op med at tage Forxiga
 Hold ikke op med at tage Forxiga uden først at tale med din læge. Hvis du har diabetes, kan dit 
 blodsukker stige, hvis du ikke tager din medicin.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -830,7 +836,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store forxiga"
@@ -842,7 +848,7 @@ Brug ikke Forxiga efter den udløbsdato ("EXP"), der står på blisterkort og pa
 den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -988,7 +994,7 @@ Tel: +44 1582 836 836
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1027,7 +1033,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1036,7 +1044,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1051,7 +1060,7 @@ Usage: #inline
 3. Como tomar Forxiga
 4. Efeitos indesejáveis possíveis
 5. Como conservar Forxiga
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1096,7 +1105,7 @@ pernas.
 
 Forxiga atua removendo o excesso de açúcar do seu corpo. Também pode ajudar a prevenir 
 doença cardiovascular.
-5</p>         </div>"""   
+5</p> </div>"""   
           
 
              
@@ -1122,7 +1131,7 @@ significa que não seriam capazes de limpar e filtrar o seu sangue como deveriam
 função renal pode originar problemas médicos graves e necessidade de cuidados hospitalares.
 
 Forxiga ajuda a proteger os seus rins de perder a sua função. Isso pode ajudar alguns doentes a 
-viver mais tempo.</p>         </div>"""   
+viver mais tempo.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar forxiga"
@@ -1231,7 +1240,7 @@ máquinas.
 Não conduza ou utilize quaisquer ferramentas ou máquinas, se sentir tonturas a tomar Forxiga.
 Forxiga contém lactose
 Forxiga contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem uma intolerância a 
-alguns açúcares, contacte-o antes de tomar este medicamento.</p>         </div>"""         
+alguns açúcares, contacte-o antes de tomar este medicamento.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1282,7 +1291,7 @@ Não pare de tomar Forxiga sem falar primeiro com o seu médico. Se tiver diabet
 açúcar no sangue pode aumentar sem este medicamento.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
 ou enfermeiro.
-58</p>         </div>"""      
+58</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar forxiga"
@@ -1386,7 +1395,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1400,7 +1409,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado.
 Este medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
 
 
 

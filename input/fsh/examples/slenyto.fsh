@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Slenyto </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ nerves and brain). </p>
 <p>Slenyto shortens the time it takes to fall asleep and lengthens the duration of sleep. 
 It is for the treatment of insomnia (sleeplessness) when a healthy sleeping routine (such as a regular 
 bedtime and soothing sleeping environment) has not worked well enough.  The medicine can help you 
-or your child fall asleep and may help you or your child sleep for longer during the night. </p>         </div>"""   
+or your child fall asleep and may help you or your child sleep for longer during the night. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ vehicle, ride a bicycle, or use machinery until completely recovered. </p>
 <p>If you or your child suffers from continued drowsiness, you should consult your doctor. </p>
 <p>Slenyto contains lactose<br />
 Slenyto contains lactose monohydrate.  If you or your child has been told by your doctor that you have 
-an intolerance to some sugars, contact your doctor before taking this medicinal product.  </p>         </div>"""   
+an intolerance to some sugars, contact your doctor before taking this medicinal product.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take slenyto"
@@ -188,7 +191,7 @@ Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you or your child stops taking Slenyto 
 You should talk to your doctor before you/your child stops taking Slenyto. It is important to continue 
 taking this medicine to treat the condition. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -239,7 +242,7 @@ advice: </p>
 If you or your child gets any side effects, talk to your doctor or pharmacist.  This includes any possible 
 side effects not listed in this leaflet.  You can also report side effects directly via the national reporting 
 system listed in Appendix V.  By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store slenyto"
@@ -251,7 +254,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C.   </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -410,7 +413,7 @@ Tel: +33 185149776 (FR)
 e-mail: neurim@neurim.com </p>
 <p>This leaflet was last revised in { month/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -449,7 +452,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -458,7 +463,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -473,7 +479,7 @@ Usage: #inline
 3. Sådan skal du tage Slenyto 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -491,7 +497,7 @@ påvirker nerverne og hjernen). </p>
 <p>Slenyto forkorter den tid, det tager at falde i søvn, og forlænger søvnen. 
 Det er beregnet til at behandle søvnløshed, når sunde soverutiner (såsom regelmæssige sengetider 
 og et beroligende sovemiljø) ikke har virket tilstrækkeligt. Lægemidlet kan hjælpe dig eller dit barn til 
-at falde i søvn og kan hjælpe dig eller dit barn til at sove længere om natten. </p>         </div>"""   
+at falde i søvn og kan hjælpe dig eller dit barn til at sove længere om natten. </p> </div>"""   
           
 
              
@@ -586,7 +592,7 @@ motorkøretøj, cykle eller betjene maskiner, før virkningen helt har fortaget 
 <p>Hvis du eller dit barn er vedvarende døsig, bør du kontakte lægen. </p>
 <p>Slenyto indeholder lactose<br />
 Slenyto indeholder lactosemonohydrat. Hvis lægen har fortalt dig, at du eller dit barn ikke tåler visse 
-sukkerarter, skal du kontakte lægen, før du eller dit barn tager dette lægemiddel.  </p>         </div>"""   
+sukkerarter, skal du kontakte lægen, før du eller dit barn tager dette lægemiddel.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take slenyto"
@@ -623,7 +629,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du eller dit barn holder op med at tage Slenyto 
 Tal med lægen, før du eller dit barn holder op med at tage Slenyto. Det er vigtigt at fortsætte med at 
 tage dette lægemiddel for at behandle sygdommen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -723,7 +729,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store slenyto"
@@ -735,7 +741,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C.  </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
-apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil medvirke til at skåne miljøet. </p>         </div>"""      
+apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil medvirke til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -898,7 +904,7 @@ e-mail: neurim@neurim.com </p>
 <p>Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -937,7 +943,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -946,7 +954,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -961,7 +970,7 @@ Usage: #inline
 3. Como tomar Slenyto 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Slenyto 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -980,7 +989,7 @@ hereditária que afeta o sistema nervoso e o cérebro). </p>
 É utilizado para o tratamento da insónia (dificuldade em dormir) quando a implementação de 
 rotinas saudáveis de sono (tal como uma hora de dormir regular e um ambiente calmo para adormecer) 
 não funcionou tão bem como o necessário. O medicamento pode ajudá-lo a si ou ao seu filho a 
-adormecer, bem como a ter um maior período de sono durante a noite </p>         </div>"""   
+adormecer, bem como a ter um maior período de sono durante a noite </p> </div>"""   
           
 
              
@@ -1077,7 +1086,7 @@ bicicleta ou utilizar máquinas até estar totalmente recuperado.  </p>
 <p>Se você ou o seu filho sofrem de sonolência contínua, consulte o seu médico. </p>
 <p>Slenyto contém lactose<br />
 Slenyto contém lactose mono-hidratada. Se o seu médico lhe tiver dito que você ou o seu filho é 
-intolerante a alguns açúcares, contacte o seu médico antes de tomar este medicamento.  </p>         </div>"""   
+intolerante a alguns açúcares, contacte o seu médico antes de tomar este medicamento.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar slenyto"
@@ -1119,7 +1128,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </
 Fale com o seu médico antes de você ou o seu filho pararem de tomar Slenyto. É importante que 
 continue a tomar este medicamento para tratar esta condição. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1220,7 +1229,7 @@ Se você ou o seu filho tiverem quaisquer efeitos indesejáveis, incluindo poss�
 não indicados neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar 
 efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar slenyto"
@@ -1233,7 +1242,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não conservar acima de 30 °C. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1396,7 +1405,7 @@ Tel: +33 185149776 (FR)
 e-mail: neurim@neurim.com </p>
 <p>Este folheto foi revisto pela última vez em { mês de AAAA}. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

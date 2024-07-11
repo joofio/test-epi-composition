@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vyvgart </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ difficulties swallowing. </p>
 receptors. Because of this damage, the nerves are not able to make the muscles contract as well as 
 normal, leading to muscle weakness and difficulty moving. By binding to the FcRn protein and 
 reducing autoantibody levels, Vyvgart can improve the ability of muscles to contract and reduce the 
-symptoms of the disease and their impact on daily activities. </p>         </div>"""   
+symptoms of the disease and their impact on daily activities. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 Vyvgart is not expected to influence the ability to drive or use machines. </p>
 <p>Vyvgart contains sodium 
 This medicine contains 67.2 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 3.4% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 3.4% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyvgart"
@@ -157,7 +160,7 @@ If you forget an appointment, please contact your doctor immediately for advice 
 Interrupting or stopping treatment with Vyvgart may cause your gMG symptoms to come back. Please 
 speak to your doctor before stopping Vyvgart. Your doctor will discuss the possible side effects and 
 risks with you. Your doctor will also want to monitor you closely. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -189,7 +192,7 @@ shortness of breath<br />
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyvgart"
@@ -207,7 +210,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 within 4 hours of dilution. Allow the diluted medicinal product to reach room temperature before 
 administration. The infusion should be completed within 4 hours of removal from the refrigerator. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ argenx BV
 Tel: 020-12 74 medinfose@argenx.com </p>
 <p>This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -364,7 +367,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -373,7 +378,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -390,7 +396,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -412,7 +418,7 @@ acetylcholinreceptorer. På grund af denne skade er nerverne ikke i stand til at
 trække sig lige så effektivt sammen som normalt, og det fører til muskelsvækkelse og 
 bevægelsesbesvær. Da Vyvgart binder til FcRn-proteinet og reducerer autoantistofniveauer, kan det 
 forbedre musklernes evne til at trække sig sammen og derved reducere sygdomssymptomerne og deres 
-indvirkning på muligheden for at udføre aktiviteter i dagligdagen. </p>         </div>"""   
+indvirkning på muligheden for at udføre aktiviteter i dagligdagen. </p> </div>"""   
           
 
              
@@ -461,7 +467,7 @@ Dette lægemiddel indeholder 67,2 mg natrium (hovedbestanddelen i salt til madla
 hvert hætteglas. Det svarer til 3,4 % af den anbefalede maksimale daglige indtagelse af natrium for 
 en voksen. Dette lægemiddel bliver yderligere klargjort til administration med en opløsning, der 
 indeholder natrium. Dette skal tages i betragtning i forhold til patientens samlede daglige indtagelse af 
-natrium fra alle kilder. </p>         </div>"""   
+natrium fra alle kilder. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyvgart"
@@ -486,7 +492,7 @@ Se også punktet "Hvis du holder op med at bruge Vyvgart" nedenfor. </p>
 Hvis behandling med Vyvgart afbrydes eller ophører, kan det medføre, at gMG-symptomerne vender 
 tilbage. Kontakt lægen, inden du holder op med at bruge Vyvgart. Lægen kan fortælle dig om de 
 mulige bivirkninger og risici, og du bliver overvåget nøje i det efterfølgende forløb. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -530,7 +536,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyvgart"
@@ -549,7 +555,7 @@ er misfarvet. </p>
 for 4 timer efter fortynding. Lad det fortyndede lægemiddel nå stuetemperatur inden administration. 
 Når det fortyndede lægemiddel er taget ud af køleskabet, skal infusionen fuldføres inden for 4 timer. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -787,7 +793,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

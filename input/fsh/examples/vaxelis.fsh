@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Vaxelis</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +108,7 @@ the vaccine. Vaxelis does not protect your child against diseases caused by othe
 viruses that may cause similar symptoms.
 * The vaccine does not contain any live bacteria or viruses and it cannot cause any of the
 infectious diseases against which it protects.</p>
-<p>As with any vaccine, Vaxelis may not protect 100% of children who receive the vaccine.</p>         </div>"""   
+<p>As with any vaccine, Vaxelis may not protect 100% of children who receive the vaccine.</p> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ It is expected that Vaxelis will have no or negligible influence on the ability 
 machines.
 Vaxelis contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaxelis"
@@ -196,7 +199,7 @@ If your child misses a scheduled injection, it is important that you discuss wit
 who will decide when to give the missed dose.
 It is important to follow the instructions from the doctor or nurse so that your child completes the
 course of injections. If not, your child may not be fully protected against the diseases.
-If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -259,7 +262,7 @@ Reporting of side effects
 If your child gets any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaxelis"
@@ -272,7 +275,7 @@ protect from light.
 Do not use this vaccine after the expiry date which is stated on the carton and the label after EXP. The
 expiry date refers to the last day of that month.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -448,7 +451,7 @@ contains important information for you.
 * If you have any further questions, ask your doctor, pharmacist or nurse.
 * This medicine has been prescribed for your child only. Do not pass it on to others.
 * If your child get any side effects, talk to your doctor, pharmacist or nurse. This includes any
-possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+possible side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -487,7 +490,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -496,7 +501,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -511,7 +517,7 @@ Usage: #inline
 3. Sådan bliver dit barn vaccineret med Vaxelis
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -574,7 +580,7 @@ smitsomme sygdomme, som den beskytter imod.</p>
 <p>Som det er tilfældet med alle vacciner kan Vaxelis muligvis ikke beskytte 100% af de børn, der
 får vaccinen.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -672,7 +678,7 @@ Vaxelis indeholder natrium
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige
 natriumfri.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vaxelis"
@@ -700,7 +706,7 @@ Det er vigtigt, at lægens eller sygeplejerskens anvisninger følges, så dit ba
 injektionsforløbet. I modsat fald vil dit barn muligvis ikke være helt beskyttet mod sygdommene.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om vedrørende
 anvendelsen af denne vaccine.
-34</p>         </div>"""         
+34</p> </div>"""         
 
         
 * section[=].section[+]
@@ -845,7 +851,7 @@ pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen v
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vaxelis"
@@ -858,7 +864,7 @@ mod lys.
 Brug ikke denne vaccine efter den udløbsdato, der står på kartonen og etiketten efter EXP.
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1078,7 +1084,7 @@ lægemidlet til andre.</p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis dit barn får bivirkninger, herunder
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

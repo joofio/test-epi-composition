@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Natpar</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +85,7 @@ blood and urine.
 If your levels of parathyroid hormone are too low, you can have low blood calcium. Low calcium can 
 cause symptoms in many parts of your body, including the bones, heart, skin, muscles, kidneys, brain 
 and nerves. For a list of symptoms of low calcium, see section 4. Natpar is a synthetic form of parathyroid hormone that helps you keep calcium and phosphate levels in 
-your blood and urine at a normal level.</p>         </div>"""   
+your blood and urine at a normal level.</p> </div>"""   
           
 
              
@@ -161,7 +163,7 @@ may affect your ability to concentrate. If your ability to concentrate is impair
 or use machines until your ability to concentrate is improved.
 Natpar contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take natpar"
@@ -205,7 +207,7 @@ supplements if you have signs of low blood calcium; see section 4 for symptoms.
 Do not inject a double dose to make up for a forgotten dose.
 If you stop using Natpar
 Discuss with your doctor if you want to stop treatment with Natpar.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -259,7 +261,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store natpar"
@@ -283,7 +285,7 @@ After mixing</p>
 It is common to see small bubbles. Do not use this medicine if it has become cloudy, coloured, 
 or contains visible particles.
 Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -428,7 +430,7 @@ This medicine has been given  conditional approval . This means that there is mo
 about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -467,7 +469,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -478,7 +482,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugervejledning</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -493,7 +497,7 @@ Usage: #inline
 3. Sådan skal du tage Natpar
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -513,7 +517,7 @@ knoglerne, hjertet, huden, musklerne, nyrerne, hjernen og nervesystemet. I punkt
 symptomer på for lavt kalciumniveau.
 Natpar er en syntetisk form for parathyroideahormon, som medvirker til at holde koncentrationen af 
 kalcium og fosfat i blodet og urinen på et normalt niveau.
-28</p>         </div>"""   
+28</p> </div>"""   
           
 
              
@@ -595,7 +599,7 @@ selv påvirke din evne til at koncentrere dig. Hvis din evne til at koncentrere 
 køre motorkøretøj eller betjene maskiner, før din koncentrationsevne er normal igen.
 Natpar indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take natpar"
@@ -640,7 +644,7 @@ kalciumtilskud, hvis du har tegn på nedsat kalciumniveau i blodet (se punkt 4 f
 Du må ikke injicere en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Natpar
 Tal med lægen, hvis du ønsker at stoppe behandlingen med Natpar.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -718,7 +722,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store natpar"
@@ -753,7 +757,7 @@ Før du sætter en ny nål på Natpar-pennen, skal du sikre dig, at injektionsv�
 farveløs. Det er normalt at se små bobler. Brug ikke pennen, hvis injektionsvæsken er uklar, 
 farvet eller indeholder synlige partikler.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1282,7 +1286,7 @@ været frosset.
 
 Kassér cylinderampuller, 
 der har været blandet i 
-mere end 14 dage.</p>         </div>"""      
+mere end 14 dage.</p> </div>"""      
 
 
 

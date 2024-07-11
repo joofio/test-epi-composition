@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Soliris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -107,7 +110,7 @@ NMOSD, their eye nerve and spinal cord are attacked and damaged by the immune sy
 to blindness in one or both eyes, weakness or paralysis in the legs or arms, painful spasms, loss of 
 sensation, and markedly impaired activities of daily living. Soliris can block the body s inflammatory 
 response, and its ability to attack and destroy its own eye nerves and spinal cord, thereby reducing 
-symptoms of the disease and impact of the disease on the activities of daily living. </p>         </div>"""   
+symptoms of the disease and impact of the disease on the activities of daily living. </p> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ consideration if you are on a controlled sodium diet.
 Once diluted with sodium chloride 4.5 mg/mL (0.45%) solution for injection, this medicine contains 
 0.67 g sodium (main component of cooking/table salt) in 240 mL at the maximal dose. This is equivalent 
 to 33.5 % of the recommended maximum daily dietary intake of sodium for an adult. You should take this 
-into consideration if you are on a controlled sodium diet. </p>         </div>"""   
+into consideration if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take soliris"
@@ -299,7 +302,7 @@ If you have any further questions on the use of this medicine, ask your doctor o
 Interrupting or stopping treatment with Soliris may cause your NMOSD to worsen and relapse to happen. 
 Please speak to your doctor before stopping Soliris. Your doctor will discuss the possible side effects and 
 risks with you. Your doctor will also want to monitor you closely. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -376,7 +379,7 @@ blood clotting,
 If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store soliris"
@@ -393,7 +396,7 @@ of up to 3 days. At the end of this period the product can be put back in the re
 Store in the original package in order to protect from light. 
 After dilution, the product should be used within 24 hours. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines you 
-no longer use. These measures will help protect the environment. </p>         </div>"""      
+no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -491,7 +494,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)<br />
 Alexion Europe SAS<br />
 Tel: +44 (0) 800 028 4This leaflet was last revised in. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -530,7 +533,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -539,7 +544,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -554,7 +560,7 @@ Usage: #inline
 3. Sådan skal du bruge Soliris 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -600,7 +606,7 @@ immunsystem, hvilket kan føre til blindhed i det ene eller i begge øjne, svagh
 og ben, smertefulde spasmer, følelsesløshed og markant hæmning af dagligdags aktiviteter. Soliris kan 
 blokere kroppens betændelsesrespons og dens evne til at angribe og ødelægge dens egne øjennerver og 
 rygmarven, hvorved symptomerne på sygdommen og sygdommens påvirkning af dagligdags 
-aktiviteter reduceres. </p>         </div>"""   
+aktiviteter reduceres. </p> </div>"""   
           
 
              
@@ -681,7 +687,7 @@ Hvis du får natriumfattig diæt, skal du tage hensyn hertil.
 Når det er fortyndet med natriumchlorid 4,5 mg/ml (0,45 %) injektionsvæske, opløsning, indeholder 
 dette lægemiddel 0,67 g natrium (hovedkomponent af madlavnings-/bordsalt) pr. 240 ml i den 
 maksimale dosis. Dette svarer til 33,5 % af den anbefalede maksimale daglige indtagelse af natrium 
-for en voksen. Hvis du får natriumfattig diæt, skal du tage hensyn hertil. </p>         </div>"""   
+for en voksen. Hvis du får natriumfattig diæt, skal du tage hensyn hertil. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take soliris"
@@ -815,7 +821,7 @@ risici med dig. Lægen vil også gerne overvåge dig nøje. </p>
 Hvis du afbryder eller stopper behandlingen med Soliris, kan din NMOSD forværres, og der kan opstå 
 tilbagefald. Tal med din læge, før du holder op med at bruge Soliris. Din læge vil diskutere de mulige 
 bivirkninger og risici med dig. Lægen vil også ønske at overvåge dig nøje. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -893,7 +899,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store soliris"
@@ -910,7 +916,7 @@ enkelt periode på op til 3 dage. Efter denne periode kan produktet sættes tilb
 Opbevares i den originale yderpakning for at beskytte mod lys. 
 Efter fortynding skal produktet anvendes inden for 24 timer. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1090,7 +1096,7 @@ beskytte mod lys. Hætteglassene med Soliris i den originale emballage må kun o
 køleskabet i en enkelt periode på op til 3 dage. Efter denne periode kan produktet sættes tilbage i 
 køleskabet.<br />
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten på hætteglasset efter " Anv. 
-inden". Udløbsdatoen er den sidste dag i den nævnte måned. </p>         </div>"""      
+inden". Udløbsdatoen er den sidste dag i den nævnte måned. </p> </div>"""      
 
 
 
@@ -1129,7 +1135,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1138,7 +1146,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1153,7 +1162,7 @@ Usage: #inline
 3. Como utilizar Soliris 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Soliris 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1201,7 +1210,7 @@ dois olhos, fraqueza muscular ou paralisia das pernas ou braços, espasmos dolor
 sensação e compromisso acentuado das atividades do dia-a-dia. Soliris pode bloquear a resposta 
 inflamatória do organismo e a sua capacidade para atacar e destruir os seus próprios nervos oculares e 
 medula espinhal, reduzindo assim os sintomas da doença e o impacto da doença sobre as atividades do 
-dia-a-dia. </p>         </div>"""   
+dia-a-dia. </p> </div>"""   
           
 
              
@@ -1281,7 +1290,7 @@ adulto. Deve ter isto em consideração se estiver a fazer uma dieta com ingest�
 Quando diluído com uma solução injetável de cloreto de sódio de 4,5 mg/ml (0,45%), este medicamento 
 contém 0,67 g de sódio (componente principal do sal de cozinha/sal de mesa) por 240 ml na dose 
 máxima. Isto é equivalente a 33,5% da ingestão diária máxima de sódio recomendada na dieta para um 
-adulto. Deve ter isto em consideração se estiver a fazer uma dieta com ingestão controlada de sódio. </p>         </div>"""   
+adulto. Deve ter isto em consideração se estiver a fazer uma dieta com ingestão controlada de sódio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar soliris"
@@ -1427,7 +1436,7 @@ NMO se agrave e com que tenha uma recaída. Fale com o seu médico antes de para
 O seu médico discutirá consigo os possíveis efeitos indesejáveis e riscos. O seu médico irá também 
 querer monitorizá-lo cuidadosamente. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1556,7 +1565,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V.<br />
 Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança 
-deste medicamento. </p>         </div>"""      
+deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar soliris"
@@ -1575,7 +1584,7 @@ colocado no frigorífico.
 Conservar na embalagem de origem para proteger da luz. 
 Após a diluição, o produto deve ser utilizado nas 24 horas subsequentes. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1703,7 +1712,7 @@ Alexion Europe SAS
 Tel: +44 (0) 800 028 4394  </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

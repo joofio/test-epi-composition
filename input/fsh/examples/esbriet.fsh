@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Esbriet </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 Pulmonary Fibrosis (IPF) in adults.  </p>
 <p>IPF is a condition in which the tissues in your lungs become swollen and scarred over time, and as a 
 result makes it difficult to breathe deeply. This makes it hard for your lungs to work properly. Esbriet 
-helps to reduce scarring and swelling in the lungs, and helps you breathe better.  </p>         </div>"""   
+helps to reduce scarring and swelling in the lungs, and helps you breathe better.  </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ and benefits of taking this medicine while breast-feeding if you decide to do so
 <p>Driving and using machines 
 Do not drive or use machines if you feel dizzy or tired after taking Esbriet.  </p>
 <p>Esbriet contains sodium 
-Esbriet contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-free . </p>         </div>"""   
+Esbriet contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take esbriet"
@@ -180,7 +183,7 @@ than your prescribed daily dose. </p>
 In some situations, your doctor may advise you to stop taking Esbriet. If for any reason you have to 
 stop taking Esbriet for more than 14 consecutive days, your doctor will restart your treatment with 
 1 capsule 3 times a day, gradually increasing this to 3 capsules 3 times a day.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ Talk to your doctor if you get any side effects. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store esbriet"
@@ -253,7 +256,7 @@ this medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month.  </p>
 <p>Do not store this medicine above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -360,7 +363,7 @@ Roche Latvija SIA<br />
 Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -399,7 +402,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -408,7 +413,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -425,7 +431,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -437,7 +443,7 @@ Usage: #inline
 hos voksne.  </p>
 <p>IPF er en sygdom, hvor vævet i lungerne hæver og bliver arret over tid, og det gør det svært at trække 
 vejret dybt. Dette gør, at det bliver svært for lungerne at fungere rigtigt. Esbriet hjælper med at 
-mindske ardannelsen og hævelsen i lungerne og hjælper dig med at trække vejret bedre.  </p>         </div>"""   
+mindske ardannelsen og hævelsen i lungerne og hjælper dig med at trække vejret bedre.  </p> </div>"""   
           
 
              
@@ -557,7 +563,7 @@ om risici og fordele ved at tage medicinen, mens du ammer, hvis du beslutter dig
 Du må ikke køre bil eller betjene maskiner, hvis du føler dig svimmel eller træt efter at have taget 
 Esbriet.  </p>
 <p>Esbriet indeholder natrium 
-Esbriet indeholder mindre end 1 mmol natrium (23 mg) pr. kapsel, dvs. det er stort set natriumfrit.  </p>         </div>"""   
+Esbriet indeholder mindre end 1 mmol natrium (23 mg) pr. kapsel, dvs. det er stort set natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take esbriet"
@@ -593,7 +599,7 @@ I nogle situationer, kan din læge råde dig til at stoppe med at tage Esbriet. 
 grund er nødt til at holde op med at tage Esbriet i mere end 14 dage efter hinanden, skal din læge starte 
 behandlingen igen med én kapsel tre gange dagligt og gradvist øge dosen til tre kapsler tre gange 
 dagligt.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -724,7 +730,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+information om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store esbriet"
@@ -736,7 +742,7 @@ information om sikkerheden af dette lægemiddel.  </p>         </div>"""
 EXP. Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
 <p>Denne medicin må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -906,7 +912,7 @@ Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -945,7 +951,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -954,7 +962,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -971,7 +980,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Esbriet </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -984,7 +993,7 @@ idiopática (FPI) em adultos.  </p>
 <p>A FPI é uma patologia na qual os tecidos nos seus pulmões incham e ficam com cicatrizes ao longo do 
 tempo, o que dificulta  respirar profundamente. Os pulmões têm, assim, dificuldade em funcionar de 
 forma adequada. Esbriet ajuda a reduzir as cicatrizes (tecido cicatricial) e o inchaço nos pulmões e 
-ajuda-o a respirar melhor.  </p>         </div>"""   
+ajuda-o a respirar melhor.  </p> </div>"""   
           
 
              
@@ -1109,7 +1118,7 @@ decidir fazer. </p>
 Não conduza nem utilize máquinas caso se sinta tonto ou cansado depois de tomar Esbriet.  </p>
 <p>Esbriet contém sódio 
 Esbriet contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é praticamente “isento de 
-sódio". </p>         </div>"""   
+sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar esbriet"
@@ -1155,7 +1164,7 @@ motivo, tiver de deixar de tomar Esbriet durante mais de 14 dias consecutivos, o
 o seu tratamento com 1 cápsula 3 vezes por dia, aumentando gradualmente esta dose para 3 cápsulas 3 
 vezes por dia.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1290,7 +1299,7 @@ fraqueza, cãibras musculares ou náuseas e vómitos </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis </p>
 <p>diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar esbriet"
@@ -1303,7 +1312,7 @@ embalagem exterior após VAL. O prazo de validade corresponde ao último dia do 
 <p>Não conservar este medicamento acima de 30ºC. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1450,7 +1459,7 @@ Tel: +371 - 6 7039831  </p>
 Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366000  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

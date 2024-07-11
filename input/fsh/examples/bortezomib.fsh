@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Bortezomib SUN </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +100,7 @@ treatment). </li>
 older in combination with the medicines rituximab, cyclophosphamide, doxorubicin and 
 prednisone, for patients whose disease has not been previously treated and for whom blood 
 stem cell transplantation is unsuitable. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -172,7 +175,7 @@ to 3 months after treatment. If, despite these measures, pregnancy occurs, tell 
 immediately. </p>
 <p>Driving and using machines 
 Bortezomib SUN may cause tiredness, dizziness, fainting, or blurred vision. Do not drive or operate 
-tools or machines if you experience such side effects; even if you do not, you should still be cautious. </p>         </div>"""   
+tools or machines if you experience such side effects; even if you do not, you should still be cautious. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bortezomib"
@@ -246,7 +249,7 @@ professional. The resulting solution is then either injected into a vein or unde
 vein is rapid, taking 3 to 5 seconds. Injection under the skin is in either the thighs or the abdomen. </p>
 <p>If you are given too much Bortezomib SUN 
 As this medicine is being given by your doctor or nurse, it is unlikely that you will be given too much. 
-In the unlikely event of an overdose, your doctor will monitor you for side effects. </p>         </div>"""         
+In the unlikely event of an overdose, your doctor will monitor you for side effects. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -506,7 +509,7 @@ syndrome). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bortezomib"
@@ -522,7 +525,7 @@ prior to use are the responsibility of the user. However, the reconstituted solu
 at 25 C stored in the original vial and/or a syringe, with a total storage time for the reconstituted 
 medicine not exceeding 8 hours prior to administration. </p>
 <p>Bortezomib SUN is for single use only. Any unused product or waste material should be disposed of 
-in accordance with local requirements. </p>         </div>"""      
+in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -702,7 +705,7 @@ death. </p>
 <li>DISPOSAL </li>
 </ol>
 <p>A vial is for single use only and the remaining solution must be discarded. 
-Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+Any unused product or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
 
 
 
@@ -741,7 +744,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -750,7 +755,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -767,7 +773,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -799,7 +805,7 @@ højdosiskemoterapi med transplantation af blodstamceller (induktionsbehandling)
 lægemidlerne rituximab, cyclophosphamid, doxorubicin og prednison til patienter på 18 år og 
 derover, hvis sygdom ikke tidligere er blevet behandlet, og som ikke er egnede til at gennemgå 
 en transplantation af blodstamceller. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -882,7 +888,7 @@ lægen med det samme. </p>
 <p>Trafik- og arbejdssikkerhed 
 Bortezomib SUN kan forårsage træthed, svimmelhed, besvimelse og uklart/sløret syn. Du må ikke 
 køre bil, motorcykel eller cykle eller arbejde med værktøj eller maskiner, hvis du oplever disse 
-bivirkninger. </p>         </div>"""   
+bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bortezomib"
@@ -954,7 +960,7 @@ under huden gives enten i lårene eller maven. </p>
 <p>Hvis du har brugt for meget Bortezomib SUN 
 Da dette lægemiddel gives af din læge eller sygeplejerske, er det ikke sandsynligt, at du vil blive givet 
 for meget. 
-Skulle overdosering mod al forventning ske, vil din læge overvåge dig for tegn på bivirkninger. </p>         </div>"""         
+Skulle overdosering mod al forventning ske, vil din læge overvåge dig for tegn på bivirkninger. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1230,7 +1236,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bortezomib"
@@ -1247,7 +1253,7 @@ brugerens ansvar. Den færdigblandede injektionsvæske er stabil i 8 timer ved 2
 det originale hætteglas og/eller en sprøjte. Den samlede opbevaringstid for det rekonstituerede 
 lægemiddel må ikke overstige 8 timer inden anvendelse. </p>
 <p>Bortezomib SUN er kun til engangsbrug. Ikke-anvendt lægemiddel samt affald heraf skal bortskaffes i 
-henhold til lokale retningslinjer. </p>         </div>"""      
+henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1442,7 +1448,7 @@ Intratekal anvendelse har medført dødsfald. </p>
 <li>BORTSKAFFELSE </li>
 </ol>
 <p>Et hætteglas er kun til engangsbrug, og resterende opløsning skal bortskaffes. 
-Ikke-anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke-anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

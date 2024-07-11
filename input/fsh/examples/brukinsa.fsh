@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store BRUKINSA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ BRUKINSA is also used to treat follicular lymphoma (FL). FL is a slow growing ca
 the B lymphocytes. When you have FL, you have too many of these B lymphocytes in your lymph 
 nodes, spleen, and bone marrow. BRUKINSA is taken together with another medicine called 
  obinutuzumab  when the disease has come back or when previously used medicines have not been 
-effective. </p>         </div>"""   
+effective. </p> </div>"""   
           
 
              
@@ -199,7 +202,7 @@ condoms) must be used with hormonal contraceptives such as birth control pills o
 machines. </p>
 <p>BRUKINSA contains sodium  </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free .  </p>         </div>"""   
+free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brukinsa"
@@ -226,7 +229,7 @@ the evening. Do not take a double dose to make up for a forgotten dose. If you a
 your doctor, pharmacist or nurse about when to take your next dose. </p>
 <p>If you stop taking BRUKINSA  </p>
 <p>Do not stop taking this medicine unless your doctor tells you. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -282,7 +285,7 @@ syndrome) </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store brukinsa"
@@ -294,7 +297,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ Tel: +371 6 616 47 Northern Ireland
 BeiGene UK Ltd 
 Tel: 0800 917 6This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -466,7 +472,7 @@ Usage: #inline
 3. Sådan skal du tage BRUKINSA 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -500,7 +506,7 @@ på tidligere behandling. </p>
 kræftsygdom, der påvirker B-lymfocytterne. Hvis man har FL, har man for mange af disse B-
 lymfocytter i sine lymfeknuder, milt og knoglemarv. BRUKINSA tages sammen med et andet 
 lægemiddel kaldet 'obinutuzumab', når sygdommen er vendt tilbage, eller når tidligere anvendt 
-medicin ikke har været effektiv. </p>         </div>"""   
+medicin ikke har været effektiv. </p> </div>"""   
           
 
              
@@ -664,7 +670,7 @@ Du kan føle dig træt eller svimmel, når du har taget BRUKINSA, og det kan på
 føre motorkøretøjer og betjene værktøjer og maskiner. </p>
 <p>BRUKINSA indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brukinsa"
@@ -692,7 +698,7 @@ dobbeltdosis som erstatning for den glemte kapsel. Spørg lægen, apotekspersona
 sygeplejersken, hvis du er i tvivl om, hvornår du skal tage din næste dosis. </p>
 <p>Hvis du holder op med at tage BRUKINSA 
 Du må ikke stoppe med at tage dette lægemiddel, medmindre lægen siger, du skal. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -807,7 +813,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store brukinsa"
@@ -819,7 +825,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>
 <p>Du må ikke bortskaffe medicin via afløbet eller sammen med husholdningsaffald. Spørg 
-apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil hjælpe til beskyttelse af miljøet. </p>         </div>"""      
+apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil hjælpe til beskyttelse af miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -953,7 +959,7 @@ Tel: 0800 917 6 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -992,7 +998,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1001,7 +1009,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1018,7 +1027,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar BRUKINSA </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1053,7 +1062,7 @@ BRUKINSA também é usado para tratar linfoma folicular (FL). FL é um cancro de
 que afeta os linfócitos B. Quando tem FL, tem muitos destes linfócitos B nos gânglios linfáticos, no 
 baço e na medula óssea. BRUKINSA é tomado juntamente com outro medicamento denominado 
 “obinutuzumab" quando a doença reapareceu ou quando os medicamentos utilizados anteriormente 
-não foram eficazes. </p>         </div>"""   
+não foram eficazes. </p> </div>"""   
           
 
              
@@ -1225,7 +1234,7 @@ Pode sentir-se cansado ou tonto após tomar BRUKINSA, o que pode afetar a sua ca
 conduzir veículos ou utilizar máquinas. </p>
 <p>BRUKINSA contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar brukinsa"
@@ -1253,7 +1262,7 @@ certeza, fale com o seu médico, farmacêutico ou enfermeiro sobre quando tomar 
 <p>Se parar de tomar BRUKINSA 
 Não pare de tomar este medicamento a menos que o seu médico lhe diga para o fazer. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1371,7 +1380,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 secundários indesejáveis diretamente através do sistema nacional de notificação mencionado no 
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar brukinsa"
@@ -1384,7 +1393,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1520,7 +1529,7 @@ BeiGene UK Ltd
 Tel: 0800 917 6 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

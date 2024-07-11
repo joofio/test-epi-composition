@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Lyfnua</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Lyfnua is a medicine used in adults for chronic cough (cough that lasts longer t
 * the cough does not go away even after using other medicines or
 * the reason for the cough is unknown.
 The active substance in Lyfnua, gefapixant, blocks the action of nerves that trigger abnormal
-coughing.</p>         </div>"""   
+coughing.</p> </div>"""   
           
 
              
@@ -117,7 +120,7 @@ you no longer feel dizzy.
 Lyfnua contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium
 free .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lyfnua"
@@ -146,7 +149,7 @@ If you miss a dose, skip that dose and take the next dose at the scheduled time.
 Do not take a double dose to make up for a forgotten dose.
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -183,7 +186,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lyfnua"
@@ -196,7 +199,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if you notice that the packaging is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -318,7 +321,7 @@ Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site:
-http://www.ema.europa.eu</p>         </div>"""      
+http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -357,7 +360,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -366,7 +371,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -381,7 +387,7 @@ Usage: #inline
 3. Sådan skal du tage Lyfnua
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -400,7 +406,7 @@ Lyfnua er et lægemiddel, der anvendes til voksne mod kronisk hoste (hoste, som 
 <p>årsagen til hosten er ukendt.
 Det aktive stof i Lyfnua, gefapixant, blokerer virkningen af de nerver, som udløser unormal hoste.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -440,7 +446,7 @@ maskiner, hvis du føler dig svimmel.
 Lyfnua indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
 væsentlige natriumfrit.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lyfnua"
@@ -470,7 +476,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. 
 27</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -507,7 +513,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lyfnua"
@@ -521,7 +527,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 Tag ikke lægemidlet, hvis du bemærker, at emballagen er beskadiget eller viser tegn på anbrud. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
-28</p>         </div>"""      
+28</p> </div>"""      
         
         
 * section[=].section[+]
@@ -676,7 +682,7 @@ medinfoNI@msd.com
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
 hjemmeside http://www.ema.europa.eu. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

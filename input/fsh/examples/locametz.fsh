@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How Locametz is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -99,7 +102,7 @@ disease. </p>
 doctor and the nuclear medicine doctor have considered that the clinical benefit that you will obtain 
 from the procedure with the radiopharmaceutical outweighs the risk due to radiation. </p>
 <p>If you have any questions about how Locametz works or why this medicine has been prescribed for 
-you, ask your nuclear medicine doctor. </p>         </div>"""   
+you, ask your nuclear medicine doctor. </p> </div>"""   
           
 
              
@@ -130,7 +133,7 @@ potential to cause harm to an unborn baby. </p>
 It is considered unlikely that Locametz will affect your ability to drive or to use machines. </p>
 <p>Locametz contains sodium 
 This medicine contains 28.97 mg sodium (main component of cooking/table salt) in each injection. 
-This is equivalent to 1.5% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+This is equivalent to 1.5% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take locametz"
@@ -162,7 +165,7 @@ controlled by the nuclear medicine doctor supervising the procedure. However, in
 overdose, you will receive the appropriate treatment. You may be asked to drink and urinate frequently 
 in order to eliminate the radiopharmaceutical product from your body. </p>
 <p>Should you have any further question on the use of Locametz, please ask the nuclear medicine doctor 
-who supervises the procedure. </p>         </div>"""         
+who supervises the procedure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -189,7 +192,7 @@ least risk of cancer and hereditary abnormalities. </p>
 If you get any side effects, talk to your nuclear medicine doctor. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store locametz"
@@ -205,7 +208,7 @@ national regulations on radioactive materials. </p>
 EXP. The expiry date refers to the last day of that month. </li>
 <li>Before reconstitution, store below 25 C. </li>
 <li>After reconstitution and radiolabelling, store upright below 30 C. Use within 6 hours. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -309,7 +312,7 @@ Tel: +46 8 720 58 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -348,7 +351,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -357,7 +362,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -374,7 +380,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -409,7 +415,7 @@ lægen og nuklearmedicineren værdifulde oplysninger om din sygdom. </p>
 radioaktivitet. Din læge og nuklearmedicineren har vurderet, at den kliniske gavn, du vil få af 
 behandling med et radiofarmaceutisk lægemiddel, er større end risikoen ved stråling. </p>
 <p>Hvis du har spørgsmål til, hvordan Locametz virker, eller hvorfor dette lægemiddel er blevet ordineret 
-til dig, så tal med nuklearmedicineren. </p>         </div>"""   
+til dig, så tal med nuklearmedicineren. </p> </div>"""   
           
 
              
@@ -442,7 +448,7 @@ maskiner. </p>
 <p>Locametz indeholder natrium 
 Dette lægemiddel indeholder 28,97 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 injektion. Dette svarer til 1,5 % af den anbefalede maximale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take locametz"
@@ -476,7 +482,7 @@ nøjagtigt kontrolleret af nuklearmedicineren, der overvåger behandlingen. Skul
 overdosis, vil du få den nødvendige behandling. Du vil måske blive bedt om at drikke og lade vandet 
 hyppigt for at fjerne det radiofarmaceutiske lægemiddel fra kroppen. </p>
 <p>Hvis du har yderligere spørgsmål om brugen af Locametz, skal du spørge nuklearmedicineren, der har 
-ansvar for behandlingen. </p>         </div>"""         
+ansvar for behandlingen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -504,7 +510,7 @@ Hvis du oplever bivirkninger, bør du tale med nuklearmedicineren. Dette gælder
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store locametz"
@@ -521,7 +527,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 <li>Opbevares ved temperaturer under 25 °C før rekonstitution. </li>
 <li>Opbevares opretstående ved temperaturer under 30 °C efter rekonstitution og radioaktiv 
 mærkning. Anvendes inden for 6 timer. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -668,7 +674,7 @@ hjemmeside http://www.ema.europa.eu. </p>
 <p>Det fuldstændige produktresumé for Locametz er indlagt separat i pakningen, så læger og 
 sundhedspersoner kan få supplerende videnskabelige og praktiske oplysninger om administration og 
 anvendelse af dette radiofarmaceutiske lægemiddel. </p>
-<p>Se produktresuméet. </p>         </div>"""      
+<p>Se produktresuméet. </p> </div>"""      
 
 
 

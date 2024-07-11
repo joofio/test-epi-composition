@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Tygacil</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ following types of serious infections:</p>
 <p>Complicated infection of the skin and soft tissues (the tissue below the skin), excluding diabetic 
 foot infections.</p>
 <p>Complicated infection in the abdomen.
-Tygacil is only used when your doctor thinks other antibiotics are not suitable.</p>         </div>"""   
+Tygacil is only used when your doctor thinks other antibiotics are not suitable.</p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ Tygacil may cause side effects such as dizziness. This may impair your ability t
 machinery.
 Tygacil contains sodium
 Tygacil contains less than 1 mmol sodium (23 mg) per 5 ml of solution, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tygacil"
@@ -162,7 +165,7 @@ If you receive more Tygacil than you should
 If you are concerned that you may have been given too much Tygacil, talk to your doctor or nurse 
 immediately.
 If you miss a dose of Tygacil
-If you are concerned that you may have missed a dose, talk to your doctor or nurse immediately.</p>         </div>"""         
+If you are concerned that you may have missed a dose, talk to your doctor or nurse immediately.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tygacil"
@@ -229,7 +232,7 @@ immediately.
 The Tygacil solution should be yellow to orange in colour after dissolving; if it is not, the solution 
 should be discarded.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -356,7 +359,7 @@ Tygacil must not be mixed with other medicinal products for which compatibility 
 available.
 Once reconstituted and diluted in the bag or other suitable infusion container (e.g. glass bottle) 
 tigecycline should be used immediately.
-For single use only, any unused solution should be discarded.</p>         </div>"""      
+For single use only, any unused solution should be discarded.</p> </div>"""      
 
 
 
@@ -395,7 +398,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -404,7 +409,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -419,7 +425,7 @@ Usage: #inline
 3. Sådan skal De bruge Tygacil
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -436,7 +442,7 @@ Komplicerede infektioner i hud- og bløddele (det væv, som findes under huden) 
 af infektioner i fødderne hos personer med sukkersyge.
 
 Komplicerede maveinfektioner.
-Tygacil anvendes kun, når Deres læge mener, at andre antibiotika er uegnede.</p>         </div>"""   
+Tygacil anvendes kun, når Deres læge mener, at andre antibiotika er uegnede.</p> </div>"""   
           
 
              
@@ -513,7 +519,7 @@ betjene maskiner.
 27
 Tygacil indeholder natrium
 Tygacil indeholder mindre end 1 mmol (23 mg) natrium pr. 5 ml opløsning, dvs. det er i det væsentlige 
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tygacil"
@@ -530,7 +536,7 @@ En behandling varer almindeligvis 5-14 dage. Lægen vil beslutte, hvor længe De
 Hvis De har brugt for meget Tygacil
 Hvis De tror, at De har fået for meget Tygacil, skal De straks kontakte lægen eller sygeplejersken.
 Hvis De har glemt at bruge Tygacil
-Hvis De tror, at De har glemt at få en dosis, skal De straks kontakte lægen eller sygeplejersken.</p>         </div>"""         
+Hvis De tror, at De har glemt at få en dosis, skal De straks kontakte lægen eller sygeplejersken.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -608,7 +614,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller sygeplejersken.
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tygacil"
@@ -623,7 +629,7 @@ Når pulveret er opløst og fortyndet og er klar til brug, skal det anvendes med
 Tygacil-infusionsvæsken skal være gul til orange efter opløsning. Hvis det ikke er tilfældet, må 
 infusionsvæsken ikke anvendes.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -754,7 +760,7 @@ De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Læ
 http://www.ema.europa.eu hjemmeside.
 31
 Nedenstående oplysninger er til læger og sundhedspersonale:
-Instruktioner vedrørende anvendelse og håndtering (se også </p>         </div>"""      
+Instruktioner vedrørende anvendelse og håndtering (se også </p> </div>"""      
 
 
 
@@ -793,7 +799,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -802,7 +810,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -817,7 +826,7 @@ Usage: #inline
 3. Como utilizar Tygacil
 4. Efeitos indesejáveis possíveis
 5. Como conservar Tygacil
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -834,7 +843,7 @@ Infeção complicada da pele e tecidos moles (o tecido debaixo da pele), excluin
 diabético
 
 Infeção complicada do abdómen
-Tygacil apenas é utilizado caso o seu médico considere que outros antibióticos não são adequados.</p>         </div>"""   
+Tygacil apenas é utilizado caso o seu médico considere que outros antibióticos não são adequados.</p> </div>"""   
           
 
              
@@ -915,7 +924,7 @@ de conduzir ou operar máquinas.
 Tygacil contém sódio
 Tygacil contém menos do que 1 mmol (23 mg) de sódio por 5 ml de solução, ou seja, este 
 medicamento é praticamente "isento de sódio".
-27</p>         </div>"""   
+27</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tygacil"
@@ -937,7 +946,7 @@ Se pensa que lhe pode ter sido administrado demasiado Tygacil, fale com o seu m�
 imediatamente.
 Caso se tenha esquecido de administrar uma dose de Tygacil
 Se pensa que se pode ter esquecido de administrar uma dose, fale com o seu médico ou enfermeiro 
-imediatamente.</p>         </div>"""         
+imediatamente.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1015,7 +1024,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tygacil"
@@ -1034,7 +1043,7 @@ solução deve ser rejeitada.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-29</p>         </div>"""      
+29</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1162,7 +1171,7 @@ Latvijā
 Pfizer Luxembourg SARL filiāle Latvijā
 Tel.: + 371 670 35 775
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

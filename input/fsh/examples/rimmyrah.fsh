@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rimmyrah </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ factor A (VEGF-A) present in the eye. In excess, VEGF-A causes abnormal blood ve
 swelling in the eye which can lead to impairment of vision in diseases like AMD, DME, PDR, RVO, 
 PM and CNV. By binding to VEGF-A, Rimmyrah can block its actions and prevent this abnormal 
 growth and swelling. </p>
-<p>In these diseases, Rimmyrah can help to stabilise and in many cases improve your vision. </p>         </div>"""   
+<p>In these diseases, Rimmyrah can help to stabilise and in many cases improve your vision. </p> </div>"""   
           
 
              
@@ -144,7 +147,7 @@ recommended during breast-feeding. Ask your doctor or pharmacist for advice befo
 Rimmyrah treatment. </p>
 <p>Driving and using machines 
 After Rimmyrah treatment you may experience some temporary vision blurring. If this happens, do 
-not drive or use machines until this resolves. </p>         </div>"""   
+not drive or use machines until this resolves. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rimmyrah"
@@ -167,7 +170,7 @@ Rimmyrah can be used for people of 65 years of age and over without dose adjustm
 If you are considering stopping Rimmyrah treatment, please go to your next appointment and discuss 
 this with your doctor. Your doctor will advise you and decide how long you should be treated with 
 Rimmyrah. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -259,7 +262,7 @@ Visual side effects include:</p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. <br />
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rimmyrah"
@@ -274,7 +277,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 <li>Prior to use, the unopened vial may be kept at room temperature (25 C) for up to 24 hours. </li>
 <li>Keep the vial in the outer carton in order to protect from light. </li>
 <li>Do not use any pack that is damaged. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -510,7 +513,7 @@ avoiding the horizontal meridian and aiming towards the centre of the globe. The
 of 0.05 ml is then delivered; a different scleral site should be used for subsequent injections. </p>
 <p>After injection, do not recap the needle or detach it from the syringe. Dispose of the used syringe 
 together with the needle in a sharps disposal container or in accordance with local requirements. </p>
-<p>0.05 ml </p>         </div>"""      
+<p>0.05 ml </p> </div>"""      
 
 
 
@@ -549,7 +552,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -558,7 +563,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -573,7 +579,7 @@ Usage: #inline
 3. Sådan gives Rimmyrah 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -604,7 +610,7 @@ vækstfaktor A (VEGF-A), som findes i øjet. Når VEGF-A er i overskud i øjet, 
 unormal vækst af blodårer og opsvulmen i øjet, der kan medføre synsnedsættelse ved sygdomme som 
 AMD, DME, PDR, RVO, PM og CNV. Ved at bindes til VEGF-A kan Rimmyrah blokere dets 
 funktion og forhindre denne unormale vækst og opsvulmen. </p>
-<p>Ved disse sygdomme kan Rimmyrah hjælpe til at stabilisere, og i mange tilfælde forbedre, dit syn. </p>         </div>"""   
+<p>Ved disse sygdomme kan Rimmyrah hjælpe til at stabilisere, og i mange tilfælde forbedre, dit syn. </p> </div>"""   
           
 
              
@@ -653,7 +659,7 @@ gravid, skal du spørge din læge til råds før behandling med Rimmyrah.
 under amning. Spørg din læge eller apoteket til råds, før behandling med Rimmyrah. </p>
 <p>Trafik- og arbejdssikkerhed 
 Efter behandling med Rimmyrah kan du opleve en vis midlertidig sløring af synet. Hvis det sker, må 
-du ikke køre bil eller betjene maskiner, før det er forsvundet. </p>         </div>"""   
+du ikke køre bil eller betjene maskiner, før det er forsvundet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rimmyrah"
@@ -676,7 +682,7 @@ Rimmyrah kan anvendes til personer på 65 år og derover uden dosisjustering. </
 Hvis du overvejer at holde op med Rimmyrah-behandlingen, bedes du komme til din næste aftale og 
 drøfte det med din læge. Din læge vil rådgive dig og beslutte, hvor længe du bør behandles med 
 Rimmyrah. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rimmyrah"
@@ -783,7 +789,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 <li>Forud for brug kan det uåbnede hætteglas opbevares ved stuetemperatur (25 ºC) i op til 24 timer </li>
 <li>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </li>
 <li>Brug ikke Rimmyrah, hvis pakningen er beskadiget. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1047,7 +1053,7 @@ injektionsvolumenet på 0,05 ml. Stedet på sklera skal roteres ved efterfølgen
 Bortskaf den brugte sprøjte sammen med kanylen i en kanyleboks eller i henhold til lokale 
 retningslinjer. </p>
 <p>0.05 ml </p>
-<p>0,05 ml </p>         </div>"""      
+<p>0,05 ml </p> </div>"""      
 
 
 
@@ -1086,7 +1092,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1095,7 +1103,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1110,7 +1119,7 @@ Usage: #inline
 3. Como é administrado Rimmyrah 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Rimmyrah 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1139,7 +1148,7 @@ endotelial vascular A (VEGF-A) presente no olho. Em excesso, o VEGF-A causa um c
 anormal de vasos sanguíneos e edema no olho, que pode levar a perda de visão em doenças como a 
 DMI, EMD, RDP, OVR, MP e NVC. Através da ligação ao VEGF-A, Rimmyrah pode bloquear a sua 
 ação e prevenir este crescimento anormal e edema. </p>
-<p>Nestas doenças, Rimmyrah pode ajudar a estabilizar e, em muitos casos, a melhorar a sua visão. </p>         </div>"""   
+<p>Nestas doenças, Rimmyrah pode ajudar a estabilizar e, em muitos casos, a melhorar a sua visão. </p> </div>"""   
           
 
              
@@ -1191,7 +1200,7 @@ recomenda a administração de Rimmyrah durante a amamentação. Consulte o seu 
 farmacêutico antes do tratamento com Rimmyrah. </p>
 <p>Condução de veículos e utilização de máquinas 
 Após o tratamento com Rimmyrah poderá sentir temporariamente a visão turva. Se tal acontecer, não 
-conduza ou utilize máquinas até ao desaparecimento dos sintomas. </p>         </div>"""   
+conduza ou utilize máquinas até ao desaparecimento dos sintomas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rimmyrah"
@@ -1215,7 +1224,7 @@ Rimmyrah pode ser usado em pessoas de idade igual ou superior a 65 anos sem ajus
 Se está a pensar parar o tratamento com Rimmyrah, por favor vá à sua próxima consulta e discuta o 
 assunto com o seu médico. O seu médico irá aconselhá-lo e decidir durante quanto tempo deverá ser 
 tratado com Rimmyrah. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1296,7 +1305,7 @@ Efeitos indesejáveis visuais incluem:
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rimmyrah"
@@ -1313,7 +1322,7 @@ indicado. </li>
 (25ºC) até 24 horas. </li>
 <li>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </li>
 <li>Não utilize qualquer embalagem que esteja danificada. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1439,7 +1448,7 @@ Orion Pharma (Ireland) Limited<br />
 Tel: +353 1 428 7777  </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

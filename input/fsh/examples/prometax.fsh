@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Prometax </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ Alzheimer s disease and dementia associated with Parkinson s disease. </p>
 <p>Prometax is used for the treatment of adult patients with mild to moderately severe Alzheimer s 
 dementia, a progressive brain disorder that gradually affects memory, intellectual ability and 
 behaviour. The capsules and oral solution can also be used for the treatment of dementia in adult 
-patients with Parkinson s disease. </p>         </div>"""   
+patients with Parkinson s disease. </p> </div>"""   
           
 
              
@@ -150,7 +153,7 @@ your unborn child. Prometax should not be used during pregnancy unless clearly n
 Your doctor will tell you whether your illness allows you to drive vehicles and use machines safely. 
 Prometax may cause dizziness and somnolence, mainly at the start of treatment or when increasing the 
 dose. If you feel dizzy or sleepy, do not drive, use machines or perform any tasks that require your 
-attention. </p>         </div>"""   
+attention. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prometax"
@@ -182,7 +185,7 @@ heartbeat and fainting may also occur. </p>
 <p>If you forget to take Prometax 
 If you find you have forgotten to take your dose of Prometax, wait and take the next dose at the usual 
 time. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ If you get any of these side effects, contact your doctor as you may need medica
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prometax"
@@ -285,7 +288,7 @@ expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -406,7 +409,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -445,7 +448,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -454,7 +459,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -471,7 +477,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -490,7 +496,7 @@ symptomerne på Alzheimers sygdom og demens forbundet med Parkinsons sygdom. </p
 <p>Prometax anvendes til behandling af voksne patienter med mild til moderat svær Alzheimers demens, 
 en fremadskridende hjernesygdom, der gradvis påvirker hukommelse, åndsevner og adfærd. Kapsler 
 og oral opløsning kan også anvendes til behandling af demens hos voksne patienter med Parkinsons 
-sygdom. </p>         </div>"""   
+sygdom. </p> </div>"""   
           
 
              
@@ -558,7 +564,7 @@ fosteret. Prometax må ikke tages under graviditet, medmindre det er strengt nø
 Din læge vil fortælle dig, om du kan køre bil eller betjene maskiner i forbindelse med din sygdom. 
 Prometax kan give svimmelhed og døsighed, specielt i starten af behandlingen, eller når dosis øges. 
 Hvis du føler dig svimmel eller træt, skal du lade være med at køre bil, betjene maskiner eller gøre 
-andet, som kræver opmærksomhed. </p>         </div>"""   
+andet, som kræver opmærksomhed. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take prometax"
@@ -610,7 +616,7 @@ hjerterytme og besvimelsesanfald kan ligeledes forekomme. </p>
 <p>Hvis du har glemt at tage Prometax 
 Hvis du finder ud af, at du har glemt at tage en dosis Prometax, skal du blot vente og tage næste dosis 
 på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -818,7 +824,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store prometax"
@@ -840,7 +846,7 @@ sidste dag i den nævnte måned. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -979,7 +985,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dkhttp://www.indlaegsseddel.dk/. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dkhttp://www.indlaegsseddel.dk/. </p> </div>"""      
 
 
 

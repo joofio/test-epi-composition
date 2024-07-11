@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Exelon </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ Alzheimer s disease and dementia associated with Parkinson s disease. </p>
 <p>Exelon is used for the treatment of adult patients with mild to moderately severe Alzheimer s 
 dementia, a progressive brain disorder that gradually affects memory, intellectual ability and 
 behaviour. The capsules and oral solution can also be used for the treatment of dementia in adult 
-patients with Parkinson s disease. </p>         </div>"""   
+patients with Parkinson s disease. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ unborn child. Exelon should not be used during pregnancy unless clearly necessar
 Your doctor will tell you whether your illness allows you to drive vehicles and use machines safely. 
 Exelon may cause dizziness and somnolence, mainly at the start of treatment or when increasing the 
 dose. If you feel dizzy or sleepy, do not drive, use machines or perform any tasks that require your 
-attention. </p>         </div>"""   
+attention. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take exelon"
@@ -181,7 +184,7 @@ fainting may also occur. </p>
 <p>If you forget to take Exelon 
 If you find you have forgotten to take your dose of Exelon, wait and take the next dose at the usual 
 time. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ If you get any of these side effects, contact your doctor as you may need medica
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store exelon"
@@ -284,7 +287,7 @@ expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -468,7 +474,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -487,7 +493,7 @@ symptomerne på Alzheimers sygdom og demens forbundet med Parkinsons sygdom. </p
 <p>Exelon anvendes til behandling af voksne patienter med mild til moderat svær Alzheimers demens, en 
 fremadskridende hjernesygdom, der gradvis påvirker hukommelse, åndsevner og adfærd. Kapsler og 
 oral opløsning kan også anvendes til behandling af demens hos voksne patienter med Parkinsons 
-sygdom. </p>         </div>"""   
+sygdom. </p> </div>"""   
           
 
              
@@ -555,7 +561,7 @@ fosteret. Exelon må ikke tages under graviditet, medmindre det er strengt nødv
 Din læge vil fortælle dig, om du kan køre bil eller betjene maskiner i forbindelse med din sygdom. 
 Exelon kan give svimmelhed og døsighed, specielt i starten af behandlingen, eller når dosis øges. Hvis 
 du føler dig svimmel eller træt, skal du lade være med at køre bil, betjene maskiner eller gøre andet, 
-som kræver opmærksomhed. </p>         </div>"""   
+som kræver opmærksomhed. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take exelon"
@@ -607,7 +613,7 @@ hjerterytme og besvimelsesanfald kan ligeledes forekomme. </p>
 <p>Hvis du har glemt at tage Exelon 
 Hvis du finder ud af, at du har glemt at tage en dosis Exelon, skal du blot vente og tage næste dosis på 
 det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -815,7 +821,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store exelon"
@@ -837,7 +843,7 @@ sidste dag i den nævnte måned. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -974,7 +980,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1013,7 +1019,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1022,7 +1030,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1039,7 +1048,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Exelon </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1059,7 +1068,7 @@ Parkinson. </p>
 <p>Exelon é utilizado no tratamento de doentes adultos com demência de Alzheimer ligeira a 
 moderadamente grave, uma perturbação progressiva do cérebro que afeta gradualmente a memória, a 
 capacidade intelectual e o comportamento. As cápsulas e a solução oral também podem ser utilizadas 
-para o tratamento da demência em doentes adultos com doença de Parkinson. </p>         </div>"""   
+para o tratamento da demência em doentes adultos com doença de Parkinson. </p> </div>"""   
           
 
              
@@ -1126,7 +1135,7 @@ claramente necessário. </p>
 O seu médico irá dizer-lhe se a sua doença lhe permite conduzir veículos e utilizar máquinas com 
 segurança. Exelon pode causar tonturas e sonolência, principalmente no início do tratamento ou quando 
 se aumenta a dose. Se sentir tonturas ou sonolência, não conduza, não utilize máquinas nem realize 
-outras tarefas que requeiram a sua atenção. </p>         </div>"""   
+outras tarefas que requeiram a sua atenção. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar exelon"
@@ -1179,7 +1188,7 @@ também ocorrer batimento lento do coração e desmaio. </p>
 Se verificar que se esqueceu de tomar uma dose de Exelon aguarde e tome a próxima dose à hora 
 habitual. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1391,7 +1400,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar exelon"
@@ -1414,7 +1423,7 @@ EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1544,7 +1553,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

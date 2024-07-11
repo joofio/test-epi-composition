@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Exviera</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ containing ombitasvir/paritaprevir/ritonavir. Some patients may also take an ant
 ribavirin. Your doctor will talk with you about which of these medicines to take with Exviera.
 It is very important that you also read the package leaflets for the other antiviral medicines that you 
 take with Exviera. If you have any questions about your medicines, please ask your doctor or 
-pharmacist.</p>         </div>"""   
+pharmacist.</p> </div>"""   
           
 
              
@@ -245,7 +248,7 @@ Some patients have reported feeling very tired when taking Exviera with other me
 hepatitis C infection. If you feel tired, do not drive or use any machines.
 Exviera contains lactose
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.</p>         </div>"""   
+before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take exviera"
@@ -278,7 +281,7 @@ It is important not to miss a dose of this medicine. If you do miss a dose and i
 <p>Less than 6 hours until your next dose - do not take the missed dose, take your next dose as usual 
 with food.
 Do not take a double dose to make up for a forgotten dose.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store exviera"
@@ -333,7 +336,7 @@ Do not use the medicine after the expiry date which is stated on the carton afte
 date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -423,7 +426,7 @@ Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -462,7 +465,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -471,7 +476,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -486,7 +492,7 @@ Usage: #inline
 3. Sådan skal du tage Exviera
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -504,7 +510,7 @@ indeholder ombitasvir/paritaprevir/ritonavir. Nogle patienter skal også tage et
 der indeholder ribavirin. Din læge vil tale med dig om, hvilket af disse lægemidler du skal tage 
 sammen med Exviera.
 Det er meget vigtigt, at du også læser indlægssedlerne for de andre antivirale lægemidler, som du tager 
-sammen med Exviera. Spørg lægen eller apotekspersonalet, hvis du har spørgsmål om din medicin.</p>         </div>"""   
+sammen med Exviera. Spørg lægen eller apotekspersonalet, hvis du har spørgsmål om din medicin.</p> </div>"""   
           
 
              
@@ -674,7 +680,7 @@ Nogle patienter har indberettet, at de følte sig meget trætte, når de tog Exv
 lægemidler mod hepatitis C-infektion. Hvis du føler dig træt, må du ikke køre bil eller betjene maskiner.
 Exviera indeholder laktose
 Hvis lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer, skal du kontakte lægen, før du tager 
-dette lægemiddel.</p>         </div>"""   
+dette lægemiddel.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take exviera"
@@ -714,7 +720,7 @@ noget mad
 under 6 timer til din næste dosis, så skal du ikke tage den manglende dosis, men vente til den 
 efterfølgende dosis og tage denne sammen med noget mad.
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -772,7 +778,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix 
 V. Ved at indberette bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel.</p>         </div>"""      
+af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store exviera"
@@ -784,7 +790,7 @@ Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen efter
 den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -909,7 +915,7 @@ Tel: +44 (0)1628 561090
 Denne indlægsseddel blev senest ændret 
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -948,7 +954,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -957,7 +965,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -972,7 +981,7 @@ Usage: #inline
 3. Como tomar Exviera
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Exviera
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -992,7 +1001,7 @@ Exviera.
 É muito importante que também leia os folhetos informativos dos outros medicamentos antivirais que 
 toma com Exviera. Se tiver quaisquer dúvidas sobre os seus medicamentos, fale com o seu médico ou 
 farmacêutico. 
-69</p>         </div>"""   
+69</p> </div>"""   
           
 
              
@@ -1189,7 +1198,7 @@ Exviera contém lactose
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
 medicamento. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar exviera"
@@ -1238,7 +1247,7 @@ seguinte à hora habitual com alimentos.
 Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1331,7 +1340,7 @@ folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efei
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
 indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar exviera"
@@ -1344,7 +1353,7 @@ prazo de validade corresponde ao último dia do mês indicado.
 O medicamento não necessita de quaisquer precauções especiais de conservação. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente.</p>         </div>"""      
+ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1445,7 +1454,7 @@ Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561Este folheto foi revisto pela última vez em
 Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ameluz </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ carcinoma is a skin cancer that can cause reddish, scaly patches or one or sever
 that bleed easily and do not heal.  </p>
 <p>After application, the active substance of Ameluz becomes a photoactive substance which accumulates 
 in affected cells. Illumination with appropriate light produces reactive oxygen-containing molecules 
-which act against the target cells. This therapy is known as photodynamic therapy (PDT). </p>         </div>"""   
+which act against the target cells. This therapy is known as photodynamic therapy (PDT). </p> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ Ameluz has no or negligible influence on the ability to drive and use machines. 
 * 2.4 mg sodium benzoate (E211) in each gram of gel. Sodium benzoate may cause local 
 irritation. 
 * soybean phosphatidylcholine: If you are allergic to peanut or soya, do not use this medicine. 
-* propylene glycol: May cause skin irritation. </p>         </div>"""   
+* propylene glycol: May cause skin irritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ameluz"
@@ -203,7 +206,7 @@ remaining gel. </p>
 sessions.  </p>
 <p>The treated lesions should be evaluated 3 months after treatment. Your doctor will decide how well 
 each skin lesion has responded, and treatment may have to be repeated at this time.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -273,7 +276,7 @@ reactions at the application site have been observed before the use of light. </
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine.  </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ameluz"
@@ -286,7 +289,7 @@ expiry date refers to the last day of that month.  </p>
 <p>Store in a refrigerator (2 C   8 C). </p>
 <p>Keep the tube tightly closed after first opening. Discard open tubes 12 weeks after opening. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -424,7 +427,7 @@ Biofrontera Pharma GmbH<br />
 Germany<br />
 Tel: +49 214 87632 ameluz@biofrontera.com </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -463,7 +466,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -472,7 +477,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -487,7 +493,7 @@ Usage: #inline
 3. Sådan skal du bruge Ameluz 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -511,7 +517,7 @@ knopper, der let bløder og ikke heler. </p>
 </ul>
 <p>Efter påføringen bliver det aktive stof i Ameluz til et lysfølsomt stof, som samler sig i de angrebne 
 celler. Belysning med et egnet lys frembringer reaktive molekyler, der indeholder ilt, som virker mod 
-målcellerne. Denne behandling kaldes fotodynamisk behandling (PDT). </p>         </div>"""   
+målcellerne. Denne behandling kaldes fotodynamisk behandling (PDT). </p> </div>"""   
           
 
              
@@ -607,7 +613,7 @@ Ameluz påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøret
 <p>sojaphosphatidylcholin: hvis du er allergisk over for jordnødder eller soja, må du ikke bruge 
 denne medicin. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ameluz"
@@ -697,7 +703,7 @@ Efter lyseksponering tørres overskydende gel af. </p>
 </ul>
 <p>De behandlede læsioner evalueres tre måneder efter behandlingen. Lægen vil beslutte, hvor godt hver 
 hudlæsion har responderet, og det kan være nødvendigt at gentage behandlingen på det tidspunkt. </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -803,7 +809,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelsstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ameluz"
@@ -816,7 +822,7 @@ inden". Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Hold tuben tæt tillukket efter anbrud. Smid tuben væk 4 måneder efter, den er åbnet.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -988,7 +994,7 @@ Tel: +49 214 87632 66<br />
 ameluz@biofrontera.com </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1027,7 +1033,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1036,7 +1044,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1051,7 +1060,7 @@ Usage: #inline
 3. Como utilizar Ameluz 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Ameluz 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1075,7 +1084,7 @@ escamosas, ou uma ou várias elevações que sangram com facilidade e não cicat
 </ul>
 <p>Após a aplicação, a substância activa de Ameluz torna-se numa substância fotoactiva que se acumula 
 nas células afectadas. A iluminação com luz adequada produz moléculas contendo oxigénio reactivo 
-que actuam contra as células afectadas. Esta terapêutica é conhecida por terapia fotodinâmica (TFD). </p>         </div>"""   
+que actuam contra as células afectadas. Esta terapêutica é conhecida por terapia fotodinâmica (TFD). </p> </div>"""   
           
 
              
@@ -1182,7 +1191,7 @@ irritação ligeira. </p>
 <li>
 <p>fosfatidilcolina de soja: se tem alergia a amendoins ou soja, não utilize este medicamento. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ameluz"
@@ -1284,7 +1293,7 @@ sessões </p>
 </ul>
 <p>As lesões tratadas devem ser avaliadas 3 meses após o tratamento. O seu médico decidirá o quão bem 
 cada lesão respondeu e o tratamento poderá ter de ser repetido nessa altura. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1421,7 +1430,7 @@ reação alérgica1 </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ameluz"
@@ -1436,7 +1445,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
 sua abertura. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1456,7 +1465,7 @@ fosfato dissódico dihidratado, álcool isopropílico, polissorbato 80, água pu
 sódio (E211), dihidrogenofosfato de sódio dihidratado, fosfatidilcolina de soja, triglicéridos de 
 cadeia média, goma xantana. Ver secção </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

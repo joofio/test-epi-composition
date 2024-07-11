@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Sivextro</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 medicines called  oxazolidinones .
 It is used to treat adults and adolescents 12 years of age and older with infections of the skin and
 tissues below the skin.
-It works by stopping the growth of certain bacteria which can cause serious infections.</p>         </div>"""   
+It works by stopping the growth of certain bacteria which can cause serious infections.</p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ It is not known if Sivextro passes into breast milk in humans. Ask your doctor f
 breast-feeding your baby.
 Driving and using machines
 Do not drive or use machines if you feel dizzy or tired after taking this medicine. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sivextro"
@@ -169,7 +172,7 @@ You should take all 6 tablets to complete your course of treatment, even if you 
 If you stop taking Sivextro
 If you stop taking Sivextro without the advice of your doctor, your symptoms may get worse. Talk to
 your doctor or pharmacist before you stop taking your medicine.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -222,7 +225,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sivextro"
@@ -234,7 +237,7 @@ Do not use this medicine after the expiry date which is stated on the carton or 
  EXP . The expiry date refers to the last day of that month.
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -360,7 +363,7 @@ important information for you.
 - Keep this leaflet. You may need to read it again.
 - If you have any further questions, ask your doctor or nurse.
 - If you get any side effects, talk to your doctor or nurse. This includes any possible side effects
-not listed in this leaflet. See section 4.</p>         </div>"""      
+not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -399,7 +402,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -408,7 +413,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -423,7 +429,7 @@ Usage: #inline
 3. Sådan skal du tage Sivextro
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -435,7 +441,7 @@ Usage: #inline
 lægemidler, der kaldes "oxazolidinoner".
 Det anvendes til at behandle infektioner i hud og hudstrukturer hos voksne og unge i alderen 12 år og
 derover.
-Det virker ved at standse væksten af bestemte bakterier, der kan give alvorlige infektioner. </p>         </div>"""   
+Det virker ved at standse væksten af bestemte bakterier, der kan give alvorlige infektioner. </p> </div>"""   
           
 
              
@@ -548,7 +554,7 @@ Trafik- og arbejdssikkerhed
 Du må ikke køre bil eller betjene maskiner, hvis du føler dig svimmel eller træt efter at have taget
 dette lægemiddel. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sivextro"
@@ -573,7 +579,7 @@ dosis.
 Hvis du holder op med at tage Sivextro
 Hvis du holder op med at tage Sivextro uden at rådføre dig med lægen, kan dine symptomer blive
 værre. Kontakt lægen eller apotekspersonalet, før du holder op med at tage dette lægemiddel.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -689,7 +695,7 @@ bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssys
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
 sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sivextro"
@@ -701,7 +707,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på karton eller blister 
 den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -866,7 +872,7 @@ oplysninger.</p>
 <li>Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide.</li>
 <li>Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er
 nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -905,7 +911,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -914,7 +922,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -929,7 +938,7 @@ Usage: #inline
 3. Como tomar Sivextro
 4. Efeitos indesejáveis possíveis
 5. Como conservar Sivextro 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -941,7 +950,7 @@ Usage: #inline
 medicamentos chamados “oxazolidinonas".
 É utilizado para tratar adultos e adolescentes com 12 ou mais anos de idade com infeções da pele e dos
 tecidos inferiores da pele.
-Funciona ao impedir o crescimento de certas bactérias que podem causar infeções graves.</p>         </div>"""   
+Funciona ao impedir o crescimento de certas bactérias que podem causar infeções graves.</p> </div>"""   
           
 
              
@@ -1051,7 +1060,7 @@ antes de amamentar o seu bebé.
 Condução de veículos e utilização de máquinas
 Não conduza nem utilize máquinas, caso se sinta tonto ou cansado depois de tomar este medicamento.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sivextro"
@@ -1077,7 +1086,7 @@ Se parar de tomar Sivextro
 Se parar de tomar Sivextro sem o conselho do seu médico, os seus sintomas podem agravar-se. Fale
 com o seu médico ou farmacêutico antes de parar de tomar o seu medicamento.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1195,7 +1204,7 @@ diretamente através do sistema nacional de notificação mencionado no Apêndic
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
 medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sivextro"
@@ -1209,7 +1218,7 @@ O medicamento não necessita de quaisquer precauções especiais de conservaçã
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
 o ambiente.
-44</p>         </div>"""      
+44</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1362,7 +1371,7 @@ medinfoNI@msd.com
 Este folheto foi revisto pela última vez em {MM/AAAA}.
 Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

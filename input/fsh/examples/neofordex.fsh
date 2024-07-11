@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Neofordex </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ including effects on white blood cells, which form part of the immune system (th
 Dexamethasone is similar to glucocorticoids which are naturally produced in the body. </p>
 <p>Neofordex is used to treat adult patients with multiple myeloma, a cancer of the blood affecting the white 
 blood cells that produce antibodies. Neofordex will be given in combination with other medicines for 
-multiple myeloma. They act together by killing cancerous white blood cells. </p>         </div>"""   
+multiple myeloma. They act together by killing cancerous white blood cells. </p> </div>"""   
           
 
              
@@ -261,7 +264,7 @@ machines or carry out any hazardous tasks if you experience side effects, such a
 dizziness, tiredness, sleepiness, fainting or blurred vision.   </p>
 <p>Neofordex contains lactose 
 Neofordex contains lactose, a sugar. If you have been told by your doctor that you have intolerance to some 
-sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neofordex"
@@ -293,7 +296,7 @@ medicine too quickly, you may have low blood pressure. You may also feel a  with
 may include headache, problems with your vision (including pain or swelling in the eye), feeling or being 
 sick, fever, pain in your muscles and joints, swelling in the inside of your nose, weight loss, itchy skin and 
 conjunctivitis. If your treatment is to be stopped follow your doctor s advice.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -378,7 +381,7 @@ condition called metabolic alkalosis);
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neofordex"
@@ -393,7 +396,7 @@ date refers to the last day of that month. </p>
 packaging until you take them. If you are using a pill organiser box, use the perforation to separate individual 
 tablets from the blister without opening the packaging. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -500,7 +503,7 @@ Immedica Pharma AB<br />
 Tel: +46 (0)8 533 39 info@immedica.com </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -539,7 +542,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -548,7 +553,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -563,7 +569,7 @@ Usage: #inline
 3. Sådan skal du tage Neofordex 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -577,7 +583,7 @@ hvide blodlegemer, som er en del af kroppens naturlige forsvar, immunsystemet. D
 glukokortikoider, som kroppen danner naturligt. </p>
 <p>Neofordex anvendes til behandling af voksne med multipelt myelom, en type blodkræft, der udgår fra de 
 hvide antistofproducerende blodlegemer. Neofordex gives i kombination med andre lægemidler mod 
-multipelt myelom. De virker sammen ved at dræbe kræftcellerne blandt de hvide blodlegemer. </p>         </div>"""   
+multipelt myelom. De virker sammen ved at dræbe kræftcellerne blandt de hvide blodlegemer. </p> </div>"""   
           
 
              
@@ -765,7 +771,7 @@ betjene maskiner eller udføre farligt arbejde, hvis du får bivirkninger såsom
 svimmelhed, træthed, søvnighed, besvimelsesanfald eller sløret syn.  </p>
 <p>Neofordex indeholder lactose<br />
 Neofordex indeholder sukkerarten lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
-fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neofordex"
@@ -799,7 +805,7 @@ stopper med at tage dette lægemiddel, kan du få blodtryksfald. Du vil muligvis
 øjnene), kvalme eller opkastning, feber, muskel- og ledsmerter, opsvulmning i næsen, vægttab, hudkløe og 
 betændelse i øjets bindehinde (konjunktivitis). Hvis du skal stoppe med behandlingen, skal du følge lægens 
 anvisninger.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -885,7 +891,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V*. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel.  </p>         </div>"""      
+dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neofordex"
@@ -900,7 +906,7 @@ den sidste dag i den nævnte måned. </p>
 blisterpakningen, indtil du tager dem. Hvis du bruger en tabletæske, skal du bruge perforeringen til at tage de 
 enkelte tabletter ud af blisteren uden at åbne emballagen. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1021,7 +1027,7 @@ info@immedica.com  </p>
 <p>Denne indlægsseddel blev senest ændret i  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.   </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.   </p> </div>"""      
 
 
 
@@ -1060,7 +1066,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1069,7 +1077,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1086,7 +1095,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Neofordex </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1102,7 +1111,7 @@ natural no organismo. </p>
 <p>Neofordex é utilizado no tratamento de doentes adultos com mieloma múltiplo, um cancro do sangue que 
 afeta os glóbulos brancos que produzem anticorpos. Neofordex é administrado em associação com outros 
 medicamentos para o mieloma múltiplo. Quando são administrados em conjunto, matam os glóbulos brancos 
-cancerígenos. </p>         </div>"""   
+cancerígenos. </p> </div>"""   
           
 
              
@@ -1292,7 +1301,7 @@ não utilize quaisquer ferramentas ou máquinas nem realize quaisquer tarefas pe
 indesejáveis, como confusão, alucinações, tonturas, cansaço, sonolência, desmaios ou visão turva.  </p>
 <p>Neofordex contém lactose 
 Neofordex contém lactose, um açúcar. Se o seu médico lhe tiver dito que tem intolerância a algum açúcar, 
-contacte-o antes de tomar este medicamento. </p>         </div>"""   
+contacte-o antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar neofordex"
@@ -1329,7 +1338,7 @@ sofra de «sintomas de abstinência». Estes podem incluir dor de cabeça, probl
 ou inchaço ocular), sensação de enjoo, febre, dores nos músculos e articulações, inchaço no interior do nariz, 
 perda de peso, comichão na pele e conjuntivite. Caso o seu tratamento tenha de ser suspenso, siga as 
 indicações do seu médico.  </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1415,7 +1424,7 @@ vermelhas ou púrpura na pele (púrpura);
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
-ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar neofordex"
@@ -1431,7 +1440,7 @@ deterioração dos comprimidos ou do acondicionamento. </p>
 comprimidos no blister até os tomar. Se utilizar uma caixa organizadora de comprimidos, utilize a perfuração 
 para separar os comprimidos individuais do blister sem abrir a embalagem. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1552,7 +1561,7 @@ Tel: +46 (0)8 533 39 500<br />
 info@immedica.com </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p> </div>"""      
 
 
 

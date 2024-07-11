@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store PALFORZIA  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ become adults whilst on treatment. </p>
 tolerate small amounts of peanut (desensitisation). PALFORZIA can help reduce the severity of 
 allergic reactions after coming into contact with peanut. </p>
 <p>PALFORZIA is not effective against any other nut or food allergies. </p>
-<p>You must continue to strictly avoid eating peanuts while taking PALFORZIA. </p>         </div>"""   
+<p>You must continue to strictly avoid eating peanuts while taking PALFORZIA. </p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ your doctor for advice before taking this medicine. </p>
 <p>PALFORZIA may have a small effect on your ability to drive, cycle or operate machinery. Exercise 
 caution for 2 hours after taking a dose of PALFORZIA in case you have an allergic reaction which 
 affects your ability to drive, cycle, or use machinery. Wait until all symptoms of such allergic 
-reactions have gone away before driving, cycling, or using machinery. </p>         </div>"""   
+reactions have gone away before driving, cycling, or using machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take palforzia"
@@ -316,7 +319,7 @@ contact your doctor for advice on how to start your treatment again. </p>
 <p>If you stop taking PALFORZIA </p>
 <p>Stopping PALFORZIA may cause you to lose the peanut tolerance you have built up and increase 
 your risk of allergic reactions. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ irritation </li>
 <p>If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store palforzia"
@@ -389,7 +392,7 @@ after EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not use this medicine if you notice any hard lumps of powder that do not easily fall apart or if the 
 powder is discoloured. </p>
 <p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -690,7 +693,7 @@ London, W2 6LG
 United Kingdom <br />
 Tel: +44 (0)800 0487 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -729,7 +732,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -738,7 +743,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -755,7 +761,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -772,7 +778,7 @@ behandling. </p>
 små mængder jordnød (desensibilisering). PALFORZIA kan bidrage til at mindske sværhedsgraden af 
 allergiske reaktioner, efter at man har været i kontakt med jordnødder. </p>
 <p>PALFORZIA virker ikke mod andre nødde- eller fødevareallergier. </p>
-<p>Du skal fortsat undgå helt at spise jordnødder, mens du tager PALFORZIA. </p>         </div>"""   
+<p>Du skal fortsat undgå helt at spise jordnødder, mens du tager PALFORZIA. </p> </div>"""   
           
 
              
@@ -875,7 +881,7 @@ du spørge din læge til råds, før du tager dette lægemiddel. </p>
 maskiner. Du skal være forsigtig i 2 timer efter du har taget en dosis PALFORZIA, for det tilfælde, at 
 du får en allergisk reaktion, som påvirker din evne til at føre motorkøretøj, cykle eller betjene 
 maskiner. Vent på, at alle symptomer på sådanne allergiske reaktioner er forsvundet, inden du fører 
-motorkøretøj, cykler eller betjener maskiner. </p>         </div>"""   
+motorkøretøj, cykler eller betjener maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take palforzia"
@@ -1017,7 +1023,7 @@ behandling. </p>
 <p>Hvis du holder op med at tage PALFORZIA </p>
 <p>Hvis du holder op med at tage PALFORZIA, kan det medføre, at du mister den jordnøddetolerance, du 
 har bygget op, og at din risiko for allergiske reaktioner øges. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1077,7 +1083,7 @@ sammensnøring i halsen, løbende næse, irritation i halsen  </li>
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store palforzia"
@@ -1091,7 +1097,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker hårde klumper af pulver, som ikke nemt falder fra hinanden, 
 eller hvis pulveret er misfarvet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1426,7 +1432,7 @@ Tel: +44 (0)800 0487 217  </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1465,7 +1471,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1474,7 +1482,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1491,7 +1500,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar PALFORZIA  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1508,7 +1517,7 @@ que atinjam a maioridade enquanto estiverem a fazer o tratamento. </p>
 do corpo de tolerar pequenas quantidades de amendoim (dessensibilização). PALFORZIA pode ajudar 
 a reduzir a gravidade de reações alérgicas após entrar em contacto com o amendoim. </p>
 <p>PALFORZIA não é eficaz contra qualquer outra alergia a frutos secos ou alimento. </p>
-<p>Tem de continuar a evitar rigorosamente comer amendoins enquanto estiver a tomar PALFORZIA. </p>         </div>"""   
+<p>Tem de continuar a evitar rigorosamente comer amendoins enquanto estiver a tomar PALFORZIA. </p> </div>"""   
           
 
              
@@ -1607,7 +1616,7 @@ antes de tomar este medicamento. </p>
 ou operar maquinaria. Tem de ter precaução nas 2 horas seguintes à toma de uma dose de 
 PALFORZIA, caso tenha uma reação alérgica que afete a sua capacidade de conduzir veículos, andar 
 de bicicleta ou utilizar maquinaria. Aguarde até todos os sintomas de tais reações alérgicas tiverem 
-desaparecido antes de conduzir, andar de bicicleta ou utilizar maquinaria. </p>         </div>"""   
+desaparecido antes de conduzir, andar de bicicleta ou utilizar maquinaria. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar palforzia"
@@ -1746,7 +1755,7 @@ contacte o seu médico para aconselhamento sobre como recomeçar o seu tratament
 <p>Se parar de tomar PALFORZIA </p>
 <p>Parar de tomar PALFORZIA pode fazer com que perca a tolerância ao amendoim que tem vindo a 
 acumular e aumentar o seu risco de reações alérgicas. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1804,7 +1813,7 @@ com corrimento, irritação na garganta
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar palforzia"
@@ -1818,7 +1827,7 @@ ou saqueta após “VAL". O prazo de validade corresponde ao último dia do mês
 <p>Não utilize este medicamento se notar quaisquer grumos duros de pó que não se desfaçam facilmente 
 ou se o pó estiver descolorado. </p>
 <p>Não deite fora quaisquer medicamentos no lixo doméstico. Pergunte ao seu farmacêutico como deitar 
-fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2127,7 +2136,7 @@ United Kingdom <br />
 Tel: +44 (0)800 0487 217  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

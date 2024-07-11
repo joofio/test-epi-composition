@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Tepkinly</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ least two prior therapies.
 How Tepkinly works 
 Epcoritamab is specifically designed to help your own immune system to attack cancer (lymphoma)
 cells. Epcoritamab acts by attaching to your body s immune cells and cancer cells, bringing them 
-together, so that your immune system can destroy the cancer cells.</p>         </div>"""   
+together, so that your immune system can destroy the cancer cells.</p> </div>"""   
           
 
              
@@ -148,7 +151,7 @@ Tepkinly contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
  sodium-free .
 Tepkinly contains sorbitol
-This medicine contains 21.9 mg sorbitol in each vial, which is equivalent to 27.33 mg/ml.</p>         </div>"""   
+This medicine contains 21.9 mg sorbitol in each vial, which is equivalent to 27.33 mg/ml.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tepkinly"
@@ -185,7 +188,7 @@ fully effective, it is very important not to miss a dose.
 If you stop using Tepkinly
 Do not stop treatment with Tepkinly unless you have discussed this with your doctor. This is because 
 stopping treatment may make your condition worse. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -276,7 +279,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tepkinly"
@@ -298,7 +301,7 @@ EXP. The expiry date refers to the last day of that month.</p>
 temperature (20  C - 25  C) from the start of dose preparation to administration.</p>
 <p>Allow the dilution solution to warm to room temperature before using.
 Your doctor, nurse or pharmacist will throw away any unused medicine following local requirements.
-These measures will help protect the environment. </p>         </div>"""      
+These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -398,7 +401,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -437,7 +440,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -446,7 +451,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -463,7 +469,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -479,7 +485,7 @@ behandling efter mindst to tidligere behandlinger. </p>
 <p>Sådan virker Tepkinly </p>
 <p>Epcoritamab er udviklet specielt til at hjælpe dit eget immunsystem med at angribe kræftceller 
 (lymfomceller). Epcoritamab virker ved at binde sig til din krops immunceller og kræftceller, koble 
-dem sammen, så dit immunsystem kan ødelægge kræftcellerne. </p>         </div>"""   
+dem sammen, så dit immunsystem kan ødelægge kræftcellerne. </p> </div>"""   
           
 
              
@@ -578,7 +584,7 @@ få flere oplysninger om bivirkninger. </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
 væsentlige 'natriumfri'. </p>
 <p>Tepkinly indeholder sorbitol </p>
-<p>Dette lægemiddel indeholder 21,9 mg sorbitol pr. dosisenhed, svarende til 27,33 mg/ml. </p>         </div>"""   
+<p>Dette lægemiddel indeholder 21,9 mg sorbitol pr. dosisenhed, svarende til 27,33 mg/ml. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tepkinly"
@@ -624,7 +630,7 @@ behandlingen skal være effektiv, er det meget vigtigt ikke at springe en dosis 
 <p>Hvis du holder op med at bruge Tepkinly 
 Stop ikke behandlingen med Tepkinly, medmindre du har talt om dette med din læge. Dette skyldes, at 
 det kan gøre din tilstand værre, hvis du standser behandlingen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -843,7 +849,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tepkinly"
@@ -885,7 +891,7 @@ stuetemperatur (20-25 °C) fra starten af dosis forberedelse til administration.
 </li>
 </ul>
 <p>Din læge, sygeplejersken eller apotekspersonalet smider al ubrugt medicin ud i henhold til lokale krav. 
-Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1116,7 +1122,7 @@ dette kort på dig.
 hospitalet. 
 - Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen, eller apotekspersonalet eller sygeplejersken, hvis du får bivirkninger. Dette 
-gælder også mulige bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+gælder også mulige bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

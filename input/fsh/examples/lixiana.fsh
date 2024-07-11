@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Lixiana  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ risk factor, such as heart failure, previous stroke or high blood pressure; </li
 <li>treat blood clots in the veins of the legs (deep vein thrombosis) and in the blood vessels in 
 the lungs (pulmonary embolism), and to prevent blood clots from re-occurring in the blood 
 vessels in the legs and/or lungs. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -118,7 +121,7 @@ conditions:
 * problems with the blood vessels in your brain or spinal column; 
 - if you have a mechanical heart valve. </p>
 <p>Lixiana 15 mg is only to be used when changing from Lixiana 30 mg to a vitamin K antagonist (e.g. 
-warfarin) (see section </p>         </div>"""   
+warfarin) (see section </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lixiana"
@@ -165,7 +168,7 @@ should be kept under observation. </p>
 pregnant, use a reliable contraceptive while you are taking Lixiana. If you become pregnant while you 
 are taking Lixiana, immediately tell your doctor, who will decide how you should be treated. </p>
 <p>Driving and using machines </p>
-<p>Lixiana has no or negligible effects on your ability to drive or use machines. </p>         </div>"""         
+<p>Lixiana has no or negligible effects on your ability to drive or use machines. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -227,7 +230,7 @@ as usual. Do not take a double dose on the same day to make up for a forgotten d
 <p>If you stop taking Lixiana </p>
 <p>Do not stop taking Lixiana without talking to your doctor first, because Lixiana treats and prevents 
 serious conditions. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lixiana"
@@ -284,7 +287,7 @@ kidneys to work properly (anticoagulant-related nephropathy). </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -297,7 +300,7 @@ this medicine. </p>         </div>"""
 bottle after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
 
 
 
@@ -336,7 +339,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -345,7 +350,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -360,7 +366,7 @@ Usage: #inline
 3. Sådan skal du tage Lixiana 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -379,7 +385,7 @@ yderligere risikofaktor, såsom hjertesvigt, tidligere slagtilfælde eller højt
 <li>behandle blodpropper i blodårerne i benene (dyb venetrombose) og i blodårerne i lungerne 
 (lungeemboli) samt til at forebygge, at der opstår nye blodpropper i blodårerne i ben og/eller 
 lunger. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -414,7 +420,7 @@ tilstande:
 • problemer med blodårerne i hjerne eller rygsøjle, 
 - hvis du har en mekanisk hjerteklap. </p>
 <p>Lixiana 15 mg må kun anvendes ved skift fra Lixiana 30 mg til en K-vitaminagonist (f.eks. warfarin) 
-(se pkt. </p>         </div>"""   
+(se pkt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lixiana"
@@ -488,7 +494,7 @@ skal du anvende en pålidelig præventionsmetode, mens du tager Lixiana. Hvis du
 du tager Lixiana, skal du straks fortælle det til lægen, som vil bestemme, hvilken behandling du skal 
 have. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Lixiana påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene maskiner. </p>         </div>"""         
+<p>Lixiana påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene maskiner. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -551,7 +557,7 @@ sædvanligt. Du må ikke tage en dobbeltdosis på den samme dag som erstatning f
 <p>Hvis du holder op med at tage Lixiana </p>
 <p>Du må ikke holde op med at tage Lixiana uden først at kontakte lægen, da Lixiana behandler og 
 forebygger alvorlige sygdomme. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""      
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lixiana"
@@ -681,7 +687,7 @@ Lægen kan beslutte at holde dig under nøje observation eller ændre din medici
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -694,7 +700,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
 
 
 

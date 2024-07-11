@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store SIRTURO</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ SIRTURO is a type of antibiotic. Antibiotics are medicines that kill bacteria th
 SIRTURO is used to treat tuberculosis that affects the lungs when the disease has become resistant to 
 other antibiotics. This is called multi-drug resistant pulmonary tuberculosis.
 SIRTURO must always be taken together with other medicines for treating tuberculosis.
-It is used in adults and children (5 years and over, who weigh at least 15 kg).</p>         </div>"""   
+It is used in adults and children (5 years and over, who weigh at least 15 kg).</p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ Pregnancy and breast-feeding
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine.
 Driving and using machines
-You may feel dizzy after taking SIRTURO. If this happens, do not drive or operate machinery.</p>         </div>"""   
+You may feel dizzy after taking SIRTURO. If this happens, do not drive or operate machinery.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sirturo"
@@ -223,7 +226,7 @@ Skipping doses or not completing the full course of therapy may:</p>
 <p>make your treatment ineffective and your tuberculosis could get worse, and;</p>
 <p>increase the chance that the bacteria will become resistant to the medicine. This means your 
 disease may not be treatable by SIRTURO or other medicines in the future.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sirturo"
@@ -264,7 +267,7 @@ Store in the original container and keep the container tightly closed in order t
 moisture. Do not remove desiccant (pouch containing drying agent).
 This medicine may pose a risk to the environment. Do not throw away any medicines via wastewater 
 or household waste. Ask your pharmacist how to throw away medicines you no longer use. These 
-measures will help protect the environment.</p>         </div>"""      
+measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -374,7 +377,7 @@ This leaflet was last revised in
 This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. The European Medicines Agency will review new information on this medicine 
 at least every year and this leaflet will be updated as necessary.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -413,7 +416,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -422,7 +427,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -437,7 +443,7 @@ Usage: #inline
 3. Sådan skal du tage SIRTURO
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ bakterier.
 SIRTURO bruges til behandling af tuberkulose i lungerne, når sygdommen er blevet resistent 
 (modstandsdygtig) over for andre antibiotika. Det kaldes for multiresistent lungetuberkulose.
 SIRTURO skal altid tages sammen med andre lægemidler til behandling af tuberkulose.
-Det anvendes til voksne og børn (5 år og ældre med en vægt på mindst 15 kg).</p>         </div>"""   
+Det anvendes til voksne og børn (5 år og ældre med en vægt på mindst 15 kg).</p> </div>"""   
           
 
              
@@ -522,7 +528,7 @@ Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægg
 du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel.
 Trafik- og arbejdssikkerhed
 Du kan føle dig svimmel efter at have taget SIRTURO. I så fald må du ikke køre bil eller betjene 
-maskiner.</p>         </div>"""   
+maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sirturo"
@@ -626,7 +632,7 @@ vil din behandling måske ikke virke, og tuberkulosen kan blive forværret
 
 øger det risikoen for, at bakterierne bliver resistente over for medicinen. Det betyder, at din 
 sygdom fremover måske ikke kan behandles med SIRTURO eller andre lægemidler.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -664,7 +670,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sirturo"
@@ -678,7 +684,7 @@ Opbevar SIRTURO i den originale beholder. Hold beholderen tæt tillukket for at 
 fugt. Fjern ikke tørremidlet.
 Dette lægemiddel kan udgøre en risiko for miljøet. Spørg apotekspersonalet, hvordan du skal 
 bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller 
-skraldespanden.</p>         </div>"""      
+skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -848,7 +854,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -887,7 +893,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -896,7 +904,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -911,7 +920,7 @@ Usage: #inline
 3. Como tomar SIRTURO
 4. Efeitos indesejáveis possíveis
 5. Como conservar SIRTURO
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -925,7 +934,7 @@ causam doenças.
 SIRTURO é utilizado para tratar a tuberculose que afeta os pulmões, quando a doença se tornou 
 resistente a outros antibióticos. Esta é denominada de tuberculose pulmonar multirresistente.
 SIRTURO tem de ser sempre tomado com outros medicamentos para o tratamento da tuberculose.
-É utilizado em adultos e crianças (idade igual ou superior a 5 anos, com um peso mínimo de 15 kg).</p>         </div>"""   
+É utilizado em adultos e crianças (idade igual ou superior a 5 anos, com um peso mínimo de 15 kg).</p> </div>"""   
           
 
              
@@ -994,7 +1003,7 @@ Gravidez e amamentação
 Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar, consulte o seu médico 
 ou farmacêutico antes de tomar este medicamento.
 Condução de veículos e utilização de máquinas
-Pode sentir tonturas após tomar SIRTURO. Se isto acontecer, não conduza nem utilize máquinas.</p>         </div>"""   
+Pode sentir tonturas após tomar SIRTURO. Se isto acontecer, não conduza nem utilize máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sirturo"
@@ -1118,7 +1127,7 @@ tornar o seu tratamento ineficaz e a sua tuberculose pode piorar, e;
 aumentar a probabilidade de as bactérias se tornarem resistentes ao medicamento. Isto significa 
 que no futuro, a sua doença pode não ser tratável com SIRTURO ou outros medicamentos.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1157,7 +1166,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sirturo"
@@ -1171,7 +1180,7 @@ Conserve na embalagem de origem e mantenha a embalagem bem fechada para proteger
 humidade. Não remova o exsicante (bolsa contendo um agente secante).
 Este medicamento pode representar um risco para o ambiente. Não deite fora quaisquer medicamentos 
 na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos 
-que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1321,7 +1330,7 @@ Foi concedida a este medicamento uma “Autorização de Introdução no Mercado
 significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

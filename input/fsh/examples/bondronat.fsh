@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Bondronat </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ bones (called  bone metastases ).<br />
 * It helps to prevent other bone problems that may need surgery or radiotherapy.   </p>
 <p>Bondronat can also be prescribed if you have a raised calcium level in your blood due to a tumour. </p>
 <p>Bondronat works by reducing the amount of calcium that is lost from your bones. This helps to stop 
-your bones from getting weaker.  </p>         </div>"""   
+your bones from getting weaker.  </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ Ask your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Driving and using machines 
 You can drive and use machines as it s expected that Bondronat has no or negligible effect on your 
 ability to drive and use machines. Talk to your doctor first if you want to drive, use machines or tools.  </p>
-<p>Bondronat contains less than 1 mmol sodium (23 mg) per vial, i.e.  essentially sodium free . </p>         </div>"""   
+<p>Bondronat contains less than 1 mmol sodium (23 mg) per vial, i.e.  essentially sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bondronat"
@@ -167,7 +170,7 @@ single administration of 1 vial (2 mg) or 2 vials (4 mg), depending on the sever
 medicine should be administered as an infusion in your vein over two hours. A repeated dose may be 
 considered in case of insufficient response or if your illness reappears. </p>
 <p>Your doctor may adjust your dose and duration of intravenous infusion if you have kidney problems. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -248,7 +251,7 @@ pressure) and varicose veins)<br />
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet.You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bondronat"
@@ -261,7 +264,7 @@ safety of this medicine. </p>         </div>"""
 label after EXP. The expiry date refers to the last day of that month </li>
 <li>After dilution the infusion solution is stable for 24 hours at 2-8 C (in a refrigerator) </li>
 <li>Do not use this medicine if you notice that the solution is not clear or contains particles. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -296,7 +299,7 @@ C/ El Tejido
 19200 Guadalajara 
 Spain </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -335,7 +338,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -344,7 +349,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -359,7 +365,7 @@ Usage: #inline
 3. Sådan får du Bondronat 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -383,7 +389,7 @@ strålebehandling. </p>
 <p>Bondronat kan også blive ordineret, hvis du har forhøjet indhold af kalk i blodet som følge af en 
 svulst. </p>
 <p>Bondronat virker ved at nedsætte den mængde kalk, som mistes fra knoglerne. Det modvirker at dine 
-knogler bliver svagere. </p>         </div>"""   
+knogler bliver svagere. </p> </div>"""   
           
 
              
@@ -486,7 +492,7 @@ Du kan køre bil og betjene maskiner, da det forventes at Bondronat ikke eller k
 påvirker din evne til at køre bil og betjene maskiner. Tal med din læge først, hvis du vil køre bil eller 
 arbejde med maskiner. </p>
 <p>Bondronat indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. den er i det 
-væsentlige natriumfri. </p>         </div>"""   
+væsentlige natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bondronat"
@@ -515,7 +521,7 @@ sygdom. Medicinen skal gives som infusion i en blodåre i løbet af 2 timer. Gen
 overvejes, hvis der ses utilstrækkelig effekt, eller hvis din sygdom kommer igen. </p>
 <p>Lægen kan vælge at justere din dosis og den tid, den intravenøse infusion tager, hvis du har 
 nyreproblemer. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -709,7 +715,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bondronat"
@@ -731,7 +737,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned </p>
 <p>Du må ikke få lægemidlet, hvis du bemærker, at infusionsvæsken ikke er klar, eller hvis den 
 indeholder partikler. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -896,7 +902,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 <p>Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre eller du får bivirkninger, 
 som ikke er nævnt her. Se punkt 4. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

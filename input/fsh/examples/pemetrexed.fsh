@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Pemetrexed Pfizer </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ advanced stage of lung cancer. </p>
 <p>Pemetrexed Pfizer can be prescribed to you if you have lung cancer at an advanced stage if your 
 disease has responded to treatment or it remains largely unchanged after initial chemotherapy. </p>
 <p>Pemetrexed Pfizer is also a treatment for patients with advanced stage of lung cancer whose disease 
-has progressed after other initial chemotherapy has been used. </p>         </div>"""   
+has progressed after other initial chemotherapy has been used. </p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ This medicine contains 54 mg sodium (main component of cooking/table salt) in ea
 equivalent to 2.7 % of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>Pemetrexed Pfizer 1,000 mg powder for concentrate for solution for infusion <br />
 This medicine contains 108 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 5.4 % of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 5.4 % of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pemetrexed"
@@ -187,7 +190,7 @@ Pemetrexed Pfizer. You will also receive an injection of vitamin B12 (1,000 micr
 before administration of Pemetrexed Pfizer and then approximately every 9 weeks (corresponding to 3 
 courses of Pemetrexed Pfizer treatment). Vitamin B12 and folic acid are given to you to reduce the 
 possible toxic effects of the anti-cancer treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -316,7 +319,7 @@ possible when you start experiencing any of these side effects. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pemetrexed"
@@ -335,7 +338,7 @@ without adversely affecting product quality. Parenteral medicines must be inspec
 particulate matter and discolouration prior to administration. If particulate matter is observed, do not 
 administer. </p>
 <p>This medicine is for single use only; any unused solution must be disposed of in accordance with local 
-requirements. </p>         </div>"""      
+requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -436,7 +439,7 @@ Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35 UK (Northern Ireland) 
 Pfizer Limited 
 Tel: + 44 (0) 1304 616This leaflet was last revised in month YYYY. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -475,7 +478,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -484,7 +489,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -499,7 +505,7 @@ Usage: #inline
 3. Sådan skal De bruge Pemetrexed Pfizer
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -518,7 +524,7 @@ reageret på behandling, eller hvis den stort set er uforandret efter den indled
 kemoterapibehandling.
 Pemetrexed Pfizer er også en behandling til patienter med fremskreden lungekræft, hvor
 sygdommen har udviklet sig, efter anden indledende behandling med kemoterapi har været
-forsøgt.</p>         </div>"""   
+forsøgt.</p> </div>"""   
           
 
              
@@ -595,7 +601,7 @@ Dette lægemiddel indeholder 54 mg natrium (hovedbestanddelen i køkkensalt/bord
 Dette svarer til 2,7 % af det anbefalede maksimale daglige indtagelse af 2 g natrium for en voksen.
 Pemetrexed Pfizer 1000 mg pulver til koncentrat til infusionsvæske, opløsning
 Dette lægemiddel indeholder 108 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) pr. hætteglas. 
-Dette svarer til 5,4 % af det anbefalede maksimale daglige indtagelse af 2 g natrium for en voksen.</p>         </div>"""   
+Dette svarer til 5,4 % af det anbefalede maksimale daglige indtagelse af 2 g natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pemetrexed"
@@ -628,7 +634,7 @@ få en injektion med B12-vitamin (1.000 mikrogram) i løbet af ugen op til førs
 og derefter cirka hver 9. uge (svarende til 3 Pemetrexed Pfizer behandlingsforløb). De får B12-vitamin
 og folsyre for at mindske risikoen for mulige toksiske virkninger af kræftbehandlingen.
 Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.
-60</p>         </div>"""         
+60</p> </div>"""         
 
         
 * section[=].section[+]
@@ -770,7 +776,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pemetrexed"
@@ -789,7 +795,7 @@ Den rekonstituerede opløsning er klar og varierer i farve fra farveløs til gul
 påvirker produktets kvalitet. Lægemidler til injektion (parenterale lægemidler) skal undersøges 
 visuelt for partikler og misfarvning før indgift. Hvis der ses partikler, må medicinen ikke indgives.
 Dette lægemiddel er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf bør bortskaffes
-i overensstemmelse med lokale krav.</p>         </div>"""      
+i overensstemmelse med lokale krav.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -973,7 +979,7 @@ Gem indlægssedlen. De kan få brug for at læse den igen.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, De vil vide.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -1012,7 +1018,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1021,7 +1029,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1036,7 +1045,7 @@ Usage: #inline
 3. Como utilizar Pemetrexedo Pfizer
 4. Efeitos indesejáveis possíveis
 5. Como conservar Pemetrexedo Pfizer
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1053,7 +1062,7 @@ de doentes em estadios avançados de cancro do pulmão.
 Pemetrexedo Pfizer pode ser-lhe prescrito se tiver cancro de pulmão em estadio avançado, se a sua
 doença tiver respondido ao tratamento ou se continuar inalterada após quimioterapia inicial.
 Pemetrexedo Pfizer é também usado como tratamento em doentes em estadios avançados de cancro 
-pulmonar, cuja doença progrediu após utilização de outra quimioterapia inicial.</p>         </div>"""   
+pulmonar, cuja doença progrediu após utilização de outra quimioterapia inicial.</p> </div>"""   
           
 
              
@@ -1133,7 +1142,7 @@ um adulto.
 Pemetrexedo Pfizer 1.000 mg pó para concentrado para solução para perfusão
 Este medicamento contém 108 mg de sódio (principal componente de sal de cozinha/sal de mesa) em
 cada frasco. Isto é equivalente a 5,4% da ingestão diária máxima de sódio recomendada na dieta para
-um adulto.</p>         </div>"""   
+um adulto.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pemetrexed"
@@ -1170,7 +1179,7 @@ Pfizer). A vitamina B12 e o ácido fólico são-lhe dados para diminuir os poss�
 tratamento antineoplásico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
 farmacêutico.
-66</p>         </div>"""         
+66</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1306,7 +1315,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pemetrexed"
@@ -1326,7 +1335,7 @@ administração parentérica têm que ser visualmente inspecionados antes da adm
 eventuais partículas em suspensão e descoloração. Se forem detetadas partículas em suspensão não 
 administre.
 Este medicamento é de administração única. Qualquer porção da solução não utilizada deve ser 
-eliminada de acordo com os procedimentos locais.</p>         </div>"""      
+eliminada de acordo com os procedimentos locais.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1462,7 +1471,7 @@ UK (Northern Ireland)
 Pfizer Limited
 Tel: + 44 (0) 1304 616161
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

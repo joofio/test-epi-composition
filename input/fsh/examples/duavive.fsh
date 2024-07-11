@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store DUAVIVE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ natural period in the last 12 months. </p>
 <p>During the menopause, the amount of the oestrogen produced by a woman s body drops. This can 
 cause symptoms such as hot face, neck and chest ("hot flushes"). DUAVIVE alleviates these 
 symptoms after menopause. You will only be prescribed this medicine if your symptoms seriously 
-hinder your daily life and your doctor determines that other types of HRT are not appropriate for you. </p>         </div>"""   
+hinder your daily life and your doctor determines that other types of HRT are not appropriate for you. </p> </div>"""   
           
 
              
@@ -270,7 +273,7 @@ tells you that it is safe to do so. </p>
 <p>DUAVIVE contains lactose, sucrose, maltitol liquid, glucose and sorbitol </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before using this medicinal product. 
-This medicine contains 0.0088 mg sorbitol in each tablet. </p>         </div>"""   
+This medicine contains 0.0088 mg sorbitol in each tablet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take duavive"
@@ -299,7 +302,7 @@ double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking DUAVIVE </p>
 <p>If you decide to stop taking this medicine before finishing the prescribed course of treatment, you 
 should talk to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -417,7 +420,7 @@ involuntary blinking or spasm of the eyelids)  </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store duavive"
@@ -431,7 +434,7 @@ expiry date refers to the last date of that month. </p>
 <p>Store in the original package in order to protect from moisture.  </p>
 <p>After opening the blister pouch, use within 60 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -523,7 +526,7 @@ Tel: +44 (0) 1304 616Latvij<br />
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -562,7 +565,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -571,7 +576,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -586,7 +592,7 @@ Usage: #inline
 3. Sådan skal du tage Duavive
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -606,7 +612,7 @@ I overgangsalderen falder mængden af østrogen, som kvindens krop producerer. D
 symptomer såsom rødme og varmefølelse i ansigt, på hals og bryst ("hedeture"). Duavive lindrer disse 
 symptomer efter overgangsalderen. Du får kun ordineret dette lægemiddel, hvis dine symptomer er til 
 stærk gene i din dagligdag, og hvis din læge fastslår, at andre typer af HRT ikke er hensigtsmæssige 
-for dig.</p>         </div>"""   
+for dig.</p> </div>"""   
           
 
              
@@ -864,7 +870,7 @@ maskiner, indtil din læge fortæller dig, at det er sikkert at gøre det.
 Duavive indeholder lactose, saccharose, flydende maltitol, glucose og sorbitol
 Hvis du har fået at vide af din læge, at du ikke tåle visse sukkerarter, skal du kontakte lægen, inden du 
 begynder at tage dette lægemiddel.
-Dette lægemiddel indeholder 0,0088 mg sorbitol pr. tablet.</p>         </div>"""   
+Dette lægemiddel indeholder 0,0088 mg sorbitol pr. tablet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take duavive"
@@ -893,7 +899,7 @@ planlagte tablet. Du må ikke tage en dobbeltdosis som erstatning for den glemte
 Hvis du holder op med at tage Duavive
 Hvis du beslutter at stoppe med at tage dette lægemiddel, før den ordinerede behandling er færdig, bør 
 du tale med lægen først.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1082,7 +1088,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store duavive"
@@ -1096,7 +1102,7 @@ Må ikke opbevares ved temperaturer over 25 ºC.
 Opbevares i originalpakningen for at beskytte mod fugt. 
 Anvendes inden 60 dage efter åbning af blisterpose.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1217,7 +1223,7 @@ Tel.: + 371 670 35 775
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside: http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1256,7 +1262,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1265,7 +1273,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1280,7 +1289,7 @@ Usage: #inline
 3. Como tomar DUAVIVE
 4. Efeitos indesejáveis possíveis
 5. Como conservar DUAVIVE
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1301,7 +1310,7 @@ Durante a menopausa, a quantidade de estrogénio produzido pelo corpo da mulher 
 causar sintomas como ardor na face, no pescoço e no peito (“afrontamentos"). DUAVIVE alivia estes 
 sintomas após a menopausa. Este medicamento apenas lhe será prescrito caso apresente sintomas que 
 afetem gravemente a sua vida quotidiana e o seu médico determine que outros tipos de THS não são 
-adequados para si.</p>         </div>"""   
+adequados para si.</p> </div>"""   
           
 
              
@@ -1568,7 +1577,7 @@ médico lhe diga que é seguro fazê-lo.
 DUAVIVE contém lactose, sacarose, maltitol líquido, glucose e sorbitol
 Se o seu médico lhe tiver dito que tem intolerância a alguns açúcares, contacte o seu médico antes
 de utilizar este medicamento.
-Este medicamento contém 0,0088 mg de sorbitol em cada comprimido.</p>         </div>"""   
+Este medicamento contém 0,0088 mg de sorbitol em cada comprimido.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar duavive"
@@ -1602,7 +1611,7 @@ Se decidir parar de tomar este medicamento antes de terminar o tratamento prescr
 primeiro com seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
 farmacêutico.
-38</p>         </div>"""         
+38</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1796,7 +1805,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo efeitos indesejáveis não indicados neste folheto,
 fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente 
 através do Sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar duavive"
@@ -1811,7 +1820,7 @@ Conservar na embalagem original para proteger da humidade.
 Após a abertura da bolsa do blister, utilizar no prazo de 60 dias.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1933,7 +1942,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel.: + 371 670 35 775
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tremelimumab AstraZeneca</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ chemotherapy).
 As Tremelimumab AstraZeneca will be given in combination with other anti-cancer medicines, it is 
 important that you also read the package leaflet for these other medicines. If you have any questions 
 about how Tremelimumab AstraZeneca works or why this medicine has been prescribed for you, ask 
-your doctor or pharmacist.</p>         </div>"""   
+your doctor or pharmacist.</p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ if you have side effects that affect your ability to concentrate and react, you 
 driving or operating machines.
 Tremelimumab AstraZeneca has a low sodium content 
 Tremelimumab AstraZeneca contains less than 1 mmol sodium (23 mg) in each dose, that is to say
-essentially sodium-free.</p>         </div>"""   
+essentially sodium-free.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tremelimumab"
@@ -179,7 +182,7 @@ will be given Tremelimumab AstraZeneca first then durvalumab and then chemothera
 If you miss an appointment to get Tremelimumab AstraZeneca
 It is very important that you do not miss a dose of this medicine. If you miss an appointment, call your 
 doctor straight away to reschedule your appointment.
-If you have any further questions about your treatment, ask your doctor.</p>         </div>"""         
+If you have any further questions about your treatment, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -263,7 +266,7 @@ Talk to your doctor straight away if you get any of the side effects listed abov
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tremelimumab"
@@ -280,7 +283,7 @@ Do not freeze.
 Store in the original package in order to protect from light.
 Do not use if this medicine is cloudy, discoloured or contains visible particles.
 Do not store any unused portion of the infusion solution for re-use. Any unused medicine or waste 
-material should be disposed of in accordance with local requirements.</p>         </div>"""      
+material should be disposed of in accordance with local requirements.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -377,7 +380,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -416,7 +419,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -425,7 +430,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 3. Sådan får du Tremelimumab AstraZeneca
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -458,7 +464,7 @@ kemoterapi).
 Da Tremelimumab AstraZeneca gives i kombination med andre lægemidler mod kræft, er det vigtigt, 
 at du også læser indlægssedlen til disse andre lægemidler. Hvis du har spørgsmål om, hvordan 
 Tremelimumab AstraZeneca virker, eller hvorfor du skal have dette lægemiddel, skal du spørge lægen 
-eller apotekspersonalet.</p>         </div>"""   
+eller apotekspersonalet.</p> </div>"""   
           
 
              
@@ -556,7 +562,7 @@ maskiner. Hvis du får bivirkninger, der påvirker din koncentrations- og reakti
 udvise forsigtighed, når du fører motorkøretøj eller betjener maskiner.
 Tremelimumab AstraZeneca indeholder en lav mængde natrium
 Tremelimumab AstraZeneca indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tremelimumab"
@@ -579,7 +585,7 @@ Tremelimumab AstraZeneca, derefter durvalumab og derefter kemoterapi.
 Hvis du glemmer en aftale om at få Tremelimumab AstraZeneca
 Det er meget vigtigt, at du ikke glemmer en dosis af denne medicin. Hvis du glemmer en aftale, skal 
 du straks ringe til din læge og lave en ny aftale.
-Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -685,7 +691,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tremelimumab"
@@ -702,7 +708,7 @@ Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Brug ikke lægemidlet, hvis det er uklart, misfarvet eller indeholder synlige partikler.
 Eventuelt ubrugte mængder af infusionsopløsningen må ikke opbevares til genbrug. Ikke anvendt 
-lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -861,7 +867,7 @@ Må ikke administreres samtidig med andre lægemidler gennem samme infusionsslan
 •
 Tremelimumab AstraZeneca er en engangsdosis. Eventuelt ubrugt medicin, der er tilbage i 
 hætteglasset, skal kasseres.
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

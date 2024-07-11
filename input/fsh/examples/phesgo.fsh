@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Phesgo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ has been given.
 before surgery (neoadjuvant therapy) or after surgery (adjuvant therapy). </p>
 <p>As part of your treatment with Phesgo you will also receive other medicines called chemotherapy. 
 Information about these medicines is described in separate package leaflets. Ask your doctor, 
-pharmacist or nurse to give you information about these other medicines. </p>         </div>"""   
+pharmacist or nurse to give you information about these other medicines. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ contraception during treatment with Phesgo and for 7 months after stopping treat
 symptoms, such as feeling dizzy, chills, fever or any injection or allergic reactions as described in 
 section 4, you should not drive or use machines until these symptoms disappear. </p>
 <p>Phesgo contains Sodium </p>
-<p>Phesgo contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially sodium-free. </p>         </div>"""   
+<p>Phesgo contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially sodium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take phesgo"
@@ -206,7 +209,7 @@ of Phesgo to give you.  </p>
 <p>Do not stop your treatment with this medicine without talking to your doctor first. It is important that 
 you are given the full course of injections at the right time every three weeks. This helps your 
 medicine work as well as it can. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ chemotherapy at the same time, some side effects may also be due to these other 
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store phesgo"
@@ -291,7 +294,7 @@ after  EXP . The expiry date refers to the last day of that month.
 particles in the liquid or it is the wrong colour (see section 6). 
 * Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -385,7 +388,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -424,7 +427,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -433,7 +438,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -450,7 +456,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -489,7 +495,7 @@ operation (neoadjuverende behandling) eller efter operation (adjuverende behandl
 </ul>
 <p>I forbindelse med din behandling med Phesgo, vil du også få andre lægemidler, som kaldes 
 kemoterapi. Du kan finde information om disse lægemidler i de tilhørende indlægssedler. Du kan også 
-spørge lægen eller sundhedspersonalet, hvis du har spørgsmål vedrørende disse lægemidler.  </p>         </div>"""   
+spørge lægen eller sundhedspersonalet, hvis du har spørgsmål vedrørende disse lægemidler.  </p> </div>"""   
           
 
              
@@ -592,7 +598,7 @@ reaktion som er beskrevet i punkt 4, bør du ikke føre motorkøretøj eller bet
 symptomer er forsvundet. </p>
 <p>Phesgo indeholder natrium  </p>
 <p>Phesgo indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take phesgo"
@@ -660,7 +666,7 @@ skal have. </p>
 <p>Hvis du holder op med at få Phesgo </p>
 <p>Stop ikke med behandlingen med dette lægemiddel uden at tale med lægen først. Det er vigtigt, at du 
 får alle injektioner på det rigtige tidspunkt hver 3. uge. Dette sikrer, at lægemidlet virker bedst muligt.  </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -804,7 +810,7 @@ af bivirkningerne også skyldes disse andre lægemidler. </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V*.Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store phesgo"
@@ -837,7 +843,7 @@ bemærker partikler i væsken eller den ikke har den rigtige farve (se punkt 6).
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -967,7 +973,7 @@ Tel: +44 (0) 1707 366 </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu.  </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 

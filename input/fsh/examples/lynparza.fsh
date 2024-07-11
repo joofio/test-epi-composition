@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lynparza</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -110,7 +113,7 @@ testosterone. Lynparza is used in combination with another anti-cancer medicine 
 abiraterone, together with the steroid medicine, prednisone or prednisolone.
 When Lynparza is given in combination with other anti-cancer medicines it is important that you also 
 read the package leaflets of these other medicines. If you have any questions about these medicines, 
-ask your doctor.</p>         </div>"""   
+ask your doctor.</p> </div>"""   
           
 
              
@@ -217,7 +220,7 @@ Lynparza may influence your ability to drive and use machines. If you feel dizzy
 taking Lynparza, do not drive or use tools or machines.
 Information on other ingredients in this medicine
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg or 150 mg tablet, that is to say 
-essentially  sodium-free .</p>         </div>"""   
+essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lynparza"
@@ -249,7 +252,7 @@ away.
 If you forget to take Lynparza
 If you forget to take Lynparza, take your next normal dose at its scheduled time. Do not take a double 
 dose (two doses at the same time) to make up for a forgotten dose.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -315,7 +318,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lynparza"
@@ -328,7 +331,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special temperature storage conditions.
 Store in the original package in order to protect from moisture.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -429,7 +432,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -468,7 +471,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -477,7 +482,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -492,7 +498,7 @@ Usage: #inline
 3. Sådan skal du tage Lynparza
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -550,7 +556,7 @@ som reducerer testosteron. Lynparza anvendes i kombination med et andet lægemid
 kræft, der kaldes abirateron, sammen med steroidmedicin, prednison eller prednisolon.
 Når Lynparza gives i kombination med andre lægemidler mod kræft, er det vigtigt, at du også læser 
 indlægssedlerne for disse andre lægemidler. Hvis du har spørgsmål om disse lægemidler, så spørg din 
-læge.</p>         </div>"""   
+læge.</p> </div>"""   
           
 
              
@@ -702,7 +708,7 @@ svimmel, svag eller træt mens du tager Lynparza, må du ikke føre motorkøret�
 eller maskiner.
 Lynparza indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg eller 150 mg tablet, dvs. 
-det er i det væsentlige natriumfrit. </p>         </div>"""   
+det er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lynparza"
@@ -743,7 +749,7 @@ nærmeste hospital.
 Hvis du har glemt at tage Lynparza
 Hvis du glemmer at tage Lynparza, skal du tage din næste normale dosis på det planlagte tidspunkt. 
 Du må ikke tage en dobbeltdosis (to doser samtidig) som erstatning for den glemte dosis.
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -838,7 +844,7 @@ også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.
-80</p>         </div>"""      
+80</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lynparza"
@@ -851,7 +857,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.
 Opbevares i den originale pakning for at beskytte mod fugt.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -989,7 +995,7 @@ Tel: +44 1582 836 836
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -1028,7 +1034,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1037,7 +1045,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1052,7 +1061,7 @@ Usage: #inline
 3. Como tomar Lynparza
 4. Efeitos indesejáveis possíveis
 5. Como conservar Lynparza
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1126,7 +1135,7 @@ medicamento anticancerígeno chamado abiraterona, em conjunto com o medicamento
 esteroide, prednisona ou prednisolona.
 Quando Lynparza é administrado em associação com outros medicamentos anticancerígenos, é 
 importante que leia também o folheto informativo destes outros medicamentos. Caso tenha dúvidas
-sobre esses medicamentos, fale com o seu médico.</p>         </div>"""   
+sobre esses medicamentos, fale com o seu médico.</p> </div>"""   
           
 
              
@@ -1278,7 +1287,7 @@ Lynparza pode afetar a sua capacidade para conduzir e utilizar máquinas. Se sen
 fraqueza ou cansaço enquanto toma Lynparza, não conduza nem utilize ferramentas ou máquinas.
 Informação sobre outros componentes neste medicamento
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido de 100 mg ou 
-150 mg ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+150 mg ou seja, é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lynparza"
@@ -1321,7 +1330,7 @@ Caso se tenha esquecido de tomar Lynparza
 Se se esqueceu de tomar Lynparza, deve tomar a sua dose seguinte à hora habitual. Não tome uma 
 dose a dobrar (duas doses ao mesmo tempo) para compensar uma dose que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
-farmacêutico ou enfermeiro.</p>         </div>"""         
+farmacêutico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1424,7 +1433,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lynparza"
@@ -1439,7 +1448,7 @@ O medicamento não necessita de qualquer temperatura especial de conservação.
 Conservar na embalagem de origem para proteger da humidade.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1578,7 +1587,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

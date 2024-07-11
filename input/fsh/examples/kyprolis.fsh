@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kyprolis </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ death of cancer cells. </p>
 treatment for this disease. Multiple myeloma is a cancer of plasma cells (a type of white blood cell). </p>
 <p>Kyprolis will be given to you together with daratumumab and dexamethasone, with lenalidomide and 
 dexamethasone, or only with dexamethasone. Daratumumab, lenalidomide and dexamethasone are 
-other medicines used to treat multiple myeloma. </p>         </div>"""   
+other medicines used to treat multiple myeloma. </p> </div>"""   
           
 
              
@@ -177,7 +180,7 @@ equivalent to 88 mg/kg for a 70 kg adult. </p>
 <p>This medicine contains 1,500 mg cyclodextrin (betadex sulfobutyl ether sodium) per 30 mg vial. This 
 is equivalent to 88 mg/kg for a 70 kg adult. </p>
 <p>This medicine contains 3,000 mg cyclodextrin (betadex sulfobutyl ether sodium) per 60 mg vial. This 
-is equivalent to 88 mg/kg for a 70 kg adult. </p>         </div>"""   
+is equivalent to 88 mg/kg for a 70 kg adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kyprolis"
@@ -200,7 +203,7 @@ and dexamethasone, or only dexamethasone. You may also be given other medicines.
 <p>If you are given too much Kyprolis </p>
 <p>As this medicine is being given by a doctor or nurse, it is unlikely that you will be given too much. 
 However, if you are given too much Kyprolis your doctor will monitor you for side effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ skin, very dark urine and very pale stools </li>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kyprolis"
@@ -378,7 +381,7 @@ Store in the original carton in order to protect from light. </p>
 <p>The reconstituted product should be a clear, colourless to slightly yellow solution and should not be 
 administered if any discolouration or particulate matter is observed. </p>
 <p>Kyprolis is for single use only. Any unused product or waste material should be disposed of in 
-accordance with local requirements. </p>         </div>"""      
+accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -484,7 +487,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -523,7 +526,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -532,7 +537,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -549,7 +555,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -566,7 +572,7 @@ Kyprolis, at kræftcellerne dør. </p>
 behandling for denne sygdom. Myelomatose er kræft i plasmaceller (en slags hvide blodlegemer). </p>
 <p>Du vil få Kyprolis sammen med daratumumab og dexamethason, sammen med lenalidomid og 
 dexamethason eller kun sammen med dexamethason. Daratumumab, lenalidomid og dexamethason er 
-andre lægemidler, der bruges til behandling af myelomatose. </p>         </div>"""   
+andre lægemidler, der bruges til behandling af myelomatose. </p> </div>"""   
           
 
              
@@ -688,7 +694,7 @@ hætteglas. Dette svarer til 88 mg/kg for en voksen, der vejer 70 kg. </p>
 <p>Dette lægemiddel indeholder 1.500 mg cyclodextrin (betadexsulfobutylethernatrium) pr. 30 mg 
 hætteglas. Dette svarer til 88 mg/kg for en voksen, der vejer 70 kg. </p>
 <p>Dette lægemiddel indeholder 3.000 mg cyclodextrin (betadexsulfobutylethernatrium) pr. 60 mg 
-hætteglas. Dette svarer til 88 mg/kg for en voksen, der vejer 70 kg. </p>         </div>"""   
+hætteglas. Dette svarer til 88 mg/kg for en voksen, der vejer 70 kg. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kyprolis"
@@ -710,7 +716,7 @@ dexamethason sammen med Kyprolis. Du vil muligvis også få anden medicin. </p>
 <p>Hvis du har fået for meget Kyprolis </p>
 <p>Da dette lægemiddel gives af en læge eller sygeplejerske, er det usandsynligt, at du vil få for meget. 
 Hvis du alligevel får for meget Kyprolis, vil din læge holde øje med, om du eventuelt får bivirkninger. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1070,7 +1076,7 @@ mørk urin og meget lys afføring </p>
 sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kyprolis"
@@ -1087,7 +1093,7 @@ Opbevares i den originale karton for at beskytte mod lys. </p>
 <p>Det rekonstituerede præparat skal være en klar, farveløs til lys gullig opløsning og må ikke 
 administreres, hvis der ses misfarvning eller partikler. </p>
 <p>Kyprolis er kun til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold 
-til lokale retningslinjer. </p>         </div>"""      
+til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1272,7 +1278,7 @@ fortynde i en 50 eller 100 ml infusionspose med 5 % glucoseinjektionsvæske. </p
 <p>Fra en mikrobiologisk synsvinkel skal præparatet anvendes straks. Hvis det ikke anvendes straks, er 
 opbevaringstider og -betingelser efter åbning brugerens eget ansvar og bør ikke overstige 24 timer ved 
 2 °C - 8 °C. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TEPMETKO </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ MET (mesenchymal-epithelial transition factor) gene and previous treatment has n
 your disease. </p>
 <p>An alteration in the MET gene can lead to production of an abnormal protein, which can then cause 
 uncontrolled cell growth and cancer. By blocking the action of the abnormal protein, TEPMETKO 
-may slow or stop the cancer from growing. It may also help to shrink the cancer. </p>         </div>"""   
+may slow or stop the cancer from growing. It may also help to shrink the cancer. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ baby while you are treated with this medicine and for at least 1 week after the 
 TEPMETKO has no influence on the ability to drive or use machines. </p>
 <p>TEPMETKO contains lactose 
 TEPMETKO contains 4.4 mg lactose monohydrate in each tablet. If you have been told by your doctor 
-that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tepmetko"
@@ -169,7 +172,7 @@ TEPMETKO than you should, talk to your doctor. </p>
 If you miss a dose of TEPMETKO, take it as soon as you remember. If your next dose is due within 
 8 hours, skip the missed dose and take your next dose at your regular time. Do not take a double dose 
 to make up for a missed dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ blood (a sign of possible liver problems)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tepmetko"
@@ -213,7 +216,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -242,7 +245,7 @@ Frankfurter Strasse 64293 Darmstadt
 Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -281,7 +284,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -290,7 +295,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -307,7 +313,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -323,7 +329,7 @@ kroppen og ikke kan fjernes ved operation. Lægemidlet gives, når kræftcellern
 din sygdom. </p>
 <p>En ændring i MET-genet kan føre til, at der dannes et unormalt protein, og som derefter kan forårsage 
 ukontrolleret cellevækst og kræft. Ved at blokere virkningen af dette unormale protein, kan 
-TEPMETKO nedsætte eller stoppe kræftens vækst. Det kan også hjælpe med at skrumpe kræften. </p>         </div>"""   
+TEPMETKO nedsætte eller stoppe kræftens vækst. Det kan også hjælpe med at skrumpe kræften. </p> </div>"""   
           
 
              
@@ -412,7 +418,7 @@ barn, mens du bliver behandlet med dette lægemiddel, og i mindst 1 uge efter de
 TEPMETKO påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>TEPMETKO indeholder lactose 
 TEPMETKO indeholder 4.4 mg lactosemonohydrat i hver tablet. Kontakt lægen, før du tager dette 
-lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tepmetko"
@@ -471,7 +477,7 @@ Hvis du har sprunget en dosis med TEPMETKO over, skal du tage den, så snart du 
 det inden for 8 timer er tid til den næste dosis, skal du springe den glemte dosis over, og tage din næste 
 dosis på det sædvanlige tidspunkt. Du må ikke tage en dobbeltdosis som erstatning for den glemte 
 dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -522,7 +528,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tepmetko"
@@ -534,7 +540,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -571,7 +577,7 @@ Tyskland </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: https://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: https://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -610,7 +616,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -619,7 +627,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -636,7 +645,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar TEPMETKO </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -653,7 +662,7 @@ e o tratamento prévio não tiver ajudado a parar a sua doença. </p>
 <p>Uma alteração no gene MET pode resultar na produção de uma proteína anormal, a qual pode, por sua 
 vez, causar um crescimento celular descontrolado e cancro. Ao bloquear a ação da proteína anormal, 
 TEPMETKO poderá atrasar ou parar o crescimento do cancro. Poderá também ajudar a diminuir o 
-tamanho dos tumores. </p>         </div>"""   
+tamanho dos tumores. </p> </div>"""   
           
 
              
@@ -743,7 +752,7 @@ dose. </p>
 Os efeitos de TEPMETKO sobre a capacidade de conduzir e utilizar máquinas são nulos. </p>
 <p>TEPMETKO contém lactose 
 TEPMETKO contém 4,4 mg de lactose mono-hidratada em cada comprimido. Se foi informado pelo 
-seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tepmetko"
@@ -805,7 +814,7 @@ Caso se tenha esquecido de uma dose de TEPMETKO, tome-a assim que se lembrar. Se
 8 horas ou menos para a dose seguinte, omita a dose esquecida e tome a dose seguinte à hora habitual. 
 Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -856,7 +865,7 @@ alcalina no sangue (um sinal de possíveis problemas de fígado) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tepmetko"
@@ -869,7 +878,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -905,7 +914,7 @@ Frankfurter Strasse 64293 Darmstadt
 Alemanha </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

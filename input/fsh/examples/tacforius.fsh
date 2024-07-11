@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tacforius </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ used to control your body s immune response, enabling your body to accept the tr
 <p>You may also be given Tacforius for an ongoing rejection of your transplanted liver, kidney, heart or 
 other organ when any previous treatment you were taking was unable to control this immune response 
 after your transplantation. </p>
-<p>Tacforius is used in adults. </p>         </div>"""   
+<p>Tacforius is used in adults. </p> </div>"""   
           
 
              
@@ -216,7 +219,7 @@ after taking Tacforius. These effects are more frequent if you also drink alcoho
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>Tacforius 5 mg capsules contains ponceau 4R 
-This may cause allergic reactions. </p>         </div>"""   
+This may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tacforius"
@@ -259,7 +262,7 @@ day. Do not take a double dose the next morning. </p>
 <p>If you stop taking Tacforius 
 Stopping your treatment with Tacforius may increase the risk of rejection of your transplanted organ. 
 Do not stop your treatment unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -407,7 +410,7 @@ weight loss </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tacforius"
@@ -421,7 +424,7 @@ The expiry date refers to the last day of that month. </p>
 This medicinal product does not require any special temperature storage conditions. </p>
 <p>Use all the prolonged-release hard capsules within 1 year of opening the aluminium wrapping. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -565,7 +568,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -604,7 +607,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -613,7 +618,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -630,7 +636,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelse og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -645,7 +651,7 @@ transplanterede organ. </p>
 <p>Du kan også få ordineret Tacforius ved en igangværende afstødning af den transplanterede lever, nyre, 
 hjerte eller andet organ, hvis din tidligere behandling ikke kunne kontrollere immunreaktionen efter 
 transplantationen. </p>
-<p>Tacforius anvendes til voksne. </p>         </div>"""   
+<p>Tacforius anvendes til voksne. </p> </div>"""   
           
 
              
@@ -790,7 +796,7 @@ også drikker alkohol. </p>
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
 <p>Tacforius 5 mg kapsler indeholder ponceau 4R 
-Kan medføre allergiske reaktioner. </p>         </div>"""   
+Kan medføre allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tacforius"
@@ -831,7 +837,7 @@ samme dag. Du må ikke tage en dobbeltdosis den næste morgen. </p>
 <p>Hvis du holder op med at tage Tacforius 
 Afbrydelse af behandlingen med Tacforius kan øge risikoen for afstødning af det transplanterede 
 organ. Du må ikke ophøre med behandlingen uden at have talt med lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -982,7 +988,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tacforius"
@@ -996,7 +1002,7 @@ er den sidste dag i den nævnte måned. </p>
 Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Brug alle de hårde depotkapsler inden for 1 år efter, at aluminiumsposen er åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1171,7 +1177,7 @@ Ireland
 Tel: +44 2075407 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1210,7 +1216,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1219,7 +1227,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1236,7 +1245,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tacforius </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1250,7 +1259,7 @@ para controlar a resposta imunitária do seu corpo, habilitando-o a aceitar o ó
 <p>Também lhe pode ser administrado Tacforius quando estiver a ocorrer uma rejeição do fígado, rim, 
 coração ou outro órgão transplantado, ou quando em tratamentos anteriores não foi capaz de controlar 
 a sua resposta imunitária após a transplantação. </p>
-<p>Tacforius é usado em adultos. </p>         </div>"""   
+<p>Tacforius é usado em adultos. </p> </div>"""   
           
 
              
@@ -1401,7 +1410,7 @@ problemas de visão após tomar Tacforius. Estes efeitos são mais frequentes se
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
 este medicamento. </p>
 <p>Tacforius 5 mg cápsulas contém ponceau 4R 
-Este pode causar reações alérgicas. </p>         </div>"""   
+Este pode causar reações alérgicas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tacforius"
@@ -1446,7 +1455,7 @@ uma dose a dobrar na manhã seguinte. </p>
 Parar o tratamento com Tacforius poderá aumentar o risco de rejeição do seu órgão transplantado. Não 
 pare o tratamento a não ser que o seu médico lhe tenha dito para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1603,7 +1612,7 @@ enzima lactato desidrogenase no sangue, diminuição de peso </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tacforius"
@@ -1618,7 +1627,7 @@ de qualquer temperatura especial de conservação. </p>
 <p>Tome todas as cápsulas dentro de um ano após a abertura da bolsa de alumínio. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1791,7 +1800,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

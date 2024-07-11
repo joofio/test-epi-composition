@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to Store EMADINE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 conditions of the eye). It works by reducing the intensity of the allergic reaction. </p>
 <p>Allergic conjunctivitis. Some materials (allergens) like pollens, house dust or animal fur may cause 
 allergic reactions resulting in itching, redness as well as swelling of the surface of your eye. </p>
-<p>You must talk to a doctor if you do not feel better or if you feel worse. </p>         </div>"""   
+<p>You must talk to a doctor if you do not feel better or if you feel worse. </p> </div>"""   
           
 
              
@@ -114,7 +117,7 @@ may change the colour of the contact lenses. You should remove contact lenses be
 medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause eye 
 irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of the 
 eye). If you feel abnormal eye sensation, stinging or pain in the eye after using this medicine, talk to 
-your doctor. </p>         </div>"""   
+your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emadine"
@@ -128,7 +131,7 @@ pharmacist if you are not sure. </p>
 with your doctor or pharmacist if you are not sure. </p>
 <p>Only use the drops in your eyes. </p>
 <p>Turn the page for more advice </p>
-<p>Now turn over&gt; </p>         </div>"""         
+<p>Now turn over&gt; </p> </div>"""         
 
         
 * section[=].section[+]
@@ -166,7 +169,7 @@ warm water. Don t put in any more drops until it s time for your next regular do
 normal routine. Do not use a double dose to make up for the one missed. </p>
 <p>If you are using other eye drops, leave at least 10 minutes between using EMADINE and the other 
 drops. Eye ointments should be used last. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emadine"
@@ -188,7 +191,7 @@ eyes, eye irritation, blurred vision, corneal staining, dry eye.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -204,7 +207,7 @@ expiry date refers to the last day of the month. </p>
 down the date you opened each bottle in the space below and in the space on the bottle label and box. </p>
 <p>Opened: </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
 
 
 
@@ -243,7 +246,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -252,7 +257,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -269,7 +275,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -281,7 +287,7 @@ Usage: #inline
 virker ved at nedsætte den allergiske reaktions styrke. </p>
 <p>Øjenallergi. Visse partikler (allergener) som pollen, husstøv eller dyrehår kan være årsag til allergiske 
 reaktioner, som medfører kløe, rødme og hævelse af øjenomgivelserne. </p>
-<p>Kontakt lægen, hvis du får det værre eller hvis du ikke får det bedre. </p>         </div>"""   
+<p>Kontakt lægen, hvis du får det værre eller hvis du ikke får det bedre. </p> </div>"""   
           
 
              
@@ -330,7 +336,7 @@ maskiner, før dit syn er klart igen. </p>
 mindst 15 minutter, før du sætter kontaktlinserne i igen. Benzalkoniumchlorid kan også give 
 øjenirritation, især hvis du har tørre øjne eller hornhinde problemer (det klare lag forrest i øjet). Hvis 
 du har unormale fornemmelser i øjet såsom svie eller smerte, når du bruger dette lægemiddel, skal du 
-tale med din læge. </p>         </div>"""   
+tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emadine"
@@ -344,7 +350,7 @@ apotekspersonalet. </p>
 anvisning. Er du i tvivl, så spørg lægen eller på apoteket. </p>
 <p>Brug kun Emadine i øjnene. </p>
 <p>Se modsatte side for yderligere information </p>
-<p>Vend&gt; </p>         </div>"""         
+<p>Vend&gt; </p> </div>"""         
 
         
 * section[=].section[+]
@@ -409,7 +415,7 @@ herefter med den normale dosis. Du må ikke tage en dobbeltdosis som erstatning 
 dosis. </p>
 <p>Hvis du bruger andre øjendråber, så vent mindst 10 minutter mellem drypning med Emadine og de 
 andre øjendråber. Øjensalve skal bruges til sidst. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om. </p>         </div>"""      
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget du er i tvivl om. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emadine"
@@ -443,7 +449,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan </p>
 <p>også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -460,7 +466,7 @@ den sidste dag i den nævnte måned. </p>
 kartonen. </p>
 <p>Åbnet: </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
 
 
 
@@ -499,7 +505,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -508,7 +516,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -525,7 +534,7 @@ Usage: #inline
 <li>Efeitos secundários possíveis </li>
 <li>Como conservar EMADINE </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -538,7 +547,7 @@ alérgicas do olho). Atua reduzindo a intensidade da reação alérgica. </p>
 <p>Conjuntivite alérgica. Alguns materiais (alérgenos) tais como pólenes, pó das casas ou pelos de 
 animais podem provocar reações alérgicas que originam comichão, vermelhidão, assim como inchaço 
 da superfície do olho. </p>
-<p>Se não se sentir melhor ou se piorar, tem de consultar um médico. </p>         </div>"""   
+<p>Se não se sentir melhor ou se piorar, tem de consultar um médico. </p> </div>"""   
           
 
              
@@ -590,7 +599,7 @@ contacto moles e pode alterar a cor das lentes de contacto. Deve remover as lent
 utilização deste medicamento e voltar a colocá-las 15 minutos depois. O cloreto de benzalcónio pode 
 também causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a 
 camada transparente na parte da frente do olho). Se tiver uma sensação estranha no olho, picadas ou 
-dor no olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""   
+dor no olho após utilizar este medicamento, fale com o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar emadine"
@@ -605,7 +614,7 @@ afetado, duas vezes por dia. </p>
 do seu médico. Se tiver dúvidas, fale com o seu médico ou farmacêutico. 
 Utilize as gotas apenas nos seus olhos. </p>
 <p>Volte a página para obter mais informações </p>
-<p>Volte agora&gt; </p>         </div>"""         
+<p>Volte agora&gt; </p> </div>"""         
 
         
 * section[=].section[+]
@@ -700,7 +709,7 @@ mau paladar, erupção cutânea </p>
 Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar emadine"
@@ -717,7 +726,7 @@ do frasco e na caixa. </p>
 <p>Aberto em: </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -755,7 +764,7 @@ SE-113 63 Stockholm
 Suécia. </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

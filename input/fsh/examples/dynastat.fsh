@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dynastat  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 <p>Dynastat is used for the short-term treatment of pain in adults after an operation. It is one of a family 
 of medicines called COX-2 inhibitors (this is short for cyclo-oxygenase-2 inhibitors). Pain and 
 swelling are sometimes caused by substances in the body called prostaglandins. Dynastat works by 
-lowering the amount of these prostaglandins. </p>         </div>"""   
+lowering the amount of these prostaglandins. </p> </div>"""   
           
 
              
@@ -173,7 +176,7 @@ your doctor or nurse for advice before taking this medicine. </p>
 If the injection makes you feel dizzy or tired, do not drive or use machines until you feel better again. </p>
 <p>Dynastat contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per ml that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dynastat"
@@ -197,7 +200,7 @@ You may be given another dose   either 20 mg or 40 mg   6 to 12 hours after the 
 of Dynastat will be the same as explained above. </p>
 <p>If you are given more Dynastat than you should you may experience side effects that have been 
 reported with recommended doses. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -284,7 +287,7 @@ difficulty breathing or swallowing (potentially fatal)
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dynastat"
@@ -298,7 +301,7 @@ Exp. The expiry date refers to the last day of that month. </p>
 <p>It is recommended that Dynastat is used as soon as possible after it is mixed with solvent, although it 
 may be stored if the instructions at the end of the leaflet are strictly followed. </p>
 <p>The injection solution should be a clear colourless liquid. If there are particles in the injection 
-solution or if either the powder or solution is discoloured, the solution will not be used. </p>         </div>"""      
+solution or if either the powder or solution is discoloured, the solution will not be used. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -390,7 +393,7 @@ Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij <br />
 Tel: +371 670 35 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>&lt;------------------------------------------------------------------------------------------------------------------<br />
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -429,7 +432,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -438,7 +443,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -453,7 +459,7 @@ Usage: #inline
 3. Sådan skal De bruge Dynastat
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -465,7 +471,7 @@ Usage: #inline
 Dynastat bruges til korttidsbehandling af smerter hos voksne efter operation. Dynastat tilhører en 
 lægemiddelgruppe, der kaldes COX-2-hæmmere (en forkortelse af cyklo-oxygenase-2-hæmmere). 
 Smerter og hævelser kan sommetider skyldes nogle stoffer i kroppen, som kaldes prostaglandiner. 
-Dynastat virker ved at mindske antallet af disse prostaglandiner.</p>         </div>"""   
+Dynastat virker ved at mindske antallet af disse prostaglandiner.</p> </div>"""   
           
 
              
@@ -620,7 +626,7 @@ Kør ikke bil eller motorcykel og lad være med at cykle, hvis injektionen gør 
 Lad vær med at arbejde med værktøj eller maskiner, før De føler Dem normal igen.
 Dynastat indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. ml, dvs. det er i det væsentlige
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dynastat"
@@ -648,7 +654,7 @@ Personer, der tager fluconazol.
 Hvis Dynastat bruges sammen med stærke smertestillende lægemidler (såkaldte 
 opioidanalgetika) som f.eks. morphin, vil De få samme dosis, som anført ovenfor.
 Hvis De har fået for meget Dynastat, kan De få bivirkninger, som er set ved anbefalede doser.
-Spørg lægen eller sygeplejersken, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, De er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -789,7 +795,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller sygeplejersken.
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dynastat"
@@ -805,7 +811,7 @@ blandet.
 Det anbefales, at Dynastat anvendes så hurtigt som muligt efter, at det er blevet blandet med solvens, 
 selv om det kan opbevares, hvis instruktionen i slutningen af denne indlægsseddel følges meget nøje. 
 Injektionsvæsken skal være en klar farveløs væske. Hvis der er partikler i injektionsvæsken, eller 
-hvis pulveret eller opløsningen er misfarvet, må opløsningen ikke anvendes.</p>         </div>"""      
+hvis pulveret eller opløsningen er misfarvet, må opløsningen ikke anvendes.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1012,7 +1018,7 @@ Gem indlægssedlen. De kan få brug for at læse den igen.
 Spørg lægen eller sygeplejersken, hvis der er mere, De vil vide.
 -
 Kontakt lægen eller sygeplejersken, hvis De får bivirkninger, herunder bivirkninger, som ikke er 
-nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Herwenda </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ with medicines called aromatase inhibitors with patients with high levels of HER
 hormone-receptor-positive metastatic breast cancer (cancer that is sensitive to the presence of 
 female sex hormones). 
 * You have metastatic gastric cancer with high levels of HER2, when it is in combination with the 
-other cancer medicines capecitabine or 5-fluorouracil and cisplatin. </p>         </div>"""   
+other cancer medicines capecitabine or 5-fluorouracil and cisplatin. </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ experience symptoms, such as dizziness, sleepiness, chills or fever, you should 
 machines until these symptoms disappear. </p>
 <p>Herwenda contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take herwenda"
@@ -183,7 +186,7 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can. </p>
 <p>It may take up to 7 months for Herwenda to be removed from your body. Therefore your doctor may 
 decide to continue to check your heart functions, even after you finish treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ Herwenda in combination with chemotherapy, some of them may also be due to the c
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store herwenda"
@@ -355,7 +358,7 @@ times and conditions prior to use are the responsibility of the user, and would 
 than 24 hours at 2  C   8  C. Do not freeze the reconstituted solution. </p>
 <p>Do not use this medicine if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -387,7 +390,7 @@ Germany </p>
 Gran V a de les Corts Catalanes, 08013 Barcelona 
 Spain </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -426,7 +429,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -435,7 +440,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -450,7 +456,7 @@ Usage: #inline
 3. Sådan får du Herwenda 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -478,7 +484,7 @@ der er følsom over for tilstedeværelsen af kvindelige kønshormoner). </p>
 <p>Du har metastatisk mavekræft med høje koncentrationer af HER2, når det er i kombination med 
 de andre kræftlægemidler, capecitabin eller 5-fluoruracil og cisplatin. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -569,7 +575,7 @@ behandlingen får symptomer såsom svimmelhed, søvnighed, kulderystelser eller 
 køre bil, motorcykel, cykle eller betjene maskiner før, symptomerne er forsvundet. </p>
 <p>Herwenda indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take herwenda"
@@ -599,7 +605,7 @@ rigtige tidspunkt hver uge eller hver tredje uge (afhængigt af dit doseringsske
 til at virke bedst muligt. </p>
 <p>Det kan tage op til 7 måneder at udskille Herwenda fra kroppen. Derfor kan din læge beslutte at 
 fortsætte med at undersøge din hjertefunktion, efter din behandling er stoppet. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -924,7 +930,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store herwenda"
@@ -941,7 +947,7 @@ det samme, er opbevaringstiderne og opbevaringsbetingelserne inden ibrugtagen br
 vil normalt ikke overstige 24 timer ved 2 °C - 8 °C. Den rekonstituerede opløsning må ikke nedfryses. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker nogle partikler eller misfarvning inden brug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1044,7 +1050,7 @@ og sprøjte og tilsæt den til en polyvinylchlorid-, polyethylen- eller polyprop
 indeholdende 250 ml natriumchlorid-injektionsvæske, opløsning 9 mg/ml (0,9 %). Der må ikke 
 anvendes glucoseopløsninger. </p>
 <p>Vend forsigtigt posen op og ned for at blande opløsningen og for at undgå skumdannelse. Parenterale 
-opløsninger bør inspiceres visuelt for partikler og misfarvning før administrationen. </p>         </div>"""      
+opløsninger bør inspiceres visuelt for partikler og misfarvning før administrationen. </p> </div>"""      
 
 
 
@@ -1083,7 +1089,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1092,7 +1100,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1107,7 +1116,7 @@ Usage: #inline
 3. Como é administrado Herwenda 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Herwenda 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1138,7 +1147,7 @@ recetores hormonais (cancro que é sensível à presença de hormonas sexuais fe
 <p>Se tiver cancro gástrico metastizado com níveis elevados de HER2, em associação com outros 
 medicamentos para o cancro, capecitabina, ou 5-fluorouracilo, e cisplatina. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1232,7 +1241,7 @@ sintomas como tonturas, sonolência, calafrios ou febre durante o tratamento, n�
 utilizar máquinas até que estes sintomas desapareçam. </p>
 <p>Herwenda contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar herwenda"
@@ -1266,7 +1275,7 @@ calendário de tratamento). Isto ajuda a que o medicamento funcione o melhor pos
 <p>A eliminação de Herwenda do seu corpo pode demorar até 7 meses. Consequentemente, o seu médico 
 pode decidir continuar a verificar o funcionamento do seu coração, mesmo após o final do tratamento.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1592,7 +1601,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar herwenda"
@@ -1612,7 +1621,7 @@ Não congelar a solução reconstituída. </p>
 administração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1648,7 +1657,7 @@ Alemanha </p>
 Gran Via de les Corts Catalanes, 08013 Barcelona 
 Espanha </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

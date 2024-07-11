@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Xenical </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ of the fat in the food you eat from being digested.<br />
 Xenical attaches to the enzymes in your digestive system (lipases) and blocks them from breaking 
 down some of the fat you have eaten during your meal. The undigested fat cannot be absorbed and is 
 eliminated by your body. </p>
-<p>Xenical is indicated in the treatment of obesity in conjunction with a low calorie intake diet. </p>         </div>"""   
+<p>Xenical is indicated in the treatment of obesity in conjunction with a low calorie intake diet. </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ Taking Xenical during pregnancy is not recommended.<br />
 You must not breast-feed your infant during treatment with Xenical as it is not known whether Xenical 
 passes into human milk. </p>
 <p>Driving and using machines 
-Xenical has no known effect on your ability to drive a car or operate machinery. </p>         </div>"""   
+Xenical has no known effect on your ability to drive a car or operate machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xenical"
@@ -188,7 +191,7 @@ If you forget to take your medicine at any time, take it as soon as you remember
 within one hour of your last meal, then continue to take it at the usual times. Do not take a double 
 dose. If you have missed several doses, please inform your doctor and follow the advice given to you. 
 Do not change the prescribed dose yourself unless your doctor tells you to. </p>
-<p>If you have further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -225,7 +228,7 @@ Effects on clotting with anti-coagulants. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V*. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xenical"
@@ -243,7 +246,7 @@ Do not use Xenical after the expiry date stated on the bottle.
 Do not store above 30  C.<br />
 Keep container tightly closed in order to protect from moisture. </p>
 <p>Medicines should not be disposed via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
+dispose of medicines no longer required. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -276,7 +279,7 @@ Germany </p>
 Ziegelhof 23-17489 Greifswald 
 Germany  </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -315,7 +318,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -324,7 +329,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -339,7 +345,7 @@ Usage: #inline
 3. Sådan skal du tage Xenical 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -352,7 +358,7 @@ hvor det forhindrer, at ca. en tredjedel af det fedt, du spiser, optages.
 Xenical binder sig til enzymer i dit fordøjelsessystem (lipaser) og forhindrer, at de nedbryder noget af 
 det fedt, du har spist i forbindelse med et måltid. Det fedt, der ikke er blevet nedbrudt, kan ikke 
 optages og vil blive udskilt af din krop. </p>
-<p>Xenical anvendes til behandling af fedme sammen med en kaloriefattig diæt. </p>         </div>"""   
+<p>Xenical anvendes til behandling af fedme sammen med en kaloriefattig diæt. </p> </div>"""   
           
 
              
@@ -443,7 +449,7 @@ Spørg din læge eller apotekspersonalet til råds, før du tager nogen form for
 Du må ikke tage Xenical, hvis du ammer. Det vides ikke, om Xenical går over i mælken hos 
 mennesker. </p>
 <p>Trafik og arbejdssikkerhed 
-Xenical påvirker ikke din evne til at føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+Xenical påvirker ikke din evne til at føre motorkøretøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xenical"
@@ -477,7 +483,7 @@ forudsat at det er mindre end 1 time efter sidste måltid. Derefter fortsætter 
 medicinen på de sædvanlige tidspunkter. Du må ikke indtage en dobbelt dosis. Hvis du har glemt flere 
 doser efter hinanden, skal du kontakte din læge og følge hans råd. 
 Du må ikke ændre på den ordinerede behandling, medmindre din læge har givet dig besked derpå. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -516,7 +522,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xenical"
@@ -534,7 +540,7 @@ Brug ikke Xenical efter den udløbsdato, der står på pakningen.
 Må ikke opbevares ved temperaturer over 30 °C. 
 Opbevar pakningen tæt lukket for at beskytte mod fugt. </p>
 <p>Spørg på apoteket hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -572,7 +578,7 @@ Ziegelhof 23-17489 Greifswald
 Tyskland </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Du kan finde yderligere oplysninger om Xenical på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 

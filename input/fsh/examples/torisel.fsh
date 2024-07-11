@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Torisel </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ blocks tumour cell growth and division. </p>
 <ul>
 <li>Advanced cancer of the kidney (renal cancer). </li>
 <li>Previously treated mantle cell lymphoma, a type of cancer affecting the lymph nodes. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -227,7 +230,7 @@ diluted product. If your child is less than 5 years old, talk to your doctor or 
 them this medicine, in particular if they are being given other medicines that contain propylene glycol 
 or alcohol. If you are pregnant or breast feeding, or if you suffer from liver or kidney disease, do not 
 take this medicine unless recommended by your doctor. Your doctor may carry out extra checks while 
-you are taking this medicine. </p>         </div>"""   
+you are taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take torisel"
@@ -251,7 +254,7 @@ unacceptable side effects occur. </p>
 <p>As this medicine is prepared and given by a healthcare professional, it is unlikely you will be given too 
 much or that you will miss a dose. </p>
 <p>If you are concerned about this, tell your doctor immediately. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -343,7 +346,7 @@ inflammation and swelling of the voice box. </p>
 If you get any side effect, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine </p>         </div>"""      
+safety of this medicine </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store torisel"
@@ -361,7 +364,7 @@ up to 24 hours below 25 C and protected from light prior to further dilution. </
 <p>After further dilution of the concentrate-solvent mixture with sodium chloride 9 mg/ml (0.9%) solution 
 for injection, the solution may be stored for up to 6 hours below 25 C and protected from light. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -467,7 +470,7 @@ Tel. +371 67035United Kingdom (Northern Ireland)
 Pfizer Limited 
 Tel: +44 (0)1304 616This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -506,7 +509,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -515,7 +520,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -530,7 +536,7 @@ Usage: #inline
 3. Sådan bliver du behandlet med Torisel
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -545,7 +551,7 @@ Torisel anvendes til behandling af følgende kræftformer hos voksne:
 -
 fremskreden nyrekræft
 -
-tidligere behandlet mantlecellelymfom, en form for kræft som påvirker lymfekirtlerne</p>         </div>"""   
+tidligere behandlet mantlecellelymfom, en form for kræft som påvirker lymfekirtlerne</p> </div>"""   
           
 
              
@@ -727,7 +733,7 @@ Hvis dit barn er under 5 år, skal du tale med din læge eller apotekspersonalet
 lægemiddel, især hvis barnet får andre lægemidler, der indeholder propylenglycol eller alkohol.
 Hvis du er gravid eller ammer, eller hvis du lider af en lever- eller nyresygdom, må du kun tage dette 
 lægemiddel efter aftale med lægen. Din læge kan udføre ekstra kontroller, mens du er i behandling 
-med dette lægemiddel.</p>         </div>"""   
+med dette lægemiddel.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take torisel"
@@ -753,7 +759,7 @@ Da denne medicin klargøres og indgives af sundhedspersonale, er det usandsynlig
 meget, eller at en dosis vil blive glemt.
 Hvis du er bekymret for dette, skal du straks sige det til lægen.
 Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis du har yderligere spørgsmål til dette 
-lægemiddel.</p>         </div>"""         
+lægemiddel.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -847,7 +853,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store torisel"
@@ -866,7 +872,7 @@ Efter yderligere fortynding af koncentrat-solvensopløsningen med natriumchlorid
 injektionsvæske kan opløsningen opbevares ved temperaturer under 25 °C i op til 6 timer, beskyttet 
 mod lys.
 Spørg på apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet.</p>         </div>"""      
+ikke smide medicinrester i afløbet.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1078,7 +1084,7 @@ Torisel indeholder, når det er fortyndet, polysorbat 80, og der skal derfor anv
 hensigtsmæssige materialer til administration. Det er vigtigt, at anbefalingerne i pkt. 4.2. og 6.6 
 i produktresuméet følges nøje.
 Destruktion
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -1117,7 +1123,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1126,7 +1134,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1141,7 +1150,7 @@ Usage: #inline
 3. Como utilizar Torisel
 4. Efeitos indesejáveis possíveis
 5. Como conservar Torisel
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1157,7 +1166,7 @@ Torisel é utilizado para tratar os seguintes tipos de cancro no adulto:
 Cancro avançado do rim (cancro renal).
 
 Linfoma das células do manto já com tratamentos anteriores, um tipo de cancro que afeta os 
-gânglios linfáticos.</p>         </div>"""   
+gânglios linfáticos.</p> </div>"""   
           
 
              
@@ -1343,7 +1352,7 @@ de produto diluído. Se o seu filho tem menos de 5 anos de idade, fale com o seu
 farmacêutico antes de administrar este medicamento, especialmente se estiverem a receber outros 
 medicamentos que contenham propilenoglicol ou álcool. Se está grávida ou a amamentar, ou se sofre 
 de uma doença de fígado ou rins, não tome este medicamento a menos que recomendado pelo seu 
-médico. O seu médico poderá realizar exames adicionais enquanto estiver a tomar este medicamento.</p>         </div>"""   
+médico. O seu médico poderá realizar exames adicionais enquanto estiver a tomar este medicamento.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar torisel"
@@ -1369,7 +1378,7 @@ Tratando-se de um medicamento preparado e administrado por um profissional de sa
 provável que lhe seja administrado em excesso ou que seja omitida uma dose.
 Caso esteja preocupado sobre esta questão, contacte imediatamente o seu médico. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1471,7 +1480,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá notificar os efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 notificar os efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar torisel"
@@ -1492,7 +1501,7 @@ Após diluição posterior da mistura concentrado-solvente com solução para in
 sódio 9 mg/ml (0,9%), a solução pode ser conservada durante 6 horas a temperatura inferior a 25ºC e 
 protegida da luz. 
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar 
-fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1627,7 +1636,7 @@ Pfizer Limited
 Tel: +44 (0)1304 616161
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

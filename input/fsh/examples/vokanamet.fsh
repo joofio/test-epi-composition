@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Vokanamet</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ What is type 2 diabetes?
 Type 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that 
 your body produces does not work as well as it should. Your body can also make too much sugar. 
 When this happens, sugar (glucose) builds up in the blood. This can lead to serious medical conditions 
-such as heart disease, kidney disease, blindness, and amputation.</p>         </div>"""   
+such as heart disease, kidney disease, blindness, and amputation.</p> </div>"""   
           
 
              
@@ -238,7 +241,7 @@ confused. This may affect your ability to drive, cycle, and use any tools or mac
 as soon as possible if you get any signs of low blood sugar.
 Vokanamet contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vokanamet"
@@ -280,7 +283,7 @@ dose, skip the missed dose.</p>
 If you stop taking Vokanamet
 Your blood sugar levels may rise if you stop taking this medicine. Do not stop taking this medicine 
 without talking to your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -395,7 +398,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vokanamet"
@@ -408,7 +411,7 @@ expiry date refers to the last day of that month.
 Do not store above 30 C.
 Do not use Vokanamet if the packaging is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -561,7 +564,7 @@ A. Menarini Farmaceutica Internazionale S.R.L.
 Tel: +44 (0)1628 856menarini@medinformation.co.uk
 This leaflet was approved in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -600,7 +603,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -609,7 +614,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -624,7 +630,7 @@ Usage: #inline
 3. Sådan skal du tage Vokanamet
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -648,7 +654,7 @@ Type 2-diabetes er en tilstand, hvor kroppen ikke producerer nok insulin, og hvo
 kroppen producerer, ikke virker tilstrækkeligt. Det er også muligt, at kroppen producerer for meget 
 sukker. Når det er tilfældet, sker der en ophobning af sukker (glucose) i blodet. Det kan føre til en 
 række alvorlige helbredsmæssige problemer såsom hjertesygdom, nyresygdom, blindhed og 
-amputation.</p>         </div>"""   
+amputation.</p> </div>"""   
           
 
              
@@ -847,7 +853,7 @@ din evne til at køre bil, cykle og bruge værktøj og maskiner. Kontakt lægen 
 bemærker tegn på lavt blodsukker.
 Vokanamet indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vokanamet"
@@ -899,7 +905,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis
 Hvis du holder op med at tage Vokanamet
 Dit blodsukker kan stige, hvis du holder op med at tage dette lægemiddel. Kontakt lægen, hvis du 
 ønsker at holde pause eller stoppe behandlingen med Vokanamet.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1046,7 +1052,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vokanamet"
@@ -1060,7 +1066,7 @@ Må ikke opbevares ved temperaturer over 30 °C.
 Brug ikke Vokanamet, hvis pakningen er beskadiget eller viser tegn på, at den har været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-59</p>         </div>"""      
+59</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1255,7 +1261,7 @@ menarini@medinformation.co.uk
 Denne indlægssdeddel blev senest ændret {måned ÅÅÅÅ}.
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1294,7 +1300,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1303,7 +1311,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1318,7 +1327,7 @@ Usage: #inline
 3. Como tomar Vokanamet
 4. Efeitos indesejáveis possíveis
 5. Como conservar Vokanamet
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1343,7 +1352,7 @@ A diabetes tipo 2 é uma doença na qual o corpo não produz insulina suficiente
 produz não atua bem como devia. O seu corpo também pode produzir demasiado açúcar. Quando isto 
 acontece, o açúcar (glicose) acumula-se no sangue. Isto pode conduzir a problemas médicos graves, 
 tais como doença do coração, doença dos rins, cegueira e amputação.
-56</p>         </div>"""   
+56</p> </div>"""   
           
 
              
@@ -1550,7 +1559,7 @@ conduzir, andar de bicicleta e de usar quaisquer ferramentas ou máquinas. Fale 
 assim que possível se desenvolver sinais de níveis baixos de açúcar no sangue.
 Vokanamet contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vokanamet"
@@ -1606,7 +1615,7 @@ Os seus níveis de açúcar no sangue podem subir se parar de tomar este medicam
 tomar este medicamento sem falar primeiro com o seu médico.
 60
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1758,7 +1767,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vokanamet"
@@ -1772,7 +1781,7 @@ Não conservar acima de 30°C.
 Não utilize Vokanamet se a embalagem estiver danificada ou mostrar sinais de deterioração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1971,7 +1980,7 @@ Tel: +44 (0)1628 856400
 menarini@medinformation.co.uk
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

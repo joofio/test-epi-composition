@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Akeega</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ and helping to control the cancer.
 Abiraterone stops your body from making testosterone; this can slow the growth of prostate cancer.
 When you take this medicine, your doctor will also prescribe another medicine called prednisone or 
 prednisolone. This is to lower your chances of getting high blood pressure, having too much water in 
-your body (fluid retention), or having reduced levels of a chemical known as potassium in your blood.</p>         </div>"""   
+your body (fluid retention), or having reduced levels of a chemical known as potassium in your blood.</p> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ Akeega contains lactose and sodium</p>
 <p>Akeega contains lactose. If you have been told by your doctor that you have an intolerance to 
 some sugars, contact your doctor before taking this medicine.</p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take akeega"
@@ -205,7 +208,7 @@ Do not take a double dose to make up for a forgotten dose.
 If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.
 If you stop taking Akeega
 Do not stop taking Akeega or prednisone or prednisolone unless your doctor tells you to.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -315,7 +318,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store akeega"
@@ -327,7 +330,7 @@ Do not use this medicine after the expiry date which is stated on the container 
 wallet, outer wallet, and carton) after EXP. The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -439,7 +442,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in MM/YYYY.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -478,7 +481,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -487,7 +492,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -502,7 +508,7 @@ Usage: #inline
 3. Sådan skal du tage Akeega
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -524,7 +530,7 @@ Abirateron hindrer kroppen i at fremstille testosteron og kan derved nedsætte v
 prostatacancer.
 Mens du er i behandling med dette lægemiddel, vil din læge også ordinere enten prednison eller 
 prednisolon til dig. Derved nedsættes risikoen for, at du får højt blodtryk, for meget væske i kroppen 
-(væskeretention) eller nedsat indhold af mineralet kalium i blodet.</p>         </div>"""   
+(væskeretention) eller nedsat indhold af mineralet kalium i blodet.</p> </div>"""   
           
 
              
@@ -637,7 +643,7 @@ Akeega indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis
 dig, at du ikke tåler visse sukkerarter.
 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr.dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take akeega"
@@ -678,7 +684,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.
 Hvis du holder op med at tage Akeega
 Hold ikke op med at tage Akeega, prednison eller prednisolon, medmindre lægen anbefaler det.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -862,7 +868,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store akeega"
@@ -874,7 +880,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen (blisterfol
 æske) efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1044,7 +1050,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel (se punkt 4).
-Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -1083,7 +1089,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1092,7 +1100,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1107,7 +1116,7 @@ Usage: #inline
 3. Como tomar Akeega
 4. Efeitos indesejáveis possíveis
 5. Como conservar Akeega
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1130,7 +1139,7 @@ cancro da próstata.
 Quando tomar este medicamento, o seu médico também irá receitar-lhe outro medicamento chamado 
 prednisona ou prednisolona. Este é usado para diminuir as hipóteses de ter tensão arterial alta, de ter 
 demasiada água acumulada no seu organismo (retenção de fluidos) ou de ter níveis baixos, no seu 
-sangue, de uma substância química conhecida por potássio.</p>         </div>"""   
+sangue, de uma substância química conhecida por potássio.</p> </div>"""   
           
 
              
@@ -1245,7 +1254,7 @@ Akeega contém lactose. Se foi informado pelo seu médico que tem intolerância 
 açúcares, contacte-o antes de tomar este medicamento.
 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar akeega"
@@ -1297,7 +1306,7 @@ Se parar de tomar Akeega
 Não pare de tomar Akeega, prednisona ou prednisolona a não ser que o seu médico lhe diga 
 para parar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1481,7 +1490,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar akeega"
@@ -1496,7 +1505,7 @@ O medicamento não necessita de quaisquer precauções especiais de conservaçã
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-50</p>         </div>"""      
+50</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1649,7 +1658,7 @@ medinfo@its.jnj.com
 52
 Este folheto foi revisto pela última vez em MM/AAAA.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

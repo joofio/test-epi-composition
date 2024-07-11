@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store CARVYKTI</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ How CARVYKTI works</p>
 <p>The white blood cells taken from your blood are modified in the laboratory to insert a gene that 
 allows them to make a protein called chimeric antigen receptor (CAR).</p>
 <p>The CAR can attach to a specific protein on the surface of myeloma cells allowing your white 
-blood cells to recognise and attack the myeloma cells.</p>         </div>"""   
+blood cells to recognise and attack the myeloma cells.</p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ symptoms return.
 CARVYKTI contains dimethyl sulfoxide (DMSO) and kanamycin
 This medicine contains DMSO (a substance used to preserve frozen cells) and may contain traces of 
 kanamycin (an aminoglycoside antibiotic), both of which can sometimes cause allergic reactions. Your 
-doctor will monitor you for any signs of a possible allergic reaction.</p>         </div>"""   
+doctor will monitor you for any signs of a possible allergic reaction.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take carvykti"
@@ -211,7 +214,7 @@ possible to make a new appointment.</p>
 better understand the long-term effects of CARVYKTI.</p>
 <p>Having CARVYKTI in your blood may cause some commercial HIV tests to incorrectly give 
 you a HIV positive result even though you may be HIV negative.</p>
-<p>Do not donate blood, organs, tissues or cells for transplants after you have had CARVYKTI.</p>         </div>"""         
+<p>Do not donate blood, organs, tissues or cells for transplants after you have had CARVYKTI.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store carvykti"
@@ -310,7 +313,7 @@ medicine.</p>         </div>"""
 Do not use this medicine after the expiry date which is stated on the container label and infusion bag
 after  EXP .
 Store frozen in vapour phase of liquid nitrogen (  -120  C) until thawed for use.
-Do not refreeze.</p>         </div>"""      
+Do not refreeze.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -425,7 +428,7 @@ This means that there is more evidence to come about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -464,7 +467,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -473,7 +478,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -488,7 +494,7 @@ Usage: #inline
 3. Sådan gives CARVYKTI
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -508,7 +514,7 @@ De hvide blodlegemer, der tages fra dit blod, modificeres på laboratoriet, hvor
 gen, som gør dem i stand til at danne et protein, der kaldes kimærisk antigenreceptor (CAR).
 
 CAR kan binde til et specifikt protein på overfladen af myelomceller, så dine hvide blodlegemer 
-kan genkende og angribe myelomcellerne.</p>         </div>"""   
+kan genkende og angribe myelomcellerne.</p> </div>"""   
           
 
              
@@ -611,7 +617,7 @@ fået CARVYKTI, og hvis disse symptomer vender tilbage.
 CARVYKTI indeholder dimethylsulfoxid (DMSO) og kanamycin
 Dette lægemiddel indeholder DMSO (et stof, som bruges til at konservere frosne celler), og det kan 
 indeholde spor af kanamycin (et såkaldt aminoglycosid-antibiotikum), som begge nogle gange kan 
-give allergiske reaktioner. Lægen vil overvåge dig for eventuelle tegn på en allergisk reaktion.</p>         </div>"""   
+give allergiske reaktioner. Lægen vil overvåge dig for eventuelle tegn på en allergisk reaktion.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take carvykti"
@@ -647,7 +653,7 @@ Antihistaminer, som er lægemidler mod en allergisk reaktion - for eksempel diph
 lægemidler mod feber - for eksempel paracetamol.
 Lægen eller sygeplejersken vil omhyggeligt kontrollere, at den CARVYKTI-behandling, du får, 
 stammer fra dine egne hvide blodlegemer.
-4</p>         </div>"""         
+4</p> </div>"""         
 
         
 * section[=].section[+]
@@ -687,7 +693,7 @@ At du har CARVYKTI i blodet kan betyde, at visse hiv-test på markedet giver et 
 positivt svar, selvom du er hiv-negativ.
 
 Du må ikke donere blod, organer, væv eller celler til transplantationer, efter at du har fået 
-CARVYKTI.</p>         </div>"""      
+CARVYKTI.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store carvykti"
@@ -827,7 +833,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dett
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -839,7 +845,7 @@ om sikkerheden af dette lægemiddel.</p>         </div>"""
 Brug ikke lægemidlet efter den udløbsdato, der står på beholderens etiket og infusionsposen efter 
 "EXP".
 Opbevares nedfrosset i dampfasen af flydende nitrogen (≤ -120 °C), indtil det optøs til brug.
-Må ikke genfryses.</p>         </div>"""      
+Må ikke genfryses.</p> </div>"""      
 
 
 

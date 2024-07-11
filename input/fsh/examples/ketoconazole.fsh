@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ketoconazole HRA  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ adults and adolescents above the age of 12 years. </p>
 <p>Cushing s syndrome is caused by overproduction of a hormone called cortisol which is produced by the adrenal 
 glands. Ketoconazole HRA is able to block the activity of the enzymes responsible for the synthesis of cortisol 
 and consequently is able to decrease the over-production of cortisol by your body and to improve the symptoms 
-of Cushing s syndrome. </p>         </div>"""   
+of Cushing s syndrome. </p> </div>"""   
           
 
              
@@ -196,7 +199,7 @@ Dizziness or somnolence have been reported during treatement with Ketoconazole H
 operate machines if you experience these symptoms. </p>
 <p>Ketoconazole HRA contains lactose 
 If you have been told by your doctor that you have intolerance to some sugars, contact your doctor before 
-taking this medicinal product. </p>         </div>"""   
+taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ketoconazole"
@@ -222,7 +225,7 @@ yourself. </p>
 <p>If you stop taking Ketoconazole HRA 
 If you interrupt your treatment with Ketoconazole HRA your cortisol level may increase again and your 
 symptoms may come back. Therefore, do not stop taking Ketoconazole HRA unless your doctor tells you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -315,7 +318,7 @@ mostly produced in the testes </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this leaflet. 
 You can also report side effects directly via the national reporting system listed in Appendix V. By reporting 
-side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ketoconazole"
@@ -329,7 +332,7 @@ The expiry date refers to the last day of that month. </li>
 <li>This medicine does not require any special storage conditions  </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -360,7 +363,7 @@ ul. J zef w 9,
 Poland </p>
 <p>This leaflet was last revised in. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -399,7 +402,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -408,7 +413,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -425,7 +431,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -439,7 +445,7 @@ kortisol) hos voksne og unge over 12 år. </p>
 <p>Cushings syndrom skyldes overproduktion af et hormon, der hedder kortisol og produceres i binyrerne. 
 Ketoconazole HRA kan blokere aktiviteten af de enzymer, der har ansvaret for dannelse (syntese) af kortisol. 
 Ketoconazole HRA kan derfor reducere kroppens overproduktion af kortisol og dermed forbedre 
-symptomerne på Cushings syndrom. </p>         </div>"""   
+symptomerne på Cushings syndrom. </p> </div>"""   
           
 
              
@@ -563,7 +569,7 @@ Du må ikke amme dit barn, hvis du tager Ketoconazole HRA. </p>
 Svimmelhed eller søvnighed er rapporteret under behandling med Ketoconazole HRA. Du må ikke køre bil 
 eller arbejde med maskiner, hvis du oplever disse symptomer. </p>
 <p>Ketoconazole HRA indeholder lactose 
-Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ketoconazole"
@@ -589,7 +595,7 @@ foreskrevne dosis. </p>
 Hvis du afbryder din behandling med Ketoconazole HRA, kan dit kortisolniveau stige igen og dine 
 symptomer vende tilbage. Derfor må du ikke holde op med at tage Ketoconazole HRA, medmindre lægen 
 siger det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -763,7 +769,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ketoconazole"
@@ -777,7 +783,7 @@ sidste dag i den nævnte måned. </li>
 <li>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </li>
 <li>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -811,7 +817,7 @@ Polen </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og om, 
-hvordan de behandles.  </p>         </div>"""      
+hvordan de behandles.  </p> </div>"""      
 
 
 
@@ -850,7 +856,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -859,7 +867,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -876,7 +885,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Ketoconazole HRA  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -890,7 +899,7 @@ um excesso de cortisol) em adultos e adolescentes com idades superiores a 12 ano
 <p>A síndrome de Cushing é causada pelo excesso de produção de uma hormona denominada cortisol, que é 
 produzida pelas glândulas adrenais. O Ketoconazole HRA consegue bloquear a atividade das enzimas 
 responsáveis pela síntese do cortisol e, consequentemente, consegue diminuir o excesso de produção de 
-cortisol pelo seu organismo e de melhorar os sintomas da síndrome de Cushing. </p>         </div>"""   
+cortisol pelo seu organismo e de melhorar os sintomas da síndrome de Cushing. </p> </div>"""   
           
 
              
@@ -1013,7 +1022,7 @@ Foram comunicadas tonturas ou sonolência durante o tratamento com Ketoconazole 
 opere máquinas se sentir estes sintomas. </p>
 <p>Ketoconazole HRA contém lactose 
 Se tiver sido informado pelo seu médico que tem intolerância a alguns açúcares, contacte o seu médico antes 
-de tomar este medicamento. </p>         </div>"""   
+de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ketoconazole"
@@ -1041,7 +1050,7 @@ assim como estabelecido. Não altere a dose prescrita por sua iniciativa. </p>
 Caso interrompa o seu tratamento com Ketoconazole HRA, o seu nível de cortisol poderá novamente 
 aumentar e os seus sintomas poderão voltar. Assim, não deixe de tomar Ketoconazole HRA a menos que o 
 seu médico o indique. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1227,7 +1236,7 @@ testículos </p>
 Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste folheto, 
 fale com o seu médico. Também poderá comunicar efeitos secundários diretamente através do sistema 
 nacional de notificação mencionado no Anexo V. Ao comunicar efeitos secundários, estará a ajudar a 
-fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ketoconazole"
@@ -1242,7 +1251,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </li
 <li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como pode deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1275,7 +1284,7 @@ ul. Józefów 9,
 Polónia </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store NovoEight  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ a protein naturally found in the blood that helps it to clot. </p>
 <p>NovoEight is used to treat and prevent bleeding episodes in patients with haemophilia A (inborn factor 
 VIII deficiency) and can be used for all age groups. </p>
 <p>In patients with haemophilia A, factor VIII is missing or not working properly. NovoEight replaces 
-this faulty or missing  factor VIII  and helps blood to form clots at the site of bleeding. </p>         </div>"""   
+this faulty or missing  factor VIII  and helps blood to form clots at the site of bleeding. </p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ NovoEight has no influence on your ability to drive and use machines. </p>
 <p>NovoEight contains sodium 
 This medicine contains 30.5 mg sodium (main component of cooking/table salt) per reconstituted vial.<br />
 This is equivalent to 1.5% of the recommended maximum dietary intake of sodium for an adult. </p>
-<p>Talk to your doctor if you are on a controlled sodium diet. </p>         </div>"""   
+<p>Talk to your doctor if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novoeight"
@@ -154,7 +157,7 @@ this.  </p>
 <p>If you stop using NovoEight 
 If you stop using NovoEight you may no longer be protected against bleeding or a current bleed may 
 not stop. Do not stop using NovoEight without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ The side effects observed in children and adolescents are the same as observed i
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novoeight"
@@ -253,7 +256,7 @@ colour has changed. </p>
 <p>The reconstituted solution will be clear to slightly opalescent. Do not use this medicine if you notice 
 that it is cloudy or contains visible particles. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -280,7 +283,7 @@ Novo All<br />
 DK-2880 Bagsv rd, Denmark </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -319,7 +322,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -328,7 +333,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -343,7 +349,7 @@ Usage: #inline
 3. Sådan skal du bruge NovoEight 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -356,7 +362,7 @@ protein der findes naturligt i blodet og er medhjælpende til, at det størkner.
 <p>NovoEight anvendes til at behandle og forebygge blødningsepisoder hos patienter med hæmofili A (medfødt 
 faktor VIII mangel) og kan bruges af alle aldersgrupper. </p>
 <p>Hos patienter med hæmofili A mangler eller virker faktor VIII ikke korrekt. NovoEight erstatter denne 
-defekte eller manglende ’faktor VIII’ og hjælper blodet til at størkne ved blødningstedet. </p>         </div>"""   
+defekte eller manglende ’faktor VIII’ og hjælper blodet til at størkne ved blødningstedet. </p> </div>"""   
           
 
              
@@ -405,7 +411,7 @@ NovoEight har ingen indflydelse på din evne til at køre bil eller til at arbej
 <p>NovoEight indeholder natrium 
 Dette lægemiddel indeholder 30,5 mg natrium (hovedbestanddel i køkken/bordsalt) per hætteglas efter 
 opblanding. Dette svarer til 1,5% af det højst anbefalede indtag af natrium i kosten for en voksen. </p>
-<p>Tal med din læge, hvis du er på en kontrolleret natriumdiæt.  </p>         </div>"""   
+<p>Tal med din læge, hvis du er på en kontrolleret natriumdiæt.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novoeight"
@@ -436,7 +442,7 @@ Kontakt lægen, hvis du har glemt en dosis, og du ikke ved, hvordan man kompense
 Hvis du holder op med at bruge NovoEight, er du ikke beskyttet mod blødning eller mod at en igangværende 
 blødning ikke vil ophøre. Du må ikke holde op med at bruge NovoEight uden først at have talt med din læge 
 om det. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -569,7 +575,7 @@ Bivirkningerne observeret hos børn og unge er de samme som dem, der er observer
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novoeight"
@@ -614,7 +620,7 @@ forandret. </p>
 <p>Den opblandede opløsning er klar eller let opaliserende. Brug ikke lægemidlet hvis du opdager, at det er 
 uklart eller indeholder synlige partikler. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -936,7 +942,7 @@ andet affald, som instrueret af apotekspersonalet. </li>
 <p>Smid det ikke ud med husholdningsaffaldet. </p>
 <p>M </p>
 <p>Skil ikke udstyret ad før bortskaffelse. </p>
-<p>Genbrug ikke udstyret. </p>         </div>"""      
+<p>Genbrug ikke udstyret. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Mvabea</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -108,7 +111,7 @@ Talk to your doctor, pharmacist or nurse first to decide if you should be given 
 How the vaccine works
 The Zabdeno and Mvabea 2-dose vaccine course stimulates the body s natural defences (immune 
 system). The vaccine works by causing the body to produce its own protection (antibodies) against the 
-virus that causes the Ebola infection. This will help to protect against Ebola virus disease in the future.</p>         </div>"""   
+virus that causes the Ebola infection. This will help to protect against Ebola virus disease in the future.</p> </div>"""   
           
 
              
@@ -179,7 +182,7 @@ Driving and using machines
 Mvabea has no known effect on the ability to drive and use machines.
 Mvabea contains Sodium
 Mvabea contains less than 1 mmol sodium (23 mg) per dose of 0.5 mL, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mvabea"
@@ -221,7 +224,7 @@ Mvabea.
 If you miss an appointment for vaccination of Zabdeno or Mvabea</p>
 <p>If you miss an appointment, tell your doctor and arrange another visit.</p>
 <p>If you miss a scheduled injection, you may not be fully protected from Ebola virus.</p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor.</p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -267,7 +270,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mvabea"
@@ -278,7 +281,7 @@ safety of this medicine.</p>         </div>"""
 Information about storage, expiry, and use and handling are described in the section intended for 
 healthcare professionals at the end of the leaflet.
 Your doctor or pharmacist is responsible for storing this vaccine and disposing of any unused product 
-correctly.</p>         </div>"""      
+correctly.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -453,7 +456,7 @@ and/or the new expiry date assigned for the -25 C to -15 C storage condition sho
 unreadable.
 Once thawed, the vaccine cannot be refrozen.
 The vial must be kept in the original package in order to protect from light and to track the expiry or 
-discard date for the different storage conditions.</p>         </div>"""      
+discard date for the different storage conditions.</p> </div>"""      
 
 
 
@@ -492,7 +495,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -501,7 +506,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -516,7 +522,7 @@ Usage: #inline
 3. Sådan gives Mvabea
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -572,7 +578,7 @@ Sådan virker vaccinen
 2-dosis-vaccineforløbet med Zabdeno og Mvabea stimulerer kroppens naturlige forsvar 
 (immunsystemet). Vaccinen virker ved at få kroppen til at producere sin egen beskyttelse (antistoffer) 
 mod den virus, som forårsager Ebola-infektion. Dette hjælper med at beskytte mod Ebola-
-virussygdom i fremtiden.</p>         </div>"""   
+virussygdom i fremtiden.</p> </div>"""   
           
 
              
@@ -667,7 +673,7 @@ Mvabea påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøret
 Mvabea indeholder natrium
 Mvabea indeholder mindre end 1 mmol (23 mg) natrium pr. dosis på 0,5 ml, dvs. det er i det 
 væsentlige natriumfrit.
-29</p>         </div>"""   
+29</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mvabea"
@@ -721,7 +727,7 @@ Kontakt lægen for at få en ny tid, hvis du har glemt en aftale
 Hvis du glemmer en planlagt injektion, er du muligvis ikke fuldt beskyttet mod Ebola-virus
 30
 
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -790,7 +796,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 31
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mvabea"
@@ -801,7 +807,7 @@ information om sikkerheden af dette lægemiddel.</p>         </div>"""
 Oplysninger om opbevaring, udløb og brug og håndtering er anført i afsnittet til læger og 
 sundhedspersonale sidst i indlægssedlen.
 Lægen eller apotekspersonalet har ansvaret for opbevaring af denne vaccine og korrekt bortskaffelse 
-af ikke anvendt produkt.</p>         </div>"""      
+af ikke anvendt produkt.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1029,7 +1035,7 @@ nye udløbsdato, der er angivet for opbevaring ved -25 °C til -15 °C. Den opri
 og/eller nye udløbsdato, der er angivet for opbevaring ved -25 °C til -15 °C, bør gøres ulæselig.
 Efter optøning må vaccinen ikke nedfryses igen.
 Hætteglasset skal opbevares i den originale emballage for at beskytte mod lys og for at spore udløbs-
-eller bortskaffelsesdatoen for de forskellige opbevaringsbetingelser.</p>         </div>"""      
+eller bortskaffelsesdatoen for de forskellige opbevaringsbetingelser.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NovoRapid </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ complications from your diabetes. </p>
 <p>NovoRapid will start to lower your blood sugar 10 20 minutes after you inject it, a maximum effect 
 occurs between 1 and 3 hours after the injection and the effect lasts for 3 5 hours. Due to this short 
 action NovoRapid should normally be taken in combination with intermediate-acting or long-acting 
-insulin preparations. Moreover NovoRapid can be used for continuous infusion in a pump system. </p>         </div>"""   
+insulin preparations. Moreover NovoRapid can be used for continuous infusion in a pump system. </p> </div>"""   
           
 
              
@@ -181,7 +184,7 @@ yourself or others. </p>
 after an injection when compared to soluble human insulin. </p>
 <p>Important information about some of the ingredients of NovoRapid </p>
 <p>NovoRapid contains less than 1 mmol sodium (23 mg) per dose, i.e. NovoRapid is essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novorapid"
@@ -264,7 +267,7 @@ serious and very common side effects in section 4. If you forget to take your in
 from diabetes in section 4. If you stop taking your insulin </p>
 <p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
 done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
-Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -357,7 +360,7 @@ fruity (acetone) smell of the breath. </p>
 can, then seek medical advice immediately. </p>
 <p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
 the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
-could lead to diabetic coma and eventually death. </p>         </div>"""      
+could lead to diabetic coma and eventually death. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novorapid"
@@ -373,7 +376,7 @@ Keep the vial in the outer carton in order to protect it from light.  </p>
 below 30 C. Do not refrigerate or freeze. </p>
 <p>Discard the needle after each injection. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -411,7 +414,7 @@ important information for you. </p>
 even if their signs of illness are the same as yours. </li>
 <li>If you get any side effects, talk with your doctor, nurse or pharmacist. This includes any 
 possible side effects not listed in this leaflet. See section 4.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -450,7 +453,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -459,7 +464,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -476,7 +482,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -493,7 +499,7 @@ med til at forhindre komplikationer relateret til din diabetes. </p>
 <p>NovoRapid vil begynde at nedsætte dit blodsukker 10-20 minutter efter injektion, maksimal effekt ses 
 mellem 1 og 3 timer efter injektionen, og effekten varer 3-5 timer. På grund af den korte virkning skal 
 NovoRapid normalt gives i kombination med et insulinpræparat med mellemlang eller lang 
-virkningstid. NovoRapid kan også anvendes til kontinuert infusion i et pumpesystem. </p>         </div>"""   
+virkningstid. NovoRapid kan også anvendes til kontinuert infusion i et pumpesystem. </p> </div>"""   
           
 
              
@@ -652,7 +658,7 @@ dig selv eller andre i fare. </p>
 injektion sammenlignet med opløseligt humaninsulin. </p>
 <p>Vigtig information om nogle af indholdsstofferne i NovoRapid </p>
 <p>NovoRapid indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. NovoRapid er stort set 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novorapid"
@@ -746,7 +752,7 @@ alvorlige og meget almindelige bivirkninger under punkt 4. Hvis du har glemt at 
 diabetes under punkt 4. Hvis du holder op med at tage insulin </p>
 <p>Stop ikke med at tage insulin uden først at tale med din læge, der kan fortælle dig, hvad der skal gøres. 
 Dette kan føre til meget højt blodsukker (alvorlig hyperglykæmi) og ketoacidose. Se c) Følger af 
-diabetes under punkt 4. Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+diabetes under punkt 4. Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -880,7 +886,7 @@ din urin for ketonstoffer og søg straks lægehjælp.
 ► 
 Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet diabetisk ketoacidose 
 (ophobning af syre i blodet, da kroppen nedbryder fedt i stedet for sukker). Denne tilstand kan </p>
-<p>ubehandlet resultere i diabetisk koma og i værste fald død. </p>         </div>"""      
+<p>ubehandlet resultere i diabetisk koma og i værste fald død. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novorapid"
@@ -897,7 +903,7 @@ fryses. </p>
 temperaturer under 30°C. Må ikke opbevares i køleskab eller fryses. </p>
 <p>Kassér nålen efter hver injektion. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -947,7 +953,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Tal med lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -986,7 +992,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -995,7 +1003,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1012,7 +1021,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar NovoRapid </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1030,7 +1039,7 @@ tratamento com NovoRapid ajuda a prevenir as complicações da sua diabetes. </p
 um efeito máximo entre 1 e 3 horas após a injeção e o efeito dura 3-5 horas. Devido à sua ação curta, 
 NovoRapid deve ser normalmente administrado em associação com preparações de insulina de ação 
 intermédia ou prolongada. NovoRapid pode, ainda, ser utilizado para perfusão contínua num sistema 
-de bomba de perfusão. </p>         </div>"""   
+de bomba de perfusão. </p> </div>"""   
           
 
              
@@ -1195,7 +1204,7 @@ conta que pode colocar-se a si próprio ou a outras pessoas em perigo. </p>
 surgir pouco depois da injeção, quando comparada com a insulina humana solúvel. </p>
 <p>Informações importantes sobre alguns componentes de NovoRapid </p>
 <p>NovoRapid contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, NovoRapid é, 
-praticamente, ‘isento de sódio’. </p>         </div>"""   
+praticamente, ‘isento de sódio’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar novorapid"
@@ -1302,7 +1311,7 @@ Se parar de tomar a sua insulina </p>
 Esta situação pode levar a um nível muito alto de açúcar no sangue (hiperglicemia grave) e 
 cetoacidose. Ver c) Efeitos da diabetes, na secção 4.<br />
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, enfermeiro ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1446,7 +1455,7 @@ cetónicos na urina, se puder, e depois procure auxílio médico imediatamente.
 Estes podem ser sinais de um problema muito grave chamado cetoacidose diabética 
 (acumulação de ácidos no sangue, dado que o sangue está a decompor gordura em vez de 
 açúcar). Caso não seja tratada, esta situação pode conduzir a coma diabético e, eventualmente, à 
-morte. </p>         </div>"""      
+morte. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar novorapid"
@@ -1465,7 +1474,7 @@ refrigerar nem congelar. </p>
 <p>Deite a agulha fora depois de cada injeção. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1495,7 +1504,7 @@ de 1 frasco para injetáveis x 10 ml. É possível que não sejam comercializada
 <p>Novo Nordisk A/S, Novo Allé, DK-2880 Bagsværd, Dinamarca </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

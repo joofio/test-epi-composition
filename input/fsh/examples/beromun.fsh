@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Beromun </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ help your body s immune system fight cancer cells. </p>
 <p>Beromun is used, together with melphalan containing medicine, for the treatment of soft tissue 
 sarcoma of the arms and legs. By reducing the size of the tumour, the treatment is intended to facilitate 
 the removal of the tumor by surgery or to prevent severe damage to the surrounding healthy tissue and 
-thus to delay or prevent the need for arm or leg amputation.  </p>         </div>"""   
+thus to delay or prevent the need for arm or leg amputation.  </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ You must not breast-feed for at least seven days after treatment with Beromun. <
 Not relevant </p>
 <p>Beromun contains sodium 
 This medicine contains 151.27 mg (6.58mmol) sodium in each recommended dose. This is equivalent 
-to 7.6% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+to 7.6% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take beromun"
@@ -160,7 +163,7 @@ start adequate treatment. </p>
 <p>If there is significant systemic leakage of Beromun 
 If more than 10% of your Beromun dose reaches the main part of your body, your doctor will take 
 similar measures as in the case of overdose.  </p>
-<p>If you have any further questions on the use of this product, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -219,7 +222,7 @@ require amputation </p>
 <p>Reporting of side effects 
 If you get any side effects talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store beromun"
@@ -229,7 +232,7 @@ By reporting side effects you can help provide more information on the safety of
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
-<p>Store in a refrigerator (2 C - 8 C). Upon reconstitution the product should be used immediately. </p>         </div>"""      
+<p>Store in a refrigerator (2 C - 8 C). Upon reconstitution the product should be used immediately. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ L-1117 Luxembourg
 Grand Duchy of Luxembourg 
 Tel : +352 27403This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -303,7 +306,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -312,7 +317,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -327,7 +333,7 @@ Usage: #inline
 3. Sådan skal du bruge Beromun 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -341,7 +347,7 @@ immunstimulanter. Disse hjælper dit immunsystem med at bekæmpe kræftceller. <
 <p>Beromun bruges sammen med lægemidlet melfalan til at behandle bløddelssvulster i arme eller ben. 
 Behandlingen gives for at mindske størrelsen af svulsten og dermed gøre det lettere at fjerne svulsten 
 kirurgisk. Den gives også for at forebygge alvorlige skader på det omgivende sunde væv, så 
-amputation af armen eller benet kan udsættes eller helt undgås. </p>         </div>"""   
+amputation af armen eller benet kan udsættes eller helt undgås. </p> </div>"""   
           
 
              
@@ -396,7 +402,7 @@ Ikke relevant. </p>
 Den rekonstituerede medicin indeholder op til 151,27 mg (6,58 mmol) natrium per anbefalet dosis. 
 Hvis du er på natrium- eller saltfattig diæt, skal du tage hensyn hertil. </p>
 <p>Beholderen indeholder latexgummi 
-Denne lægemiddelbeholder indeholder naturgummi/latex. Kan medføre svære allergiske reaktioner. </p>         </div>"""   
+Denne lægemiddelbeholder indeholder naturgummi/latex. Kan medføre svære allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take beromun"
@@ -431,7 +437,7 @@ påbegyndelse af en passende behandling. </p>
 <p>Hvis der sker en betydningsfuld systemisk lækage af Beromun 
 Hvis mere end 10 % af Beromun-dosis når ud i resten af kroppen (også kaldet systemisk lækage), 
 tager lægen samme forholdsregler som ved overdosering. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -493,7 +499,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store beromun"
@@ -503,7 +509,7 @@ lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på hætteglasset efter Exp. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
-<p>Opbevares i køleskab (2 °C -8 °C). Efter rekonstitution skal produktet bruges med det samme. </p>         </div>"""      
+<p>Opbevares i køleskab (2 °C -8 °C). Efter rekonstitution skal produktet bruges med det samme. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -546,7 +552,7 @@ Denne indlægsseddel blev senest ændret  </p>
 <p>De kan finde yderligere oplysninger om Beromun på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside. </p>         </div>"""      
+hjemmeside. </p> </div>"""      
 
 
 

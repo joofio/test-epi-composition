@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Zinforo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ Zinforo is used to treat children (from birth) and adults with:</p>
 <p>infections of the skin and the tissues below the skin</p>
 <p>an infection of the lungs called  pneumonia 
 How Zinforo works
-Zinforo works by killing certain bacteria, which can cause serious infections.</p>         </div>"""   
+Zinforo works by killing certain bacteria, which can cause serious infections.</p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ If you are pregnant or breast-feeding, think you may be pregnant or are planning
 your doctor for advice before taking this medicine.
 Driving and using machines
 Zinforo may cause side effects such as dizziness. This may impair your ability to drive or operate 
-machinery.</p>         </div>"""   
+machinery.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zinforo"
@@ -145,7 +148,7 @@ If you use more Zinforo than you should
 If you think you have been given too much Zinforo, tell your doctor or nurse straight away.
 If you miss a dose of Zinforo
 If you think you have missed a dose, tell your doctor or nurse straight away.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -204,7 +207,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zinforo"
@@ -217,7 +220,7 @@ to the last day of that month.
 Store below 30 C.
 Store in the original package in order to protect from light.
 Medicines should not be disposed of via wastewater or household waste. The hospital will dispose of 
-any waste materials safely. These measures will help to protect the environment.</p>         </div>"""      
+any waste materials safely. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -311,7 +314,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
 Tel: +371 670 35 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -350,7 +353,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -359,7 +364,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -374,7 +380,7 @@ Usage: #inline
 3. Sådan får du Zinforo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -392,7 +398,7 @@ infektioner i huden og vævet under huden
 
 en infektion i lungerne kaldet "lungebetændelse"
 Sådan virker Zinforo
-Zinforo virker ved at dræbe bestemte bakterier, som kan forårsage alvorlige infektioner.</p>         </div>"""   
+Zinforo virker ved at dræbe bestemte bakterier, som kan forårsage alvorlige infektioner.</p> </div>"""   
           
 
              
@@ -446,7 +452,7 @@ Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægg
 du spørge din læge til råds, før du får dette lægemiddel.
 Trafik- og arbejdssikkerhed
 Zinforo kan give bivirkninger såsom svimmelhed. Dette kan forringe din evne til at køre bil eller 
-betjene maskiner.</p>         </div>"""   
+betjene maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zinforo"
@@ -470,7 +476,7 @@ sygeplejersken.
 26
 Hvis du mangler at få en dosis Zinforo
 Hvis du mener, at du mangler at få en dosis, skal du straks fortælle det til lægen eller sygeplejersken.
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -554,7 +560,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårør
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks
 V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel.</p>         </div>"""      
+af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zinforo"
@@ -568,7 +574,7 @@ Opbevares ved temperaturer under 30 °C.
 Opbevares i den originale yderpakning for at beskytte mod lys. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. Hospitalet vil bortskaffe ethvert 
-affaldsmateriale sikkert.</p>         </div>"""      
+affaldsmateriale sikkert.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -744,7 +750,7 @@ brugerens ansvar.
 Zinforos kompatibilitet med andre lægemidler er endnu ikke blevet fastslået. Zinforo bør ikke blandes 
 med eller fysisk tilsættes opløsninger indeholdende andre lægemidler.
 Hvert hætteglas er kun til engangsbrug.
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 
@@ -783,7 +789,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -792,7 +800,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -807,7 +816,7 @@ Usage: #inline
 3. Como utilizar Zinforo
 4. Efeitos indesejáveis possíveis
 5. Como conservar Zinforo
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -825,7 +834,7 @@ infeções da pele e de tecidos abaixo da pele.
 
 uma infeção dos pulmões chamada “pneumonia".
 Como funciona Zinforo
-Zinforo funciona matando determinadas bactérias, que podem causar infeções graves.</p>         </div>"""   
+Zinforo funciona matando determinadas bactérias, que podem causar infeções graves.</p> </div>"""   
           
 
              
@@ -879,7 +888,7 @@ Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar,
 antes de tomar este medicamento.
 Condução de veículos e utilização de máquinas
 Zinforo pode causar efeitos indesejáveis tais como tonturas. Isto pode comprometer a sua capacidade 
-de conduzir ou utilizar máquinas.</p>         </div>"""   
+de conduzir ou utilizar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zinforo"
@@ -904,7 +913,7 @@ imediatamente.
 Caso se tenha esquecido de utilizar Zinforo
 Se pensa ter-se esquecido de uma dose, informe o seu médico ou enfermeiro imediatamente.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.
-27</p>         </div>"""         
+27</p> </div>"""         
 
         
 * section[=].section[+]
@@ -988,7 +997,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zinforo"
@@ -1001,7 +1010,7 @@ corresponde ao último dia do mês indicado.
 Conservar a temperatura inferior a 30°C.
 Conservar na embalagem de origem para proteger da luz.
 Os medicamentos não devem ser eliminados na canalização ou no lixo doméstico. O hospital irá 
-eliminar quaisquer resíduos em segurança. Estas medidas irão ajudar a proteger o ambiente.</p>         </div>"""      
+eliminar quaisquer resíduos em segurança. Estas medidas irão ajudar a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1127,7 +1136,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: +371 670 35 775
 Este folheto foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

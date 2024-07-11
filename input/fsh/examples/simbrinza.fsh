@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store SIMBRINZA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ to a group of medicines called alpha-2 adrenergic receptor agonists. Both substa
 reduce pressure within the eye. </p>
 <p>SIMBRINZA is used to lower pressure in the eyes in adult patients (aged 18 years and over) who have 
 eye conditions known as glaucoma or ocular hypertension and whose high pressure in the eyes cannot 
-be controlled effectively by one medicine alone. </p>         </div>"""   
+be controlled effectively by one medicine alone. </p> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ SIMBRINZA may also cause dizziness, drowsiness or tiredness in some patients. </
 contact lenses. You should remove contact lenses before using this medicine and put them back 
 15 minutes afterwards. Benzalkonium chloride may also cause eye irritation, especially if you have 
 dry eyes or a disorder of the cornea (the clear layer at the front of the eye). If you feel abnormal eye 
-sensation, stinging or pain in the eye after using this medicine, talk to your doctor. </p>         </div>"""   
+sensation, stinging or pain in the eye after using this medicine, talk to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take simbrinza"
@@ -226,7 +229,7 @@ not use more than one drop in the affected eye(s) two times a day. </p>
 Do not stop using SIMBRINZA without first speaking to your doctor. If you stop using SIMBRINZA 
 the pressure in your eye will not be controlled, which could lead to loss of sight. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, optometrist (optician) or 
-pharmacist. </p>         </div>"""         
+pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -284,7 +287,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, optometrist (optician) or pharmacist. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store simbrinza"
@@ -299,7 +302,7 @@ The expiry date refers to the last day of that month. </p>
 down the date of opening on the carton in the space provided. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your optometrist (optician) 
 or pharmacist how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -405,7 +408,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -444,7 +447,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -453,7 +458,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -470,7 +476,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -484,7 +490,7 @@ af lægemidler, der kaldes alfa-2-adrenerge receptoragonister. De to stoffer arb
 sænke trykket i øjet. </p>
 <p>SIMBRINZA bruges til at sænke trykket i øjet hos voksne patienter (i alderen 18 år og derover), som 
 har øjenlidelserne glaukom (grøn stær) eller forhøjet tryk i øjet, og hvor det høje tryk i øjet ikke kan 
-bringes effektivt under kontrol med en medicin alene. </p>         </div>"""   
+bringes effektivt under kontrol med en medicin alene. </p> </div>"""   
           
 
              
@@ -573,7 +579,7 @@ kan også medføre svimmelhed, døsighed eller træthed hos nogle patienter. </p
 Du skal tage kontaktlinserne ud, inden lægemidlet bruges, og vente mindst 15 minutter, før du sætter 
 kontaktlinserne i igen. Benzalkoniumchlorid kan også give øjenirritation, især hvis du har tørre øjne 
 eller hornhinde problemer (det klare lag forrest i øjet). Hvis du har unormale fornemmelser i øjet 
-såsom svie eller smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p>         </div>"""   
+såsom svie eller smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take simbrinza"
@@ -629,7 +635,7 @@ glemte dosis. Brug ikke mere end 1 dråbe i det/de pågældende øje/øjne 2 gan
 Du må ikke holde op med at bruge SIMBRINZA, uden først at tale med din læge. Hvis du holder op 
 med at bruge SIMBRINZA uden at tale med din læge, vil trykket i øjet ikke blive holdt nede, hvilket 
 kan medføre tab af synet. </p>
-<p>Spørg lægen, øjenlægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, øjenlægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -724,7 +730,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store simbrinza"
@@ -738,7 +744,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Flasken skal kasseres 4 uger efter åbning for at forhindre øjeninfektioner, og en ny flaske skal tages i 
 brug. Skriv åbningsdatoen, hvor der er gjort plads til dette på kartonen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -864,7 +870,7 @@ Tel: +44 1276 698
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

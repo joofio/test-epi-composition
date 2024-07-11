@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Xromi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ The sickle cells also get stuck in blood vessels, blocking blood flow. This can 
 and organ damage. </p>
 <p>Xromi is used to prevent the complications of blocked blood vessels caused by Sickle Cell Disease in 
 patients over 2 years of age. Xromi will decrease the number of painful crises as well as the need for 
-hospitalisation as a result of the disease. </p>         </div>"""   
+hospitalisation as a result of the disease. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ while taking Xromi. Ask your doctor or pharmacist for advice. </p>
 shown not to affect you and you have discussed it with your doctor. </p>
 <p>Xromi contains methyl parahydroxybenzoate (E218) </p>
 <p>Xromi contains methyl parahydroxybenzoate (E218) which may cause allergic reactions (possibly 
-delayed). </p>         </div>"""   
+delayed). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xromi"
@@ -252,7 +255,7 @@ hands and feet becoming scaly, </li>
 <p>Tell your doctor. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Xromi </p>
 <p>Do not stop taking your medicine unless advised by your doctor. If you have any further questions on 
-the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -327,7 +330,7 @@ are concerned by any of these side effects. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xromi"
@@ -345,7 +348,7 @@ children. </li>
 accidental spillage. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -378,7 +381,7 @@ Dublin Road Business Park<br />
 Carraroe, Sligo<br />
 F91 DIreland </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -417,7 +420,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -426,7 +431,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -443,7 +449,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -461,7 +467,7 @@ anæmi (blodmangel).
 Seglceller kan også sætte sig fast i blodkarrene og blokere for blodstrømmen. Det kan give akutte 
 smertefulde kriser og organskade. </p>
 <p>Xromi anvendes til at forebygge komplikationer ved blokerede blodkar, der forårsages af seglcelle- anæmi hos patienter over 9 måneder. Xromi vil nedsætte antallet af smertefulde kriser og behovet for 
-indlæggelse i forbindelse med sygdommen. </p>         </div>"""   
+indlæggelse i forbindelse med sygdommen. </p> </div>"""   
           
 
              
@@ -556,7 +562,7 @@ Xromi. Spørg lægen eller sundhedspersonalet til råds. </p>
 konstateret, at du ikke føler dig påvirket - tal med lægen om det. </p>
 <p>Xromi indeholder methylparahydroxybenzoat (E218) </p>
 <p>Xromi indeholder methylparahydroxybenzoat (E218), der kan forårsage allergiske reaktioner 
-(eventuelt forsinkede). </p>         </div>"""   
+(eventuelt forsinkede). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xromi"
@@ -648,7 +654,7 @@ og fødder </li>
 <p>Sig det til lægen. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Xromi </p>
 <p>Du må ikke holde op med at tage lægemidlet uden at tale med lægen. Spørg lægen eller 
-apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -724,7 +730,7 @@ bekymret over nogen af følgende bivirkninger. </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xromi"
@@ -741,7 +747,7 @@ den sidste dag i den nævnte måned. </li>
 for utilsigtet spild. </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -776,7 +782,7 @@ F91 D439<br />
 Irland </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 

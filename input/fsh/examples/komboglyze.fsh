@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Komboglyze</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ insulin after a meal. They also lower the amount of sugar made by your body. Alo
 exercise, this helps lower your blood sugar. This medicine can be used alone or together with other
 antidiabetic medicines, including insulin.
 To control your diabetes, you still need to diet and exercise, even when you are taking this medicine. 
-So it is important to keep following the advice about diet and exercise from your doctor or nurse.</p>         </div>"""   
+So it is important to keep following the advice about diet and exercise from your doctor or nurse.</p> </div>"""   
           
 
              
@@ -212,7 +215,7 @@ Driving and using machines
 Saxagliptin and metformin have a negligible influence on the ability to drive and use machines.
 Hypoglycaemia may affect your ability to drive and use machines or work with safe foothold and there 
 is a risk of hypoglycaemia when taking this medicine in combination with medicines known to cause 
-hypoglycaemia such as insulin and sulphonylureas.</p>         </div>"""   
+hypoglycaemia such as insulin and sulphonylureas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take komboglyze"
@@ -247,7 +250,7 @@ time for your next dose, skip the missed dose and take your next dose at the usu
 If you stop taking Komboglyze
 Keep taking this medicine until your doctor tells you to stop. This is to help keep your blood sugar 
 under control.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -315,7 +318,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store komboglyze"
@@ -328,7 +331,7 @@ The expiry date refers to the last day of that month.
 Store below 25 C.
 Do not use this medicine if the package is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -428,7 +431,7 @@ SIA AstraZeneca Latvija
 Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -467,7 +470,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -476,7 +481,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -491,7 +497,7 @@ Usage: #inline
 3. Sådan skal du tage Komboglyze
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -513,7 +519,7 @@ Sammen med diæt og motion hjælper det med at sænke dit blodsukker. Dette læg
 anvendes alene eller sammen med anden medicin mod diabetes, herunder insulin.
 For at kontrollere din diabetes har du stadig brug for at holde diæt og at motionere, selv om du tager 
 denne medicin. Det er derfor vigtigt at blive ved med at følge din læges eller sygeplejerskes råd om 
-diæt og motion.</p>         </div>"""   
+diæt og motion.</p> </div>"""   
           
 
              
@@ -677,7 +683,7 @@ Saxagliptin og metformin påvirker kun i ubetydelig grad evnen til at føre moto
 maskiner. Lavt blodsukker (hypoglykæmi) kan påvirke evnen til at færdes sikkert i trafikken og 
 betjene maskiner og arbejde med sikkert fodfæste, og der er risiko for, at du får for lavt blodsukker, 
 hvis du tager denne medicin sammen med medicin, der er kendt for at medføre lavt blodsukker, som 
-for eksempel insulin og sulfonylurinstoffer.</p>         </div>"""   
+for eksempel insulin og sulfonylurinstoffer.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take komboglyze"
@@ -720,7 +726,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Komboglyze
 Fortsæt med at tage dette lægemiddel, indtil lægen siger, at du skal stoppe. Medicinen er med til at 
 holde dit blodsukker under kontrol.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -821,7 +827,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store komboglyze"
@@ -835,7 +841,7 @@ Opbevares ved temperaturer under 25 °C.
 Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på, at nogen har 
 forsøgt at åbne den.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -991,7 +997,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 

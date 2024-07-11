@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Darunavir Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ infection. </p>
 Darunavir is used to treat adults and children of 3 years of age and above, and at least 15 kilogram 
 body weight who are infected by HIV and who have already used other antiretroviral medicines. </p>
 <p>Darunavir must be taken in combination with a low dose of ritonavir and other anti-HIV medicines. 
-Your doctor will discuss with you which combination of medicines is best for you. </p>         </div>"""   
+Your doctor will discuss with you which combination of medicines is best for you. </p> </div>"""   
           
 
              
@@ -287,7 +290,7 @@ it with your doctor as soon as possible. </p>
 <p>Driving and using machines 
 Do not operate machines or drive if you feel dizzy after taking darunavir. </p>
 <p>Darunavir Mylan contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take darunavir"
@@ -413,7 +416,7 @@ regularly scheduled time. </p>
 <p>Do not stop taking Darunavir Mylan without talking to your doctor first 
 Anti-HIV medicines may make you feel better. Even when you feel better, do not stop taking 
 darunavir. Talk to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -489,7 +492,7 @@ serious. </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store darunavir"
@@ -502,7 +505,7 @@ after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>For bottles: Once opened, use within 100 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away any medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away any medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -602,7 +605,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited<br />
 Tel: +353 18711This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 

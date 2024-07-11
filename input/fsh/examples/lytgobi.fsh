@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Lytgobi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ receptor (FGFR), that helps regulate cell growth. Cancer cells may have an abnor
 protein. By blocking FGFR, futibatinib can prevent the growth of such cancer cells. </p>
 <p>Lytgobi is used on its own (monotherapy)to treat adults with bile duct cancer (also known as 
 cholangiocarcinoma) that has spread or cannot be removed by surgery in patients who have already 
-received previous treatment, and whose tumour has a certain type of abnormal  FGFR . </p>         </div>"""   
+received previous treatment, and whose tumour has a certain type of abnormal  FGFR . </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ machinery if this happens. </p>
 This medicine contains lactose (found in milk or dairy products). If you have been told by your doctor 
 that you have an intolerance to some sugars, contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lytgobi"
@@ -188,7 +191,7 @@ scheduled usual time.
 <p>If you stop taking Lytgobi 
 Do not stop taking Lytgobi without discussing it with your doctor, as stopping treatment could reduce 
 the success of therapy. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -232,7 +235,7 @@ light in the field of vision (photopsia).  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lytgobi"
@@ -244,7 +247,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -287,7 +290,7 @@ and this leaflet will be updated as necessary. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
-<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      
+<p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p> </div>"""      
 
 
 
@@ -326,7 +329,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -335,7 +340,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -352,7 +358,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -367,7 +373,7 @@ unormal form af dette protein. Ved at blokere FGFR kan futibatinib forhindre væ
 kræftceller. </p>
 <p>Lytgobi anvendes alene (monoterapi) til behandling af voksne med galdegangskræft (også kendt som 
 cholangiocarcinom), der har spredt sig eller ikke kan fjernes ved operation hos patienter, der allerede 
-har modtaget tidligere behandling, og hvis tumor har en bestemt type unormal "FGFR". </p>         </div>"""   
+har modtaget tidligere behandling, og hvis tumor har en bestemt type unormal "FGFR". </p> </div>"""   
           
 
              
@@ -485,7 +491,7 @@ betjene maskiner, hvis dette sker. </p>
 Dette lægemiddel indeholder lactose (findes i mælk eller mejeriprodukter). Kontakt lægen, før du 
 tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. 
 Dette lægemiddel indeholder under 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lytgobi"
@@ -526,7 +532,7 @@ sædvanlige tidspunkt. </p>
 <p>Hvis du holder op med at tage Lytgobi 
 Du må ikke holde op med at tage Lytgobi uden at tale med din læge, da det kan reducere 
 behandlingens succes, hvis du stopper. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -622,7 +628,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller s
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lytgobi"
@@ -634,7 +640,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
 den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller skraldespanden.   </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller skraldespanden.   </p> </div>"""      
         
         
 * section[=].section[+]
@@ -690,7 +696,7 @@ lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs </p>
 <p>hjemmeside: http://www.ema.europa.eu. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -729,7 +735,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -738,7 +746,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -755,7 +764,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Lytgobi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -771,7 +780,7 @@ futibatinib pode prevenir o crescimento de tais células cancerígenas. </p>
 <p>Lytgobi é utilizado isoladamente (monoterapia) para tratar adultos com cancro do canal biliar 
 (também conhecido como colangiocarcinoma) que se propagou ou não pode ser removido pela 
 cirurgia em doentes que já receberam tratamento anterior, e cujo tumor tem um determinado tipo de 
-“FGFR" anormal. </p>         </div>"""   
+“FGFR" anormal. </p> </div>"""   
           
 
              
@@ -893,7 +902,7 @@ operar máquinas se isto acontecer. </p>
 Este medicamento contém lactose (encontrado no leite ou em produtos lácteos). Se foi informado pelo 
 seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. 
 Este medicamento contém menos de 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lytgobi"
@@ -935,7 +944,7 @@ programada. </p>
 Não pare de tomar Lytgobi sem falar com o seu médico, uma vez que isto pode reduzir o sucesso da 
 terapêutica. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1033,7 +1042,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lytgobi"
@@ -1046,7 +1055,7 @@ depois de VAL. O prazo de validade corresponde ao último dia do mês indicado. 
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger </p>
-<p>o ambiente. </p>         </div>"""      
+<p>o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1099,7 +1108,7 @@ Isto significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

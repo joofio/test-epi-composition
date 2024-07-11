@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Tenkasi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ Tenkasi is used to treat infections of the skin and underlying tissues.<br />
 It is for use in adults and paediatric patients aged 3 months and older.  </p>
 <p>Tenkasi can only be used to treat infections caused by bacteria known as Gram-positive bacteria. In 
 mixed infections where other types of bacteria are suspected, your doctor will give you other 
-appropriate antibiotics together with Tenkasi.    </p>         </div>"""   
+appropriate antibiotics together with Tenkasi.    </p> </div>"""   
           
 
              
@@ -129,7 +132,7 @@ your doctor for advice before you are given this medicine. </p>
 <p>You should not be given this medicine during pregnancy unless the benefit is considered to be greater 
 than the risk to the baby. </p>
 <p>Driving and using machines 
-Tenkasi make you feel dizzy, which can influence your ability to drive or operate machines. </p>         </div>"""   
+Tenkasi make you feel dizzy, which can influence your ability to drive or operate machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tenkasi"
@@ -146,7 +149,7 @@ based on the weight and age: one single infusion of 15 mg for each kg of body we
 into a vein over 3 hours (maximum 1 200 mg). Please refer to section 6 for further details. </p>
 <p>If you are given more Tenkasi than you should 
 Your doctor will decide how to treat you, including stopping the treatment and monitoring for signs of 
-ill effects.  </p>         </div>"""         
+ill effects.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -211,7 +214,7 @@ associated to other changes in heart tracing), infection of the bowel (Clostridi
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tenkasi"
@@ -228,7 +231,7 @@ immediately storage times and conditions prior to use are the responsibility of 
 normally not be longer than 12 hours at 25  C and 24 hours at 2  C -8  C for Tenkasi diluted in 
 glucose 5% intravenous infusion bag.  </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -327,7 +330,7 @@ Tel: +371 67103United Kingdom (Northern Ireland)
 A. Menarini Farmaceutica Internazionale S.R.L. 
 Tel: +44 (0)1628 856This leaflet was last revised in:  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -366,7 +369,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -375,7 +380,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -392,7 +398,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -406,7 +412,7 @@ Tenkasi anvendes til behandling af hudinfektioner og infektioner i underliggende
 Det er beregnet til voksne og børn fra 3-månedersalderen. </p>
 <p>Tenkasi kan kun anvendes til behandling af infektioner, der skyldes bakterier, der kaldes grampositive 
 bakterier. Ved blandede infektioner, hvor der er mistanke om andre typer bakterier, vil din læge give 
-dig andre passende antibiotika sammen med Tenkasi. </p>         </div>"""   
+dig andre passende antibiotika sammen med Tenkasi. </p> </div>"""   
           
 
              
@@ -464,7 +470,7 @@ du spørge din læge til råds, før du får dette lægemiddel. </p>
 <p>Du må ikke få dette lægemiddel under graviditet, medmindre fordelen anses for at være større end 
 risikoen for barnet. </p>
 <p>Trafik- og arbejdssikkerhed 
-Tenkasi kan give svimmelhed, hvilket kan påvirke din evne til at køre bil eller betjene maskiner. </p>         </div>"""   
+Tenkasi kan give svimmelhed, hvilket kan påvirke din evne til at køre bil eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tenkasi"
@@ -482,7 +488,7 @@ enkelt infusion på 15 mg pr. kg kropsvægt, der gives i en blodåre i løbet af
 1.200 mg). Se punkt 6 for yderligere oplysninger.  </p>
 <p>Hvis du har fået for meget Tenkasi 
 Din læge beslutter, hvordan du skal behandles, og vil bl.a. stoppe behandlingen og overvåge dig for 
-tegn på skadelige virkninger.  </p>         </div>"""         
+tegn på skadelige virkninger.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -589,7 +595,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tenkasi"
@@ -606,7 +612,7 @@ straks, er opbevaringstid og -forhold før anvendelse brugerens eget ansvar og b
 overskride 12 timer ved 25 °C og 24 timer ved 2-8 °C for Tenkasi fortyndet i en i.v.-infusionspose 
 med glucose 5 %. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -840,7 +846,7 @@ vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
 - Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
-nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

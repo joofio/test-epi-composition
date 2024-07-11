@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Talmanco </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 <p>Talmanco is a treatment for pulmonary arterial hypertension in adults. </p>
 <p>It belongs to a group of medicines called phosphodiesterase type 5 (PDE5) inhibitors which work by 
 helping the blood vessels around your lungs relax, improving the flow of blood into your lungs. The 
-result of this is an improved ability to do physical activity. </p>         </div>"""   
+result of this is an improved ability to do physical activity. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ any machinery. </p>
 <p>If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take talmanco"
@@ -182,7 +185,7 @@ Take your dose as soon as you remember if it is within 8 hours of when you shoul
 dose. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Talmanco 
 Do not stop taking your tablets, unless advised otherwise by your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -258,7 +261,7 @@ whether these events were related directly to tadalafil. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store talmanco"
@@ -270,7 +273,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -373,7 +376,7 @@ Mylan Healthcare SIA
 Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -412,7 +415,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -421,7 +426,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -436,7 +442,7 @@ Usage: #inline
 3. Sådan skal du tage Talmanco 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -449,7 +455,7 @@ Usage: #inline
 <p>Det tilhører en gruppe af lægemidler, som kaldes phosphodiesterase type 5-hæmmere (PDE5-
 hæmmere). Det virker ved at hjælpe blodkarrene rundt om lungerne med at slappe af, således at 
 blodtilstrømningen til lungerne forbedres. Dette resulterer i en forbedret evne til at udføre fysisk 
-aktivitet. </p>         </div>"""   
+aktivitet. </p> </div>"""   
           
 
              
@@ -534,7 +540,7 @@ køre bil eller betjene maskiner. </p>
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. 
 Dette lægemiddel indeholder mindre end 1 mmol (23mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take talmanco"
@@ -555,7 +561,7 @@ Tag din dosis, så snart du kommer i tanke om det, hvis det er indenfor 8 timer 
 taget din dosis. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Talmanco 
 Du må ikke holde op med at tage medicinen, medmindre din læge har rådet dig til det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -632,7 +638,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store talmanco"
@@ -644,7 +650,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -779,7 +785,7 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711 
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://ema.europa.eu </p>         </div>"""      
+hjemmeside http://ema.europa.eu </p> </div>"""      
 
 
 
@@ -818,7 +824,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -827,7 +835,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -842,7 +851,7 @@ Usage: #inline
 3. Como tomar Talmanco 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Talmanco 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -854,7 +863,7 @@ Usage: #inline
 <p>Talmanco é um tratamento para a hipertensão arterial pulmonar em adultos. </p>
 <p>Pertence a um grupo de medicamentos denominados inibidores da fosfodiesterase tipo 5 (PDE5) que 
 atuam ajudando os vasos sanguíneos à volta dos pulmões a relaxar, melhorando o fluxo sanguíneo 
-para os pulmões. Daí resulta um aumento da capacidade para fazer atividade física. </p>         </div>"""   
+para os pulmões. Daí resulta um aumento da capacidade para fazer atividade física. </p> </div>"""   
           
 
              
@@ -934,7 +943,7 @@ conduzir ou utilizar máquinas. </p>
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
 este medicamento. 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar talmanco"
@@ -959,7 +968,7 @@ a sua dose. Não tome uma dose a dobrar para compensar uma dose que se esqueceu 
 <p>Se parar de tomar Talmanco 
 Não deixe de tomar os seus comprimidos, a menos que o seu médico lho indique. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1033,7 +1042,7 @@ acontecimentos estavam diretamente ligados ao tadalafil. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar talmanco"
@@ -1046,7 +1055,7 @@ após “EXP". O prazo de validade corresponde ao último dia do mês indicado. 
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1179,7 +1188,7 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711 
 Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
 <p>Está disponível informação pormenorizada sobre este medicamento no sítio na internet da Agência 
-Europeia de Medicamentos http://www.ema.europa.eu. </p>         </div>"""      
+Europeia de Medicamentos http://www.ema.europa.eu. </p> </div>"""      
 
 
 

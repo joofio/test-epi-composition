@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Xerava </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 <p>Xerava is an antibiotic medicine that contains the active substance eravacycline. It belongs to a group 
 of antibiotics called  tetracyclines  which work by stopping the growth of certain infectious bacteria.  </p>
 <p>What Xerava is used for </p>
-<p>Xerava is used to treat adults with a complicated infection in the abdomen.  </p>         </div>"""   
+<p>Xerava is used to treat adults with a complicated infection in the abdomen.  </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ by breast-feeding mothers can stain the child s teeth permanently. Ask your doct
 breast-feeding your baby. </p>
 <p>Driving and using machines </p>
 <p>Xerava may affect your ability to drive or use machines safely. Do not drive or use machines if you 
-feel dizzy, light-headed or unsteady after receiving this medicine.  </p>         </div>"""   
+feel dizzy, light-headed or unsteady after receiving this medicine.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xerava"
@@ -162,7 +165,7 @@ given too much. Tell your doctor or nurse immediately if you are concerned that 
 given too much Xerava. </p>
 <p>If you miss a dose of Xerava </p>
 <p>Xerava will be given to you in hospital by a doctor or nurse. It is, therefore, unlikely that you will miss 
-a dose. Tell your doctor or nurse immediately if you are concerned that you may have missed a dose. </p>         </div>"""         
+a dose. Tell your doctor or nurse immediately if you are concerned that you may have missed a dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -207,7 +210,7 @@ Tell your doctor or nurse if you notice any of these during your treatment with 
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xerava"
@@ -221,7 +224,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Once the powder has been made into a solution and diluted ready for use, it should be given to you 
 immediately. If not, it may be stored at room temperature and used within 12 hours.  </p>
 <p>Reconstituted Xerava should be a clear, pale yellow to orange solution. The solution should not be 
-used if it appears to contain any particles or the solution is cloudy. </p>         </div>"""      
+used if it appears to contain any particles or the solution is cloudy. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -316,7 +319,7 @@ PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4This leaflet was last revised in. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -355,7 +358,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -364,7 +369,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -381,7 +387,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -394,7 +400,7 @@ Usage: #inline
 af antibiotika, der hedder tetracycliner, som virker ved at stoppe væksten af visse smitsomme 
 bakterier. </p>
 <p>Anvendelse </p>
-<p>Xerava anvendes til at behandle voksne med en kompliceret maveinfektion. </p>         </div>"""   
+<p>Xerava anvendes til at behandle voksne med en kompliceret maveinfektion. </p> </div>"""   
           
 
              
@@ -467,7 +473,7 @@ din læge til råds, før du ammer dit barn. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Xerava kan påvirke din evne til at føre motorkøretøj eller betjene maskiner. Du må ikke føre 
 motorkøretøj eller betjene maskiner, hvis du føler dig svimmel, ør eller ustabil efter at have fået dette 
-lægemiddel. </p>         </div>"""   
+lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xerava"
@@ -487,7 +493,7 @@ måske har fået for meget Xerava. </p>
 <p>Hvis du har glemt en dosis </p>
 <p>Du vil få Xerava indgivet på et hospital af en læge eller en sygeplejerske. Det er derfor usandsynligt, 
 at du vil glemme en dosis. Kontakt lægen eller sygeplejersken med det samme, hvis du tror, at en dosis 
-måske er glemt. </p>         </div>"""         
+måske er glemt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -581,7 +587,7 @@ under behandling med Xerava. </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xerava"
@@ -596,7 +602,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 du ikke får den med det samme, kan den opbevares ved stuetemperatur og anvendes inden for 
 12 timer. </p>
 <p>Rekonstituerete Xerava bør være en klar og bleggul til orange opløsning. Opløsningen bør ikke 
-anvendes, hvis der er synlige partikler i den, eller hvis den er grumset. </p>         </div>"""      
+anvendes, hvis der er synlige partikler i den, eller hvis den er grumset. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -772,7 +778,7 @@ oplysninger. </p>
 <li>Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide. </li>
 <li>Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
 medtaget i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -811,7 +817,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -820,7 +828,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -837,7 +846,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Xerava </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -850,7 +859,7 @@ Usage: #inline
 grupo de antibióticos chamado «tetraciclinas», que atuam impedindo o crescimento de certas bactérias 
 infeciosas. </p>
 <p>Para que é utilizado Xerava? </p>
-<p>Xerava é utilizado no tratamento de adultos com uma infeção complicada no abdómen. </p>         </div>"""   
+<p>Xerava é utilizado no tratamento de adultos com uma infeção complicada no abdómen. </p> </div>"""   
           
 
              
@@ -929,7 +938,7 @@ semelhantes por mães a amamentar pode causar o aparecimento de manchas permanen
 da criança. Consulte o seu médico antes de amamentar o seu bebé. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Xerava pode afetar a sua capacidade de conduzir ou utilizar máquinas com segurança. Não conduza ou 
-utilize máquinas caso sinta tonturas, desorientadoou instável depois de receber este medicamento. </p>         </div>"""   
+utilize máquinas caso sinta tonturas, desorientadoou instável depois de receber este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xerava"
@@ -951,7 +960,7 @@ achar que lhe foi administrado demasiado Xerava. </p>
 <p>Caso se tenha esquecido de uma administração de Xerava </p>
 <p>Xerava será administrado no hospital por um médico ou enfermeiro. Portanto, é improvável que não 
 receba uma dose de Xerava. Informe imediatamente o seu médico ou enfermeiro se achar que uma 
-administração de Xerava pode ter sido esquecida. </p>         </div>"""         
+administração de Xerava pode ter sido esquecida. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1045,7 +1054,7 @@ durante o seu tratamento com Xerava. </p>
 <p>Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xerava"
@@ -1061,7 +1070,7 @@ proteger da luz. </p>
 deve ser-lhe administrado imediatamente. Caso contrário, o medicamento pode ser conservado à 
 temperatura ambiente e utilizado no prazo de 12 horas. </p>
 <p>A solução reconstituída de Xerava deve ser límpida, de cor amarela pálida a alaranjada. A solução não 
-deve ser utilizada se contiver quaisquer partículas ou se a solução estiver turva. </p>         </div>"""      
+deve ser utilizada se contiver quaisquer partículas ou se a solução estiver turva. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1160,7 +1169,7 @@ Tel: + 49 800 4453 4United Kingdom (Northern Ireland)
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4 </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

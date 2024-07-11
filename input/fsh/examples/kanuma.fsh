@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store KANUMA  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ complications due to a build-up of certain types of fats (cholesteryl esters and
 This medicine is an enzyme replacement therapy. This means that it replaces the missing or defective 
 LAL enzyme in patients with LAL deficiency. This medicine works by lowering the build-up of fat 
 that causes medical complications, including impaired growth, liver damage and heart complications. 
-It also improves blood levels of fats, including elevated LDL (bad cholesterol) and triglycerides.  </p>         </div>"""   
+It also improves blood levels of fats, including elevated LDL (bad cholesterol) and triglycerides.  </p> </div>"""   
           
 
              
@@ -131,7 +134,7 @@ sebelipase alfa include dizziness which could affect the ability to drive or use
 This medicine, when diluted with sodium chloride 9 mg/mL (0.9%) solution for infusion for 
 intravenous administration contains 33 mg sodium (main component of cooking/table salt) at the 
 recommended dose. This is equivalent to 1.7% of the recommended maximum daily dietary intake of 
-sodium for an adult. Tell your doctor if you or your child is on a controlled sodium diet.  </p>         </div>"""   
+sodium for an adult. Tell your doctor if you or your child is on a controlled sodium diet.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kanuma"
@@ -150,7 +153,7 @@ Dose adjustments may be considered based on how well you or your child responds 
 doctor or nurse for an additional hour after the infusion. KANUMA should be started at as young an 
 age as possible and is intended for long-term use. </p>
 <p>Your doctor or nurse will give KANUMA to you or your child by an infusion (drip) into a vein. The 
-medicine will be diluted before being given to you or your child.  </p>         </div>"""         
+medicine will be diluted before being given to you or your child.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ Chest discomfort, reaction at the infusion site </p>
 If you or your child gets any side effects, talk to your doctor. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kanuma"
@@ -216,7 +219,7 @@ order to protect from light. </p>
 <p>For diluted solutions, immediate use is recommended. If not used immediately, the diluted solution 
 may be stored up to 24 hours at 2  C to 8  C or up to 12 hours below 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)<br />
 Alexion Europe SAS<br />
 Tel: +44 (0) 800 028 4This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -351,7 +354,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -360,7 +365,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -377,7 +383,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -395,7 +401,7 @@ Denne medicin bruges som enzymerstatning. Det vil sige, at den erstatter det man
 LAL-enzym hos patienter med LAL-mangel. Medicinen virker ved at sænke den ophobning af fedt, 
 som giver de sundhedsmæssige komplikationer, herunder nedsat vækst, leverskade og komplikationer 
 med hjertet. Den forbedrer også fedtindholdet i blodet, herunder forhøjet LDL (dårligt kolesterol) og 
-triglycerider. </p>         </div>"""   
+triglycerider. </p> </div>"""   
           
 
              
@@ -447,7 +453,7 @@ maskiner. </p>
 Dette lægemiddel indeholder efter fortynding med natriumchloridinfusionsvæske 9 mg/ml (0,9 %) til 
 intravenøs administration 33 mg natrium (hovedkomponent af madlavnings-/bordsalt) ved den 
 anbefalede dosis. Dette svarer til 1,7 % af den anbefalede maksimale daglige indtagelse af natrium for 
-en voksen. Fortæl det til lægen, hvis du eller dit barn er på en natriumfattig diæt. </p>         </div>"""   
+en voksen. Fortæl det til lægen, hvis du eller dit barn er på en natriumfattig diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kanuma"
@@ -466,7 +472,7 @@ Dosisjusteringer kan overvejes baseret på, hvor godt du eller dit barn responde
 sygeplejerske i endnu en time efter infusionen. KANUMA bør påbegyndes i en så tidlig alder som 
 muligt og er beregnet til langtidsbehandling. </p>
 <p>Din læge eller sundhedspersonalet vil give dig eller dit barn KANUMA ved infusion ind i en vene. 
-Medicinen skal fortyndes, før du eller dit barn får den. </p>         </div>"""         
+Medicinen skal fortyndes, før du eller dit barn får den. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -517,7 +523,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kanuma"
@@ -533,7 +539,7 @@ yderpakning for at beskytte mod lys. </p>
 infusionsvæsken opbevares i op til 24 timer ved 2 °C til 8 °C eller i op til 12 timer ved temperaturer 
 under 25 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -723,7 +729,7 @@ sebelipase alfa-koncentration bliver 0,1-1,5 mg/ml. </li>
 </ul>
 <p>** Til patienter med LAL-mangel, der viser sig inden for de første 6 levemåneder, som ikke opnår et 
 optimalt klinisk respons med en dosis på 3 mg/kg. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

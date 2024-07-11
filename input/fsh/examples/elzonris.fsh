@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store ELZONRIS </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ from two proteins from different sources. One of the proteins can kill cancer ce
 delivered to the cancer cell by the second protein. </p>
 <p>ELZONRIS is used to treat adult patients with blastic plasmacytoid dendritic cell neoplasm (BPDCN).  </p>
 <p>BPDCN is a cancer of a rare type of immature immune cells called  plasmacytoid dendritic cells .  It 
-can affect many organs including the skin, bone marrow, and lymph nodes. </p>         </div>"""   
+can affect many organs including the skin, bone marrow, and lymph nodes. </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ may cause serious side effects. </p>
 sweet foods or drinks because you feel sick, vomit or get unpleasant effects such as bloating, stomach 
 cramps or diarrhoea. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elzonris"
@@ -169,7 +172,7 @@ appointment, ask your doctor when to schedule your next dose.  </p>
 <p>If you stop using ELZONRIS<br />
 Do not stop treatment with ELZONRIS without first talking to your doctor. Stopping your treatment 
 may make your condition worse. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ response syndrome) </li>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elzonris"
@@ -340,7 +343,7 @@ expiry date refers to the last day of that month. </p>
 <p>Diluted solution: use immediately or store below 25  C and use within 4 hours.  Do not re-freeze, once 
 thawed. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Your healthcare professional 
-will throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+will throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -468,7 +474,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -482,7 +488,7 @@ protein leveres til kræftcellen af det andet protein. </p>
 <p>ELZONRIS anvendes til at behandle voksne patienter med blastisk plasmacytoid dendritisk 
 celleneoplasma (BPDCN).  </p>
 <p>BPDCN er en sjælden type kræft i umodne immunceller, der kaldes ‘plasmacytoide dentritiske celler’. 
-Det kan påvirke mange organer, inklusive huden, knoglemarv og lymfeknuder. </p>         </div>"""   
+Det kan påvirke mange organer, inklusive huden, knoglemarv og lymfeknuder. </p> </div>"""   
           
 
              
@@ -546,7 +552,7 @@ medføre alvorlige bivirkninger. </p>
 længere kan indtage søde sager eller drikkevarer, fordi du føler har kvalme, kaster op eller får 
 ubehagelige virkninger, såsom oppustethed, mavekramper eller diarré. </p>
 <p>Dette lægemidel indeholder mindre end 1 mmol (23 mg) natrium per ml, dvs. det er i det væsentlige 
-natrium-frit". </p>         </div>"""   
+natrium-frit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elzonris"
@@ -571,7 +577,7 @@ aftale over, så spørg din læge, hvornår du skal have din næste dosis.  </p>
 <p>Hvis du holder op med at bruge ELZONRIS 
 Lad være med at stoppe behandlingen med ELZONRIS uden først at have talt med din læge. Ophør 
 med din behandling kan gøre din tilstand værre. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -720,7 +726,7 @@ responssyndrom)
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendix 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elzonris"
@@ -735,7 +741,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Fortyndet opløsning: Anvendes med det samme eller opbevares ved under 25 °C og anvendes inden 
 for 4 timer. Må ikke genfryses, når det først er tøet op. </p>
 <p>Din læge vil bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, 
-toilettet eller skraldespanden. </p>         </div>"""      
+toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -902,7 +908,7 @@ sprøjter. </li>
 injektionsvæske, opløsning og genoptag infusion via infusionspumpen til sprøjter ved et 
 forud specificeret flow for at skylle den tilbageværende dosis af ELZONRIS ud af 
 infusionsslangen for at fuldføre levering.  </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 

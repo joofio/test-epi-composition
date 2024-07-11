@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store LENVIMA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ LENVIMA blocks the action of proteins called receptor tyrosine kinases (RTKs), w
 in the development of new blood vessels that supply oxygen and nutrients to cells and help them to 
 grow. These proteins can be present in high amounts in cancer cells, and by blocking their action 
 LENVIMA may slow the rate at which the cancer cells multiply and the tumour grows and help to cut 
-off the blood supply that the cancer needs. </p>         </div>"""   
+off the blood supply that the cancer needs. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ Your doctor will help you decide whether the treatment should be continued.
 milk and may seriously harm your breastfed baby. </p>
 <p>Driving and using machines 
 LENVIMA may cause side effects that can affect your ability to drive or use machines. Avoid driving 
-or using machines if you feel dizzy or tired. </p>         </div>"""   
+or using machines if you feel dizzy or tired. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lenvima"
@@ -222,7 +225,7 @@ Do not take a double dose (two doses at the same time) to make up for a forgotte
 <em> If it is 12 hours or more until your next dose: take the missed dose as soon as you remember. 
 Then take the next dose at the normal time.<br />
 </em> If it is less than 12 hours until your next dose: skip the missed dose. Then take the next dose at 
-the normal time.  </p>         </div>"""         
+the normal time.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -390,7 +393,7 @@ eyes (jaundice) or drowsiness, confusion, poor concentration
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lenvima"
@@ -405,7 +408,7 @@ after  EXP . The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -517,7 +520,7 @@ Tel: +371 67450United Kingdom (Northern Ireland)
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -556,7 +559,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -565,7 +570,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -582,7 +588,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -607,7 +613,7 @@ LENVIMA blokerer virkningen af proteiner, der kaldes receptor tyrosinkinaser (RT
 involveret i udviklingen af nye blodkar, der forsyner cellerne med ilt og næringsstoffer og hjælper dem 
 med at vokse. Disse proteiner kan være til stede i store mængder i kræftceller, og ved at blokere deres 
 virkning kan LENVIMA sænke hastigheden, hvorved kræftcellerne formerer sig, og tumoren vokser, 
-og hjælpe med at afskære den nødvendige blodforsyning for kræften. </p>         </div>"""   
+og hjælpe med at afskære den nødvendige blodforsyning for kræften. </p> </div>"""   
           
 
              
@@ -720,7 +726,7 @@ modermælken og kan skade det ammede barn alvorligt. </p>
 </ul>
 <p>Trafik- og arbejdssikkerhed 
 LENVIMA kan forårsage bivirkninger, der kan påvirke din evne til at føre motorkøretøj eller betjene 
-maskiner. Undgå at føre motorkøretøj eller betjene maskiner, hvis du føler dig svimmel eller er træt. </p>         </div>"""   
+maskiner. Undgå at føre motorkøretøj eller betjene maskiner, hvis du føler dig svimmel eller er træt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lenvima"
@@ -826,7 +832,7 @@ det. Tag dernæst den næste dosis til normal tid. </p>
 <p>Hvis der er mindre end 12 timer til din næste dosis: spring den glemte dosis over. Tag dernæst 
 den næste dosis til normal tid. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1223,7 +1229,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lenvima"
@@ -1246,7 +1252,7 @@ mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1392,7 +1398,7 @@ Eisai GmbH
 Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1431,7 +1437,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1440,7 +1448,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1455,7 +1464,7 @@ Usage: #inline
 3. Como tomar LENVIMA 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar LENVIMA 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1482,7 +1491,7 @@ estão envolvidas no desenvolvimento de novos vasos de sangue que fornecem oxig�
 células e as ajudam a crescer. Estas proteínas podem apresentar-se em elevadas quantidades nas 
 células cancerosas e, ao bloquear a sua ação, LENVIMA pode atrasar a velocidade com que as células 
 cancerosas se multiplicam e o tumor cresce, e ajudar a cortar o fornecimento de sangue de que o 
-cancro precisa. </p>         </div>"""   
+cancro precisa. </p> </div>"""   
           
 
              
@@ -1601,7 +1610,7 @@ humano e pode prejudicar gravemente o seu bebé a amamentar. </p>
 </ul>
 <p>Condução de veículos e utilização de máquinas 
 LENVIMA pode causar efeitos indesejáveis que podem afetar a sua capacidade de conduzir ou utilizar 
-máquinas. Evite conduzir ou utilizar máquinas se sentir tonturas ou cansaço. </p>         </div>"""   
+máquinas. Evite conduzir ou utilizar máquinas se sentir tonturas ou cansaço. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lenvima"
@@ -1711,7 +1720,7 @@ lembrar. Depois tome a dose seguinte à hora normal. </p>
 <p>Se faltarem menos de 12 horas até à sua dose seguinte: não tome a dose em falta. Tome depois a 
 dose seguinte à hora normal. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -2120,7 +2129,7 @@ da parte branca dos olhos (icterícia) ou tontura, confusão, falta de concentra
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lenvima"
@@ -2143,7 +2152,7 @@ cada blister após ‘EXP’. O prazo de validade corresponde ao último dia do 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -2294,7 +2303,7 @@ United Kingdom (Northern Ireland)
 Eisai GmbH 
 Tel.: + 49 (0) 69 66 58 (Germany) </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

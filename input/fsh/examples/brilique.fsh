@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Brilique</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -91,7 +94,7 @@ infarction) or stroke, or</p>
 <p>the clot can partly block the blood vessels to the heart; this reduces the blood flow to the heart 
 and can cause chest pain which comes and goes (called  unstable angina ).
 Brilique helps stop the clumping of platelets. This reduces the chance of a blood clot forming that can 
-reduce blood flow.</p>         </div>"""   
+reduce blood flow.</p> </div>"""   
           
 
              
@@ -183,7 +186,7 @@ Brilique is not likely to affect your ability to drive or use machines. If you f
 while taking this medicine, be careful while driving or using machines.
 Sodium content
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say it is essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brilique"
@@ -226,7 +229,7 @@ Do not stop taking Brilique without talking to your doctor. Take this medicine o
 for as long as your doctor keeps prescribing it. If you stop taking Brilique, it may increase your 
 chances of having another heart attack or stroke or dying from a disease related to your heart or blood 
 vessels.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -310,7 +313,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store brilique"
@@ -322,7 +325,7 @@ Do not use this medicine after the expiry date which is stated on the blister an
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -417,7 +420,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -456,7 +459,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -465,7 +470,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -480,7 +486,7 @@ Usage: #inline
 3. Sådan skal du tage Brilique
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -511,7 +517,7 @@ hjertet (myokardieinfarkt) eller et slagtilfælde (apopleksi).
 Blodproppen kan delvist blokere blodkar der fører til hjertet: dette reducerer hjertets 
 blodforsyning og kan give forbigående smerter i brystet (kaldet "ustabil angina pectoris").
 Brilique forhindrer sammenklumpningen af blodpladerne. Dette reducerer risikoen for dannelsen af en 
-blodprop, der kan nedsætte blodgennemstrømningen. </p>         </div>"""   
+blodprop, der kan nedsætte blodgennemstrømningen. </p> </div>"""   
           
 
              
@@ -637,7 +643,7 @@ du bliver svimmel eller forvirret, mens du tager dette lægemiddel, skal du vær
 bil eller betjener maskiner. 
 Natriumindhold
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit.</p>         </div>"""   
+væsentlige natrium-frit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take brilique"
@@ -690,7 +696,7 @@ Du må ikke holde op med at tage Brilique uden først at have talt med din læge
 regelmæssigt, så længe din læge fortsat ordinerer det. Hvis du stopper med at tage Brilique, kan det 
 øge risikoen for, at du får et til hjerteanfald eller slagtilfælde, eller at du dør af en sygdom i hjertet 
 eller blodkarrene.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -814,7 +820,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store brilique"
@@ -826,7 +832,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og æsk
 er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -977,7 +983,7 @@ Lægen har ordineret Brilique til dig personligt. Lad derfor være med at give d
 kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlægsseddel.dk</p>         </div>"""      
+som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlægsseddel.dk</p> </div>"""      
 
 
 

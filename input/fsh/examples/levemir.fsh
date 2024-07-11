@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Levemir </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ enough insulin to control the level of your blood sugar. </p>
 In treatment of type 2 diabetes mellitus, Levemir may also be used in combination with tablets for 
 diabetes and/or with injectable anti-diabetic products, other than insulin. </p>
 <p>Levemir has a long and steady blood-sugar-lowering action within 3 to 4 hours after injection. 
-Levemir provides up to 24 hours of basal insulin coverage. </p>         </div>"""   
+Levemir provides up to 24 hours of basal insulin coverage. </p> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ feeding. </p>
 and therefore also your ability to drive a car or operate a machine. Bear in mind that you could 
 endanger yourself or others. </p>
 <p>Important information about some of the ingredients in Levemir </p>
-<p>Levemir contains less than 1 mmol sodium (23 mg) per dose, i.e. Levemir is essentially  sodium-free . </p>         </div>"""   
+<p>Levemir contains less than 1 mmol sodium (23 mg) per dose, i.e. Levemir is essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take levemir"
@@ -249,7 +252,7 @@ serious and very common side effects in section 4. If you forget to take your in
 from diabetes in section 4. If you stop taking your insulin </p>
 <p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
 done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
-Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -342,7 +345,7 @@ fruity (acetone) smell of the breath. </p>
 then seek medical advice immediately. </p>
 <p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
 the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
-could lead to diabetic coma and eventually death. </p>         </div>"""      
+could lead to diabetic coma and eventually death. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store levemir"
@@ -360,7 +363,7 @@ away from the cooling element. Do not freeze. </p>
 should not be kept in the refrigerator. You can carry it with you and keep it at room temperature 
 (below 30 C) for up to 6 weeks. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ important information for you.
 * This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 * If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -468,7 +474,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -485,7 +491,7 @@ tilstrækkeligt insulin til at kunne kontrollere blodsukkerniveauet. </p>
 Ved behandling af type 2-diabetes mellitus kan  Levemir også anvendes i kombination med tabletter 
 mod diabetes og/eller sammen med andre injicerbare lægemidler mod diabetes, ud over insulin. </p>
 <p>Levemir har en lang og stabil virkning på sænkningen af blodsukkeret med virkning 3 til 4 timer efter 
-injektion. Levemir dækker det basale insulinbehov op til 24 timer efter injektion. </p>         </div>"""   
+injektion. Levemir dækker det basale insulinbehov op til 24 timer efter injektion. </p> </div>"""   
           
 
              
@@ -646,7 +652,7 @@ også din evne til at køre bil eller arbejde med maskiner. Vær opmærksom på,
 eller andre i fare. </p>
 <p>Vigtig information om nogle af indholdsstofferne i Levemir </p>
 <p>Levemir indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. Levemir er stort set 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take levemir"
@@ -704,7 +710,7 @@ alvorlige og meget almindelige bivirkninger, under punkt 4. Hvis du har glemt at
 sukkersyge, under punkt 4. Hvis du holder op med at tage insulin </p>
 <p>Stop ikke med at tage insulin uden først at tale med din læge, der kan fortælle dig, hvad der skal gøres. 
 Dette kan føre til meget højt blodsukker (alvorlig hyperglykæmi) og ketoacidose. Se c) Følger af 
-sukkersyge, under punkt 4. Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+sukkersyge, under punkt 4. Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -839,7 +845,7 @@ din urin for ketonstoffer og søg straks lægehjælp.
 ► 
 Disse symptomer kan betyde, at du har en meget alvorlig tilstand kaldet diabetisk ketoacidose 
 (ophobning af syre i blodet, da kroppen nedbryder fedt i stedet for sukker). Denne tilstand kan 
-ubehandlet resultere i diabetisk koma og i værste fald død. </p>         </div>"""      
+ubehandlet resultere i diabetisk koma og i værste fald død. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store levemir"
@@ -857,7 +863,7 @@ for tæt på køleelementerne. Må ikke fryses. </p>
 ved stuetemperatur (under 30°C) eller opbevares i køleskab (2°C til 8°C) i op til 6 uger. Må ikke 
 placeres tæt på køleelementerne ved opbevaring på køl. Må ikke fryses. </p>
 <p>Spørg på apoteket, hvordan du skal aflevere medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1043,7 +1049,7 @@ andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som
 <p>Kontakt lægen, sygeplejersken eller apotekspersonalet, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1082,7 +1088,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1091,7 +1099,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1108,7 +1117,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Levemir </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1126,7 +1135,7 @@ refeições.
 No tratamento da diabetes mellitus tipo 2, Levemir pode, também, ser utilizado em associação com os 
 comprimidos para a diabetes e/ou com outros medicamentos antidiabéticos injetáveis além da insulina. </p>
 <p>Levemir tem uma ação prolongada e constante de diminuição do açúcar no sangue, com início ao fim 
-de 3 a 4 horas após a injeção. Levemir proporciona até 24 horas de cobertura com insulina basal. </p>         </div>"""   
+de 3 a 4 horas após a injeção. Levemir proporciona até 24 horas de cobertura com insulina basal. </p> </div>"""   
           
 
              
@@ -1298,7 +1307,7 @@ e, consequentemente, também a sua capacidade para conduzir ou utilizar máquina
 que pode colocar-se a si próprio ou a outras pessoas em perigo. </p>
 <p>Informações importantes sobre alguns componentes de Levemir </p>
 <p>Levemir contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, Levemir é, basicamente, 
-‘isento de sódio’. </p>         </div>"""   
+‘isento de sódio’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar levemir"
@@ -1383,7 +1392,7 @@ Se parar de tomar a sua insulina </p>
 Parar de tomar a sua insulina pode levar a um nível de açúcar no sangue muito alto (hiperglicemia 
 grave) e cetoacidose. Ver c) Efeitos da diabetes na secção 4.<br />
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1527,7 +1536,7 @@ cetónicos na urina, se puder, e depois procure auxílio médico imediatamente.
 Estes podem ser sinais de um problema muito grave chamado cetoacidose diabética 
 (acumulação de ácidos no sangue, dado que o sangue está a decompor gordura em vez de 
 açúcar). Caso não seja tratada esta situação pode conduzir a coma diabético e, eventualmente, à 
-morte. </p>         </div>"""      
+morte. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar levemir"
@@ -1547,7 +1556,7 @@ ser utilizado ou transportado como reserva não deve ser guardado no frigorífic
 consigo e mantê-lo à temperatura ambiente (inferior a 30ºC) durante 6 semanas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1588,7 +1597,7 @@ rótulo: </p>
 <p>SAS, 45 Avenue d’Orléans F-28000 Chartres, França. </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

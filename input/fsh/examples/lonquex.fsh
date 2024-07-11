@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lonquex </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ Lipegfilgrastim stimulates the bone marrow (the tissue where new blood cells are
 more white blood cells. White blood cells are important as they help your body fight infection. These 
 cells are very sensitive to the effects of chemotherapy which can cause the number of these cells in 
 your body to decrease. If white blood cells fall to a low level, there may not be enough left in the body 
-to fight bacteria and you may have an increased risk of infection. </p>         </div>"""   
+to fight bacteria and you may have an increased risk of infection. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ Lonquex has no or negligible influence on your ability to drive and use machines
 This medicine contains 30 mg sorbitol in each pre-filled syringe. </p>
 <p>Lonquex contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lonquex"
@@ -340,7 +343,7 @@ If you have any problems, please ask your doctor or nurse for help and advice. <
 If you use more Lonquex than you should, talk to your doctor. </p>
 <p>If you forget to use Lonquex 
 If you have missed an injection, contact your doctor to discuss when you should inject the next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -401,7 +404,7 @@ body), see section 2. Side effects that have been seen with similar medicines, b
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lonquex"
@@ -419,7 +422,7 @@ of up to 7 days. Once removed from the refrigerator, the medicine must be used w
 disposed of. </p>
 <p>Do not use this medicine if you notice that it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -519,7 +522,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -558,7 +561,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -567,7 +572,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -584,7 +590,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -609,7 +615,7 @@ hvide blodlegemer. Hvide blodlegemer spiller en vigtig rolle i at hjælpe kroppe
 infektioner. Disse blodlegemer er meget følsomme over for virkningen af kemoterapi, hvilket kan føre 
 til, at antallet af disse blodlegemer i din krop falder. Hvis antallet af hvide blodlegemer falder til et lavt 
 niveau, kan der ikke være nok tilbage i kroppen til at bekæmpe bakterier, og du kan have en forhøjet 
-infektionsrisiko. </p>         </div>"""   
+infektionsrisiko. </p> </div>"""   
           
 
              
@@ -674,7 +680,7 @@ Lonquex påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøre
 Dette lægemiddel indeholder 30 mg sorbitol i hver fyldt injektionssprøjte. </p>
 <p>Lonquex indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. fyldt injektionssprøjte, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lonquex"
@@ -919,7 +925,7 @@ Hvis du har brugt for meget Lonquex, skal du kontakte lægen. </p>
 <p>Hvis du har glemt at bruge Lonquex 
 Hvis du har sprunget en injektion over, skal du kontakte lægen for at diskutere, hvornår du bør injicere 
 den næste dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1034,7 +1040,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lonquex"
@@ -1052,7 +1058,7 @@ periode på op til 7 dage. Når det fjernes fra køleskabet, skal lægemidlet an
 periode eller bortskaffes. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at det er uklart eller indeholder partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1193,7 +1199,7 @@ vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1232,7 +1238,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1241,7 +1249,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1258,7 +1267,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Lonquex </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1283,7 +1292,7 @@ produzir mais glóbulos brancos. Os glóbulos brancos são importantes porque aj
 lutar contra infeções. Estas células são muito sensíveis aos efeitos da quimioterapia, a qual pode causar 
 a diminuição do número destas células no seu corpo. Se os glóbulos brancos diminuírem para um nível 
 baixo, pode não haver o número suficiente no corpo para lutar contra as bactérias, podendo assim estar 
-em maior risco de ter uma infeção. </p>         </div>"""   
+em maior risco de ter uma infeção. </p> </div>"""   
           
 
              
@@ -1352,7 +1361,7 @@ Os efeitos de Lonquex sobre a capacidade de conduzir e utilizar máquinas são n
 Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia.  </p>
 <p>Lonquex contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por seringa pré-cheia ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lonquex"
@@ -1612,7 +1621,7 @@ Se utilizar mais Lonquex do que deveria, fale com o seu médico. </p>
 No caso de se ter esquecido de administrar uma injeção, contacte o seu médico para saber quando deve 
 injetar a próxima dose. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1733,7 +1742,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lonquex"
@@ -1752,7 +1761,7 @@ utilizado dentro deste período ou eliminado. </p>
 <p>Não utilize este medicamento se verificar que está turvo ou que contém partículas. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1888,7 +1897,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 
 Este folheto foi revisto pela última vez em {mês AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Steglujan </li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ What is type 2 diabetes?
 Type 2 diabetes is a condition in which your body does not make enough insulin or the insulin that
 your body produces does not work as well as it should. This leads to a high level of sugar in your
 blood. When this happens, this can lead to serious medical problems like heart disease, kidney disease,
-blindness and poor circulation.</p>         </div>"""   
+blindness and poor circulation.</p> </div>"""   
           
 
              
@@ -178,7 +181,7 @@ pancreas can cause blood sugar levels to drop too low (hypoglycaemia), which may
 such as shaking, sweating or changes in vision and may affect your ability to drive and use machines.
 Steglujan contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take steglujan"
@@ -211,7 +214,7 @@ Do not take a double dose (two doses on the same day) to make up for a forgotten
 If you stop taking Steglujan
 Do not stop taking this medicine without talking to your doctor. Your blood sugar levels may increase
 if you stop the medicine.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -337,7 +340,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store steglujan"
@@ -350,7 +353,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if the packaging is damaged or shows signs of tampering.
 Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -486,7 +489,7 @@ Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site:
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -525,7 +528,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -534,7 +539,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -549,7 +555,7 @@ Usage: #inline
 3. Sådan skal du tage Steglujan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -600,7 +606,7 @@ insulin, som kroppen producerer, ikke så godt, som den burde. Dette fører til 
 blodet. Når dette sker, kan det føre til alvorlige helbredsproblemer som hjertesygdom, nyresygdom,
 blindhed og dårligt kredsløb.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -717,7 +723,7 @@ Steglujan indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take steglujan"
@@ -772,7 +778,7 @@ Du må ikke stoppe med at tage dette lægemiddel uden at have talt med lægen. D
 stige, hvis du holder op med at tage lægemidlet.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1046,7 +1052,7 @@ pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen v
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store steglujan"
@@ -1059,7 +1065,7 @@ den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. 
 Tag ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på, at den har været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1245,7 +1251,7 @@ Tel: +353 (0)1 2998700
 <p>medinfoNI@msd.com</p>
 <p>Denne indlægsseddel blev senest ændret
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

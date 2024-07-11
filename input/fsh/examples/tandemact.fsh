@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tandemact </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ enough insulin (a hormone that controls blood sugar levels), or cannot effective
 produces. </p>
 <p>Tandemact helps control the level of sugar in your blood when you have type 2 diabetes by increasing 
 the amount of insulin available and helping your body make better use of it. Your doctor will check 
-whether Tandemact is working 3 to 6 months after you start taking it. </p>         </div>"""   
+whether Tandemact is working 3 to 6 months after you start taking it. </p> </div>"""   
           
 
              
@@ -213,7 +216,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking Tandemact.<br />
 Tandemact contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tandemact"
@@ -242,7 +245,7 @@ on with the next dose as normal. Do not take a double dose to make up for a forg
 <p>If you stop taking Tandemact 
 Tandemact should be used every day to work properly. If you stop using Tandemact, your blood sugar 
 may go up. Talk to your doctor before stopping this treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ including glimepiride: </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tandemact"
@@ -337,7 +340,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via waste water or household waste. Ask you pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Italy
 Takeda GmbH, Production Site Oranienburg, Lehnitzstrasse 70   98, 16515 Oranienburg, Germany </p>
 <p>This leaflet was last revised in 08/2023. Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu </p>         </div>"""      
+http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -408,7 +411,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -417,7 +422,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
@@ -434,7 +439,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -450,7 +455,7 @@ enten ikke producerer nok insulin (et hormon, som kontrollerer blodsukkerniveaue
 udnytte den insulin, som den producerer, effektivt. </p>
 <p>Når De har type 2-diabetes hjælper Tandemact med til at regulere niveauet af sukker i Deres blod ved 
 at øge mængden af tilgængelig insulin og hjælpe kroppen med at udnytte den bedre. Når De har taget 
-Tandemact i 3-6 måneder, vil Deres læge undersøge, om medicinen virker. </p>         </div>"""   
+Tandemact i 3-6 måneder, vil Deres læge undersøge, om medicinen virker. </p> </div>"""   
           
 
              
@@ -582,7 +587,7 @@ De skal udvise forsigtighed, hvis De oplever unormalt syn. </p>
 Kontakt lægen, før De tager Tandemact, hvis lægen har fortalt Dem, at De ikke tåler visse sukkerarter. </p>
 <p>Tandemact indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tandemact"
@@ -614,7 +619,7 @@ ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
 <p>Hvis De holder op med at tage Tandemact 
 Tandemact skal tages hver dag for at virke ordentligt. Hvis De stopper med at tage Tandemact, kan 
 blodsukkeret stige. Tal med Deres læge, inden De ophører med denne behandling. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -700,7 +705,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekespersona
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via. det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tandemact"
@@ -712,7 +717,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekespersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -746,7 +751,7 @@ Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Italien<br />
 Takeda GmbH, Production Site Oranienburg,Lehnitzstrasse 70 - 98, 16515 Oranienburg, Tyskland </p>
 <p>Denne indlægsseddel blev senest ændret 08/2023. Andre informationskilder </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -785,7 +790,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -794,7 +801,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -809,7 +817,7 @@ Usage: #inline
 3. Como tomar Tandemact 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Tandemact 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -825,7 +833,7 @@ idade adulta, quando o organismo não produz insulina (uma hormona que controla 
 no sangue) suficiente ou não consegue utilizar eficazmente a insulina que produz. </p>
 <p>Tandemact ajuda a controlar o nível de açúcar no sangue, quando tem diabetes tipo 2, aumentando a 
 quantidade de insulina disponível e ajudando o seu corpo a utilizá-la melhor. Três a seis meses após 
-ter começado a tomar Tandemact, o seu médico irá verificar se o medicamento está a ter efeito.  </p>         </div>"""   
+ter começado a tomar Tandemact, o seu médico irá verificar se o medicamento está a ter efeito.  </p> </div>"""   
           
 
              
@@ -960,7 +968,7 @@ Se foi informado pelo seu médico que tem intolerância a alguns açúcares, con
 este Tandemact. </p>
 <p>Tandemact contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tandemact"
@@ -994,7 +1002,7 @@ Tandemact deve ser utilizado todos os dias para funcionar adequadamente. Se deix
 Tandemact, é possível que o seu nível de açúcar no sangue aumente. Fale com o seu médico antes de 
 parar este tratamento.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1081,7 +1089,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveisdiretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tandemact"
@@ -1094,7 +1102,7 @@ medicamento. </p>         </div>"""
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1127,7 +1135,7 @@ Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Itália
 Takeda GmbH, Production Site Oranienburg, Lehnitzstrasse 70 - 98, 16515 Oranienburg, Alemanha </p>
 <p>Este folheto foi revisto pela última vez em 08/2023.  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

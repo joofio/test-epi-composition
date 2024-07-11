@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How VIZAMYL is stored </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ deposits sometimes present in the brains of people with dementias (such as Alzhe
 <p>You should discuss the results of the test with the doctor that requested the scan. </p>
 <p>The use of VIZAMYL involves exposure to small amounts of radioactivity. Your doctor and the 
 nuclear medicine doctor have considered that the clinical benefit of this procedure with the 
-radiopharmaceutical outweighs the risk of being exposed to these small amounts of radiation. </p>         </div>"""   
+radiopharmaceutical outweighs the risk of being exposed to these small amounts of radiation. </p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ to be taken into account in pregnant or breast-feeding women and people with liv
 epilepsy. </p>
 <p>VIZAMYL contains a maximum of 41 mg of sodium (main component of cooking/table salt) in each 
 dose. This is equivalent to approximately 2% of the adult recommended maximum daily dietary intake 
-for sodium  These amounts may need to be considered for people on a low sodium diet. </p>         </div>"""   
+for sodium  These amounts may need to be considered for people on a low sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vizamyl"
@@ -172,7 +175,7 @@ medicine doctor under controlled conditions. </p>
 <p>However, in the case of an overdose, you would receive the appropriate treatment. Treatment consists 
 of increasing the passing of urine and stools in order to help remove radioactivity from your body. </p>
 <p>If you have any further questions on the use of this medicine, please ask your nuclear medicine doctor 
-who supervises the procedure. </p>         </div>"""         
+who supervises the procedure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -235,7 +238,7 @@ low risk of cancer and hereditary abnormalities (passing on faulty genes). </p>
 If you get any side effects, talk to your nuclear medicine doctor. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vizamyl"
@@ -248,7 +251,7 @@ regulation on radioactive materials. </p>
 <p>The following information is intended for the specialist only. </p>
 <p>Do not use this medicine after the expiry date and time, which are stated on the label after  EXP . </p>
 <p>Do not use this medicine if you notice that the vial is damaged or the solution contains particulate 
-matter or appears discoloured. </p>         </div>"""      
+matter or appears discoloured. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -332,7 +335,7 @@ Arrixaca, Ctra. Madrid-Cartagena, sn, El Palmar,
 30120 Murcia 
 Spain 
 This leaflet was last revised in {month YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -371,7 +374,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -380,7 +385,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -395,7 +401,7 @@ Usage: #inline
 3. Sådan skal VIZAMYL bruges 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -415,7 +421,7 @@ mennesker med demenssygdomme (såsom Alzheimers sygdom).  </p>
 <p>Du bør diskutere resultaterne af scanningen med den læge, der har anmodet om scanningen. </p>
 <p>Anvendelse af VIZAMYL indebærer, at du udsættes for små mængder radioaktivitet. Din læge og den 
 nuklearmedicinske læge har vurderet at de kliniske fordele ved denne undersøgelse med det 
-radioaktive lægemiddel, overstiger risikoen for at blive udsat for disse små mængder stråling.  </p>         </div>"""   
+radioaktive lægemiddel, overstiger risikoen for at blive udsat for disse små mængder stråling.  </p> </div>"""   
           
 
              
@@ -467,7 +473,7 @@ det skal også tages i betragtning for gravide eller ammende og personer med lev
 epilepsi. 
 VIZAMYL indeholder maksimalt 41 mg natrium (hovedkomponenten i madlavnings/bord salt) per 
 dosis. Dette svarer til ca. 2% af det anbefalede maksimale daglige indtag af natrium for en voksen. 
-Denne mængde skal tages med i overvejelserne hos personer, som er på en diæt med lavt saltindhold. </p>         </div>"""   
+Denne mængde skal tages med i overvejelserne hos personer, som er på en diæt med lavt saltindhold. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vizamyl"
@@ -505,7 +511,7 @@ læge under kontrollerede forhold.
 Hvis det imidlertid skulle ske, vil din nuklearmedicinske læge sørge for, at du får en passende 
 behandling. Behandlingen består i at øge vandladning og afføring for at hjælpe med at fjerne 
 radioaktiviteten fra kroppen. </p>
-<p>Hvis du har flere spørgsmål til brugen af dette lægemiddel, kan du spørge din nuklearmedicinske læge. </p>         </div>"""         
+<p>Hvis du har flere spørgsmål til brugen af dette lægemiddel, kan du spørge din nuklearmedicinske læge. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -565,7 +571,7 @@ apoteket. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne 
 eller dine pårørende kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vizamyl"
@@ -578,7 +584,7 @@ bestemmelser vedrørende radioaktive materialer. </p>
 <p>Følgende information er udelukkende beregnet for specialisten. </p>
 <p>Brug ikke lægemidlet efter udløbsdatoen, som står på etiketten efter "UDLØBDATO". </p>
 <p>Lægemidlet må ikke anvendes, hvis hætteglasset er beskadiget, eller hvis opløsningen indeholder 
-partikler eller er misfarvet. </p>         </div>"""      
+partikler eller er misfarvet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -668,7 +674,7 @@ hjemmeside http://www.ema.europa.eu/. </p>
 <p>Det fuldstændige produktresumé for VIZAMYL findes som et separat dokument i produktpakken med 
 det formål at give læger og sundhedspersonale yderligere videnskabelige og praktiske oplysninger om 
 administration og brug af radioaktive lægemidler. </p>
-<p>Se produktresuméet {produktresuméet findes i æsken}. </p>         </div>"""      
+<p>Se produktresuméet {produktresuméet findes i æsken}. </p> </div>"""      
 
 
 

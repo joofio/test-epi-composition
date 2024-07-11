@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>How to inject Zutectra by yourself or by caregiver </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zutectra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +82,7 @@ substances to protect you from hepatitis B. Hepatitis B is an inflammation of th
 hepatitis B virus. </p>
 <p>What Zutectra is used for </p>
 <p>Zutectra is used to prevent re-infection of hepatitis B in adults who have had a liver transplant at least 
-1 week ago because they had liver failure caused by hepatitis B. </p>         </div>"""   
+1 week ago because they had liver failure caused by hepatitis B. </p> </div>"""   
           
 
              
@@ -152,7 +154,7 @@ attenuated vaccines. </p>
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or healthcare professional for advice before taking this medicine. </p>
 <p>Driving and using machines 
-Zutectra has no or negligible effects on your ability to drive or use machines. </p>         </div>"""   
+Zutectra has no or negligible effects on your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zutectra"
@@ -181,7 +183,7 @@ dose of Zutectra, contact your doctor, healthcare professional or pharmacist str
 Do not take a double dose to make up for a forgotten injection. Talk to your doctor about managing 
 the dose. Your doctor will tell you how much and how often you need to use Zutectra. </p>
 <p>Make sure you use Zutectra as prescribed and as instructed by your doctor to avoid the risk of a 
-hepatitis B re-infection. </p>         </div>"""         
+hepatitis B re-infection. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -245,7 +247,7 @@ bruising and rash. </li>
 If you get any side effects, talk to your doctor, healthcare professional or pharmacist. This includes 
 any possible side effects not listed in this leaflet. You can also report side effects directly via the 
 national reporting system listed in Appendix V. By reporting side effects you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zutectra"
@@ -263,7 +265,7 @@ administered immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.<br />
 Once the injection has been completed, dispose of all needles, syringes and empty glass containers 
-without delay in a container intended for sharp objects you were provided with. </p>         </div>"""      
+without delay in a container intended for sharp objects you were provided with. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -354,7 +356,7 @@ MEDIS, d.o.o.<br />
 Brn i eva 1,<br />
 SI-1231 Ljubljana- rnu e,<br />
 Tel: +386 1 589 69 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -393,7 +395,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -404,7 +408,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Sådan injicerer du selv eller din plejer Zutectra </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -421,7 +425,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -434,7 +438,7 @@ Usage: #inline
 beskytte dig mod hepatitis B. Hepatitis B er en leverbetændelse forårsaget af hepatitis B-virus. </p>
 <p>Anvendelse af Zutectra </p>
 <p>Zutectra anvendes til forebyggelse af reinfektion af hepatitis B hos voksne, som har gennemgået en 
-levertransplantation for mindst 1 uge siden på grund af leversvigt forårsaget af hepatitis B. </p>         </div>"""   
+levertransplantation for mindst 1 uge siden på grund af leversvigt forårsaget af hepatitis B. </p> </div>"""   
           
 
              
@@ -507,7 +511,7 @@ levende, svækkede vacciner. </p>
 Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
 du spørge din læge eller sundhedspersonalet til råds, før du bruger dette lægemiddel.  </p>
 <p>Trafik og arbejdssikkerhed 
-Zutectra påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+Zutectra påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zutectra"
@@ -537,7 +541,7 @@ Du må ikke tage dobbeltdosis som erstatning for den glemte injektion. Tal med d
 du skal håndtere den glemte dosis. Din læge kan fortælle dig, hvor meget og hvor ofte du skal tage 
 Zutectra. </p>
 <p>Sørg for at tage Zutectra som angivet, og som din læge ordinerer for at undgå risiko for 
-reinfektion med hepatitis B. </p>         </div>"""         
+reinfektion med hepatitis B. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -604,7 +608,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zutectra"
@@ -622,7 +626,7 @@ bruges. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.<br />
 Når injektionen er udført, bortskaffes alle kanyler, sprøjter og tomme glasbeholdere straks i en 
-beholder til skarpe genstande, som du har fået udleveret. </p>         </div>"""      
+beholder til skarpe genstande, som du har fået udleveret. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -869,7 +873,7 @@ cirkelbevægelse med sprittamponen. </p>
 </ol>
 <p>Bortskaf alle brugte dele </p>
 <p>Når injektionen er udført, bortskaffes alle kanyler og tomme glasbeholdere straks i beholderen til 
-skarpe genstande. </p>         </div>"""      
+skarpe genstande. </p> </div>"""      
 
 
 

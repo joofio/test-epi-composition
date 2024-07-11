@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ORENCIA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -116,7 +119,7 @@ be used alone in case of intolerance to methotrexate or if treatment with methot
 <li>slow down the damage to joints </li>
 <li>improve physical function </li>
 <li>improve other signs and symptoms of polyarticular juvenile idiopathic arthritis </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -195,7 +198,7 @@ machinery. </p>
 <p>ORENCIA contains sodium 
 This medicine contains 34.5 mg sodium (main component of cooking/table salt) per maximum dose of 
 4 vials (8.625 mg sodium per vial). This is equivalent to 1.7% of the recommended maximum daily 
-dietary intake of sodium for an adult. </p>         </div>"""   
+dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orencia"
@@ -245,7 +248,7 @@ If you miss receiving ORENCIA when you are supposed to, ask your doctor when to 
 next dose. </p>
 <p>If you stop using ORENCIA 
 The decision to stop using ORENCIA should be discussed with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ are similar to those experienced in adults as described above, with the followin
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orencia"
@@ -339,7 +342,7 @@ bacteriological reasons, it is to be used immediately. </p>
 <p>Do not use this medicine if you notice opaque particles, discolouration or other foreign particles 
 present in the infusion solution. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -372,7 +375,7 @@ Cruiserath Road, Mulhuddart
 Dublin Ireland </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -411,7 +414,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -420,7 +425,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -435,7 +441,7 @@ Usage: #inline
 3. Sådan skal du bruge ORENCIA 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -498,7 +504,7 @@ ikke er passende. </p>
 <li>at forsinke skade på led </li>
 <li>at forbedre fysisk funktionsevne </li>
 <li>at bedre andre tegn og symptomer på børnegigt </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -602,7 +608,7 @@ motorkøretøj, cykle eller arbejde med maskiner. </p>
 <p>ORENCIA indeholder natrium 
 Denne medicin indeholder 34,5 mg natrium (hovedkomponent i madlavnings-/bordsalt) per 
 maksimumsdosis fra 4 hætteglas (8,625 mg natrium per hætteglas). Dette svarer til 1,7 % af den 
-anbefalede maximale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+anbefalede maximale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orencia"
@@ -649,7 +655,7 @@ Hvis du ikke har fået ORENCIA, som du skulle have haft, skal du spørge lægen,
 gang skal have en dosis. </p>
 <p>Hvis du holder op med at bruge ORENCIA 
 Beslutningen om at holde op med ORENCIA skal tages i samråd med lægen. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -825,7 +831,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orencia"
@@ -842,7 +848,7 @@ bakteriologiske årsager anvendes straks. </p>
 <p>Brug ikke dette lægemiddel, hvis du bemærker uigennemsigtige partikler, misfarvning eller andre 
 fremmedlegemer i infusionsvæsken. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -944,7 +950,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 bivirkninger, som ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på 
 www.indlaegsseddel.dk </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

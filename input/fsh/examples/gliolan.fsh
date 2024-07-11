@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Gliolan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ surgery. </p>
 <p>Gliolan contains a substance called aminolevulinic acid (5-ALA). 5-ALA accumulates preferably in 
 tumour cells where it is transformed into another similar substance. If the tumour is then exposed to 
 blue light, this new substance emits a red-violet light which helps to better see what is normal tissue 
-and what is tumour tissue. This helps the surgeon to remove the tumour while sparing healthy tissue. </p>         </div>"""   
+and what is tumour tissue. This helps the surgeon to remove the tumour while sparing healthy tissue. </p> </div>"""   
           
 
              
@@ -125,7 +128,7 @@ pregnant.  </p>
 It is not known whether this medicine enters breast milk. Breast-feeding mothers should not 
 breast-feed for 24 hours after treatment with this medicine. </p>
 <p>Driving and using machines 
-This medicine itself has no influence on the ability to drive and use machines. </p>         </div>"""   
+This medicine itself has no influence on the ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gliolan"
@@ -147,7 +150,7 @@ This medicine is given once only at the day of surgery, 2   4 hours before start
 have forgotten to take this medicine during this time period, it is not advisable to take it just before 
 start of anaesthesia. In this case, anaesthesia and surgery must be postponed for at least 2 hours, if 
 possible. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -192,7 +195,7 @@ Decrease of your sense of touch (hypaesthesia), and loose or watery stools (diar
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gliolan"
@@ -205,7 +208,7 @@ refers to the last day of that month. </p>
 <p>Keep the bottle in the outer carton in order to protect from light. </p>
 <p>The reconstituted solution is physically-chemically stable for 24 hours at 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ South County Business Park
 Leopardstown 
 IRL - Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -351,7 +354,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -360,7 +365,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -375,7 +381,7 @@ Usage: #inline
 3. Sådan skal du tage Gliolan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -389,7 +395,7 @@ fjernelse af svulsten.  </p>
 svulstceller, hvor det omdannes til et andet lignende stof. Hvis svulsten derefter eksponeres for blåt 
 lys, udstråler dette nye stof et rød-violet lys, som gør det nemmere at se, hvad der er normalt væv, og 
 hvad der er svulstvæv. Dette hjælper kirurgen til at fjerne svulsten, samtidig med at det raske væv 
-skånes. </p>         </div>"""   
+skånes. </p> </div>"""   
           
 
              
@@ -454,7 +460,7 @@ Det er ukendt, om dette lægemiddel kan trænge over i modermælken. Ammende mø
 amningen i 24 timer efter behandling med dette lægemiddel. </p>
 <p>Trafik- og arbejdssikkerhed 
 Dette lægemiddel medfører i sig selv ingen påvirkning af evnen til at føre motorkøretøj og betjene 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gliolan"
@@ -475,7 +481,7 @@ problemer, herunder sørge for tilstrækkelig beskyttelse mod stærkt lys (for e
 Dette lægemiddel gives kun én gang på dagen for operationen 2-4 timer inden bedøvelsen. Hvis du har 
 glemt at tage lægemidlet i denne periode, bør du ikke tage lægemidlet umiddelbart inden bedøvelsen. I 
 det tilfælde skal bedøvelsen og operationen om muligt udsættes i mindst 2 timer. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -526,7 +532,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gliolan"
@@ -539,7 +545,7 @@ dag i den nævnte måned. </p>
 <p>Opbevar flasken i den ydre karton for at beskytte mod lys.  </p>
 <p>Den rekonstituerede opløsning er fysisk-kemisk stabil i 24 timer ved 25 ºC. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -653,7 +659,7 @@ IRL - Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside.  </p>         </div>"""      
+hjemmeside.  </p> </div>"""      
 
 
 
@@ -692,7 +698,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -701,7 +709,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -718,7 +727,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Gliolan </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -732,7 +741,7 @@ durante a cirurgia ao tumor. </p>
 acumula-se preferencialmente nas células tumorais, onde é transformado noutra substância similar. 
 Nessa altura, se o tumor for exposto a uma luz azul, essa nova substância emite uma luz violeta 
 avermelhada que ajuda a distinguir melhor o tecido normal do tecido tumoral. Isto ajuda o cirurgião a 
-remover, de forma mais completa, o tumor, poupando o tecido saudável. </p>         </div>"""   
+remover, de forma mais completa, o tumor, poupando o tecido saudável. </p> </div>"""   
           
 
              
@@ -799,7 +808,7 @@ Desconhece-se se Gliolan prejudicará o feto. Não tome este medicamento se esti
 Desconhece-se se este medicamento penetra no leite materno. As mães que estejam a amamentar não 
 devem amamentar durante 24 horas depois do tratamento com este medicamento. </p>
 <p>Condução de veículos e utilização de máquinas 
-Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas são nulos. </p>         </div>"""   
+Os efeitos deste medicamento sobre a capacidade de conduzir e utilizar máquinas são nulos. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar gliolan"
@@ -824,7 +833,7 @@ anestesia. Se se esqueceu de tomar este medicamento neste período, não é acon
 mesmo antes do início da anestesia. Nesse caso, a anestesia e a cirurgia têm de ser adiadas durante 
 2 horas pelo menos, se possível.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -880,7 +889,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar gliolan"
@@ -894,7 +903,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>A solução reconstituída é física e quimicamente estável durante 24 horas a 25 °C. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1005,7 +1014,7 @@ South County Business Park
 Leopardstown 
 IRL - Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

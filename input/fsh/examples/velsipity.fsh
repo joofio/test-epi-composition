@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Velsipity </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ travelling from the lymph nodes (part of the body s immune system that contains 
 the blood. These lymphocytes are involved in the inflammation that is linked to the development of 
 ulcerative colitis. By reducing the number of lymphocytes circulating in the blood surrounding the 
 large bowel, etrasimod helps to reduce bowel inflammation and the symptoms associated with the 
-disease.  </p>         </div>"""   
+disease.  </p> </div>"""   
           
 
              
@@ -267,7 +270,7 @@ however, feel dizzy after taking Velsipity. If this happens, do not drive or use
 The colouring agent in Velsipity contains tartrazine (E102), which may cause allergic reactions.  </p>
 <p>Velsipity contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take velsipity"
@@ -302,7 +305,7 @@ advice from your doctor. </p>
 <p>Velsipity will stay in your body for up to 14 days after you stop taking it. Your white blood cell count 
 (lymphocyte count) may remain low for up to about 2 weeks and side effects described in this leaflet 
 may still occur (see  Possible side effects  in section 4) during this period.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ function
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store velsipity"
@@ -355,7 +358,7 @@ after EXP. The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -461,7 +464,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: +371 670 35 This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -500,7 +503,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -509,7 +514,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -524,7 +530,7 @@ Usage: #inline
 3. Sådan skal du tage Velsipity 
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -543,7 +549,7 @@ lymfeknuderne (del af kroppens immunsystem, som indeholder lymfocytter) over i b
 lymfocytter er medvirkende årsag til den betændelse, som er forbundet med udviklingen af colitis 
 ulcerosa. Ved at reducere antallet af lymfocytter, der cirkulerer i blodet omkring tyktarmen, kan 
 etrasimod hjælpe med at reducere betændelsen i tarmen og de symptomer, som er forbundet med 
-sygdommen.</p>         </div>"""   
+sygdommen.</p> </div>"""   
           
 
              
@@ -761,7 +767,7 @@ Velsipity indeholder tartrazin (E102)
 Farvestoffet i Velsipity indeholder tartrazin (E102), som kan medføre allergiske reaktioner. 
 Velsipity indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take velsipity"
@@ -803,7 +809,7 @@ hvis du har været stoppet i mere end 7 dage, uden at spørge lægen til råds.
 Velsipity bliver i kroppen i op til 14 dage efter, at du holder op med at tage det. Dit antal af hvide 
 blodlegemer (lymfocyttal) kan forblive lavt i op til ca. 2 uger, og de bivirkninger, der er beskrevet i 
 denne indlægsseddel, kan stadig forekomme i denne periode (se "Bivirkninger" i afsnit 4).
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -855,7 +861,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store velsipity"
@@ -875,7 +881,7 @@ Opbevares i den originale yderpakning for at beskytte mod fugt.
 Brug ikke lægemidlet, hvis du bemærker skader eller tegn på, at pakningen har været åbnet.
 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet 
-må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1018,7 +1024,7 @@ Tel: +371 670 35 775
 Denne indlægsseddel blev senest ændret i
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1057,7 +1063,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1066,7 +1074,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1081,7 +1090,7 @@ Usage: #inline
 3. Como tomar Velsipity 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Velsipity
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1100,7 +1109,7 @@ A substância ativa de Velsipity, etrasimod, impede que os linfócitos (um tipo 
 passem dos gânglios linfáticos (parte do sistema imunitário do organismo que contém linfócitos) para 
 o sangue. Estes linfócitos estão envolvidos na inflamação associada ao desenvolvimento de colite 
 ulcerosa. Ao reduzir o número de linfócitos que circulam no sangue ao redor do intestino grosso, 
-etrasimod ajuda a reduzir a inflamação do intestino e os sintomas associados à doença.</p>         </div>"""   
+etrasimod ajuda a reduzir a inflamação do intestino e os sintomas associados à doença.</p> </div>"""   
           
 
              
@@ -1332,7 +1341,7 @@ Velsipity contém tartrazina (E102)
 O corante de Velsipity contém tartrazina (E102), a qual pode provocar reações alérgicas. 
 Velsipity contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar velsipity"
@@ -1377,7 +1386,7 @@ brancos (contagem de linfócitos) poderá manter-se baixa durante cerca de 2 sem
 período, os efeitos indesejáveis descritos neste folheto poderão ainda ocorrer (ver “Efeitos indesejáveis 
 possíveis" na secção 4).
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1429,7 +1438,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar velsipity"
@@ -1451,7 +1460,7 @@ embalagem.
 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1470,7 +1479,7 @@ Estearato de magnésio (E470b), manitol (E421), celulose microcristalina (E460i)
 amido sódico (Tipo A)
 Revestimento do comprimido
 Azul Brilhante FCF (E133), índigo carmim (E132), tartrazina azul (E102), macrogol 4(E1521), poli(álcool vinílico) (E1203), talco (E553b) e dióxido de titânio (E171)
-4</p>         </div>"""      
+4</p> </div>"""      
 
 
 

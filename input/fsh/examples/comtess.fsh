@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Comtess</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Comtess tablets contain entacapone and are used together with levodopa to treat Parkinson s disease. 
 Comtess aids levodopa in relieving the symptoms of Parkinson's disease. Comtess has no effect on 
-relieving the symptoms of Parkinson s disease unless taken with levodopa.</p>         </div>"""   
+relieving the symptoms of Parkinson s disease unless taken with levodopa.</p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ Comtess contains soya lecithin. If you are allergic to peanut or soya, do not us
 product.
 This medicine contains 7.9 mg sodium (main component of cooking/table salt) in each tablet. The 
 maximum recommended daily dose (10 tablets) contains 79 mg of sodium. This is equivalent to 4% 
-of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take comtess"
@@ -184,7 +187,7 @@ Do not stop taking Comtess unless your doctor tells you to.
 When stopping your doctor may need to re-adjust the dosage of your other medicines to treat 
 Parkinson s disease. Suddenly stopping Comtess and other medicines to treat Parkinson s disease
 may result in unwanted side effects. See Section 2 Warnings and precautions.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store comtess"
@@ -262,7 +265,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 expiry date refers to the last day of that month.
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ c/o Allphar Services Ltd.
 Tel: +353 1 428 7This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.</p>         </div>"""      
+http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -429,7 +435,7 @@ Usage: #inline
 3. Sådan skal du tage Comtess
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -440,7 +446,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Comtess-tabletter indeholder entacapon og bruges sammen med levodopa til behandling af Parkinsons 
 sygdom. Comtess understøtter levodopa og lindrer derved symptomerne på Parkinsons sygdom. 
 Comtess har kun lindrende virkning på symptomerne fra Parkinsons sygdom, hvis det tages sammen 
-med levodopa.</p>         </div>"""   
+med levodopa.</p> </div>"""   
           
 
              
@@ -532,7 +538,7 @@ jordnødder eller soja.
 Dette lægemiddel indeholder 7,9 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hver tablet. 
 Den maksimale anbefalede daglige dosis (10 tabletter) indeholder 79 mg natrium. Dette svarer til 4 % af 
 den anbefalede maksimale daglige indtagelse af natrium for en voksen.
-20</p>         </div>"""   
+20</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take comtess"
@@ -567,7 +573,7 @@ Du må kun ophøre med at tage Comtess, hvis din læge har sagt det.
 Hvis du stopper, kan det være nødvendigt for din læge at justere doseringen af din anden medicin til 
 behandling af Parkinsons sygdom. Pludseligt stop med brug af Comtess og anden medicin til behandling 
 af Parkinsons sygdom kan give uønskede bivirkninger. Se punkt 2 Advarsler og forsigtighedsregler
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -664,7 +670,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store comtess"
@@ -676,7 +682,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og på etik
 sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -812,7 +818,7 @@ Tel: +353 1 428 7777
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -851,7 +857,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -860,7 +868,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -875,7 +884,7 @@ Usage: #inline
 3. Como tomar Comtess
 4. Efeitos indesejáveis possíveis
 5. Como conservar Comtess
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -886,7 +895,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Os comprimidos de Comtess contêm entacapona e destinam-se a ser utilizados juntamente com a 
 levodopa para tratar a doença de Parkinson. Comtess ajuda a levodopa no alívio dos sintomas da 
 doença de Parkinson. Comtess não tem efeito no alívio dos sintomas da doença de Parkinson a não ser 
-que seja tomado com a levodopa.</p>         </div>"""   
+que seja tomado com a levodopa.</p> </div>"""   
           
 
              
@@ -984,7 +993,7 @@ Comtess contém lecitina de soja. Se tem alergia ao amendoim ou à soja, não ut
 medicamento. 
 Este medicamento contém 7,9 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada comprimido. A dose diária máxima recomendada (10 comprimidos) contém 79 mg de sódio. Isto 
-é equivalente a 4% da ingestão diária máxima de sódio recomendada na dieta para um adulto.</p>         </div>"""   
+é equivalente a 4% da ingestão diária máxima de sódio recomendada na dieta para um adulto.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar comtess"
@@ -1021,7 +1030,7 @@ medicamentos para tratar a doença de Parkinson pode resultar em efeitos indesej
 Advertências e precauções.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
 22
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1122,7 +1131,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar comtess"
@@ -1134,7 +1143,7 @@ Não utilize este medicamento após o prazo de validade impresso na embalagem ex
 do frasco. O prazo de validade corresponde ao último dia do mês indicado.
 O medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar 
-fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1149,7 +1158,7 @@ sódica, povidona e estearato de magnésio.
 -
 A película de revestimento contém álcool polivinílico, talco, macrogol, lecitina de soja, óxido 
 de ferro amarelo (E 172), óxido de ferro vermelho (E 172) e dióxido de titânio (E 171).
-2</p>         </div>"""      
+2</p> </div>"""      
 
 
 

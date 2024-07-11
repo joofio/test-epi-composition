@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Verquvo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ guanylate cyclase stimulator. </p>
 failure symptoms. Therefore, you may have gone to hospital and/or received a medicine (diuretic) 
 given in a vein to help you pass more urine than usual. </p>
 <p>Heart failure is when your heart is weak and cannot pump enough blood to your body. Some common 
-symptoms of heart failure are shortness of breath, tiredness, or swelling caused by a build-up of fluid. </p>         </div>"""   
+symptoms of heart failure are shortness of breath, tiredness, or swelling caused by a build-up of fluid. </p> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ If you feel dizzy while taking this medicine, do not drive a vehicle, cycle or u
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
 some sugars, contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take verquvo"
@@ -151,7 +154,7 @@ double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Verquvo 
 Do not stop taking this medicine without speaking with your doctor first. If you stop taking this 
 medicine, your condition may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -174,7 +177,7 @@ medicine, your condition may worsen. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store verquvo"
@@ -186,7 +189,7 @@ of this medicine. </p>         </div>"""
 bottle after  EXP . The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ Tel: +371 67 84 55 United Kingdom (Northern Ireland)
 Bayer AG 
 Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -328,7 +331,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -337,7 +342,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -354,7 +360,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Verquvo </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -369,7 +375,7 @@ tenham tido um aumento dos sintomas de insuficiência cardíaca. Assim poderá t
 e/ou receber um medicamento (diurético) dado numa veia para o ajudar a urinar mais que o habitual.  </p>
 <p>Insuficiência cardíaca é quando o seu coração está fraco e não consegue bombear sangue suficiente 
 para o seu corpo. Alguns sintomas frequentes da insuficiência cardíaca são, por exemplo, falta de ar, 
-cansaço ou inchaço provocado pela acumulação de fluídos. </p>         </div>"""   
+cansaço ou inchaço provocado pela acumulação de fluídos. </p> </div>"""   
           
 
              
@@ -420,7 +426,7 @@ utilize máquinas. </p>
 Este medicamento contém lactose. Se foi informado pelo seu médico que tem intolerância a alguns 
 açúcares, contacte-o antes de tomar este medicamento. 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar verquvo"
@@ -450,7 +456,7 @@ tome uma dose a dobrar para compensar um comprimido que se esqueceu de tomar. </
 Não pare de tomar este medicamento sem falar primeiro com o seu médico. Se parar de tomar este 
 medicamento, a sua doença pode piorar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -475,7 +481,7 @@ ar
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar verquvo"
@@ -488,7 +494,7 @@ blister ou frasco, após “EXP". O prazo de validade corresponde ao último dia
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Bayer AG
 Tel: +44-(0)118 206 3 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

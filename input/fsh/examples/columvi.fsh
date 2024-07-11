@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Columvi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ protein that attaches to two specific targets in the body. It attaches to a spec
 surface of B cells, including cancerous B cells, and also to another protein on the surface of T 
 cells (another type of white blood cell). This activates T cells and causes them to multiply. This, 
 in turn, results in the destruction of the B cells, including the cancerous cells. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ because it is not known if this medicine can pass into breast milk and harm your
 <p>If you feel any symptoms that may affect your ability to drive, including symptoms of cytokine release 
 syndrome (such as fever, fast heartbeat, feeling dizzy or lightheaded, chills or shortness of breath)   do 
 not drive, cycle or use any tools or machines until you feel better. See section 4 for more information 
-about side effects. </p>         </div>"""   
+about side effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take columvi"
@@ -215,7 +218,7 @@ is very important not to miss a dose. </p>
 <p>Before stopping Columvi treatment </p>
 <p>Speak with your doctor before stopping treatment. This is because stopping treatment may make your 
 condition worse. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -291,7 +294,7 @@ blood in vomit  </li>
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store columvi"
@@ -307,7 +310,7 @@ after EXP. The expiry date refers to the last day of that month.
 * Do not freeze. 
 * Keep the vial in the outer carton in order to protect from light. 
 * Do not use this medicine if it appears cloudy, discoloured or contains particles. </p>
-<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+<p>Any unused medicine or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -406,7 +409,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -445,7 +448,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -454,7 +459,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -471,7 +477,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -508,7 +514,7 @@ binder sig to specifikke steder i kroppen. Det binder sig til et specifikt prote
 B-celler, herunder også de ondartede B-celler, og også til et andet protein på overfladen af “T-
 celler" (en anden type hvide blodlegemer). Dette aktiverer T-cellerne og får dem til at formere 
 sig. Dette forårsager en hurtig nedbrydning af B-cellerne, herunder de ondartede celler. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -623,7 +629,7 @@ man ikke ved, om dette lægemiddel kan udskilles i modermælken og skade dit bar
 <p>Hvis du har symptomer som kan påvirke din evne til at køre bil, inklusive symptomer på 
 cytokinfrigivelsessyndrom (f.eks. feber, hurtig puls, svimmelhed, kuldegysninger eller åndenød), må 
 du ikke køre bil, cykle eller bruge værktøj eller maskiner, før du har det bedre. Se afsnit 4 for mere 
-information om bivirkninger. </p>         </div>"""   
+information om bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take columvi"
@@ -695,7 +701,7 @@ fuldt effektiv, er det meget vigtigt ikke at gå glip af en dosis. </p>
 <p>Før du stopper behandlingen med Columvi </p>
 <p>Tal med lægen, inden du stopper med behandlingen. Dette skyldes, at det kan gøre din tilstand værre 
 at stoppe behandlingen. </p>
-<p>Spørg lægen eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af dette lægemiddel. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -831,7 +837,7 @@ forværres. </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte 
 til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store columvi"
@@ -861,7 +867,7 @@ efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis det er uklart, misfarvet eller indeholder partikler. </p>
 </li>
 </ul>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1089,7 +1095,7 @@ normalt ikke overstige 24 timer ved 2 °C til 8 °C, medmindre fortynding er for
 kontrollerede og validerede aseptiske forhold. </p>
 <p>Bortskaffelse </p>
 <p>Columvi er kun beregnet til engangsbrug. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -1128,7 +1134,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1137,7 +1145,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1154,7 +1163,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Columvi  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1193,7 +1202,7 @@ superfície das células B, incluindo as células B cancerígenas, e também a o
 superfície das células T (outro tipo de glóbulo branco). Isto ativa as células T e faz com que 
 estas se multipliquem. Por sua vez, isto resulta na destruição das células B, incluindo as células 
 cancerígenas. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1318,7 +1327,7 @@ ferramentas ou máquinas.  </p>
 <p>Se sentir quaisquer sintomas que possam afetar sua capacidade de conduzir, incluindo sintomas de 
 síndrome de libertação de citocinas (como febre, batimento cardíaco rápido, tonturas ou vertigens, 
 arrepios ou falta de ar), não conduza, não ande de bicicleta nem use ferramentas ou máquinas até se 
-sentir melhor. Ver a secção 4 para mais informação sobre efeitos indesejáveis. </p>         </div>"""   
+sentir melhor. Ver a secção 4 para mais informação sobre efeitos indesejáveis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar columvi"
@@ -1389,7 +1398,7 @@ administração. </p>
 <p>Antes de parar o tratamento com Columvi </p>
 <p>Fale com o seu médico antes de parar o tratamento. Isto porque parar o tratamento pode fazer com que 
 a sua doença piore. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1522,7 +1531,7 @@ agravarem. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar columvi"
@@ -1555,7 +1564,7 @@ mês indicado. </p>
 </li>
 </ul>
 <p>Qualquer medicamento não utilizado ou resíduos devem ser eliminados de acordo com as exigências 
-locais. </p>         </div>"""      
+locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1685,7 +1694,7 @@ significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

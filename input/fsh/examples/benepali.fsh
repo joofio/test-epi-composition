@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use (see overleaf) </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Benepali  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -109,7 +111,7 @@ when other widely used treatments have not worked well enough or are not suitabl
 have had an inadequate response to (or are unable to take) phototherapies or other systemic 
 therapies. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -220,7 +222,7 @@ breastfeeding before your baby receives any vaccine. </p>
 No information is available if the use of Benepali effects the ability to drive or use machines. </p>
 <p>Benepali contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per 25 mg, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take benepali"
@@ -272,7 +274,7 @@ the usual day(s). If you do not remember until the day that the next injection i
 double dose (two doses on the same day) to make up for a forgotten dose. </p>
 <p>If you stop using Benepali 
 Your symptoms may return upon discontinuation. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -391,7 +393,7 @@ above. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store benepali"
@@ -417,7 +419,7 @@ Benepali. Do not use this medicine if you notice the solution is discoloured, cl
 other than those described above are present. If you are concerned with the appearance of the solution, 
 then contact your pharmacist for assistance. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -511,7 +513,7 @@ Biogen Latvia SIA
 Tel: + 371 66 16 40 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Ltd. 
 Tel: +44 (0)20 360 886 This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -550,7 +552,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -561,7 +565,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsanvisning (se næste side) </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -578,7 +582,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -642,7 +646,7 @@ har været utilstrækkelig eller ikke kan anvendes.  </p>
 lysbehandling eller systemisk behandling har været utilstrækkelig, eller du ikke har kunnet tåle 
 det. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -804,7 +808,7 @@ Der findes ingen oplysninger, om brugen af Benepali påvirker evnen til at føre
 betjene maskiner. </p>
 <p>Benepali indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 25 mg, det vil sige, at det i det 
-væsentlige er “natriumfrit". </p>         </div>"""   
+væsentlige er “natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take benepali"
@@ -860,7 +864,7 @@ skal tage den næste dosis, må du ikke tage en dobbeltdosis (to doser på samme
 den glemte dosis. </p>
 <p>Hvis du holder op med at bruge Benepali 
 Symptomerne kan vende tilbage, hvis behandlingen stoppes. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1006,7 +1010,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store benepali"
@@ -1032,7 +1036,7 @@ normalt for Benepali. Brug ikke lægemidlet, hvis du bemærker, at opløsningen 
 eller indeholder andre partikler end de, der er beskrevet ovenfor. Hvis du er bekymret over 
 opløsningens udseende, skal du kontakte dit apotek for assistance. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1331,7 +1335,7 @@ være opmærksom på, før og under behandlingen med Benepali.
 give medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme 
 symptomer, som du eller barnet har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1370,7 +1374,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1381,7 +1387,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções de utilização (ver verso) </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -1398,7 +1404,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Benepali  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1461,7 +1467,7 @@ utilizados ou que não os possam tomar. </p>
 superior que tenham tido uma resposta inadequada a (ou que não possam tomar) fototerapias ou 
 outras terapias sistémicas. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1629,7 +1635,7 @@ Não existem informações se a utilização de Benepali tem efeitos sobre a cap
 utilizar máquinas. </p>
 <p>Benepali contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 25 mg, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar benepali"
@@ -1688,7 +1694,7 @@ para compensar uma dose que se esqueceu de tomar. </p>
 <p>Se parar de utilizar Benepali 
 Se parar de utilizar Benepali os seus sintomas podem reaparecer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1843,7 +1849,7 @@ descritos acima. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar benepali"
@@ -1870,7 +1876,7 @@ solução apresenta alteração de cor, está turva ou se apresentar partículas
 acima. Se tiver dúvidas quanto à aparência da solução, consulte o seu farmacêutico. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1991,7 +1997,7 @@ United Kingdom (Northern Ireland)
 Biogen Idec (Ireland) Ltd. 
 Tel: +44 (0)20 360 886<br />
 Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

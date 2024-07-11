@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Myocet liposomal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ of medicine is called  chemotherapy . The medicine is contained inside very smal
 called  liposomes . </p>
 <p>Myocet liposomal is used in adult women for the first-line treatment of breast cancer that has spread 
 ( metastatic breast cancer ). It is used with another medicine called  cyclophosphamide . Please also 
-read the patient information leaflet carefully that comes with that medicine. </p>         </div>"""   
+read the patient information leaflet carefully that comes with that medicine. </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ not drive or use any tools or machines. </p>
 Myocet liposomal is available in cartons containing 1 set or 2 sets of 3 vials (not all pack-sizes may be 
 marketed). When the 3 vials have been mixed together, your medicine contains about 108 mg sodium 
 (main component of cooking/table salt). This is equivalent to 5.4 % of the recommended maximum 
-daily dietary intake of sodium for an adult.  </p>         </div>"""   
+daily dietary intake of sodium for an adult.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myocet"
@@ -156,7 +159,7 @@ If you get Myocet liposomal on your skin
 Tell your doctor or nurse straight away if any medicine leaks from the drip (infusion) onto your skin. 
 This is because Myocet liposomal can damage your skin. The drip will be stopped straight away. Ice 
 will be put on the affected area for 30 minutes. Then the drip will be started in another vein. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -219,7 +222,7 @@ given more slowly over a longer period of time. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.  </p>         </div>"""      
+safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store myocet"
@@ -238,7 +241,7 @@ place in controlled and validated aseptic conditions. </li>
 other particulate matter. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -369,7 +372,7 @@ as a bolus injection. </p>
 <ol>
 <li>DISPOSAL </li>
 </ol>
-<p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+<p>Any unused product or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
 
 
 
@@ -408,7 +411,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -417,7 +422,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -432,7 +438,7 @@ Usage: #inline
 3. Sådan gives Myocet liposomal 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -444,7 +450,7 @@ Usage: #inline
 type medicin kaldes kemoterapi. Medicinen er inde i meget små fedtdråber, som kaldes liposomer. </p>
 <p>Myocet liposomal bruges hos voksne kvinder til førstebehandling af brystkræft, der har spredt sig 
 (metastatisk brystkræft). Det bruges sammen med en anden medicin, kaldet cyclophosphamid. Læs 
-også indlægssedlen, der følger med dette lægemiddel, grundigt. </p>         </div>"""   
+også indlægssedlen, der følger med dette lægemiddel, grundigt. </p> </div>"""   
           
 
              
@@ -531,7 +537,7 @@ maskiner. </p>
 Myocet liposomal fås i æsker med 1 sæt eller 2 sæt á 3 hætteglas (ikke alle pakningsstørrelser er 
 nødvendigvis markedsført). Når de 3 hætteglas er blevet blandet, indeholder din medicin cirka 108 mg 
 natrium (hovedkomponent af madlavnings-/bordsalt). Dette svarer til 5,4 % af den anbefalede 
-maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myocet"
@@ -567,7 +573,7 @@ Behandlingen varer i reglen cirka 3 til 6 måneder. </p>
 Fortæl straks lægen eller sygeplejersken, hvis der lækker medicin fra droppet (infusionen) ned på din 
 hud. Myocet liposomal kan skade din hud. Droppet vil blive stoppet øjeblikkeligt, og der vil blive lagt 
 is på de berørte områder i 30 minutter. Droppet vil derefter blive lagt i en anden blodåre. </p>
-<p>Spørg lægen eller sygeplejersken, hvis er der noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis er der noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -699,7 +705,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store myocet"
@@ -717,7 +723,7 @@ og godkendte aseptiske forhold.  </li>
 <li>Brug ikke lægemidlet, hvis du bemærker tegn på misfarvning, udfældning eller andre partikler. </li>
 <li>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -895,7 +901,7 @@ bolusinjektion. </p>
 <ol>
 <li>BORTSKAFFELSE  </li>
 </ol>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

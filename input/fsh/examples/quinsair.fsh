@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Quinsair</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 called fluoroquinolones.
 Quinsair is used to treat lung infections caused by Pseudomonas aeruginosa in adults with cystic 
 fibrosis. It is an antibiotic medicine that is breathed (inhaled) directly into the lungs where it kills the 
-bacteria causing the infection. This helps to improve breathing in people with cystic fibrosis. </p>         </div>"""   
+bacteria causing the infection. This helps to improve breathing in people with cystic fibrosis. </p> </div>"""   
           
 
              
@@ -247,7 +250,7 @@ think you may be pregnant or are planning to have a baby, ask your doctor for ad
 this medicine.
 Driving and using machines
 Quinsair may make you feel dizzy, tired or weak, or cause problems with your eyesight. If this 
-happens to you, do not drive or use any tools or machines.</p>         </div>"""   
+happens to you, do not drive or use any tools or machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take quinsair"
@@ -380,7 +383,7 @@ inhaling the next dose. However if it is nearly the time for your next dose, ski
 Do not inhale the contents of more than one ampoule to make up for a missed dose.
 If you stop using Quinsair
 Do not stop using Quinsair without first talking to your doctor as your lung infection may worsen.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -597,7 +600,7 @@ patients receiving fluoroquinolones. See also section 2. Reporting of side effec
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store quinsair"
@@ -613,7 +616,7 @@ from the strip back into the sachet to protect them from light.
 Store in the original package in order to protect from light. This medicine does not require any special 
 temperature storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -717,7 +720,7 @@ Tel: + 43 1 4073United Kingdom (Northern Ireland)
 Chiesi Farmaceutici S.p.A.
 Tel: + 39 0521 2This leaflet was last revised in MM/YYYY.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -756,7 +759,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -765,7 +770,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -780,7 +786,7 @@ Usage: #inline
 3. Sådan skal du bruge Quinsair
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -793,7 +799,7 @@ antibiotika, der kaldes fluorquinoloner.
 Quinsair anvendes til at behandle lungeinfektioner, der skyldes Pseudomonas aeruginosa, hos voksne 
 med cystisk fibrose. Det er et antibiotisk lægemiddel, der indåndes (inhaleres) direkte ned i lungerne, 
 hvor det dræber de bakterier, der forårsager infektionen. Dette hjælper med at forbedre vejrtrækningen 
-hos personer med cystisk fibrose.</p>         </div>"""   
+hos personer med cystisk fibrose.</p> </div>"""   
           
 
              
@@ -983,7 +989,7 @@ bruger dette lægemiddel.
 Trafik- og arbejdssikkerhed
 Quinsair kan gøre, at du føler dig svimmel, træt eller svag, eller give problemer med synet. Hvis det 
 sker for dig, må du ikke køre i trafikken eller anvende værktøj eller maskiner.
-36</p>         </div>"""   
+36</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take quinsair"
@@ -1066,7 +1072,7 @@ Figur 1
 3)
 Luk medicinbeholderen ved at rette tappene på medicinlåget ind i forhold til rillerne på 
 beholderen (a). Tryk ned, og drej låget med uret så langt, som det kan komme (b, figur 2).
-Figur </p>         </div>"""         
+Figur </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1127,7 +1133,7 @@ Du må ikke inhalere indholdet af mere end én ampul som erstatning for den glem
 Hvis du holder op med at bruge Quinsair
 Du må ikke holde op med at bruge Quinsair uden først at tale med lægen, da din lungeinfektion kan 
 blive forværret.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""      
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store quinsair"
@@ -1350,7 +1356,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1368,7 +1374,7 @@ Opbevares i den originale yderpakning for at beskytte mod lys. Der er ingen sær
 opbevaringstemperaturer for dette lægemiddel. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-42</p>         </div>"""      
+42</p> </div>"""      
 
 
 
@@ -1407,7 +1413,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1416,7 +1424,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1431,7 +1440,7 @@ Usage: #inline
 3. Como utilizar Quinsair
 4. Efeitos indesejáveis possíveis
 5. Como conservar Quinsair
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1444,7 +1453,7 @@ antibióticos denominados fluoroquinolonas.
 Quinsair é utilizado para tratar infeções pulmonares causadas por Pseudomonas aeruginosa em 
 adultos com fibrose quística. É um medicamento antibiótico que é inspirado (inalado) diretamente 
 para os pulmões onde mata a bactéria que causa a infeção. Isto ajuda a melhorar a respiração nas 
-pessoas com fibrose quística.</p>         </div>"""   
+pessoas com fibrose quística.</p> </div>"""   
           
 
              
@@ -1635,7 +1644,7 @@ medicamento.
 37
 Condução de veículos e utilização de máquinas
 Quinsair pode fazer com que sinta tonturas, cansaço ou fraqueza, ou causar problemas de visão. Se 
-isso lhe acontecer, não conduza nem utilize ferramentas ou máquinas.</p>         </div>"""   
+isso lhe acontecer, não conduza nem utilize ferramentas ou máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar quinsair"
@@ -1788,7 +1797,7 @@ Se parar de utilizar Quinsair
 Não pare de utilizar Quinsair sem falar com o seu médico, uma vez que a infeção pulmonar se pode 
 agravar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -2008,7 +2017,7 @@ cardíacas em doentes tratados com fluoroquinolonas. Ver também a secção 2. C
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar quinsair"
@@ -2027,7 +2036,7 @@ Conservar na embalagem original para proteger da luz. O medicamento não necessi
 precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2165,7 +2174,7 @@ Tel: + 39 0521 2791
 45
 Este folheto foi revisto pela última vez em MM/AAAA.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

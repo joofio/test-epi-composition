@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tolvaptan Accord </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ medicine because you have a lowered sodium level in your blood as a result of a 
  syndrome of inappropriate antidiuretic hormone secretion  (SIADH) where the kidneys retain too 
 much water. This disease causes an inappropriate production of the hormone vasopressin which has 
 caused the sodium levels in your blood to get too low (hyponatremia). That can lead to difficulties in 
-concentration and memory, or in keeping your balance. </p>         </div>"""   
+concentration and memory, or in keeping your balance. </p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ Tolvaptan Accord is unlikely to adversely affect your ability to drive or to ope
 However, you may occasionally feel dizzy or weak or you may faint for a short period. </p>
 <p>Tolvaptan Accord contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tolvaptan"
@@ -182,7 +185,7 @@ double dose to make up for a forgotten dose. </p>
 If you stop taking Tolvaptan Accord this may lead to reoccurrence of your low sodium. Therefore, you 
 should only stop taking Tolvaptan Accord if you notice side effects requiring urgent medical attention 
 (see section 4) or if your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -239,7 +242,7 @@ discomfort, dark urine or jaundice (yellowing of skin or eyes) occur. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tolvaptan"
@@ -251,7 +254,7 @@ this medicine. </p>         </div>"""
 EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -298,7 +301,7 @@ Winthontlaan 200,<br />
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -337,7 +340,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -346,7 +351,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -363,7 +369,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -381,7 +387,7 @@ ordineret dette lægemiddel, fordi du har et nedsat saltindhold i blodet, som sk
 hedder SIADH (syndrome of inappropriate antidiuretic hormone secretion), hvor nyrerne 
 tilbageholder for meget vand. Denne sygdom medfører en ureguleret produktion af hormonet 
 vasopressin, som har medført, at saltindholdet i dit blod er for lavt (hyponatriæmi). Det kan føre til 
-koncentrations- og hukommelsesbesvær eller besvær med at holde balancen. </p>         </div>"""   
+koncentrations- og hukommelsesbesvær eller besvær med at holde balancen. </p> </div>"""   
           
 
              
@@ -492,7 +498,7 @@ maskiner. Tolvaptan Accord kan dog en gang imellem få dig til at føle dig svim
 kan besvime i kort tid. </p>
 <p>Tolvaptan Accord indeholder lactose. 
 Hvis lægen har fortalt dig, at du ikke kan tåle visse sukkerstoffer, skal du kontakte lægen, før du tager 
-dette lægemiddel. </p>         </div>"""   
+dette lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tolvaptan"
@@ -531,7 +537,7 @@ ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 Hvis du holder op med at tage Tolvaptan Accord, kan det medføre, at du igen får for lidt salt i blodet. 
 Derfor må du kun holde op med at tage Tolvaptan Accord, hvis du får bivirkninger, der kræver akut 
 lægehjælp (se pkt. 4), eller hvis din læge har sagt, at du skal stoppe. </p>
-<p>Spørg lægen eller på apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -664,7 +670,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V.  </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tolvaptan"
@@ -676,7 +682,7 @@ af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -728,7 +734,7 @@ Holland </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -767,7 +773,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -776,7 +784,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -793,7 +802,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tolvaptano Accord </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -812,7 +821,7 @@ medicamento foi-lhe receitado por ter um nível de sódio reduzido no seu sangue
 doença chamada “síndrome de secreção inadequada de hormona antidiurética" (SSIHA), em que os 
 rins retêm demasiada água. Esta doença causa uma produção inadequada da hormona vasopressina, o 
 que fez com que os seus níveis de sódio no sangue ficassem demasiado baixos (hiponatremia). Isto 
-pode levar a dificuldades de concentração e de memória ou em manter o equilíbrio. </p>         </div>"""   
+pode levar a dificuldades de concentração e de memória ou em manter o equilíbrio. </p> </div>"""   
           
 
              
@@ -943,7 +952,7 @@ utilizar máquinas. No entanto, pode ocasionalmente sentir-se tonto ou fraco ou 
 curto período. </p>
 <p>Tolvaptano Accord contém lactose. 
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
-este medicamento. </p>         </div>"""   
+este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tolvaptan"
@@ -983,7 +992,7 @@ Se parar de tomar Tolvaptano Accord isso pode levar a que tenha nova ocorrência
 Portanto, só deve parar de tomar Tolvaptano Accord se notar efeitos indesejáveis que exijam auxílio 
 médico imediato (ver secção 4) ou por indicação do seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1114,7 +1123,7 @@ superior direita da barriga, urina escura ou icterícia (amarelecimento da pele 
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tolvaptan"
@@ -1127,7 +1136,7 @@ blister após "EXP". O prazo de validade corresponde ao último dia do mês indi
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1181,7 +1190,7 @@ Winthontlaan 200,<br />
 3526 KV Utrecht, Países Baixos </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

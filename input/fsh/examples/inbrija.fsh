@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Inbrija </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ worsening of your symptoms during the  off periods  of Parkinson s disease.  </p
 During off periods your usual medicine does not control the condition well enough and movement is 
 likely to be more difficult. </p>
 <p>You should continue taking your main medicine for Parkinson s disease and use Inbrija to control 
-worsening of symptoms (such as inability to move) during off periods. </p>         </div>"""   
+worsening of symptoms (such as inability to move) during off periods. </p> </div>"""   
           
 
              
@@ -178,7 +181,7 @@ do not use contraception. </p>
 Inbrija can cause excessive drowsiness, dizziness and sudden sleep attacks. If this happens to you, 
 do not drive or use tools or machines. You must be sure that you do not get sudden sleep attacks, 
 dizziness and drowsiness before you drive again or use machines. You could put yourself or others at 
-risk of serious injury or death. </p>         </div>"""   
+risk of serious injury or death. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inbrija"
@@ -213,7 +216,7 @@ Use Inbrija only during an off period. If the off period has passed, do not use 
 period. </p>
 <p>If you stop using Inbrija 
 Do not stop using Inbrija without checking with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -305,7 +308,7 @@ reducing the symptoms. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inbrija"
@@ -319,7 +322,7 @@ expiry date refers to the last day of that month. </p>
 remove immediately before use. </p>
 <p>Do not use any capsule that looks crushed, damaged or wet. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ Tel.: +49 30 338427-0 </p>
 <p>ES: 
 ESTEVE PHARMACEUTICALS, S.A. 
 Tel: +34 93 446 60 This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -429,7 +435,7 @@ Usage: #inline
 3. Sådan skal du bruge Inbrija 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -443,7 +449,7 @@ behandling af forværringen af dine symptomer i "off-perioderne" af Parkinsons s
 regelmæssigt. I off-perioder kontrollerer din sædvanlige medicin ikke tilstanden godt nok, og det er 
 sandsynligt, at det bliver vanskeligere for dig at bevæge dig. </p>
 <p>Du skal fortsætte med at tage din primære medicin mod Parkinsons sygdom og anvende Inbrija til at 
-kontrollere forværring af symptomer (såsom manglende evne til at bevæge dig) i off-perioder. </p>         </div>"""   
+kontrollere forværring af symptomer (såsom manglende evne til at bevæge dig) i off-perioder. </p> </div>"""   
           
 
              
@@ -546,7 +552,7 @@ ikke bruger sikker prævention. </p>
 Inbrija kan forårsage udtalt døsighed, svimmelhed og pludselige søvnanfald. Hvis det sker for dig, 
 må du ikke føre motorkøretøj eller betjene værktøj eller maskiner. Du skal være sikker på, at du ikke 
 oplever pludselige søvnanfald, svimmelhed og døsighed, før du igen fører motorkøretøj eller betjener 
-maskiner. Du kan udsætte dig selv og andre for risiko for alvorlig skade eller død. </p>         </div>"""   
+maskiner. Du kan udsætte dig selv og andre for risiko for alvorlig skade eller død. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inbrija"
@@ -581,7 +587,7 @@ Brug kun Inbrija i en off-periode. Hvis off-perioden er overstået, skal du ikke
 næste off-periode. </p>
 <p>Hvis du holder op med at bruge Inbrija 
 Stop ikke med at bruge Inbrija uden at rådføre dig med lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -676,7 +682,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inbrija"
@@ -690,7 +696,7 @@ er den sidste dag i den nævnte måned. </p>
 lys og fugt, og tages først ud umiddelbart før brug. </p>
 <p>Anvend ikke en kapsel, der synes knust, beskadiget eller våd. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -920,7 +926,7 @@ cirkulær bevægelse med en ny tør vatpind efter behov. </p>
 <p>Undlad at rengøre andre dele af inhalatoren. Undlad at skylle mundstykket, eller gøre 
 inhalatoren våd. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store BeneFIX</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ DNA technology. The active ingredient in BeneFIX is nonacog alfa. People who are
 haemophilia B (Christmas disease) lack sufficient factor IX to control bleeding. BeneFIX works by 
 replacing factor IX in haemophilia B patients to enable their blood to clot.
 BeneFIX is used for the treatment and prevention of bleeding in patients with haemophilia B 
-(congenital factor IX deficiency) in all age groups.</p>         </div>"""   
+(congenital factor IX deficiency) in all age groups.</p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ BeneFIX has no influence on the ability to drive or use machines.
 BeneFIX contains sodium
 After reconstitution, BeneFIX contains 0.2 mmol sodium (4.6 mg) per vial, that is to say essentially 
  sodium-free . However, depending on your body weight and your dose of BeneFIX, you could 
-receive multiple vials. This should be taken into consideration if you are on a low salt diet.</p>         </div>"""   
+receive multiple vials. This should be taken into consideration if you are on a low salt diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take benefix"
@@ -246,7 +249,7 @@ If you take more BeneFIX than you should
 Please contact your doctor immediately if you inject more BeneFIX than your doctor recommends.
 If you stop taking BeneFIX
 Do not stop taking BeneFIX without consulting your doctor.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -311,7 +314,7 @@ Reporting of side effects
 If you get any side effects talk to your doctor, pharmacist or nurse. This includes any possible side 
 effect not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store benefix"
@@ -328,7 +331,7 @@ Do not use this medicine if you notice the solution is not clear or colourless.
 Use only the pre-filled syringe provided in the box for reconstitution. Other sterile disposable 
 syringes may be used for administration.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -447,7 +450,7 @@ Pfizer Limited
 Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
 Tel: +371 670 35 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -486,7 +489,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -495,7 +500,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -510,7 +516,7 @@ Usage: #inline
 3. Sådan skal du tage BeneFIX
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -524,7 +530,7 @@ DNA-teknologi. Det aktive stof i BeneFIX er nonacog alfa. Personer, der er født
 BeneFIX virker ved at tilføre faktor IX hos hæmofili B-patienter for at gøre deres blod i stand til at 
 størkne.
 BeneFIX anvendes til behandling og forebyggelse af blødning hos patienter med hæmofili B (medfødt 
-faktor IX mangel) i alle aldersgrupper.</p>         </div>"""   
+faktor IX mangel) i alle aldersgrupper.</p> </div>"""   
           
 
              
@@ -614,7 +620,7 @@ BeneFIX påvirker ikke evnen til at køre bil eller betjene maskiner.
 BeneFIX indeholder natrium
 Efter rekonstitution indeholder BeneFIX 0,2 mmol natrium (4,6 mg) pr. hætteglas, dvs. det er i det 
 væsentlige natriumfrit. Afhængigt af din legemsvægt og din dosis af BeneFIX kan du imidlertid få 
-flere hætteglas. Dette bør tages i betragtning, hvis du er på en diæt med lavt natriumindhold.</p>         </div>"""   
+flere hætteglas. Dette bør tages i betragtning, hvis du er på en diæt med lavt natriumindhold.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take benefix"
@@ -698,7 +704,7 @@ Hvis du taget for meget BeneFIX
 Kontakt straks din læge, hvis du har indsprøjtet mere BeneFIX, end din læge har anbefalet.
 Hvis du holder op med at tage BeneFIX
 Du må ikke stoppe med at tage BeneFIX uden du har rådført dig med din læge.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -785,7 +791,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.
-31</p>         </div>"""      
+31</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store benefix"
@@ -803,7 +809,7 @@ Tag ikke dette lægemiddel, hvis opløsningen ikke er klar og farveløs.
 Anvend kun den fyldte sprøjte, som ligger i æsken til opløsning. Andre sterile engangssprøjter kan 
 anvendes til indsprøjtning.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -966,7 +972,7 @@ Tel: +371 670 35 775
 Denne indlægsseddel blev senest ændret 
 Du kan finde yderligere oplysninger om BeneFIX på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles.</p>         </div>"""      
+og om, hvordan de behandles.</p> </div>"""      
 
 
 
@@ -1005,7 +1011,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1014,7 +1022,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1029,7 +1038,7 @@ Usage: #inline
 3. Como utilizar BeneFIX
 4. Efeitos indesejáveis possíveis
 5. Como conservar BeneFIX
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1042,7 +1051,7 @@ de ADN. A substância ativa do BeneFIX é nonacog alfa. As pessoas que nascem co
 (doença de Christmas) não têm fator IX suficiente para controlar a hemorragia. BeneFIX atua 
 substituindo o fator IX nos doentes com hemofilia B para permitir a coagulação do seu sangue.
 BeneFIX é usado para o tratamento e prevenção da hemorragia em doentes com hemofilia B 
-(deficiência congénita de fator IX) em todas as faixas etárias.</p>         </div>"""   
+(deficiência congénita de fator IX) em todas as faixas etárias.</p> </div>"""   
           
 
              
@@ -1137,7 +1146,7 @@ BeneFIX contém sódio
 Após reconstituição, BeneFIX contém 0,2 mmol (4,6 mg) de sódio por frasco para injetáveis, ou seja, 
 é praticamente “isento de sódio". Contudo, dependendo do seu peso corporal e da sua dose de 
 BeneFIX, poderá receber múltiplos frascos para injetáveis. Isto deve ser considerado se estiver a fazer 
-uma dieta com baixo teor em sal.</p>         </div>"""   
+uma dieta com baixo teor em sal.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar benefix"
@@ -1238,7 +1247,7 @@ pelo seu médico.
 Se parar de utilizar BeneFIX
 Não pare de utilizar BeneFIX sem consultar o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1331,7 +1340,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar benefix"
@@ -1350,7 +1359,7 @@ Para a reconstituição utilizar apenas a seringa pré-cheia fornecida na embala
 estéreis descartáveis podem ser utilizadas para a administração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1512,7 +1521,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: +371 670 35 775
 35
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

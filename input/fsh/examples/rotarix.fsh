@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Rotarix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ with severe vomiting, diarrhoea and life-threatening loss of fluids that require
 antibodies against the most commonly occurring types of rotavirus. These antibodies protect against 
 disease caused by these types of rotavirus. </p>
 <p>As with all vaccines, Rotarix may not completely protect all people who are vaccinated against the 
-rotavirus infections it is intended to prevent. </p>         </div>"""   
+rotavirus infections it is intended to prevent. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ contact your doctor before your child receives this vaccine. </p>
 your child has phenylketonuria (PKU), a rare genetic disorder in which phenylalanine builds up 
 because the body cannot remove it properly. 
 This vaccine contains less than 1 mmol sodium (23 mg) in each dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rotarix"
@@ -163,7 +166,7 @@ given at the same vaccination visit. </p>
 <p>When Rotarix is given to your child for the first dose, it is recommended that your child also receives 
 Rotarix (and not another rotavirus vaccine) for the second dose.  </p>
 <p>It is important that you follow the instructions of your doctor or nurse regarding return visits. If you 
-forget to go back to your doctor at the scheduled time, ask your doctor for advice. </p>         </div>"""         
+forget to go back to your doctor at the scheduled time, ask your doctor for advice. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -197,7 +200,7 @@ diarrhoea. </p>
 If your child gets any of the side effects, talk to your doctor or pharmacist. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rotarix"
@@ -213,7 +216,7 @@ Store in the original package in order to protect from light. </p>
 <p>After reconstitution, the vaccine contained in the oral applicator should be administered promptly. If 
 the reconstituted vaccine is not used within 24 hours, it should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines your child no longer uses. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines your child no longer uses. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ GlaxoSmithKline Biologicals SA<br />
 Tel: + 44 (0)800 221 customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -362,7 +365,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -371,7 +376,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -386,7 +392,7 @@ Usage: #inline
 3. Sådan gives Rotarix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -405,7 +411,7 @@ alvorlig opkastning, diarré og livstruende væsketab, som kræver hospitalsindl
 mest almindelige typer rotavirus. De dannede antistoffer beskytter mod sygdomme, forårsaget af disse 
 typer rotavirus. </p>
 <p>Som for alle andre vacciner, giver Rotarix ikke alle vaccinerede børn fuld beskyttelse imod de 
-rotavirus-infektioner, som den er beregnet til at forebygge. </p>         </div>"""   
+rotavirus-infektioner, som den er beregnet til at forebygge. </p> </div>"""   
           
 
              
@@ -481,7 +487,7 @@ dit barn bliver vaccineret. </p>
 <p>Denne vaccine indeholder 0,15 mikrogram phenylalanin i hver dosis. Phenylalanin kan være skadeligt, 
 hvis dit barn har phenylketonuri (PKU, Føllings sygdom), en sjælden genetisk lidelse, hvor 
 phenylalanin ophobes, fordi kroppen ikke kan fjerne det ordentligt. </p>
-<p>Denne vaccine indeholder 32 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. dosis. </p>         </div>"""   
+<p>Denne vaccine indeholder 32 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. dosis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rotarix"
@@ -500,7 +506,7 @@ erstatningsdosis gives med det samme, inden du forlader lægens konsultation. </
 <p>Hvis dit barn får Rotarix som første dosis, anbefales det, at dit barn også får Rotarix som anden dosis 
 (og ikke en anden slags rotavirus-vaccine). </p>
 <p>Det er vigtigt at følge din læges eller sygeplejerskens instruktioner med hensyn til efterfølgende besøg. 
-Hvis du glemmer et besøg, skal du kontakte din læge. </p>         </div>"""         
+Hvis du glemmer et besøg, skal du kontakte din læge. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -536,7 +542,7 @@ Hvis dit barn får bivirkninger, bør du tale med din læge eller apotekspersona
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rotarix"
@@ -551,7 +557,7 @@ Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Vaccinen skal gives straks efter åbning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -709,7 +715,7 @@ oplysninger.
 - Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
 - Lægen har ordineret denne vaccine til dit barn. Lad derfor være med at give den til andre. 
 - Kontakt lægen eller apotekspersonalet, hvis dit barn får bivirkninger, herunder bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

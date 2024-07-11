@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Venclyxto</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ enough red blood cells in the blood.
 How Venclyxto works
 Venclyxto works by blocking a protein in the body called  BCL-2 . This protein is present in high 
 amounts in some cancer cells and helps cancer cells survive. Blocking this protein helps to kill and 
-lower the number of cancer cells. It also slows down the worsening of the disease.</p>         </div>"""   
+lower the number of cancer cells. It also slows down the worsening of the disease.</p> </div>"""   
           
 
              
@@ -219,7 +222,7 @@ You may feel tired or dizzy after taking Venclyxto, which may affect your abilit
 or machines. If this happens, do not drive or use any tools or machines.
 Venclyxto contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take venclyxto"
@@ -298,7 +301,7 @@ day. Return to your normal dose schedule the next day.</p>
 <p>If you are not sure talk to your doctor, pharmacist or nurse. 
 Do not stop taking Venclyxto
 Do not stop taking this medicine unless your doctor tells you to. If you have any further questions on 
-the use of this medicine, ask your doctor, pharmacist, or nurse. </p>         </div>"""         
+the use of this medicine, ask your doctor, pharmacist, or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -379,7 +382,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store venclyxto"
@@ -390,7 +393,7 @@ safety of this medicine.</p>         </div>"""
 Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. 
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -503,7 +506,7 @@ Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -542,7 +545,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -551,7 +556,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -568,7 +574,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -600,7 +606,7 @@ af dem og ikke nok røde blodlegemer i blodet. </p>
 Venclyxto virker ved at blokere virkningen af et protein i kroppen, der kaldes "BCL-2". Dette protein 
 findes i store mængder i nogle kræftceller og hjælper kræftcellerne med at overleve. Ved at blokere 
 virkningen af dette protein hjælper Venclyxto med at dræbe kræftcellerne og reducere antallet af dem. 
-Det hæmmer også udviklingen af sygdommen. </p>         </div>"""   
+Det hæmmer også udviklingen af sygdommen. </p> </div>"""   
           
 
              
@@ -760,7 +766,7 @@ motorkøretøjer og betjene værktøjer og maskiner. Lad være med at køre elle
 maskiner, hvis dette sker. </p>
 <p>Venclyxto indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take venclyxto"
@@ -874,7 +880,7 @@ tage din dosis den dag. Følg den normale doseringsplan næste dag. </p>
 </ul>
 <p>Du må ikke holde op med at tage Venclyxto 
 Du må ikke stoppe behandlingen med Venclyxto, medmindre lægen siger, du skal. Spørg lægen, 
-apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1064,7 +1070,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem </p>
 <p>anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store venclyxto"
@@ -1075,7 +1081,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterkortet efter EXP.  </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1249,7 +1255,7 @@ hjemmeside http://www.ema.europa.eu.  </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
 hjemmeside. </p>
 <p>Hvis du ønsker at rekvirere denne indlægsseddel som lydfil eller i brailleskrift eller magnaprint, 
-kan du kontakte den lokale repræsentant for indehaveren af markedsføringstilladelsen. </p>         </div>"""      
+kan du kontakte den lokale repræsentant for indehaveren af markedsføringstilladelsen. </p> </div>"""      
 
 
 

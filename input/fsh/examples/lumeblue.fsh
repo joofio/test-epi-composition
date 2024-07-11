@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Lumeblue </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 blue dye.  </p>
 <p>This medicineis used in adults to temporarily stain the colon (large bowel) before colonoscopy, in 
 which a flexible instrument is inserted into the rectum to view inside the bowel. The staining allows 
-the doctor to see the lining of the colon more clearly and improves the detection of abnormalities.  </p>         </div>"""   
+the doctor to see the lining of the colon more clearly and improves the detection of abnormalities.  </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ experience any side effects that could impair your ability to drive or use machi
 migraine, feeling dizzy, or disturbance to your vision, then you should not drive or use machines until 
 you feel better. </p>
 <p>Lumeblue contains soya lecithin 
-If you are allergic to peanut or soya, do not take this medicine. </p>         </div>"""   
+If you are allergic to peanut or soya, do not take this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lumeblue"
@@ -195,7 +198,7 @@ the bowel cleansing schedule given to you by your doctor, it may be helpful to s
 you when to take the medicine.  </p>
 <p>If you stop taking Lumeblue 
 At your colonoscopy, tell your doctor that you did not take all the tablets.<br />
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -243,7 +246,7 @@ mental changes
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lumeblue"
@@ -256,7 +259,7 @@ refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use this medicine if the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -291,7 +294,7 @@ Milan,<br />
 Italy </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -330,7 +333,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -339,7 +344,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -356,7 +362,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -368,7 +374,7 @@ Usage: #inline
 blåt farvestof.  </p>
 <p>Denne medicin bruges til voksne til midlertidigt at farve tyktarmen før koloskopi, hvor et fleksibelt 
 instrument indføres i rektum til visning af tarmens inderside. Farvningen gør det muligt for lægen at se 
-tyktarmens foring mere tydeligt og forbedrer identifikationen af abnormiteter.  </p>         </div>"""   
+tyktarmens foring mere tydeligt og forbedrer identifikationen af abnormiteter.  </p> </div>"""   
           
 
              
@@ -440,7 +446,7 @@ Men hvis du oplever bivirkninger, der kan påvirke evnen til at køre bil eller 
 vis, såsom migræne, svimmelhed eller synsforstyrrelse, skal du ikke køre bil eller betjene maskiner, 
 før du har det bedre. </p>
 <p>Lumeblue indeholder sojalecithin 
-Hvis du er allergisk over for jordnødder eller soja, må du ikke tage denne medicin. </p>         </div>"""   
+Hvis du er allergisk over for jordnødder eller soja, må du ikke tage denne medicin. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lumeblue"
@@ -487,7 +493,7 @@ henhold til den tarmudrensningsplan, du har fået af din læge. Det kan være ny
 der kan minde dig om, hvornår du skal tage medicinen.  </p>
 <p>Hvis du holder op med at tage Lumeblue 
 Fortæl din læge, når du er til koloskopien, at du ikke har taget alle tabletterne.<br />
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -600,7 +606,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lumeblue"
@@ -613,7 +619,7 @@ dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på manipulation. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -654,7 +660,7 @@ Italien </p>
 <p>Denne indlægsseddel blev senest ændret i  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu  </p> </div>"""      
 
 
 

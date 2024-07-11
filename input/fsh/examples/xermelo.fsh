@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Xermelo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ injections of these other medicines when taking Xermelo. </p>
 <p>How Xermelo works 
 When the tumour releases too much serotonin into your bloodstream you can get diarrhoea.<br />
 This medicine works by reducing the amount of serotonin made by the tumour. It will reduce your 
-diarrhoea.  </p>         </div>"""   
+diarrhoea.  </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ Xermelo contains lactose (a type of sugar). If you have been told by your doctor
 intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>Xermelo contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xermelo"
@@ -182,7 +185,7 @@ If you forget to take a dose, take your next dose when it is due, skipping the m
 Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Xermelo 
 Do not stop taking Xermelo without talking with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -224,7 +227,7 @@ dizziness or agitation.  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xermelo"
@@ -236,7 +239,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>
-<p>This medicine does not require any special storage conditions. </p>         </div>"""      
+<p>This medicine does not require any special storage conditions. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ Nieuwe Donk 9
 Netherlands </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -308,7 +311,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -317,7 +322,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -332,7 +338,7 @@ Usage: #inline
 3. Sådan skal du tage Xermelo 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -351,7 +357,7 @@ injektioner med disse andre lægemidler, når du tager Xermelo.  </p>
 <p>Sådan virker Xermelo 
 Når tumoren frigiver for meget serotonin ud i blodbanen, kan du få diarré. 
 Denne medicin virker ved at nedsætte den mængde af serotonin, som tumoren producerer. Det vil 
-reducere din diarré. </p>         </div>"""   
+reducere din diarré. </p> </div>"""   
           
 
              
@@ -465,7 +471,7 @@ Xermelo indeholder lactose (en sukkerart). Kontakt lægen, før du tager denne m
 fortalt dig, at du ikke tåler visse sukkerarter. </p>
 <p>Xermelo indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xermelo"
@@ -497,7 +503,7 @@ Hvis du glemmer at tage en dosis, så tag den næste dosis som planlagt og hop d
 over. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Xermelo 
 Du må ikke stoppe med at tage Xermelo uden aftale med lægen.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -572,7 +578,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xermelo"
@@ -584,7 +590,7 @@ med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>    
 den sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
-<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p>         </div>"""      
+<p>Dette lægemiddel kræver ingen særlige opbevaringsbetingelser. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -620,7 +626,7 @@ Holland </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 

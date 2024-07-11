@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Abecma </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ It is given when previous treatments for your cancer have not worked or the canc
 <p>How Abecma works 
 The white blood cells are taken from your blood and are genetically modified so that they can target 
 the myeloma cells in your body. 
-When Abecma is infused into your blood, the modified white blood cells will kill the myeloma cells. </p>         </div>"""   
+When Abecma is infused into your blood, the modified white blood cells will kill the myeloma cells. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ equivalent to 37.6% of the recommended maximum daily intake of sodium for an adu
 <p>This medicine contains up to 274 mg potassium per dose. To be taken into consideration by patients 
 with reduced kidney function or patients on a controlled potassium diet. </p>
 <p>If you have not been previously exposed to DMSO you should be observed closely during the first 
-minutes of the infusion period. </p>         </div>"""   
+minutes of the infusion period. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abecma"
@@ -188,7 +191,7 @@ patient identity information on the medicine labels matches your details.
 * You may be monitored daily in the treatment centre for at least 10 days to check if your 
 treatment is working - and help you if you have any side effects. See sections 2 and 4. * Do not donate blood, organs, tissues or cells for transplantation. </p>
 <p>If you miss an appointment 
-Call your doctor or the treatment centre as soon as possible to make another appointment. </p>         </div>"""         
+Call your doctor or the treatment centre as soon as possible to make another appointment. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ damage in the body
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abecma"
@@ -265,7 +268,7 @@ label after  EXP . </p>
 until it is ready to be used. Do not refreeze. </p>
 <p>Do not use this medicine if the infusion bag is damaged or leaking. </p>
 <p>This medicine contains genetically modified human blood cells. Local guidelines on handling of waste 
-of human-derived material should be followed for unused medicine or waste material. </p>         </div>"""      
+of human-derived material should be followed for unused medicine or waste material. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -338,7 +341,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -347,7 +352,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -364,7 +369,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -383,7 +388,7 @@ tidligere behandlinger. </p>
 De hvide blodlegemer er taget fra dit blod og er genetisk modificeret så de kan angribe myelomatose-
 cellerne i din krop. 
 Når Abecma føres tilbage til dit blod, vil de modificerede hvide blodlegemer dræbe myelomatose-
-cellerne. </p>         </div>"""   
+cellerne. </p> </div>"""   
           
 
              
@@ -515,7 +520,7 @@ voksen. </p>
 <p>Dette lægemiddel indeholder op til 274 mg kalium pr. dosis. Hvis du har nedsat nyrefunktion og/eller 
 får kaliumfattig diæt, skal du tage hensyn hertil. </p>
 <p>Hvis du ikke tidligere har været udsat for DMSO, skal du overvåges nøje i de første minutter af 
-infusionsperioden. </p>         </div>"""   
+infusionsperioden. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abecma"
@@ -566,7 +571,7 @@ behandling virker - og hjælpe dig, hvis du har bivirkninger. Se punkt 2 og 4. *
 </li>
 </ul>
 <p>Hvis du glemmer en aftale 
-Ring hurtigst muligt til lægen eller behandlingscentret for at aftale en ny tid. </p>         </div>"""         
+Ring hurtigst muligt til lægen eller behandlingscentret for at aftale en ny tid. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -680,7 +685,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abecma"
@@ -692,7 +697,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 “EXP". </p>
 <p>Opbevares og transporteres nedfrosset i dampfase af flydende nitrogen (≤ -130 °C). Produktet må først 
 optøs, når det skal bruges. Må ikke nedfryses igen. </p>
-<p>Brug ikke dette lægemiddel, hvis infusionsposen er beskadiget eller lækker. </p>         </div>"""      
+<p>Brug ikke dette lægemiddel, hvis infusionsposen er beskadiget eller lækker. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -851,7 +856,7 @@ CHMP gennemgik de oplysninger, som indehaveren af markedsføringstilladelsen hav
 artikel 14, stk. 11, i forordning (EC) nr. 726/2004, og er af den opfattelse, at den nye terapeutiske 
 indikation giver en væsentlig klinisk fordel sammenlignet med eksisterende behandlinger. Dette er 
 nærmere beskrevet i den europæiske offentlige vurderingsrapport. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -890,7 +895,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -899,7 +906,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -916,7 +924,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Abecma </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -936,7 +944,7 @@ regressou. </p>
 Os glóbulos brancos são colhidos a partir do seu sangue e são geneticamente modificados de modo a 
 terem como alvo as células do mieloma no seu corpo. 
 Quando Abecma é perfundido (administrado gota-a-gota) no seu sangue, os glóbulos brancos 
-modificados matam as células do mieloma. </p>         </div>"""   
+modificados matam as células do mieloma. </p> </div>"""   
           
 
              
@@ -1043,7 +1051,7 @@ para um adulto. </p>
 consideração em doentes com função renal diminuída ou em doentes com ingestão controlada de 
 potássio. </p>
 <p>Se não foi exposto anteriormente ao DMSO, deverá ser cuidadosamente observado durante os 
-primeiros minutos do período de perfusão. </p>         </div>"""   
+primeiros minutos do período de perfusão. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar abecma"
@@ -1083,7 +1091,7 @@ verificar se o seu tratamento está a funcionar e para que seja ajudado se tiver
 indesejáveis. Ver secções 2 e 4.  
 Não doe sangue, órgãos, tecidos ou células para transplante. </p>
 <p>Se falhar uma consulta 
-Contacte o seu médico ou o centro de tratamento assim que possível para marcar outra consulta. </p>         </div>"""         
+Contacte o seu médico ou o centro de tratamento assim que possível para marcar outra consulta. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1169,7 +1177,7 @@ baixo nível de oxigénio no sangue, que pode causar falta de ar, confusão ou s
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar abecma"
@@ -1181,7 +1189,7 @@ efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a se
 saco de perfusão após “EXP". </p>
 <p>Conservar e transportar congelado na fase de vapor de azoto líquido (≤ -130 °C). Não descongelar o 
 produto até estar pronto para ser utilizado. Não voltar a congelar. </p>
-<p>Não utilize este medicamento se o saco de perfusão estiver danificado ou a verter. </p>         </div>"""      
+<p>Não utilize este medicamento se o saco de perfusão estiver danificado ou a verter. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1215,7 +1223,7 @@ Orteliuslaan 13528 BD Utrecht
 Países Baixos </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

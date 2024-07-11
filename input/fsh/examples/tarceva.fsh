@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tarceva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ cancer at an advanced stage. It can be prescribed as initial therapy or as thera
 remains largely unchanged after initial chemotherapy, provided your cancer cells have specific EGFR 
 mutations. It can also be prescribed if previous chemotherapy has not helped to stop your disease. </p>
 <p>This medicine can also be prescribed to you in combination with another treatment called gemcitabine 
-if you have cancer of the pancreas at a metastatic stage. </p>         </div>"""   
+if you have cancer of the pancreas at a metastatic stage. </p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ This medicine contains less than 1 mmol sodium (less than 23 mg) per tablet, tha
 essentially  sodium -free . </p>
 <p>Tarceva contains a sugar called lactose monohydrate. 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking Tarceva. </p>         </div>"""   
+before taking Tarceva. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tarceva"
@@ -186,7 +189,7 @@ If you miss one or more doses of Tarceva, contact your doctor or pharmacist as s
 Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Tarceva 
 It is important to keep taking Tarceva every day, as long as your doctor prescribes it for you.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -295,7 +298,7 @@ Inflammation of the coloured part of the eye </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tarceva"
@@ -307,7 +310,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -403,7 +406,7 @@ Roche Latvija SIA
 Tel: +371 - 6 7 039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -442,7 +445,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -451,7 +456,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -466,7 +472,7 @@ Usage: #inline
 3. Sådan skal du tage Tarceva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -483,7 +489,7 @@ behandling, hvis din sygdom stort set forbliver uændret efter indledende kemote
 kræftceller har specifikke EGFR-mutationer. Det kan også ordineres, hvis tidligere kemoterapi ikke 
 har kunnet stoppe sygdommen. </p>
 <p>Du kan også få ordineret dette lægemiddel i kombination med et andet lægemiddel ved navn 
-gemcitabin, hvis du har kræft i bugspytkirtlen i et metastatisk stadie. </p>         </div>"""   
+gemcitabin, hvis du har kræft i bugspytkirtlen i et metastatisk stadie. </p> </div>"""   
           
 
              
@@ -595,7 +601,7 @@ Dette lægemiddel indeholder mindre end 1 mmol natrium (mindre end 23 mg) pr. ta
 er i det væsentlige natrium-fri.  </p>
 <p>Tarceva indeholder en sukkerart, som kaldes lactosemonohydrat.<br />
 Hvis du har fået at vide af din læge, at du ikke tåler visse sukkerarter, skal du kontakte lægen, inden du 
-begynder at tage Tarceva. </p>         </div>"""   
+begynder at tage Tarceva. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tarceva"
@@ -618,7 +624,7 @@ muligt.
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Tarceva 
 Det er vigtigt, at du bliver ved med at tage Tarceva hver dag så længe, som din læge har ordineret det.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -778,7 +784,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tarceva"
@@ -790,7 +796,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -922,7 +928,7 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366 </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ} </p>
 <p>Du kan finde yderligere oplysninger om Tarceva på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -961,7 +967,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -970,7 +978,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -987,7 +996,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tarceva </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1004,7 +1013,7 @@ tratamento após quimioterapia inicial se a sua doença permanecer sem agravamen
 células cancerígenas tenham mutações específicas do EGFR. Pode também ser prescrito se a 
 quimioterapia anterior não ajudou a controlar a sua doença. </p>
 <p>Este medicamento pode também ser-lhe prescrito em associação com outro medicamento denominado 
-gemcitabina, se tem um cancro do pâncreas numa fase metastática. </p>         </div>"""   
+gemcitabina, se tem um cancro do pâncreas numa fase metastática. </p> </div>"""   
           
 
              
@@ -1121,7 +1130,7 @@ máquinas, mas é muito improvável que o seu tratamento venha a afetar essas ca
 Este medicamento contém menos do que 1 mmol (menos do que 23 mg) de sódio por comprimido, ou 
 seja, Tarceva é praticamente “isento de sódio". </p>
 <p>Tarceva contém um açúcar designado por lactose mono-hidratada. 
-Se o seu médico lhe disse que tem intolerância a alguns açúcares, fale com ele antes de tomar Tarceva. </p>         </div>"""   
+Se o seu médico lhe disse que tem intolerância a alguns açúcares, fale com ele antes de tomar Tarceva. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tarceva"
@@ -1150,7 +1159,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </
 É importante que continue a tomar Tarceva todos os dias enquanto o seu médico lhe disser para o 
 fazer.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1314,7 +1323,7 @@ plantar) </li>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.  </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tarceva"
@@ -1327,7 +1336,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.  </p>         </div>"""      
+o ambiente.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1458,7 +1467,7 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
-Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+Europeia de Medicamentos: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

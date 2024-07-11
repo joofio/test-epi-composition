@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Silapo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ stimulates the production of red blood cells, doctors can take more blood from t
 transfusions.</p>
 <p>Silapo is used to treat anaemia in adults with a bone marrow disorder that causes a severe 
 disruption in the creation of blood cells (myelodysplastic syndromes). Silapo can reduce the 
-need for a blood transfusion.</p>         </div>"""   
+need for a blood transfusion.</p> </div>"""   
           
 
              
@@ -183,7 +186,7 @@ if you have phenylketonuria (PKU), a rare genetic disorder in which phenylalanin
 the body cannot remove it properly.
 Silapo contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take silapo"
@@ -350,7 +353,7 @@ You should discuss this with your doctor because a combination of Silapo with in
 ribavirin has led to a loss of effect and development of a condition called pure red cell aplasia 
 (PRCA), a severe form of anaemia, in rare cases. Silapo is not approved in the management of 
 anaemia associated with hepatitis C.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -426,7 +429,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store silapo"
@@ -445,7 +448,7 @@ Keep the pre-filled syringe in the outer carton in order to protect from light.
 Do not use this medicine if you notice that the seal is broken or if the liquid is coloured or you can see 
 particles floating in it. In the event of either being observed, discard the medicinal product.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -524,7 +527,7 @@ STADAPHARM GmbH
 Stadastra e 2-D-61118 Bad Vilbel
 Tel: +49 (0) 6101 603-0
 Fax: +49 (0) 6101 603-3This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -563,7 +566,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -572,7 +577,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -587,7 +593,7 @@ Usage: #inline
 3. Sådan skal du bruge Silapo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -627,7 +633,7 @@ kan være nødvendigt med blodtransfusion.
 
 Silapo bruges til at behandle blodmangel hos voksne med en knoglemarvssygdom, der 
 giver alvorlige problemer med dannelsen af blodlegemer (myelodysplastisk syndrom).
-Silapo kan nedsætte behovet for blodtransfusion. </p>         </div>"""   
+Silapo kan nedsætte behovet for blodtransfusion. </p> </div>"""   
           
 
              
@@ -740,7 +746,7 @@ skadeligt, hvis De har phenylketonuri (PKU, Føllings sygdom), en sjælden genet
 phenylalanin ophobes, fordi kroppen ikke kan fjerne det ordentligt.
 Silapo indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit.</p>         </div>"""   
+væsentlige natrium-frit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take silapo"
@@ -979,7 +985,7 @@ Du skal tale med din læge om dette, fordi en kombination af Silapo med interfer
 medført manglende virkning, og i sjældne tilfælde har udviklet sig til en alvorlig form for blodmangel 
 med umodne røde blodlegemer (PRCA-pure red cell aplasia). Silapo er ikke godkendt til behandling 
 af blodmangel, der er forbundet med hepatitis C.
-Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1089,7 +1095,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store silapo"
@@ -1107,7 +1113,7 @@ Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys.
 Brug ikke dette lægemiddel, hvis du kan se, at forseglingen er brudt, at væsken er farvet, eller at der 
 flydende partikler i den. Hvis du kan se noget af dette, skal lægemidlet bortskaffes.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1193,7 +1199,7 @@ Tlf: +49 (0) 6101 603-0
 Fax: +49 (0) 6101 603-3888
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 De kan finde yderligere oplysninger om Silapo på Det Europæiske Lægemiddelagenturs hjemmeside
-http://www.ema.europa.eu</p>         </div>"""      
+http://www.ema.europa.eu</p> </div>"""      
 
 
 
@@ -1232,7 +1238,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1241,7 +1249,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1256,7 +1265,7 @@ Usage: #inline
 3. Como utilizar Silapo
 4. Efeitos indesejáveis possíveis
 5. Como conservar Silapo
-6. Contéudo da embalagem e outras informações</p>         </div>"""   
+6. Contéudo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1297,7 +1306,7 @@ necessidade de transfusões sanguíneas.
 
 Silapo é utilizado para tratar a anemia em adultos com distúrbios da medula óssea que 
 provocam uma grave perturbação na produção de células sanguíneas (síndromes
-mielodisplásicas). Silapo pode reduzir a necessidade de transfusões de sangue.</p>         </div>"""   
+mielodisplásicas). Silapo pode reduzir a necessidade de transfusões de sangue.</p> </div>"""   
           
 
              
@@ -1418,7 +1427,7 @@ prejudicial se tiver fenilcetonúria (PKU), uma doença genética rara em que a 
 porque o seu organismo não a consegue remover adequadamente.
 Silapo contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por unidade de dose, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar silapo"
@@ -1676,7 +1685,7 @@ resultou, em casos raros, em perda do efeito e no desenvolvimento de uma condiç
 Eritroide Pura (AEP), que se trata de uma forma grave de anemia. Silapo não está aprovado para o 
 tratamento da anemia associada à hepatite C.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1790,7 +1799,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá co
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.
-80</p>         </div>"""      
+80</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar silapo"
@@ -1810,7 +1819,7 @@ Não utilize este medicamento se verificar que o selo foi violado ou se o líqui
 se observar partículas a flutuar. No caso de observar alguma destas situações, rejeite o medicamento.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1897,7 +1906,7 @@ D-61118 Bad Vilbel
 Tel: +49 (0) 6101 603-0
 Fax: +49 (0) 6101 603-3888
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

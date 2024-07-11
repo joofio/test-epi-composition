@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vargatef </li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ growth and spread of the cancer.
 This medicine is used in combination with another cancer medicine (docetaxel) to treat a cancer of the 
 lung called non-small cell lung cancer (NSCLC). It is for adult patients whose NSCLC is of a certain 
 type ( adenocarcinoma ) and who had already received one treatment with another medicine to treat 
-this cancer but whose tumour started to grow again.</p>         </div>"""   
+this cancer but whose tumour started to grow again.</p> </div>"""   
           
 
              
@@ -196,7 +199,7 @@ Driving and using machines
 Vargatef may have minor influence on your ability to drive and use machines. You should not drive or 
 use machines if you feel sick.
 Vargatef contains soya
-The capsules contain soya lecithin. If you are allergic to peanut or soya, do not use this medicine.</p>         </div>"""   
+The capsules contain soya lecithin. If you are allergic to peanut or soya, do not use this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vargatef"
@@ -236,7 +239,7 @@ If you stop taking Vargatef
 Do not stop taking Vargatef without consulting your doctor first. It is important to take this medicine 
 every day, as long as your doctor prescribes it for you. If you do not take this medicine as prescribed 
 by your doctor, this cancer treatment may not work properly.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vargatef"
@@ -324,7 +327,7 @@ broken.
 If you are in contact with the content of the capsule, wash off your hands immediately with plenty of 
 water (see section 3).
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -450,7 +453,7 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours. 
 -
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -489,7 +492,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -498,7 +503,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -513,7 +519,7 @@ Usage: #inline
 3. Sådan skal du tage Vargatef 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -529,7 +535,7 @@ Dette lægemiddel bruges i kombination med en anden kræftmedicin (docetaxel) ti
 type kræft i lungerne, der kaldes ikke-småcellet lungekræft (NSCLC). Det er til voksne patienter, der 
 har en bestemt type ikke-småcellet lungekræft (“adenokarcinom"), og som allerede har fået en 
 behandling med et andet lægemiddel mod denne kræftform, men hvor kræftsvulsten er begyndt at 
-vokse igen.</p>         </div>"""   
+vokse igen.</p> </div>"""   
           
 
              
@@ -655,7 +661,7 @@ Vargatef påvirker i mindre grad din evne til at føre motorkøretøj eller betj
 føre motorkøretøj eller betjene maskiner, hvis du har det dårligt.
 Vargatef indeholder soja
 Kapslerne indeholder sojalecithin. Hvis du er allergisk over for jordnødder eller soja, må du ikke 
-bruge dette lægemiddel.</p>         </div>"""   
+bruge dette lægemiddel.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vargatef"
@@ -698,7 +704,7 @@ Hvis du holder op med at tage Vargatef
 Du må ikke holde op med at tage Vargatef uden at tale med lægen først. Det er vigtigt, at du tager dette 
 lægemiddel hver dag, så længe lægen ordinerer det til dig. Hvis du ikke tager dette lægemiddel efter 
 lægens anvisninger, kan det være, at denne kræftbehandling ikke virker efter hensigten.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -808,7 +814,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
 om sikkerheden af dette lægemiddel.
-41</p>         </div>"""      
+41</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vargatef"
@@ -825,7 +831,7 @@ kapsel er i stykker.
 Hvis du kommer i kontakt med kapselindholdet, skal du straks vaske hænderne med rigelige mængder 
 vand (se afsnit 3).
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -977,7 +983,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 

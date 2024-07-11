@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store VITRAKVI </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ make an abnormal protein called TRK fusion protein, which can lead to uncontroll
 cancer. VITRAKVI blocks the action of TRK fusion proteins and so may slow or stop the growth of 
 the cancer. It may also help to shrink the cancer. </p>
 <p>If you have any questions on how VITRAKVI works or why it has been prescribed for you, ask your 
-doctor, pharmacist or nurse. </p>         </div>"""   
+doctor, pharmacist or nurse. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ barrier method, such as a condom.
 Ask your doctor about the best method of contraception for you. </p>
 <p>Driving, cycling and using machines 
 VITRAKVI may make you feel dizzy or tired. If this happens, do not drive, cycle or use any tools or 
-machines. </p>         </div>"""   
+machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vitrakvi"
@@ -194,7 +197,7 @@ Take your next dose at the usual time. </p>
 Do not stop taking this medicine without talking to your doctor first. It is important to take 
 VITRAKVI for as long as your doctor tells you. 
 If you are not able to take the medicine as your doctor prescribed talk to your doctor straight away. 
-If you have further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -242,7 +245,7 @@ urine. These could be symptoms of liver problems. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vitrakvi"
@@ -258,7 +261,7 @@ after EXP. The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help to protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -368,7 +371,7 @@ Tel: +44-(0)118 206 3This leaflet was last revised in </p>
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -407,7 +410,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -416,7 +421,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -433,7 +439,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -457,7 +463,7 @@ danne et unormalt protein, som kaldes TRK-fusionsprotein, der kan medføre ukont
 og kræft. VITRAKVI blokerer TRK-fusionsproteinernes virkning, og kan derfor sænke eller stoppe 
 kræftens vækst. Det kan også hjælpe med at skrumpe kræfttumoren. </p>
 <p>Hvis du har spørgsmål om, hvordan VITRAKVI virker, eller hvorfor du har fået det ordineret, skal du 
-spørge lægen, apotekspersonalet eller sygeplejersken. </p>         </div>"""   
+spørge lægen, apotekspersonalet eller sygeplejersken. </p> </div>"""   
           
 
              
@@ -532,7 +538,7 @@ barrieremetode, f.eks et kondom.<br />
 Spørg lægen om den bedste præventionsmetode for dig.   </p>
 <p>Trafik- og arbejdssikkerhed 
 VITRAKVI kan få dig til at blive svimmel eller træt. Hvis dette sker, må du ikke cykle, føre 
-motorkøretøj eller betjene værktøj eller maskiner. </p>         </div>"""   
+motorkøretøj eller betjene værktøj eller maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vitrakvi"
@@ -567,7 +573,7 @@ har taget dette lægemiddel. Tag den næste dosis til sædvanlig tid. </p>
 Du må ikke holde op med at tage dette lægemiddel, uden først at kontakte din læge. Det er vigtigt at 
 tage VITRAKVI, så længe lægen beder dig om det. 
 Hvis du ikke er i stand til at tage lægemidlet efter lægens ordination, skal du straks kontakte lægen. 
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -618,7 +624,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vitrakvi"
@@ -633,7 +639,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 <li>Brug ikke lægemidlet, hvis du bemærker skader på kapslerne. </li>
 <li>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må 
 du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -763,7 +769,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. - Denne indlægsseddel er skrevet som om personen, der tager lægemidlet, læser den. Hvis du 
 giver lægemidlet til dit barn, skal du erstatte "du" med "dit barn" i hele indlægssedlen. </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -802,7 +808,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -811,7 +819,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -828,7 +837,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar VITRAKVI </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -853,7 +862,7 @@ um crescimento de células descontrolado e cancro. VITRAKVI bloqueia a ação da
 do TRK, podendo assim retardar ou parar o crescimento do cancro. Também pode ajudar a diminuir o 
 tamanho do cancro. </p>
 <p>Se tiver quaisquer dúvidas sobre como atua VITRAKVI ou a razão porque lhe foi receitado este 
-medicamento, fale com o seu médico, farmacêutico ou enfermeiro. </p>         </div>"""   
+medicamento, fale com o seu médico, farmacêutico ou enfermeiro. </p> </div>"""   
           
 
              
@@ -927,7 +936,7 @@ utilizar um método barreira, tal como o preservativo.
 Pergunte ao seu médico qual o melhor método contracetivo para si. </p>
 <p>Condução de veículos, andar de bicicleta e utilização de máquinas 
 VITRAKVI pode causar tonturas ou cansaço. Se isto lhe acontecer, não conduza, não ande de bicicleta 
-ou utilize quaisquer ferramentas ou máquinas. </p>         </div>"""   
+ou utilize quaisquer ferramentas ou máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vitrakvi"
@@ -964,7 +973,7 @@ VITRAKVI durante o tempo que o seu médico lhe disser.
 Se não conseguir tomar o medicamento como o seu médico lhe receitou, fale imediatamente com o seu 
 médico. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1011,7 +1020,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vitrakvi"
@@ -1027,7 +1036,7 @@ rótulo do frasco, após VAL. O prazo de validade corresponde ao último dia do 
 <li>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1048,7 +1057,7 @@ Tinta de impressão:
 - Laca de alumínio de indigotina (E 132) 
 - Dióxido de titânio (E 171) 
 - Propilenoglicol (E 1520) 
-- Dimeticone </p>         </div>"""      
+- Dimeticone </p> </div>"""      
 
 
 

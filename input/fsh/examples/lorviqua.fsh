@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lorviqua</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -99,7 +102,7 @@ Lorviqua inhibits a type of enzyme called tyrosine kinase and triggers the death
 patients with alterations in genes for ALK. Lorviqua is only given to patients whose disease is due to 
 an alteration in the gene for ALK tyrosine kinase.
 If you have any questions about how Lorviqua works or why this medicine has been prescribed for 
-you, ask your doctor.</p>         </div>"""   
+you, ask your doctor.</p> </div>"""   
           
 
              
@@ -259,7 +262,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.
 Lorviqua contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per 25 mg or 100 mg tablet, that is to say 
-essentially  sodium-free .</p>         </div>"""   
+essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lorviqua"
@@ -299,7 +302,7 @@ If you stop taking Lorviqua
 It is important to take Lorviqua every day, for as long as your doctor asks you to. If you are not able to 
 take the medicine as your doctor has prescribed, or you feel you do not need it anymore, speak with
 your doctor right away.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -367,7 +370,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lorviqua"
@@ -380,7 +383,7 @@ Do not use this medicine after the expiry date which is stated on the blister fo
 This medicine does not require any special storage conditions.
 Do not use this medicine if you notice that the package is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -488,7 +491,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -527,7 +530,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -536,7 +541,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -551,7 +557,7 @@ Usage: #inline
 3. Sådan skal du tage Lorviqua 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -587,7 +593,7 @@ Lorviqua hæmmer et enzym kaldet tyrosinkinase og medfører, at kræftcellerne d
 ALK-tyrosinkinase.
 37
 Hvis du har spørgsmål til, hvordan Lorviqua virker, eller hvorfor dette lægemiddel er ordineret til dig, 
-skal du spørge din læge.</p>         </div>"""   
+skal du spørge din læge.</p> </div>"""   
           
 
              
@@ -761,7 +767,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter.
 Lorviqua indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 25 mg eller 100 mg tablet, dvs. 
-det er i det væsentlige natriumfrit.</p>         </div>"""   
+det er i det væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lorviqua"
@@ -803,7 +809,7 @@ Hvis du holder op med at tage Lorviqua
 Det er vigtigt at tage Lorviqua hver dag, så længe din læge beder dig om det. Hvis du ikke kan tage 
 lægemidlet, som din læge har ordineret, eller du føler, at du ikke længere har brug for den, skal du 
 straks tale med lægen.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -872,7 +878,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lorviqua"
@@ -886,7 +892,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 Tag ikke lægemidlet, hvis du bemærker, at pakningen er beskadiget eller viser tegn på at have været 
 åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1025,7 +1031,7 @@ Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplys
 lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført.
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -1064,7 +1070,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1073,7 +1081,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1088,7 +1097,7 @@ Usage: #inline
 3. Como tomar Lorviqua
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Lorviqua 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1125,7 +1134,7 @@ nos doentes com alterações nos genes do ALK. Lorviqua é apenas administrado a
 doença se deve a uma alteração no gene da tirosina cinase do ALK.
 38
 Se tiver quaisquer dúvidas sobre como Lorviqua atua ou por que motivo este medicamento lhe foi 
-receitado, pergunte ao seu médico.</p>         </div>"""   
+receitado, pergunte ao seu médico.</p> </div>"""   
           
 
              
@@ -1305,7 +1314,7 @@ Caso tenha sido informado pelo seu médico de que tem intolerância a alguns aç
 médico antes de tomar este medicamento.
 Lorviqua contém sódio
 Este medicamento contém menos de 1 mmol (23 mg) de sódio por cada comprimido de 25 mg ou de 
-100 mg, ou seja, é praticamente “isento de sódio".</p>         </div>"""   
+100 mg, ou seja, é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lorviqua"
@@ -1348,7 +1357,7 @@ Se parar de tomar Lorviqua
 disser. Se não conseguir tomar o medicamento como o seu médico lhe receitou ou se sente que já não 
 necessita dele, fale com o seu médico imediatamente.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1360,7 +1369,7 @@ ou enfermeiro.</p>         </div>"""
 manifestem em todas as pessoas.
 Alguns efeitos indesejáveis podem ser graves. 
 Informe o seu médico imediatamente se sentir algum dos seguintes efeitos indesejáveis (ver 
-também a secção </p>         </div>"""      
+também a secção </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lorviqua"
@@ -1427,7 +1436,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1443,7 +1452,7 @@ Não utilize este medicamento se verificar que a embalagem está danificada ou s
 adulteração.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
 
 
 

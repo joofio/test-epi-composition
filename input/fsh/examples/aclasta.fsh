@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Aclasta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ It is normal that old bone is removed and is replaced with new bone material. Th
 remodelling. In Paget s disease, bone remodelling is too rapid and new bone is formed in a disordered 
 fashion, which makes it weaker than normal. If the disease is not treated, bones may become deformed 
 and painful, and may break. Aclasta works by returning the bone remodelling process to normal, 
-securing formation of normal bone, thus restoring strength to the bone. </p>         </div>"""   
+securing formation of normal bone, thus restoring strength to the bone. </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ planning to have a baby. </p>
 If you feel dizzy while taking Aclasta, do not drive or use machines until you feel better. </p>
 <p>Aclasta contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per 100 ml vial of Aclasta, i.e., 
-essentially  sodium free . </p>         </div>"""   
+essentially  sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aclasta"
@@ -206,7 +209,7 @@ Contact your doctor or hospital as soon as possible to re-schedule your appointm
 If you are considering stopping Aclasta treatment, please go to your next appointment and discuss this 
 with your doctor. Your doctor will advise you and decide how long you should be treated with 
 Aclasta. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ such as fever, vomiting and diarrhoea). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aclasta"
@@ -291,7 +294,7 @@ safety of this medicine. </p>         </div>"""
 contamination. If not used immediately, in-use storage times and conditions prior to use are the 
 responsibility of the user and would normally not be longer than 24 hours at 2 C   8 C. Allow 
 the refrigerated solution to reach room temperature before administration. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -444,7 +447,7 @@ Verovskova SI-1000 Ljubljana
 Slovenia 
 Tel: +43 5338 2This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -483,7 +486,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -492,7 +497,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -509,7 +515,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -539,7 +545,7 @@ Det er normalt, at gammelt knoglevæv nedbrydes og erstattes med nyt knoglevæv.
 kaldes remodellering. Ved Pagets sygdom er knogleremodelleringen for hurtig, og nyt knoglevæv 
 dannes på en sygelig måde, som gør det svagere end normalt. Hvis sygdommen ikke behandles, kan 
 knoglerne blive deforme og smertefulde, og de kan brække. Aclasta virker ved at normalisere 
-remodelleringsprocessen, sikre dannelse af normalt knoglevæv og dermed genoprette knoglestyrken. </p>         </div>"""   
+remodelleringsprocessen, sikre dannelse af normalt knoglevæv og dermed genoprette knoglestyrken. </p> </div>"""   
           
 
              
@@ -611,7 +617,7 @@ Hvis du føler dig svimmel, mens du tager Aclasta, må du ikke køre bil eller b
 har det bedre. </p>
 <p>Aclasta indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) per 100 ml Aclasta (1 hætteglas), 
-dvs. det er i det væsentlige natriumfrit. </p>         </div>"""   
+dvs. det er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aclasta"
@@ -648,7 +654,7 @@ Kontakt din læge eller dit hospital så hurtigt som muligt for at få en ny tid
 <p>Før Aclasta-behandlingen stoppes 
 Hvis du overvejer at stoppe Aclasta-behandlingen, bedes du gå til din næste tid og drøfte det med 
 lægen. Din læge vil vejlede dig og beslutte, hvor længe du skal behandles med Aclasta. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -719,7 +725,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aclasta"
@@ -735,7 +741,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 anvendes straks, er opbevaringstid og -forhold før brug brugerens ansvar og er normalt ikke 
 mere end 24 timer ved 2°C - 8°C. Lad den afkølede opløsning få stuetemperatur før 
 administration. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -930,7 +936,7 @@ henhold til medicinsk standardpraksis. </p>
 ikke bruges med det samme, er brugeren ansvarlig for opbevaringstid og -betingelser, som 
 normalt ikke vil være længere end 24 timer ved 2°C - 8°C. Opløsninger, som opbevares i 
 køleskab, skal have stuetemperatur før administration. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -969,7 +975,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -978,7 +986,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -995,7 +1004,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Aclasta </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1027,7 +1036,7 @@ denominado de remodelação óssea. Na doença óssea de Paget, o processo de re
 acelerado e o osso novo é formado de forma desordenada, o que o torna mais fraco do que o normal. 
 Caso a doença não seja tratada, os ossos podem ficar deformados, provocando dor, e poderão partir-se. 
 Aclasta permite a normalização do processo de remodelação óssea, assegurando a formação de osso 
-novo normal e a recuperação da sua resistência. </p>         </div>"""   
+novo normal e a recuperação da sua resistência. </p> </div>"""   
           
 
              
@@ -1102,7 +1111,7 @@ Se sentir tonturas enquanto toma Aclasta, não conduza ou utilize máquinas enqu
 melhor. </p>
 <p>Aclasta contém sódio 
 Este medicamento contém menos de 1 mmol (23 mg) de sódio por frasco de 100 ml de Aclasta, ou 
-seja, é praticamente “isento de sódio". </p>         </div>"""   
+seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar aclasta"
@@ -1143,7 +1152,7 @@ Se está a considerar parar o tratamento com Aclasta, por favor discuta essa que
 na próxima consulta. O seu médico aconselhá-lo-á e decidirá durante quanto tempo deve ser tratado 
 com Aclasta. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1218,7 +1227,7 @@ e garganta, diminuição da pressão sanguínea, desidratação secundária a re
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar aclasta"
@@ -1236,7 +1245,7 @@ contaminação microbiológica. Caso não seja utilizado imediatamente, o tempo 
 de armazenamento prévios à utilização são da responsabilidade do utilizador e não deverão ser 
 superiores a 24 horas a 2°C - 8°C. A solução refrigerada deverá atingir a temperatura ambiente 
 previamente à administração. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1405,7 +1414,7 @@ Slovenia
 Tel: +43 5338 2 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

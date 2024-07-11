@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store AFSTYLA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ VIII deficiency). Factor VIII is a protein needed for blood to clot. Patients wi
 this factor, so blood does not clot as quickly as it should and they have an increased tendency to bleed. 
 AFSTYLA works by replacing the missing factor VIII in haemophilia A patients enabling their blood 
 to clot normally. </p>
-<p>AFSTYLA can be used for all age groups. </p>         </div>"""   
+<p>AFSTYLA can be used for all age groups. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ ask your doctor or pharmacist for advice before taking this medicine.<br />
 AFSTYLA does not affect your ability to drive and use machines. </p>
 <p>AFSTYLA contains sodium 
 AFSTYLA contains up to 35.0 mg sodium (main component of cooking/table salt) in each vial.  This 
-is equivalent to 1.8% of the recommended maximum daily dietary intake of sodium for an adult.   </p>         </div>"""   
+is equivalent to 1.8% of the recommended maximum daily dietary intake of sodium for an adult.   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take afstyla"
@@ -231,7 +234,7 @@ and continue as advised by your doctor. </p>
 <p>If you stop using AFSTYLA 
 If you stop using AFSTYLA you may no longer be protected against bleeding or a current bleed may 
 not stop. Do not stop using AFSTYLA without consulting your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ adults. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store afstyla"
@@ -292,7 +295,7 @@ refrigerator. </li>
 <li>The reconstituted product should preferably be used immediately. </li>
 <li>If the reconstituted product is not administered immediately, storage times and conditions prior 
 to use are the responsibility of the user. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -424,7 +427,7 @@ CSL Behring GmbH
 Tel: +49 69 305 17Lietuva 
 CentralPharma Communications UAB 
 Tel: +370 5 243 0This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -463,7 +466,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -472,7 +477,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -487,7 +493,7 @@ Usage: #inline
 3. Sådan skal du bruge AFSTYLA 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -502,7 +508,7 @@ som er fremstillet ved rekombinant DNA-teknologi. Det aktive stof i AFSTYLA er l
 (koagulere). Patienter med hæmofili A mangler denne faktor, så blodet ikke koagulerer så hurtigt, som 
 det bør, og de har øget tendens til blødninger. AFSTYLA virker ved at erstatte den manglende faktor 
 VIII hos patienter med hæmofili A, så deres blod kan størkne normalt. </p>
-<p>AFSTYLA kan bruges til alle aldersgrupper. </p>         </div>"""   
+<p>AFSTYLA kan bruges til alle aldersgrupper. </p> </div>"""   
           
 
              
@@ -572,7 +578,7 @@ AFSTYLA påvirker ikke din evne til at føre motorkøretøj og betjene maskiner.
 <p>AFSTYLA indeholder natrium 
 AFSTYLA indeholder op til 35,0 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 1,8 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen.  </p>         </div>"""   
+voksen.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take afstyla"
@@ -705,7 +711,7 @@ fortsæt som anvist af lægen.  </p>
 Hvis du holder med at bruge AFSTYLA, kan det være, at du ikke er beskyttet mod blødning længere, 
 eller at en eventuel blødning ikke stopper. Hold ikke op med at bruge AFSTYLA uden først at rådføre 
 dig med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -769,7 +775,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store afstyla"
@@ -808,7 +814,7 @@ AFSTYLA ved stuetemperatur, på kartonen.  </p>
 <p>Hvis den fremstillede injektionsvæske ikke anvendes med det samme, er opbevaringstiden og 
 opbevaringsforholdene før brug brugerens ansvar. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1071,7 +1077,7 @@ gange om ugen. Hyppigere eller højere doser kan være nødvendige hos børn &lt
 den højere clearance i denne aldersgruppe.<br />
 Til unge ≥12 år  anbefales de samme doser som til voksne. </p>
 <p>Ældre 
-Kliniske studier med AFSTYLA har ikke inkluderet personer over 65 år. </p>         </div>"""      
+Kliniske studier med AFSTYLA har ikke inkluderet personer over 65 år. </p> </div>"""      
 
 
 
@@ -1110,7 +1116,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1119,7 +1127,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1134,7 +1143,7 @@ Usage: #inline
 3. Como utilizar AFSTYLA 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar AFSTYLA 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1149,7 +1158,7 @@ produzido por tecnologia DNA recombinante. A substância ativa no AFSTYLA é o l
 Os doentes com hemofilia A não têm este fator e por isso o sangue não coagula tão rapidamente como 
 deveria, pelo que têm um aumento da tendência para hemorragias. AFSTYLA atua substituindo o fator 
 VIII em falta em doentes com hemofilia A, permitindo a coagulação normal do seu sangue. </p>
-<p>AFSTYLA pode ser usado em todas as faixas etárias. </p>         </div>"""   
+<p>AFSTYLA pode ser usado em todas as faixas etárias. </p> </div>"""   
           
 
              
@@ -1222,7 +1231,7 @@ AFSTYLA não afeta a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>AFSTYLA contém sódio 
 AFSTYLA contém até 35,0 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada frasco para injetáveis. Isto é equivalente a 1,8% da ingestão diária máxima de sódio recomendada 
-na dieta para um adulto. </p>         </div>"""   
+na dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar afstyla"
@@ -1363,7 +1372,7 @@ imediatamente a dose seguinte e continue tal como recomendado pelo seu médico. 
 Se parar de utilizar AFSTYLA poderá deixar de estar protegido contra hemorragias ou se tiver uma 
 hemorragia esta poderá não parar. Não pare de utilizar AFSTYLA sem consultar com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1428,7 +1437,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar afstyla"
@@ -1469,7 +1478,7 @@ cartonagem do medicamento. </p>
 <p>Se o produto reconstituído não for imediatamente utilizado, os tempos de conservação e as 
 condições antes da utilização são da responsabilidade do utilizador. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1637,7 +1646,7 @@ Tel: +370 5 243 0United Kingdom (Northern Ireland)
 CSL Behring GmbH 
 Tel: +49 69 305 17 
 Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cresemba</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ Cresemba is used in adults to treat the following fungal infections:
 invasive aspergillosis, caused by a fungus in the  Aspergillus  group; 
 -
 mucormycosis, caused by a fungus belonging to the  Mucorales  group in patients for whom a 
-treatment with amphotericin B is not appropriate.</p>         </div>"""   
+treatment with amphotericin B is not appropriate.</p> </div>"""   
           
 
              
@@ -217,7 +220,7 @@ not known if it may affect or harm your unborn baby.
 Do not breast-feed if you are taking Cresemba. 
 Driving and using machines
 Cresemba may make you feel confused, tired or sleepy. It can also make you pass out. Therefore, be 
-very careful when driving or operating machines.</p>         </div>"""   
+very careful when driving or operating machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cresemba"
@@ -252,7 +255,7 @@ missed. However, tell your doctor or nurse if you think that a dose has been for
 If you stop using Cresemba
 Cresemba treatment will continue for as long as your doctor tells you. This is to make sure that the 
 fungal infection has gone.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cresemba"
@@ -378,7 +381,7 @@ Do not use this medicine after the expiry date which is stated on the label afte
 refers to the last day of that month.
 Store in a refrigerator (2 C to 8 C).
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment.</p>         </div>"""      
+you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -478,7 +481,7 @@ Tel: +371 670 35 United Kingdom (Northern Ireland)
 Pfizer Limited
 Tel: +44 (0)1304 616This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -517,7 +520,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -526,7 +531,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -541,7 +547,7 @@ Usage: #inline
 3. Sådan skal du bruge Cresemba
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -559,7 +565,7 @@ Cresemba bruges til voksne til behandling af følgende svampeinfektioner:
 invasiv aspergillose, der skyldes en svamp i gruppen ‘Aspergillus’; 
 -
 mucormycose, der skyldes en svamp i gruppen ‘Mucorales’, til patienter, hvis behandling med 
-amphotericin B ikke er egnet.</p>         </div>"""   
+amphotericin B ikke er egnet.</p> </div>"""   
           
 
              
@@ -707,7 +713,7 @@ Lad være med at amme, hvis du tager Cresemba.
 Trafik- og arbejdssikkerhed
 Du kan føle dig forvirret, træt eller søvnig, når du bruger Cresemba. Du kan også besvime. Derfor skal 
 du være meget forsigtig, hvis du fører motorkøretøj eller betjener maskiner.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cresemba"
@@ -743,7 +749,7 @@ dog fortælle det til lægen eller sundhedspersonalet, hvis du mener, at en dosi
 Hvis du holder op med at bruge Cresemba
 Behandlingen med Cresemba vil fortsætte så længe, som lægen har sagt, at den skal. Det er for at sikre, 
 at svampeinfektionen er væk.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -863,7 +869,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cresemba"
@@ -877,7 +883,7 @@ Opbevares i køleskab (2 °C til 8 °C).
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. Disse foranstaltninger er med til at beskytte 
 miljøet.
-59</p>         </div>"""      
+59</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1061,7 +1067,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller du 
-får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p>         </div>"""      
+får bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 
@@ -1100,7 +1106,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1109,7 +1117,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1124,7 +1133,7 @@ Usage: #inline
 3. Como utilizar Cresemba
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Cresemba 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1142,7 +1151,7 @@ Cresemba é utilizado em adultos para tratar as seguintes infeções fúngicas:
 aspergilose invasiva, causada por um fungo do grupo Aspergillus; 
 -
 mucormicose, causada por um fungo que pertence ao grupo Mucorales, em doentes para os 
-quais o tratamento com anfotericina B não é apropriado.</p>         </div>"""   
+quais o tratamento com anfotericina B não é apropriado.</p> </div>"""   
           
 
              
@@ -1284,7 +1293,7 @@ uma vez que não se sabe se este medicamento pode ou não afetar ou prejudicar o
 Não amamente se estiver a tomar Cresemba. 
 Condução de veículos e utilização de máquinas
 Cresemba pode fazê-lo sentir-se confuso, cansado ou sonolento. Também pode fazê-lo desmaiar. Por 
-conseguinte, seja muito cuidadoso ao conduzir ou utilizar máquinas.</p>         </div>"""   
+conseguinte, seja muito cuidadoso ao conduzir ou utilizar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar cresemba"
@@ -1322,7 +1331,7 @@ Se parar de utilizar Cresemba
 O tratamento com Cresemba continuará pelo tempo que o seu médico lhe indicar. Só assim será 
 possível garantir que a infeção fúngica desapareceu.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1443,7 +1452,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar cresemba"
@@ -1455,7 +1464,7 @@ Não utilize este medicamento após o prazo de validade impresso na etiqueta ap�
 validade corresponde ao último dia do mês indicado.
 Conservar no frigorífico (2°C a 8°C).
 Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1586,7 +1595,7 @@ Pfizer Limited
 Tel: +44 (0)1304 616161
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

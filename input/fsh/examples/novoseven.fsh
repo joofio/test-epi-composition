@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Overleaf: Instructions on how to use NovoSeven </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Overleaf: Instructions on how to use NovoSeven </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NovoSeven </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +87,7 @@ It is used in certain groups of people:
 * If you have Glanzmann s thrombasthenia (a bleeding disorder) and your condition cannot be 
 treated effectively with platelet transfusion, or if platelets are not readily available. </p>
 <p>NovoSeven can also be given to you by a doctor to treat heavy bleeding after delivery of your baby, 
-even if you do not have a bleeding disorder. </p>         </div>"""   
+even if you do not have a bleeding disorder. </p> </div>"""   
           
 
              
@@ -125,7 +127,7 @@ your doctor for advice before you use NovoSeven. </p>
 There are no studies on the effect of NovoSeven on the ability to drive and use machines. However, 
 there is no medical reason to think that it would affect your ability. </p>
 <p>NovoSeven contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per injection, i.e. essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per injection, i.e. essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novoseven"
@@ -162,7 +164,7 @@ each injection. </p>
 <p>If you inject more NovoSeven than you should 
 If you inject too much NovoSeven, get medical advice at once. </p>
 <p>If you forget an injection of NovoSeven 
-If you forget an injection, or if you want to stop the treatment, get your doctor's advice. </p>         </div>"""         
+If you forget an injection, or if you want to stop the treatment, get your doctor's advice. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -200,7 +202,7 @@ carefully. In most cases of blood clots, the patients were predisposed to blood 
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novoseven"
@@ -222,7 +224,7 @@ solution without advice from your doctor or nurse. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -556,7 +558,7 @@ waste. </p>
 </ul>
 <p>M </p>
 <p>Do not disassemble the equipment before disposal.  </p>
-<p>Do not reuse the equipment. </p>         </div>"""      
+<p>Do not reuse the equipment. </p> </div>"""      
 
 
 
@@ -595,7 +597,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -604,7 +608,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anden side af indlægssedlen: NovoSeven Brugervejledning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anden side af indlægssedlen: NovoSeven Brugervejledning </p>  </div>"""   
 
 
 
@@ -619,7 +623,7 @@ Usage: #inline
 3. Sådan skal du bruge NovoSeven 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -650,7 +654,7 @@ med blodpladetransfusion, eller hvis blodpladerne ikke er tilgængelige. </p>
 </li>
 </ul>
 <p>NovoSeven kan også gives til dig af en læge til behandling af kraftig blødning efter fødslen af dit barn, 
-selvom du ikke har en blødersygdom. </p>         </div>"""   
+selvom du ikke har en blødersygdom. </p> </div>"""   
           
 
              
@@ -715,7 +719,7 @@ Der er ingen studier, som viser at NovoSeven har en påvirkning på evnen til at
 med maskiner. Der er ingen medicinsk årsag til at mistænke at det vil påvirke din evne. </p>
 <p>NovoSeven indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. injektion, dvs. lægemidlet er 
-stort set natriumfrit.  </p>         </div>"""   
+stort set natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novoseven"
@@ -764,7 +768,7 @@ Den normale dosis er 90 mikrogram (80 til 120 mikrogram) per kilo legemsvægt fo
 <p>Hvis du har brugt for meget NovoSeven 
 Kontakt omgående lægen, hvis du kommer til at injicere for meget NovoSeven. </p>
 <p>Hvis du har glemt at bruge NovoSeven 
-Spørg din læge til råds, hvis du glemmer en injektion, eller hvis du ønsker at stoppe behandlingen. </p>         </div>"""         
+Spørg din læge til råds, hvis du glemmer en injektion, eller hvis du ønsker at stoppe behandlingen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -833,7 +837,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novoseven"
@@ -868,7 +872,7 @@ opbevare opløsningen, hvis du har rådført dig med en læge eller sygeplejersk
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1128,7 +1132,7 @@ stedet.  </p>
 </ul>
 <p>J </p>
 <p>Brug det opblandede NovoSeven straks for at undgå infektioner.  </p>
-<p>Hvis du ikke kan bruge det straks, se punkt </p>         </div>"""      
+<p>Hvis du ikke kan bruge det straks, se punkt </p> </div>"""      
 
 
 
@@ -1167,7 +1171,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1176,7 +1182,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Verso: Instruções sobre como utilizar NovoSeven </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Verso: Instruções sobre como utilizar NovoSeven </p>  </div>"""   
 
 
 
@@ -1191,7 +1197,7 @@ Usage: #inline
 3. Como utilizar NovoSeven 
 4. Efeitos indesejáveispossíveis 
 5. Como conservar NovoSeven 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1225,7 +1231,7 @@ prontamente disponíveis. </p>
 </li>
 </ul>
 <p>NovoSeven também lhe pode ser administrado por um médico para tratar o sangramento intenso após 
-o parto do seu bebé, mesmo que não tenha qualquer doença hemorrágica.  </p>         </div>"""   
+o parto do seu bebé, mesmo que não tenha qualquer doença hemorrágica.  </p> </div>"""   
           
 
              
@@ -1293,7 +1299,7 @@ Não existem estudos sobre o efeito de NovoSeven na capacidade para conduzir e u
 Contudo, não há qualquer razão médica para se pensar que a sua capacidade possa ser afetada. </p>
 <p>NovoSeven contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por injeção, ou seja, é basicamente 
-‘isento de sódio’. </p>         </div>"""   
+‘isento de sódio’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar novoseven"
@@ -1346,7 +1352,7 @@ injeção. </p>
 <p>Se injetar mais NovoSeven do que deveria 
 Se injetou demasiado NovoSeven, consulte imediatamente o médico. </p>
 <p>Caso se tenha esquecido de administrar uma injeção de NovoSeven 
-Se se esqueceu de uma injeção ou se quer parar o tratamento, consulte o seu médico. </p>         </div>"""         
+Se se esqueceu de uma injeção ou se quer parar o tratamento, consulte o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1416,7 +1422,7 @@ comichão </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar novoseven"
@@ -1452,7 +1458,7 @@ da luz. Não conserve a solução sem o conselho do seu médico ou enfermeiro. <
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1504,7 +1510,7 @@ Novo Allé
 DK-2880 Bagsværd, Dinamarca </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

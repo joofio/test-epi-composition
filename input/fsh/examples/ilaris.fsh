@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ilaris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -124,7 +127,7 @@ not worked well enough. </p>
 <p>Gouty arthritis is caused by the formation of urate crystals. These crystals cause excessive production 
 of IL-1 beta, which in turn can lead to sudden, severe pain, redness, warmth and swelling in a joint 
 (known as a gouty arthritis attack). By blocking the activity of IL-1 beta, Ilaris may lead to an 
-improvement in these symptoms. </p>         </div>"""   
+improvement in these symptoms. </p> </div>"""   
           
 
              
@@ -192,7 +195,7 @@ potential risks of taking Ilaris before breast-feeding. </p>
 <p>Driving and using machines 
 Ilaris treatment may give you a spinning sensation (dizziness or vertigo) or intense tiredness 
 (asthenia). This may affect your ability to drive or use tools or machines. If you feel a spinning 
-sensation or feel tired, do not drive or use any tools or machines until you are feeling normal again. </p>         </div>"""   
+sensation or feel tired, do not drive or use any tools or machines until you are feeling normal again. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ilaris"
@@ -287,7 +290,7 @@ recommended intervals as before. </p>
 <p>If you stop using Ilaris 
 Stopping your treatment with Ilaris may cause your condition to get worse. Do not stop taking Ilaris 
 unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -341,7 +344,7 @@ blood, with or without yellow skin and eyes (hyperbilirubinaemia). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ilaris"
@@ -379,7 +382,7 @@ particles. </p>
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -657,7 +660,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -696,7 +699,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -705,7 +710,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -720,7 +726,7 @@ Usage: #inline
 3. Sådan skal du tage Ilaris 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -798,7 +804,7 @@ har haft tilstrækkelig virkning af anden behandling. </p>
 <p>Urinsyregigt er forårsaget af dannelse af uratkrystaller. Disse krystaller forårsager overdreven 
 produktion af IL-1 beta, som til gengæld kan medføre pludselig, kraftig smerte, rødme, varme og 
 hævelse i et led (kendt som podagra). Ved at blokkere aktiviteten af IL-1 beta kan Ilaris lindre disse 
-symptomer. </p>         </div>"""   
+symptomer. </p> </div>"""   
           
 
              
@@ -882,7 +888,7 @@ mulige risici, der er ved at tage Ilaris, før du begynder at amme. </p>
 Ilaris-behandling kan give dig en fornemmelse af, at alting snurrer rundt eller kræftesløshed og 
 umådelig svaghed. Dette kan påvirke din evne til at føre motorkøretøj eller betjene værktøj eller 
 maskiner. Hvis du føler, at alting snurrer rundt, eller du føler dig træt, må du ikke føre motorkøretøj 
-eller bruge nogen som helst form for værktøj eller maskiner, før du føler dig normal igen. </p>         </div>"""   
+eller bruge nogen som helst form for værktøj eller maskiner, før du føler dig normal igen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ilaris"
@@ -1005,7 +1011,7 @@ fortsætte med indsprøjtningerne med det anbefalede mellemrum som før. </p>
 <p>Hvis du holder op med at bruge Ilaris 
 Hvis du stopper behandlingen med Ilaris, kan din tilstand forværres. Hold ikke op med at tage Ilaris, 
 medmindre lægen siger det. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1083,7 +1089,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ilaris"
@@ -1120,7 +1126,7 @@ hvis den indeholder partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1450,7 +1456,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 − 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -1489,7 +1495,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1498,7 +1506,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1513,7 +1522,7 @@ Usage: #inline
 3. Como utilizar Ilaris 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Ilaris 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1591,7 +1600,7 @@ tratamentos não tiverem sido suficientemente eficazes. </p>
 <p>A artrite gotosa é causada pela formação de cristais de urato. Estes cristais causam uma produção 
 excessiva de IL-1 beta que, por sua vez pode causar dor forte súbita, vermelhidão, calor e inchaço 
 numa articulação (o que é conhecido como crise de gota). Ao bloquear a atividade da IL-1 beta, Ilaris 
-pode levar a uma melhoria destes sintomas. </p>         </div>"""   
+pode levar a uma melhoria destes sintomas. </p> </div>"""   
           
 
              
@@ -1679,7 +1688,7 @@ potenciais de utilizar Ilaris antes de amamentar. </p>
 O tratamento com Ilaris pode causar-lhe uma sensação de andar à roda (tonturas ou vertigens) ou 
 cansaço intenso (astenia). Isto pode afetar a sua capacidade para conduzir ou utilizar instrumentos ou 
 máquinas. Se tiver a sensação de andar à roda ou se se sentir cansado, não conduza ou utilize 
-quaisquer instrumentos ou máquinas até se sentir normal novamente. </p>         </div>"""   
+quaisquer instrumentos ou máquinas até se sentir normal novamente. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ilaris"
@@ -1803,7 +1812,7 @@ os intervalos recomendados. </p>
 Parar o seu tratamento com Ilaris pode agravar a sua condição. Não pare de tomar Ilaris a menos que o 
 seu médico lhe diga para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1880,7 +1889,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ilaris"
@@ -1918,7 +1927,7 @@ contiver partículas. </p>
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -2039,7 +2048,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

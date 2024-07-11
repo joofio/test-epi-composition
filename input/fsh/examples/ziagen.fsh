@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ziagen  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ medicines called nucleoside analogue reverse transcriptase inhibitors (NRTIs). <
 it at a low level. It also increases the CD4 cell count in your blood. CD4 cells are a type of white blood 
 cell that are important in helping your body to fight infection. </p>
 <p>Not everyone responds to treatment with Ziagen in the same way. Your doctor will monitor the 
-effectiveness of your treatment. </p>         </div>"""   
+effectiveness of your treatment. </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ soon as possible.  </p>
 Do not drive or operate machines unless you are feeling well.  </p>
 <p>Important information about some of the other ingredients of Ziagen tablets. 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ziagen"
@@ -206,7 +209,7 @@ symptoms were related to a hypersensitivity reaction. If the doctor thinks they 
 related, you will be told never again to take Ziagen, or any other medicine containing abacavir 
 (e.g. Triumeq,Trizivir or Kivexa). It is important that you follow this advice. </p>
 <p>If your doctor advises that you can start taking Ziagen again, you may be asked to take your first doses 
-in a place where you will have ready access to medical care if you need it. </p>         </div>"""         
+in a place where you will have ready access to medical care if you need it. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -365,7 +368,7 @@ Tell your doctor.  </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ziagen"
@@ -377,7 +380,7 @@ this medicine. </p>         </div>"""
 the last day of that month. </p>
 <p>Do not store above 30 C.<br />
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures help protect the environment.  </p>         </div>"""      
+throw away medicines you no longer use. These measures help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -471,7 +474,7 @@ Tel: + 371 80205United Kingdom (Northern Ireland)
 ViiV Healthcare BV<br />
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {MM/YYYY}  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -510,7 +513,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -519,7 +524,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -534,7 +540,7 @@ Usage: #inline
 3. Sådan skal du tage Ziagen 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -548,7 +554,7 @@ nukleosidanalog revers transkriptasehæmmere (NRTI'er). </p>
 <p>Ziagen helbreder ikke hiv-infektionen, men nedsætter mængden af virus i kroppen og holder den på et 
 lavt niveau. Ziagen øger også antallet af CD4-celler i dit blod. CD4-celler er en type hvid blodcelle, 
 der spiller en vigtig rolle, når kroppen skal bekæmpe infektioner. </p>
-<p>Ikke alle reagerer ens på behandlingen med Ziagen. Din læge vil følge virkningen af din behandling.  </p>         </div>"""   
+<p>Ikke alle reagerer ens på behandlingen med Ziagen. Din læge vil følge virkningen af din behandling.  </p> </div>"""   
           
 
              
@@ -640,7 +646,7 @@ Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst 
 Kør ikke bil og betjen ikke maskiner, hvis du føler dig utilpas. </p>
 <p>Vigtig information om nogle af de øvrige indholdsstoffer i Ziagen tabletter <br />
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ziagen"
@@ -697,7 +703,7 @@ overfølsomhedsreaktion, vil lægen råde dig til aldrig mere at tage Ziagen ell
 lægemidler, som indeholder abacavir (f.eks. Triumeq, Trizivir eller Kivexa). Det er vigtigt, at 
 du følger lægens råd. </p>
 <p>Hvis lægen vurderer, at du kan begynde at tage Ziagen igen, bliver du muligvis bedt om at tage de 
-første doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p>         </div>"""         
+første doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -928,7 +934,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ziagen"
@@ -940,7 +946,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1070,7 +1076,7 @@ abacavir. <br />
 Læs omhyggeligt alle oplysningerne i boksen 'Overfølsomhedsreaktioner' under punkt 4 i denne 
 indlægsseddel. 
 Der er vedlagt et oplysningskort i pakningen med Ziagen for at gøre dig og sundhedspersonalet 
-opmærksom på overfølsomhed over for abacavir. Tag kortet ud og hav det altid på dig. </p>         </div>"""      
+opmærksom på overfølsomhed over for abacavir. Tag kortet ud og hav det altid på dig. </p> </div>"""      
 
 
 
@@ -1109,7 +1115,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1118,7 +1126,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1133,7 +1142,7 @@ Usage: #inline
 3. Como tomar Ziagen 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Ziagen 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1151,7 +1160,7 @@ mantendo-a a níveis baixos. Também aumenta o número de células CD4 no seu sa
 células CD4 são um tipo de glóbulo branco que representa um importante papel na manutenção 
 do funcionamento normal do sistema imunitário, ajudando no combate à infeção.  </p>
 <p>Nem todas as pessoas respondem ao tratamento com Ziagen da mesma forma. O seu médico 
-monitorizará a eficácia do seu tratamento. </p>         </div>"""   
+monitorizará a eficácia do seu tratamento. </p> </div>"""   
           
 
              
@@ -1248,7 +1257,7 @@ rapidamente possível. </p>
 Não conduza ou opere máquinas se não se estiver a sentir bem. </p>
 <p>Informação importante acerca de alguns outros componentes de Ziagen comprimidos. 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose unitária, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ziagen"
@@ -1309,7 +1318,7 @@ Ziagen ou outro medicamento que contenha abacavir (p.ex. Triumeq, Trizivir ou
 Kivexa). É importante que siga este conselho. </p>
 <p>Se o seu médico o aconselhar a que volte a tomar Ziagen, poder-lhe-á ser pedido que tome as 
 suas primeiras doses num local onde tenha acesso imediato a cuidados médicos caso deles 
-necessite. </p>         </div>"""         
+necessite. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1544,7 +1553,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice 
 V*. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ziagen"
@@ -1557,7 +1566,7 @@ validade corresponde ao último dia do mês indicado. </p>
 <p>Não conservar acima de 30°C. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1689,7 +1698,7 @@ continuem a tomar medicamentos que contenham abacavir.
 Deve ler com atenção toda a informação na secção “Reações de hipersensibilidade" no 
 painel da Secção 4. A embalagem de Ziagen inclui um Cartão de Alerta, para lembrar a si e aos profissionais de 
 saúde sobre a hipersensibilidade ao abacavir. Destaque este cartão e mantenha-o sempre 
-consigo. </p>         </div>"""      
+consigo. </p> </div>"""      
 
 
 

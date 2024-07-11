@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Bimzelx  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -108,7 +110,7 @@ life. </p>
 Bimekizumab, the active substance in Bimzelx, belongs to a group of medicines called interleukin (IL) 
 inhibitors. Bimekizumab works by reducing the activity of two proteins called IL-17A and IL-17F, 
 which are involved in causing inflammation. There are higher levels of these proteins in inflammatory 
-diseases such as psoriasis, psoriatic arthritis and axial spondyloarthritis. </p>         </div>"""   
+diseases such as psoriasis, psoriatic arthritis and axial spondyloarthritis. </p> </div>"""   
           
 
              
@@ -158,7 +160,7 @@ You and your doctor should decide if you can breast-feed or use Bimzelx. </p>
 Bimzelx is unlikely to affect your ability to drive and use machines. </p>
 <p>Bimzelx contains sodium 
 This medicine contains less than 1 mmol (23 mg) sodium per dose, that is to say essentially  sodium 
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bimzelx"
@@ -196,7 +198,7 @@ Talk to your doctor if you have forgotten to inject a dose of Bimzelx. </p>
 <p>If you stop using Bimzelx 
 Talk to your doctor before you stop using Bimzelx. If you stop treatment, your symptoms may come 
 back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -239,7 +241,7 @@ problems) </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bimzelx"
@@ -255,7 +257,7 @@ expiry date refers to the last day of that month. </p>
 above 25 C and away from direct light. Do not use the pre-filled syringes after this time period. There 
 is a space on the box so you can write the date it was taken out of the refrigerator. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -477,7 +479,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -516,7 +518,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -525,7 +529,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>  </div>"""   
 
 
 
@@ -542,7 +546,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -610,7 +614,7 @@ Bimekizumab, det aktive stof i Bimzelx, tilhører en gruppe lægemidler kaldet i
 hæmmere. Bimekizumab virker ved at reducere aktiviteten af to proteiner kaldet IL-17A og IL-17F, 
 som er involveret i forårsagelse af inflammation. Der er højere niveauer af disse proteiner ved 
 inflammatoriske sygdomme såsom psoriasis, psoriasisartritis, aksial spondylartritis og hidrosadenitis 
-suppurativa. </p>         </div>"""   
+suppurativa. </p> </div>"""   
           
 
              
@@ -687,7 +691,7 @@ og din læge skal beslutte, om du kan amme, mens du bruger Bimzelx. </p>
 Bimzelx forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Bimzelx indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bimzelx"
@@ -737,7 +741,7 @@ Tal med lægen, hvis du har glemt at injicere en dosis Bimzelx. </p>
 <p>Hvis du holder op med at bruge Bimzelx 
 Tal med lægen, før du holder op med at bruge Bimzelx. Hvis du stopper behandlingen, kan dine 
 symptomer komme tilbage. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -828,7 +832,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bimzelx"
@@ -844,7 +848,7 @@ er den sidste dag i den nævnte måned. </p>
 temperaturer på højst 25 °C og væk fra direkte lys. Brug ikke de fyldte injektionssprøjter efter denne 
 periode. Der er et felt på kartonen, hvor du kan skrive datoen, hvor den blev taget ud af køleskabet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1155,7 +1159,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Orladeyo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ protein does not work properly. This leads to too much of the enzyme plasma kall
 increases the levels of bradykinin in your bloodstream. Too much bradykinin leads to symptoms of 
 hereditary angioedema. Berotralstat, the active substance in Orladeyo, blocks the activity of plasma 
 kallikrein and so reduces bradykinin. This prevents the swelling and pain that hereditary angioedema 
-can cause. </p>         </div>"""   
+can cause. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ doctor will discuss with you the risks and benefits of taking this medicine. </p
 1 month following the last dose. Orladeyo is not recommended in women of childbearing potential not 
 using contraception. </p>
 <p>Driving and using machines </p>
-<p>Orladeyo has no or negligible influence on the ability to drive and use machines. </p>         </div>"""   
+<p>Orladeyo has no or negligible influence on the ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orladeyo"
@@ -167,7 +170,7 @@ remember; however, do not take more than one dose per day. </p>
 <p>If you stop taking Orladeyo </p>
 <p>It is important to take this medicine on a regular basis and for as long as your doctor prescribes it. 
 Do not stop taking it without approval from your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -191,7 +194,7 @@ Very common, may affect more than 1 in 10 people
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orladeyo"
@@ -203,7 +206,7 @@ of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -248,7 +251,7 @@ Co. Meath, K32 YDIreland  </p>
 </ul>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -287,7 +290,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -296,7 +301,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -313,7 +319,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -349,7 +355,7 @@ proteinet ikke, som det skal. Dette medfører for meget af enzymet plasmakallikr
 niveauet af bradykinin i blodbanen. Ved for meget bradykinin opstår der symptomer på arveligt 
 angioødem. Berotralstat, der er det aktive stof i Orladeyo, blokerer for aktiviteten af plasmakallikrein, 
 hvorved mængden af bradykinin reduceres. På den måde forebygges hævelsen og smerterne ved 
-arveligt angioødem. </p>         </div>"""   
+arveligt angioødem. </p> </div>"""   
           
 
              
@@ -434,7 +440,7 @@ Din læge vil tale med dig om risici og fordele ved at tage dette lægemiddel. <
 1 måned efter den sidste dosis. Orladeyo bør ikke anvendes hos kvinder i den fødedygtige alder, der 
 ikke bruger prævention. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Orladeyo påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+<p>Orladeyo påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take orladeyo"
@@ -458,7 +464,7 @@ kommer i tanker om det (men du må kun tage én dosis om dagen). </p>
 <p>Hvis du holder op med at tage Orladeyo </p>
 <p>Det er vigtigt at tage dette lægemiddel på regelmæssig vis og i så lang tid, som lægen har ordineret. 
 Du må ikke holde op med at tage Orladeyo uden lægens godkendelse. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -503,7 +509,7 @@ Meget almindelige bivirkninger (kan forekomme hos mere end 1 ud af 10 patienter)
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store orladeyo"
@@ -515,7 +521,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -562,7 +568,7 @@ Co. Meath, K32 YDIrland  </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -601,7 +607,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -610,7 +618,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -627,7 +636,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Orladeyo  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -665,7 +674,7 @@ excessiva da enzima plasmática calicreína, o que, por sua vez, aumenta os nív
 corrente sanguínea. Uma quantidade excessiva de bradicinina leva a sintomas de angioedema 
 hereditário. O berotralstate, a substância ativa de Orladeyo, bloqueia a atividade da calicreína 
 plasmática, reduzindo assim a bradicinina. Esta ação evita o inchaço e a dor que o angioedema 
-hereditário pode causar. </p>         </div>"""   
+hereditário pode causar. </p> </div>"""   
           
 
              
@@ -756,7 +765,7 @@ O seu médico irá discutir consigo os riscos e os benefícios de tomar este med
 tratamento e, pelo menos, por um mês após a última dose. Orladeyo não é recomendado em mulheres 
 com potencial para engravidar que não utilizam métodos contracetivos. </p>
 <p>Condução de veículos e utilização de máquinas </p>
-<p>Os efeitos de Orladeyo sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p>         </div>"""   
+<p>Os efeitos de Orladeyo sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar orladeyo"
@@ -782,7 +791,7 @@ esquecida assim que se lembrar; no entanto, não tome mais do que uma dose por d
 <p>É importante tomar este medicamento regularmente e durante o tempo que o seu médico lhe 
 indicar. Não deixe de tomar Orladeyo sem a aprovação do seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -827,7 +836,7 @@ Muito frequentes (podem afetar mais de 1 em cada 10 pessoas) </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar orladeyo"
@@ -840,7 +849,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -887,7 +896,7 @@ Co. Meath, K32 YDIrlanda  </p>
 </ul>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

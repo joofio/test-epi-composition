@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Advagraf </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ used to control your body s immune response, enabling your body to accept the tr
 <p>You may also be given Advagraf for an ongoing rejection of your transplanted liver, kidney, heart or 
 other organ when any previous treatment you were taking was unable to control this immune response 
 after your transplantation. </p>
-<p>Advagraf is used in adults. </p>         </div>"""   
+<p>Advagraf is used in adults. </p> </div>"""   
           
 
              
@@ -219,7 +222,7 @@ intolerance to some sugars, contact your doctor before taking this medicine.
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
  sodium-free . 
 The printing ink used on Advagraf capsules contains soya lecithin. If you are allergic to peanut or 
-soya, talk to your doctor to determine whether you should use this medicine. </p>         </div>"""   
+soya, talk to your doctor to determine whether you should use this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take advagraf"
@@ -261,7 +264,7 @@ the same day. Do not take a double dose the next morning.
 If you stop taking Advagraf 
 Stopping your treatment with Advagraf may increase the risk of rejection of your transplanted organ. 
 Do not stop your treatment unless your doctor tells you to do so. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -440,7 +443,7 @@ blood, weight loss </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system </p>
 <p>listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store advagraf"
@@ -453,7 +456,7 @@ refers to the last day of that month.
 Use all the prolonged-release hard capsules within 1 year of opening the aluminium wrapping. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -574,7 +577,7 @@ Tel: + 371 67 619United Kingdom (Northern Ireland)
 Astellas Pharma Co., Limited 
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.  </p>         </div>"""      
+http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -613,7 +616,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -622,7 +627,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -637,7 +643,7 @@ Usage: #inline
 3. Sådan skal De tage Advagraf 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelse og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelse og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -652,7 +658,7 @@ nye transplanterede organ.  </p>
 <p>De kan også få ordineret Advagraf ved en igangværende afstødning af den transplanterede lever, nyre, 
 hjerte eller andet organ, hvis Deres tidligere behandling ikke kunne kontrollere immunreaktionen efter 
 transplantationen. </p>
-<p>Advagraf anvendes til voksne. </p>         </div>"""   
+<p>Advagraf anvendes til voksne. </p> </div>"""   
           
 
              
@@ -798,7 +804,7 @@ sukkerarter, skal De kontakte lægen, før De anvender denne medicin.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. den er i det 
 væsentlige natrium-fri. 
 Printblækket, som bruges til at stemple kapslen med, indeholder sojalecithin. Hvis De er overfølsom 
-over for jordnødder eller soja, så tal med Deres læge om, hvorvidt De bør tage denne medicin. </p>         </div>"""   
+over for jordnødder eller soja, så tal med Deres læge om, hvorvidt De bør tage denne medicin. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take advagraf"
@@ -836,7 +842,7 @@ muligt den samme dag. De må ikke tage en dobbeltdosis den næste morgen.
 Hvis De holder op med at tage Advagraf <br />
 Afbrydelse af behandlingen med Advagraf kan øge risikoen for afstødning af det transplanterede 
 organ. De må ikke ophøre med behandlingen, uden at have talt med Deres læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1007,7 +1013,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store advagraf"
@@ -1019,7 +1025,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. Brug alle depotkapslerne inden for 1 år efter at aluminiumposen er åbnet. </p>
 <p>Opbevar Advagraf i den originale yderpakning for at beskytte mod fugt. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1170,7 +1176,7 @@ Astellas Pharma Co., Limited
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>De kan finde yderligere oplysninger om Advagraf på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 

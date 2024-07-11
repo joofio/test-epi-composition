@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Enyglid</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ usually started if diet, exercise and weight reduction alone have not been able 
 your blood sugar.
 Enyglid can also be given with metformin, another medicine for diabetes.
 Enyglid has been shown to lower the blood sugar, which helps to prevent complications from your 
-diabetes.</p>         </div>"""   
+diabetes.</p> </div>"""   
           
 
              
@@ -115,7 +118,7 @@ If you get a hypo (low blood sugar)
 You may get a hypo (short for hypoglycaemia) if your blood sugar gets too low. This may happen:</p>
 <p>if you take too much Enyglid</p>
 <p>if you exercise more than usual</p>
-<p>if you take other medicines or suffer from liver or kidney problems (see other sections of </p>         </div>"""   
+<p>if you take other medicines or suffer from liver or kidney problems (see other sections of </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enyglid"
@@ -185,7 +188,7 @@ that you could endanger yourself or others. Please ask your doctor whether you c
 <p>have few or no warning signs of hypos.
 Enyglid contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .</p>         </div>"""         
+free .</p> </div>"""         
 
         
 * section[=].section[+]
@@ -210,7 +213,7 @@ Do not take a double dose to make up for a forgotten tablet.
 If you stop taking Enyglid
 Be aware that the desired effect is not achieved if you stop taking Enyglid. Your diabetes may get 
 worse. If any change of your treatment is necessary contact your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enyglid"
@@ -245,7 +248,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -258,7 +261,7 @@ Do not use this medicine after the expiry date which is stated on the blister an
 expiry date refers to the last day of that month.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
 
 
 
@@ -297,7 +300,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -306,7 +311,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -321,7 +327,7 @@ Usage: #inline
 3. Sådan skal du tage Enyglid
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -338,7 +344,7 @@ Behandling påbegyndes normalt, hvis diæt, motion og vægttab alene ikke har v�
 regulere (eller reducere) blodsukkeret. 
 Enyglid kan også ordineres sammen med metformin, et andet lægemiddel mod sukkersyge.
 Enyglid er i stand til at sænke blodsukkeret, hvilket kan hjælpe med til at forhindre komplikationer 
-forårsaget af sukkersyge.</p>         </div>"""   
+forårsaget af sukkersyge.</p> </div>"""   
           
 
              
@@ -386,7 +392,7 @@ Hvis du tager for mange Enyglid
 Hvis du motionerer mere end normalt
 
 Hvis du tager anden medicin eller lider af lever- eller nyreproblemer (se andre afsnit under 
-punkt </p>         </div>"""   
+punkt </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take enyglid"
@@ -488,7 +494,7 @@ Ofte har hypoglykæmi
 Har få eller ingen advarselstegn på hypoglykæmi.
 Enyglid indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""         
+væsentlige natriumfrit.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -516,7 +522,7 @@ Hvis du stopper med at tage Enyglid
 Vær opmærksom på at den ønskede virkning ikke opnås, hvis du stopper med at tage Enyglid. Din
 diabetes kan forværres. Hvis det er nødvendigt at ændre din behandling er nødvendig, skal du først 
 kontakte din læge.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""      
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store enyglid"
@@ -561,7 +567,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -574,7 +580,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisterpakningen og d
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Spørg apotekspersonalet hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
 
 
 
@@ -613,7 +619,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -622,7 +630,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -637,7 +646,7 @@ Usage: #inline
 3. Como tomar Enyglid
 4. Efeitos indesejáveis possíveis
 5. Como conservar Enyglid
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -655,7 +664,7 @@ exercício: o tratamento é, geralmente, iniciado se a dieta, o exercício físi
 só não foram suficientes para controlar (ou diminuir) o seu açúcar no sangue. Enyglid também pode 
 ser administrado em combinação com metformina, que é outro medicamento para a diabetes.
 Foi demonstrado que Enyglid baixa o açúcar no sangue, o que ajuda a prevenir as complicações da sua 
-diabetes.</p>         </div>"""   
+diabetes.</p> </div>"""   
           
 
              
@@ -708,7 +717,7 @@ Se fizer mais exercício do que o normal,
 Se tomar outros medicamentos ou sofrer de problemas do fígado ou dos rins (ver outras secções 
 em </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar enyglid"
@@ -819,7 +828,7 @@ tenha hipoglicemias frequentes
 tenha poucos ou nenhuns sinais de aviso de hipoglicemia.
 Enyglid contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""         
+praticamente “isento de sódio".</p> </div>"""         
 
         
 * section[=].section[+]
@@ -849,7 +858,7 @@ Tenha em conta que o efeito desejado não será alcançado se deixar de tomar En
 pode piorar. Caso seja necessário alterar o seu tratamento e absolutamente importante falar primeiro 
 com o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""      
+farmacêutico.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar enyglid"
@@ -907,7 +916,7 @@ folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efei
 diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -921,7 +930,7 @@ prazo de validade corresponde ao último dia do mês indicado.
 Conservar na embalagem de origem para proteger da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
 
 
 

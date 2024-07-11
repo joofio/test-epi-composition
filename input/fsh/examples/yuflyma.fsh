@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Yuflyma </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -169,7 +171,7 @@ front of the eye. </p>
 <p>This inflammation may lead to a decrease of vision and/or the presence of floaters in the eye (black dots or 
 wispy lines that move across the field of vision). Yuflyma works by reducing this inflammation. </p>
 <p>You may first be given other medicines. If you do not respond well enough to these medicines, you will be 
-given Yuflyma. </p>         </div>"""   
+given Yuflyma. </p> </div>"""   
           
 
              
@@ -371,7 +373,7 @@ vaccines see the  Warnings and precautions  section. </li>
 <p>Yuflyma may have a small effect on your ability to drive, cycle or use machines. Room spinning sensation 
 and vision disturbances may occur after taking Yuflyma. </p>
 <p>YUFLYMA contains sodium </p>
-<p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.4 mL dose, i.e. essentially  sodium-free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol of sodium (23 mg) per 0.4 mL dose, i.e. essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yuflyma"
@@ -635,7 +637,7 @@ forgotten a dose. </p>
 <p>If you stop using Yuflyma </p>
 <p>The decision to stop using Yuflyma should be discussed with your doctor. Your symptoms may return if you 
 stop using Yuflyma. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -836,7 +838,7 @@ blood tests. These include: </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yuflyma"
@@ -855,7 +857,7 @@ within 31 days or discarded, even if it is returned to the refrigerator. </p>
 <p>You should record the date when the syringe is first removed from refrigerator and the date after which it 
 should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor or pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -971,7 +973,7 @@ T lr.: +36 1 231 0United Kingdom (Northern Ireland)
 Celltrion Healthcare Ireland Limited 
 Tel: +353 1 223 4This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -1010,7 +1012,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1021,7 +1025,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugervejledning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -1036,7 +1040,7 @@ Usage: #inline
 3. Sådan skal du bruge Yuflyma 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1192,7 +1196,7 @@ af øjet. </p>
 <p>Denne inflammation kan føre til nedsat syn og/eller tilstedeværelsen af flydere i øjet (sorte prikker 
 eller flygtige linjer, der bevæger sig i synsfeltet). Yuflyma fungerer ved at reducere denne 
 inflammation. </p>
-<p>Du kan først få anden medicin. Hvis du ikke reagerer godt nok på disse lægemidler, får du Yuflyma. </p>         </div>"""   
+<p>Du kan først få anden medicin. Hvis du ikke reagerer godt nok på disse lægemidler, får du Yuflyma. </p> </div>"""   
           
 
              
@@ -1462,7 +1466,7 @@ maskiner. Rumsnurrende fornemmelse og synsforstyrrelser kan forekomme, efter du 
 Yuflyma. </p>
 <p>Yuflyma indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23mg) pr. 0,4 ml dosis, dvs. det er i det 
-væsentlige “natriumfrit". </p>         </div>"""   
+væsentlige “natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yuflyma"
@@ -1709,7 +1713,7 @@ fastlagte dag, som om du ikke havde glemt en dosis.  </p>
 <p>Hvis du holder op med at bruge Yuflyma </p>
 <p>Beslutningen om at stoppe med at bruge Yuflyma bør drøftes med din læge. Dine symptomer kan 
 vende tilbage, hvis du holder op med at bruge Yuflyma. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2195,7 +2199,7 @@ ved blodprøver. Disse omfatter: </p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere infomation om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yuflyma"
@@ -2215,7 +2219,7 @@ i køleskabet. </p>
 <p>Du skal notere den dato, hvor injektionssprøjten første gang tages ud af køleskabet, og den dato efter 
 hvilken, den skal kasseres. </p>
 <p>Spørg lægen eller apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet 
-må du ikke smide medicinrester i afløbet, toilettet eller skaldespanden. </p>         </div>"""      
+må du ikke smide medicinrester i afløbet, toilettet eller skaldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2877,7 +2881,7 @@ til andre. Det kan være skadeligt for andre, selvom de har samme symptomer, som
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -2916,7 +2920,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -2927,7 +2933,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções para utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -2942,7 +2948,7 @@ Usage: #inline
 3. Como utilizar Yuflyma 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Yuflyma 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -3105,7 +3111,7 @@ partir dos 2 anos de idade. </p>
 (pontos pretos ou linhas finas que se movem através do campo de visão). Yuflyma atua através da 
 redução da inflamação. </p>
 <p>Pode ser tratado inicialmente com outros medicamentos. Se não responder suficientemente bem a estes 
-medicamentos, receberá Yuflyma. </p>         </div>"""   
+medicamentos, receberá Yuflyma. </p> </div>"""   
           
 
              
@@ -3379,7 +3385,7 @@ informação sobre vacinação, ver secção “Advertências e precauções". <
 máquinas. Depois de tomar Yuflyma, pode ter vertigens e alterações da visão. </p>
 <p>YUFLYMA contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose de 0,4 ml, ou seja,  é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar yuflyma"
@@ -3679,7 +3685,7 @@ anterior. </p>
 <p>A decisão de parar de utilizar Yuflyma deve ser avaliada com o seu médico. Os seus sintomas podem 
 voltar se parar de utilizar Yuflyma. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -4165,7 +4171,7 @@ identificados através de análises ao sangue. Estes incluem: </p>
 <p>Se tiver quaisquer efeitos indesejáveis, fale com o seu médico ou farmacêutico. Incluindo possíveis 
 efeitos indesejáveis não indicados neste folheto. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar yuflyma"
@@ -4187,7 +4193,7 @@ volte a colocar no frigorífico. </p>
 eliminada. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico 
 ou farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -4336,7 +4342,7 @@ Celltrion Healthcare Ireland Limited
 Tel: +353 1 223 4 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

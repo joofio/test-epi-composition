@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Idefirix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ immunosuppressants. It is given before your kidney transplantation to prevent th
 (your body's defences) from rejecting the donated kidney. </p>
 <p>Idefirix works by breaking down a type of antibody in the body called immunoglobulin G (IgG), 
 which is involved in destroying 'foreign' or harmful substances. </p>
-<p>Imlifidase is a protein from a bacterium called Streptococcus pyogenes. </p>         </div>"""   
+<p>Imlifidase is a protein from a bacterium called Streptococcus pyogenes. </p> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ Talk to your doctor if you think you may be pregnant. </p>
 treated with Idefirix. </p>
 <p>Idefirix contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take idefirix"
@@ -151,7 +154,7 @@ given as a single dose, but your doctor may decide to give a second dose before 
 given at the end of this leaflet. </p>
 <p>If you receive more Idefirix than you should 
 During and after the infusion you will be closely monitored. Healthcare professionals will check for 
-any side effects. </p>         </div>"""         
+any side effects. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -190,7 +193,7 @@ high blood pressure can be headache)  </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store idefirix"
@@ -206,7 +209,7 @@ light.  </p>
 24 hours at 2-8 C and for 4 hours at 25 C during this period. </p>
 <p>Do not use this medicine if you notice particulate matter or discolouration after reconstitution. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ about this medicine.<br />
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -280,7 +283,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -289,7 +294,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -306,7 +312,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -319,7 +325,7 @@ immunsuppressive stoffer. Det gives før din nyretransplantation for at hindre i
 krops forsvar) i at afstøde den donerede nyre. </p>
 <p>Idefirix virker ved at nedbryde en type antistof i kroppen ved navn immunglobulin G (IgG), som er 
 med til at ødelægge "fremmede" eller skadelige stoffer. </p>
-<p>Imlifidase er et protein fra bakterien Streptococcus pyogenes. </p>         </div>"""   
+<p>Imlifidase er et protein fra bakterien Streptococcus pyogenes. </p> </div>"""   
           
 
              
@@ -381,7 +387,7 @@ Kontakt lægen, hvis du tror, at du kan være gravid. </p>
 Idefirix. </p>
 <p>Idefirix indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
-væsentlige "natriumfrit". </p>         </div>"""   
+væsentlige "natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take idefirix"
@@ -396,7 +402,7 @@ normalt som en enkelt dosis, men din læge kan beslutte at give dig en dosis mer
 i denne seddel. </p>
 <p>Hvis du har fået for meget Idefirix 
 Under og efter infusionen vil du blive fulgt nøje. Sundhedspersonale vil tjekke for eventuelle 
-bivirkninger. </p>         </div>"""         
+bivirkninger. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -438,7 +444,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store idefirix"
@@ -454,7 +460,7 @@ mod lys.  </p>
 og i 4 timer ved 25°C i denne periode. </p>
 <p>Anvend ikke dette lægemiddel, hvis du ser partikler eller misfarvning efter rekonstitution. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller toilettet. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller toilettet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -514,7 +520,7 @@ Hele infusionen, der skal være helt fortyndet, bør administreres over et tidsr
 administreres med et infusionssæt og et sterilt, inline, pyrogenfrit filter med lav proteinbinding 
 (porestørrelse 0,2 μm). Efter administration anbefales det, at den intravenøse slange skylles med 
 natriumchlorid 9 mg/ml (0,9 %) infusionsvæske, opløsning, for at sikre at hele dosissen administreres 
-til patienten. Opbevar ikke eventuelt resterende infusionsvæske, opløsning, til genbrug. </p>         </div>"""      
+til patienten. Opbevar ikke eventuelt resterende infusionsvæske, opløsning, til genbrug. </p> </div>"""      
 
 
 
@@ -553,7 +559,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -562,7 +570,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -579,7 +588,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Idefirix </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -592,7 +601,7 @@ imunossupressores. É administrado antes do transplante renal para evitar que o 
 defesas do seu organismo) rejeite o rim doado. </p>
 <p>Idefirix atua decompondo um tipo de anticorpo no organismo denominado imunoglobulina G (IgG), 
 que está envolvido na destruição de substâncias “estranhas" ou nocivas. </p>
-<p>A imlifidase é uma proteína de uma bactéria denominada Streptococcus pyogenes. </p>         </div>"""   
+<p>A imlifidase é uma proteína de uma bactéria denominada Streptococcus pyogenes. </p> </div>"""   
           
 
              
@@ -653,7 +662,7 @@ Fale com o seu médico se pensa que poderá estar grávida. </p>
 tratamento com Idefirix. </p>
 <p>Idefirix contém sódio<br />
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar idefirix"
@@ -670,7 +679,7 @@ do transplante.  </p>
 Idefirix é fornecida no final deste folheto. </p>
 <p>Se receber mais Idefirix do que deveria 
 Será monitorizado atentamente durante e após a perfusão. Os profissionais de saúde irão verificar se 
-existem quaisquer efeitos indesejáveis. </p>         </div>"""         
+existem quaisquer efeitos indesejáveis. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -709,7 +718,7 @@ sintomas de tensão arterial alta podem ser dores de cabeça)<br />
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar idefirix"
@@ -726,7 +735,7 @@ da luz.  </p>
 24 horas a 2°C - 8ºC e durante 4 horas a 25ºC durante este período. </p>
 <p>Não utilize este medicamento se detetar partículas ou descoloração após a reconstituição. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -761,7 +770,7 @@ significa que se aguarda mais informação sobre este medicamento.<br />
 A Agência Europeia de Medicamentos irá rever, pelo menos uma vez por ano, nova informação sobre 
 este medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

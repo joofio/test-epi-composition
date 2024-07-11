@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Qarziba </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ progressing disease by other suitable measures. </p>
 necessary for the treatment of your cancer. </p>
 <p>Neuroblastoma is a type of cancer that grows from abnormal nerve cells in the body, in particular in 
 the glands above the kidneys. It is one of the most common cancers in infancy. </p>
-<p>It is used for patients aged 12 months and above. </p>         </div>"""   
+<p>It is used for patients aged 12 months and above. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ Qarziba if your doctor assesses that benefits outweigh risks for a foetus. </p>
 6 months after the last dose. It is not known if the medicine can pass into breast-milk. </p>
 <p>Driving and using machines </p>
 <p>Qarziba has several side effects that may affect your ability to drive and use machines. Do not perform 
-these activities if your ability to concentrate and react is affected. </p>         </div>"""   
+these activities if your ability to concentrate and react is affected. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take qarziba"
@@ -176,7 +179,7 @@ in the beginning of each course. The recommended dose is 100 mg dinutuximab beta
 metre of body surface per treatment course. The doctor will calculate your body surface area from 
 your height and weight. </p>
 <p>If your doctor considers co-administration of interleukin-2, it will be given twice, by injection under 
-the skin, each time for 5 consecutive days (before and during treatment with Qarziba). </p>         </div>"""         
+the skin, each time for 5 consecutive days (before and during treatment with Qarziba). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -237,7 +240,7 @@ reversible encephalopathy syndrome)
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store qarziba"
@@ -248,7 +251,7 @@ medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the label and the carton after EXP. 
 The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2  C   8  C). Keep the vial in the outer carton in order to protect from light. </p>
-<p>Once opened, Qarziba is intended for immediate use. </p>         </div>"""      
+<p>Once opened, Qarziba is intended for immediate use. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -350,7 +353,7 @@ would not normally be longer than 24 hours at 2 to 8  C, unless dilution has tak
 and validated aseptic conditions. </p>
 <p>Disposal 
 Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements. </p>         </div>"""      
+requirements. </p> </div>"""      
 
 
 
@@ -389,7 +392,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -398,7 +403,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -415,7 +421,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -437,7 +443,7 @@ sygdomme med andre egnede midler. </p>
 behandle din cancer. </p>
 <p>Neuroblastom er en type cancer, der vokser fra abnorme nerveceller i kroppen, og specielt i kirtler 
 over nyrerne. Det er en af de mest almindelige kræftsygdomme hos børn. </p>
-<p>Stoffet kan anvendes til patienter fra 12 måneder og opefter. </p>         </div>"""   
+<p>Stoffet kan anvendes til patienter fra 12 måneder og opefter. </p> </div>"""   
           
 
              
@@ -537,7 +543,7 @@ den sidste dosis. Det vides ikke, om lægemidlet kan udskilles i mælken. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Qarziba har adskillige bivirkninger, der kan påvirke dine evner til at køre bil og betjene maskiner. Du 
 må ikke udføre disse aktiviteter, hvis du føler, at din evne til at koncentrere dig og din reaktionsevne er 
-påvirket. </p>         </div>"""   
+påvirket. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take qarziba"
@@ -555,7 +561,7 @@ kvadratmeter legemsoverfladeareal i hver behandlingsserie. Lægen vil beregne di
 legemsoverfladeareal ud fra din højde og vægt. </p>
 <p>Hvis din læge finder, at samtidig behandling med interleukin-2 er gavnlig, vil det blive givet som 
 subkutan injektion 2 gange i hver serie, hver gang i 5 på hinanden følgende dage (før og under 
-behandlingen med Qarziba). </p>         </div>"""         
+behandlingen med Qarziba). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -698,7 +704,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejerske. De
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store qarziba"
@@ -710,7 +716,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C til 8 °C). Opbevar hætteglasset i den ydre karton for at beskytte det mod 
 lys. </p>
-<p>Efter åbning bør Qarziba anvendes med det samme. </p>         </div>"""      
+<p>Efter åbning bør Qarziba anvendes med det samme. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -823,7 +829,7 @@ straks, er opbevaringstider under brug og forhold før brug brugerens ansvar og 
 længere end 24 timer ved temperaturer fra 2 til 8 ºC, medmindre fortynding har fundet sted under 
 kontrollerede og validerede aseptiske forhold. </p>
 <p>Bortskaffelse 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -862,7 +868,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -871,7 +879,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -888,7 +897,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Qarziba </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -912,7 +921,7 @@ doença em progressão ativa com outras medidas adequadas. </p>
 <p>O neuroblastoma é um tipo de cancro que cresce a partir de células anormais dos nervos no organismo, 
 em particular nas glândulas que se encontram acima dos rins. É um dos cancros mais comuns na 
 infância. </p>
-<p>É utilizado em doentes com idades iguais ou superiores a 12 meses. </p>         </div>"""   
+<p>É utilizado em doentes com idades iguais ou superiores a 12 meses. </p> </div>"""   
           
 
              
@@ -1013,7 +1022,7 @@ leite materno. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Qarziba apresenta diversos efeitos indesejáveis que podem afetar a sua capacidade para conduzir e 
 utilizar máquinas. Não realize estas atividades se a sua capacidade de concentração e reação for 
-afetada. </p>         </div>"""   
+afetada. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar qarziba"
@@ -1030,7 +1039,7 @@ quadrado de superfície corporal por ciclo de tratamento. O médico calculará a
 corporal através da sua altura e peso. </p>
 <p>Se o seu médico considerar a administração de interleucina-2 ao mesmo tempo, esta será administrada 
 duas vezes, por injeção sob a pele, cada vez por 5 dias consecutivos (antes e durante o tratamento com 
-Qarziba). </p>         </div>"""         
+Qarziba). </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1177,7 +1186,7 @@ veno-oclusiva) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar qarziba"
@@ -1189,7 +1198,7 @@ efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a se
 após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar no frigorífico (2 °C - 8 °C). Manter o frasco para injetáveis dentro da embalagem exterior 
 para proteger da luz. </p>
-<p>Qarziba destina-se a ser utilizado imediatamente depois de aberto. </p>         </div>"""      
+<p>Qarziba destina-se a ser utilizado imediatamente depois de aberto. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1235,7 +1244,7 @@ Via Morolense,
 Itália </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

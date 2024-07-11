@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Calquence</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ Calquence works by blocking BTK, a protein in the body that helps these cancer c
 By blocking BTK, Calquence helps to kill and can reduce the number of cancer cells which can slow 
 down the worsening of the disease. 
 If you have any questions about how Calquence works or why this medicine has been prescribed for you, 
-ask your doctor, pharmacist or nurse.</p>         </div>"""   
+ask your doctor, pharmacist or nurse.</p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ Driving and using machines
 Calquence is unlikely to affect the ability to drive and use machines. However, if you feel dizzy, weak or 
 tired while taking Calquence,  you must not drive or use machines.
 Calquence contains sodium
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free .</p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take calquence"
@@ -187,7 +190,7 @@ away. Take the next dose at your usual time.
   If more than 3 hours have passed after your usual time for taking a dose, skip the missed dose. Take the 
 next dose at your usual time.
   Do not take a double dose of Calquence to make up for a forgotten dose.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ blood).
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store calquence"
@@ -253,7 +256,7 @@ Do not use this medicine after the expiry date  which is stated on the blister f
 expiry date refers to the last day of that month. 
 This medicine does not require any special storage conditions. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -348,7 +351,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -387,7 +390,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -396,7 +401,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -411,7 +417,7 @@ Usage: #inline
 3. Sådan skal du tage Calquence
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -434,7 +440,7 @@ Calquence virker ved at blokere BTK, som er et protein i kroppen, der hjælper d
 vokse og overleve. Ved at blokere BTK, hjælper Calquence med at dræbe og kan nedsætte antallet af 
 kræftceller, hvilket kan få sygdommen til at udvikle sig langsommere.
 Er du i tvivl om, hvordan Calquence virker, eller hvorfor lægen har ordineret dette lægemiddel, så 
-spørg lægen, apotekspersonalet eller sygeplejersken.</p>         </div>"""   
+spørg lægen, apotekspersonalet eller sygeplejersken.</p> </div>"""   
           
 
              
@@ -540,7 +546,7 @@ du føler dig svimmel, svag eller træt, mens du tager Calquence, må du ikke f�
 betjene maskiner.
 Calquence indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr dosis, dvs. det er i det væsentlige 
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take calquence"
@@ -571,7 +577,7 @@ glemte dosis med det samme. Tag den næste dosis på dit sædvanlige tidspunkt.
  Hvis der er gået mere end 3 timer siden det sædvanlige tidspunkt for din dosis, skal du springe den 
 glemte dosis over. Tag den næste dosis på dit sædvanlige tidspunkt.
  Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -631,7 +637,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store calquence"
@@ -643,7 +649,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisterfolien og æsk
 er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -794,7 +800,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -833,7 +839,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -842,7 +850,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -857,7 +866,7 @@ Usage: #inline
 3. Como tomar Calquence
 4. Efeitos indesejáveis possíveis
 5. Como conservar Calquence
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -880,7 +889,7 @@ crescer e a sobreviver. Ao bloquear a BTK, Calquence ajuda a matar e a reduzir o
 cancerígenas, o que pode atrasar o agravamento da doença.
 Se tiver quaisquer questões sobre como Calquence funciona ou porque é que este medicamento lhe foi 
 receitado fale com o seu médico, farmacêutico ou enfermeiro.
-70</p>         </div>"""   
+70</p> </div>"""   
           
 
              
@@ -990,7 +999,7 @@ sentir tonturas, fraqueza ou cansaço enquanto estiver a tomar Calquence, não d
 máquinas.
 Calquence contém sódio
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar calquence"
@@ -1022,7 +1031,7 @@ imediatamente. Tome a próxima dose à hora habitual.
 Tome a próxima dose à hora habitual.
  Não tome uma dose de Calquence a dobrar para compensar uma dose que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
-enfermeiro.</p>         </div>"""         
+enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1100,7 +1109,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar calquence"
@@ -1114,7 +1123,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado.
 Este medicamento não requer condições especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente</p>         </div>"""      
+ambiente</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1246,7 +1255,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 836
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

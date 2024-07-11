@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Thiotepa Riemser </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ alkylating agents. </p>
 <p>Thiotepa Riemser is used to prepare patients for bone marrow transplantation. It works by destroying 
 bone marrow cells. This enables the transplantation of new bone marrow cells (haematopoietic 
 progenitor cells), which in turn enable the body to produce healthy blood cells. 
-Thiotepa Riemser can be used in adults and children and adolescents. </p>         </div>"""   
+Thiotepa Riemser can be used in adults and children and adolescents. </p> </div>"""   
           
 
              
@@ -116,7 +119,7 @@ women must not breast-feed during treatment with Thiotepa Riemser. </p>
 preservation before therapy is started. </p>
 <p>Driving and using machines 
 It is likely that certain side effects of thiotepa like dizziness, headache and blurred vision could affect 
-your ability to drive and use machines. If you notice such side effects, do not drive or use machines. </p>         </div>"""   
+your ability to drive and use machines. If you notice such side effects, do not drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take thiotepa"
@@ -129,7 +132,7 @@ Thiotepa Riemser is administered by a qualified healthcare professional as an in
 (drip in a vein) after dilution of the individual vial. Each infusion will last 2 - 4 hours. </p>
 <p>Frequency of administration 
 You will receive your infusions every 12 or 24 hours. The duration of treatment can last up to 5 days. 
-Frequency of administration and duration of treatment depend on your disease. </p>         </div>"""         
+Frequency of administration and duration of treatment depend on your disease. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -247,7 +250,7 @@ threatening (leukoencephalopathy) </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store thiotepa"
@@ -262,7 +265,7 @@ Do not freeze. </p>
 <p>After reconstitution the product is stable for 8 hours when stored at 2  C   8  C. </p>
 <p>After dilution the product is stable for 24 hours when stored at 2  C   8  C and for 4 hours when 
 stored at 25  C. From a microbiological point of view, the product should be used immediately. 
-Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+Any unused product or waste material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -417,7 +420,7 @@ Tel: +49 (0) 30 338427-0
 info.germany@esteve.com </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -456,7 +459,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -465,7 +470,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -482,7 +488,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -495,7 +501,7 @@ som kaldes alkylerende midler. </p>
 <p>Thiotepa Riemser bruges til forberedelse af patienter til knoglemarvstransplantation. Det fungerer ved 
 at ødelægge knoglemarvsceller, hvilket muliggør transplantation af nye knoglemarvsceller 
 (hæmatopoietiske progenitorceller). Derved bliver kroppen i stand til at producere sunde blodlegemer. 
-Thiotepa Riemser kan anvendes til voksne, børn og unge. </p>         </div>"""   
+Thiotepa Riemser kan anvendes til voksne, børn og unge. </p> </div>"""   
           
 
              
@@ -538,7 +544,7 @@ til præservering af sæd, inden behandling påbegyndes. </p>
 <p>Trafik- og arbejdssikkerhed 
 Det er sandsynligt, at visse bivirkninger ved thiotepa, som f.eks. svimmelhed, hovedpine og sløret syn, 
 kan påvirke din evne til at føre motorkøretøj og betjene maskiner. Hvis du bemærker sådanne 
-bivirkninger, må du ikke føre motorkøretøj eller betjene maskiner. </p>         </div>"""   
+bivirkninger, må du ikke føre motorkøretøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take thiotepa"
@@ -551,7 +557,7 @@ Thiotepa Riemser indgives af en kvalificeret sundhedsperson som en intravenøs i
 vene) efter fortynding i det individuelle hætteglas. Hver infusion tager 2-4 timer. </p>
 <p>Doseringshyppighed 
 Du modtager dine infusioner med 12 eller 24 timers mellemrum. Behandlingen kan vare op til 5 dage. 
-Hyppigheden af doseringerne og varigheden af behandlingen afhænger af din sygdom. </p>         </div>"""         
+Hyppigheden af doseringerne og varigheden af behandlingen afhænger af din sygdom. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -670,7 +676,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store thiotepa"
@@ -685,7 +691,7 @@ Må ikke nedfryses. </p>
 <p>Efter rekonstitution er lægemidlet stabilt i 8 timer, hvis det opbevares ved 2 °C - 8 °C. </p>
 <p>Efter fortynding er lægemidlet stabilt i 24 timer, hvis det opbevares ved 2 °C - 8 °C, og i 4 timer, hvis 
 det opbevares ved 25 °C. Fra et mikrobiologisk synspunkt bør lægemidlet anvendes øjeblikkeligt. </p>
-<p>Ikke anvendte lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendte lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1022,7 +1028,7 @@ stuetemperatur og under normale lysforhold (ca.25 °C). </p>
 (0,9 %) injektionsvæske, opløsning. </p>
 <p>Bortskaffelse 
 Thiotepa Riemser er kun til engangsbrug. 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

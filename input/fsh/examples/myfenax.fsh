@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Myfenax </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Myfenax is a medicine that is used to suppress immune activity. </p>
 <p>The active substance in this medicine is called mycophenolate mofetil. </p>
 <p>Myfenax is used to prevent your body rejecting a transplanted kidney, heart or liver. It is used in 
-combination with other medicines with a similar function (i.e. ciclosporin and corticosteroids). </p>         </div>"""   
+combination with other medicines with a similar function (i.e. ciclosporin and corticosteroids). </p> </div>"""   
           
 
              
@@ -197,7 +200,7 @@ drowsy, numb or confused, talk to your doctor or nurse and do not drive or use a
 until you feel better. </p>
 <p>Myfenax contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per hard capsule, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myfenax"
@@ -252,7 +255,7 @@ Do not take a double dose to make up for a forgotten dose. </p>
 Do not stop taking Myfenax because you feel better. It is important to take the medicine for as long as 
 the doctor has told you to. Stopping your treatment with Myfenax may increase the chance of rejection 
 of your transplanted organ. Do not stop taking your medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -358,7 +361,7 @@ leucoencephalopathy)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store myfenax"
@@ -370,7 +373,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines no longer required. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -487,7 +490,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. 
-Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -526,7 +529,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -535,7 +540,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -550,7 +556,7 @@ Usage: #inline
 3. Sådan skal du tage Myfenax 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -562,7 +568,7 @@ Usage: #inline
 <p>Det aktive stof i denne medicin hedder mycophenolatmofetil. </p>
 <p>Myfenax anvendes til at forhindre kroppen i at afstøde en transplanteret nyre, hjerte eller lever. Det 
 anvendes sammen med anden medicin med tilsvarende virkning (inklusive ciclosporin og 
-binyrebarkhormon). </p>         </div>"""   
+binyrebarkhormon). </p> </div>"""   
           
 
              
@@ -686,7 +692,7 @@ Hvis du oplever døsighed, følelsesløshed eller forvirring, bør du tale med d
 og vente med at føre motorkøretøj og bruge værktøj eller maskiner til du har fået det bedre. </p>
 <p>Myfenax indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myfenax"
@@ -741,7 +747,7 @@ Stop ikke med at tage Myfenax, bare fordi du måtte få det bedre. Det er vigtig
 lang tid, som din læge har fortalt dig. Hvis behandlingen med Myfenax stoppes, kan risikoen for 
 afstødning af det transplanterede organ øges. Stop ikke med at tage din medicin, medmindre lægen har 
 bedt dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -990,7 +996,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store myfenax"
@@ -1002,7 +1008,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Denne medicin kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1165,7 +1171,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selv om de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk . </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk . </p> </div>"""      
 
 
 
@@ -1204,7 +1210,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1213,7 +1221,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1228,7 +1237,7 @@ Usage: #inline
 3. Como tomar Myfenax 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Myfenax 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1240,7 +1249,7 @@ Usage: #inline
 <p>A substância ativa utilizada neste medicamento chama-se micofenolato de mofetil. </p>
 <p>Myfenax é usado para prevenir que o seu organismo rejeite o rim, coração ou fígado transplantado. 
 Myfenax é usado em conjunto com outros medicamentos com função semelhante (isto é ciclosporina e 
-corticosteroides). </p>         </div>"""   
+corticosteroides). </p> </div>"""   
           
 
              
@@ -1441,7 +1450,7 @@ sentir sonolento, atordoado ou confuso, fale com o seu médico ou enfermeiro e n
 quaisquer ferramentas ou máquinas até se sentir melhor. </p>
 <p>Myfenax contém sódio 
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por cápsula, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar myfenax"
@@ -1497,7 +1506,7 @@ Não pare de tomar Myfenax só porque se sente melhor. É importante tomar o med
 as recomendações do seu médico. Suspender o tratamento com Myfenax pode aumentar a probabilidade 
 de rejeição do órgão transplantado. Não deixe de tomar o seu medicamento exceto se tiver indicações do 
 seu médico em contrário. 
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1749,7 +1758,7 @@ vírus JC) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente 
 através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar myfenax"
@@ -1762,7 +1771,7 @@ EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1914,7 +1923,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA} </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

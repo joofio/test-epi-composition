@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Inhixa  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ Stopping blood clots forming in your blood. </p>
 <p>Treat blood clots that are in your blood </p>
 <p>Stop blood clots from forming in your blood in the following situations: * Before and after an operation  * When you have an acute illness and face period of limited mobility  * If you have experienced a blood clot due to cancer to prevent further clots from forming. * When you have unstable angina (a condition when not enough blood gets to your heart) * After a heart attack </p>
 <p>Stop blood clots forming in the tubes of your dialysis machine (used for people with severe kidney 
-problems). </p>         </div>"""   
+problems). </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ It is important to keep a record of the batch number of your Inhixa. So, every t
 Inhixa, note down the date and the batch number (which is on the packaging after Lot) and keep this 
 information in a safe place. </p>
 <p>Inhixa contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inhixa"
@@ -495,7 +498,7 @@ the same day to make up for a forgotten dose. Keeping a diary will help to make 
 <p>If you stop using Inhixa<br />
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. 
 It is important for you to keep having Inhixa injections until your doctor decides to stop them. If you stop, 
-you could get a blood clot which can be very dangerous. </p>         </div>"""         
+you could get a blood clot which can be very dangerous. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -564,7 +567,7 @@ have had a spinal puncture or a spinal anaesthetic.  </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inhixa"
@@ -579,7 +582,7 @@ After dilution the solution should be used within 8 hours.  </p>
 <p>Do not use this medicine if you notice any visible change in the appearance of the solution. </p>
 <p>The Inhixa pre-filled syringes are for single dose use only. Discard any unused medicine. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -751,7 +754,7 @@ Techdow Pharma Netherlands B.V.
 Techdow Pharma Netherlands B.V. 
 +44 28 9279 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -790,7 +793,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -799,7 +804,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -814,7 +820,7 @@ Usage: #inline
 3. Sådan skal du bruge Inhixa 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -836,7 +842,7 @@ At forhindre, at der dannes blodpropper i blodet i følgende situationer:  * Fø
 grund. * Hvis du har ustabil angina pectoris (hvor der kun kommer begrænset blod til hjertet). * Efter et hjertetilfælde. 
  
 At forhindre, at blodet størkner i slangerne på en dialysemaskine (bruges til personer med 
-alvorlige nyreproblemer). </p>         </div>"""   
+alvorlige nyreproblemer). </p> </div>"""   
           
 
              
@@ -948,7 +954,7 @@ skal du notere datoen og batchnummeret (findes på emballagen efter Lot) og opbe
 oplysninger et sikkert sted. </p>
 <p>Inhixa indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
-natriumfri. </p>         </div>"""   
+natriumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take inhixa"
@@ -1317,7 +1323,7 @@ noterer indsprøjtningerne i en dagbog, kan det hjælpe dig med at huske dem.  <
 <p>Hvis du holder op med at bruge Inhixa 
 Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. 
 Det er vigtigt, at du bliver ved med at få dette lægemiddel, indtil lægen siger, at du kan stoppe. Hvis 
-du stopper med at bruge det, kan du få en blodprop, hvilket kan være meget farligt.  </p>         </div>"""         
+du stopper med at bruge det, kan du få en blodprop, hvilket kan være meget farligt.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1417,7 +1423,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store inhixa"
@@ -1432,7 +1438,7 @@ Efter fortynding skal opløsningen anvendes inden for 8 timer.  </p>
 <p>Brug ikke lægemidlet, hvis injektionsvæsken ser anderledes ud. </p>
 <p>De fyldte Inhixa-sprøjter er kun til brug til en enkelt dosis. Kassér eventuelt ikke anvendt lægemiddel. 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1651,7 +1657,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 

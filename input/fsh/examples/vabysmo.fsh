@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Vabysmo  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ they can cause growth of abnormal blood vessels and/or damage to normal vessels,
 the macula, causing swelling or damage that can negatively affect a person s vision. By attaching to 
 these proteins, Vabysmo can block their actions and prevent abnormal vessel growth, leakage and 
 swelling. Vabysmo may improve the disease and/or slow down worsening of the disease and thereby 
-maintain, or even improve, your vision. </p>         </div>"""   
+maintain, or even improve, your vision. </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ you are pregnant during treatment, tell your doctor right away.  </p>
 vision). Do not drive or use machines as long as these last. </p>
 <p>Vabysmo contains sodium  </p>
 <p>The medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vabysmo"
@@ -199,7 +202,7 @@ treatment with Vabysmo, your doctor may ask you to change to a more or less freq
 <p>If you stop using Vabysmo  </p>
 <p>Speak with your doctor before stopping treatment. Stopping treatment may increase your risk of vision 
 loss and your vision may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -258,7 +261,7 @@ following injection of Vabysmo into the eye. </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix  V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vabysmo"
@@ -273,7 +276,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2 C - 8 C). </p>
 <p>Do not freeze. </p>
 <p>Keep the vial in the outer carton in order to protect from light. </p>
-<p>Prior to use, the unopened vial may be kept at room temperature, 20 C to 25 C, for up to 24 hours. </p>         </div>"""      
+<p>Prior to use, the unopened vial may be kept at room temperature, 20 C to 25 C, for up to 24 hours. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ Roche Latvija SIA
 Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -431,7 +437,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -462,7 +468,7 @@ forårsage vækst af unormale blodkar og/eller skade på normale kar med lækage
 føre til hævelse eller skade, hvilket kan have en negativ virkning på personens syn. Ved at binde sig til 
 disse proteiner kan Vabysmo blokere deres virkning og forhindre unormal karvækst, lækage og 
 hævelse. Vabysmo kan forbedre sygdommen og/eller sinke forværring af sygdommen og således 
-opretholde, eller endda forbedre, dit syn. </p>         </div>"""   
+opretholde, eller endda forbedre, dit syn. </p> </div>"""   
           
 
              
@@ -588,7 +594,7 @@ Efter din injektion med Vabysmo kan du opleve midlertidige synsproblemer (f.eks.
 ikke køre bil eller betjene maskiner, så længe disse varer. </p>
 <p>Vabysmo indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. at det stort set er 
-'natriumfrit'. </p>         </div>"""   
+'natriumfrit'. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vabysmo"
@@ -632,7 +638,7 @@ Hvis du har glemt en dosis, skal du aftale en ny tid med din læge hurtigst muli
 <p>Hvis du holder op med at bruge Vabysmo<br />
 Tal med lægen, inden du stopper med behandlingen. Ophør med behandlingen kan øge din risiko for 
 synstab, og dit syn kan blive dårligere. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -762,7 +768,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette bivirkninger direkte 
 til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V.* Ved at 
 indberette bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vabysmo"
@@ -777,7 +783,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Må ikke nedfryses. </p>
 <p>Opbevar hætteglassene i den ydre æske for at beskytte mod lys. </p>
-<p>Før brug kan det uåbnede hætteglas opbevares ved stuetemperatur, 20 °C til 25 °C i op til 24 timer. </p>         </div>"""      
+<p>Før brug kan det uåbnede hætteglas opbevares ved stuetemperatur, 20 °C til 25 °C i op til 24 timer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1007,7 +1013,7 @@ volumen på 0,05 ml. Bekræft administration af den fulde dosis ved at tjekke, a
 gummiproppen har nået enden af sprøjtecylinderen.<br />
 Overskydende volumen skal presses ud inden injektion. Injektionsdosis skal 
 indstilles til 0,05 ml doserimærket for at undgå overdosering.<br />
-Affald eller ikke anvendt lægemiddel skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Affald eller ikke anvendt lægemiddel skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

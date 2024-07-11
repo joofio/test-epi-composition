@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Byooviz </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ A (VEGF-A) present in the eye. In excess, VEGF-A causes abnormal blood vessel gr
 in the eye which can lead to impairment of vision in diseases like AMD, DME, PDR, RVO, PM and 
 CNV. By binding to VEGF-A, Byooviz can block its actions and prevent this abnormal growth and 
 swelling. </p>
-<p>In these diseases, Byooviz can help to stabilise and in many cases improve your vision. </p>         </div>"""   
+<p>In these diseases, Byooviz can help to stabilise and in many cases improve your vision. </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ recommended during breast-feeding. Ask your doctor or pharmacist for advice befo
 treatment. </p>
 <p>Driving and using machines 
 After Byooviz treatment you may experience some temporary vision blurring. If this happens, do not 
-drive or use machines until this resolves. </p>         </div>"""   
+drive or use machines until this resolves. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take byooviz"
@@ -166,7 +169,7 @@ Byooviz can be used for people of 65 years of age and over without dose adjustme
 <p>Before stopping Byooviz treatment 
 If you are considering stopping Byooviz treatment, please go to your next appointment and discuss this 
 with your doctor. Your doctor will advise you and decide how long you should be treated with Byooviz. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -209,7 +212,7 @@ the eye, irritation of the eyelid. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store byooviz"
@@ -225,7 +228,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 2 months. </li>
 <li>Keep the vial in the outer carton in order to protect from light. </li>
 <li>Do not use any pack that is damaged. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -320,7 +323,7 @@ Tel: + 371 66 16 40 United Kingdom (Northern Ireland)
 Biogen Idec (Ireland) Ltd. 
 Tel: +44 (0)20 360 886 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -359,7 +362,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -368,7 +373,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -383,7 +389,7 @@ Usage: #inline
 3.  Sådan gives Byooviz 
 4.  Bivirkninger 
 5.  Opbevaring 
-6.  Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6.  Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -413,7 +419,7 @@ Byooviz genkender specifikt og bindes til et protein, der kaldes human vaskulær
 blodårer og opsvulmen i øjet, der kan medføre synsnedsættelse ved sygdomme som AMD, DME, PDR, 
 RVO, PM og CNV. Ved at bindes til VEGF-A kan Byooviz blokere dets funktion og forhindre denne 
 unormale vækst og opsvulmen. </p>
-<p>Ved disse sygdomme kan Byooviz hjælpe til at stabilisere, og i mange tilfælde forbedre, dit syn. </p>         </div>"""   
+<p>Ved disse sygdomme kan Byooviz hjælpe til at stabilisere, og i mange tilfælde forbedre, dit syn. </p> </div>"""   
           
 
              
@@ -461,7 +467,7 @@ skal du spørge din læge til råds, før behandling med Byooviz.
 under amning. Spørg din læge eller apotekspersonalet til råds, før behandling med Byooviz. </p>
 <p>Trafik- og arbejdssikkerhed 
 Efter behandling med Byooviz kan du opleve en vis midlertidig sløring af synet. Hvis det sker, må du ikke 
-føre motorkøretøj eller betjene maskiner, før det er forsvundet. </p>         </div>"""   
+føre motorkøretøj eller betjene maskiner, før det er forsvundet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take byooviz"
@@ -484,7 +490,7 @@ Byooviz kan anvendes til personer på 65 år og derover uden dosisjustering. </p
 Hvis du overvejer at holde op med Byooviz-behandlingen, bedes du komme til din næste aftale og 
 drøfte det med din læge. Din læge vil rådgive dig og beslutte, hvor længe du bør behandles med 
 Byooviz. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -529,7 +535,7 @@ følelse i øjet, øjenlågsirritation. </p>
 Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som ikke er 
 medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store byooviz"
@@ -545,7 +551,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 2 måneder. </li>
 <li>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </li>
 <li>Brug ikke Byooviz, hvis pakningen er beskadiget. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -780,7 +786,7 @@ horisontale meridian undgås, og der sigtes mod øjeæblets centrum. Injektionsv
 indsprøjtes så. Der skal skiftes injektionssted i sklera ved hver injektion. </p>
 <p>Hætten må ikke sættes på kanylen igen efter injektionen, og kanylen må ikke fjernes fra sprøjten. 
 Bortskaf den brugte sprøjte sammen med kanylen i en kanyleboks eller i henhold til lokale 
-retningslinjer. </p>         </div>"""      
+retningslinjer. </p> </div>"""      
 
 
 

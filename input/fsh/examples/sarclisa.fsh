@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sarclisa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ It is used together with two other combinations of medicines: </p>
 <p>pomalidomide and dexamethasone or  </p>
 <p>carfilzomib and dexamethasone. </p>
 <p>If you have any questions on how Sarclisa works or about your treatment with Sarclisa, ask your 
-doctor. </p>         </div>"""   
+doctor. </p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ time. Use contraception during treatment - and for 5 months after the last dose 
 <p>Driving and using machines<br />
 Sarclisa is unlikely to affect your ability to drive or use machines.  However, Sarclisa is used with 
 other medicines that may affect your ability to drive or use machines. Please look at the package 
-leaflet from the other medicines you take with Sarclisa.  </p>         </div>"""   
+leaflet from the other medicines you take with Sarclisa.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sarclisa"
@@ -197,7 +200,7 @@ Sarclisa will be given to you by your doctor or nurse. If you are accidentally g
 overdose), your doctor will treat and monitor your side effects.  </p>
 <p>If you stop using Sarclisa<br />
 Do not stop your treatment with Sarclisa unless you have discussed that with your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -260,7 +263,7 @@ immediately. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sarclisa"
@@ -274,7 +277,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2  C-8  C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Medicines should not be disposed of via wastewater. Your doctor, pharmacist or nurse will throw 
-away any medicines that are no longer being used. These measures will help protect the environment. </p>         </div>"""      
+away any medicines that are no longer being used. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -365,7 +368,7 @@ Swixx Biopharma SIA
 Tel: +371 6616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in .  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -404,7 +407,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -413,7 +418,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -428,7 +434,7 @@ Usage: #inline
 3. Sådan får du Sarclisa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -456,7 +462,7 @@ Det anvendes sammen med to forskellige lægemiddelkombinationer: </p>
 <p>carfilzomib og dexamethason. </p>
 </li>
 </ul>
-<p>Spørg lægen, hvis du vil vide mere om, hvordan Sarclisa virker eller om din behandling med Sarclisa. </p>         </div>"""   
+<p>Spørg lægen, hvis du vil vide mere om, hvordan Sarclisa virker eller om din behandling med Sarclisa. </p> </div>"""   
           
 
              
@@ -553,7 +559,7 @@ behandlingen og i 5 måneder efter den sidste dosis Sarclisa. </p>
 Det er usandsynligt, at Sarclisa påvirker evnen til at føre motorkøretøj og betjene maskiner. Sarclisa 
 anvendes imidlertid sammen med anden medicin, der kan påvirke din evne til at føre motorkøretøj og 
 betjene maskiner. Se venligst indlægssedlen for den anden medicin, som du tager sammen med 
-Sarclisa. </p>         </div>"""   
+Sarclisa. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sarclisa"
@@ -596,7 +602,7 @@ En læge eller sygeplejerske vil give dig Sarclisa. Hvis du ved en fejl får for
 lægen behandle og overvåge bivirkningerne. </p>
 <p>Hvis du holder op med at få Sarclisa 
 Du må ikke stoppe behandlingen med Sarclisa, medmindre du har aftalt det med lægen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -727,7 +733,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sarclisa"
@@ -741,7 +747,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevares i den originale pakning for at beskytte mod lys.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -916,7 +922,7 @@ almindeligt kunstigt lys. </p>
 forbindelse med fortynding og infusion, skal bortskaffes i henhold til lokale 
 standardprocedurer. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -955,7 +961,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -964,7 +972,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -981,7 +990,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Sarclisa </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1010,7 +1019,7 @@ anteriormente tratamentos para o mieloma múltiplo.<br />
 </li>
 </ul>
 <p>Se tiver alguma dúvida sobre como funciona Sarclisa ou sobre o seu tratamento com Sarclisa, pergunte 
-ao seu médico. </p>         </div>"""   
+ao seu médico. </p> </div>"""   
           
 
              
@@ -1119,7 +1128,7 @@ contraceptivos eficazes durante o tratamento e durante 5 meses após a última d
 É pouco provável que  Sarclisa afete a sua capacidade de conduzir ou utilizar máquinas. No entanto, 
 Sarclisa é utilizado com outros medicamentos que podem afetar a sua capacidade de conduzir ou 
 utilizar máquinas. Por favor, consulte o folheto informativo dos outros medicamentos que toma com 
-Sarclisa.  </p>         </div>"""   
+Sarclisa.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sarclisa"
@@ -1164,7 +1173,7 @@ demasiado (uma sobredosagem), o seu médico irá tratar e monitorizar os seus ef
 <p>Se parar de utilizar Sarclisa<br />
 Não interrompa o seu tratamento com Sarclisa, a menos que tenha falado sobre isso com o seu médico.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.  </p>         </div>"""         
+ou enfermeiro.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1293,7 +1302,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sarclisa"
@@ -1308,7 +1317,7 @@ para injetáveis após “VAL". O prazo de validade corresponde ao último dia d
 Conservar na embalagem de origem para proteger da luz. </p>
 <p>Os medicamentos não devem ser eliminados na canalização. O seu médico, farmacêutico ou 
 enfermeiro irá deitar fora quaisquer medicamentos que já não estejam a ser usados. Estas medidas 
-ajudarão a proteger o ambiente. </p>         </div>"""      
+ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1429,7 +1438,7 @@ United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2 </p>
 <p>Este folheto foi revisto pela última vez em .  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

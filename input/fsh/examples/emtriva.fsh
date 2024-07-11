@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Emtriva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ transcriptase) that is essential for the HIV virus to reproduce itself.  Emtriva
 HIV in the blood (viral load).  It may also help to increase the number of T cells called CD4 cells.<br />
 Emtriva should always be combined with other medicines to treat HIV infection. </p>
 <p>This medicine is not a cure for HIV infection.  While taking Emtriva you may still develop 
-infections or other illnesses associated with HIV infection. </p>         </div>"""   
+infections or other illnesses associated with HIV infection. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ on to the baby in breast milk. </p>
 soon as possible. </p>
 <p>Driving and using machines </p>
 <p>Emtriva may cause dizziness.  If you experience dizziness while taking Emtriva, do not drive and do 
-not use any tools or machines. </p>         </div>"""   
+not use any tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emtriva"
@@ -232,7 +235,7 @@ hepatitis. </p>
 </ul>
 <p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, particularly 
 symptoms you associate with hepatitis B infection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -273,7 +276,7 @@ red blood cells is reduced, a child may have symptoms of tiredness or breathless
 <p>If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emtriva"
@@ -285,7 +288,7 @@ of this medicine. </p>         </div>"""
 after  EXP .  The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +391,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -427,7 +430,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -436,7 +441,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -453,7 +459,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -473,7 +479,7 @@ kan reproducere sig selv. Emtriva kan sænke mængden af hiv i blodet (virusmæn
 bidrage til at øge antallet af de T-celler, der kaldes CD4-celler. Emtriva bør altid kombineres med 
 andre lægemidler til at behandle hiv-infektion. </p>
 <p>Denne form for lægemidler helbreder ikke hiv-infektionen. Mens De tager Emtriva, kan De stadig 
-udvikle infektioner eller andre sygdomme forbundet med hiv-infektionen. </p>         </div>"""   
+udvikle infektioner eller andre sygdomme forbundet med hiv-infektionen. </p> </div>"""   
           
 
              
@@ -557,7 +563,7 @@ gennem modermælken. </p>
 <p>Hvis De ammer eller påtænker at amme, bør De drøfte det med lægen hurtigst muligt. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Emtriva kan forårsage svimmelhed. Kør ikke bil eller motorcykel og lad være med at cykle, og lad 
-være med at arbejde med værktøj eller maskiner, hvis De bliver svimmel, når De tager Emtriva. </p>         </div>"""   
+være med at arbejde med værktøj eller maskiner, hvis De bliver svimmel, når De tager Emtriva. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emtriva"
@@ -633,7 +639,7 @@ behandlingen ikke ophøre, da det hos nogle patienter kan medføre forværring a
 <p>Bemærker De nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal De omgående 
 oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De normalt ville forbinde med 
 hepatitis B-infektion. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -705,7 +711,7 @@ Hvis produktionen af røde blodlegemer er nedsat, kan barnet få symptomer som t
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emtriva"
@@ -717,7 +723,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 „EXP“. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -857,7 +863,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Emtriva til Dem personligt. Lad derfor være med at give lægemidlet til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlægssedler.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlægssedler.dk. </p> </div>"""      
 
 
 
@@ -896,7 +902,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -905,7 +913,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -920,7 +929,7 @@ Usage: #inline
 3. Como tomar Emtriva 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Emtriva 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -940,7 +949,7 @@ baixar a quantidade de VIH no sangue (carga viral). Também poderá ajudar a aum
 células T chamadas células CD4. Emtriva deve ser sempre associado com outros medicamentos para 
 tratar a infeção por VIH. </p>
 <p>Este medicamento não constitui uma cura para a infeção por VIH. Enquanto toma Emtriva pode 
-continuar a desenvolver infeções ou outras doenças associadas à infeção por VIH. </p>         </div>"""   
+continuar a desenvolver infeções ou outras doenças associadas à infeção por VIH. </p> </div>"""   
           
 
              
@@ -1028,7 +1037,7 @@ VIH pode ser transmitida ao bebé através do leite materno. </p>
 rapidamente possível. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>O Emtriva pode causar tonturas. Se sentir tonturas enquanto estiver a tomar Emtriva, não conduza e 
-não utilize quaisquer ferramentas ou máquinas. </p>         </div>"""   
+não utilize quaisquer ferramentas ou máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar emtriva"
@@ -1105,7 +1114,7 @@ interrupção do tratamento não é recomendada pois pode levar a um agravamento
 <p>Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais após 
 parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1182,7 +1191,7 @@ fadiga ou dificuldades de respiração. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar emtriva"
@@ -1195,7 +1204,7 @@ EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1326,7 +1335,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em . </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

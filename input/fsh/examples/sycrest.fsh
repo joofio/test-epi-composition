@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sycrest </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ imbalances may cause some of the symptoms you may be experiencing. Exactly how t
 works is unknown, however, it is believed to adjust the balance of these chemicals. </p>
 <p>Manic episodes associated with bipolar I disorder is a condition with symptoms such as feeling  high , 
 having excessive amounts of energy, needing much less sleep than usual, talking very quickly with 
-racing ideas and sometimes severe irritability. </p>         </div>"""   
+racing ideas and sometimes severe irritability. </p> </div>"""   
           
 
              
@@ -158,7 +161,7 @@ you may need to contact your doctor. </p>
 <p>Do not breast-feed when taking Sycrest. </p>
 <p>Driving and using machines 
 Sycrest may cause sleepiness or sedation. Therefore, make sure your concentration and alertness are 
-not affected before you drive or operate machinery. </p>         </div>"""   
+not affected before you drive or operate machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sycrest"
@@ -195,7 +198,7 @@ as usual. If you miss two or more doses, contact your doctor or pharmacist. </p>
 <p>If you stop taking Sycrest 
 If you stop taking Sycrest, you will lose the effects of this medicine. You should not stop taking this 
 medicine, unless your doctor tells you as your symptoms may return. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -274,7 +277,7 @@ restlessness<br />
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sycrest"
@@ -287,7 +290,7 @@ expiry date refers to the last day of that month. </p>
 <p>Store this medicine in the original package in order to protect from light and moisture. </p>
 <p>This medicinal product does not require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -410,7 +413,7 @@ Tel: +371 66968dpoc.latvia@organon.com </p>
 Organon Pharma (UK) Limited<br />
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>This leaflet was last revised in {month/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -449,7 +452,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -458,7 +463,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -473,7 +479,7 @@ Usage: #inline
 3. Sådan skal du tage Sycrest 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -491,7 +497,7 @@ præcist, hvordan lægemidlet virker. Det antages dog, at medicinen justerer bal
 stoffer. </p>
 <p>Maniske episoder er en tilstand med symptomer såsom en følelse af at være "høj", have overdreven 
 energi, mindre søvnbehov end normalt, tale meget hurtigt, have mange ideer og sommetider være 
-meget irritabel. </p>         </div>"""   
+meget irritabel. </p> </div>"""   
           
 
              
@@ -572,7 +578,7 @@ skal du kontakte din læge. </p>
 <p>Trafik- og arbejdssikkerhed 
 Sycrest kan medføre søvnighed eller virke sløvende. Vær opmærksom på, hvordan medicinen påvirker 
 dig, og sørg derfor for, at din koncentrationsevne eller opmærksomhed ikke er påvirket, inden du kører 
-eller arbejder med maskiner. </p>         </div>"""   
+eller arbejder med maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sycrest"
@@ -613,7 +619,7 @@ doser. </p>
 Du mister virkningen af denne medicin, hvis du holder op med at tage Sycrest. Du må ikke holde op 
 med at tage dette lægemiddel, medmindre din læge beder dig om det, da symptomerne kan vende 
 tilbage. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -693,7 +699,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sycrest"
@@ -706,7 +712,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Opbevar lægemidlet i den originale yderpakning for at beskytte mod lys og fugt. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -838,7 +844,7 @@ Organon Pharma (UK) Limited<br />
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>Denne indlægsseddel blev senest ændret { MM/ÅÅÅÅ } </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -877,7 +883,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -886,7 +894,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -901,7 +910,7 @@ Usage: #inline
 3. Como tomar Sycrest 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Sycrest 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -919,7 +928,7 @@ causar alguns dos sintomas que pode estar a sentir. Não se sabe exatamente como
 medicamento, contudo, acredita-se que regule o equilíbrio destas substâncias químicas. </p>
 <p>Os episódios maníacos associados à perturbação bipolar I são uma situação clínica com sintomas 
 como sentir-se “eufórico", ter excesso de energia, ter necessidade de dormir menos do que o habitual, 
-falar muito depressa com ideias rápidas e algumas vezes irritabilidade grave. </p>         </div>"""   
+falar muito depressa com ideias rápidas e algumas vezes irritabilidade grave. </p> </div>"""   
           
 
              
@@ -1016,7 +1025,7 @@ sintomas pode ser necessário contactar o seu médico.  </p>
 <p>Não amamente enquanto tomar Sycrest. </p>
 <p>Condução de veículos e utilização de máquinas 
 Sycrest pode causar sonolência ou sedação. Como tal, certifique-se que a sua concentração e vigília 
-não estão afetadas antes de conduzir ou utilizar máquinas. </p>         </div>"""   
+não estão afetadas antes de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sycrest"
@@ -1059,7 +1068,7 @@ Se parar de tomar Sycrest, irá perder os efeitos deste medicamento. Não deve p
 medicamento, a não ser que o seu médico lhe diga para o fazer uma vez que os seus sintomas poderão 
 voltar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1155,7 +1164,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sycrest"
@@ -1169,7 +1178,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de qualquer temperatura especial de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1299,7 +1308,7 @@ Organon Pharma (UK) Limited<br />
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>Este folheto foi revisto pela última vez em {mês de AAAA}. </p>
 <p>Está disponível informação pormenorizada sobre este medicamento no sítio da Internet da Agência 
-Europeia de Medicamentos: http://www.ema.europa.eu. </p>         </div>"""      
+Europeia de Medicamentos: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

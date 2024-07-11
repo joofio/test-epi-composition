@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Glyxambi</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ sulphonylurea in combination with linagliptin.</p>
 tablets. To avoid overdose, do not continue taking empagliflozin and linagliptin tablets separately, 
 if your are taking this medicine.
 It is important that you continue with your diet and exercise plan as recommended by your doctor, 
-pharmacist or nurse.</p>         </div>"""   
+pharmacist or nurse.</p> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ Glyxambi has minor influence on the ability to drive and use machines.
 Taking this medicine in combination with sulphonylureas or insulin, can cause your blood sugar levels 
 to drop too low (hypoglycaemia), which may cause symptoms such as shaking, sweating and changes
 in vision, and may affect your ability to drive and use machines. Do not drive or use any tools or 
-machines, if you experience any of these symptoms while taking Glyxambi.</p>         </div>"""   
+machines, if you experience any of these symptoms while taking Glyxambi.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take glyxambi"
@@ -231,7 +234,7 @@ the usual time.</p>
 If you stop taking Glyxambi
 Do not stop taking this medicine without first consulting your doctor. Your blood sugar levels may 
 increase when you stop taking Glyxambi.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -316,7 +319,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store glyxambi"
@@ -329,7 +332,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use this medicine if you notice that the packaging is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -458,7 +461,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9Eli Lilly and Company (Ireland) Limited
 Tel: +353 1 661 4This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -497,7 +500,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -506,7 +511,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -521,7 +527,7 @@ Usage: #inline
 3. Sådan skal du tage Glyxambi
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -557,7 +563,7 @@ Glyxambi kan også bruges som et alternativ til at tage både empagliflozin-tabl
 linagliptin-tabletter. For at undgå en overdosering, må du ikke tage både Glyxambi og 
 empagliflozin- og linagliptin-tabletter samtidig.
 Det er vigtigt, at du fortsætter med den diæt- og motionsplan, som din læge, apotekspersonalet eller 
-sygeplejersken har anbefalet.</p>         </div>"""   
+sygeplejersken har anbefalet.</p> </div>"""   
           
 
              
@@ -668,7 +674,7 @@ Hvis du tager dette lægemiddel i kombination med et sulfonylurinstof eller insu
 blodsukker (hypoglykæmi), som kan give symptomer som rysteture, svedtendens og synsforstyrrelser, 
 og som kan påvirke din evne til at køre motorkøretøj og betjene maskiner. Du må ikke føre 
 motorkøretøj eller betjene maskiner, hvis du får et eller flere af disse symptomer, mens du tager 
-Glyxambi.</p>         </div>"""   
+Glyxambi.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take glyxambi"
@@ -720,7 +726,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Glyxambi
 Du må ikke holde op med at tage dette lægemiddel uden først at have rådført dig med din læge. 
 Blodsukkeret kan stige, hvis du holder op med at tage Glyxambi.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -842,7 +848,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.
-49</p>         </div>"""      
+49</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store glyxambi"
@@ -856,7 +862,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 Brug ikke lægemidlet, hvis pakningen er beskadiget eller viser tegn på, at nogen har forsøgt at åbne 
 den.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1026,7 +1032,7 @@ Eli Lilly and Company (Ireland) Limited
 Tel: +353-(0) 1 661 4377
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

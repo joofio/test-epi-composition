@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Neulasta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ chemotherapy which can cause the number of these cells in your body to decrease.
 fall to a low level there may not be enough left in the body to fight bacteria and you may have an 
 increased risk of infection. </p>
 <p>Your doctor has given you Neulasta to encourage your bone marrow (part of the bone which makes 
-blood cells) to produce more white blood cells that help your body fight infection. </p>         </div>"""   
+blood cells) to produce more white blood cells that help your body fight infection. </p> </div>"""   
           
 
              
@@ -166,7 +169,7 @@ pregnant women. It is important to tell your doctor if you:
 <p>Neulasta contains sorbitol (E420) and sodium </p>
 <p>This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg/mL. 
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neulasta"
@@ -190,7 +193,7 @@ this leaflet. </p>
 <p>If you forget to inject Neulasta </p>
 <p>If you are injecting yourself and have forgotten your dose of Neulasta, you should contact your doctor 
 to discuss when you should inject the next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -243,7 +246,7 @@ symptoms and contact your doctor or seek medical attention immediately. See also
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neulasta"
@@ -262,7 +265,7 @@ temperature (not above 30 C) it must either be used within 3 days or disposed of
 <p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -431,7 +437,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ effekterne af kemoterapi, hvilket kan medføre, at antallet af disse celler i De
 antallet af hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er nok celler tilbage i 
 kroppen til at bekæmpe bakterier, og De kan have en øget risiko for infektion. </p>
 <p>Deres læge har ordineret Neulasta til Dem for at støtte Deres knoglemarv (hvor blodceller dannes) til 
-at producere flere hvide blodlegemer, der hjælper Deres krop med at bekæmpe infektion. </p>         </div>"""   
+at producere flere hvide blodlegemer, der hjælper Deres krop med at bekæmpe infektion. </p> </div>"""   
           
 
              
@@ -554,7 +560,7 @@ ikke blevet testet på gravide kvinder. Det er vigtigt at fortælle Deres læge,
 <p>Neulasta har ingen eller kun ubetydelig virkning på evnen til at køre bil og betjene maskiner. </p>
 <p>Neulasta indeholder sorbitol (E420) og natrium </p>
 <p>Dette lægemiddel indeholder 30 mg sorbitol pr. fyldt sprøjte, svarende til 50 mg/ml. Dette lægemiddel 
-indeholder mindre end 1 mmol (23 mg) natrium pr. 6 mg dosis, dvs. det er i det væsentlige natriumfrit. </p>         </div>"""   
+indeholder mindre end 1 mmol (23 mg) natrium pr. 6 mg dosis, dvs. det er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take neulasta"
@@ -578,7 +584,7 @@ Neulasta. </p>
 <p>Hvis De har glemt at bruge Neulasta </p>
 <p>Hvis De selv foretager injektionerne og har glemt en dosis Neulasta, kontakt da Deres læge for at 
 aftale, hvornår De skal tage den næste dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -678,7 +684,7 @@ kontakt Deres læge. Se også afsnit 2. Indberetning af bivirkninger </p>
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelsstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store neulasta"
@@ -697,7 +703,7 @@ mindre end 24 timer. </p>
 <p>Opbevar den fyldte injektionssprøjte i den ydre karton for at beskytte mod lys. </p>
 <p>Brug ikke lægemidlet, hvis De bemærker, at det er grumset eller at der er partikler i det. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1089,7 +1095,7 @@ husholdningsaffaldet </p>
 <p>B 
 Undersøg injektionsstedet. 
 Tryk en tot vat eller et gazekompres ned på injektionsstedet, hvis det bløder. Gnid ikke på 
-injektionsstedet. Sæt om nødvendigt et plaster på. </p>         </div>"""      
+injektionsstedet. Sæt om nødvendigt et plaster på. </p> </div>"""      
 
 
 

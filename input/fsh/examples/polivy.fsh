@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Polivy  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ These are a type of blood cells.  </p>
 that has never been treated before. 
 * rituximab and bendamustine for  diffuse large B-cell lymphoma  that has come back or has not 
 got better, after at least one previous therapy   and when you cannot receive a stem cell 
-transplant. </p>         </div>"""   
+transplant. </p> </div>"""   
           
 
              
@@ -225,7 +228,7 @@ amount of Polivy may pass into your breast milk.  </p>
 <p>See section 4 for more information about side effects. </p>
 <p>Polivy contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take polivy"
@@ -258,7 +261,7 @@ got better, after at least one previous therapy   and when you cannot receive a 
 <p>If you stop receiving Polivy </p>
 <p>Do not stop treatment with Polivy unless you have discussed this with your doctor. This is because 
 stopping treatment may make your condition worse.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -351,7 +354,7 @@ symptoms. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store polivy"
@@ -367,7 +370,7 @@ EXP. The expiry date refers to the last day of that month.
 * Do not freeze. 
 * Keep the container in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -462,7 +465,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -501,7 +504,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -510,7 +515,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -525,7 +531,7 @@ Usage: #inline
 3. Sådan skal du bruge Polivy 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -575,7 +581,7 @@ ikke tidligere er behandlet. </p>
 som ikke er blevet bedre efter mindst én tidligere behandling - og hvis du ikke kan få 
 stamcelletransplantation. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -785,7 +791,7 @@ bivirkningen er forsvundet. </li>
 <p>Se afsnit 4 for mere information om bivirkninger. </p>
 <p>Polivy indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) per dosis, dvs. det er stort set 
-natriumfrit.  </p>         </div>"""   
+natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take polivy"
@@ -837,7 +843,7 @@ stamcelletransplantation. </p>
 <p>Hvis du holder op med at bruge Polivy </p>
 <p>Stop ikke behandling med Polivy uden at have diskuteret det med lægen. Hvis du stopper 
 behandlingen, kan det forværre tilstanden.  </p>
-<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller sundhedspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1032,7 +1038,7 @@ bivirkninger. </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller din pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store polivy"
@@ -1060,7 +1066,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1266,7 +1272,7 @@ op til 8 timer ved stuetemperatur (9 °C-25 °C)
 5% Glukose<br />
 Op til 72 timer i køleskab (2 °C-8 °C) eller<br />
 op til 8 timer ved stuetemperatur (9 °C-25 °C) 
-1For at sikre produktets stabilitet bør de angivne opbevaringstider ikke overskrides. </p>         </div>"""      
+1For at sikre produktets stabilitet bør de angivne opbevaringstider ikke overskrides. </p> </div>"""      
 
 
 

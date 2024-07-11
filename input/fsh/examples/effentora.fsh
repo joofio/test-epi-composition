@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Effentora </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 an opioid, which is used to treat breakthrough pain in adult patients with cancer who are already taking 
 other opioid pain medicines for their persistent (around-the-clock) cancer pain. 
 Breakthrough pain is additional, sudden pain that occurs in spite of you having taken your usual opioid 
-pain-relieving medicines. </p>         </div>"""   
+pain-relieving medicines. </p> </div>"""   
           
 
              
@@ -233,7 +236,7 @@ This is equivalent to 0.5 % of the recommended maximum daily dietary intake of s
 <p>Effentora 200 micrograms, Effentora 400 micrograms, Effentora 600 micrograms, 
 Effentora 800 micrograms 
 This medicine contains 20 mg sodium (main component of cooking/table salt) in each buccal tablet. 
-This is equivalent to 1 % of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+This is equivalent to 1 % of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take effentora"
@@ -312,7 +315,7 @@ as advised by your doctor. You may experience withdrawal symptoms similar to the
 effects of Effentora when discontinuing Effentora. If you experience withdrawal symptoms or if you 
 are concerned about your pain relief, you should contact your doctor. Your doctor will evaluate if you 
 need medicine to reduce or eliminate the withdrawal symptoms.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -394,7 +397,7 @@ newborn which can be life-threatening (see section 2) </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store effentora"
@@ -407,7 +410,7 @@ accidentally by a child. This medicine must be kept out of the sight and reach o
 label and the carton. The expiry date refers to the last day of that month. 
 * Store in the original package in order to protect from moisture.<br />
 * Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -510,7 +513,7 @@ Tel: +371 67 323 United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 (0) 207 540 7This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -549,7 +552,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -558,7 +563,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -573,7 +579,7 @@ Usage: #inline
 3. Sådan skal De tage Effentora 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -585,7 +591,7 @@ Usage: #inline
 opioid, som anvendes til behandling af gennembrudssmerter hos voksne kræftpatienter, der allerede 
 tager andre opioide lægemidler for deres vedvarende kræftsmerter (smerter, der er der hele døgnet). 
 Gennembrudssmerte er en yderligere pludselig smerte, der optræder på trods af, at De tager Deres 
-normale smertestillende medicin. </p>         </div>"""   
+normale smertestillende medicin. </p> </div>"""   
           
 
              
@@ -847,7 +853,7 @@ voksen. </p>
 800 mikrogram 
 Dette lægemiddel indeholder 20 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 bukkaltablet. Dette svarer til 1 % af den anbefalede maximale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take effentora"
@@ -963,7 +969,7 @@ vedvarende kræftsmerter efter lægens anvisning. De kan opleve abstinenssymptom
 mulige bivirkninger ved Effentora, når De afbryder Effentora. Hvis De oplever abstinenssymptomer, 
 eller Deres smertelindring bekymrer Dem, bør De kontakte lægen. Deres læge vil evaluere, om De 
 behøver medicin til at reducere eller eliminere abstinenssymptomer.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1125,7 +1131,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store effentora"
@@ -1149,7 +1155,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1317,7 +1323,7 @@ begrundelser for anbefalingen. </p>
 CHMP af den opfattelse, at benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder 
 fentanyl (transmukosal administrationsvej), forbliver uændret under forudsætning af, at de foreslåede 
 ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 

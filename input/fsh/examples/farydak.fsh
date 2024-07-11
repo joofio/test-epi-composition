@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Farydak </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ bone marrow. </p>
 <p>Farydak blocks the growth of cancerous plasma cells and reduces the number of cancer cells. </p>
 <p>Farydak is always used together with two other medicines: bortezomib and dexamethasone. </p>
 <p>If you have any questions about how Farydak works or why you have been given it, ask your doctor or 
-pharmacist. </p>         </div>"""   
+pharmacist. </p> </div>"""   
           
 
              
@@ -209,7 +212,7 @@ Farydak or during the six months following your treatment with Farydak. </p>
 </ul>
 <p>Driving and using machines 
 Farydak may have a minor influence on the ability to drive and use machines. If you feel dizzy while 
-taking this medicine, do not drive a vehicle or use any tools or machines. </p>         </div>"""   
+taking this medicine, do not drive a vehicle or use any tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take farydak"
@@ -311,7 +314,7 @@ continue taking the medicine as normal. </p>
 <p>Do not take a double dose to make up for a forgotten dose. </p>
 <p>Never take a missed dose of Farydak on one of the  off  days when no Farydak dose is planned. </p>
 <p>Tell your doctor about all the doses that you have missed during any 21-day cycle of treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -407,7 +410,7 @@ aminotransferase (AST) or alkaline phosphatase (ALP). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store farydak"
@@ -423,7 +426,7 @@ safety of this medicine. </p>         </div>"""
 tampering. </li>
 <li>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away 
 medicines you no longer use. These measures will help to protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -468,7 +471,7 @@ Siegfried Barbera, S.L.
 Barcelona, Spain </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -507,7 +510,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -516,7 +521,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -533,7 +539,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -551,7 +557,7 @@ ukontrolleret i knoglemarven. </p>
 <p>Farydak blokerer kræftplasmacellernes vækst og nedsætter antallet af kræftceller. </p>
 <p>Farydak bruges altid sammen med to andre typer medicin: bortezomib og dexamethason. </p>
 <p>Hvis du har spørgsmål til, hvordan Farydak virker, eller hvorfor du skal tage det, skal du spørge lægen 
-eller apotekspersonalet. </p>         </div>"""   
+eller apotekspersonalet. </p> </div>"""   
           
 
              
@@ -678,7 +684,7 @@ Farydak, eller i løbet af de første seks måneder efter behandlingen med Faryd
 </ul>
 <p>Trafik- og arbejdssikkerhed 
 Farydak kan have en minimal påvirkning på evnen til at køre bil eller betjene maskiner. Hvis du føler 
-dig svimmel, mens du tager denne medicin, må du ikke køre bil, bruge værktøj eller betjene maskiner. </p>         </div>"""   
+dig svimmel, mens du tager denne medicin, må du ikke køre bil, bruge værktøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take farydak"
@@ -790,7 +796,7 @@ dosis over. Fortsæt derefter med at tage medicinen, som du plejer. </p>
 <p>Du må aldrig tage en glemt dosis Farydak på en af de dage, hvor du ifølge planen ikke skal tage 
 Farydak. </p>
 <p>Fortæl din læge om alle de doser, du har glemt i løbet af den 21 dage lange behandlingscyklus. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -998,7 +1004,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store farydak"
@@ -1026,7 +1032,7 @@ der er tegn på, at den er forsøgt åbnet. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet eller toilettet. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1074,7 +1080,7 @@ Barcelona, Spanien </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu </p> </div>"""      
 
 
 

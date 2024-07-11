@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Memantine ratiopharm </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ called NMDA-receptor antagonists. Memantine ratiopharm acts on these NMDA-recept
 the transmission of nerve signals and the memory. </p>
 <p>What is Memantine ratiopharm used for 
 Memantine ratiopharm is used for the treatment of patients with moderate to severe Alzheimer s 
-disease. </p>         </div>"""   
+disease. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ inappropriate. </p>
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
 some sugars, contact your doctor before taking this medicinal product. 
 This medicine contains soya lecithin. If you are allergic to peanut or soya, do not take this medicinal 
-product. </p>         </div>"""   
+product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take memantine"
@@ -191,7 +194,7 @@ as you may need medical attention. </p>
   If you find you have forgotten to take your dose of Memantine ratiopharm, wait and take your next 
 dose at the usual time. 
   Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ have been reported in patients treated with memantine. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store memantine"
@@ -233,7 +236,7 @@ Do not store above 25  C. </p>
 This medicinal product does not require any special storage conditions. 
 Shelf life after first opening of the container: 6 months </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -340,7 +343,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -379,7 +382,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -388,7 +393,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -405,7 +411,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -422,7 +428,7 @@ nervesignaler, som er vigtige for indlæring og hukommelse. Memantine ratiopharm
 af lægemidler kaldet NMDA-receptor-antagonister. Memantine ratiopharm indvirker på disse 
 NMDA-receptorer og forbedrer overførslen af nervesignaler samt hukommelsen. </p>
 <p>Hvad anvendes Memantine ratiopharm til? 
-Memantine ratiopharm anvendes til behandling af patienter med moderat til svær Alzheimers sygdom. </p>         </div>"""   
+Memantine ratiopharm anvendes til behandling af patienter med moderat til svær Alzheimers sygdom. </p> </div>"""   
           
 
              
@@ -527,7 +533,7 @@ ikke er hensigtsmæssigt at føre motorkøretøj eller betjene maskiner. </p>
 Denne medicin indeholder lactose. Kontakt lægen, før De tager denne medicin, hvis lægen har fortalt 
 Dem, at De ikke tåler visse sukkerarter. 
 Denne medicin indeholder sojalecithin. De må ikke tage denne medicin, hvis De er overfølsom over 
-for jordnødder eller soja. </p>         </div>"""   
+for jordnødder eller soja. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take memantine"
@@ -585,7 +591,7 @@ næste dosis på det sædvanlige tidspunkt. </p>
 <p>De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -620,7 +626,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store memantine"
@@ -636,7 +642,7 @@ Må ikke opbevares ved temperaturer over 25 °C. </p>
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. 
 Opbevaringstiden efter første åbning af beholderen: 6 måneder. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -794,7 +800,7 @@ indeholder vigtige oplysninger.
 medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 De har. 
 - Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -833,7 +839,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -842,7 +850,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -859,7 +868,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Memantina ratiopharm </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -877,7 +886,7 @@ pertence a um grupo de medicamentos denominados antagonistas dos recetores NMDA.
 ratiopharm atua nestes recetores, melhorando a transmissão dos sinais nervosos e a memória. </p>
 <p>Para que é utilizado Memantina ratiopharm 
 Memantina ratiopharm é utilizado para o tratamento de doentes com doença de Alzheimer moderada a 
-grave. </p>         </div>"""   
+grave. </p> </div>"""   
           
 
              
@@ -984,7 +993,7 @@ ou utilização de máquinas não apropriada.  </p>
 Memantina ratiopharm contém lactose. Se foi informado pelo seu médico que tem intolerância a alguns 
 açúcares, contacte-o antes de tomar este medicamento. </p>
 <p>Memantina ratiopharm contém lecitina de soja. Se for alérgico ao amendoim ou soja, não utilize este 
-medicamento. </p>         </div>"""   
+medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar memantine"
@@ -1045,7 +1054,7 @@ hora habitual.  </p>
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1081,7 +1090,7 @@ sido notificados com doentes tratados com memantina. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar memantine"
@@ -1098,7 +1107,7 @@ O medicamento não necessita de quaisquer precauções especiais de conservaçã
 Prazo de validade após abertura do recipiente: 6 meses </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1239,7 +1248,7 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

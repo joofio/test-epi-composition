@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Plavix </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -100,7 +103,7 @@ anticoagulants  are more effective than acetylsalicylic acid or the combined use
 acetylsalicylic acid for this condition. Your doctor should have prescribed Plavix plus 
 acetylsalicylic acid if you cannot take  oral anticoagulants  and you do not have a risk of major 
 bleeding. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -184,7 +187,7 @@ Plavix is unlikely to affect your ability to drive or to use machines. </p>
 If you have been told by your doctor that you have an intolerance to some sugars (e.g. lactose), contact 
 your doctor before taking this medicine. </p>
 <p>Plavix contains hydrogenated castor oil<br />
-This may cause stomach upset or diarrhoea. </p>         </div>"""   
+This may cause stomach upset or diarrhoea. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plavix"
@@ -218,7 +221,7 @@ Plavix by referring to the calendar printed on the blister. </p>
 <p>If you stop taking Plavix </p>
 <p>Do not stop the treatment unless your doctor tells you so. Contact your doctor or pharmacist before 
 stopping. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -267,7 +270,7 @@ Hypersensitivity reactions with chest or abdominal pain, persistent low blood su
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plavix"
@@ -282,7 +285,7 @@ If Plavix is supplied in PVC/PVDC/aluminium blisters, store below 30 C.
 If Plavix is supplied in all aluminium blisters, it does not require any special storage conditions. </p>
 <p>Do not use this medicine if you notice any visible sign of deterioration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -407,7 +410,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you have any side effects, including any side effects not listed in this leaflet, talk to your 
-doctor or pharmacist. See section 4.</p>         </div>"""      
+doctor or pharmacist. See section 4.</p> </div>"""      
 
 
 
@@ -446,7 +449,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -455,7 +460,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -470,7 +476,7 @@ Usage: #inline
 3. Sådan skal du tage Plavix 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -506,7 +512,7 @@ at "orale antikoagulantia" er mere effektive mod denne sygdom end acetylsalicyls
 kombinationen af Plavix og acetylsalicylsyre. Din læge bør have udskrevet Plavix plus 
 acetylsalicylsyre, hvis du ikke må tage "orale antikoagulantia", og du ikke har risiko for alvorlig 
 blødning.  </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -615,7 +621,7 @@ Det er usandsynligt, at Plavix vil påvirke din evne til at køre eller betjene 
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter. </p>
 <p>Plavix indeholder hydrogeneret ricinusolie 
-Dette kan forårsage mavetilfælde eller diarré. </p>         </div>"""   
+Dette kan forårsage mavetilfælde eller diarré. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take plavix"
@@ -648,7 +654,7 @@ ved at se på kalenderen trykt på blisterpakningen. </p>
 <p>Hvis du holder op med at tage Plavix 
 Du må ikke ophøre med behandlingen, medmindre din læge fortæller dig, at du skal gøre det. 
 Kontakt din læge eller apoteket, før du holder op. </p>
-<p>Spørg lægen eller apoteksperonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apoteksperonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -699,7 +705,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekespersonalet ell
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store plavix"
@@ -716,7 +722,7 @@ Hvis Plavix er pakket i blisterkort af ren aluminium kræves ingen særlige forh
 opbevaringen. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker synlige tegn på nedbrydning. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -865,7 +871,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Plavix til dig personligt. Lad derfor være med at give det til andre. Det kan 
 være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt her. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -904,7 +910,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -913,7 +921,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -928,7 +937,7 @@ Usage: #inline
 3. Como tomar Plavix 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Plavix 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -963,7 +972,7 @@ vitamina K) que previnem a formação de novos coágulos e o crescimento dos co�
 existentes. Deve-lhe ter sido dito que os “anticoagulantes orais" são mais eficazes que o ácido 
 acetilsalicílico ou o uso combinado de Plavix e AAS para esta condição. O seu médico ter-lhe-
 á prescrito Plavix mais ácido acetilsalicílico caso não possa tomar “anticoagulantes orais" e não 
-tenha um risco acrescido de hemorragia. </p>         </div>"""   
+tenha um risco acrescido de hemorragia. </p> </div>"""   
           
 
              
@@ -1080,7 +1089,7 @@ A sua capacidade para conduzir ou para trabalhar com máquinas não deverá ser 
 Se foi informado pelo seu médico que sofre de intolerância a alguns açúcares (por exemplo, lactose), 
 contacte o seu médico antes de tomar este medicamento.  </p>
 <p>Plavix contém óleo de rícino hidrogenado 
-Este pode causar problemas de estômago ou diarreia. </p>         </div>"""   
+Este pode causar problemas de estômago ou diarreia. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar plavix"
@@ -1169,7 +1178,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""         
+medicamento. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1187,7 +1196,7 @@ conservação.
 Não utilize este medicamento se verificar quaisquer sinais visíveis de deterioração.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar plavix"
@@ -1335,7 +1344,7 @@ informação importante para si.
 ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
 neste folheto, fale com o seu médico ou farmacêutico. Ver seção 4.<br />
-O que contém este folheto: </p>         </div>"""      
+O que contém este folheto: </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1343,7 +1352,9 @@ O que contém este folheto: </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Conteúdo da embalagem e outras informações"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
 
 
 

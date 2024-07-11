@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store REZZAYO </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ or organs that is caused by a type of yeast called Candida. </p>
 This medicine blocks the action of an enzyme (a type of protein) that is needed by fungal cells to make 
 a molecule that strengthens their cell walls. This makes the fungal cells fragile and stops the fungus 
 from growing. This stops the infection from spreading and gives the body s natural defences a chance 
-to remove the infection. </p>         </div>"""   
+to remove the infection. </p> </div>"""   
           
 
              
@@ -122,7 +125,7 @@ The effect of REZZAYO in pregnant or breast-feeding women is not known. </p>
 This medicine is unlikely to have an effect on driving or using machines. </p>
 <p>REZZAYO contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rezzayo"
@@ -153,7 +156,7 @@ healthcare professional as soon as possible to schedule a new appointment. </p>
 <p>If you stop using REZZAYO 
 Your doctor will monitor your response and condition to determine when to stop your treatment with 
 this medicine. You should not experience any side effects after this. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -202,7 +205,7 @@ aminotransferase)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rezzayo"
@@ -218,7 +221,7 @@ The expiry date refers to the last day of that month. </p>
 for use. Once REZZAYO has been prepared, it should normally be used immediately. However, the 
 reconstituted and diluted infusion solution may be stored up to 24 hours in a refrigerator. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ Utrecht
 Netherlands </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -292,7 +295,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -301,7 +306,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -318,7 +324,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -336,7 +342,7 @@ vævet eller organerne, som er forårsaget af en type gær kaldet Candida. </p>
 Lægemidlet blokerer virkningen af et enzym (en type protein), som svampecellerne behøver for at lave 
 et molekyle, der styrker deres cellevægge. Dette gør svampecellerne skrøbelige og stopper svampens 
 vækst. Det stopper spredning af infektionen og giver kroppens naturlige forsvar en chance for at fjerne 
-infektionen. </p>         </div>"""   
+infektionen. </p> </div>"""   
           
 
              
@@ -376,7 +382,7 @@ Virkningen af REZZAYO på gravide eller ammende kvinder kendes ikke </p>
 Det er usandsynligt, at dette lægemiddel påvirker evnen til at føre motorkøretøj eller betjene maskiner. </p>
 <p>REZZAYO indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed og er dermed i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rezzayo"
@@ -407,7 +413,7 @@ sundhedsperson hurtigst muligt for at få en ny tid. </p>
 <p>Hvis du holder op med at få REZZAYO 
 Lægen overvåger din reaktion og tilstand for at fastsætte, hvornår du skal stoppe behandlingen med 
 lægemidlet. Du vil sandsynligvis ikke opleve nogle bivirkningernår behandlingen stopper. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -456,7 +462,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller s
 gælder også mulige bivirkninger, som ikke er nævnt i denne indlægsseddel. Du og dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rezzayo"
@@ -472,7 +478,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 Når REZZAYO er klargjort, skal det normalt anvendes straks. Den rekonstituerede og fortyndede 
 infusionsopløsning kan opbevares i køleskabet i op til 24 timer. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -593,7 +599,7 @@ koncentration
 0,8 </p>
 <ul>
 <li>10 ml fra hvert af to hætteglas, i alt 20 ml. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

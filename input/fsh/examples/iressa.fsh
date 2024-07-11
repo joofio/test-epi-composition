@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store IRESSA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IRESSA contains the active substance gefitinib which blocks a protein called  epidermal growth factor 
 receptor  (EGFR). This protein is involved in the growth and spread of cancer cells.
 IRESSA is used to treat adults with non-small cell lung cancer. This cancer is a disease in which 
-malignant (cancer) cells form in the tissues of the lung.</p>         </div>"""   
+malignant (cancer) cells form in the tissues of the lung.</p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.
 IRESSA contains sodium
 This medicine contains less than 1 mmol (23 mg) of sodium per dose, that is to say it is essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take iressa"
@@ -153,7 +156,7 @@ Then take the next dose as usual.</p>
 <p>If it is less than 12 hours until your next dose: skip the missed tablet. Then take the next tablet 
 at the usual time.
 Do not take a double dose (two tablets at the same time) to make up for a forgotten dose.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -221,7 +224,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store iressa"
@@ -233,7 +236,7 @@ Do not use this medicine after the expiry date which is stated on the carton, bl
 after EXP. The expiry date refers to the last day of that month.
 Store in the original package in order to protect from moisture.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -326,7 +329,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -365,7 +368,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -374,7 +379,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -389,7 +395,7 @@ Usage: #inline
 3. Sådan skal du tage IRESSA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -400,7 +406,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IRESSA indeholder det aktive stof gefitinib. Gefitinib blokerer et protein, der kaldes EGFR 
 (epidermal vækstfaktorreceptor). Dette protein er involveret i vækst og spredning af kræftceller. 
 IRESSA bruges til at behandle voksne med ikke-småcellet lungekræft. Ved denne form for 
-kræftsygdom dannes der ondartede (kræft)celler i lungevævet. </p>         </div>"""   
+kræftsygdom dannes der ondartede (kræft)celler i lungevævet. </p> </div>"""   
           
 
              
@@ -463,7 +469,7 @@ Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du 
 sukkerarter.
 IRESSA indeholder natrium
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
-natriumfri.</p>         </div>"""   
+natriumfri.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take iressa"
@@ -497,7 +503,7 @@ tanke om det. Tag den næste dosis på samme tid, som du plejer.
 Hvis der er mindre end 12 timer til din næste dosis: Spring den glemte tablet over, og tag den 
 næste tablet på samme tid, som du plejer. 
 Du må ikke tage en dobbeltdosis (to tabletter på samme tid) som erstatning for den glemte tablet.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -597,7 +603,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store iressa"
@@ -609,7 +615,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken, blisterpaknin
 efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i den originale pakning for at beskytte mod fugt.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -739,7 +745,7 @@ Tel: +44 1582 836 836
 Denne indlægsseddel blev senest ændret
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu</p> </div>"""      
 
 
 

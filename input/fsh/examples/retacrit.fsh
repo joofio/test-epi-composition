@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Retacrit </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -109,7 +112,7 @@ transfusions. </p>
 severe disruption in the creation of blood cells (myelodysplastic syndromes). Retacrit can 
 reduce the need for a blood transfusion. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -226,7 +229,7 @@ ask your doctor or pharmacist for advice before taking this medicine.  </li>
 phenylalanine builds up because the body cannot remove it properly. </p>
 <p>Retacrit contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take retacrit"
@@ -568,7 +571,7 @@ for a forgotten dose.  </p>
 ribavirin has led to a loss of effect and development of a condition called pure red cell aplasia 
 (PRCA), a severe form of anaemia, in rare cases. Retacrit is not approved in the management of 
 anaemia associated with hepatitis C. </p>
-<p>If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -652,7 +655,7 @@ other effects while you are receiving treatment with Retacrit. </p>
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store retacrit"
@@ -671,7 +674,7 @@ disposed of. </p>
 <p>Do not use this medicine if you notice that the seal is broken or if the liquid is coloured or you can see 
 particles floating in it. In the event of either being observed, discard the medicinal product. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -815,7 +818,7 @@ Pfizer Limited
 Tel: +44 (0)1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: + 371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -854,7 +857,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -863,7 +868,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -878,7 +884,7 @@ Usage: #inline
 3. Sådan skal du bruge Retacrit
 4. Bivirkninger
 5. Opbevaring
-6. Pakningstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -918,7 +924,7 @@ være nødvendigt med blodtransfusion.
 
 Retacrit bruges til at behandle blodmangel hos voksne med en knoglemarvssygdom, der 
 giver alvorlige problemer med dannelsen af blodlegemer (myelodysplastisk syndrom).
-Retacrit kan nedsætte behovet for blodtransfusion. </p>         </div>"""   
+Retacrit kan nedsætte behovet for blodtransfusion. </p> </div>"""   
           
 
              
@@ -1034,7 +1040,7 @@ Phenylalanin kan være skadeligt, hvis du har fenylketonuri (PKU, Føllings sygd
 genetisk lidelse, hvor phenylalanin ophobes, fordi kroppen ikke kan fjerne det ordentligt.
 Retacrit indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit.</p>         </div>"""   
+væsentlige natrium-frit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take retacrit"
@@ -1394,7 +1400,7 @@ Du skal tale med din læge om dette, fordi en kombination af epoetin zeta med in
 har medført manglende virkning, og i sjældne tilfælde har udviklet sig til en alvorlig form for 
 blodmangel med umodne røde blodlegemer (PRCA-pure red cell aplasia). Retacrit er ikke godkendt 
 til behandling af blodmangel, der er forbundet med hepatitis C.
-Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1492,7 +1498,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store retacrit"
@@ -1510,7 +1516,7 @@ Opbevares i den originale emballage for at beskytte mod lys.
 Brug ikke lægemidlet, hvis du bemærker, at forseglingen er brudt, at væsken er farvet, eller at der er
 flydende partikler i den. Hvis du kan se noget af dette, skal lægemidlet bortskaffes.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du må 
-ikke smide lægemidelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemidelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1687,7 +1693,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: + 371 670 35 775
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}.
 Du kan finde yderligere oplysninger om Retacrit på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu/.</p>         </div>"""      
+http://www.ema.europa.eu/.</p> </div>"""      
 
 
 

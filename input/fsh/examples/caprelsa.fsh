@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Caprelsa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Usage: #inline
 which cannot be removed by surgery or has spread to other parts of the body. </p>
 <p>Caprelsa works by slowing down the growth of new blood vessels in tumours (cancers). This cuts off 
 the supply of food and oxygen to the tumour. Caprelsa may also act directly on cancer cells to kill 
-them or slow down their growth. </p>         </div>"""   
+them or slow down their growth. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ and for at least four months after the last dose of Caprelsa.
 You must not breast-feed during treatment with Caprelsa for the safety of your baby. </p>
 <p>Driving and using machines 
 Use caution before driving or using machines. Keep in mind Caprelsa may make you feel tired, weak, 
-or cause blurred vision. </p>         </div>"""   
+or cause blurred vision. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take caprelsa"
@@ -200,7 +203,7 @@ remember. Then take the next dose at the normal time.
 * If it is less than 12 hours until your next dose: Skip the missed dose. Then take the next dose 
 at the normal time. 
 Do not take a double dose (two doses at the same time) to make up for a forgotten tablet. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -363,7 +366,7 @@ tell your doctor or pharmacist straight away.  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store caprelsa"
@@ -375,7 +378,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Do not throw away medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -463,7 +466,7 @@ Tel: +44 (0) 800 035 2Lietuva
 Swixx Biopharma UAB 
 Tel. +370 5 236 91 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -502,7 +505,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -511,7 +516,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -526,7 +532,7 @@ Usage: #inline
 3. Sådan skal du tage Caprelsa 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -539,7 +545,7 @@ Usage: #inline
 ikke kan fjernes med kirurgi, eller som har bredt sig til andre dele af kroppen.  </p>
 <p>Caprelsa virker ved at hæmme væksten af nye blodkar i tumorer (cancer). Det afskærer forsyningen af 
 næring og ilt til tumoren. Caprelsa kan også virke direkte på cancercellerne ved at dræbe dem eller 
-hæmme deres vækst. </p>         </div>"""   
+hæmme deres vækst. </p> </div>"""   
           
 
              
@@ -673,7 +679,7 @@ Du må ikke amme under behandling med Caprelsa af hensyn til barnets sikkerhed. 
 </ul>
 <p>Trafik- og arbejdssikkerhed 
 Udvis forsigtighed ved kørsel eller arbejde med maskiner. Husk, at Caprelsa kan få dig til at føle dig 
-træt, svag eller forårsage sløret syn. </p>         </div>"""   
+træt, svag eller forårsage sløret syn. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take caprelsa"
@@ -739,7 +745,7 @@ den næste dosis på det sædvanlige tidspunkt.
 Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1145,7 +1151,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store caprelsa"
@@ -1157,7 +1163,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1280,7 +1286,7 @@ Tel: +370 5 236 91  </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om Caprelsa på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1319,7 +1325,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1328,7 +1336,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1343,7 +1352,7 @@ Usage: #inline
 3. Como tomar Caprelsa 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Caprelsa 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1356,7 +1365,7 @@ Usage: #inline
 que não pode ser removido por cirurgia ou que se espalhou para outras partes do corpo. </p>
 <p>Caprelsa atua por retardar o crescimento de novos vasos sanguíneos nos tumores (cancros). Isto corta 
 o fornecimento de alimento e de oxigénio ao tumor. Caprelsa também pode atuar diretamente nas 
-células cancerosas para as matar ou retardar o seu crescimento. </p>         </div>"""   
+células cancerosas para as matar ou retardar o seu crescimento. </p> </div>"""   
           
 
              
@@ -1501,7 +1510,7 @@ Para segurança do seu bebé, deve suspender a amamentação durante o tratament
 </ul>
 <p>Condução de veículos e utilização de máquinas 
 Tome precaução antes de conduzir ou utilizar máquinas. Lembre-se que Caprelsa pode fazê-lo sentir-
-se cansado, fraco ou causar visão turva. </p>         </div>"""   
+se cansado, fraco ou causar visão turva. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar caprelsa"
@@ -1571,7 +1580,7 @@ esqueceu de tomar. </p>
 </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1982,7 +1991,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar caprelsa"
@@ -1995,7 +2004,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Não conservar acima de 30ºC. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2118,7 +2127,7 @@ Swixx Biopharma UAB
 Tel: +370 5 236 91  </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

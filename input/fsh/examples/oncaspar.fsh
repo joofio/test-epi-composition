@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Oncaspar </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ cancer cells and stops the cancer cells growing. </p>
 <p>Oncaspar is used to treat acute lymphoblastic leukaemia (ALL) in children from birth to 18 years and 
 in adults. ALL is a white blood cell cancer type in which certain immature white cells (named 
 lymphoblasts) start growing out of control thus preventing the production of functional blood cells. 
-Oncaspar is used together with other medicines. </p>         </div>"""   
+Oncaspar is used together with other medicines. </p> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ until after treatment with Oncaspar has been discontinued. </p>
 Do not drive or use machines when using this medicine because it may make you feel drowsy, tired or 
 confused. </p>
 <p>Oncaspar contains sodium 
-This medicine contains less than 1 mmol sodium per dose, that is to say essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium per dose, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oncaspar"
@@ -187,7 +190,7 @@ and body surface area which is calculated from your height and weight. </p>
 As your doctor will administer the medicine, it is very unlikely you will be given more than you need. </p>
 <p>In the unlikely event of accidental overdose, you will be monitored carefully by medical staff and 
 treated appropriately. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ blood; decreased blood sugar levels;
 If you get any side effects you think might be related to your chemotherapy , talk to your doctor. This 
 includes any possible side effects not listed in this leaflet. You can also report side effects directly via 
 the national reporting system listed in Appendix V. By reporting side effects you can help provide 
-more information on the safety of this medicine. </p>         </div>"""      
+more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oncaspar"
@@ -269,7 +272,7 @@ Do not freeze. </p>
 immediate use is not possible, the diluted solution can be stored at 2 C-8 C for up to 48 hours. </p>
 <p>Do not use this medicine if you notice the reconstituted solution is cloudy or has visible particles. </p>
 <p>Do not throw away any medicines via wastewater. Ask the pharmacist how to dispose of unused 
-medicines. These measures will help protect the environment. </p>         </div>"""      
+medicines. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -358,7 +361,7 @@ Tel : +46 (0)8 522 508 Latvija
 SIA Servier Latvia 
 Tel: + 371 67502United Kingdom (Northern Ireland) 
  Servier Laboratories (Ireland) Ltd.Tel: +(0)1753 666This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -397,7 +400,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -406,7 +411,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -423,7 +429,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -438,7 +444,7 @@ kræftcellerne i blodet og stopper kræftcellernes vækst.  </p>
 <p>Oncaspar bruges til at behandle akut lymfoblastær leukæmi (ALL) hos børn fra fødslen til 18 år og hos 
 voksne. ALL er en kræfttype i de hvide blodlegemer, hvor visse umodne hvide blodlegemer (de 
 hedder lymfoblaster) begynder at vokse ukontrollabelt, og det forhindrer, at kroppen kan producere 
-funktionsdygtige blodlegemer. Oncaspar bruges sammen med andre lægemidler. </p>         </div>"""   
+funktionsdygtige blodlegemer. Oncaspar bruges sammen med andre lægemidler. </p> </div>"""   
           
 
              
@@ -530,7 +536,7 @@ Du må ikke føre motorkøretøj eller betjene maskiner, når du får dette læg
 at føle dig sløv, træt eller forvirret. </p>
 <p>Oncaspar indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oncaspar"
@@ -548,7 +554,7 @@ hensigtsmæssigt, i en vene. </p>
 Da din læge vil indgive lægemidlet, er det meget usandsynligt, at du vil få mere, end du behøver. </p>
 <p>I det usandsynlige tilfælde, at du ved et uheld får en overdosis, vil du blive overvåget nøje af det 
 sundhedsfaglige personale og få relevant behandling.  </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -615,7 +621,7 @@ Hvis du oplever bivirkninger, som du tror kan være forbundet med din kemoterapi
 læge. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller 
 dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oncaspar"
@@ -632,7 +638,7 @@ fortyndede opløsning ikke kan bruges straks, kan den opbevares ved 2 °C - 8 °
 <p>Dette lægemiddel må ikke anvendes, hvis du bemærker, at den rekonstituerede opløsning er uklar eller 
 indeholder synlige partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller toilettet. </p>         </div>"""      
+smide medicinrester i afløbet eller toilettet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -806,7 +812,7 @@ straks, kan den opbevares ved 2 °C - 8 °C i højst 48 timer. </p>
 <p>Bortskaffelse 
 Oncaspar er udelukkende til engangsbrug. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes 
 i henhold til lokale retningslinjer. 
-Yderligere oplysninger med flere detaljer fremgår af produktresuméet. </p>         </div>"""      
+Yderligere oplysninger med flere detaljer fremgår af produktresuméet. </p> </div>"""      
 
 
 
@@ -845,7 +851,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -854,7 +862,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -871,7 +880,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Oncaspar </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -887,7 +896,7 @@ Oncaspar reduz o nível de asparagina nas células cancerígenas do sangue e imp
 até aos 18 anos de idade, bem como em adultos. A LLA é um tipo de cancro dos glóbulos brancos em 
 que determinados glóbulos brancos imaturos (chamados linfoblastos) começam a crescer 
 descontroladamente, impedindo a produção de células sanguíneas funcionais. Oncaspar é utilizado em 
-conjunto com outros medicamentos. </p>         </div>"""   
+conjunto com outros medicamentos. </p> </div>"""   
           
 
              
@@ -980,7 +989,7 @@ Não conduza nem utilize máquinas enquanto estiver a utilizar este medicamento,
 causar sonolência, cansaço ou estados confusionais. </p>
 <p>Oncaspar contém sódio 
 Este medicamento contém menos de 1 mmol de sódio por dose, ou seja, é essencialmente «isento de 
-sódio». </p>         </div>"""   
+sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar oncaspar"
@@ -1000,7 +1009,7 @@ Uma vez que é o seu enfermeiro que irá administrar o medicamento, é muito pou
 receba mais do que necessita. </p>
 <p>No caso pouco provável de haver uma sobredosagem acidental, será monitorizado cuidadosamente por 
 pessoal médico e tratado adequadamente. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1069,7 +1078,7 @@ Se tiver quaisquer efeitos indesejáveis que pense que possam estar relacionados
 incluindo possíveis efeitos indesejáveis não indicados neste folheto, fale com o seu médico. Também 
 poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação 
 mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais 
-informações sobre a segurança deste medicamento. </p>         </div>"""      
+informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar oncaspar"
@@ -1087,7 +1096,7 @@ de 48 horas. </p>
 <p>Não utilize este medicamento se verificar que a solução reconstituída está turva ou que apresenta 
 partículas visíveis. </p>
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como deitar fora 
-os medicamentos não utilizados. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+os medicamentos não utilizados. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1202,7 +1211,7 @@ United Kingdom (Northern Ireland)
 Servier Laboratories (Ireland) Ltd. 
 Tel: +44 (0)1753 666 
 Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

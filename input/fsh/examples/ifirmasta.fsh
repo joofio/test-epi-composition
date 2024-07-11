@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ifirmasta</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ Ifirmasta is used in adult patients
 to treat high blood pressure (essential hypertension)
 -
 to protect the kidney in patients with high blood pressure, type 2 diabetes and laboratory 
-evidence of impaired kidney function.</p>         </div>"""   
+evidence of impaired kidney function.</p> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ you if you wish to breast-feed, especially if your baby is newborn, or was born 
 Driving and using machines
 Ifirmasta is unlikely to affect your ability to drive or use machines. However, occasionally dizziness or 
 weariness may occur during treatment of high blood pressure. If you experience these, talk to your 
-doctor before attempting to drive or use machines.</p>         </div>"""   
+doctor before attempting to drive or use machines.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ifirmasta"
@@ -202,7 +205,7 @@ If you accidentally take too many tablets, contact your doctor immediately.
 If you forget to take Ifirmasta
 If you accidentally miss a daily dose, just take the next dose as normal. Do not take a double dose to 
 make up for a forgotten dose.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -247,7 +250,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ifirmasta"
@@ -260,7 +263,7 @@ EXP. The expiry date refers to the last day of that month.
 Do not store above 30 C.
 Store in the original package in order to protect from moisture.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -353,7 +356,7 @@ KRKA Latvija SIA
 Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
 Consilient Health Limited
 Tel: + 353 (0)1 2057This leaflet was last revised in .
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -392,7 +395,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -401,7 +406,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -416,7 +422,7 @@ Usage: #inline
 3. Sådan skal De tage Ifirmasta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -435,7 +441,7 @@ Ifirmasta anvendes til voksne patienter
 til at behandling af forhøjet blodtryk (hypertension).
 -
 til at beskytte nyrerne hos patienter med for højt blodtryk, type 2-diabetes og blodprøver, der 
-viser nedsat nyrefunktion.</p>         </div>"""   
+viser nedsat nyrefunktion.</p> </div>"""   
           
 
              
@@ -529,7 +535,7 @@ især hvis dit barn er nyfødt eller født for tidligt.
 Trafik- og arbejdssikkerhed
 Ifirmasta påvirker sandsynligvis ikke Deres evne til at køre bil eller betjene maskiner.
 Men man kan opleve svimmelhed eller træthed, når man behandles for forhøjet blodtryk. Hvis du 
-bliver svimmel eller træt, skal du kontakte lægen, inden du kører bil eller betjener maskiner.</p>         </div>"""   
+bliver svimmel eller træt, skal du kontakte lægen, inden du kører bil eller betjener maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ifirmasta"
@@ -562,7 +568,7 @@ Hvis du ved et uheld har taget for mange tabletter, skal du omgående kontakte l
 Hvis De har glemt at tage Ifirmasta
 Hvis du har glemt at tage en dosis, skal du blot tage den næste til sædvanlig tid. Du må ikke tage en 
 dobbeltdosis som erstatning for den glemte dosis.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ifirmasta"
@@ -624,7 +630,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Må ikke opbevares over 30 ºC.
 Opbevares i den originale yderpakning for at beskytte mod fugt.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -763,7 +769,7 @@ Lægen har ordineret Ifirmasta til Dem personligt. Lad derfor være med at give 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har.
 -
 Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller De får 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 
@@ -802,7 +808,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -811,7 +819,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -826,7 +835,7 @@ Usage: #inline
 3. Como tomar Ifirmasta
 4. Efeitos indesejáveis possíveis
 5. Como conservar Ifirmasta
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -844,7 +853,7 @@ pressão arterial elevada e diabetes do tipo 2. Ifirmasta é usado em doentes ad
 para tratar a pressão arterial elevada (hipertensão essencial)
 -
 para proteger os rins nos doentes com pressão arterial elevada, diabetes do tipo 2 e evidência 
-laboratorial de insuficiência dos rins.</p>         </div>"""   
+laboratorial de insuficiência dos rins.</p> </div>"""   
           
 
              
@@ -934,7 +943,7 @@ Condução de veículos e utilização de máquinas
 32
 Não é provável que Ifirmasta afete a sua capacidade de conduzir ou usar máquinas. Contudo, 
 ocasionalmente, podem ocorrer tonturas ou fadiga durante o tratamento da hipertensão. Se sentir estes 
-sintomas, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.</p>         </div>"""   
+sintomas, fale com o seu médico antes de tentar conduzir ou utilizar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ifirmasta"
@@ -969,7 +978,7 @@ Caso se tenha esquecido de tomar Ifirmasta
 Se, acidentalmente, não tomar uma dose diária, tome a dose seguinte como planeado. Não tome uma 
 dose a dobrar para compensar uma dose que se esqueceu de tomar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1021,7 +1030,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ifirmasta"
@@ -1035,7 +1044,7 @@ Não conservar acima de 30ºC.
 Conservar na embalagem de origem para proteger da humidade.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1176,7 +1185,7 @@ Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medi
 ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.
 -
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
-neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4. </p>         </div>"""      
+neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4. </p> </div>"""      
 
 
 

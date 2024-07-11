@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Gilenya </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -96,7 +99,7 @@ disappear completely when the relapse is over, but some problems may remain. </p
 Gilenya helps to protect against attacks on the CNS by the immune system by reducing the ability of 
 some white blood cells (lymphocytes) to move freely within the body and by stopping them from 
 reaching the brain and spinal cord. This limits nerve damage caused by MS. Gilenya also reduces 
-some of the immune reactions of your body. </p>         </div>"""   
+some of the immune reactions of your body. </p> </div>"""   
           
 
              
@@ -359,7 +362,7 @@ use machines safely. Gilenya is not expected to have an influence on your abilit
 machines. </p>
 <p>However, at initiation of treatment you will have to stay at the doctor s surgery or clinic for 6 hours 
 after taking the first dose of Gilenya. Your ability to drive and use machines may be impaired during 
-and potentially after this time period. </p>         </div>"""   
+and potentially after this time period. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gilenya"
@@ -411,7 +414,7 @@ more than two weeks without seeking advice from your doctor. </p>
 <p>Your doctor will decide whether and how you need to be monitored after stopping Gilenya. Tell your 
 doctor straight away if you think your MS is getting worse after you have stopped treatment with 
 Gilenya. This could be serious. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -518,7 +521,7 @@ could become serious )
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gilenya"
@@ -532,7 +535,7 @@ Do not store above 25 C.
 Store in the original package in order to protect from moisture. 
 Do not use this medicine if you notice that the pack is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -647,7 +650,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -686,7 +689,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -695,7 +700,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -710,7 +716,7 @@ Usage: #inline
 3. Sådan skal du tage Gilenya 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -742,7 +748,7 @@ kan forsvinde fuldstændigt, når anfaldet er ovre, men nogle af problemerne kan
 Gilenya hjælper med at beskytte mod immunsystemets attakker på CNS ved at nedsætte evnen hos 
 nogle hvide blodlegemer (lymfocytter) til at bevæge sig frit i kroppen og ved at forhindre dem i at nå 
 frem til hjernen og rygmarven. Det begrænser den beskadigelse af nerverne, som MS forårsager. 
-Gilenya nedsætter også nogle af kroppens immunreaktioner. </p>         </div>"""   
+Gilenya nedsætter også nogle af kroppens immunreaktioner. </p> </div>"""   
           
 
              
@@ -1032,7 +1038,7 @@ man har din sygdom. Gilenya forventes ikke at have indflydelse på evnen til at 
 betjene værktøj og maskiner. </p>
 <p>Ved indledning af behandlingen vil du dog blive bedt om at blive i afdelingen de første 6 timer, efter 
 du har fået den første dosis Gilenya. Din evne til at køre bil eller betjene maskiner kan være nedsat i 
-og muligvis efter denne periode. </p>         </div>"""   
+og muligvis efter denne periode. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gilenya"
@@ -1090,7 +1096,7 @@ rådgivning hos din læge. </p>
 <p>Din læge vil beslutte, om og hvordan du skal overvåges, efter at du er stoppet med Gilenya. Fortæl det 
 straks til din læge, hvis du synes, at din MS bliver forværret efter, at du er stoppet med behandling 
 med Gilenya. Dette kan være alvorligt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1201,7 +1207,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gilenya"
@@ -1216,7 +1222,7 @@ Opbevares i den originale yderpakning for at beskytte mod fugt.
 Brug ikke dette lægemiddel, hvis du bemærker, at pakningen er beskadiget eller viser tegn på at have 
 været åbnet. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1351,7 +1357,7 @@ Tel: +44 1276 698 </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/ </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/ </p> </div>"""      
 
 
 
@@ -1390,7 +1396,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1399,7 +1407,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1414,7 +1423,7 @@ Usage: #inline
 3. Como tomar Gilenya 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Gilenya 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1447,7 +1456,7 @@ terminar mas alguns problemas podem-se manter. </p>
 Gilenya ajuda na proteção contra os ataques do sistema imunitário ao SNC diminuindo a capacidade 
 de alguns glóbulos brancos (linfócitos) se moverem livremente no organismo e impedindo-os de 
 alcançarem o cérebro e a espinal medula. Este mecanismo limita os danos que a esclerose múltipla 
-causa nos nervos. Gilenya também reduz algumas das reações imunes do seu corpo. </p>         </div>"""   
+causa nos nervos. Gilenya também reduz algumas das reações imunes do seu corpo. </p> </div>"""   
           
 
              
@@ -1738,7 +1747,7 @@ máquinas em segurança. Não se prevê que Gilenya influencie a sua capacidade 
 máquinas. </p>
 <p>Porém, no início do tratamento terá de ficar no consultório médico ou enfermaria durante 6 horas após 
 a toma da primeira dose de Gilenya. A sua capacidade de conduzir ou utilizar máquinas poderá ficar 
-diminuída durante e possivelmente após este período de tempo. </p>         </div>"""   
+diminuída durante e possivelmente após este período de tempo. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar gilenya"
@@ -1799,7 +1808,7 @@ reinicie Gilenya após 2 semanas de interrupção sem se aconselhar com o seu m�
 médico de imediato se pensa que a sua esclerose múltipla está a piorar após ter parado o tratamento 
 com Gilenya. Isto pode ser grave. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1913,7 +1922,7 @@ podem ser ou tornar-se graves")
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar gilenya"
@@ -1929,7 +1938,7 @@ Não utilize este medicamento se verificar que a embalagem se encontra danificad
 adulteração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não necessita. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2067,7 +2076,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sutent </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ of the body. </li>
 pancreas) that have progressed or cannot be removed with surgery. </li>
 </ul>
 <p>If you have any questions about how Sutent works or why this medicine has been prescribed for you, 
-ask your doctor. </p>         </div>"""   
+ask your doctor. </p> </div>"""   
           
 
              
@@ -228,7 +231,7 @@ Sutent. </p>
 machines. </p>
 <p>Sutent contains sodium </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium per capsule, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sutent"
@@ -249,7 +252,7 @@ stop treatment with Sutent. </p>
 <p>If you have accidentally taken too many capsules, talk to your doctor straight away. You may require 
 medical attention. </p>
 <p>If you forget to take Sutent </p>
-<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""         
+<p>Do not take a double dose to make up for a forgotten dose. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -370,7 +373,7 @@ Not known (frequency cannot be estimated from available data): </p>
 Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sutent"
@@ -385,7 +388,7 @@ after  EXP . The expiry date refers to the last day of that month.</li>
 <li>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -523,7 +526,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel.: + 371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicine Agency website: 
-http://www.ema.europa.eu.  </p>         </div>"""      
+http://www.ema.europa.eu.  </p> </div>"""      
 
 
 
@@ -562,7 +565,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -571,7 +576,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -586,7 +592,7 @@ Usage: #inline
 3. Sådan skal du tage Sutent
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -607,7 +613,7 @@ Svulster i nyrecellerne, hvor kræften har spredt sig til andre dele af kroppen 
 Svulster i bugspytkirtlen (i de hormonproducerende celler) (pNET), som er fremadskreden eller 
 ikke kan opereres
 Tal med din læge, hvis du har spørgsmål om, hvordan Sutent virker, eller hvorfor dette lægemiddel er 
-ordineret til dig. </p>         </div>"""   
+ordineret til dig. </p> </div>"""   
           
 
              
@@ -741,7 +747,7 @@ Sutent kan gøre dig svimmel eller meget træt. Det skal du tage hensyn til, hvi
 trafikken eller arbejde med maskiner.
 Sutent indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. kapsel, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sutent"
@@ -763,7 +769,7 @@ Hvis du har taget for meget Sutent
 Hvis du har taget for mange kapsler, skal du omgående kontakte lægen eller skadestuen. Du kan 
 måske få brug for lægehjælp.
 Hvis du har glemt at tage Sutent
-Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.</p>         </div>"""         
+Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -962,7 +968,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sutent"
@@ -979,7 +985,7 @@ Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen
 
 Brug ikke lægemidlet, hvis du opdager at pakningen er ødelagt eller viser tegn på forfalskning.
 Spørg apotekspersonalet hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1160,7 +1166,7 @@ Begrundelser for ændring af betingelserne for markedsføringstilladelsen/-tilla
 På baggrund af de videnskabelige konklusioner for sunitinib er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder sunitinib, forbliver uændret
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen.
-CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.</p>         </div>"""      
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.</p> </div>"""      
 
 
 
@@ -1199,7 +1205,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1208,7 +1216,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1223,7 +1232,7 @@ Usage: #inline
 3. Como tomar Sutent
 4. Efeitos indesejáveis possíveis
 5. Como conservar Sutent
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1246,7 +1255,7 @@ para outras partes do corpo.
 Tumores neuroendócrinos pancreáticos (pNET) (tumores das células produtoras de hormonas no 
 pâncreas) que progrediram ou que não podem ser removidos por cirurgia. 
 Contacte o seu médico se tiver alguma questão relacionada com o modo de ação de Sutent ou com a 
-razão deste medicamento lhe ter sido prescrito. </p>         </div>"""   
+razão deste medicamento lhe ter sido prescrito. </p> </div>"""   
           
 
              
@@ -1389,7 +1398,7 @@ Tome especial cuidado na condução ou utilização de máquinas se sentir tontu
 invulgarmente cansado.
 Sutent contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cápsula, ou seja, é praticamente 
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sutent"
@@ -1414,7 +1423,7 @@ Informe imediatamente o seu médico se tomou acidentalmente demasiadas cápsulas
 de cuidados médicos. 
 Caso se tenha esquecido de tomar Sutent
 Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar.
-67</p>         </div>"""         
+67</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1616,7 +1625,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sutent"
@@ -1635,7 +1644,7 @@ Não utilize este medicamento se verificar que a embalagem está danificada ou a
 de violação. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1812,7 +1821,7 @@ Latvija
 Pfizer Luxembourg SARL filiāle Latvijā
 Tel.: + 371 670 35 775
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

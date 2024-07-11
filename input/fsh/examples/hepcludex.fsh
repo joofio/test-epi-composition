@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Step-by-step injection guide  </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Hepcludex </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +85,7 @@ virus causes inflammation of the liver. </p>
 <p>How Hepcludex works 
 HDV uses a particular protein in liver cells to enter the cells. Bulevirtide, the active substance in this 
 medicine blocks the protein and so prevents the HDV from getting into liver cells. This reduces the 
-spread of HDV in the liver and reduces inflammation.  </p>         </div>"""   
+spread of HDV in the liver and reduces inflammation.  </p> </div>"""   
           
 
              
@@ -177,7 +179,7 @@ Dizziness and tiredness are side effects which may impair your ability to drive 
 you have any concerns consult your doctor. </p>
 <p>Hepcludex contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per ml, that is to say essentially "sodium-
-free". </p>         </div>"""   
+free". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hepcludex"
@@ -204,7 +206,7 @@ missed dose. Tell your doctor if you have missed a dose of Hepcludex.  </p>
 If you do not want to take Hepcludex anymore, talk to your doctor before stopping the treatment. 
 Stopping the treatment can reactivate the infection and worsen your disease. Tell your doctor 
 immediately about any changes in symptoms after stopping treatment. </p>
-<p>If you have any further questions on the use of Hepcludex, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of Hepcludex, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -242,7 +244,7 @@ immediate medical care. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help to provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hepcludex"
@@ -256,7 +258,7 @@ expiry date refers to the last day of that month. </p>
 <p>The reconstituted solution should be used immediately. However, if this is not possible it can be stored 
 for up to 2 hours at a temperature of up to 25 C. </p>
 <p>Do not throw away any medicines or used needles via wastewater or household waste. Ask your 
-pharmacist how to safely dispose medicines and used needles.  </p>         </div>"""      
+pharmacist how to safely dispose medicines and used needles.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -573,7 +575,7 @@ Remove the needle
 from the syringe and 
 dispose of both properly 
 so that nobody can be 
-injured (see 3D). </p>         </div>"""      
+injured (see 3D). </p> </div>"""      
 
 
 
@@ -612,7 +614,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -623,7 +627,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Injektionsvejledning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -640,7 +644,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -657,7 +661,7 @@ delta-virus medfører leverbetændelse. </p>
 <p>Hvordan virker Hepcludex? 
 HDV bruger et særligt protein i leverceller til at trænge ind i cellerne. Bulevirtid, der er det aktive stof 
 i dette lægemiddel, blokerer proteinet og forhindrer dermed HDV i at trænge ind i levercellerne. Dette 
-mindsker spredningen af HDV i leveren og reducerer betændelsen. </p>         </div>"""   
+mindsker spredningen af HDV i leveren og reducerer betændelsen. </p> </div>"""   
           
 
              
@@ -749,7 +753,7 @@ Svimmelhed og træthed er bivirkninger, der kan nedsætte din evne til at føre 
 maskiner. Spørg lægen, hvis du er i tvivl om noget. </p>
 <p>Hepcludex indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. ml, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hepcludex"
@@ -775,7 +779,7 @@ erstatning for den glemte dosis. Fortæl det til lægen, hvis du har glemt en do
 Hvis du ikke ønsker at tage Hepcludex længere, skal du sige det til lægen, før du stopper 
 behandlingen. Ophør af behandling kan reaktivere infektionen og forværre din sygdom. Fortæl det 
 straks til lægen, hvis du oplever symptomændringer efter at have stoppet behandlingen. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -852,7 +856,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hepcludex"
@@ -866,7 +870,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Den rekonstituerede opløsning bør anvendes med det samme. Hvis dette imidlertid ikke er muligt, 
 kan den opbevares i op til 2 timer ved op til 25 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester eller brugte kanyler i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester eller brugte kanyler i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1229,7 +1233,7 @@ sprøjten, og bortskaf
 begge på en 
 hensigtsmæssig måde, 
 så ingen kan komme til 
-skade (se punkt 3D). </p>         </div>"""      
+skade (se punkt 3D). </p> </div>"""      
 
 
 

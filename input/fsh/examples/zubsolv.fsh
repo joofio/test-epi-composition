@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zubsolv </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ to be treated for their addiction. Zubsolv is used in adults and adolescents ove
 who are also receiving medical, social and psychological support. </p>
 <p>How Zubsolv works 
 The tablet contains buprenorphine which is responsible for the treatment of opioid (narcotic) 
-dependence. It also contains naloxone which is used to deter intravenous abuse of the product. </p>         </div>"""   
+dependence. It also contains naloxone which is used to deter intravenous abuse of the product. </p> </div>"""   
           
 
              
@@ -251,7 +254,7 @@ alcohol or take other sedative medicines when you take Zubsolv. Do not drive, us
 machines, or perform dangerous activities until you know how this medicine affects you. </p>
 <p>Zubsolv contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zubsolv"
@@ -357,7 +360,7 @@ Tell your doctor as soon as possible if you miss a dose. </p>
 <p>If you stop taking Zubsolv 
 Do not change the treatment in any way or stop treatment without the agreement of the doctor who is 
 treating you. Stopping treatment suddenly may cause withdrawal symptoms. </p>
-<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this product, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -433,7 +436,7 @@ reactions and potentially serious liver problems (see section 2, Warnings and pr
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zubsolv"
@@ -453,7 +456,7 @@ place to protect it from theft. </p>
 <p>An emergency unit should be contacted immediately in case of accidental ingestion or suspicion of 
 ingestion. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -531,7 +534,7 @@ Orexo AB<br />
 Virdings all  32 A<br />
 Uppsala 754 Sweden </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -570,7 +573,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -579,7 +584,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -594,7 +600,7 @@ Usage: #inline
 3. Sådan skal du tage Zubsolv<br />
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -609,7 +615,7 @@ medicinsk, social og psykologisk støtte. </p>
 <p>Sådan virker Zubsolv 
 Resoribletten indeholder buprenorphin, som har til opgave at behandle afhængigheden af opioider 
 (narkotika). Den indeholder ligeledes naloxon, som bruges til at hindre intravenøst misbrug af 
-produktet. </p>         </div>"""   
+produktet. </p> </div>"""   
           
 
              
@@ -823,7 +829,7 @@ arbejde med værktøj eller maskiner, eller udføre farlige aktiviteter, indtil 
 lægemiddel påvirker dig. </p>
 <p>Zubsolv indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zubsolv"
@@ -929,7 +935,7 @@ Fortæl hurtigst muligt din læge, hvis du glemmer at tage en dosis. </p>
 <p>Hvis du holder op med at tage Zubsolv 
 Du må på ingen måde ændre eller stoppe behandlingen uden at have aftalt det med lægen, som 
 behandler dig. Pludseligt behandlingsophør kan forårsage abstinenser. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1088,7 +1094,7 @@ Appendiks V.<br />
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
 af dette lægemiddel. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zubsolv"
@@ -1107,7 +1113,7 @@ Opbevar blisterpakningen sikkert.
 Tag ikke dette lægemiddel foran børn. 
 Kontakt straks skadestuen ved utilsigtet indtagelse af lægemidlet, eller hvis der er mistanke herom. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1193,7 +1199,7 @@ Uppsala 754 50<br />
 Sverige </p>
 <p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 

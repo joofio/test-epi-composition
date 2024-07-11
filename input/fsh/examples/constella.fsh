@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Constella</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ How Constella works
 Constella acts locally in your gut, helping you to feel less pain and less bloated, and to restore the normal 
 functioning of your bowels. It is not absorbed into the body, but attaches to receptor called guanylate cyclase 
 C on the surface of your gut. By attaching to this receptor, it blocks the sensation of pain and allows liquid to 
-enter from the body into the gut, thereby loosening the stools and increasing your bowel movements.</p>         </div>"""   
+enter from the body into the gut, thereby loosening the stools and increasing your bowel movements.</p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ In a milk-only lactation study in seven lactating women, who were already taking
 neither linaclotide nor its active metabolite were detected in the milk. Therefore breastfeeding is not 
 expected to result in exposure of the infant to linaclotide and Constella can be used during breast-feeding.
 Driving and using machines
-Constella will not affect your ability to drive or use machines</p>         </div>"""   
+Constella will not affect your ability to drive or use machines</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take constella"
@@ -167,7 +170,7 @@ continue as normal.
 If you stop taking Constella
 It is preferable to discuss stopping treatment with your doctor before actually doing so.  However, treatment 
 with Constella can be safely stopped at any time. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -207,7 +210,7 @@ Side effects with frequency not known (frequency cannot be estimated from the av
 Reporting of side effects
 If you get any side effects, talk to your  doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store constella"
@@ -224,7 +227,7 @@ Keep the canisters in the bottle. Do not swallow them.
 Do not use this medicine if you notice any signs of damage to the bottle or any change in the appearance of 
 the capsules.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -361,7 +364,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -370,7 +375,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -385,7 +391,7 @@ Usage: #inline
 3. Sådan skal du tage Constella 
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -409,7 +415,7 @@ Constella virker lokalt i din tarm og hjælper dig til at føle mindre smerte, m
 genoprette tarmens normale funktion. Det absorberes ikke i kroppen, men hæfter sig på en receptor på 
 tarmens overflade, som hedder guanylat cyclase C. Ved at hæfte sig til denne receptor, blokerer den så 
 smertefornemmelsen, og giver væske mulighed for at løbe fra kroppen ind i tarmen, hvorved 
-afføringen bliver løsere og hyppigere. </p>         </div>"""   
+afføringen bliver løsere og hyppigere. </p> </div>"""   
           
 
              
@@ -474,7 +480,7 @@ linaclotid, blev hverken linaclotid eller dets aktive metabolit påvist i mælke
 ikke, at amning medfører at spædbarnet for linaclotid, og Constella kan anvendes under amning.
 27
 Trafik- og arbejdssikkerhed
-Constella vil ikke påvirke din evne til at føre motorkøretøj eller betjene maskiner.</p>         </div>"""   
+Constella vil ikke påvirke din evne til at føre motorkøretøj eller betjene maskiner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take constella"
@@ -495,7 +501,7 @@ planlagte tidspunkt og fortsæt på normal vis.
 Hvis du holder op med at tage Constella
 Det er bedst at tale med lægen om at stoppe behandlingen, før du stopper. Behandling med Constella 
 kan imidlertid stoppes helt risikofrit når som helst. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -558,7 +564,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store constella"
@@ -576,7 +582,7 @@ kapslerne tørre. Lad tørrekapslerne blive i beholderen. Tørrekapslerne må ik
 Brug ikke lægemidlet, hvis du ser nogen tegn på beskadigelse af beholderen eller nogen ændring i 
 kapslernes udseende.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -708,7 +714,7 @@ Tel: +44 (0)1628 561090
 Denne indlægsseddel blev senest ændret 
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -747,7 +753,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -756,7 +764,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -771,7 +780,7 @@ Usage: #inline
 3. Como tomar Constella 
 4. Efeitos secundários possíveis 
 5. Como conservar Constella
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -796,7 +805,7 @@ Constella atua localmente no seu intestino para o ajudar a sentir menos dor e in
 normal funcionamento dos seus intestinos. Não é absorvido pelo organismo, mas liga-se a recetores 
 designados por guanilato ciclase-C existentes na superfície do seu intestino. Ao fixar-se a este recetor,
 bloqueia a sensação de dor e permite a entrada de líquido do organismo para o intestino, soltando 
-consequentemente as fezes e aumentando o movimento dos intestinos. </p>         </div>"""   
+consequentemente as fezes e aumentando o movimento dos intestinos. </p> </div>"""   
           
 
              
@@ -862,7 +871,7 @@ linaclotida para fins terapêuticos, nem a linaclotida nem o seu metabolito ativ
 leite. Consequentemente, não é esperado que a amamentação cause a exposição do lactente à 
 linaclotida e é possível utilizar Constella durante a amamentação.
 Condução de veículos e utilização de máquinas
-Constella não afetará a sua capacidade de conduzir ou utilizar máquinas.</p>         </div>"""   
+Constella não afetará a sua capacidade de conduzir ou utilizar máquinas.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar constella"
@@ -885,7 +894,7 @@ Se parar de tomar Constella
 medicamento. No entanto, o tratamento com Constella pode ser interrompido com segurança a 
 qualquer momento. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -949,7 +958,7 @@ Comunicação de efeitos secundários
 Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar constella"
@@ -967,7 +976,7 @@ Não utilizar este medicamento se verificar quaisquer sinais visíveis de deteri
 qualquer alteração no aspeto das cápsulas.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1100,7 +1109,7 @@ AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561090
 Este folheto foi revisto pela última vez em 
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

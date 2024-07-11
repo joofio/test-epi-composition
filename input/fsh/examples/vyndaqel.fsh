@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Vyndaqel</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ places in your body. The amyloid causes the symptoms of this disease. When this 
 them from working normally. 
 Vyndaqel, can prevent TTR from breaking up and forming amyloid. This medicine is used to treat 
 adult patients with this disease whose nerves have been affected (people with symptomatic
-polyneuropathy) to delay further progression.</p>         </div>"""   
+polyneuropathy) to delay further progression.</p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ one month after stopping treatment.
 Driving and using machines
 Vyndaqel is believed to have no or negligible influence on the ability to drive and use machines.
 Vyndaqel contains sorbitol
-This medicine contains no more than 44 mg sorbitol in each capsule. Sorbitol is a source of fructose.</p>         </div>"""   
+This medicine contains no more than 44 mg sorbitol in each capsule. Sorbitol is a source of fructose.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyndaqel"
@@ -158,7 +161,7 @@ If you stop taking Vyndaqel
 Do not stop taking Vyndaqel without first speaking to your doctor. As Vyndaqel works by stabilising 
 the TTR protein, if you stop taking Vyndaqel, the protein will no longer be stabilised, and your disease 
 may progress.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -176,7 +179,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyndaqel"
@@ -188,7 +191,7 @@ Do not use this medicine after the expiry date which is stated on the blister ca
 expiry date refers to the last day of that month.
 Do not store above 25 C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -292,7 +295,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -331,7 +334,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -340,7 +345,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -355,7 +361,7 @@ Usage: #inline
 3. Sådan skal De tage Vyndaqel
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -373,7 +379,7 @@ på andre steder i kroppen. Amyloid giver symptomer på denne sygdom. Når det s
 nerverne i at fungere normalt.
 Vyndaqel kan forhindre TTR i at gå i stykker og danne amyloid. Dette lægemiddel bruges til 
 behandling af voksne patienter med denne sygdom, hvor nerverne er blevet påvirkede (personer med 
-symptomer på polyneuropati), for at forsinke videre sygdomsudvikling.</p>         </div>"""   
+symptomer på polyneuropati), for at forsinke videre sygdomsudvikling.</p> </div>"""   
           
 
              
@@ -423,7 +429,7 @@ Trafik- og arbejdssikkerhed
 Vyndaqel menes ikke at påvirke eller kun i ubetydelig grad påvirke evnen til at føre motorkøretøj og 
 betjene maskiner.
 Vyndaqel indeholder sorbitol
-Dette lægemiddel indeholder højst 44 mg sorbitol pr. kapsel. Sorbitol er en kilde til fructose.</p>         </div>"""   
+Dette lægemiddel indeholder højst 44 mg sorbitol pr. kapsel. Sorbitol er en kilde til fructose.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyndaqel"
@@ -458,7 +464,7 @@ Hvis De holder op med at tage Vyndaqel
 De må ikke holde op med at tage Vyndaqel, uden at De har talt med lægen først. Da Vyndaqel virker 
 ved at stabilisere TTR-proteinet, kan Deres sygdom forværres, hvis De stopper med at tage Vyndaqel, 
 da dette protein så ikke længere bliver stabiliseret.
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -481,7 +487,7 @@ Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsse
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendix V. Ved at indrapportere bivirkninger kan De hjælpe med at 
 fremskaffe mere information om sikkerheden af dette lægemiddel.
-47</p>         </div>"""      
+47</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyndaqel"
@@ -493,7 +499,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på blisterkortet og på 
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 25°C.
 Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -662,7 +668,7 @@ Lægen har ordineret Vyndaqel til Dem personligt. Lad derfor være med at give l
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

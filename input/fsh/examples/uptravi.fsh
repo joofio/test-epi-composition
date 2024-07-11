@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Uptravi</li>
 <li>Contents of the package and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ other symptoms.
 By acting in a similar way to the natural substance prostacyclin, this medicine widens the pulmonary 
 arteries and reduces their hardening. This makes it easier for the heart to pump blood through the 
 pulmonary arteries. Uptravi lowers the pressure in the pulmonary arteries, it relieves the symptoms of 
-PAH and slows down progression of PAH disease.</p>         </div>"""   
+PAH and slows down progression of PAH disease.</p> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ or breast-feeding, think you may be pregnant, or are planning to have a baby, as
 advice before taking this medicine.
 Driving and using machines
 Uptravi can cause side effects such as headaches and low blood pressure (see section 4), which may 
-affect your ability to drive; the symptoms of your condition can also make you less fit to drive.</p>         </div>"""   
+affect your ability to drive; the symptoms of your condition can also make you less fit to drive.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take uptravi"
@@ -257,7 +260,7 @@ If, for any reason, you stop taking Uptravi for more than 3 consecutive days (if
 and 3 evening doses, or 6 doses in a row or more), contact your doctor immediately as your dose 
 may need to be adjusted to avoid side effects. Your doctor may decide to restart your treatment on a 
 lower dose, gradually increasing to your previous maintenance dose.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ Reporting of side effects
 If you have any side effects, talk to your doctor. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store uptravi"
@@ -323,7 +326,7 @@ medicine.</p>         </div>"""
 Do not use Uptravi after the expiry date, which is stated on the carton and on the blister after  EXP.<br />
 The expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
-No special requirements for disposal.</p>         </div>"""      
+No special requirements for disposal.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -639,7 +642,7 @@ Doctor s office telephone and e-mail:
 Pharmacist s telephone:
 Notes:
 Page Page Page Page Page Page Page Page Page Page Notes
-Page 40</p>         </div>"""      
+Page 40</p> </div>"""      
 
 
 
@@ -678,7 +681,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -687,7 +692,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -702,7 +708,7 @@ Usage: #inline
 3. Sådan skal du tage Uptravi
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -723,7 +729,7 @@ Dette lægemiddel virker på samme måde som det naturlige stof prostacyklin, s�
 lungearterierne og gør dem mindre hårde. Dermed bliver det nemmere for hjertet at pumpe blod 
 igennem lungearterierne. Uptravi sænker trykket i lungearterierne, lindrer symptomerne på PAH og 
 gør, at PAH-sygdommen udvikler sig langsommere.
-42</p>         </div>"""   
+42</p> </div>"""   
           
 
              
@@ -811,7 +817,7 @@ tager dette lægemiddel.
 Trafik- og arbejdssikkerhed
 Uptravi kan forårsage bivirkninger, såsom hovedpine og lavt blodtryk (se afsnit 4), der kan påvirke din 
 evne til at føre motorkøretøj; symptomerne ved din sygdom kan også nedsætte din evne til at føre 
-motorkøretøj.</p>         </div>"""   
+motorkøretøj.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take uptravi"
@@ -937,7 +943,7 @@ lægen, da det kan være nødvendigt at justere din dosis for at undgå bivirkni
 beslutte, at du skal genstarte behandlingen med en lavere dosis, som øges gradvist til din tidligere 
 vedligeholdelsesdosis.
 Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
-48</p>         </div>"""         
+48</p> </div>"""         
 
         
 * section[=].section[+]
@@ -993,7 +999,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen. Dette gælder også mulig
 er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store uptravi"
@@ -1006,7 +1012,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
-49</p>         </div>"""      
+49</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1665,7 +1671,7 @@ Side 37
 Side 38
 Side 39
 Noter
-Side 40</p>         </div>"""      
+Side 40</p> </div>"""      
 
 
 
@@ -1704,7 +1710,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1713,7 +1721,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1728,7 +1737,7 @@ Usage: #inline
 3. Como tomar Uptravi 
 4. Efeitos indesejáveis possíveis
 5. Como conservar Uptravi
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1750,7 +1759,7 @@ Ao atuar de forma semelhante à substância natural prostaciclina, este medicame
 pulmonares e reduz o seu espessamento. Isto faz com que seja mais fácil para o coração bombear 
 sangue através delas. Uptravi baixa a pressão nas artérias pulmonares, isto alivia os sintomas da HAP 
 e atrasa a progressão da doença HAP.
-42</p>         </div>"""   
+42</p> </div>"""   
           
 
              
@@ -1841,7 +1850,7 @@ medicamento.
 Condução de veículos e utilização de máquinas
 Uptravi pode causar efeitos indesejáveis tais como dores de cabeça e pressão sanguínea baixa (ver 
 secção 4), que pode afetar a sua capacidade de conduzir; os sintomas da sua doença poderão também 
-torná-lo(a) menos capaz para conduzir.</p>         </div>"""   
+torná-lo(a) menos capaz para conduzir.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar uptravi"
@@ -1979,7 +1988,7 @@ seu médico uma vez que a sua dose poderá ter de ser ajustada a fim de evitar e
 indesejáveis. O seu médico poderá decidir reiniciar o seu tratamento com uma dose inferior, 
 aumentando gradualmente até atingir a dose de manutenção prévia.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.
-48</p>         </div>"""         
+48</p> </div>"""         
 
         
 * section[=].section[+]
@@ -2037,7 +2046,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar uptravi"
@@ -2051,7 +2060,7 @@ O medicamento não necessita de quaisquer precauções especiais de conservaçã
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-49</p>         </div>"""      
+49</p> </div>"""      
         
         
 * section[=].section[+]
@@ -2259,7 +2268,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 medinfo@its.jnj.com
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

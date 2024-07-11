@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Cubicin</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ Cubicin is also used in adults to treat infections in the tissues that line the 
 used to treat infections in the blood caused by the same type of bacteria when associated with heart
 infection.
 Depending on the type of infection(s) that you have, your doctor may also prescribe other
-antibacterials while you are receiving treatment with Cubicin.</p>         </div>"""   
+antibacterials while you are receiving treatment with Cubicin.</p> </div>"""   
           
 
              
@@ -178,7 +181,7 @@ Cubicin has no known effects on the ability to drive or use machines.
 Cubicin contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially
  sodium-free .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cubicin"
@@ -202,7 +205,7 @@ type of infection being treated. This dose is given directly into the blood stre
 infusion lasting about 30-60 minutes.
 A course of treatment usually lasts for 1 to 2 weeks for skin infections. For blood or heart infections
 and skin infections your doctor will decide how long you should be treated.
-Detailed instructions for use and handling are given at the end of the leaflet.</p>         </div>"""         
+Detailed instructions for use and handling are given at the end of the leaflet.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
 safety of this medicine.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cubicin"
@@ -311,7 +314,7 @@ safety of this medicine.</li>
 <li>Do not use this medicine after the expiry date which is stated on the carton and label after EXP.
 The expiry date refers to the last day of the month.</li>
 <li>Store in a refrigerator (2  C   8  C).</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -533,7 +536,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm
 them, even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor or nurse. This includes any possible side effects
-not listed in this leaflet. See section 4.</p>         </div>"""      
+not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -572,7 +575,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -581,7 +586,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -596,7 +602,7 @@ Usage: #inline
 3. Sådan får du Cubicin
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -614,7 +620,7 @@ Cubicin bruges også hos voksne til behandling af infektioner i vævene på inde
 bruges også til behandling af infektioner i blodet, som er forårsaget af samme type bakterie i
 forbindelse med infektion i hjertet.
 Afhængig af hvilken infektion eller hvilke infektioner du har, vil din læge muligvis også ordinere
-andre antibakterielle midler, mens du er i behandling med Cubicin.</p>         </div>"""   
+andre antibakterielle midler, mens du er i behandling med Cubicin.</p> </div>"""   
           
 
              
@@ -721,7 +727,7 @@ Cubicin har ingen kendt indvirkning på evnen til at køre bil eller bruge maski
 Cubicin indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
 væsentlige natriumfrit.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cubicin"
@@ -746,7 +752,7 @@ tager omkring 30-60 minutter.
 En behandling varer normalt 1 til 2 uger for hudinfektioner. For infektioner i blodet eller hjertet og
 hudinfektioner vil din læge afgøre, hvor lang tid, du skal behandles.
 Detaljeret instruktion i brug og håndtering findes i slutningen af denne indlægsseddel.
-38</p>         </div>"""         
+38</p> </div>"""         
 
         
 * section[=].section[+]
@@ -850,7 +856,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cubicin"
@@ -862,7 +868,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
 <li>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter EXP.
 Udløbsdatoen er den sidste dag i den nævnte måned.</li>
 <li>Opbevares i køleskab (2 C - 8 C).</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1119,7 +1125,7 @@ indeholder vigtige oplysninger.</li>
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.</li>
 <li>Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er
 nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1158,7 +1164,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1167,7 +1175,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1182,7 +1191,7 @@ Usage: #inline
 3. Como é que Cubicin é administrado
 4. Efeitos indesejáveis possíveis
 5. Como conservar Cubicin
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1200,7 +1209,7 @@ coração (incluindo as válvulas cardíacas) que são causadas por um tipo de b
 Staphylococcus aureus. É também usado para tratar infeções no sangue causadas pela mesma
 bacterias quando associadas a uma infeção no coração.
 Dependendo do tipo de infeção(ões) que tem, o seu médico também pode prescrever outros agentes
-antibacterianos durante o seu tratamento com Cubicin.</p>         </div>"""   
+antibacterianos durante o seu tratamento com Cubicin.</p> </div>"""   
           
 
              
@@ -1293,7 +1302,7 @@ Condução de veículos e utilização de máquinas
 Cubicin não apresenta efeitos conhecidos na capacidade de conduzir ou de utilizar máquinas.
 Cubicin contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose ou seja, é praticamente
-“isento de sódio".</p>         </div>"""   
+“isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar cubicin"
@@ -1320,7 +1329,7 @@ Um ciclo de tratamento dura normalmente 1 a 2 semanas no caso das infeções da 
 infeções sanguíneas ou cardíacas e da pele, o seu médico decidirá durante quanto tempo será tratado.
 39
 No final deste folheto são dadas instruções detalhadas sobre a utilização e manipulação deste
-medicamento.</p>         </div>"""         
+medicamento.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1416,7 +1425,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar cubicin"
@@ -1429,7 +1438,7 @@ medicamento.</p>         </div>"""
 rótulo após EXP. O prazo de validade corresponde ao último dia do mês indicado.</li>
 <li>Conservar no frigorífico (2°C - 8°C).
 41</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1574,7 +1583,7 @@ Limited
 Tel: +353 (0)1 2998700
 medinfoNI@msd.com
 Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}&gt;.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

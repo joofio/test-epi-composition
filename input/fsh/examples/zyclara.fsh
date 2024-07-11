@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zyclara  </li>
 <li>Content of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ fight your actinic keratosis.  </p>
 sunshine over the course of their lifetime. These areas can be the same colour as your skin or are 
 greyish, pink, red or brown. They can be flat and scaly, or raised, rough, hard and warty. </p>
 <p>This medicine should only be used for actinic keratosis on the face or scalp if your doctor has decided 
-that it is the most appropriate treatment for you. </p>         </div>"""   
+that it is the most appropriate treatment for you. </p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ stearyl alcohol and benzyl alcohol </p>
 reactions (possibly delayed). Cetyl alcohol and stearyl alcohol may cause local skin reactions (e.g. 
 contact dermatitis).<br />
 This medicine contains 5 mg benzyl alcohol in each sachet. Benzyl alcohol may cause allergic 
-reactions and mild local irritation. </p>         </div>"""   
+reactions and mild local irritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zyclara"
@@ -222,7 +225,7 @@ schedule. The cream should not be applied more than once daily. Each treatment c
 longer than two weeks, even if you have missed doses. </p>
 <p>If you stop using Zyclara </p>
 <p>Talk to your doctor before you stop treatment with Zyclara. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ There have been reports of increased liver enzymes. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zyclara"
@@ -321,7 +324,7 @@ The expiry date refers to the last day of that month.
 Do not store above 25  C. </p>
 <p>Sachets should not be re-used once opened. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -444,7 +447,7 @@ Meda Pharma SIA
 R ga LV 1T lr: +371 67616Lietuva 
 Meda Pharma SIA 
  algirio str. 90-Vilnius LT-09Tel. + 370 52051This leaflet was last revised in (MM/YYYY). </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -483,7 +486,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -492,7 +497,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -507,7 +513,7 @@ Usage: #inline
 3. Sådan skal du bruge Zyclara 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -524,7 +530,7 @@ at bekæmpe aktinisk keratose. </p>
 af deres levetid. Disse områder kan være den samme farve som din hud eller grålige, rosa, røde eller 
 brune. De kan være flade og skællede, eller bulede, ru, hårde og vortelignende. </p>
 <p>Denne medicin bør kun bruges til aktiniske keratoser i ansigtet eller hovedbunden, hvis din læge har 
-besluttet, at det er den mest hensigtsmæssige behandling til dig. </p>         </div>"""   
+besluttet, at det er den mest hensigtsmæssige behandling til dig. </p> </div>"""   
           
 
              
@@ -631,7 +637,7 @@ cetylalkohol, stearylalkohol og benzylalkohol. </p>
 reaktioner (muligvis forsinkede). Cetylalkohol og stearylalkohol kan medføre lokale hudreaktioner 
 (f.eks. kontakt dermatitis). </p>
 <p>Denne medicin indeholder 5 mg benzylalkohol i hver brev. Benzylalkohol kan medføre allergiske 
-reaktioner og mild lokal irritation. </p>         </div>"""   
+reaktioner og mild lokal irritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zyclara"
@@ -692,7 +698,7 @@ fortsætte med din behandlingsplan. Hver behandlingsplan skal ikke vare mere end
 ikke hvis du har glemt at bruge den nogle gange.  </p>
 <p>Hvis du holder op med at bruge Zyclara 
 Kontakt lægen, hvis du ønsker at stoppe behandlingen med Zyclara. </p>
-<p>Hvis du har yderligere spørgsmål om brugen af dette lægemiddel, spørg din læge eller på apoteket. </p>         </div>"""         
+<p>Hvis du har yderligere spørgsmål om brugen af dette lægemiddel, spørg din læge eller på apoteket. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -819,7 +825,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zyclara"
@@ -832,7 +838,7 @@ Må ikke opbevares over 25°C. </p>
 <p>Brevene må ikke bruges igen, når de har været åbnet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
 smide medicinrester i afløbet, toilettet eller skraldespanden. Disse forholdsregler vil hjælpe med at 
-beskytte miljøet. </p>         </div>"""      
+beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -979,7 +985,7 @@ Viatris UAB
 Tel. + 370 52051 </p>
 <p>Denne indlægsseddel blev senest ændret (MM/YYYY) </p>
 <p>Du kan finde yderligere oplysninger om Zyclara på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu/. </p>         </div>"""      
+http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

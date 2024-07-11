@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Epysqli  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ Epysqli is used to treat adults and children patients with a certain type of dis
 system called Paroxysmal Nocturnal Haemoglobinuria (PNH). In patients with PNH, their red blood 
 cells can be destroyed which can lead to low blood counts (anaemia), tiredness, difficulty in 
 functioning, pain, dark urine, shortness of breath, and blood clots. Eculizumab can block the body s 
-inflammatory response, and its ability to attack and destroy its own vulnerable PNH blood cells. </p>         </div>"""   
+inflammatory response, and its ability to attack and destroy its own vulnerable PNH blood cells. </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ should take this into consideration if you are on a controlled sodium diet. </p>
 <p>Once diluted with sodium chloride 4.5 mg/mL (0.45 %) solution for injection, this medicine contains 
 0.19 g sodium (main component of cooking/table salt) in 180 mL at the maximal dose. This is 
 equivalent to 9.5 % of the recommended maximum daily dietary intake of sodium for an adult. You 
-should take this into consideration if you are on a controlled sodium diet. </p>         </div>"""   
+should take this into consideration if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take epysqli"
@@ -235,7 +238,7 @@ cause:</p>
 <li>An increase in your serum creatinine level (problems with your kidneys), or </li>
 <li>Thrombosis (blood clotting). 
 If you have any of these symptoms, contact your doctor. </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ hot </p>
 If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store epysqli"
@@ -339,7 +342,7 @@ refrigerator at 2  C to 8  C up to 3 months and for an additional 72 hours at ro
 30 C) when diluted with sodium chloride 9 mg/ml (0.9 %) solution for injection, sodium chloride 4.5 
 mg/ml (0.45 %) solution for injection. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -365,7 +368,7 @@ Olof Palmestraat 2616 LR Delft
 The Netherlands </p>
 <p>This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -404,7 +407,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -413,7 +418,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -428,7 +434,7 @@ Usage: #inline
 3. Sådan skal du bruge Epysqli 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -456,7 +462,7 @@ nyrerne. Hos patienter med aHUS kan der opstå betændelse i nyreceller og blodl
 herunder blodplader, hvilket kan føre til lave blodtal (trombocytopeni og anæmi), nedsat eller 
 ophørt nyrefunktion, blodpropper, træthed og nedsat funktionsevne. Eculizumab kan blokere 
 for kroppens reaktion på betændelsestilstande og dens evne til at angribe og ødelægge sine 
-egne blodlegemer og nyreceller. </p>         </div>"""   
+egne blodlegemer og nyreceller. </p> </div>"""   
           
 
              
@@ -537,7 +543,7 @@ voksen. Hvis du får natriumfattig diæt, skal du tage hensyn hertil. </p>
 <p>Når dette lægemiddel er fortyndet med natriumchlorid 4,5 mg/ml (0,45 %) injektionsvæske, opløsning, 
 indeholder det 0,26 g natrium (hovedkomponent af madlavnings-/bordsalt) pr. 240 ml i den maksimale 
 dosis. Dette svarer til 12,8 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. Hvis du får natriumfattig diæt, skal du tage hensyn hertil. </p>         </div>"""   
+voksen. Hvis du får natriumfattig diæt, skal du tage hensyn hertil. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take epysqli"
@@ -661,7 +667,7 @@ dine blodplader. Det kan medføre følgende symptomer:</p>
 <li>åndenød eller </li>
 <li>blodpropdannelse (trombose). </li>
 </ul>
-<p>Kontakt lægen, hvis du får nogen af disse symptomer. </p>         </div>"""         
+<p>Kontakt lægen, hvis du får nogen af disse symptomer. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -741,7 +747,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store epysqli"
@@ -763,7 +769,7 @@ opbevares i køleskab ved 2 °C til 8 °C i op til 3 måneder og i yderligere 72
 (op til 30 °C) efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning eller 
 natriumchlorid 4,5 mg/ml (0,45 %) injektionsvæske, opløsning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -852,7 +858,7 @@ beskytte mod lys. Hætteglassene med Epysqli i den originale emballage må kun o
 <p>køleskabet i en enkelt periode på op til 2 måneder ved rumtemperatur (op til 30 °C), men ikke ud over 
 den oprindelige udløbsdato. Efter denne periode kan produktet sættes tilbage i køleskabet.  </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den sidste 
-dag i den nævnte måned. </p>         </div>"""      
+dag i den nævnte måned. </p> </div>"""      
 
 
 

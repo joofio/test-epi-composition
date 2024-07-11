@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ADCIRCA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ ADCIRCA is a treatment for pulmonary arterial hypertension in adults and in chil
 and above.  </p>
 <p>It belongs to a group of medicines called phosphodiesterase type 5 (PDE5) inhibitors which work by 
 helping the blood vessels around your lungs relax, improving the flow of blood into your lungs. The 
-result of this is an improved ability to do physical activity. </p>         </div>"""   
+result of this is an improved ability to do physical activity. </p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. </p>
 <p>ADCIRCA contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adcirca"
@@ -193,7 +196,7 @@ Take your dose as soon as you remember if it is within 8 hours of when you shoul
 dose. Do NOT take a double dose to make up for the one that you have forgotten. </p>
 <p>If you stop taking ADCIRCA 
 Do not stop taking your tablets, unless advised otherwise by your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -255,7 +258,7 @@ whether these events were related directly to tadalafil. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adcirca"
@@ -267,7 +270,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -355,7 +358,7 @@ Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
 Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -394,7 +397,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -403,7 +408,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -418,7 +424,7 @@ Usage: #inline
 3. Sådan skal du tage ADCIRCA 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -432,7 +438,7 @@ derover.  </p>
 <p>Det tilhører en gruppe af lægemidler, som kaldes phosphodiesterase type 5-hæmmere (PDE5-
 hæmmere). Det virker ved at hjælpe blodkarrerne rundt om lungerne med at slappe af, således at 
 blodtilstrømningen til lungerne forbedres. Dette resulterer i en forbedret evne til at udføre fysisk 
-aktivitet. </p>         </div>"""   
+aktivitet. </p> </div>"""   
           
 
              
@@ -520,7 +526,7 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 sukkerarter. </p>
 <p>ADCIRCA indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adcirca"
@@ -550,7 +556,7 @@ Tag din dosis, så snart du kommer i tanke om det, hvis det er indenfor 8 timer 
 taget din dosis. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage ADCIRCA 
 Du må ikke holde op med at tage lægemidlet, medmindre din læge har rådet dig til det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -618,7 +624,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også </p>
 <p>indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adcirca"
@@ -631,7 +637,7 @@ dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. Må ikke opbevares ved temperaturer 
 over 30° C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -736,7 +742,7 @@ indeholder vigtige oplysninger.
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
-<p>Oversigt over indlægssedlen </p>         </div>"""      
+<p>Oversigt over indlægssedlen </p> </div>"""      
 
 
 

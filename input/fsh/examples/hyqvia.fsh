@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store HyQvia </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ including the following groups: </p>
 <p>patients with an inborn inability or reduced ability to produce antibodies (primary 
 immunodeficiencies).  </p>
 <p>patients who experience severe or recurrent infections due to a weakened immune system 
-resulting from other conditions or treatments </p>         </div>"""   
+resulting from other conditions or treatments </p> </div>"""   
           
 
              
@@ -218,7 +221,7 @@ reactions have disappeared. </p>
 <p>This medicine contains 5.0   60.5 mg sodium (main component of cooking/table salt) in each 
 recombinant human hyaluronidase vial of HyQvia. This is equivalent to 0.25   3% of the 
 recommended maximum daily dietary intake of sodium for an adult. The IG 10% component is 
-essentially sodium-free.  </p>         </div>"""   
+essentially sodium-free.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hyqvia"
@@ -496,7 +499,7 @@ in rotating sites) and any reactions after each infusion. </p>
 <p>Throw away any unused product in the vial and the 
 disposable supplies as recommended by your healthcare 
 professional. </p>
-<p>Follow up with physician as directed. </p>         </div>"""         
+<p>Follow up with physician as directed. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -552,7 +555,7 @@ destruction of red blood cells (haemolysis). </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on 
-the safety of this medicine. </p>         </div>"""      
+the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hyqvia"
@@ -568,7 +571,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not use this medicine if the solutions are cloudy or have particles or deposits. </p>
 <p>After opening, dispose of any unused solutions in the vials. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+dispose of medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -716,7 +719,7 @@ Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -755,7 +758,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -764,7 +769,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -781,7 +787,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -835,7 +841,7 @@ polyneuropati (CIDP), en form for autoimmun sygdom. CIDP karakteriseres ved kron
 af de perifere nerver, der forårsager muskelsvækkelse og/eller følelsesløshed, hovedsageligt i ben og 
 arme. Man mener, at kroppens eget forsvarssystem angriber de perifere nerver og forårsager nerveskade 
 og inflammation. Immunglobuliner i HyQvia menes at hjælpe med at beskytte nerverne mod at blive 
-beskadiget af immunsystemet. </p>         </div>"""   
+beskadiget af immunsystemet. </p> </div>"""   
           
 
              
@@ -1003,7 +1009,7 @@ reaktionerne er forsvundet. </p>
 <p>Dette lægemiddel indeholder 5,0 til 60,5 mg natrium (hovedkomponenten i køkken-/bordsalt) i hvert 
 hætteglas af HyQvia med rekombinant humant hyaluronidase. Det svarer til 0,25 til 3 % af den 
 anbefalede maksimale daglige indtagelse af natrium for en voksen. IG 10 %-komponenten er i det 
-væsentlige natriumfri.  </p>         </div>"""   
+væsentlige natriumfri.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hyqvia"
@@ -1419,7 +1425,7 @@ anbefalinger. </p>
 <li>
 <p>Følg op med lægen som anvist. </p>
 </li>
-</ol>         </div>"""         
+</ol> </div>"""         
 
         
 * section[=].section[+]
@@ -1599,7 +1605,7 @@ infusionsstedet) </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hyqvia"
@@ -1615,7 +1621,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis opløsningerne er uklare eller indeholder partikler eller udfældninger. </p>
 <p>Bortskaf eventuel ikke anvendt opløsning i hætteglassene efter åbning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1775,7 +1781,7 @@ Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
 <p>Denne indlægsseddel blev senest ændret . </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

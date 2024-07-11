@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Yesafili </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -97,7 +100,7 @@ of fluid from blood vessels within the macula. The macula is the portion of reti
 vision. When the macula swells with fluid, central vision becomes blurry. </p>
 <p>Aflibercept has been shown to stop the growth of new abnormal blood vessels in the eye which often 
 leak fluid or bleed. Aflibercept can help to stabilise, and in many cases, improve the vision loss related 
-to wet AMD, CRVO, BRVO, DME and myopic CNV. </p>         </div>"""   
+to wet AMD, CRVO, BRVO, DME and myopic CNV. </p> </div>"""   
           
 
              
@@ -180,7 +183,7 @@ After your injection with Yesafili, you may experience some temporary visual dis
 drive or use machines as long as these last. </p>
 <p>Important information about some of the ingredients of Yesafili 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yesafili"
@@ -232,7 +235,7 @@ will decide on the schedule for follow up examinations. </p>
 Make a new appointment for an examination and injection. </p>
 <p>Stopping treatment with Yesafili 
 Consult your doctor before stopping the treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -314,7 +317,7 @@ with Yesafili. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yesafili"
@@ -331,7 +334,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away any medicines you no longer use. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ Bad Homburg v. d. Hoehe
 Hessen, 61Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -429,7 +435,7 @@ Usage: #inline
 3. Sådan får du Yesafili 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -464,7 +470,7 @@ grund af, at blodkarrene i den gule plet (makula) lækker væske. Makula er den 
 ansvarlig for det skarpe syn. Når makula er hævet på grund af væske, bliver det centrale syn sløret. </p>
 <p>Aflibercept har vist sig at stoppe væksten af nye unormale blodkar i øjet, der ofte lækker væske eller 
 bløder. Aflibercept kan hjælpe med at stabilisere og i mange tilfælde forbedre det synstab, der er 
-relateret til våd AMD, CRVO, BRVO, DME og myopisk CNV. </p>         </div>"""   
+relateret til våd AMD, CRVO, BRVO, DME og myopisk CNV. </p> </div>"""   
           
 
              
@@ -551,7 +557,7 @@ Efter din injektion med Yesafili kan du opleve nogle midlertidige synsforstyrrel
 motorkøretøj eller betjene maskiner, så længe disse synsforstyrrelser varer ved. </p>
 <p>Vigtig information om nogle af indholdsstofferne i Yesafili 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosisenhed, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take yesafili"
@@ -604,7 +610,7 @@ injektioner, hvis de undersøgelser, din øjenlæge foretager, viser, at din syg
 Aftal et nyt besøg for undersøgelse og injektion. </p>
 <p>Hvis du holder op med Yesafili-behandlingen 
 Kontakt øjenlægen, før du holder op med behandlingen. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -698,7 +704,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store yesafili"
@@ -719,7 +725,7 @@ Det uåbnede hætteglas kan opbevares uden for køleskab ved temperaturer under 
 Opbevares i den originale yderpakning for at beskytte mod lys. 
  
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må 
-du ikke smide lægemiddelrester i afløbet eller skraldespanden. </p>         </div>"""      
+du ikke smide lægemiddelrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -868,7 +874,7 @@ Opløsning efter luftbobler
 og overskydende 
 lægemiddel er fjernet 
 Flad 
-stempelkant </p>         </div>"""      
+stempelkant </p> </div>"""      
 
 
 

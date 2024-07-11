@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ziextenzo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ which can cause the number of these cells in your body to decrease. If white blo
 level there may not be enough left in the body to fight bacteria and you may have an increased risk of 
 infection.
 Your doctor has given you Ziextenzo to encourage your bone marrow (part of the bone which makes 
-blood cells) to produce more white blood cells that help your body fight infection.</p>         </div>"""   
+blood cells) to produce more white blood cells that help your body fight infection.</p> </div>"""   
           
 
              
@@ -155,7 +158,7 @@ Ziextenzo has no or negligible effect on the ability to drive or use machines.
 Ziextenzo contains sorbitol (E420) and sodium
 This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg/mL.
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ziextenzo"
@@ -179,7 +182,7 @@ If you use more Ziextenzo than you should contact your doctor, pharmacist or nur
 If you forget to inject Ziextenzo
 If you are injecting yourself and have forgotten a dose of Ziextenzo, you should contact your doctor to 
 discuss when you should inject the next dose.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ and contact your doctor or seek medical attention immediately. See also section 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ziextenzo"
@@ -251,7 +254,7 @@ Do not freeze. Ziextenzo may be used if it is accidentally frozen for a single p
 Keep the container in the outer carton in order to protect from light.
 Do not use this medicine if you notice it is cloudy or there are particles in it.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -340,7 +343,7 @@ Tel: +43 5338 2Latvija
 Sandoz d.d. Latvia fili le
 Tel: +371 67 892 This leaflet was last revised in.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -379,7 +382,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -388,7 +393,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -403,7 +409,7 @@ Usage: #inline
 3. Sådan skal De bruge Ziextenzo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -423,7 +429,7 @@ effekterne af kemoterapi, hvilket kan medføre, at antallet af disse celler i De
 antallet af hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er nok celler tilbage 
 i kroppen til at bekæmpe bakterier, og De kan have en øget risiko for infektion.
 Deres læge har ordineret Ziextenzo til Dem for at støtte Deres knoglemarv (hvor blodceller dannes) til 
-at producere flere hvide blodlegemer, der hjælper Deres krop med at bekæmpe infektion.</p>         </div>"""   
+at producere flere hvide blodlegemer, der hjælper Deres krop med at bekæmpe infektion.</p> </div>"""   
           
 
              
@@ -509,7 +515,7 @@ Ziextenzo har ingen eller kun ubetydelig virkning på evnen til at køre bil og 
 Ziextenzo indeholder sorbitol (E 420) og natrium
 Dette lægemiddel indeholder 30 mg sorbitol pr. fyldt injektionssprøjte, svarende til 50 mg/ml.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 6 mg dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ziextenzo"
@@ -533,7 +539,7 @@ Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De har taget mere Z
 Hvis De har glemt at bruge Ziextenzo
 Hvis De selv foretager injektionerne og har glemt en dosis Ziextenzo, kontakt da Deres læge for at 
 aftale, hvornår De skal tage den næste dosis.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -608,7 +614,7 @@ Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsse
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
 fremskaffe mere information om sikkerheden af dette lægemiddel.
-28</p>         </div>"""      
+28</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ziextenzo"
@@ -627,7 +633,7 @@ i mindre end 24 timer.
 Opbevar beholderen i den ydre karton for at beskytte mod lys.
 Brug ikke lægemidlet, hvis De bemærker, at det er grumset eller at der er partikler i det.
 Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -800,7 +806,7 @@ udløbsdato
 Vinger på 
 kanylebeskyttelse
 Stempelhoved
-3</p>         </div>"""      
+3</p> </div>"""      
 
 
 
@@ -839,7 +845,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -848,7 +856,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -863,7 +872,7 @@ Usage: #inline
 3. Como utilizar Ziextenzo
 4. Efeitos indesejáveis possíveis
 5. Como conservar Ziextenzo
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -884,7 +893,7 @@ diminuição do número destas células no seu corpo. Se o número de glóbulos 
 nível muito baixo, podem não ser suficientes para combater as bactérias e pode correr um risco 
 aumentado de infeção.
 O seu médico prescreveu-lhe Ziextenzo para estimular a sua medula óssea (parte do osso que produz as 
-células do sangue) a produzir mais glóbulos brancos, que ajudarão o seu corpo a combater as infeções.</p>         </div>"""   
+células do sangue) a produzir mais glóbulos brancos, que ajudarão o seu corpo a combater as infeções.</p> </div>"""   
           
 
              
@@ -988,7 +997,7 @@ Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia que é equ
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 6 mg, ou seja, é 
 praticamente “isento de sódio".</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ziextenzo"
@@ -1015,7 +1024,7 @@ Caso se tenha esquecido de injetar Ziextenzo
 Se você faz autoadministração e se se esqueceu de uma dose de Ziextenzo, deverá contactar o seu 
 médico para decidir quando deverá ser administrada a dose seguinte.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
-enfermeiro.</p>         </div>"""         
+enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1115,7 +1124,7 @@ indesejáveis diretamente através do sistema nacional de notificação menciona
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ziextenzo"
@@ -1136,7 +1145,7 @@ Manter o recipiente dentro da embalagem exterior para proteger da luz.
 Não utilize este medicamento se verificar que está turvo ou com partículas no interior.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente.</p>         </div>"""      
+ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1258,7 +1267,7 @@ Sandoz d.d. Latvia filiāle
 Tel: +371 67 892 006
 Este folheto foi revisto pela última vez em.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

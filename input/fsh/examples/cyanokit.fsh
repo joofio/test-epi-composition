@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How Cyanokit is stored </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 Cyanokit is an antidote for the treatment of known or suspected cyanide poisoning in all age ranges.<br />
 Cyanokit is to be administered together with appropriate decontamination and supportive measures. </p>
 <p>Cyanide is a highly poisonous chemical. Cyanide poisoning may be caused by exposure to smoke 
-from household and industrial fires, breathing or swallowing cyanide, or contact with cyanide on skin.  </p>         </div>"""   
+from household and industrial fires, breathing or swallowing cyanide, or contact with cyanide on skin.  </p> </div>"""   
           
 
              
@@ -108,7 +111,7 @@ administration of Cyanokit with other medicines can be found at the end of this 
 <p>This medicine is an emergency treatment. It can be administered during pregnancy and breast-feeding. 
 Tell your doctor as soon as possible if you were pregnant or think you may have been pregnant during 
 treatment with Cyanokit. 
-Your doctor will recommend you to stop breast-feeding after treatment with Cyanokit. </p>         </div>"""   
+Your doctor will recommend you to stop breast-feeding after treatment with Cyanokit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cyanokit"
@@ -124,7 +127,7 @@ total recommended dose is 10 g for adults, and 140 mg/kg in children up to a max
 <p>Detailed instructions for your doctor or other health care professional on how to prepare the Cyanokit 
 infusion and how to determine the dose can be found at the end of this package leaflet (see 'Handling 
 instructions'). </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -188,7 +191,7 @@ laboratory parameters. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cyanokit"
@@ -207,7 +210,7 @@ variations of </p>
 <p>For storage conditions of the reconstituted medicine, see 'Handling instructions' at the end of this 
 package leaflet. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines no longer used. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines no longer used. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -245,7 +248,7 @@ Belgium </p>
 France </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -284,7 +287,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -293,7 +298,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -308,7 +314,7 @@ Usage: #inline
 3. Sådan skal Cyanokit bruges 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -322,7 +328,7 @@ Behandlingen med Cyanokit skal foretages samtidig med, at der gennemføres passe
 understøttende behandling. </p>
 <p>Cyanid er et meget giftigt kemikalie. Cyanidforgiftning kan forårsages af røggasser, som indåndes i 
 forbindelse med brand i hjemmet eller industribrand. Du kan også få cyanidforgiftning, hvis du 
-indånder eller indtager cyanid, eller hvis cyanid kommer i kontakt med din hud.  </p>         </div>"""   
+indånder eller indtager cyanid, eller hvis cyanid kommer i kontakt med din hud.  </p> </div>"""   
           
 
              
@@ -354,7 +360,7 @@ anvendes sammen med anden medicin sidst i denne indlægsseddel (se 'Håndtering'
 amning. 
 Fortæl det til din læge så hurtigt som muligt, hvis du var gravid eller tror, du kan have været gravid 
 under behandlingen med Cyanokit. 
-Lægen vil anbefale, at du stopper amning efter behandling med Cyanokit. </p>         </div>"""   
+Lægen vil anbefale, at du stopper amning efter behandling med Cyanokit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cyanokit"
@@ -370,7 +376,7 @@ maksimale totale anbefalede dosis er 10 g for voksne og 140 mg/kg for børn, op 
 10 g. </p>
 <p>Der findes detaljerede oplysninger til din læge eller andet sundhedspersonale om, hvordan Cyanokit-
 infusionen klargøres og valg af dosis sidst i denne indlægsseddel (se 'Håndtering'). </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -464,7 +470,7 @@ laboratorieprøver. </p>
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cyanokit"
@@ -485,7 +491,7 @@ nedfrysnings-/optøningscyklusser (15 dage med temperaturer mellem -20 °C og 40
 <p>Opbevaringsforhold for det rekonstituerede lægemiddel: se 'Håndtering' til sidst i denne 
 indlægsseddel.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -619,7 +625,7 @@ Gem indlægssedlen. Du kan få brug for at læse den igen.
 Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide. 
  
 Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 

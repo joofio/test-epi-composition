@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Elfabrio </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ affect many parts of the body. In patients with Fabry disease, a fat substance i
 cells of their body, and builds up in the walls of blood vessels which can cause organ failure. This fat 
 builds up in the cells of these patients because they do not have enough of an enzyme called  -
 galactosidase-A, the enzyme responsible for breaking it down Elfabrio is used long-term to 
-supplement or replace this enzyme in adult patients who have confirmed Fabry disease. </p>         </div>"""   
+supplement or replace this enzyme in adult patients who have confirmed Fabry disease. </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ Elfabrio may cause dizziness or vertigo. If you feel dizzy or vertigo on the day
 Elfabrio, do not to drive or use machines until you feel better. </p>
 <p>Elfabrio contains sodium 
 This medicine contains 48 mg sodium (main component of cooking/table salt) in each vial. This is 
-equivalent to 2% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 2% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elfabrio"
@@ -144,7 +147,7 @@ Fabry disease or other similar diseases and should only be given by a healthcare
 <p>The recommended dose is 1 mg/kg of body weight given once every two weeks.  </p>
 <p>Your doctor may advice that you can be treated at home provided you meet certain criteria. Please 
 contact your doctor if you would like to be treated at home. </p>
-<p>See information for healthcare professionals at the end of this package leaflet. </p>         </div>"""         
+<p>See information for healthcare professionals at the end of this package leaflet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -225,7 +228,7 @@ white blood cells in the urine, as tested in the laboratory
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elfabrio"
@@ -241,7 +244,7 @@ solution should be stored for no longer than 24 hours in a refrigerator (2  C-8 
 8 hours at room temperature (below 25  C). </p>
 <p>Do not use this medicine if you notice particles or discolouration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -333,7 +336,7 @@ Tel: + 43 1 4073United Kingdom (Northern Ireland)
 Chiesi Farmaceutici S.p.A. 
 Tel: + 39 0521 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -372,7 +375,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -381,7 +386,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -398,7 +404,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -413,7 +419,7 @@ sygdom fjernes et fedtstof ikke fra kroppens celler, og det ophobes i blodkarren
 forårsage organsvigt. Dette fedt ophobes i cellerne hos disse patienter, fordi de ikke har nok af et 
 enzym kaldet α-galactosidase-A, hvilket er det enzym, der er ansvarligt for at nedbryde det. Elfabrio er 
 til langvarig brug for at supplere eller erstatte dette enzym hos voksne patienter, der har bekræftet 
-Fabrys sygdom. </p>         </div>"""   
+Fabrys sygdom. </p> </div>"""   
           
 
              
@@ -482,7 +488,7 @@ bedre. </p>
 <p>Elfabrio indeholder natrium 
 Dette lægemiddel indeholder 48 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 2 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elfabrio"
@@ -494,7 +500,7 @@ sygdom eller andre lignende sygdomme, og må kun gives af sundhedspersoner. </p>
 <p>Den anbefalede dosis er 1 mg/kg legemsvægt, der gives én gang hver 2. uge. </p>
 <p>Din læge kan rådgive dig om, at du kan blive behandlet hjemme, forudsat at du opfylder visse 
 kriterier. Kontakt venligst lægen, hvis du gerne vil behandles hjemme. </p>
-<p>Se oplysningerne til sundhedspersoner til sidst i denne indlægsseddel. </p>         </div>"""         
+<p>Se oplysningerne til sundhedspersoner til sidst i denne indlægsseddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -680,7 +686,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elfabrio"
@@ -696,7 +702,7 @@ den fortyndede opløsning ikke opbevares længere end 24 timer i køleskab (2 °
 ved stuetemperatur (under 25 °C), </p>
 <p>Brug ikke lægemidlet, hvis du bemærker partikler eller misfarvning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -860,7 +866,7 @@ Må IKKE injiceres i luftrummet i infusionsposen.
 Vend forsigtigt infusionsposen rundt for at blande opløsningen, så det undgås at ryste kraftigt og 
 hvirvle rundt. 
 Den fortyndede opløsning skal administreres med et in-line filter på 0,2 μm med lav 
-proteinbinding. </p>         </div>"""      
+proteinbinding. </p> </div>"""      
 
 
 
@@ -899,7 +905,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -908,7 +916,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -925,7 +934,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Elfabrio </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -940,7 +949,7 @@ determinada substância gorda não é removida das células do organismo e acumu
 vasos sanguíneos, o que pode causar falência de órgãos. Esta gordura acumula-se nas células destes 
 doentes por não terem quantidade suficiente de uma enzima chamada α-galactosidase-A, que é a 
 enzima responsável pela degradação dessa substância. Elfabrio é utilizado a longo prazo para 
-suplementar ou substituir esta enzima em adultos com doença de Fabry confirmada. </p>         </div>"""   
+suplementar ou substituir esta enzima em adultos com doença de Fabry confirmada. </p> </div>"""   
           
 
              
@@ -1011,7 +1020,7 @@ Elfabrio, não conduza ou utilize máquinas até se sentir melhor. </p>
 <p>Elfabrio contém sódio 
 Este medicamento contém 48 mg de sódio (principal componente de sal de cozinha/sal de mesa) em 
 cada frasco para injetáveis. Isto é equivalente a 2% da ingestão diária máxima de sódio recomendada 
-na dieta para um adulto. </p>         </div>"""   
+na dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar elfabrio"
@@ -1024,7 +1033,7 @@ por um profissional de saúde. </p>
 <p>A dose recomendada é de 1 mg/kg de peso corporal administrada uma vez a cada duas semanas. </p>
 <p>O seu médico poderá sugerir que pode ser tratado em casa, desde que cumpra determinados critérios. 
 Queira contactar o seu médico se gostaria de ser tratado em casa. </p>
-<p>Consulte a informação para profissionais de saúde no fim deste folheto informativo. </p>         </div>"""         
+<p>Consulte a informação para profissionais de saúde no fim deste folheto informativo. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1211,7 +1220,7 @@ aumentado, presença de glóbulos brancos na urina, determinados por análises d
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar elfabrio"
@@ -1228,7 +1237,7 @@ durante, no máximo, 8 horas à temperatura ambiente (inferior a 25°C). </p>
 <p>Não utilize este medicamento se verificar a presença de partículas ou de descoloração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1348,7 +1357,7 @@ Chiesi Farmaceutici S.p.A.
 Tel: + 39 0521 2 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kengrexal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ artery disease) and you need a procedure (called a percutaneous coronary interve
 remove the blockage. During this procedure you may have a stent inserted in your blood vessel to help 
 to keep it open. Using Kengrexal reduces the risk that this procedure will cause a clot to form and 
 block the blood vessels again. </p>
-<p>Kengrexal is only for use in adults. </p>         </div>"""   
+<p>Kengrexal is only for use in adults. </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ disorder, you must not receive this medicine. Patients with HFI cannot break dow
 may cause serious side effects. 
 You must tell your doctor before receiving this medicine if you have HFI. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kengrexal"
@@ -151,7 +154,7 @@ doctor will decide if you will need to be treated for longer periods. </p>
 <p>If you use more Kengrexal than you should 
 This medicine will be given to you by a healthcare professional. Your doctor will decide how to treat 
 you, including stopping the medicine and monitoring for signs of side effects. 
-If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ vessel walls,
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. 
 You can also report side effects directly via the national reporting system listed in Appendix V. By 
-reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kengrexal"
@@ -216,7 +219,7 @@ expiry date refers to the last day of that month. </p>
 not refrigerate. </p>
 <p>Diluted solution: From a microbiological point of view, unless the method of reconstitution/dilution 
 precludes the risk of microbiological contamination, the product should be used immediately. If not 
-used immediately, in-use storage times and conditions prior to use are the responsibility of the user. </p>         </div>"""      
+used immediately, in-use storage times and conditions prior to use are the responsibility of the user. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -307,7 +310,7 @@ Tel: +  43 1 4073United Kingdom (Northern Ireland)
 Chiesi Farmaceutici S.p.A. 
 Tel: + 39 0521 2This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -346,7 +349,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -355,7 +360,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -370,7 +376,7 @@ Usage: #inline
 3. Sådan får du Kengrexal
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -390,7 +396,7 @@ hjertesygdom), og du skal have udført en procedure (PCI - perkutan koronar inte
 forsnævringen. Du kan under denne procedure få indført et lille metalgitter (en stent) i pulsåren, der 
 hjælper med at holde den åben. Brug af Kengrexal reducerer risikoen for, at denne procedure 
 forårsager, at der dannes en blodprop, der igen blokerer blodårerne.
-Kengrexal er kun beregnet til voksne.</p>         </div>"""   
+Kengrexal er kun beregnet til voksne.</p> </div>"""   
           
 
              
@@ -452,7 +458,7 @@ lidelse, må du ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde 
 medføre alvorlige bivirkninger.
 Inden du får dette lægemiddel, skal du fortælle din læge, hvis du har HFI.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige natrium-frit.</p>         </div>"""   
+væsentlige natrium-frit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kengrexal"
@@ -473,7 +479,7 @@ bestemmer, om du behøver at blive behandlet i længere tid.
 Hvis du har fået for meget Kengrexal
 Du får denne medicin af sundhedspersonale. Din læge beslutter, hvordan du skal behandles, og vil 
 bl.a. stoppe lægemidlet og overvåge dig for tegn på bivirkninger.
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -547,7 +553,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kengrexal"
@@ -562,7 +568,7 @@ Rekonstitueret opløsning: Pulveret skal rekonstitueres straks inden fortynding 
 opbevares i køleskab.
 Fortyndet opløsning: Ud fra et mikrobiologisk synspunkt skal produktet anvendes straks, medmindre 
 rekonstitutions-/fortyndingsmetoden udelukker risiko for mikrobiologisk kontaminering. Hvis det ikke 
-anvendes straks, er opbevaringstid og -forhold før anvendelse brugerens eget ansvar.</p>         </div>"""      
+anvendes straks, er opbevaringstid og -forhold før anvendelse brugerens eget ansvar.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -714,7 +720,7 @@ Kengrexal administreres som en vægtbaseret behandling, der består af en intrav
 efterfulgt af en intravenøs infusion. Bolus og infusion skal administreres fra infusionsvæsken, 
 opløsning.
 Denne opløsning genererer en koncentration på 200 mikrogram/ml og bør være tilstrækkelig til mindst 
-2 timers dosering efter behov. Patienter, som vejer 100 kg og derover, skal have mindst 2 poser.</p>         </div>"""      
+2 timers dosering efter behov. Patienter, som vejer 100 kg og derover, skal have mindst 2 poser.</p> </div>"""      
 
 
 

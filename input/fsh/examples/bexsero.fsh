@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Bexsero </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ by the Neisseria meningitidis group B bacteria. These bacteria can cause serious
 life-threatening, infections such as meningitis (inflammation of the covering of the brain and spinal 
 cord) and sepsis (blood poisoning). </p>
 <p>The vaccine works by specifically stimulating the body s natural defense system of the vaccinated 
-person. This results in protection against the disease. </p>         </div>"""   
+person. This results in protection against the disease. </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ Bexsero if you are at risk of exposure to meningococcal infection. </p>
 effects mentioned under section 4  Possible side effects  may temporarily affect the ability to drive or 
 use machines. </p>
 <p>Bexsero contains sodium chloride </p>
-<p>This medicinal product contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free . </p>         </div>"""   
+<p>This medicinal product contains less than 1 mmol sodium (23 mg) per dose, i.e. essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bexsero"
@@ -188,7 +191,7 @@ You may receive an additional injection (booster). </p>
 <p>Adults above 50 years of age </p>
 <p>There are no data in adults above 50 years of age. Ask your doctor for advice whether it is beneficial 
 for you to receive Bexsero. </p>
-<p>If you have any further questions on Bexsero, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on Bexsero, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ nature. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bexsero"
@@ -253,7 +256,7 @@ label after EXP. The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2  C   8  C). Do not freeze. 
 Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor or nurse how 
-to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -371,7 +374,7 @@ Tel: +371 80205United Kingdom (Northern Ireland)
 GSK Vaccines S.r.l. 
 Tel: +44(0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -410,7 +413,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -419,7 +424,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -436,7 +442,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ gruppe B. </p>
 forårsaget af bakterien Neisseria meningitidis gruppe B. Denne bakterie kan forårsage alvorlige og til tider 
 livstruende infektioner som meningitis (betændelse i hjernehinden og rygmarven) og sepsis (blodforgiftning). </p>
 <p>Vaccinen virker ved specifikt at stimulere kroppens naturlige forsvarssystem hos den vaccinerede 
-person. Dette resulterer i beskyttelse mod sygdommen. </p>         </div>"""   
+person. Dette resulterer i beskyttelse mod sygdommen. </p> </div>"""   
           
 
              
@@ -521,7 +527,7 @@ Visse af de virkninger, der er omtalt i punkt 4 "Bivirkninger", kan dog midlerti
 at føre motorkøretøj og betjene maskiner. </p>
 <p>Bexsero indeholder natriumchlorid </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bexsero"
@@ -563,7 +569,7 @@ Du kan få en ekstra injektion (booster). </p>
 <p>Voksne på over 50 år </p>
 <p>Der foreligger ingen data for voksne på over 50 år. Spørg lægen til råds med hensyn til om det kan 
 være en fordel for dig at få Bexsero. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om vedrørende Bexsero. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om vedrørende Bexsero. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -618,7 +624,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V.  </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bexsero"
@@ -631,7 +637,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses. 
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -797,7 +803,7 @@ Stempel
 Cylinder 
 Hætte 
 Luer Lock Adapter 
-Nålebase </p>         </div>"""      
+Nålebase </p> </div>"""      
 
 
 

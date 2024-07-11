@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store BIMERVAX    </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Usage: #inline
 COVID-19 vaccine. </p>
 <p>The vaccine stimulates the immune system (the body s natural defences) to produce specific 
 antibodies that work against the virus, giving protection against COVID-19. None of the ingredients in 
-this vaccine can cause COVID-19. </p>         </div>"""   
+this vaccine can cause COVID-19. </p> </div>"""   
           
 
              
@@ -122,7 +125,7 @@ before you drive or use machines. </p>
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free .  </p>
 <p>This vaccine contains less than 1 mmol potassium (39 milligrams) per 0.5 mL dose, that is to say, 
-essentially  potassium-free . </p>         </div>"""   
+essentially  potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bimervax"
@@ -134,7 +137,7 @@ essentially  potassium-free . </p>         </div>"""
 vaccination series with mRNA COVID-19 vaccine. </p>
 <p>After the injection, your doctor, pharmacist or nurse will watch over you for around 15 minutes to 
 monitor for signs of an allergic reaction. </p>
-<p>If you have any further questions on the use of BIMERVAX, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of BIMERVAX, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -195,7 +198,7 @@ palpitations or chest pain </p>
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V and include batch/Lot number if available. By reporting side effects, you 
-can help provide more information on the safety of this vaccine. </p>         </div>"""      
+can help provide more information on the safety of this vaccine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bimervax"
@@ -213,7 +216,7 @@ After first puncture, store at 2  C   8  C, use within 6 hours.
 Information on handling are described in the section intended for healthcare professionals at the end of 
 the package leaflet. 
 Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements.  </p>         </div>"""      
+requirements.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ Avda. la Selva, 17170 Amer (Girona)
 SPAIN </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -288,7 +291,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -297,7 +302,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -314,7 +320,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -328,7 +334,7 @@ virussen. </p>
 vaccine. </p>
 <p>Vaccinen stimulerer immunsystemet (kroppens naturlige forsvar) til at danne specifikke antistoffer, 
 der bekæmper virussen og yder beskyttelse mod COVID-19. Ingen af indholdsstofferne i denne 
-vaccine kan forårsage COVID-19. </p>         </div>"""   
+vaccine kan forårsage COVID-19. </p> </div>"""   
           
 
              
@@ -374,7 +380,7 @@ fører motorkøretøj eller betjener maskiner. </p>
 Denne vaccine indeholder mindre end 1 mmol natrium (23 mg) pr. dosisenhed, dvs. den i det 
 væsentlige er “natriumfri".  </p>
 <p>Denne vaccine indeholder mindre end 1 mmol kalium (39 mg) pr. 0,5 ml dosisenhed, dvs. den er i det 
-væsentlige “kaliumfri". </p>         </div>"""   
+væsentlige “kaliumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bimervax"
@@ -386,7 +392,7 @@ væsentlige “kaliumfri". </p>         </div>"""
 vaccinationsserie med mRNA COVID-19-vaccine eller efter tidligere BIMERVAX boosterdosis. </p>
 <p>Efter injektionen vil lægen, apotekspersonalet eller sygeplejersken overvåge dig i cirka 15 minutter for 
 tegn på en allergisk reaktion. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -534,7 +540,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V, og inkludere batch-/lotnummer, hvis det er tilgængeligt. Ved at indrapportere 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af denne vaccine. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af denne vaccine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bimervax"
@@ -550,7 +556,7 @@ håndtering samt bortskaffelse er beregnet til sundhedspersonale. </p>
 beskytte mod lys. 
 Opbevar efter første punktur af flerdosishætteglaset ved 2 °C - 8 °C, anvend inden for  6 timer. </p>
 <p>Oplysninger om håndtering er beskrevet i afsnittet til sundhedspersonale sidst i indlægssedlen. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer </p> </div>"""      
         
         
 * section[=].section[+]
@@ -688,7 +694,7 @@ efter der er blevet udtaget 10 doser. </p>
 <p>Bortskaffelse:  </p>
 <ul>
 <li>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.  </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

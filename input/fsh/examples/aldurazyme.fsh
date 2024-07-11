@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Aldurazyme </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ which breaks down specific substances (glycosaminoglycans) in the body. As a res
 substances do not get broken down and processed by the body as they should. They accumulate in 
 many tissues in the body, which causes the symptoms of MPS I. </p>
 <p>Aldurazyme is an artificial enzyme called laronidase. This can replace the natural enzyme which is 
-lacking in MPS I disease. </p>         </div>"""   
+lacking in MPS I disease. </p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ your doctor or pharmacist for advice before using this medicine. </p>
 The effects on the ability to drive and to use machines have not been studied. </p>
 <p>Aldurazyme contains sodium 
 This medicine contains 30 mg sodium (main component of cooking/table salt) per vial. This is 
-equivalent to 1.5% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 1.5% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aldurazyme"
@@ -157,7 +160,7 @@ occur. Receiving an excessively fast infusion of Aldurazyme may cause nausea, ab
 headache, dizziness and difficulty breathing (dyspnoea). In such situations, the infusion should be 
 stopped or the infusion rate slowed down immediately. Your doctor will decide if further intervention 
 is required. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -239,7 +242,7 @@ damage
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aldurazyme"
@@ -252,7 +255,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>Unopened vials: 
 Store in a refrigerator (2 C   8 C). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ Tel: +371 6 616 47 Lietuva
 Swixx Biopharma UAB 
 Tel. +370 5 236 91 This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -377,7 +380,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -386,7 +391,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -401,7 +407,7 @@ Usage: #inline
 3. Sådan får du Aldurazyme 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -416,7 +422,7 @@ som nedbryder bestemte stoffer (glykosaminoglycaner) i kroppen. Som følge deraf
 ikke nedbrudt og bearbejdet af kroppen, som de ellers skulle. De samler sig i vævet i store dele af 
 kroppen, hvilket giver symptomerne på MPS I. </p>
 <p>Aldurazyme er et kunstigt enzym, der kaldes for laronidase. Det kan erstatte det naturlige enzym, som 
-mangler i forbindelse med sygdommen MPS I. </p>         </div>"""   
+mangler i forbindelse med sygdommen MPS I. </p> </div>"""   
           
 
              
@@ -471,7 +477,7 @@ Virkningen på evnen til at køre bil eller betjene maskiner er ikke undersøgt.
 <p>Aldurazyme indeholder natrium 
 Dette lægemiddel indeholder 30 mg natrium (hoved komponent af madlavnings-/bordsalt) pr. 
 hætteglas. Dette svarer til 1,5 % af den anbefalede maximale daglige indtagelse af natrium for en 
-voksen.  </p>         </div>"""   
+voksen.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aldurazyme"
@@ -500,7 +506,7 @@ bivirkninger. Modtagelse af en for hurtig infusion af Aldurazyme kan medføre kv
 hovedpine, svimmelhed og åndedrætsbesvær (dyspnø). I sådanne situationer bør infusionen afbrydes 
 eller infusionshastigheden nedsættes øjeblikkeligt. Din læge vil beslutte om andre indgreb er 
 nødvendige. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -690,7 +696,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aldurazyme"
@@ -703,7 +709,7 @@ sidste dag i den nævnte måned. </p>
 <p>Uåbnede hætteglas: 
 Opbevares i køleskab (2 °C - 8 °C). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -868,7 +874,7 @@ infusion. </p>
 partikler bør anvendes.  </p>
 </li>
 </ul>
-<p>Ikke anvendte lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer.  </p>         </div>"""      
+<p>Ikke anvendte lægemidler samt affald heraf bør destrueres i henhold til lokale retningslinjer.  </p> </div>"""      
 
 
 

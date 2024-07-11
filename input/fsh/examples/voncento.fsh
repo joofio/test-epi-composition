@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Voncento</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ Voncento will temporarily repair the blood clotting mechanisms.
 As Voncento contains both FVIII and VWF, it is important to know which factor you most need. If 
 you have haemophilia A your doctor will prescribe you Voncento with the number of units of 
 FVIII specified. If you have VWD your doctor will prescribe you Voncento with the number of 
-units of VWF specified.</p>         </div>"""   
+units of VWF specified.</p> </div>"""   
           
 
              
@@ -155,7 +158,7 @@ The presentations 250 IU FVIII /600 IU VWF (5 ml solvent) and 500 IU FVIII /1200
 solvent) contain up to 14.75 mg sodium per vial (main component of cooking/table salt). This is 
 equivalent to 0.74 % of the recommended maximum daily dietary intake of sodium for an adult. 
 The presentations 500 IU FVIII /1200 IU VWF (10 ml solvent) and 1000 IU FVIII /2400 IU VWF (ml solvent) contain up to 29.50 mg  sodium per vial (main component of cooking/table salt). This is 
-equivalent to 1.48% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+equivalent to 1.48% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take voncento"
@@ -270,7 +273,7 @@ any further.
 Check yourself for any side effects that might happen straight away. If you have any side effects that 
 might be related to the administration of Voncento, the injection or infusion should be stopped (see 
 also section 2).
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -313,7 +316,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store voncento"
@@ -331,7 +334,7 @@ to use are the responsibility of the user.</p>
 <p>Keep the vial in the outer carton in order to protect from light.</p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
-environment.</p>         </div>"""      
+environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -453,7 +456,7 @@ Tel: +371 6 7450United Kingdom (Northern Ireland)
 CSL Behring GmbH
 Tel: +49 69 30517254 (DE)
 This leaflet was last revised in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -492,7 +495,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -501,7 +506,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -516,7 +522,7 @@ Usage: #inline
 3. Sådan skal du bruge Voncento
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -536,7 +542,7 @@ Da Voncento indeholder både FVIII og VWF, er det vigtigt at vide, hvilken fakto
 for. Hvis du har hæmofili A, vil din læge ordinere Voncento til dig med et bestemt antal enheder af 
 FVIII. Hvis du har von Willebrands sygdom, vil din læge ordinere Voncento til dig med et bestemt 
 antal enheder af VWF.
-43</p>         </div>"""   
+43</p> </div>"""   
           
 
              
@@ -625,7 +631,7 @@ svarer til 0,74 % af den anbefalede maximale daglige indtagelse af natrium for e
 Styrker på 500 IE FVIII / 1200 IE VWF (10 ml solvens) og 1000 IE FVIII / 2400 IE VWF (10 ml 
 solvens) indeholder op til 29,50 mg natrium pr. hætteglas (hovedkomponent af madlavnings-
 /bordsalt). Dette svarer til 1,48 % af den anbefalede maximale daglige indtagelse af natrium for en 
-voksen.</p>         </div>"""   
+voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take voncento"
@@ -750,7 +756,7 @@ indgift af lægemidler). I så fald skal den allerede fortyndede opløsning af V
 yderligere.
 Vær opmærksom på, om der forekommer bivirkninger med det samme. Hvis du får bivirkninger, der 
 kan skyldes indgift af Voncento, skal du stoppe injektionen eller infusionen (se også punkt 2).
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -804,7 +810,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store voncento"
@@ -829,7 +835,7 @@ opbevaringstiderne efter anbrud og betingelserne før brug.
 Opbevar hætteglasset i den ydre karton for at beskytte mod lys.
 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1099,7 +1105,7 @@ derfor generelt de samme retningslinjer som hos voksne. Kortere dosisintervaller
 kan være nødvendige i nogle tilfælde. Administrationshyppigheden skal altid tilpasses den kliniske 
 virkning hos den enkelte patient.
 Ældre
-Dosisjustering er ikke nødvendig hos ældre.</p>         </div>"""      
+Dosisjustering er ikke nødvendig hos ældre.</p> </div>"""      
 
 
 
@@ -1138,7 +1144,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1147,7 +1155,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1162,7 +1171,7 @@ Usage: #inline
 3. Como utilizar Voncento 
 4. Efeitos indesejáveis possíveis
 5. Como conservar Voncento 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1184,7 +1193,7 @@ mecanismos de coagulação do sangue.
 Como o Voncento contém tanto o FVIII como o FVW, é importante saber qual o fator de que mais 
 necessita. Se tem Hemofilia A, o seu médico prescrever-lhe-á Voncento com o número de unidades de 
 FVIII especificado. Se tem DVW, o seu médico prescrever-lhe-á Voncento com o número de unidades 
-de FVW especificado.</p>         </div>"""   
+de FVW especificado.</p> </div>"""   
           
 
              
@@ -1282,7 +1291,7 @@ componente de sal de cozinha/sal de mesa). Isto é equivalente a 0,74% da ingest
 sódio recomendada na dieta para um adulto. 
 As apresentações de 500 UI de FVIII/1200 UI de FVW (10 ml de solvente) e 1000 UI de FVIII/2UI de FVW (10 ml de solvente) contêm até 29,50 mg de sódio por frasco para injetáveis (principal 
 componente de sal de cozinha/sal de mesa). Isto é equivalente a 1,48% da ingestão máxima diária de 
-sódio recomendada na dieta para um adulto.</p>         </div>"""   
+sódio recomendada na dieta para um adulto.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar voncento"
@@ -1430,7 +1439,7 @@ Verifique se não sente quaisquer efeitos secundários que podem surgir de imedi
 quaisquer efeitos secundários que possam estar relacionados com a administração de Voncento, a 
 injeção ou a perfusão deve ser interrompida (ver também a secção 2).
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1483,7 +1492,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar voncento"
@@ -1511,7 +1520,7 @@ Manter o frasco para injetáveis dentro da embalagem exterior para proteger da l
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
 proteger o ambiente.
-50</p>         </div>"""      
+50</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1662,7 +1671,7 @@ United Kingdom (Northern Ireland)
 CSL Behring GmbH
 Tel: +49 69 30517254 (DE)
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

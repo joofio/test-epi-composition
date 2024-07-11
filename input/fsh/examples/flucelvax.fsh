@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Flucelvax Tetra   </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ produce its own protection against the influenza virus. None of the ingredients 
 cause flu. </p>
 <p>Flucelvax Tetra is used to prevent flu in adults and children from 2 years of age. </p>
 <p>The vaccine targets four strains of influenza virus following the recommendations by the World 
-Health Organisation for the 2023/2024 SEASON. </p>         </div>"""   
+Health Organisation for the 2023/2024 SEASON. </p> </div>"""   
           
 
              
@@ -131,7 +134,7 @@ Flucelvax Tetra has no or negligible effect on your ability to drive and use mac
 <p>Flucelvax Tetra contains sodium chloride and potassium chloride 
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free . 
-This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium-free . </p>         </div>"""   
+This vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take flucelvax"
@@ -144,7 +147,7 @@ children depending on the muscle size. </p>
 <p>Adults and children from 2 years of age: </p>
 <p>One dose of 0.5 ml </p>
 <p>If your child is younger than 9 years of age and has not been previously vaccinated against flu, a 
-second dose should be given after at least 4 weeks. </p>         </div>"""         
+second dose should be given after at least 4 weeks. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -196,7 +199,7 @@ rash  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store flucelvax"
@@ -210,7 +213,7 @@ expiry date refers to the last day of that month. </p>
 Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
 <p>. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -310,7 +313,7 @@ Seqirus Netherlands B.V. Nederl nderna
 Tel: +31 (0) 20 204 6Seqirus Netherlands B.V. N derlande 
 Tel: +31 (0) 20 204 6This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -349,7 +352,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -358,7 +363,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -375,7 +381,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -389,7 +395,7 @@ Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvarssyst
 beskyttelse mod influenzavirus. Ingen af indholdsstofferne i vaccinen kan forårsage influenza. </p>
 <p>Flucelvax Tetra anvendes til at forebygge influenza hos voksne og børn fra 2 år. </p>
 <p>Vaccinen er rettet mod fire influenzavirusstammer efter Verdenssundhedsorganisationens (WHO’s) 
-anbefalinger for SÆSONEN 2023/2024. </p>         </div>"""   
+anbefalinger for SÆSONEN 2023/2024. </p> </div>"""   
           
 
              
@@ -463,7 +469,7 @@ maskiner. </p>
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
 natriumfri. 
 Denne vaccine indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. den er i det væsentlige 
-kaliumfri. </p>         </div>"""   
+kaliumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take flucelvax"
@@ -476,7 +482,7 @@ musklens størrelse. </p>
 <p>Voksne og børn fra 2 år: </p>
 <p>Én dosis på 0,5 ml. </p>
 <p>Hvis dit barn er under 9 år gammelt og ikke tidligere er blevet vaccineret mod influenza, bør der gives 
-en dosis nummer 2 efter mindst 4 uger. </p>         </div>"""         
+en dosis nummer 2 efter mindst 4 uger. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -537,7 +543,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store flucelvax"
@@ -550,7 +556,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Opbevares i køleskab (2 °C til 8 °C).Må ikke nedfryses. </p>
 <p>Opbevar den fyldte injektionssprøjte i den ydre æske for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -695,7 +701,7 @@ sjælden anafylaktisk reaktion efter administration af vaccinen. </p>
 suspension. </p>
 <p>Vaccinen skal inspiceres visuelt for partikler og misfarvning før administration. Vaccinen må ikke 
 administreres, hvis der observeres urenheder i form af partikler og/eller variation i fysisk 
-beskaffenhed. </p>         </div>"""      
+beskaffenhed. </p> </div>"""      
 
 
 
@@ -734,7 +740,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -743,7 +751,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -760,7 +769,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Flucelvax Tetra  </li>
 <li>Conteúdo da embalagem e outras informações  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -775,7 +784,7 @@ produzir a sua própria proteção contra o vírus da gripe. Nenhum dos componen
 causar a gripe. </p>
 <p>Flucelvax Tetra é utilizado para prevenir a gripe em adultos e crianças a partir dos 2 anos de idade. </p>
 <p>A vacina tem como alvo quatro estirpes do vírus da gripe e segue as recomendações da Organização 
-Mundial de Saúde para a ÉPOCA de 2023/2024.  </p>         </div>"""   
+Mundial de Saúde para a ÉPOCA de 2023/2024.  </p> </div>"""   
           
 
              
@@ -850,7 +859,7 @@ desprezíveis. </p>
 Esta vacina contém menos do que 1 mmol (23 mg) de sódio por unidade de dose, ou seja, 
 é praticamente “isento de sódio". 
 Esta vacina contém menos do que 1 mmol (39 mg) de potássio por unidade de dose, ou seja, 
-é praticamente “isento de potássio". </p>         </div>"""   
+é praticamente “isento de potássio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar flucelvax"
@@ -863,7 +872,7 @@ pequenas, conforme o tamanho do músculo. </p>
 <p>Adultos e crianças a partir dos 2 anos de idade: </p>
 <p>Uma dose de 0,5 ml </p>
 <p>Se a sua criança tiver menos de 9 anos de idade e não tiver sido anteriormente vacinada contra a gripe, 
-uma segunda dose deverá ser administrada após, pelo menos, 4 semanas. </p>         </div>"""         
+uma segunda dose deverá ser administrada após, pelo menos, 4 semanas. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -961,7 +970,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no </p>
 <p>Apêndice V.Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar flucelvax"
@@ -975,7 +984,7 @@ EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 Manter a seringa pré-cheia dentro da embalagem exterior para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1111,7 +1120,7 @@ Seqirus Netherlands B.V. Nederländerna
 Tel: +31 (0) 20 204 6 </p>
 <p>Este folheto foi revisto pela última vez em. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

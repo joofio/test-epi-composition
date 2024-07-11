@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Givlaari </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ hepatic porphyria include high blood pressure, chronic kidney disease and liver 
 <p>How Givlaari works </p>
 <p>This medicine works by lowering the amount of an enzyme, called ALAS1, that controls how much 
 ALA and PBG are made by the liver. By lowering ALAS1, the liver makes less ALA and PBG. This 
-can help to reduce the effects of this illness. </p>         </div>"""   
+can help to reduce the effects of this illness. </p> </div>"""   
           
 
              
@@ -145,7 +148,7 @@ your child and benefit of therapy for you. </p>
 <p>This medicine is unlikely to have any effect on your ability to drive or use machines. </p>
 <p>Givlaari contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take givlaari"
@@ -169,7 +172,7 @@ need to be used and more than one subcutaneous injection may need to be given. <
 for side effects. </p>
 <p>If you miss your dose of Givlaari </p>
 <p>If you have missed an appointment for your injection, talk to your doctor or nurse as soon as possible. 
-If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -208,7 +211,7 @@ eyes, mouth or face, difficulty breathing, itching.
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store givlaari"
@@ -222,7 +225,7 @@ expiry date refers to the last day of that month. </p>
 <p>Do not store above 25  C. </p>
 <p>Keep vial in the outer carton to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Your doctor or nurse will throw 
-away any medicines that are no longer being used. These measures will help protect the environment. </p>         </div>"""      
+away any medicines that are no longer being used. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -334,7 +337,7 @@ Alnylam Netherlands B.V.
 Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -373,7 +376,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -382,7 +387,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -399,7 +405,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -423,7 +429,7 @@ personer med akut hepatisk porfyri, inkluderer højt blodtryk, kronisk nyresygdo
 <p>Sådan virker Givlaari </p>
 <p>Lægemidlet virker ved at reducere mængden af et enzym kaldet ‘ALAS1’ - der kontrollerer, hvor 
 meget ALA og PBG leveren producerer. Ved at reducere ALAS1, producerer leveren mindre ALA og 
-PBG. Dette kan hjælpe med at reducere sygdommens virkninger. </p>         </div>"""   
+PBG. Dette kan hjælpe med at reducere sygdommens virkninger. </p> </div>"""   
           
 
              
@@ -481,7 +487,7 @@ terapeutiske fordele for dig. </p>
 <p>Deette lægemiddel påvirker sandsynligvis ikke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Givlaari indeholder natrium </p>
 <p>Lægemidlet indeholder mindre end 1 mmol natrium (23 mg) pr. ml og er således derfor stort set 
-‘natriumfrit’. </p>         </div>"""   
+‘natriumfrit’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take givlaari"
@@ -514,7 +520,7 @@ tjekke dig for bivirkninger. </p>
 <p>Hvis du glemmer at få en dosis af Givlaari </p>
 <p>Kontakt din læge eller sygeplejerske så hurtigt som muligt, hvis du har glemt en aftale om en 
 injektion. 
-Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -589,7 +595,7 @@ hævede øjne, hævet mund eller ansigt, vejrtrækningsbesvær, kløe. </p>
 bivirkninger, der ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale system anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store givlaari"
@@ -603,7 +609,7 @@ dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25 °C. </p>
 <p>Opbevar hætteglasset i yderpakningen for at beskytte mod lys. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden. Din læge eller 
-sygeplejersken vil bortskaffe medicinrester. </p>         </div>"""      
+sygeplejersken vil bortskaffe medicinrester. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -806,7 +812,7 @@ henhold til lokale retningslinjer. </p>
 <p>Brug kun sprøjter, overføringskanyler og injektionskanyler én gang. Kassér alle brugte sprøjter 
 og kanyler i henhold til lokale retningslinjer. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -845,7 +851,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -854,7 +862,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -869,7 +878,7 @@ Usage: #inline
 3. Como Givlaari é administrado 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Givlaari 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -895,7 +904,7 @@ hipertensão arterial, doença renal crónica e doença no fígado. </p>
 <p>Como funciona Givlaari </p>
 <p>Este medicamento funciona ao reduzir a quantidade de uma enzima denominada ALAS1 que controla 
 a quantidade de ALA e PBG produzida pelo fígado. Ao reduzir a ALAS1, o fígado produz menos 
-ALA e PBG. Esta ação pode ajudar a reduzir os efeitos desta doença. </p>         </div>"""   
+ALA e PBG. Esta ação pode ajudar a reduzir os efeitos desta doença. </p> </div>"""   
           
 
              
@@ -961,7 +970,7 @@ amamentação para o bebé e o benefício da terapêutica para si. </p>
 utilização de máquinas. </p>
 <p>Givlaari contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por ml ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar givlaari"
@@ -996,7 +1005,7 @@ medicamento (sobredosagem), este irá examiná-lo quanto à presença de efeitos
 <p>Caso se tenha esquecido da sua dose de Givlaari </p>
 <p>Caso tenha faltado a uma marcação para a sua injeção, fale com o seu médico ou enfermeiro o quanto 
 antes. 
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1071,7 +1080,7 @@ inchaço dos olhos, boca ou face, dificuldade em respirar e comichão. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar givlaari"
@@ -1087,7 +1096,7 @@ imediatamente. </p>
 <p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. O seu médico ou 
 enfermeiro irá deitar fora os medicamentos que já não serão utilizados. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1208,7 +1217,7 @@ Alnylam Netherlands B.V.
 Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

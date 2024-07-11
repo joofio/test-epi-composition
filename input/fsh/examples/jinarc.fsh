@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Jinarc </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ of the disease and increases urine production. </p>
 (ADPKD). This disease causes growth of fluid-filled cysts in the kidneys, which put pressure on 
 surrounding tissues and reduce kidney function, possibly leading to kidney failure. Jinarc is used to treat 
 ADPKD in adults with chronic kidney disease (CKD) stages 1 to 4 with evidence of rapidly progressing 
-disease. </p>         </div>"""   
+disease. </p> </div>"""   
           
 
              
@@ -189,7 +192,7 @@ Some people may feel dizzy, weak or tired after being given Jinarc. If this happ
 or use any tools or machines. </p>
 <p>Jinarc contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jinarc"
@@ -232,7 +235,7 @@ double dose to make up for forgotten individual doses. </p>
 If you stop taking this medicine your kidney cysts may grow as fast as they did before you started 
 treatment with Jinarc. Therefore, you should only stop taking this medicine if you notice side effects 
 requiring urgent medical attention (see section 4) or if your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -296,7 +299,7 @@ with fever occur. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jinarc"
@@ -308,7 +311,7 @@ medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light and moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -428,7 +431,7 @@ Tel: +31 (0) 20 85 46 United Kingdom (Northern Ireland)
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -467,7 +470,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -476,7 +481,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -491,7 +497,7 @@ Usage: #inline
 3. Sådan skal du tage Jinarc 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -507,7 +513,7 @@ sygdomssymptomer og øger urinproduktionen. </p>
 polycystisk nyresygdom" (ADPKD). Denne sygdom forårsager vækst af væskefyldte cyster i nyrerne, 
 trykker på det omgivende væv og nedsætter nyrefunktionen, hvilket muligvis kan medføre nyresvigt. 
 Jinarc anvendes til at behandle ADPKD hos voksne med kronisk nyresygdom (CKD) i stadium 1 til 
-4 med tegn på stor sygdomsaktivitet. </p>         </div>"""   
+4 med tegn på stor sygdomsaktivitet. </p> </div>"""   
           
 
              
@@ -722,7 +728,7 @@ motorcykel og lad være med at cykle eller arbejde med værktøj eller maskiner,
 for dig. </p>
 <p>Jinarc indeholder lactose 
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jinarc"
@@ -765,7 +771,7 @@ Hvis du holder op med at tage dette lægemiddel, kan dine cyster vokse lige så 
 før du begyndte at blive behandlet med Jinarc. Derfor bør du kun holde op med at tage dette 
 lægemiddel, hvis du får bivirkninger, der kræver akut lægehjælp (se pkt. 4) eller hvis din læge har 
 sagt, at du skal stoppe. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -914,7 +920,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jinarc"
@@ -926,7 +932,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod lys og fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1064,7 +1070,7 @@ Tel: +31 (0) 20 85 46<br />
 Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1103,7 +1109,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1112,7 +1120,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1127,7 +1136,7 @@ Usage: #inline
 3. Como tomar Jinarc 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Jinarc 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1143,7 +1152,7 @@ sintomas da doença e aumenta a produção de urina. </p>
 autossómica dominante" (DPRAD). Esta doença causa o crescimento de quistos cheios de líquido nos 
 rins, que exercem pressão sobre os tecidos circundantes e reduzem a função renal, conduzindo 
 eventualmente à insuficiência renal. Jinarc é utilizado para tratar a DPRAD em adultos com doença 
-renal crónica (DRC) em estádios 1 a 4 com indícios de doença em rápida progressão. </p>         </div>"""   
+renal crónica (DRC) em estádios 1 a 4 com indícios de doença em rápida progressão. </p> </div>"""   
           
 
              
@@ -1365,7 +1374,7 @@ Algumas pessoas podem sentir tonturas, fraqueza ou cansaço depois de tomarem Ji
 verificar, não conduza nem utilize quaisquer ferramentas ou máquinas. </p>
 <p>Jinarc contém lactose 
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar 
-este medicamento. </p>         </div>"""   
+este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar jinarc"
@@ -1410,7 +1419,7 @@ de iniciar o tratamento com Jinarc. Por conseguinte, só deve parar de tomar est
 efeitos indesejáveis que necessitem de cuidados médicos urgentes (ver secção 4) ou por indicação do 
 seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1561,7 +1570,7 @@ no sangue. </li>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar os 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar jinarc"
@@ -1574,7 +1583,7 @@ carteira e no blister, após VAL. O prazo de validade corresponde ao último dia
 <p>Conservar na embalagem de origem para proteger da luz e da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1715,7 +1724,7 @@ Otsuka Pharmaceutical Netherlands B.V.
 Tel: +31 (0) 20 85 46<br />
 Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

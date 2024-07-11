@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store DARZALEX</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ to attach to specific cancer cells in your body, so that your immune system can 
 cells.
 What DARZALEX is used for
 DARZALEX is used in adults 18 years or older, who have a type of cancer called  multiple 
-myeloma . This is a cancer of your bone marrow.</p>         </div>"""   
+myeloma . This is a cancer of your bone marrow.</p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ DARZALEX contains sorbitol
 Sorbitol is a source of fructose. If you have hereditary fructose intolerance (HFI), a rare genetic 
 disorder, you must not receive this medicine. Patients with HFI cannot break down fructose, which 
 may cause serious side effects.
-You must tell your doctor before receiving this medicine if you have HFI.</p>         </div>"""   
+You must tell your doctor before receiving this medicine if you have HFI.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take darzalex"
@@ -191,7 +194,7 @@ This medicine will be given by your doctor or nurse. In the unlikely event that 
 If you forget your appointment to have DARZALEX
 It is very important to go to all your appointments to make sure your treatment works. If you miss an 
 appointment, make another one as soon as possible.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -266,7 +269,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store darzalex"
@@ -281,7 +284,7 @@ Store in a refrigerator (2  C-8  C). Do not freeze.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
-environment.</p>         </div>"""      
+environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -392,7 +395,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in MM/YYYY.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -431,7 +434,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -440,7 +445,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -455,7 +461,7 @@ Usage: #inline
 3. Sådan får du DARZALEX
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -470,7 +476,7 @@ er designet til at genkende og koble sig fast bestemte steder i kroppen. Daratum
 koble sig fast på bestemte kræftceller i din krop, så dit immunsystem kan ødelægge kræftcellerne.
 Hvad anvendes DARZALEX til
 DARZALEX anvendes til voksne på 18 år og derover, som har en type kræft, der hedder 
-myelomatose. Det er kræft i knoglemarven.</p>         </div>"""   
+myelomatose. Det er kræft i knoglemarven.</p> </div>"""   
           
 
              
@@ -545,7 +551,7 @@ DARZALEX indeholder sorbitol
 Sorbitol er en kilde til fructose. Hvis du har arvelig fructoseintolerans (HFI), en sjælden genetisk 
 lidelse, må du ikke få dette lægemiddel. Patienter med HFI kan ikke nedbryde fructose, hvilket kan 
 medføre alvorlige bivirkninger.
-Inden du får dette lægemiddel, skal du fortælle din læge, hvis du har HFI.</p>         </div>"""   
+Inden du får dette lægemiddel, skal du fortælle din læge, hvis du har HFI.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take darzalex"
@@ -596,7 +602,7 @@ Hvis du har glemt en aftale, hvor du skulle have DARZALEX
 Det er meget vigtigt, at du kommer til alle dine aftaler for at sikre, at behandlingen virker. Hvis du 
 udebliver fra en aftale, skal du aftale en ny tid hurtigst muligt.
 Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
-91</p>         </div>"""         
+91</p> </div>"""         
 
         
 * section[=].section[+]
@@ -720,7 +726,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store darzalex"
@@ -734,7 +740,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i køleskab (2 °C - 8 °C). Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Sundhedspersoner vil bortskaffe eventuelle medicinrester, der ikke længere skal bruges. Af hensyn til 
-miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -948,7 +954,7 @@ Gem indlægssedlen. Du kan få brug for at læse den igen.
 Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide.
 -
 Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
-nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -987,7 +993,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -996,7 +1004,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1011,7 +1020,7 @@ Usage: #inline
 3. Como é utilizado DARZALEX
 4. Efeitos indesejáveis possíveis
 5. Como conservar DARZALEX
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1027,7 +1036,7 @@ O daratumumab foi desenvolvido para se ligar a células cancerígenas específic
 para que o seu sistema imunitário destrua as células cancerígenas.
 Para que é utilizado DARZALEX
 DARZALEX é utilizado em adultos com idade igual ou superior a 18 anos, que tenham um tipo de 
-cancro chamado “mieloma múltiplo". Trata-se de um cancro da sua medula óssea.</p>         </div>"""   
+cancro chamado “mieloma múltiplo". Trata-se de um cancro da sua medula óssea.</p> </div>"""   
           
 
              
@@ -1104,7 +1113,7 @@ DARZALEX contém sorbitol
 O sorbitol é uma fonte de frutose. Se tiver intolerância hereditária à frutose (IHF), uma doença 
 genética rara, você não pode tomar este medicamento. Os doentes com IHF não conseguem digerir a 
 frutose deste medicamento, o que pode causar efeitos secundários graves. 
-Tem de informar o seu médico antes de tomar este medicamento se você tem IHF.</p>         </div>"""   
+Tem de informar o seu médico antes de tomar este medicamento se você tem IHF.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar darzalex"
@@ -1159,7 +1168,7 @@ indesejáveis.
 Caso se tenha esquecido da sua consulta para administração de DARZALEX
 É muito importante que vá a todas as suas consultas, para se certificar que o tratamento funciona. Se 
 faltar a uma consulta, marque outra assim que possível.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1286,7 +1295,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar darzalex"
@@ -1302,7 +1311,7 @@ Conservar na embalagem de origem para proteger da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-95</p>         </div>"""      
+95</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1451,7 +1460,7 @@ Tel: +44 1 494 567 444
 medinfo@its.jnj.com
 Este folheto foi revisto pela última vez em MM/AAAA.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Celdoxome pegylated liposomal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ sarcoma, such as swelling around the tumour, may also improve or disappear. </p>
 <p>Celdoxome pegylated liposomal  contains a medicine which is able to interact with cells in such a way 
 as to selectively kill cancer cells. The doxorubicin hydrochloride in Celdoxome pegylated liposomal is 
 enclosed in tiny spheres called pegylated liposomes which help to deliver the medicinal product from 
-the blood stream to the cancerous tissue rather than healthy normal tissue. </p>         </div>"""   
+the blood stream to the cancerous tissue rather than healthy normal tissue. </p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ pegylated liposomal. </p>
 Celdoxome pegylated liposomal contains soya oil. If you are allergic to peanut or soya, do not use this 
 medicine. See  Do not use Celdoxome pegylated liposomal . 
 Celdoxome pegylated liposomal contains less than 1 mmol sodium (23 mg) per dose, that is to say 
- essentially sodium-free . </p>         </div>"""   
+ essentially sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take celdoxome"
@@ -171,7 +174,7 @@ Acute overdosing worsens side effects like sores in the mouth or decreases the n
 cells and platelets in the blood. Treatment will include administration of antibiotics, platelet cell 
 transfusions, use of factors which stimulate production of white blood cells and symptomatic treatment 
 of mouth sores. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -382,7 +385,7 @@ reading, or listening to the radio) </li>
 <ul>
 <li>vitamin B6 is available without prescription </li>
 <li>take 50-150 mg daily beginning at the first signs of redness or tingling. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store celdoxome"
@@ -401,7 +404,7 @@ should not be longer than 24 hours at 2  C to 8  C. Partially used vials must be
 <p>Do not use this medicine if you notice that it shows evidence of precipitation or any other particulate 
 matter. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -434,7 +437,7 @@ Kantstrasse 2
 Germany </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -473,7 +476,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -482,7 +487,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -497,7 +503,7 @@ Usage: #inline
 3. Sådan skal du bruge Celdoxome pegylated liposomal 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -519,7 +525,7 @@ såsom hævelse omkring tumor, kan også forbedres eller forsvinde. </p>
 <p>Celdoxome pegylated liposomal indeholder et lægemiddel, der kan påvirke kroppens celler på en 
 sådan måde, at fortrinsvis kræftceller bliver dræbt. Doxorubicinhydrochlorid i Celdoxome pegylated 
 liposomal er indkapslet i fine dråber, der kaldes pegylerede liposomer, der hjælper med at bringe 
-medicinen fra blodbanen til cancervævet i højere grad end til sundt, normalt væv. </p>         </div>"""   
+medicinen fra blodbanen til cancervævet i højere grad end til sundt, normalt væv. </p> </div>"""   
           
 
              
@@ -578,7 +584,7 @@ Celdoxome pegylated liposomal indeholder sojaolie. Du må ikke bruge Celdoxome p
 liposomal, hvis du er overfølsom over for jordnødder eller soja. Se "Brug ikke Celdoxome pegylated 
 liposomal". 
 Celdoxome pegylated liposomal indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i 
-det væsentlige natriumfrit. </p>         </div>"""   
+det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take celdoxome"
@@ -609,7 +615,7 @@ Akut overdosering forværrer bivirkninger som sår i munden eller fald i antalle
 og blodplader i blodet. Behandling vil omfatte indgift af antibiotika, transfusioner med blodplader, 
 anvendelse af faktorer som stimulerer produktionen af hvide blodlegemer og symptomatisk 
 behandling af mundsår. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -777,7 +783,7 @@ læser eller hører radio). </li>
 <ul>
 <li>vitamin B6 kan fås uden recept. </li>
 <li>tag 50-150 mg dagligt, så snart der er tegn på rødme eller prikken. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store celdoxome"
@@ -795,7 +801,7 @@ opbevaringstider og -betingelser før anvendelse brugerens ansvar og må ikke v�
 24 timer ved 2 °C - 8 °C. Delvis brugte hætteglas skal bortskaffes. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker tegn på bundfældning eller anden partikeldannelse. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -862,7 +868,7 @@ eller tilstedeværelse af bakteriostatiske stoffer, som f.eks. benzylalkohol, ka
 Celdoxome pegylated liposomal. </p>
 <p>Det anbefales, at infusionsslangen med Celdoxome pegylated liposomal forbindes via en sideport til 
 en intravenøs infusion med glucose 50 mg/ml (5 %). Infusionen kan gives i en perifer vene. Må ikke 
-anvendes sammen med in-line filtre. </p>         </div>"""      
+anvendes sammen med in-line filtre. </p> </div>"""      
 
 
 
@@ -901,7 +907,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -910,7 +918,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -927,7 +936,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Celdoxome pegylated liposomal </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -950,7 +959,7 @@ fazer desaparecer outros sintomas do sarcoma de Kaposi, tal como o inchaço à v
 modo a matar seletivamente as células cancerosas. O cloridrato de doxorrubicina contido em 
 Celdoxome pegylated liposomal está encerrado em minúsculas esferas designadas por lipossomas 
 peguilados, que ajudam a transportar o medicamento da corrente sanguínea para o tecido canceroso e 
-não para o tecido normal saudável. </p>         </div>"""   
+não para o tecido normal saudável. </p> </div>"""   
           
 
              
@@ -1004,7 +1013,7 @@ sonolento devido ao tratamento com Celdoxome pegylated liposomal. </p>
 Celdoxome pegylated liposomal contém óleo de soja. Se for alérgico ao amendoim ou à soja, não 
 utilize este medicamento. Ver “Não utilize Celdoxome pegylated liposomal". 
 Celdoxome pegylated liposomal contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar celdoxome"
@@ -1037,7 +1046,7 @@ de glóbulos brancos e plaquetas no sangue. O tratamento consiste em administra�
 transfusões de plaquetas, utilização de fatores que estimulam a produção de glóbulos brancos e 
 tratamento sintomático das feridas na boca. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1212,7 +1221,7 @@ jogging) </li>
 </ul>
 <p>Piridoxina (vitamina B6): 
 - a vitamina B6 pode ser adquirida sem receita médica 
-- tome 50-150 mg por dia logo aos primeiros sinais de vermelhidão ou de sensação de picadas. </p>         </div>"""      
+- tome 50-150 mg por dia logo aos primeiros sinais de vermelhidão ou de sensação de picadas. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar celdoxome"
@@ -1232,7 +1241,7 @@ frascos para injetáveis parcialmente utilizados têm de ser eliminados. </p>
 <p>Não utilize este medicamento se verificar sinais de precipitação ou quaisquer partículas em suspensão. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1265,7 +1274,7 @@ Kantstrasse 2
 Alemanha </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

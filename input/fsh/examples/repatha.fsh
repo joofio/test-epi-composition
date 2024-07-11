@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Repatha </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -108,7 +111,7 @@ well or cannot be used. </li>
 <p>Repatha is used in patients who cannot control their cholesterol levels with a cholesterol lowering diet 
 alone. You should stay on your cholesterol lowering diet while taking this medicine. Repatha can help 
 prevent heart attack, stroke, and certain heart procedures to restore blood flow to the heart due to a 
-build-up of fatty deposits in your arteries (also known as atherosclerotic cardiovascular disease). </p>         </div>"""   
+build-up of fatty deposits in your arteries (also known as atherosclerotic cardiovascular disease). </p> </div>"""   
           
 
              
@@ -146,7 +149,7 @@ of breast-feeding to the baby and the benefit of Repatha to the mother. </p>
 <p>Repatha has no or negligible influence on the ability to drive and use machines. </p>
 <p>Repatha contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take repatha"
@@ -188,7 +191,7 @@ instructions in the package leaflet of that particular medicine as well. </p>
 <p>If you forget to take Repatha </p>
 <p>Take Repatha as soon as you can after the missed dose. Then, contact your doctor who will tell you 
 when you should schedule your next dose, and follow the new schedule exactly as your doctor has told 
-you. </p>         </div>"""         
+you. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -217,7 +220,7 @@ respiratory tract infections)
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store repatha"
@@ -237,7 +240,7 @@ within 1 month. </p>
 particles. </p>
 <p>Do not throw away any medicines via wastewater or household waste. </p>
 <p>Ask your pharmacist how to throw away medicines you no longer use. These measures will help 
-protect the environment. </p>         </div>"""      
+protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ Tel: +371 257 25United Kingdom (Northern Ireland)
 Amgen Limited 
 Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -378,7 +381,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -387,7 +392,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -404,7 +410,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -460,7 +466,7 @@ nok eller ikke kan bruges. </li>
 blodet ved hjælp af en kolesterolsænkende diæt alene. Du skal stadig følge din kolesterolsænkende 
 diæt, når du tager denne medicin. Repatha kan hjælpe med at forhindre hjerteanfald, slagtilfælde og 
 bestemte hjerteoperationer, der skal genoprette blodgennemstrømningen til hjertet, grundet ophobning 
-af fedtaflejringer i arterierne (også kaldet for aterosklerotisk kardiovaskulær sygdom). </p>         </div>"""   
+af fedtaflejringer i arterierne (også kaldet for aterosklerotisk kardiovaskulær sygdom). </p> </div>"""   
           
 
              
@@ -498,7 +504,7 @@ under hensyntagen til fordelen ved at amme barnet og fordelen ved Repatha for di
 <p>Repatha påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Repatha indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take repatha"
@@ -549,7 +555,7 @@ instruktionerne til dosering i indlægssedlen til den pågældende medicin. </p>
 <p>Hvis du har glemt at tage Repatha </p>
 <p>Tag Repatha snarest muligt efter den glemte dosis. Kontakt derefter din læge, der vil fortælle dig, 
 hvornår du skal tage den næste dosis, og følg derefter det nye doseringsskema nøjagtigt efter lægens 
-anvisning. </p>         </div>"""         
+anvisning. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -607,7 +613,7 @@ infektioner i øvre luftveje) </p>
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store repatha"
@@ -625,7 +631,7 @@ opbevares ved stuetemperatur (op til 25 °C) i den originale karton og skal anve
 <p>Brug ikke dette lægemiddel, hvis du bemærker, at det er misfarvet eller indeholder store klumper, 
 flager eller farvede partikler. </p>
 <p>Spørg apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1032,7 +1038,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. - Advarslerne og anvisningerne i dette dokument omhandler den person, der tager medicinen. 
 Forældre eller omsorgspersoner, som har ansvaret for at give medicinen til en anden, såsom et 
 barn, skal anvende oplysningerne i denne indlægsseddel. </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

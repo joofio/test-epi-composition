@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Resolor</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 Resolor belongs to a group of gut motility enhancing medicines (gastrointestinal prokinetics). It acts 
 on the muscle wall of the gut, helping to restore the normal functioning of the bowel. Resolor is used 
 for the treatment of chronic constipation in adults in whom laxatives do not work well enough.
-Not for use in children and adolescents younger than 18 years.</p>         </div>"""   
+Not for use in children and adolescents younger than 18 years.</p> </div>"""   
           
 
              
@@ -127,7 +130,7 @@ cause dizziness and tiredness, especially on the first day of treatment, and thi
 driving and use of machines.
 Resolor contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine.</p>         </div>"""   
+before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take resolor"
@@ -154,7 +157,7 @@ If you forget to take Resolor
 Do not take a double dose to make up for a forgotten tablet. Just take your next dose at the usual time.
 If you stop taking Resolor
 If you stop taking Resolor, your constipation symptoms may come back again.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -177,7 +180,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store resolor"
@@ -189,7 +192,7 @@ Do not use this medicine after the expiry date which is stated on the blister an
 expiry date refers to the last day of that month.
 Store in the original blister package in order to protect from moisture.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -311,7 +314,7 @@ United Kingdom (Northern Ireland)
 Takeda UK Ltd
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
 This leaflet was last revised in . 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -350,7 +353,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -359,7 +364,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -374,7 +380,7 @@ Usage: #inline
 3. Sådan skal du tage Resolor
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -386,7 +392,7 @@ Usage: #inline
 Resolor tilhører en gruppe lægemidler, der øger tarmbevægelserne (gastrointestinale prokinetika). Det
 virker på tarmens muskelvæg og bidrager til at genskabe tarmens normale funktion. Resolor anvendes 
 til behandling af kronisk forstoppelse hos voksne, hvor afføringsmidler ikke virker godt nok.
-Bør ikke anvendes til børn og unge under 18 år.</p>         </div>"""   
+Bør ikke anvendes til børn og unge under 18 år.</p> </div>"""   
           
 
              
@@ -440,7 +446,7 @@ Resolor kan dog forårsage svimmelhed og træthed, især på den første dag af 
 kan påvirke trafik- og arbejdssikkerheden.
 Resolor indeholder lactose
 Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter.</p>         </div>"""   
+sukkerarter.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take resolor"
@@ -469,7 +475,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. Tag blot 
 sædvanlig tid.
 Hvis du holder op med at tage Resolor
 Hvis du holder op med at tage Resolor, kan symptomerne på forstoppelse komme igen.
-Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -492,7 +498,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store resolor"
@@ -504,7 +510,7 @@ Brug ikke dette lægemiddel efter den udløbsdato, der står på blisterkortet o
 Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i det originale blisterkort for at beskytte mod fugt. 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -666,7 +672,7 @@ medinfoEMEA@takeda.com
 Denne indlægsseddel blev senest ændret .
 36
 Du kan finde yderligere information om Resolor på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu/.</p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu/.</p> </div>"""      
 
 
 

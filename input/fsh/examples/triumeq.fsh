@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Triumeq </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ hypersensitivity (allergic) reaction if they use Triumeq (see  hypersensitivity 
 low level. It also increases the number of CD4 cells in your blood. CD4 cells are a type of white blood 
 cells that are important in helping your body to fight infection. </p>
 <p>Not everyone responds to treatment with Triumeq in the same way. Your doctor will monitor the 
-effectiveness of your treatment. </p>         </div>"""   
+effectiveness of your treatment. </p> </div>"""   
           
 
              
@@ -200,7 +203,7 @@ Triumeq can make you dizzy and have other side effects that make you less alert.
 <p>Don t drive or operate machinery unless you are sure your alertness has not been affected.  </p>
 <p>Triumeq contains sodium. 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take triumeq"
@@ -246,7 +249,7 @@ symptoms were related to a hypersensitivity reaction. If the doctor thinks they 
 hypersensitivity reaction, you will be told never again to take Triumeq, or any other medicine 
 containing abacavir or dolutegravir. It is important that you follow this advice. 
 If your doctor advises that you can start taking Triumeq again, you may be asked to take your first 
-doses in a place where you will have ready access to medical care if you need it. </p>         </div>"""         
+doses in a place where you will have ready access to medical care if you need it. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -449,7 +452,7 @@ Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store triumeq"
@@ -463,7 +466,7 @@ expiry date refers to the last day of that month. </p>
 remove the desiccant.  </p>
 <p>This medicine does not require any special temperature storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -566,7 +569,7 @@ ViiV Healthcare BV<br />
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {month YYYY}.  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -605,7 +608,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -614,7 +619,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -631,7 +637,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -653,7 +659,7 @@ reaktion), hvis de får Triumeq (se 'Overfølsomhedsreaktioner' under punkt 4). 
 et lavt niveau. Triumeq øger også antallet af CD4-celler i dit blod. CD4-celler er en type hvide 
 blodceller, der spiller en vigtig rolle, når kroppen skal bekæmpe infektioner. </p>
 <p>Behandlingen med Triumeq virker ikke ens på alle. Lægen vil holde øje med, hvor effektiv din 
-behandling er. </p>         </div>"""   
+behandling er. </p> </div>"""   
           
 
              
@@ -820,7 +826,7 @@ Triumeq kan gøre dig svimmel og give andre bivirkninger, som gør dig mindre ag
 din agtpågivenhed ikke er påvirket.  </p>
 <p>Triumeq indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
-er i det væsentlige natriumfrit.  </p>         </div>"""   
+er i det væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take triumeq"
@@ -870,7 +876,7 @@ symptomer skyldtes en overfølsomhedsreaktion. Hvis lægen mener, de kan være r
 overfølsomhedsreaktion, vil lægen råde dig til aldrig mere at tage Triumeq eller nogen andre 
 lægemidler, der indeholder abacavir eller dolutegravir. Det er vigtigt, at du følger lægens råd. 
 Hvis lægen vurderer, at du kan begynde at tage Triumeq igen, bliver du muligvis bedt om at tage de 
-første doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p>         </div>"""         
+første doser på et sted, hvor du hurtigt kan få lægehjælp, hvis det skulle blive nødvendigt. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1231,7 +1237,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store triumeq"
@@ -1245,7 +1251,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 tørremidlet.  </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel.  </p>
 <p>Spørg apotekespersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1384,7 +1390,7 @@ indeholder vigtige oplysninger.
 give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme 
 symptomer som barnet, du har ansvar for. 
 - Kontakt lægen eller apotekspersonalet, hvis barnet får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sapropterin Dipharma  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ BH4 and can help increase the amount of phenylalanine that can be included in th
 which the body cannot produce enough BH4. Because of very low BH4 levels phenylalanine is not 
 used properly and its levels rise, resulting in harmful effects. By replacing the BH4 that the body 
 cannot produce, Sapropterin Dipharma reduces the harmful excess of phenylalanine in the blood and 
-increases the dietary tolerance to phenylalanine. </p>         </div>"""   
+increases the dietary tolerance to phenylalanine. </p> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ consider whether you must take this medicine. </p>
 Sapropterin Dipharma is not expected to affect the ability to drive and use machines. </p>
 <p>Sapropterin Dipharma contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sapropterin"
@@ -243,7 +246,7 @@ Do not take a double dose to make up for a forgotten dose. Take the next dose at
 <p>If you stop taking Sapropterin Dipharma 
 Do not stop taking Sapropterin Dipharma without prior discussion with your doctor, as phenylalanine 
 levels in your blood may increase. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ gullet). </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sapropterin"
@@ -283,7 +286,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special temperature storage conditions. 
 Keep the bottle tightly closed in order to protect from moisture.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -318,7 +321,7 @@ KW20A Kordin Industrial Park
 Paola PLA3Malta </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -357,7 +360,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -366,7 +371,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -383,7 +389,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring af Sapropterin Dipharma </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -402,7 +408,7 @@ og medvirker til, at patienterne bedre kan tåle den fenylalanin, som findes i f
 BH4-mangel, hvor kroppen ikke selv kan danne tilstrækkeligt med BH4. På grund af for lavt BH4- indhold bliver blodets indhold af fenylalanin ikke udnyttet tilstrækkeligt, hvorfor det øges, hvilket kan 
 være skadeligt. Ved at erstatte det BH4, som kroppen ikke selv kan danne, mindsker Sapropterin 
 Dipharma det skadelige overskud af fenylalanin i blodet og øger den fenylalanin i kosten, som 
-patienterne kan tåle. </p>         </div>"""   
+patienterne kan tåle. </p> </div>"""   
           
 
              
@@ -453,7 +459,7 @@ du kan tage denne medicin. </p>
 Det forventes ikke, at Sapropterin påvirker evnen til at føre motorkøretøj og betjene maskiner. </p>
 <p>Sapropterin Dipharma indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, det vil sige, at det i det 
-væsentlige er natriumfrit. </p>         </div>"""   
+væsentlige er natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sapropterin"
@@ -584,7 +590,7 @@ sædvanlig tid. </p>
 <p>Hvis du holder op med at tage Sapropterin Dipharma 
 Du må ikke holde op med at tage Sapropterin Dipharma uden at have talt med din læge, da indholdet 
 af fenylalanin i dit blod kan stige. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -611,7 +617,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sapropterin"
@@ -624,7 +630,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ikke specielle opbevaringsbetingelser. 
 Hold tabletbeholderen tæt tillukket for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -675,7 +681,7 @@ indeholder vigtige oplysninger. </p>
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. </li>
 <li>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -714,7 +720,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -723,7 +731,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -740,7 +749,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Sapropterina Dipharma </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -762,7 +771,7 @@ em doentes de todas as idades, na qual o organismo não consegue produzir quanti
 BH4. Devido ao facto dos níveis de BH4 serem muito baixos, a fenilalanina não é utilizada 
 corretamente e os seus níveis aumentam, resultando em efeitos prejudiciais. Substituindo a BH4 que o 
 organismo não pode produzir, Sapropterina Dipharma reduz o excesso prejudicial de fenilalanina no 
-sangue e aumenta a tolerância aos alimentos que contêm fenilalanina. </p>         </div>"""   
+sangue e aumenta a tolerância aos alimentos que contêm fenilalanina. </p> </div>"""   
           
 
              
@@ -812,7 +821,7 @@ médico considerará se deve tomar este medicamento. </p>
 Não se espera que o Sapropterina Dipharma afete a capacidade de conduzir e utilizar máquinas. </p>
 <p>Sapropterina Dipharma contém sódio<br />
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sapropterin"
@@ -952,7 +961,7 @@ seguinte à hora habitual. </p>
 Não pare de tomar Sapropterina Dipharma sem falar previamente com o seu médico, pois os níveis de 
 fenilalanina no seu sangue podem aumentar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -982,7 +991,7 @@ Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos indesejáv
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sapropterin"
@@ -996,7 +1005,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 Manter o frasco bem fechado para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1033,7 +1042,7 @@ KW20A Kordin Industrial Park
 Paola, PLA 3Malta </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

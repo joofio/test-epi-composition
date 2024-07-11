@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store AUBAGIO  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ between relapses. This can cause physical disabilities that may interfere with y
 <p>How AUBAGIO works 
 AUBAGIO helps to protect against attacks on the central nervous system by the immune system by limiting 
 the increase of some white blood cells (lymphocytes). This limits the inflammation that leads to nerve 
-damage in MS. </p>         </div>"""   
+damage in MS. </p> </div>"""   
           
 
              
@@ -213,7 +216,7 @@ affected, do not drive or use machines. </p>
 AUBAGIO contains lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. </p>
 <p>AUBAGIO contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aubagio"
@@ -244,7 +247,7 @@ similar to those described in section 4 below.  </p>
 Do not take a double dose to make up for a forgotten tablet. Take your next dose at the scheduled time. </p>
 <p>If you stop taking AUBAGIO<br />
 Do not stop taking AUBAGIO or change your dose without talking to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ important for children, adolescents, and their caregivers: </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aubagio"
@@ -335,7 +338,7 @@ V. By reporting side effects you can help provide more information on the safety
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -452,7 +455,7 @@ Tel: +371 6 616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -491,7 +494,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -500,7 +505,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -515,7 +521,7 @@ Usage: #inline
 3. Sådan skal du tage AUBAGIO<br />
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -552,7 +558,7 @@ dagligdagens aktiviteter. </p>
 <p>Hvordan AUBAGIO virker 
 AUBAGIO hjælper med at beskytte mod attakker på centralnervesystemet fra immunsystemet og ved at 
 begrænse stigningen i visse hvide blodlegemer (lymfocytter). Dette begrænser samtidig betændelsen, som 
-leder til nervebeskadigelse ved MS.   </p>         </div>"""   
+leder til nervebeskadigelse ved MS.   </p> </div>"""   
           
 
              
@@ -676,7 +682,7 @@ AUBAGIO indeholder lactose (en type sukker). Hvis du har fået at vide af lægen
 sukkerarter, skal du kontakte lægen, før du tager dette lægemiddel. </p>
 <p>AUBAGIO indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. det er i det væsentlige 
-"natriumfrit". </p>         </div>"""   
+"natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aubagio"
@@ -707,7 +713,7 @@ de bivirkninger, der er beskrevet i punkt 4. Hvis du har glemt at tage AUBAGIO<b
 Du må ikke tage en dobbeltdosis som erstatning for en glemt tablet. Tag den næste dosis som planlagt. </p>
 <p>Hvis du holder op med at tage AUBAGIO<br />
 Du må ikke stoppe med at tage AUBAGIO eller ændre dosis uden først at tale med din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -787,7 +793,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aubagio"
@@ -799,7 +805,7 @@ dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -938,7 +944,7 @@ Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu.  </p>
 <p>Du kan også finde indlægssedlen og patientkortet med sikkerhedsoplysninger med nedenstående QR-kode. </p>
-<p>QR-kode angives + www.qr-aubagio-sanofi.eu </p>         </div>"""      
+<p>QR-kode angives + www.qr-aubagio-sanofi.eu </p> </div>"""      
 
 
 
@@ -977,7 +983,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -986,7 +994,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1001,7 +1010,7 @@ Usage: #inline
 3. Como tomar AUBAGIO<br />
 4. Efeitos indesejáveis possíveis<br />
 5. Como conservar AUBAGIO<br />
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1040,7 +1049,7 @@ sua atividade diária. </p>
 <p>Como funciona o AUBAGIO 
 AUBAGIO ajuda a proteger o sistema nervoso central contra ataques do sistema imunitário, ao limitar o 
 aumento de algumas células brancas no sangue (linfócitos). Isto limita a inflamação que leva à lesão do 
-nervo na EM. </p>         </div>"""   
+nervo na EM. </p> </div>"""   
           
 
              
@@ -1169,7 +1178,7 @@ AUBAGIO contém lactose (um tipo de açúcar). Se souber através do seu médico
 açúcares, contate o seu médico antes de tomar este medicamento. </p>
 <p>AUBAGIO contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar aubagio"
@@ -1201,7 +1210,7 @@ Não tome uma dose a dobrar para compensar um comprimido que se esqueceu de toma
 seguinte à hora marcada. </p>
 <p>Se parar de tomar AUBAGIO<br />
 Não deixe de tomar AUBAGIO nem altere a sua dose sem falar primeiro com o seu médico. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.  </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1283,7 +1292,7 @@ adicional é importante para crianças, adolescentes e seus cuidadores: </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
-ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar aubagio"
@@ -1295,7 +1304,7 @@ ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> 
 “VAL“. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1431,7 +1440,7 @@ United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p> </div>"""      
 
 
 

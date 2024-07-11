@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store LUMIGAN 0.1 mg/ml</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ Your eye contains a clear, watery liquid that feeds the inside of the eye. Liqui
 drained out of the eye and new liquid is made to replace this. If the liquid cannot drain out quickly 
 enough, the pressure inside the eye builds up. This medicine works by increasing the amount of liquid 
 that is drained. This reduces the pressure inside the eye. If the high pressure is not reduced, it could 
-lead to a disease called glaucoma and eventually damage your sight.</p>         </div>"""   
+lead to a disease called glaucoma and eventually damage your sight.</p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ chloride may be absorbed by soft contact lenses and may change the colour of the
 should remove contact lenses before using this medicine and wait 15 minutes after using the drops 
 before you put your lenses back in. Benzalkonium chloride may also cause eye irritation, especially if 
 you have dry eyes or disorders of the cornea (the clear layer at the front of the eye).  If you feel 
-abnormal eye sensation, stinging or pain in the eye after using this medicine, talk to your doctor.</p>         </div>"""   
+abnormal eye sensation, stinging or pain in the eye after using this medicine, talk to your doctor.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lumigan"
@@ -175,7 +178,7 @@ regular routine. Do not take a double dose to make up for a forgotten dose.
 If you stop using LUMIGAN 0.1 mg/ml
 LUMIGAN should be used every day to work properly. If you stop using LUMIGAN the pressure 
 inside your eye may go up, therefore talk to your doctor before stopping this treatment.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ Reporting side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of the 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lumigan"
@@ -278,7 +281,7 @@ You must throw away the bottle at the latest four weeks after you first opened i
 some drops left. This will prevent infections. To help you remember, write down the date you opened 
 it in the space on the box. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -389,7 +392,7 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -428,7 +431,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -437,7 +442,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -452,7 +458,7 @@ Usage: #inline
 3. Sådan skal De bruge LUMIGAN 0,1 mg/ml 
 4. Bivirkninger
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -468,7 +474,7 @@ eller sammen med øjendråber, som kaldes beta-blokkere, der også nedsætter tr
 der dannes ny væske som erstatning. Såfremt væsken ikke kan løbe hurtigt nok væk, stiger trykket i 
 øjet. Dette lægemiddel virker ved at øge den mængde væske, der løber væk. Hermed nedsættes trykket 
 i øjet. Såfremt det forhøjede tryk ikke nedsættes, kan det medføre en sygdom, der hedder grøn stær 
-(glaukom), og måske skade Deres syn.</p>         </div>"""   
+(glaukom), og måske skade Deres syn.</p> </div>"""   
           
 
              
@@ -534,7 +540,7 @@ kontaktlinserne. De skal tage kontaktlinserne ud, inden lægemidlet bruges, og v
 15 minutter, før De sætter kontaktlinserne i igen. Benzalkoniumchlorid kan også give øjenirritation, 
 især hvis De har tørre øjne eller problemer med hornhinderne (det klare lag forrest i øjet). Hvis De har 
 unormale fornemmelser i øjet såsom svie eller smerte, når De bruger dette lægemiddel, skal De tale 
-med Deres læge.</p>         </div>"""   
+med Deres læge.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lumigan"
@@ -569,7 +575,7 @@ derefter den normale rutine. De må ikke bruge en dobbeltdosis som erstatning fo
 Hvis De holder op med at bruge LUMIGAN 0,1 mg/ml 
 LUMIGAN bør bruges hver dag for at opnå fuld effekt. Hvis De holder op med at bruge LUMIGAN, 
 kan trykket i Deres øje stige. Tal derfor med Deres læge, inden behandlingen afbrydes.
-Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -718,7 +724,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lumigan"
@@ -732,7 +738,7 @@ Flasken skal kasseres senest fire uger efter første åbning, selv om der stadig
 tilbage. Dette forhindrer infektion. For at huske datoen for første åbning bør De skrive denne dato ned 
 i feltet på kartonen. 
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -874,7 +880,7 @@ medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme s
 De har.
 -
 Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 
@@ -913,7 +919,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -922,7 +930,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -937,7 +946,7 @@ Usage: #inline
 3. Como utilizar LUMIGAN 0,1 mg/ml 
 4. Efeitos secundários possíveis
 5. Como conservar LUMIGAN 0,1 mg/ml
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -955,7 +964,7 @@ constantemente a ser drenado do olho e a ser substituído por outro novo. Caso o
 drenado rapidamente, a pressão no interior do olho aumenta. Este medicamento atua aumentando a 
 quantidade de líquido que é drenado do olho, o que reduz a pressão no interior do olho. Se a pressão 
 elevada não for reduzida, tal pode originar uma doença chamada glaucoma e, eventualmente, danificar 
-a sua visão.</p>         </div>"""   
+a sua visão.</p> </div>"""   
           
 
              
@@ -1025,7 +1034,7 @@ Deve remover as lentes de contacto antes da utilização deste medicamento e agu
 depois de colocar o colírio antes de colocar as lentes novamente. O cloreto de benzalcónio pode 
 também causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a 
 camada transparente na parte da frente do olho). Se tiver uma sensação estranha no olho, picadas ou 
-dor no olho após utilizar este medicamento, fale com o seu médico..</p>         </div>"""   
+dor no olho após utilizar este medicamento, fale com o seu médico..</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lumigan"
@@ -1066,7 +1075,7 @@ pressão no interior do seu olho pode subir, pelo que deve conversar com o médi
 interromper este tratamento.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
 farmacêutico.
-56</p>         </div>"""         
+56</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1220,7 +1229,7 @@ mencionados neste folheto, informe o seu médico ou farmacêutico. Também poder
 secundários diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento.
-58</p>         </div>"""      
+58</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lumigan"
@@ -1235,7 +1244,7 @@ contenha algumas gotas. Isto irá prevenir infeções. Para se lembrar da data e
 escrevê-la no espaço previsto na embalagem. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1363,7 +1372,7 @@ AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561090
 Este folheto foi revisto pela última vez em 
 60
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

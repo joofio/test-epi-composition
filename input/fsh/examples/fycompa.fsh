@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Fycompa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ In adults, adolescents (aged 12 years and older), and children (from 4 to 11 yea
 (called a  secondary generalisation ). 
 In adults and adolescents (aged 12 years and older), and children (from 7 to 11 years) 
 - It is also used to treat certain fits that affect all of your brain from the start (called  generalised 
-seizures ) and cause convulsions or staring spells. </p>         </div>"""   
+seizures ) and cause convulsions or staring spells. </p> </div>"""   
           
 
              
@@ -184,7 +187,7 @@ happens to you, do not drive or use any tools or machines.
 - Drinking alcohol while taking Fycompa may make these effects worse. </p>
 <p>Fycompa contains lactose 
 Fycompa contains lactose (a type of sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fycompa"
@@ -288,7 +291,7 @@ immediately. </p>
 <p>If you stop taking Fycompa 
 Take Fycompa for as long as your doctor recommends. Do not stop unless your doctor advises you to. 
 Your doctor may reduce your dose slowly to avoid your fits (seizures) coming back or getting worse. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fycompa"
@@ -351,7 +354,7 @@ this medicine. </li>
 refers to the last day of the month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -477,7 +480,7 @@ Tel: + 49 (0) 69 66 58 (V cija) </p>
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -516,7 +519,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -525,7 +530,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -542,7 +548,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -562,7 +568,7 @@ hjerne (det kaldes "sekundær generalisering").
 Hos voksne og unge (i alderen 12 år og ældre) og børn (fra 7-11 år) 
 - Det anvendes også til at behandle visse anfald, der påvirker hele din hjerne fra starten (det 
 kaldes "generaliserede anfald") og forårsager anfald eller fraværsperioder med stirren 
-(absencer). </p>         </div>"""   
+(absencer). </p> </div>"""   
           
 
              
@@ -672,7 +678,7 @@ forekommer, må du ikke føre motorkøretøj eller betjene værktøj eller maski
 - Hvis du drikker alkohol, mens du tager Fycompa, kan disse virkninger forstærkes. </p>
 <p>Fycompa indeholder lactose 
 Fycompa indeholder lactose (en form for sukker). Kontakt lægen, før du tager denne medicin, hvis 
-lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fycompa"
@@ -784,7 +790,7 @@ lægen. </p>
 Tag Fycompa, så længe som lægen anbefaler det. Du må ikke holde op, medmindre lægen anviser det. 
 Din læge kan gradvist reducere din dosis, så du undgår, at dine anfald (epileptiske anfald) vender 
 tilbage eller forværres. 
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -838,7 +844,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteket. Dette g
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fycompa"
@@ -850,7 +856,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1001,7 +1007,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

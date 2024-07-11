@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store AZOPT </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 inhibitors. It reduces pressure within the eye. </p>
 <p>AZOPT eye drops are used to treat high pressure in the eye. This pressure can lead to an illness called 
 glaucoma. </p>
-<p>If the pressure in the eye is too high, it can damage your sight. </p>         </div>"""   
+<p>If the pressure in the eye is too high, it can damage your sight. </p> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ lenses and may change the colour of the contact lenses. You should remove contac
 using this medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause 
 eye irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of 
 the eye). If you feel abnormal eye sensation, stinging or pain in the eye after using this medicine, talk 
-to your doctor. </p>         </div>"""   
+to your doctor. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take azopt"
@@ -187,7 +190,7 @@ Use a single drop as soon as you remember, and then go back to your regular rout
 double dose to make up for a forgotten dose. </p>
 <p>If you stop using AZOPT 
 If you stop using AZOPT without speaking to your doctor, the pressure in your eye will not be 
-controlled which could lead to loss of sight. </p>         </div>"""         
+controlled which could lead to loss of sight. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ syndrome, toxic epidermal necrolysis). </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store azopt"
@@ -288,7 +291,7 @@ For a pack containing a single bottle, write only one date. </p>
 Opened (2): 
 Opened (3): </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -394,7 +397,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website 
-http://www.ema.europa.eu </p>         </div>"""      
+http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -433,7 +436,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -442,7 +447,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -459,7 +465,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -471,7 +477,7 @@ Usage: #inline
 karboanhydrasehæmmere. Det sænker trykket inde i øjet. </p>
 <p>AZOPT anvendes til at sænke forhøjet tryk i øjet. Forhøjet tryk i øjet kan føre til en sygdom kaldet 
 glaukom (grøn stær). </p>
-<p>Hvis trykket i øjet bliver for højt, kan det beskadige dit syn. </p>         </div>"""   
+<p>Hvis trykket i øjet bliver for højt, kan det beskadige dit syn. </p> </div>"""   
           
 
              
@@ -533,7 +539,7 @@ kontaktlinser og kan ændre farven af kontaktlinserne. Du skal tage kontaktlinse
 lægemidlet bruges, og vente mindst 15 minutter, før du sætter kontaktlinserne i igen. 
 Benzalkoniumchlorid kan også give øjenirritation, især hvis du har tørre øjne eller hornhinde 
 problemer (det klare lag forrest i øjet). Hvis du har unormale fornemmelser i øjet såsom svie eller 
-smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p>         </div>"""   
+smerte, når du bruger dette lægemiddel, skal du tale med din læge. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take azopt"
@@ -607,7 +613,7 @@ Genoptag behandlingen med det samme og fortsæt med den sædvanlige doseringspla
 tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at bruge AZOPT 
 Hvis du holder op med at bruge AZOPT uden at informere din læge, vil trykket i øjet ikke blive 
-kontrolleret, hvilket kan medføre synstab. </p>         </div>"""         
+kontrolleret, hvilket kan medføre synstab. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -692,7 +698,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store azopt"
@@ -710,7 +716,7 @@ kartonen. Hvis pakningen kun indeholder én flaske, skrives kun én dato. </p>
 Åbnet (2): 
 Åbnet (3): </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -831,7 +837,7 @@ Tel: +44 1276 698
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -870,7 +876,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -879,7 +887,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -896,7 +905,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar AZOPT </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -908,7 +917,7 @@ Usage: #inline
 anidrase carbónica. Reduz a pressão dentro do olho. </p>
 <p>AZOPT colírio é utilizado para tratar a pressão ocular elevada. Esta pressão pode provocar uma 
 doença chamada glaucoma. </p>
-<p>Se a pressão no olho for muito elevada pode lesar a sua visão. </p>         </div>"""   
+<p>Se a pressão no olho for muito elevada pode lesar a sua visão. </p> </div>"""   
           
 
              
@@ -952,7 +961,7 @@ Informe o seu médico ou farmacêutico se estiver a tomar ou tiver tomado recent
 medicamentos, ou se vier a tomar outros medicamentos, incluindo medicamentos obtidos sem receita 
 médica. </p>
 <p>Se tiver a utilizar outro medicamento que contenha um inibidor da anidrase carbónica (acetazolamida 
-ou dorzolamida, ver a secção </p>         </div>"""   
+ou dorzolamida, ver a secção </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar azopt"
@@ -979,7 +988,7 @@ moles e pode alterar a cor das lentes de contacto. Deve remover as lentes de con
 utilização deste medicamento e voltar a colocá-las 15 minutos depois. Cloreto de benzalcónio também 
 pode causar irritação nos olhos, especialmente se tem os olhos secos ou alterações da córnea (a 
 camada transparente na frente do olho). Se sentir uma sensação estranha no olho, picadas ou dor no 
-olho após utilizar este medicamento, fale com o seu médico. </p>         </div>"""         
+olho após utilizar este medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1056,7 +1065,7 @@ Coloque uma única gota assim que se lembrar, e siga depois o seu esquema de apl
 aplique uma dose dupla para compensar a dose esquecida. </p>
 <p>Se parar de utilizar AZOPT 
 Se parar de usar o AZOPT sem falar com o seu médico, a pressão no seu olho não ficará controlada o 
-que poderá levar à perda de visão. </p>         </div>"""      
+que poderá levar à perda de visão. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar azopt"
@@ -1144,7 +1153,7 @@ potencialmente fatais (síndrome de Stevens-Johnson, necrólise epidérmica tóx
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1165,7 +1174,7 @@ Aberto (2):
 Aberto (3): </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
 
 
 

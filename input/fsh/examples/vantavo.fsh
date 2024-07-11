@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store VANTAVO </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -109,7 +112,7 @@ may increase your risk of broken bones. </p>
 Like muscles, bones need exercise to stay strong and healthy. Consult your 
 doctor before you begin any exercise programme. </p>
 <p>Eating a balanced diet Your doctor can advise you about your diet or whether you should take any 
-dietary supplements. </p>         </div>"""   
+dietary supplements. </p> </div>"""   
           
 
              
@@ -186,7 +189,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine. </p>
 <p>VANTAVO contains sodium.<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vantavo"
@@ -236,7 +239,7 @@ not known how long you should take VANTAVO, you should discuss the need to stay 
 medicine with your doctor periodically to determine if VANTAVO is still right for you. </p>
 <p>An Instruction Card is included in the carton for VANTAVO. It contains important information 
 reminding you how to take VANTAVO properly. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -298,7 +301,7 @@ could be signs of bone damage in the ear. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vantavo"
@@ -310,7 +313,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original blister in order to protect from moisture and light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ Organon Pharma (UK) Limited<br />
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com  </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-https://www.ema.europa.eu. </p>         </div>"""      
+https://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -480,7 +483,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -489,7 +494,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -504,7 +510,7 @@ Usage: #inline
 3. Sådan skal du tage VANTAVO 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -554,7 +560,7 @@ livsstil, som kan hjælpe dig i din tilstand, for eksempel: </p>
 <p>sunde. Kontakt din læge før du begynder på et træningsprogram. </p>
 <p>Afbalanceret kost 
 Din læge kan rådgive dig om kosten eller om, hvorvidt du bør tage  </p>
-<p>kosttilskud. </p>         </div>"""   
+<p>kosttilskud. </p> </div>"""   
           
 
              
@@ -662,7 +668,7 @@ Hvis din læge har fortalt, at der er nogle sukkerarter, du ikke kan tåle, skal
 tager denne medicin. </p>
 <p>VANTAVO indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vantavo"
@@ -729,7 +735,7 @@ hvor lang tid du skal tage VANTAVO, skal du med jævne mellemrum diskutere behov
 fortsætte med dette lægemiddel med din læge for at afgøre, om VANTAVO stadig er rigtigt for dig.  </p>
 <p>Der er vedlagt et instruktionskort i VANTAVO pakningen. Det angiver vigtig information, som vil 
 minde dig om, hvordan du skal tage VANTAVO korrekt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -851,7 +857,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vantavo"
@@ -863,7 +869,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 dag i den nævnte måned. </p>
 <p>Opbevar lægemidlet i den originale blisterpakning for at beskytte mod fugt og lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1001,7 +1007,7 @@ Tel: +44 (0) 208 159 3593<br />
 medicalinformationuk@organon.com  </p>
 <p>Denne indlægsseddel blev senest ændret &lt;{MM/YYYY}&gt; </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

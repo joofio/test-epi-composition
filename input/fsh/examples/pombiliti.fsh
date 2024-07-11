@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pombiliti </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ enzyme helps control levels of glycogen (a type of carbohydrate) in the body. </
 such as the muscles that help you walk, the muscles under the lungs that help you breathe, and the 
 heart muscle, from working properly. </p>
 <p>Pombiliti enters the muscle cells that are affected by Pompe disease. When in the cells, the medicine 
-works like GAA to help break down glycogen and control its levels. </p>         </div>"""   
+works like GAA to help break down glycogen and control its levels. </p> </div>"""   
           
 
              
@@ -147,7 +150,7 @@ You may feel dizzy, sleepy, or have low blood pressure (hypotensive) after havin
 pre-treatment medicines. If this happens, do not drive or use any tools or machines. 
 Pombiliti contains sodium 
 This medicinal product contains 10.5 mg sodium (main component of cooking/table salt) in each vial. 
-This is equivalent to 0.52% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+This is equivalent to 0.52% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pombiliti"
@@ -193,7 +196,7 @@ If you have missed an infusion, please contact your doctor or nurse as soon as p
 Pombiliti in combination with miglustat 24 hours after miglustat was last taken. </p>
 <p>If you stop receiving Pombiliti 
 Speak to your doctor if you wish to stop Pombiliti treatment. The symptoms of your disease may 
-worsen if you stop treatment. </p>         </div>"""         
+worsen if you stop treatment. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ shortness of breath (asthma)
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pombiliti"
@@ -289,7 +292,7 @@ protect from light.
 After dilution, an immediate use is recommended. However, storage of the intravenous bag with 
 Pombiliti has been demonstrated for 6 hours at 20 C - 25 C and 24 hours at 2 C - 8 C. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines that you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines that you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -417,7 +420,7 @@ Amicus Therapeutics, UK Limited<br />
 Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -456,7 +459,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -465,7 +470,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -480,7 +486,7 @@ Usage: #inline
 3. Sådan får du Pombiliti 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger  </p> </div>"""   
           
 
 * section[=].section[+]
@@ -503,7 +509,7 @@ musklerne, såsom de muskler, der hjælper dig med at gå, musklerne under lunge
 med at trække vejret, og hjertemusklen, i at fungere korrekt. </p>
 <p>Pombiliti kommer ind i de muskelceller, der er påvirket af Pompes sygdom. Når lægemidlet er i 
 cellerne, virker det som GAA og hjælper med at nedbryde glykogen og kontrollere niveauet af 
-glykogen. </p>         </div>"""   
+glykogen. </p> </div>"""   
           
 
              
@@ -594,7 +600,7 @@ eller betjene maskiner. </p>
 <p>Pombiliti indeholder natrium 
 Dette lægemiddel indeholder 10,5 mg natrium (hovedkomponent af madlavnings-/bordsalt) i hvert 
 hætteglas. Dette svarer til 0,52 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen. </p>         </div>"""   
+voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pombiliti"
@@ -655,7 +661,7 @@ muligt for at aftale en ny tid til Pombiliti i kombination med miglustat 24 time
 blev taget. </p>
 <p>Hvis du holder op med at få Pombiliti 
 Tal med din læge, hvis du ønsker at stoppe behandlingen med Pombiliti. Symptomerne på din sygdom 
-kan forværres, hvis du stopper behandlingen. </p>         </div>"""         
+kan forværres, hvis du stopper behandlingen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -844,7 +850,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pombiliti"
@@ -861,7 +867,7 @@ beskytte mod lys. </p>
 <p>Efter fortynding anbefales øjeblikkelig brug. Opbevaring af den intravenøse pose med Pombiliti er 
 imidlertid mulig i 6 timer ved 20 °C - 25 °C og i 24 timer ved 2 °C - 8 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1049,7 +1055,7 @@ Det anbefalede dosisregime af Pombiliti er 20 mg/kg legemsvægt administreret en
 uge som en intravenøs infusion. </p>
 <p>Infusioner skal administreres trinvist. Det anbefales, at infusionen begynder ved en indledende 
 hastighed på 1 mg/kg/time og gradvist øges med 2 mg/kg/time hver 30. minut, hvis der ikke er tegn på 
-infusionsrelaterede reaktioner, indtil en maksimal hastighed på 7 mg/kg/time nås. </p>         </div>"""      
+infusionsrelaterede reaktioner, indtil en maksimal hastighed på 7 mg/kg/time nås. </p> </div>"""      
 
 
 
@@ -1088,7 +1094,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1097,7 +1105,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1112,7 +1121,7 @@ Usage: #inline
 3. Como administrar Pombiliti 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Pombiliti 
-6. Conteúdo da embalagem e outras informações  </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações  </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1136,7 +1145,7 @@ que os músculos, tais como os músculos que o ajudam a caminhar, os músculos s
 ajudam a respirar e o músculo cardíaco, funcionem corretamente. 
 Pombiliti entra nas células musculares que são afetadas pela doença de Pompe. Quando está no 
 interior das células, o medicamento funciona como a GAA para ajudar a decompor o glicogénio e a 
-controlar os seus níveis. </p>         </div>"""   
+controlar os seus níveis. </p> </div>"""   
           
 
              
@@ -1229,7 +1238,7 @@ ou máquinas. </p>
 <p>Pombiliti contém sódio 
 Este medicamento contém 10,5 mg de sódio (principal componente do sal de cozinha/mesa) em cada 
 frasco para injetáveis. Isto é equivalente a 0,52% da ingestão diária máxima de sódio recomendada na 
-dieta para um adulto. </p>         </div>"""   
+dieta para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pombiliti"
@@ -1290,7 +1299,7 @@ Se tiver falhado uma perfusão, contacte o seu médico ou enfermeiro assim que p
 Pombiliti em combinação com miglustat 24 horas após a última toma de miglustat. </p>
 <p>Se parar de receber Pombiliti 
 Fale com o seu médico se quiser parar o tratamento com Pombiliti. Os sintomas da sua doença podem 
-agravar-se se interromper o tratamento. </p>         </div>"""         
+agravar-se se interromper o tratamento. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1478,7 +1487,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pombiliti"
@@ -1497,7 +1506,7 @@ injetáveis na embalagem exterior para proteger da luz. </p>
 intravenoso com Pombiliti foi demonstrado durante 6 horas a 20 °C - 25 °C e 24 horas a 2 °C - 8 °C. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1639,7 +1648,7 @@ Amicus Therapeutics, UK Limited<br />
 Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

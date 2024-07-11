@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Xtandi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ lower testosterone. </li>
 <p>How Xtandi works 
 Xtandi is a medicine that works by blocking the activity of hormones called androgens (such as 
 testosterone). By blocking androgens, enzalutamide stops prostate cancer cells from growing and 
-dividing. </p>         </div>"""   
+dividing. </p> </div>"""   
           
 
              
@@ -189,7 +192,7 @@ Driving and using machines
 Xtandi may have moderate influence on the ability to drive and use machines. Seizures have been 
 reported in patients taking Xtandi. If you are at higher risk of seizures, talk to your doctor.<br />
 Xtandi contains sorbitol 
-This medicine contains 57.8 mg sorbitol (a type of sugar) per soft capsule.  </p>         </div>"""   
+This medicine contains 57.8 mg sorbitol (a type of sugar) per soft capsule.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xtandi"
@@ -217,7 +220,7 @@ If you forget to take Xtandi
 - Do not take a double dose to make up for the dose you forgot. 
 If you stop taking Xtandi 
 Do not stop taking this medicine unless your doctor tells you to.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -256,7 +259,7 @@ throat, reduction in blood platelets (which increases risk of bleeding or bruisi
 Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xtandi"
@@ -269,7 +272,7 @@ after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not take any soft capsule that is leaking, damaged, or shows signs of tampering.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -355,7 +358,7 @@ Biocodex SIA
 Tel: + 371 67 619United Kingdom (Northern Ireland) 
 Astellas Pharma Co., Limited 
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was last revised in MM/YYYY.  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -394,7 +397,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -403,7 +408,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -418,7 +424,7 @@ Usage: #inline
 3. Sådan skal du tage Xtandi<br />
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -442,7 +448,7 @@ hormonbehandling for at nedsætte testosteron </li>
 <p>Sådan virker Xtandi 
 Xtandi er et lægemiddel, som virker ved at blokere aktiviteten af de hormoner, som kaldes androgener 
 (såsom testosteron). Ved at blokere androgener standser enzalutamid prostatakræftcellers vækst og 
-deling. </p>         </div>"""   
+deling. </p> </div>"""   
           
 
              
@@ -555,7 +561,7 @@ Xtandi kan i moderat grad påvirke evnen til at føre motorkøretøj eller betje
 rapporteret om krampeanfald hos patienter, der tager Xtandi. 
 Hvis du har højere risiko for krampeanfald, bør du kontakte lægen.  </p>
 <p>Xtandi indeholder sorbitol 
-Dette lægemiddel indeholder 57,8 mg sorbitol (en form for sukker) pr. bløde kapsel.  </p>         </div>"""   
+Dette lægemiddel indeholder 57,8 mg sorbitol (en form for sukker) pr. bløde kapsel.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xtandi"
@@ -586,7 +592,7 @@ Hvis du har glemt at tage Xtandi i mere end en dag, skal du straks kontakte læg
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Xtandi 
 Du må ikke holde op med at tage dette lægemiddel, medmindre lægen beder dig om det.  </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -631,7 +637,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xtandi"
@@ -644,7 +650,7 @@ efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Tag ikke eventuelt bløde kapsler, som er utætte, beskadigede eller viser tegn på manipulation. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -776,7 +782,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
-indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -815,7 +821,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -824,7 +832,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -839,7 +848,7 @@ Usage: #inline
 3. Como tomar Xtandi<br />
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Xtandi<br />
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -861,7 +870,7 @@ uma terapêutica hormonal para baixar os níveis de testosterona </p>
 <p>Como atua o Xtandi 
 Xtandi é um medicamento que atua bloqueando a atividade das hormonas chamadas de androgénios 
 (como a testosterona). Ao bloquear os androgénios, a enzalutamida impede o crescimento e a divisão 
-das células da próstata cancerígenas.  </p>         </div>"""   
+das células da próstata cancerígenas.  </p> </div>"""   
           
 
              
@@ -971,7 +980,7 @@ Xtandi pode ter influência moderada sobre a capacidade de conduzir e utilizar m
 notificadas convulsões em doentes a tomar Xtandi. 
 Se tem um risco maior de sofrer convulsões, deve falar com o seu médico.  </p>
 <p>Xtandi contém sorbitol 
-Este medicamento contém 57,8 mg de sorbitol (um tipo de açúcar) por cápsula mole. </p>         </div>"""   
+Este medicamento contém 57,8 mg de sorbitol (um tipo de açúcar) por cápsula mole. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar xtandi"
@@ -1002,7 +1011,7 @@ seu médico.<br />
 -   Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Se parar de tomar Xtandi 
 Não pare de tomar este medicamento a menos que o médico lhe diga para parar.  </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.  </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1048,7 +1057,7 @@ sangramento ou nódoas negras), diarreia. </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar xtandi"
@@ -1063,7 +1072,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 adulteração. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1185,7 +1194,7 @@ United Kingdom (Northern Ireland)
 Astellas Pharma Co., Limited<br />
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
 <p>Este folheto foi revisto pela última vez em MM/AAAA. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

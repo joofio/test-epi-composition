@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Klisyri </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Klisyri contains the active substance tirbanibulin. It is used for the treatment of mild actinic keratosis 
 in adults. Actinic keratosis is a rough area of skin that has developed in people who have been exposed 
 to too much sunshine over a long time. Klisyri should only be used for flat actinic keratosis on the face 
-and scalp.  </p>         </div>"""   
+and scalp.  </p> </div>"""   
           
 
              
@@ -125,7 +128,7 @@ Klisyri should not be used during pregnancy.  </p>
 <p>Driving and using machines 
 This medicine is not expected to have any effect on your ability to drive or to use machines. </p>
 <p>Klisyri contains propylene glycol<br />
-Propylene glycol may cause skin irritation  </p>         </div>"""   
+Propylene glycol may cause skin irritation  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take klisyri"
@@ -159,7 +162,7 @@ severe skin reactions. </p>
 <p>If you forget to use Klisyri<br />
 If you miss a dose, apply the ointment as soon as you remember and then continue with your regular 
 schedule. Do not apply the ointment more than once a day.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -187,7 +190,7 @@ within 2 to 3 weeks after completing the treatment. Contact your doctor if these
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store klisyri"
@@ -200,7 +203,7 @@ Do not refrigerate or freeze. </p>
 EXP. The expiry date refers to the last day of that month. </p>
 <p>For single use only. Do not re-use the sachets once opened.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -256,7 +259,7 @@ Almirall, S. A.
 Tel: +353 (0) 1431 9Portugal<br />
 Almirall - Produtos Farmac uticos, Lda.<br />
 Tel.: +351 21 415 57 This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -295,7 +298,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -304,7 +309,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -321,7 +327,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -332,7 +338,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Klisyri indeholder det aktive stof tirbanibulin. Det anvendes til behandling af mild aktinisk keratose 
 hos voksne. Aktinisk keratose er et ru hudområde hos personer, der har udviklet sig hos personer, der 
 har været udsat for meget sol i lang tid. Klisyri bør kun anvendes til flad aktinisk keratose i ansigtet og 
-hovedbunden. </p>         </div>"""   
+hovedbunden. </p> </div>"""   
           
 
              
@@ -414,7 +420,7 @@ Klisyri bør ikke anvendes under graviditet. </p>
 Dette lægemiddel forventes ikke at have nogen indflydelse på din evne til at køre bil eller bruge 
 maskiner. </p>
 <p>Klisyri indeholder propylenglycol 
-Propylenglycol kan give irritation af huden. </p>         </div>"""   
+Propylenglycol kan give irritation af huden. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take klisyri"
@@ -448,7 +454,7 @@ apotekspersonalet, hvis du får alvorlige hudreaktioner på området. </p>
 <p>Hvis du har glemt at bruge Klisyri 
 Hvis du springer en dosis over, skal du påføre salven, så snart du kommer i tanker om det, og derefter 
 fortsætte med din sædvanlige behandlingsplan. Påfør ikke salven mere end én gang om dagen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -498,7 +504,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 Du kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store klisyri"
@@ -511,7 +517,7 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Kun til engangsbrug. Brevene må ikke bruges igen, efter at have været åbnet.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet eller, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet eller, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -582,7 +588,7 @@ Almirall - Produtos Farmacêuticos, Lda.<br />
 Tel.: +351 21 415 57  </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

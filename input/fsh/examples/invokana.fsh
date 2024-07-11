@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Invokana</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ What is type 2 diabetes?
 Type 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that 
 your body produces does not work as well as it should. Your body can also make too much sugar. 
 When this happens, sugar (glucose) builds up in the blood. This can lead to serious medical conditions 
-such as heart disease, kidney disease, blindness, and amputation.</p>         </div>"""   
+such as heart disease, kidney disease, blindness, and amputation.</p> </div>"""   
           
 
              
@@ -189,7 +192,7 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.
 Invokana contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take invokana"
@@ -227,7 +230,7 @@ the next dose, skip the missed dose.</p>
 If you stop taking Invokana
 Your blood sugar levels may rise if you stop taking this medicine. Do not stop taking this medicine 
 without talking to your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -324,7 +327,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store invokana"
@@ -337,7 +340,7 @@ expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not use Invokana if the packaging is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -467,7 +470,7 @@ A. Menarini Farmaceutica Internazionale S.R.L.
 Tel: +44 (0)1628 856menarini@medinformation.co.uk
 This leaflet was approved in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -506,7 +509,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -515,7 +520,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -530,7 +536,7 @@ Usage: #inline
 3. Sådan skal du tage Invokana
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -558,7 +564,7 @@ Type 2-diabetes er en tilstand, hvor kroppen ikke producerer nok insulin, og den
 faktisk producerer, ikke virker tilstrækkeligt. Det er også muligt, at kroppen producerer for meget 
 sukker. Når det er tilfældet, sker der en ophobning af sukker (glucose) i blodet. Det kan føre til en 
 række alvorlige lidelser såsom hjertesygdom, nyresygdom, blindhed og amputation.
-42</p>         </div>"""   
+42</p> </div>"""   
           
 
              
@@ -686,7 +692,7 @@ sukkerarter.
 Invokana indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
 væsentlige natriumfrit.
-44</p>         </div>"""   
+44</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take invokana"
@@ -733,7 +739,7 @@ Du må ikke tage en dobbeltdosis (to doser på samme dag) som erstatning for den
 Hvis du holder op med at tage Invokana
 Dit blodsukker kan stige, hvis du holder op med at tage dette lægemiddel. Kontakt lægen, hvis du 
 ønsker at holde pause eller stoppe behandlingen med Invokana.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -868,7 +874,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store invokana"
@@ -881,7 +887,7 @@ er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Brug ikke Invokana, hvis pakningen er beskadiget eller viser tegn på, at den har været åbnet.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1051,7 +1057,7 @@ menarini@medinformation.co.uk
 Denne indlægsseddel blev godkendt {måned ÅÅÅÅ}.
 Andre informationskilder
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.</p> </div>"""      
 
 
 

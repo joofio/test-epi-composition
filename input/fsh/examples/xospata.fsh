@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Xospata </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ whose disease has come back or has not improved after previous treatment.  </p>
 <p>How Xospata works<br />
 In AML, patients develop large numbers of abnormal white blood cells. Gilteritinib blocks the action 
 of certain enzymes (kinases) needed for the abnormal cells to multiply and grow, thus preventing the 
-growth of the cancer. </p>         </div>"""   
+growth of the cancer. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ breast-feed during treatment with Xospata and for at least 2 months after stoppi
 <p>If you are pregnant, think you may be pregnant or are planning to have a baby, ask your doctor, 
 pharmacist or nurse for advice before taking this medicine. 
 Driving and using machines 
-You may feel dizzy after taking Xospata. If this happens, do not drive or use machines. </p>         </div>"""   
+You may feel dizzy after taking Xospata. If this happens, do not drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xospata"
@@ -187,7 +190,7 @@ same day and take your next dose at the usual time on the following day. Do not 
 make up for a forgotten dose. 
 If you stop taking Xospata 
 Do not stop taking this medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -246,7 +249,7 @@ itching, hives (anaphylactic reaction) </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xospata"
@@ -258,7 +261,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -344,7 +347,7 @@ Biocodex SIA
 Tel: +371 67 619United Kingdom (Northern Ireland) 
 Astellas Pharma Co., Limited 
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was last revised in MM/YYYY  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -383,7 +386,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -392,7 +397,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -407,7 +413,7 @@ Usage: #inline
 3. Sådan skal du tage Xospata 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -425,7 +431,7 @@ gives til patienter, hvis sygdom er vendt tilbage eller de ikke er i bedring eft
 <p>Sådan virker Xospata<br />
 Ved AML danner patienterne et stort antal unormale hvide blodlegemer. Gilteritinib blokerer 
 virkningen af nogle enzymer (kinaser), der er nødvendige for, at de unormale celler kan formere sig og 
-vokse, og forhindrer dermed, at kræften vokser. </p>         </div>"""   
+vokse, og forhindrer dermed, at kræften vokser. </p> </div>"""   
           
 
              
@@ -509,7 +515,7 @@ mens du er i behandling med Xospata, og i mindst 2 måneder efter at du er holdt
 lægen, apotekspersonalet eller sygeplejersken til råds, før du tager dette lægemiddel. 
 Trafik- og arbejdssikkerhed 
 Du kan føle dig svimmel, efter at du har taget Xospata. Hvis dette sker, må du ikke køre 
-motorkøretøjer eller bruge maskiner. </p>         </div>"""   
+motorkøretøjer eller bruge maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xospata"
@@ -537,7 +543,7 @@ snart du husker det samme dag, og tage din næste dosis på det sædvanlige tids
 må ikke tage en dobbeltdosis som erstatning for den glemte dosis. 
 Hvis du holder op med at tage Xospata 
 Du må ikke holde op med at tage dette lægemiddel, med mindre din læge siger det. 
-Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -598,7 +604,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xospata"
@@ -610,7 +616,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkort
 er den sidste dag i den nævnte måned. 
 Opbevares i den originale yderpakning for at beskytte mod lys. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -726,7 +732,7 @@ Astellas Pharma Co., Limited
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5 </p>
 <p>Denne indlægsseddel blev senest ændret MM/ÅÅÅÅ <br />
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu  </p> </div>"""      
 
 
 

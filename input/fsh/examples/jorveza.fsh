@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Jorveza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jorveza contains the active substance budesonide, a corticosteroid medicine that reduces inflammation. </p>
 <p>It is used in adults (older than 18 years of age) to treat eosinophilic oesophagitis, which is an 
-inflammatory condition of the gullet (food pipe) that causes problems with swallowing food. </p>         </div>"""   
+inflammatory condition of the gullet (food pipe) that causes problems with swallowing food. </p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ baby is being breast-fed. </p>
 Jorveza is not expected to affect your ability to drive or use machines. </p>
 <p>Jorveza contains sodium 
 This medicine contains 52 mg sodium (main component of cooking/table salt) per daily dose. This is 
-equivalent to 2.6% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+equivalent to 2.6% of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jorveza"
@@ -199,7 +202,7 @@ forgotten dose. </p>
 Speak to your doctor if you want to interrupt or end your treatment early. It is important that you do 
 not stop taking your medicine without talking to your doctor. Keep taking your medicine until your 
 doctor tells you to stop, even if you feel better. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ dermatitis, bruising </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jorveza"
@@ -284,7 +287,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Do not store above 25  C. Store in the original package in order to protect from light and moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -431,7 +434,7 @@ Dr. Falk Pharma GmbH
 Tel: +49 761 1514 0 
 zentrale@drfalkpharma.de </p>
 <p>This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -470,7 +473,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -479,7 +484,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -496,7 +502,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -507,7 +513,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jorveza indeholder det aktive stof budesonid, et kortikosteroid-lægemiddel, der reducerer 
 inflammation (betændelse). </p>
 <p>Det tages af voksne (over 18 år) til at behandle eosinofil øsofagitis, som er en betændelsestilstand i 
-spiserøret, der giver problemer med at synke føde. </p>         </div>"""   
+spiserøret, der giver problemer med at synke føde. </p> </div>"""   
           
 
              
@@ -591,7 +597,7 @@ hvor du ammer dit barn. </p>
 <p>Jorveza forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Jorveza indeholder natrium 
 Dette lægemiddel indeholder 52 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. daglig 
-dosis. Dette svarer til 2,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+dosis. Dette svarer til 2,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jorveza"
@@ -636,7 +642,7 @@ tage en dobbeltdosis som erstatning for den glemte dosis.  </p>
 Kontakt din læge, hvis du ønsker at holde pause eller stoppe behandlingen tidligere. </p>
 <p>Det er vigtigt, at du ikke stopper med at tage din medicin uden at kontakte lægen. Fortsæt med at tage 
 din medicin, indtil din læge beder dig om at stoppe, også selv om du har det bedre. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -712,7 +718,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jorveza"
@@ -725,7 +731,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25 °C. Opbevares i den originale yderpakning for at 
 beskytte mod lys og fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -876,7 +882,7 @@ Tel: +49 761 1514 0
 zentrale@drfalkpharma.de </p>
 <p>Denne indlægsseddel blev senest ændret. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

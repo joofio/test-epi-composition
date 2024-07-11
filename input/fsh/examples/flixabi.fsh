@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Flixabi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -117,7 +120,7 @@ Crohn s disease is an inflammatory disease of the bowel. If you have Crohn s dis
 other medicines. If these medicines do not work well enough, you will be given Flixabi to: 
   Treat active Crohn s disease, 
   Reduce the number of abnormal openings (fistulae) between your bowel and your skin that have not 
-been controlled by other medicines or surgery. </p>         </div>"""   
+been controlled by other medicines or surgery. </p> </div>"""   
           
 
              
@@ -288,7 +291,7 @@ Flixabi has minor influence on the ability to drive and use machines, e.g. dizzi
 <p>Flixabi contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . 
 However, before Flixabi is given to you, it is mixed with a solution that contains sodium. Talk to your doctor 
-if you are on a low salt diet. </p>         </div>"""   
+if you are on a low salt diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take flixabi"
@@ -324,7 +327,7 @@ As this medicine is being given by your doctor or nurse, it is unlikely that you
 are no known side effects of having too much of Flixabi. </p>
 <p>If you forget or miss your Flixabi infusion 
 If you forget or miss an appointment to receive Flixabi, make another appointment as soon as possible. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -480,7 +483,7 @@ infection (neutropenia), bone fracture, bacterial infection and allergic reactio
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store flixabi"
@@ -503,7 +506,7 @@ whichever is earlier.
 3 hours). However, if the solution is prepared in germ-free conditions, it can be stored in the 
 refrigerator at 2  C to 8  C up to 34 days and for an additional 24 hours at 25  C after removal from 
 refrigeration. 
-  Do not use this medicine if it is discoloured or if there are particles present. </p>         </div>"""      
+  Do not use this medicine if it is discoloured or if there are particles present. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -663,7 +666,7 @@ visibly opaque particles, discolouration or foreign particles are observed. </p>
 <li>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 
@@ -702,7 +705,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -711,7 +716,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -726,7 +732,7 @@ Usage: #inline
 3. Sådan får du Flixabi 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -823,7 +829,7 @@ andre lægemidler. Hvis disse lægemidler ikke virker godt nok, vil du få Flixa
 <p>Sænke antallet af unormale åbninger (fistler) mellem din tarm og hud, der ikke har kunnet 
 behandles tilfredsstillende med andre lægemidler eller operation. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1133,7 +1139,7 @@ vertigo. </p>
 <p>Flixabi indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis dvs. det er i det væsentlige 
 natriumfrit. Men før du får Flixabi, blandes det sammen med en opløsning, som indeholder natrium. Tal 
-med din læge, hvis du er på en diæt med et lavt saltindhold. </p>         </div>"""   
+med din læge, hvis du er på en diæt med et lavt saltindhold. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take flixabi"
@@ -1189,7 +1195,7 @@ kendes ikke til nogen bivirkninger efter at have fået for meget Flixabi. </p>
 <p>Hvis du har glemt eller kommer for sent til din Flixabi-infusion 
 Hvis du glemmer eller kommer for sent til en aftale, hvor Flixabi gives, skal du lave en ny aftale så 
 hurtigt som muligt. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1565,7 +1571,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store flixabi"
@@ -1602,7 +1608,7 @@ ud af køleskabet. </p>
 <li>
 <p>Brug ikke lægemidlet, hvis det er misfarvet, eller hvis det indeholder partikler. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1797,7 +1803,7 @@ observeres synligt uigennemsigtige partikler, misfarvning eller fremmedlegemer. 
 <li>
 <p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 

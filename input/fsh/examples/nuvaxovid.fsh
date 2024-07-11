@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Nuvaxovid </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 <p>Nuvaxovid is given to individuals 12 years of age and older. </p>
 <p>The vaccine causes the immune system (the body s natural defences) to produce antibodies and 
 specialised white blood cells that work against the virus, to give protection against COVID-19. None 
-of the ingredients in this vaccine can cause COVID-19. </p>         </div>"""   
+of the ingredients in this vaccine can cause COVID-19. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ vaccine have worn off before you drive or use machines.  </p>
 <p>This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
 free . </p>
 <p>This vaccine contains less than 1 mmol potassium (39 milligrams) per dose, that is to say, essentially 
- potassium-free . </p>         </div>"""   
+ potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nuvaxovid"
@@ -145,7 +148,7 @@ individuals 12 years of age and older. </p>
 <p>During and after each injection of the vaccine, your doctor, pharmacist, or nurse will watch over you 
 for around 15 minutes to monitor for signs of an allergic reaction. </p>
 <p>If you miss an appointment for your second injection of Nuvaxovid ask your doctor or nurse for 
-advice. If you miss a scheduled injection, you may not be fully protected against COVID-19. </p>         </div>"""         
+advice. If you miss a scheduled injection, you may not be fully protected against COVID-19. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ heart (pericarditis), which can result in breathlessness, palpitations or chest 
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V and include batch/Lot number if available. By reporting side effects, you 
-can help provide more information on the safety of this vaccine. </p>         </div>"""      
+can help provide more information on the safety of this vaccine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nuvaxovid"
@@ -212,7 +215,7 @@ can help provide more information on the safety of this vaccine. </p>         </
 <p>Your doctor, pharmacist, or nurse is responsible for storing this vaccine and disposing of any unused 
 product correctly. </p>
 <p>Information about storage, expiry, use and handling are described in the section intended for 
-healthcare professionals at the end of the package leaflet. </p>         </div>"""      
+healthcare professionals at the end of the package leaflet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -260,7 +263,7 @@ Bohumil Jevany, 28Czechia </p>
 <p>Scan the code with a mobile device to get the package leaflet in different languages. </p>
 <p>Or visit the URL: https://www.NovavaxCovidVaccine.com  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -299,7 +302,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -308,7 +313,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -325,7 +331,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -337,7 +343,7 @@ Usage: #inline
 <p>Nuvaxovid gives til personer i alderen 12 år og derover. </p>
 <p>Vaccinen får immunsystemet (kroppens naturlige forsvar) til at producere antistoffer og specialiserede 
 hvide blodlegemer, der modarbejder virussen, for at give beskyttelse mod COVID-19. Ingen af 
-indholdsstofferne i denne vaccine kan forårsage COVID-19. </p>         </div>"""   
+indholdsstofferne i denne vaccine kan forårsage COVID-19. </p> </div>"""   
           
 
              
@@ -391,7 +397,7 @@ indtil disse bivirkninger er gået væk, inden du fører motorkøretøj eller be
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
 natriumfri. </p>
 <p>Denne vaccine indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. den er i det væsentlige 
-kaliumfri. </p>         </div>"""   
+kaliumfri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nuvaxovid"
@@ -410,7 +416,7 @@ alderen 12 år og derover. </p>
 holde øje med dig i omkring 15 minutter for at overvåge for tegn på en allergisk reaktion. </p>
 <p>Hvis du glemmer en aftale om den anden indsprøjtning med Nuvaxovid, skal du spørge din læge eller 
 sygeplejersken til råds. Hvis du glemmer en planlagt indsprøjtning, er du måske ikke fuldt beskyttet 
-mod COVID-19. </p>         </div>"""         
+mod COVID-19. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -537,7 +543,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Oplys batch-/lotnummer, hvis det er tilgængeligt. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe flere oplysninger om sikkerheden af denne vaccine. </p>         </div>"""      
+med at fremskaffe flere oplysninger om sikkerheden af denne vaccine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nuvaxovid"
@@ -548,7 +554,7 @@ med at fremskaffe flere oplysninger om sikkerheden af denne vaccine. </p>       
 <p>Lægen, apotekspersonalet eller sygeplejersken er ansvarlig for opbevaring af vaccinen og korrekt 
 bortskaffelse af ubrugt produkt. </p>
 <p>Oplysninger om opbevaring, udløbsdato samt anvendelse og håndtering er beskrevet i afsnittet 
-beregnet til sundhedspersoner til sidst i indlægssedlen. </p>         </div>"""      
+beregnet til sundhedspersoner til sidst i indlægssedlen. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -696,7 +702,7 @@ oplysninger.
 • Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.      </p>
 <p>Oversigt over indlægssedlen 
-1. Virkning og anvendelse Nuvaxovid XBB.1.5 </p>         </div>"""      
+1. Virkning og anvendelse Nuvaxovid XBB.1.5 </p> </div>"""      
 
 
 
@@ -735,7 +741,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -744,7 +752,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -761,7 +770,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Nuvaxovid </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -772,7 +781,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nuvaxovid é uma vacina utilizada para prevenir a COVID-19 causada pelo vírus SARS-CoV-2.  </p>
 <p>Nuvaxovid é administrada a indivíduos com idade igual ou superior a 12 anos. </p>
 <p>A vacina faz com que o sistema imunitário (as defesas naturais do corpo) produza anticorpos e 
-leucócitos especializados que atuam contra o vírus, para conferir proteção contra a COVID-19. Nenhum dos componentes contidos nesta vacina pode causar COVID-19.  </p>         </div>"""   
+leucócitos especializados que atuam contra o vírus, para conferir proteção contra a COVID-19. Nenhum dos componentes contidos nesta vacina pode causar COVID-19.  </p> </div>"""   
           
 
              
@@ -840,7 +849,7 @@ efeitos da vacina tenham desaparecido antes de conduzir ou utilizar máquinas.  
 <p>Esta vacina contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente “isenta de 
 sódio". </p>
 <p>Esta vacina contém menos de 1 mmol de potássio (39 mg) por  dose, ou seja, é praticamente “isenta de 
-potássio".  </p>         </div>"""   
+potássio".  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nuvaxovid"
@@ -858,7 +867,7 @@ dose em indivíduos com idade igual ou superior a 12 anos. </p>
 <p>Durante e após cada injeção da vacina, o seu médico, farmacêutico ou enfermeiro irá vigiá-lo durante 
 cerca de 15 minutos, para monitorizar eventuais sinais de uma reação alérgica. </p>
 <p>Se falhar uma marcação para a segunda injeção de Nuvaxovid, fale com o seu médico ou enfermeiro. 
-Se falhar uma injeção agendada, poderá não ficar totalmente protegido contra o vírus da COVID-19.  </p>         </div>"""         
+Se falhar uma injeção agendada, poderá não ficar totalmente protegido contra o vírus da COVID-19.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -987,7 +996,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V e 
 incluir o número do lote, se disponível. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer 
-mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nuvaxovid"
@@ -998,7 +1007,7 @@ mais informações sobre a segurança deste medicamento. </p>         </div>"""
 <p>O seu médico, farmacêutico ou enfermeiro é responsável por conservar esta vacina e eliminar qualquer 
 produto não utilizado corretamente. </p>
 <p>As informações sobre conservação, prazo de validade, utilização e manuseamento estão descritas na 
-secção destinada a profissionais de saúde, no final do folheto. </p>         </div>"""      
+secção destinada a profissionais de saúde, no final do folheto. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1088,7 +1097,7 @@ Bohumil Jevany 281 República Checa </p>
 <p>Digitalize o código com um dispositivo móvel para obter o folheto informativo em idiomas diferentes. </p>
 <p>Ou visite o URL: https://www.NovavaxCovidVaccine.com </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

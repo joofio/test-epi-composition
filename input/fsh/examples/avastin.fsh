@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Avastin </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -105,7 +108,7 @@ with a chemotherapy regimen containing a platinum agent, Avastin will be adminis
 combination with paclitaxel, or topotecan, or pegylated liposomal doxorubicin. </p>
 <p>Avastin is also used for the treatment of adult patients with persistent, recurrent or metastatic cervical 
 cancer. Avastin will be administered in combination with paclitaxel and cisplatin or, alternatively, 
-paclitaxel and topotecan in patients who cannot receive platinum therapy. </p>         </div>"""   
+paclitaxel and topotecan in patients who cannot receive platinum therapy. </p> </div>"""   
           
 
              
@@ -207,7 +210,7 @@ your vision or concentration, or your ability to react, do not drive and use mac
 disappear. </p>
 <p>Important information about some of the ingredients of Avastin 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take avastin"
@@ -253,7 +256,7 @@ discuss this with your doctor.  </p>
 <p>If you stop treatment with Avastin 
 Stopping your treatment with Avastin may stop the effect on tumour growth. Do not stop treatment 
 with Avastin unless you have discussed this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -394,7 +397,7 @@ When Avastin is injected directly into the eye (unapproved use), the following s
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system  listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store avastin"
@@ -414,7 +417,7 @@ dilution has taken place in a sterile environment, Avastin is stable for 30 days
 additional 48 hours at 2 C to 30 C. </p>
 <p>Do not use Avastin if you notice any particulate matter or discolouration prior to administration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -511,7 +514,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -550,7 +553,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -559,7 +564,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -576,7 +582,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelse og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -618,7 +624,7 @@ topotecan eller pegyleret liposomal doxorubicin. </p>
 <p>Avastin bruges også i behandlingen af voksne patienter med vedvarende livmoderhalskræft, med 
 livmoderhalskræft, som er kommet igen, eller med livmoderhalskræft, der har spredt sig (dannet 
 metastaser). Avastin bliver givet sammen med paclitaxel og cisplatin eller med paclitaxel og topotecan 
-til patienter, som ikke kan få platin. </p>         </div>"""   
+til patienter, som ikke kan få platin. </p> </div>"""   
           
 
              
@@ -765,7 +771,7 @@ symptomer, som påvirker dit syn eller din koncentrationsevne eller din reaktion
 være med at køre bil og betjene maskiner, før symptomerne er forsvundet. </p>
 <p>Vigtig information vedrørende hjælpestoffer i Avastin 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas og betragtes derfor 
-værende "natriumfri".  </p>         </div>"""   
+værende "natriumfri".  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take avastin"
@@ -839,7 +845,7 @@ herom. </li>
 <p>Hvis du holder op med at få Avastin 
 Hvis behandlingen med Avastin stoppes, kan virkningen på tumorvæksten ophøre. Stop ikke 
 behandlingen med Avastin før, du har diskuteret det med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1136,7 +1142,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekespersonalet ell
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel  </p>         </div>"""      
+information om sikkerheden af dette lægemiddel  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store avastin"
@@ -1155,7 +1161,7 @@ fortyndingen har fundet sted under sterile forhold, er Avastin stabil i 30 dage 
 yderligere i 48 timer ved 2 ºC - 30 ºC. </p>
 <p>Brug ikke Avastin, hvis du opdager partikler eller misfarvning før indgift.  </p>
 <p>Spørg apoteketspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1287,7 +1293,7 @@ Tel: +44 (0) 1707 366 </p>
 <p>Denne indlægsseddel blev senest ændret den  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om Avastin på Det Europæiske Lægemiddelagenturs hjemmeside 
-http://www.ema.europa.eu/. </p>         </div>"""      
+http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -1326,7 +1332,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1335,7 +1343,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1352,7 +1361,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Avastin </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1399,7 +1408,7 @@ em associação com paclitaxel, ou topotecano, ou doxorrubicina lipossómica peg
 <p>Avastin também é utilizado no tratamento de doentes adultos com cancro do colo do útero com doença 
 persistente, recorrente ou metastizada. Avastin será administrado em associação com paclitaxel e 
 cisplatina, ou, alternativamente, paclitaxel e topotecano em doentes que não podem receber tratamento 
-com platina. </p>         </div>"""   
+com platina. </p> </div>"""   
           
 
              
@@ -1562,7 +1571,7 @@ sintomas que afetam a sua visão ou a concentração ou a sua capacidade de reag
 utilize máquinas até que os sintomas desapareçam.  </p>
 <p>Informação importante sobre alguns dos componentes de Avastin </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis, ou seja, 
-é praticamente “isento de sódio". </p>         </div>"""   
+é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar avastin"
@@ -1641,7 +1650,7 @@ seu médico.  </li>
 <p>Interromper o tratamento com Avastin pode parar o seu efeito no crescimento do tumor. Não pare o 
 tratamento com Avastin exceto se o assunto tiver sido discutido com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1950,7 +1959,7 @@ olho, </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar avastin"
@@ -1972,7 +1981,7 @@ Avastin é estável durante 30 dias a 2°C-8°C, mais um período adicional de 4
 <p>Não utilize Avastin se notar qualquer partícula sólida ou descoloração antes da administração.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2100,7 +2109,7 @@ Tel: +44 (0) 1707 366 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
 <p>Está disponível informação pormenorizada sobre este medicamento no sítio da  internet da Agência 
-Europeia de Medicamentos: http://www.ema.europa.eu </p>         </div>"""      
+Europeia de Medicamentos: http://www.ema.europa.eu </p> </div>"""      
 
 
 

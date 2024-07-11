@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Stocrin</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ fights human immunodeficiency virus (HIV) infection by reducing the amount of th
 It is used by adults, adolescents and children 3 years of age and older.
 Your doctor has prescribed Stocrin for you because you have HIV infection. Stocrin taken in
 combination with other antiretroviral medicines reduces the amount of the virus in the blood. This will
-strengthen your immune system and reduce the risk of developing illnesses linked to HIV infection.</p>         </div>"""   
+strengthen your immune system and reduce the risk of developing illnesses linked to HIV infection.</p> </div>"""   
           
 
              
@@ -302,7 +305,7 @@ This medicine contains 1 mg of benzoic acid (E210) per mL.
 Stocrin 30 mg/mL oral solution contains benzyl alcohol
 This medicine contains benzyl alcohol (E1519) up to 0.816 mg per mL.
 Benzyl alcohol may cause allergic reactions.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stocrin"
@@ -375,7 +378,7 @@ If you stop taking Stocrin
 When your Stocrin supply starts to run low, get more from your doctor or pharmacist. This is very
 important because the amount of virus may start to increase if the medicine is stopped for even a short
 time. The virus may then become harder to treat.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -456,7 +459,7 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
 safety of this medicine.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stocrin"
@@ -468,7 +471,7 @@ Do not use this medicine after the expiry date which is stated on the bottle and
 EXP. The expiry date refers to the last day of that month.
 The bottle of Stocrin oral solution should be used within one month after first opening.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -600,7 +603,7 @@ important information for you. </p>
 <p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them,
 even if their signs of illness are the same as yours.</p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -639,7 +642,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -648,7 +653,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -663,7 +669,7 @@ Usage: #inline
 3. Sådan skal du tage Stocrin 
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -677,7 +683,7 @@ som bekæmper humant immundefektvirus (hiv)-infektion ved at reducere mængden a
 blodet. Det anvendes af voksne, unge og børn, der er 3 år eller derover.
 Din læge har ordineret Stocrin til dig, fordi du har en hiv-infektion. Stocrin taget sammen med anden
 antiretroviral behandling reducerer mængden af virus i blodet. Det vil styrke dit immunsystem og
-nedsætte risikoen for at udvikle sygdomme, der er forbundet med hiv-infektion.</p>         </div>"""   
+nedsætte risikoen for at udvikle sygdomme, der er forbundet med hiv-infektion.</p> </div>"""   
           
 
              
@@ -931,7 +937,7 @@ Stocrin 30 mg/ml oral opløsning indeholder benzoesyre
 Dette lægemiddel indeholder 1 mg benzoesyre (E210) pr. ml.
 Stocrin 30 mg/ml oral opløsning indeholder benzylalkohol
 Dette lægemiddel indeholder benzylalkohol (E1519), op til 0,816 mg pr. ml.
-Benzylalkohol kan medføre allergiske reaktioner.</p>         </div>"""   
+Benzylalkohol kan medføre allergiske reaktioner.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take stocrin"
@@ -1034,7 +1040,7 @@ Hvis du holder op med at tage Stocrin
 Når din Stocrin er ved at slippe op, skal du hente mere hos din læge eller på apoteket. Dette er
 meget vigtigt, da mængden af virus kan begynde at stige, hvis medicineringen standses - selv i kort
 tid. Virus kan så blive vanskeligere at behandle.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1117,7 +1123,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
 information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store stocrin"
@@ -1130,7 +1136,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Flasken med Stocrin oral opløsning skal anvendes inden for en måned efter åbning.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
 smide medicinrester i afløbet, toilettet eller skraldespanden.</p>
-<p>98</p>         </div>"""      
+<p>98</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1300,7 +1306,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
  
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -1339,7 +1345,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1348,7 +1356,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1363,7 +1372,7 @@ Usage: #inline
 3. Como tomar Stocrin
 4. Efeitos indesejáveis possíveis
 5. Como conservar Stocrin
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1379,7 +1388,7 @@ com 3 anos ou mais anos de idade.
 O seu médico receitou-lhe Stocrin porque tem uma infeção pelo VIH. Stocrin tomado em associação
 com outros medicamentos antirretrovíricos reduz a quantidade de vírus no sangue. Isto irá fortalecer o
 seu sistema imunitário e diminuir o risco de desenvolver doenças relacionadas com a infeção pelo
-VIH.</p>         </div>"""   
+VIH.</p> </div>"""   
           
 
              
@@ -1457,7 +1466,7 @@ infeções e outras doenças associadas com a doença por VIH. </p>
 <li>se tiver história de doença mental, incluindo depressão, ou abuso de drogas ou de
 álcool. Contacte imediatamente o seu médico se se sentir deprimido, tiver
 pensamentos suicidas ou pensamentos estranhos (ver secção </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar stocrin"
@@ -1681,7 +1690,7 @@ Stocrin 30 mg/ml solução oral contém ácido benzoico
 Este medicamento contém 1 mg de ácido benzoico (E210) por ml.
 Stocrin 30 mg/ml solução oral contém álcool benzílico
 Este medicamento contém até 0,816 mg de álcool benzílico (E1519) por ml.
-O álcool benzílico pode causar reações alérgicas. </p>         </div>"""         
+O álcool benzílico pode causar reações alérgicas. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1811,7 +1820,7 @@ a quantidade de vírus pode começar a aumentar. Pode então ser mais difícil c
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
 ou enfermeiro.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar stocrin"
@@ -1892,7 +1901,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1906,7 +1915,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado.
 O frasco de Stocrin solução oral deve ser usado no prazo de 1 mês após a primeira abertura do frasco.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Atriance </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ blood cells can appear in the blood and other parts of the body. The type of leu
 the type of white blood cell mainly involved. In this case, its cells are called lymphoblasts. 
 * a type of lymphoma, called T-cell lymphoblastic lymphoma. This lymphoma is caused by a 
 mass of lymphoblasts, a type of white blood cell. </p>
-<p>If you have any questions about your illness, talk to your doctor </p>         </div>"""   
+<p>If you have any questions about your illness, talk to your doctor </p> </div>"""   
           
 
              
@@ -132,7 +135,7 @@ feel tired or weak, do not drive, and do not use any tools or machines. </p>
 <p>Atriance contains sodium 
 This medicine contains 88.51 mg (3.85 mmol) sodium (main component of cooking/table salt) per vial 
 (50 ml). This is equivalent to 4.4% of the recommended maximum daily dietary intake of sodium for 
-an adult. </p>         </div>"""   
+an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take atriance"
@@ -160,7 +163,7 @@ depending on the results of regular blood tests. Your doctor will decide how man
 required. </p>
 <p>Stopping treatment with Atriance 
 Your doctor will decide when to stop the treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -252,7 +255,7 @@ Tell a doctor if any of these becomes troublesome. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store atriance"
@@ -264,7 +267,7 @@ this medicine. </p>         </div>"""
 <p>This medicine does not require any special storage conditions. </p>
 <p>Atriance is stable for up to 8 hours at up to 30 C once the vial is opened. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -427,7 +430,7 @@ Tel: +43 5338 2This leaflet was last approved in </p>
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on the medicine every year and 
 this leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -466,7 +469,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -475,7 +480,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -492,7 +498,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -515,7 +521,7 @@ hvide blodceller, som overvejende bliver dannet. I dette tilfælde hedder celler
 mængde lymfoblaster, som er en type hvide blodceller. </p>
 </li>
 </ul>
-<p>Hvis du har spørgsmål om din sygdom, skal du tale med lægen om det. </p>         </div>"""   
+<p>Hvis du har spørgsmål om din sygdom, skal du tale med lægen om det. </p> </div>"""   
           
 
              
@@ -580,7 +586,7 @@ værktøj eller maskiner. </p>
 <p>Atriance indeholder natrium 
 Dette lægemiddel indeholder 88,51 mg (3,85 mmol) natrium (hovedkomponent af madlavnings-
 /bordsalt) pr. hætteglas (50 ml). Dette svarer til 4,4 % af den anbefalede maksimale daglige indtagelse 
-af natrium for en voksen. </p>         </div>"""   
+af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take atriance"
@@ -615,7 +621,7 @@ af resultaterne af de regelmæssige blodprøver. Lægen vil beslutte, hvor mange
 kræves. </p>
 <p>Hvis du holder op med at bruge Atriance 
 Lægen afgør, hvornår behandlingen skal stoppes. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -758,7 +764,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apoteketspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store atriance"
@@ -771,7 +777,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Efter anbrud af hætteglasset er Atriance stabil i op til 8 timer ved temperaturer op til 30 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -990,7 +996,7 @@ klargøring af nelarabin infusionsvæske, opløsning kan skylles ud med rigelige
 <p>Ved uforvarende kontakt med hud eller øjne skal området omgående behandles med rigelige 
 mængder vand. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

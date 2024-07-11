@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use with the Podhaler device (overleaf) </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use with the Podhaler device (overleaf) </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TOBI Podhaler </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +90,7 @@ It is a very common bacterium that infects the lungs of nearly everyone with cys
 time during their lives. Some people do not get this infection until later on in their lives, while others 
 get it very young. It is one of the most damaging bacteria for people with cystic fibrosis. If the 
 infection is not properly fought, it will continue to damage your lungs, causing further problems to 
-your breathing. </p>         </div>"""   
+your breathing. </p> </div>"""   
           
 
              
@@ -155,7 +157,7 @@ your doctor or pharmacist for advice before using this medicine. </p>
 to an unborn child, such as deafness. </p>
 <p>If you are breast feeding, you should talk to your doctor before taking this medicine. </p>
 <p>Driving and using machines 
-TOBI Podhaler has no or negligible influence on the ability to drive and use machines. </p>         </div>"""   
+TOBI Podhaler has no or negligible influence on the ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tobi"
@@ -213,7 +215,7 @@ swallowed, don t worry but tell your doctor as soon as possible. </p>
 If you forget to take TOBI Podhaler and there are at least 6 hours to your next dose, take your dose as 
 soon as you can. Otherwise, wait for your next dose. Do not take a double dose to make up for a 
 forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -258,7 +260,7 @@ Very common (may affect more than 1 in 10 people)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tobi"
@@ -272,7 +274,7 @@ this medicine. </p>         </div>"""
 </ul>
 <p>Once removed from the capsule card (blister), a capsule should be used immediately. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+dispose of medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -377,7 +379,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -416,7 +418,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -425,7 +429,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning til Podhaler-inhalator (næste side) </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning til Podhaler-inhalator (næste side) </p>  </div>"""   
 
 
 
@@ -442,7 +446,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -466,7 +470,7 @@ Den er en meget almindelig bakterie, der på et eller andet tidspunkt i livet in
 næsten alle med cystisk fibrose. Nogle får først denne infektion senere i livet, mens andre får den 
 meget tidligt. Den er en af de mest skadelige bakterier for patienter med cystisk fibrose. Hvis 
 infektionen ikke bekæmpes rigtigt, vil den fortsætte med at beskadige lungerne og give yderligere 
-åndedrætsproblemer. </p>         </div>"""   
+åndedrætsproblemer. </p> </div>"""   
           
 
              
@@ -568,7 +572,7 @@ et ufødt barn, fx døvhed. </p>
 <p>Hvis du ammer, skal du tale med din læge, før du tager dette lægemiddel. </p>
 <p>Trafik- og arbejdssikkerhed 
 TOBI Podhaler påvirker ikke eller kun i ubetydelig grad arbejdssikkerheden eller evnen til at færdes 
-sikkert i trafikken. </p>         </div>"""   
+sikkert i trafikken. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tobi"
@@ -643,7 +647,7 @@ slugt TOBI Podhaler, skal du ikke være bekymret, men sige det til din læge sna
 Hvis du har glemt at tage TOBI Podhaler, og der er mindst 6 timer til din næste dosis, skal du tage din 
 dosis, så snart du kan komme til det. Ellers vent til næste dosis. Du må ikke tage en dobbeltdosis som 
 erstatning for den glemte dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -733,7 +737,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tobi"
@@ -753,7 +757,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 </ul>
 <p>Kapslerne skal bruges, så snart de er taget ud af kapselkortet (blister). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1071,7 +1075,7 @@ Undertiden kan meget små stykker af kapslen passere gennem nettet og ind i mund
 <p>Risikoen for, at kapslen splintres, er større, hvis kapslen ved et uheld perforeres mere end én 
 gang, eller hvis inhalatoren ikke holdes, så mundstykket vender nedad under trin 7. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

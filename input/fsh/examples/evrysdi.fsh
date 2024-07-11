@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Evrysdi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ patients after 1 year of treatment with Evrysdi), </li>
 <li>keep the ability to be fed by mouth in 83% of patients. </li>
 </ul>
 <p>In children (toddlers to adolescents) and adults with SMA Type 2 and 3, Evrysdi may maintain or 
-improve muscle control. </p>         </div>"""   
+improve muscle control. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ the highest daily dose of 5 mg (6.6 mL of 0.75 mg/mL oral solution). This means 
 (yellowing of the skin and eyes) in newborn babies (up to 4 weeks old). </p>
 <p>Evrysdi contains isomalt </p>
 <p>Evrysdi contains 2.97 mg of isomalt per mL.  If you have been told by your doctor that you or your 
-child have an intolerance to some sugars, contact your doctor before taking this medicinal product. </p>         </div>"""   
+child have an intolerance to some sugars, contact your doctor before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evrysdi"
@@ -213,7 +216,7 @@ forgotten dose. </p>
 take the next dose at the usual time the next day. </p>
 <p>If you spill Evrysdi </p>
 <p>If you spill Evrysdi, dry the area with a dry paper towel and then clean the area with soap and water. 
-Throw away the paper towel in the waste and wash your hands well with soap and water. </p>         </div>"""         
+Throw away the paper towel in the waste and wash your hands well with soap and water. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -239,7 +242,7 @@ occur is not known:
 <p>If you or your child get any side effects, talk to your doctor or pharmacist or nurse. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evrysdi"
@@ -266,7 +269,7 @@ more than a total of 120 hours (5 days). </li>
 store the Evrysdi solution in the syringe. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -431,7 +437,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -466,7 +472,7 @@ sammenlignet med 85% af patienterne efter 1 års behandling med Evrysdi).  </p>
 </li>
 </ul>
 <p>Hos børn (fra småbørn til unge) og voksne med SMA-type 2 og type 3, kan Evrysdi opretholde eller 
-forbedre muskelkontrollen. </p>         </div>"""   
+forbedre muskelkontrollen. </p> </div>"""   
           
 
              
@@ -557,7 +563,7 @@ væsentlige natriumfrit og kan anvendes af patienter på saltfattig kost. </p>
 huden og øjnene) hos nyfødte (op til fire uger). </p>
 <p>Evrysdi indeholder isomalt </p>
 <p>Evrysdi indeholder 2,97 mg isomalt per ml. Kontakt lægen, før du tager dette lægemiddel, hvis lægen 
-har fortalt dig, at du eller dit barn ikke tåler visse sukkerarter. </p>         </div>"""   
+har fortalt dig, at du eller dit barn ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take evrysdi"
@@ -641,7 +647,7 @@ ekstra dosis. I stedet skal den næste dosis tages til sædvanlig tid dagen efte
 <p>Hvis du spilder Evrysdi </p>
 <p>Hvis du kommer til at spilde Evrysdi, skal du tørre området af med et stykke tørt køkkenrulle og vaske 
 efter med sæbe og vand. Smid det brugte stykke køkkenrulle i skraldespanden og vask hænderne godt 
-med sæbe og vand. </p>         </div>"""         
+med sæbe og vand. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -690,7 +696,7 @@ ikke kendt: </p>
 sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store evrysdi"
@@ -733,7 +739,7 @@ ikke opbevares i sprøjten. </p>
 </li>
 </ul>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1235,7 +1241,7 @@ og på æsken. </p>
 <p>Sæt flasken tilbage i den originale æske med 
 sprøjter (i poser), indlægsseddel og 
 brugsvejledning. Æsken skal opbevares i 
-køleskab (2 til 8 °C).  </p>         </div>"""      
+køleskab (2 til 8 °C).  </p> </div>"""      
 
 
 
@@ -1274,7 +1280,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1283,7 +1291,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1300,7 +1309,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Evrysdi  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1336,7 +1345,7 @@ em comparação com 85% dos doentes após 1 ano de tratamento com Evrysdi), </p>
 </li>
 </ul>
 <p>Em crianças (bebés a adolescentes) e adultos com AME do Tipo 2 e 3, Evrysdi pode manter ou 
-melhorar o controlo muscular. </p>         </div>"""   
+melhorar o controlo muscular. </p> </div>"""   
           
 
              
@@ -1430,7 +1439,7 @@ essencialmente 'isento de sódio' e pode ser utilizado por pessoas com uma dieta
 (amarelecimento da pele e dos olhos) em recém-nascidos (até 4 semanas de idade). </p>
 <p>Evrysdi contém isomalte </p>
 <p>Evrysdi contém 2,97 mg de isomalte por ml. Se foi informado pelo seu médico que tem (ou o seu filho 
-tem) intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+tem) intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar evrysdi"
@@ -1516,7 +1525,7 @@ Em vez disso, tome a dose seguinte à hora habitual, no dia seguinte. </p>
 </ul>
 <p>Se derramar Evrysdi </p>
 <p>Se derramar Evrysdi, seque a área com uma toalha de papel seca e de seguida limpe com água e sabão. 
-Deite a toalha de papel no lixo e lave bem as mãos com água e sabão. </p>         </div>"""         
+Deite a toalha de papel no lixo e lave bem as mãos com água e sabão. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1566,7 +1575,7 @@ desconhecida a frequência com que ocorre: </p>
 indicados neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá 
 comunicar efeitos indesejáveis diretamente, através do sistema nacional de notificação mencionado no 
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar evrysdi"
@@ -1611,7 +1620,7 @@ Evrysdi na seringa. </p>
 </ul>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1752,7 +1761,7 @@ Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366000  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

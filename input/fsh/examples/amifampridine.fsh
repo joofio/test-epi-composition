@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Amifampridine SERB </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ certain tumour types (paraneoplastic form of LEMS) or in the absence of these tu
 nerve impulses to muscles is not released normally and the muscle doesn't receive some or all of the 
 nerve's signals.  </p>
 <p>Amifampridine SERB works by increasing the release of acetylcholine and helps the muscle to receive 
-the nerve signals. </p>         </div>"""   
+the nerve signals. </p> </div>"""   
           
 
              
@@ -151,7 +154,7 @@ should discuss the risks and benefits of continuing to take Amifampridine SERB w
 <p>Driving and using machines 
 This medicine may cause drowsiness, dizziness, fits (convulsions) and blurred vision, which may 
 affect your ability to drive or use machines. Do not drive or operate machines if you experience these 
-side effects. </p>         </div>"""   
+side effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amifampridine"
@@ -189,7 +192,7 @@ have forgotten but continue to take your treatment as prescribed by your doctor.
 <p>If you stop taking Amifampridine SERB 
 If the treatment is stopped, you may experience symptoms such as tiredness, slow reflexes and 
 constipation. Do not stop treatment without consulting your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -228,7 +231,7 @@ Increase in certain liver enzymes (transaminases) seen on blood tests </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amifampridine"
@@ -241,7 +244,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special temperature storage conditions. Store in the 
 original package, in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -278,7 +281,7 @@ has been impossible to get complete information on the reference medicine. The E
 Agency will review any new information on the reference medicine every year and any updates for the 
 reference medicine will also be included as appropriate in the information for Amifampridine SERB, 
 such as this leaflet </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -317,7 +320,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -326,7 +331,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -343,7 +349,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -361,7 +367,7 @@ af sådanne tumorer (ikke-paraneoplastisk form for Lambert-Eatons syndrom). </p>
 som normalt formidler nerveimpulser til musklerne, og musklerne kan ikke modtage nogle af eller alle 
 signalerne fra nerven.  </p>
 <p>Amifampridine SERB virker ved at øge frigivelsen af acetylcholin og hjælper musklen til at modtage 
-nervesignalerne. </p>         </div>"""   
+nervesignalerne. </p> </div>"""   
           
 
              
@@ -434,7 +440,7 @@ sammen om fordele og ulemper ved fortsat at tage Amifampridine SERB, mens du amm
 <p>Trafik- og arbejdssikkerhed 
 Dette lægemiddel kan forårsage døsighed, svimmelhed, krampeanfald og sløret syn, som kan påvirke 
 din evne til at føre motorkøretøj eller betjene maskiner. Undlad at føre motorkøretøj eller betjene 
-maskiner, hvis du oplever disse bivirkninger. </p>         </div>"""   
+maskiner, hvis du oplever disse bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take amifampridine"
@@ -471,7 +477,7 @@ den glemte dosis, men skal fortsætte behandlingen som anvist af lægen. </p>
 <p>Hvis du holder op med at tage Amifampridine SERB 
 Du kan opleve symptomer som f.eks. træthed, langsomme reflekser og forstoppelse, hvis behandlingen 
 stoppes. Stop ikke behandlingen uden at have talt med din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -512,7 +518,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store amifampridine"
@@ -525,7 +531,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. Opbevares i den 
 originale yderpakning for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -565,7 +571,7 @@ Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om refe
 alle gældende ajourføringer for referencelægemidlet vil også blive inkluderet hvor det er passende i 
 informationen om Amifampridine SERB, såsom denne indlægsseddel. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 

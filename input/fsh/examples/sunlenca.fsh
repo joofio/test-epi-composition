@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Sunlenca  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ syndrome (AIDS). </p>
 antiretroviral medicines are not sufficiently effective or are not suitable).  </p>
 <p>Treatment with Sunlenca in combination with other antiretrovirals reduces the amount of HIV in your 
 body. This will improve the function of your immune system (the body s natural defences) and reduce 
-the risk of developing illnesses linked to HIV infection. </p>         </div>"""   
+the risk of developing illnesses linked to HIV infection. </p> </div>"""   
           
 
              
@@ -237,7 +240,7 @@ should discuss it with your doctor as soon as possible. </p>
 <p>Sunlenca is not expected to have any effect on your ability to drive or use machines. </p>
 <p>Sunlenca contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per injection, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sunlenca"
@@ -277,7 +280,7 @@ doctor as soon as possible to discuss your treatment options.  </li>
 <p>Do not stop receiving Sunlenca without talking to your doctor. Keep receiving Sunlenca injections for 
 as long as your doctor recommends. Stopping Sunlenca can seriously affect how future HIV 
 treatments work.  </p>
-<p>Talk to your doctor if you want to stop receiving Sunlenca injections. </p>         </div>"""         
+<p>Talk to your doctor if you want to stop receiving Sunlenca injections. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ Symptoms may include:</p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sunlenca"
@@ -336,7 +339,7 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the vial label and carton after EXP. 
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original 
-package in order to protect from light. </p>         </div>"""      
+package in order to protect from light. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -427,7 +430,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland)<br />
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -466,7 +469,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -475,7 +480,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -492,7 +498,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -509,7 +515,7 @@ immundefektsyndrom (aids). </p>
 når andre antiretrovirale lægemidler ikke er tilstrækkelig effektive eller ikke er egnede).  </p>
 <p>Behandling med Sunlenca sammen med andre antiretrovirale lægemidler nedsætter mængden af hiv i 
 din krop. Dette vil forbedre immunsystemets funktion (kroppens naturlige forsvar) og nedsætte 
-risikoen for at udvikle sygdomme forbundet med hiv-infektion. </p>         </div>"""   
+risikoen for at udvikle sygdomme forbundet med hiv-infektion. </p> </div>"""   
           
 
              
@@ -675,7 +681,7 @@ hurtigst muligt. </p>
 <p>Sunlenca forventes ikke at påvirke evnen til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Sunlenca indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. injektion, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sunlenca"
@@ -729,7 +735,7 @@ lægen snarest muligt for at drøfte dine behandlingsmuligheder. </p>
 <p>Du må ikke stoppe med at få Sunlenca uden at tale med lægen. Bliv ved med at få injektioner med 
 Sunlenca, så længe lægen anbefaler det. Hvis du stopper Sunlenca, kan det i alvorlig grad påvirke 
 virkningen af fremtidige hiv-behandlinger. </p>
-<p> Tal med lægen, hvis du ønsker at holde op med at få injektioner med Sunlenca. </p>         </div>"""         
+<p> Tal med lægen, hvis du ønsker at holde op med at få injektioner med Sunlenca. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -785,7 +791,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller apotekspersonalet. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sunlenca"
@@ -796,7 +802,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og æsken efter EXP. 
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i den 
-originale pakning for at beskytte mod lys. </p>         </div>"""      
+originale pakning for at beskytte mod lys. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -986,7 +992,7 @@ vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

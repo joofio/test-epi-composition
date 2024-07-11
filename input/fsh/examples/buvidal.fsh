@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Buvidal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Buvidal contains the active substance buprenorphine, which is a type of opioid medicine. It is used to 
 treat opioid dependence in patients who are also receiving medical, social and psychological support. 
-Buvidal is intended for use in adults and adolescents aged 16 years or over. </p>         </div>"""   
+Buvidal is intended for use in adults and adolescents aged 16 years or over. </p> </div>"""   
           
 
              
@@ -212,7 +215,7 @@ how this medicine affects you. </p>
 <p>Buvidal contains alcohol </p>
 <p>Buvidal 8 mg, 16 mg, 24 mg and 32 mg contain 95.7 mg of alcohol (ethanol) in each mL (10% w/w). 
 The amount in 1 dose of this medicine is equivalent to less than 2 mL beer or 1 mL wine. 
-The small amount of alcohol in this medicine will not have any noticeable effects.  </p>         </div>"""   
+The small amount of alcohol in this medicine will not have any noticeable effects.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take buvidal"
@@ -269,7 +272,7 @@ your doctor when to schedule your next dose. </p>
 <p>If you stop using Buvidal </p>
 <p>Do not stop treatment without checking with the doctor who is treating you. Stopping treatment may 
 cause withdrawal symptoms. 
-If you have any further questions on the use of this product, ask your doctor. </p>         </div>"""         
+If you have any further questions on the use of this product, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ tissue at the injection site. </li>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store buvidal"
@@ -354,7 +357,7 @@ Do not refrigerate or freeze.
 Do not use this medicine if you notice visible particles or if it is cloudy. 
 Buvidal is for single use only. Any used syringe should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -398,7 +401,7 @@ Soldattorpsv gen 5
 216 13 Limhamn 
 Sweden </p>
 <p>This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -437,7 +440,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -446,7 +451,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -463,7 +469,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -474,7 +480,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Buvidal indeholder det aktive indholdsstof buprenorphin, som er en type opioid-lægemiddel. Det 
 bruges til at behandle opioidafhængighed hos patienter, som også får medicinsk, social og psykologisk 
 støtte. 
-Buvidal er beregnet til brug hos voksne og unge på 16 år eller mere. </p>         </div>"""   
+Buvidal er beregnet til brug hos voksne og unge på 16 år eller mere. </p> </div>"""   
           
 
              
@@ -633,7 +639,7 @@ aktiviteter, indtil du ved, hvordan dette lægemiddel påvirker dig. </p>
 <p>Buvidal indeholder alkohol </p>
 <p>Buvidal 8 mg, 16 mg, 24 mg og 32 mg indeholder 95,7 mg alkohol (ethanol) per ml (10 % w/w). 
 Mængden i 1 dosis af dette lægemiddel svarer til mindre end 2 ml øl eller 1 ml vin. 
-Den mindre mængde alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt.  </p>         </div>"""   
+Den mindre mængde alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take buvidal"
@@ -691,7 +697,7 @@ spørge din læge, hvornår du skal aftale en tid til at få den næste dosis. <
 <p>Hvis du holder op med at få Buvidal </p>
 <p>Stop ikke behandling uden at tale med din behandlende læge. Behandlingsophør kan forårsage 
 abstinenser. 
-Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -763,7 +769,7 @@ injektionsstedet. </li>
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store buvidal"
@@ -779,7 +785,7 @@ EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke dette lægemiddel, hvis du ser synlige partikler, eller hvis det er grumset. </p>
 <p>Buvidal er kun til engangsbrug. Bortskaf altid brugte injektionssprøjter. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -946,7 +952,7 @@ lille smule blod på injektionsstedet. Aftør med en vatkugle eller gaze efter b
 <ol>
 <li>Bortskaffelse af injektionssprøjten </li>
 </ol>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -985,7 +991,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -994,7 +1002,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1011,7 +1020,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Buvidal </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1022,7 +1031,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Buvidal contém a substância ativa buprenorfina, que é um tipo de medicamento opiáceo. É utilizado 
 para tratar a dependência de opiáceos em doentes que também recebem apoio médico, social e 
 psicológico. 
-Buvidal destina-se a adultos e adolescentes com idade igual ou superior a 16 anos. </p>         </div>"""   
+Buvidal destina-se a adultos e adolescentes com idade igual ou superior a 16 anos. </p> </div>"""   
           
 
              
@@ -1184,7 +1193,7 @@ efetue atividades perigosas até saber de que forma este medicamento o(a) afeta.
 Buvidal 8 mg, 16 mg, 24 mg e 32 mg contêm 95,7 mg de álcool (etanol) em cada mL (10% p/p). A 
 quantidade em 1 dose deste medicamento é equivalente a menos de 2 mL de cerveja ou 1 mL de 
 vinho. 
-A pequena quantidade de álcool neste medicamento não terá quaisquer efeitos percetíveis. </p>         </div>"""   
+A pequena quantidade de álcool neste medicamento não terá quaisquer efeitos percetíveis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar buvidal"
@@ -1242,7 +1251,7 @@ pergunte ao seu médico quando pode agendar a próxima dose. </p>
 <p>Se parar de utilizar Buvidal 
 Não interrompa o tratamento sem consultar o médico assistente. A suspensão do tratamento pode 
 causar sintomas de abstinência. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1304,7 +1313,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar buvidal"
@@ -1321,7 +1330,7 @@ da seringa após EXP. O prazo de validade corresponde ao último dia do mês ind
 <p>Buvidal é apenas para utilização única. Qualquer seringa utilizada deve ser descartada. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1365,7 +1374,7 @@ Soldattorpsvägen 5
 216 13 Limhamn 
 Suécia </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

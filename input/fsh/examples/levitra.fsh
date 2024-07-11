@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Levitra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ psychological causes, or a mixture of both. Whatever the cause is, due to muscle
 changes not enough blood stays in the penis to make it hard and keep it hard. </p>
 <p>Levitra will only work when you are sexually stimulated. It reduces the action of the natural chemical in 
 your body which makes erections go away. Levitra allows an erection to last long enough for you to 
-satisfactorily complete sexual activity. </p>         </div>"""   
+satisfactorily complete sexual activity. </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ medicine.
 Levitra is not for use by women. </p>
 <p>Driving and using machines 
 Levitra might make some people feel dizzy or affect their vision. If you feel dizzy, or if your vision is 
-affected after taking Levitra don t drive or operate any tools or machines. </p>         </div>"""   
+affected after taking Levitra don t drive or operate any tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take levitra"
@@ -175,7 +178,7 @@ alternative Levitra formulation with a different dose, depending on how well it 
 <p>If you take more Levitra than you should 
 Men who take too much Levitra may experience more side effects or may get severe back pain. If you 
 take more Levitra than you should, tell your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ may affect less than 1 in 10,000 users or frequency cannot be estimated from the
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store levitra"
@@ -260,7 +263,7 @@ By reporting side effects, you can help provide more information on the safety o
 <p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry date 
 refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -353,7 +356,7 @@ Tel: +371 67 845 United Kingdom (Northern Ireland)
 Bayer AG<br />
 Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -392,7 +395,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -401,7 +406,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -416,7 +422,7 @@ Usage: #inline
 3. Sådan skal De tage Levitra 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -433,7 +439,7 @@ begge dele. Uanset årsagen er effekten den samme: Muskel- og blodkarsændringer
 tilstrækkeligt blod i penis til at opnå og bevare stivhed. </p>
 <p>Levitra fungerer kun i forbindelse med seksuel stimulation. Det nedsætter funktionen af det naturlige 
 stof i kroppen, der fjerner en erektion. Levitra lader en erektion vare længe nok til, at De på 
-tilfredsstillende måde kan gennemføre en seksuel aktivitet. </p>         </div>"""   
+tilfredsstillende måde kan gennemføre en seksuel aktivitet. </p> </div>"""   
           
 
              
@@ -510,7 +516,7 @@ fedtholdigt måltid, da det kan forsinke virkningen.
 Levitra er ikke beregnet til brug hos kvinder. </p>
 <p>Trafik- og arbejdssikkerhed 
 Levitra kan medføre svimmelhed eller synspåvirkning hos nogle. Hvis De føler Dem svimmel eller 
-Deres syn er påvirket efter at have taget Levitra, bør De ikke køre bil eller betjene maskiner. </p>         </div>"""   
+Deres syn er påvirket efter at have taget Levitra, bør De ikke køre bil eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take levitra"
@@ -531,7 +537,7 @@ på Dem. </p>
 <p>Hvis De har taget for meget Levitra 
 Mænd, som tager for meget Levitra, kan opleve flere bivirkninger eller få alvorlige rygsmerter. Fortæl 
 lægen, hvis De har taget for meget Levitra. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -605,7 +611,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge. Dette gælder også 
 som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store levitra"
@@ -616,7 +622,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken efter "EXP". Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -726,7 +732,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til Dem personligt. Lad derfor være med at give det til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -765,7 +771,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -774,7 +782,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -789,7 +798,7 @@ Usage: #inline
 3. Como tomar Levitra 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Levitra 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -806,7 +815,7 @@ causa, devido a alterações nos músculos e vasos sanguíneos não permanece no
 de sangue suficiente para que este se torne e mantenha duro. </p>
 <p>Levitra apenas funcionará quando for sexualmente estimulado. Reduz a ação do químico natural no 
 seu organismo que faz as ereções desaparecerem. Levitra faz com que a ereção dure o tempo suficiente 
-para que complete a sua atividade sexual de forma satisfatória. </p>         </div>"""   
+para que complete a sua atividade sexual de forma satisfatória. </p> </div>"""   
           
 
              
@@ -885,7 +894,7 @@ ou com muitas gorduras a qual pode atrasar o efeito.
 Levitra não é para utilizar em mulheres. </p>
 <p>Condução de veículos e utilização de máquinas 
 Em algumas pessoas Levitra pode provocar tonturas ou afetar a visão. Se, após tomar Levitra se sentir 
-tonto ou notar que a visão é afetada, não deve conduzir nem utilizar ferramentas ou máquinas. </p>         </div>"""   
+tonto ou notar que a visão é afetada, não deve conduzir nem utilizar ferramentas ou máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar levitra"
@@ -907,7 +916,7 @@ dependendo da forma como atua em si. </p>
 Homens que tomem mais Levitra do que o recomendado poderão apresentar mais efeitos indesejáveis 
 ou dores fortes nas costas. Se tomou mais Levitra do que devia diga ao seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -986,7 +995,7 @@ dados disponíveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar levitra"
@@ -998,7 +1007,7 @@ a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p
 de validade corresponde ao último dia do mês indicado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1094,7 +1103,7 @@ Bayer AG<br />
 Tel: +44-(0)118 206 3 
 Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

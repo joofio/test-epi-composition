@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Uplizna  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ Uplizna is used to reduce the risk of attacks in adults with a rare condition ca
 spectrum disorder (NMOSD), which affects the nerves of the eye and spinal cord. The condition is 
 thought to be due to the immune system mistakenly attacking the nerves in the body. Uplizna is given 
 to patients with NMOSD whose B cells produce antibodies against aquaporin-4, a protein that plays an 
-important role in nerve function.  </p>         </div>"""   
+important role in nerve function.  </p> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ provider about the best way to feed your baby if you start treatment with Uplizn
 Uplizna is not expected to impact your ability to drive or use machines.  </p>
 <p>Uplizna contains sodium<br />
 This medicine contains 48 mg sodium (main component of cooking/table salt) in each infusion. This is 
-equivalent to 2% of the recommended maximum daily dietary intake of sodium for an adult.  </p>         </div>"""   
+equivalent to 2% of the recommended maximum daily dietary intake of sodium for an adult.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take uplizna"
@@ -151,7 +154,7 @@ treating patients with NMOSD. </p>
 <p>The first dose is followed 2 weeks later by a second dose, and after that a dose every 6 months. </p>
 <p>You will be given other medicines half an hour to an hour before the infusion, to reduce the risk of 
 side effects. A doctor or nurse will monitor you during the infusion and for an hour afterward.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -200,7 +203,7 @@ caused by a virus </li>
 <p>If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store uplizna"
@@ -213,7 +216,7 @@ date refers to the last day of that month.
 Store in a refrigerator at 2 C to 8 C. </p>
 <p>Store in the original carton to protect from light. 
 Do not freeze. 
-Do not use this medicine if you notice particulate matter and discoloration. </p>         </div>"""      
+Do not use this medicine if you notice particulate matter and discoloration. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ Ireland </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. </p>         </div>"""      
+http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -279,7 +282,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -288,7 +293,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -305,7 +311,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -320,7 +326,7 @@ Uplizna bruges til at nedbringe risikoen for attakker hos voksne med en sjælden
 neuromyelitis optica spektrumforstyrrelse (NMOSD), som berører nerverne i øjet og rygmarven. 
 Tilstanden menes at forekomme, fordi immunsystemet ved en fejl angriber kroppens nerver. Uplizna 
 gives til patienter med NMOSD, hvis B-celler producerer antistoffer mod aquaporin-4, et protein, der 
-spiller en vigtig rolle i nervernes funktion.  </p>         </div>"""   
+spiller en vigtig rolle i nervernes funktion.  </p> </div>"""   
           
 
              
@@ -378,7 +384,7 @@ bedste måde at ernære dit barn, hvis du påbegynder behandling med Uplizna. </
 Uplizna forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner.  </p>
 <p>Uplizna indeholder natrium<br />
 Dette lægemiddel indeholder 48 mg natrium (hoved komponent af madlavnings-/bordsalt) i hver 
-infusion.  Dette svarer til 2 % af den anbefalede maximale daglige indtagelse af natrium for en voksen.  </p>         </div>"""   
+infusion.  Dette svarer til 2 % af den anbefalede maximale daglige indtagelse af natrium for en voksen.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take uplizna"
@@ -391,7 +397,7 @@ behandling af patienter med NMOSD. </p>
 <p>Den første dosis efterfølges 2 uger senere af en anden dosis, og derefter en dosis hver 6. måned. </p>
 <p>Du vil få anden medicin en halv til en hel time før infusionen for at reducere risikoen for bivirkninger. 
 Du vil blive overvåget af en læge eller sygeplejerske under infusionen og i en time bagefter.  </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -441,7 +447,7 @@ forårsaget af en virus </li>
 gælder også mulige  bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store uplizna"
@@ -454,7 +460,7 @@ dag i den nævnte måned. </p>
 <p>Opbevares i køleskab ved 2 °C til 8 °C. 
 Opbevares i den originale yderpakning for at beskytte mod lys. 
 Må ikke fryses. 
-Brug ikke lægemidlet, hvis du bemærker partikler og misfarvning. </p>         </div>"""      
+Brug ikke lægemidlet, hvis du bemærker partikler og misfarvning. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -481,7 +487,7 @@ Irland </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

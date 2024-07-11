@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Gardasil </li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ Gardasil cannot cause the diseases it protects against.
 Gardasil produces type-specific antibodies and has been shown in clinical trials to prevent HPV 6-,
 11-, 16-, and 18-related diseases in women 16-45 years of age and in men 16-26 years of age. The
 vaccine also produces type-specific antibodies in 9- to 15-year-old children and adolescents. 
-Gardasil should be used in accordance with official guidelines.</p>         </div>"""   
+Gardasil should be used in accordance with official guidelines.</p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ Driving and using machines
 No studies on the effects on the ability to drive and use machines have been performed.
 Gardasil contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gardasil"
@@ -190,7 +193,7 @@ follow-up doses. If you forget or are not able to go back to your doctor at the 
 doctor for advice. When Gardasil is given as your first dose, the completion of the vaccination course
 should be done with Gardasil, and not with another HPV vaccine.
 If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -224,7 +227,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor,pharmacist or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gardasil"
@@ -238,7 +241,7 @@ Store in a refrigerator (2 C - 8 C).
 Do not freeze.
 Keep the syringe in the outer carton in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -385,7 +388,7 @@ discoloured. Any unused product or waste material should be disposed of in accor
 local requirements.
 Shake well before use. Attach the needle by twisting in a clockwise direction until the needle fits
 securely on the syringe. Administer the entire dose as per standard protocol.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -424,7 +427,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -433,7 +438,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -448,7 +454,7 @@ Usage: #inline
 3. Sådan gives Gardasil
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -473,7 +479,7 @@ Gardasil afstedkommer produktion af type-specifikke antistoffer og har i klinisk
 kunne forebygge HPV 6-, 11-, 16-, og 18-relaterede sygdomme hos kvinder i alderen 16-45 år og hos
 mænd i alderen 16-26 år. Vaccinen afstedkommer også produktion af typespecifikke antistoffer hos 9
 til 15-årige børn og unge.
-Gardasil skal anvendes i overensstemmelse med officielle retningslinjer.</p>         </div>"""   
+Gardasil skal anvendes i overensstemmelse med officielle retningslinjer.</p> </div>"""   
           
 
              
@@ -544,7 +550,7 @@ Gardasil indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gardasil"
@@ -594,7 +600,7 @@ henblik på supplerende doser. Hvis du glemmer eller ikke er i stand til at bes�
 planlagte tidspunkt, skal du spørge din læge til råds. Hvis du får Gardasil som første dosis, skal
 vaccinationsforløbet fuldføres med Gardasil og ikke en anden HPV-vaccine.
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -632,7 +638,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din læge, apoteks
 sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel.
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det
 nationale rapporteringssystem anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe
-med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gardasil"
@@ -647,7 +653,7 @@ Må ikke nedfryses.
 Opbevar injektionssprøjten i yderkartonen for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
 smide medicinrester i afløbet, toilettet eller skraldespanden.
-53</p>         </div>"""      
+53</p> </div>"""      
         
         
 * section[=].section[+]
@@ -824,7 +830,7 @@ misfarvet. Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold
 retningslinjer.
 Omrystes omhyggeligt før brug. Fastgør kanylen ved at dreje den med uret, indtil kanylen sidder godt
 og sikkert på injektionssprøjten. Giv den fulde dosis i henhold til standardprotokollen.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

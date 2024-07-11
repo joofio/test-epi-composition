@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store KEYTRUDA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -102,7 +105,7 @@ and then continue taking KEYTRUDA after surgery (adjuvant therapy) to help preve
 from coming back.
 KEYTRUDA may be given in combination with other anti-cancer medicines. It is important that you
 also read the package leaflets for these other medicines. If you have any questions about these
-medicines, ask your doctor.</p>         </div>"""   
+medicines, ask your doctor.</p> </div>"""   
           
 
              
@@ -212,7 +215,7 @@ Driving and using machines
 KEYTRUDA has a minor effect on your ability to drive or use machines. Feeling dizzy, tired or weak
 are possible side effects of KEYTRUDA. Do not drive or use machines after you have been given
 KEYTRUDA unless you are sure you are feeling well.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take keytruda"
@@ -237,7 +240,7 @@ Stopping your treatment may stop the effect of the medicine. Do not stop treatme
 unless you have discussed this with your doctor.
 If you have any further questions about your treatment, ask your doctor.
 You will also find this information in the patient card you have been given by your doctor. It is
-important that you keep this card and show it to your partner or caregivers.</p>         </div>"""         
+important that you keep this card and show it to your partner or caregivers.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -470,7 +473,7 @@ pass urine, blood in urine, pain or pressure in lower abdomen
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V.
-By reporting side effects you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store keytruda"
@@ -489,7 +492,7 @@ KEYTRUDA has been demonstrated for 96 hours at 2  C to 8  C. This 96-hour hold m
 to 6 hours at room temperature (at or below 25  C). If refrigerated, the vials and/or intravenous bags
 must be allowed to come to room temperature prior to use.
 Do not store any unused portion of the infusion solution for reuse. Any unused medicine or waste
-material should be disposed of in accordance with local requirements. </p>         </div>"""      
+material should be disposed of in accordance with local requirements. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -637,7 +640,7 @@ to 5  m in-line or add-on filter.
 * Do not co-administer other medicinal products through the same infusion line.
 * KEYTRUDA is for single use only. Discard any unused portion left in the vial.
 Any unused medicinal product or waste material should be disposed of in accordance with local
-requirements.</p>         </div>"""      
+requirements.</p> </div>"""      
 
 
 
@@ -676,7 +679,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -685,7 +690,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -700,7 +706,7 @@ Usage: #inline
 3. Sådan får du Keytruda
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -774,7 +780,7 @@ Keytruda kan gives i kombination med anden kræftmedicin. Det er vigtigt, at du 
 indlægssedlerne for disse andre lægemidler. Spørg lægen, hvis du har eventuelle spørgsmål vedrørende
 disse lægemidler.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -891,7 +897,7 @@ Trafik- og arbejdssikkerhed
 Keytruda påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. Svimmelhed, træthed
 eller svaghedsfølelse er mulige bivirkninger ved Keytruda. Undlad at føre motorkøretøj og betjene
 maskiner, hvis du har fået Keytruda, medmindre du er sikker på, at du har det godt.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take keytruda"
@@ -915,7 +921,7 @@ Hvis du stopper behandlingen, kan virkningen af medicinen ophøre. Du må ikke s
 med Keytruda, medmindre du har aftalt det med lægen.
 Spørg lægen, hvis der er noget, du er i tvivl om.
 Du kan også finde disse oplysninger på det patientkort, du har fået af din læge. Det er vigtigt, at du
-gemmer dette patientkort og viser det til din partner eller dine omsorgspersoner.</p>         </div>"""         
+gemmer dette patientkort og viser det til din partner eller dine omsorgspersoner.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1153,7 +1159,7 @@ Indberetning af bivirkninger
 Hvis du oplever bivirkninger, bør du tale med lægen. Dette gælder også mulige bivirkninger, som ikke er
 medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store keytruda"
@@ -1172,7 +1178,7 @@ stabilitet i 96 timer ved 2 °C-8 °C. Disse 96 timer kan inkludere opbevaring i
 stuetemperatur (ved eller under 25 °C). Hætteglassene og/eller de intravenøse infusionsposer skal opnå
 stuetemperatur inden brug, hvis de har været opbevaret i køleskab.
 Eventuelt resterende infusionsvæske må ikke gemmes til senere brug. Ikke anvendt lægemiddel samt
-affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1375,7 +1381,7 @@ et in-line eller add-on sterilt, ikke-pyrogent, minimalt proteinbindende filter 
 <p>Keytruda er kun til engangsbrug. Den ubrugte rest i hætteglasset bortskaffes. 
 Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

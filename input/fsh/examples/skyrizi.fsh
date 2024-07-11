@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Skyrizi</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +94,7 @@ with other medicines to treat your psoriatic arthritis.
 Skyrizi reduces inflammation and can therefore help to reduce pain, stiffness, and swelling in and 
 around your joints, pain and stiffness in your spine, psoriatic skin rash, psoriatic nail damage, and it 
 may slow down damage to the bone and cartilage in your joints. These effects can ease your normal 
-daily activities, reduce tiredness, and improve your quality of life.</p>         </div>"""   
+daily activities, reduce tiredness, and improve your quality of life.</p> </div>"""   
           
 
              
@@ -140,7 +142,7 @@ Driving and using machines
 Skyrizi is not likely to affect your driving and use of machines.
 Skyrizi contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled pen, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take skyrizi"
@@ -166,7 +168,7 @@ sure what to do.
 If you stop using Skyrizi
 Do not stop using Skyrizi without talking to your doctor first. If you stop treatment, your symptoms 
 may come back.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -200,7 +202,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store skyrizi"
@@ -216,7 +218,7 @@ If needed, you may also store the pre-filled pen out of the refrigerator (up to 
 up to 24 hours in the original carton to protect from light.
 Do not use this medicine if the liquid is cloudy or contains flakes or large particles.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -306,7 +308,7 @@ Tel: +371 67605United Kingdom (Northern Ireland)
 AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -345,7 +347,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -356,7 +360,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsvejledning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -373,7 +377,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -406,7 +410,7 @@ kombination med andre lægemidler til behandling af din psoriasisartritis. </p>
 <p>Skyrizi reducerer betændelse og kan derfor bidrage til at reducere smerter, stivhed og hævelse i og 
 omkring dine led, smerter og stivhed i rygsøjlen, psoriasis-hududslæt, psoriasis-negleskader, og det 
 kan bremse skader på knogler og brusk i leddene. Denne virkning kan lette dine normale daglige 
-aktiviteter, reducere træthed og forbedre din livskvalitet. </p>         </div>"""   
+aktiviteter, reducere træthed og forbedre din livskvalitet. </p> </div>"""   
           
 
              
@@ -482,7 +486,7 @@ og i mindst 21 uger efter din sidste dosis Skyrizi. </p>
 Det er ikke sandsynligt, at Skyrizi vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Skyrizi indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. fyldt pen, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take skyrizi"
@@ -508,7 +512,7 @@ tvivl, så spørg lægen.  </p>
 <p>Hvis du holder op med at tage Skyrizi 
 Du må ikke holde op med at tage Skyrizi uden først at tale med lægen. Hvis du holder op med 
 behandlingen, kan dine symptomer komme tilbage. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -573,7 +577,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store skyrizi"
@@ -589,7 +593,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Du må ikke anvende dette lægemiddel, hvis opløsningen er uklar eller indeholder flager eller store 
 partikler. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -894,7 +898,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har samme symptomer, som du har. 
 - Hvis du oplever bivirkninger, bør du tale med din læge apotekspersonalet eller sygeplejersken. 
-Det gælder også bivirkninger, som ikke er medtaget i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+Det gælder også bivirkninger, som ikke er medtaget i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -933,7 +937,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -944,7 +950,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções de utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -961,7 +967,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Skyrizi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -996,7 +1002,7 @@ tratar a sua artrite psoriática. </p>
 articulações e à volta das mesmas, a dor e rigidez na sua coluna, a erupção psoriática na pele, os danos 
 psoriáticos nas unhas, e pode abrandar os danos no osso e na cartilagem das suas articulações. Estes 
 efeitos podem facilitar as suas atividades diárias normais, reduzir o cansaço, e melhorar a sua 
-qualidade de vida.  </p>         </div>"""   
+qualidade de vida.  </p> </div>"""   
           
 
              
@@ -1073,7 +1079,7 @@ medicamento. </p>
 É pouco provável que Skyrizi influencie a sua capacidade de conduzir e de utilizar máquinas. </p>
 <p>Skyrizi contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por caneta pré-cheia, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar skyrizi"
@@ -1102,7 +1108,7 @@ médico se tiver dúvidas. </p>
 Não pare de utilizar Skyrizi sem antes falar com o seu médico. Se parar o tratamento, os seus sintomas 
 podem voltar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1168,7 +1174,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar skyrizi"
@@ -1185,7 +1191,7 @@ de 25ºC) até 24 horas, na embalagem de origem para proteger da luz. </p>
 <p>Não utilize este medicamento se o líquido está turvo ou contém flocos ou partículas grandes. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1300,7 +1306,7 @@ AbbVie Deutschland GmbH &amp; Co. KG<br />
 Tel: +44 (0)1628 561 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

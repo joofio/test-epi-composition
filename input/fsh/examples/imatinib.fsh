@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Imatinib Teva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -102,7 +105,7 @@ cells. </li>
 </ul>
 <p>In the rest of this leaflet, we will use the abbreviations when talking about these diseases. </p>
 <p>If you have any questions about how Imatinib Teva works or why this medicine has been prescribed 
-for you, ask your doctor. </p>         </div>"""   
+for you, ask your doctor. </p> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ treatment, as it may harm your baby.
 consult with their doctor. </p>
 <p>Driving and using machines 
 You may feel dizzy or drowsy or get blurred vision while taking this medicine. If this happens, do not 
-drive or use any tools or machines until you are feeling well again. </p>         </div>"""   
+drive or use any tools or machines until you are feeling well again. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imatinib"
@@ -252,7 +255,7 @@ medical attention. Take the medicine pack with you. </p>
 dose, skip the missed dose. 
 - Then continue with your normal schedule. 
 - Do not take a double dose to make up a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -402,7 +405,7 @@ If any of these affects you severely, tell your doctor. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imatinib"
@@ -415,7 +418,7 @@ expiry date refers to the last day of the month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not use any pack that is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -544,7 +547,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -583,7 +586,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -592,7 +597,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -609,7 +615,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -649,7 +655,7 @@ visse celler vokser ukontrolleret. Imatinib Teva hæmmer væksten af disse celle
 </ul>
 <p>I resten af denne indlægsseddel, vil vi bruge forkortelserne, når vi omtaler disse sygdomme. </p>
 <p>Hvis du har spørgsmål om, hvordan Imatinib Teva virker, eller hvorfor du har fået ordineret dette 
-lægemiddel, kontakt din læge. </p>         </div>"""   
+lægemiddel, kontakt din læge. </p> </div>"""   
           
 
              
@@ -718,7 +724,7 @@ Imatinib Teva, da det kan skade din baby.<br />
 læge.  </p>
 <p>Trafik- og arbejdssikkerhed<br />
 Du kan blive svimmel eller søvnig eller få sløret syn, mens du tager dette lægemiddel. Hvis dette sker, 
-bør du ikke køre bil eller bruge værktøj og maskiner, før du føler dig godt tilpas igen. </p>         </div>"""   
+bør du ikke køre bil eller bruge værktøj og maskiner, før du føler dig godt tilpas igen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imatinib"
@@ -810,7 +816,7 @@ Lægebehandling kan være nødvendig. Tag pakningen med dig.  </p>
 næsten er tid til at tage den næste dosis, skal du springe den glemte dosis over.<br />
 - Fortsæt derefter med den planlagte dosering.<br />
 - Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1161,7 +1167,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel  </p>         </div>"""      
+information om sikkerheden af dette lægemiddel  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imatinib"
@@ -1175,7 +1181,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Pakningen må ikke anvendes, hvis den er beskadiget, eller der er tegn på, at pakningen har været 
 åbnet.  </p>
 <p>Spørg på apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1338,7 +1344,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel dig personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

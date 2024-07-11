@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sugammadex Piramal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ Sugammadex Piramal is used to speed up the recovery of your muscles after an ope
 breathe on your own again earlier. It does this by combining with the rocuronium bromide or 
 vecuronium bromide in your body. It can be used in adults whenever rocuronium bromide or vecuronium 
 bromide is used and in children and adolescents (aged 2 to 17 years) when rocuronium bromide is used 
-for a moderate level of relaxation. </p>         </div>"""   
+for a moderate level of relaxation. </p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ of breast-feeding to the baby and the benefit of Sugammadex Piramal to the mothe
 <p>Sugammadex Piramal has no known influence on your ability to drive and use machines. </p>
 <p>Sugammadex Piramal contains sodium </p>
 <p>This medicine contains up to 9.7 mg sodium (main component of cooking / table salt) in each mL. 
-This is equivalent to 0.5 % of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
+This is equivalent to 0.5 % of the recommended maximum daily dietary intake of sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sugammadex"
@@ -162,7 +165,7 @@ an intravenous line. </p>
 <p>If more Sugammadex Piramal is given to you than recommended </p>
 <p>As your anaesthetist will be monitoring your condition carefully, it is unlikely that you will be given too 
 much Sugammadex Piramal. But even if this happens, it is unlikely to cause any problems. </p>
-<p>If you have any further questions on the use of this medicine, ask your anaesthetist or other doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your anaesthetist or other doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -201,7 +204,7 @@ Reporting of side effects </li>
 <p>If you get any side effects, talk to your anaesthetist or other doctor. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system<br />
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sugammadex"
@@ -213,7 +216,7 @@ Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the carton and on the label after  EXP . 
 The expiry date refers to the last day of that month. </p>
 <p>Keep the vial in the outer carton in order to protect from light. 
-After first opening and dilution, store at 2 to 8  C and use within 48 hours. </p>         </div>"""      
+After first opening and dilution, store at 2 to 8  C and use within 48 hours. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ Not all pack sizes may be marketed. </p>
 Rouboslaan 32, 
 2252 TR Voorschoten 
 The Netherlands </p>
-<p>This leaflet was last revised in June 2Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>This leaflet was last revised in June 2Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -279,7 +282,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -288,7 +293,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -305,7 +311,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -328,7 +334,7 @@ trække vejret igen. </p>
 komme til at trække vejret selv igen. Det gør det ved at binde sig til rocuroniumbromid eller 
 vecuroniumbromid I kroppen. Det kan bruges hos voksne, når rocuroniumbromid eller vecuroniumbromid 
 har været anvendt og hos børn og unge (i alderen 2 til 17 år), når rocuroniumbromid har været anvendt til 
-at opnå et moderat afslapningsniveau. </p>         </div>"""   
+at opnå et moderat afslapningsniveau. </p> </div>"""   
           
 
              
@@ -406,7 +412,7 @@ moderen. </p>
 <p>Sugammadex Piramal påvirker ikke evnen til at køre bil og arbejde med maskiner. </p>
 <p>Sugammadex Piramal indeholder natrium </p>
 <p>Dette lægemiddel indeholder op til 9,7 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hver 
-ml. Dette svarer til 0,5 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>         </div>"""   
+ml. Dette svarer til 0,5 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sugammadex"
@@ -432,7 +438,7 @@ er påkrævet. </p>
 <p>Hvis du har fået for meget Sugammadex Piramal </p>
 <p>Anæstesilægen vil overvåge din tilstand nøje, og du vil derfor næppe få for meget Sugammadex Piramal. 
 Hvis det alligevel skulle ske, så vil det sandsynligvis ikke give problemer. </p>
-<p>Spørg anæstesilægen eller anden læge, hvis der er noget vedrørende medicinen, du er i tvivl om. </p>         </div>"""         
+<p>Spørg anæstesilægen eller anden læge, hvis der er noget vedrørende medicinen, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -490,7 +496,7 @@ Allergiske reaktioner blev rapporteret hyppigere hos raske frivillige ved bevids
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sugammadex"
@@ -503,7 +509,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. 
 Efter første åbning og fortynding opbevares i køleskab (2 °C - 8 °C) og skal anvendes inden for 
-48 timer. </p>         </div>"""      
+48 timer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -533,7 +539,7 @@ Rouboslaan 32,
 Holland </p>
 <p>Denne indlægsseddel blev senest ændret juni 2023  </p>
 <p>Du kan finde yderligere oplysninger om Sugammadex Piramal på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 

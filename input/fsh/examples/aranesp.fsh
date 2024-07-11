@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for injecting with the Aranesp pre-filled syringe </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Aranesp </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +95,7 @@ your anaemia. </p>
 (non-myeloid malignancies) who are receiving chemotherapy. </p>
 <p>One of the main side effects of chemotherapy is that it stops the bone marrow producing enough blood 
 cells. Towards the end of your chemotherapy course, particularly if you have had a lot of 
-chemotherapy, your red blood cell count may fall making you anaemic. </p>         </div>"""   
+chemotherapy, your red blood cell count may fall making you anaemic. </p> </div>"""   
           
 
              
@@ -193,7 +195,7 @@ you use Aranesp. </p>
 <p>Aranesp should not affect your ability to drive or use machinery. </p>
 <p>Aranesp contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aranesp"
@@ -257,7 +259,7 @@ in any way you should contact your doctor, nurse or pharmacist immediately. </p>
 <p>If you have forgotten a dose of Aranesp, you should contact your doctor to discuss when you should 
 inject the next dose. </p>
 <p>If you stop using Aranesp </p>
-<p>If you want to stop using Aranesp, you should discuss it with your doctor first. </p>         </div>"""         
+<p>If you want to stop using Aranesp, you should discuss it with your doctor first. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -313,7 +315,7 @@ attention immediately (see section 2). </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aranesp"
@@ -330,7 +332,7 @@ approximately 30 minutes before injection it must either be used within 7 days o
 <p>Do not use this medicine if you notice the pre-filled syringe contents are cloudy or there are particles 
 in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -561,7 +563,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet (see section 4). </p>         </div>"""      
+side effects not listed in this leaflet (see section 4). </p> </div>"""      
 
 
 
@@ -600,7 +602,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -611,7 +615,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruktioner til injektion med den fyldte injektionssprøjte med Aranesp </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -628,7 +632,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -656,7 +660,7 @@ ikke-myeloid malignitet som er i kemoterapi. </p>
 <p>En af hovedbivirkningerne ved kemoterapi er, at den forhindrer knoglemarven i at producere 
 tilstrækkeligt mange røde blodlegemer. Ved slutningen af Deres kemoterapibehandling vil antallet af 
 Deres røde blodlegemer falde, især hvis De har fået meget kemoterapi, og dermed forårsage 
-blodmangel. </p>         </div>"""   
+blodmangel. </p> </div>"""   
           
 
              
@@ -766,7 +770,7 @@ hvis De tager Aranesp. </p>
 <p>Aranesp påvirker ikke evnen til at køre bil eller betjene maskiner. </p>
 <p>Aranesp indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take aranesp"
@@ -843,7 +847,7 @@ Dem utilpas på nogen måde, bør De omgående kontakte Deres læge, sygeplejers
 <p>Hvis De har glemt en dosis Aranesp, kontakt da Deres læge for at aftale, hvornår De skal indsprøjte 
 den næste dosis. </p>
 <p>Hvis De holder op med at bruge Aranesp </p>
-<p>Hvis De ønsker at holde op med at bruge Aranesp, skal De først drøfte det med Deres læge. </p>         </div>"""         
+<p>Hvis De ønsker at holde op med at bruge Aranesp, skal De først drøfte det med Deres læge. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -963,7 +967,7 @@ disse symptomer (se afsnit 2). </p>
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store aranesp"
@@ -980,7 +984,7 @@ været nedfrosset. </p>
 injektionen, skal den anvendes indenfor 7 dage eller bortskaffes. </p>
 <p>Brug ikke lægemidlet, hvis indholdet i sprøjten er grumset, eller der er partikler i det. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1253,7 +1257,7 @@ indeholder vigtige oplysninger.
 kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis en bivirkning bliver værre, eller De 
 får bivirkninger, som ikke er nævnt i denne indlægsseddel (se afsnit 4).  </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1292,7 +1296,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1303,7 +1309,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções para administrar a seringa pré-cheia de Aranesp </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -1320,7 +1326,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Aranesp </li>
 <li>Conteúdo da embalagem e outras informações  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1348,7 +1354,7 @@ relacionados com a medula óssea (doença maligna não-mieloide) que estão a re
 <p>Um dos principais efeitos secundários da quimioterapia é o de parar a produção da quantidade 
 suficiente de células sanguíneas pela medula óssea. Para o final do seu tratamento com quimioterapia, 
 especialmente se tiver recebido muita quimioterapia, a sua contagem de glóbulos vermelhos pode 
-diminuir, fazendo com que fique anémico. </p>         </div>"""   
+diminuir, fazendo com que fique anémico. </p> </div>"""   
           
 
              
@@ -1459,7 +1465,7 @@ utilizar Aranesp. </p>
 <p>Aranesp não deve afetar a capacidade de condução ou de utilização de máquinas. </p>
 <p>Aranesp contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar aranesp"
@@ -1541,7 +1547,7 @@ se sentir mal deverá contactar imediatamente o seu médico, enfermeiro ou farma
 <p>No caso de se esquecer de uma dose de Aranesp deverá contactar o seu médico para decidir quando 
 deverá administrar a dose seguinte. </p>
 <p>Se parar de utilizar Aranesp </p>
-<p>Deve falar primeiro com seu médico se quiser parar de utilizar Aranesp. </p>         </div>"""         
+<p>Deve falar primeiro com seu médico se quiser parar de utilizar Aranesp. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1662,7 +1668,7 @@ o seu médico ou procure aconselhamento médico (ver secção 2). </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar aranesp"
@@ -1682,7 +1688,7 @@ descartada. </p>
 com partículas visíveis. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1813,7 +1819,7 @@ Amgen Limited
 Tel: +44 (0)1223 420 
 Este folheto informativo foi revisto pela última vez em </p>
 <p>Outras fontes de informação  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

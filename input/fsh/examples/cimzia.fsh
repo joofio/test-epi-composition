@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your physician will also give you a Patient Reminder Card, which contains important safety information 
 of which you need to be aware before you are given Cimzia and during treatment with Cimzia. Keep 
-this Patient Reminder Card with you. </p>         </div>"""   
+this Patient Reminder Card with you. </p>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ this Patient Reminder Card with you. </p>         </div>"""
 <li>Possible side effects </li>
 <li>How to store Cimzia </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -117,7 +119,7 @@ If your doctor determines that methotrexate is inappropriate, Cimzia can be give
 <p>Plaque psoriasis 
 Cimzia is used to treat moderate to severe plaque psoriasis. Plaque psoriasis is an inflammatory 
 disease of the skin, and can also affect your scalp and nails.<br />
-Cimzia is used to reduce skin inflammation and other signs and symptoms of your disease.  </p>         </div>"""   
+Cimzia is used to reduce skin inflammation and other signs and symptoms of your disease.  </p> </div>"""   
           
 
              
@@ -238,7 +240,7 @@ Cimzia may have a minor influence on your ability to drive and use machines. Diz
 room spinning sensation, blurred vision and tiredness) may occur after you take Cimzia. </p>
 <p>Cimzia contains sodium acetate and sodium chloride 
 This medicinal product contains less than 1 mmol sodium (23 mg) per 400 mg, i.e. essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cimzia"
@@ -292,7 +294,7 @@ inject the next dose of Cimzia as soon as you remember. Then, talk to your docto
 following doses as instructed. </p>
 <p>If you stop using Cimzia 
 Do not stop using Cimzia without talking to your doctor first. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -437,7 +439,7 @@ occurred:
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cimzia"
@@ -455,7 +457,7 @@ maximum 10 days with protection from light. At the end of this period the pre-fi
 used or discarded. </p>
 <p>Do not use this medicine if the solution is discoloured, cloudy or if you can see particles in it.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -552,7 +554,7 @@ Tel: + 358 9 25144United Kingdom (Northern Ireland)
 UCB (Pharma) Ireland Ltd. 
 Tel: + 353 / (0)1-46 37 This leaflet was last revised in {MM/YYYY}  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -591,7 +593,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -602,7 +606,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen vil også give dig et patient-påmindelseskort, der indeholder vigtig sikkerhedsinformation, som 
 du skal være opmærksom på, før og under behandlingen med Cimzia. Hav altid dette 
-patient-påmindelseskort på dig. </p>         </div>"""   
+patient-påmindelseskort på dig. </p>  </div>"""   
 
 
 
@@ -617,7 +621,7 @@ patient-påmindelseskort på dig. </p>         </div>"""
 3. Sådan skal du bruge Cimzia 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -700,7 +704,7 @@ Hvis lægen vurderer, at det er uhensigtsmæssigt at give methotrexat, kan Cimzi
 <p>Plaque psoriasis 
 Cimzia bruges til at behandle moderat til svær plaque psoriasis. Plaque psoriasis er en inflammatorisk 
 sygdom i huden og kan også påvirke din hovedbund og negle.<br />
-Cimzia bruges til at reducere hudinflammation og andre tegn og symptomer på din sygdom.  </p>         </div>"""   
+Cimzia bruges til at reducere hudinflammation og andre tegn og symptomer på din sygdom.  </p> </div>"""   
           
 
              
@@ -823,7 +827,7 @@ Cimzia kan påvirke evnen til at føre motorkøretøj eller betjene maskiner i m
 taget Cimzia. </p>
 <p>Cimzia indeholder natriumacetat og natriumchlorid 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. 400 mg, dvs. den er stort set 
-"natriumfri". </p>         </div>"""   
+"natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cimzia"
@@ -886,7 +890,7 @@ næste dosis af Cimzia, så snart du kommer i tanke om det. Tal derefter med læ
 doser som anvist. </p>
 <p>Hvis du holder op med at bruge Cimzia 
 Du må ikke stoppe med at bruge Cimzia uden at tale med lægen først. 
-Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1245,7 +1249,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cimzia"
@@ -1262,7 +1266,7 @@ De fyldte sprøjter kan opbevares ved rumtemperatur (op til 25 °C) i en enkelt 
 kasseres. </p>
 <p>Brug ikke lægemidlet, hvis opløsningen er misfarvet, uklar eller hvis du kan se partikler i den. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1505,7 +1509,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Cimzia til dig personligt. Lad derfor være med at give medicinen til andre. 
 Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1544,7 +1548,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1555,7 +1561,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O seu médico vai entregar-lhe um Cartão de Lembrete do Doente que contém informação de 
 segurança importante que deve ser tida em consideração antes de utilizar Cimzia e durante o 
-tratamento com Cimzia. Mantenha consigo o Cartão de Lembrete do Doente. </p>         </div>"""   
+tratamento com Cimzia. Mantenha consigo o Cartão de Lembrete do Doente. </p>  </div>"""   
 
 
 
@@ -1570,7 +1576,7 @@ tratamento com Cimzia. Mantenha consigo o Cartão de Lembrete do Doente. </p>   
 3. Como utilizar Cimzia 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Cimzia 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1653,7 +1659,7 @@ Se o seu médico decidir que o metotrexato é inadequado, Cimzia pode ser admini
 <p>Psoríase em placas 
 Cimzia é utilizado para tratar a psoríase em placas moderada a grave. A psoríase em placas é uma 
 doença inflamatória da pele e pode também afetar o seu couro cabeludo e unhas. 
-Cimzia é usado para reduzir a inflamação da pele e outros sinais e sintomas da sua doença. </p>         </div>"""   
+Cimzia é usado para reduzir a inflamação da pele e outros sinais e sintomas da sua doença. </p> </div>"""   
           
 
              
@@ -1777,7 +1783,7 @@ Cimzia pode ter uma pequena influência na capacidade de conduzir e utilizar má
 ocorrer tonturas (incluindo sensação da divisão a rodar, visão turva e cansaço) após utilizar Cimzia. </p>
 <p>Cimzia contém acetato de sódio e cloreto de sódio 
 Este medicamento contém menos de 1 mmol (23 mg) de sódio por 400 mg, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar cimzia"
@@ -1867,7 +1873,7 @@ fale com o seu médico e injete as seguintes doses conforme indicado. </p>
 <p>Se parar de utilizar Cimzia 
 Não pare de utilizar Cimzia sem falar primeiro com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2235,7 +2241,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar cimzia"
@@ -2255,7 +2261,7 @@ que ser usadas ou eliminadas. </p>
 interior da solução. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2377,7 +2383,7 @@ UCB (Pharma) Ireland Ltd.
 Tel: + 353 / (0)1-46 37<br />
 Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store BESPONSA</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ for the treatment of acute lymphoblastic leukaemia for adult patients who have p
 treatments and for whom those treatments have failed.
 BESPONSA acts by attaching to cells with a protein called CD22. Lymphoblastic leukaemia cells 
 have this protein. Once attached to the lymphoblastic leukaemia cells, the medicine delivers a 
-substance into the cells that interferes with the cells  DNA and eventually kills them.</p>         </div>"""   
+substance into the cells that interferes with the cells  DNA and eventually kills them.</p> </div>"""   
           
 
              
@@ -169,7 +172,7 @@ If you feel unusually tired (this is a very common side effect of BESPONSA), you
 use machines.
 BESPONSA contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per 1 mg inotuzumab ozogamicin, that is to 
-say essentially  sodium-free. </p>         </div>"""   
+say essentially  sodium-free. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take besponsa"
@@ -203,7 +206,7 @@ Before your treatment with BESPONSA, you may be given medicines and be hydrated 
 tumour lysis syndrome from occurring. Tumour lysis syndrome is associated with a variety of 
 symptoms in the stomach and intestines (for example, nausea, vomiting, diarrhoea), heart (for 
 example, changes in the rhythm), kidney (for example, decreased urine, blood in urine), and nerves 
-and muscles (for example, muscular spasms, weakness, cramps).</p>         </div>"""         
+and muscles (for example, muscular spasms, weakness, cramps).</p> </div>"""         
 
         
 * section[=].section[+]
@@ -268,7 +271,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store besponsa"
@@ -304,7 +307,7 @@ Do not freeze.
 This medicine should be inspected visually for particulate matter and discolouration prior to 
 administration. If particles or discolouration are observed, do not use.
 Do not throw away any medicines via wastewater or household waste. Ask your doctor how to throw 
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -395,7 +398,7 @@ Tel: +44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
 Tel: + 371 670 35 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -434,7 +437,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -443,7 +448,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -458,7 +464,7 @@ Usage: #inline
 3. Sådan får du BESPONSA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -474,7 +480,7 @@ behandling af akut lymfoblastær leukæmi hos voksne patienter, der tidligere ha
 behandlinger, men hvor disse behandlinger ikke har virket.
 BESPONSA virker ved at binde sig til celler med et protein, der kaldes CD22. Lymfoblastære 
 leukæmiceller har dette protein. Efter at have bundet sig til de lymfoblastære leukæmiceller overfører 
-lægemidlet et stof til cellerne, som forstyrrer cellernes DNA og til slut dræber dem.</p>         </div>"""   
+lægemidlet et stof til cellerne, som forstyrrer cellernes DNA og til slut dræber dem.</p> </div>"""   
           
 
              
@@ -574,7 +580,7 @@ Hvis du føler dig usædvanligt træt (dette er en meget almindelig bivirkning v
 ikke køre eller betjene maskiner.
 BESPONSA indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 1 mg inotuzumab ozogamicin, 
-dvs. det er i det væsentlige natriumfrit.</p>         </div>"""   
+dvs. det er i det væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take besponsa"
@@ -619,7 +625,7 @@ Du vil muligvis få medicin og ekstra væske, inden du bliver behandlet med BESP
 forhindre, at der opstår tumorlysesyndrom. Tumorlysesyndrom er forbundet med forskellige 
 symptomer i maven og tarmene (fx kvalme, opkastning, diarré), hjertet (fx ændringer i hjerterytmen), 
 nyrerne (fx mindre mængde urin, blod i urinen), nerverne og musklerne (fx muskelspasmer, 
-muskelsvækkelse, muskelkramper).</p>         </div>"""         
+muskelsvækkelse, muskelkramper).</p> </div>"""         
 
         
 * section[=].section[+]
@@ -715,7 +721,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store besponsa"
@@ -752,7 +758,7 @@ Må ikke nedfryses.
 Dette lægemiddel skal efterses visuelt for partikler og misfarvning før det gives. Hvis der ses partikler 
 eller misfarvning, må det ikke bruges.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1058,7 +1064,7 @@ Fortyndet opløsning
 Den fortyndede opløsning skal bruges straks eller opbevares ved stuetemperatur (20-25 °C) eller i 
 køleskab (2-8 °C). Den maksimale tid fra rekonstituering til fuldendt administration skal være
 ≤ 8 timer, og der skal være ≤ 4 timer mellem rekonstituering og fortynding. Beskyttes mod lys. Må 
-ikke nedfryses.</p>         </div>"""      
+ikke nedfryses.</p> </div>"""      
 
 
 

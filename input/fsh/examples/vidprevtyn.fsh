@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store VidPrevtyn Beta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 COVID-19 vaccine. </p>
 <p>The vaccine stimulates the immune system (the body s natural defences) to produce specific 
 antibodies that work against the virus, giving protection against COVID-19. None of the ingredients 
-in this vaccine can cause COVID-19. </p>         </div>"""   
+in this vaccine can cause COVID-19. </p> </div>"""   
           
 
              
@@ -119,7 +122,7 @@ you drive or use machines. </p>
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
 free .<br />
 This medicine contains less than 1 mmol potassium (39 mg) per dose, that is to say essentially 
- potassium-free .  </p>         </div>"""   
+ potassium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vidprevtyn"
@@ -132,7 +135,7 @@ It is recommended that you receive VidPrevtyn Beta once as a booster dose at min
 following the prior vaccination series with either mRNA or adenoviral vector COVID-19 vaccine. </p>
 <p>After the injection, your doctor, pharmacist or nurse will watch over you for around 15 minutes to 
 monitor for signs of an allergic reaction. </p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -183,7 +186,7 @@ studies done to date. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vidprevtyn"
@@ -192,7 +195,7 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children. </p>
 <p>Information about storage, use and handling are described in the section intended for healthcare 
-professionals at the end of the package leaflet. </p>         </div>"""      
+professionals at the end of the package leaflet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -290,7 +293,7 @@ Tel.: +371 6 616 4United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -329,7 +332,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -338,7 +343,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -353,7 +359,7 @@ Usage: #inline
 3. Sådan får du VidPrevtyn Beta 
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -365,7 +371,7 @@ Usage: #inline
 adenovirus-vektor COVID-19 vaccine. </p>
 <p>Vaccinen stimulerer immunsystemet (kroppens naturlige forsvar) til at producere specifikke 
 antistoffer, der modarbejder virussen, for at give beskyttelse mod COVID-19. Ingen af 
-indholdsstofferne i denne vaccine kan forårsage COVID-19. </p>         </div>"""   
+indholdsstofferne i denne vaccine kan forårsage COVID-19. </p> </div>"""   
           
 
              
@@ -423,7 +429,7 @@ bivirkninger er gået væk, inden du fører motorkøretøj eller betjener maskin
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
 væsentlige natriumfrit. 
 Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. det er i det 
-væsentlige kaliumfrit. </p>         </div>"""   
+væsentlige kaliumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vidprevtyn"
@@ -438,7 +444,7 @@ forudgående vaccinationsserie med enten en mRNA-vaccine eller en adenovirus-vek
 <p>Efter injektionen vil din læge, apotekspersonalet eller sygeplejersken holde øje med dig i omkring 
 15 minutter for at overvåge for tegn på en allergisk reaktion. </p>
 <p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af 
-denne vaccine. </p>         </div>"""         
+denne vaccine. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -548,7 +554,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vidprevtyn"
@@ -558,7 +564,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
 <p>Lægemidlet er ikke længere autoriseret til salg</p>
 <p>Oplysninger om opbevaring, anvendelse og håndtering er beskrevet i afsnittet beregnet til 
-sundhedspersoner til sidst i indlægssedlen. </p>         </div>"""      
+sundhedspersoner til sidst i indlægssedlen. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -768,7 +774,7 @@ vaccine og administrér intramuskulært.  </p>
 <p>Bortskaffelse </p>
 <p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. Af 
 hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>
-<p>Lægemidlet er ikke længere autoriseret til salg</p>         </div>"""      
+<p>Lægemidlet er ikke længere autoriseret til salg</p> </div>"""      
 
 
 
@@ -807,7 +813,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -816,7 +824,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -833,7 +842,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar VidPrevtyn Beta </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -845,7 +854,7 @@ Usage: #inline
 vacina de vetor adenoviral contra a COVID-19.  </p>
 <p>A vacina estimula o sistema imunitário (as defesas naturais do organismo) a produzir anticorpos 
 específicos que atuam contra o vírus, dando proteção contra a COVID-19. Nenhum dos componentes 
-contidos na vacina pode causar COVID-19.  </p>         </div>"""   
+contidos na vacina pode causar COVID-19.  </p> </div>"""   
           
 
              
@@ -910,7 +919,7 @@ que estes efeitos desapareçam antes de conduzir ou utilizar máquinas.  </p>
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
 «isento de sódio».  </p>
 <p>Este medicamento contém menos do que 1 mmol (39 mg) de potássio por dose, ou seja, é praticamente 
-«isento de potássio».  </p>         </div>"""   
+«isento de potássio».  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vidprevtyn"
@@ -926,7 +935,7 @@ Após a injeção, o seu médico, farmacêutico ou enfermeiro irá vigiá-lo dur
 monitorizar sinais de uma reação alérgica. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização desta vacina, fale com o seu médico, farmacêutico ou 
 enfermeiro. </p>
-<p>Medicamento já não autorizado</p>         </div>"""         
+<p>Medicamento já não autorizado</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1037,7 +1046,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vidprevtyn"
@@ -1046,7 +1055,7 @@ medicamento. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Manter este medicamento fora da vista e do alcance das crianças. </p>
 <p>As informações sobre conservação, utilização e manuseamento estão descritas na secção destinada aos 
-profissionais de saúde no final do folheto informativo. </p>         </div>"""      
+profissionais de saúde no final do folheto informativo. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1197,7 +1206,7 @@ sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel.: +44 (0) 800 035 2 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

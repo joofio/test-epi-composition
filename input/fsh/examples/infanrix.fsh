@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Infanrix hexa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -101,7 +104,7 @@ and mouth. </p>
   Infanrix hexa helps your child s body make its own protection (antibodies). This will protect your 
 child against these diseases. 
   As with all vaccines, Infanrix hexa may not fully protect all children who are vaccinated. 
-  The vaccine cannot cause the diseases that it protects your child from. </p>         </div>"""   
+  The vaccine cannot cause the diseases that it protects your child from. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ The vaccine contains 0.0298 microgram phenylalanine in each dose. Phenylalanine 
 you have phenylketonuria (PKU), a rare genetic disorder in which phenylalanine builds up because the 
 body cannot remove it properly. 
 The vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . 
-The vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium-free . </p>         </div>"""   
+The vaccine contains potassium, less than 1 mmol (39 mg) per dose, i.e. essentially  potassium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take infanrix"
@@ -182,7 +185,7 @@ between each injection.
 <p>If your child misses a dose 
   If your child misses an injection which is due, it is important that you make another appointment. 
   Make sure your child finishes the complete vaccination course. If not, your child may not be 
-fully protected against the diseases. </p>         </div>"""         
+fully protected against the diseases. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -234,7 +237,7 @@ vaccines. </p>
 <p>If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store infanrix"
@@ -251,7 +254,7 @@ the last day of that month. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines your child no longer uses. These measures will help protect the 
 environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -386,7 +389,7 @@ GlaxoSmithKline Biologicals SA
 Tel: +44(0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -425,7 +428,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -434,7 +439,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -449,7 +455,7 @@ Usage: #inline
 3. Sådan får dit barn Infanrix hexa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -486,7 +492,7 @@ vævet i øjnene og munden. </p>
 • Infanrix hexa hjælper dit barn til at danne kroppens egen beskyttelse (antistoffer). Dette vil beskytte 
 dit barn mod de omtalte sygdomme. 
 • Lige som andre vacciner beskytter Infanrix hexa ikke alle børn, som bliver vaccineret. 
-• Vaccinen kan ikke forårsage de sygdomme, som den beskytter mod. </p>         </div>"""   
+• Vaccinen kan ikke forårsage de sygdomme, som den beskytter mod. </p> </div>"""   
           
 
              
@@ -529,7 +535,7 @@ epilepsi. Vaccinen kan gives, når sygdommen er under kontrol.
 af dette 
 • hvis du efter vaccinationen ikke kan få kontakt med dit barn, eller dit barn får kramper, skal du straks 
 kontakte lægen. Se også punkt </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take infanrix"
@@ -561,7 +567,7 @@ ophobes, fordi kroppen ikke kan fjerne det ordentligt.
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det væsentlige 
 natriumfri. 
 Denne vaccine indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. den er i det væsentlige 
-kaliumfri. </p>         </div>"""         
+kaliumfri. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -581,7 +587,7 @@ injektion.
 <p>Hvis du glemmer en injektion 
 • Hvis dit barn går glip af en planlagt injektion, er det vigtigt at du aftaler et nyt besøg hos lægen. 
 • Sørg for at dit barn færdiggør hele vaccinationsprogrammet. Ellers vil dit barn ikke være 
-fuldstændigt beskyttet mod de nævnte sygdomme. </p>         </div>"""      
+fuldstændigt beskyttet mod de nævnte sygdomme. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store infanrix"
@@ -633,7 +639,7 @@ Der er indberettet tilfælde med hepatitis B-vacciner, hvor man nemmere bløder 
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -663,7 +669,7 @@ den nævnte måned. </p>
 anvender. Af hensyn til miljøet, må du ikke smide medicinrester i afløbet, toilettet eller 
 skraldespanden.  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Eviplera </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ enzyme (a protein called  reverse transcriptase ) that is essential for the viru
 <p>Eviplera reduces the amount of HIV in your body.  This, will improve your immune system and 
 reduces the risk of developing illnesses linked to HIV infection. </p>
 <p>Eviplera is a treatment for Human Immunodeficiency Virus (HIV) infection in adults aged 
-18 years and over. </p>         </div>"""   
+18 years and over. </p> </div>"""   
           
 
              
@@ -284,7 +287,7 @@ doctor before taking this medicine. </li>
 contains sunset yellow aluminium lake also called  E110  which may cause allergic reactions. </li>
 <li>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
  sodium-free . </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eviplera"
@@ -344,7 +347,7 @@ treatment is not recommended as this may lead to worsening of your hepatitis, wh
 threatening. </p>
 <p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -459,7 +462,7 @@ medicines themselves.  Your doctor will test for these changes. </p>
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side 
 effects not listed in this leaflet.  You can also report side effects directly via the national reporting 
 system listed in Appendix V.  By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eviplera"
@@ -471,7 +474,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture.  Keep the bottle tightly closed. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -577,7 +580,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC<br />
 Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -616,7 +619,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -625,7 +630,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -642,7 +648,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -660,7 +666,7 @@ Tenofovirdisoproxil, en nukleotid revers transkriptasehæmmer (NtRTI). </p>
 <p>Eviplera nedsætter mængden af hiv i Deres krop. Dette vil forbedre Deres immunsystem og nedsætte 
 risikoen for at udvikle sygdomme forbundet med hiv-infektionen. </p>
 <p>Eviplera anvendes til behandling af infektion med humant immundefektvirus (hiv) hos voksne i 
-alderen 18 år og derover. </p>         </div>"""   
+alderen 18 år og derover. </p> </div>"""   
           
 
              
@@ -864,7 +870,7 @@ Fortæl Deres læge, hvis De lider af allergi over for Sunset yellow FCF alumini
 Eviplera indeholder Sunset yellow FCF aluminium lak, som også kaldes „E110", der kan medføre 
 allergiske reaktioner. 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take eviplera"
@@ -928,7 +934,7 @@ det kan medføre en forværring af Deres hepatitis, hvilket kan være livstruend
 <p> Bemærker De nogle nye eller usædvanlige symptomer efter behandlingens ophør, skal De 
 omgående oplyse Deres læge herom, især hvis det drejer sig om symptomer, som De normalt 
 ville forbinde med hepatitis B-infektion. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1058,7 +1064,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store eviplera"
@@ -1070,7 +1076,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. Hold tabletbeholderen tæt tillukket. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1200,7 +1206,7 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113  </p>
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1239,7 +1245,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1248,7 +1256,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1265,7 +1274,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Eviplera </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1292,7 +1301,7 @@ multiplicação do vírus. </p>
 <p>Eviplera diminui a quantidade de VIH no seu corpo. Isto irá melhorar o seu sistema imunológico e 
 diminuir o risco de desenvolvimento de doenças ligadas à infeção por VIH. </p>
 <p>Eviplera é utilizado para o tratamento da infeção pelo Vírus da Imunodeficiência Humana 
-(VIH) em adultos com 18 anos de idade ou mais. </p>         </div>"""   
+(VIH) em adultos com 18 anos de idade ou mais. </p> </div>"""   
           
 
              
@@ -1564,7 +1573,7 @@ alérgicas. </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
 praticamente “isento de sódio". </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar eviplera"
@@ -1636,7 +1645,7 @@ sua hepatite o que pode pôr em risco a sua vida. </p>
 <p> Informe imediatamente o seu médico se surgirem quaisquer sintomas novos ou pouco habituais 
 após parar o tratamento, particularmente sintomas que associaria à sua hepatite B. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1872,7 +1881,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar eviplera"
@@ -1885,7 +1894,7 @@ após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. <
 <p>Conservar na embalagem de origem para proteger da humidade. Manter o frasco bem fechado. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2020,7 +2029,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

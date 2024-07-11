@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dukoral </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 vaccine protects adults and children from 2 years of age against cholera.  </p>
 <p>Dukoral causes your body to produce its own protection against cholera. After getting the vaccine, 
 your body will make substances called antibodies, which fight the cholera bacteria and toxin that 
-cause diarrhoea.  </p>         </div>"""   
+cause diarrhoea.  </p> </div>"""   
           
 
              
@@ -111,7 +114,7 @@ ask your doctor before taking the vaccine.  </p>
  There are no reasons to suspect that Dukoral will affect your ability to drive or handle machines </p>
 <p>Dukoral contains sodium 
 Dukoral contains approximately 1.1 g sodium per dose. Please take this into consideration if you are 
-on a controlled sodium diet. </p>         </div>"""   
+on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dukoral"
@@ -171,7 +174,7 @@ If you have taken more than one dose at one time, please contact your doctor, ph
 If you forget to take Dukoral. 
 You can take the 2nd dose of Dukoral up to 6 weeks after the 1st dose (children of 2 to below 6 years 
 have to take 3 doses). If more than 6 weeks have passed, contact your doctor, pharmacist or nurse. </p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this vaccine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -210,7 +213,7 @@ general stomach discomfort<br />
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V*. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dukoral"
@@ -224,7 +227,7 @@ Store in a refrigerator (2 C   8 C). Do not freeze. </p>
 <p>Product in the unopened vial and sachet, stored in the outer carton, is stable at temperatures up to 
 25oC for a period of 14 days. At the end of this period the product should be used or discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ infodukoral@valneva.com </p>
 Valneva Sweden AB, Gunnar Asplunds all  16, SE-171 69 Solna, Sweden. </p>
 <p>This leaflet was last revised in MM/YYYY </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -300,7 +303,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -309,7 +314,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -324,7 +330,7 @@ Usage: #inline
 3. Sådan skal De tage Dukoral 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -336,7 +342,7 @@ Usage: #inline
 voksne og børn fra 2-års-alderen mod kolera. </p>
 <p>Dukoral får kroppen til at danne sin egen beskyttelse mod kolera. Når De har fået vaccinen, danner 
 Deres krop nogle stoffer, der kaldes antistoffer. Antistofferne bekæmper de kolerabakterier og det 
-giftstof, der forårsager diaré.  </p>         </div>"""   
+giftstof, der forårsager diaré.  </p> </div>"""   
           
 
              
@@ -372,7 +378,7 @@ Der er ikke grund til at tro, at Dukoral vil påvirke Deres evne til at føre mo
 maskiner. </p>
 <p>Dukoral indeholder natrium 
 Dukoral indeholder ca. 1,1 g natrium pr. dosis. Hvis De er på natrium- eller saltfattig diæt, skal De 
-tage hensyn hertil. </p>         </div>"""   
+tage hensyn hertil. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dukoral"
@@ -437,7 +443,7 @@ på en gang. </p>
 De kan tage den anden dosis af Dukoral op til 6 uger efter den første dosis (børn fra 2 til under 6 år 
 skal tage 3 doser). Kontakt Deres læge, apotekspersonalet eller sundhedspersonalet, hvis der er 
 forløbet mere end 6 uger. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -478,7 +484,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, sygeplejerske eller 
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dukoral"
@@ -492,7 +498,7 @@ Opbevares i køleskab (2°C - 8°C). Må ikke nedfryses. </p>
 <p>I uåbnet hætteglas og brev og opbevaret i den ydre karton er præparatet stabilt ved temperaturer op til 
 25oC i en periode på 14 dage. Efter denne periode skal præparatet anvendes eller kasseres. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -534,7 +540,7 @@ Valneva Sweden AB, Gunnar Asplunds allé 16, SE-171 69 Solna, Sverige.  </p>
 De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/.  </p>
 <p>Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs 
-hjemmeside.  </p>         </div>"""      
+hjemmeside.  </p> </div>"""      
 
 
 

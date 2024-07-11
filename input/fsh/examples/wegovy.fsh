@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Wegovy </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ blood vessel problems). </p>
 * body weight &gt;60 kg. 
 As an adolescent patient, you should only continue using Wegovy if you have lost at least 5% of your 
 BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see section 3). Consult your 
-doctor before you continue. </p>         </div>"""   
+doctor before you continue. </p> </div>"""   
           
 
              
@@ -185,7 +188,7 @@ information on increased risk of low blood sugar and section 4 for the warning s
 sugar. Talk to your doctor for further information.  </p>
 <p>Wegovy contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take wegovy"
@@ -248,7 +251,7 @@ your next dose as usual on your next scheduled day.
 Do not use a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Wegovy 
 Do not stop using this medicine without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ reduce your dose of these medicines before you start using this medicine. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store wegovy"
@@ -330,7 +333,7 @@ refrigerator for more than 28 days, or has been frozen. </p>
 <p>Do not use this medicine if you notice that the solution is not clear and colourless.  </p>
 <p>After use: The pen is for single use and contains one dose only. Discard pen after use.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -364,7 +367,7 @@ DK-2880 Bagsv rd
 Denmark </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -403,7 +406,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -412,7 +417,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -427,7 +433,7 @@ Usage: #inline
 3. Sådan skal du bruge Wegovy 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -468,7 +474,7 @@ har </p>
 </ul>
 <p>Som ung patient skal du kun fortsætte med at bruge Wegovy, hvis du har tabt mindst 5% af din BMI 
 efter 12 uger på 2,4 mg dosis eller maksimal tolereret dosis (se punkt 3). Kontakt din læge, før du 
-fortsætter. </p>         </div>"""   
+fortsætter. </p> </div>"""   
           
 
              
@@ -589,7 +595,7 @@ oplysninger om advarselssignalerne for lavt blodsukker. Tal med din læge for at
 information.  </p>
 <p>Wegovy indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.  </p>         </div>"""   
+væsentlige natriumfrit.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take wegovy"
@@ -683,7 +689,7 @@ Du må ikke bruge en dobbeltdosis som erstatning for den glemte dosis. </p>
 </ul>
 <p>Hvis du holder op med at bruge Wegovy 
 Du må ikke holde op med at bruge dette lægemiddel uden først at have talt med din læge om det.  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -815,7 +821,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store wegovy"
@@ -834,7 +840,7 @@ køleskabet i mere end 28 dage eller har været frosset. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at opløsningen ikke er klar og farveløs.  </p>
 <p>Efter brug: Pennen er til engangsbrug og indeholder kun én dosis. Kassér pennen efter brug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1089,7 +1095,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1128,7 +1134,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1137,7 +1145,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1152,7 +1161,7 @@ Usage: #inline
 3. Como utilizar Wegovy<br />
 4. Efeitos indesejáveis possíveis<br />
 5. Como conservar Wegovy 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1194,7 +1203,7 @@ com 12 ou mais anos de idade, que tenham </p>
 </ul>
 <p>Como doente adolescente só deverá continuar a utilizar Wegovy se tiver perdido, pelo menos, 5% do 
 seu IMC após 12 semanas com a dose de 2,4 mg ou a dose máxima tolerada (ver secção 3). Fale com o 
-seu médico antes de continuar o tratamento. </p>         </div>"""   
+seu médico antes de continuar o tratamento. </p> </div>"""   
           
 
              
@@ -1319,7 +1328,7 @@ secção 4 para os sinais de aviso de baixo nível de açúcar no sangue. Fale c
 mais informações. </p>
 <p>Wegovy contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-‘isento de sódio’. </p>         </div>"""   
+‘isento de sódio’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar wegovy"
@@ -1415,7 +1424,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </
 <p>Se parar de utilizar Wegovy<br />
 Não interrompa a utilização deste medicamento sem falar com o seu médico.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1550,7 +1559,7 @@ arterial </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo efeitos indesejáveis não indicados neste folheto, fale 
 com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar wegovy"
@@ -1571,7 +1580,7 @@ do frigorífico durante mais de 28 dias ou se tiver sido congelada. </p>
 após a utilização.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente </p>         </div>"""      
+o ambiente </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1607,7 +1616,7 @@ DK-2880 Bagsværd
 Dinamarca  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store POTELIGEO  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ called monoclonal antibodies. Mogamulizumab targets cancer cells which are then 
 immune system (the body s defence). </p>
 <p>This medicine is used to treat adults with mycosis fungoides and S zary syndrome, which are types of 
 cancers called cutaneous T-cell lymphomas.  The medicine is for use in patients who have received at 
-least one medicine given by mouth or by injection. </p>         </div>"""   
+least one medicine given by mouth or by injection. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ cause tiredness in some people, so take particular care when driving and using m
 certain that this medicine does not affect you.  </p>
 <p>POTELIGEO contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take poteligeo"
@@ -140,7 +143,7 @@ The recommended dose is 1mg POTELIGEO for each kg of body weight. </p>
 <p>POTELIGEO will be given to you through a vein (intravenous infusion) over at least 60 minutes. To 
 start with, the infusions will be given once a week for the first 5 doses, then once every 2 weeks. 
 Treatment should be continued unless you get serious side effects or the cutaneous T-cell lymphoma 
-starts to get worse.  </p>         </div>"""         
+starts to get worse.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ yellow), dark urine, and any swelling. </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store poteligeo"
@@ -230,7 +233,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not use this medicine if you notice signs of deterioration, such as particulate matter or 
 discolouration.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. These measures will help 
-protect the environment. </p>         </div>"""      
+protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -257,7 +260,7 @@ Hildebrandstr. 10-37081 G ttingen
 Germany </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -296,7 +299,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -305,7 +310,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -320,7 +326,7 @@ Usage: #inline
 3. Sådan gives POTELIGEO 
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -333,7 +339,7 @@ kaldes for monoklonale antistoffer. Mogamulizumab er rettet mod kræftceller, de
 ødelægges af immunsystemet (kroppens forsvarssystem). </p>
 <p>Dette lægemiddel bruges til behandling af voksne med mycosis fungoides og Sézarys syndrom, som er 
 nogle kræfttyper, der kaldes for kutane T-cellelymfomer.  Lægemidlet er beregnet til anvendelse til 
-patienter, der har fået mindst ét lægemiddel indgivet gennem munden eller som en injektion. </p>         </div>"""   
+patienter, der har fået mindst ét lægemiddel indgivet gennem munden eller som en injektion. </p> </div>"""   
           
 
              
@@ -383,7 +389,7 @@ lægemiddel kan dog medføre træthed hos nogle mennesker, så vær særligt for
 bilkørsel og betjening af maskiner, indtil du er sikker på, at lægemidlet ikke påvirker dig.  </p>
 <p>POTELIGEO indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
-væsentlige ‘natriumfrit’. </p>         </div>"""   
+væsentlige ‘natriumfrit’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take poteligeo"
@@ -394,7 +400,7 @@ væsentlige ‘natriumfrit’. </p>         </div>"""
 anbefalede dosis er 1 mg POTELIGEO for hvert kilogram legemsvægt. </p>
 <p>POTELIGEO vil blive indgivet gennem en blodåre (intravenøs infusion) i et tidsrum på mindst minutter. I starten vil infusionerne blive givet én gang om ugen for de første 5 doser og derefter én 
 gang hver anden uge. Behandlingen bør fortsætte, medmindre du får en alvorlig bivirkning, eller det 
-kutane T-cellelymfom begynder at blive værre.  </p>         </div>"""         
+kutane T-cellelymfom begynder at blive værre.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -470,7 +476,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store poteligeo"
@@ -485,7 +491,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.  </p>
 <p>Rekonstitueret/fortyndet opløsning: Bruges straks eller opbevares i køleskab (2 ºC - 8 ºC) og anvendes 
 inden for 24 timer. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker tegn på nedbrydning, som f.eks. partikler eller misfarvning.  </p>
-<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden.  </p>         </div>"""      
+<p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -520,7 +526,7 @@ Holland  </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -559,7 +565,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -568,7 +576,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -583,7 +592,7 @@ Usage: #inline
 3. Como utilizar POTELIGEO 
 4. Efeitos indesejáveis possíveis<br />
 5. Como conservar POTELIGEO<br />
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -596,7 +605,7 @@ chamados anticorpos monoclonais. O mogamulizumab tem como alvo as células do ca
 depois destruídas pelo sistema imunitário (as defesas do corpo). </p>
 <p>Este medicamento é utilizado para tratar adultos com micose fungóide e síndrome de Sézary, que são 
 tipos de cancro chamados linfomas cutâneos de células T. Este medicamento é destinado ao uso em 
-doentes que já tenham recebido pelo menos outro medicamento dado por via oral ou injeção. </p>         </div>"""   
+doentes que já tenham recebido pelo menos outro medicamento dado por via oral ou injeção. </p> </div>"""   
           
 
              
@@ -645,7 +654,7 @@ este medicamento pode causar cansaço em algumas pessoas. Como tal, tome particu
 durante a condução e utilização de máquinas até ter a certeza de que este medicamento não o afeta. </p>
 <p>POTELIGEO contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por frasco para injetáveis, ou seja, é 
-praticamente ‘isento de sódio’. </p>         </div>"""   
+praticamente ‘isento de sódio’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar poteligeo"
@@ -657,7 +666,7 @@ corporal. A dose recomendada é de 1 mg de POTELIGEO por cada kg de peso corpora
 <p>POTELIGEO ser-lhe-á dado por uma veia (perfusão intravenosa) durante pelo menos 60 minutos. Para 
 começar, as perfusões serão dadas uma vez por semana para as primeiras 5 doses, e depois a cada 2 
 semanas. O tratamento deve ser continuado a menos que tenha efeitos indesejáveis graves ou o seu 
-linfoma cutâneo de células T piore.  </p>         </div>"""         
+linfoma cutâneo de células T piore.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -719,7 +728,7 @@ icterícia (mudar de cor para amarelo), urina escura ou quaisquer inchaços.  </
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar poteligeo"
@@ -736,7 +745,7 @@ prazo inferior a 24 horas. </p>
 <p>Não utilize este medicamento se verificar sinais de deterioração, como matéria particulada ou 
 descoloração.  </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -770,7 +779,7 @@ Bloemlaan 2
 Holanda </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}&gt;&lt;{mês de AAAA}&gt;. </p>
 <p>Outras fontes de informação<br />
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store PHELINUN </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ some types of white blood cells called lymphocytes (cells that fight against inf
   advanced breast cancer  </p>
 <p>PHELINUN is also used, in combination with other cytotoxic medicines, as a preparation medicine 
 before blood stem cell transplantation to treat cancer of the blood in adults and cancer and non-
-cancerous disorders of the blood in the paediatric population. </p>         </div>"""   
+cancerous disorders of the blood in the paediatric population. </p> </div>"""   
           
 
              
@@ -216,7 +219,7 @@ likelihood of side effects. </p>
 are using this medicine. </p>
 <p>PHELINUN contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take phelinun"
@@ -246,7 +249,7 @@ the patients cannot express that they experience pain, it should be observed if 
 and swelling of the injection site occur.  </p>
 <p>If you are given more PHELINUN than you should 
 If you think you have been given too much or have missed a dose, tell your doctor or nurse. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ tell your doctor or pharmacist. </p>
 If you get any side effects, talk to your doctor, nurse or pharmacist. 
 This includes any possible side effects not listed in this leaflet. You can also report side effects directly 
 via the national reporting system listed in Appendix V. By reporting side effects you can help provide 
-more information on the safety of this medicine. </p>         </div>"""      
+more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store phelinun"
@@ -336,7 +339,7 @@ Do not use this medicine after the expiry date which is stated on the vials labe
 <p>Do not refrigerate. 
 Keep the vials in the outer carton in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -374,7 +377,7 @@ Via Galileo Galilei, 20867 Caponago (MB) Italy<br />
 Tel: +39 02 40700adienne@adienne.com </p>
 <p>This leaflet was last revised in month YYYY. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -413,7 +416,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -422,7 +427,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -439,7 +445,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -460,7 +466,7 @@ blodlegemer, der kaldes lymfocytter (celler, der bekæmper infektioner)
 • fremskreden brystkræft </p>
 <p>PHELINUN anvendes også, i kombination med andre cytotoksiske lægemidler, som forberedende 
 medicin inden blodstamcelletransplantation ved behandling af blodkræft hos voksne og ondartede og 
-godartede blodforstyrrelser hos børn. </p>         </div>"""   
+godartede blodforstyrrelser hos børn. </p> </div>"""   
           
 
              
@@ -607,7 +613,7 @@ sandsynligheden for bivirkninger. </p>
 bruger dette lægemiddel. </p>
 <p>PHELINUN indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take phelinun"
@@ -638,7 +644,7 @@ rødme og hævelse ved injektionsstedet. </p>
 <p>Hvis du har fået for meget PHELINUN 
 Hvis du tror, du har fået for meget PHELINUN eller har glemt en dosis, skal du sige det til lægen eller 
 sygeplejersken. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -779,7 +785,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller s
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store phelinun"
@@ -792,7 +798,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares i køleskab. 
 Opbevar hætteglassene i den ydre karton for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -979,7 +985,7 @@ indeholder vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, hvis der er mere, du vil vide. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

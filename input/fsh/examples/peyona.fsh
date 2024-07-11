@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Peyona </li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ premature newborns).
 These short periods when premature babies stop breathing are due to the baby s breathing centres not 
 being fully developed. 
 This medicine has been shown to reduce the number of episodes of interrupted breathing in premature 
-newborns.</p>         </div>"""   
+newborns.</p> </div>"""   
           
 
              
@@ -129,7 +132,7 @@ If you (the mother) are breast-feeding while your infant is treated with Peyona,
 coffee or take any other high caffeine product as caffeine passes into breast milk.
 Peyona contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take peyona"
@@ -160,7 +163,7 @@ high blood levels of certain chemicals (urea), elevated number of certain cells 
 and seizures if he/she receives more caffeine citrate than he/she should.
 In the event of this happening treatment with Peyona should be stopped immediately and your baby s 
 doctor should treat the overdose. 
-If you have any further questions on the use of this medicinal product, ask your baby s doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicinal product, ask your baby s doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -215,7 +218,7 @@ Reporting of side effects
 If your newborn gets any side effects, talk to your baby s doctor. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store peyona"
@@ -227,7 +230,7 @@ Do not use this medicine after the expiry date which is stated on the label. The
 the last day of that month.
 The medicinal product does not require any special storage conditions.
 Ampoules of all parenteral solutions must be inspected visually for particulate matter prior to 
-administration. After opening the ampoules, the medicinal product should be used immediately.</p>         </div>"""      
+administration. After opening the ampoules, the medicinal product should be used immediately.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ Chiesi Pharmaceuticals GmbH
 Tel: + 43 1 4073United Kingdom (Northern Ireland)
 Chiesi Farmaceutici S.p.A. 
 Tel: + 39 0521 2This leaflet was last revised in.
-Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
+Detailed information on this medicine is available on the website of the European Medicines Agency </p> </div>"""      
 
 
 
@@ -361,7 +364,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -370,7 +375,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -385,7 +391,7 @@ Usage: #inline
 3. Sådan vil Deres spædbarn få Peyona 
 4. Bivirkninger
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -399,7 +405,7 @@ Peyona anvendes til behandling af afbrudt åndedræt hos for tidligt fødte spæ
 præmature nyfødte børn). 
 Disse korte perioder, hvor for tidligt fødte spædbørn holder op med at trække vejret, skyldes, at 
 spædbarnets åndedrætscentre ikke er fuldt udviklede. Det er påvist, at dette lægemiddel reducerer 
-antallet af episoder med afbrudt åndedræt hos for tidligt fødte spædbørn.</p>         </div>"""   
+antallet af episoder med afbrudt åndedræt hos for tidligt fødte spædbørn.</p> </div>"""   
           
 
              
@@ -462,7 +468,7 @@ eller indtage andre produkter, der indeholder store mængder caffein, da caffein
 modermælken.
 Peyona indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. den er i det 
-væsentlige natrium-fri.</p>         </div>"""   
+væsentlige natrium-fri.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take peyona"
@@ -494,7 +500,7 @@ op, få for højt niveau af sukker i blodet (hyperglykæmi), få for lavt niveau
 (leukocytter) i blodet samt krampeanfald, hvis Deres nyfødte barn får mere caffeincitrat end det bør.
 Hvis dette sker, skal behandlingen med Peyona omgående afbrydes, og Deres læge vil behandle 
 overdoseringen. 
-Spørg Deres spædbarns læge, hvis der er noget, De er i tvivl om.</p>         </div>"""         
+Spørg Deres spædbarns læge, hvis der er noget, De er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -552,7 +558,7 @@ Hvis Deres nyfødte barn får bivirkninger, bør De tale med Deres spædbarns l�
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store peyona"
@@ -564,7 +570,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen. Udløbsdat
 den nævnte måned. 
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Alle ampuller med parenterale opløsninger skal undersøges visuelt for partikler i væsken inden indgivelse. 
-Efter at ampullen er åbnet, skal indholdet anvendes omgående. </p>         </div>"""      
+Efter at ampullen er åbnet, skal indholdet anvendes omgående. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -694,7 +700,7 @@ hjemmeside http://www.ema.europa.eu/.</p>
 <hr />
 <p>Nedenstående oplysninger er til læger og sundhedspersonale. Disse oplysninger børe også 
 fremsendes til EMA/Sundhedsstyrelsen.
-Der findes detaljerede oplysninger i det medfølgende Produktresumé fra PEYONA.</p>         </div>"""      
+Der findes detaljerede oplysninger i det medfølgende Produktresumé fra PEYONA.</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Emgality  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ in the body called calcitonin gene-related peptide (CGRP). People with migraine 
 levels of CGRP.  </p>
 <p>Emgality is used to prevent migraine in adult patients who have at least 4 migraines days per month.  </p>
 <p>Emgality can reduce the frequency of migraine headache and improve your quality of life. It starts 
-working in about a week. </p>         </div>"""   
+working in about a week. </p> </div>"""   
           
 
              
@@ -122,7 +125,7 @@ Galcanezumab could have a minor effect on your ability to drive and use machines
 have had vertigo whilst using Emgality.  </p>
 <p>Emgality contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 120 mg dose, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emgality"
@@ -151,7 +154,7 @@ Do not take a double dose to make up for forgotten injection   </p>
 inject the next dose after a month from that date.  </p>
 <p>If you stop using Emgality<br />
 You should not stop using Emgality without speaking to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -189,7 +192,7 @@ allergic reactions may occur rarely (may affect up to 1 in 1 000 people) and the
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emgality"
@@ -207,7 +210,7 @@ to 30  C. If the pen is stored at a higher temperature or for a longer period it
 particles in it.   </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor, nurse or 
 pharmacist how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -294,7 +297,7 @@ Eli Lilly (Suisse) S.A P rst vniec ba Latvij  Tel:
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -333,7 +336,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -342,7 +347,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -359,7 +365,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -373,7 +379,7 @@ koncentration af CGRP.  </p>
 <p>Emgality bruges til at forebygge migræne hos voksne patienter, der har mindst 4 migrænedage pr. 
 måned.  </p>
 <p>Emgality kan nedsætte hyppigheden af migræne og forbedre livskvaliteten. Det begynder at virke efter 
-ca. 1 uge. </p>         </div>"""   
+ca. 1 uge. </p> </div>"""   
           
 
              
@@ -416,7 +422,7 @@ Galcanezumab kan have en mindre påvirkning på din evne til at føre motorkøre
 maskiner. Nogle patienter har oplevet svimmelhed, mens de har brugt Emgality. </p>
 <p>Emgality indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 120 mg-dosis, dvs. Det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take emgality"
@@ -446,7 +452,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.   </p>
 og derefter indsprøjte den næste dosis 1 måned fra den pågældende dato.  </p>
 <p>Hvis du holder op med at bruge Emgality 
 Du må ikke stoppe med at bruge Emgality uden først at have talt med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -489,7 +495,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store emgality"
@@ -506,7 +512,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at pennen er beskadiget, eller at medicinen er uklar eller 
 indeholder partikler.   </p>
 <p>Spørg lægen, sygeplejersken eller apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af 
-hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -816,7 +822,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.<br />
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -855,7 +861,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -864,7 +872,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -881,7 +890,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Emgality </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -895,7 +904,7 @@ pessoas com enxaqueca podem ter níveis mais elevados de CGRP.  </p>
 <p>Emgality é utilizado para prevenir a enxaqueca em adultos com, pelo menos, 4 dias por mês com 
 enxaqueca.  </p>
 <p>Emgality pode diminuir a frequência da cefaleia (dor de cabeça) de tipo enxaqueca e melhorar a sua 
-qualidade de vida. Começa a fazer efeito ao fim de cerca de uma semana. </p>         </div>"""   
+qualidade de vida. Começa a fazer efeito ao fim de cerca de uma semana. </p> </div>"""   
           
 
              
@@ -938,7 +947,7 @@ medicamento. Juntamente com o seu médico irá decidir se deverá amamentar e to
 Alguns doentes tiveram vertigens durante o tratamento com Emgality. </p>
 <p>Emgality contém sódio<br />
 Este medicamento contém menos do que 1 mmol de sódio (23 mg) por cada dose de 120 mg, ou seja, é 
-praticamente "isento de sódio".  </p>         </div>"""   
+praticamente "isento de sódio".  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar emgality"
@@ -970,7 +979,7 @@ injete a dose seguinte um mês depois dessa data.  </p>
 <p>Se parar de utilizar Emgality 
 Não deve parar de utilizar Emgality sem falar primeiro com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1006,7 +1015,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar emgality"
@@ -1025,7 +1034,7 @@ deverá ser descartada.  </p>
 turvo ou contiver partículas visíveis. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu médico, 
 enfermeiro ou farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas 
-ajudarão a proteger o ambiente. </p>         </div>"""      
+ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1142,7 +1151,7 @@ Eli Lilly e Company (Ireland) Limited
 Tel: + 353-(0) 1 661 4 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TUKYSA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ information leaflets are available for these medicines. Ask your doctor to tell 
 <p>How TUKYSA works 
 TUKYSA works by blocking the HER2 receptors on cancer cells. HER2 produces signals that can 
 help the cancer to grow, and blocking it may slow or stop cancer cells from growing or may kill them 
-altogether. </p>         </div>"""   
+altogether. </p> </div>"""   
           
 
              
@@ -170,7 +173,7 @@ increased concentration.  </p>
 This medicine contains 55.3 mg sodium (main component of cooking/table salt) in each 300 mg dose. 
 This is equivalent to 2.75% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>This medicine contains 60.6 mg potassium per 300 mg dose. To be taken into consideration by patients 
-with reduced kidney function or patients on a controlled potassium diet.  </p>         </div>"""   
+with reduced kidney function or patients on a controlled potassium diet.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tukysa"
@@ -201,7 +204,7 @@ without talking to your doctor. </p>
 <p>While you are taking TUKYSA<br />
 * Depending on the side effects you have, your doctor may recommend lowering your dose or 
 temporarily stopping your treatment. 
-* Your doctor will also check your liver function during treatment with TUKYSA. </p>         </div>"""         
+* Your doctor will also check your liver function during treatment with TUKYSA. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -227,7 +230,7 @@ discomfort in the upper right area of the stomach;
 Reporting of side effects If you get any side effects, talk to your doctor or pharmacist. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tukysa"
@@ -239,7 +242,7 @@ By reporting side effects, you can help provide more information on the safety o
 date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -333,7 +336,7 @@ Swixx Biopharma SIA<br />
 Tel: +371 6 6164 United Kingdom (Northern Ireland) 
 Seagen B.V. (Netherlands) 
 Tel: +44 330 818 0This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -372,7 +375,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -381,7 +386,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -396,7 +402,7 @@ Usage: #inline
 3. Sådan skal du tage TUKYSA 
 4. Bivirkninger 
 5. Opbevaring af TUKYSA 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -422,7 +428,7 @@ indlægssedler fås for disse lægemidler. Bed din læge om at fortælle dig om 
 <p>Sådan fungerer TUKYSA 
 TUKYSA fungerer ved at blokere HER2-receptorerne på kræftceller. HER2 danner signaler, som kan 
 hjælpe kræften med at vokse, og hvis det blokeres kan det forsinke kræftcellerne eller få dem til at 
-ophøre med at vokse eller måske slå dem helt ihjel. </p>         </div>"""   
+ophøre med at vokse eller måske slå dem helt ihjel. </p> </div>"""   
           
 
              
@@ -556,7 +562,7 @@ kræver øget koncentration. </p>
 Dette lægemiddel indeholder 55,3 mg natrium (hovedkomponent af madlavnings-/bordsalt) pr. 300 mg 
 dosis. Dette svarer til 2,75 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p>
 <p>Dette lægemiddel indeholder 60,6 mg kalium pr. 300 mg dosis. Hvis du har nedsat nyrefunktion og/eller 
-får kaliumfattig diæt, skal du tage hensyn hertil. </p>         </div>"""   
+får kaliumfattig diæt, skal du tage hensyn hertil. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tukysa"
@@ -604,7 +610,7 @@ standse din behandling. </p>
 <li>
 <p>Lægen vil også tjekke din leverfunktion under behandlingen med TUKYSA. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -652,7 +658,7 @@ mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tukysa"
@@ -664,7 +670,7 @@ dette lægemiddel. </p>         </div>"""
 i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -772,7 +778,7 @@ Tel: +44 330 818 0
 Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside:<br />
-http://www.ema.europa.eu </p>         </div>"""      
+http://www.ema.europa.eu </p> </div>"""      
 
 
 
@@ -811,7 +817,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -820,7 +828,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -835,7 +844,7 @@ Usage: #inline
 3. Como tomar TUKYSA 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar TUKYSA 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -860,7 +869,7 @@ médico informação sobre estes outros medicamentos. </p>
 <p>Como TUKYSA atua 
 TUKYSA atua bloqueando os recetores HER2 nas células cancerígenas. O HER2 produz sinais que 
 podem ajudar o cancro a crescer, e o seu bloqueio poderá retardar ou parar o crescimento das células 
-cancerígenas ou poderá mesmo matá-las. </p>         </div>"""   
+cancerígenas ou poderá mesmo matá-las. </p> </div>"""   
           
 
              
@@ -998,7 +1007,7 @@ cada dose de 300 mg. Isto é equivalente a 2,75% da ingestão diária máxima de
 dieta para um adulto. </p>
 <p>Este medicamento contém 60,6 mg de potássio por dose de 300 mg. Esta informação deve ser tida em 
 consideração em doentes com função renal diminuída ou em doentes com ingestão controlada de 
-potássio. </p>         </div>"""   
+potássio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tukysa"
@@ -1046,7 +1055,7 @@ da dose ou a paragem temporária do tratamento. </p>
 <p>Durante o tratamento com TUKYSA, o seu médico irá monitorizar o funcionamento do seu 
 fígado. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1094,7 +1103,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. </p>
 <p>Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tukysa"
@@ -1107,7 +1116,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1215,7 +1224,7 @@ Tel: +371 6 6164 United Kingdom (Northern Ireland)
 Seagen B.V. (Netherlands) 
 Tel: +44 330 818 0 
 Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

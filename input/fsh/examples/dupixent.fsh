@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dupixent </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -102,7 +105,7 @@ overall quality of life. </p>
 <p>Dupixent helps prevent severe asthma attacks (exacerbations) and can improve your breathing. 
 Dupixent may also help reduce the amount of another group of medicines you need to control your 
 asthma, called oral corticosteroids, while preventing severe asthma attacks and improving your 
-breathing. </p>         </div>"""   
+breathing. </p> </div>"""   
           
 
              
@@ -182,7 +185,7 @@ not do both. </p>
 Dupixent is unlikely to influence your ability to drive and use machines. </p>
 <p>Dupixent contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 300 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dupixent"
@@ -302,7 +305,7 @@ original schedule.<br />
 time you remember to take your Dupixent injection. </p>
 <p>If you stop using Dupixent<br />
 Do not stop using Dupixent without speaking to your doctor first.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -347,7 +350,7 @@ Common: pinworms (enterobiasis) </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dupixent"
@@ -364,7 +367,7 @@ left out of the refrigerator for more than 14 days or if the expiry date has pas
 <p>Do not use this medicine if you notice that the medicine is cloudy, discoloured, or has particles in it. 
 Do not throw away any medicines via wastewater or household waste. Ask your doctor, pharmacist or 
 nurse how to throw away medicines you no longer use. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -468,7 +471,7 @@ Tel: +371 6 616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -507,7 +510,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -516,7 +521,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -531,7 +537,7 @@ Usage: #inline
 3. Sådan skal du bruge Dupixent 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -569,7 +575,7 @@ den generelle livskvalitet. </p>
 <p>Dupixent hjælper med at forebygge svære astmaanfald (eksacerbationer) og kan hjælpe dig til 
 nemmere at trække vejret. Dupixent kan også hjælpe med at reducere din dosis af et andet lægemiddel, 
 kaldet oral kortikosteroid, som du tager for at kontrollere din astma. På samme tid kan Dupixent 
-forebygge svære astmaanfald og forbedre din vejrtrækning. </p>         </div>"""   
+forebygge svære astmaanfald og forbedre din vejrtrækning. </p> </div>"""   
           
 
              
@@ -707,7 +713,7 @@ begge dele. </p>
 Det er usandsynligt, at Dupixent vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Dupixent indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. 300 mg dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dupixent"
@@ -872,7 +878,7 @@ tidspunkt, hvor du husker at give din injektion af Dupixent. </p>
 </ul>
 <p>Hvis du holder op med at bruge Dupixent 
 Stop ikke brugen af Dupixent uden først at tale med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -974,7 +980,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dupixent"
@@ -993,7 +999,7 @@ overskredet.  </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at lægemidlet ser grumset ud, er misfarvet eller indeholder 
 partikler. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1332,7 +1338,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1371,7 +1377,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1380,7 +1388,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1395,7 +1404,7 @@ Usage: #inline
 3. Como utilizar Dupixent 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Dupixent 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1436,7 +1445,7 @@ do sono e a qualidade de vida geral. </p>
 <p>O Dupixent ajuda a prevenir ataques graves de asma (exacerbações) e pode melhorar a sua 
 respiração. Dupixent pode também ajudar a reduzir a quantidade de medicamentos de outro 
 grupo de que necessita para controlar a sua asma, designados por corticosteroides orais, 
-enquanto previne ataques de asma graves e melhora a respiração. </p>         </div>"""   
+enquanto previne ataques de asma graves e melhora a respiração. </p> </div>"""   
           
 
              
@@ -1571,7 +1580,7 @@ Condução de veículos e utilização de máquinas<br />
 </ul>
 <p>Dupixent contém sódio<br />
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose de 300 mg, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar dupixent"
@@ -1724,7 +1733,7 @@ cada 4 semanas a partir do momento em que se lembrar de dar a sua injeção Dupi
 <p>Se parar de utilizar Dupixent<br />
 Não pare de utilizar Dupixent sem antes falar com o seu médico.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, 
-farmacêutico ou enfermeiro. </p>         </div>"""         
+farmacêutico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1829,7 +1838,7 @@ Se tiver quaisquer efeitos indesejáveis, fale com o seu médico, farmacêutico 
 inclui possíveis efeitos indesejáveis não indicados neste folheto.Também poderá comunicar 
 efeitos indesejáveis diretamente através do sistema nacional de notificação mencionado no 
 Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações 
-sobre a segurança deste medicamento. </p>         </div>"""      
+sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar dupixent"
@@ -1849,7 +1858,7 @@ frigorífico por mais de 14 dias ou se a data de validade tiver sido ultrapassad
 <p>Não utilize este medicamento se verificar que está turvo, descorado ou tem partículas. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 médico, farmacêutico ou enfermeiro como deitar fora os medicamentos que já não utiliza. Estas 
-medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2177,7 +2186,7 @@ contém informação importante para si.
 pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
 indicados neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 
-4.  </p>         </div>"""      
+4.  </p> </div>"""      
 
 
 

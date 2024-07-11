@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Sildenafil Teva  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ phosphodiesterase type 5(PDE5) inhibitors. It works by helping to relax the bloo
 penis, allowing blood to flow into your penis when you get sexually excited. Sildenafil Teva will only 
 help you to get an erection if you are sexually stimulated.  </p>
 <p>Sildenafil Teva is a treatment for adult men with erectile dysfunction, sometimes known as impotence. 
-This is when a man cannot get, or keep a hard, erect penis suitable for sexual activity. </p>         </div>"""   
+This is when a man cannot get, or keep a hard, erect penis suitable for sexual activity. </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ Sildenafil Teva can cause dizziness and can affect vision. You should be aware o
 Sildenafil Teva before you drive or use machinery. </p>
 <p>Sildenafil Teva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sildenafil"
@@ -192,7 +195,7 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy.  </p>
 <p>You should not take more tablets than your doctor tells you to. </p>
 <p>Contact your doctor if you take more tablets than you should. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ directly related to sildenafil.  </p>
 If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sildenafil"
@@ -273,7 +276,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Store in the original package, in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -414,7 +417,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -423,7 +428,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -438,7 +444,7 @@ Usage: #inline
 3. Sådan skal du tage Sildenafil Teva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -452,7 +458,7 @@ strømme ind i penis ved seksuel stimulation. Sildenafil Teva vil kun hjælpe di
 hvis du bliver seksuelt stimuleret.  </p>
 <p>Sildenafil Teva er til behandling af voksne mænd med erektil dysfunktion, af og til kendt som 
 impotens, hvilket er manglende evne til at opnå og/eller opretholde erektion tilstrækkelig til at 
-gennemføre tilfredsstillende seksuel aktivitet. </p>         </div>"""   
+gennemføre tilfredsstillende seksuel aktivitet. </p> </div>"""   
           
 
              
@@ -556,7 +562,7 @@ Sildenafil Teva kan forårsage svimmelhed og kan påvirke synet. Vær opmærksom
 reagerer på Sildenafil Teva inden bilkørsel eller betjening af maskiner. </p>
 <p>Sildenafil Teva indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. Filmovertrukket tablet, dvs. Det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sildenafil"
@@ -580,7 +586,7 @@ gennemføre samleje, bør du sige det til lægen. </p>
 Du kan opleve flere og kraftigere bivirkninger. Doser på over 100 mg vil ikke forøge virkningen. </p>
 <p>Du bør ikke tage flere tabletter, end din læge har sagt. </p>
 <p>Kontakt lægen, hvis du har taget flere tabletter, end du skal. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -649,7 +655,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sildenafil"
@@ -661,7 +667,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -811,7 +817,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret Sildenafil Teva til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -850,7 +856,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -859,7 +867,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -874,7 +883,7 @@ Usage: #inline
 3. Como tomar Sildenafil Teva 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Sildenafil Teva 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -888,7 +897,7 @@ dos vasos sanguíneos do pénis, permitindo o afluxo de sangue para o pénis, qu
 estimulado. Sildenafil Teva só o ajudará a obter uma erecção se for sexualmente estimulado.  </p>
 <p>Sildenafil Teva é um tratamento para os homens adultos com disfunção eréctil, mais vulgarmente 
 conhecida por impotência. Isto é, quando um homem não consegue obter, ou manter, uma rigidez do 
-pénis em erecção, adequada à actividade sexual. </p>         </div>"""   
+pénis em erecção, adequada à actividade sexual. </p> </div>"""   
           
 
              
@@ -1009,7 +1018,7 @@ Sildenafil Teva pode provocar tonturas e afectar a visão. Deve estar consciente
 Sildenafil Teva antes de conduzir ou utilizar máquinas. </p>
 <p>Sildenafil Teva contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por cada comprimido revestido por 
-película, ou seja, é praticamente “isento de sódio". </p>         </div>"""   
+película, ou seja, é praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar sildenafil"
@@ -1109,7 +1118,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V*. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""         
+medicamento. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1123,7 +1132,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar na embalagem de origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar sildenafil"
@@ -1270,7 +1279,7 @@ informação importante para si
 ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença.. 
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
 neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. </p>
-<p>O que contem este folheto </p>         </div>"""      
+<p>O que contem este folheto </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1278,7 +1287,9 @@ neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Conteúdo da embalagem e outras informações"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""      
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable      
 
 
 

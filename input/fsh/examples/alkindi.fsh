@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Alkindi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ known as corticosteroids. </p>
 <p>Hydrocortisone is a synthetic version of the natural hormone cortisol. Cortisol is made by the adrenal 
 glands in the body. Alkindi is for use in children and adolescents aged birth to 18 years when the body 
 is not making enough cortisol, because part of the adrenal gland is not working (adrenal insufficiency, 
-often caused by an inherited condition called congenital adrenal hyperplasia).  </p>         </div>"""   
+often caused by an inherited condition called congenital adrenal hyperplasia).  </p> </div>"""   
           
 
              
@@ -200,7 +203,7 @@ cortisol. </p>
 <p>There is no information on any effects of Alkindi on fertility. </p>
 <p>Driving and using machines 
 Alkindi has no influence on a child s ability to perform skilled tasks (e.g. riding a bicycle) or using 
-machines. </p>         </div>"""   
+machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alkindi"
@@ -232,7 +235,7 @@ suddenly could quickly make your child very unwell. </p>
 Tell your endocrinologist or pharmacist if your child becomes ill, suffers severe stress, gets injured or 
 is about to have surgery because your endocrinologist may need to increase the dose of Alkindi in 
 these circumstances (see section 2). </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ and reduced growth. Your endocrinologist will monitor your child s growth and bo
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alkindi"
@@ -283,7 +286,7 @@ expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. Store in the original bottle in order to protect from light. </p>
 <p>Once the bottle has been opened, use the capsules within 60 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -342,7 +345,7 @@ Co. Louth, A91 DET0
 Ireland </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -381,7 +384,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -390,7 +395,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -407,7 +413,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -420,7 +426,7 @@ kaldes kortikosteroider. </p>
 <p>Hydrocortison er en syntetisk version af det naturlige hormon kortisol. Kortisol produceres i kroppen 
 af binyrerne. Alkindi er til brug hos børn og unge, fra fødsel til 18 år, når kroppen ikke producerer nok 
 kortisol som følge af en forstyrrelse i binyrerne (binyresvigt, der ofte er forårsaget af en arvelig 
-sygdom, som kaldes adrenogenitalt syndrom).  </p>         </div>"""   
+sygdom, som kaldes adrenogenitalt syndrom).  </p> </div>"""   
           
 
              
@@ -542,7 +548,7 @@ Hydrocortison kan anvendes under graviditet og amning, når kroppen ikke produce
 <p>Der foreligger ingen data om mulig indvirkning af Alkindi på frugtbarheden. </p>
 <p>Trafik- og arbejdssikkerhed 
 Alkindi har ingen indvirkning på dit barns evne til at udføre opmærksomhedskrævende opgaver (f.eks. 
-at cykle) eller betjene maskiner. </p>         </div>"""   
+at cykle) eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alkindi"
@@ -587,7 +593,7 @@ ophør med medicinen kan barnet hurtigt få det meget dårligt. </p>
 Sig det til speciallægen eller apotekspersonalet, hvis dit barn bliver syg, oplever alvorlig stress, 
 kommer til skade eller skal opereres, da det kan være, at dosis af Alkindi skal øges i disse situationer 
 (se pkt. 2). </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -629,7 +635,7 @@ Hvis dit barn får bivirkninger, bør du tale med din læge, sygeplejerske eller
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i appendiks V. Ved at indberette bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alkindi"
@@ -643,7 +649,7 @@ sidste dag i den nævnte måned. </p>
 mod lys. </p>
 <p>Efter åbning af beholderen skal kapslerne anvendes inden for 60 dage. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -704,7 +710,7 @@ Irland </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu.  </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Opfolda </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -89,7 +92,7 @@ heart muscle, from working properly. </p>
 <p>Opfolda binds to cipaglucosidase alfa during treatment. This makes the shape of cipaglucosidase alfa 
 more stable, so it can be more easily absorbed from the blood by the muscle cells that are affected by 
 Pompe disease. When in the cells, cipaglucosidase alfa works like GAA to help break down glycogen 
-and control its levels. </p>         </div>"""   
+and control its levels. </p> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ It is advised that female patients must use reliable birth control methods prior
 medicines, and for 4 weeks after stopping both medicines. </p>
 <p>Driving and using machines 
 Opfolda has no or negligible influence on your ability to drive or use machines. You should also read 
-the package leaflet of cipaglucosidase alfa, as that medicine may have an impact. </p>         </div>"""   
+the package leaflet of cipaglucosidase alfa, as that medicine may have an impact. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opfolda"
@@ -184,7 +187,7 @@ Speak to your doctor if you wish to stop Opfolda treatment. The symptoms of your
 worsen if you stop treatment. </p>
 <ul>
 <li></li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ reactions. Inform your doctor or nurse if you have ever had any such reaction. <
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opfolda"
@@ -261,7 +264,7 @@ Do not use this medicine after the expiry date which is stated on the bottle and
  EXP . The expiry date refers to the last date of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines that you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines that you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -397,7 +400,7 @@ Amicus Therapeutics, UK Limited<br />
 Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -436,7 +439,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -445,7 +450,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -460,7 +466,7 @@ Usage: #inline
 3. Sådan skal du tage Opfolda 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger  </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger  </p> </div>"""   
           
 
 * section[=].section[+]
@@ -485,7 +491,7 @@ med at trække vejret, og hjertemusklen i at fungere korrekt.   </p>
 <p>Opfolda binder sig til cipaglucosidase alfa under behandlingen. Det gør formen af cipaglucosidase alfa 
 mere stabil, så den lettere kan absorberes fra blodet af de muskelceller, der er påvirket af Pompes 
 sygdom. Når cipaglucosidase alfa er i cellerne, virker det som GAA og hjælper med at nedbryde 
-glykogen og kontrollere niveauet af glykogen. </p>         </div>"""   
+glykogen og kontrollere niveauet af glykogen. </p> </div>"""   
           
 
              
@@ -542,7 +548,7 @@ Kvindelige patienter i den fødedygtige alder skal bruge pålidelige prævention
 disse lægemidler, og i 4 uger efter, at de er holdt op med at tage begge lægemidler. </p>
 <p>Trafik- og arbejdssikkerhed 
 Opfolda påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner. 
-Du bør også læse indlægssedlen til cipaglucosidase alfa, da dette lægemiddel kan have en indvirkning. </p>         </div>"""   
+Du bør også læse indlægssedlen til cipaglucosidase alfa, da dette lægemiddel kan have en indvirkning. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take opfolda"
@@ -614,7 +620,7 @@ lægen eller sygeplejersken for at aftale et nyt tidspunkt for miglustat i kombi
 cipaglucosidase alfa så hurtigt som muligt.  </p>
 <p>Hvis du holder op med at tage Opfolda 
 Tal med din læge, hvis du ønsker at stoppe behandlingen med Opfolda. Symptomerne på din sygdom 
-kan forværres, hvis du stopper behandlingen. </p>         </div>"""         
+kan forværres, hvis du stopper behandlingen. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -771,7 +777,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store opfolda"
@@ -783,7 +789,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet, toilettet eller skraldespanden.   </p>         </div>"""      
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden.   </p> </div>"""      
         
         
 * section[=].section[+]
@@ -928,7 +934,7 @@ Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 

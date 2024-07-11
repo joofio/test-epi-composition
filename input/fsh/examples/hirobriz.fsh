@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Hirobriz Breezhaler </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ in the lungs. This helps open up the airways, making it easier to get air in and
 Hirobriz Breezhaler is used to make breathing easier for adult patients who have breathing difficulties 
 due to a lung disease called chronic obstructive pulmonary disease (COPD). In COPD the muscles 
 around the airways tighten. This makes breathing difficult. This medicine relaxes these muscles in the 
-lungs, making it easier for air to get in and out of the lungs. </p>         </div>"""   
+lungs, making it easier for air to get in and out of the lungs. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ your doctor or pharmacist for advice before using this medicine.  </p>
 It is unlikely that Hirobriz Breezhaler will affect your ability to drive and use machines. </p>
 <p>Hirobriz Breezhaler contains lactose 
 This medicine contains lactose (milk sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before using this medicine. </p>         </div>"""   
+intolerance to some sugars, contact your doctor before using this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hirobriz"
@@ -169,7 +172,7 @@ double dose to make up for a forgotten dose. </p>
 when you have breathing problems or other symptoms of COPD. 
 If you have questions about how long to continue your treatment with Hirobriz Breezhaler, talk to 
 your doctor or pharmacist. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -215,7 +218,7 @@ there is no need for concern. If the capsule is not empty then inhale again as d
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hirobriz"
@@ -230,7 +233,7 @@ Store in the original package in order to protect from moisture and do not remov
 before use. 
 Do not use this medicine if you notice that the pack is damaged or show signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -518,7 +521,7 @@ buttons
 Inhaler 
 Inhaler base 
 Blister Card 
-Screen </p>         </div>"""      
+Screen </p> </div>"""      
 
 
 
@@ -557,7 +560,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -566,7 +571,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -581,7 +587,7 @@ Usage: #inline
 3. Sådan skal du tage Hirobriz Breezhaler 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -598,7 +604,7 @@ Hirobriz Breezhaler bruges til at lette vejrtrækningen hos voksne patienter, so
 åndedrætsbesvær pga. en lungesygdom, som kaldes kronisk obstruktiv lungesygdom (KOL). Ved 
 KOL trækker musklerne omkring luftvejene sig sammen. Dette gør det svært at trække vejret. Dette 
 lægemiddel afslapper disse muskler i lungerne, hvilket gør det nemmere for luften at komme ind og ud 
-af lungerne. </p>         </div>"""   
+af lungerne. </p> </div>"""   
           
 
              
@@ -658,7 +664,7 @@ du spørge din læge eller apotekspersonalet til råds, før du tager dette læg
 Det er usandsynligt, at Hirobriz Breezhaler vil påvirke din evne til at køre bil eller betjene maskiner. </p>
 <p>Hirobriz Breezhaler indeholder lactose 
 Dette lægemiddel indeholder lactose. Kontakt lægen, før du tager dette lægemiddel, hvis lægen har 
-fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hirobriz"
@@ -711,7 +717,7 @@ KOL er en langtidssygdom, og du skal bruge Hirobriz Breezhaler hver dag og ikke 
 har åndedrætsbesvær eller andre symptomer på KOL. 
 Hvis du har spørgsmål om, hvor lang tid du skal fortsætte din behandling med Hirobriz Breezhaler, 
 skal du tale med din læge eller apoteket. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -781,7 +787,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hirobriz"
@@ -796,7 +802,7 @@ Opbevares i den originale pakning for at beskytte mod fugt og må først trykkes
 Brug ikke lægemidlet, hvis du bemærker at pakningen er beskadiget eller viser tegn på at have været 
 åbnet. 
 Spørg på apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1115,7 +1121,7 @@ Blister
 Sideknapper 
 Inhalator 
 Inhalatorunderdel 
-Blisterkort </p>         </div>"""      
+Blisterkort </p> </div>"""      
 
 
 
@@ -1154,7 +1160,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1163,7 +1171,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1178,7 +1187,7 @@ Usage: #inline
 3. Como utilizar Hirobriz Breezhaler 
 4. Efeitos secundários indesejáveis 
 5. Como conservar Hirobriz Breezhaler 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1196,7 +1205,7 @@ Hirobriz Breezhaler é utilizado para facilitar a respiração em doentes adulto
 respiratórias devido a uma doença pulmonar chamada doença pulmonar obstrutiva crónica (DPOC). 
 Na DPOC, os músculos que envolvem as vias respiratórias estreitam e isto torna a respiração mais 
 difícil. Este medicamento relaxa estes músculos nos pulmões, facilitando a entrada e saída de ar dos 
-pulmões. </p>         </div>"""   
+pulmões. </p> </div>"""   
           
 
              
@@ -1259,7 +1268,7 @@ médico ou farmacêutico antes de utilizar este medicamento. </p>
 É improvável que Hirobriz Breezhaler vá afetar a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>Hirobriz Breezhaler contém lactose 
 Este medicamento contém lactose (açúcar do leite). Se foi informado pelo seu médico que tem 
-intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p>         </div>"""   
+intolerância a alguns açúcares, contacte-o antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar hirobriz"
@@ -1314,7 +1323,7 @@ quando tem problemas respiratórios ou outros sintomas de DPOC.
 Se tiver questões sobre durante quanto tempo continuar o seu tratamento com Hirobriz Breezhaler, 
 fale com o seu médico ou farmacêutico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1384,7 +1393,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar hirobriz"
@@ -1401,7 +1410,7 @@ Não utilize este medicamento se verificar que a embalagem está danificada ou m
 manipulada. 
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1533,7 +1542,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

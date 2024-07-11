@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vyxeos liposomal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ kill the cancer cells.  </p>
 Vyxeos liposomal is used to treat patients with newly diagnosed acute myeloid leukaemia (a cancer of 
 the white blood cells). It is given when the leukaemia was caused by previous treatments (known as 
 therapy related acute myeloid leukaemia) or when there are certain changes in the bone marrow 
-(known as acute myeloid leukaemia with  myelodysplasia-related changes ). </p>         </div>"""   
+(known as acute myeloid leukaemia with  myelodysplasia-related changes ). </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ Use an effective method of contraception during and for 6 months after treatment
 liposomal.  </p>
 <p>Driving and using machines 
 You may feel sleepy or dizzy after having Vyxeos liposomal. If this happens, do not drive or use any 
-tools or machines. </p>         </div>"""   
+tools or machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyxeos"
@@ -171,7 +174,7 @@ This medicine will be given to you in a hospital by a doctor or nurse. It is unl
 given too much, however, tell your doctor or nurse if you have any concerns. </p>
 <p>If you miss an appointment 
 Contact your doctor or nurse as soon as possible. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -222,7 +225,7 @@ syndrome).
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyxeos"
@@ -245,7 +248,7 @@ exceed 4 hours. The 90-minute infusion time is in addition to the up to 4 hours 
 <li>Do not use this medicine if you notice any particles in the diluted solution. </li>
 <li>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away 
 medicines you no longer use. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -274,7 +277,7 @@ Ireland
 Tel: +353 1 968 1Email: medinfo-int@jazzpharma.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -313,7 +316,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -322,7 +327,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -339,7 +345,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -357,7 +363,7 @@ forlænges deres virkning i kroppen, og de kan bedre komme ind i kræftcellerne 
 Vyxeos liposomal bruges til behandling af patienter med nyligt diagnosticeret akut myeloid leukæmi 
 (kræft i de hvide blodlegemer). Det gives, hvis leukæmien skyldes tidligere behandlinger (kaldet for 
 behandlingsrelateret akut myeloid leukæmi), eller hvis der er bestemte forandringer i knoglemarven 
-(kaldet for akut myeloid leukæmi med “myelodysplasi-relaterede forandringer"). </p>         </div>"""   
+(kaldet for akut myeloid leukæmi med “myelodysplasi-relaterede forandringer"). </p> </div>"""   
           
 
              
@@ -445,7 +451,7 @@ Brug en sikker præventionsform under behandlingen og i 6 måneder efter behandl
 liposomal. </p>
 <p>Trafik- og arbejdssikkerhed 
 Du kan føle dig søvnig eller svimmel, efter du har fået Vyxeos liposomal. Hvis det sker, må du ikke 
-køre bil, motorcykel eller cykle eller bruge værktøj og maskiner. </p>         </div>"""   
+køre bil, motorcykel eller cykle eller bruge værktøj og maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vyxeos"
@@ -481,7 +487,7 @@ usandsynligt, at du vil få for meget. Fortæl det alligevel til lægen eller sy
 noget, du er bekymret over. </p>
 <p>Hvis du har glemt en konsultation 
 Kontakt din læge eller sygeplejersken snarest muligt. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -586,7 +592,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vyxeos"
@@ -628,7 +634,7 @@ opbevaringstiden på op til 4 timer. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
 ikke smide medicinrester i afløbet.  </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -767,7 +773,7 @@ Dette lægemiddel kan potentielt udgøre en risiko for miljøet på grund af de 
 antimitotiske aktiviteter, der muligvis kan fremkalde virkninger på reproduktionsevnen. Alle 
 materialer, der er brugt til fortynding og administration, skal kasseres i overensstemmelse med de 
 lokale procedurer, der gælder for bortskaffelse af antineoplastiske midler. Ikke anvendt lægemiddel 
-samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for cytotoksiske midler. </p>         </div>"""      
+samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for cytotoksiske midler. </p> </div>"""      
 
 
 
@@ -806,7 +812,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -815,7 +823,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -832,7 +841,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Vyxeos liposomal </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -852,7 +861,7 @@ Vyxeos liposomal é utilizado para tratar doentes com leucemia mieloide aguda re
 diagnosticada (um cancro dos glóbulos brancos). É administrado quando a leucemia foi causada por 
 tratamentos anteriores (conhecida como leucemia mieloide aguda relacionada com a terapêutica) ou 
 quando existem certas alterações mielodisplásicas na medula óssea (conhecida como leucemia 
-mieloide aguda com ‘alterações relacionadas com a mielodisplasia’). </p>         </div>"""   
+mieloide aguda com ‘alterações relacionadas com a mielodisplasia’). </p> </div>"""   
           
 
              
@@ -938,7 +947,7 @@ Use um método contracetivo eficaz durante e por um período de 6 meses após o 
 Vyxeos liposomal. </p>
 <p>Condução de veículos e utilização de máquinas 
 Pode sentir sonolência ou tonturas depois da administração de Vyxeos liposomal. Se tal acontecer, não 
-conduza nem utilize máquinas ou ferramentas. </p>         </div>"""   
+conduza nem utilize máquinas ou ferramentas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vyxeos"
@@ -973,7 +982,7 @@ que lhe seja administrada uma dose excessiva. Porém, informe o seu médico ou e
 dúvidas. </p>
 <p>Se faltar a uma consulta 
 Contacte o seu médico ou enfermeiro o mais rápido possível. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1082,7 +1091,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vyxeos"
@@ -1125,7 +1134,7 @@ perfusão de 90 minutos é adicional ao período de conservação de até 4 hora
 <p>Não deite fora quaisquer medicamentos na canalização. Pergunte ao seu farmacêutico como 
 deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1164,7 +1173,7 @@ Irlanda
 Tel.: +353 1 968 1Email: medinfo-int@jazzpharma.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

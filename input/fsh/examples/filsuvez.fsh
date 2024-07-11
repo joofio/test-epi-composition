@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Filsuvez  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 <p>It is used to treat wounds in adults and children (age 6 months and older) who have a type of the 
 condition  epidermolysis bullosa  (EB) called  dystrophic  (DEB) or  junctional  (JEB). This is a 
 condition where the outer layer of the skin separates from the inner layer, making the skin very fragile 
-and causing wounds to appear. </p>         </div>"""   
+and causing wounds to appear. </p> </div>"""   
           
 
              
@@ -125,7 +128,7 @@ breast-feeding, unless the chest area is being treated. </p>
 <p>Since the absorption of this medicine into the body is extremely low, it is not expected to affect 
 fertility. </p>
 <p>Driving and using machines 
-Your ability to drive and use machines will not be affected by this medicine. </p>         </div>"""   
+Your ability to drive and use machines will not be affected by this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take filsuvez"
@@ -171,7 +174,7 @@ Apply Filsuvez at the next planned change of wound dressing, continuing with you
 <p>If you stop using Filsuvez 
 Filsuvez should be used as advised by your doctor, pharmacist or nurse. Do not stop using it without 
 consulting your doctor, pharmacist or nurse.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -199,7 +202,7 @@ doctor, pharmacist or nurse straight away if you notice any side effects includi
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store filsuvez"
@@ -214,7 +217,7 @@ expiry date refers to the last day of that month. </p>
 and the tube thrown away, even if there is some gel left. A new tube should be used at each dressing 
 change.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -337,7 +340,7 @@ Tel.: +370 661 663 pv.global@exceedorphan.com </p>
 <p>United Kingdom (Northern Ireland) 
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -376,7 +379,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -385,7 +390,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -400,7 +406,7 @@ Usage: #inline
 3. Sådan skal du bruge Filsuvez<br />
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -412,7 +418,7 @@ Usage: #inline
 <p>Det anvendes til at behandle sår hos voksne og børn (fra 6-måneders alderen og opefter), som har en 
 type af lidelsen "epidermolysis bullosa" (EB) kaldet "dystrofisk" (DEB) eller "junktional" (JEB). 
 Dette er en lidelse, hvor det yderste hudlag løsner sig fra det inderste lag, hvilket gør huden meget 
-skrøbelig, og der opstår sår. </p>         </div>"""   
+skrøbelig, og der opstår sår. </p> </div>"""   
           
 
              
@@ -470,7 +476,7 @@ medmindre brystregionen behandles. </p>
 <p>Eftersom absorptionen af dette lægemiddel i kroppen er ekstremt lav, forventes det ikke at påvirke 
 frugtbarheden. </p>
 <p>Trafik- og arbejdssikkerhed 
-Filsuvez påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+Filsuvez påvirker ikke evnen til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take filsuvez"
@@ -527,7 +533,7 @@ Påfør Filsuvez ved det næste planlagte bandageskift, og fortsæt med din norm
 <p>Hvis du holder op med at bruge Filsuvez 
 Filsuvez skal anvendes efter lægens, apotekspersonalets eller sygeplejerskens anvisninger. Stop ikke 
 med at bruge Filsuvez uden at spørge lægen, apotekspersonalet eller sygeplejersken.  </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -583,7 +589,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store filsuvez"
@@ -598,7 +604,7 @@ den sidste dag i den nævnte måned. </p>
 tuben skal bortskaffes, også selvom der er lidt gel tilbage. Der skal anvendes en ny tube ved hvert 
 bandageskift.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toiletter eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toiletter eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -740,7 +746,7 @@ Tel: + 39 0521 2
 Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -779,7 +785,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -788,7 +796,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -803,7 +812,7 @@ Usage: #inline
 3. Como utilizar Filsuvez<br />
 4. Efeitos indesejáveis possíveis<br />
 5. Como conservar Filsuvez<br />
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -815,7 +824,7 @@ Usage: #inline
 <p>É usado para tratar feridas em adultos e crianças (com mais de 6 meses) que têm um tipo da 
 “epidermólise bolhosa" (EB) designada por “distrófica" (EBD) ou “juncional" (JEB). Esta é uma 
 condição em que a camada exterior da pele se separa da camada interior, tornando a pele muito frágil e 
-levando ao aparecimento de feridas. </p>         </div>"""   
+levando ao aparecimento de feridas. </p> </div>"""   
           
 
              
@@ -875,7 +884,7 @@ ser usado durante a amamentação, a menos que a área do peito esteja a ser tra
 <p>Como a absorção deste medicamento para o seu corpo é extremamente baixa, não se espera que afete a 
 sua fertilidade. </p>
 <p>Condução de veículos e utilização de máquinas 
-A sua capacidade para conduzir e utilizar máquinas não será afetada por este medicamento. </p>         </div>"""   
+A sua capacidade para conduzir e utilizar máquinas não será afetada por este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar filsuvez"
@@ -943,7 +952,7 @@ normal. </p>
 Filsuvez deve ser utilizado conforme indicado pelo seu médico, farmacêutico ou enfermeiro. Não pare 
 a sua utilização sem consultar o seu médico, farmacêutico ou enfermeiro.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1000,7 +1009,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar filsuvez"
@@ -1016,7 +1025,7 @@ imediatamente usado e a bisnaga eliminada, mesmo que reste algum gel. Deverá se
 nova bisnaga em todas as mudanças de penso. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1156,7 +1165,7 @@ Tel.: +370 661 663 pv.global@exceedorphan.com </p>
 Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2 
 Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

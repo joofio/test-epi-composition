@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -50,7 +52,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Information for injecting yourself </li>
 <li>The following information is intended for healthcare professionals only </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -67,7 +69,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tevagrastim </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +96,7 @@ collected and given back to you after your treatment. These can be taken from yo
 donor. The stem cells will then go back into the bone marrow and produce blood cells. 
 - to increase the number of white blood cells if you suffer from severe chronic neutropenia to help 
 prevent infections. 
-- in patients with advanced HIV infection which will help reduce the risk of infections. </p>         </div>"""   
+- in patients with advanced HIV infection which will help reduce the risk of infections. </p> </div>"""   
           
 
              
@@ -166,7 +168,7 @@ medicine if you (or your child) have HFI or if your child can no longer take swe
 because they feel sick, vomit or get unpleasant effects such as bloating, stomach cramps or diarrhoea. </p>
 <p>Tevagrastim contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled syringe, i.e. essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tevagrastim"
@@ -200,7 +202,7 @@ contact your doctor or pharmacist as soon as possible. </p>
 <p>If you forget to use Tevagrastim 
 If you have missed an injection, or injected too little, contact your doctor as soon as possible. Do not 
 take a double dose to make up for any missed doses.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -324,7 +326,7 @@ body), see section 2 </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tevagrastim"
@@ -341,7 +343,7 @@ within 4 days, the product may be returned to the refrigerator (2  C   8  C) up 
 Dispose of syringes if stored above 8  C for more than 4 days. </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -443,7 +445,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -482,7 +484,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -494,7 +498,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Sådan giver De Dem selv indsprøjtninger </li>
 <li>Nedenstående oplysninger er kun til sundhedspersoner </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -511,7 +515,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -541,7 +545,7 @@ donor. Stamcellerne går bagefter tilbage ind i knoglemarven og producerer blodc
 <li>til at øge antallet af hvide blodlegemer, hvis De lider af svær kronisk neutropeni for at hjælpe 
 med at forhindre infektion </li>
 <li>til patienter med fremskreden hiv-infektion for at hjælpe med at mindske risikoen for infektion. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -617,7 +621,7 @@ kan indtage sukkerholdig mad eller drikke, fordi barnet bliver dårligt, kaster 
 virkninger som f.eks. oppustethed, mavekramper eller diarré. </p>
 <p>Tevagrastim indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. fyldt injektionssprøjte, d.v.s. 
-den er i det væsentlige ’natriumfrit’. </p>         </div>"""   
+den er i det væsentlige ’natriumfrit’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tevagrastim"
@@ -650,7 +654,7 @@ apotekspersonalet snarest muligt, hvis De har taget for meget Tevagrastim. </p>
 <p>Hvis De har glemt at bruge Tevagrastim 
 Hvis De har sprunget en indsprøjtning over eller injiceret en for lille dosis, skal De kontakte Deres 
 læge hurtigst muligt. De må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -778,7 +782,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tevagrastim"
@@ -795,7 +799,7 @@ bruges i løbet af 4 dage, kan det igen sættes i køleskab (2 °C - 8 °C) op t
 Injektionssprøjter skal bortskaffes, hvis de opbevares ved temperaturer over 8 °C i mere end 4 dage. </p>
 <p>Brug ikke lægemidlet, hvis De bemærker, at opløsningen er uklar eller indeholder partikler. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet eller toilettet. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller toilettet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1053,7 +1057,7 @@ indeholder vigtige oplysninger.
 lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 som De har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis De får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

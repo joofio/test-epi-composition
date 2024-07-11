@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Mirvaso</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ It is applied to the skin of the face to treat redness due to rosacea in adult p
 Redness of the face due to rosacea is caused by high levels of blood flow in the facial skin, which is 
 the result of enlargement (dilation) of the small blood vessels of the skin.
 When applied, Mirvaso acts to narrow these blood vessels again which reduces the excess blood flow 
-and redness.</p>         </div>"""   
+and redness.</p> </div>"""   
           
 
              
@@ -169,7 +172,7 @@ Driving and using machines
 Mirvaso has no significant influence on the ability to drive and use machines.
 Mirvaso contains Methylparahydroxybenzoate (E218) which may cause allergic reactions 
 (possibly delayed). This medicine also contains 55 mg propylene glycol (E1520) in each gram 
-which is equivalent to 5.5% w/w, it may cause skin irritation.</p>         </div>"""   
+which is equivalent to 5.5% w/w, it may cause skin irritation.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mirvaso"
@@ -240,7 +243,7 @@ If you stop using Mirvaso
 A potential consequence of stopping the treatment before finishing the course of treatment is the 
 disease to come back to its initial state. Please contact your doctor before stopping your treatment, so 
 that he could advice a replacement treatment as appropriate.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -292,7 +295,7 @@ heart rate decrease (slow heart rate, known as bradycardia).
 Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine.</p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mirvaso"
@@ -305,7 +308,7 @@ The expiry date refers to the last day of that month.
 This medicine does not require any special storage condition.
 Store below 30 C and do not freeze.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -414,7 +417,7 @@ Galderma (UK) Ltd.
 Tel: +44 (0)300 3035e-mail: medinfo.uk@galderma.com
 This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency 
-web site: http://www.ema.europa.eu.</p>         </div>"""      
+web site: http://www.ema.europa.eu.</p> </div>"""      
 
 
 
@@ -453,7 +456,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -462,7 +467,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -477,7 +483,7 @@ Usage: #inline
 3. Sådan skal du bruge Mirvaso
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -491,7 +497,7 @@ Det påføres huden på ansigtet til behandling af rødme, der skyldes rosacea h
 Ansigtsrødme på grund af rosacea skyldes kraftig blodgennemstrømning af huden i ansigtet, hvilket 
 igen skyldes udvidelse af hudens små blodkar.
 Ved påføring får Mirvaso disse små blodkar til at trække sig sammen igen, så der ikke strømmer så 
-meget blod igennem ansigtet og giver rødme.</p>         </div>"""   
+meget blod igennem ansigtet og giver rødme.</p> </div>"""   
           
 
              
@@ -586,7 +592,7 @@ Trafik- og arbejdssikkerhed
 Mirvaso påvirker ikke i væsentlig grad evnen til at føre motorkøretøj og betjene maskiner.
 Mirvaso indeholder methylparahydroxybenzoat (E218) der kan give allergiske reaktioner 
 (kan optræde efter behandlingen). Dette lægemiddel indeholder også 55 mg propylenglycol (E1520)
-pr. gram, svarende til 5,5% w/w, der kan give irritation af huden.</p>         </div>"""   
+pr. gram, svarende til 5,5% w/w, der kan give irritation af huden.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mirvaso"
@@ -659,7 +665,7 @@ Hvis du holder op med at tage Mirvaso
 En potentiel konsekvens ved at stoppe behandlingen inden afslutningen af behandlingsforløbet er, at 
 sygdommen kommer tilbage til sin oprindelige tilstand. Kontakt lægen, hvis du ønsker at holde pause 
 eller stoppe behandlingen, så lægen kunne rådgive om en anden behandling efter behov.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -714,7 +720,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mirvaso"
@@ -727,7 +733,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlig forholdsregel vedrørende opbevaringen.
 Opbevares ved temperaturer under 30 °C. Må ikke nedfryses.
 Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -860,7 +866,7 @@ Tel: +44 (0)300 3035674
 e-mail: medinfo.uk@galderma.com
 Denne indlægsseddel blev senest ændret 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/.</p> </div>"""      
 
 
 

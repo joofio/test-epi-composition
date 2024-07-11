@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Braftovi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +91,7 @@ type of large intestine cancer when it has
 anticancer medicines 
 When Braftovi is used in combination with cetuximab (which binds to the epidermal growth factor 
 receptor (EGFR)), a protein on the surface of certain cancer cells), the combination slows down or 
-stops the growth of your cancer. </p>         </div>"""   
+stops the growth of your cancer. </p> </div>"""   
           
 
              
@@ -213,7 +216,7 @@ doctor if this is a concern for you.  </p>
 Braftovi can affect your ability to drive or use machines. Avoid driving or using machines if you have 
 any problems with your vision, or have any other side effects that can affect your ability to drive or 
 use machines (see section 4), while taking Braftovi. Talk to your doctor if you are not sure you can 
-drive. </p>         </div>"""   
+drive. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take braftovi"
@@ -258,7 +261,7 @@ Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Braftovi<br />
 It is important to take Braftovi for as long as your doctor prescribes it. Do not stop taking this 
 medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -459,7 +462,7 @@ foot syndrome)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store braftovi"
@@ -471,7 +474,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>Store below 30 C. Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -512,7 +515,7 @@ Site Progipharm, Rue du Lyc e<br />
 45500 GIEN<br />
 France </p>
 <p>This leaflet was last revised in.  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -551,7 +554,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -560,7 +565,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -577,7 +583,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -603,7 +609,7 @@ kaldes BRAF, og
 lægemidler mod kræft 
 Når Braftovi anvendes i kombination med cetuximab (som bindes til den epidermale 
 vækstfaktorreceptor (EGFR), som er et protein på overfladen af visse kræftceller), hæmmer eller 
-stopper kombinationen væksten af din kræft. </p>         </div>"""   
+stopper kombinationen væksten af din kræft. </p> </div>"""   
           
 
              
@@ -737,7 +743,7 @@ Drøft dette med lægen, hvis det er et problem for dig. </p>
 <p>Trafik- og arbejdssikkerhed 
 Braftovi kan påvirke din evne til at føre motorkøretøj og betjene maskiner. Undlad at føre 
 motorkøretøj og betjene maskiner, hvis du får synsproblemer eller andre bivirkninger, som kan påvirke 
-denne evne (se afsnit 4). Kontakt lægen, hvis du er usikker på, om du må køre. </p>         </div>"""   
+denne evne (se afsnit 4). Kontakt lægen, hvis du er usikker på, om du må køre. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take braftovi"
@@ -783,7 +789,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Braftovi 
 Det er vigtigt, at du tager Braftovi, så længe lægen foreskriver det. Du må ikke stoppe behandlingen, 
 medmindre lægen siger det. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -995,7 +1001,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store braftovi"
@@ -1008,7 +1014,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 30 °C. 
 Opbevares i den originale emballage for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1076,7 +1082,7 @@ begrundelser for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for encorafenib er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder encorafenib, forbliver uændret 
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>How to inject AVONEX</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store AVONEX</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -107,7 +109,7 @@ Multiple sclerosis is linked to nerve (brain or spinal cord) damage. In MS, your
 reacts against its own myelin   the  insulation  that surrounds nerve fibres. When myelin is damaged, 
 the messages between the brain and other parts of the body are disrupted. This is what causes the 
 symptoms of MS. Avonex seems to work by stopping your body s defence system from attacking the 
-myelin.</p>         </div>"""   
+myelin.</p> </div>"""   
           
 
              
@@ -182,7 +184,7 @@ If you feel dizzy, do not drive. Avonex makes some people feel dizzy. If this ha
 you get any other side effects that could affect your ability, do not drive or use machines.
 Important information about some of the ingredients of AVONEX
 This medicine is essentially  sodium-free . It contains less than 23 mg (1 mmol) sodium in each 
-weekly dose.</p>         </div>"""   
+weekly dose.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take avonex"
@@ -227,7 +229,7 @@ If you miss an injection
 If you miss your usual weekly dose, inject a dose as soon as you can. Then leave a week before using 
 Avonex again. Continue injecting on this new day every week. If you have a preferred day for using 
 Avonex, talk to your doctor about managing the dose, to get back to your preferred day. Do not use 
-two injections to make up for a missed injection.</p>         </div>"""         
+two injections to make up for a missed injection.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -410,7 +412,7 @@ listed in Appendix V. By reporting side effects you can help provide more inform
 this medicine.
 In order to improve the traceability of this medicine, your doctor or pharmacist should record the name 
 and the lot number of the product you have been given in your patient file. You may also wish to make 
-a note of these details in case you are asked for this information in the future.</p>         </div>"""      
+a note of these details in case you are asked for this information in the future.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store avonex"
@@ -432,7 +434,7 @@ The solution is coloured or you can see particles floating in it.
 -
 The tamper evident cap has been broken.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -526,7 +528,7 @@ Biogen Latvia SIA
   +371 68 688 United Kingdom (Northern Ireland)
 Biogen Idec (Ireland) Limited
   +44 (0) 1628 50 1This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -565,7 +567,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -576,7 +580,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Sådan injicerer du AVONEX </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -591,7 +595,7 @@ Usage: #inline
 3. Sådan skal du bruge AVONEX 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -631,7 +635,7 @@ eller hvornår du bør ophøre med at bruge Avonex. </p>
 krops forsvarssystem imod sit eget myelin - den ‘isolering’ der omgiver nervefibrene. Når myelinet er 
 beskadiget, bliver meddelelserne mellem hjernen og andre dele af kroppen afbrudt. Det er dette, der 
 forårsager MS-symptomerne. Avonex synes at virke ved at det forhindrer kroppens forsvarssystem i at 
-angribe myelinet. </p>         </div>"""   
+angribe myelinet. </p> </div>"""   
           
 
              
@@ -706,7 +710,7 @@ svimle. Hvis dette sker for dig, eller hvis du får andre bivirkninger, der kunn
 du ikke føre motorkøretøj eller betjene maskiner. </p>
 <p>Vigtig information om nogle af de øvrige indholdsstoffer i AVONEX </p>
 <p>Denne medicin er i det væsentlige natriumfri. Den indeholder mindre end 23 mg (1 mmol) natrium i 
-hver ugentlige dosis. </p>         </div>"""   
+hver ugentlige dosis. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take avonex"
@@ -755,7 +759,7 @@ Avonex i en periode på tre dage, skal du omgående søge råd hos din læge ell
 Lad der derefter gå én uge, inden du igen bruger Avonex. Fortsæt med at tage din Avonex-injektion på 
 denne "nye" dag hver uge. Hvis der er én bestemt ugedag, hvor du foretrækker at tage Avonex, skal du 
 tale med din læge om, hvordan du kommer tilbage til denne foretrukne ugedag. </p>
-<p>Du må ikke tage to injektioner som erstatning for den glemte injektion. </p>         </div>"""         
+<p>Du må ikke tage to injektioner som erstatning for den glemte injektion. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -904,7 +908,7 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p>
 <p>For at forbedre sporbarheden af dette lægemiddel skal lægen eller apotekspersonalet registrere 
 handelsnavn og batchnummer på det produkt, du har fået, i din patientjournal. Du kan eventuelt også 
-selv notere disse oplysninger i tilfælde af, at du skulle blive bedt om at udlevere dem i fremtiden. </p>         </div>"""      
+selv notere disse oplysninger i tilfælde af, at du skulle blive bedt om at udlevere dem i fremtiden. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store avonex"
@@ -924,7 +928,7 @@ Avonex kan også opbevares ved stuetemperatur (mellem 15 °C og 30 °C) i op til
 <li>hætten (der er af en type der viser, om den er brudt) er brudt. </li>
 </ul>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1167,7 +1171,7 @@ ikke er nævnt her. Se punkt 4. (Bemærk) </p>
 <p>Denne indlægsseddel ændres løbende.<br />
 Hver gang du får en ny pakke medicin, bør du undersøge, om indlægssedlen er blevet opdateret. </p>
 <p>(Bemærk) </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""      
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""      
 
 
 

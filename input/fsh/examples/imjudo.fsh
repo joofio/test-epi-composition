@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store IMJUDO</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ IMJUDO is used to treat a type of lung cancer called advanced non-small cell lun
 will be used in combination with other anti-cancer medicines (durvalumab and chemotherapy).
 As IMJUDO will be given in combination with other anti-cancer medicines, it is important that you 
 also read the package leaflet for these other medicines. If you have any questions about these 
-medicines, ask your doctor.</p>         </div>"""   
+medicines, ask your doctor.</p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ IMJUDO is not likely to affect your driving or use of machines. However, if you 
 affect your ability to concentrate and react, be careful when driving or operating machines.
 IMJUDO has a low sodium content 
 IMJUDO contains less than 1 mmol sodium (23 mg) in each dose, that is to say essentially sodium-
-free.</p>         </div>"""   
+free.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imjudo"
@@ -181,7 +184,7 @@ IMJUDO first then durvalumab and then chemotherapy.
 If you miss an appointment
 It is very important that you do not miss a dose of this medicine. If you miss an appointment, call your 
 doctor straight away to reschedule your appointment.
-If you have any further questions about your treatment, ask your doctor.</p>         </div>"""         
+If you have any further questions about your treatment, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -324,7 +327,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in 
 this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imjudo"
@@ -341,7 +344,7 @@ Do not freeze.
 Store in the original package in order to protect from light.
 Do not use if this medicine is cloudy, discoloured or contains visible particles.
 Do not store any unused portion of the infusion solution for re-use. Any unused medicine or waste 
-material should be disposed of in accordance with local requirements.</p>         </div>"""      
+material should be disposed of in accordance with local requirements.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -436,7 +439,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -475,7 +478,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -484,7 +489,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -499,7 +505,7 @@ Usage: #inline
 3. Sådan får du IMJUDO 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -525,7 +531,7 @@ fremskredent eller inoperabelt hepatocellulært karcinom (HCC). Det bruges, når
 voksne. Det vil blive brugt sammen med andre lægemidler mod kræft (durvalumab og kemoterapi). </p>
 <p>Da IMJUDO gives i kombination med andre lægemidler mod kræft, er det vigtigt, at du også læser 
 indlægssedlen til disse andre lægemidler. Hvis du har spørgsmål om disse lægemidler, skal du spørge 
-lægen. </p>         </div>"""   
+lægen. </p> </div>"""   
           
 
              
@@ -648,7 +654,7 @@ du får bivirkninger, der påvirker din koncentrations- og reaktionsevne, skal d
 forsigtighed, når du fører motorkøretøj eller betjener maskiner. </p>
 <p>IMJUDO indeholder en lav mængde natrium 
 IMJUDO indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take imjudo"
@@ -687,7 +693,7 @@ durvalumab og derefter kemoterapi.  </p>
 <p>Hvis du glemmer en aftale 
 Det er meget vigtigt, at du ikke glemmer en dosis af denne medicin. Hvis du glemmer en aftale, skal 
 du straks ringe til din læge og lave en ny aftale. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1064,7 +1070,7 @@ forhåndenværende data) </p>
 Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mulige bivirkninger, som ikke er 
 medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger direkte til 
 Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere 
-bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store imjudo"
@@ -1080,7 +1086,7 @@ Må ikke nedfryses.<br />
 Opbevares i den originale yderpakning for at beskytte mod lys. </p>
 <p>Brug ikke lægemidlet, hvis det er uklart, misfarvet eller indeholder synlige partikler. </p>
 <p>Eventuelt ubrugte mængder af infusionsopløsningen må ikke opbevares til genbrug. Ikke anvendt 
-lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1247,7 +1253,7 @@ lavproteinsbindende filter i slangen på 0,2 eller 0,22 mikron. </p>
 kasseres. </p>
 </li>
 </ul>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -1286,7 +1292,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1295,7 +1303,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1312,7 +1321,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar IMJUDO  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1339,7 +1348,7 @@ não-pequenas células avançado em adultos. Será utilizado em associação com
 anticancerígenos (durvalumab e quimioterapia). </p>
 <p>Dado que IMJUDO será administrado em associação com outros medicamentos anticancerígenos, é 
 importante que também leia o folheto informativo destes medicamentos. Se tiver dúvidas sobre estes 
-medicamentos, fale com o seu médico. </p>         </div>"""   
+medicamentos, fale com o seu médico. </p> </div>"""   
           
 
              
@@ -1466,7 +1475,7 @@ se tiver efeitos indesejáveis que afetam a sua capacidade de concentração e r
 ao conduzir ou utilizar máquinas. </p>
 <p>IMJUDO contém baixo teor de sódio 
 IMJUDO contém menos do que 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente "isento de 
-sódio". </p>         </div>"""   
+sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar imjudo"
@@ -1506,7 +1515,7 @@ IMJUDO em primeiro lugar, depois durvalumab e depois quimioterapia.  </p>
 <p>Se faltar a uma consulta 
 É muito importante que não falhe uma dose deste medicamento. Se faltar a uma consulta, contacte o 
 seu médico imediatamente para remarcar a sua consulta. </p>
-<p>Caso ainda tenha dúvidas sobre o seu tratamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre o seu tratamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1895,7 +1904,7 @@ calculada a partir dos dados disponíveis) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, 
-estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar imjudo"
@@ -1912,7 +1921,7 @@ Não congelar.<br />
 Conservar na embalagem de origem para proteger da luz. </p>
 <p>Não utilize este medicamento se estiver turvo, descolorado ou conter partículas visíveis. </p>
 <p>Não guarde qualquer porção não utilizada da solução de perfusão para reutilização. Qualquer 
-medicamento não utilizado ou resíduos devem ser eliminados de acordo com os requisitos locais. </p>         </div>"""      
+medicamento não utilizado ou resíduos devem ser eliminados de acordo com os requisitos locais. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2038,7 +2047,7 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836  </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

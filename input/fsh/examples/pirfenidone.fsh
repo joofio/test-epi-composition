@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pirfenidone Viatris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 Idiopathic Pulmonary Fibrosis (IPF) in adults. </p>
 <p>IPF is a condition in which the tissues in your lungs become swollen and scarred over time, and as a 
 result makes it difficult to breathe deeply. This makes it hard for your lungs to work properly. 
-Pirfenidone Viatris helps to reduce scarring and swelling in the lungs, and helps you breathe better. </p>         </div>"""   
+Pirfenidone Viatris helps to reduce scarring and swelling in the lungs, and helps you breathe better. </p> </div>"""   
           
 
              
@@ -152,7 +155,7 @@ will discuss the risks and benefits of taking this medicine while breast-feeding
 Do not drive or use machines if you feel dizzy or tired after taking Pirfenidone Viatris. </p>
 <p>Pirfenidone Viatris contains sodium 
 This medicine contains less than 1 mmol (23 mg) sodium per tablet, that is to say essentially 'sodium-
-free'. </p>         </div>"""   
+free'. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pirfenidone"
@@ -189,7 +192,7 @@ In some situations, your doctor may advise you to stop taking Pirfenidone Viatri
 you have to stop taking Pirfenidone Viatris for more than 14 consecutive days, your doctor will restart 
 your treatment with dose of 267 mg 3 times a day, gradually increasing this to a dose of 801 mg 
 3 times a day. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -250,7 +253,7 @@ muscle cramps or nausea and vomiting
 If you get any side effects, talk to your doctor or pharmacist This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pirfenidone"
@@ -262,7 +265,7 @@ medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -393,7 +396,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -432,7 +435,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -441,7 +446,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -458,7 +464,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -470,7 +476,7 @@ Usage: #inline
 lungefibrose (IPF) hos voksne. </p>
 <p>IPF er en sygdom, hvor vævet i lungerne hæver og bliver arret over tid, og det gør det svært at trække 
 vejret dybt. Dette gør, at det bliver svært for lungerne at fungere rigtigt. Pirfenidone Viatris hjælper 
-med at mindske ardannelsen og hævelsen i lungerne og hjælper dig med at trække vejret bedre. </p>         </div>"""   
+med at mindske ardannelsen og hævelsen i lungerne og hjælper dig med at trække vejret bedre. </p> </div>"""   
           
 
              
@@ -598,7 +604,7 @@ Du må ikke køre bil eller betjene maskiner, hvis du føler dig svimmel eller t
 Pirfenidone Viatris. </p>
 <p>Pirfenidone Viatris indeholder natrium 
 Pirfenidone Viatris indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pirfenidone"
@@ -643,7 +649,7 @@ I nogle situationer kan din læge råde dig til at stoppe med at tage Pirfenidon
 eller anden grund er nødt til at holde op med at tage Pirfenidone Viatris i mere end 14 dage i træk, skal 
 din læge starte behandlingen igen med en dosis på 267 mg 3 gange dagligt og gradvist øge dosen til 
 801 mg 3 gange dagligt. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -780,7 +786,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pirfenidone"
@@ -792,7 +798,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned.  </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -955,7 +961,7 @@ Tel: +353 18711 </p>
 <p>Denne indlægsseddel blev senest ændret. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -994,7 +1000,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1003,7 +1011,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1020,7 +1029,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Pirfenidona Viatris </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1033,7 +1042,7 @@ pulmonar idiopática (FPI) em adultos. </p>
 <p>A FPI é uma patologia na qual os tecidos nos seus pulmões incham e ficam com cicatrizes ao longo do 
 tempo, o que dificulta respirar profundamente. Os pulmões têm, assim, dificuldade em funcionar de 
 forma adequada. Pirfenidona Viatris ajuda a reduzir as cicatrizes (tecido cicatricial) e o inchaço nos 
-pulmões e ajuda-o a respirar melhor. </p>         </div>"""   
+pulmões e ajuda-o a respirar melhor. </p> </div>"""   
           
 
              
@@ -1161,7 +1170,7 @@ amamentação, se o decidir fazer. </p>
 Não conduza nem utilize máquinas caso se sinta tonto ou cansado depois de tomar Pirfenidona Viatris. </p>
 <p>Pirfenidona Viatris contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pirfenidone"
@@ -1210,7 +1219,7 @@ algum motivo, tiver de deixar de tomar Pirfenidona Viatris durante mais de 14 di
 médico reiniciará o seu tratamento com uma dose de 267 mg 3 vezes por dia, aumentando 
 gradualmente esta dose para uma dose de 801 mg 3 vezes por dia. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1345,7 +1354,7 @@ fraqueza, cãibras musculares ou náuseas e vómitos </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pirfenidone"
@@ -1358,7 +1367,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado.  </p
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1526,7 +1535,7 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

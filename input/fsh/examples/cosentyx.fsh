@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Cosentyx </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ Cosentyx is used in patients (6 years of age and older) to treat conditions of t
 arthritis categories called  enthesitis-related arthritis  and  juvenile psoriatic arthritis . These 
 conditions are inflammatory diseases affecting the joints and the places where tendons join the bone. </p>
 <p>Using Cosentyx in enthesitis-related arthritis and juvenile psoriatic arthritis will benefit you (or your 
-child) by reducing the symptoms and improving your (or your child s) physical function. </p>         </div>"""   
+child) by reducing the symptoms and improving your (or your child s) physical function. </p> </div>"""   
           
 
              
@@ -150,7 +153,7 @@ and your doctor should decide if you (or your child) will breast-feed or use Cos
 your child) should not do both. After using Cosentyx you (or your child) should not breast-feed 
 for at least 20 weeks after the last dose. </p>
 <p>Driving and using machines 
-Cosentyx is unlikely to influence your ability to drive and use machines. </p>         </div>"""   
+Cosentyx is unlikely to influence your ability to drive and use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cosentyx"
@@ -199,7 +202,7 @@ remember. Then talk to your doctor to discuss when you should inject the next do
 <p>If you (or your child) stop using Cosentyx 
 It is not dangerous to stop using Cosentyx. However, if you stop, your (or your child s) psoriasis 
 symptoms may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ purple bumps (vasculitis) </p>
 If you (or your child) get any side effects, talk to your doctor, pharmacist or nurse. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cosentyx"
@@ -278,7 +281,7 @@ If necessary, Cosentyx can be left out of the refrigerator for a single period o
 temperature, not above 30 C. </p>
 <p>This medicine is for single use only. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment. </p>         </div>"""      
+you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -377,7 +380,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -416,7 +419,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -425,7 +430,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 3. Sådan skal du bruge Cosentyx 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -472,7 +478,7 @@ Cosentyx bruges til patienter (i alderen 6 år og derover) til behandling af lid
 idiopatisk artrit-kategorier kaldet "entesopatirelateret artrit" og "juvenil psoriasisartrit". Disse lidelser 
 er inflammatoriske sygdomme, der påvirker ledene og de steder, hvor senerne hæfter på knoglen. </p>
 <p>Fordelen ved at bruge Cosentyx til entesopatirelateret artrit og juvenil psoriasisartrit er, at det 
-reducerer symptomerne og forbedrer din (eller dit barns) fysiske funktion. </p>         </div>"""   
+reducerer symptomerne og forbedrer din (eller dit barns) fysiske funktion. </p> </div>"""   
           
 
              
@@ -570,7 +576,7 @@ sidste dosis. </p>
 </li>
 </ul>
 <p>Trafik- og arbejdssikkerhed 
-Det er usandsynligt, at Cosentyx vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+Det er usandsynligt, at Cosentyx vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cosentyx"
@@ -633,7 +639,7 @@ indsprøjte den næste dosis. </p>
 <p>Hvis du (eller dit barn) holder op med at bruge Cosentyx 
 Det er ikke farligt at holde op med at bruge Cosentyx. Men hvis du holder op, kan dine (eller dit barns) 
 symptomer på psoriasis vende tilbage. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ Hvis du (eller dit barn) oplever bivirkninger, bør du tale med din læge, apote
 sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cosentyx"
@@ -789,7 +795,7 @@ Cosentyx kan, hvis nødvendigt, opbevares uden for køleskab i op til 4 dage ved
 over 30°C). Dette kan kun gøres en enkelt gang. </p>
 <p>Lægemidlet er kun til engangsbrug. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1042,7 +1048,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store FIRDAPSE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ LEMS). </p>
 nerve impulses to muscles is not released normally and the muscle doesn't receive some or all of the 
 nerve's signals.  </p>
 <p>FIRDAPSE works by increasing the release of acetylcholine and helps the muscle to receive the nerve 
-signals. </p>         </div>"""   
+signals. </p> </div>"""   
           
 
              
@@ -150,7 +153,7 @@ discuss the risks and benefits of continuing to take FIRDAPSE while breastfeedin
 <p>Driving and using machines 
 This medicine may cause drowsiness, dizziness, fits (convulsions) and blurred vision, which may 
 affect your ability to drive or use machines. Do not drive or operate machines if you experience these 
-side effects. </p>         </div>"""   
+side effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take firdapse"
@@ -187,7 +190,7 @@ but continue to take your treatment as prescribed by your doctor. </p>
 <p>If you stop taking FIRDAPSE 
 If the treatment is stopped, you may experience symptoms such as tiredness, slow reflexes and 
 constipation. Do not stop treatment without consulting your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -226,7 +229,7 @@ Increase in certain liver enzymes (transaminases) seen on blood tests </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store firdapse"
@@ -238,7 +241,7 @@ this medicine. </p>         </div>"""
 date refers to the last day of that month. </p>
 <p>Do not store above 30 C. Store in the original package, in order to protect from light and moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -272,7 +275,7 @@ Belgium  </p>
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on the medicine every year and 
 this leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -311,7 +314,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -320,7 +325,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -335,7 +341,7 @@ Usage: #inline
 3. Sådan skal du tage FIRDAPSE 
 4. Bivirkninger 
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -352,7 +358,7 @@ af sådanne tumorer (ikke-paraneoplastisk form for Lambert-Eatons syndrom). </p>
 som normalt formidler nerveimpulser til musklerne, og musklerne kan ikke modtage nogle af eller alle 
 signalerne fra nerven.  </p>
 <p>FIRDAPSE virker ved at øge frigivelsen af acetylcholin og hjælper musklen til at modtage 
-nervesignalerne. </p>         </div>"""   
+nervesignalerne. </p> </div>"""   
           
 
              
@@ -423,7 +429,7 @@ fordele og ulemper ved fortsat at tage FIRDAPSE, mens du ammer. </p>
 <p>Trafik- og arbejdssikkerhed 
 Denne medicin kan forårsage døsighed, svimmelhed, anfald (kramper) og sløret syn, som kan påvirke 
 din evne til at føre motorkøretøj eller betjene maskiner. Kør ikke bil eller motorcykel, og lad være med 
-at cykle eller arbejde med værktøj eller maskiner, hvis du oplever disse bivirkninger. </p>         </div>"""   
+at cykle eller arbejde med værktøj eller maskiner, hvis du oplever disse bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take firdapse"
@@ -459,7 +465,7 @@ dosis, men skal fortsætte behandlingen som anvist af lægen. </p>
 <p>Hvis du holder op med at tage FIRDAPSE 
 Du kan opleve symptomer som f.eks. træthed, langsomme reflekser og forstoppelse, hvis behandlingen 
 stoppes. Stop ikke behandlingen uden at have talt med din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -499,7 +505,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store firdapse"
@@ -512,7 +518,7 @@ sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. Opbevares i den originale yderpakning for at 
 beskytte mod lys og fugt. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -549,7 +555,7 @@ muligt at opnå fuldstændig dokumentation for lægemidlet, fordi det anvendes t
 Det Europæiske Lægemiddelagentur vil hvert år vurdere nye oplysninger om lægemidlet, og denne 
 indlægsseddel vil om nødvendigt blive ajourført. 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 

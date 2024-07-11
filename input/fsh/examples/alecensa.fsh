@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Alecensa  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ previously treated with a medicine containing  crizotinib . </p>
 enzyme (due to fault in the gene that makes it) help encourage cancer cell growth. Alecensa may slow 
 down or stop the growth of your cancer. It may also help to shrink your cancer. </p>
 <p>If you have any questions about how Alecensa works or why this medicine has been prescribed for 
-you, ask your doctor, pharmacist or nurse. </p>         </div>"""   
+you, ask your doctor, pharmacist or nurse. </p> </div>"""   
           
 
              
@@ -198,7 +201,7 @@ tolerate or digest some sugars, talk to your doctor before taking this medicine.
 <p>Alecensa contains sodium </p>
 <p>This medicine contains 48 mg sodium (main component of cooking/table salt) per recommended daily 
 dose (1200 mg). This is equivalent to 2.4% of the recommended maximum daily dietary intake of 
-sodium for an adult. </p>         </div>"""   
+sodium for an adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alecensa"
@@ -232,7 +235,7 @@ usual time.
 <p>If you stop taking Alecensa </p>
 <p>Do not stop taking this medicine without talking to your doctor first. It is important to take Alecensa 
 twice a day for as long as your doctor prescribes it for you. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -290,7 +293,7 @@ with a Sun Protection Factor of 50 or higher to help prevent sunburn.
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alecensa"
@@ -304,7 +307,7 @@ or the bottle after EXP. The expiry date refers to the last day of that month.
   If Alecensa is packed in bottles, store in the original package and keep the bottle tightly closed to 
 protect from moisture. 
   Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
-to throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+to throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -405,7 +408,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -444,7 +447,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -453,7 +458,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -470,7 +476,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -493,7 +499,7 @@ behandlet med medicin, som indeholder ’crizotinib’. </p>
 grund af fejl i det gen, der er med til at lave det) er med til at øge kræftcellernes vækst. Alecensa kan 
 hæmme eller stoppe væksten af kræftceller. Det kan også gøre, at kræften svinder. </p>
 <p>Hvis du har spørgsmål til, hvordan Alecensa virker, eller hvorfor lægen har ordineret denne medicin, 
-skal du spørge lægen, sygeplejersken eller apotekspersonalet. </p>         </div>"""   
+skal du spørge lægen, sygeplejersken eller apotekspersonalet. </p> </div>"""   
           
 
              
@@ -606,7 +612,7 @@ visse sukkerarter, skal du kontakte lægen, inden du begynder at tage dette læg
 <p>Alecensa indeholder natrium </p>
 <p>Dette lægemiddel indeholder 48 mg natrium (hovedingrediens i almindelig madsalt af den anbefalede 
 daglige dosis (1200 mg). Det svarer til 2,4% af den anbefalede maksimale daglige indtagelse af 
-natrium for en voksen. </p>         </div>"""   
+natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take alecensa"
@@ -642,7 +648,7 @@ tage næste dosis til almindelig tid.
 <p>Du må ikke holde op med at tage medicinen uden først at have talt med din læge. Det er vigtigt at 
 blive ved med at tage Alecensa 2 gange dagligt lige så længe, lægen har ordineret det. 
 Hvis du har flere spørgsmål til brugen af denne medicin, skal du kontakte lægen, sundhedspersonalet 
-eller apotekspersonalet. </p>         </div>"""         
+eller apotekspersonalet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -715,7 +721,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store alecensa"
@@ -730,7 +736,7 @@ mod fugt.<br />
 ● Hvis Alecensa er pakket i beholder, skal det opbevares i den original pakning og hold beholderen 
 tæt lukket for at beskytte mod fugt.<br />
 ● Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -859,7 +865,7 @@ Tel: +44 (0) 1707 366 </p>
 <p>Denne indlægsseddel blev senest ændret &lt;{MM/ÅÅÅÅ}. </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu.  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu.  </p> </div>"""      
 
 
 

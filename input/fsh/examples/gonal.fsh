@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to prepare and use the GONAL-f powder and solvent </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How to prepare and use the GONAL-f powder and solvent </p>  </div>"""   
 
 
 
@@ -64,7 +66,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store GONAL-f </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -88,7 +90,7 @@ reproductive technology procedures (procedures that may help you to become pregn
  in vitro fertilisation ,  gamete intra-fallopian transfer  or  zygote intra-fallopian transfer . </p>
 <p>In adult men, GONAL-f is used: 
 * together with another medicine called  human chorionic gonadotropin  (hCG) to help produce 
-sperm in men that are infertile due to a low level of certain hormones. </p>         </div>"""   
+sperm in men that are infertile due to a low level of certain hormones. </p> </div>"""   
           
 
              
@@ -177,7 +179,7 @@ need a higher dose of GONAL-f to produce follicles. </p>
 <p>It is not expected that this medicine will affect your ability to drive and use machines. </p>
 <p>GONAL-f contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gonal"
@@ -270,7 +272,7 @@ occur if hCG is also administered (see section 2,  Ovarian hyper-stimulation syn
 <p>If you forget to use GONAL-f </p>
 <p>If you forget to use GONAL-f, do not take a double dose to make up for a forgotten dose. Please talk 
 to your doctor as soon as you notice that you forgot a dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -339,7 +341,7 @@ may occur. These reactions can sometimes be serious. </li>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gonal"
@@ -358,7 +360,7 @@ is not clear. </p>
 you no longer use. These measures will help to protect the environment. </p>
 <p>GONAL-f should not be administered as a mixture with other medicines in the same injection, except 
 for lutropin alfa. Studies have shown that these two medicines can be mixed and injected together, 
-without either product being adversely affected. </p>         </div>"""      
+without either product being adversely affected. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -391,7 +393,7 @@ solvent in pre-filled syringes. Not all pack sizes may be marketed. </li>
 <p>Manufacturer </p>
 <p>Merck Serono S.p.A., Via delle Magnolie 15, 70026 Modugno (Bari), Italy </p>
 <p>This leaflet was last revised in {MM/YYYY}. 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -430,7 +432,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -439,7 +443,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sådan skal du tilberede og tage GONAL-f pulver og solvens </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sådan skal du tilberede og tage GONAL-f pulver og solvens </p>  </div>"""   
 
 
 
@@ -456,7 +460,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -493,7 +497,7 @@ befrugtede ægceller i æggelederne" (zygote intra-fallopian transfer). </p>
 <ul>
 <li>Sammen med en andre lægemidler, humant choriongonadotropin (hCG), til at hjælpe med at 
 producere sæd hos mænd, som er infertile på grund af et lavt niveau af visse hormoner. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -606,7 +610,7 @@ follikler. </p>
 maskiner. </p>
 <p>GONAL-f indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take gonal"
@@ -727,7 +731,7 @@ hCG også indgives (se punkt 2, “Ovarielt hyperstimulationssyndrom (OHSS)"). <
 <p>Hvis du har glemt at bruge GONAL-f </p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, hvis du har glemt at tage 
 GONAL-f. Tal med din læge så snart, du bemærker, at du har glemt en dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -833,7 +837,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store gonal"
@@ -852,7 +856,7 @@ partikler eller er uklar. </p>
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>
 <p>GONAL-f må ikke blandes med andre former for lægemidler, undtagen lutropin alfa. Studier har vist, 
 at disse to lægemidler kan blandes og injiceres sammen, uden at nogen af lægemidlerne tager skade af 
-det. </p>         </div>"""      
+det. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1043,7 +1047,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger som ikke 
 er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1082,7 +1086,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1091,7 +1097,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como preparar e utilizar o pó e o solvente de GONAL-f </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Como preparar e utilizar o pó e o solvente de GONAL-f </p>  </div>"""   
 
 
 
@@ -1108,7 +1114,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar GONAL-f </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1144,7 +1150,7 @@ ser submetidas a procedimentos baseados em técnicas de procriação medicamente
 <li>juntamente com outro medicamento denominado “gonadotrofina coriónica humana" (hCG) para 
 ajudar a produzir espermatozoides em homens que são inférteis devido a um nível baixo de 
 certas hormonas. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1258,7 +1264,7 @@ GONAL-f para produzir folículos. </p>
 <p>Não é de esperar que este medicamento afete a sua capacidade de conduzir e utilizar máquinas. </p>
 <p>GONAL-f contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar gonal"
@@ -1387,7 +1393,7 @@ hiperestimulação ovárica (OHSS)"). </p>
 <p>Caso se tenha esquecido de utilizar GONAL-f, não tome uma dose a dobrar para compensar uma dose 
 que se esqueceu de tomar. Informe o seu médico logo que verificar que se esqueceu de uma dose. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1492,7 +1498,7 @@ face com dificuldade em respirar. Estas reações podem por vezes ser graves. </
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar gonal"
@@ -1511,7 +1517,7 @@ partículas ou se não estiver límpido. </p>
 os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>
 <p>GONAL-f não deve ser administrado misturado com outros medicamentos na mesma seringa, exceto 
 com a lutropina alfa. Os estudos efetuados demonstraram que estes dois medicamentos podem ser 
-misturados e injetados em conjunto, sem que qualquer dos medicamentos seja afetado negativamente. </p>         </div>"""      
+misturados e injetados em conjunto, sem que qualquer dos medicamentos seja afetado negativamente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1564,7 +1570,7 @@ apresentações. </p>
 <p>Fabricante </p>
 <p>Merck Serono S.p.A., Via delle Magnolie 15, 70026 Modugno (Bari), Itália </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Ristfor</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ What is type 2 diabetes?
 Type 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that
 your body produces does not work as well as it should. Your body can also make too much sugar.
 When this happens, sugar (glucose) builds up in the blood. This can lead to serious medical problems
-like heart disease, kidney disease, blindness, and amputation.</p>         </div>"""   
+like heart disease, kidney disease, blindness, and amputation.</p> </div>"""   
           
 
              
@@ -207,7 +210,7 @@ foothold.
 Ristfor contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
 free .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ristfor"
@@ -239,7 +242,7 @@ If you stop taking Ristfor
 Continue to take this medicine as long as your doctor prescribes it so you can continue to help control
 your blood sugar. You should not stop taking this medicine without talking to your doctor first. If you
 stop taking Ristfor, your blood sugar may rise again.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -298,7 +301,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ristfor"
@@ -310,7 +313,7 @@ Do not use this medicine after the expiry date which is stated on the blister an
 The expiry date refers to the last day of the month.
 Do not store above 25  C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -438,7 +441,7 @@ Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the website of the European Medicines Agency</p>         </div>"""      
+Detailed information on this medicine is available on the website of the European Medicines Agency</p> </div>"""      
 
 
 
@@ -477,7 +480,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -486,7 +491,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -501,7 +507,7 @@ Usage: #inline
 3. Sådan skal De tage Ristfor
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -529,7 +535,7 @@ som Deres krop danner, ikke virker så godt, som det burde. Deres krop kan også
 sukker. Når dette sker, øges sukkerindholdet (glukose) i blodet. Dette kan føre til alvorlige
 helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -682,7 +688,7 @@ Ristfor indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ristfor"
@@ -728,7 +734,7 @@ først. Hvis De holder op med at tage Ristfor, kan Deres blodsukker stige igen.
 Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.
 43</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -795,7 +801,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ristfor"
@@ -807,7 +813,7 @@ Brug ikke Ristfor efter den udløbsdato, der står på blister og karton efter E
 sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 25 ºC.
 Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -970,7 +976,7 @@ medinfoNI@msd.com
 Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
 De kan finde yderligere oplysninger om Ristfor på Det Europæiske Lægemiddelagenturs hjemmeside
 http://www.ema.europa.eu.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1009,7 +1015,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1018,7 +1026,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1033,7 +1042,7 @@ Usage: #inline
 3. Como tomar Ristfor
 4. Efeitos indesejáveis possíveis
 5. Como conservar Ristfor
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1063,7 +1072,7 @@ produzir demasiado açúcar. Quando isto acontece, verifica-se acumulação de a
 sangue. Este facto pode dar origem a problemas médicos graves, como doenças de coração, doenças
 de rins, cegueira e amputação.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1210,7 +1219,7 @@ Ristfor contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja é
 praticamente “isento de sódio".  </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ristfor"
@@ -1259,7 +1268,7 @@ subir.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou
 farmacêutico.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1330,7 +1339,7 @@ folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá co
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
 medicamento.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ristfor"
@@ -1343,7 +1352,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado.
 Não conservar acima de 25 ºC.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1368,7 +1377,7 @@ laurilsulfato de sódio e fumarato sódico de estearilo.
 o 
 Revestimento: álcool polivinílico, macrogol 3350, talco (E553b), dióxido de titânio (E171),
 óxido de ferro vermelho (E172) e óxido de ferro negro (E172).
-4</p>         </div>"""      
+4</p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store GIOTRIF</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ This medicine is used on its own to treat adult patients with a specific type of
 (non-small cell lung cancer):</p>
 <p>that is identified by a change (mutation) in the gene for EGFR. GIOTRIF can be prescribed to 
 you as your first treatment or if prior chemotherapy treatment has been insufficient.</p>
-<p>of squamous type if prior chemotherapy treatment has been insufficient.</p>         </div>"""   
+<p>of squamous type if prior chemotherapy treatment has been insufficient.</p> </div>"""   
           
 
              
@@ -162,7 +165,7 @@ that you do not drive or use machines until the side effect disappears (see sect
 effects).
 GIOTRIF contains lactose
 This medicine contains a sugar called lactose. If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine.</p>         </div>"""   
+intolerance to some sugars, contact your doctor before taking this medicine.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take giotrif"
@@ -203,7 +206,7 @@ If you stop taking GIOTRIF
 Do not stop taking this medicine without first consulting your doctor. It is important to take this 
 medicine every day, as long as your doctor prescribes it for you. If you do not take this medicine as 
 prescribed by your doctor your cancer may grow again.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -269,7 +272,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store giotrif"
@@ -281,7 +284,7 @@ Do not use this medicine after the expiry date which is stated on the carton, th
 after EXP. The expiry date refers to the last day of that month.
 Store in the original package in order to protect from moisture and light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +391,7 @@ Tel: +371 67 240 United Kingdom (Northern Ireland)
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in {MM/YYYY}.
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -427,7 +430,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -436,7 +441,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -451,7 +457,7 @@ Usage: #inline
 3. Sådan skal du tage Giotrif
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -472,7 +478,7 @@ der er kendetegnet ved en ændring (mutation) i det gen, der koder for stoffet E
 ordinere Giotrif til dig som din første behandling, eller hvis tidligere behandling med 
 kemoterapi har været utilstrækkelig.
 
-af pladecelle-type, hvis tidligere kemoterapi har været utilstrækkelig.</p>         </div>"""   
+af pladecelle-type, hvis tidligere kemoterapi har været utilstrækkelig.</p> </div>"""   
           
 
              
@@ -578,7 +584,7 @@ og reagere påvirkes, anbefales det, at du ikke fører motorkøretøj eller betj
 bivirkningen er væk igen (se afsnit 4, Bivirkninger).
 Giotrif indeholder lactose
 Dette lægemiddel indeholder sukkerstoffet lactose. Kontakt lægen, før du tager dette lægemiddel, hvis 
-lægen har fortalt dig, at du ikke tåler visse sukkerarter.</p>         </div>"""   
+lægen har fortalt dig, at du ikke tåler visse sukkerarter.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take giotrif"
@@ -629,7 +635,7 @@ Hvis du holder op med at tage Giotrif
 Du må ikke holde op med at tage dette lægemiddel, før du har talt med lægen. Det er vigtigt at tage det 
 hver dag, så længe lægen ordinerer det til dig. Hvis ikke du tager Giotrif som foreskrevet af lægen, 
 begynder din kræft måske at vokse igen.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -727,7 +733,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store giotrif"
@@ -740,7 +746,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned.
 Opbevares i den originale yderpakning for at beskytte mod fugt og lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
 ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.
-52</p>         </div>"""      
+52</p> </div>"""      
         
         
 * section[=].section[+]
@@ -896,7 +902,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

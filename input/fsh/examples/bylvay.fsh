@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Bylvay </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ mechanism that normally reabsorbs them from the intestines after they have done 
 allows them to pass out of the body in the stool. </p>
 <p>Bylvay is used to treat progressive familial intrahepatic cholestasis (PFIC) in patients aged 6 months 
 or older. PFIC is a liver disease caused by build-up of bile acids (cholestasis) that gets worse over time 
-and is often accompanied with severe itching. </p>         </div>"""   
+and is often accompanied with severe itching. </p> </div>"""   
           
 
              
@@ -123,7 +126,7 @@ contraception. </p>
 to decide whether to stop breast-feeding or avoid Bylvay treatment, considering the benefit of breast-
 feeding to the baby and Bylvay to the mother. </p>
 <p>Driving and using machines </p>
-<p>Bylvay has no or negligible influence on the ability to drive or capacity to use machinery. </p>         </div>"""   
+<p>Bylvay has no or negligible influence on the ability to drive or capacity to use machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bylvay"
@@ -177,7 +180,7 @@ doctor will recommend an alternative treatment. </p>
 <p>Do not take a double dose to make up for a forgotten dose. Take the next dose at the usual time. </p>
 <p>If you stop taking Bylvay </p>
 <p>Do not stop taking Bylvay without first discussing with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -195,7 +198,7 @@ common (may affect up to 1 in 10 people)
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bylvay"
@@ -207,7 +210,7 @@ of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Store in the original package to protect from light. Do not store above 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -330,7 +333,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -369,7 +372,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -378,7 +383,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -393,7 +399,7 @@ Usage: #inline
 3. Sådan skal du tage Bylvay 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -408,7 +414,7 @@ genoptager dem fra tarmene, når de har udført deres opgave. På den måde kan 
 via afføringen. </p>
 <p>Bylvay anvendes til behandling af progressiv familiær intrahepatisk kolestase (PFIC) hos patienter i 
 alderen 6 måneder eller derover. PFIC er en leversygdom forårsaget af ophobning af galdesyrer 
-(kolestase), der forværres over tid og ofte ledsages af svær kløe. </p>         </div>"""   
+(kolestase), der forværres over tid og ofte ledsages af svær kløe. </p> </div>"""   
           
 
              
@@ -462,7 +468,7 @@ bruger prævention. </p>
 ved henholdsvis amning og Bylvay for barnet og moderen vil din læge hjælpe dig med at beslutte, om 
 du skal stoppe med at amme eller undgå behandling med Bylvay. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Bylvay påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>         </div>"""   
+<p>Bylvay påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bylvay"
@@ -529,7 +535,7 @@ læge anbefale en anden behandling. </p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for en glemt dosis. Tag næste dosis til sædvanlig tid. </p>
 <p>Hvis du holder op med at tage Bylvay </p>
 <p>Du må ikke holde op med at tage Bylvay uden først at spørge din læge til råds. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -556,7 +562,7 @@ almindelige (kan forekomme hos op til 1 ud af 10 personer) </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 bilag V. Ved at indberette bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bylvay"
@@ -569,7 +575,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Opbevar lægemidlet i den originale pakning for at beskytte mod lys. Må ikke opbevares ved 
 temperaturer over 25 °C. </p>
 <p>Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. Spørg 
-apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p>         </div>"""      
+apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -715,7 +721,7 @@ indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu og på Lægemiddelstyrelsens hjemmeside 
 http://www.laegemiddelstyrelsen.dk. Der er også links til andre websteder om sjældne sygdomme og 
-om, hvordan de behandles. </p>         </div>"""      
+om, hvordan de behandles. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Step-by-step instructions for use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Nucala </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -109,7 +111,7 @@ type of blood cell) in the blood. These cells can damage organs in the body, par
 lungs, nerves and skin. 
 Nucala helps reduce your symptoms and prevents flares. If you are taking medicines often referred to 
 as oral corticosteroids, Nucala can also help reduce the daily dose you need to control your HES 
-symptoms/flares. </p>         </div>"""   
+symptoms/flares. </p> </div>"""   
           
 
              
@@ -171,7 +173,7 @@ breast-feeding, you must check with your doctor before you use Nucala. </p>
 The possible side effects of Nucala are unlikely to affect your ability to drive or use machines. </p>
 <p>Nucala contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg dose, i.e., that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nucala"
@@ -211,7 +213,7 @@ Do not stop injections of Nucala unless your doctor advises you to. Interrupting
 treatment with Nucala may cause your symptoms and attacks to come back. </p>
 <p>If your symptoms get worse while receiving injections of Nucala<br />
   Call your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -259,7 +261,7 @@ where the injection was given)
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nucala"
@@ -274,7 +276,7 @@ date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from light. </p>
 <p>The Nucala pre-filled pen can be removed from the refrigerator and kept in its unopened carton for up 
 to 7 days at room temperature (up to 30 C), when protected from light. Discard if left out of the 
-refrigerator for more than 7 days. </p>         </div>"""      
+refrigerator for more than 7 days. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -388,7 +390,7 @@ GlaxoSmithKline Trading Services Ltd.
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -427,7 +429,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -438,7 +442,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Trin-for-trin instruktioner i brug </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -453,7 +457,7 @@ Usage: #inline
 3. Sådan bliver du behandlet med Nucala 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -498,7 +502,7 @@ blodceller) i blodet. Disse celler kan beskadige organerne i kroppen, især hjer
 huden. 
 Nucala medvirker til at mindske dine symptomer og forebygge opblussen af lidelsen. Hvis du tager 
 lægemidler, der ofte omtales som orale kortikosteroider, kan Nucala også medvirke til at nedsætte den 
-daglige dosis, som du behøver for at holde dine HES-symptomer og opblussen af lidelsen under kontrol. </p>         </div>"""   
+daglige dosis, som du behøver for at holde dine HES-symptomer og opblussen af lidelsen under kontrol. </p> </div>"""   
           
 
              
@@ -557,7 +561,7 @@ Det er ikke sandsynligt, at bivirkningerne ved Nucala vil påvirke din evne til 
 maskiner. </p>
 <p>Nucala indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nucala"
@@ -596,7 +600,7 @@ Stop ikke med at få injektioner med Nucala, medmindre lægen råder dig til det
 Nucala afbrydes midlertidigt eller stoppes helt, kan dine symptomer og anfald komme igen. </p>
 <p>Hvis dine symptomer forværres, mens du er i behandling med Nucala:<br />
  Ring til lægen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -680,7 +684,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nucala"
@@ -695,7 +699,7 @@ Må ikke nedfryses.
 Opbevares i den originale karton for at beskytte mod lys. 
 Nucala fyldt pen kan tages ud af køleskabet og opbevares i den uåbnede karton i op til 7 dage ved 
 stuetemperatur (op til 30 °C), beskyttet mod lys. Kassér medicinen, hvis den har været uden for køleskabet i 
-mere end 7 dage. </p>         </div>"""      
+mere end 7 dage. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -992,7 +996,7 @@ oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
 - Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, 
-som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1031,7 +1035,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1042,7 +1048,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções passo-a-passo para utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -1059,7 +1065,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Nucala </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1104,7 +1110,7 @@ glóbulo branco sanguíneo) no sangue. Estas células podem danificar os órgão
 coração, os pulmões, os nervos e a pele. 
 Nucala ajuda a reduzir os seus sintomas e previne exacerbações. Se estiver a tomar medicamentos 
 conhecidos como corticosteroides orais, Nucala pode também ajudar a reduzir a dose diária de que necessita 
-para controlar os seus sintomas/exacerbações de síndrome hipereosinofílica. </p>         </div>"""   
+para controlar os seus sintomas/exacerbações de síndrome hipereosinofílica. </p> </div>"""   
           
 
              
@@ -1167,7 +1173,7 @@ deve consultar o seu médico antes de utilizar Nucala.  </p>
 máquinas.  </p>
 <p>Nucala contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 100 mg de dose ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nucala"
@@ -1208,7 +1214,7 @@ tratamento com Nucala pode fazer com que os seus sintomas e ataques voltem.  </p
 <p>Se os seus sintomas piorarem enquanto estiver a receber injeções de Nucala 
  Contacte o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
-enfermeiro. </p>         </div>"""         
+enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1294,7 +1300,7 @@ podem afetar até 1 em 1000 pessoas </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis diretamente do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
-ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nucala"
@@ -1309,7 +1315,7 @@ de validade corresponde ao último dia do mês indicado.  </p>
 <p>Conservar na embalagem de origem para proteger da luz.  </p>
 <p>A caneta pré-cheia de Nucala pode ser retirada do frigorífico e mantida na embalagem fechada até 7 dias à 
 temperatura ambiente (até 30ºC), quando protegida da luz. Eliminar caso mantida fora do frigorífico durante 
-mais de 7 dias. </p>         </div>"""      
+mais de 7 dias. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1432,7 +1438,7 @@ GlaxoSmithKline Trading Services Ltd.
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p> </div>"""      
 
 
 

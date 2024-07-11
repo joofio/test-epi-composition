@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Hemlibra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -96,7 +98,7 @@ which stop the replacement factor VIII from working.
 How Hemlibra works </p>
 <p>Hemlibra restores the function of missing activated factor VIII that is needed for effective blood 
 clotting. Its structure is different from factor VIII, therefore Hemlibra is not affected by factor VIII 
-inhibitors.  </p>         </div>"""   
+inhibitors.  </p> </div>"""   
           
 
              
@@ -173,7 +175,7 @@ Hemlibra and for 6 months after your last injection of Hemlibra. </p>
 baby, ask your doctor or pharmacist for advice before using this medicine. Your doctor will 
 consider the benefit of you taking Hemlibra against the risk to your baby. </p>
 <p>Driving and using machines </p>
-<p>This medicine is not likely to affect your ability to drive or use machines. </p>         </div>"""   
+<p>This medicine is not likely to affect your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hemlibra"
@@ -250,7 +252,7 @@ inject two doses on the same day to make up for a forgotten dose. </p>
 <p>If you stop using Hemlibra </p>
 <p>Do not stop using Hemlibra without talking to your doctor. If you stop using Hemlibra, you may no 
 longer be protected against bleeding. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -300,7 +302,7 @@ difficulty in breathing which are suggestive of an angioedema  </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hemlibra"
@@ -324,7 +326,7 @@ colourless to slightly yellow. Do not use this medicine if it is cloudy, discolo
 particles. </p>
 <p>Throw away any unused solution appropriately. Do not throw away any medicines via wastewater or 
 household waste. Ask your pharmacist how to throw away medicines you no longer use. These 
-measures will help protect the environment. </p>         </div>"""      
+measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -429,7 +431,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -468,7 +470,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -479,7 +483,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsanvisning </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -496,7 +500,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -528,7 +532,7 @@ stopper virkningen af erstatnings faktor VIII. </p>
 <p>Sådan virker Hemlibra </p>
 <p>Hemlibra genopretter funktionen af manglende aktiveret faktor VIII, som er nødvendig for at blodet 
 kan størkne. Hemlibras struktur er forskellig fra faktor VIII, og derfor påvirker faktor VIII-hæmmere 
-ikke effekten af Hemlibra. </p>         </div>"""   
+ikke effekten af Hemlibra. </p> </div>"""   
           
 
              
@@ -621,7 +625,7 @@ gravid, skal du spørge lægen eller apotekspersonalet til råds, før du bruger
 Lægen vil vurdere om den gavn du har af Hemlibra opvejer risikoen for barnet. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Det er ikke sandsynligt, at dette lægemiddel påvirker evnen til at føre motorkøretøj eller betjene 
-maskiner. </p>         </div>"""   
+maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hemlibra"
@@ -717,7 +721,7 @@ Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er 
 <p>Hvis du holder op med at bruge Hemlibra </p>
 <p>Hold ikke op med at bruge Hemlibra uden at have talt med lægen. Hvis du holder op med at bruge 
 Hemlibra, vil du ikke være beskyttet mod blødning længere. </p>
-<p>Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, sygeplejersken eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -784,7 +788,7 @@ mangel på virkning eller nedsat respons på behandlingen </p>
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hemlibra"
@@ -808,7 +812,7 @@ skal være farveløs eller let gullig. Brug ikke medicinen, hvis den er uklar, m
 synlige partikler.   </p>
 <p>Ubrugt opløsning skal bortskaffes hensigtsmæssigt. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. Spørg på apoteket, hvordan du skal bortskaffe 
-medicinrester. Dette vil hjælpe med til at beskytte miljøet. </p>         </div>"""      
+medicinrester. Dette vil hjælpe med til at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1802,7 +1806,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 Kontakt lægen, apotekspersonalet eller sundhedspersonalet, hvis du får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt her. Se afsnit 4. Foruden denne indlægsseddel, vil din læge give dig et ’Patientkort’, der indeholder vigtig 
 sikkerhedsinformation, som du skal være opmærksom på. Opbevar patientkortet på dig. </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1841,7 +1845,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1852,7 +1858,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instruções de utilização </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -1869,7 +1875,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Hemlibra </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1900,7 +1906,7 @@ fator VIII) que impedem o funcionamento do fator VIII de substituição. </p>
 <p>Como funciona Hemlibra </p>
 <p>Hemlibra restaura a função do fator VIII ativado em falta e que é necessária para uma coagulação 
 eficaz do sangue. A sua estrutura é diferente do fator VIII, portanto Hemlibra não é afetado pelos 
-inibidores do fator VIII.  </p>         </div>"""   
+inibidores do fator VIII.  </p> </div>"""   
           
 
              
@@ -1997,7 +2003,7 @@ Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar,
 médico ou farmacêutico antes de utilizar este medicamento. O seu médico irá considerar o 
 benefício em utilizar Hemlibra contra o risco para seu bebé. </p>
 <p>Condução de veículos e utilização de máquinas </p>
-<p>É pouco provável que este medicamento afete a sua capacidade de conduzir ou utilizar máquinas. </p>         </div>"""   
+<p>É pouco provável que este medicamento afete a sua capacidade de conduzir ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar hemlibra"
@@ -2100,7 +2106,7 @@ Se tiver dúvidas, fale com o seu médico, farmacêutico ou enfermeiro. </p>
 <p>Não pare de utilizar Hemlibra sem falar com o seu médico. Se parar de utilizar Hemlibra, poderá não 
 estar protegido contra as hemorragias. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -2165,7 +2171,7 @@ ausência de efeito ou diminuição da resposta ao tratamento </p>
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar hemlibra"
@@ -2190,7 +2196,7 @@ a ligeiramente amarelada. Não utilize este medicamento se verificar que está t
 cor ou contém partículas visíveis. </p>
 <p>Deite fora a solução não utilizada de forma apropriada. Não deite fora quaisquer medicamentos na 
 canalização ou no lixo doméstico. Pergunte ao seu farmacêutico como deitar fora os medicamentos 
-que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2338,7 +2344,7 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366 </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

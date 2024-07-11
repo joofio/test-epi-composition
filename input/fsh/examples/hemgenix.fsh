@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Hemgenix</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ The active substance in Hemgenix is based on a virus that does not cause disease
 has been modified so that it cannot spread in the body but can deliver a copy of the Factor IX gene into 
 the liver cells. This allows the liver to produce the Factor IX protein and raise the levels of working 
 Factor IX in the blood. This helps the blood to clot more normally and prevents or reduces bleeding 
-episodes.</p>         </div>"""   
+episodes.</p> </div>"""   
           
 
              
@@ -265,7 +268,7 @@ The medicine contains 35.2 mg sodium (main component of cooking/table salt) in e
 equivalent to 1.8% of the recommended maximum daily dietary intake of sodium for an adult.
 -
 This medicinal product contains potassium, less than 1 mmol (39 mg) per vial, that is to say 
-essentially potassium-free.</p>         </div>"""   
+essentially potassium-free.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hemgenix"
@@ -286,7 +289,7 @@ the first weeks after Hemgenix infusion.
 Your doctor will regularly monitor your blood for the Factor IX activity levels, i.e. weekly for at 
 least first 3 months, and at regular intervals thereafter, and decide if and when you should receive, 
 reduce, or stop your exogenous Factor IX therapy (see section 2).
-If you have any questions on the use of Hemgenix ask your doctor.</p>         </div>"""         
+If you have any questions on the use of Hemgenix ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hemgenix"
@@ -332,7 +335,7 @@ Store vials in the original package in order to protect from light.
 Dilute before use.
 Once diluted with sodium chloride 9 mg/mL (0.9%) solution for injection, Hemgenix can be stored at 
 15  C - 25  C in the infusion bag protected from light for up to 24 hours after the dose preparation.
-Do not use this medicine if you notice particles, cloudiness or discolouration.</p>         </div>"""      
+Do not use this medicine if you notice particles, cloudiness or discolouration.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -508,7 +511,7 @@ medicinal ancillaries during Hemgenix use.
 Work surfaces and materials which have potentially been in contact with etranacogene dezaparvovec
 must be decontaminated with appropriate disinfectant with viricidal activity (e.g. a chlorine releasing 
 disinfectant like hypochlorite containing 0.1% available chlorine (1000 ppm)) after usage and then 
-autoclaved, if possible.</p>         </div>"""      
+autoclaved, if possible.</p> </div>"""      
 
 
 
@@ -547,7 +550,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -556,7 +561,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -571,7 +577,7 @@ Usage: #inline
 3. Sådan gives Hemgenix
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -593,7 +599,7 @@ Det aktive stof i Hemgenix er baseret på en virus, som ikke forårsager sygdom 
 er blevet modificeret, så den ikke kan sprede sig i kroppen, og så den kan levere en kopi af faktor IX-
 genet til levercellerne. Derved bliver leveren i stand til at danne faktor IX-proteinet og øge niveauet af 
 virksomt faktor IX i blodet. Dette bidrager til en mere normal blodstørkning og forhindrer eller reducerer 
-blødningsepisoder.</p>         </div>"""   
+blødningsepisoder.</p> </div>"""   
           
 
              
@@ -798,7 +804,7 @@ voksen.
 -
 Dette lægemiddel indeholder mindre end 1 mmol (39 mg) kalium pr. hætteglas, dvs. det er i det 
 væsentlige kaliumfrit.
-39</p>         </div>"""   
+39</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hemgenix"
@@ -819,7 +825,7 @@ Hemgenix-infusionen.
 Lægen vil jævnligt kontrollere faktor IX-aktivitetsniveauet i dit blod, dvs. en gang om ugen i 
 minimum de første 3 måneder og derefter med jævne mellemrum, og beslutte, om du skal have, 
 reducere eller stoppe din behandling med eksogen faktor IX og i så fald hvornår (se afsnit 2).
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -864,7 +870,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårør
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
 dette lægemiddel.
-40</p>         </div>"""      
+40</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hemgenix"
@@ -879,7 +885,7 @@ Opbevar hætteglassene i den originale yderpakning for at beskytte mod lys.
 Lægemidlet skal fortyndes før brug.
 Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske kan Hemgenix opbevares ved 
 15 °C - 25 °C i infusionsposen, beskyttet mod lys, i op til 24 timer efter klargøring af dosis.
-Brug ikke lægemidlet, hvis du bemærker partikler, uklarhed eller misfarvning.</p>         </div>"""      
+Brug ikke lægemidlet, hvis du bemærker partikler, uklarhed eller misfarvning.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1095,7 +1101,7 @@ kontaminerede medicinske hjælpemidler i forbindelse med brug af Hemgenix.
 Arbejdsflader og materialer, som potentielt har været i kontakt med etranacogene dezaparvovec, skal 
 dekontamineres efter brug med et passende desinfektionsmiddel med virusdræbende virkning (f.eks. et 
 klorfrigivende desinfektionsmiddel såsom hypoklorit indeholdende 0,1 % tilgængeligt klor (1000 ppm)) 
-og derefter, om muligt, autoklaveres.</p>         </div>"""      
+og derefter, om muligt, autoklaveres.</p> </div>"""      
 
 
 
@@ -1134,7 +1140,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1143,7 +1151,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1158,7 +1167,7 @@ Usage: #inline
 3. Como é administrado Hemgenix
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Hemgenix
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1182,7 +1191,7 @@ A substância ativa do Hemgenix é baseada num vírus que não causa doenças em
 foi modificado para não se espalhar pelo corpo, mas pode incorporar uma cópia do gene do fator IX nas 
 células do fígado. Isso permite que o fígado produza a proteína Fator IX e eleve os níveis funcionais do 
 Fator IX no sangue. Isso ajuda o sangue a coagular mais normalmente e previne ou reduz os episódios 
-de sangramento.</p>         </div>"""   
+de sangramento.</p> </div>"""   
           
 
              
@@ -1385,7 +1394,7 @@ cada frasco para injetáveis. Isso equivale a 1,8% da ingestão diária máxima 
 um adulto.</li>
 <li>Este medicamento contém potássio, menos de 1 mmol (39 mg) por frasco, ou seja, é praticamente 
 isento de potássio.</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar hemgenix"
@@ -1405,7 +1414,7 @@ durante as primeiras semanas após a perfusão de Hemgenix.
 seja, semanalmente durante pelo menos os primeiros 3 meses, e em intervalos regulares a partir daí, e 
 decidir se e quando deve receber, reduzir ou interromper a sua terapia exógena com Fator IX (ver seção 
 2).
-Se tiver alguma dúvida sobre o uso de Hemgenix, pergunte ao seu médico.</p>         </div>"""         
+Se tiver alguma dúvida sobre o uso de Hemgenix, pergunte ao seu médico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1450,7 +1459,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V.* Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar hemgenix"
@@ -1466,7 +1475,7 @@ Conservar na embalagem de origem para proteger da luz.
 Diluir antes de usar.
 Uma vez diluído com solução injetável de cloreto de sódio 9 mg/ml (0,9%), Hemgenix pode ser 
 conservado a 15 °C - 25 °C no saco de perfusão protegida da luz até 24 horas após preparação da dose.
-Não use este medicamento se notar partículas, turvação ou descoloração.</p>         </div>"""      
+Não use este medicamento se notar partículas, turvação ou descoloração.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1589,7 +1598,7 @@ Lietuva
 CentralPharma Communications UABTel: +05243 0444
 Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}.&gt;
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

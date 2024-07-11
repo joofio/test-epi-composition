@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Thalidomide Lipomed </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ It works in a number of different ways:</p>
 <li>by stopping the cancer cells developing, </li>
 <li>by stopping blood vessels growing in the cancer, </li>
 <li>by stimulating part of the immune system to attack the cancer cells.  </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -252,7 +255,7 @@ Do not drive or use any tools or machines if you experience side effects, such a
 sleepiness or blurred vision. </p>
 <p>Thalidomide Lipomed coated tablets contain lactose and sucrose 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take thalidomide"
@@ -291,7 +294,7 @@ If you forget to take Thalidomide Lipomed at your regular time
 - and less than 12 hours have passed: take your coated tablets immediately;<br />
 - more than 12 hours have passed: do not take your coated tablets. Take your next coated tablets 
 at the usual time the next day. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -405,7 +408,7 @@ in the joints and fever (leukocytoclastic vasculitis).  </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store thalidomide"
@@ -418,7 +421,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not use if you notice any damage or signs of tampering.  </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>At the end of your treatment you should return all unused coated tablets to the pharmacist or doctor. 
-These measures will prevent misuse. </p>         </div>"""      
+These measures will prevent misuse. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -443,7 +446,7 @@ Hegenheimer Strasse 2
 Germany </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -482,7 +485,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -491,7 +496,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -506,7 +512,7 @@ Usage: #inline
 3. Sådan skal du tage Thalidomid Lipomed 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -535,7 +541,7 @@ virker på flere forskellige måder:</p>
 <li>ved at stoppe udviklingen af kræftcellerne </li>
 <li>ved at stoppe blodkarrenes vækst i kræften </li>
 <li>ved at stimulere dele af immunsystemet til at angribe kræftcellerne. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -698,7 +704,7 @@ Hvis du oplever bivirkninger såsom svimmelhed, træthed eller sløret syn, må 
 motorkøretøj eller betjene værktøj eller maskiner. </p>
 <p>Overtrukne Thalidomid Lipomed-tabletter indeholder laktose og saccharose 
 Hvis lægen har fortalt dig, at du ikke kan tåle visse sukkerarter, skal du kontakte lægen, før du tager 
-dette lægemiddel. </p>         </div>"""   
+dette lægemiddel. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take thalidomide"
@@ -737,7 +743,7 @@ Hvis du har glemt at tage Thalidomid Lipomed til sædvanlig tid, og
 - der er gået mindre end 12 timer: Tag dine overtrukne tabletter med det samme. 
 - der er gået mere end 12 timer: Tag ikke dine overtrukne tabletter. Tag dine næste overtrukne 
 tabletter til sædvanlig tid næste dag. </p>
-<p>Spørg lægen, apotekspersonalet ellersygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet ellersygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -861,7 +867,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store thalidomide"
@@ -874,7 +880,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker tegn på beskadigelse af præparatet eller indpakningen. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Ved behandlingsophør bør du aflevere alle ubrugte overtrukne tabletter til apotekspersonalet eller din 
-læge. Disse forholdsregler forebygger misbrug. </p>         </div>"""      
+læge. Disse forholdsregler forebygger misbrug. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -902,7 +908,7 @@ Tyskland  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/ og på Lægemiddelstyrelsens hjemmeside 
-http://www.laegemiddelstyrelsen.dk. </p>         </div>"""      
+http://www.laegemiddelstyrelsen.dk. </p> </div>"""      
 
 
 

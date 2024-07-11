@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Sibnayal </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ known as potassium bicarbonate).  </p>
 <p>Sibnayal is an alkalising medicine that is used to control blood acidity caused by a kidney disease 
 called distal renal tubular acidosis (dRTA).  </p>
 <p>Sibnayal will help reduce the effect of dRTA on your everyday life. </p>
-<p>Sibnayal is used in adults, adolescents and children above 1 year. </p>         </div>"""   
+<p>Sibnayal is used in adults, adolescents and children above 1 year. </p> </div>"""   
           
 
              
@@ -165,7 +168,7 @@ your doctor or pharmacist for advice before taking this medicine.  </p>
 <p>Sibnayal 8 mEq contains 308 mg of potassium per sachet. This is to be taken into consideration if you 
 have a reduced kidney function or if you are on a controlled potassium diet. </p>
 <p>Sibnayal 24 mEq contains 924 mg of potassium per sachet. This is to be taken into consideration if you 
-have a reduced kidney function or if you are on a controlled potassium diet. </p>         </div>"""   
+have a reduced kidney function or if you are on a controlled potassium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sibnayal"
@@ -238,7 +241,7 @@ day.  </p>
 <p>This medicine is for long-term use. It will only be effective as long as you are using it. 
 Do not stop unless your doctor tells you to, even if you feel better, as your disease may get worse. If 
 you want to stop treatment, first talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -260,7 +263,7 @@ you want to stop treatment, first talk to your doctor. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sibnayal"
@@ -273,7 +276,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not store above 25 C. </p>
 <p>After opening a sachet, discard any unused content. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -366,7 +369,7 @@ ZI les Bouillides Sophia Antipolis<br />
 France </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -405,7 +408,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -414,7 +419,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -431,7 +437,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -444,7 +450,7 @@ kaliumbicarbonat). </p>
 <p>Sibnayal er et alkaliserende lægemiddel, der anvendes til at behandle øget blodsurhed forårsaget af en 
 nyresygdom kaldet distal renal tubulær acidose (dRTA). </p>
 <p>Sibnayal vil være med til at mindske dRTA's indvirkning på din dagligdag. </p>
-<p>Sibnayal anvendes hos voksne, unge og børn over 1 år. </p>         </div>"""   
+<p>Sibnayal anvendes hos voksne, unge og børn over 1 år. </p> </div>"""   
           
 
              
@@ -534,7 +540,7 @@ du spørge din læge eller apotekspersonalet til råds, før du tager dette læg
 <p>Sibnayal 8 mEq indeholder 308 mg kalium pr. brev. Det skal du huske på, hvis du har nedsat 
 nyrefunktion eller er på kaliumreduceret diæt. </p>
 <p>Sibnayal 24 mEq indeholder 924 mg kalium pr. brev. Det skal du huske på, hvis du har nedsat 
-nyrefunktion eller er på kaliumreduceret diæt. </p>         </div>"""   
+nyrefunktion eller er på kaliumreduceret diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take sibnayal"
@@ -606,7 +612,7 @@ ikke mere end to doser dagligt. </p>
 <p>Dette lægemiddel er beregnet til langtidsbehandling. Det vil kun virke, så længe du tager det. 
 Stop ikke, medmindre lægen beder dig om det. Heller ikke selv om du får det bedre. Sygdommen kan 
 nemlig forværres. Hvis du ønsker at stoppe med behandlingen, skal du først tale med din læge. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -629,7 +635,7 @@ nemlig forværres. Hvis du ønsker at stoppe med behandlingen, skal du først ta
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også </p>
 <p>indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store sibnayal"
@@ -642,7 +648,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25°C. </p>
 <p>Når du har åbnet et brev, skal du kassere eventuelt ikke anvendt indhold. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg 
-apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p>         </div>"""      
+apotekspersonalet, hvordan du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -736,7 +742,7 @@ ZI les Bouillides Sophia Antipolis
 <p>Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

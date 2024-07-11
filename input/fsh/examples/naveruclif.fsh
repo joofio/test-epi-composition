@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Naveruclif </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -101,7 +104,7 @@ longer than people who had only received gemcitabine. </p>
 <p>Naveruclif is also used together with a medicine called carboplatin if you have the most 
 common type of lung cancer, called  non-small cell lung cancer . </p>
 <p>Naveruclif is used in non-small cell lung cancer where surgery or radiotherapy would not be 
-suitable to treat the disease. </p>         </div>"""   
+suitable to treat the disease. </p> </div>"""   
           
 
              
@@ -164,7 +167,7 @@ or use any tools or machines. </p>
 driving and using machines. </p>
 <p>Naveruclif contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 100 mg, that is to say essentially 
- sodium free . </p>         </div>"""   
+ sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take naveruclif"
@@ -184,7 +187,7 @@ treatment cycle with gemcitabine being given immediately after the Naveruclif. <
 <p>For treatment of non-small cell lung cancer Naveruclif is given once every week (i.e. on days 1, 8 and 
 15 of a 21-day cycle), with carboplatin being given once every three weeks (i.e. only on day 1 of each 
 21-day cycle), immediately after the Naveruclif dose has been given. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -289,7 +292,7 @@ syndrome, toxic epidermal necrolysis) </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store naveruclif"
@@ -307,7 +310,7 @@ outer carton in order to protect it from light. </p>
 24 hours protected from light. </p>
 <p>Chemical and physical in-use stability has been demonstrated for 24 hours at 2 C-8 C when protected 
 from light followed by 4 hours at 25 C when not protected from light. </p>
-<p>Your doctor or pharmacist is responsible for disposing of any unused Naveruclif correctly. </p>         </div>"""      
+<p>Your doctor or pharmacist is responsible for disposing of any unused Naveruclif correctly. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -349,7 +352,7 @@ NL / NO / PL / PT / RO / SE / SI / SK / UK (NI) </p>
 Tel: +34 93 301 00 EL<br />
 Win Medica  . . 
  : +30 210 74 88 This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -388,7 +391,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -397,7 +402,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -412,7 +418,7 @@ Usage: #inline
 3. Sådan vil du få Naveruclif 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -457,7 +463,7 @@ Naveruclif anvendes sammen med et lægemiddel, der kaldes carboplatin, hvis du h
 almindelige type lungekræft, der kaldes "ikke-småcellet lungekræft". 
  
 Naveruclif anvendes til ikke-småcellet lungekræft, hvis operation eller strålebehandling ikke er 
-egnet til at behandle sygdommen. </p>         </div>"""   
+egnet til at behandle sygdommen. </p> </div>"""   
           
 
              
@@ -537,7 +543,7 @@ motorkøretøj eller betjene værktøj eller maskiner, hvis dette sker for dig. 
 kørsel og betjening af maskiner. </p>
 <p>Naveruclif indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 100 mg, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take naveruclif"
@@ -557,7 +563,7 @@ Til behandling af metastatisk brystkræft gives Naveruclif sædvanligvis én gan
 behandlingscyklus. Gemcitabin gives umiddelbart efter Naveruclif. </p>
 <p>Til behandling af ikke-småcellet lungekræft gives Naveruclif én gang ugentligt (dvs. på dag 1, 8 og i hver 21-dages cyklus), hvor carboplatin gives en gang hver tredje uge (dvs. kun på dag 1 i hver 
 21-dages cyklus), umiddelbart efter Naveruclif-dosis er blevet givet. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -734,7 +740,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen eller sygeplejersken. Dett
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.  </p>         </div>"""      
+sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store naveruclif"
@@ -752,7 +758,7 @@ med det samme, kan dispersionen opbevares i et køleskab (ved temperaturer på 2
 24 timer, beskyttet mod lys. </p>
 <p>Kemisk og fysisk stabilitet under brug er dokumenteret i 24 timer ved 2°C-8°C ved beskyttelse mod 
 lys, efterfulgt af 4 timer ved 25 °C, hvor lægemidlet ikke er beskyttet mod lys. </p>
-<p>Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Naveruclif på korrekt vis. </p>         </div>"""      
+<p>Din læge eller apotekspersonalet har ansvaret for at bortskaffe al ubrugt Naveruclif på korrekt vis. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -871,7 +877,7 @@ udelukker risiko for mikrobiel kontaminering. </p>
 ansvar. </p>
 <p>Den samlede opbevaringstid for det rekonstituerede lægemiddel i hætteglasset og i infusionsposen, når 
 det opbevares i køleskab og er beskyttet mod lys, er 24 timer. Det rekonstituerede lægemiddel kan 
-efterfølgende opbevares i infusionsposen i 4 timer ved temperaturer under 25°C. </p>         </div>"""      
+efterfølgende opbevares i infusionsposen i 4 timer ved temperaturer under 25°C. </p> </div>"""      
 
 
 
@@ -910,7 +916,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -919,7 +927,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -936,7 +945,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Naveruclif </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -983,7 +992,7 @@ o tipo de cancro do pulmão mais frequente chamado “cancro do pulmão de não 
 células". 
  
 Naveruclif é utilizado no cancro do pulmão de não pequenas células, quando a cirurgia ou a 
-radioterapia não são adequadas para tratar a doença. </p>         </div>"""   
+radioterapia não são adequadas para tratar a doença. </p> </div>"""   
           
 
              
@@ -1069,7 +1078,7 @@ acontecer, não conduza veículos nem utilize quaisquer ferramentas ou maquinari
 junto do seu médico no que respeita à condução de veículos e utilização de máquinas. </p>
 <p>Naveruclif contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 100 mg, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar naveruclif"
@@ -1092,7 +1101,7 @@ ciclo de tratamento de 28 dias sendo a gemcitabina administrada imediatamente de
 semana (isto é, nos dias 1, 8 e 15 de cada ciclo de 21 dias), sendo a carboplatina administrada uma vez 
 de 3 em 3 semanas (isto é, apenas no dia 1 de cada ciclo de 21 dias) imediatamente depois de se 
 administrar a dose de Naveruclif. </p>
-<p>Fale com o seu médico ou enfermeiro se tiver dúvidas. </p>         </div>"""         
+<p>Fale com o seu médico ou enfermeiro se tiver dúvidas. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1273,7 +1282,7 @@ Endurecimento/espessamento da pele (esclerodermia) </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar naveruclif"
@@ -1293,7 +1302,7 @@ injetáveis quando mantido na embalagem exterior para proteger da luz. </p>
 <p>A estabilidade química e física na utilização foi demonstrada durante 24 horas, entre 2°C-8°C, quando 
 protegida da luz, seguida de 4 horas a 25°C, quando não protegida da luz. </p>
 <p>O seu médico ou farmacêutico é responsável pela eliminação correta de quaisquer porções não usadas 
-de Naveruclif. </p>         </div>"""      
+de Naveruclif. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1340,7 +1349,7 @@ Tel: +34 93 301 00 64  </p>
 Win Medica Α.Ε. 
 Τel: +30 210 74 88<br />
 Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

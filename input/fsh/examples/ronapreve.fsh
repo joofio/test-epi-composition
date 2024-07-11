@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ronapreve </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ body s defence system) against COVID-19. Ronapreve is used to prevent COVID-19 i
 least 40 kg. </p>
 <p>How Ronapreve works </p>
 <p>Ronapreve attaches to a protein on the surface of the coronavirus called the  spike protein . This stops 
-the virus from getting into your cells and from spreading between cells.   </p>         </div>"""   
+the virus from getting into your cells and from spreading between cells.   </p> </div>"""   
           
 
              
@@ -122,7 +125,7 @@ what the effects might be on the baby or milk production.  </p>
 <p>Your doctor will help you decide whether to keep breast-feeding or to start treatment with this 
 medicine.  </p>
 <p>Driving and using machines </p>
-<p>This medicine is not expected to have any effect on your ability to drive.  </p>         </div>"""   
+<p>This medicine is not expected to have any effect on your ability to drive.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ronapreve"
@@ -149,7 +152,7 @@ four weeks.  </p>
 injections, given immediately one after the other, under the skin made at separate body sites if an 
 infusion would delay treatment. Your doctor or nurse will decide how long you will be monitored after 
 you are given the medicine. This is in case you have any side effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -193,7 +196,7 @@ reaction or infusion-related reactions may include:  </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ronapreve"
@@ -215,7 +218,7 @@ temperature for approximately 30 minutes prior to administration.  </p>
 to 8  C for no more than 72 hours and at room temperature up to 25  C for no more than 
 24 hours. If refrigerated, allow the syringes to equilibrate to room temperature for 
 approximately 10-15 minutes prior to administration.  </p>
-<p>Do not use this medicine if you notice particulate matter or discolouration. </p>         </div>"""      
+<p>Do not use this medicine if you notice particulate matter or discolouration. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -306,7 +309,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd. 
 Tel: +44 (0) 1707 366This leaflet was last revised in. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -345,7 +348,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -354,7 +359,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -371,7 +377,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -391,7 +397,7 @@ kræver ilt til behandling af COVID-19 og somtester negativ for antistoffer (pro
 forsvarssystem) mod COVID-19. Ronapreve bruges til at forebygge COVID-19 hos voksne og unge fra 12 år, som vejer mindst 40 kg. </p>
 <p>Sådan fungerer Ronapreve </p>
 <p>Ronapreve binder sig til et protein på overfladen af coronavirus kaldet 'spikeproteinet'. Dette 
-forhindrer virussen i at komme ind i dine celler og i at sprede sig mellem cellerne.  </p>         </div>"""   
+forhindrer virussen i at komme ind i dine celler og i at sprede sig mellem cellerne.  </p> </div>"""   
           
 
              
@@ -439,7 +445,7 @@ behandlingen med dette lægemiddel.<br />
 Du bliver nødt til at overveje de potentielle fordele ved behandling for dig - sammenlignet med 
 de sundhedsmæssige fordele og risici ved amning for din baby. </p>
 <p>Trafik- og arbejdssikkerhed </p>
-<p>Dette lægemiddel forventes ikke at påvirke evnen til at køre bil.  </p>         </div>"""   
+<p>Dette lægemiddel forventes ikke at påvirke evnen til at køre bil.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ronapreve"
@@ -463,7 +469,7 @@ under huden umiddelbart efter hinanden på forskellige steder på kroppen, hvis 
 behandlingen. Din læge eller sygeplejerske vil beslutte, hvor længe du vil blive overvåget, efter at du 
 har fået medicinen. Dette er i tilfælde af, at du får bivirkninger. </p>
 <p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis du har yderligere spørgsmål om brugen af 
-dette lægemiddel. </p>         </div>"""         
+dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -524,7 +530,7 @@ Besvimelse, som kan være ledsaget af muskelspasmer eller kramper </p>
 Dette gælder også mulige bivirkninger, som ikke er nævnt i denne indlægsseddel. Du kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ronapreve"
@@ -548,7 +554,7 @@ fortyndet opløsning opbevares ved 2 °C til 8 °C i højst 72 timer og ved stue
 Klargjorte sprøjter skal bruges straks. Opbevar om nødvendigt de klargjorte sprøjter ved 2 °C til 
 8 °C i højst 72 timer og ved stuetemperatur op til 25 °C i højst 24 timer. Hvis de er nedkølet, 
 skal sprøjterne ækvilibreres til stuetemperatur i cirka 10 - 15 minutter før administration.  </p>
-<p>Brug ikke dette lægemiddel, hvis du bemærker partikler eller misfarvning. </p>         </div>"""      
+<p>Brug ikke dette lægemiddel, hvis du bemærker partikler eller misfarvning. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1005,7 +1011,7 @@ Gem indlægssedlen. Du kan få brug for at læse den igen.<br />
 Spørg lægen, eller apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide 
 ● 
 Kontakt lægen eller apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Tivicay </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ cells that are important in helping your body to fight infection. </p>
 of your treatment. </p>
 <p>Tivicay is always used in combination with other anti-retroviral medicines (combination therapy).<br />
 To control your HIV infection, and to stop your illness from getting worse, you must keep taking all your 
-medicines, unless your doctor tells you to stop taking any. </p>         </div>"""   
+medicines, unless your doctor tells you to stop taking any. </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ as possible.  </p>
 <p>Driving and using machines<br />
 Tivicay can make you dizzy and have other side effects that make you less alert. </p>
 <p>Don t drive or operate machinery unless you are sure you re not affected.  </p>
-<p>Tivicay contains less than 1 mmol sodium (23 mg) per tablet, that is to say is essentially  sodium-free.  </p>         </div>"""   
+<p>Tivicay contains less than 1 mmol sodium (23 mg) per tablet, that is to say is essentially  sodium-free.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tivicay"
@@ -208,7 +211,7 @@ before.  </p>
 <p>Don't take a double dose to make up for a missed dose. </p>
 <p>Don t stop taking Tivicay without advice from your doctor<br />
 Take Tivicay for as long as your doctor recommends.  Don t stop unless your doctor advises you to.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -308,7 +311,7 @@ will test for these changes.  </p>
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tivicay"
@@ -324,7 +327,7 @@ conditions.  </p>
 <p>Tivicay 25 mg and 50 mg film-coated tablets 
 This medicine does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -432,7 +435,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {month YYYY}.  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -471,7 +474,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -480,7 +485,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -497,7 +503,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -516,7 +522,7 @@ en type hvide blodceller, der spiller en vigtig rolle, når kroppen skal bekæmp
 behandling er. </p>
 <p>Tivicay anvendes altid i kombination med andre antiretrovirale lægemidler (kombinationsbehandling). 
 For at kontrollere din hiv-infektion og for at forhindre din sygdom i at blive værre, skal du blive ved 
-med at tage alle dine lægemidler, medmindre lægen foreskriver andet. </p>         </div>"""   
+med at tage alle dine lægemidler, medmindre lægen foreskriver andet. </p> </div>"""   
           
 
              
@@ -625,7 +631,7 @@ Tivicay kan gøre dig svimmel og give andre bivirkninger, som gør dig mindre op
 <p>→ Du må ikke føre motorkøretøjer og betjene maskiner, medmindre du er sikker på, at du 
 ikke er påvirket.  </p>
 <p>Tivicay indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tivicay"
@@ -705,7 +711,7 @@ næste dosis på det sædvanlige tidspunkt. Fortsæt herefter behandlingen som f
 <p>Du må ikke stoppe med at tage Tivicay, medmindre lægen foreskriver det. 
 Tag Tivicay så længe, som lægen anbefaler. Du må ikke stoppe med at tage Tivicay, medmindre 
 lægen foreskriver det.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -916,7 +922,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tivicay"
@@ -933,7 +939,7 @@ opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Tivicay 25 mg og 50 mg filmovertrukne tabletter 
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1075,7 +1081,7 @@ at tage dette lægemiddel, da den indeholder vigtige oplysninger.
 Lad derfor være med at give medicinen til andre. Det kan være skadeligt for andre, selvom de 
 har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -1114,7 +1120,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1123,7 +1131,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1140,7 +1149,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Tivicay </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1160,7 +1169,7 @@ eficácia do seu tratamento. </p>
 <p>Tivicay é sempre utilizado em associação com outros medicamentos antirretrovíricos (terapêutica 
 combinada).<br />
 Para controlar a sua infeção por VIH, e para impedir que a sua doença se agrave, deve continuar a tomar 
-todos os seus medicamentos, a menos que o seu médico lhe diga para parar de tomar algum. </p>         </div>"""   
+todos os seus medicamentos, a menos que o seu médico lhe diga para parar de tomar algum. </p> </div>"""   
           
 
              
@@ -1271,7 +1280,7 @@ possível.  </p>
 Tivicay pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta. </p>
 <p>→ Não conduza nem utilize máquinas a menos que tenha a certeza de que não é afetado.  </p>
 <p>Tivicay contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é praticamente “isento 
-de sódio". </p>         </div>"""   
+de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tivicay"
@@ -1350,7 +1359,7 @@ habitual. Depois continue o seu tratamento como antes. </p>
 <p>Não pare de tomar Tivicay sem o conselho do seu médico<br />
 Tome Tivicay durante o período de tempo recomendado pelo seu médico. Não pare o tratamento, a não ser 
 por indicação do seu médico. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1560,7 +1569,7 @@ os próprios medicamentos para o VIH. O seu médico irá monitorizar estas alter
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste folheto, 
 fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis diretamente através 
 do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a 
-ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tivicay"
@@ -1577,7 +1586,7 @@ conservação. </p>
 <p>Tivicay 25 mg e 50 mg comprimidos revestidos por película 
 Este medicamento não necessita de quaisquer condições especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1700,7 +1709,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Este folheto foi revisto pela última vez em {mês de YYYY}.  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência Europeia </p> </div>"""      
 
 
 

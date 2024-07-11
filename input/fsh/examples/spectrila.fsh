@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Spectrila </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ for cancer cell growth. All cells need an amino acid called asparagine to stay a
 make asparagine for themselves, while some cancer cells cannot. Asparaginase lowers asparagine 
 level in blood cancer cells and stops the cancer growing. </p>
 <p>Spectrila is used to treat adults and children with acute lymphoblastic leukaemia (ALL) which is a 
-form of blood cancer. Spectrila is used as part of a combination therapy.  </p>         </div>"""   
+form of blood cancer. Spectrila is used as part of a combination therapy.  </p> </div>"""   
           
 
              
@@ -163,7 +166,7 @@ safe. A method other than oral contraceptives should be used in women of childbe
 pregnant during your treatment with Spectrila and for 4 months after the last dose. </p>
 <p>Driving and using machines 
 Do not drive or use machines when taking this medicine because it may make you feel drowsy, tired 
-or confused. </p>         </div>"""   
+or confused. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spectrila"
@@ -190,7 +193,7 @@ every third day. </p>
 If you think that you received too much Spectrila, tell your doctor or nurse as soon as possible. </p>
 <p>Up to date it is not known that an overdose with asparaginase led to any signs of an overdose. If 
 necessary, your doctor will treat your symptoms and will give you supportive care. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -249,7 +252,7 @@ confusion, seizures and visual loss)
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spectrila"
@@ -265,7 +268,7 @@ Keep the vial in the outer carton in order to protect from light. </p>
 immediately, the user preparing this medicine is responsible for storage times and conditions to ensure 
 sterility of the product. Storage would normally not be longer than 24 hours at 2  C 8  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -295,7 +298,7 @@ Fax:
 +49-4103-8006-E-mail: contact@medac.de </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -334,7 +337,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -343,7 +348,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -360,7 +366,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -373,7 +379,7 @@ for væksten af kræftceller. Alle celler har behov for en aminosyre, der kaldes
 sig i live. Normale celler kan selv danne asparagin, men nogle kræftceller kan ikke. Asparaginase 
 sænker asparaginniveauet i blodets kræftceller og stopper kræftens vækst. </p>
 <p>Spectrila anvendes til at behandle voksne og børn med akut lymfoblastisk leukæmi (ALL), som er en 
-type af blodkræft. Spectrila anvendes som en del af en kombinationsbehandling. </p>         </div>"""   
+type af blodkræft. Spectrila anvendes som en del af en kombinationsbehandling. </p> </div>"""   
           
 
              
@@ -505,7 +511,7 @@ metode end oral kontraception hos kvinder i den fertile alder. </p>
 gravid under din behandling med Spectrila og i 4 måneder efter den sidste dosis. </p>
 <p>Trafik- og arbejdssikkerhed 
 Du må ikke føre motorkøretøj eller betjene maskiner, mens du tager dette lægemiddel, da det kan få 
-dig til at føle dig døsig, træt eller forvirret. </p>         </div>"""   
+dig til at føle dig døsig, træt eller forvirret. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spectrila"
@@ -537,7 +543,7 @@ snart som muligt. </p>
 <p>Til dato er der ingen kendte tilfælde af, at overdosering med asparaginase har ført til tegn på en 
 overdosering. Hvis det er nødvendigt, vil din læge behandle dine symptomer og give dig 
 støttebehandling. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -680,7 +686,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spectrila"
@@ -697,7 +703,7 @@ Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </p>
 opbevaringstiderne og betingelserne for at sikre sterilitet af præparatet. Opbevaringstiden vil normalt 
 ikke være længere end 24 timer ved temperaturer fra 2 °C-8 °C. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -842,7 +848,7 @@ opløsning. </p>
 <p>Den fortyndede opløsning med asparaginase infunderes i løbet af 0,5 til 2 timer. 
 Asparaginase må ikke administreres som en bolusdosis. </p>
 <p>Bortskaffelse 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zokinvy </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ proteins help to keep cells strong and stable. However, the altered genes cause 
 the proteins called progerin or progerin-like proteins. These harmful proteins lead to cell damage that 
 resembles the effects of aging. </p>
 <p>How Zokinvy works </p>
-<p>Zokinvy works by helping to reduce the build-up of the harmful progerin or progerin-like proteins. </p>         </div>"""   
+<p>Zokinvy works by helping to reduce the build-up of the harmful progerin or progerin-like proteins. </p> </div>"""   
           
 
              
@@ -189,7 +192,7 @@ feed, discuss the benefits and possible risks of doing so or of stopping Zokinvy
 <p>Zokinvy has a minor influence on the ability to drive and use machines. Fatigue may occur following 
 administration of Zokinvy. </p>
 <p>Zokinvy contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zokinvy"
@@ -344,7 +347,7 @@ as soon as possible with some food. If less than 8 hours remains before the next
 missed dose and resume taking Zokinvy at the next scheduled dose. </p>
 <p>If you stop taking Zokinvy </p>
 <p>Do not stop taking Zokinvy without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -404,7 +407,7 @@ how much you eat and drink to help detect any of these possible electrolyte cond
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zokinvy"
@@ -417,7 +420,7 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in the original package. Keep the bottle tightly closed in order to protect from moisture. This medicinal 
 product does not require any special temperature storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -467,7 +470,7 @@ this medicine.
 The European Medicines Agency will review any new information on this medicine every year and this 
 leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -506,7 +509,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -515,7 +520,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -532,7 +538,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -559,7 +565,7 @@ imidlertid en ophobning af skadelige former af proteinerne, der kaldes progerin-
 proteiner. Disse skadelige proteiner medfører cellebeskadigelse, der ligner virkningen af aldring. </p>
 <p>Sådan virker Zokinvy </p>
 <p>Zokinvy virker ved at bidrage til at mindske ophobningen af de skadelige progerin- eller progerinlignende 
-proteiner. </p>         </div>"""   
+proteiner. </p> </div>"""   
           
 
              
@@ -724,7 +730,7 @@ med at tage Zokinvy. </p>
 træthed efter administration af Zokinvy. </p>
 <p>Zokinvy indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. det er i det væsentlige 
-"natriumfrit". </p>         </div>"""   
+"natriumfrit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zokinvy"
@@ -966,7 +972,7 @@ planlagte dosis, skal du springe den glemte dosis over og genoptage behandlingen
 næste planlagte dosis. </p>
 <p>Hvis du holder op med at tage Zokinvy </p>
 <p>Du må ikke holde op med at tage Zokinvy uden at tale med din læge. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1108,7 +1114,7 @@ dig med at opdage en af disse mulige elektrolyttilstande. </li>
 <p>Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet eller sygeplejersken. Det gælder 
 også bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale indberetningssystem, der er anført i Appendiks 
-V. Ved at indberette bivirkninger er du med til at give mere information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+V. Ved at indberette bivirkninger er du med til at give mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zokinvy"
@@ -1121,7 +1127,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale pakning. Hold beholderen tæt tillukket for at beskytte mod fugt. Der er ingen 
 særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. </p>
 <p>Du må ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg apotekspersonalet, hvordan 
-du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p>         </div>"""      
+du skal bortskaffe medicinrester. Dette vil være med til at skåne miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1174,7 +1180,7 @@ indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs websted:<br />
 http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme og behandlingen af 
 disse. 
-Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs websted. </p>         </div>"""      
+Denne indlægsseddel findes på alle EU-/EØS-sprog på Det Europæiske Lægemiddelagenturs websted. </p> </div>"""      
 
 
 
@@ -1213,7 +1219,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1222,7 +1230,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1239,7 +1248,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Zokinvy </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1266,7 +1275,7 @@ provocam uma acumulação de formas nocivas das proteínas progerina ou proteín
 proteínas nocivas levam a danos celulares que se assemelham aos efeitos do envelhecimento. </p>
 <p>Como funciona Zokinvy </p>
 <p>O Zokinvy funciona ajudando a reduzir a acumulação das proteínas nocivas da progerina ou do tipo 
-progerina. </p>         </div>"""   
+progerina. </p> </div>"""   
           
 
              
@@ -1435,7 +1444,7 @@ o seu médico. </p>
 cansaço após a administração de Zokinvy. </p>
 <p>Zokinvy contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente «isento 
-de sódio». </p>         </div>"""   
+de sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zokinvy"
@@ -1681,7 +1690,7 @@ seguinte prevista, não tome a dose em falta e reinicie a toma de Zokinvy na dos
 <p>Se parar de tomar Zokinvy </p>
 <p>Não pare de tomar Zokinvy sem falar com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico ou 
-enfermeiro. </p>         </div>"""         
+enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1826,7 +1835,7 @@ gases) </p>
 <p>Se tiver quaisquer efeitos indesejáveis, fale com o seu médico, farmacêutico ou enfermeiro. Incluindo 
 possíveis efeitos indesejáveis não indicados neste folheto. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos 
-indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zokinvy"
@@ -1839,7 +1848,7 @@ VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Conservar na embalagem de origem. Manter o frasco bem fechado para proteger da humidade. O 
 medicamento não necessita de qualquer temperatura especial de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu farmacêutico 
-como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1894,7 +1903,7 @@ medicamento e este folheto será atualizado, se necessário. </p>
 de Medicamentos: http://www.ema.europa.eu. Também existem links para outros sítios da Internet sobre 
 doenças raras e tratamentos. 
 Este folheto está disponível em todas as línguas da UE/EEE no sítio da Internet da Agência Europeia de 
-Medicamentos. </p>         </div>"""      
+Medicamentos. </p> </div>"""      
 
 
 

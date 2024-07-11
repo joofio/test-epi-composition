@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kesimpta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ Kesimpta works by attaching to a target called CD20 on the surface of B cells. B
 white blood cell which are part of the immune system (the body s defences). In multiple sclerosis, the 
 immune system attacks the protective layer around nerve cells. B cells are involved in this process. 
 Kesimpta targets and removes the B cells and thereby reduces the chance of a relapse, relieves 
-symptoms and slows down the progression of the disease. </p>         </div>"""   
+symptoms and slows down the progression of the disease. </p> </div>"""   
           
 
              
@@ -169,7 +172,7 @@ Kesimpta during your pregnancy (see  Warnings and precautions  above). </p>
 Kesimpta is unlikely to affect your ability to drive and use machines. </p>
 <p>Kesimpta contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kesimpta"
@@ -225,7 +228,7 @@ Do not stop using Kesimpta or change your dose without talking with your doctor.
 <p>Some side effects can be related to a low level of B cells in your blood. After you stop treatment with 
 Kesimpta your blood level of B cells will gradually increase to normal. This can take several months. 
 During this time some side effects described in this leaflet may still occur. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ eyelids, lips, mouth, tongue or throat, chest tightness, or feeling faint </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kesimpta"
@@ -270,7 +273,7 @@ temperature (not above 30 C). If not used during this period, Kesimpta can then 
 refrigerator for a maximum of 7 days. </p>
 <p>Do not use this medicine if you notice that the solution contains visible particules or is cloudy. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -368,7 +371,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -407,7 +410,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -416,7 +421,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -433,7 +439,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -451,7 +457,7 @@ Kesimpta virker ved at binde sig til et antigen, der hedder CD20, på overfladen
 en type hvide blodlegemer, som udgør en del af immunsystemet (kroppens forsvar). Ved multipel 
 sklerose angriber immunsystemet det beskyttende lag rundt om nerveceller. B-celler er involverede i 
 denne proces. Kesimpta angriber B-cellerne og fjerner dem, og nedsætter dermed risikoen for at få et 
-attak, lindrer symptomer og sinker sygdomsudviklingen. </p>         </div>"""   
+attak, lindrer symptomer og sinker sygdomsudviklingen. </p> </div>"""   
           
 
              
@@ -543,7 +549,7 @@ Kesimpta i graviditeten (se "Advarsler og forsigtighedsregler" ovenfor). </p>
 Kesimpta påvirker sandsynligvis ikke din evne til at føre motorkøretøj og betjene maskiner. </p>
 <p>Kesimpta indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kesimpta"
@@ -601,7 +607,7 @@ Du må ikke stoppe med at bruge Kesimpta eller ændre din dosis uden at tale med
 behandlingen med Kesimpta, stiger niveauet af B-celler i blodet gradvist til det normale niveau. Det 
 kan tage flere måneder. I denne periode kan du stadig få visse af de bivirkninger, der er beskrevet i 
 denne indlægsseddel. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -631,7 +637,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem angivet i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kesimpta"
@@ -648,7 +654,7 @@ stuetemperatur (ikke over 30 °C). Hvis Kesimpta ikke er blevet brugt i denne pe
 derefter lægges tilbage i køleskabet i højst 7 dage. </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at opløsningen indeholder synlige partikler eller er uklar. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -914,7 +920,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

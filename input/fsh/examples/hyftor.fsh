@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Hyftor  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ or size of angiofibromas. </p>
 face resulting from tuberous sclerosis complex. Tuberous sclerosis complex is a rare genetic disease 
 causing non-cancerous tumours to grow in different organs of the body, including the brain and skin. 
 The disease causes facial angiofibromas, non-cancerous lesions (growths) of the skin and mucous 
-membranes (moist body surfaces, such as the lining of the mouth) in the face, in many patients.  </p>         </div>"""   
+membranes (moist body surfaces, such as the lining of the mouth) in the face, in many patients.  </p> </div>"""   
           
 
              
@@ -123,7 +126,7 @@ your doctor or pharmacist for advice before using this medicine. </p>
 This medicine is not expected to affect the ability to drive or use machines. </p>
 <p>Hyftor contains alcohol 
 This medicine contains 458 mg alcohol (ethanol) in each gram. It may cause a burning sensation when 
-applied to damaged skin. </p>         </div>"""   
+applied to damaged skin. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hyftor"
@@ -161,7 +164,7 @@ apply more gel to make up for a missed dose. </p>
 <p>If you stop using Hyftor 
 Your doctor will tell you how long you should use Hyftor and when you can stop treatment. Do not 
 stop using it without consulting your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -211,7 +214,7 @@ skin), solar dermatitis (inflammation of the skin after exposure to sunlight)
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hyftor"
@@ -226,7 +229,7 @@ Store in the original tube in order to protect from light.
 Keep away from fire. </p>
 <p>Throw away the tube and any remaining gel 4 weeks after opening. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -253,7 +256,7 @@ Germany </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
+http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p> </div>"""      
 
 
 
@@ -292,7 +295,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -301,7 +306,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -316,7 +322,7 @@ Usage: #inline
 3. Sådan skal du bruge Hyftor 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -333,7 +339,7 @@ eller størrelsen af angiofibromer. </p>
 ansigtet som følge af tuberøs sklerosekompleks. Tuberøs sklerosekompleks er en sjælden genetisk 
 sygdom, der får svulster uden kræft til at vokse i forskellige organer i kroppen, herunder hjernen og 
 huden. Sygdommen forårsager faciale angiofibromer, læsioner (vækst) uden kræft i huden og 
-slimhinderne (fugtige kropsoverflader, såsom mundslimhinden) i ansigtet hos mange patienter. </p>         </div>"""   
+slimhinderne (fugtige kropsoverflader, såsom mundslimhinden) i ansigtet hos mange patienter. </p> </div>"""   
           
 
              
@@ -380,7 +386,7 @@ du spørge din læge eller apotekspersonalet til råds, før du bruger dette læ
 Dette lægemiddel forventes ikke at påvirke din evne til at føre køretøj eller betjene maskiner. </p>
 <p>Hyftor indeholder alkohol 
 Dette lægemiddel indeholder 458 mg alkohol (ethanol) pr. gram. Det kan forårsage en brændende 
-fornemmelse på skadet hud. </p>         </div>"""   
+fornemmelse på skadet hud. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hyftor"
@@ -424,7 +430,7 @@ over. Du må ikke påføre mere gel som erstatning for en glemt dosis. </p>
 <p>Hvis du holder op med at bruge Hyftor 
 Din læge vil fortælle dig, hvor længe du skal bruge Hyftor, og hvornår du kan holde op med 
 behandlingen. Du må ikke holde op med at bruge det uden at kontakte din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -537,7 +543,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hyftor"
@@ -552,7 +558,7 @@ Opbevares i den originale tube for at beskytte mod lys.
 Holdes væk fra åben ild. </p>
 <p>Bortskaf tuben og al resterende gel 4 uger efter anbrud. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -587,7 +593,7 @@ Tyskland </p>
 Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -626,7 +632,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -635,7 +643,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -650,7 +659,7 @@ Usage: #inline
 3. Como utilizar Hyftor 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Hyftor 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -668,7 +677,7 @@ angiofibroma na face resultante do complexo de esclerose tuberosa. O complexo de
 é uma doença genética rara que causa o crescimento de tumores não cancerosos em diferentes órgãos 
 do corpo, incluindo o cérebro e a pele. A doença causa angiofibromas faciais, que são lesões 
 (crescimentos) não cancerosas na pele e nas membranas mucosas (superfícies húmidas do corpo, tais 
-como o revestimento da boca) na face, em muitos doentes. </p>         </div>"""   
+como o revestimento da boca) na face, em muitos doentes. </p> </div>"""   
           
 
              
@@ -719,7 +728,7 @@ ou farmacêutico antes de utilizar este medicamento. </p>
 Não se prevê que este medicamento afete a capacidade de conduzir e utilizar máquinas. </p>
 <p>Hyftor contém álcool 
 Este medicamento contém 458 mg de álcool (etanol) em cada grama. Pode causar sensação de 
-queimadura na pele lesionada. </p>         </div>"""   
+queimadura na pele lesionada. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar hyftor"
@@ -766,7 +775,7 @@ compensar uma dose que se esqueceu de utilizar. </p>
 O seu médico vai dizer-lhe durante quanto tempo deve utilizar Hyftor e quando pode parar o 
 tratamento. Não pare de o utilizar sem falar primeiro com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -880,7 +889,7 @@ e a descamar), dermatite solar (inflamação da pele após a exposição à luz 
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar hyftor"
@@ -896,7 +905,7 @@ Manter afastado do fogo. </p>
 <p>Deitar fora a bisnaga e o gel restante 4 semanas após a abertura. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -928,7 +937,7 @@ Donnersbergstraße 4
 Alemanha </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store MEPACT </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 certain bacteria. It stimulates your immune system to help your body kill tumour cells. </p>
 <p>MEPACT is used to treat osteosarcoma (bone cancer) in children, adolescents and young adults 
 (between 2 and 30 years). It is used after you have had surgery to remove the tumour and together 
-with chemotherapy to kill remaining cancer cells to reduce the risk of cancer coming back. </p>         </div>"""   
+with chemotherapy to kill remaining cancer cells to reduce the risk of cancer coming back. </p> </div>"""   
           
 
              
@@ -149,7 +152,7 @@ Some very common and common side effects of MEPACT treatment (such as dizziness,
 fatigue and blurred vision) may affect your ability to drive and use machines. </p>
 <p>MEPACT contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mepact"
@@ -180,7 +183,7 @@ your doctor or nearest hospital. </p>
 <p>If you stop using MEPACT 
 You should not stop treatment with MEPACT before finishing the course of treatment without 
 discussing with your doctor first. If you have any further questions on the use of this medicine, ask 
-your doctor. </p>         </div>"""         
+your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -264,7 +267,7 @@ bladder infection) </li>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mepact"
@@ -281,7 +284,7 @@ Keep the vial in outer carton in order to protect from light. </p>
 Once reconstituted in sodium chloride 9 mg/mL (0.9%) solution, store at room temperature 
 (approximately 20 C - 25 C) and use within 6 hours. 
 Do not use this medicine if you notice any visible signs of deterioration. 
-Do not throw away any medicines via wastewater. These measures will help protect the environment. </p>         </div>"""      
+Do not throw away any medicines via wastewater. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -476,7 +479,7 @@ temperature (between approximately 20  C-25  C). </li>
 immediately, in-use storage times and conditions prior to use are the responsibility of the 
 user and would normally not be longer than 6 hours at room temperature. </li>
 </ol>
-<p>No special requirements for disposal. </p>         </div>"""      
+<p>No special requirements for disposal. </p> </div>"""      
 
 
 
@@ -515,7 +518,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -524,7 +529,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -539,7 +545,7 @@ Usage: #inline
 3. Sådan skal du bruge MEPACT 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -552,7 +558,7 @@ bakterier. Det stimulerer dit immunsystem og hjælper dermed din krop med at dr�
 <p>MEPACT anvendes til at behandle osteosarkom (knoglecancer) hos børn, unge under 18 år og 
 unge voksne (mellem 2 og 30 år). Det anvendes sammen med kemoterapi, efter du har fået fjernet 
 svulsten, for at dræbe de resterende cancerceller og nedsætte risikoen for, at canceren kommer 
-tilbage. </p>         </div>"""   
+tilbage. </p> </div>"""   
           
 
              
@@ -626,7 +632,7 @@ MEPACT-behandlingen giver i mange tilfælde bivirkninger (som svimmelhed, træth
 syn), som kan påvirke arbejdssikkerheden og evnen til at færdes sikkert i trafikken. </p>
 <p>MEPACT indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) pr. dosisenhed, hvilket vil sige, at 
-det faktisk er "natrium-frit". </p>         </div>"""   
+det faktisk er "natrium-frit". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mepact"
@@ -654,7 +660,7 @@ kvalme, opkastning, hovedpine og for højt eller for lavt blodtryk. Kontakt din 
 skadestuen, hvis du mener, du har fået en overdosis. </p>
 <p>Hvis du holder op med at bruge MEPACT 
 Du bør ikke stoppe behandlingen med MEPACT, før du har afsluttet behandlingsforløbet, uden at 
-drøfte det med lægen først. Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+drøfte det med lægen først. Spørg lægen, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -741,7 +747,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mepact"
@@ -758,7 +764,7 @@ Opbevar hætteglasset i den ydre karton, da det er følsomt for lys. </p>
 Efter opløsning i en natriumkloridopløsning på 9 mg/ml (0,9 %) opbevares blandingen ved 
 stuetemperatur (ca. 20 ºC - 25 ºC) og anvendes inden for 6 timer. 
 Brug ikke lægemidlet, hvis du ser synlige tegn på nedbrydning. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet. </p>         </div>"""      
+smide medicinrester i afløbet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -973,7 +979,7 @@ ca. 20 C - 25 °C).  </li>
 anvendes straks, er opbevaringstid og -forhold forud for anvendelse brugerens ansvar og vil 
 normalt ikke være længere end 6 timer ved stuetemperatur. </li>
 </ol>
-<p>Ingen særlige forholdsregler for bortskaffelse. </p>         </div>"""      
+<p>Ingen særlige forholdsregler for bortskaffelse. </p> </div>"""      
 
 
 

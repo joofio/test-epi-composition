@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Zilbrysq </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ system produces antibodies against a protein called the acetylcholine receptor, 
 In patients with gMG, the muscles can be attacked and damaged by the immune system, which can 
 lead to profound muscle weakness, impaired mobility, shortness of breath, extreme tiredness, 
 difficulties swallowing and markedly impaired activities of daily living.  </p>
-<p>Zilbrysq can reduce symptoms of the disease and improve the quality of life. </p>         </div>"""   
+<p>Zilbrysq can reduce symptoms of the disease and improve the quality of life. </p> </div>"""   
           
 
              
@@ -150,7 +153,7 @@ taking into account the benefit of breastfeeding for the child and the benefit o
 Zilbrysq is not likely to affect your ability to drive or use machines. </p>
 <p>Zilbrysq contains sodium 
 This medicine contains less than 23 mg of sodium per pre-filled syringe, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zilbrysq"
@@ -203,7 +206,7 @@ dose per day. </p>
 Interrupting or stopping treatment with Zilbrysq may cause your symptoms to come back. Please speak 
 to your doctor before stopping Zilbrysq. Your doctor will discuss the possible side effects and risks 
 with you. Your doctor may also want to monitor you closely. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -226,7 +229,7 @@ Morphoea (condition that causes localized discolored and hardened areas of the s
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zilbrysq"
@@ -244,7 +247,7 @@ for only one single period of up to 3 months. Once Zilbrysq has been removed fro
 should not be placed back into the refrigerator. The product must be discarded if not used within 
 3 months or when the expiry date is reached, whichever occurs first. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ Tel: + 371 67 370 United Kingdom (Northern Ireland)
 UCB (Pharma) Ireland Ltd.<br />
 Tel : + 353 / (0)1-46 37 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -378,7 +381,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -387,7 +392,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -404,7 +410,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -423,7 +429,7 @@ kaldet acetylcholinreceptoren, der sidder på muskelceller. Hos patienter med gM
 angribes og beskadiges af immunsystemet, hvilket kan føre til udtalt muskelsvækkelse, nedsat 
 mobilitet, åndenød, ekstrem træthed, synkebesvær og markant svækkelse i udførelse af dagligdags 
 aktiviteter.  </p>
-<p>Zilbrysq kan reducere symptomerne på sygdommen og forbedre livskvaliteten. </p>         </div>"""   
+<p>Zilbrysq kan reducere symptomerne på sygdommen og forbedre livskvaliteten. </p> </div>"""   
           
 
              
@@ -492,7 +498,7 @@ kvinden. </p>
 Zilbrysq vil sandsynligvis ikke påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Zilbrysq indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. fyldt injektionssprøjte, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take zilbrysq"
@@ -545,7 +551,7 @@ den næste dag. Du må ikke indgive mere end én dosis pr. dag. </p>
 Afbrydelse af eller ophør med behandlingen med Zilbrysq kan få dine symptomer til at vende tilbage. 
 Tal med din læge, før du holder op med at bruge Zilbrysq. Din læge vil drøfte de mulige bivirkninger 
 og risici med dig. Din læge vil muligvis også overvåge dig nøje. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -568,7 +574,7 @@ Hvis du oplever bivirkninger, bør du tale med lægen, apotekspersonalet eller s
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store zilbrysq"
@@ -586,7 +592,7 @@ ved temperaturer på op til 30 °C i en enkelt periode på op til 3 måneder. N�
 køleskabet, må den ikke sættes tilbage i køleskabet. Produktet skal kasseres, hvis det ikke anvendes 
 inden for 3 måneder eller inden udløbsdatoen, alt efter hvad der indtræffer først. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -907,7 +913,7 @@ Gnid ikke på injektionsstedet. Du kan bløde lidt, det er normalt. Sæt et plas
 nødvendigt. </p>
 <p>Trin 4: </p>
 <p>Kassér den brugte sprøjte i en beholder til skarpe genstande med det samme. </p>
-<p>Opbevar altid beholderen til skarpe genstande utilgængeligt for børn. </p>         </div>"""      
+<p>Opbevar altid beholderen til skarpe genstande utilgængeligt for børn. </p> </div>"""      
 
 
 
@@ -946,7 +952,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -955,7 +963,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -972,7 +981,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Zilbrysq </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -992,7 +1001,7 @@ acetilcolina, localizada nas células musculares. Em doentes com MGg, os múscul
 atacados e danificados pelo sistema imunitário, o que pode levar a fraqueza muscular profunda, 
 mobilidade comprometida, falta de ar, cansaço extremo, dificuldades em engolir e diminuição 
 acentuada das atividades da vida quotidiana.  </p>
-<p>Zilbrysq pode reduzir os sintomas da doença e melhorar a qualidade de vida. </p>         </div>"""   
+<p>Zilbrysq pode reduzir os sintomas da doença e melhorar a qualidade de vida. </p> </div>"""   
           
 
              
@@ -1062,7 +1071,7 @@ para a mulher. </p>
 Não é provável que Zilbrysq afete a sua capacidade de conduzir ou utilizar máquinas. </p>
 <p>Zilbrysq contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por seringa pré-cheia ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar zilbrysq"
@@ -1119,7 +1128,7 @@ Interromper ou parar o tratamento com Zilbrysq pode provocar o reaparecimento do
 Fale com o seu médico antes de parar de utilizar Zilbrysq. O seu médico irá discutir consigo os efeitos 
 indesejáveis possíveis e os riscos. O seu médico poderá também querer monitorizá-lo de perto. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1143,7 +1152,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar zilbrysq"
@@ -1161,7 +1170,7 @@ ser colocado novamente no frigorífico. O produto tem de ser eliminado se não f
 de 3 meses, ou quando a data de validade for atingida, o que ocorrer primeiro. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1284,7 +1293,7 @@ UCB (Pharma) Ireland Ltd.<br />
 Tel : + 353 / (0)1-46 37  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

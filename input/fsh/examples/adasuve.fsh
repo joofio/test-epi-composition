@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store ADASUVE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ beliefs, incoherent speech and behaviour and emotional flatness. People with thi
 also feel depressed, guilty, anxious or tense. </li>
 <li>(Bipolar disorder) Feeling  high , having excessive amounts of energy, needing much less sleep 
 than usual, talking very quickly with racing ideas, and sometimes severe irritability. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -155,7 +158,7 @@ any of these symptoms you may need to contact your doctor. </p>
 <p>Driving and using machines 
 Do not drive or use any tools or machines after using ADASUVE until you know how ADASUVE 
 affects you since dizziness, sedation, and sleepiness have been reported as a potential side effect of 
-ADASUVE. </p>         </div>"""   
+ADASUVE. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adasuve"
@@ -177,7 +180,7 @@ nurse of your concern. Patients who have been given more ADASUVE than they shoul
 experience any of the following symptoms: extreme tiredness or sleepiness, trouble breathing, low 
 blood pressure, throat irritation or a bad taste in the mouth, muscle or eye movements you can t 
 control.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -209,7 +212,7 @@ pressure, blurred vision, dry eyes, and decreased urination.  </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adasuve"
@@ -223,7 +226,7 @@ refers to the last day of that month. </p>
 <p>Do not use ADASUVE if you notice an open or torn pouch or any signs of physical damage to the 
 medicine. </p>
 <p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ Tel: +34 93 600 37 Latvija<br />
 AOP Orphan Pharmaceuticals GmbH 
 Tel +370 672 12This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -351,7 +354,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -360,7 +365,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -377,7 +383,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -401,7 +407,7 @@ Sygdommen kan desuden bevirke, at man føler sig nedtrykt, skyldig, bekymret ell
 <p>(bipolar sygdom) følelse af at være “høj", meget energisk, med mindre søvnbehov end normalt, 
 taler meget hurtigt med hurtige indskydelser og undertiden stærk irritabilitet. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -524,7 +530,7 @@ nogen af disse symptomer, kan det være nødvendigt at kontakte lægen. </p>
 <p>Trafik- og arbejdssikkerhed 
 Undgå at føre motorkøretøj eller bruge værktøj eller maskiner efter at have fået ADASUVE, før du 
 ved, hvordan ADASUVE påvirker dig, da svimmelhed, sløvhed og søvnighed er indberettet som 
-mulige bivirkninger af ADASUVE.  </p>         </div>"""   
+mulige bivirkninger af ADASUVE.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take adasuve"
@@ -545,7 +551,7 @@ lægemidlet gennem inhalatoren og derefter holde vejret et øjeblik.  </p>
 mener er nødvendigt. Hvis man har fået for meget ADASUVE, kan det give et eller flere af følgende 
 symptomer: ekstrem træthed eller søvnighed, vejrtrækningsbesvær, lavt blodtryk, irritation i halsen 
 eller ubehagelig smag i munden eller ukontrollerede muskel- eller øjenbevægelser.  </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -588,7 +594,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store adasuve"
@@ -602,7 +608,7 @@ nævnte måned. </p>
 <p>Brug ikke ADASUVE, hvis posen er åben eller flænget, eller hvis der er tegn på fysisk beskadigelse af 
 lægemidlet.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -776,7 +782,7 @@ indeholder vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen eller sundhedspersonalet, hvis der er mere, du vil vide.<br />
 - Hvis du får bivirkninger, skal du sige det til lægen eller sygeplejersken. Dette gælder også 
-bivirkninger, der ikke fremgår af denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, der ikke fremgår af denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

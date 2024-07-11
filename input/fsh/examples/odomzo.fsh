@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Odomzo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ cancer has spread locally and cannot be treated with surgery or radiation. </p>
 <p>The normal growth of cells is controlled by various chemical signals. In patients with basal cell carcinoma, 
 changes occur to genes controlling a part of this process known as the  hedgehog pathway . This switches on 
 signals that make the cancer cells grow out of control. Odomzo works by blocking this process, stopping 
-cancer cells from growing and making new cells. </p>         </div>"""   
+cancer cells from growing and making new cells. </p> </div>"""   
           
 
              
@@ -209,7 +212,7 @@ Odomzo is not likely to affect your ability to drive or use any tools or machine
 are unsure. </p>
 <p>Odomzo contains lactose 
 Odomzo contains lactose (milk sugar). If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+some sugars, contact your doctor before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take odomzo"
@@ -240,7 +243,7 @@ the dose was due to be taken, skip the missed dose, then take the next dose at t
 a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Odomzo 
 Do not stop taking Odomzo without talking to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ function)
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store odomzo"
@@ -314,7 +317,7 @@ The expiry date refers to the last day of that month. </li>
 <li>Store in the original package in order to protect from moisture. </li>
 <li>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -404,7 +407,7 @@ Tel: +31 23 568 55 United Kingdom (Northern Ireland)
 Ranbaxy UK Ltd 
 Tel: +44 (0) 208 848 8This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -443,7 +446,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -452,7 +457,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -469,7 +475,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -486,7 +492,7 @@ kræften har spredt sig lokalt og ikke kan behandles med operation eller stråle
 Den normale udvikling af celler kontrolleres af forskellige kemiske signaler. Hos patienter med 
 basalcellecarcinom opstår der forandringer i genet, der kontrollerer en del af denne proces kaldet "hedgehog-
 vejen". Dette aktiverer signalet, som får kræftceller til at vokse ude af kontrol. Odomzo virker ved at blokere 
-denne proces, og dermed forhindre kræftceller i at vokse og dele sig. </p>         </div>"""   
+denne proces, og dermed forhindre kræftceller i at vokse og dele sig. </p> </div>"""   
           
 
              
@@ -682,7 +688,7 @@ Det er ikke sandsynligt, at Odomzo vil påvirke din evne til at køre bil eller 
 Tal med din læge, hvis du er i tvivl. </p>
 <p>Odomzo indeholder lactose 
 Odomzo indeholder lactose (mælkesukker). Kontakt lægen, før du tager denne medicin, hvis lægen har 
-fortalt dig, at du ikke tåler visse sukkerarter. </p>         </div>"""   
+fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take odomzo"
@@ -721,7 +727,7 @@ er mere end seks timer efter, at du skulle have taget din dosis, skal du springe
 den næste dosis som planlagt. Du må ikke tage en dobbeltdosis som erstatning for den glemte kapsel. </p>
 <p>Hvis du holder op med at tage Odomzo 
 Du må ikke holde op med at tage Odomzo uden først at tale med din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -849,7 +855,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. 
 Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af 
-dette lægemiddel. </p>         </div>"""      
+dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store odomzo"
@@ -874,7 +880,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1002,7 +1008,7 @@ udleveret: </p>
 <p>Et patientkort </p>
 </li>
 </ul>
-<p>Se disse dokumenter for yderligere oplysninger. </p>         </div>"""      
+<p>Se disse dokumenter for yderligere oplysninger. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>CEVENFACTA Instructions For Use </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store CEVENFACTA  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +84,7 @@ haemophilia A or B and who have developed inhibitors (antibodies). It is used fo
 <p>the management of bleeding during surgery. </p>
 <p>How CEVENFACTA works 
 This medicine works by making the blood clot at the site of bleeding, when the body s own clotting 
-factors are not working. </p>         </div>"""   
+factors are not working. </p> </div>"""   
           
 
              
@@ -145,7 +147,7 @@ Dizziness might occur following administration of CEVENFACTA. You must avoid dri
 machines while experiencing this symptom. </p>
 <p>CEVENFACTA contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per injection, that is to say essentially 
- sodium free . </p>         </div>"""   
+ sodium free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cevenfacta"
@@ -204,7 +206,7 @@ administration, follow the Instructions For Use guide at the end of this leaflet
 If you use too much CEVENFACTA, get medical advice at once. </p>
 <p>If you forget to use CEVENFACTA,<br />
 If you forget to use CEVENFACTA, talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -225,7 +227,7 @@ If you forget to use CEVENFACTA, talk to your doctor. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cevenfacta"
@@ -243,7 +245,7 @@ Do not freeze. </p>
 Any unused solution should be thrown away 4 hours after reconstitution. 
 Do not use this medicine if you notice the liquid has particles or is cloudy after mixing. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -289,7 +291,7 @@ France
 Authorisation Holder. </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -328,7 +330,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -339,7 +343,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugsanvisning til CEVENFACTA </li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -356,7 +360,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -374,7 +378,7 @@ som har udviklet inhibitorer (antistoffer). Det bruges til:</p>
 </ul>
 <p>Sådan virker CEVENFACTA 
 Lægemidlet virker ved at få blodet til at koagulere på blødningsstedet, når kroppens egne 
-koagulationsfaktorer ikke virker. </p>         </div>"""   
+koagulationsfaktorer ikke virker. </p> </div>"""   
           
 
              
@@ -442,7 +446,7 @@ Der kan opstå svimmelhed efter administration af CEVENFACTA. Du bør undlade at
 bruge maskiner, når du oplever dette symptom. </p>
 <p>CEVENFACTA indeholder natrium<br />
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. injektion, dvs. at det i det 
-væsentlige er natriumfrit. </p>         </div>"""   
+væsentlige er natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cevenfacta"
@@ -503,7 +507,7 @@ Brugsanvisningen i slutningen af indlægssedlen (punkt 7). </p>
 Hvis du har brugt for meget CEVENFACTA, skal du straks søge lægehjælp. </p>
 <p>Hvis du har glemt at bruge CEVENFACTA<br />
 Hvis du har glemt at bruge CEVENFACTA, skal du tale med din læge. </p>
-<p>Spørg lægen, hvis der er noget du er i tvivl om vedrørende dette lægemiddel. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget du er i tvivl om vedrørende dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -542,7 +546,7 @@ Hvis du oplever bivirkninger, bør dutale med din læge, apotekspersonaleteller 
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cevenfacta"
@@ -560,7 +564,7 @@ Må ikke nedfryses. </p>
 Eventuel ubrugt opløsning skal smides ud 4 timer efter rekonstitution. 
 Brug ikke dette lægemiddel, hvis der er partikler i væsken, eller hvis væsken er uklar efter blanding. </p>
 <p>Du må ikke smide medicinrester i afløbet eller skraldespanden. Spørg apotekspersonalet, hvordan du 
-skal bortskaffe medicinrester. Disse foranstaltninger er vigtige af hensyn til miljøet. </p>         </div>"""      
+skal bortskaffe medicinrester. Disse foranstaltninger er vigtige af hensyn til miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -782,7 +786,7 @@ SKARPE GENSTANDE </p>
 <p>CEVENFACTA er udelukkende beregnet til injektion i en vene (intravenøs administration). Det 
 må ikke injiceres på nogen anden måde end under huden (subkutant) eller i en muskel 
 (intramuskulært). 
-Kontakt din læge, sygeplejerske eller apotek, hvis der opstår problemer. </p>         </div>"""      
+Kontakt din læge, sygeplejerske eller apotek, hvis der opstår problemer. </p> </div>"""      
 
 
 

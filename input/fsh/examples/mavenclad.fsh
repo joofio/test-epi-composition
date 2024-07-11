@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store MAVENCLAD </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ mostly on lymphocytes, cells of the immune system that are involved in inflammat
 <p>MAVENCLAD is a medicine used to treat multiple sclerosis (MS) in adults. MS is a disease in 
 which inflammation destroys the protective sheath around the nerves. </p>
 <p>Treatment with MAVENCLAD has been shown to reduce flare-ups of symptoms and to slow down 
-progression of disability. </p>         </div>"""   
+progression of disability. </p> </div>"""   
           
 
              
@@ -238,7 +241,7 @@ week after the last dose. </p>
 <p>Driving and using machines </p>
 <p>MAVENCLAD is not expected to affect your ability to drive or use machines. </p>
 <p>MAVENCLAD contains sorbitol </p>
-<p>This medicine contains 64 mg sorbitol in each tablet. </p>         </div>"""   
+<p>This medicine contains 64 mg sorbitol in each tablet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mavenclad"
@@ -418,7 +421,7 @@ number of days in that treatment week. </p>
 on Day 4, and extend the total number of days in the treatment week by 1 day. If you miss 
 2 consecutive doses (for example both Day 3 and Day 4 doses), take the missed doses for the next 
 2 days, and then extend the treatment week by 2 days. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -455,7 +458,7 @@ MAVENCLAD treatment may need to be stopped or interrupted. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mavenclad"
@@ -467,7 +470,7 @@ this medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -501,7 +504,7 @@ Pol gono Merck
 Spain </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -540,7 +543,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -549,7 +554,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -564,7 +570,7 @@ Usage: #inline
 3. Sådan skal du tage MAVENCLAD 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -577,7 +583,7 @@ hovedsageligt virker på lymfocytterne, celler i immunsystemet, der er involvere
 <p>MAVENCLAD er et lægemiddel, anvendes til at behandle multipel sklerose (MS) hos voksne. MS er 
 en sygdom, der ødelægger beskyttelseslaget rundt om nerverne. </p>
 <p>Behandling med MAVENCLAD er påvist at nedsætte opblussen af symptomer og forsinke 
-forværringen af sygdommen. </p>         </div>"""   
+forværringen af sygdommen. </p> </div>"""   
           
 
              
@@ -738,7 +744,7 @@ sidste dosis. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>MAVENCLAD forventes ikke at påvirke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>MAVENCLAD indeholder sorbitol </p>
-<p>Dette lægemiddel indeholder 64 mg sorbitol pr. tablet. </p>         </div>"""   
+<p>Dette lægemiddel indeholder 64 mg sorbitol pr. tablet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mavenclad"
@@ -922,7 +928,7 @@ antallet af dage i behandlingsugen. </p>
 for Dag 3 på Dag 4, og forlænge antallet af dage i behandlingsugen med 1 dag. Hvis du glemmer 2 på 
 hinanden følgende doser (f.eks. både doserne for Dag 3 og Dag 4), skal du tage de glemte doser de 
 næste 2 dage, og derved forlænge behandlingsugen med 2 dage. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -960,7 +966,7 @@ eller afbryde behandlingen med MAVENCLAD. </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mavenclad"
@@ -972,7 +978,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Opbevares i den originale yderpakning for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1051,7 +1057,7 @@ kropsdele. </p>
 </li>
 </ol>
 <p>Opbevar tabletterne i blisteren indtil din næste dosis. Tryk ikke tabletterne ud af blisteren. Opbevar 
-ikke tabletterne i en anden beholder. </p>         </div>"""      
+ikke tabletterne i en anden beholder. </p> </div>"""      
 
 
 

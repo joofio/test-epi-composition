@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tybost </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ adolescents aged 12 years and older:
 their effect (see section 3 of this leaflet). </p>
 <p>Tybost does not directly treat your HIV, but boosts the levels of atazanavir and darunavir in the 
 blood.  It does this by slowing down the breakdown of atazanavir and darunavir which will make them 
-stay in the body for longer. </p>         </div>"""   
+stay in the body for longer. </p> </div>"""   
           
 
              
@@ -226,7 +229,7 @@ affected while taking Tybost, do not drive and do not use any tools or machines.
 yellow FCF which may cause allergic reactions. </p>
 <p>Tybost contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tybost"
@@ -272,7 +275,7 @@ Wait and take the next dose, with food, at your usual time. </p>
 darunavir may reduce the success of future treatments prescribed by your doctor. </p>
 <p>Always keep enough Tybost so you don t run out.  When your supply of Tybost starts to run low, 
 get more from your doctor or pharmacist. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -314,7 +317,7 @@ effects not listed in this leaflet.  You can also report side effects directly v
 system listed in Appendix V.  By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>
 <p>For more information on the side effects of atazanavir or darunavir see the package leaflets for these 
-medicines. </p>         </div>"""      
+medicines. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tybost"
@@ -326,7 +329,7 @@ medicines. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste.  Ask your pharmacist how to 
-throw away medicines you no longer use.  These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use.  These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -425,7 +428,7 @@ Gilead Sciences Ireland UC
 Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113 This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -464,7 +467,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -473,7 +478,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -490,7 +496,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -514,7 +520,7 @@ erhvervet immundefektsyndrom (aids). Det anvendes hos hiv-1 inficerede voksne og
 proteasehæmmere) for at hjælpe med at forbedre deres virkning (se afsnit 3 i denne indlægsseddel). </p>
 <p>Tybost behandler ikke Deres hiv direkte, men forhøjer niveauer af atazanavir og darunavir i 
 blodet. Tybost gør dette ved at sænke nedbrydningshastigheden af atazanavir og darunavir, hvilket vil 
-få dem til at forblive i kroppen i længere tid. </p>         </div>"""   
+få dem til at forblive i kroppen i længere tid. </p> </div>"""   
           
 
              
@@ -723,7 +729,7 @@ betjene værktøjer eller maskiner. </p>
 yellow FCF, som kan forårsage allergiske reaktioner. </p>
 <p>Tybost indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tybost"
@@ -782,7 +788,7 @@ Tybost samt atazanavir eller darunavir, kan det nedsætte, hvor vellykkede fremt
 ordineret af Deres læge, bliver. </p>
 <p>Opbevar altid nok Tybost, så du ikke løber tør. Når De snart ikke har mere af Tybost, skal De bede 
 om mere fra lægen eller på apoteket. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -861,7 +867,7 @@ kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det natio
 anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel. </p>
 <p>For yderligere oplysninger om bivirkninger ved atazanavir eller darunavir, se disse lægemidlers 
-indlægssedler. </p>         </div>"""      
+indlægssedler. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tybost"
@@ -873,7 +879,7 @@ indlægssedler. </p>         </div>"""
 sidste dag i den nævnte måned.  </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1002,7 +1008,7 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113  </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>De kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -1041,7 +1047,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1050,7 +1058,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1067,7 +1076,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tybost </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1091,7 +1100,7 @@ adolescentes com idade igual ou superior a 12 anos: </p>
 (ambos inibidores da protéase), para ajudar a melhorar o efeito destes (ver secção 3 deste folheto). </p>
 <p>Tybost não trata o seu VIH diretamente, mas potencia os níveis de atazanavir e de darunavir no 
 sangue. Consegue fazê-lo atrasando a degradação de atazanavir e de darunavir, fazendo com que 
-permaneçam mais tempo no corpo. </p>         </div>"""   
+permaneçam mais tempo no corpo. </p> </div>"""   
           
 
              
@@ -1295,7 +1304,7 @@ sinta afetado enquanto tomar Tybost, não conduza nem utilize quaisquer ferramen
 qual pode causar reações alérgicas. </p>
 <p>Tybost contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tybost"
@@ -1357,7 +1366,7 @@ atazanavir ou darunavir pode diminuir o êxito de tratamentos futuros receitados
 <p>Tenha sempre Tybost suficiente para que não lhe falte. Quando a quantidade de Tybost começar a 
 diminuir, obtenha mais junto do seu médico ou farmacêutico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1437,7 +1446,7 @@ indesejáveis diretamente através do sistema nacional de notificação menciona
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
 medicamento. </p>
 <p>Para obter mais informações sobre os efeitos indesejáveis de atazanavir ou darunavir, consulte o 
-folheto informativo destes medicamentos. </p>         </div>"""      
+folheto informativo destes medicamentos. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tybost"
@@ -1450,7 +1459,7 @@ após {VAL.}. O prazo de validade corresponde ao último dia do mês indicado. <
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1581,7 +1590,7 @@ United Kingdom (Northern Ireland)
 Gilead Sciences Ireland UC 
 Tel: + 44 (0) 8000 113  </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

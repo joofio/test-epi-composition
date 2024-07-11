@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ultomiris </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -109,7 +112,7 @@ the immune system working incorrectly, which can lead to loss of sight in one or
 or loss of movement in the legs or arms, painful spasms, loss of feeling, problems with bladder and 
 bowel function and marked difficulties with activities of daily living. Ultomiris can block the body s 
 abnormal immune response, and its ability to attack and destroy its own optic nerves and spinal cord, 
-which reduces the risk of a relapse or attack of NMOSD. </p>         </div>"""   
+which reduces the risk of a relapse or attack of NMOSD. </p> </div>"""   
           
 
              
@@ -191,7 +194,7 @@ This medicine has no or negligible influence on the ability to drive and use mac
 Once diluted with sodium chloride 9 mg/mL (0.9%) solution for injection, this medicine contains 
 2.65 g sodium (main component of cooking/table salt) in 720 mL at the maximal dose. This is 
 equivalent to 133 % of the recommended maximum daily dietary intake of sodium for an adult. 
-You should take this into consideration if you are on a controlled sodium diet. </p>         </div>"""   
+You should take this into consideration if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ultomiris"
@@ -280,7 +283,7 @@ risks with you. Your doctor will also want to monitor you closely. </p>
 Interrupting or stopping treatment with Ultomiris may cause NMOSD relapse to occur. Please speak to 
 your doctor before stopping Ultomiris. Your doctor will discuss the possible side effects and risks with 
 you. Your doctor will also want to monitor you closely. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -326,7 +329,7 @@ infection symptoms), you should immediately inform your doctor. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine.  </p>         </div>"""      
+safety of this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ultomiris"
@@ -342,7 +345,7 @@ Do not freeze. </p>
 After dilution with sodium chloride 9 mg/mL (0.9 %) solution for injection, the medicine should be 
 used immediately, or within 24 hours if refrigerated or within 6 hours at room temperature. </p>
 <p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
-you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+you no longer use. These measures will help protect the environment.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -435,7 +438,7 @@ Tel: +371 67377United Kingdom (Northern Ireland)
 Alexion Europe SAS 
 Tel: +44 (0) 800 028 4This leaflet was last revised in  </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -474,7 +477,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -483,7 +488,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -498,7 +504,7 @@ Usage: #inline
 3. Sådan skal du bruge Ultomiris 
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -545,7 +551,7 @@ rygmarven af et forkert fungerende immunsystem, hvilket kan medføre synstab på
 følelsesløshed, problemer med blære- og tarmfunktion og markante vanskeligheder ved aktiviteter i 
 hverdagen. Ultomiris kan blokere kroppens unormale immunrespons og dets evne til at angribe og 
 ødelægge kroppens egen synsnerve og rygmarv, hvilket mindsker risikoen for tilbagefald eller anfald 
-af NMOSD. </p>         </div>"""   
+af NMOSD. </p> </div>"""   
           
 
              
@@ -626,7 +632,7 @@ maskiner. </p>
 Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning, indeholder dette 
 lægemiddel 2,65 g natrium (hovedkomponent af madlavnings-/bordsalt) pr. 720 ml ved maksimal 
 dosis. Dette svarer til 133 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. 
-Du bør tage hensyn til dette, hvis du er på en saltfattig diæt. </p>         </div>"""   
+Du bør tage hensyn til dette, hvis du er på en saltfattig diæt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ultomiris"
@@ -717,7 +723,7 @@ bivirkninger og risici. Din læge vil endvidere overvåge dig tæt. </p>
 Hvis din behandling med Ultomiris afbrydes eller stoppes, kan det medføre, at du får tilbagefald af 
 NMOSD. Tal med lægen, før du stopper med Ultomiris. Din læge vil tale med dig om mulige 
 bivirkninger og risici. Din læge vil endvidere overvåge dig tæt. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ultomiris"
@@ -782,7 +788,7 @@ Må ikke nedfryses. </p>
 Efter fortynding med natriumchlorid 9 mg/ml (0,9 %) injektionsvæske, opløsning skal lægemidlet 
 bruges straks eller inden for 24 timer, hvis det er i køleskab, eller inden for 6 timer ved stuetemperatur. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1053,7 +1059,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

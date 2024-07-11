@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store HBVAXPRO 5 micrograms</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ virus.
 It can be expected that hepatitis D will also be prevented by immunisation with HBVAXPRO as hepatitis
 D does not occur in the absence of hepatitis B infection.
 The vaccine will not prevent infection caused by other agents such as hepatitis A, hepatitis C and hepatitis
-E and other pathogens known to infect the liver. </p>         </div>"""   
+E and other pathogens known to infect the liver. </p> </div>"""   
           
 
              
@@ -109,7 +112,7 @@ Ask your doctor, pharmacist or nurse for advice before taking any medicine.
 Driving and using machines 
 HBVAXPRO is expected to have no, or negligible, influence on the ability to drive and use machines.
 HBVAXPRO 5 micrograms contains sodium: This medicinal product contains less than 1 mmol
-sodium (23 mg) per dose, that is to say essentially  sodium- free .</p>         </div>"""   
+sodium (23 mg) per dose, that is to say essentially  sodium- free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hbvaxpro"
@@ -145,7 +148,7 @@ If you or your child miss a scheduled injection, talk to your doctor, pharmacist
 nurse will decide when to give the missed dose.
 If you or your child have any further questions on the use of this product, ask your doctor, pharmacist or
 nurse.</li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -178,7 +181,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in
 Appendix V. By reporting side effects you can help provide more information on the safety of this
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hbvaxpro"
@@ -191,7 +194,7 @@ Store in a refrigerator (2 C - 8 C).
 Do not freeze.
 Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw
-away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -325,7 +328,7 @@ information.
 - Keep this leaflet. You may need to read it again.
 - If you have any further questions, ask your doctor, pharmacist or nurse.
 - If you or your child get any side effects, talk to your doctor, pharmacist or nurse. This includes any
-possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+possible side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -364,7 +367,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -373,7 +378,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -388,7 +394,7 @@ Usage: #inline
 3. Sådan får du eller dit barn HBVAXPRO 5 mikrogram
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -402,7 +408,7 @@ for at blive udsat for hepatitis B-virus.
 Det forventes, at vaccination med HBVAXPRO også vil beskytte mod hepatitis D, idet hepatitis D
 ikke optræder, medmindre hepatitis B infektion også er til stede.
 Vaccinen beskytter ikke mod infektion forårsaget af hepatitis A, hepatitis C og hepatitis E eller andre
-patogener, der inficerer leveren.</p>         </div>"""   
+patogener, der inficerer leveren.</p> </div>"""   
           
 
              
@@ -440,7 +446,7 @@ Det forventes, at HBVAXPRO har ingen eller kun ubetydelig indflydelse på evnen 
 motorkøretøj og betjene maskiner. 
 HBVAXPRO 5 mikrogram indeholder natrium 
 Denne vaccine indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, det vil sige, den er i det
-væsentlige "natriumfri". </p>         </div>"""   
+væsentlige "natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hbvaxpro"
@@ -475,7 +481,7 @@ blodplader) eller risiko for blødning.</li>
 Hvis du eller dit barn har glemt en dosis HBVAXPRO 5 mikrogram 
 Tal med lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn mangler at få en planlagt
 injektion. Lægen eller sygeplejersken bestemmer, hvornår den manglende dosis skal gives.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du eller dit barn er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du eller dit barn er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -511,7 +517,7 @@ sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i 
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger, kan du eller
 dit barn hjælpe med at fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hbvaxpro"
@@ -525,7 +531,7 @@ Må ikke nedfryses.
 Opbevares i den originale yderpakning for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
 smide medicinrester i afløbet, toilettet eller skraldespanden.</p>
-<p>62</p>         </div>"""      
+<p>62</p> </div>"""      
         
         
 * section[=].section[+]
@@ -690,7 +696,7 @@ Gem indlægssedlen. Du kan få brug for at læse den igen.
 - 
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er mere, du vil vide.
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn får bivirkninger,
-herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>         </div>"""      
+herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p> </div>"""      
 
 
 

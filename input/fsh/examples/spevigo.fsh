@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Spevigo</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ pustular psoriasis (GPP). During a flare, patients may experience painful skin b
 suddenly over large areas of the skin. These blisters, also called pustules, are filled with pus. The skin 
 may become red, itchy, dry, cracked or scaly. Patients may also experience more general signs and 
 symptoms, such as fever, headache, extreme tiredness, or a burning sensation of the skin.
-Spevigo improves skin clearance and reduces symptoms of GPP during a flare.</p>         </div>"""   
+Spevigo improves skin clearance and reduces symptoms of GPP during a flare.</p> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ Driving and using machines
 Spevigo is not expected to affect your ability to drive and use machines.
 Spevigo contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spevigo"
@@ -154,7 +157,7 @@ one week after the first.
 If you have any further questions on the use of this medicine, ask your doctor.
 If you are given more Spevigo than you should
 This medicine will be given to you by your doctor or nurse. If you think you have been given too 
-much Spevigo, tell your doctor or nurse straight away.</p>         </div>"""         
+much Spevigo, tell your doctor or nurse straight away.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -189,7 +192,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spevigo"
@@ -202,7 +205,7 @@ expiry date refers to the last day of that month.
 Store in a refrigerator (2  C   8  C) (see information for Healthcare Professionals at the end of this 
 Package leaflet).
 Do not freeze.
-Store in the original package in order to protect from light.</p>         </div>"""      
+Store in the original package in order to protect from light.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -371,7 +374,7 @@ Conclusions presented by the European Medicines Agency on:</p>
 <p>Conditional marketing authorisation
 The CHMP having considered the application is of the opinion that the risk-benefit balance is 
 favourable to recommend the granting of the conditional marketing authorisation as further explained 
-in the European Public Assessment Report.</p>         </div>"""      
+in the European Public Assessment Report.</p> </div>"""      
 
 
 
@@ -410,7 +413,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -419,7 +424,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -434,7 +440,7 @@ Usage: #inline
 3. Sådan får du Spevigo
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -453,7 +459,7 @@ opleve smertefulde blærer, der udvikles pludseligt over store hudområder. Diss
 kaldes pustler, er fyldt med pus. Huden kan blive rød, kløende, tør, sprukket eller afskallende. 
 Patienter kan også opleve mere generelle tegn og symptomer, såsom feber, hovedpine, ekstrem 
 træthed eller en brændende fornemmelse i huden.
-Spevigo får huden til at falde til ro og reducerer symptomerne på GPP under en opblussen.</p>         </div>"""   
+Spevigo får huden til at falde til ro og reducerer symptomerne på GPP under en opblussen.</p> </div>"""   
           
 
              
@@ -520,7 +526,7 @@ Trafik- og arbejdssikkerhed
 Spevigo forventes ikke at påvirke din evne til at føre motorkøretøj og betjene maskiner.
 Spevigo indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spevigo"
@@ -537,7 +543,7 @@ Spevigo en uge efter den første dosis.
 Spørg lægen, hvis der er noget, du er i tvivl om.
 Hvis du har fået for meget Spevigo
 Du vil få dette lægemiddel af lægen eller sygeplejersken. Hvis du mener, at du har fået for meget 
-Spevigo, skal du straks fortælle det til lægen eller sygeplejersken.</p>         </div>"""         
+Spevigo, skal du straks fortælle det til lægen eller sygeplejersken.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -582,7 +588,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spevigo"
@@ -596,7 +602,7 @@ er den sidste dag i den nævnte måned.
 Opbevares i køleskab (2 °C - 8 °C) (Se oplysninger til sundhedspersoner til sidst i denne 
 indlægsseddel).
 Må ikke nedfryses.
-Opbevares i den originale yderpakning for at beskytte mod lys.</p>         </div>"""      
+Opbevares i den originale yderpakning for at beskytte mod lys.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -819,7 +825,7 @@ Konklusioner fremlagt af Det Europæiske Lægemiddelagentur vedrørende:
 Betinget markedsføringstilladelse 
 Efter at have vurderet ansøgningen er CHMP af den opfattelse, at risk/benefit-forholdet er positivt for 
 anbefaling af udstedelse af en betinget markedsføringstilladelse. Dette er beskrevet nærmere i den 
-europæiske offentlige vurderingsrapport.</p>         </div>"""      
+europæiske offentlige vurderingsrapport.</p> </div>"""      
 
 
 

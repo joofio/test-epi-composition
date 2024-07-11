@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store GRANUPAS </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>GRANUPAS contains para-aminosalicylic acid which is used in adults and children aged 28 days and 
 older to treat resistant tuberculosis in combination with other medicines, in cases of resistance or 
-intolerability with other treatments. </p>         </div>"""   
+intolerability with other treatments. </p> </div>"""   
           
 
              
@@ -112,7 +115,7 @@ Do not breastfeed whilst taking GRANUPAS. This is because small amounts of the m
 pass into mother s milk. </p>
 <p>Driving and using machines 
 GRANUPAS is unlikely to affect your ability to drive any vehicle and use machines. 
-In case it does, please report it to your doctor or pharmacist. </p>         </div>"""   
+In case it does, please report it to your doctor or pharmacist. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take granupas"
@@ -153,7 +156,7 @@ Speak to a doctor or pharmacist. </p>
 <p>If you forget to take a dose of GRANUPAS 
 Do not take a double dose to make up for a forgotten dose. Wait until the next dose is due, then take 
 your normal dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ low levels of thyroid hormones, are a very common side effect that may affect mo
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store granupas"
@@ -228,7 +231,7 @@ expiry date refers to the last day of the month. </p>
 purple. </p>
 <p>Do not throw away any medicines via wastewater or household waste.<br />
 Ask your pharmacist how to throw away medicines you no longer use. These measures will help 
-protect the environment. </p>         </div>"""      
+protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -345,7 +348,7 @@ Lucane Pharma
 Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -384,7 +387,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -393,7 +398,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -410,7 +416,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -420,7 +426,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>GRANUPAS indeholder para-aminosalicylsyre, der anvendes i kombination med andre lægemidler 
 hos voksne og børn over 28 dage til behandling af tuberkulose i tilfælde af resistens eller intolerans 
-over for andre behandlinger.  </p>         </div>"""   
+over for andre behandlinger.  </p> </div>"""   
           
 
              
@@ -481,7 +487,7 @@ Du må ikke amme, mens du tager GRANUPAS. Dette skyldes, at små mængder af læ
 over i modermælken.  </p>
 <p>Trafik- og arbejdssikkerhed 
 GRANUPAS forventes ikke at påvirke din evne til at føre køretøj eller betjene maskiner. 
-Hvis det gør, fortæl det venligst til din læge eller på apoteket. </p>         </div>"""   
+Hvis det gør, fortæl det venligst til din læge eller på apoteket. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take granupas"
@@ -544,7 +550,7 @@ Tal med lægen eller apotekspersonalet.  </p>
 <p>Hvis du har glemt at tage en dosis GRANUPAS 
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. Vent, til du skal have næste 
 dosis, og tag så den normale dosis. 
-Spørg lægen eller på apoteket, hvis der er mere, du vil vide om brugen af lægemidlet. </p>         </div>"""         
+Spørg lægen eller på apoteket, hvis der er mere, du vil vide om brugen af lægemidlet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -676,7 +682,7 @@ af skjoldbruskkirtlens funktion er indiceret hos personer, som lever med HIV. </
 Hvis du oplever bivirkninger, skal du sige det til lægen eller på apoteket. Dette gælder også 
 bivirkninger, der ikke fremgår af denne indlægsseddel. Du kan desuden indberette bivirkninger direkte 
 til Sundhedsstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at indberette 
-bivirkninger kan du medvirke til at skaffe flere oplysninger om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+bivirkninger kan du medvirke til at skaffe flere oplysninger om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store granupas"
@@ -691,7 +697,7 @@ efter at de er åbnet.  </p>
 <p>Brug ikke lægemidlet, hvis du bemærker, at brevene er opsvulmede, eller hvis granulatet er 
 mørkebrunt eller violet. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, eller toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, eller toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -813,7 +819,7 @@ Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside: http://www.ema.europa.eu. 
-Der er også links til andre hjemmesider om sjældne sygdomme og om, hvordan de behandles. </p>         </div>"""      
+Der er også links til andre hjemmesider om sjældne sygdomme og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -852,7 +858,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -861,7 +869,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -878,7 +887,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar GRANUPAS </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -888,7 +897,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>O GRANUPAS contém ácido para-aminossalicílico que é utilizado em adultos e crianças com idade 
 igual ou superior a 28 dias no tratamento da tuberculose resistente em associação com outros 
-medicamentos, nos casos de resistência ou intolerância com outros tratamentos. </p>         </div>"""   
+medicamentos, nos casos de resistência ou intolerância com outros tratamentos. </p> </div>"""   
           
 
              
@@ -954,7 +963,7 @@ para o leite da mãe. </p>
 <p>Condução de veículos e utilização de máquinas 
 É improvável que o GRANUPAS afete a sua capacidade de condução de veículos e utilização de 
 máquinas. 
-Se tal acontecer, comunique essa ocorrência ao seu médico ou farmacêutico. </p>         </div>"""   
+Se tal acontecer, comunique essa ocorrência ao seu médico ou farmacêutico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar granupas"
@@ -1024,7 +1033,7 @@ Fale com um médico ou farmacêutico. </p>
 Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. Aguarde até à dose 
 seguinte e, nessa altura, tome a dose normal. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1151,7 +1160,7 @@ recomendado para todas as pessoas que tenham o VIH. </p>
 Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar granupas"
@@ -1167,7 +1176,7 @@ até um máximo de 24 horas após a abertura. </p>
 apresentam uma cor castanha escura ou púrpura. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1288,7 +1297,7 @@ Lucane Pharma
 Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

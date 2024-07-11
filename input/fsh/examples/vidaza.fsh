@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vidaza </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ new RNA and DNA. These actions are thought to correct problems with the maturati
 young blood cells in the bone marrow that cause myelodysplastic disorders, and to kill cancerous cells 
 in leukaemia. 
 Talk to your doctor or nurse if you have any questions about how Vidaza works or why this medicine 
-has been prescribed for you. </p>         </div>"""   
+has been prescribed for you. </p> </div>"""   
           
 
              
@@ -136,7 +139,7 @@ Men should not father a child while receiving treatment with Vidaza. Men should 
 method of contraception while taking Vidaza and for 3 months after stopping treatment with Vidaza. </p>
 <p>Talk to your doctor if you wish to conserve your sperm before starting this treatment. </p>
 <p>Driving and using machines 
-Do not drive or use any tools or machines if you experience side effects, such as tiredness. </p>         </div>"""   
+Do not drive or use any tools or machines if you experience side effects, such as tiredness. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vidaza"
@@ -155,7 +158,7 @@ cycle  will be repeated every 4 weeks. You will usually receive at least 6 treat
 This medicine will be given to you as an injection under the skin (subcutaneously) by a doctor or 
 nurse. It may be given under the skin on your thigh, tummy or upper arm. </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ and rapid weight gain.
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in 37TAppendix V37T. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vidaza"
@@ -299,7 +302,7 @@ If the Vidaza suspension is prepared using water for injections that has been st
 prepared and kept refrigerated for up to a maximum of 22 hours. </p>
 <p>The suspension should be allowed up to 30 minutes prior to administration to reach room temperature 
 (20  C   25  C). </p>
-<p>If large particles are present in the suspension it should be discarded. </p>         </div>"""      
+<p>If large particles are present in the suspension it should be discarded. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -323,7 +326,7 @@ Celgene Distribution B.V.
 Orteliuslaan 13528 BD Utrecht 
 Netherlands </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -362,7 +365,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -371,7 +376,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -386,7 +392,7 @@ Usage: #inline
 3. Sådan skal du bruge Vidaza 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -420,7 +426,7 @@ DNA. Disse virkninger menes at korrigere problemet med modningen og væksten af 
 i knoglemarven, hvilket fører til myelodysplastiske sygdomme, og til at kræftcellerne dræbes ved 
 leukæmi. 
 Kontakt lægen eller sygeplejersken, hvis du har spørgsmål om Vidazas virkning, og hvorfor du har 
-fået ordineret dette lægemiddel. </p>         </div>"""   
+fået ordineret dette lægemiddel. </p> </div>"""   
           
 
              
@@ -487,7 +493,7 @@ præventionsmetode, mens de tager Vidaza og i 3 måneder efter behandlingen med 
 <p>Tal med din læge, hvis du ønsker, at din sæd opbevares, før du får denne behandling. </p>
 <p>Trafik- og arbejdssikkerhed 
 Du må ikke føre motorkøretøj eller betjene værktøj eller maskiner, hvis du oplever bivirkninger, såsom 
-træthed. </p>         </div>"""   
+træthed. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vidaza"
@@ -511,7 +517,7 @@ mindst 6 behandlingscyklusser. </p>
 </ul>
 <p>Du vil få dette lægemiddel som en indsprøjtning under huden (subkutant) af en læge eller en 
 sygeplejerske. Indsprøjtningen kan gives under huden på låret, maven eller overarmen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -805,7 +811,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i 37TAppendiks V37T. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vidaza"
@@ -830,7 +836,7 @@ køleskab (2 °C - 8 °C), skal suspensionen sættes i køleskab (2 °C - 8 °C)
 opbevares i køleskab i maksimalt 22 timer. </p>
 <p>Lad suspensionen have op til 30 minutter til at nå til stuetemperatur før administration (20 °C -
  25 °C). </p>
-<p>Hvis der er store partikler i suspensionen, skal den bortskaffes. </p>         </div>"""      
+<p>Hvis der er store partikler i suspensionen, skal den bortskaffes. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -968,7 +974,7 @@ en 25 gauge-kanyle i overarmen, låret eller maven. </p>
 <p>Doser på over 4 ml bør injiceres på to separate steder. </p>
 <p>Der bør skiftes mellem injektionsstederne. Nye injektioner bør indgives mindst 2,5 cm fra det forrige 
 sted og aldrig i områder, hvor stedet er ømt, blodunderløbent, rødt eller hårdt. </p>
-<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+<p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

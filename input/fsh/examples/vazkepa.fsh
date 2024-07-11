@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Vazkepa </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ oil.  </p>
 <li>death from heart or vascular disease </li>
 </ul>
 <p>Vazkepa is used in adults with high blood triglycerides who already have heart disease or have 
-diabetes and other conditions that put them at a higher risk of cardiovascular events. </p>         </div>"""   
+diabetes and other conditions that put them at a higher risk of cardiovascular events. </p> </div>"""   
           
 
              
@@ -138,7 +141,7 @@ This medicine contains 83 mg sorbitol in each capsule. </p>
 or if you have been diagnosed with hereditary fructose intolerance (HFI), a rare genetic disorder in 
 which a person cannot break down fructose, talk to your doctor before you take this medicine. </p>
 <p>Soya lecithin 
-This medicine contains soya lecithin. If you are allergic to soya or peanut, do not use this medicine. </p>         </div>"""   
+This medicine contains soya lecithin. If you are allergic to soya or peanut, do not use this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vazkepa"
@@ -163,7 +166,7 @@ whole day, just take your next scheduled dose. Do not take a double dose to make
 dose. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>
 <p>If you stop taking Vazkepa 
 Do not stop taking this medicine until you have spoken with your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -204,7 +207,7 @@ Other side effects that may occur </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vazkepa"
@@ -218,7 +221,7 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>Bottle: keep the bottle tightly closed in order to protect from moisture. 
 Blister pack: store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -339,7 +342,7 @@ Amarin Pharmaceuticals Ireland Limited<br />
 Tel: 0800-0478AmarinConnect@amarincorp.eu </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -378,7 +381,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -387,7 +392,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -402,7 +408,7 @@ Usage: #inline
 3. Sådan skal du tage Vazkepa 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -420,7 +426,7 @@ et statin (kolesterolsænkende lægemiddel) til at forebygge hjerte-karhændelse
 <li>dødsfald pga. hjertekarsygdom </li>
 </ul>
 <p>Vazkepa anvendes til voksne med højt indhold af triglycerider i blodet, som i forvejen har en 
-hjertesygdom eller diabetes og andre sygdomme, der gør, at de har en øget risiko for hjertekar-tilfælde. </p>         </div>"""   
+hjertesygdom eller diabetes og andre sygdomme, der gør, at de har en øget risiko for hjertekar-tilfælde. </p> </div>"""   
           
 
              
@@ -478,7 +484,7 @@ genetisk lidelse, hvor en person ikke kan nedbryde fructose, skal du tale med di
 dette lægemiddel. </p>
 <p>Sojalecithin 
 Dette lægemiddel indeholder sojalecithin. Du må ikke bruge Vazkepa, hvis du er overfølsom over for 
-soja eller jordnødder. </p>         </div>"""   
+soja eller jordnødder. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take vazkepa"
@@ -505,7 +511,7 @@ tage en dobbeltdosis som erstatning for den glemte dosis. Spørg lægen eller ap
 der er noget, du er i tvivl om. </p>
 <p>Hvis du holder op med at tage Vazkepa 
 Du må ikke stoppe med at tage denne medicin uden at have talt med lægen om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -569,7 +575,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store vazkepa"
@@ -583,7 +589,7 @@ efter EXP. Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Beholder: Hold beholderen tæt tillukket for at beskytte mod fugt. 
 Blister: Opbevares i original emballage for at beskytte mod fugt. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -709,7 +715,7 @@ Tel: 0800-0478AmarinConnect@amarincorp.eu </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu  </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu  </p> </div>"""      
 
 
 
@@ -748,7 +754,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -757,7 +765,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -774,7 +783,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Vazkepa </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -792,7 +801,7 @@ cardiovasculares, tais como:
 - morte por doença cardíaca ou vascular </p>
 <p>Vazkepa é utilizado em adultos com triglicéridos elevados no sangue com doença cardíaca 
 preexistente ou com diabetes e outras doenças que lhes conferem um risco mais elevado de sofrerem 
-acontecimentos cardiovasculares. </p>         </div>"""   
+acontecimentos cardiovasculares. </p> </div>"""   
           
 
              
@@ -850,7 +859,7 @@ se foi diagnosticado com intolerância hereditária à frutose (IHF), uma doenç
 pessoa não consegue digerir a frutose, fale com o seu médico antes de tomar este medicamento. </p>
 <p>Lecitina de soja 
 Este medicamento contém lecitina de soja. Se for alérgico ao amendoim ou soja, não utilize este 
-medicamento. </p>         </div>"""   
+medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar vazkepa"
@@ -877,7 +886,7 @@ medicamento, fale com o seu médico ou farmacêutico. </p>
 <p>Se parar de tomar Vazkepa 
 Não pare de tomar este medicamento até ter falado com o seu médico. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -960,7 +969,7 @@ qualquer altura durante o tratamento. Este é um efeito indesejável pouco frequ
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar vazkepa"
@@ -975,7 +984,7 @@ exterior para blisters após EXP. O prazo de validade corresponde ao último dia
 Embalagem blister: conservar na embalagem de origem para proteger da humidade. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1108,7 +1117,7 @@ Amarin Pharmaceuticals Ireland Limited<br />
 Tel: 0800-0478AmarinConnect@amarincorp.eu </p>
 <p>Este folheto foi revisto pela última vez em . </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

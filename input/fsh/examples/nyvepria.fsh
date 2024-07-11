@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Nyvepria</li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ White blood cells are important for fighting off infection. If the white blood c
 due to your cytotoxic chemotherapy, your body may not be able to fight off microorganisms and this 
 will increase the chances of an infection. Pegfilgrastim, is very similar to a natural protein in the body 
 called granulocyte colony stimulating factor and it works by encouraging your bone marrow to 
-produce more white blood cells that help your body fight off infections. </p>         </div>"""   
+produce more white blood cells that help your body fight off infections. </p> </div>"""   
           
 
              
@@ -154,7 +157,7 @@ This medicine contains 30 mg sorbitol in each pre-filled syringe which is equiva
 additive effect of concomitantly administered medicines containing sorbitol (or fructose) and dietary 
 intake of sorbitol (or fructose) should be taken into account.
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nyvepria"
@@ -177,7 +180,7 @@ If you use more Nyvepria than you should contact your doctor, pharmacist or nurs
 If you forget to inject Nyvepria
 If you have forgotten a dose of Nyvepria, contact your doctor to discuss when you should inject the 
 next dose.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -233,7 +236,7 @@ symptoms and contact your doctor or get medical attention immediately. See also 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nyvepria"
@@ -252,7 +255,7 @@ Do not freeze. Nyvepria may be used if it is accidentally frozen for a single pe
 Keep the container in the outer carton in order to protect from light. 
 Do not use this medicine if you notice it is cloudy or there are particles in it. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -445,7 +448,7 @@ Keep the syringe and sharps disposal container out of sight and reach of childre
 B
 Check the injection site.
 If there is blood, press a cotton ball or gauze pad on your injection site. Do not rub the injection site. 
-Apply a plaster if needed.</p>         </div>"""      
+Apply a plaster if needed.</p> </div>"""      
 
 
 
@@ -484,7 +487,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -493,7 +498,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -508,7 +514,7 @@ Usage: #inline
 3. Sådan skal De bruge Nyvepria
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -525,7 +531,7 @@ hvide blodlegemer falder til et lavt niveau, er der risiko for, at der ikke er n
 til at bekæmpe bakterier, og derfor kan De have en øget risiko for infektion. Pegfilgrastim ligner 
 meget et naturligt protein i kroppen, der kaldes granolocytkoloni-stimulerende faktor). Det virker ved 
 at stimulere Deres knoglemarv til at producere flere hvide blodlegemer, der hjælper Deres krop med at 
-bekæmpe infektioner.</p>         </div>"""   
+bekæmpe infektioner.</p> </div>"""   
           
 
              
@@ -611,7 +617,7 @@ Dette lægemiddel indeholder 30 mg sorbitol i hver fyldt injektionssprøjte, hvi
 Den additive virkning af samtidigt administrerede produkter indeholdende fructose (eller sorbitol) og 
 diætindtagelse af fructose (eller sorbitol) bør tages i betragtning.
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. 6 mg dosis, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take nyvepria"
@@ -636,7 +642,7 @@ Hvis De har glemt at bruge Nyvepria
 Hvis De selv foretager injektionerne og har glemt en dosis Nyvepria, kontakt da Deres læge for at 
 aftale, hvornår De skal tage den næste dosis.
 26
-Er De i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken.</p>         </div>"""         
+Er De i tvivl, så spørg lægen, apotekspersonalet eller sygeplejersken.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -713,7 +719,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge, apotekspersonalet el
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelsstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store nyvepria"
@@ -732,7 +738,7 @@ mindre end 24 timer.
 Opbevar beholderen i den ydre karton for at beskytte mod lys.
 Brug ikke lægemidlet, hvis De bemærker, at det er grumset eller at der er partikler i det.
 Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -994,7 +1000,7 @@ husholdningsaffaldet
 B
 Undersøg injektionsstedet.
 Tryk en tot vat eller et gazekompres ned på injektionsstedet, hvis det bløder. Gnid ikke på 
-injektionsstedet. Sæt om nødvendigt et plaster på.</p>         </div>"""      
+injektionsstedet. Sæt om nødvendigt et plaster på.</p> </div>"""      
 
 
 
@@ -1033,7 +1039,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1042,7 +1050,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1057,7 +1066,7 @@ Usage: #inline
 3. Como utilizar Nyvepria
 4. Efeitos indesejáveis possíveis
 5. Como conservar Nyvepria
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1075,7 +1084,7 @@ diminuir até um nível muito baixo devido à quimioterapia citotóxica, o seu c
 conseguir combater os microrganismos e isto irá aumentar a probabilidade de ter uma infeção. O 
 pegfilgrastim é muito semelhante a uma proteína natural existente no corpo chamada fator de 
 estimulação das colónias de granulócitos e que atua estimulando a sua medula óssea a produzir mais 
-glóbulos brancos, que ajudarão o seu corpo a combater as infeções.</p>         </div>"""   
+glóbulos brancos, que ajudarão o seu corpo a combater as infeções.</p> </div>"""   
           
 
              
@@ -1167,7 +1176,7 @@ Este medicamento contém 30 mg de sorbitol em cada seringa pré-cheia que é equ
 Deve ter-se em consideração o efeito aditivo da administração concomitante de medicamentos 
 contendo sorbitol (ou frutose) e a ingestão de sorbitol (ou frutose) na dieta.
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de 6 mg, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar nyvepria"
@@ -1194,7 +1203,7 @@ Se se esqueceu de uma dose de Nyvepria, contacte o seu médico para decidir quan
 administrada a dose seguinte.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
 ou enfermeiro.
-27</p>         </div>"""         
+27</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1277,7 +1286,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar nyvepria"
@@ -1297,7 +1306,7 @@ Manter o recipiente dentro da embalagem exterior para proteger da luz.
 Não utilize este medicamento se verificar que está turvo ou com partículas no interior.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1425,7 +1434,7 @@ Pfizer Luxembourg SARL filialas Lietuvoje
 Tel. +3705 2514000
 Este folheto informativo foi revisto pela última vez em
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store DIFICLIR </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 <p>DIFICLIR film-coated tablets are used in adults, adolescents and children with a body weight of at 
 least 12.5 kg to treat infections of the lining of the colon (large intestine) with certain bacteria called 
 Clostridioides difficile. This serious illness can result in painful, severe diarrhoea. DIFICLIR works by 
-killing the bacteria that cause the infection and helps to reduce the associated diarrhoea.  </p>         </div>"""   
+killing the bacteria that cause the infection and helps to reduce the associated diarrhoea.  </p> </div>"""   
           
 
              
@@ -135,7 +138,7 @@ If you are breastfeeding ask your doctor or pharmacist for advice before taking 
 DIFICLIR is not expected to affect your ability to drive, use tools or machines. </p>
 <p>DIFICLIR contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dificlir"
@@ -199,7 +202,7 @@ missed dose. Do not take a double dose to make up for a forgotten dose. </p>
 Do not stop taking DIFICLIR, unless your doctor has advised you to do so. 
 Keep taking this medicine until the course is finished, even if you feel better. 
 If you stop taking this medicine too soon, the infection may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -265,7 +268,7 @@ Uncommon side effects (may affect up to 1 in 100 people) </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dificlir"
@@ -276,7 +279,7 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ Tillotts Pharma GmbH
 Warmbacher Strasse 79618 Rheinfelden 
 Germany </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -342,7 +345,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -351,7 +356,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -366,7 +372,7 @@ Usage: #inline
 3. Sådan skal De tage DIFICLIR 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -378,7 +384,7 @@ Usage: #inline
 <p>DIFICLIR filmovertrukne tabletter anvendes til behandling af voksne, unge og børn med en vægt på 
 mindst 12,5 kg, der har infektioner i tarmvæggen (tyktarmen) forårsaget af bakterien Clostridioides 
 difficile. Denne alvorlige tilstand kan resultere i smertefuld, svær diarré. DIFICLIR virker ved at 
-dræbe den bakterie, der er skyld i infektionen, og er med til at mindske den deraf følgende diarré.  </p>         </div>"""   
+dræbe den bakterie, der er skyld i infektionen, og er med til at mindske den deraf følgende diarré.  </p> </div>"""   
           
 
              
@@ -442,7 +448,7 @@ lægemiddel.  </p>
 DIFICLIR forventes ikke at påvirke evnen til at føre motorkøretøj eller betjene maskiner. </p>
 <p>DIFICLIR indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dificlir"
@@ -507,7 +513,7 @@ glemte tablet springes over. De må ikke tage en dobbeltdosis som erstatning for
 Hold ikke op med at tage DIFICLIR, medmindre Deres læge har givet besked herom.<br />
 Bliv ved med at tage medicinen, indtil kuren er færdig, også selvom De har det bedre.<br />
 Hvis De holder op med at tage medicinen tidligere end angivet i kuren, kan infektionen vende tilbage.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -586,7 +592,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apotekspersonal
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dificlir"
@@ -597,7 +603,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen efter "EXP". Udløbsdatoen er den 
 sidste dag i den nævnte måned. </p>
 <p>Spørg apotekspersonalet, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -640,7 +646,7 @@ indeholder vigtige oplysninger.
 medicinen til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 De har. 
 - Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

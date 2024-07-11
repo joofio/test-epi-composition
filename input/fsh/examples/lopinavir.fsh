@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Lopinavir/Ritonavir Mylan </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ with HIV, the virus which causes AIDS.  </li>
 is an antiretroviral medicine. It belongs to a group of medicines called protease inhibitors.  </li>
 <li>Lopinavir/ritonavir is prescribed for use in combination with other antiviral medicines. Your doctor 
 will discuss with you and determine which medicines are best for you.  </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -240,7 +243,7 @@ on to the baby in breast milk.  </p>
 operate machines. Do not drive a car or operate machinery if you experience any side effects (e.g. nausea) 
 that impact your ability to do so safely. Instead, contact your doctor. </p>
 <p>Lopinavir/Ritonavir Mylan contains sodium </p>
-<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
+<p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lopinavir"
@@ -298,7 +301,7 @@ development of resistance to the product.  </p>
 in the hospital make sure you will have enough lopinavir/ritonavir to last until you can get a new 
 supply.  </p>
 <p>Continue to take this medicine until your doctor tells you otherwise. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -390,7 +393,7 @@ your doctor or pharmacist. </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix 
-V. By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+V. By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lopinavir"
@@ -403,7 +406,7 @@ V. By reporting side effects you can help provide more information on the safety
 to the last day of that month. </p>
 <p>For plastic containers, use within 120 days after first opening. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
-away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -499,7 +502,7 @@ Viatris SIA
 Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel:  +353 18711This leaflet was last revised in . </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -538,7 +541,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -547,7 +552,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -562,7 +568,7 @@ Usage: #inline
 3. Sådan skal du tage Lopinavir/Ritonavir Mylan 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -581,7 +587,7 @@ er den virus, der forårsager AIDS. </li>
 antiretroviralt lægemiddel. Det tilhører en gruppe af lægemidler, der kaldes proteasehæmmere. </li>
 <li>Lopinavir/ritonavir ordineres til brug i kombination med andre antivirale lægemidler. Din læge 
 vil diskutere med dig og afgøre, hvilke lægemidler der er mest velegnede til dig. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -804,7 +810,7 @@ eller betjene maskiner. Undlad at køre bil eller betjene maskiner, hvis du får
 (f.eks. kvalme), som påvirker din evne til at gøre dette på forsvarlig vis. Kontakt din læge. </p>
 <p>Lopinavir/Ritonavir Mylan indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lopinavir"
@@ -883,7 +889,7 @@ er på rejse eller skal indlægges på hospital, skal du sørge for at have tils
 lopinavir/ritonavir, indtil du kan få en ny forsyning. 
 − 
 Fortsæt med at tage denne medicin, indtil lægen anbefaler noget andet. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1035,7 +1041,7 @@ bivirkninger, som ikke er nævnt her. </p>
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lopinavir"
@@ -1048,7 +1054,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 sidste dag i den nævnte måned. </p>
 <p>I tilfælde af plastbeholdere skal indholdet anvendes inden for 120 dage efter anbrud. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelsrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelsrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1182,7 +1188,7 @@ da den indeholder vigtige oplysninger.
 give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de samme 
 symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt her. Se punkt. 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se punkt. 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 
@@ -1221,7 +1227,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1230,7 +1238,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1245,7 +1254,7 @@ Usage: #inline
 3. Como tomar Lopinavir/Ritonavir Mylan 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Lopinavir/Ritonavir Mylan 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1265,7 +1274,7 @@ Lopinavir/ritonavir é um medicamento antirretroviral. Pertence a um grupo de me
 chamados inibidores da protease. </li>
 <li>Lopinavir/ritonavir é receitado para uso em associação com outros medicamentos antivíricos. O 
 seu médico irá falar consigo e determinar quais os medicamentos mais indicados para si. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1453,7 +1462,7 @@ máquinas se tiver alguns efeitos indesejáveis (por ex. náuseas) que possam im
 segurança. Consulte o seu médico. </p>
 <p>Lopinavir/Ritonavir Mylan contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar lopinavir"
@@ -1535,7 +1544,7 @@ fornecimento. </li>
 <li>Continue a tomar este medicamento até instruções em contrário do seu médico. </li>
 </ul>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1635,7 +1644,7 @@ mencionados neste folheto, informe o seu médico ou farmacêutico. </p>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico, ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar lopinavir"
@@ -1649,7 +1658,7 @@ prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Recipientes de plástico, utilizar no prazo de 120 dias após a primeira abertura. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1773,7 +1782,7 @@ United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel: +353 18711 </p>
 <p>Este folheto foi revisto pela última vez em:  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

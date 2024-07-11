@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ocrevus </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -115,7 +118,7 @@ and worsening of disability). </p>
 <p>In Primary Progressive MS (PPMS), Ocrevus helps to slow down the progression of the 
 disease and reduce deterioration in walking speed.  </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -241,7 +244,7 @@ Your doctor will tell you whether your MS may affect your ability to drive or us
 safely.  </p>
 <p>Ocrevus contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ocrevus"
@@ -289,7 +292,7 @@ gradually increase to normal levels. This can take from six months to two and a 
 to several years in rare cases.  </li>
 <li>Before you start any other medicines, tell your doctor when you had your last Ocrevus infusion.  </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -382,7 +385,7 @@ Not known (it is not known how often these side effects happen)
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ocrevus"
@@ -402,7 +405,7 @@ storage times and conditions prior to use are the responsibility of the healthca
 would normally not be longer than 24 hours at 2 C - 8 C and subsequently 8 hours at room 
 temperature.  </p>
 <p>Do not throw away any medicines via wastewater. These measures will help to protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -498,7 +501,7 @@ Tel: +371 - 6 7039United Kingdom (Northern Ireland)
 Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -537,7 +540,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -546,7 +551,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -563,7 +569,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -620,7 +626,7 @@ i handicapudviklingen).  </p>
 <p>Ved primær progressiv multipel sclerose (PPMS) forsinker Ocrevus sygdommens udvikling 
 og mindsker forværring af ganghastigheden.  </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -814,7 +820,7 @@ maskiner.  </p>
 <p>Lægen vil vurdere om du er i stand til at føre motorkøretøj eller bruge maskiner sikkert. </p>
 <p>Ocrevus indeholder natrium </p>
 <p>Ocrevus indeholder mindre end 1 mmol natrium (23 mg) per dosis. Dette betyder, at det nærmest er 
-‘natriumfrit’. </p>         </div>"""   
+‘natriumfrit’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ocrevus"
@@ -883,7 +889,7 @@ til 2½ år, og i sjældne tilfælde op til flere år.  </p>
 <p>Inden du får anden medicin, skal du fortælle lægen hvornår du sidst fik en Ocrevus-infusion.  </p>
 </li>
 </ul>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1001,7 +1007,7 @@ på infektion:</p>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ocrevus"
@@ -1027,7 +1033,7 @@ anbefales, at produktet anvendes straks efter fortynding. Hvis det ikke anvendes
 sundhedspersonalet ansvarlig for, at opbevaringstid og -forhold overholdes. Det bør normalt ikke 
 overskride 24 timer ved 2°C-8°C og efterfølgende op til 8 timer ved stuetemperatur.  </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet eller toilettet. Disse foranstaltninger vil 
-bidrage til at beskytte miljøet. </p>         </div>"""      
+bidrage til at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1399,7 +1405,7 @@ foretages under kontrollerede og validerede aseptiske forhold. </p>
 <p>Hvis en intravenøs infusion ikke kan gennemføres samme dag, skal overskydende opløsning 
 smides ud. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1438,7 +1444,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1447,7 +1455,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1464,7 +1473,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Ocrevus </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1521,7 +1530,7 @@ significativamente a probabilidade de um doente não ter evidência de atividade
 <p>Na EM progressiva primária (EMPP), Ocrevus ajuda a atrasar a progressão da doença e a 
 reduzir a deterioração na velocidade a caminhar. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1719,7 +1728,7 @@ ferramentas ou máquinas. O seu médico dir-lhe-á se a sua EM pode afetar a sua
 conduzir ou utilizar ferramentas e máquinas com segurança. </p>
 <p>Ocrevus contém sódio </p>
 <p>Este medicamento contém menos de 1 mmol de sódio (23 mg) por dose, ou seja, é praticamente 
-"isento de sódio". </p>         </div>"""   
+"isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ocrevus"
@@ -1794,7 +1803,7 @@ casos raros. </p>
 última perfusão de Ocrevus. </p>
 </li>
 </ul>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1899,7 +1908,7 @@ Frequência desconhecida (desconhece-se com que frequência estes efeitos indese
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ocrevus"
@@ -1927,7 +1936,7 @@ de saúde. Recomenda-se que o medicamento seja utilizado imediatamente após dil
 utilizado imediatamente, o tempo e condições de armazenamento anteriores à utilização são da 
 responsabilidade do profissional de saúde e, normalmente, não devem ser superiores a 24 horas a 2ºC-
 8ºC e, subsequentemente, a 8 horas à temperatura ambiente. </p>
-<p>Não deite fora quaisquer medicamentos na canalização. Estas medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+<p>Não deite fora quaisquer medicamentos na canalização. Estas medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2064,7 +2073,7 @@ Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366000  </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

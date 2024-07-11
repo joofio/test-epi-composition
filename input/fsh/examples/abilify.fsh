@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Abilify Maintena </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ antipsychotics. It is used to treat schizophrenia - a disease with symptoms such
 sensing things which are not there, suspiciousness, mistaken beliefs, incoherent speech and behaviour 
 and emotional flatness. People with this condition may also feel depressed, guilty, anxious or tense. </p>
 <p>Abilify Maintena is intended for adult patients with schizophrenia who are sufficiently stabilised 
-during treatment with oral aripiprazole. </p>         </div>"""   
+during treatment with oral aripiprazole. </p> </div>"""   
           
 
              
@@ -190,7 +193,7 @@ should be considered in cases where full alertness is required, e.g., when drivi
 machines. </p>
 <p>Abilify Maintena contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abilify"
@@ -234,7 +237,7 @@ doctor to arrange your next injection as soon as you can. </p>
 <p>If you stop receiving Abilify Maintena 
 Do not stop your treatment just because you feel better. It is important that you carry on receiving 
 Abilify Maintena for as long as your doctor has told you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -447,7 +450,7 @@ which can be life threatening and lead to kidney problems (a condition called rh
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abilify"
@@ -459,7 +462,7 @@ medicine. </p>         </div>"""
 date refers to the last day of that month. </p>
 <p>Do not freeze. </p>
 <p>The reconstituted suspension should be used immediately but may be stored below 25  C for up to 
-4 hours in the vial. Do not store the reconstituted suspension in the syringe. </p>         </div>"""      
+4 hours in the vial. Do not store the reconstituted suspension in the syringe. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -565,7 +568,7 @@ Tel: +45 36301United Kingdom (Northern Ireland)
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -604,7 +607,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -613,7 +618,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -630,7 +636,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -644,7 +650,7 @@ sygdom, der gør, at man fx hører, ser eller mærker ting, som ikke eksisterer,
 vrangforestillinger, taler og opfører sig usammenhængende og er følelsesmæssigt mat. Personer med 
 denne lidelse kan også føle sig deprimerede, skyldige, angste eller anspændte. </p>
 <p>Abilify Maintena er beregnet til behandling af voksne patienter med skizofreni, der er tilstrækkeligt 
-stabiliserede ved behandling med aripiprazol, som tages gennem munden. </p>         </div>"""   
+stabiliserede ved behandling med aripiprazol, som tages gennem munden. </p> </div>"""   
           
 
              
@@ -807,7 +813,7 @@ punkt 4). Der skal tages hensyn til dette i situationer, der kræver fuld opmær
 bilkørsel eller betjening af maskiner. </p>
 <p>Abilify Maintena indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take abilify"
@@ -866,7 +872,7 @@ kontakte lægen, så I kan lave en ny aftale så hurtigt som muligt. </p>
 <p>Hvis du holder op med at få Abilify Maintena 
 Du må ikke stoppe med at få behandlingen, fordi du har fået det bedre. Det er vigtigt, at du fortsætter 
 med at få Abilify Maintena i så lang tid, som lægen har sagt, at du skal have det. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1343,7 +1349,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abilify"
@@ -1357,7 +1363,7 @@ sidste dag i den nævnte måned. </p>
 <p>Den rekonstituerede suspension skal anvendes med det samme, men kan opbevares ved en temperatur 
 under 25 °C i op til 4 timer i hætteglasset. Opbevar ikke den rekonstituerede suspension i sprøjten. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1647,7 +1653,7 @@ oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen eller sygeplejersken, hvis du får bivirkninger, herunder bivirkninger, som ikke er 
-nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

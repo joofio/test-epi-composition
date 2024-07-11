@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Oxlumo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ and bone. This is called oxalosis. </p>
 <p>Lumasiran, the active substance in Oxlumo, reduces the amount of an enzyme called glycolate oxidase 
 that the liver makes. Glycolate oxidase is one of the enzymes involved in producing oxalate. By 
 lowering the amount of the enzyme, the liver produces less oxalate and the levels of oxalate in the 
-urine and blood also fall. This can help to reduce the effects of the illness. </p>         </div>"""   
+urine and blood also fall. This can help to reduce the effects of the illness. </p> </div>"""   
           
 
              
@@ -118,7 +121,7 @@ decide whether to stop breast-feeding or to stop treatment.  </p>
 <p>This medicine is unlikely to have any effect on your ability to drive or use machines. </p>
 <p>Oxlumo contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per mL, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oxlumo"
@@ -156,7 +159,7 @@ for side effects. </p>
 <p>If you miss your dose of Oxlumo </p>
 <p>If you miss a dose of Oxlumo, talk to your doctor or nurse as soon as possible about when to get your 
 next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -174,7 +177,7 @@ exfoliation at the site of the injection (injection site reaction).
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oxlumo"
@@ -188,7 +191,7 @@ expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Keep vial in the outer carton to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Your doctor or nurse will throw 
-away any medicines that are no longer being used. These measures will help protect the environment. </p>         </div>"""      
+away any medicines that are no longer being used. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -301,7 +304,7 @@ T l/Tel: 80085235 (+352 203 014 48)
 medinfo@alnylam.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -340,7 +343,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -349,7 +354,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -366,7 +372,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -389,7 +395,7 @@ hjerte, hud og knogler. Dette kaldes oxalose. </p>
 glykolatoxidase, som produceres i leveren. Glykolatoxidase er et af de enzymer, der er involveret i 
 oxalatproduktionen. Ved at sænke mængden af enzymet producerer leveren mindre oxalat, og 
 oxalatniveauerne i urinen og blodet falder også. Dette kan hjælpe med at reducere sygdommens 
-virkninger. </p>         </div>"""   
+virkninger. </p> </div>"""   
           
 
              
@@ -423,7 +429,7 @@ om du skal ophøre med amning eller ophøre med behandling. </p>
 <p>Dette lægemiddel påvirker sandsynligvis ikke din evne til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Oxlumo indeholder natrium </p>
 <p>Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. ml, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oxlumo"
@@ -487,7 +493,7 @@ tjekke dig for bivirkninger. </p>
 <p>Hvis du har glemt at få en dosis af Oxlumo </p>
 <p>Hvis du har glemt at få en dosis af Oxlumo, skal du tage kontakt til din læge eller sygeplejerske så 
 hurtigt som muligt, angående hvornår du kan få din næste dosis. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -512,7 +518,7 @@ eller hudafskalninger på injektionsstedet (reaktioner på injektionsstedet). </
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oxlumo"
@@ -526,7 +532,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 30 °C. </p>
 <p>Opbevar hætteglasset i den originale yderpakning for at beskytte mod lys. </p>
 <p>Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. Din 
-læge eller sygeplejerske vil bortskaffe lægemiddelrester. </p>         </div>"""      
+læge eller sygeplejerske vil bortskaffe lægemiddelrester. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -724,7 +730,7 @@ bortskaffes i henhold til lokale retningslinjer. </p>
 <p>Brug kun sprøjter, overføringskanyler og injektionskanyler én gang. Bortskaf alle brugte 
 sprøjter og kanyler i henhold til lokale retningslinjer. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -763,7 +769,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -772,7 +780,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -789,7 +798,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Oxlumo </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -812,7 +821,7 @@ coração, a pele e os ossos. A isto chama-se oxalose. </p>
 <p>O lumasiran, a substância ativa em Oxlumo, reduz a quantidade de uma enzima chamada glicolato 
 oxidase produzida pelo fígado. Glicolato oxidase é uma das enzimas envolvidas na produção de 
 oxalato. Ao reduzir a quantidade da enzima, o fígado produz menos oxalato e os níveis de oxalato na 
-urina e no sangue também diminuem. Isto pode ajudar a reduzir os efeitos da doença. </p>         </div>"""   
+urina e no sangue também diminuem. Isto pode ajudar a reduzir os efeitos da doença. </p> </div>"""   
           
 
              
@@ -846,7 +855,7 @@ decidir entre parar de amamentar e parar o tratamento. </p>
 utilizar máquinas. </p>
 <p>Oxlumo contém sódio </p>
 <p>Este medicamento contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar oxlumo"
@@ -911,7 +920,7 @@ sobredosagem), irão vigiá-lo quanto a efeitos indesejáveis. </p>
 <p>Caso se tenha esquecido da sua dose de Oxlumo </p>
 <p>Caso se tenha esquecido de uma dose de Oxlumo, fale com o seu médico ou enfermeiro logo que 
 possível sobre quando deve receber a dose seguinte. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -936,7 +945,7 @@ na pele, nódoa negra ou exfoliação no local de injeção (reações no local 
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar oxlumo"
@@ -952,7 +961,7 @@ utilizar imediatamente. </p>
 <p>Manter o frasco para injetáveis dentro da embalagem exterior para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1073,7 +1082,7 @@ Alnylam Netherlands B.V.
 Tel/Sími: +31 20 369 7medinfo@alnylam.com </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

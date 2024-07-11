@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Bemfola </li>
 <li>Contents of the pack and other information  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ reproductive technology procedures (procedures that may help you to become pregn
  in vitro fertilisation ,  gamete intra-fallopian transfer  or  zygote intra-fallopian transfer . </p>
 <p>In adult men, Bemfola is used: 
 * together with another medicine called  human chorionic gonadotropin  (hCG) to help produce 
-sperm in men that are infertile due to a low level of certain hormones. </p>         </div>"""   
+sperm in men that are infertile due to a low level of certain hormones. </p> </div>"""   
           
 
              
@@ -176,7 +179,7 @@ Do not use Bemfola if you are pregnant or breast-feeding. </p>
 It is not expected that this medicine will affect your ability to drive and use machines. </p>
 <p>Bemfola contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bemfola"
@@ -263,7 +266,7 @@ occur if hCG is also administered (see section 2,  Ovarian hyper-stimulation syn
 <p>If you forget to use Bemfola 
 If you forget to use Bemfola, do not take a double dose to make up for a forgotten dose. Please talk to 
 your doctor as soon as you notice that you forgot a dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ may occur. These reactions can sometimes be serious.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bemfola"
@@ -335,7 +338,7 @@ being refrigerated again and must be discarded if it has not been used after 3 m
 or is not clear. </p>
 <p>Once opened, the medicine should be injected immediately. </p>
 <p>Do not throw any medicines away via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+dispose of medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ Gedeon Richter Plc.
 Gy mr i  t 19-21. 1103 Budapest 
 Hungary </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -414,7 +417,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -423,7 +428,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -480,7 +486,7 @@ befrugtede ægceller i æggelederne ("zygote intra-fallopian transfer"). </p>
 <li>sammen med et andet lægemiddel, som kaldes "humant choriongonadotropin" (hCG), til at 
 hjælpe med at producere sæd hos mænd, som er ufrugtbare på grund af et lavt niveau af visse 
 hormoner. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -592,7 +598,7 @@ Det forventes ikke, at dette lægemiddel vil påvirke din evne til at føre moto
 maskiner. </p>
 <p>Bemfola indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. den er i det 
-væsentlige natrium-fri. </p>         </div>"""   
+væsentlige natrium-fri. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take bemfola"
@@ -732,7 +738,7 @@ hCG også indgives (se afsnit 2, under “Ovarielt hyperstimulationssyndrom (OHS
 <p>Hvis du har glemt at bruge Bemfola 
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis, hvis du har glemt at tage 
 Bemfola. Tal med din læge så snart, du bemærker, at du har glemt en dosis. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -836,7 +842,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store bemfola"
@@ -855,7 +861,7 @@ inden 3 måneder. </p>
 indeholder partikler eller er uklar. </p>
 <p>Efter åbning skal lægemidlet injiceres straks. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -920,7 +926,7 @@ Bemfola, fyldt pen, 225 IE/0,375 ml
 Bemfola, fyldt pen, 300 IE/0,50 ml 
 Bemfola, fyldt pen, 450 IE/0,75 ml </p>
 <p>Brugervejledning </p>
-<p>INDHOLD </p>         </div>"""      
+<p>INDHOLD </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store OXERVATE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Usage: #inline
 <p>OXERVATE is used to treat adults with moderate or severe  neurotrophic keratitis . This is a disease 
 affecting the cornea (the transparent layer in the front part of the eye) which causes defects on the 
 outer surface of the cornea that do not heal naturally or corneal ulcers. 
-OXERVATE is intended to allow the healing of the cornea. </p>         </div>"""   
+OXERVATE is intended to allow the healing of the cornea. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ baby, as a decision must be made whether to stop breast-feeding or to avoid or s
 therapy. </p>
 <p>Driving and using machines 
 Your vision may be temporarily blurred immediately after using this medicine. If this happens, wait 
-until your vision clears before you drive or use machines. </p>         </div>"""   
+until your vision clears before you drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oxervate"
@@ -225,7 +228,7 @@ affected eye(s).
 If you stop using OXERVATE<br />
 The lesion or ulcer in your eye will worsen and could lead to infections or impaired vision. Speak to 
 your doctor first if you intend to stop using OXERVATE. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -258,7 +261,7 @@ inside of the eyelids);
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oxervate"
@@ -275,7 +278,7 @@ used vial at the end of the day (even if there is still some liquid left in it),
 The pipettes included in the delivery system are single-use only. Each pipette should be discarded 
 immediately after using, even if there is still some liquid left in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -309,7 +312,7 @@ Via Campo di Pile
 67100 L Aquila 
 Italy </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -348,7 +351,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -357,7 +362,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -374,7 +380,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -388,7 +394,7 @@ menneskeligt protein), der er naturligt til stede på øjets overflade. </p>
 hornhindebetændelse. Det er en sygdom, der påvirker hornhinden (det gennemsigtige lag på øjets 
 forside), hvilket forårsager skade på den ydre overflade af hornhinden, der ikke heler naturligt, eller 
 der opstår sår på hornhinden. 
-OXERVATE anvendes til heling af hornhinden. </p>         </div>"""   
+OXERVATE anvendes til heling af hornhinden. </p> </div>"""   
           
 
              
@@ -438,7 +444,7 @@ skal træffes beslutning, om du skal stoppe med at amme, eller om du skal undlad
 behandlingen med OXERVATE. </p>
 <p>Trafik- og arbejdssikkerhed 
 Du kan midlertidigt få sløret syn lige efter brug af lægemidlet. Hvis dette sker, skal du vente, til dit syn 
-bliver klart igen, før du fører motorkøretøj eller betjener maskiner. </p>         </div>"""   
+bliver klart igen, før du fører motorkøretøj eller betjener maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oxervate"
@@ -576,7 +582,7 @@ ikke bruge flere end 6 dråber hver dag i de(t) påvirkede øje. </p>
 <p>Hvis du holder op med at bruge OXERVATE<br />
 Skaden eller såret i dit øje vil blive værre og kan medføre betændelse eller nedsat syn. Tal med lægen 
 først, hvis du gerne vil stoppe med at bruge OXERVATE. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -638,7 +644,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oxervate"
@@ -655,7 +661,7 @@ alle omstændigheder ikke senere end 12 timer efter det tidspunkt, du påsatte a
 <p>De vedlagte pipetter i administrationssystemet er kun til engangsbrug. Hver pipette skal kasseres 
 straks efter brug, også selvom der stadig er øjendråber tilbage i den. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -713,7 +719,7 @@ indeholder cenegermin (ny tekst understreget og med fed skrift, slettet tekst me
 <p>På baggrund af de videnskabelige konklusioner for cenegermin er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder cenegermin, forbliver uændret 
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 

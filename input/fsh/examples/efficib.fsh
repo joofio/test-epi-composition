@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Efficib</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ What is type 2 diabetes?
 Type 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that
 your body produces does not work as well as it should. Your body can also make too much sugar.
 When this happens, sugar (glucose) builds up in the blood. This can lead to serious medical problems
-like heart disease, kidney disease, blindness, and amputation.</p>         </div>"""   
+like heart disease, kidney disease, blindness, and amputation.</p> </div>"""   
           
 
              
@@ -206,7 +209,7 @@ foothold.
 Efficib contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially
  sodium-free .</li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efficib"
@@ -238,7 +241,7 @@ If you stop taking Efficib
 Continue to take this medicine as long as your doctor prescribes it so you can continue to help control
 your blood sugar. You should not stop taking this medicine without talking to your doctor first. If you
 stop taking Efficib, your blood sugar may rise again.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -296,7 +299,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efficib"
@@ -308,7 +311,7 @@ Do not use this medicine after the expiry date which is stated on the blister an
 The expiry date refers to the last day of the month.
 Do not store above 25  C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -436,7 +439,7 @@ Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the website of the European Medicines Agency</p>         </div>"""      
+Detailed information on this medicine is available on the website of the European Medicines Agency</p> </div>"""      
 
 
 
@@ -475,7 +478,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -484,7 +489,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -499,7 +505,7 @@ Usage: #inline
 3. Sådan skal De tage Efficib
 4. Bivirkninger
 5. Opevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -527,7 +533,7 @@ som Deres krop danner, ikke virker så godt, som det burde. Deres krop kan også
 sukker. Når dette sker, øges sukkerindholdet (glukose) i blodet. Dette kan føre til alvorlige
 helbredsproblemer som hjertesygdom, nyresygdom, blindhed og amputation.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -681,7 +687,7 @@ Efficib indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take efficib"
@@ -727,7 +733,7 @@ først. Hvis De holder op med at tage Efficib, kan Deres blodsukker stige igen.
 Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.
 43</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -794,7 +800,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at
 fremskaffe mere information om sikkerheden af dette lægemiddel.</li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store efficib"
@@ -806,7 +812,7 @@ Brug ikke Efficib efter den udløbsdato, der står på blister og karton efter E
 sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 25 ºC.
 Spørg apotekspersonalet, hvordan De skal bortskaffe lægemiddelrester. Af hensyn til miljøet må De
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -968,7 +974,7 @@ Tel: +353 (0)1 2998700
 medinfoNI@msd.com</p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}
 De kan finde yderligere oplysninger om Efficib på Det Europæiske Lægemiddelagenturs hjemmeside
-http://www.ema.europa.eu.</p>         </div>"""      
+http://www.ema.europa.eu.</p> </div>"""      
 
 
 

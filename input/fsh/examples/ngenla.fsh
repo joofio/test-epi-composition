@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Ngenla  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ human growth hormone is needed for bones and muscles to grow. It also helps your
 tissues to develop in the right amounts. Ngenla is used to treat children and adolescents from 3 years 
 of age who do not have enough growth hormone and are not growing at the normal rate. </p>
 <p>The active substance in Ngenla is made by 'recombinant DNA technology'. This means that it is grown 
-in cells that have been modified in the laboratory so that they can produce it. </p>         </div>"""   
+in cells that have been modified in the laboratory so that they can produce it. </p> </div>"""   
           
 
              
@@ -192,7 +195,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
 <p>Ngenla contains metacresol 
 Ngenla contains a preservative called metacresol. In very rare cases the presence of metacresol can 
 cause inflammation (swelling) in muscles. If you or the child in your care experience muscle pain or 
-pain at the injection site, inform your doctor.  </p>         </div>"""   
+pain at the injection site, inform your doctor.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ngenla"
@@ -249,7 +252,7 @@ regular dosing day should be maintained. </li>
 <p>Do not use a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Ngenla 
 Do not stop using this medicine without talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -295,7 +298,7 @@ the child in your care experience muscle pain or pain at the injection site, inf
 If you or the child in your care get any side effects, talk to your doctor, pharmacist or nurse. This 
 includes any possible side effects not listed in this leaflet. You can also report side effects directly via 
 the national reporting system listed in Appendix V. By reporting side effects you can help provide 
-more information on the safety of this medicine. </p>         </div>"""      
+more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ngenla"
@@ -331,7 +334,7 @@ use or if it has been used a total of 5 times, get rid of it even if it contains
 <p>A small amount of medicine may remain in the pen after all doses have been correctly given. Do not 
 try to use any remaining medicine. After the last dose is given, the pen must be properly thrown away.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -434,7 +437,7 @@ Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: +371 670 35 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -473,7 +476,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -482,7 +487,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -497,7 +503,7 @@ Usage: #inline
 3. Sådan skal du tage Ngenla
 4. Bivirkninger
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -512,7 +518,7 @@ behandle børn og unge fra 3 år, som ikke selv danner tilstrækkeligt meget væ
 vokser i et normalt tempo.
 Det aktive stof i Ngenla er fremstillet ved hjælp af såkaldt "rekombinant DNA-teknologi". Det 
 betyder, at det er dyrket i celler, som er modificeret på et laboratorium, således at cellerne kan danne 
-stoffet.</p>         </div>"""   
+stoffet.</p> </div>"""   
           
 
              
@@ -646,7 +652,7 @@ væsentlige natriumfrit.
 Ngenla indeholder metacresol
 Ngenla indeholder konserveringsmidlet metacresol. I meget sjældne tilfælde kan indhold af metacresol 
 forårsage betændelse (hævelse) i musklerne. Fortæl det til lægen, hvis du eller dit barn oplever 
-muskelsmerter eller smerter på injektionsstedet.</p>         </div>"""   
+muskelsmerter eller smerter på injektionsstedet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ngenla"
@@ -708,7 +714,7 @@ på din/barnets næste planlagte dag. Du bør fastholde din regelmæssige injekt
 Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Ngenla
 Du må ikke holde op med at tage dette lægemiddel uden at tale med din læge.
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -775,7 +781,7 @@ Hvis du eller dit barn oplever bivirkninger, bør du tale med din/barnets læge,
 sygeplejersken. Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel.
 Du eller dine pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe 
-med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+med at fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ngenla"
@@ -829,7 +835,7 @@ Der kan være en lille mængde lægemiddel tilbage i pennen, efter at alle doser
 Forsøg ikke at tage eventuelt resterende lægemiddel. Når den sidste dosis er indgivet, skal pennen 
 bortskaffes korrekt. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1254,7 +1260,7 @@ give lægemidlet til andre. Det kan være skadeligt for andre, selvom de har de 
 symptomer, som du eller dit barn har.
 -
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du eller dit barn får bivirkninger, 
-herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+herunder bivirkninger, som ikke er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -1293,7 +1299,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1302,7 +1310,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1317,7 +1326,7 @@ Usage: #inline
 3. Como utilizar Ngenla 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Ngenla 
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1331,7 +1340,7 @@ natural. Também ajuda os tecidos adiposos e musculares a desenvolverem-se nas p
 Ngenla é utilizado para tratar crianças e adolescentes a partir dos 3 anos de idade que não têm 
 hormona do crescimento em quantidade suficiente e que não estão a crescer ao ritmo normal.
 A substância ativa de Ngenla é fabricada por “tecnologia de ADN recombinante". Isto significa que é 
-produzida em células que foram modificadas em laboratório, para poderem produzir esta substância.</p>         </div>"""   
+produzida em células que foram modificadas em laboratório, para poderem produzir esta substância.</p> </div>"""   
           
 
              
@@ -1470,7 +1479,7 @@ Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja
 Ngenla contém metacresol
 Ngenla contém um conservante chamado metacresol. Em casos muito raros, a presença de metacresol 
 pode causar inflamação (inchaço) nos músculos. Se sentir ou a criança a seu cargo sentir dor muscular 
-ou dor no local de injeção, informe o seu médico. </p>         </div>"""   
+ou dor no local de injeção, informe o seu médico. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar ngenla"
@@ -1538,7 +1547,7 @@ Não utilize uma dose a dobrar para compensar uma dose que se esqueceu de admini
 Se parar de utilizar Ngenla
 Não pare de utilizar este medicamento sem falar primeiro com o seu médico. 
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1607,7 +1616,7 @@ indesejáveis não indicados neste folheto, fale com o seu médico, farmacêutic
 Também poderá comunicar efeitos indesejáveis diretamente através do sistema nacional de notificação 
 mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais 
 informações sobre a segurança deste medicamento.
-35</p>         </div>"""      
+35</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar ngenla"
@@ -1661,7 +1670,7 @@ a última dose, a caneta tem de ser eliminada corretamente.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-36</p>         </div>"""      
+36</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1797,7 +1806,7 @@ Tel: +371 670 35 775
 Este folheto foi revisto pela última vez em .
 38
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

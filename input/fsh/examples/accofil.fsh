@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Accofil </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ a donor. The stem cells will then go back into the bone marrow and produce blood
 <li>to increase the number of white blood cells if you suffer from severe chronic neutropenia to 
 help prevent infections;  </li>
 <li>in patients with advanced HIV infection which will help reduce the risk of infections.  </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ down fructose, which may cause serious side effects.  </p>
 child can no longer take sweet foods or drinks because they feel sick, vomit or get unpleasant effects 
 such as bloating, stomach cramps or diarrhoea </p>
 <p>An allergy to natural rubber (latex). The needle cover of the pre-filled syringe contains dry natural 
-rubber (a derivative of latex) which may cause severe allergic reaction. </p>         </div>"""   
+rubber (a derivative of latex) which may cause severe allergic reaction. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take accofil"
@@ -318,7 +321,7 @@ should, contact your doctor as soon as possible. </p>
 <p>If you forget to use Accofil </p>
 <p>If you have missed an injection, or injected too little, contact your doctor as soon as possible. Do not 
 take a double dose to make up for any missed doses. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -441,7 +444,7 @@ volume disturbances)
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V By reporting side effects you can help provide more information on the safety of this 
-medicine.  </p>         </div>"""      
+medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store accofil"
@@ -459,7 +462,7 @@ this period, the product should not be put back in the refrigerator and should b
 <p>Do not use Accofil if you notice it is cloudy, or there is discoloration or there are particles in it,  </p>
 <p>Do not put the cover back on used needles, as you may accidentally prick yourself. Medicines should 
 not be disposed of via wastewater or household waste. Ask your pharmacist how to dispose of 
-medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
+medicines no longer required. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -499,7 +502,7 @@ Winthontlaan 200,<br />
 3526 KV Utrecht,<br />
 The Netherlands </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -538,7 +541,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -547,7 +552,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -562,7 +568,7 @@ Usage: #inline
 3. Sådan skal du bruge Accofil<br />
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -593,7 +599,7 @@ til at øge antallet af hvide blodlegemer, hvis du lider af svær kronisk neutro
 med at forebygge infektioner 
  
 hos patienter med fremskreden hiv-infektion, hvilket hjælper med at nedsætte risikoen for 
-infektioner.  </p>         </div>"""   
+infektioner.  </p> </div>"""   
           
 
              
@@ -682,7 +688,7 @@ alvorlige bivirkninger. </p>
 hvis dit barn ikke længere kan indtage sukkerholdig mad eller drikke, fordi barnet bliver dårligt, 
 kaster op eller får ubehagelige virkninger som f.eks. oppustethed, mavekramper eller diarré. </p>
 <p>Allergi over for naturgummi (latex). Kanylebeskyttelseshætten på den fyldte injektionssprøjte 
-indeholder tørt naturgummi (et derivat af latex), som kan forårsage en alvorlig allergisk reaktion </p>         </div>"""   
+indeholder tørt naturgummi (et derivat af latex), som kan forårsage en alvorlig allergisk reaktion </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take accofil"
@@ -840,7 +846,7 @@ du burde, skal du kontakte lægen hurtigst muligt. </p>
 <p>Hvis du har glemt at bruge Accofil<br />
 Hvis du har sprunget en injektion over eller har injiceret for lidt, skal du kontakte din læge så hurtigt 
 som muligt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -971,7 +977,7 @@ bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårør
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V.  </p>
 <p>Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden 
-af dette lægemiddel. </p>         </div>"""      
+af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store accofil"
@@ -991,7 +997,7 @@ indeholder partikler. </p>
 <p>Sæt ikke beskyttelseshætten tilbage på brugte kanyler, da du ved et uheld kan komme til at stikke dig 
 selv.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1075,7 +1081,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

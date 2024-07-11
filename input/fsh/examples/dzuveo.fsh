@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Dzuveo </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The active substance of Dzuveo is sufentanil, which belongs to a group of strong painkillers called 
 opioids. </p>
 <p>Sufentanil is used to treat sudden moderate-to-severe pain in adults in medically monitored settings 
-such as a hospital. </p>         </div>"""   
+such as a hospital. </p> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ whilst or after being treated with sufentanil. You should only drive and use mac
 has elapsed after your last dose of Dzuveo. </p>
 <p>Dzuveo contains sodium 
 This medicinal product contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dzuveo"
@@ -194,7 +197,7 @@ After your treatment the medical staff will dispose of the applicator accordingl
 The symptoms of overdose include severe breathing problems like slow and shallow breathing, loss of 
 consciousness, extremely low blood pressure, collapse and muscle rigidity. If these start to develop, 
 tell a doctor or nurse immediately. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ insomnia, sweating and yawning. </li>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not listed 
 in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dzuveo"
@@ -277,7 +280,7 @@ medicine. </p>         </div>"""
 - this medicine is not used if there are signs of deterioration. </p>
 <p>Medicines should not be thrown away via wastewater or household waste. Your healthcare provider 
 will dispose of any waste according to hospital policies. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -337,7 +340,7 @@ from Pusher. Discard the Lock. </p>
 6. Depress the green Pusher to deliver the tablet to the patient s sublingual space and confirm 
 tablet placement. </p>
 <p>The single-dose applicator (SDA) must be discarded in accordance to the institutional policies and local 
-requirements. </p>         </div>"""      
+requirements. </p> </div>"""      
 
 
 
@@ -376,7 +379,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -385,7 +390,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -402,7 +408,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -413,7 +419,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Dzuveo er sufentanil, der tilhører en gruppe stærke smertestillende midler, som kaldes 
 opioider. </p>
 <p>Sufentanil anvendes til at behandle pludselige moderate til svære smerter hos voksne i omgivelser med 
-lægeligt opsyn såsom et hospital. </p>         </div>"""   
+lægeligt opsyn såsom et hospital. </p> </div>"""   
           
 
              
@@ -508,7 +514,7 @@ bør kun føre motorkøretøj og betjene maskiner, hvis der er gået tilstrække
 sidste dosis af Dzuveo. </p>
 <p>Dzuveo indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dzuveo"
@@ -536,7 +542,7 @@ Efter behandlingen vil sygeplejersken bortskaffe applikatoren. </p>
 Symptomerne på overdosering er svære vejrtrækningsproblemer som langsom og overfladisk 
 vejrtrækning, bevidsthedstab, meget lavt blodtryk, kollaps og muskelstivhed. Hvis du begynder at få 
 disse, skal du straks kontakte en læge eller sygeplejersken. </p>
-<p>Spørg lægen eller ssygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller ssygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -621,7 +627,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dzuveo"
@@ -638,7 +644,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned </li>
 </ul>
 <p>Lægemidler må ikke bortskaffes sammen med spildevand eller husholdningsaffald. Din 
 sundhedsudbyder vil bortskaffe affald i henhold til hospitalets retningslinjer. Dette vil hjælpe med at 
-beskytte miljøet. </p>         </div>"""      
+beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -701,7 +707,7 @@ BEMÆRK: Undgå at berøre slimhinden direkte med spidsen af applikatoren. </li>
 resoribletten er på plads. </li>
 </ol>
 <p>Enkeltdosisapplikatoren skal bortskaffes i overensstemmelse med institutionens politik og de lokale 
-krav. </p>         </div>"""      
+krav. </p> </div>"""      
 
 
 
@@ -740,7 +746,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -749,7 +757,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -764,7 +773,7 @@ Usage: #inline
 3. Como utilizar Dzuveo 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Dzuveo 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -775,7 +784,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A substância ativa de Dzuveo é o sufentanilo, que pertence a um grupo de analgésicos fortes 
 denominados opioides. </p>
 <p>O sufentanilo é utilizado no tratamento da dor súbita moderada a grave em adultos, em ambientes 
-clinicamente monitorizados, tal como um hospital. </p>         </div>"""   
+clinicamente monitorizados, tal como um hospital. </p> </div>"""   
           
 
              
@@ -870,7 +879,7 @@ apenas conduzir e utilizar máquinas se tiver decorrido tempo suficiente após a
 Dzuveo. </p>
 <p>Dzuveo contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar dzuveo"
@@ -897,7 +906,7 @@ Após o seu tratamento, o pessoal médico eliminará o aplicador em conformidade
 Os sintomas de sobredosagem incluem problemas respiratórios graves, tais como respiração lenta e 
 superficial, perda de consciência, tensão arterial extremamente baixa, colapso e rigidez muscular. Caso 
 estes sintomas se comecem a desenvolver, informe imediatamente um médico ou enfermeiro. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -968,7 +977,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêdice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar dzuveo"
@@ -983,7 +992,7 @@ exterior, após VAL. O prazo de validade corresponde ao último dia do mês indi
 - Este medicamento não é utilizado caso existam quaisquer sinais de deterioração. </p>
 <p>Os medicamentos não devem ser eliminados no lixo ou esgotos domésticos. O seu prestador de 
 cuidados de saúde eliminará qualquer resíduo em conformidade com as políticas hospitalares. Estas 
-medidas ajudarão a proteger o ambiente. </p>         </div>"""      
+medidas ajudarão a proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1046,7 +1055,7 @@ propulsor. Elimine o bloqueio. </p>
 confirme a posição do comprimido. </li>
 </ol>
 <p>O aplicador unidose (AU) deve ser eliminado em conformidade com as políticas institucionais e os 
-requisitos locais. </p>         </div>"""      
+requisitos locais. </p> </div>"""      
 
 
 

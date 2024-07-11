@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Potactasol </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ Usage: #inline
 <li>ovarian cancer or small cell lung cancer that has come back after chemotherapy </li>
 <li>advanced cervical cancer if surgery or radiotherapy is not possible. In this case Potactasol 
 treatment is combined with medicines containing cisplatin.  </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -124,7 +127,7 @@ family planning options prior to starting treatment. </p>
 <p>Driving and using machines 
 Potactasol can make you feel tired or weak. If you experience this, do not drive or use machines. </p>
 <p>Potactasol contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per vial, i.e. essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take potactasol"
@@ -158,7 +161,7 @@ usually into your arm, over about 30 minutes. </p>
 <p>If you are given too much Potactasol 
 As this medicine is being given by your doctor or nurse, it is unlikely that you will be given too much. 
 In the unlikely event of an overdose, your doctor will monitor you for side effects. Tell your doctor or 
-nurse if you have any concerns about the amount of medicine that you receive. </p>         </div>"""         
+nurse if you have any concerns about the amount of medicine that you receive. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -247,7 +250,7 @@ gut [mucosal inflammation]). </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store potactasol"
@@ -270,7 +273,7 @@ immediately, in-use storage times and conditions prior to use are the responsibi
 would normally not be longer than 24 hours at 2 C to 8 C, unless reconstitution/dilution has taken 
 place in controlled and validated aseptic conditions. </p>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements for 
-cytotoxic material. </p>         </div>"""      
+cytotoxic material. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -363,7 +366,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -402,7 +405,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -411,7 +416,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -426,7 +432,7 @@ Usage: #inline
 3. Sådan får du Potactasol<br />
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -440,7 +446,7 @@ Usage: #inline
 <li>ovariecancer eller - småcellet lungekræft, som er kommet igen efter kemoterapi </li>
 <li>fremskreden livmoderhalskræft, hvor behandling med kirurgi eller stråleterapi ikke er mulig. 
 I sådanne tilfælde er behandling med Potactasol kombineret med medicin, der indeholder cisplatin.  </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -487,7 +493,7 @@ Potactasol kan medføre træthed eller svaghed. Hvis du oplever dette, så kør 
 værktøj eller maskiner. </p>
 <p>Potactasol indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas, d.v.s. det er 
-hovedsagligt "natriumfri". </p>         </div>"""   
+hovedsagligt "natriumfri". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take potactasol"
@@ -519,7 +525,7 @@ infusion (drop), sædvanligvis i armen over en periode på ca. 30 minutter. </p>
 <p>Hvis du får for meget Potactasol 
 Da du får denne medicin af en læge eller sygeplejerske, er det usandsynligt, at du får for meget. I det 
 usandsynlige tilfælde at overdosering forekommer, vil din læge overvåge dig for bivirkninger. Fortæl 
-din læge eller sygeplejerske, hvis du er bekymret over den mængde medicin, du får. </p>         </div>"""         
+din læge eller sygeplejerske, hvis du er bekymret over den mængde medicin, du får. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -618,7 +624,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store potactasol"
@@ -641,7 +647,7 @@ omgående, er ansvaret for i-brug tid og betingelser forud for anvendelse bruger
 være længere end 24 timer ved 2 til 8° C, medmindre rekonstituering/fortynding er foretaget under 
 kontrollerede og validerede aseptiske forhold. </p>
 <p>Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer for 
-cytotoksisk materiale. </p>         </div>"""      
+cytotoksisk materiale. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -827,7 +833,7 @@ beskyttelsesdragt herunder maske, briller og handsker. </p>
 <p>Alt udstyr brugt til administration eller rengøring, herunder handsker, bør anbringes i en 
 højrisiko-affaldssæk til forbrænding ved høj temperatur. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

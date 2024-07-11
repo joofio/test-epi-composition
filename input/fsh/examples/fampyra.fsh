@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Fampyra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ been damaged by MS. This medicine is thought to work by letting signals pass dow
 normally, which allows you to walk better. </p>
 <p>Fampyra is a medicine used to improve walking in adults (18 years and over) with Multiple Sclerosis 
 (MS) related walking disability. In multiple sclerosis, inflammation destroys the protective sheath 
-around the nerves leading to muscle weakness, muscle stiffness and difficulty walking. </p>         </div>"""   
+around the nerves leading to muscle weakness, muscle stiffness and difficulty walking. </p> </div>"""   
           
 
              
@@ -126,7 +129,7 @@ your doctor or pharmacist before for advice before taking this medicine. </p>
 <p>You should not breast-feed whilst taking this medicine. </p>
 <p>Driving and using machines </p>
 <p>Fampyra may have an effect on people s ability to drive or use machines, it can cause dizziness. Make 
-sure you are not affected before you start driving or use machinery. </p>         </div>"""   
+sure you are not affected before you start driving or use machinery. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fampyra"
@@ -156,7 +159,7 @@ In overdose you may notice sweating, minor shaking (tremor), dizziness, confusio
 <p>If you forget to take Fampyra </p>
 <p>If you forget to take a tablet, do not take two tablets at once to make up for a missed dose. You must 
 always leave 12 hours between each tablet. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -210,7 +213,7 @@ stop taking Fampyra and see your doctor immediately. </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fampyra"
@@ -224,7 +227,7 @@ date refers to the last day of that month. </p>
 <p>If your Fampyra is supplied in bottles, only one bottle should be opened at a time. After first opening 
 use within 7 days. </p>
 <p>Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ Biogen Idec (Ireland) Limited
 Tel: +44 (0) 1628 50 1This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>You can get a larger print version of this leaflet by calling the local representatives (see list above). </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -360,7 +363,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -369,7 +374,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -386,7 +392,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -401,7 +407,7 @@ gennem nerven, hvilket giver dig mulighed for at gå bedre. </p>
 <p>Fampyra er et lægemiddel, der anvendes til at forbedre gangfunktionen hos voksne (18 år og ældre) 
 med gangproblemer grundet multipel sklerose (MS). Ved multipel sklerose ødelægger en 
 betændelsestilstand den beskyttende hinde omkring nerverne, hvilket medfører muskelsvaghed, 
-muskelstivhed og gangproblemer. </p>         </div>"""   
+muskelstivhed og gangproblemer. </p> </div>"""   
           
 
              
@@ -460,7 +466,7 @@ du spørge din læge eller apotekspersonalet til råds, før du tager dette læg
 <p>Du bør ikke amme, mens du tager denne medicin. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Fampyra kan påvirke evnen til at køre eller betjene maskiner, det kan forårsage svimmelhed. Sørg for 
-ikke at være påvirket, før du begynder at køre eller betjene maskiner. </p>         </div>"""   
+ikke at være påvirket, før du begynder at køre eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fampyra"
@@ -490,7 +496,7 @@ som ikke er nævnt her. </p>
 <p>Hvis du har glemt at tage Fampyra </p>
 <p>Hvis du har glemt at tage en tablet, må du ikke tage en dobbeltdosis som erstatning for den glemte 
 dosis. Du skal altid lade 12 timer gå mellem hver tablet. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -610,7 +616,7 @@ vejrtrækningen, skal du stoppe med at tage Fampyra og kontakte en læge med det
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fampyra"
@@ -625,7 +631,7 @@ beskytte mod lys og fugt. </p>
 <p>Får du Fampyra i en tabletbeholder, bør du kun åbne én beholder ad gangen. Anvendes inden 7 dage 
 efter første åbning. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -751,7 +757,7 @@ Tel: +44 (0) 1628 50 1 </p>
 <p>Du kan få en version af denne indlægsseddel med større skrifttype ved at kontakte den lokale 
 repræsentant (se listen herover). </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -790,7 +796,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -799,7 +807,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -816,7 +825,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Fampyra </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -831,7 +840,7 @@ impulsos passarem normalmente pelo nervo, o que lhe permite andar melhor. </p>
 <p>Fampyra é um medicamento utilizado para melhorar a marcha em adultos (com idade igual ou 
 superior a 18 anos) com perturbações na marcha associadas à Esclerose Múltipla (EM). Na esclerose 
 múltipla, a inflamação destrói a camada protetora que envolve os nervos, levando a fraqueza dos 
-músculos, rigidez muscular e dificuldade em andar. </p>         </div>"""   
+músculos, rigidez muscular e dificuldade em andar. </p> </div>"""   
           
 
              
@@ -892,7 +901,7 @@ ou farmacêutico antes de tomar este medicamento. </p>
 <p>Não deve amamentar enquanto toma este medicamento. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Fampyra pode ter um efeito sobre a capacidade de conduzir e utilizar máquinas, porque pode causar 
-tonturas. Certifique-se que não sente esse efeito antes de conduzir veículos ou utilizar máquinas. </p>         </div>"""   
+tonturas. Certifique-se que não sente esse efeito antes de conduzir veículos ou utilizar máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar fampyra"
@@ -925,7 +934,7 @@ também sentir outros efeitos não referidos aqui. </p>
 compensar a dose que se esqueceu de tomar. Tem sempre que deixar um intervalo de 12 horas entre 
 cada comprimido. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1045,7 +1054,7 @@ respiratórios; pare de tomar Fampyra e procure o seu médico imediatamente. </p
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar fampyra"
@@ -1061,7 +1070,7 @@ proteger da luz e da humidade. </p>
 abertura, deve utilizar dentro de 7 dias. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1190,7 +1199,7 @@ Tel: +44 (0) 1628 50 1 </p>
 <p>Outras fontes de informação </p>
 <p>Pode obter uma versão deste folheto com caracteres maiores se ligar para o representante local (ver 
 lista acima). </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

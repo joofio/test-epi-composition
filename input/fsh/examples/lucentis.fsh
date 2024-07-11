@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lucentis </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ factor A (VEGF-A) present in the eye. In excess, VEGF-A causes abnormal blood ve
 swelling in the eye which can lead to impairment of vision in diseases like AMD, DME, PDR, RVO, 
 PM and CNV. By binding to VEGF-A, Lucentis can block its actions and prevent this abnormal 
 growth and swelling. </p>
-<p>In these diseases, Lucentis can help to stabilise and in many cases improve your vision. </p>         </div>"""   
+<p>In these diseases, Lucentis can help to stabilise and in many cases improve your vision. </p> </div>"""   
           
 
              
@@ -143,7 +146,7 @@ your doctor before treatment with Lucentis.
 during breast-feeding. Ask your doctor or pharmacist for advice before Lucentis treatment. </p>
 <p>Driving and using machines 
 After Lucentis treatment you may experience some temporary vision blurring. If this happens, do not 
-drive or use machines until this resolves. </p>         </div>"""   
+drive or use machines until this resolves. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lucentis"
@@ -167,7 +170,7 @@ Lucentis can be used for people of 65 years of age and over without dose adjustm
 If you are considering stopping Lucentis treatment, please go to your next appointment and discuss 
 this with your doctor. Your doctor will advise you and decide how long you should be treated with 
 Lucentis. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -211,7 +214,7 @@ sensation in the eye, irritation of the eyelid. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lucentis"
@@ -226,7 +229,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 <li>Prior to use, the unopened vial may be kept at room temperature (25 C) for up to 24 hours. </li>
 <li>Keep the vial in the outer carton in order to protect from light. </li>
 <li>Do not use any pack that is damaged. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -462,7 +465,7 @@ information for you.
 - Keep this leaflet. You may need to read it again. 
 - If you have any further questions, ask your doctor. 
 - If you get any side effects, talk to your doctor. This includes any possible side effects not listed 
-in this leaflet. See section 4.</p>         </div>"""      
+in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -501,7 +504,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -510,7 +515,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -525,7 +531,7 @@ Usage: #inline
 3. Sådan gives Lucentis 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -555,7 +561,7 @@ A (VEGF-A), som findes i øjet. Når VEGF-A er i overskud i øjet, forårsager d
 blodårer og opsvulmen i øjet, der kan medføre synsnedsættelse ved sygdomme som AMD, DME, 
 PDR, RVO, PM og CNV. Ved at bindes til VEGF-A kan Lucentis blokere dets funktion og forhindre 
 denne unormale vækst og opsvulmen. </p>
-<p>Ved disse sygdomme kan Lucentis hjælpe til at stabilisere, og i mange tilfælde forbedre, dit syn. </p>         </div>"""   
+<p>Ved disse sygdomme kan Lucentis hjælpe til at stabilisere, og i mange tilfælde forbedre, dit syn. </p> </div>"""   
           
 
              
@@ -606,7 +612,7 @@ gravid, skal du spørge din læge til råds før behandling med Lucentis.
 amning. Spørg din læge eller apoteket til råds, før behandling med Lucentis. </p>
 <p>Trafik- og arbejdssikkerhed 
 Efter behandling med Lucentis kan du opleve en vis midlertidig sløring af synet. Hvis det sker, må du 
-ikke køre bil eller betjene maskiner, før det er forsvundet. </p>         </div>"""   
+ikke køre bil eller betjene maskiner, før det er forsvundet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lucentis"
@@ -630,7 +636,7 @@ Lucentis kan anvendes til personer på 65 år og derover uden dosisjustering. </
 Hvis du overvejer at holde op med Lucentis-behandlingen, bedes du komme til din næste aftale og 
 drøfte det med din læge. Din læge vil rådgive dig og beslutte, hvor længe du bør behandles med 
 Lucentis. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -676,7 +682,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lucentis"
@@ -691,7 +697,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 <li>Forud for brug kan det uåbnede hætteglas opbevares ved stuetemperatur (25 ºC) i op til 24 timer </li>
 <li>Opbevar hætteglasset i den ydre karton for at beskytte mod lys. </li>
 <li>Brug ikke Lucentis, hvis pakningen er beskadiget. </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -954,7 +960,7 @@ vigtige oplysninger.
 - Spørg lægen, hvis der er mere, du vil vide. 
 - Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
 indlægsseddel. Se punkt 4 </p>
-<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>         </div>"""      
+<p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p> </div>"""      
 
 
 

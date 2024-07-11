@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Xevudy </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ protein designed to recognise a specific target on the SARS-CoV-2 virus, the vir
 COVID-19. Xevudy is used to treat COVID-19 in adults and adolescents (from 12 years and weighing at least 
 40 kg). It targets the spike protein that the virus uses to attach to cells, blocking the virus from entering 
 the cell and making new viruses. By preventing the virus from multiplying in the body, Xevudy can 
-help your body overcome the infection and prevent you from getting seriously ill. </p>         </div>"""   
+help your body overcome the infection and prevent you from getting seriously ill. </p> </div>"""   
           
 
              
@@ -108,7 +111,7 @@ with Xevudy are greater than any likely risks for you and your baby. </p>
 <p>It is not known whether the ingredients of Xevudy can pass into breast milk. If you are 
 breast-feeding, you must check with your doctor before you receive Xevudy. </p>
 <p>Driving and using machines  </p>
-<p>Xevudy is not expected to have any effect on your ability to drive or use machines. </p>         </div>"""   
+<p>Xevudy is not expected to have any effect on your ability to drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xevudy"
@@ -122,7 +125,7 @@ breast-feeding, you must check with your doctor before you receive Xevudy. </p>
 doctor or nurse. It takes 30 minutes to give you the full dose of medicine. You will be monitored 
 during and for at least 1 hour after your treatment is given. </p>
 <p>The  Instructions for healthcare professionals  below give details for your doctor, pharmacist or nurse 
-on how the Xevudy infusion is made up and given. </p>         </div>"""         
+on how the Xevudy infusion is made up and given. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -159,7 +162,7 @@ Other side effects  </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xevudy"
@@ -177,7 +180,7 @@ any unused product correctly. </p>
 <p>Once diluted, this medicine is intended to be used immediately. If after dilution, immediate 
 administration is not possible, the diluted solution may be stored at room temperature (up to 25 C) for 
 up to 6 hours or refrigerated (2 C   8 C) for up to 24 hours from the time of dilution until the end of 
-administration. </p>         </div>"""      
+administration. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -315,7 +318,7 @@ solution is recommended to be administered with a 0.2- m in-line filter.<br />
 3. Administer as an IV infusion for 30 minutes at room temperature. </p>
 <p>Disposal </p>
 <p>Any unused medicinal product or waste material should be disposed of in accordance with local 
-requirements. </p>         </div>"""      
+requirements. </p> </div>"""      
 
 
 
@@ -354,7 +357,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -363,7 +368,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -380,7 +386,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -394,7 +400,7 @@ forårsager COVID-19. Xevudy anvendes til behandling af COVID-19 hos voksne og u
 vejer minimum 40 kg). Det virker på det spikeprotein, som virussen bruger til at hæfte sig til cellerne, 
 og forhindrer dermed virussen i at komme ind i cellen og lave nye virusser. Ved at forhindre virussen i 
 at formere sig i kroppen kan Xevudy hjælpe din krop med at nedkæmpe infektionen og forhindre, at 
-du bliver alvorligt syg. </p>         </div>"""   
+du bliver alvorligt syg. </p> </div>"""   
           
 
              
@@ -426,7 +432,7 @@ med Xevudy er større end de sandsynlige risici for dig og dit barn. </p>
 <p>Det vides ikke, om indholdsstofferne i Xevudy kan gå over i modermælken. Hvis du ammer, skal du 
 kontakte lægen, før du får Xevudy. </p>
 <p>Trafik- og arbejdssikkerhed<br />
-Xevudy forventes ikke at påvirke evnen til at føre motorkøretøj og betjene maskiner. </p>         </div>"""   
+Xevudy forventes ikke at påvirke evnen til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xevudy"
@@ -441,7 +447,7 @@ Xevudy forventes ikke at påvirke evnen til at føre motorkøretøj og betjene m
 (infusion) i en vene. Det tager op til 30 minutter at indgive hele dosen. Du bliver holdt under opsyn 
 under indgivelsen og i mindst 1 time derefter. </p>
 <p>Afsnittet "Vejledning til sundhedspersoner" nedenfor indeholder yderligere oplysninger til lægen, 
-apotekspersonalet og sygeplejersken om, hvordan Xevudy-infusionen klargøres og indgives. </p>         </div>"""         
+apotekspersonalet og sygeplejersken om, hvordan Xevudy-infusionen klargøres og indgives. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -495,7 +501,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xevudy"
@@ -520,7 +526,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Efter fortynding er dette lægemiddel beregnet til øjeblikkelig anvendelse. Hvis det ikke er muligt at 
 indgive opløsningen umiddelbart efter fortynding, kan den fortyndede opløsning opbevares ved 
 stuetemperatur (op til 25 °C) i op til 6 timer eller i køleskab (2 °C til 8 °C) i op til 24 timer fra 
-tidspunktet for fortynding til afslutning af indgivelsen. </p>         </div>"""      
+tidspunktet for fortynding til afslutning af indgivelsen. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -689,7 +695,7 @@ filter.<br />
 3. Indgives via en intravenøs infusion over 15 minutter (ved brug af en 50 ml infusionspose) eller 
 over 30 minutter (ved brug af en 100 ml infusionspose) ved stuetemperatur. </p>
 <p>Bortskaffelse 
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

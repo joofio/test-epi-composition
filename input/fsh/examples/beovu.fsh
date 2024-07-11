@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Beovu </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ macula s function, resulting in diseases which may cause decreased vision such a
 Beovu may slow down disease progression and thereby maintain, or even improve, your vision. </p>
 <p>Abnormal blood vessels 
 that leak fluid or blood 
-into the macula </p>         </div>"""   
+into the macula </p> </div>"""   
           
 
              
@@ -156,7 +159,7 @@ After your injection with Beovu, you may have temporary vision problems (for exa
 vision). Do not drive or use machines as long as these last. </p>
 <p>Beovu contains sodium 
 The medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take beovu"
@@ -222,7 +225,7 @@ long you will receive Beovu, talk to your doctor. </p>
 <p>Before stopping Beovu treatment 
 Speak with your doctor before stopping treatment. Stopping treatment may increase your risk of vision 
 loss and your vision may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -294,7 +297,7 @@ occlusion)
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store beovu"
@@ -308,7 +311,7 @@ expiry date refers to the last day of that month. </p>
 <p>Do not freeze. </p>
 <p>Keep the pre-filled syringe in the sealed blister and in the outer carton in order to protect from light. </p>
 <p>Prior to use, the unopened blister with the pre-filled syringe may be kept at room temperature (below 
-25 C) for up to 24 hours. </p>         </div>"""      
+25 C) for up to 24 hours. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -405,7 +408,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -444,7 +447,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -453,7 +458,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -470,7 +476,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -500,7 +506,7 @@ Beovu kan forsinke sygdommens udvikling, og dermed opretholde, eller endda forbe
 <p>Unormale blodkar, der 
 lækker væske eller blod 
 ind i den gule plet i øjet 
-(macula) </p>         </div>"""   
+(macula) </p> </div>"""   
           
 
              
@@ -571,7 +577,7 @@ Når du har fået indsprøjtet Beovu, kan du opleve midlertidige synsproblemer (
 syn). Hvis det sker, må du ikke køre bil eller betjene maskiner, så længe det varer. </p>
 <p>Beovu indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take beovu"
@@ -637,7 +643,7 @@ Hvis du har spørgsmål om, hvor længe du skal have Beovu, skal du tale med din
 <p>Hvis du holder op med at få behandling med Beovu 
 Tal med din læge, inden du holder op med behandlingen. Hvis du holder op med behandlingen, kan 
 risikoen for at miste din synsevne blive større og dit syn kan blive dårligere. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -786,7 +792,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel. </p>         </div>"""      
+lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store beovu"
@@ -801,7 +807,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Opbevar den fyldte injektionssprøjte i den forseglede blister og i den ydre karton for at beskytte mod 
 lys. </p>
 <p>Inden brug kan den uåbnede blister med den fyldte injektionssprøjte opbevares ved stuetemperatur 
-(under 25 ºC) i op til 24 timer. </p>         </div>"""      
+(under 25 ºC) i op til 24 timer. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -997,7 +1003,7 @@ vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, hvis der er mere, du vil vide. 
 - Kontakt lægen, hvis du får bivirkninger, herunder bivirkninger, som ikke er nævnt i denne 
-indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

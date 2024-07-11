@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store NovoThirteen </li>
 <li>Contents of the pack and other information. </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ factor XIII, an enzyme necessary for blood clotting. NovoThirteen replaces the m
 helps to stabilise the initial blood clot by producing a mesh around the clot. </p>
 <p>What NovoThirteen is used for 
 NovoThirteen is used to prevent bleeding in patients who do not have enough or are missing part of 
-factor XIII (that is called A-subunit). </p>         </div>"""   
+factor XIII (that is called A-subunit). </p> </div>"""   
           
 
              
@@ -111,7 +114,7 @@ clotting factor) together. </p>
 If you are pregnant or breast-feeding, or if you think you may be pregnant or are planning to have a 
 baby, ask your doctor for advice before taking this medicine. </p>
 <p>NovoThirteen contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per injection, i.e. essentially  sodium-free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per injection, i.e. essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novothirteen"
@@ -158,7 +161,7 @@ for a forgotten dose. </p>
 If you stop using NovoThirteen, you are not protected against bleeding. Do not stop using 
 NovoThirteen without talking to your doctor. Your doctor will explain what might happen if you stop 
 treatment and discuss other options with you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -183,7 +186,7 @@ be more common in children than in adults. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novothirteen"
@@ -200,7 +203,7 @@ Do not freeze. </p>
 <p>The solution is clear and colourless. Do not use this medicine if there are particles in it or it is 
 discoloured when reconstituted. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -224,7 +227,7 @@ Novo All<br />
 DK-2880 Bagsv rd 
 Denmark </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -263,7 +266,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -272,7 +277,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -287,7 +293,7 @@ Usage: #inline
 3. Sådan skal du bruge NovoThirteen 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -302,7 +308,7 @@ faktor XIII og hjælper med at stabilisere en begyndende størkning af blodet, v
 omkring størkningen. </p>
 <p>Anvendelse 
 NovoThirteen anvendes til at forhindre blødning hos patienter, som ikke har nok eller delvist mangler 
-faktor XIII (kaldet A-subunit). </p>         </div>"""   
+faktor XIII (kaldet A-subunit). </p> </div>"""   
           
 
              
@@ -350,7 +356,7 @@ Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægg
 du spørge din læge til råds, før du bruger dette lægemiddel. </p>
 <p>NovoThirteen indeholder natrium 
 Denne medicin indeholder mindre end 1 mmol natrium (23 mg) per injektion, hvilket betyder at det 
-stort set er ’natrium-frit’. </p>         </div>"""   
+stort set er ’natrium-frit’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take novothirteen"
@@ -395,7 +401,7 @@ som erstatning for den glemte dosis. </p>
 Hvis du holder op med at bruge NovoThirteen, er du ikke beskyttet mod blødning. Du må ikke holde 
 op med at bruge NovoThirteen uden først at have talt med din læge om det. Din læge vil forklare, hvad 
 der kan ske, hvis du stopper behandlingen, og drøfte andre behandlingsmuligheder med dig. </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om i forbindelse med brugen af dette lægemiddel. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om i forbindelse med brugen af dette lægemiddel. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -435,7 +441,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novothirteen"
@@ -452,7 +458,7 @@ Må ikke fryses. </p>
 <p>Opløsningen er klar og farveløs. Brug ikke lægemidlet, hvis det indeholder partikler eller er misfarvet 
 efter opblanding. </p>
 <p>Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden. Spørg på 
-apoteket, hvordan du skal bortskaffe medicinrester. Dette er med til at beskytte miljøet. </p>         </div>"""      
+apoteket, hvordan du skal bortskaffe medicinrester. Dette er med til at beskytte miljøet. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -542,7 +548,7 @@ Den fortyndede opløsning er klar og farveløs. Kontrollér injektionsvæsken fo
 misfarvning. Hvis en af delene bemærkes, skal injektionsvæsken kasseres. </p>
 <p>Efter fortynding fortsættes til trin H. </p>
 <p>Eventuelt resterende injektionsvæske skal straks kasseres. </p>
-<p>Hvis du har nogle spørgsmål, skal du kontakte din læge eller sygeplejerske. </p>         </div>"""      
+<p>Hvis du har nogle spørgsmål, skal du kontakte din læge eller sygeplejerske. </p> </div>"""      
 
 
 
@@ -581,7 +587,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -590,7 +598,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -605,7 +614,7 @@ Usage: #inline
 3. Como utilizar NovoThirteen 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar NovoThirteen 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -620,7 +629,7 @@ em falta e ajuda a estabilizar o coágulo sanguíneo inicial através da produç
 coágulo. </p>
 <p>Para que é utilizado NovoThirteen 
 NovoThirteen é utilizado para prevenir hemorragias em doentes que não têm fator XIII suficiente ou 
-que têm falta de uma parte do fator XIII (chamada subunidade A).  </p>         </div>"""   
+que têm falta de uma parte do fator XIII (chamada subunidade A).  </p> </div>"""   
           
 
              
@@ -669,7 +678,7 @@ Se está grávida ou a amamentar, se pensa estar grávida ou planeia engravidar,
 antes de tomar este medicamento. </p>
 <p>NovoThirteen contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por injeção, ou seja, é basicamente 
-‘isento de sódio’. </p>         </div>"""   
+‘isento de sódio’. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar novothirteen"
@@ -716,7 +725,7 @@ dobrar para compensar uma dose que se esqueceu de tomar. </p>
 Se parar de utilizar NovoThirteen, não estará protegido contra as hemorragias. Não pare de tomar 
 NovoThirteen sem falar com o seu médico. O seu médico irá explicar o que pode acontecer se parar o 
 tratamento e irá apresentar-lhe outras opções. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -759,7 +768,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar novothirteen"
@@ -777,7 +786,7 @@ Não congelar. </p>
 descolorado após a reconstituição. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -807,7 +816,7 @@ Novo Allé
 DK-2880 Bagsværd 
 Dinamarca </p>
 <p>Este folheto foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

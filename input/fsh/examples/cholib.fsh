@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Cholib</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -92,7 +95,7 @@ levels of 2 types of fats (triglycerides and LDL cholesterol). It is given to lo
 increase the good cholesterol (HDL cholesterol) in patients whose bad cholesterol (LDL cholesterol) 
 is already controlled with simvastatin alone in a dose of 20 mg.
 You must continue a low fat diet or other measures (e.g. exercise, weight reduction) during treatment 
-with Cholib.</p>         </div>"""   
+with Cholib.</p> </div>"""   
           
 
              
@@ -194,7 +197,7 @@ Important information about some of the ingredients of Cholib
 Cholib contains types of sugars called lactose and sucrose. If you have been told by your doctor that 
 you have an intolerance to some sugars, talk to your doctor before taking this medicine.
 Cholib contains soya lecithin. If you are allergic to peanut, soya or arachis oil do not use Cholib.
-Cholib contains sunset yellow FCF (E110) that may cause allergic reactions.</p>         </div>"""   
+Cholib contains sunset yellow FCF (E110) that may cause allergic reactions.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cholib"
@@ -217,7 +220,7 @@ doctor or pharmacist or contact your nearest hospital
 If you forget to take Cholib
 Do not take a double dose to make up for a forgotten tablet. Take the next tablet at your regular time 
 on the next day. If you are worried about this, talk to your doctor or pharmacist.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -315,7 +318,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cholib"
@@ -327,7 +330,7 @@ Do not use Cholib after the expiry date which is stated on the carton and the bl
 The expiry date refers to the last day of that month.
 Store below 30 C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -426,7 +429,7 @@ Ireland)
 Mylan IRE Healthcare Ltd
 Tel: +353 18711This leaflet was last revised in &lt;{MM/YYYY}&gt;:
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -465,7 +468,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -474,7 +479,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OBS! Den nyeste indlægsseddel kan findes på www.indlaegsseddel.dk </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OBS! Den nyeste indlægsseddel kan findes på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
@@ -491,7 +496,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -520,7 +525,7 @@ sænke indholdet af triglycerider og øge indholdet af det gode kolesterol (HDL-
 patienter, hvis dårlige kolesterol (LDL-kolesterol) allerede kontrolleres med simvastatin alene i en 
 dosis på 20 mg. </p>
 <p>Du skal fortsætte med en fedtfattig diæt og andre tiltag (f.eks. motion og vægttab) under behandling 
-med Cholib. </p>         </div>"""   
+med Cholib. </p> </div>"""   
           
 
              
@@ -749,7 +754,7 @@ Cholib. </p>
 ikke kan tåle visse sukkerarter, skal du tale med din læge, inden du begynder at tage denne medicin. </p>
 <p>Cholib indeholder sojalecithin. Hvis du er allergisk over for jordnødder, soja eller jordnøddeolie, må 
 du ikke tage Cholib. </p>
-<p>Cholib indeholder Sunset Yellow FCF (E110), der kan give allergiske reaktioner. </p>         </div>"""   
+<p>Cholib indeholder Sunset Yellow FCF (E110), der kan give allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cholib"
@@ -773,7 +778,7 @@ eller på apoteket eller kontakte det nærmeste hospital. </p>
 <p>Du må ikke tage en dobbeltdosis som erstatning for den glemte tablet. Tag den næste tablet på det 
 sædvanlige tidspunkt den næste dag. Tal med lægen eller apotekspersonalet, hvis du er bekymret over 
 det. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -982,7 +987,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cholib"
@@ -994,7 +999,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 den sidste dag i den nævnte måned. </p>
 <p>Opbevares ved temperaturer under 30 °C. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1139,7 +1144,7 @@ andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som 
 <p>Tal med lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
 som ikke er nævnt her. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

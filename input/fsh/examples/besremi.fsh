@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Besremi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ called interferons. Interferons are produced by your immune system to block the 
 cells. </p>
 <p>Besremi is used as monotherapy for the treatment of polycythaemia vera in adults. Polycythaemia vera 
 is a type of cancer in which the bone marrow produces too many red blood cells, white blood cells and 
-platelets (cells that help the blood to clot). </p>         </div>"""   
+platelets (cells that help the blood to clot). </p> </div>"""   
           
 
              
@@ -175,7 +178,7 @@ This is because large amounts of benzyl alcohol can build-up in your body and ma
 </ul>
 <p>Besremi contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per ml, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take besremi"
@@ -205,7 +208,7 @@ you missed the dose, leave out the dose and inject the next dose when it is due.
 dose to make up for a forgotten dose. Check with your doctor or pharmacist if you are not sure. </p>
 <p>If you stop using Besremi 
 Do not stop using Besremi before you have talked to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -334,7 +337,7 @@ pigmentation), severe allergic reaction </li>
 If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store besremi"
@@ -351,7 +354,7 @@ Keep the pre-filled pen in the outer carton in order to protect from light. </p>
 <p>Do not use this medicine if you notice that the pre-filled pen appears damaged, the solution is cloudy, 
 has particles or flakes, or has any colour other than colourless to slightly yellow. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -380,7 +383,7 @@ Leopold-Ungar-Platz 2
 Austria </p>
 <p>This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -419,7 +422,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -428,7 +433,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -443,7 +449,7 @@ Usage: #inline
 3. Sådan skal du bruge Besremi 
 4. Bivirkninger<br />
 5. Opbevaring<br />
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -455,7 +461,7 @@ Usage: #inline
 interferoner. Interferoner produceres af dit immunsystem for at blokere kræftcellernes vækst.  </p>
 <p>Besremi anvendes som monoterapi til behandling af polycytæmia vera hos voksne. Polycytæmia vera 
 er en type kræft, hvor knoglemarven producerer for mange røde blodlegemer, hvide blodlegemer og 
-blodplader (celler, som hjælper blodet med at størkne).  </p>         </div>"""   
+blodplader (celler, som hjælper blodet med at størkne).  </p> </div>"""   
           
 
              
@@ -556,7 +562,7 @@ Dette skyldes, at store mængder benzylalkohol kan ophobe sig i din krop og give
 </ul>
 <p>Besremi indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. ml, dvs. det er i det væsentlige 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take besremi"
@@ -586,7 +592,7 @@ en dobbeltdosis som erstatning for den glemte dosis. Er du i tvivl, så spørg l
 apotekspersonalet. </p>
 <p>Hvis du holder op med at bruge Besremi 
 Du må ikke stoppe med at bruge Besremi, før du har talt med din læge.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -715,7 +721,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store besremi"
@@ -733,7 +739,7 @@ opbevares med påsat penhætte og opbevares i den ydre emballage for at beskytte
 <p>Dette lægemiddel må ikke bruges, hvis den fyldte pen ser beskadiget ud, opløsningen er grumset, 
 indeholder partikler eller flager eller har nogen anden farve end farveløs til svagt gul. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -988,7 +994,7 @@ indeholder vigtige oplysninger.
 lægemidler til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 som du har.<br />
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1027,7 +1033,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1036,7 +1044,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1053,7 +1062,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Besremi  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1066,7 +1075,7 @@ denominados interferões. Os interferões são produzidos pelo seu sistema imuni
 crescimento de células cancerígenas.  </p>
 <p>Besremi é utilizado para o tratamento em monoterapia de policitemia vera em adultos. A policitemia 
 vera é um tipo de cancro em que a medula óssea produz demasiados glóbulos vermelhos, glóbulos 
-brancos e plaquetas (células que ajudam o sangue a coagular).  </p>         </div>"""   
+brancos e plaquetas (células que ajudam o sangue a coagular).  </p> </div>"""   
           
 
              
@@ -1162,7 +1171,7 @@ Isto porque pode haver acumulação de grandes quantidades de álcool benzílico
 efeitos indesejáveis (denominado “acidose metabólica"). </p>
 <p>Besremi contém sódio 
 Este medicamento contém menos de 1 mmol de sódio (23 mg) por ml, o que significa que é 
-praticamente “isento de sódio". </p>         </div>"""   
+praticamente “isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar besremi"
@@ -1193,7 +1202,7 @@ dupla para compensar uma dose esquecida. Fale com o seu médico ou farmacêutico
 <p>Se parar de utilizar Besremi 
 Não pare de utilizar Besremi antes de falar com o seu médico.  </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1308,7 +1317,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar besremi"
@@ -1328,7 +1337,7 @@ proteger da luz. </p>
 estiver turva, se tiver partículas ou flocos ou se tiver outra cor além de incolor a amarela pálida. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1355,7 +1364,7 @@ Leopold-Ungar-Platz 2
 Áustria </p>
 <p>Este folheto foi revisto pela última vez em . </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

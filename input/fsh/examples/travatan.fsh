@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TRAVATAN </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 works by reducing the pressure in the eye. It may be used on its own or with other drops e.g. 
 beta-blockers, which also reduce pressure. </p>
 <p>TRAVATAN is used to reduce high pressure in the eye in adults, adolescents and children from 
-2 months old onward. This pressure can lead to an illness called glaucoma. </p>         </div>"""   
+2 months old onward. This pressure can lead to an illness called glaucoma. </p> </div>"""   
           
 
              
@@ -121,7 +124,7 @@ TRAVATAN. </p>
 You may find that your vision is blurred for a time just after you use TRAVATAN. Do not drive or 
 use machines until this has worn off. </p>
 <p>TRAVATAN contains hydrogenated castor oil and propylene glycol which may cause skin 
-reactions and irritation. </p>         </div>"""   
+reactions and irritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take travatan"
@@ -170,7 +173,7 @@ Do not stop using TRAVATAN without first speaking to your doctor or the doctor t
 the pressure in your eye or your child s eye will not be controlled which could lead to loss of sight. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, the doctor treating your 
 child or pharmacist. </p>
-<p>Now turn over   </p>         </div>"""         
+<p>Now turn over   </p> </div>"""         
 
         
 * section[=].section[+]
@@ -219,7 +222,7 @@ adolescents compared to adults. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store travatan"
@@ -233,7 +236,7 @@ The expiry date refers to the last day of the month. </p>
 <p>You must throw away the bottle 4 weeks after you first opened it, to prevent infections, and use a 
 new bottle. Write down the date you opened it in the space on the carton box. </p>
 <p>Do not throw away medicine via wastewater or in household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -338,7 +341,7 @@ Tel: +371 67 887 United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -377,7 +380,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -386,7 +391,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -403,7 +409,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -416,7 +422,7 @@ analoger. Det virker ved at sænke trykket i øjet. Det kan bruges alene eller s
 øjendråber f.eks. betablokkere, som også sænker trykket i øjet. </p>
 <p>TRAVATAN øjendråber bruges til at sænke forhøjet tryk i øjet hos voksne, unge og børn i 
 alderen fra 2 måneder og opefter. Forhøjet tryk i øjet kan føre til en sygdom kaldet glaukom (grøn 
-stær). </p>         </div>"""   
+stær). </p> </div>"""   
           
 
              
@@ -467,7 +473,7 @@ TRAVATAN. </p>
 Du kan opleve, at dit syn bliver midlertidigt sløret lige efter, at du har brugt TRAVATAN. Du må ikke 
 køre bil eller arbejde med maskiner, før dit syn er klart igen. </p>
 <p>TRAVATAN indeholder hydrogeneret, polyoxyleret ricinusolie og propylenglycol, som kan 
-medføre hudreaktioner og hudirritation. </p>         </div>"""   
+medføre hudreaktioner og hudirritation. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take travatan"
@@ -528,7 +534,7 @@ erstatning for den glemte dosis. Dosis må ikke overskride 1 dråbe dagligt i de
 Du må ikke holde op med at bruge TRAVATAN uden først at tale med din eller dit barns læge. 
 Trykket i dit eller dit barns øje vil ikke blive holdt nede, hvilket kan medføre tab af synet. </p>
 <p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>
-<p>Vend </p>         </div>"""         
+<p>Vend </p> </div>"""         
 
         
 * section[=].section[+]
@@ -580,7 +586,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indberette bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store travatan"
@@ -594,7 +600,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>Flasken skal kasseres 4 uger efter åbning for at forhindre øjeninfektioner. Du skal derefter starte på 
 en ny flaske. Skriv åbningsdatoen, hvor der er gjort plads til det på flaskens karton. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -715,7 +721,7 @@ Tel: +44 1276 698
 Denne indlægsseddel blev senest ændret </p>
 <p>Andre informationskilder 
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -754,7 +760,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -763,7 +771,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -780,7 +789,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar TRAVATAN </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -793,7 +802,7 @@ das prostaglandinas. Atua diminuindo a pressão no interior do olho. Pode ser ut
 ou em associação com outros colírios, ex: bloqueadores beta, que também reduzem a pressão. </p>
 <p>TRAVATAN é utilizado para reduzir a pressão que se encontra elevada no olho em adultos e 
 crianças dos 2 meses de idade em diante. Esta pressão pode provocar uma doença chamada 
-glaucoma. </p>         </div>"""   
+glaucoma. </p> </div>"""   
           
 
              
@@ -848,7 +857,7 @@ utiliza o medicamento. </p>
 <p>Poderá sentir uma turvação da visão durante algum tempo imediatamente após a utilização de 
 TRAVATAN. Não conduza nem utilize máquinas até que sinta a visão descansada. </p>
 <p>TRAVATAN contém óleo de rícino hidrogenado e propilenoglicol, que podem causar reações e 
-irritação na pele. </p>         </div>"""   
+irritação na pele. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar travatan"
@@ -915,7 +924,7 @@ sua criança, a pressão no seu olho, ou no olho da sua criança, não ficará c
 perda de visão. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou com o 
 médico que segue a sua criança, ou com o seu farmacêutico. </p>
-<p>Vire agora  </p>         </div>"""         
+<p>Vire agora  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -969,7 +978,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar travatan"
@@ -985,7 +994,7 @@ frasco novo. Escreva a data em que abriu o frasco nos espaços indicados em cada
 cartonagem. Na embalagem contendo um único frasco, só necessita de escrever uma data. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1106,7 +1115,7 @@ Novartis Ireland Limited
 Tel: +44 1276 698 
 Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

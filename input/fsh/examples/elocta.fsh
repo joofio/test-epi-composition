@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store ELOCTA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ components in the manufacturing process.  </p>
 <p>How ELOCTA works 
 In patients with haemophilia A, factor VIII is missing or not working properly. ELOCTA is used to replace 
 the missing or deficient factor VIII. ELOCTA increases factor VIII level in the blood and temporarily 
-corrects the bleeding tendency. </p>         </div>"""   
+corrects the bleeding tendency. </p> </div>"""   
           
 
              
@@ -128,7 +131,7 @@ No effects on ability to drive or use of machines have been observed. </p>
 <p>ELOCTA contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially  sodium-free . 
 However, depending on your body weight and dose, you could receive more than one vial. This should be 
-taken into consideration if you are on a controlled sodium diet. </p>         </div>"""   
+taken into consideration if you are on a controlled sodium diet. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elocta"
@@ -163,7 +166,7 @@ then resume your normal dosing schedule. If you are not sure what to do, ask you
 <p>If you stop using ELOCTA 
 Do not stop using ELOCTA without consulting your doctor. If you stop using ELOCTA you may no longer 
 be protected against bleeding or a current bleed may not stop. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -190,7 +193,7 @@ pain, back pain, joint pain, general discomfort, chest pain, feeling cold, feeli
 <p>Reporting of side effects<br />
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
-Appendix V. By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+Appendix V. By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elocta"
@@ -214,7 +217,7 @@ prepared solution from direct sunlight. </p>
 notice that it is cloudy or contains visible particles. </p>
 <p>Discard any unused solution appropriately. Do not throw away any medicines via wastewater or household 
 waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help 
-protect the environment. </p>         </div>"""      
+protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -241,7 +244,7 @@ Swedish Orphan Biovitrum AB (publ)<br />
 SE-112 76 Stockholm 
 Sweden </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -280,7 +283,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -289,7 +294,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -304,7 +310,7 @@ Usage: #inline
 3. Sådan skal du bruge ELOCTA 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -322,7 +328,7 @@ og dyr i fremstillingsprocessen. </p>
 <p>Sådan virker ELOCTA 
 Hos patienter med hæmofili A mangler faktor VIII, eller det virker ikke korrekt. ELOCTA anvendes til at 
 erstatte manglende eller defekt faktor VIII. ELOCTA øger faktor VIII-niveauet i blodet og korrigerer 
-blødningstendensen midlertidigt. </p>         </div>"""   
+blødningstendensen midlertidigt. </p> </div>"""   
           
 
              
@@ -374,7 +380,7 @@ Ingen påvirkning af evnen til at føre motorkøretøj eller betjene maskiner er
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. hætteglas, dvs. det er i det 
 væsentlige natriumfrit. 
 Afhængig af din legemsvægt og dosis kan du imidlertid få mere end ét hætteglas. Hvis du får natriumfattig 
-diæt, skal du tage hensyn hertil. </p>         </div>"""   
+diæt, skal du tage hensyn hertil. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take elocta"
@@ -411,7 +417,7 @@ skal du spørge lægen eller apotekspersonalet. </p>
 Du må ikke holde op med at bruge ELOCTA uden at kontakte din læge. Hvis du holder op med at bruge 
 ELOCTA, kan det være, at du ikke længere er beskyttet mod blødning, eller det kan være, at en aktuel 
 blødning ikke stopper. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -442,7 +448,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store elocta"
@@ -467,7 +473,7 @@ køleskab. Beskyt den tilberedte opløsning mod direkte sollys. </p>
 bemærker, at det er uklart eller indeholder partikler. </p>
 <p>Bortskaf al ubrugt opløsning på passende vis. Spørg apotekspersonalet, hvordan du skal bortskaffe 
 medicinrester. Af hensyn til miljøet må du ikke smide medicinrester i afløbet, toilettet eller 
-skraldespanden. </p>         </div>"""      
+skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -638,7 +644,7 @@ folde kanylebeskyttelsen og klikke den over kanylen. </p>
 en dertil beregnet beholder til medicinsk affald, da disse materialer kan skade andre, hvis de 
 ikke bortskaffes korrekt. Udstyret må ikke genbruges. </p>
 </li>
-</ol>         </div>"""      
+</ol> </div>"""      
 
 
 

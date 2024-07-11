@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Xeplion</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ or feel unusually suspicious of others. Negative means a lack of behaviours or f
 normally present. For example, a person with schizophrenia may appear withdrawn and may not 
 respond at all emotionally or may have trouble speaking in a clear and logical way. People with this 
 disease may also feel depressed, anxious, guilty, or tense.
-Xeplion can help alleviate the symptoms of your disease and stop your symptoms from coming back.</p>         </div>"""   
+Xeplion can help alleviate the symptoms of your disease and stop your symptoms from coming back.</p> </div>"""   
           
 
              
@@ -202,7 +205,7 @@ section 4). This should be considered in cases where full alertness is required,
 or handling machines.
 Xeplion contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xeplion"
@@ -237,7 +240,7 @@ tracing of the heart), or slow or abnormal movements of the face, body, arms or 
 If you stop using Xeplion
 If you stop receiving your injections, you will lose the effects of the medicine. You should not stop 
 using this medicine unless told to do so by your doctor as your symptoms may return.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -427,7 +430,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xeplion"
@@ -439,7 +442,7 @@ Do not use this medicine after the expiry date which is stated on the carton. Th
 the last day of that month.
 Do not store above 30 C.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -587,7 +590,7 @@ heard. Discard the syringe with needle appropriately.
 8a
 8b
 8c
-Any unused product or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
+Any unused product or waste material should be disposed of in accordance with local requirements.</p> </div>"""      
 
 
 
@@ -626,7 +629,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -635,7 +640,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -650,7 +656,7 @@ Usage: #inline
 3. Sådan får du Xeplion
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -672,7 +678,7 @@ symptomer henviser til manglende adfærd eller følelser, som normalt er til ste
 person med skizofreni virke tilbageholdende og reagerer måske slet ikke følelsesmæssigt eller kan 
 have svært ved at tale på en klar og logisk måde. Personer med denne sygdom kan også føle sig 
 deprimerede, angste, have skyldfølelse eller være anspændte.
-Xeplion kan være med til at lindre din sygdom og forhindre den i at komme igen.</p>         </div>"""   
+Xeplion kan være med til at lindre din sygdom og forhindre den i at komme igen.</p> </div>"""   
           
 
              
@@ -793,7 +799,7 @@ påkrævet, f.eks. ved bilkørsel og betjening af maskiner.
 Xeplion indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
 væsentlige natriumfrit.
-72</p>         </div>"""   
+72</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take xeplion"
@@ -830,7 +836,7 @@ Hvis du holder op med at få Xeplion
 Hvis du holder op med at få indsprøjtningerne, vil du miste virkningerne af lægemidlet. Du bør ikke 
 holde op med at bruge dette lægemiddel, med mindre du får besked på det af lægen, da dine 
 symptomer kan vende tilbage.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1143,7 +1149,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store xeplion"
@@ -1155,7 +1161,7 @@ Få ikke lægemidlet efter den udløbsdato, der står på æsken efter EXP. Udl�
 i den nævnte måned.
 Må ikke opbevares ved temperaturer over 30 °C.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1349,7 +1355,7 @@ vis.
 8a
 8b
 8c
-Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p>         </div>"""      
+Ikke anvendt lægemiddel samt affald heraf skal bortskaffes i henhold til lokale retningslinjer.</p> </div>"""      
 
 
 

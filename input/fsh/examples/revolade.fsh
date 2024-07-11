@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Revolade </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -99,7 +102,7 @@ aplastic anaemia (SAA). SAA is a disease in which the bone marrow is damaged, ca
 deficiency of the red blood cells (anaemia), white blood cells (leukopenia) and platelets 
 (thrombocytopenia). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -222,7 +225,7 @@ Revolade can make you dizzy and have other side effects that make you less alert
 <p>Don t drive or use machines unless you are sure you re not affected. </p>
 <p>Revolade contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take revolade"
@@ -269,7 +272,7 @@ Take the next dose at the usual time. Do not take more than one dose of Revolade
 <p>If you stop taking Revolade 
 Don t stop taking Revolade without talking to your doctor. If your doctor advises you to stop 
 treatment, your platelet count will then be checked each week for four weeks. See also  Bleeding or 
-bruising after you stop treatment  in section 4. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+bruising after you stop treatment  in section 4. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -611,7 +614,7 @@ Frequency cannot be estimated from the available data
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store revolade"
@@ -622,7 +625,7 @@ safety of this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -744,7 +747,7 @@ SIA Novartis Baltics
 Tel: +371 67 887 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
 Tel: +44 1276 698This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -783,7 +786,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -792,7 +797,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -807,7 +813,7 @@ Usage: #inline
 3. Sådan skal du tage Revolade 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -842,7 +848,7 @@ aplastisk anæmi (SAA). SAA er en sygdom hvor knoglemarven er beskadiget, som fo
 mangel på de røde blodlegemer (anæmi), hvide blodlegemer (leukopeni) og blodplader 
 (trombocytopeni). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1020,7 +1026,7 @@ Revolade kan gøre dig svimmel og du kan få bivirkninger, som gør dig mindre a
 Kør ikke bil og betjen ikke maskiner, medmindre du er sikker på, at du ikke er påvirket. </p>
 <p>Revolade indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukket tablet, dvs. det 
-er i det væsentlige natriumfrit. </p>         </div>"""   
+er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take revolade"
@@ -1094,7 +1100,7 @@ i 4 timer før
 du tager 
 Revolade… 
     ...  og i 2 timer 
-efter </p>         </div>"""         
+efter </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1918,7 +1924,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store revolade"
@@ -1929,7 +1935,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterkortet efter EXP. </p>
 <p>Lægemidlet kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -2094,7 +2100,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
 ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -2133,7 +2139,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -2142,7 +2150,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -2157,7 +2166,7 @@ Usage: #inline
 3. Como tomar Revolade 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Revolade 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -2194,7 +2203,7 @@ baixas consequentes da anemia aplástica grave (AAG). A AAG é uma doença em qu
 óassea é danificada, provocando uma redução de glóbulos vermelhos (anemia), glóbulos 
 brancos (leucopenia) e plaquetas (trombocitopenia). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -2377,7 +2386,7 @@ que fique menos alerta.
 Não conduza ou utilize máquinas a não ser que tenha a certeza que não é afetado. </p>
 <p>Revolade contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio. </p>         </div>"""   
+praticamente “isento de sódio. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar revolade"
@@ -2457,7 +2466,7 @@ Não pare de tomar Revolade sem falar com o seu médico. Caso o seu médico lhe 
 o tratamento a sua contagem de plaquetas será avaliada semanalmente nas 4 semanas seguintes. Ver 
 também “Hemorragia ou nódoas negras após paragem do tratamento" na secção 4.<br />
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -3298,7 +3307,7 @@ A frequência não pode ser estimada a partir dos dados disponíveis </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar revolade"
@@ -3310,7 +3319,7 @@ efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a se
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -3459,7 +3468,7 @@ United Kingdom (Northern Ireland)
 Novartis Ireland Limited 
 Tel: +44 1276 698 </p>
 <p>Este folheto foi revisto pela última vez em. 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

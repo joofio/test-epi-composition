@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Dexdor</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -74,7 +77,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dexdor contains an active substance called dexmedetomidine which belongs to a medicine group 
 called sedatives. It is used to provide sedation (a state of calm, drowsiness or sleep) for adult patients 
-in hospital intensive care settings or awake sedation during different diagnostic or surgical procedures.</p>         </div>"""   
+in hospital intensive care settings or awake sedation during different diagnostic or surgical procedures.</p> </div>"""   
           
 
              
@@ -140,7 +143,7 @@ you must not drive, operate machinery, or work in dangerous situations until the
 gone. Ask your doctor when you can start doing these activities again and when you can go back to 
 this kind of work.
 Excipients
-Dexdor contains less than 1 mmol sodium (23 mg) per ml, that is to say essentially  sodium-free .</p>         </div>"""   
+Dexdor contains less than 1 mmol sodium (23 mg) per ml, that is to say essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dexdor"
@@ -171,7 +174,7 @@ If you have been given more Dexdor than you should
 If you are given too much Dexdor, your blood pressure may go up or down, your heartbeat may slow 
 down, you may breathe more slowly and you may feel more drowsy. Your doctor will know how to 
 treat you based on your condition.
-If you have any further questions on the use of this medicine, ask your doctor.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -227,7 +230,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dexdor"
@@ -237,7 +240,7 @@ medicine.</p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the label and carton after EXP.
 This medicine does not require any special temperature storage conditions. Keep the ampoules or vials 
-in the outer carton in order to protect from light.</p>         </div>"""      
+in the outer carton in order to protect from light.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -341,7 +344,7 @@ Orion Pharma (Ireland) Ltd.
 Tel: +353 1 428 7Sverige
 Orion Pharma AB
 Tel: + 46 8 623 6This leaflet was last revised in 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -380,7 +383,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -389,7 +394,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -404,7 +410,7 @@ Usage: #inline
 3. Sådan bliver du behandlet med Dexdor
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -415,7 +421,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dexdor indeholder en aktiv substans, der kaldes dexmedetomidin og som tilhører en gruppe medicin,
 der kaldes sedativa. Det anvendes til at fremkalde en let bedøvelse (en tilstand af ro, døsighed eller 
 søvn) af voksne på en intensivafdeling på et sygehus eller vågen bedøvelse ved forskellige 
-diagnostiske eller kirugiske indgreb.</p>         </div>"""   
+diagnostiske eller kirugiske indgreb.</p> </div>"""   
           
 
              
@@ -486,7 +492,7 @@ væk. Spørg din læge, hvornår du kan begynde på disse aktiviteter, og hvorn�
 arbejde igen.
 Hjælpestoffer
 Dexdor indeholder mindre end 1 mmol natrium (23 mg) pr. ml, det vil sige det er i det væsentlige
-natriumfrit.</p>         </div>"""   
+natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take dexdor"
@@ -518,7 +524,7 @@ Hvis du har fået for meget Dexdor
 Hvis du har fået for meget Dexdor, kan dit blodtryk stige eller falde, din puls kan blive langsommere,
 du kan trække vejret langsommere og du kan føle dig mere omtåget. Din læge vil vide, hvordan du 
 skal behandles baseret på din tilstand.
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -575,7 +581,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store dexdor"
@@ -586,7 +592,7 @@ sikkerheden af dette lægemiddel.</p>         </div>"""
 Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på etiketten og pakningen efter EXP.
 Der er ingen særlige krav vedrørende opbevaringstemperatur for dette lægemiddel. Opbevar 
-ampullerne eller hætteglassene i den ydre karton for at beskytte mod lys.</p>         </div>"""      
+ampullerne eller hætteglassene i den ydre karton for at beskytte mod lys.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -791,7 +797,7 @@ Kemisk og fysisk stabilitet efter åbning er dokumenteret i 24 timer ved 25 C
 Ud fra et mikrobiologisk synspunkt skal præparatet bruges med det samme. Hvis det ikke anvendes 
 umiddelbart, er opbevaringstid og -betingelser inden anvendelse på brugerens eget ansvar og må 
 normalt ikke overstige 24 timer ved 2-8 °C, medmindre fortynding er udført under kontrollerede og 
-validerede aseptiske betingelser.</p>         </div>"""      
+validerede aseptiske betingelser.</p> </div>"""      
 
 
 
@@ -830,7 +836,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -839,7 +847,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -854,7 +863,7 @@ Usage: #inline
 3. Como utilizar Dexdor
 4. Efeitos indesejáveis possíveis
 5. Como conservar Dexdor
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -865,7 +874,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dexdor contém uma substância ativa chamada dexmedetomidina que pertence a um grupo de 
 medicamentos chamados sedativos. É utilizado para provocar sedação (um estado de calma, 
 sonolência ou sono) em doentes adultos em unidades de cuidados intensivos hospitalares ou sedação 
-consciente durante diferentes procedimentos de diagnóstico ou cirúrgicos. </p>         </div>"""   
+consciente durante diferentes procedimentos de diagnóstico ou cirúrgicos. </p> </div>"""   
           
 
              
@@ -938,7 +947,7 @@ que os efeitos tenham desaparecido completamente. Pergunte ao seu médico quando
 estas atividades e quando poderá voltar a realizar este tipo de trabalho. 
 Excipientes
 Dexdor contém menos do que 1 mmol (23 mg) de sódio por ml, ou seja, é praticamente “isento de 
-sódio".</p>         </div>"""   
+sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar dexdor"
@@ -972,7 +981,7 @@ Se lhe for administrado mais Dexdor do que deveria
 Se lhe for administrado demasiado Dexdor, a sua tensão arterial poderá subir ou descer, o coração 
 bater mais devagar, respirar mais lentamente e sentir-se mais sonolento. O seu médico saberá como 
 tratá-lo, tendo em conta o seu estado.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1030,7 +1039,7 @@ Comunicação de efeitos secundários
 Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar dexdor"
@@ -1041,7 +1050,7 @@ efeitos secundários, estará a ajudar a fornecer mais informações sobre a seg
 Não utilize este medicamento após o prazo de validade impresso no rótulo e na embalagem exterior 
 após VAL.
 Este medicamento não necessita de qualquer temperatura especial de conservação. Manter os frascos 
-para injetáveis e as ampolas dentro da embalagem exterior para proteger da luz.</p>         </div>"""      
+para injetáveis e as ampolas dentro da embalagem exterior para proteger da luz.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1179,7 +1188,7 @@ Sverige
 Orion Pharma AB
 Tel: + 46 8 623 6440
 Este folheto foi revisto pela última vez em 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

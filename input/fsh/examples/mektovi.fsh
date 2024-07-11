@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Mektovi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ melanoma when it has
 <p>Mutations in the BRAF gene can produce proteins that cause the melanoma to grow. Mektovi targets 
 another protein called  MEK  that stimulates cancer cell growth. When Mektovi is used in 
 combination with encorafenib (which targets the changed  BRAF  protein), the combination slows 
-down or stops the growth of your cancer. </p>         </div>"""   
+down or stops the growth of your cancer. </p> </div>"""   
           
 
              
@@ -211,7 +214,7 @@ any problems with your vision or have any other side effects that can affect you
 machines (see section 4), while taking Mektovi. Talk to your doctor if you are not sure you can drive. </p>
 <p>Mektovi contains lactose 
 If you have been told by your doctor that you have an intolerance to some sugars, talk to your doctor 
-before taking this medicine. </p>         </div>"""   
+before taking this medicine. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mektovi"
@@ -242,7 +245,7 @@ Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop taking Mektovi 
 It is important to take Mektovi for as long as your doctor prescribes it. Do not stop taking this 
 medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -344,7 +347,7 @@ foot syndrome)
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mektovi"
@@ -356,7 +359,7 @@ safety of this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -391,7 +394,7 @@ Site Progipharm, Rue du Lyc e<br />
 45500 GIEN<br />
 France </p>
 <p>This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -430,7 +433,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -439,7 +444,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -456,7 +462,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -479,7 +485,7 @@ BRAF, og </p>
 <p>Mutationer i BRAF-genet kan producere proteiner, der får melanomet til at vokse. Mektovi er rettet 
 mod et andet protein, der hedder "MEK", og som stimulerer væksten af kræftceller. Når Mektovi 
 anvendes i kombination med encorafenib (som er rettet mod det ændrede "BRAF"-protein), hæmmer 
-kombinationen væksten af din kræft eller stopper den. </p>         </div>"""   
+kombinationen væksten af din kræft eller stopper den. </p> </div>"""   
           
 
              
@@ -655,7 +661,7 @@ påvirke din evne til at føre motorkøretøj eller betjene maskiner, mens du ta
 læge, hvis du ikke er sikker på, at du kan køre.  </p>
 <p>Mektovi indeholder lactose 
 Tal med lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take mektovi"
@@ -687,7 +693,7 @@ Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Mektovi 
 Det er vigtigt, at du tager Mektovi, så længe lægen foreskriver det. Du må ikke stoppe behandlingen, 
 medmindre lægen siger det. </p>
-<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -848,7 +854,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store mektovi"
@@ -860,7 +866,7 @@ information om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -920,7 +926,7 @@ begrundelser for anbefalingen. </p>
 <p>På baggrund af de videnskabelige konklusioner for binimetinib er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder binimetinib, forbliver uændret 
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -959,7 +965,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -968,7 +976,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -985,7 +994,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Mektovi  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1008,7 +1017,7 @@ proteína chamado BRAF, e </p>
 <p>As mutações no gene BRAF podem produzir proteínas que causam o crescimento do melanoma. 
 Mektovi tem como alvo outra proteína chamada “MEK" que estimula o crescimento das células 
 cancerígenas. Quando Mektovi é usado em associação com encorafenib (que tem como alvo a proteína 
-alterada “BRAF"), a associação abranda ou interrompe o crescimento do seu cancro. </p>         </div>"""   
+alterada “BRAF"), a associação abranda ou interrompe o crescimento do seu cancro. </p> </div>"""   
           
 
              
@@ -1193,7 +1202,7 @@ afetar a sua capacidade de conduzir ou utilizar máquinas (ver secção 4), enqu
 Mektovi. Fale com o seu médico se não tiver a certeza se pode conduzir. </p>
 <p>Mektovi contém lactose. 
 Se foi informado pelo seu médico que tem intolerância a alguns açúcares, contacte-o antes de tomar este 
-medicamento. </p>         </div>"""   
+medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar mektovi"
@@ -1225,7 +1234,7 @@ Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </
 É importante que tome Mektovi durante o tempo prescrito pelo médico. Não pare de tomar este 
 medicamento sem que o seu médico lhe diga para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1392,7 +1401,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar mektovi"
@@ -1405,7 +1414,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Este medicamento não necessita de condições especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1446,7 +1455,7 @@ Site Progipharm, rue du Lycée
 45500 GIEN 
 França </p>
 <p>Este folheto informativo foi revisto pela última vez em </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

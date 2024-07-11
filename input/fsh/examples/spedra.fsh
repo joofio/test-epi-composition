@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Spedra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ condition. </p>
 <p>It is important to note that Spedra only works if you are sexually stimulated. You and your partner will 
 still need to use foreplay to get ready for sex   just as you would if you were not taking a medicine to 
 help you. </p>
-<p>Spedra will not help you if you do not have erectile dysfunction. Spedra is not for women. </p>         </div>"""   
+<p>Spedra will not help you if you do not have erectile dysfunction. Spedra is not for women. </p> </div>"""   
           
 
              
@@ -174,7 +177,7 @@ and adult males with mild erectile dysfunction was not associated with any untow
 concentration, count, motility, or morphology. </p>
 <p>Driving and using machines </p>
 <p>Spedra can make you feel dizzy or affect your vision. If this happens, do not drive, cycle, use tools or 
-machines. </p>         </div>"""   
+machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spedra"
@@ -194,7 +197,7 @@ Spedra can be taken with or without food; if taken with food, it may take longer
 <p>If you take more Spedra than you should </p>
 <p>If you take too much Spedra, you should tell your doctor straight away. You may get more side effects 
 than usual and they may be worse. </p>
-<p>If you have any further questions on the use of Spedra, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of Spedra, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -276,7 +279,7 @@ kidney function
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spedra"
@@ -288,7 +291,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage condition. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -391,7 +394,7 @@ SIA Berlin-Chemie/Menarini Baltic
 Tel: +371 67103United Kingdom (Northern Ireland) 
 A. Menarini Farmaceutica Internazionale S.R.L. 
 Tel: +44 (0)1628 856This leaflet was last revised in </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -430,7 +433,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -439,7 +444,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -454,7 +460,7 @@ Usage: #inline
 3. Sådan skal du tage Spedra 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -472,7 +478,7 @@ ikke din lidelse.  </p>
 <p>Det er vigtigt at være klar over, at Spedra kun virker, når man bliver stimuleret seksuelt. Du og din 
 partner har stadig brug for forspil for at blive klar til sex - ligesom hvis du ikke havde taget noget 
 lægemiddel. </p>
-<p>Spedra vil ikke hjælpe dig, hvis du ikke har rejsningsproblemer. Spedra er ikke beregnet til kvinder. </p>         </div>"""   
+<p>Spedra vil ikke hjælpe dig, hvis du ikke har rejsningsproblemer. Spedra er ikke beregnet til kvinder. </p> </div>"""   
           
 
              
@@ -589,7 +595,7 @@ forbindelse med uheldig indvirkning på sædkoncentrationen, -tallet, -bevægeli
 hos raske frivillige og voksne mænd med svag erektil dysfunktion. </p>
 <p>Trafik- og arbejdssikkerhed 
 Spedra kan gøre dig svimmel eller give synsforstyrrelser. Hvis det sker, må du ikke føre motorkøretøj, 
-cykle eller arbejde med værktøj eller maskiner. </p>         </div>"""   
+cykle eller arbejde med værktøj eller maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take spedra"
@@ -612,7 +618,7 @@ Husk, at Spedra kun hjælper dig med at få erektion, hvis du bliver seksuelt st
 <p>Hvis du har taget for mange Spedra-tabletter </p>
 <p>Hvis du har fået for meget Spedra, skal du straks sige til lægen. Du kan få flere og værre bivirkninger 
 end normalt. </p>
-<p>Spørg lægen eller på apoteket, hvis der er mere, du vil vide om brugen af Spedra. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er mere, du vil vide om brugen af Spedra. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -749,7 +755,7 @@ næseblod </p>
 Hvis du får bivirkninger, skal du sige det til lægen eller på apoteket. Dette gælder også bivirkninger, 
 der ikke fremgår af denne indlægsseddel. Du kan desuden indberette bivirkninger direkte via det 
 nationale rapporteringssystem anført i Appendiks V. Ved at indberette bivirkninger kan du medvirke 
-til at skaffe flere oplysninger om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+til at skaffe flere oplysninger om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store spedra"
@@ -761,7 +767,7 @@ til at skaffe flere oplysninger om sikkerheden af dette lægemiddel.  </p>      
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav til opbevaringsforholdene for dette lægemiddel.  </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -886,7 +892,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
-som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 
@@ -925,7 +931,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -934,7 +942,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -951,7 +960,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Spedra </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -969,7 +978,7 @@ excitado. O Spedra não cura a sua patologia.
 É importante ter em conta que o Spedra só funciona se você for sexualmente estimulado. 
 Continua a ter de utilizar preliminares com o(a) seu(sua) parceiro(a) para se prepararem para a 
 atividade sexual - tal como faria se não estivesse a tomar um medicamento para ajudá-lo. </p>
-<p>O Spedra não o ajudará se não tiver disfunção erétil. O Spedra não se destina a mulheres. </p>         </div>"""   
+<p>O Spedra não o ajudará se não tiver disfunção erétil. O Spedra não se destina a mulheres. </p> </div>"""   
           
 
              
@@ -1093,7 +1102,7 @@ voluntários adultos saudáveis com disfunção erétil ligeira, não foi associ
 efeitos adversos sobre a concentração, contagem, motilidade ou morfologia de esperma.  </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>Spedra pode fazê-lo sentir-se tonto ou afetar a sua visão. Caso isso aconteça, não conduza, não 
-ande de bicicleta, nem utilize quaisquer ferramentas ou máquinas. </p>         </div>"""   
+ande de bicicleta, nem utilize quaisquer ferramentas ou máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar spedra"
@@ -1117,7 +1126,7 @@ mais tempo a fazer efeito. </p>
 <p>Se tomar mais Spedra do que deveria 
 Se tomar demasiado Spedra, deve falar de imediato com o seu médico. Pode ter mais efeitos 
 indesejáveis do que o habitual e estes podem ser mais graves. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização do Spedra, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização do Spedra, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1260,7 +1269,7 @@ sangramento do nariz </p>
 neste folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. 
 Ao comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a 
-segurança deste medicamento. </p>         </div>"""      
+segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar spedra"
@@ -1273,7 +1282,7 @@ exterior, após VAL. O prazo de validade corresponde ao último dia do mês indi
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a 
-proteger o ambiente. </p>         </div>"""      
+proteger o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1403,7 +1412,7 @@ contém informação importante para si. </p>
 pode ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. </li>
 <li>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não 
 indicados neste folheto, fale com o seu médico ou farmacêutico. Ver secção 4.  </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

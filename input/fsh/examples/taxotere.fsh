@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store TAXOTERE </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -90,7 +93,7 @@ prednisolone. </li>
 cisplatin and 5-fluorouracil. </li>
 <li>For the treatment of head and neck cancer, TAXOTERE is administered in combination with 
 cisplatin and 5-fluorouracil. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -168,7 +171,7 @@ v/v per solvent vial, equivalent to 6 ml of beer or 2.6 ml wine. </p>
 To be taken into account in pregnant or breast-feeding women, in children and in high-risk groups 
 such as patients with liver disease, or epilepsy. </p>
 <p>The amount of alcohol in this medicinal product may have effects on the central nervous system (the 
-part of the nervous system that includes the brain and spinal cord). </p>         </div>"""   
+part of the nervous system that includes the brain and spinal cord). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take taxotere"
@@ -189,7 +192,7 @@ general condition and your response to TAXOTERE. In particular, please inform yo
 of diarrhoea, sores in the mouth, feeling of numbness or pins and needles, fever and give her/him 
 results of your blood tests. Such information will allow her/him to decide whether a dose reduction is 
 needed. If you have any further questions on the use of this medicine, ask your doctor, or hospital 
-pharmacist. </p>         </div>"""         
+pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -302,7 +305,7 @@ weakness)  </p>
 If you get any side effects talk to your doctor, hospital pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store taxotere"
@@ -316,7 +319,7 @@ Store in the original package in order to protect from light. </p>
 <p>The premix solution should be used immediately after preparation. However the chemical and physical 
 stability of the premix solution has been demonstrated for 8 hours when stored either between 2 C and 
 8 C or at room temperature (below 25 C). </p>
-<p>The infusion solution should be used within 4 hours at room temperature (below 25 C). </p>         </div>"""      
+<p>The infusion solution should be used within 4 hours at room temperature (below 25 C). </p> </div>"""      
         
         
 * section[=].section[+]
@@ -412,7 +415,7 @@ Tel: +371 6616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last revised in . </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -451,7 +454,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -460,7 +465,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
@@ -475,7 +480,7 @@ Usage: #inline
 3. Sådan skal du bruge TAXOTERE 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -505,7 +510,7 @@ Ved behandling af metastatisk gastrisk kræft indgives TAXOTERE i kombination me
 og 5-fluoruracil. 
  
 Til behandling af hoved- og hals-kræft indgives TAXOTERE i kombination med cisplatin og 5-
-fluoruracil. </p>         </div>"""   
+fluoruracil. </p> </div>"""   
           
 
              
@@ -589,7 +594,7 @@ hospitalsfarmaceuten. </p>
 Dette skal tages i betragtning hos gravide eller ammende, hos børn og hos patienter i højrisikogruppe, 
 såsom patienter med leversygdom eller epilepsi. </p>
 <p>Mængden af alkohol i dette lægemiddel kan have virkninger på centralnervesystemet (den del af 
-nervesystemet, der omfatter hjernen og rygmarven). </p>         </div>"""   
+nervesystemet, der omfatter hjernen og rygmarven). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take taxotere"
@@ -610,7 +615,7 @@ helbredstilstand og din reaktion på TAXOTERE. Vær særlig opmærksom på at in
 hvis du får diarré, sår i munden, følelsesløshed, stikkende og prikkende fornemmelser eller feber, og 
 giv lægen resultatet af dine blodprøver. Denne information vil give lægen mulighed for at vurdere om 
 en nedsættelse af dosis er nødvendig. Hvis du har yderligere spørgsmål om anvendelsen af dette 
-lægemiddel, så spørg din læge eller hospitalsfarmaceut. </p>         </div>"""         
+lægemiddel, så spørg din læge eller hospitalsfarmaceut. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -785,7 +790,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, hospitalsfarmaceut ell
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store taxotere"
@@ -800,7 +805,7 @@ Opbevares i den originale pakning for at beskytte mod lys. </p>
 <p>Præmixen skal bruges straks efter tilberedning. Dog har præmixen vist sig kemisk og fysisk stabil i en 
 8 timers periode, når den blev opbevaret enten ved temperatur mellem +2 °C og +8 °C eller ved 
 stuetemperatur (under 25 ºC). </p>
-<p>Infusionsvæsken skal bruges inden for 4 timer ved stuetemperatur (under 25 ºC). </p>         </div>"""      
+<p>Infusionsvæsken skal bruges inden for 4 timer ved stuetemperatur (under 25 ºC). </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1057,7 +1062,7 @@ indeholder vigtige oplysninger.
 - Gem indlægssedlen. Du kan få brug for at læse den igen. 
 - Spørg lægen, hospitalsfarmaceuten eller sygeplejersken, hvis der er mere, du vil vide. 
 - Kontakt lægen, hospitalsfarmaceuten eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 
@@ -1096,7 +1101,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1105,7 +1112,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1120,7 +1128,7 @@ Usage: #inline
 3. Como utilizar TAXOTERE 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar TAXOTERE 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1147,7 +1155,7 @@ prednisona ou prednisolona.
 com a cisplatina e o 5-fluorouracilo. 
 . 
 Para o tratamento do cancro de cabeça e pescoço, o TAXOTERE é administrado em 
-combinação com cisplatina e 5-fluorouracilo. </p>         </div>"""   
+combinação com cisplatina e 5-fluorouracilo. </p> </div>"""   
           
 
              
@@ -1241,7 +1249,7 @@ por frasco de solvente, equivalente a 6 ml de cerveja ou a 2,6 ml de vinho. </p>
 Este facto deve ser tido em consideração no caso de mulheres grávidas ou a amamentar, crianças e 
 grupos de risco elevado, tais como doentes com comprometimento do fígado, ou com epilepsia. </p>
 <p>A quantidade de álcool neste medicamento poderá ter efeitos no sistema nervoso central (a parte do 
-sistema nervoso que inclui o cérebro e a medula espinal). </p>         </div>"""   
+sistema nervoso que inclui o cérebro e a medula espinal). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar taxotere"
@@ -1262,7 +1270,7 @@ análises ao sangue, da sua condição física e da sua resposta ao TAXOTERE. Po
 médico no caso de diarreia, inflamações na boca, sensação de entorpecimento ou formigueiro ou febre 
 e forneça os resultados das suas análises ao sangue. Esta informação irá permitir decidir quanto à 
 necessidade ou não de redução da dose. Caso ainda tenha dúvidas sobre a utilização deste 
-medicamento, fale com o seu médico ou farmacêutico. </p>         </div>"""         
+medicamento, fale com o seu médico ou farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1512,7 +1520,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico hospitalar ou enfermeiro. Pode também notificar efeitos 
 indesejáveis diretamente através do sistema de notificação nacional listado no Apêndice V. Ao 
 notificar efeitos indesejáveis está a ajudar a providênciar mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar taxotere"
@@ -1527,7 +1535,7 @@ Conservar na embalagem de origem de forma a proteger da luz. </p>
 <p>A solução de pré-mistura deve ser utilizada de imediato após a preparação; no entanto, foi 
 demonstrada a estabilidade química e física da solução de pré-mistura durante um período de 8 horas 
 quando conservada entre 2°C e 8ºC ou à temperatura ambiente (abaixo dos 25ºC). </p>
-<p>A solução para perfusão deve ser usada dentro de 4 horas à temperatura ambiente (abaixo dos 25ºC). </p>         </div>"""      
+<p>A solução para perfusão deve ser usada dentro de 4 horas à temperatura ambiente (abaixo dos 25ºC). </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1656,7 +1664,7 @@ Swixx Biopharma UAB
 Tel: +370 5 236 91  </p>
 <p>Este folheto foi revisto pela última vez em  </p>
 <p>Outras fontes de informação  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

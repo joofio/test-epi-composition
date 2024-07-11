@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -49,7 +51,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Instructions for Use of the Erelzi pre-filled syringe</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -66,7 +68,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Erelzi</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -98,7 +100,7 @@ from the age of 2 years and weighing 62.5 kg or more.</p>
 <p>For enthesitis-related arthritis in patients from the age of 12 years and weighing 62.5 kg or more 
 when other widely used treatments have not worked well enough or are not suitable for them.</p>
 <p>Severe psoriasis in patients from the age of 6 years and weighing 62.5 kg or more who have had 
-an inadequate response to (or are unable to take) phototherapies or other systemic therapies.</p>         </div>"""   
+an inadequate response to (or are unable to take) phototherapies or other systemic therapies.</p> </div>"""   
           
 
              
@@ -200,7 +202,7 @@ Driving and using machines
 The use of Erelzi is not expected to affect the ability to drive or use machines.
 Erelzi contains sodium
 This medicinal product contains less than 1 mmol sodium (23 mg) per 25 mg or 50 mg, that is to say 
-essentially  sodium-free .</p>         </div>"""   
+essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take erelzi"
@@ -253,7 +255,7 @@ usual day(s). If you do not remember until the day that the next injection is du
 dose (two doses on the same day) to make up for a forgotten dose.
 If you stop using Erelzi
 Your symptoms may return upon discontinuation.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -345,7 +347,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store erelzi"
@@ -371,7 +373,7 @@ normal for Erelzi. Do not use the solution if it is discoloured, cloudy, or if p
 described above are present. If you are concerned with the appearance of the solution, then contact your 
 pharmacist for assistance.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -460,7 +462,7 @@ Sandoz GmbH
 Tel: +43 5338 2Latvija
 Sandoz d.d. Latvia fili le
 Tel: +371 67 892 This leaflet was last revised in {MM/YYYY}
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -499,7 +501,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -510,7 +514,7 @@ Usage: #inline
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Anvisninger til brug af Erelzi fyldt injektionssprøjte</li>
-</ol>         </div>"""   
+</ol>  </div>"""   
 
 
 
@@ -525,7 +529,7 @@ Usage: #inline
 3. Sådan skal du tage Erelzi
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -566,7 +570,7 @@ har været utilstrækkelig eller ikke kan anvendes.
 
 Svær psoriasis hos patienter fra 6 års-alderen, der vejer 62,5 kg eller mere, hvor virkningen af 
 lysbehandling eller systemisk behandling har været utilstrækkelig, eller du ikke har kunnet tåle 
-det.</p>         </div>"""   
+det.</p> </div>"""   
           
 
              
@@ -699,7 +703,7 @@ Trafik- og arbejdssikkerhed
 Anvendelse af Erelzi forventes ikke at påvirke evnen til at køre bil eller betjene maskiner.
 Erelzi indeholder natrium
 Denne medicin indeholder mindre end 1 mmol (23 mg) natrium pr. 25 mg eller 50 mg, dvs. den er i 
-det væsentlige natriumfri.</p>         </div>"""   
+det væsentlige natriumfri.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take erelzi"
@@ -756,7 +760,7 @@ den glemte dosis.
 Hvis du holder op med at tage Erelzi:
 Symptomerne kan vende tilbage, hvis behandlingen stopper.
 72
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -869,7 +873,7 @@ gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
 information om sikkerheden af dette lægemiddel.
-74</p>         </div>"""      
+74</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store erelzi"
@@ -895,7 +899,7 @@ udseende er normalt for Erelzi. Opløsningen må ikke bruges, hvis den er misfar
 hvis den indeholder andre partikler end dem, der er beskrevet ovenfor. Hvis du er bekymret over 
 opløsningens udseende, skal du kontakte dit apotek for assistance.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1159,7 +1163,7 @@ medicinen til andre. Det kan være skadeligt for andre, selv om de har de samme 
 som du eller barnet har.
 
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se afsnit 4. </p> </div>"""      
 
 
 
@@ -1198,7 +1202,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1208,7 +1214,7 @@ Usage: #inline
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>7.
-Instruções para utilização da seringa pré-cheia de Erelzi</p>         </div>"""   
+Instruções para utilização da seringa pré-cheia de Erelzi</p>  </div>"""   
 
 
 
@@ -1223,7 +1229,7 @@ Instruções para utilização da seringa pré-cheia de Erelzi</p>         </div
 3. Como utilizar Erelzi
 4. Efeitos indesejáveis possíveis
 5. Como conservar Erelzi
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1265,7 +1271,7 @@ largamente utilizados ou que não os possam tomar
 
 Psoríase grave em doentes a partir dos 6 anos de idade e com um peso de 62,5 kg ou mais que 
 tenham tido uma resposta inadequada a (ou que não possam tomar) fototerapias ou outras 
-terapêuticas sistémicas.</p>         </div>"""   
+terapêuticas sistémicas.</p> </div>"""   
           
 
              
@@ -1404,7 +1410,7 @@ Condução de veículos e utilização de máquinas
 Não se espera que o uso de Erelzi afete a capacidade de conduzir ou utilizar máquinas.
 Erelzi contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por 25 mg ou 50 mg, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar erelzi"
@@ -1467,7 +1473,7 @@ Se parar de utilizar Erelzi
 73
 Os seus sintomas podem reaparecer após a descontinuação.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1593,7 +1599,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar erelzi"
@@ -1620,7 +1626,7 @@ de cor, turva ou se apresentar partículas diferentes das descritas acima. Se ti
 aparência da solução, consulte o seu farmacêutico.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1634,7 +1640,7 @@ Cada seringa pré-cheia contém 25 mg de etanercept ou 50 mg de etanercept.
 Os outros componentes são ácido cítrico anidro, citrato de sódio di-hidratado, cloreto de sódio, 
 sacarose, cloridrato de L-lisina, hidróxido de sódio, ácido clorídrico e água para preparações 
 injetáveis.
-7</p>         </div>"""      
+7</p> </div>"""      
 
 
 

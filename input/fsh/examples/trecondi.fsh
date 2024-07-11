@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Trecondi </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ alkylating agents. Treosulfan is used to prepare patients for bone marrow transp
 stem cell transplantation). Treosulfan destroys the bone marrow cells and enables the transplant of new 
 bone marrow cells which leads to the production of healthy blood cells. </p>
 <p>Trecondi is used as a treatment before blood stem cell transplantation in adults and in adolescents 
-and children older than one month with cancer and non-cancerous disorders.  </p>         </div>"""   
+and children older than one month with cancer and non-cancerous disorders.  </p> </div>"""   
           
 
              
@@ -131,7 +134,7 @@ before treatment. Men should seek advice about the possibility of sperm preserva
 therapy. </p>
 <p>Driving and using machines 
 This medicine can cause nausea, vomiting and dizziness which may reduce your ability to drive or use 
-machines. If you are affected, do not drive or use machines. </p>         </div>"""   
+machines. If you are affected, do not drive or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trecondi"
@@ -146,7 +149,7 @@ This medicine is used in combination with fludarabine and in most cases also wit
 recommended dose is 10 14 g/m  body surface area.  </p>
 <p>How Trecondi is given 
 This medicine will be given to you by your doctor. It is given by drip (infusion) into a vein over 
-2 hours for 3 days before blood stem cell infusion. </p>         </div>"""         
+2 hours for 3 days before blood stem cell infusion. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -275,7 +278,7 @@ in the urine
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trecondi"
@@ -289,7 +292,7 @@ expiry date refers to the last day of that month. </p>
 <p>For storage conditions after reconstitution of the medicine, see the information below for healthcare 
 professionals. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -321,7 +324,7 @@ Fax:<br />
 contact@medac.de </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -360,7 +363,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -369,7 +374,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -386,7 +392,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -400,7 +406,7 @@ alkylerende stoffer. Treosulfan anvendes til at forberede patienter på en knogl
 muligt at transplantere nye knoglemarvsceller, som medfører, at der kan produceres raske 
 blodlegemer. </p>
 <p>Trecondi anvendes som en behandling før en blodstamcelletransplantation til voksne og til unge og 
-børn over 1 måned med kræft og sygdomme, som ikke er kræft. </p>         </div>"""   
+børn over 1 måned med kræft og sygdomme, som ikke er kræft. </p> </div>"""   
           
 
              
@@ -462,7 +468,7 @@ behandlingen. </p>
 <p>Trafik- og arbejdssikkerhed 
 Dette lægemiddel kan give dig kvalme, få dig til at kaste op og gøre dig svimmel, hvilket kan nedsætte 
 din evne til at føre motorkøretøj eller betjene maskiner. Hvis du påvirkes af det, må du ikke føre 
-motorkøretøj eller betjene maskiner. </p>         </div>"""   
+motorkøretøj eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trecondi"
@@ -477,7 +483,7 @@ Dette lægemiddel anvendes i kombination med fludarabin og i de fleste tilfælde
 Den anbefalede dosis er 10-14 g/m² legemsoverfladeareal. </p>
 <p>Sådan gives Trecondi 
 Du vil få givet dette lægemiddel af din læge. Det gives via et drop (infusion) i en vene i løbet af 
-2 timer i 3 dage før en blodstamcelleinfusion. </p>         </div>"""         
+2 timer i 3 dage før en blodstamcelleinfusion. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -766,7 +772,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trecondi"
@@ -780,7 +786,7 @@ er den sidste dag i den nævnte måned. </p>
 <p>For opbevaringsbetingelser efter rekonstitution af lægemidlet, se oplysningerne nedenfor til læger og 
 sundhedspersonale. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -856,7 +862,7 @@ udfældning. </p>
 <p>Treosulfan har mutagene og karcinogene egenskaber. Medicinrester samt alle materialer, der er brugt 
 til rekonstitution og administration, skal destrueres i overensstemmelse med standardprocedurer, der 
 gælder for antineoplastiske stoffer, under hensyntagen til gældende lovgivning med relation til 
-bortskaffelse af farligt affald. </p>         </div>"""      
+bortskaffelse af farligt affald. </p> </div>"""      
 
 
 
@@ -895,7 +901,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -904,7 +912,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -921,7 +930,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Trecondi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -936,7 +945,7 @@ destrói as células da medula óssea e permite o transplante de novas células 
 leva à produção de células sanguíneas saudáveis. </p>
 <p>Trecondi é utilizado como tratamento antes do transplante de células estaminais do sangue em 
 adultos e em adolescentes e crianças com mais de um mês de idade com cancro e doenças não 
-cancerosas. </p>         </div>"""   
+cancerosas. </p> </div>"""   
           
 
              
@@ -1001,7 +1010,7 @@ seu médico antes do tratamento. Os homens devem aconselhar-se sobre a possibili
 do esperma antes do início da terapêutica. </p>
 <p>Condução de veículos e utilização de máquinas 
 Este medicamento pode causar náuseas, vómitos e tonturas que podem diminuir a sua capacidade de 
-conduzir ou utilizar máquinas. Se tiver quaisquer efeitos, não conduza ou utilize máquinas. </p>         </div>"""   
+conduzir ou utilizar máquinas. Se tiver quaisquer efeitos, não conduza ou utilize máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar trecondi"
@@ -1018,7 +1027,7 @@ tiotepa. A dose recomendada é de 10-14 g/m² da área de superfície corporal. 
 <p>Como é administrado Trecondi 
 Este medicamento ser-lhe-á administrado pelo seu médico. É administrado gota-a-gota (perfusão) 
 numa veia durante 2 horas por um período de 3 dias, antes da perfusão de células estaminais do 
-sangue. </p>         </div>"""         
+sangue. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1322,7 +1331,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar trecondi"
@@ -1337,7 +1346,7 @@ após VAL. O prazo de validade corresponde ao último dia do mês indicado. </p>
 destinada aos profissionais de saúde. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1369,7 +1378,7 @@ Fax:<br />
 +49 4103 8006-E-mail: contact@medac.de </p>
 <p>Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês AAAA}&gt;. </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

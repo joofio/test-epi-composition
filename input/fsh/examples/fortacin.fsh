@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Fortacin </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ medicines called local anaesthetics. </p>
 <p>Fortacin is indicated for the treatment of premature ejaculation occurring in adult men (aged 18 years 
 and over) from first sexual intercourse. This is when you always, or nearly always, have ejaculated 
 within one minute of sexual intercourse and this causes you negative emotional effects. Fortacin works 
-by decreasing the sensitivity of the head of the penis to increase time before ejaculation. </p>         </div>"""   
+by decreasing the sensitivity of the head of the penis to increase time before ejaculation. </p> </div>"""   
           
 
              
@@ -175,7 +178,7 @@ the penis as thoroughly as possible five minutes after Fortacin has been applied
 intercourse. </p>
 <p>Driving and using machines 
 Fortacin has no or negligible influence on the ability to drive and use machines when used at the 
-recommended doses. </p>         </div>"""   
+recommended doses. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fortacin"
@@ -214,7 +217,7 @@ experience any of these. They are very unlikely to happen if it is used as instr
 same time. If this happens, the skin becomes bluish-grey due to a lack of oxygen. </p>
 <p>In serious cases of overdose, symptoms may include fits, low blood pressure, slowed breathing, 
 stopped breathing and altered heart beat. These effects may be life-threatening. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -256,7 +259,7 @@ stopped breathing and altered heart beat. These effects may be life-threatening.
 If you or your sexual partner get any side effects, talk to your doctor or pharmacist. This includes any 
 possible side effects not listed in this leaflet. You can also report side effects directly via the national 
 reporting system listed in Appendix V. By reporting side effects you can help provide more 
-information on the safety of this medicine. </p>         </div>"""      
+information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fortacin"
@@ -271,7 +274,7 @@ The metal container is pressurised. Do not puncture, break or burn it even when 
 residual volume of fluid that is not usable will remain in the container after all doses have been 
 administered. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -375,7 +378,7 @@ Detailed and updated information on this medicine is available by scanning the Q
 the outer carton with a smartphone. 
 The same information is also available on the following URL: www.fortacin.eu 
 QR code www.fortacin.eu </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -414,7 +417,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -423,7 +428,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -440,7 +446,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -453,7 +459,7 @@ lægemidler, som kaldes lokalbedøvende lægemidler. </p>
 <p>Fortacin anvendes til behandling af voksne mænd (i alderen 18 år og ældre), der lider af for tidlig 
 sædafgang fra første samleje. Det er, når man altid, eller næsten altid, får sædafgang inden for ét minut 
 efter påbegyndt samleje, og dette medfører negative følelsesmæssige virkninger. Fortacin virker ved at 
-nedsætte følsomheden i hovedet af penis, så tiden til sædafgang forlænges. </p>         </div>"""   
+nedsætte følsomheden i hovedet af penis, så tiden til sædafgang forlænges. </p> </div>"""   
           
 
              
@@ -617,7 +623,7 @@ undgå Fortacin eller - hvis penetration er vigtig for dem - vaske hovedet af pe
 muligt fem minutter efter påføring af Fortacin, men før samleje. </p>
 <p>Trafik- og arbejdssikkerhed 
 Fortacin påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner, 
-når det anvendes ved de anbefalede doser. </p>         </div>"""   
+når det anvendes ved de anbefalede doser. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take fortacin"
@@ -682,7 +688,7 @@ iltmangel.  </p>
 </ul>
 <p>Ved svær overdosering kan symptomerne bestå i krampeanfald, lavt blodtryk, langsom vejrtrækning, 
 vejrtrækningsstop og ændret hjerterytme. Disse virkninger kan være livstruende. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er mere, du vil vide om brugen af lægemidlet. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -779,7 +785,7 @@ Hvis du eller din seksualpartner oplever bivirkninger, bør du tale med din læg
 Dette gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store fortacin"
@@ -795,7 +801,7 @@ Metalbeholderen er under tryk. Du må ikke gennemhulle, bryde eller brænde den,
 tilsyneladende er tom. Der vil være en lille mængde væske tilbage i beholderen, som ikke kan bruges, 
 når alle doser er givet. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -947,7 +953,7 @@ nedenfor og på den ydre karton med en smartphone.
 Disse oplysninger findes også på internettet: www.fortacin.eu. 
 QR-kode www.fortacin.eu. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Liprolog </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ use Liprolog within 15 minutes of a meal. </p>
 <p>Your doctor may tell you to use Liprolog as well as a longer-acting insulin. Each kind of insulin 
 comes with another patient information leaflet to tell you about it. Do not change your insulin unless 
 your doctor tells you to. Be very careful if you do change insulin. </p>
-<p>Liprolog is suitable for use in adults and children.  </p>         </div>"""   
+<p>Liprolog is suitable for use in adults and children.  </p> </div>"""   
           
 
              
@@ -153,7 +156,7 @@ have:
 * reduced or absent warning signs of hypoglycaemia </p>
 <p>Liprolog contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium-
-free . </p>         </div>"""   
+free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take liprolog"
@@ -236,7 +239,7 @@ death (see A and B in section 4  Possible Side Effects ). </p>
 <p>If you stop using Liprolog. 
 If you take less Liprolog than you need, a high blood sugar may occur. Do not change your insulin 
 unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ hours or days. The symptoms include the following:
 Illness 
 If you are ill, especially if you feel sick or are sick, the amount of insulin you need may change. Even 
 when you are not eating normally, you still need insulin. Test your urine or blood, follow your 
- sick rules , and tell your doctor. </p>         </div>"""      
+ sick rules , and tell your doctor. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store liprolog"
@@ -333,7 +336,7 @@ date refers to the last day of that month.  </p>
 <p>Do not use this medicine if you notice it is coloured or it has solid pieces in it. You must use it only if 
 it looks like water. Check this each time you inject yourself. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -422,7 +425,7 @@ Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353-(0) 1 661 4This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -461,7 +464,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -470,7 +475,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -485,7 +491,7 @@ Usage: #inline
 3. Sådan skal du bruge Liprolog 
 4. Bivirkninger<br />
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -503,7 +509,7 @@ Du bør normalt anvende Liprolog indenfor 15 minutter før eller efter et målti
 insulintype hører en separat indlægsseddel med oplysninger om den enkelte insulintype. Du må ikke 
 ændre din insulinbehandling, medmindre din læge beder dig om det. Vær meget forsigtig, hvis du skal 
 ændre insulin. </p>
-<p>Liprolog kan bruges af voksne og børn. </p>         </div>"""   
+<p>Liprolog kan bruges af voksne og børn. </p> </div>"""   
           
 
              
@@ -603,7 +609,7 @@ du har: </p>
 </ul>
 <p>Liprolog indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take liprolog"
@@ -736,7 +742,7 @@ bevidstløshed, koma og i værste fald medføre døden (se afsnit A og B under p
 <p>Hvis du holder op med at tage Liprolog 
 Hvis du holder op med at tage Liprolog, kan det ske, at dit blodsukker bliver for højt. Du må ikke 
 ændre din insulinbehandling, medmindre din læge beder dig om det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -877,7 +883,7 @@ mange timer eller dage. Symptomerne inkluderer følgende: </p>
 Sygdom 
 Hvis du er syg, særligt hvis du har kvalme eller opkastning, kan dit insulinbehov ændre sig. Selv når 
 du ikke spiser normalt, har du stadig brug for insulin. Test din urin eller dit blod, følg de 
-almindelige regler ved sygdom og informér din læge. </p>         </div>"""      
+almindelige regler ved sygdom og informér din læge. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store liprolog"
@@ -893,7 +899,7 @@ den sidste dag i den nævnte måned. </p>
 <p>Brug ikke lægemidlet, hvis du ser en farvning af produktet, eller hvis der er faste partikler i produktet. 
 Du må kun bruge det, hvis det ser ud som vand. Kontrollér det hver gang du skal injicere dig selv.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1015,7 +1021,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

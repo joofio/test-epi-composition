@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Hycamtin </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ a vein in hospital. </p>
 * advanced cervical cancer if surgery or radiotherapy treatment is not possible. When treating 
 cervical cancer, Hycamtin is combined with another medicine called cisplatin. </p>
 <p>Your doctor will decide with you whether Hycamtin therapy is better than further treatment with your 
-initial chemotherapy. </p>         </div>"""   
+initial chemotherapy. </p> </div>"""   
           
 
              
@@ -119,7 +122,7 @@ Hycamtin can make people feel tired. If you feel tired or weak, do not drive or 
 <p>Hycamtin contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium 
 free . If your doctor uses a solution of common salt to dilute Hycamtin, the dose of sodium received 
-would be larger. </p>         </div>"""   
+would be larger. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hycamtin"
@@ -141,7 +144,7 @@ When treating cervical cancer, Hycamtin is combined with another medicine, calle
 Your doctor will determine the correct dose of cisplatin. 
 The treatment may vary, depending on the results of your regular blood tests. </p>
 <p>How Hycamtin is given 
-A doctor or nurse will administer Hycamtin as an infusion into your arm lasting about 30 minutes. </p>         </div>"""         
+A doctor or nurse will administer Hycamtin as an infusion into your arm lasting about 30 minutes. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -213,7 +216,7 @@ patient leaflet. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hycamtin"
@@ -229,7 +232,7 @@ reconstitution and dilution are performed under strict aseptic conditions (e.g. 
 product should be used (infusion completed) within 24 hours if stored at 2 C   8 C after the first 
 puncture of the vial. </p>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements for 
-cytotoxic material. </p>         </div>"""      
+cytotoxic material. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -394,7 +397,7 @@ Verovskova SI-1000 Ljubljana
 Slovenia 
 Tel: +43 5338 2This leaflet was last revised in </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -433,7 +436,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -442,7 +447,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -459,7 +465,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -481,7 +487,7 @@ kaldes cisplatin. </p>
 </li>
 </ul>
 <p>Din læge vil sammen med dig beslutte, om behandling med Hycamtin er bedre end at fortsætte med 
-den kemoterapibehandling, du tidligere har fået. </p>         </div>"""   
+den kemoterapibehandling, du tidligere har fået. </p> </div>"""   
           
 
              
@@ -537,7 +543,7 @@ Kør ikke bil og brug ikke værktøj eller maskiner, hvis du føler dig træt el
 <p>Hycamtin indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
 væsentlige natriumfrit. Hvis din læge bruger en saltvandsopløsning til at fortynde Hycamtin med, vil 
-den dosis af natrium, du får, være højere. </p>         </div>"""   
+den dosis af natrium, du får, være højere. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hycamtin"
@@ -572,7 +578,7 @@ Behandlingen kan variere afhængigt af resultaterne af dine blodprøver. </p>
 </li>
 </ul>
 <p>Sådan bruges Hycamtin 
-En læge eller sygeplejerske vil give dig Hycamtin i din arm som en infusion, der varer omkring minutter. </p>         </div>"""         
+En læge eller sygeplejerske vil give dig Hycamtin i din arm som en infusion, der varer omkring minutter. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -700,7 +706,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store hycamtin"
@@ -717,7 +723,7 @@ Hvis rekonstitution og fortynding udføres under strenge aseptiske forhold (fx i
 lægemidlet anvendes (infusion fuldført) inden for 24 timer, hvis lægemidlet opbevares ved 2 °C - 8 °C 
 efter den første åbning. </p>
 <p>Eventuelt ubrugt lægemiddel eller affald bør bortskaffes i overensstemmelse med lokale krav til 
-cytotoksisk materiale. </p>         </div>"""      
+cytotoksisk materiale. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -960,7 +966,7 @@ til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, 
 <p>Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
 er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

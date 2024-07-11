@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Raloxifene Teva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ menopause. </p>
 <p>Osteoporosis is a disease that causes your bones to become thin and fragile - this disease is especially 
 common in women after the menopause. Although it may have no symptoms at first, osteoporosis 
 makes you more likely to break bones, especially in your spine, hips and wrists and may cause back 
-pain, loss of height and a curved back. </p>         </div>"""   
+pain, loss of height and a curved back. </p> </div>"""   
           
 
              
@@ -139,7 +142,7 @@ could still have a baby. Raloxifene Teva could harm your unborn child. </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicines. </p>
 <p>Driving and using machines 
-Raloxifene Teva has no or negligible effects on driving or using machines.   </p>         </div>"""   
+Raloxifene Teva has no or negligible effects on driving or using machines.   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take raloxifene"
@@ -166,7 +169,7 @@ You should talk to your doctor first.
 It is important that you continue taking Raloxifene Teva for as long as your doctor prescribes the 
 medicine. 
 Raloxifene Teva can treat or prevent your osteoporosis only if you continue to take the tablets. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -200,7 +203,7 @@ Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.  </p>         </div>"""      
+this medicine.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store raloxifene"
@@ -212,7 +215,7 @@ this medicine.  </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>Do not store above 25 C.  Store in the original package to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ Tel: +371 67323United Kingdom (Northern Ireland)
 Teva Pharmaceuticals Ireland 
 Ireland 
 Tel: +44 2075407This leaflet was last revised in MM/YYYY </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -356,7 +359,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -365,7 +370,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -380,7 +386,7 @@ Usage: #inline
 3. Sådan skal du tage Raloxifen Teva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -399,7 +405,7 @@ virkninger af østrogen efter overgangsalderen. </p>
 <p>Knogleskørhed er en sygdom, som gør dine knogler tynde og skrøbelige. Denne sygdom er især 
 almindelig hos kvinder efter overgangsalderen. Selvom knogleskørhed i begyndelsen ikke giver 
 symptomer, kan den øge risikoen for, at du brækker dine knogler, specielt rygsøjlen, hofterne og 
-håndleddene. Knogleskørhed kan også medføre, at du får rygsmerter, bliver lavere og får en rund ryg. </p>         </div>"""   
+håndleddene. Knogleskørhed kan også medføre, at du får rygsmerter, bliver lavere og får en rund ryg. </p> </div>"""   
           
 
              
@@ -456,7 +462,7 @@ af kvinder, der stadig kan få børn. Raloxifen Teva kunne skade det ufødte bar
 <p>Hvis du er gravid eller ammer, har mistanke om, at du er gravid, eller planlægger at blive gravid, skal 
 du spørge din læge eller apotekspersonalet til råds, før du tager dette lægemiddel. </p>
 <p>Trafik- og arbejdssikkerhed 
-Raloxifen Teva påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p>         </div>"""   
+Raloxifen Teva påvirker ikke eller kun i ubetydelig grad evnen til at køre bil eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take raloxifene"
@@ -483,7 +489,7 @@ Du bør først tale med din læge om det.
 Det er vigtigt, at du fortsætter med at tage Raloxifen Teva i så lang tid, som lægen har ordineret 
 medicinen. Raloxifen Teva kan kun behandle eller forebygge knogleskørhed, hvis du fortsætter med at 
 tage tabletterne. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -556,7 +562,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Sundhedsstyrelsen via det nationale rapporteringssystem anført 
 i Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store raloxifene"
@@ -569,7 +575,7 @@ sidste dag i den nævnte måned. </p>
 <p>Må ikke opbevares ved temperaturer over 25°C. Opbevares i original emballage for at beskytte mod 
 fugt. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -701,7 +707,7 @@ Ireland
 Tel: +44 2075407 </p>
 <p>Denne indlægsseddel blev senest ændret  </p>
 <p>Du kan finde yderligere information om Raloxifen Teva på Det europæiske Lægemiddelagenturs 
-(EMAs) hjemmeside http://www.ema.europa.eu/. </p>         </div>"""      
+(EMAs) hjemmeside http://www.ema.europa.eu/. </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Axumin </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ locations where the cancer has come back.  </p>
 <p>You should discuss the results of the test with the doctor that requested the scan. </p>
 <p>The use of Axumin does involve exposure to small amounts of radioactivity. Your doctor and the 
 nuclear medicine doctor have considered that the benefit of this procedure with the 
-radiopharmaceutical outweighs the risk of being exposed to radiation.  </p>         </div>"""   
+radiopharmaceutical outweighs the risk of being exposed to radiation.  </p> </div>"""   
           
 
              
@@ -119,7 +122,7 @@ This medicine is not indicated for use in women. </p>
 It is considered unlikely that Axumin will affect your ability to drive or to use machines. </p>
 <p>Axumin contains sodium 
 This medicine contains up to 39 mg sodium (main component of cooking/table salt) in each dose. This 
-is equivalent to 2% of the recommended maximum daily dietary intake of sodium for an adult.  </p>         </div>"""   
+is equivalent to 2% of the recommended maximum daily dietary intake of sodium for an adult.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take axumin"
@@ -156,7 +159,7 @@ receive the appropriate treatment. In particular, the nuclear medicine doctor in
 may provide ways to increase the passing of urine and stools in order to facilitate the removal of 
 radioactivity from your body. </p>
 <p>Should you have any further question on the use of Axumin, please ask your nuclear medicine doctor 
-who supervises the procedure. </p>         </div>"""         
+who supervises the procedure. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -174,7 +177,7 @@ of cancer and hereditary abnormalities.  </p>
 If you get any side effects talk to your nuclear medicine doctor. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store axumin"
@@ -185,7 +188,7 @@ this medicine. </p>         </div>"""
 specialist in appropriate premises. Storage of radiopharmaceuticals will be in accordance with national 
 regulation on radioactive materials.  </p>
 <p>The following information is intended for the specialist only.  </p>
-<p>Axumin must not be used after the expiry date which is stated on the shield label after EXP. </p>         </div>"""      
+<p>Axumin must not be used after the expiry date which is stated on the shield label after EXP. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -227,7 +230,7 @@ Seibersdorf Labor GmbH, 2444 Seibersdorf, Austria. </p>
 Llobregat, Spain </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -266,7 +269,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -275,7 +280,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -292,7 +298,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -309,7 +315,7 @@ tilbage.  </p>
 <p>Du skal drøfte resultaterne af scanningen med den læge, der har bestilt den. </p>
 <p>Brug af Axumin indebærer, at du udsættes for små mængder radioaktivitet. Kræftlægen og den 
 nuklearmedicinske læge har vurderet, at fordelen for dig ved at få dette radioaktive lægemiddel 
-opvejer din risiko ved at blive udsat for stråling.  </p>         </div>"""   
+opvejer din risiko ved at blive udsat for stråling.  </p> </div>"""   
           
 
              
@@ -348,7 +354,7 @@ Dette lægemiddel er ikke beregnet til brug hos kvinder. </p>
 Axumin påvirker sandsynligvis ikke evnen til færdes sikkert i trafikken eller betjene maskiner. </p>
 <p>Axumin indeholder natrium 
 Dette lægemiddel indeholder op til 39 mg natrium (hoved komponent af madlavnings-/bordsalt) i hver 
-dosis. Dette svarer til 2% af den anbefalede maximale daglige indtagelse af natrium til en voksen.  </p>         </div>"""   
+dosis. Dette svarer til 2% af den anbefalede maximale daglige indtagelse af natrium til en voksen.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take axumin"
@@ -384,7 +390,7 @@ Det er ikke sandsynligt, at du får for meget Axumin, da du kun får en enkelt d
 af den nuklearmedicinske læge, der har ansvar for undersøgelsen. Hvis det alligevel skulle ske, vil du 
 få den nødvendige behandling. Den nuklearmedicinske læge kan f.eks. give dig lægemidler, der 
 fremmer vandladning og afføring, så radioaktiviteten kommer hurtigere ud af kroppen. </p>
-<p>Spørg den nuklearmedicinske læge, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg den nuklearmedicinske læge, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -405,7 +411,7 @@ Hvis du oplever bivirkninger, bør du tale med den nuklearmedicinske læge. Dett
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks 
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store axumin"
@@ -416,7 +422,7 @@ sikkerheden af dette lægemiddel. </p>         </div>"""
 speciallægens ansvar. Opbevaring af radioaktive lægemidler vil ske i overensstemmelse med den 
 nationale lovgivning for radioaktive materialer.  </p>
 <p>Nedenstående oplysninger er til læger og sundhedspersonale:  </p>
-<p>Axumin må ikke anvendes efter den udløbsdato, der står efter EXP på etiketten på afskærmningen.  </p>         </div>"""      
+<p>Axumin må ikke anvendes efter den udløbsdato, der står efter EXP på etiketten på afskærmningen.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -465,7 +471,7 @@ hjemmeside. </p>
 <p>Det fulde produktresumé for Axumin er vedlagt pakningen som separat dokument for at give 
 sundhedspersonalet yderligere videnskabelige og praktiske oplysninger om anvendelse og 
 administration af dette radioaktive lægemiddel. 
-Læs produktresuméet [produktresuméet skal inkluderes i pakningen]. </p>         </div>"""      
+Læs produktresuméet [produktresuméet skal inkluderes i pakningen]. </p> </div>"""      
 
 
 
@@ -504,7 +510,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -513,7 +521,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -530,7 +539,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Axumin </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -547,7 +556,7 @@ Axumin pode ajudar o seu médico a identificar as localizações onde o cancro r
 <p>Deve discutir os resultados do exame com o médico que o solicitou. </p>
 <p>A utilização de Axumin envolve a exposição a pequenas quantidades de radioatividade. O seu médico 
 e o especialista em Medicina Nuclear consideraram que o benefício deste procedimento com o 
-radiofármaco supera o risco da exposição à radiação. </p>         </div>"""   
+radiofármaco supera o risco da exposição à radiação. </p> </div>"""   
           
 
              
@@ -582,7 +591,7 @@ Este medicamento não é indicado para uso em mulheres. </p>
 <p>Axumin contém sódio 
 Este medicamento contém até 39 mg de sódio (principal componente de sal de cozinha / sal de mesa) 
 em cada dose. Isto é equivalente a 2% da ingestão diária máxima de sódio  recomendada na dieta para 
-um adulto.  </p>         </div>"""   
+um adulto.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar axumin"
@@ -619,7 +628,7 @@ de sobredosagem, receberá o tratamento adequado. Em particular, o especialista 
 responsável pelo procedimento poderá recorrer a formas de aumentar a eliminação de urina e fezes, de 
 modo a facilitar a eliminação da radioatividade do seu organismo. </p>
 <p>Se ainda tiver dúvidas sobre a utilização de Axumin, fale com o seu especialista em Medicina Nuclear 
-que supervisiona o procedimento. </p>         </div>"""         
+que supervisiona o procedimento. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -640,7 +649,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu especialista em Medicina Nuclear. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar axumin"
@@ -651,7 +660,7 @@ medicamento. </p>         </div>"""
 do especialista em instalações adequadas. A conservação de radiofármacos será de acordo com as 
 diretivas nacionais sobre materiais radioativos.  </p>
 <p>A informação seguinte destina-se apenas ao especialista.  </p>
-<p>Axumin não pode ser utilizado após o prazo de validade impresso no rótulo da proteção após VAL. </p>         </div>"""      
+<p>Axumin não pode ser utilizado após o prazo de validade impresso no rótulo da proteção após VAL. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -691,7 +700,7 @@ Seibersdorf Labor GmbH, 2444 Seibersdorf, Áustria. </p>
 <p>Synektik Pharma Sp. z o.o., 96-320 Mszczonów, Polônia </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

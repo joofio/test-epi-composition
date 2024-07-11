@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Visudyne </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -84,7 +87,7 @@ neovascularisation) that damage the retina (the light-sensitive membrane that li
 eye). There are two types of choroidal neovascularisation: classic and occult. </p>
 <p>Visudyne is used for the treatment of predominantly classic choroidal neovascularisation in adults 
 with age-related macular degeneration, and also for the treatment of all types of choroidal 
-neovascularisation in adults with pathological myopia. </p>         </div>"""   
+neovascularisation in adults with pathological myopia. </p> </div>"""   
           
 
              
@@ -157,7 +160,7 @@ which may be temporary. If this happens to you, do not drive or use any tools or
 vision improves. </p>
 <p>Visudyne contains small amounts of butylated hydroxytoluene (E321) 
 This ingredient is irritant to eyes, skin and mucous membranes. If you come into direct contact with 
-Visudyne, you must therefore wash it off thoroughly with water. </p>         </div>"""   
+Visudyne, you must therefore wash it off thoroughly with water. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take visudyne"
@@ -185,7 +188,7 @@ Overdose of Visudyne may prolong the time during which you are sensitive to ligh
 to follow the protection instructions given in section 2 for longer than 48 hours. Your doctor will 
 advise you. </p>
 <p>Overdose of Visudyne and light in the treated eye may result in severe vision decrease. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -240,7 +243,7 @@ areas, including but not limited to, the pelvis, shoulders or rib cage. </p>
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store visudyne"
@@ -254,7 +257,7 @@ expiry date refers to the last day of that month. </p>
 <p>Chemical and physical in-use stability has been demonstrated for 4 hours at 25 C. From a 
 microbiological point of view, the medicine should be used immediately. If not used immediately, the 
 in-use storage time and conditions prior to use are the responsibility of the user and would normally 
-not last longer than 4 hours below 25 C protected from light. </p>         </div>"""      
+not last longer than 4 hours below 25 C protected from light. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -300,7 +303,7 @@ as polyethersulfone) of a pore size of not less than 1.2  m is recommended. </p>
 <p>The vial and any unused portion of reconstituted solution should be discarded after single use. </p>
 <p>If material is spilled, it should be contained and wiped up with a damp cloth. Eye and skin contact 
 should be avoided. Use of rubber gloves and eye protection is recommended. Any unused medicine or 
-waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+waste material should be disposed of in accordance with local requirements. </p> </div>"""      
 
 
 
@@ -339,7 +342,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -348,7 +353,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -363,7 +369,7 @@ Usage: #inline
 3. Sådan anvendes Visudyne 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -384,7 +390,7 @@ beskadiger nethinden (den lysfølsomme membran bagerst i øjet). Der findes to f
 neovaskularisering: Klassisk og okkult. </p>
 <p>Visudyne bruges overvejende til behandling af den klassiske choroidale neovaskularisering hos 
 voksne med aldersrelateret makuladegeneration, og også til behandling af alle typer for choroidal 
-neovaskularisering hos voksne med patologisk nærsynethed. </p>         </div>"""   
+neovaskularisering hos voksne med patologisk nærsynethed. </p> </div>"""   
           
 
              
@@ -456,7 +462,7 @@ kan være forbigående. Forekommer dette, må du ikke køre bil, arbejde med væ
 dit syn er blevet bedre. </p>
 <p>Visudyne indeholder små mængder af butylhydroxytoluen (E321) 
 Dette indholdsstof virker irriterende på øjne, hud og slimhinder. Hvis du kommer i direkte kontakt 
-med Visudyne, skal du sørge for at skylle grundigt efter med vand. </p>         </div>"""   
+med Visudyne, skal du sørge for at skylle grundigt efter med vand. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take visudyne"
@@ -483,7 +489,7 @@ Visudyne er en behandling til voksne og er ikke beregnet til børn. </p>
 Overdosering af Visudyne kan forlænge tiden, hvor du er lysfølsom, og du kan blive nødt til at følge 
 instruktionerne om beskyttelse i punkt 2 ud over de påkrævede 48 timer. Din læge vil give dig besked. </p>
 <p>Overdosering af Visudyne og lys i det behandlede øje kan resultere i alvorlig synsnedsættelse. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -583,7 +589,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store visudyne"
@@ -598,7 +604,7 @@ beskytte mod lys. </p>
 <p>Prøver har vist at den færdige infusionsvæske er kemisk/fysisk stabil i op til 4 timer ved 25°C. Set fra 
 en mikrobiologisk synsvinkel bør lægemidlet anvendes straks. Anvendes infusionsvæsken ikke straks, 
 har brugeren ansvar for opbevaringsbetingelser og holdbarhedstid, som ikke bør overskride 4 timer, 
-opbevaret under 25°C og beskyttet mod lys. </p>         </div>"""      
+opbevaret under 25°C og beskyttet mod lys. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -647,7 +653,7 @@ anbefales. </p>
 <p>Hætteglasset og ethvert overskud af den rekonstituerede infusionsvæske skal kasseres efter endt brug. </p>
 <p>Hvis materialet spildes, skal det tørres op med en fugtig klud. Øjen- og hudkontakt bør undgås. Brug 
 af gummihandsker og øjenbeskyttelse anbefales. Ikke anvendt lægemiddel samt affald heraf skal 
-bortskaffes i henhold til lokale retningslinjer. </p>         </div>"""      
+bortskaffes i henhold til lokale retningslinjer. </p> </div>"""      
 
 
 

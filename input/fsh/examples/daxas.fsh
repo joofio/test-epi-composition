@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Daxas</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -82,7 +85,7 @@ worsening of their COPD symptoms (so-called exacerbations) and who have chronic 
 COPD is a chronic disease of the lungs that results in tightening of the airways (obstruction) and 
 swelling and irritation of the walls of the small air passages (inflammation). This leads to symptoms 
 such as coughing, wheezing, chest tightness or difficulty in breathing. Daxas is to be used in addition 
-to bronchodilators.</p>         </div>"""   
+to bronchodilators.</p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ Driving and using machines
 Daxas has no influence on the ability to drive and use machines.
 Daxas contains lactose
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product.</p>         </div>"""   
+before taking this medicinal product.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take daxas"
@@ -192,7 +195,7 @@ up for a forgotten dose.
 If you stop taking Daxas
 It is important to continue taking Daxas for as long as prescribed by your doctor, even when you have 
 no symptoms, in order to maintain control of your lung function.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -255,7 +258,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store daxas"
@@ -267,7 +270,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -359,7 +362,7 @@ SIA AstraZeneca Latvija
 Tel: +371 67377United Kingdom (Northern Ireland)
 AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last approved in
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -398,7 +401,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -407,7 +412,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -422,7 +428,7 @@ Usage: #inline
 3. Sådan skal du tage Daxas
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -440,7 +446,7 @@ hyppige forværringer af symptomerne på sygdommen KOL (dette kaldes eksacerbati
 lider af kronisk bronkitis. KOL er en kronisk lungesygdom, som medfører en forsnævring af 
 luftvejene (obstruktion) samt hævelse og irritation af væggene i de mindre luftveje (inflammation). 
 Dette fører til symptomer som hoste, hvæsen, trykken for brystet eller vejrtrækningsbesvær. Daxas 
-skal anvendes som tillæg til bronkodilatatorer.</p>         </div>"""   
+skal anvendes som tillæg til bronkodilatatorer.</p> </div>"""   
           
 
              
@@ -522,7 +528,7 @@ Trafik- og arbejdssikkerhed
 Daxas påvirker ikke arbejdssikkerheden eller evnen til at færdes sikkert i trafikken.
 Daxas indeholder lactose
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter.</p>         </div>"""   
+sukkerarter.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take daxas"
@@ -558,7 +564,7 @@ ikke tage en dobbeltdosis som erstatning for den glemte dosis.
 Hvis du holder op med at tage Daxas
 Det er vigtigt at fortsætte med at tage Daxas så længe, som din læge har foreskrevet, selv når du ingen 
 symptomer har, for at fastholde kontrollen over din lungefunktion.
-Spørg lægen eller på apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller på apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -625,7 +631,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store daxas"
@@ -638,7 +644,7 @@ sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
 medicinrester i afløbet, toilettet eller skraldespanden.
-44</p>         </div>"""      
+44</p> </div>"""      
         
         
 * section[=].section[+]
@@ -774,7 +780,7 @@ Lægen har ordineret Daxas til dig personligt. Lad derfor være med at give det 
 være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apoteketspersonalet, hvis en bivirkning bliver værre, eller du får 
-bivirkninger, som ikke er nævnt her. Se afsnit 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt her. Se afsnit 4. </p> </div>"""      
 
 
 

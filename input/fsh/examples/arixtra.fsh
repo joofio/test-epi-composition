@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Arixtra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ surgery (such as hip or knee surgery) or abdominal surgery
 * prevent the formation of blood clots during and shortly after a period of restricted mobility due 
 to acute illness. 
 * treat blood clots in blood vessels that are near the surface of  the skin of the legs  (superficial-
-vein thrombosis).   </p>         </div>"""   
+vein thrombosis).   </p> </div>"""   
           
 
              
@@ -131,7 +134,7 @@ sodium-free. </p>
 <p>Arixtra syringe contains latex 
 The syringe needle shield contains latex that has the potential to cause allergic reactions in latex 
 sensitive individuals.<br />
-  Tell your doctor if you are allergic to latex before being treated with Arixtra. </p>         </div>"""   
+  Tell your doctor if you are allergic to latex before being treated with Arixtra. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arixtra"
@@ -161,7 +164,7 @@ forgotten dose.<br />
 <p>Don t stop using Arixtra without advice<br />
 If you stop the treatment before your doctor told you to, you are at risk of developing a blood clot in a 
 vein of your leg or lung. Contact your doctor or pharmacist before stopping. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -212,7 +215,7 @@ These may affect up to 1 in every 1000 people treated with Arixtra.
 If you get any side effects, talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store arixtra"
@@ -231,7 +234,7 @@ this medicine. </p>         </div>"""
 </em> if you have opened a syringe and you do not use it straightaway. </p>
 <p>Disposal of syringes: 
 Do not throw away any medicines or syringes via wastewater or household waste. Ask your 
-pharmacist how to throw away medicines you no longer use. This will help protect the environment. </p>         </div>"""      
+pharmacist how to throw away medicines you no longer use. This will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -322,7 +325,7 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)<br />
 Mylan IRE Healthcare Limited 
 +353 18711This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -361,7 +364,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -370,7 +375,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -385,7 +391,7 @@ Usage: #inline
 3. Sådan skal du tage Arixtra 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -411,7 +417,7 @@ bevægelighed på grund af akut sygdom. </p>
 <li>
 <p>at behandle blodpropper i blodkar nær hudoverfladen i benene (superficiel venetrombose). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -486,7 +492,7 @@ Denne medicin indeholder mindre end 23 mg natrium pr. dosis, dvs. den er i det v
 <p>Arixtra injektionssprøjter indeholder latex 
 Kanylehylsteret indeholder latex, hvilket kan medføre allergiske reaktioner hos personer, der ikke kan 
 tåle latex.<br />
-→  Fortæl det til lægen, inden du bliver behandlet med Arixtra, hvis du er overfølsom over for latex. </p>         </div>"""   
+→  Fortæl det til lægen, inden du bliver behandlet med Arixtra, hvis du er overfølsom over for latex. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take arixtra"
@@ -526,7 +532,7 @@ som erstatning for den glemte dosis.  </p>
 <p>Stop ikke med at tage Arixtra uden vejledning 
 Hvis du stopper behandlingen uden lægens vejledning, er der risiko for, at du får blodpropper i benene 
 eller i lungerne. Kontakt lægen eller apoteket, inden du stopper behandlingen. </p>
-<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -664,7 +670,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store arixtra"
@@ -700,7 +706,7 @@ nævnte måned. </p>
 </ul>
 <p>Bortskaffelse af injektionssprøjter 
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester og injektionssprøjter. Af hensyn til miljøet 
-må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+må du ikke smide medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -954,7 +960,7 @@ Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 <p>Tal med lægen eller apotekspersonalet, hvis en bivirkning bliver værre, eller du får bivirkninger, 
 som ikke er nævnt her. Se punkt 4. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store CONBRIZA </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 non-hormonal medicines called Selective Oestrogen Receptor Modulators (SERMs). It is used for the 
 treatment of osteoporosis in women after they have reached menopause, when they are at an increased 
 risk of fractures. It works by slowing or stopping the thinning of bone in these women. This medicine 
-should not be used for the treatment of osteoporosis in men. </p>         </div>"""   
+should not be used for the treatment of osteoporosis in men. </p> </div>"""   
           
 
              
@@ -130,7 +133,7 @@ so. </p>
 <p>CONBRIZA contains lactose and sodium </p>
 <p>This medicine contains lactose (a type of sugar). If you have been told by your doctor that you have an 
 intolerance to some sugars, contact your doctor before taking this medicine. This medicine contains 
-less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
+less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take conbriza"
@@ -157,7 +160,7 @@ not take a double dose to make up for a forgotten tablet. </p>
 <p>If you decide to stop taking this medicine before finishing the prescribed course of treatment, you 
 should talk to your doctor first. </p>
 <p>If you have any further questions on the use or stopping the use of this medicine, ask your doctor or 
-pharmacist. </p>         </div>"""         
+pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -197,7 +200,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store conbriza"
@@ -209,7 +212,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 expiry date refers to the last date of that month. 
 Do not store above 25 C. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -303,7 +306,7 @@ Pfizer Limited
 Tel: +44 (0) 1304 616This leaflet was last revised in {MM/YYYY}. 
 Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web 
-site: http://www.ema.europa.eu/. </p>         </div>"""      
+site: http://www.ema.europa.eu/. </p> </div>"""      
 
 
 
@@ -342,7 +345,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -351,7 +356,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -366,7 +372,7 @@ Usage: #inline
 3. Sådan skal du tage CONBRIZA
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -378,7 +384,7 @@ Usage: #inline
 ikke-hormonale lægemidler benævnt selektive østrogenreceptormodulatorer (SERM). Det anvendes til 
 behandling af knogleskørhed hos kvinder, som har nået klimakteriet og har en øget risiko for 
 knoglebrud. Det virker ved at hæmme eller stoppe mindskningen af knogletætheden hos disse kvinder. 
-Dette lægemiddel bør ikke anvendes til behandling af knogleskørhed hos mænd. </p>         </div>"""   
+Dette lægemiddel bør ikke anvendes til behandling af knogleskørhed hos mænd. </p> </div>"""   
           
 
              
@@ -445,7 +451,7 @@ har talt med din læge, om det er sikkert at gøre det.
 CONBRIZA indeholder lactose og natrium 
 Dette lægemiddel indeholder lactose, der er en sukkerart. Hvis din læge har fortalt dig, at du ikke kan 
 tåle visse sukkerarter, skal du kontakte din læge, før du tager dette lægemiddel. Dette lægemiddel 
-indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige natriumfrit.</p>         </div>"""   
+indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take conbriza"
@@ -478,7 +484,7 @@ den glemte tablet.
 Hvis du holder op med at tage CONBRIZA
 Hvis du beslutter dig til at holde op med at tage dette lægemiddel før planlagt afslutning, skal du først 
 tale med din læge herom.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -535,7 +541,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine 
 pårørende kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale 
 rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at 
-fremskaffe mere information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store conbriza"
@@ -547,7 +553,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og blisterko
 Udløbsdatoen (EXP) er den sidste dag i den nævnte måned.
 Må ikke opbevares ved temperaturer over 25ºC.
 Spørg på apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du 
-ikke smide medicinrester i afløbet eller, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide medicinrester i afløbet eller, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -672,7 +678,7 @@ Tel: +44 (0) 1304 616161
 Denne indlægsseddel blev senest ændret {måned ÅÅÅÅ}.
 Andre informationskilde
 Du kan finde yderligere oplysninger om CONBRIZA på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu/.</p>         </div>"""      
+hjemmeside http://www.ema.europa.eu/.</p> </div>"""      
 
 
 

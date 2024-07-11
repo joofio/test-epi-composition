@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store IDELVION</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ means that their blood does not clot as quickly as it should so there is an incr
 IDELVION works by replacing factor IX in haemophilia B patients to enable their blood to clot.
 What is IDELVION used for?
 IDELVION is used to prevent or to halt bleeding caused by the lack of factor IX in patients of all age 
-groups with haemophilia B (also called congenital factor IX deficiency or Christmas disease).</p>         </div>"""   
+groups with haemophilia B (also called congenital factor IX deficiency or Christmas disease).</p> </div>"""   
           
 
              
@@ -129,7 +132,7 @@ Driving and using machines
 IDELVION does not effect your ability to drive and use machines.
 IDELVION contains sodium
 This medicine contains up to 8.6 mg sodium (main component of cooking/table salt) in each vial. This 
-is equivalent to 0.4% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+is equivalent to 0.4% of the recommended maximum daily dietary intake of sodium for an adult.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take idelvion"
@@ -228,7 +231,7 @@ syringe containing the product.
 Check yourself for any side effects that might happen straight away. If you have any side effects that 
 might be related to the administration of IDELVION, the injection should be stopped (see also sections
 2 and 4).
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -263,7 +266,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store idelvion"
@@ -277,7 +280,7 @@ safety of this medicine.</p>         </div>"""
 <p>Keep the vial in the outer carton in order to protect from light.</p>
 <p>The reconstituted product should preferably be used immediately. </p>
 <p>If the reconstituted product is not administered immediately, storage times and conditions prior 
-to use are in the responsibility of the user.</p>         </div>"""      
+to use are in the responsibility of the user.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -390,7 +393,7 @@ CentralPharma Communications SIA
 Tel: +371 6 7450United Kingdom (Northern Ireland)
 CSL Behring GmbH
 Tel: +49 69 305 17This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -429,7 +432,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -438,7 +443,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -453,7 +459,7 @@ Usage: #inline
 3. Sådan skal du bruge IDELVION
 4. Bivirkninger
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -472,7 +478,7 @@ blod kan størkne.
 Hvad bruges IDELVION til?
 IDELVION bruges til at forebygge eller stoppe blødning som følge af mangel på faktor IX 
 hos patienter i alle aldersgrupper med hæmofili B (også kaldet medfødt faktor IX-mangel 
-eller Christmas' sygdom).</p>         </div>"""   
+eller Christmas' sygdom).</p> </div>"""   
           
 
              
@@ -531,7 +537,7 @@ IDELVION påvirker ikke din evne til at føre motorkøretøj og betjene maskiner
 IDELVION indeholder natrium
 Dette lægemiddel indeholder op til 8,6 mg natrium (hoved komponent af madlavnings-/bordsalt) pr.
 hætteglas. Dette svarer til 0,4 % af den anbefalede maksimale daglige indtagelse af natrium for en 
-voksen.</p>         </div>"""   
+voksen.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take idelvion"
@@ -645,7 +651,7 @@ behageligt for dig, dog højst 5 ml/min) i en vene. Følg den vejledning, som du
 Pas på, at der ikke kommer blod i den fyldte sprøjte. 
 Vær opmærksom på, om der forekommer bivirkninger med det samme. Hvis du får bivirkninger, der 
 kan skyldes indgivelse af IDELVION, skal du stoppe injektionen (se også afsnit 2 og 4).
-Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -692,7 +698,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store idelvion"
@@ -713,7 +719,7 @@ Opbevar hætteglassene i den ydre karton for at beskytte mod lys.
 Den fremstillede injektionsvæske skal helst anvendes med det samme. 
 
 Hvis den fremstillede injektionsvæske ikke anvendes med det samme, er opbevaringstiden efter 
-anbrud og opbevaringsforholdene før brug brugerens ansvar.</p>         </div>"""      
+anbrud og opbevaringsforholdene før brug brugerens ansvar.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -997,7 +1003,7 @@ signifikant påvirket både af typen af aPTT-reagens og af den referencestandard
 54
 Målinger med 1-trins koagulationsanalyse ved brug af kaolinbaseret aPTT-reagens eller Actin FS 
 aPTT-reagens vil sandsynligvis resultere i undervurdering af aktivitetsniveauet. Dette er af særlig 
-vigtighed, når der skiftes laboratorium og/eller ændres på de reagenser, der anvendes i analysen.</p>         </div>"""      
+vigtighed, når der skiftes laboratorium og/eller ændres på de reagenser, der anvendes i analysen.</p> </div>"""      
 
 
 
@@ -1036,7 +1042,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1045,7 +1053,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1060,7 +1069,7 @@ Usage: #inline
 3. Como utilizar IDELVION
 4. Efeitos indesejáveis possíveis
 5. Como conservar IDELVION
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1079,7 +1088,7 @@ hemofilia B, de forma a permitir a coagulação do seu sangue.
 Para que é utilizado IDELVION?
 IDELVION é usado para prevenir ou estancar hemorragias provocadas pela deficiência de fator IX em
 doentes de todas as faixas etárias com hemofilia B (também chamada deficiência congénita de fator IX 
-ou doença de Christmas).</p>         </div>"""   
+ou doença de Christmas).</p> </div>"""   
           
 
              
@@ -1143,7 +1152,7 @@ IDELVION não afeta a sua capacidade de conduzir e utilizar máquinas.
 IDELVION contém sódio
 Este medicamento contém até 8,6 mg de sódio (principal componente de sal de cozinha/sal de mesa) 
 em cada frasco para injetáveis. Isto é equivalente a 0,4% da ingestão diária máxima de sódio 
-recomendada na dieta para um adulto.</p>         </div>"""   
+recomendada na dieta para um adulto.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar idelvion"
@@ -1270,7 +1279,7 @@ Esteja atento para detetar quaisquer efeitos indesejáveis que possam surgir ime
 quaisquer efeitos indesejáveis que possam estar relacionados com a administração de IDELVION, 
 deve parar imediatamente a injeção (ver também as secções 2 e 4).
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro.</p>         </div>"""         
+ou enfermeiro.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1319,7 +1328,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar idelvion"
@@ -1341,7 +1350,7 @@ Manter o frasco para injetáveis na embalagem exterior para proteger da luz.
 O produto reconstituído deve, de preferência, ser imediatamente utilizado.
 
 Se o produto reconstituído não for imediatamente utilizado, os tempos de conservação e as 
-condições antes da utilização são da responsabilidade do utilizador.</p>         </div>"""      
+condições antes da utilização são da responsabilidade do utilizador.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1489,7 +1498,7 @@ United Kingdom (Northern Ireland)
 CSL Behring GmbH
 Tel: +49 69 305 17254
 Este folheto foi revisto pela última vez em MM/AAAA.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

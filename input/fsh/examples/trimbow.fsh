@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Trimbow </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -94,7 +97,7 @@ Asthma is a serious, long-term disease where the muscles surrounding the airways
 shortness of breath, wheezing, chest tightness and cough.  </p>
 <p>You should use Trimbow every day and not only when you have breathing problems or other 
 symptoms of asthma. This will ensure that it controls your asthma properly. Do not use this medicine 
-to relieve a sudden attack of breathlessness or wheezing. </p>         </div>"""   
+to relieve a sudden attack of breathlessness or wheezing. </p> </div>"""   
           
 
              
@@ -251,7 +254,7 @@ Trimbow is unlikely to affect your ability to drive and use machines. </p>
 Trimbow contains 8.856 mg of alcohol (ethanol) in each actuation, which is equivalent to 17.712 mg 
 per dose of two actuations. The amount in two actuations of this medicine is equivalent to less than 
 1 ml of wine or beer. The small amount of alcohol in this medicine will not have any noticeable 
-effects. </p>         </div>"""   
+effects. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trimbow"
@@ -361,7 +364,7 @@ missed, but just take the next dose at the correct time. Do not double the dose.
 <p>If you stop using Trimbow 
 It is important to use Trimbow every day. Do not stop using Trimbow or lower the dose, even if you are 
 feeling better or you have no symptoms. If you want to do this, talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -488,7 +491,7 @@ These events are more likely to occur in children. </p>
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trimbow"
@@ -512,7 +515,7 @@ Store the inhaler below 25 C for a maximum of
 Store the inhaler below 25 C for a maximum of 
 4 months.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -633,7 +636,7 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4.</p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -672,7 +675,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -681,7 +686,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -696,7 +702,7 @@ Usage: #inline
 3. Sådan skal du bruge Trimbow 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -741,7 +747,7 @@ Astma er en alvorlig langvarig sygdom, hvor musklerne omkring luftvejene trække
 omfatter stakåndethed, hvæsende vejrtrækning, trykken for bryset og hoste. </p>
 <p>Du skal bruge Trimbow hver dag og ikke kun, når du har vejrtrækningsproblemer eller andre 
 symptomer på astma. Det vil sikre, at din astma kontrolleres korrekt. Du må ikke bruge dette 
-lægemiddel til at lindre et pludseligt anfald af åndenød eller hvæsende vejrtrækning. </p>         </div>"""   
+lægemiddel til at lindre et pludseligt anfald af åndenød eller hvæsende vejrtrækning. </p> </div>"""   
           
 
              
@@ -902,7 +908,7 @@ Det er ikke sandsynligt, at Trimbow vil påvirke din evne til at føre motorkør
 <p>Trimbow indeholder ethanol 
 Trimbow indeholder 8,856 mg alkohol (ethanol) pr. pust, svarende til 17,712 mg pr. dosis med to pust. 
 Mængden i to pust af dette lægemiddel svarer til mindre end 1 ml vin eller øl. Den mindre mængde 
-alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. </p>         </div>"""   
+alkohol i dette lægemiddel vil ikke have nogen nævneværdig effekt. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take trimbow"
@@ -1019,7 +1025,7 @@ glemte dosis, men tag kun den næste dosis på det korrekte tidspunkt. Du må ik
 Det er vigtigt, at du bruger Trimbow hver dag. Du må ikke holde op med at bruge Trimbow eller 
 bruge en lavere dosis, selvom du har det bedre, eller du ikke har nogen symptomer. Hvis du gerne vil 
 gøre dette, skal du kontakte lægen. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1320,7 +1326,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store trimbow"
@@ -1344,7 +1350,7 @@ multipakning) og 180 pust:
 Inhalatoren opbevares ved temperaturer under 25 °C i 
 maksimalt 4 måneder. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1494,7 +1500,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give medicinen 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

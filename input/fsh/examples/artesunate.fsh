@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Artesunate Amivas </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -75,7 +78,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Artesunate Amivas contains the active substance artesunate. Artesunate Amivas is used to treat severe 
 malaria in adults and children.  </p>
 <p>After treatment with Artesunate Amivas your doctor will complete your treatment for malaria with a 
-course of anti-malarial medication that can be taken by mouth. </p>         </div>"""   
+course of anti-malarial medication that can be taken by mouth. </p> </div>"""   
           
 
              
@@ -133,7 +136,7 @@ This medicine contains 193 mg sodium (main component of cooking/table salt) in e
 This is equivalent to just under 10 % of the recommended maximum daily dietary intake of sodium for 
 an adult.<br />
 As the first and second doses are recommended 12 hours apart, this would supply 386 mg sodium 
-(nearly 20 %of your maximum daily intake). </p>         </div>"""   
+(nearly 20 %of your maximum daily intake). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take artesunate"
@@ -161,7 +164,7 @@ to treat these symptoms if you are given too much of this medicine.  </p>
 As this medicine will be given to you in a hospital, your doctor or nurse will manage your treatment 
 and it is unlikley a dose will be forgotten.  Should a dose be delayed, your doctor or nurse will give the 
 required dose at the earliest opportunity and continue to give future doses 12 or 24 hours apart.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -220,7 +223,7 @@ QT) </p>
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store artesunate"
@@ -230,7 +233,7 @@ medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label on the carton after EXP.  </p>
 <p>This medicine does not require any special storage conditions.   </p>
-<p>The reconstituted solution must be used within 1.5 hours of preparation. </p>         </div>"""      
+<p>The reconstituted solution must be used within 1.5 hours of preparation. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -261,7 +264,7 @@ Amivas Ireland Ltd, Suite 5, Second Floor, Station House, Railway Square, Waterf
 MIAS Pharma Limited, Suite 1, Stafford House, Strand Road, Portmarnock, Co. Dublin, Ireland </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -300,7 +303,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -309,7 +314,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -324,7 +330,7 @@ Usage: #inline
 3. Sådan gives Artesunate Amivas 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -335,7 +341,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Artesunate Amivas indeholder det aktive stof artesunat. Artesunate Amivas anvendes til behandling af 
 svær malaria hos voksne og børn. </p>
 <p>Efter behandling med Artesunate Amivas vil lægen afslutte din malariabehandling med et 
-behandlingsforløb med malariamedicin, der kan tages gennem munden. </p>         </div>"""   
+behandlingsforløb med malariamedicin, der kan tages gennem munden. </p> </div>"""   
           
 
              
@@ -406,7 +412,7 @@ Du må ikke føre motorkøretøj eller betjene maskiner, hvis du føler dig træ
 Dette lægemiddel indeholder 193 mg natrium (hovedkomponenten i køkken-/bordsalt) pr. enkeltdosis. 
 Dette svarer til lidt under 10 % af det anbefalede maksimale daglige indtag af natrium for en voksen. 
 Da den første og den anden dosis anbefales givet med 12 timers mellemrum, vil dette give 386 mg 
-natrium (næsten 20 % af din maksimale daglige indtagelse). </p>         </div>"""   
+natrium (næsten 20 % af din maksimale daglige indtagelse). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take artesunate"
@@ -435,7 +441,7 @@ og det er usandsynligt, at en dosis vil blive glemt. Hvis en dosis skulle blive 
 sygeplejersken give den nødvendige dosis hurtigst muligt og fortsætte med at give efterfølgende doser 
 med 12 eller 24 timers mellemrum. </p>
 <p>Spørg lægen eller sundhedspersonalet, hvis der er noget ved brugen af dette lægemiddel, du er i tvivl 
-om. </p>         </div>"""         
+om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -492,7 +498,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store artesunate"
@@ -502,7 +508,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten på pakningen efter EXP. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
-<p>Den rekonstituerede opløsning skal anvendes inden for 1,5 timer efter klargøring. </p>         </div>"""      
+<p>Den rekonstituerede opløsning skal anvendes inden for 1,5 timer efter klargøring. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -560,7 +566,7 @@ dagsdosis på dage, hvor der gives to doser over en periode på 24 timer, være 
 svarende til 19,2 % af WHO's anbefaling for maksimalt dagligt indtag på 2 g natrium for en voksen. </p>
 <p>Opbevaring af rekonstitueret Artesunate Amivas opløsning </p>
 <p>Efter rekonstitution skal opløsningen af Artesunate Amivas indgives inden for 1,5 timer efter 
-klargøring. Bortskaf eventuel ikke anvendt opløsning efter lokale retningslinjer. </p>         </div>"""      
+klargøring. Bortskaf eventuel ikke anvendt opløsning efter lokale retningslinjer. </p> </div>"""      
 
 
 
@@ -599,7 +605,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -608,7 +616,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -623,7 +632,7 @@ Usage: #inline
 3. Como é administrado Artesunato Amivas 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Artesunato Amivas 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -634,7 +643,7 @@ Usage: #inline
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Artesunato Amivas contém a substância ativa artesunato. Artesunato Amivas é utilizado no tratamento 
 da malária grave em adultos e crianças. </p>
 <p>Após o tratamento com Artesunato Amivas, o seu médico concluirá o seu tratamento para a malária 
-com um esquema de medicação antimalárica que pode ser tomado por via oral. </p>         </div>"""   
+com um esquema de medicação antimalárica que pode ser tomado por via oral. </p> </div>"""   
           
 
              
@@ -708,7 +717,7 @@ Este medicamento contém 193 mg de sódio (principal componente do sal de mesa/c
 dose única. Isto é equivalente a pouco menos de 10 % da dose máxima diária recomendada de sódio 
 na dieta de um adulto. 
 Uma vez que a primeira e a segunda doses são recomendadas com 12 horas de intervalo, esta 
-fornecerá 386 mg de sódio (cerca de 20 % da sua dose diária máxima). </p>         </div>"""   
+fornecerá 386 mg de sódio (cerca de 20 % da sua dose diária máxima). </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar artesunate"
@@ -739,7 +748,7 @@ Uma vez que este medicamento lhe será administrado num hospital, a gestão do s
 feita pelo seu médico ou enfermeiro e não é provável que uma dose seja esquecida. Se uma dose for 
 adiada, o seu médico ou enfermeiro administrá-la-ão na primeira oportunidade e continuarão a 
 administrar as doses seguintes com um intervalo de 12 ou 24 horas. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -798,7 +807,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar artesunate"
@@ -809,7 +818,7 @@ medicamento. </p>         </div>"""
 <p>Não utilize este medicamento após o prazo de validade impresso no rótulo da embalagem exterior a 
 seguir a «VAL». </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
-<p>A solução reconstituída tem de ser utilizada no prazo de 1 hora e meia após a preparação. </p>         </div>"""      
+<p>A solução reconstituída tem de ser utilizada no prazo de 1 hora e meia após a preparação. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -841,7 +850,7 @@ Amivas Ireland Ltd, Suite 5, Second Floor, Station House, Railway Square, Waterf
 MIAS Pharma Limited, Suite 1, Stafford House, Strand Road, Portmarnock, Co. Dublin, Irlanda </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

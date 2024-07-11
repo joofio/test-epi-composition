@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Leflunomide Zentiva </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ psoriatic arthritis. </p>
 pain. Other symptoms that affect the entire body include loss of appetite, fever, loss of energy and 
 anaemia (lack of red blood cells). </p>
 <p>Symptoms of active psoriatic arthritis include inflammation of joints, swelling, difficulty moving, pain 
-and patches of red, scaly skin (skin lesions). </p>         </div>"""   
+and patches of red, scaly skin (skin lesions). </p> </div>"""   
           
 
              
@@ -199,7 +202,7 @@ Leflunomide Zentiva can make you feel dizzy which may impair your ability to con
 If you are affected, do not drive, or use machines. </p>
 <p>Leflunomide Zentiva contains lactose<br />
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product. </p>         </div>"""   
+before taking this medicinal product. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take leflunomide"
@@ -223,7 +226,7 @@ advice. If possible, take your tablets or the box with you to show the doctor. <
 <p>If you forget to take Leflunomide Zentiva 
 If you forget to take a dose, take it as soon as you remember, unless it is nearly time for your next 
 dose. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -313,7 +316,7 @@ tissues can be seen), may also occur with an unknown frequency. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store leflunomide"
@@ -328,7 +331,7 @@ Store in the original package. </p>
 <p>Bottle: 
 Keep the bottle tightly closed.   </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -447,7 +450,7 @@ Zentiva, k.s.
 Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -486,7 +489,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -495,7 +500,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -510,7 +516,7 @@ Usage: #inline
 3. Sådan skal du tage Leflunomide Zentiva 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -526,7 +532,7 @@ psoriatica. </p>
 besvær med at bevæge sig og smerter. Andre symptomer der påvirker hele kroppen er appetitløshed, 
 feber, mangel på energi og anæmi (mangel på røde blodlegemer). </p>
 <p>Symptomerne på aktiv arthritis psoriatica er blandt andet en betændelseslignende tilstand i leddene, 
-hævelse, besvær med at bevæge sig, smerter og røde, afskallende pletter på huden (hudlæsioner). </p>         </div>"""   
+hævelse, besvær med at bevæge sig, smerter og røde, afskallende pletter på huden (hudlæsioner). </p> </div>"""   
           
 
              
@@ -641,7 +647,7 @@ Leflunomide Zentiva kan gøre dig svimmel, hvilket kan hæmme din evne til at ko
 reagere. Hvis du bliver påvirket må du ikke køre eller betjene maskiner. </p>
 <p>Leflunomide Zentiva indeholder lactose 
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
-sukkerarter. </p>         </div>"""   
+sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take leflunomide"
@@ -673,7 +679,7 @@ lægen. </p>
 Hvis du glemmer at tage en dosis, skal du indtage den manglende tablet, så snart du kommer i tanke 
 om det; dog ikke hvis tidspunktet for næste planlagte dosis er nært forestående. Du må ikke tage en 
 dobbeltdosis som erstatning for den glemte dosis. </p>
-<p>Spørg lægen, på apoteket eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, på apoteket eller sundhedspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -765,7 +771,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store leflunomide"
@@ -780,7 +786,7 @@ Opbevares i den originale yderpakning. </p>
 <p>Tabletbeholder: 
 Hold tabletbeholderen tæt tillukket. </p>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -916,7 +922,7 @@ Gem indlægssedlen. Du kan få brug for at læse den igen.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give det til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Tal med lægen, apotekspersonalet eller sundhedspersonalet, hvis en bivirkning bliver værre, 
-eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p>         </div>"""      
+eller du får bivirkninger, som ikke er nævnt her. Se punkt 4. </p> </div>"""      
 
 
 
@@ -955,7 +961,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -964,7 +972,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -979,7 +988,7 @@ Usage: #inline
 3. Como tomar Leflunomide Zentiva 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Leflunomide Zentiva 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -995,7 +1004,7 @@ psoriática ativa. </p>
 movimentação e dores. Outros sintomas que afetam todo o corpo incluem perda de apetite, febre, 
 perda de energia e anemia (falta de glóbulos vermelhos). </p>
 <p>Os sintomas da artrite psoriática ativa incluem inflamação das articulações, tumefação, dificuldade de 
-movimentação, dores e manchas vermelhas, pele escamosa (lesões na pele). </p>         </div>"""   
+movimentação, dores e manchas vermelhas, pele escamosa (lesões na pele). </p> </div>"""   
           
 
              
@@ -1122,7 +1131,7 @@ A Leflunomide Zentiva pode fazê-lo sentir tonto o que pode perturbar a sua capa
 concentração e reação. Se se sente afetado, não conduza, ou utilize máquinas.  </p>
 <p>Leflunomide  Zentiva contém lactose. 
 A Leflunomide Zentiva contém lactose. Se o seu médico lhe disse que tem intolerância a alguns 
-açúcares, consulte o seu médico antes de tomar este medicamento. </p>         </div>"""   
+açúcares, consulte o seu médico antes de tomar este medicamento. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar leflunomide"
@@ -1154,7 +1163,7 @@ médico. </p>
 Se se esquecer de tomar uma dose, tome-a assim que se lembrar, exceto se for já próximo da dose 
 seguinte. Não tome uma dose a dobrar para compensar uma dose que se esqueceu de tomar. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1249,7 +1258,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico, ou farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar leflunomide"
@@ -1265,7 +1274,7 @@ Manter na embalagem exterior. </p>
 Manter o frasco bem fechado. </p>
 <p>Não deite fora quaisquer  medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1403,7 +1412,7 @@ informação importante para si.
 - Este medicamento foi receitado apenas para si. Não deve dá-lo a outros. O medicamento pode 
 ser-lhes prejudicial mesmo que apresentem os mesmos sinais de doença. 
 - Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados 
-neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p>         </div>"""      
+neste folheto, fale com o seu médico, farmacêutico ou enfermeiro. Ver secção 4.  </p> </div>"""      
 
 
 

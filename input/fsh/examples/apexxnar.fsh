@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Apexxnar</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ infection), sepsis or bacteraemia (bacteria in the blood stream) and meningitis 
 around the brain) caused by 20 types of the bacteria Streptococcus pneumoniae.
 Apexxnar provides protection against 20 types of Streptococcus pneumoniae bacteria.
 The vaccine works by helping the body to make its own antibodies, which protect you against these 
-diseases.</p>         </div>"""   
+diseases.</p> </div>"""   
           
 
              
@@ -116,7 +119,7 @@ the effects mentioned under section 4  Possible side effects  may temporarily af
 or use machines.
 Apexxnar contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take apexxnar"
@@ -126,7 +129,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The doctor or nurse will inject the recommended dose (0.5 mL) of the vaccine into your arm.
 You should receive 1 injection.
 Tell your doctor, pharmacist or nurse if you have been given a pneumococcal vaccine before.
-If you have any further questions on the use of Apexxnar, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of Apexxnar, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -163,7 +166,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store apexxnar"
@@ -182,7 +185,7 @@ Apexxnar should be used or discarded. These data are intended to guide healthcar
 case of temporary temperature excursion only.
 Pre-filled syringes should be stored in the refrigerator horizontally to minimise the resuspension time. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ administrations of QIV and Apexxnar (e.g., by approximately 4 weeks). Different 
 should be used.
 Apexxnar can be given to adults at the same time as the COVID-19 mRNA vaccine (nucleoside 
 modified).
-Any unused product or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
+Any unused product or waste material should be disposed of in accordance with local requirements.</p> </div>"""      
 
 
 

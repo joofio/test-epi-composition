@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Myalepta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -95,7 +98,7 @@ Natural leptin is produced by fatty tissue and has many functions in the body in
 <li>helping the insulin in your body manage sugar levels. 
 Metreleptin works by copying the effects of leptin. This improves the ability of the body to control 
 energy levels. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -189,7 +192,7 @@ mother.  </p>
 <p>Driving and using machines 
 Myalepta has minor influence on the ability to drive and use machines. You might feel dizzy or tired 
 when using this medicine. If this happens, do not drive or use any tools or machines. Talk to your 
-doctor if you are not sure.  </p>         </div>"""   
+doctor if you are not sure.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myalepta"
@@ -258,7 +261,7 @@ sudden increase in the levels of fat (called  triglycerides ) in your blood.
 inflamed ( pancreatitis ). Gradually reducing your dose, and following a reduced fat diet may 
 help to prevent this. 
 You should not stop using Myalepta unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -361,7 +364,7 @@ Symptoms of high fat levels include:
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store myalepta"
@@ -376,7 +379,7 @@ After reconstitution, the solution must be administered immediately and cannot b
 Dispose of any unused medicine. </p>
 <p>Do not use this medicine if the solution is not clear, is coloured or has bits or lumps in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -502,7 +505,7 @@ rarity of this disease it has been impossible to get complete information on thi
 The European Medicines Agency will review any new information on this medicine every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -541,7 +544,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -550,7 +555,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -567,7 +573,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -597,7 +603,7 @@ Naturlig leptin produceres af fedtvæv og har mange funktioner i kroppen, herund
 <li>hjælpe insulinen i kroppen med at styre blodsukkeret. 
 Metreleptin virker ved at kopiere leptins virkning. Det forbedrer kroppens evne til at kontrollere 
 energiniveauerne. </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -702,7 +708,7 @@ dig.  </p>
 <p>Trafik- og arbejdssikkerhed 
 Myalepta påvirker i mindre grad evnen til at føre motorkøretøj og betjene maskiner. Du kan føle dig 
 svimmel eller træt, mens du bruger dette lægemiddel. Hvis det sker, må du ikke føre motorkøretøj eller 
-bruge maskiner. Er du i tvivl, så tal med lægen.  </p>         </div>"""   
+bruge maskiner. Er du i tvivl, så tal med lægen.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take myalepta"
@@ -808,7 +814,7 @@ med til at forebygge dette.
 Du må ikke holde op med at bruge Myalepta, medmindre lægen beder dig om det. </p>
 </li>
 </ul>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -984,7 +990,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store myalepta"
@@ -999,7 +1005,7 @@ Efter rekonstitution skal opløsningen anvendes med det samme og må ikke gemmes
 Kasser eventuelt ikke anvendt lægemiddel. </p>
 <p>Brug ikke lægemidlet, hvis opløsningen ikke er klar, er misfarvet eller har klumper. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1697,7 +1703,7 @@ indeholder vigtige oplysninger.
 - Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med at give lægemidlet 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 - Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 

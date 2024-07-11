@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Kaftrio </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -83,7 +86,7 @@ a mutation in the CFTR gene. </p>
 <p>Kaftrio is normally taken with another medicine, ivacaftor. Ivacaftor causes the protein to work 
 better, while tezacaftor and elexacaftor increase the amount of protein at the cell surface. </p>
 <p>Kaftrio (taken with ivacaftor) helps your breathing by improving your lung function. You may also 
-notice that you do not get ill as often, or that it is easier to gain weight. </p>         </div>"""   
+notice that you do not get ill as often, or that it is easier to gain weight. </p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ Kaftrio can make you dizzy. If you feel dizzy, do not drive, cycle, or use machi
 affected. </p>
 <p>Kaftrio contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""   
+ sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kaftrio"
@@ -226,7 +229,7 @@ Do not take a double dose to make up for any missed tablets. </p>
 <p>If you stop taking Kaftrio 
 Your doctor will tell you how long you need to keep taking Kaftrio. It is important to take this 
 medicine regularly. Do not make changes unless your doctor tells you. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -292,7 +295,7 @@ Side effects in adolescents are similar to those observed in adults. </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kaftrio"
@@ -304,7 +307,7 @@ this medicine. </p>         </div>"""
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -389,7 +392,7 @@ important information for your child.
 * This medicine has been prescribed for your child only. Do not pass it on to others. It may harm 
 them, even if their signs of illness are the same as your child. 
 * If you get any side effects, talk to your child s doctor or pharmacist. This includes any possible 
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -428,7 +431,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -437,7 +442,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -454,7 +460,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -474,7 +480,7 @@ har en mutation i CFTR-genet.  </p>
 virke bedre, mens tezacaftor og elexacaftor øger mængden af protein på celleoverfladen.  </p>
 <p>Kaftrio (der tages sammen med ivacaftor) hjælper på din vejrtrækning ved at forbedre din 
 lungefunktion. Du kan også bemærke, at du ikke så ofte bliver syg, eller at du måske lettere tager på i 
-vægt. </p>         </div>"""   
+vægt. </p> </div>"""   
           
 
              
@@ -594,7 +600,7 @@ Kaftrio kan gøre dig svimmel. Hvis du føler dig svimmel, må du ikke føre mot
 betjene maskiner, medmindre du ikke er påvirket. </p>
 <p>Kaftrio indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natrium-frit. </p>         </div>"""   
+væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kaftrio"
@@ -683,7 +689,7 @@ Du må ikke tage en dobbeltdosis som erstatning for glemte tabletter. </p>
 <p>Hvis du holder op med at tage Kaftrio 
 Din læge vil fortælle dig, hvor længe du skal fortsætte med at tage Kaftrio. Det er vigtigt at tage dette 
 lægemiddel regelmæssigt. Du må ikke ændre noget, medmindre din læge fortæller dig det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -832,7 +838,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kaftrio"
@@ -844,7 +850,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -951,7 +957,7 @@ som dit barn har. </p>
 <p>Kontakt dit barns læge eller apotekspersonalet, hvis dit barn får bivirkninger, herunder 
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -990,7 +996,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -999,7 +1007,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1016,7 +1025,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Kaftrio </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1037,7 +1046,7 @@ pessoas com FQ, se estas tiverem uma mutação no gene CFTR. </p>
 proteína funcione melhor, enquanto que o tezacaftor e o elexacaftor aumentam a quantidade de 
 proteína na superfície celular. </p>
 <p>Kaftrio (tomado com ivacaftor) ajuda a sua respiração ao melhorar a sua função pulmonar. Também 
-poderá notar que não adoece com tanta frequência ou que é mais fácil ganhar peso. </p>         </div>"""   
+poderá notar que não adoece com tanta frequência ou que é mais fácil ganhar peso. </p> </div>"""   
           
 
              
@@ -1163,7 +1172,7 @@ Kaftrio pode fazer com que tenha tonturas. No caso de sentir tonturas, não cond
 bicicleta nem utilize máquinas, a menos que não esteja afetado. </p>
 <p>Kaftrio contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-“isento de sódio". </p>         </div>"""   
+“isento de sódio". </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar kaftrio"
@@ -1257,7 +1266,7 @@ O seu médico informá-lo-á durante quanto tempo terá de continuar a tomar Kaf
 tomar este medicamento regularmente. Não faça alterações a menos que o seu médico lhe diga para o 
 fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1409,7 +1418,7 @@ Os efeitos indesejáveis em adolescentes são semelhantes aos que se observam no
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar kaftrio"
@@ -1422,7 +1431,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1505,7 +1514,7 @@ Vertex Pharmaceuticals
 Tel: +39 0697794 </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação 
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

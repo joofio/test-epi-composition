@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Levodopa/Carbidopa/Entacapone Orion</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ entacapone) in one film-coated tablet. Levodopa/Carbidopa/Entacapone Orion is us
 treatment of Parkinson s disease.
 Parkinson s disease is caused by low levels of a substance called dopamine in the brain. Levodopa 
 increases the amount of dopamine and hence reduces the symptoms of Parkinson s disease. Carbidopa 
-and entacapone improve the antiparkinson effects of levodopa.</p>         </div>"""   
+and entacapone improve the antiparkinson effects of levodopa.</p> </div>"""   
           
 
              
@@ -228,7 +231,7 @@ Levodopa/Carbidopa/Entacapone Orion contains sucrose (1.2 mg/tablet). If you hav
 your doctor that you have intolerance to some sugars, contact your doctor before taking this medicinal 
 product.
 This medicine contains less than 1 mmol (23 mg) sodium per maximum recommended daily dose, that 
-is to say essentially  sodium-free .</p>         </div>"""   
+is to say essentially  sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take levodopacarbidopaentacapone"
@@ -275,7 +278,7 @@ Do not stop taking Levodopa/Carbidopa/Entacapone Orion unless your doctor tells 
 case your doctor may need to adjust your other antiparkinson medicines, especially levodopa, to give 
 sufficient control of your symptoms. If you suddenly stop taking Levodopa/Carbidopa/Entacapone 
 Orion and other antiparkinsonian medicines it may result in unwanted side effects.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -388,7 +391,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store levodopacarbidopaentacapone"
@@ -400,7 +403,7 @@ Do not use this medicine after the expiry date which is stated on the bottle and
 date refers to the last day of that month.
 This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -501,7 +504,7 @@ Tel: +358 10 4United Kingdom (Northern Ireland)
 Orion Corporation
 Tel: +358 10 4This leaflet was last revised in
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 

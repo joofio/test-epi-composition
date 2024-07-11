@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Pemazyre </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ growth of such cancer cells. </p>
 * to treat adults with bile duct cancer (also known as cholangiocarcinoma) whose cancer cells 
 have an abnormal form of the FGFR2 protein, and 
 * when the cancer has spread to other parts of the body or cannot be removed by surgery, and 
-* when treatment with other medicines is no longer working. </p>         </div>"""   
+* when treatment with other medicines is no longer working. </p> </div>"""   
           
 
              
@@ -152,7 +155,7 @@ Do not breast-feed during treatment with Pemazyre and for at least 1 week after 
 </ul>
 <p>Driving and using machines 
 Pemazyre can cause side effects such as fatigue or visual disturbances. Do not drive or operate 
-machinery if this happens. </p>         </div>"""   
+machinery if this happens. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pemazyre"
@@ -183,7 +186,7 @@ scheduled time. </p>
 <p>If you stop taking Pemazyre 
 Do not stop taking Pemazyre without discussing it with your doctor, as this could reduce the success 
 of therapy. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -231,7 +234,7 @@ in any area of the body and can cause pain and ulcers </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pemazyre"
@@ -243,7 +246,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -285,7 +288,7 @@ about this medicine.
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p> </div>"""      
 
 
 
@@ -324,7 +327,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -333,7 +338,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -350,7 +356,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -367,7 +373,7 @@ pemigatinib forhindre væksten af sådanne kræftceller. </p>
 • til behandling af voksne med galdegangskræft (også kendt som cholangiocarcinom), hvis 
 kræftceller har en unormal form af FGFR2-proteinet 
 • når kræften har spredt sig til andre dele af kroppen eller ikke kan fjernes ved operation 
-• når behandling med andre lægemidler ikke længere virker. </p>         </div>"""   
+• når behandling med andre lægemidler ikke længere virker. </p> </div>"""   
           
 
              
@@ -495,7 +501,7 @@ behandlingen og i mindst 1 uge efter den sidste dosis af Pemazyre.  </p>
 <p>Undlad at amme under behandling med Pemazyre og i mindst 1 uge efter den sidste dosis. </p>
 <p>Trafik- og arbejdssikkerhed 
 Pemazyre kan forårsage bivirkninger som f.eks. træthed eller synsforstyrrelser. Undlad at føre 
-motorkøretøj eller betjene maskiner, hvis dette sker. </p>         </div>"""   
+motorkøretøj eller betjene maskiner, hvis dette sker. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take pemazyre"
@@ -526,7 +532,7 @@ næste dosis Pemazyre på det sædvanlige tidspunkt. </p>
 <p>Hvis du holder op med at tage Pemazyre 
 Du må ikke holde op med at tage Pemazyre uden at tale med din læge, da det kan reducere 
 behandlingens succes. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -625,7 +631,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store pemazyre"
@@ -637,7 +643,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -705,7 +711,7 @@ overensstemmelse hermed. </p>
 <p>På baggrund af de videnskabelige konklusioner for pemigatinib er CHMP af den opfattelse, at 
 benefit/risk-forholdet for det lægemiddel/de lægemidler, der indeholder pemigatinib, forbliver uændret 
 under forudsætning af, at de foreslåede ændringer indføres i produktinformationen. </p>
-<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p>         </div>"""      
+<p>CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres. </p> </div>"""      
 
 
 
@@ -744,7 +750,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -753,7 +761,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -770,7 +779,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Pemazyre </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -796,7 +805,7 @@ e </p>
 <li>
 <p>Quando o tratamento com outros medicamentos já não está a resultar. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -928,7 +937,7 @@ Não amamentar durante o tratamento com Pemazyre e durante pelo menos 1 semana a
 </ul>
 <p>Condução de veículos e utilização de máquinas 
 Pemazyre pode causar efeitos secundários, tais como fadiga ou perturbações visuais. Não conduza ou 
-opere máquinas se isto acontecer. </p>         </div>"""   
+opere máquinas se isto acontecer. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar pemazyre"
@@ -960,7 +969,7 @@ habitual. </p>
 Não pare de tomar Pemazyre sem falar com o seu médico, uma vez que isto pode reduzir o sucesso da 
 terapêutica. </p>
 <p>Se tiver questões adicionais sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1061,7 +1070,7 @@ Se tiver quaisquer efeitos indesejáveis, fale com o seu médico ou farmacêutic
 possíveis efeitos indesejáveis não descritos neste folheto. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar pemazyre"
@@ -1074,7 +1083,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1123,7 +1132,7 @@ significa que se aguarda mais informação sobre este medicamento.
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário. </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Oxbryta </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ haemoglobin holds onto oxygen, Oxbryta improves the function of red blood cells 
 lifespan. </p>
 <p>What Oxbryta is used for </p>
 <p>Oxbryta, alone or together with hydroxycarbamide (also known as hydroxyurea), is used to treat 
-haemolytic anaemia in adults and children from 12 years with sickle cell disease.  </p>         </div>"""   
+haemolytic anaemia in adults and children from 12 years with sickle cell disease.  </p> </div>"""   
           
 
              
@@ -141,7 +144,7 @@ milk and could affect the baby. </p>
 <p>Oxbryta has no or negligible influence on the ability to drive and use machines. </p>
 <p>Oxbryta contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose of three tablets, that is to say 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oxbryta"
@@ -161,7 +164,7 @@ tablets because of bad taste. </p>
 a forgotten dose. </p>
 <p>If you stop taking Oxbryta </p>
 <p>Do not stop taking this medicine without your doctor s advice. It is important to take Oxbryta daily. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -189,7 +192,7 @@ Very common (may affect more than 1 in 10 people)
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
-By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
+By reporting side effects, you can help provide more information on the safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oxbryta"
@@ -201,7 +204,7 @@ By reporting side effects, you can help provide more information on the safety o
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -312,7 +315,7 @@ Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij<br />
 Tel: +371 670 35 This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -351,7 +354,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -360,7 +365,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -375,7 +381,7 @@ Usage: #inline
 3. Sådan skal du tage Oxbryta
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -398,7 +404,7 @@ Oxbryta funktionen af røde blodlegemer, og forlænger deres levetid.
 Anvendelse
 Oxbryta anvendes alene eller sammen med hydroxycarbamid (også kaldet hydroxyurinstof) til at 
 behandle hæmolytisk anæmi hos voksne og børn fra 12 år med seglcellesygdom.
-26</p>         </div>"""   
+26</p> </div>"""   
           
 
              
@@ -460,7 +466,7 @@ Trafik- og arbejdssikkerhed
 Oxbryta påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkøretøj og betjene maskiner.
 Oxbryta indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis med tre tabletter, dvs. det 
-er i det væsentlige natriumfrit.</p>         </div>"""   
+er i det væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take oxbryta"
@@ -480,7 +486,7 @@ erstatning for den glemte dosis.
 Hvis du holder op med at tage Oxbryta
 Du må ikke holde op med at tage dette lægemiddel uden først at rådføre dig med lægen. Det er vigtigt 
 at tage Oxbryta dagligt.
-Spørg lægen, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -522,7 +528,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge. Dette gælder også mu
 ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette bivirkninger 
 direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks V. Ved at 
 indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om sikkerheden af dette 
-lægemiddel.</p>         </div>"""      
+lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store oxbryta"
@@ -534,7 +540,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på flasken og æsken eft
 den sidste dag i den nævnte måned.
 Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen.
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -707,7 +713,7 @@ Begrundelse for ændring af betingelserne for markedsføringstilladelsen/-tillad
 På baggrund af de videnskabelige konklusioner for voxelotor er CHMP af den opfattelse, at 
 benefit/risk-forholdet for lægemidlet/lægemidlerne indeholdende voxelotor forbliver uændret under 
 forudsætning af, at de foreslåede ændringer indføres i produktinformationen.
-CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.</p>         </div>"""      
+CHMP anbefaler, at betingelserne for markedsføringstilladelsen/-tilladelserne ændres.</p> </div>"""      
 
 
 
@@ -746,7 +752,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -755,7 +763,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -770,7 +779,7 @@ Usage: #inline
 3. Como tomar Oxbryta
 4. Efeitos indesejáveis possíveis
 5. Como conservar Oxbryta
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -794,7 +803,7 @@ Para que é utilizado Oxbryta
 Oxbryta, isolado ou associado à hidroxicarbamida (também conhecida como hidroxiureia), é utilizado 
 para tratar a anemia hemolítica em adultos e crianças a partir dos 12 anos de idade com doença de 
 células falciformes.
-27</p>         </div>"""   
+27</p> </div>"""   
           
 
              
@@ -857,7 +866,7 @@ Condução de veículos e utilização de máquinas
 Os efeitos de Oxbryta sobre a capacidade de conduzir e utilizar máquinas são nulos ou desprezáveis.
 Oxbryta contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose de três comprimidos, ou 
-seja, é praticamente “isento de sódio".</p>         </div>"""   
+seja, é praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar oxbryta"
@@ -878,7 +887,7 @@ compensar uma dose que se esqueceu de tomar.
 Se parar de tomar Oxbryta
 Não pare de tomar este medicamento sem indicação do seu médico. É importante que tome Oxbryta 
 diariamente.
-Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p>         </div>"""         
+Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -921,7 +930,7 @@ Comunicação de efeitos indesejáveis
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico. Também poderá comunicar efeitos indesejáveis diretamente através do 
 sistema nacional de notificação mencionado no Apêndice V. Ao comunicar efeitos indesejáveis, estará 
-a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar oxbryta"
@@ -934,7 +943,7 @@ após EXP. O prazo de validade corresponde ao último dia do mês indicado.
 O medicamento não necessita de quaisquer precauções especiais de conservação.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1086,7 +1095,7 @@ Pfizer Luxembourg SARL filiāle Latvijā
 Tel: +371 670 35 775
 Este folheto foi revisto pela última vez em MM/AAAA.
 Outras fontes de informação
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store INTELENCE</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ infection. INTELENCE works by reducing the amount of HIV in your body. This will
 immune system and reduces the risk of developing illnesses linked to HIV infection.
 INTELENCE is used in combination with other anti-HIV medicines to treat adults and children 
 2 years of age and older who are infected by HIV and who have used other anti-HIV medicines before.
-Your doctor will discuss with you which combination of medicines is best for you.</p>         </div>"""   
+Your doctor will discuss with you which combination of medicines is best for you.</p> </div>"""   
           
 
              
@@ -219,7 +222,7 @@ INTELENCE tablets contain lactose. If you have been told by your doctor that you
 intolerance to some sugars (lactose), contact your doctor before taking this medicine.
 INTELENCE contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free .</p>         </div>"""   
+free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take intelence"
@@ -288,7 +291,7 @@ Do not stop taking INTELENCE without talking to your doctor first
 HIV therapy may increase your sense of well-being. Even if you feel better, do not stop taking 
 INTELENCE or your other anti-HIV medicines. Doing so could increase the risk of the virus 
 developing resistance. Talk to your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -367,7 +370,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store intelence"
@@ -382,7 +385,7 @@ INTELENCE tablets should be stored in the original bottle and keep the bottle ti
 to protect from moisture. The bottle contains 2 little pouches (desiccants) to keep the tablets dry. 
 These pouches should stay in the bottle all the time and are not to be eaten.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -482,7 +485,7 @@ Tel: +371 678 93lv@its.jnj.com
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC 
 Tel: +44 1 494 567 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -521,7 +524,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -530,7 +535,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -545,7 +551,7 @@ Usage: #inline
 3. Sådan skal du tage INTELENCE
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -561,7 +567,7 @@ Dermed forbedres immunsystemet, og risikoen for at udvikle sygdomme, som er forb
 infektionen, nedsættes.
 INTELENCE anvendes sammen med andre former for hiv-medicin til behandling af voksne og børn 
 fra 2 år med hiv-infektion, som tidligere har fået behandling med andre former for hiv-medicin.
-Lægen vil tale med dig om, hvilken kombination af lægemidler der er bedst for dig.</p>         </div>"""   
+Lægen vil tale med dig om, hvilken kombination af lægemidler der er bedst for dig.</p> </div>"""   
           
 
              
@@ -705,7 +711,7 @@ sukkerarter (lactose), skal du spørge lægen, før du tager denne medicin.
 50
 INTELENCE indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take intelence"
@@ -776,7 +782,7 @@ Du må ikke holde op med at tage INTELENCE uden at tale med lægen først
 Hiv-behandling kan øge dit velbefindende. Selv om du har det bedre, må du ikke holde op med at tage 
 INTELENCE eller anden hiv-medicin. Hvis du gør det, øges risikoen for, at virus udvikler resistens. 
 Tal med lægen først.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -857,7 +863,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store intelence"
@@ -872,7 +878,7 @@ Opbevar INTELENCE-tabletterne i den originale beholder. Hold beholderen tæt til
 beskytte mod fugt. Beholderen indeholder to små poser med tørremiddel, som holder tabletterne tørre. 
 Disse poser må ikke fjernes fra beholderen og må ikke spises.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1026,7 +1032,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som ikke 
-er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+er nævnt i denne indlægsseddel. Se afsnit 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 
@@ -1065,7 +1071,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1074,7 +1082,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1089,7 +1098,7 @@ Usage: #inline
 3. Como tomar INTELENCE
 4. Efeitos indesejáveis possíveis
 5. Como conservar INTELENCE
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1106,7 +1115,7 @@ relacionadas com a infeção pelo VIH.
 INTELENCE é utilizado em associação com outros medicamentos anti-VIH no tratamento de adultos 
 e crianças com 2 ou mais anos de idade, que se encontrem infetados pelo VIH e que utilizaram outros 
 medicamentos anti-VIH anteriormente.
-O seu médico irá conversar consigo sobre a combinação de medicamentos mais indicada para si.</p>         </div>"""   
+O seu médico irá conversar consigo sobre a combinação de medicamentos mais indicada para si.</p> </div>"""   
           
 
              
@@ -1261,7 +1270,7 @@ Os comprimidos de INTELENCE contêm lactose. Se foi informado pelo seu médico q
 intolerância a alguns açúcares (lactose), contacte-o antes de tomar este medicamento.
 INTELENCE contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar intelence"
@@ -1340,7 +1349,7 @@ A terapêutica para o VIH pode aumentar a sua sensação de bem-estar. Não deix
 INTELENCE ou os seus outros medicamentos anti-VIH mesmo que se sinta melhor, pois ao fazê-lo 
 iria estar a aumentar o risco do vírus desenvolver resistência. Fale primeiro com o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico.</p>         </div>"""         
+farmacêutico.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1425,7 +1434,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento.</p>         </div>"""      
+medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar intelence"
@@ -1442,7 +1451,7 @@ para proteger da humidade. O frasco contém 2 pequenas bolsas (exsicantes), para
 comprimidos secos. Estas bolsas devem ser sempre mantidas no frasco e não devem ser ingeridas.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas irão ajudar a 
-proteger o ambiente.</p>         </div>"""      
+proteger o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1580,7 +1589,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 56
 Este folheto foi revisto pela última vez em {MM/AAAA}.
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Ryzodeg </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -76,7 +79,7 @@ Usage: #inline
 helps your body reduce your blood sugar level. </p>
 <p>This medicine contains two types of insulin: 
 * Basal insulin called insulin degludec, this has a long blood sugar-lowering effect. 
-* Rapid-acting insulin called insulin aspart, this lowers your blood sugar soon after you inject it. </p>         </div>"""   
+* Rapid-acting insulin called insulin aspart, this lowers your blood sugar soon after you inject it. </p> </div>"""   
           
 
              
@@ -161,7 +164,7 @@ could be dangerous to yourself or others. Ask your doctor whether you can drive 
 * you find it hard to recognise too low blood sugar. </p>
 <p>Important information about some of the ingredients in Ryzodeg 
 This medicine contains less than 1 mmol sodium (23 mg) per dose. This means that the medicine is 
-essentially  sodium-free . </p>         </div>"""   
+essentially  sodium-free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ryzodeg"
@@ -221,7 +224,7 @@ resume your usual dosing schedule. Do not inject a double dose to make up for a 
 <p>If you stop using Ryzodeg 
 Do not stop using your insulin without talking to your doctor. If you stop using your insulin, this could 
 lead to a very high blood sugar level and ketoacidosis (a condition with too much acid in the blood), 
-see advice in section 4  Too high blood sugar . </p>         </div>"""         
+see advice in section 4  Too high blood sugar . </p> </div>"""         
 
         
 * section[=].section[+]
@@ -317,7 +320,7 @@ coma and eventually death. </p>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ryzodeg"
@@ -335,7 +338,7 @@ You can carry your Ryzodeg pre-filled pen (FlexTouch) with you and keep it at ro
 above 30 C) or in a refrigerator (2 C to 8 C) for up to 4 weeks. </p>
 <p>Always keep the cap on the pen when you are not using it in order to protect from light.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -368,7 +371,7 @@ label: </p>
 Novo All , DK-2880 Bagsv rd, Denmark. </p>
 <p>If the second and third characters are T6, the manufacturer is Novo Nordisk Production SAS, Avenue d Orl ans, 28000 Chartres, France. </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -407,7 +410,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -416,7 +421,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -431,7 +437,7 @@ Usage: #inline
 3. Sådan skal du tage Ryzodeg 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -450,7 +456,7 @@ Det hjælper kroppen med at sænke blodsukkerniveauet. </p>
 <p>Hurtigtvirkende insulin kaldet insulin aspart - det sænker blodsukkeret hurtigt efter, at du har 
 injiceret det. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -588,7 +594,7 @@ du må køre bil, hvis: </p>
 </ul>
 <p>Vigtig information om nogle af indholdsstofferne i Ryzodeg 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. det er i det 
-væsentlige natriumfrit. </p>         </div>"""   
+væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take ryzodeg"
@@ -688,7 +694,7 @@ erstatning for den glemte dosis. </p>
 <p>Hvis du holder op med at tage Ryzodeg 
 Du må ikke holde op med at tage insulin uden først at have talt med din læge om det. Hvis du holder 
 op med at tage insulin, kan det føre til et meget højt blodsukkerniveau og ketoacidose (en tilstand, 
-hvor der er for meget syre i blodet) se informationen i punkt 4 "For højt blodsukker". </p>         </div>"""         
+hvor der er for meget syre i blodet) se informationen i punkt 4 "For højt blodsukker". </p> </div>"""         
 
         
 * section[=].section[+]
@@ -843,7 +849,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ryzodeg"
@@ -861,7 +867,7 @@ Du kan medbringe din Ryzodeg fyldte pen (FlexTouch) og opbevare den ved stuetemp
 over 30°C) eller i et køleskab (2°C - 8°C) i op til 4 uger. </p>
 <p>Lad altid hætten sidde på pennen, når den ikke er i brug, for at beskytte mod lys.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du ikke 
-smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1204,7 +1210,7 @@ Lægen har ordineret dette lægemiddel til dig personligt. Lad derfor være med 
 til andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har. 
 − 
 Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder 
-bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p>         </div>"""      
+bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. </p> </div>"""      
 
 
 

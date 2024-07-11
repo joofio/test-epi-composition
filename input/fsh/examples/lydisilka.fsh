@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Lydisilka </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -79,7 +82,7 @@ female hormones, namely estetrol and drospirenone.
 placebo tablets. 
 - Contraceptive pills that contain two different hormones, like Lydisilka, are called  combination<br />
 or  combined  pills. They work together to prevent ovulation (release of an egg from the ovary) 
-and to reduce the chance of any released egg being fertilised and making you pregnant. </p>         </div>"""   
+and to reduce the chance of any released egg being fertilised and making you pregnant. </p> </div>"""   
           
 
              
@@ -440,7 +443,7 @@ Lydisilka has no or negligible effect on the ability to drive and use machines. 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 The pink active tablet contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .  </p>         </div>"""   
+ sodium-free .  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lydisilka"
@@ -599,7 +602,7 @@ about other methods of birth control.
 If you stop taking Lydisilka because you want to get pregnant,  it is best to wait until you have had a 
 natural period before trying to become pregnant. This will help you to calculate the expected delivery 
 date more easily. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -693,7 +696,7 @@ clots and the symptoms of a blood clot). </li>
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lydisilka"
@@ -705,7 +708,7 @@ safety of this medicine. </p>         </div>"""
 expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -847,7 +850,7 @@ United Kingdom (Northern Ireland)
 Estetra SRL 
 Tel: +32 (0)4 349 28 infomed@mithra.com </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -886,7 +889,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -895,7 +900,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -912,7 +918,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring   </li>
 <li>Pakningsstørrelser og yderligere oplysninger  </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -928,7 +934,7 @@ kaldes placebotabletter.<br />
 - P-piller, der indeholder to forskellige hormoner, som f.eks. Lydisilka, kaldes “kombinations-
 ppiller" eller “kombinerede p-piller". De arbejder sammen for at forhindre ægløsning (frigivelse 
 af et æg fra æggestokken) og for at reducere risikoen for, at et frigivet æg bliver befrugtet og gør 
-dig gravid.  </p>         </div>"""   
+dig gravid.  </p> </div>"""   
           
 
              
@@ -1313,7 +1319,7 @@ Lydisilka påvirker ikke eller kun i ubetydelig grad evnen til at føre motorkø
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter.<br />
 Den lyserøde tablet indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. den er i det 
-væsentlige natriumfri.   </p>         </div>"""   
+væsentlige natriumfri.   </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take lydisilka"
@@ -1492,7 +1498,7 @@ din læge om andre former for prævention.<br />
 Hvis du stopper med at tage Lydisilka, fordi du ønsker at blive gravid, er det bedst at vente, til du har 
 haft din første normale menstruation, inden du forsøger at blive gravid. Dette vil hjælpe dig med 
 nemmere at beregne barnets forventede fødselsdato.  </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1584,7 +1590,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.  </p>         </div>"""      
+information om sikkerheden af dette lægemiddel.  </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store lydisilka"
@@ -1597,7 +1603,7 @@ information om sikkerheden af dette lægemiddel.  </p>         </div>"""
 er den sidste dag i den nævnte måned.  </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaring.  </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1764,7 +1770,7 @@ Tel: +32 (0)4 349 28 infomed@mithra.com  </p>
 <p>Denne indlægsseddel blev senest ændret   </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske 
 Lægemiddelagenturs hjemmeside: http://www.ema.europa.eu.   </p>
-<p>51  </p>         </div>"""      
+<p>51  </p> </div>"""      
 
 
 

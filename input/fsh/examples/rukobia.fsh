@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Rukobia  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -80,7 +83,7 @@ are not suitable). </p>
 <p>Rukobia does not cure HIV infection; it reduces the amount of virus in your body and keeps it at a low 
 level. Given HIV reduces the number of CD4 cells in your body, keeping HIV at a low level also 
 increases the CD4 cell count in your blood. CD4 cells are a type of white blood cell that are important 
-in helping your body fight infection. </p>         </div>"""   
+in helping your body fight infection. </p> </div>"""   
           
 
              
@@ -160,7 +163,7 @@ If you are breast-feeding, or thinking about breast-feeding, you should discuss 
 as soon as possible.   </p>
 <p>Driving and using machines<br />
 Rukobia can make you dizzy and have other side effects that make you less alert. 
-Do not drive or use machines unless you are sure you are not affected. </p>         </div>"""   
+Do not drive or use machines unless you are sure you are not affected. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rukobia"
@@ -190,7 +193,7 @@ not sure what to do, ask your doctor or pharmacist. </p>
 Do not stop Rukobia without checking with your doctor.<br />
 To control your HIV infection and to stop your illness getting worse, take Rukobia for as long as your 
 doctor recommends. Do not stop unless your doctor asks you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -270,7 +273,7 @@ Signs of osteonecrosis include:
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rukobia"
@@ -282,7 +285,7 @@ of this medicine. </p>         </div>"""
 and bottle. </p>
 <p>This medicinal product does not require any special storage conditions. </p>
 <p>Do not throw away any medicines in wastewater or household waste. Ask your pharmacist how to 
-throw away medicines no longer required. This will help protect the environment. </p>         </div>"""      
+throw away medicines no longer required. This will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -386,7 +389,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {MM/YYYY}.  </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -425,7 +428,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -434,7 +439,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -451,7 +457,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring  </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -468,7 +474,7 @@ lægemidler er ikke tilstrækkeligt effektive eller ikke egnede). </p>
 <p>Rukobia helbreder ikke hiv-infektion, men formindsker mængden af virus i kroppen og holder virus 
 på et lavt niveau. Idet hiv reducerer antallet af CD4 celler i din krop, kan man ved at holde hiv på et 
 lavt niveau også øge antallet af CD4-celler i dit blod. CD4-celler er en type hvide blodlegemer, der er 
-vigtige for at hjælpe kroppen med at bekæmpe infektion. </p>         </div>"""   
+vigtige for at hjælpe kroppen med at bekæmpe infektion. </p> </div>"""   
           
 
              
@@ -605,7 +611,7 @@ Det vides ikke, om indholdsstofferne i Rukobia udskilles i modermælken og kan s
 Hvis du ammer eller påtænker at amme, bør du drøfte det med lægen hurtigst muligt.  </p>
 <p>Trafik- og arbejdssikkerhed 
 Rukobia kan gøre dig svimmel og give dig andre bivirkninger, der gør dig mindre opmærksom. 
-Du må ikke føre motorkøretøj og betjene maskiner, medmindre du er sikker på, at du ikke er påvirket. </p>         </div>"""   
+Du må ikke føre motorkøretøj og betjene maskiner, medmindre du er sikker på, at du ikke er påvirket. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take rukobia"
@@ -637,7 +643,7 @@ erstatning for den glemte dosis. Spørg lægen eller apotekspersonalet, hvis du 
 <p>Du skal tage Rukobia så længe som lægen anbefaler det, så du kan kontrollere din hiv-infektion og 
 forhindre, at sygdommen bliver værre. Du må ikke stoppe med at tage Rukobia, medmindre lægen 
 foreskriver det. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -803,7 +809,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store rukobia"
@@ -814,7 +820,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 <p>Tag ikke Rukobia efter den udløbsdato, der står på æsken og beholderen efter EXP. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -940,7 +946,7 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Denne indlægsseddel blev senest ændret {MM/ÅÅÅÅ}. </p>
 <p>Andre informationskilder </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside http://www.ema.europa.eu. </p>         </div>"""      
+hjemmeside http://www.ema.europa.eu. </p> </div>"""      
 
 
 
@@ -979,7 +985,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -988,7 +996,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1005,7 +1014,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar  </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1022,7 +1031,7 @@ antirretrovíricos não são suficientemente eficazes ou não são adequados). <
 <p>Rukobia não cura a infeção por VIH; reduz a quantidade de vírus no seu organismo e mantém-na 
 baixa. Como o VIH reduz o número de células CD4 no seu organismo, manter níveis baixos de VIH 
 aumenta, ao mesmo tempo, a contagem de células CD4 no seu sangue. As células CD4 são um tipo de 
-glóbulos brancos que são importantes para ajudar o seu organismo a combater infeções. </p>         </div>"""   
+glóbulos brancos que são importantes para ajudar o seu organismo a combater infeções. </p> </div>"""   
           
 
              
@@ -1153,7 +1162,7 @@ bebé. Se estiver a amamentar ou a pensar em amamentar, deve falar com o seu mé
 rapidamente possível. </p>
 <p>Condução de veículos e utilização de máquinas<br />
 Rukobia pode provocar-lhe tonturas e outros efeitos indesejáveis que o tornam menos alerta. 
-Não conduza nem utilize máquinas a menos que tenha a certeza de que não é afetado. </p>         </div>"""   
+Não conduza nem utilize máquinas a menos que tenha a certeza de que não é afetado. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar rukobia"
@@ -1187,7 +1196,7 @@ Não pare de tomar Rukobia sem falar com o seu médico.<br />
 Para controlar a sua infeção por VIH e impedir que a doença piore, tome Rukobia durante o tempo que 
 o seu médico recomendar. Não pare a não ser que o seu médico lhe diga para o fazer. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1350,7 +1359,7 @@ Os sinais de osteonecrose incluem: </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar rukobia"
@@ -1362,7 +1371,7 @@ efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a se
 <p>O medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1488,7 +1497,7 @@ ViiV Healthcare BV
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Este folheto foi revisto pela última vez em {MM/AAAA}.  </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

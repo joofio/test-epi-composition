@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Recarbrio</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -77,7 +80,7 @@ Recarbrio is used in adults to treat:</p>
 <p>certain bacterial infections of the lungs (pneumonia)</p>
 <p>infections of the blood associated with the infections of the lung mentioned above</p>
 <p>infections caused by bacteria that other antibiotics may not be able to kill
-Recarbrio is used in patients 18 years or older.</p>         </div>"""   
+Recarbrio is used in patients 18 years or older.</p> </div>"""   
           
 
              
@@ -122,7 +125,7 @@ ability to drive or use machines.
 Recarbrio contains sodium
 This medicine contains approximately 37.5 mg of sodium (main component of cooking/ table salt) in
 each vial. This is equivalent to about 2 % of the adult recommended maximum amount of sodium you
-should take daily, and needs to be taken into account if you are on a low-salt diet.</p>         </div>"""   
+should take daily, and needs to be taken into account if you are on a low-salt diet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take recarbrio"
@@ -139,7 +142,7 @@ Recarbrio will be given to you by a doctor or a nurse, so it is unlikely you wil
 dose. If you think you have been given too much Recarbrio, tell your doctor or nurse right away.
 If you miss a dose of Recarbrio
 Tell your doctor or nurse right away if you think you were not given your dose of Recarbrio.
-If you have any further questions on the use of this medicine, ask your doctor or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -227,7 +230,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in
 Appendix V. By reporting side effects you can help provide more information on the safety of this
-medicine.</p>         </div>"""      
+medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store recarbrio"
@@ -239,7 +242,7 @@ Do not use this medicine after the expiry date which is stated on the container.
 to the last day of that month.
 Keep this medicine in the outer carton to protect from light.
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines
-you no longer use. These measures will help protect the environment.</p>         </div>"""      
+you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -439,7 +442,7 @@ Recarbrio for solution for infusion is physically incompatible with propofol in 
 named Glucose) or 0.9 % Sodium chloride.
 After constitution and dilution
 Diluted solutions should be used immediately. The time interval between the beginning of
-reconstitution and the end of intravenous infusion should not exceed two hours. </p>         </div>"""      
+reconstitution and the end of intravenous infusion should not exceed two hours. </p> </div>"""      
 
 
 
@@ -478,7 +481,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -487,7 +492,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -502,7 +508,7 @@ Usage: #inline
 3. Sådan får du Recarbrio
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -518,7 +524,7 @@ visse bakterieinfektioner i lungerne (pneumoni (lungebetændelse))
 infektioner i blodet i forbindelse med ovennævnte infektioner i lungen
  
 infektioner, der skyldes bakterier, som andre antibiotika muligvis ikke kan dræbe
-Recarbrio anvendes til patienter i alderen 18 år og derover.</p>         </div>"""   
+Recarbrio anvendes til patienter i alderen 18 år og derover.</p> </div>"""   
           
 
              
@@ -579,7 +585,7 @@ Recarbrio indeholder natrium
 Dette lægemiddel indeholder ca. 37,5 mg natrium (hovedbestanddelen i køkkensalt/bordsalt) i hvert
 hætteglas. Dette svarer til ca. 2 % af den anbefalede maksimale daglige mængde natrium for en
 voksen, som du skal indtage, og som skal tages i betragtning, hvis du er på en diæt med et lavt
-natriumindhold.</p>         </div>"""   
+natriumindhold.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take recarbrio"
@@ -597,7 +603,7 @@ du tror, du har fået for meget Recarbrio, skal du straks fortælle det til læg
 Hvis en Recarbrio-dosis er glemt
 Fortæl det straks til din læge eller sygeplejersken, hvis du tror, du ikke har fået din Recarbrio-dosis.
 Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
-29</p>         </div>"""         
+29</p> </div>"""         
 
         
 * section[=].section[+]
@@ -747,7 +753,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller sygeplejersken. D
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i Appendiks
 V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om
-sikkerheden af dette lægemiddel.</p>         </div>"""      
+sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store recarbrio"
@@ -760,7 +766,7 @@ sidste dag i den nævnte måned.
 Opbevar lægemidlet i den ydre karton for at beskytte mod lys.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
 smide medicinrester i afløbet eller toilettet.
-31</p>         </div>"""      
+31</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1018,7 +1024,7 @@ Recarbrio infusionsvæske, opløsning, er fysisk inkompatibelt med propofol i 5 
 natriumchloridinjektionsvæske.
 Efter rekonstitution og fortynding
 Fortyndede infusionsvæsker skal anvendes straks. Der må højst gå 2 timer fra rekonstitutionen
-påbegyndes til den intravenøse infusion er afsluttet.</p>         </div>"""      
+påbegyndes til den intravenøse infusion er afsluttet.</p> </div>"""      
 
 
 

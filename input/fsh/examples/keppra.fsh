@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Keppra </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ infants from one month of age; </p>
 adolescents from 12 years of age with juvenile myoclonic epilepsy; </p>
 <p>primary generalised tonic-clonic seizures (major fits, including loss of consciousness) in 
 adults and adolescents from 12 years of age with idiopathic generalised epilepsy (the type of 
-epilepsy that is thought to have a genetic cause). </p>         </div>"""   
+epilepsy that is thought to have a genetic cause). </p> </div>"""   
           
 
              
@@ -144,7 +147,7 @@ sleepy. This is more likely at the beginning of treatment or after an increase i
 not drive or use machines until it is established that your ability to perform such activities is not 
 affected. </p>
 <p>Keppra 750 mg tablets contain Sunset Yellow FCF (E110).<br />
-Sunset Yellow FCF (E110) colouring agent may cause allergic reactions. </p>         </div>"""   
+Sunset Yellow FCF (E110) colouring agent may cause allergic reactions. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take keppra"
@@ -201,7 +204,7 @@ Do not take a double dose to make up for a forgotten tablet.  </p>
 If stopping treatment, Keppra should be discontinued gradually to avoid an increase of seizures. 
 Should your doctor decide to stop your Keppra treatment, he/she will instruct you about the gradual 
 withdrawal of Keppra. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -299,7 +302,7 @@ Prevalence is significantly higher in Japanese patients when compared to non-Jap
 If you get any side effects talk to your doctor or pharmacist.  This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store keppra"
@@ -311,7 +314,7 @@ this medicine. </p>         </div>"""
 The expiry date refers to the last day of the month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -451,7 +454,7 @@ contains important information for you. </p>
 even if their signs of illness are the same as yours. </p>
 <p>If you get any side effects talk to your doctor or pharmacist.  This includes any possible side 
 effects not listed in this leaflet. See section 4.</p>
-<p>What is in this leaflet:  </p>         </div>"""      
+<p>What is in this leaflet:  </p> </div>"""      
 
 
 
@@ -490,7 +493,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -499,7 +504,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -514,7 +520,7 @@ Usage: #inline
 3. Sådan skal De tage Keppra 
 4. Bivirkninger 
 5. Opbevaring 
-6. Pakningsstørrelser og yderligere oplysninger </p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger </p> </div>"""   
           
 
 * section[=].section[+]
@@ -547,7 +553,7 @@ primært generaliserede tonisk-kloniske anfald (større anfald inklusiv bevidstl
 voksne og unge over 12 år med idiopatisk generaliseret epilepsi (den type epilepsi, som 
 menes at være genetisk forårsaget). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -623,7 +629,7 @@ det kan give døsighed. Dette er mere sandsynligt i begyndelsen af behandlingen 
 dosis. De må ikke køre bil, motorcykel, cykle eller anvende maskiner, før De er helt sikker på, at 
 Deres evne til at udføre sådanne aktiviteter ikke er påvirket. </p>
 <p>Keppra 750 mg filmovertrukne tabletter indeholder sunset yellow FCF (E110) 
-Sunset yellow FCF (E 110) er et farvestof, som kan give allergiske reaktioner. </p>         </div>"""   
+Sunset yellow FCF (E 110) er et farvestof, som kan give allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take keppra"
@@ -685,7 +691,7 @@ De må ikke tage en dobbeltdosis som erstatning for den glemte tablet.  </p>
 Ved ophør af behandling skal Keppra nedtrappes gradvist for at undgå en forøgelse af anfald. Hvis 
 lægen beslutter at stoppe Deres behandling med Keppra, vil han/hun instruere Dem i, hvordan De 
 gradvist skal ophøre med at tage Keppra. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -883,7 +889,7 @@ Hvis De oplever bivirkninger, bør De tale med Deres læge eller apoteket. Dette
 bivirkninger, som ikke er medtaget i denne indlægsseddel. De eller Deres pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store keppra"
@@ -895,7 +901,7 @@ om sikkerheden af dette lægemiddel. </p>         </div>"""
 Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. </p>
 <p>Spørg på apoteket, hvordan De skal bortskaffe medicinrester. Af hensyn til miljøet må De ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1075,7 +1081,7 @@ lægemiddel, da den indeholder vigtige oplysninger.
 - Lægen har ordineret Keppra til Dem personligt. Lad derfor være med at give medicinen til 
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som De har. 
 - Kontakt lægen eller apotekspersonalet, hvis De får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>         </div>"""      
+ikke er nævnt her. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p> </div>"""      
 
 
 
@@ -1114,7 +1120,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1123,7 +1131,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1138,7 +1147,7 @@ Usage: #inline
 3. Como tomar Keppra 
 4. Efeitos indesejáveis possíveis 
 5. Como conservar Keppra 
-6. Conteúdo da embalagem e outras informações </p>         </div>"""   
+6. Conteúdo da embalagem e outras informações </p> </div>"""   
           
 
 * section[=].section[+]
@@ -1174,7 +1183,7 @@ crises tónico-clónicas generalizadas primárias (crises maiores, incluindo per
 consciência) em adultos e adolescentes com mais de 12 anos de idade com epilepsia 
 idiopática generalizada (o tipo de epilepsia que se pensa ter uma causa genética). </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1253,7 +1262,7 @@ dado que Keppra pode fazê-lo sentir-se sonolento. Isto ocorre com maior probabi
 tratamento ou após um aumento da dose. Não deve conduzir ou utilizar máquinas, até se estabelecer 
 que a sua capacidade para realizar essas atividades não está afetada. </p>
 <p>Keppra 750 mg contém Amarelo sunset FCF (E110). 
-O agente de coloração Amarelo sunset FCF (E110) pode provocar reações alérgicas. </p>         </div>"""   
+O agente de coloração Amarelo sunset FCF (E110) pode provocar reações alérgicas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar keppra"
@@ -1315,7 +1324,7 @@ No caso de interrupção do tratamento, Keppra deverá ser descontinuado gradual
 aumento das crises. No caso do seu médico decidir parar o seu tratamento com Keppra, ele dar-lhe-á 
 instruções sobre a descontinuação gradual de Keppra. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1516,7 +1525,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejá
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
 efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar keppra"
@@ -1530,7 +1539,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 <p>Este medicamento não necessita de quaisquer precauções especiais de conservação. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1691,7 +1700,7 @@ UCB (Pharma) Ireland Ltd
 Tel: + 353 / (0)1-46 37<br />
 Este folheto foi revisto pela última vez em {mês/AAAA} </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

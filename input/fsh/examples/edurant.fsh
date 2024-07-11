@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store EDURANT</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +81,7 @@ inhibitors (NNRTIs). EDURANT works by reducing the amount of HIV in your body.
 EDURANT is used in combination with other HIV medicines to treat adolescents and adults 
 12 years of age and older who are infected with HIV and who have never been treated before with 
 HIV medicines.
-Your doctor will discuss with you which combination of medicines is best for you.</p>         </div>"""   
+Your doctor will discuss with you which combination of medicines is best for you.</p> </div>"""   
           
 
              
@@ -187,7 +190,7 @@ If you have been told by your doctor that you have intolerance to some sugars, c
 before taking this medicine.
 EDURANT contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take edurant"
@@ -234,7 +237,7 @@ Do not stop using EDURANT
 HIV treatment does not cure HIV infection! Do not stop using EDURANT without talking to your 
 doctor first. Even if you feel better, do not stop taking EDURANT or your other HIV medicines. 
 Doing so could increase the risk of the virus developing resistance. Talk to your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -292,7 +295,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store edurant"
@@ -304,7 +307,7 @@ Do not use this medicine after the expiry date which is stated on the carton and
 EXP. The expiry date refers to the last day of that month.
 Store in the original bottle in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -413,7 +416,7 @@ Tel: +371 678 93lv@its.jnj.com
 United Kingdom (Northern Ireland)
 Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in {MM/YYYY}.
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -452,7 +455,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -461,7 +466,7 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>  </div>"""   
 
 
 
@@ -476,7 +481,7 @@ Usage: #inline
 3. Sådan skal du tage EDURANT
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -489,7 +494,7 @@ humant immundefektvirus). Det tilhører en gruppe af hiv-medicin, som kaldes non
 transcriptasehæmmere (NNRTI). EDURANT virker ved at reducere mængden af hiv-virus i kroppen.
 EDURANT anvendes sammen med andre former for hiv-medicin til behandling af voksne og unge 
 over 12 år med hiv-infektion, som aldrig tidligere har fået behandling med hiv-medicin.
-Lægen vil tale med dig om, hvilken kombination af lægemidler der er bedst for dig.</p>         </div>"""   
+Lægen vil tale med dig om, hvilken kombination af lægemidler der er bedst for dig.</p> </div>"""   
           
 
              
@@ -603,7 +608,7 @@ Kontakt lægen, før du tager denne medicin, hvis lægen har fortalt dig, at du 
 sukkerarter.
 EDURANT indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det 
-væsentlige natriumfrit.</p>         </div>"""   
+væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take edurant"
@@ -657,7 +662,7 @@ Hiv-behandling kurerer ikke hiv-infektionen! Du må ikke holde op med at tage ED
 at tale med lægen. Selv om du har det bedre, må du ikke holde op med at tage EDURANT eller din 
 anden hiv-medicin. Hvis du gør det, øges risikoen for, at virussen udvikler resistens. Tal med lægen 
 først.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -717,7 +722,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, sygeplejerske eller ap
 også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan 
 også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store edurant"
@@ -729,7 +734,7 @@ Brug ikke lægemidlet efter den udløbsdato, der står på pakningen efter EXP. 
 sidste dag i den nævnte måned.
 Opbevares i den originale beholder for at beskytte mod lys.
 Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -875,7 +880,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 Denne indlægsseddel blev senest ændret{ MM/ÅÅÅÅ }
 Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
-hjemmeside: http://www.ema.europa.eu/.</p>         </div>"""      
+hjemmeside: http://www.ema.europa.eu/.</p> </div>"""      
 
 
 
@@ -914,7 +919,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -923,7 +930,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -938,7 +946,7 @@ Usage: #inline
 3. Como tomar EDURANT
 4. Efeitos secundários possíveis
 5. Como conservar EDURANT
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -953,7 +961,7 @@ quantidade de VIH no seu corpo.
 EDURANT é utilizado em associação com outros medicamentos para o VIH para tratar 
 adolescentes e adultos com 12 ou mais anos de idade infetados com VIH e que nunca tenham sido 
 tratados anteriormente com medicamentos para o VIH.
-O seu médico irá avaliar consigo a associação de medicamentos adequados ao seu caso.</p>         </div>"""   
+O seu médico irá avaliar consigo a associação de medicamentos adequados ao seu caso.</p> </div>"""   
           
 
              
@@ -1070,7 +1078,7 @@ Se o médico lhe disse que tem intolerância a alguns açúcares, contacte-o ant
 medicamento.
 EDURANT contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido, ou seja, é 
-praticamente “isento de sódio".</p>         </div>"""   
+praticamente “isento de sódio".</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar edurant"
@@ -1129,7 +1137,7 @@ medicamentos para o VIH. Isto poderia aumentar o risco de desenvolvimento de res
 Fale primeiro com o seu médico.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
 farmacêutico.
-38</p>         </div>"""         
+38</p> </div>"""         
 
         
 * section[=].section[+]
@@ -1188,7 +1196,7 @@ Comunicação de efeitos secundários
 Se tiver quaisquer efeitos secundários, incluindo possíveis efeitos secundários não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos secundários 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p>         </div>"""      
+efeitos secundários, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar edurant"
@@ -1202,7 +1210,7 @@ Conservar no frasco de origem para proteger da luz.
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
 o ambiente.
-39</p>         </div>"""      
+39</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1348,7 +1356,7 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 444
 Este folheto foi revisto pela última vez em {MM/AAAA}.
 Informação pormenorizada sobre este medicamento está disponível na Internet no site da Agência 
-Europeia de Medicamentos http://www.ema.europa.eu/.</p>         </div>"""      
+Europeia de Medicamentos http://www.ema.europa.eu/.</p> </div>"""      
 
 
 

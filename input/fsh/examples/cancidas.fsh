@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Cancidas</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -93,7 +96,7 @@ include those who have just had an operation or those whose immune systems are w
 How Cancidas works
 Cancidas makes fungal cells fragile and stops the fungus from growing properly. This stops the
 infection from spreading and gives the body s natural defences a chance to completely get rid of the
-infection. </p>         </div>"""   
+infection. </p> </div>"""   
           
 
              
@@ -142,7 +145,7 @@ Driving and using machines
 There is no information to suggest that Cancidas affects your ability to drive or operate machinery.
 Cancidas contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say essentially
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cancidas"
@@ -162,7 +165,7 @@ The dose for children and adolescents may differ from the adult dose.
 If you have been given more Cancidas than you should
 Your doctor will decide how much Cancidas you need and for how long each day. If you are worried
 that you may have been given too much Cancidas, tell your doctor or nurse straight away.
-If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -246,7 +249,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cancidas"
@@ -263,7 +266,7 @@ any ingredients to stop the growth of bacteria. Only a trained healthcare profes
 complete directions should prepare the medicine (please see below  Instructions of how to reconstitute
 and dilute Cancidas ).
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help to protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -617,7 +620,7 @@ a. The white to off-white cake will dissolve completely. Mix gently until a clea
 b. Visually inspect the reconstituted solution for particulate matter or discolouration during
 reconstitution and prior to infusion. Do not use if the solution is cloudy or has precipitated.
 c. CANCIDAS is formulated to provide the full labelled vial dose (70 mg) when 10 ml is withdrawn
-from the vial.</p>         </div>"""      
+from the vial.</p> </div>"""      
 
 
 
@@ -656,7 +659,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -665,7 +670,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -680,7 +686,7 @@ Usage: #inline
 3. Sådan får du Cancidas
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -718,7 +724,7 @@ infektionen i at sprede sig og giver kroppens naturlige forsvar en chance for he
 infektionen. 
 32</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -796,7 +802,7 @@ Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. hætteglas, d
 væsentlige natriumfrit.
 33</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take cancidas"
@@ -826,7 +832,7 @@ sygeplejersken med det samme.
 Hvis du har yderligere spørgsmål om brugen af denne medicin, skal du spørge lægen, sygeplejersken
 eller apotekspersonalet. </p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -998,7 +1004,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere
-information om sikkerheden af dette lægemiddel.</p>         </div>"""      
+information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store cancidas"
@@ -1014,7 +1020,7 @@ Når Cancidas er fremstillet, skal det anvendes med det samme. Dette skyldes, at
 konserveringsmiddel. Kun uddannet sundhedspersonale, som har læst den fuldstændige vejledning, må
 fremstille medicinen (se nedenfor "Brugsvejledning til rekonstitution og fortynding af Cancidas").
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
-smide medicinrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1034,7 +1040,7 @@ Et hætteglas Cancidas indeholder 70 mg caspofungin.</p>
 <li>
 <p>Øvrige indholdsstoffer: saccharose, mannitol (E421), eddikesyre og natriumhydroxid (se punkt </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1073,7 +1079,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1082,7 +1090,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1097,7 +1106,7 @@ Usage: #inline
 3. Como utilizar Cancidas
 4. Efeitos indesejáveis possíveis
 5. Como conservar Cancidas
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1133,7 +1142,7 @@ Como funciona o Cancidas
 O Cancidas torna as células fúngicas frágeis e evita o correto crescimento dos fungos. Isto evita que a
 infeção se dissemine e permite que as defesas naturais do organismo consigam eliminar a infeção. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1212,7 +1221,7 @@ Cancidas contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por frasco para injetáveis ou seja, é
 praticamente “isento de sódio"</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar cancidas"
@@ -1243,7 +1252,7 @@ informe imediatamente o seu médico ou enfermeiro.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
 ou enfermeiro.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1423,7 +1432,7 @@ indesejáveis diretamente através do sistema nacional de notificação menciona
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
 medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar cancidas"
@@ -1441,7 +1450,7 @@ as instruções na sua totalidade pode preparar este medicamento (ver a seguir �
 reconstituição e diluição do Cancidas").
 Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
-o ambiente.</p>         </div>"""      
+o ambiente.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1462,7 +1471,7 @@ Cada frasco para injetáveis de Cancidas contém 70 mg de caspofungina.</p>
 <p>Os outros componentes são: sacarose, manitol (E421), ácido acético glacial e hidróxido de sódio
 (por favor consulte secção </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 

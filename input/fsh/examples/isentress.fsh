@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Isentress</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ to help fight infection). Reducing the amount of HIV in the blood may improve th
 your immune system. This means your body may fight infection better. 
 When Isentress should be used
 Isentress is used to treat those who are infected by HIV. Your doctor has prescribed Isentress to help
-control your HIV infection.</p>         </div>"""   
+control your HIV infection.</p> </div>"""   
           
 
              
@@ -167,7 +170,7 @@ This medicine contains lactose. If you have been told by your doctor that you ha
 some sugars, contact your doctor before taking this medicine.
 Isentress contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially
- sodium-free .</p>         </div>"""   
+ sodium-free .</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take isentress"
@@ -207,7 +210,7 @@ stop being able to fight HIV (also called "drug resistance").</p>
 because it is very important not to be without the medicine, even for a short time. During a short
 break in taking the medicine the amount of virus in your blood may increase. This may mean
 that the HIV virus will develop resistance to Isentress and become harder to treat.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -287,7 +290,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side
 effects not listed in this leaflet. You can also report side effects directly via the national reporting
 system listed in Appendix V. By reporting side effects you can help provide more information on the
-safety of this medicine.</p>         </div>"""      
+safety of this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store isentress"
@@ -301,7 +304,7 @@ expiry date refers to the last day of that month.</p>
 <p>Keep the bottle tightly closed, with the desiccant (drying agent) in order to protect from
 moisture. Do not swallow the desiccant.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -433,7 +436,7 @@ child.</p>
 <p>This medicine has been prescribed for you or your child only. Do not pass it on to others. It may
 harm them, even if their signs of illness are the same as yours.</p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4.</p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p> </div>"""      
 
 
 
@@ -472,7 +475,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -481,7 +486,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -496,7 +502,7 @@ Usage: #inline
 3. Sådan skal du tage Isentress
 4. Bivirkninger
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -516,7 +522,7 @@ immunforsvar, der hjælper med at bekæmpe infektion). Nedsættelse af hiv-mæng
 forbedre funktionen af immunforsvaret. Dette betyder, at kroppen bedre kan bekæmpe infektion. 
 Hvornår Isentress skal anvendes
 Isentress bruges til behandling af personer, som er smittet med hiv. Din læge har ordineret Isentress
-som middel til at hjælpe med at holde din hiv-infektion under kontrol. </p>         </div>"""   
+som middel til at hjælpe med at holde din hiv-infektion under kontrol. </p> </div>"""   
           
 
              
@@ -617,7 +623,7 @@ Isentress indeholder natrium
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet, dvs. det er i det
 væsentlige natriumfrit.</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take isentress"
@@ -670,7 +676,7 @@ medicinen kan mængden af virus i blodet stige. Dette kan betyde, at hiv-virus v
 resistens over for Isentress og dermed blive vanskeligere at behandle. 
 Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -834,7 +840,7 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel.
 130</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store isentress"
@@ -858,7 +864,7 @@ må ikke sluges.
 Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke
 smide medicinrester i afløbet, toilettet eller skraldespanden.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1033,7 +1039,7 @@ du har.</p>
 <p>Kontakt lægen, apotekspersonalet eller sygeplejersken, hvis du får bivirkninger, herunder
 bivirkninger, som ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1072,7 +1078,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1081,7 +1089,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1096,7 +1105,7 @@ Usage: #inline
 3. Como tomar Isentress
 4. Efeitos indesejáveis possíveis
 5. Como conservar Isentress
-6. Conteúdo da embalagem e outras informações</p>         </div>"""   
+6. Conteúdo da embalagem e outras informações</p> </div>"""   
           
 
 * section[=].section[+]
@@ -1118,7 +1127,7 @@ quantidade de VIH no sangue pode melhorar o funcionamento do seu sistema imunit�
 que o seu organismo pode combater melhor a infeção.
 Quando deve ser utilizado Isentress
 Isentress é utilizado para o tratamento de quem está infetado por VIH. O seu médico receitou Isentress
-para ajudar a controlar a sua infeção por VIH. </p>         </div>"""   
+para ajudar a controlar a sua infeção por VIH. </p> </div>"""   
           
 
              
@@ -1223,7 +1232,7 @@ Isentress contém sódio
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por comprimido ou seja, é
 praticamente “isento de sódio".</p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar isentress"
@@ -1281,7 +1290,7 @@ mais difícil de tratar.
 Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico
 ou enfermeiro.</p>
 </li>
-</ul>         </div>"""         
+</ul> </div>"""         
 
         
 * section[=].section[+]
@@ -1454,7 +1463,7 @@ indesejáveis diretamente através do sistema nacional de notificação menciona
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste
 medicamento.</p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar isentress"
@@ -1479,7 +1488,7 @@ Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. P
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger
 o ambiente. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
         
         
 * section[=].section[+]
@@ -1631,7 +1640,7 @@ Limited
 Tel: +353 (0)1 2998700
 medinfoNI@msd.com
 Este folheto foi revisto pela última vez em &lt;{MM/AAAA}&gt;&lt;{mês de AAAA}.&gt;
-Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p>         </div>"""      
+Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência</p> </div>"""      
 
 
 

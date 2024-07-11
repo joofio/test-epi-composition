@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Jayempi  </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -101,7 +104,7 @@ damage to the platelets and reduction of their numbers) </li>
 <li>Treat relapsing multiple sclerosis. </li>
 <li>Treat generalised myasthenia gravis (a disease that affects nerves and causes muscle weakness). 
 In some cases Jayempi is given in with a steroid at the start of treatment </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -222,7 +225,7 @@ Do not drive or use machines if you are affected or if you feel dizzy while taki
 This medicine contains 1.5 mg sodium benzoate (E211) in each ml. Sodium benzoate may increase 
 jaundice (yellowing of the skin and eyes) in newborn babies (up to 4 weeks old). </p>
 <p>Jayempi contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p>         </div>"""   
+This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially  sodium- free . </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jayempi"
@@ -333,7 +336,7 @@ forgotten more than one dose, speak with your doctor. </p>
 <p>If you stop taking Jayempi </p>
 <p>Treatment with Jayempi should always be under close medical supervision. Talk to your doctor, if you 
 wish to interrupt or stop the treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -449,7 +452,7 @@ syndrome, also known as acute febrile neutrophilic dermatosis). </li>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jayempi"
@@ -465,7 +468,7 @@ EXP. The expiry date refers to the last day of that month. </li>
 accidental spillage. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -497,7 +500,7 @@ Dublin Road Business Park
 Carraroe, Sligo 
 F91 DIreland </p>
 <p>This leaflet was last revised in  </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -536,7 +539,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -545,7 +550,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -562,7 +568,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -610,7 +616,7 @@ skade på blodplader og nedsat antal blodplader) </p>
 <p>behandle generaliseret myasthenia gravis (en sygdom, der påvirker nerverne og giver 
 muskelsvaghed). I nogle tilfælde gives Jayempi sammen med et steroid ved behandlingsstart. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -733,7 +739,7 @@ Dette lægemiddel indeholder 1,5 mg natriumbenzoat (E211) i hver ml. Natriumbenz
 øget gulsot (gulfarvning af hud og øjne) hos nyfødte (indtil 4-ugersalderen). </p>
 <p>Jayempi indeholder natrium 
 Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis og er således stort set 
-natriumfrit. </p>         </div>"""   
+natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take jayempi"
@@ -850,7 +856,7 @@ sædvanlige tidspunkt. </p>
 <p>Hvis du holder op med at tage Jayempi </p>
 <p>Behandling med Jayempi bør altid ske under tæt lægeligt tilsyn. Tal med lægen, hvis du ønsker at 
 afbryde eller standse behandlingen. </p>
-<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -966,7 +972,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge, apotekspersonalet elle
 gælder også mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende 
 kan også indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem 
 anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere 
-information om sikkerheden af dette lægemiddel. </p>         </div>"""      
+information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store jayempi"
@@ -982,7 +988,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </li>
 utilsigtet spild. </li>
 </ul>
 <p>Spørg på apoteket, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke smide 
-medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1225,7 +1231,7 @@ Kongerige (11-18 år)
 †Doser op til og med 30 mg trækkes op vha. 3 ml-mundsprøjten med 0,1 ml-gradueringer. Doser over 
 30 mg trækkes op vha. 10 ml-mundsprøjten med 2,5 ml-gradueringer (tonede felter). </p>
 <p>Sundhedspersonen bør vejlede patienten eller omsorgspersonen i, hvilken sprøjte der skal anvendes, så 
-det sikres, at den rigtige mængde administreres. </p>         </div>"""      
+det sikres, at den rigtige mængde administreres. </p> </div>"""      
 
 
 
@@ -1264,7 +1270,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1273,7 +1281,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1290,7 +1299,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis  </li>
 <li>Como conservar Jayempi </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1337,7 +1346,7 @@ nas plaquetas e redução do seu número). </p>
 <p>Tratar a miastenia gravis generalizada (uma doença que afeta os nervos e provoca fraqueza 
 muscular). Em alguns casos, Jayempi é administrado com um esteroide no início do tratamento. </p>
 </li>
-</ul>         </div>"""   
+</ul> </div>"""   
           
 
              
@@ -1464,7 +1473,7 @@ aumentar a icterícia (amarelecimento da pele e dos olhos) em recém-nascidos (a
 idade). </p>
 <p>Jayempi contém sódio 
 Este medicamento contém menos do que 1 mmol (23 mg) de sódio por dose, ou seja, é praticamente 
-«isento de sódio». </p>         </div>"""   
+«isento de sódio». </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar jayempi"
@@ -1574,7 +1583,7 @@ Caso se tenha esquecido de tomar mais do que uma dose, fale com o seu médico. <
 <p>O tratamento com Jayempi deve estar sempre sob vigilância médica rigorosa. Fale com o seu médico 
 se quiser interromper ou parar o tratamento. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico, farmacêutico 
-ou enfermeiro. </p>         </div>"""         
+ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1700,7 +1709,7 @@ Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos secundár
 folheto, fale com o seu médico, farmacêutico ou enfermeiro. Também poderá comunicar efeitos 
 indesejáveis diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao 
 comunicar efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste 
-medicamento. </p>         </div>"""      
+medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar jayempi"
@@ -1717,7 +1726,7 @@ derrame acidental. </li>
 </ul>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1750,7 +1759,7 @@ Dublin Road Business Park
 Carraroe, Sligo 
 F91 DIrlanda </p>
 <p>Este folheto foi revisto pela última vez em  </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

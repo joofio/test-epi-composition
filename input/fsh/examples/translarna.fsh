@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects  </li>
 <li>How to store Translarna </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -81,7 +84,7 @@ order to confirm that your disease is suitable for treatment with this medicine.
 <p>How does Translarna work? </p>
 <p>Duchenne muscular dystrophy is caused by genetic changes that result in an abnormality in a muscle 
 protein called dystrophin which is needed for muscles to work properly. Translarna enables the 
-production of working dystrophin and helps muscles work properly. </p>         </div>"""   
+production of working dystrophin and helps muscles work properly. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ your doctor for advice before taking this medicine. If you become pregnant while
 consult your doctor immediately as it is recommended not to take Translarna while you are pregnant 
 or breast-feeding.  </p>
 <p>Driving and using machines 
-If you feel dizzy, do not drive, cycle or use machines. </p>         </div>"""   
+If you feel dizzy, do not drive, cycle or use machines. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take translarna"
@@ -404,7 +407,7 @@ Translarna may not be as effective in treating your symptoms if you take more th
 dose. </p>
 <p>If you stop taking Translarna 
 Do not stop taking Translarna without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -448,7 +451,7 @@ have one or more of the following side effects after taking Translarna: </p>
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store translarna"
@@ -463,7 +466,7 @@ The expiry date refers to the last day of that month. </p>
 24 hours of preparation if kept refrigerated (2   8  C), or within 3 hours at room temperature 
 (15 - 30  C). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -516,7 +519,7 @@ Tel: +33(0)1 76 70 10 medinfo@ptcbio.com </p>
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -555,7 +558,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -564,7 +569,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -581,7 +587,7 @@ Usage: #inline
 <li>Bivirkninger  </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -598,7 +604,7 @@ bekræfte, at din sygdom er egnet til behandling med dette lægemiddel.  </p>
 <p>Hvordan virker Translarna? </p>
 <p>Duchennes muskeldystrofi er forårsaget af genetiske ændringer, der resulterer i en abnormitet i et 
 muskelprotein, er kaldes dystrofin, som er nødvendig for, at musklerne kan fungere korrekt. 
-Translarna muliggør produktionen af virksom dystrofin, og hjælper musklerne til at fungere korrekt.  </p>         </div>"""   
+Translarna muliggør produktionen af virksom dystrofin, og hjælper musklerne til at fungere korrekt.  </p> </div>"""   
           
 
              
@@ -679,7 +685,7 @@ du spørge din læge til råds, før du tager dette lægemiddel. Hvis du bliver 
 Translarna, skal du straks tale med lægen, da det anbefales, at du ikke tager Translarna, mens du er 
 gravid eller ammer.  </p>
 <p>Trafik- og arbejdssikkerhed 
-Du må ikke køre bil, cykle eller betjene maskiner, hvis du føler dig svimmel.  </p>         </div>"""   
+Du må ikke køre bil, cykle eller betjene maskiner, hvis du føler dig svimmel.  </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take translarna"
@@ -924,7 +930,7 @@ korrekte dosis. Translarna vil muligvis ikke være lige så effektiv til behandl
 hvis du tager mere end den anbefalede dosis.  </p>
 <p>Hvis du holder op med at tage Translarna 
 Du må ikke holde op med at tage Translarna uden at tale med din læge.  </p>
-<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p>         </div>"""         
+<p>Spørg lægen, hvis der er noget, du er i tvivl om.  </p> </div>"""         
 
         
 * section[=].section[+]
@@ -969,7 +975,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store translarna"
@@ -984,7 +990,7 @@ den sidste dag i den nævnte måned. </p>
 inden for 24 timer efter tilberedning, hvis den opbevares nedkølet (2 - 8 °C), eller inden for 3 timer 
 ved stuetemperatur (15 - 30 °C). </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1039,7 +1045,7 @@ Det Europæiske Lægemiddelagentur vil mindst en gang om året vurdere nye oplys
 lægemidlet, og denne indlægsseddel vil om nødvendigt blive ajourført. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på Det Europæiske Lægemiddelagenturs 
 hjemmeside http://www.ema.europa.eu/. Der er også links til andre websteder om sjældne sygdomme 
-og om, hvordan de behandles. </p>         </div>"""      
+og om, hvordan de behandles. </p> </div>"""      
 
 
 
@@ -1078,7 +1084,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1087,7 +1095,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1104,7 +1113,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Translarna </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1124,7 +1133,7 @@ medicamento. </p>
 <p>A distrofia muscular de Duchenne é causada por alterações genéticas que resultam numa anomalia 
 numa proteína muscular chamada distrofina que é necessária para o correto funcionamento dos 
 músculos. O Translarna permite a produção de distrofina funcional e ajuda os músculos a funcionarem 
-corretamente. </p>         </div>"""   
+corretamente. </p> </div>"""   
           
 
              
@@ -1205,7 +1214,7 @@ decidir monitorizá-lo de perto. </p>
 antes de tomar este medicamento. Se engravidar durante a toma de Translarna, consulte de imediato o 
 seu médico dado que é aconselhável não tomar Translarna enquanto se está grávida ou a amamentar. </p>
 <p>Condução de veículos e utilização de máquinas </p>
-<p>No caso de sentir tonturas, não conduza, não ande de bicicleta nem utilize máquinas. </p>         </div>"""   
+<p>No caso de sentir tonturas, não conduza, não ande de bicicleta nem utilize máquinas. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar translarna"
@@ -1465,7 +1474,7 @@ administrar a dose correta. O Translarna pode não ser totalmente eficaz a trata
 tomar mais do que a dose recomendada. </p>
 <p>Se parar de tomar Translarna 
 Não pare de tomar Translarna sem falar com o seu médico. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1504,7 +1513,7 @@ tomar Translarna: </p>
 Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar translarna"
@@ -1520,7 +1529,7 @@ ser consumida no prazo de 24 horas após a preparação, se mantida refrigerada 
 de 3 horas à temperatura ambiente (15 - 30 °C). </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1574,7 +1583,7 @@ Tel: +33(0)1 76 70 10 medinfo@ptcbio.com </p>
 significa que se aguarda mais informação sobre este medicamento. 
 A Agência Europeia de Medicamentos irá analisar, pelo menos uma vez por ano, nova informação 
 sobre este medicamento e este folheto será atualizado se necessário. </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

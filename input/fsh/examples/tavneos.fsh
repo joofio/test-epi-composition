@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Tavneos </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -86,7 +89,7 @@ inflammation.
 also affect other organs. </p>
 <p>Complement 5a receptor has a key role in stimulating inflammation. This medicine attaches to it and 
 prevents it from working, thereby reducing inflammation of blood vessels seen in these diseases. </p>
-<p>Tavneos can be used together with other treatments prescribed by your doctor. </p>         </div>"""   
+<p>Tavneos can be used together with other treatments prescribed by your doctor. </p> </div>"""   
           
 
              
@@ -178,7 +181,7 @@ Your doctor will help you decide whether to stop treatment with Tavneos or stop 
 <p>Driving and using machines </p>
 <p>It is considered unlikely that Tavneos will affect your ability to drive or to use machines. </p>
 <p>Tavneos contains macrogolglycerol hydroxystearate </p>
-<p>This may cause stomach upset and diarrhoea. </p>         </div>"""   
+<p>This may cause stomach upset and diarrhoea. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tavneos"
@@ -203,7 +206,7 @@ usual time. </p>
 <p>Stop treatment and seek urgent medical advice if swelling of the face, lips, tongue or throat, or 
 breathing difficulties occur. In any other situations, do not stop taking this medicine without talking to 
 your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -252,7 +255,7 @@ confusion, muscle ache and pain, sudden weakness or numbness of the body). </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+this medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tavneos"
@@ -265,7 +268,7 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original bottle 
 in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -314,7 +317,7 @@ France </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>
 <p>Detailed information on this medicine is also available on the following URL: http://www.tavneos-
-patient.eu. </p>         </div>"""      
+patient.eu. </p> </div>"""      
 
 
 
@@ -353,7 +356,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -362,7 +367,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -379,7 +385,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -407,7 +413,7 @@ angribe andre organer. </p>
 <p>Komplement 5a-receptoren spiller en central rolle i stimuleringen af inflammation. Dette lægemiddel 
 binder sig til denne receptor og forhindrer den i at virke. Derved reduceres den inflammation i 
 blodkarrene, der kendetegner disse sygdomme. </p>
-<p>Tavneos kan bruges i kombination med andre behandlinger ordineret af lægen. </p>         </div>"""   
+<p>Tavneos kan bruges i kombination med andre behandlinger ordineret af lægen. </p> </div>"""   
           
 
              
@@ -575,7 +581,7 @@ eller stoppe med at amme. </p>
 <p>Trafik- og arbejdssikkerhed </p>
 <p>Det anses for usandsynligt, at Tavneos påvirker evnen til at føre motorkøretøj eller betjene maskiner. </p>
 <p>Tavneos indeholder macrogolglycerolhydroxystearat. </p>
-<p>Dette stof kan forårsage "ondt i maven" og diarré. </p>         </div>"""   
+<p>Dette stof kan forårsage "ondt i maven" og diarré. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take tavneos"
@@ -600,7 +606,7 @@ tage den næste dosis på samme tidspunkt som normalt. </p>
 <p>Stop behandlingen, og søg omgående læge, hvis du oplever hævelser i ansigt, læber, tunge eller hals 
 eller åndedrætsbesvær. Stop ikke med at tage dette lægemiddel af andre grunde uden at drøfte det med 
 din læge. </p>
-<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -699,7 +705,7 @@ kroppen). </p>
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
-sikkerheden af dette lægemiddel. </p>         </div>"""      
+sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store tavneos"
@@ -712,7 +718,7 @@ Udløbsdatoen er den sidste dag i den nævnte måned. </p>
 <p>Der er ingen særlige krav vedrørende opbevaringstemperaturer for dette lægemiddel. Opbevares i det 
 originale glas for at beskytte mod lys. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe medicinrester. Af hensyn til miljøet må du ikke 
-smide medicinrester i afløbet, toilettet eller skraldespanden. </p>         </div>"""      
+smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -774,7 +780,7 @@ markedsføringstilladelsen. </p>
 hjemmeside http://www.ema.europa.eu. Der er også links til andre websteder om sjældne sygdomme 
 og om, hvordan de behandles. </p>
 <p>Du kan finde yderligere oplysninger om dette lægemiddel på hjemmesiden http://www.tavneos-
-patient.eu. </p>         </div>"""      
+patient.eu. </p> </div>"""      
 
 
 
@@ -813,7 +819,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -822,7 +830,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -839,7 +848,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Tavneos </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -869,7 +878,7 @@ frequência, mas pode também afetar outros órgãos. </p>
 <p>O recetor do complemento 5a tem um papel essencial na estimulação da inflamação. Este 
 medicamento liga-se a este recetor e impede-o de funcionar, reduzindo assim a inflamação dos vasos 
 sanguíneos observada nestas doenças. </p>
-<p>Tavneos pode ser utilizado juntamente com outros tratamentos prescritos pelo seu médico. </p>         </div>"""   
+<p>Tavneos pode ser utilizado juntamente com outros tratamentos prescritos pelo seu médico. </p> </div>"""   
           
 
              
@@ -1040,7 +1049,7 @@ amamentar. </p>
 <p>Condução de veículos e utilização de máquinas </p>
 <p>É considerado improvável que Tavneos afete a sua capacidade de conduzir ou utilizar máquinas. </p>
 <p>Tavneos contém hidroxiestearato de macrogolglicerol </p>
-<p>Tal poderá causar indisposição gástrica e diarreia. </p>         </div>"""   
+<p>Tal poderá causar indisposição gástrica e diarreia. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar tavneos"
@@ -1066,7 +1075,7 @@ próxima dose à hora habitual. </p>
 tratamento e consulte de imediato um médico. Noutras situações, não pare de tomar este medicamento 
 sem falar com o seu médico. </p>
 <p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou 
-farmacêutico. </p>         </div>"""         
+farmacêutico. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1164,7 +1173,7 @@ peito, confusão, dores musculares, fraqueza súbita ou entorpecimento do corpo)
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou farmacêutico. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar tavneos"
@@ -1178,7 +1187,7 @@ após “VAL". O prazo de validade corresponde ao último dia do mês indicado. 
 de origem para proteger da luz. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêutico como deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger 
-o ambiente. </p>         </div>"""      
+o ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1238,7 +1247,7 @@ França </p>
 da Autorização de Introdução no Mercado. </p>
 <p>Este folheto foi revisto pela última vez em </p>
 <p>Outras fontes de informação </p>
-<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p>         </div>"""      
+<p>Está disponível informação pormenorizada sobre este medicamento no sítio da internet da Agência </p> </div>"""      
 
 
 

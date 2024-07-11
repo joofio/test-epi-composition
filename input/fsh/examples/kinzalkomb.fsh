@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects</li>
 <li>How to store Kinzalkomb</li>
 <li>Contents of the pack and other information</li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -87,7 +90,7 @@ sometimes to heart attack, heart or kidney failure, stroke, or blindness. There 
 of high blood pressure before damage occurs. Thus it is important to regularly measure blood pressure 
 to verify if it is within the normal range.
 Kinzalkomb is used to treat high blood pressure (essential hypertension) in adults whose blood 
-pressure is not controlled enough when telmisartan is used alone. </p>         </div>"""   
+pressure is not controlled enough when telmisartan is used alone. </p> </div>"""   
           
 
              
@@ -253,7 +256,7 @@ Kinzalkomb contains milk sugar (lactose)
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. 
 Kinzalkomb contains sorbitol
-This medicine contains 169 mg sorbitol in each tablet.</p>         </div>"""   
+This medicine contains 169 mg sorbitol in each tablet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kinzalkomb"
@@ -279,7 +282,7 @@ If you forget to take Kinzalkomb
 If you forget to take a dose, do not worry. Take it as soon as you remember then carry on as before. If 
 you do not take your tablet on one day, take your normal dose on the next day. Do not take a double 
 dose to make up for forgotten individual doses.
-If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+If you have further questions on the use of this medicine, ask your doctor or pharmacist.</p> </div>"""         
 
         
 * section[=].section[+]
@@ -362,7 +365,7 @@ Reporting of side effects
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine.</p>         </div>"""      
+this medicine.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kinzalkomb"
@@ -378,7 +381,7 @@ directly prior to intake.
 Occasionally, the outer layer of the blister pack separates from the inner layer between the blister 
 pockets. You do not need to take any action if this happens.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+throw away medicines you no longer use. These measures will help protect the environment.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -472,7 +475,7 @@ Tel: +371 67 84 55 United Kingdom (Northern Ireland)
 Bayer AG
 Tel: +44 (0) 118 206 30 This leaflet was last revised in {MM/YYYY}
 Other sources of information
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -511,7 +514,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -520,7 +525,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -535,7 +541,7 @@ Usage: #inline
 3. Sådan skal du tage Kinzalkomb 
 4. Bivirkninger 
 5. Opbevaring
-6. Pakningsstørrelser og yderligere oplysninger</p>         </div>"""   
+6. Pakningsstørrelser og yderligere oplysninger</p> </div>"""   
           
 
 * section[=].section[+]
@@ -558,7 +564,7 @@ føre til hjerteanfald, hjerte- eller nyresvigt, slagtilfælde eller blindhed. M
 symptomer på forhøjet blodtryk, før en skade sker. Derfor er det vigtigt, at få målt blodtrykket 
 regelmæssigt for at finde ud af, om det ligger i normalområdet.
 Kinzalkomb bruges til at sænke forhøjet blodtryk (essentiel hypertension) hos voksne, hvis blodtryk 
-ikke er sænket tilstrækkeligt med telmisartan.</p>         </div>"""   
+ikke er sænket tilstrækkeligt med telmisartan.</p> </div>"""   
           
 
              
@@ -743,7 +749,7 @@ Kinzalkomb indeholder mælkesukker (lactose)
 Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse 
 sukkerarter.
 Kinzalkomb indeholder sorbitol
-Dette lægemiddel indeholder 169 mg sorbitol pr. tablet.</p>         </div>"""   
+Dette lægemiddel indeholder 169 mg sorbitol pr. tablet.</p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take kinzalkomb"
@@ -769,7 +775,7 @@ Hvis du har glemt at tage Kinzalkomb
 Hvis du har glemt at tage medicinen, skal du tage den straks du kommer i tanke om det, og derefter 
 fortsætte som du plejer. Hvis du en dag ikke får taget din tablet, skal du blot tage den sædvanlige dosis 
 næste dag. Du må ikke tage en dobbeltdosis som erstatning for de glemte tabletter.
-Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -864,7 +870,7 @@ Hvis du oplever bivirkninger, bør du tale med din læge eller apotekspersonalet
 mulige bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også 
 indberette bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel.</p>         </div>"""      
+om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store kinzalkomb"
@@ -880,7 +886,7 @@ blister lige før indtagelse.
 Blisterpakningen består af flere lag, hvor det kan ske, at det ydre lag af blisterarket løsner sig fra det 
 indre lag. Du behøver ikke at gøre noget, hvis det sker. 
 Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p>         </div>"""      
+ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </div>"""      
         
         
 * section[=].section[+]
@@ -1024,7 +1030,7 @@ Lægen har ordineret Kinzalkomb til dig personligt. Lad derfor være med at give
 andre. Det kan være skadeligt for andre, selvom de har de samme symptomer, som du har.
 -
 Kontakt lægen eller apotekspersonalet, hvis du får bivirkninger, herunder bivirkninger, som 
-ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p>         </div>"""      
+ikke er nævnt i denne indlægsseddel. Se punkt 4. Se den nyeste indlægsseddel på www.indlaegsseddel.dk</p> </div>"""      
 
 
 

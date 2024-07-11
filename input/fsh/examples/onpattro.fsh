@@ -38,7 +38,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -47,7 +49,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -64,7 +67,7 @@ Usage: #inline
 <li>Possible side effects </li>
 <li>How to store Onpattro </li>
 <li>Contents of the pack and other information </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -85,7 +88,7 @@ from working normally. This causes the symptoms of the illness. </p>
 <p>Onpattro works by lowering the amount of TTR protein that the liver makes. 
 * This means there is less TTR protein in the blood that can form amyloid. 
 * This can help to reduce the effects of this illness. </p>
-<p>Onpattro is used in adults only. </p>         </div>"""   
+<p>Onpattro is used in adults only. </p> </div>"""   
           
 
              
@@ -159,7 +162,7 @@ doctor will tell you whether your condition allows you to drive vehicles and use
 <p>Onpattro contains sodium </p>
 <p>This medicine contains 3.99 milligrams (mg) of sodium (main component of cooking/table salt) per 
 millilitre (mL). This is 0.2% of the recommended maximum daily dietary intake of sodium for an 
-adult. </p>         </div>"""   
+adult. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onpattro"
@@ -192,7 +195,7 @@ too much (an overdose) your doctor or nurse will check you for side effects. </p
 <p>If you miss your dose of Onpattro </p>
 <p>If you miss an appointment to have Onpattro, ask your doctor or nurse when to book your next 
 treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -243,7 +246,7 @@ swelling or redness </p>
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onpattro"
@@ -258,7 +261,7 @@ date refers to the last day of that month. </p>
 14 days. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
-environment. </p>         </div>"""      
+environment. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -383,7 +386,7 @@ Alnylam Netherlands B.V.
 Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p> </div>"""      
 
 
 
@@ -422,7 +425,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -431,7 +436,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -448,7 +454,7 @@ Usage: #inline
 <li>Bivirkninger </li>
 <li>Opbevaring </li>
 <li>Pakningsstørrelser og yderligere oplysninger </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -483,7 +489,7 @@ i at fungere normalt. Dette forårsager symptomerne på sygdommen. </p>
 <p>Dette kan hjælpe med at reducere effekterne af denne sygdom. </p>
 </li>
 </ul>
-<p>Onpattro må kun bruges til voksne. </p>         </div>"""   
+<p>Onpattro må kun bruges til voksne. </p> </div>"""   
           
 
              
@@ -568,7 +574,7 @@ betjene maskiner. Din læge vil fortælle dig, om du sikkert kan føre motorkør
 din tilstand. </p>
 <p>Onpattro indeholder natrium </p>
 <p>Lægemidlet indeholder 3,99 milligram (mg) natrium (hovedkomponenten i bordsalt) per milliliter 
-(ml). Det er 0,2 % af det anbefalede maksimale daglige indtag af natrium i kosten for en voksen. </p>         </div>"""   
+(ml). Det er 0,2 % af det anbefalede maksimale daglige indtag af natrium i kosten for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take onpattro"
@@ -609,7 +615,7 @@ Onpattro (en overdosis), vil lægen eller sygeplejersken kontrollere dig for biv
 <p>Hvis du har glemt at få din dosis af Onpattro </p>
 <p>Hvis du ikke kommer til et besøg/en aftale, hvor du skal gives Onpattro, skal du spørge din læge eller 
 sygeplejerske, hvornår du skal aftale en tid til din næste behandling. </p>
-<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p>         </div>"""         
+<p>Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -714,7 +720,7 @@ eller rødme </li>
 bivirkninger, som ikke er medtaget i denne indlægsseddel. Du eller dine pårørende kan også indberette 
 bivirkninger direkte til Lægemiddelstyrelsen via det nationale rapporteringssystem anført i 
 Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information 
-om sikkerheden af dette lægemiddel. </p>         </div>"""      
+om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store onpattro"
@@ -728,7 +734,7 @@ sidste dag i den nævnte måned. </p>
 <p>Hvis opbevaring i køleskab ikke er muligt, kan Onpattro opbevares ved stuetemperatur (op til 25 °C) i 
 op til 14 dage. </p>
 <p>Spørg apotekspersonalet, hvordan du skal bortskaffe lægemiddelrester. Af hensyn til miljøet må du 
-ikke smide lægemiddelrester i afløbet eller skraldespanden.  </p>         </div>"""      
+ikke smide lægemiddelrester i afløbet eller skraldespanden.  </p> </div>"""      
         
         
 * section[=].section[+]
@@ -979,7 +985,7 @@ ifølge lokal standardpraksis for ikke-blæretrækkende midler. </p>
 <p>Efter fuldført infusion, skal infusionssættet til intravenøs administration skylles med 9 mg/ml 
 (0,9 %) natriumkloridopløsning for at sikre, at alt lægemidlet blev indgivet. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
@@ -1018,7 +1024,9 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. FOLHETO INFORMATIVO"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
       
@@ -1027,7 +1035,8 @@ Usage: #inline
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Folheto informativo: Informação para o utilizador"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
+  * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
 
 
 
@@ -1044,7 +1053,7 @@ Usage: #inline
 <li>Efeitos indesejáveis possíveis </li>
 <li>Como conservar Onpattro </li>
 <li>Conteúdo da embalagem e outras informações </li>
-</ol>         </div>"""   
+</ol> </div>"""   
           
 
 * section[=].section[+]
@@ -1080,7 +1089,7 @@ impedindo-os de funcionar normalmente. Isto causa os sintomas da doença. </p>
 <p>Isto pode ajudar a reduzir os efeitos desta doença. </p>
 </li>
 </ul>
-<p>Onpattro é usado apenas em adultos. </p>         </div>"""   
+<p>Onpattro é usado apenas em adultos. </p> </div>"""   
           
 
              
@@ -1170,7 +1179,7 @@ máquinas de forma segura. </p>
 <p>Onpattro contém sódio </p>
 <p>Este medicamento contém 3,99 miligramas (mg) de sódio (componente principal do sal de 
 cozinha/mesa) por cada mililitro (ml). Isto é 0,2% da dose diária máxima na dieta recomendada de 
-sódio para um adulto. </p>         </div>"""   
+sódio para um adulto. </p> </div>"""   
                     
 * section[=].section[+]
   * title =  "3. Como tomar onpattro"
@@ -1213,7 +1222,7 @@ vigiá-lo(a) para efeitos secundários. </p>
 <p>Se se esquecer da sua dose de Onpattro </p>
 <p>Se se esquecer de uma consulta para receber o Onpattro, pergunte ao seu médico ou enfermeiro 
 quando deverá marcar o seu próximo tratamento. </p>
-<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p>         </div>"""         
+<p>Caso ainda tenha dúvidas sobre a utilização deste medicamento, fale com o seu médico ou enfermeiro. </p> </div>"""         
 
         
 * section[=].section[+]
@@ -1320,7 +1329,7 @@ inchaço ou vermelhidão </li>
 <p>Se tiver quaisquer efeitos indesejáveis, incluindo possíveis efeitos indesejáveis não indicados neste 
 folheto, fale com o seu médico ou enfermeiro. Também poderá comunicar efeitos indesejáveis 
 diretamente através do sistema nacional de notificação mencionado no Apêndice V. Ao comunicar 
-efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p>         </div>"""      
+efeitos indesejáveis, estará a ajudar a fornecer mais informações sobre a segurança deste medicamento. </p> </div>"""      
         
 * section[=].section[+]
   * title = "5. Como conservar onpattro"
@@ -1335,7 +1344,7 @@ O prazo de validade corresponde ao último dia do mês indicado. </p>
 25 °C) até 14 dias. </p>
 <p>Não deite fora quaisquer medicamentos na canalização ou no lixo doméstico. Pergunte ao seu 
 farmacêuticocomo deitar fora os medicamentos que já não utiliza. Estas medidas ajudarão a proteger o 
-ambiente. </p>         </div>"""      
+ambiente. </p> </div>"""      
         
         
 * section[=].section[+]
@@ -1591,7 +1600,7 @@ perfusão. </p>
 <p>Após o término da perfusão, deverá fazer-se passar pelo kit de perfusão uma solução de cloreto 
 de sódio de 9 mg/ml (0,9%) para assegurar que todo o medicamento foi administrado. </p>
 </li>
-</ul>         </div>"""      
+</ul> </div>"""      
 
 
 
