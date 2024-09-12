@@ -376,9 +376,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -387,9 +387,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -397,9 +397,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -411,9 +411,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What bridion is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What bridion is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Bridion er
 Bridion indeholder det aktive stof sugammadex. Bridion er en Selektiv Relaksantia Antidot, da det kun
@@ -435,9 +435,9 @@ opnå et moderat afslapningsniveau. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take bridion"
+  * title = "2. Det skal du vide, før du begynder at tage  bridion"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take bridion"
+  * code.text = "2. Det skal du vide, før du begynder at tage  bridion"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Bridion</p>
 <ul>
@@ -509,9 +509,9 @@ ml. Dette svarer til 0,5% af den anbefalede maksimale daglige indtagelse af natr
 </ul> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take bridion"
+  * title =  "3. Sådan skal du tage bridion"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take bridion"
+  * code.text = "3. Sådan skal du tage bridion"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Bridion af en anæstesilæge eller under overvågning af anæstesilægen.
 30
@@ -537,9 +537,9 @@ Spørg anæstesilægen eller anden læge, hvis der er noget vedrørende medicine
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Hvis disse bivirkninger opstår, mens du er bedøvet, vil de blive set og behandlet af din anæstesilæge.
@@ -593,9 +593,9 @@ om sikkerheden af dette lægemiddel.
 </ul> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store bridion"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store bridion"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevaringen vil blive varetaget af sundhedspersonalet.
 Opbevar lægemidlet utilgængeligt for børn.
@@ -608,9 +608,9 @@ Efter første åbning og fortynding opbevares i køleskab (2 °C - 8 °C) og ska
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bridion indeholder:</p>
 <ul>
@@ -894,7 +894,7 @@ RuleSet: 36510bf45b0e72d68ab742851da42239ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -906,7 +906,7 @@ RuleSet: 36510bf45b0e72d68ab742851da42239ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

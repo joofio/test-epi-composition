@@ -347,9 +347,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -358,9 +358,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -368,9 +368,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -382,9 +382,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What tracleer is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What tracleer is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tracleer tabletter indeholder bosentan, som blokerer virkningen af det naturligt forekommende 
 hormon endothelin-1 (ET-1), som er årsag til forsnævring af blodkarrene. Tracleer får derfor 
@@ -419,9 +419,9 @@ Tracleer nedsætter antallet af forekomsten af nye finger- og tåsår.
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take tracleer"
+  * title = "2. Det skal du vide, før du begynder at tage  tracleer"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take tracleer"
+  * code.text = "2. Det skal du vide, før du begynder at tage  tracleer"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Tracleer
 
@@ -468,9 +468,9 @@ Tracleer anbefales ikke til pædiatriske patienter med systemisk sklerose og akt
 Se også pkt. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take tracleer"
+  * title =  "3. Sådan skal du tage tracleer"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tracleer"
+  * code.text = "3. Sådan skal du tage tracleer"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug af anden medicin sammen med Tracleer
 Fortæl det altid til lægen eller apotekspersonalet, hvis De bruger anden medicin eller for nylig har 
@@ -541,9 +541,9 @@ væsentlige natriumfrit.</p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling bør kun påbegyndes og overvåges af en læge, som har erfaring inden for behandling af 
 PAH eller systemisk sklerose. Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er De i tvivl, så 
@@ -579,9 +579,9 @@ Deres læge kan bede Dem reducere dosis over nogle få dage, før De stopper hel
 Spørg lægen eller apotekspersonalet, hvis der er noget, De er i tvivl om.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store tracleer"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tracleer"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 71
@@ -665,9 +665,9 @@ om sikkerheden af dette lægemiddel.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter "EXP".
@@ -1204,7 +1204,7 @@ RuleSet: 26b16d8f26d3d427e9f7f7a1372c2641ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1216,7 +1216,7 @@ RuleSet: 26b16d8f26d3d427e9f7f7a1372c2641ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1228,7 +1228,7 @@ RuleSet: 26b16d8f26d3d427e9f7f7a1372c2641ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

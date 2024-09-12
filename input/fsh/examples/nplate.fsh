@@ -508,9 +508,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -519,18 +519,18 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -544,9 +544,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What nplate is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What nplate is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nplates aktive stof er romiplostim, som er et protein, som anvendes til at behandle lave blodpladetal 
 hos patienter med immun primær trombocytopeni (kaldet ITP). ITP er en sygdom, hvor kroppens 
@@ -565,9 +565,9 @@ ITP. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take nplate"
+  * title = "2. Det skal du vide, før du begynder at tage  nplate"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take nplate"
+  * code.text = "2. Det skal du vide, før du begynder at tage  nplate"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Nplate </p>
 <ul>
@@ -645,9 +645,9 @@ Dem ved behandling med romiplostim. </p>
 forbigående anfald af svimmelhed) kan forringe Deres evne til at gøre dette på en sikker måde. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take nplate"
+  * title =  "3. Sådan skal du tage nplate"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take nplate"
+  * code.text = "3. Sådan skal du tage nplate"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Voksne og børn (1 til 17 år): </p>
 <p>Nplate vil blive givet under direkte opsyn af Deres læge, som omhyggeligt vil kontrollere den mængde 
@@ -683,9 +683,9 @@ tilbage. Deres læge beslutter, om De skal holde op med at bruge Nplate. </p> </
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Bivirkninger hos voksne med ITP </p>
@@ -990,9 +990,9 @@ rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan
 fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store nplate"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store nplate"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på ydre karton og hætteglassets etiket efter EXP. 
@@ -1007,9 +1007,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nplate indeholder:</p>
 <ul>
@@ -2117,7 +2117,7 @@ RuleSet: 234b7cd047275c814324a4fe38812d55ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -2129,7 +2129,7 @@ RuleSet: 234b7cd047275c814324a4fe38812d55ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -2141,7 +2141,7 @@ RuleSet: 234b7cd047275c814324a4fe38812d55ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

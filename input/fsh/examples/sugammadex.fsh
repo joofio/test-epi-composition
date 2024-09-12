@@ -278,9 +278,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -289,9 +289,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -299,9 +299,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -315,9 +315,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What sugammadex is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What sugammadex is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad Sugammadex Piramal er 
 Sugammadex Piramal indeholder det aktive stof sugammadex. Sugammadex Piramal er en Selektiv 
@@ -339,9 +339,9 @@ at opnå et moderat afslapningsniveau. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take sugammadex"
+  * title = "2. Det skal du vide, før du begynder at tage  sugammadex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take sugammadex"
+  * code.text = "2. Det skal du vide, før du begynder at tage  sugammadex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Sugammadex Piramal </p>
 <ul>
@@ -415,9 +415,9 @@ moderen. </p>
 ml. Dette svarer til 0,5 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take sugammadex"
+  * title =  "3. Sådan skal du tage sugammadex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take sugammadex"
+  * code.text = "3. Sådan skal du tage sugammadex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Sugammadex Piramal af en anæstesilæge eller under overvågning af anæstesilægen. </p>
 <p>Dosering </p>
@@ -442,9 +442,9 @@ Hvis det alligevel skulle ske, så vil det sandsynligvis ikke give problemer. </
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Hvis disse bivirkninger opstår, mens du er bedøvet, vil de blive set og behandlet af din anæstesilæge. </p>
@@ -499,9 +499,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store sugammadex"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sugammadex"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevaringen vil blive varetaget af sundhedspersonalet. 
 Opbevar lægemidlet utilgængeligt for børn. 
@@ -513,9 +513,9 @@ Efter første åbning og fortynding opbevares i køleskab (2 °C - 8 °C) og ska
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sugammadex Piramal indeholder 
 - Aktivt stof: sugammadex 
@@ -664,7 +664,7 @@ RuleSet: 16018c8f310d03d6a566ded2f2a2880aListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -676,7 +676,7 @@ RuleSet: 16018c8f310d03d6a566ded2f2a2880aListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

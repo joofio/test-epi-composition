@@ -607,7 +607,7 @@ RuleSet: d95102bde9e6478e73d009f96eccf149ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

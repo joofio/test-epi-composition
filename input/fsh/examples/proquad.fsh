@@ -453,9 +453,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -464,9 +464,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -474,9 +474,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -488,9 +488,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What proquad is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What proquad is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ProQuad er en vaccine, der indeholder svækket virus af mæslinger, fåresyge, røde hunde og
 skoldkopper (varicella). Når en person vaccineres med ProQuad, danner immunsystemet (kroppens
@@ -507,9 +507,9 @@ hunde eller skoldkopper (varicella) hos raske mennesker.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take proquad"
+  * title = "2. Det skal du vide, før du begynder at tage  proquad"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take proquad"
+  * code.text = "2. Det skal du vide, før du begynder at tage  proquad"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du / dit barn må ikke få ProQuad
  
@@ -610,9 +610,9 @@ administrerede produkter indeholdende sorbitol (eller fructose) og indtagelse af
 fructose) i kosten bør tages i betragtning.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take proquad"
+  * title =  "3. Sådan skal du tage proquad"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take proquad"
+  * code.text = "3. Sådan skal du tage proquad"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ProQuad skal gives som indsprøjtning i en muskel eller under huden enten på yderlåret eller på
 overarmen.
@@ -641,9 +641,9 @@ Din læge afgør, hvornår den manglende dosis skal gives.</p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre vacciner og lægemidler give bivirkninger, men ikke alle får
 bivirkninger.
@@ -692,9 +692,9 @@ fremskaffe mere information om sikkerheden af dette lægemiddel.</p>
 <p>43</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store proquad"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store proquad"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn.
 Brug ikke denne vaccine efter den udløbsdato, der står på den ydre karton efter EXP. Udløbsdatoen er
@@ -707,9 +707,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ProQuad indeholder:
 Efter rekonstitution indeholder 1 dosis (0,5 ml):</p>
@@ -1015,7 +1015,7 @@ RuleSet: 188ccb87c0d4f4c736200f4cfc1c3e01ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1027,7 +1027,7 @@ RuleSet: 188ccb87c0d4f4c736200f4cfc1c3e01ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

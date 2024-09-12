@@ -605,9 +605,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -616,9 +616,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -626,9 +626,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -640,9 +640,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What rezolsta is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What rezolsta is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er REZOLSTA?
 REZOLSTA indeholder de aktive stoffer darunavir og cobicistat.
@@ -661,9 +661,9 @@ medicinkombination der er bedst for dig.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take rezolsta"
+  * title = "2. Det skal du vide, før du begynder at tage  rezolsta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take rezolsta"
+  * code.text = "2. Det skal du vide, før du begynder at tage  rezolsta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke REZOLSTA</h2>
 <p>hvis du er allergisk over for darunavir, cobicistat eller et af de øvrige indholdsstoffer i 
@@ -916,9 +916,9 @@ Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. tablet, dvs. 
 væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take rezolsta"
+  * title =  "3. Sådan skal du tage rezolsta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take rezolsta"
+  * code.text = "3. Sådan skal du tage rezolsta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens, apotekspersonalets eller sygeplejerskens anvisning. Er du i 
 tvivl, så spørg lægen, apotekspersonalet eller sygeplejerskens.
@@ -960,9 +960,9 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Under hiv-behandling kan der forekomme vægtstigning samt forhøjede niveauer af lipider og glukose 
 i blodet. Dette er til dels forbundet med forbedret helbredstilstand og med livsstil, og for lipidernes 
@@ -1048,9 +1048,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store rezolsta"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rezolsta"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og på beholderen efter EXP. 
@@ -1063,9 +1063,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>REZOLSTA indeholder:</h2>
 <p>Aktive stoffer: darunavir og cobicistat. Hver tablet indeholder 800 mg darunavir (som ethanolat) 
@@ -1321,7 +1321,7 @@ RuleSet: 241d4bc94412cf7041721319e0eaea4cListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1333,7 +1333,7 @@ RuleSet: 241d4bc94412cf7041721319e0eaea4cListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

@@ -503,9 +503,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -514,9 +514,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -524,9 +524,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse  <br />
@@ -538,9 +538,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What tasmar is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What tasmar is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Til behandling af Parkinsons sygdom. Tasmar anvendes sammen med lægemidlet levodopa (som 
 levodopa/benserazid eller levodopa/carbidopa). 
@@ -553,9 +553,9 @@ levodopa/carbidopa) betyder det, at symptomerne på  Parkinsons sygdom mindskes.
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take tasmar"
+  * title = "2. Det skal du vide, før du begynder at tage  tasmar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take tasmar"
+  * code.text = "2. Det skal du vide, før du begynder at tage  tasmar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Tasmar:</p>
 <ul>
@@ -684,9 +684,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. filmovertrukn
 er i det væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take tasmar"
+  * title =  "3. Sådan skal du tage tasmar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tasmar"
+  * code.text = "3. Sådan skal du tage tasmar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid Tasmar nøjagtigt efter lægens eller apotekspersonalets anvisninger. Er du i tvivl, så spørg 
 lægen eller på apoteket. </p>
@@ -736,9 +736,9 @@ af lægen. Følg altid lægens råd om, hvor længe du skal tage Tasmar. </p> </
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
 Følgende frekvenser anvendes for bivirkninger: 
@@ -817,9 +817,9 @@ Websted: www.meldenbivirkning.dk </p>
 af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store tasmar"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tasmar"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Tasmar utilgængeligt for børn. 
 Brug ikke Tasmar efter den udløbsdato, der står på pakningen.<br />
@@ -830,9 +830,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tasmar indeholder: 
 Det aktivt stof ertolcapon (100 mg i hver filmovertrukken tablet). 
@@ -1130,7 +1130,7 @@ RuleSet: 28bc9e8680cc0c55edc2ed45f832ee0dListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1142,7 +1142,7 @@ RuleSet: 28bc9e8680cc0c55edc2ed45f832ee0dListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

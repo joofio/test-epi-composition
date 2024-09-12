@@ -496,9 +496,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -507,9 +507,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -517,9 +517,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -531,9 +531,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What glyxambi is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What glyxambi is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning
 Glyxambi indeholder to aktive stoffer, der kaldes empagliflozin og linagliptin. De tilhører begge to en 
@@ -568,9 +568,9 @@ sygeplejersken har anbefalet.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take glyxambi"
+  * title = "2. Det skal du vide, før du begynder at tage  glyxambi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take glyxambi"
+  * code.text = "2. Det skal du vide, før du begynder at tage  glyxambi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Glyxambi</h2>
 <p>hvis du er allergisk over for empagliflozin, linagliptin, en anden SGLT2-hæmmer (f.eks. 
@@ -677,9 +677,9 @@ motorkøretøj eller betjene maskiner, hvis du får et eller flere af disse symp
 Glyxambi.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take glyxambi"
+  * title =  "3. Sådan skal du tage glyxambi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take glyxambi"
+  * code.text = "3. Sådan skal du tage glyxambi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
 apotekspersonalet.
@@ -730,9 +730,9 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Kontakt straks læge eller nærmeste hospital, hvis du får en eller flere af følgende bivirkninger:
@@ -851,9 +851,9 @@ information om sikkerheden af dette lægemiddel.
 49</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store glyxambi"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store glyxambi"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på blisteren og æsken efter EXP. Udløbsdatoen er 
@@ -866,9 +866,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </d
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Glyxambi indeholder:
 Glyxambi 10 mg/5 mg filmovertrukne tabletter
@@ -1157,7 +1157,7 @@ RuleSet: ce5e68a096b816edf5b3a0ff2587822cListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1169,7 +1169,7 @@ RuleSet: ce5e68a096b816edf5b3a0ff2587822cListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

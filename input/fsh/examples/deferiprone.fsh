@@ -274,9 +274,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -285,9 +285,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -295,9 +295,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
 <ol>
@@ -311,9 +311,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What deferiprone is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What deferiprone is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deferiprone Lipomed indeholder det aktive stof deferipron. Deferiprone Lipomed er en jernchelator, 
 dvs. en type medicin, der fjerner overskydende jern fra kroppen. </p>
@@ -323,9 +323,9 @@ talassæmi-patienter, hvor nuværende kelationsterapi er kontraindiceret eller u
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take deferiprone"
+  * title = "2. Det skal du vide, før du begynder at tage  deferiprone"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take deferiprone"
+  * code.text = "2. Det skal du vide, før du begynder at tage  deferiprone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Deferiprone Lipomed 
  
@@ -389,9 +389,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. tablet og er 
 natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take deferiprone"
+  * title =  "3. Sådan skal du tage deferiprone"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take deferiprone"
+  * code.text = "3. Sådan skal du tage deferiprone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid denne medicin nøjagtigt efter lægens anvisning. Spørg lægen eller apoteket, hvis du er i tvivl. 
 Den mængde Deferiprone Lipomed, du tager, afhænger af din vægt. Den normale dosis er 25 mg/kg, 
@@ -411,9 +411,9 @@ Foretag ikke ændringer i den daglige dosering, uden først at have talt med læ
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Den alvorligste bivirkning ved Deferiprone Lipomed er et meget lavt antal hvide blodlegemer 
@@ -461,9 +461,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store deferiprone"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store deferiprone"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Må ikke opbevares ved temperaturer over 25 ºC. </p>
@@ -474,9 +474,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Deferiprone Lipomed indeholder: 
 Aktivt stof: deferipron. Hver filmovertrukket tablet indeholder 500 mg deferipron. </p>
@@ -625,7 +625,7 @@ RuleSet: 4a09b3a8552105810368cbf52100627eListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -637,7 +637,7 @@ RuleSet: 4a09b3a8552105810368cbf52100627eListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

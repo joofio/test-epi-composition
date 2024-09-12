@@ -463,9 +463,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -474,9 +474,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -484,9 +484,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -498,9 +498,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What carvykti is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What carvykti is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>
 CARVYKTI er en type lægemiddel, som kaldes "genmodificeret celleterapi", og som er 
@@ -519,9 +519,9 @@ kan genkende og angribe myelomcellerne.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take carvykti"
+  * title = "2. Det skal du vide, før du begynder at tage  carvykti"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take carvykti"
+  * code.text = "2. Det skal du vide, før du begynder at tage  carvykti"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få CARVYKTI
 
@@ -620,9 +620,9 @@ indeholde spor af kanamycin (et såkaldt aminoglycosid-antibiotikum), som begge 
 give allergiske reaktioner. Lægen vil overvåge dig for eventuelle tegn på en allergisk reaktion.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take carvykti"
+  * title =  "3. Sådan skal du tage carvykti"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take carvykti"
+  * code.text = "3. Sådan skal du tage carvykti"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil altid få CARVYKTI af en sundhedsperson på et godkendt behandlingscenter.
 Fremstilling af CARVYKTI fra dine egne blodlegemer
@@ -657,9 +657,9 @@ stammer fra dine egne hvide blodlegemer.
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CARVYKTI er en engangsbehandling. Du vil ikke få den igen.
 
@@ -696,9 +696,9 @@ Du må ikke donere blod, organer, væv eller celler til transplantationer, efter
 CARVYKTI.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store carvykti"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store carvykti"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 CARVYKTI kan give bivirkninger, som kan være alvorlige eller livstruende.
@@ -837,9 +837,9 @@ om sikkerheden af dette lægemiddel.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nedenstående oplysninger er kun til læger.
 Brug ikke lægemidlet efter den udløbsdato, der står på beholderens etiket og infusionsposen efter 
@@ -970,7 +970,7 @@ RuleSet: 155f96d6fa2a1acb6bbe985e5b890f92ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -982,7 +982,7 @@ RuleSet: 155f96d6fa2a1acb6bbe985e5b890f92ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

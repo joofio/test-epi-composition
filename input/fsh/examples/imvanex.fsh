@@ -317,9 +317,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -328,9 +328,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -338,9 +338,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -354,9 +354,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What imvanex is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What imvanex is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMVANEX er en vaccine, der anvendes til at forhindre kopper, abekopper og sygdom forårsaget af 
 vacciniavirus hos voksne. </p>
@@ -368,9 +368,9 @@ ikke sprede eller forårsage kopper, abekopper eller vacciniainfektion og -sygdo
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take imvanex"
+  * title = "2. Det skal du vide, før du begynder at tage  imvanex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take imvanex"
+  * code.text = "2. Det skal du vide, før du begynder at tage  imvanex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få IMVANEX: </p>
 <ul>
@@ -421,9 +421,9 @@ svimmelhed). </p>
 væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take imvanex"
+  * title =  "3. Sådan skal du tage imvanex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take imvanex"
+  * code.text = "3. Sådan skal du tage imvanex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du kan få denne vaccine uanset om du tidligere har fået koppevaccine. </p>
 <p>Denne vaccine vil indsprøjtes under huden, helst i overarmen, af din læge eller en syeplejerske. Den 
@@ -457,9 +457,9 @@ arrangere et andet besøg. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger 
@@ -580,9 +580,9 @@ V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere infor
 sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store imvanex"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store imvanex"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke vaccinen efter den udløbsdato, der står på etiketten efter EXP. Udløbsdatoen er den sidste 
@@ -595,9 +595,9 @@ den godkendte opbevaringstid før brug. </p>
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>IMVANEX indeholder: </p>
 <p>En dosis (0,5 ml) indeholder:</p>
@@ -800,7 +800,7 @@ RuleSet: efed70c799d3cf5deb34f761d19e059bListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -812,7 +812,7 @@ RuleSet: efed70c799d3cf5deb34f761d19e059bListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

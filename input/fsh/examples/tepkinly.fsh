@@ -436,9 +436,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -447,9 +447,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -457,9 +457,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -473,9 +473,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What tepkinly is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What tepkinly is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Tepkinly?  </p>
 <p>Tepkinly er et lægemiddel mod kræft, der indeholder det aktive stof epcoritamab. Tepkinly anvendes 
@@ -490,9 +490,9 @@ dem sammen, så dit immunsystem kan ødelægge kræftcellerne. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take tepkinly"
+  * title = "2. Det skal du vide, før du begynder at tage  tepkinly"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take tepkinly"
+  * code.text = "2. Det skal du vide, før du begynder at tage  tepkinly"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Tepkinly </p>
 <p>Hvis du er allergisk over for epcoritamab eller et af de øvrige indholdsstoffer i Tepkinly (angivet i 
@@ -587,9 +587,9 @@ væsentlige 'natriumfri'. </p>
 <p>Dette lægemiddel indeholder 21,9 mg sorbitol pr. dosisenhed, svarende til 27,33 mg/ml. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take tepkinly"
+  * title =  "3. Sådan skal du tage tepkinly"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tepkinly"
+  * code.text = "3. Sådan skal du tage tepkinly"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>En læge med erfaring i behandling af kræft vil tage sig af din behandling. Følg den behandlingsplan, 
 som din læge har forklaret dig. 
@@ -634,9 +634,9 @@ det kan gøre din tilstand værre, hvis du standser behandlingen. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger </p>
@@ -852,9 +852,9 @@ anført i Appendix V. Ved at indrapportere bivirkninger kan du hjælpe med at fr
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store tepkinly"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tepkinly"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tepkinly opbevares af lægen, sygeplejersken eller apotekspersonalet på hospitalet eller klinikken. 
 Sådan opbevares Tepkinly korrekt </p>
@@ -895,9 +895,9 @@ Af hensyn til miljøet må du ikke smide lægemiddelrester i afløbet, toilettet
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tepkinly indeholder:</p>
 <ul>
@@ -1247,7 +1247,7 @@ RuleSet: 8e3bfdaa73d1dfe2a558d763f021c01eListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1259,7 +1259,7 @@ RuleSet: 8e3bfdaa73d1dfe2a558d763f021c01eListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

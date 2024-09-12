@@ -379,9 +379,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -390,9 +390,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -400,9 +400,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -414,9 +414,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What zostavax is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What zostavax is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOSTAVAX er en vaccine, der anvendes til at forebygge helvedesild (herpes zoster) og herpes zoster-
 relateret postherpetisk neuralgi (PHN), dvs. de langvarige nervesmerter, der følger efter helvedesild.
@@ -439,9 +439,9 @@ Efter at blærerne i forbindelse med helvedesild er helet op, kan smerterne bliv
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take zostavax"
+  * title = "2. Det skal du vide, før du begynder at tage  zostavax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take zostavax"
+  * code.text = "2. Det skal du vide, før du begynder at tage  zostavax"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få ZOSTAVAX
  
@@ -500,9 +500,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (39 milligram) kalium pr. dosis, 
 væsentlige kaliumfrit.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take zostavax"
+  * title =  "3. Sådan skal du tage zostavax"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take zostavax"
+  * code.text = "3. Sådan skal du tage zostavax"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOSTAVAX skal injiceres under huden eller i en muskel, helst på overarmen.
 Hvis du har en sygdom, der vedrører blodets evne til at størkne, eller hvis du har for få blodplader i blodet,
@@ -512,9 +512,9 @@ Rekonstitutionsanvisninger til læger og sundhedspersonale findes sidst i indlæ
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre vacciner og lægemidler give bivirkninger, men ikke alle får
 bivirkninger.
@@ -548,9 +548,9 @@ information om sikkerheden af dette lægemiddel.</p>
 <p>42</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store zostavax"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zostavax"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar denne vaccine utilgængeligt for børn.
 Brug ikke denne vaccine efter den udløbsdato, der står på den ydre karton efter EXP. Udløbsdatoen er den
@@ -562,9 +562,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ZOSTAVAX indeholder:
 Efter rekonstitution indeholder en dosis (0,65 ml):
@@ -859,7 +859,7 @@ RuleSet: e635923c4f0c1291555b7edc27db8608ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -871,7 +871,7 @@ RuleSet: e635923c4f0c1291555b7edc27db8608ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

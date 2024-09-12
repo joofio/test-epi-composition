@@ -504,9 +504,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -515,9 +515,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -525,9 +525,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -539,9 +539,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What epoetin is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What epoetin is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Epoetin alfa HEXAL indeholder det aktive stof epoetin alfa, et protein som stimulerer knoglemarven 
 til at danne flere røde blodlegemer, der bærer hæmoglobin (et stof, der transporterer oxygen). Epoetin 
@@ -574,9 +574,9 @@ Epoetin alfa HEXAL kan nedsætte behovet for blodtransfusion.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take epoetin"
+  * title = "2. Det skal du vide, før du begynder at tage  epoetin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take epoetin"
+  * code.text = "2. Det skal du vide, før du begynder at tage  epoetin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Epoetin alfa HEXAL
 •
@@ -679,9 +679,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. d
 væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take epoetin"
+  * title =  "3. Sådan skal du tage epoetin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take epoetin"
+  * code.text = "3. Sådan skal du tage epoetin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.
 Din læge har taget blodprøver og har bestemt, at du har behov for Epoetin alfa HEXAL. 
@@ -839,9 +839,9 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Fortæl det straks til din læge eller sygeplejersken, hvis du bemærker nogle af bivirkningerne i 
@@ -954,9 +954,9 @@ fremskaffe mere information om sikkerheden af dette lægemiddel.
 95</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store epoetin"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store epoetin"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>•
 Opbevar lægemidlet utilgængeligt for børn.
@@ -988,9 +988,9 @@ smide lægemiddelrester i afløbet eller toilettet.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Epoetin alfa HEXAL indeholder:</h2>
 <h2>Aktivt stof: epoetin alfa (se tabellen nedenfor for kvantiteter).</h2>
@@ -1295,7 +1295,7 @@ RuleSet: 88ac51135926fe5f02906273e51ddf2fListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1307,7 +1307,7 @@ RuleSet: 88ac51135926fe5f02906273e51ddf2fListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

@@ -343,9 +343,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -354,9 +354,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -364,9 +364,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse 
@@ -378,9 +378,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What crysvita is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What crysvita is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
 CRYSVITA indeholder det aktive stof burosumab. Dette er en type lægemiddel, der kaldes for et 
@@ -428,9 +428,9 @@ blodet, så der kan opnås normale niveauer af fosfat. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take crysvita"
+  * title = "2. Det skal du vide, før du begynder at tage  crysvita"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take crysvita"
+  * code.text = "2. Det skal du vide, før du begynder at tage  crysvita"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke CRYSVITA hvis </p>
 <ul>
@@ -527,9 +527,9 @@ betjene værktøj eller maskiner eller føre motorkøretøj, og du skal fortæll
 Dette lægemiddel indeholder 45,91 mg sorbitol pr. hætteglas, svarende til 45,91 mg/ml. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take crysvita"
+  * title =  "3. Sådan skal du tage crysvita"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take crysvita"
+  * code.text = "3. Sådan skal du tage crysvita"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CRYSVITA skal gives som en injektion under huden (subkutan anvendelse) i overarmen, maven, 
 bagdelen eller låret. Du eller dit barn vil få lægemidlet af en sundhedsperson. Det kan også være, at 
@@ -572,9 +572,9 @@ og lægen vil omlægge fremtidige doser i henhold hertil. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Bivirkninger hos børn og unge med XLH 
@@ -684,9 +684,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store crysvita"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store crysvita"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar CRYSVITA utilgængeligt for børn. 
 Brug ikke CRYSVITA efter den udløbsdato, der står på kartonen og etiketten. 
@@ -701,9 +701,9 @@ sundhedspersonalet eller apotekspersonalet. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>CRYSVITA indeholder: 
 Aktivt stof: burosumab. Hvert hætteglas indeholder enten 10, 20 eller 30 mg burosumab. 
@@ -1083,7 +1083,7 @@ RuleSet: 8727047706feba67762f580057591e03ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1095,7 +1095,7 @@ RuleSet: 8727047706feba67762f580057591e03ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

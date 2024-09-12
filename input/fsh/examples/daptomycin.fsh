@@ -433,9 +433,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -444,9 +444,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -454,9 +454,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -468,9 +468,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What daptomycin is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What daptomycin is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i Daptomycin Hospira pulver til injektions-/infusionsvæske, opløsning, er daptomycin.
 Daptomycin er et antibakterielt middel, der kan stoppe væksten af visse bakterier. Daptomycin
@@ -487,9 +487,9 @@ andre antibakterielle midler, mens du er i behandling med Daptomycin Hospira.</p
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take daptomycin"
+  * title = "2. Det skal du vide, før du begynder at tage  daptomycin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take daptomycin"
+  * code.text = "2. Det skal du vide, før du begynder at tage  daptomycin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få Daptomycin Hospira:</h2>
 <p>hvis du er allergisk over for daptomycin eller et af de øvrige indholdsstoffer (angivet i 
@@ -592,9 +592,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. d
 natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take daptomycin"
+  * title =  "3. Sådan skal du tage daptomycin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take daptomycin"
+  * code.text = "3. Sådan skal du tage daptomycin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Der er normalt en læge eller en sygeplejerske, der giver dig Daptomycin Hospira.
 Voksne (18 år og derover)
@@ -619,9 +619,9 @@ Detaljerede instruktioner i brug og håndtering findes i slutningen af denne ind
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemider give bivirkninger, men ikke alle får bivirkninger.
 De alvorligste bivirkninger er beskrevet herunder:
@@ -758,9 +758,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store daptomycin"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store daptomycin"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>-
 Opbevar lægemidlet utilgængeligt for børn.
@@ -772,9 +772,9 @@ Må ikke opbevares ved temperaturer over 30°C.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Daptomycin Hospira indeholder:</h2>
 <h2>Aktivt stof: daptomycin. Et hætteglas med pulver indeholder 350 mg daptomycin.</h2>
@@ -1138,7 +1138,7 @@ RuleSet: 08bd32995710017e5d1be3af6c537328ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1150,7 +1150,7 @@ RuleSet: 08bd32995710017e5d1be3af6c537328ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

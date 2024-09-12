@@ -550,9 +550,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -561,9 +561,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -571,9 +571,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -587,9 +587,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What braftovi is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What braftovi is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Braftovi er et lægemiddel mod kræft, som indeholder det aktive stof encorafenib. Forandringer 
 (mutationer) i BRAF-genet kan producere proteiner, der får kræften til at vokse. Braftovi er rettet mod 
@@ -614,9 +614,9 @@ stopper kombinationen væksten af din kræft. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take braftovi"
+  * title = "2. Det skal du vide, før du begynder at tage  braftovi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take braftovi"
+  * code.text = "2. Det skal du vide, før du begynder at tage  braftovi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen vil teste dig for BRAF-mutationen, inden du starter på behandlingen. </p>
 <p>Eftersom Braftovi skal anvendes i kombination med binimetinib til behandling af melanom, bør du 
@@ -746,9 +746,9 @@ motorkøretøj og betjene maskiner, hvis du får synsproblemer eller andre bivir
 denne evne (se afsnit 4). Kontakt lægen, hvis du er usikker på, om du må køre. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take braftovi"
+  * title =  "3. Sådan skal du tage braftovi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take braftovi"
+  * code.text = "3. Sådan skal du tage braftovi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget skal du tage 
 Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
@@ -793,9 +793,9 @@ medmindre lægen siger det. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger </p>
@@ -1004,9 +1004,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store braftovi"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store braftovi"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisterkortet efter EXP. 
@@ -1018,9 +1018,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Braftovi indeholder:</p>
 <ul>
@@ -1207,7 +1207,7 @@ RuleSet: 7345b00216838e90492587f6ecbdea1cListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1219,7 +1219,7 @@ RuleSet: 7345b00216838e90492587f6ecbdea1cListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

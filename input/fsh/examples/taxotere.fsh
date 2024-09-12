@@ -450,9 +450,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -461,18 +461,18 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk. </p>  </div>"""   
 
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -484,9 +484,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What taxotere is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What taxotere is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægemidlet hedder TAXOTERE. Det er et handelsnavn for docetaxel. Docetaxel er et stof, der 
 udvindes af nålene fra takstræer. 
@@ -515,9 +515,9 @@ fluoruracil. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take taxotere"
+  * title = "2. Det skal du vide, før du begynder at tage  taxotere"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take taxotere"
+  * code.text = "2. Det skal du vide, før du begynder at tage  taxotere"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke TAXOTERE </p>
 <p> hvis du er allergisk over for docetaxel eller et af de øvrige indholdsstoffer i TAXOTERE (angivet i 
@@ -597,9 +597,9 @@ såsom patienter med leversygdom eller epilepsi. </p>
 nervesystemet, der omfatter hjernen og rygmarven). </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take taxotere"
+  * title =  "3. Sådan skal du tage taxotere"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take taxotere"
+  * code.text = "3. Sådan skal du tage taxotere"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAXOTERE vil blive administreret af personale med en sundhedsfaglig uddannelse. </p>
 <p>Den sædvanlige dosis er </p>
@@ -619,9 +619,9 @@ lægemiddel, så spørg din læge eller hospitalsfarmaceut. </p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Din læge vil diskutere disse med dig og forklare fordele og mulige risici ved behandlingen. </p>
@@ -793,9 +793,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store taxotere"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store taxotere"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på æsken, blisterpakningen og hætteglassene 
@@ -809,9 +809,9 @@ stuetemperatur (under 25 ºC). </p>
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>TAXOTERE koncentrat hætteglas indeholder 
 - Aktivt stof: docetaxel (som trihydrat). Hver ml docetaxel opløsning indeholder 40 mg 
@@ -1811,7 +1811,7 @@ RuleSet: ba2de541591622fcd614de6be8043458ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1823,7 +1823,7 @@ RuleSet: ba2de541591622fcd614de6be8043458ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1835,7 +1835,7 @@ RuleSet: ba2de541591622fcd614de6be8043458ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

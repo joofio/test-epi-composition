@@ -466,9 +466,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -477,18 +477,18 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugervejledning </p>  </div>"""   
 
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen  </p>
 <ol>
@@ -502,9 +502,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What relvar is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What relvar is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Relvar Ellipta indeholder to aktive stoffer: fluticasonfuroat og vilanterol. Relvar Ellipta findes i to forskellige 
 styrker: 92 mikrogram fluticasonfuroat og 22 mikrogram vilanterol eller 184 mikrogram fluticasonfuroat og 
@@ -538,9 +538,9 @@ ophostning af slim. Det er påvist, at Relvar Ellipta reducerer opblussen af KOL
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take relvar"
+  * title = "2. Det skal du vide, før du begynder at tage  relvar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take relvar"
+  * code.text = "2. Det skal du vide, før du begynder at tage  relvar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Relvar Ellipta<br />
 - hvis du er allergisk over for fluticasonfuroat, vilanterol eller et af de øvrige indholdsstoffer i dette 
@@ -609,9 +609,9 @@ maskiner. </p>
 Kontakt lægen, før du tager denne medicin, hvis din læge har fortalt dig, at du ikke tåler visse sukkerarter.  </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take relvar"
+  * title =  "3. Sådan skal du tage relvar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take relvar"
+  * code.text = "3. Sådan skal du tage relvar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
 apotekspersonalet. </p>
@@ -661,9 +661,9 @@ må ikke stoppe behandlingen, medmindre lægen siger det. Heller ikke selvom du 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
 <p>Allergiske reaktioner </p>
@@ -727,9 +727,9 @@ Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere informat
 dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store relvar"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store relvar"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken, bakken og inhalatoren efter EXP. 
@@ -745,9 +745,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Relvar Ellipta indeholder:</p>
 <ul>
@@ -1103,7 +1103,7 @@ RuleSet: 40f1959ef0b924c372a2c6eb95894c6aListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1115,7 +1115,7 @@ RuleSet: 40f1959ef0b924c372a2c6eb95894c6aListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

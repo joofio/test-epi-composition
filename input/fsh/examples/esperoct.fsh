@@ -316,9 +316,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -327,9 +327,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -337,9 +337,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -353,9 +353,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What esperoct is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What esperoct is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Esperoct 
 Esperoct indeholder det aktive stof turoctocog alfa pegol, som er et langtidsvirkende rekombinant 
@@ -370,9 +370,9 @@ denne defekte eller manglende faktor VIII og hjælper blodet til at størkne på
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take esperoct"
+  * title = "2. Det skal du vide, før du begynder at tage  esperoct"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take esperoct"
+  * code.text = "2. Det skal du vide, før du begynder at tage  esperoct"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Esperoct </p>
 <ul>
@@ -437,9 +437,9 @@ En nedsat aktivitet af faktor VIII kan forekomme i begyndelsen af din behandling
 at din medicin virker mindre end forventet, skal du fortælle det til din læge.  </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take esperoct"
+  * title =  "3. Sådan skal du tage esperoct"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take esperoct"
+  * code.text = "3. Sådan skal du tage esperoct"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandlingen med Esperoct bliver igangsat af en læge, der har erfaring med at behandle patienter med 
 hæmofili A. </p>
@@ -475,9 +475,9 @@ aktuel blødning vil måske ikke stoppe. Spørg lægen, hvis der er noget, du er
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Allergiske reaktioner (overfølsomhed) 
@@ -552,9 +552,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store esperoct"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store esperoct"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står efter 'EXP' på kartonen, på hætteglasset og den 
@@ -610,9 +610,9 @@ smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p>
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Esperoct indeholder </p>
 <ul>
@@ -1528,7 +1528,7 @@ RuleSet: 4235a6fbbdf6cea7a0c9802b3f2102e6ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1540,7 +1540,7 @@ RuleSet: 4235a6fbbdf6cea7a0c9802b3f2102e6ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1552,7 +1552,7 @@ RuleSet: 4235a6fbbdf6cea7a0c9802b3f2102e6ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

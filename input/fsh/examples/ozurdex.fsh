@@ -362,9 +362,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -373,9 +373,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -383,9 +383,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
 1. Virkning og anvendelse
@@ -397,9 +397,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What ozurdex is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What ozurdex is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Det aktive stof i OZURDEX er dexamethason. Dexamethason tilhører en lægemiddelgruppe, som 
 kaldes kortikosteroider.
@@ -421,9 +421,9 @@ tværs af synsfeltet). OZURDEX virker ved at reducere denne inflammation.</p> </
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take ozurdex"
+  * title = "2. Det skal du vide, før du begynder at tage  ozurdex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take ozurdex"
+  * code.text = "2. Det skal du vide, før du begynder at tage  ozurdex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Brug ikke OZURDEX</h2>
 <p>hvis du er overfølsom (allergisk) over for dexamethason eller et af de øvrige indholdsstoffer i 
@@ -494,9 +494,9 @@ motorcykel, og lad være med at cykle, hvis dette sker, og indtil dit syn har fo
 at arbejde med værktøj eller maskiner.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take ozurdex"
+  * title =  "3. Sådan skal du tage ozurdex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ozurdex"
+  * code.text = "3. Sådan skal du tage ozurdex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Alle injektioner med OZURDEX gives af en erfaren øjenlæge.
 Den anbefalede dosis er 1 implantat, som gives via injektion i øjet. Hvis virkningen af denne injektion 
@@ -514,9 +514,9 @@ Spørg lægen eller på apoteket, hvis der er noget, du er i tvivl om.</p> </div
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger.
 Følgende bivirkninger kan ses med OZURDEX:
@@ -555,9 +555,9 @@ lægemiddel.</li>
 </ul> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store ozurdex"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ozurdex"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke OZURDEX efter den udløbsdato, der står på pakningen eller posen efter EXP. 
@@ -568,9 +568,9 @@ medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>OZURDEX indeholder</h2>
 <h2>Aktivt stof: Dexamethason.</h2>
@@ -1005,7 +1005,7 @@ RuleSet: 5535a1058c02154998e04426c8620587ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1017,7 +1017,7 @@ RuleSet: 5535a1058c02154998e04426c8620587ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

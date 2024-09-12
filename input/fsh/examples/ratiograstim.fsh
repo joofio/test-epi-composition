@@ -480,9 +480,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -491,9 +491,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Sådan giver De Dem selv indsprøjtninger </li>
@@ -503,9 +503,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse 
@@ -517,9 +517,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What ratiograstim is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What ratiograstim is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
 Ratiograstim er en vækstfaktor (granulocyt-kolonistimulerende faktor) for hvide blodlegemer og 
@@ -548,9 +548,9 @@ med at forhindre infektion </li>
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take ratiograstim"
+  * title = "2. Det skal du vide, før du begynder at tage  ratiograstim"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take ratiograstim"
+  * code.text = "2. Det skal du vide, før du begynder at tage  ratiograstim"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ratiograstim 
 - hvis De er allergisk over for filgrastim eller et af de øvrige indholdsstoffer i Ratiograstim 
@@ -620,9 +620,9 @@ Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. fyldt injekti
 den er i det væsentlige ’natriumfrit’. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take ratiograstim"
+  * title =  "3. Sådan skal du tage ratiograstim"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ratiograstim"
+  * code.text = "3. Sådan skal du tage ratiograstim"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er De i tvivl, så spørg 
 lægen eller apotekspersonalet. </p>
@@ -654,9 +654,9 @@ læge hurtigst muligt. De må ikke tage en dobbeltdosis som erstatning for den g
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Vigtige bivirkninger </p>
@@ -781,9 +781,9 @@ rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan
 fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store ratiograstim"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ratiograstim"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på den ydre karton og på den fyldte 
@@ -799,9 +799,9 @@ ikke smide lægemiddelrester i afløbet eller toilettet. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ratiograstim indeholder:</p>
 <ul>
@@ -1175,7 +1175,7 @@ RuleSet: 53638a22b9c3baf68ce45da859e1bb4bListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1187,7 +1187,7 @@ RuleSet: 53638a22b9c3baf68ce45da859e1bb4bListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

@@ -306,9 +306,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -317,18 +317,18 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning </p>  </div>"""   
 
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -342,9 +342,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What ebglyss is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What ebglyss is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ebglyss indeholder det aktive stof lebrikizumab. </p>
 <p>Ebglyss bruges til at behandle voksne og unge i alderen 12 år og derover med en kropsvægt på mindst 
@@ -360,9 +360,9 @@ kløe og hudsmerte. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take ebglyss"
+  * title = "2. Det skal du vide, før du begynder at tage  ebglyss"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take ebglyss"
+  * code.text = "2. Det skal du vide, før du begynder at tage  ebglyss"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Ebglyss 
 - hvis du er allergisk over for lebrikizumab eller et af de øvrige indholdsstoffer (angivet i 
@@ -426,9 +426,9 @@ skal amme eller bruge Ebglyss. Du må ikke gøre begge dele. </p>
 Det er usandsynligt, at Ebglyss vil påvirke din evne til at føre motorkøretøj og betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take ebglyss"
+  * title =  "3. Sådan skal du tage ebglyss"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ebglyss"
+  * code.text = "3. Sådan skal du tage ebglyss"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
 lægen eller apotekspersonalet. </p>
@@ -472,9 +472,9 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Almindelige (kan påvirke op til 1 ud af 10 personer) </p>
@@ -515,9 +515,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store ebglyss"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ebglyss"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på etiketten efter EXP. Udløbsdatoen er den sidste 
@@ -536,9 +536,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ebglyss indeholder<br />
 - Aktivt stof: lebrikizumab. Hver fyldt injektionssprøjte indeholder 250 mg lebrikizumab i 2 ml 
@@ -961,7 +961,7 @@ RuleSet: 3c57f0122132d30c2d609098965d1921ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -973,7 +973,7 @@ RuleSet: 3c57f0122132d30c2d609098965d1921ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

@@ -392,9 +392,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -403,9 +403,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -413,9 +413,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -429,9 +429,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What tevimbra is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What tevimbra is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tevimbra er et kræftlægemiddel, der indeholder det aktive stof tislelizumab. Det er et monoklonalt 
 antistof, en type protein, der er designet til at genkende og binde sig til et bestemt mål i kroppen, 
@@ -451,9 +451,9 @@ dette lægemiddel. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take tevimbra"
+  * title = "2. Det skal du vide, før du begynder at tage  tevimbra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take tevimbra"
+  * code.text = "2. Det skal du vide, før du begynder at tage  tevimbra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Tevimbra 
 - hvis du er allergisk over for tislelizumab eller et af de øvrige indholdsstoffer i Tevimbra 
@@ -551,9 +551,9 @@ pr. ml koncentrat. En enkel infusion med Tevimbra indeholder 32 mg natrium i to 
 Dette svarer til 1,6 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take tevimbra"
+  * title =  "3. Sådan skal du tage tevimbra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tevimbra"
+  * code.text = "3. Sådan skal du tage tevimbra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Tevimbra på et hospital eller en klinik under opsyn af en erfaren læge. 
 - Den sædvanlige dosis af Tevimbra er 200 mg givet som en intravenøs infusion (drop i en vene) 
@@ -573,9 +573,9 @@ lægemiddel. </p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Nogle bivirkninger af Tevimbra kan være alvorlige (se listen under "Vær opmærksom på alvorlige 
@@ -678,9 +678,9 @@ indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
 lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store tevimbra"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tevimbra"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen, apotekspersonalet eller sygeplejersken er ansvarlig for opbevaring af lægemidlet og korrekt 
 bortskaffelse af ikke-anvendt præparat. De følgende oplysninger er henvendt til sundhedspersoner. </p>
@@ -703,9 +703,9 @@ affald heraf skal bortskaffes i henhold til lokale retningslinjer. </p> </div>""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tevimbra indeholder:</p>
 <ul>
@@ -1328,7 +1328,7 @@ RuleSet: b118a8011d0099eb4bb6c4b864ba44c0ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1340,7 +1340,7 @@ RuleSet: b118a8011d0099eb4bb6c4b864ba44c0ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1352,7 +1352,7 @@ RuleSet: b118a8011d0099eb4bb6c4b864ba44c0ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

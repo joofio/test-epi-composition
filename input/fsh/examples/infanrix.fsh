@@ -424,9 +424,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -435,9 +435,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -445,9 +445,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -459,9 +459,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What infanrix is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What infanrix is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Infanrix hexa er en vaccine, der beskytter dit barn mod seks sygdomme: </p>
 <p>• Difteri: en alvorlig bakterieinfektion, som hovedsageligt angriber luftvejene og undertiden huden. 
@@ -497,9 +497,9 @@ dit barn mod de omtalte sygdomme.
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take infanrix"
+  * title = "2. Det skal du vide, før du begynder at tage  infanrix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take infanrix"
+  * code.text = "2. Det skal du vide, før du begynder at tage  infanrix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dit barn må ikke blive vaccineret med Infanrix hexa </p>
 <p>• hvis dit barn er allergisk over for:</p>
@@ -538,9 +538,9 @@ kontakte lægen. Se også punkt </li>
 </ul> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take infanrix"
+  * title =  "3. Sådan skal du tage infanrix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take infanrix"
+  * code.text = "3. Sådan skal du tage infanrix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>• hvis dit barn er født meget for tidligt (i eller før 28. svangerskabsuge) kan der forekomme længere 
 mellemrum end normalt mellem vejrtrækningerne 2-3 dage efter vaccination. Disse børn kan have 
@@ -571,9 +571,9 @@ kaliumfri. </p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosering 
 • Dit barn vil få i alt to eller tre injektioner med et tidsinterval på henholdsvis mindst 2 eller 1 måned(er) 
@@ -590,9 +590,9 @@ injektion.
 fuldstændigt beskyttet mod de nævnte sygdomme. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store infanrix"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store infanrix"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Følgende bivirkninger kan forekomme med denne vaccine. </p>
@@ -643,9 +643,9 @@ sikkerheden af dette lægemiddel. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>
@@ -794,7 +794,7 @@ RuleSet: 9e9af0d61ae4c0f16f1d8deb4eb5766dListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -806,7 +806,7 @@ RuleSet: 9e9af0d61ae4c0f16f1d8deb4eb5766dListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

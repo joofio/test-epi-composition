@@ -357,9 +357,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -368,9 +368,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -378,9 +378,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse<br />
@@ -392,9 +392,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What fluad is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What fluad is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluad Tetra er en vaccine mod influenza.<br />
 Når en person får vaccinen, vil immunsystemet (kroppens naturlige forsvarssystem) danne sin egen 
@@ -406,9 +406,9 @@ anbefalinger for sæsonen 2023/2024. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take fluad"
+  * title = "2. Det skal du vide, før du begynder at tage  fluad"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take fluad"
+  * code.text = "2. Det skal du vide, før du begynder at tage  fluad"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du bør ikke få Fluad Tetra 
 - Hvis du er allergisk over for:<br />
@@ -466,9 +466,9 @@ Denne vaccine indeholder mindre end 1 mmol (39 mg) kalium pr. dosis, dvs. den er
 kaliumfri. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take fluad"
+  * title =  "3. Sådan skal du tage fluad"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take fluad"
+  * code.text = "3. Sådan skal du tage fluad"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluad Tetra gives af lægen eller sygeplejersken som en indsprøjtning i musklen øverst på overarmen 
 (deltamusklen). </p>
@@ -477,9 +477,9 @@ kaliumfri. </p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Fortæl det straks til lægen eller tag på skadestuen på dit nærmeste hospital, hvis du oplever den 
@@ -602,9 +602,9 @@ Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere informat
 af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store fluad"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store fluad"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Opbevares i køleskab (2 °C til 8 °C). Må ikke nedfryses. Kasseres, hvis vaccinen har været nedfrosset. 
@@ -616,9 +616,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fluad Tetra indeholder: </p>
 <p>Aktive stoffer<br />
@@ -888,7 +888,7 @@ RuleSet: 2551c286e23d3921dbfab879452cee74ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -900,7 +900,7 @@ RuleSet: 2551c286e23d3921dbfab879452cee74ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

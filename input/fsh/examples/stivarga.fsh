@@ -556,9 +556,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -567,9 +567,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -577,9 +577,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -593,9 +593,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What stivarga is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What stivarga is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stivarga indeholder det aktive stof regorafenib. Det er et lægemiddel, der bruges til at behandle kræft 
 ved at hæmme kræftcellernes vækst og spredningen af kræftceller og afskære den blodforsyning, der 
@@ -617,9 +617,9 @@ dette lægemiddel. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take stivarga"
+  * title = "2. Det skal du vide, før du begynder at tage  stivarga"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take stivarga"
+  * code.text = "2. Det skal du vide, før du begynder at tage  stivarga"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Stivarga 
 - Hvis du er allergisk over for regorafenib eller et af de øvrige indholdsstoffer i Stivarga (angivet i 
@@ -749,9 +749,9 @@ en voksen. </p>
 <p>Dette lægemiddel indeholder 1,68 mg lecithin (deriveret fra soja) pr. daglig dosis (4 tabletter). </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take stivarga"
+  * title =  "3. Sådan skal du tage stivarga"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take stivarga"
+  * code.text = "3. Sådan skal du tage stivarga"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemiddlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
 apotekspersonalet. </p>
@@ -795,9 +795,9 @@ forrige dag. Fortæl din læge, hvis du glemmer en dosis. </p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Dette lægemiddel kan også påvirke resultaterne af nogle blodprøver. </p>
@@ -931,9 +931,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store stivarga"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store stivarga"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æskens og tabletbeholderens etiket efter EXP. 
@@ -946,9 +946,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.  </p> <
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stivarga indeholder:</p>
 <ul>
@@ -1168,7 +1168,7 @@ RuleSet: 1725e26bb7cb4ad5c29cb26127be8f47ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1180,7 +1180,7 @@ RuleSet: 1725e26bb7cb4ad5c29cb26127be8f47ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

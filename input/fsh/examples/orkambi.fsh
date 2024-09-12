@@ -441,9 +441,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -452,9 +452,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -462,9 +462,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -478,9 +478,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What orkambi is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What orkambi is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orkambi indeholder to aktive stoffer, lumacaftor og ivacaftor. Det er et lægemiddel, der anvendes til 
 langvarig behandling af cystisk fibrose (CF) hos patienter i alderen 6 år og ældre, som har en specifik 
@@ -498,9 +498,9 @@ også opleve, at du lettere tager på i vægt. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take orkambi"
+  * title = "2. Det skal du vide, før du begynder at tage  orkambi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take orkambi"
+  * code.text = "2. Det skal du vide, før du begynder at tage  orkambi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Orkambi </p>
 <ul>
@@ -656,9 +656,9 @@ gør andre ting, der kræver fuld opmærksomhed, indtil symptomerne forsvinder. 
 væsentlige natrium-frit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take orkambi"
+  * title =  "3. Sådan skal du tage orkambi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take orkambi"
+  * code.text = "3. Sådan skal du tage orkambi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
 <p>Anbefalet dosis </p>
@@ -732,9 +732,9 @@ en dobbeltdosis som erstatning for denglemte tablet. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. De 
 bivirkninger, der er rapporteret med Orkambi og ivacaftor alene (et af de aktive stoffer i Orkambi), er 
@@ -895,9 +895,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store orkambi"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store orkambi"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken/blisteren efter EXP. Udløbsdatoen er den 
@@ -908,9 +908,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Orkambi indeholder: </p>
 <p>Aktive stoffer: lumacaftor og ivacaftor. </p>
@@ -1144,7 +1144,7 @@ RuleSet: 8eabca438b9c6aec8be0a0c5c738daddListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1156,7 +1156,7 @@ RuleSet: 8eabca438b9c6aec8be0a0c5c738daddListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

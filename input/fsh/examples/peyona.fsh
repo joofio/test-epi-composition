@@ -360,9 +360,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -371,9 +371,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -381,9 +381,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -395,9 +395,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What peyona is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What peyona is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Peyona indeholder det aktive stof caffeincitrat, som stimulerer centralnervesystemet og tilhører en 
 gruppe lægemidler, der kaldes metylxantiner. 
@@ -410,9 +410,9 @@ antallet af episoder med afbrudt åndedræt hos for tidligt fødte spædbørn.</
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take peyona"
+  * title = "2. Det skal du vide, før du begynder at tage  peyona"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take peyona"
+  * code.text = "2. Det skal du vide, før du begynder at tage  peyona"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Peyona
 
@@ -471,9 +471,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium per dosis, dvs. d
 væsentlige natrium-fri.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take peyona"
+  * title =  "3. Sådan skal du tage peyona"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take peyona"
+  * code.text = "3. Sådan skal du tage peyona"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Peyona bør kun anvendes i en intensivafdeling for nyfødte, hvor passende faciliteter til 
 overvågning af patienten er tilgængelige. Behandlingen bør påbegyndes af en læge, der har 
@@ -504,9 +504,9 @@ Spørg Deres spædbarns læge, hvis der er noget, De er i tvivl om.</p> </div>""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. Det kan 
 imidlertid være vanskeligt at skelne bivirkningerne fra hyppige komplikationer, der forekommer hos 
@@ -561,9 +561,9 @@ indrapportere bivirkninger kan De hjælpe med at fremskaffe mere information om 
 lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store peyona"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store peyona"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste dag i 
@@ -574,9 +574,9 @@ Efter at ampullen er åbnet, skal indholdet anvendes omgående. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Peyona indeholder:
 Aktivt stof: caffeincitrat. 
@@ -825,7 +825,7 @@ RuleSet: 8e38350ad4085562476adf145c0f9faeListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -837,7 +837,7 @@ RuleSet: 8e38350ad4085562476adf145c0f9faeListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

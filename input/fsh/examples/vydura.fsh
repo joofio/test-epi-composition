@@ -336,9 +336,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -347,9 +347,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -357,9 +357,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -371,9 +371,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What vydura is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What vydura is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VYDURA indeholder det aktive indholdsstof rimegepant, som stopper aktiviteten af et stof i kroppen, 
 der kaldes calcitonin genrelateret peptid (CGRP). Personer, der lider af migræne, kan have forhøjede 
@@ -386,9 +386,9 @@ VYDURA anvendes til at behandle og forebygge migræneanfald hos voksne.</p> </di
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take vydura"
+  * title = "2. Det skal du vide, før du begynder at tage  vydura"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take vydura"
+  * code.text = "2. Det skal du vide, før du begynder at tage  vydura"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke VYDURA</h2>
 <p>hvis du er allergisk over for rimegepant eller et af de øvrige indholdsstoffer i VYDURA 
@@ -449,9 +449,9 @@ Trafik- og arbejdssikkerhed
 VYDURA forventes ikke at påvirke din evne til at føre køretøj eller betjene maskiner.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take vydura"
+  * title =  "3. Sådan skal du tage vydura"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take vydura"
+  * code.text = "3. Sådan skal du tage vydura"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
 lægen eller apotekspersonalet.
@@ -465,9 +465,9 @@ Den maksimale daglige dosis er en frysetørret tablet (75 mg rimegepant) dagligt
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>VYDURA er til oral anvendelse.
 Den frysetørrede tablet kan tages sammen med eller uden mad eller vand.
@@ -489,9 +489,9 @@ glemte dosis.
 Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store vydura"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store vydura"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Hold straks op med at bruge VYDURA og kontakt lægen, hvis du får tegn på en allergisk 
@@ -507,9 +507,9 @@ om sikkerheden af dette lægemiddel.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisteren efter EXP. Udløbsdatoen er 
@@ -643,7 +643,7 @@ RuleSet: 443c755443342bac5ae9c42b145300e0ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -655,7 +655,7 @@ RuleSet: 443c755443342bac5ae9c42b145300e0ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

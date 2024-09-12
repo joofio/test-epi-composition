@@ -433,9 +433,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -444,18 +444,18 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brugsanvisning til Atectura Breezhaler inhalator </p>  </div>"""   
 
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -469,9 +469,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What atectura is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What atectura is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Virkning 
 Atectura Breezhaler indeholder to aktive stoffer, der kaldes indacaterol og mometasonfuroat. </p>
@@ -498,9 +498,9 @@ medicin er blevet ordineret til dig. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take atectura"
+  * title = "2. Det skal du vide, før du begynder at tage  atectura"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take atectura"
+  * code.text = "2. Det skal du vide, før du begynder at tage  atectura"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Følg alle lægens anvisninger nøje. </p>
 <p>Tag ikke Atectura Breezhaler 
@@ -560,9 +560,9 @@ Dette lægemiddel indeholder ca. 25 mg lactose pr. kapsel. Kontakt lægen, før 
 lægemiddel, hvis lægen har fortalt dig, at du ikke tåler visse sukkerarter. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take atectura"
+  * title =  "3. Sådan skal du tage atectura"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take atectura"
+  * code.text = "3. Sådan skal du tage atectura"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
 lægen eller apotekspersonalet. </p>
@@ -621,9 +621,9 @@ astmasymptomer kan vende tilbage, hvis du holder op med at tage lægemidlet. </p
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Nogle bivirkninger kan være alvorlige 
@@ -664,9 +664,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store atectura"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store atectura"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Opbevar lægemidlet utilgængeligt for børn. </li>
@@ -684,9 +684,9 @@ brugsanvisningen, der følger med sensor-pakningen. </li>
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Atectura Breezhaler indeholder:</p>
 <ul>
@@ -1155,7 +1155,7 @@ RuleSet: 888f93180b4dbc4cf7451a0e821152daListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1167,7 +1167,7 @@ RuleSet: 888f93180b4dbc4cf7451a0e821152daListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

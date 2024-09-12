@@ -393,9 +393,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -404,9 +404,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -414,9 +414,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse<br />
@@ -428,9 +428,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What xtandi is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What xtandi is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xtandi indeholder det aktive stof enzalutamid. Xtandi anvendes til behandling af voksne mænd med 
 prostatakræft:</p>
@@ -453,9 +453,9 @@ deling. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take xtandi"
+  * title = "2. Det skal du vide, før du begynder at tage  xtandi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take xtandi"
+  * code.text = "2. Det skal du vide, før du begynder at tage  xtandi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Xtandi 
 - hvis du er allergisk over for enzalutamid eller et af de øvrige indholdsstoffer i Xtandi (angivet i 
@@ -564,9 +564,9 @@ Hvis du har højere risiko for krampeanfald, bør du kontakte lægen.  </p>
 Dette lægemiddel indeholder 57,8 mg sorbitol (en form for sukker) pr. bløde kapsel.  </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take xtandi"
+  * title =  "3. Sådan skal du tage xtandi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take xtandi"
+  * code.text = "3. Sådan skal du tage xtandi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen.  </p>
 <p>Den sædvanlige dosis er 160 mg (fire bløde kapsler), som tages på samme tidspunkt én gang dagligt.  </p>
@@ -596,9 +596,9 @@ Du må ikke holde op med at tage dette lægemiddel, medmindre lægen beder dig o
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Krampeanfald 
@@ -640,9 +640,9 @@ indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
 lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store xtandi"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store xtandi"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på paptegnebog og den ydre karton af pakningen 
@@ -654,9 +654,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xtandi indeholder:</p>
 <ul>
@@ -1341,7 +1341,7 @@ RuleSet: 0f22d445f37b02d3c837ebc1451981fcListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1353,7 +1353,7 @@ RuleSet: 0f22d445f37b02d3c837ebc1451981fcListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1365,7 +1365,7 @@ RuleSet: 0f22d445f37b02d3c837ebc1451981fcListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

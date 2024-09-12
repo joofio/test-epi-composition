@@ -464,9 +464,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -475,18 +475,18 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>OBS! Den nyeste indlægsseddel kan findes på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -500,9 +500,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What cholib is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What cholib is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cholib indeholder to forskellige aktive stoffer: fenofibrat (som tilhører en lægemiddelgruppe, der 
 hedder fibrater) og simvastatin (som tilhører en lægemiddelgruppe, der hedder statiner). De bruges 
@@ -530,9 +530,9 @@ med Cholib. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take cholib"
+  * title = "2. Det skal du vide, før du begynder at tage  cholib"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take cholib"
+  * code.text = "2. Det skal du vide, før du begynder at tage  cholib"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Cholib </p>
 <ul>
@@ -757,9 +757,9 @@ du ikke tage Cholib. </p>
 <p>Cholib indeholder Sunset Yellow FCF (E110), der kan give allergiske reaktioner. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take cholib"
+  * title =  "3. Sådan skal du tage cholib"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cholib"
+  * code.text = "3. Sådan skal du tage cholib"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens eller apotekspersonalets anvisning. Er du i tvivl, så 
 spørg lægen eller på apoteket. </p>
@@ -782,9 +782,9 @@ det. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <ul>
@@ -990,9 +990,9 @@ i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaff
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store cholib"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store cholib"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn. </p>
 <p>Brug ikke Cholib efter den udløbsdato, der står på kartonen og blisterkortet efter Exp. Udløbsdatoen er 
@@ -1003,9 +1003,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cholib indeholder: </p>
 <p>Aktivt stof/aktive stoffer: fenofibrat og simvastatin. En tablet indeholder 145 mg fenofibrat og 20 mg 
@@ -1269,7 +1269,7 @@ RuleSet: 63e581259f99b3ad3581a50239777ba2ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1281,7 +1281,7 @@ RuleSet: 63e581259f99b3ad3581a50239777ba2ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

@@ -537,9 +537,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -548,9 +548,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -558,9 +558,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -572,9 +572,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What accofil is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What accofil is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Accofil er en vækstfaktor for hvide blodlegemer (granulocytkoloni-stimulerende faktor) og tilhører en 
 gruppe lægemidler ved navn cytokiner. Vækstfaktorer er proteiner, der dannes naturligt i kroppen, 
@@ -604,9 +604,9 @@ infektioner.  </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take accofil"
+  * title = "2. Det skal du vide, før du begynder at tage  accofil"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take accofil"
+  * code.text = "2. Det skal du vide, før du begynder at tage  accofil"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Accofil<br />
 - hvis du er allergisk over for filgrastim eller et af de øvrige indholdsstoffer i Accofil (anført i 
@@ -691,9 +691,9 @@ kaster op eller får ubehagelige virkninger som f.eks. oppustethed, mavekramper 
 indeholder tørt naturgummi (et derivat af latex), som kan forårsage en alvorlig allergisk reaktion </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take accofil"
+  * title =  "3. Sådan skal du tage accofil"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take accofil"
+  * code.text = "3. Sådan skal du tage accofil"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen, apotekspersonalet 
 eller sygeplejersken. </p>
@@ -850,9 +850,9 @@ som muligt. Du må ikke tage en dobbeltdosis som erstatning for den glemte dosis
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Fortæl straks din læge under behandlingen:</p>
@@ -980,9 +980,9 @@ V.  </p>
 af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store accofil"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store accofil"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på yderkartonen og på den fyldte injektionssprøjte 
@@ -1001,9 +1001,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Accofil indeholder:</p>
 <ul>
@@ -1206,7 +1206,7 @@ RuleSet: 8d69d820c695d3ae73c4c08229874072ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1218,7 +1218,7 @@ RuleSet: 8d69d820c695d3ae73c4c08229874072ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

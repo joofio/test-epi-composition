@@ -460,9 +460,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -471,9 +471,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -481,9 +481,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse 
@@ -495,9 +495,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What liprolog is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What liprolog is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Liprolog anvendes til at behandle diabetes. Liprolog virker hurtigere end almindelig human insulin, 
 fordi insulinmolekylet er blevet ændret en smule.  </p>
@@ -514,9 +514,9 @@ insulintype hører en separat indlægsseddel med oplysninger om den enkelte insu
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take liprolog"
+  * title = "2. Det skal du vide, før du begynder at tage  liprolog"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take liprolog"
+  * code.text = "2. Det skal du vide, før du begynder at tage  liprolog"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug IKKE Liprolog 
 - hvis du føler, at du er ved at få hypoglykæmi (lavt blodsukker). Senere i denne indlægsseddel 
@@ -612,9 +612,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis, dvs. d
 væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take liprolog"
+  * title =  "3. Sådan skal du tage liprolog"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take liprolog"
+  * code.text = "3. Sådan skal du tage liprolog"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kontrollér altid insulinets navn og type på pakningen og hætteglassets etiket, når du får 
 insulinet fra apoteket. Vær opmærksom på, at du får det Liprolog produkt, som din læge har 
@@ -746,9 +746,9 @@ Hvis du holder op med at tage Liprolog, kan det ske, at dit blodsukker bliver fo
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Systemisk allergi er sjælden (≥ 1/10.000 til &lt; 1/1.000). Symptomerne er: </p>
@@ -886,9 +886,9 @@ du ikke spiser normalt, har du stadig brug for insulin. Test din urin eller dit 
 almindelige regler ved sygdom og informér din læge. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store liprolog"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store liprolog"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Liprolog opbevares i køleskab (2ºC - 8ºC), indtil det tages i brug for første gang. Må ikke nedfryses. 
 Det hætteglas, der er i brug, opbevares i et køleskab (2ºC - 8ºC) eller ved temperaturer under 30ºC og 
@@ -903,9 +903,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Liprolog 100 enheder/ml, injektionsvæske, opløsning, i hætteglas indeholder:</p>
 <ul>
@@ -1146,7 +1146,7 @@ RuleSet: 0c9b965fc8d8b37db9d00845bddc1040ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1158,7 +1158,7 @@ RuleSet: 0c9b965fc8d8b37db9d00845bddc1040ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

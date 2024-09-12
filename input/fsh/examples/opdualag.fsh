@@ -473,9 +473,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -484,9 +484,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -494,9 +494,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -510,9 +510,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What opdualag is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What opdualag is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opdualag er et lægemiddel mod kræft, der anvendes til at behandle fremskredent melanom (en 
 bestemt type hudkræft, modermærkekræft, som kan sprede sig til andre dele af kroppen). Det kan 
@@ -528,9 +528,9 @@ T-celler. Dette er med til at øge T-celleaktiviteten mod modermærkekræftcelle
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take opdualag"
+  * title = "2. Det skal du vide, før du begynder at tage  opdualag"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take opdualag"
+  * code.text = "2. Det skal du vide, før du begynder at tage  opdualag"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Opdualag </p>
 <ul>
@@ -670,9 +670,9 @@ Hovedbudskaberne fra denne indlægsseddel står også på det patientkort, som d
 Det er vigtigt, at du altid har patientkortet på dig og viser det til din partner eller omsorgspersoner. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take opdualag"
+  * title =  "3. Sådan skal du tage opdualag"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take opdualag"
+  * code.text = "3. Sådan skal du tage opdualag"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget Opdualag skal du have 
 Den anbefalede dosis ved infusion hos voksne og unge i alderen 12 år og derover er 480 mg 
@@ -696,9 +696,9 @@ med Opdualag, medmindre du har aftalt det med lægen. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Lægen vil tale med dig om disse bivirkninger og forklare dig om risici og fordele ved behandlingen. </p>
@@ -899,9 +899,9 @@ indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
 lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store opdualag"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store opdualag"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Opdualag på hospitalet eller klinikken, og sundhedspersoner vil være ansvarlige for 
 opbevaringen. </p>
@@ -918,9 +918,9 @@ afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opdualag indeholder: </p>
 <ul>
@@ -1273,7 +1273,7 @@ RuleSet: f005fd757731f79c852474cccf35506bListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1285,7 +1285,7 @@ RuleSet: f005fd757731f79c852474cccf35506bListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

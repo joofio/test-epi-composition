@@ -330,9 +330,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -341,9 +341,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -351,9 +351,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -367,9 +367,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What scenesse is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What scenesse is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SCENESSE indeholder det aktive stof afamelanotid (som acetat). Afamelanotid er en syntetisk form af 
 kroppens naturlige α-melanocytstimulerende hormon (α-MSH). Afamelanotid virker ligesom det 
@@ -383,9 +383,9 @@ SCENESSE forsinke indsættelsen af smerter forårsaget af følsomhed for sollys 
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take scenesse"
+  * title = "2. Det skal du vide, før du begynder at tage  scenesse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take scenesse"
+  * code.text = "2. Det skal du vide, før du begynder at tage  scenesse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke SCENESSE </p>
 <ul>
@@ -455,9 +455,9 @@ man har fået det. Hvis det er tilfældet for dig, må du ikke føre motorkøret
 eller maskiner. Hvis du er konstant døsig, skal du kontakte lægen. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take scenesse"
+  * title =  "3. Sådan skal du tage scenesse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take scenesse"
+  * code.text = "3. Sådan skal du tage scenesse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Implantatet vil blive indsat af en læge, som har fået instruktion i at indsætte det. Lægen vil sammen 
 med dig finde det mest passende tidspunkt og sted, hvor indsættelsen af implantatet skal foregå. </p>
@@ -476,9 +476,9 @@ fjernes ved et simpelt operativt indgreb. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Følgende bivirkninger anses for at være: </p>
@@ -546,9 +546,9 @@ indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
 lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store scenesse"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store scenesse"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglasset og den ydre æske. Lægen 
@@ -559,9 +559,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>SCENESSE indeholder:</p>
 <ul>
@@ -1085,7 +1085,7 @@ RuleSet: 365176ec901be3a749e148c628fa3afeListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1097,7 +1097,7 @@ RuleSet: 365176ec901be3a749e148c628fa3afeListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1109,7 +1109,7 @@ RuleSet: 365176ec901be3a749e148c628fa3afeListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

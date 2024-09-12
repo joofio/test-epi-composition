@@ -409,9 +409,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -420,9 +420,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -430,9 +430,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -446,9 +446,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What bexsero is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What bexsero is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bexsero er en Meningokok gruppe B-vaccine. </p>
 <p>Bexsero indeholder fire forskellige komponenter fra overfladen af bakterien Neisseria meningitidis 
@@ -462,9 +462,9 @@ person. Dette resulterer i beskyttelse mod sygdommen. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take bexsero"
+  * title = "2. Det skal du vide, før du begynder at tage  bexsero"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take bexsero"
+  * code.text = "2. Det skal du vide, før du begynder at tage  bexsero"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug IKKE Bexsero </p>
 <ul>
@@ -530,9 +530,9 @@ at føre motorkøretøj og betjene maskiner. </p>
 væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take bexsero"
+  * title =  "3. Sådan skal du tage bexsero"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take bexsero"
+  * code.text = "3. Sådan skal du tage bexsero"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bexsero (0,5 ml) gives til dig eller dit barn af lægen eller sygeplejersken. Det injiceres i en muskel, 
 sædvanligvis i låret hos spædbørn eller overarmen hos børn, unge og voksne. </p>
@@ -573,9 +573,9 @@ være en fordel for dig at få Bexsero. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre vacciner give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Når du eller dit barn har fået Bexsero, er de mest almindelige bivirkninger (kan forekomme hos 
@@ -627,9 +627,9 @@ anført i Appendiks V.  </p>
 af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store bexsero"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store bexsero"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar vaccinen utilgængeligt for børn. </p>
 <p>Brug ikke vaccinen efter den udløbsdato, der står på æsken og den fyldte injektionssprøjte efter EXP. 
@@ -641,9 +641,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Bexsero indeholder: </p>
 <p>En dosis (0,5 ml) indeholder: </p>
@@ -928,7 +928,7 @@ RuleSet: 69c2bef02c7fe63e8cfc997db1e3d8f8ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -940,7 +940,7 @@ RuleSet: 69c2bef02c7fe63e8cfc997db1e3d8f8ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

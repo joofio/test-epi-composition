@@ -391,9 +391,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -402,9 +402,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -412,9 +412,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen:
 1. Virkning og anvendelse
@@ -426,9 +426,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What ifirmasta is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What ifirmasta is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ifirmasta tilhører en medicingruppe, der kaldes angiotensin-II receptorantagonister. Angiotensin-II er 
 et stof, der produceres i kroppen, og som binder sig til receptorer i blodårerne og får dem til at trække 
@@ -446,9 +446,9 @@ viser nedsat nyrefunktion.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take ifirmasta"
+  * title = "2. Det skal du vide, før du begynder at tage  ifirmasta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take ifirmasta"
+  * code.text = "2. Det skal du vide, før du begynder at tage  ifirmasta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Ifirmasta</h2>
 <p>hvis De er allergisk over for irbesartan eller et af de øvrige indholdsstoffer i Ifirmasta (angivet i 
@@ -538,9 +538,9 @@ Men man kan opleve svimmelhed eller træthed, når man behandles for forhøjet b
 bliver svimmel eller træt, skal du kontakte lægen, inden du kører bil eller betjener maskiner.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take ifirmasta"
+  * title =  "3. Sådan skal du tage ifirmasta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ifirmasta"
+  * code.text = "3. Sådan skal du tage ifirmasta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægen eller apotekspersonalets anvisning. Er du i tvivl, så spørg 
 lægen eller apoteket.
@@ -572,9 +572,9 @@ Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Nogle af disse bivirkninger kan være alvorlige og kan kræve medicinsk behandling.
@@ -620,9 +620,9 @@ rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirkninger kan
 fremskaffe mere information om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store ifirmasta"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ifirmasta"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Ifirmasta utilgængeligt for børn.
 Brug ikke Ifirmasta efter den udløbsdato, der står på pakningen og på blisteren efter EXP. 
@@ -634,9 +634,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden.</p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Ifirmasta indeholder:</h2>
 <p>Aktivt stof: Irbesartan. Hver filmovertrukken tablet indeholder 75 mg irbesartan som 
@@ -1332,7 +1332,7 @@ RuleSet: 245a99986bb61c23af35c57856a26746ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1344,7 +1344,7 @@ RuleSet: 245a99986bb61c23af35c57856a26746ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1356,7 +1356,7 @@ RuleSet: 245a99986bb61c23af35c57856a26746ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

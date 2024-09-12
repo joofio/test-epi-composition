@@ -465,9 +465,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -476,9 +476,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -486,9 +486,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -502,9 +502,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What atriance is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What atriance is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Atriance indeholder nelarabin, der tilhører en gruppe af lægemidler, som kaldes antineoplastiske 
 midler, og som bruges i kemoterapi til at dræbe nogle typer kræftceller. </p>
@@ -526,9 +526,9 @@ mængde lymfoblaster, som er en type hvide blodceller. </p>
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take atriance"
+  * title = "2. Det skal du vide, før du begynder at tage  atriance"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take atriance"
+  * code.text = "2. Det skal du vide, før du begynder at tage  atriance"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du (eller dit barn, hvis det er dit barn, der bliver behandlet) må ikke få Atriance </p>
 <ul>
@@ -589,9 +589,9 @@ Dette lægemiddel indeholder 88,51 mg (3,85 mmol) natrium (hovedkomponent af mad
 af natrium for en voksen. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take atriance"
+  * title =  "3. Sådan skal du tage atriance"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take atriance"
+  * code.text = "3. Sådan skal du tage atriance"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dosis af Atriance er baseret på følgende: </p>
 <ul>
@@ -625,9 +625,9 @@ Lægen afgør, hvornår behandlingen skal stoppes. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Hovedparten af de bivirkninger, der er indrapporteret for Atriance, er set hos voksne, børn og unge. 
@@ -767,9 +767,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store atriance"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store atriance"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og hætteglasset efter EXP. 
@@ -781,9 +781,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Atriance indeholder: </p>
 <ul>
@@ -1121,7 +1121,7 @@ RuleSet: a02a33fb6a7ba9862e8f1f45d0ac3e13ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1133,7 +1133,7 @@ RuleSet: a02a33fb6a7ba9862e8f1f45d0ac3e13ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

@@ -465,9 +465,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -476,9 +476,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -486,9 +486,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -502,9 +502,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What sunlenca is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What sunlenca is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sunlenca indeholder det aktive stof lenacapavir. Dette er et antiretroviralt lægemiddel, der er kendt 
 som en kapsidinhibitor.  </p>
@@ -520,9 +520,9 @@ risikoen for at udvikle sygdomme forbundet med hiv-infektion. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take sunlenca"
+  * title = "2. Det skal du vide, før du begynder at tage  sunlenca"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take sunlenca"
+  * code.text = "2. Det skal du vide, før du begynder at tage  sunlenca"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Sunlenca </p>
 <ul>
@@ -684,9 +684,9 @@ hurtigst muligt. </p>
 væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take sunlenca"
+  * title =  "3. Sådan skal du tage sunlenca"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take sunlenca"
+  * code.text = "3. Sådan skal du tage sunlenca"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sunlenca anvendes sammen med andre antiretrovirale lægemidler til at behandle hiv-infektion. 
 Lægen vil fortælle dig, hvilke andre lægemidler du skal tage for at behandle din hiv-infektion, og 
@@ -739,9 +739,9 @@ virkningen af fremtidige hiv-behandlinger. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.  </p>
 <p>Mulige alvorlige bivirkninger: Fortæl det straks til lægen  </p>
@@ -794,9 +794,9 @@ V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere infor
 sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store sunlenca"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sunlenca"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på hætteglassets etiket og æsken efter EXP. 
@@ -806,9 +806,9 @@ originale pakning for at beskytte mod lys. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Sunlenca indeholder </p>
 <p>Aktivt stof: Lenacapavir. Hvert hætteglas til engangsbrug indeholder 463,5 mg lenacapavir.  </p>
@@ -1117,7 +1117,7 @@ RuleSet: d9aba320cfebb03d3884f4f123efa02dListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1129,7 +1129,7 @@ RuleSet: d9aba320cfebb03d3884f4f123efa02dListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

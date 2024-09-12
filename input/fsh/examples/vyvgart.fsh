@@ -363,9 +363,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -374,9 +374,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -384,9 +384,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -400,9 +400,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What vyvgart is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What vyvgart is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Vyvgart? 
 Vyvgart indeholder det aktive stof efgartigimod alfa. Efgartigimod alfa binder til og blokerer FcRn 
@@ -423,9 +423,9 @@ indvirkning på muligheden for at udføre aktiviteter i dagligdagen. </p> </div>
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take vyvgart"
+  * title = "2. Det skal du vide, før du begynder at tage  vyvgart"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take vyvgart"
+  * code.text = "2. Det skal du vide, før du begynder at tage  vyvgart"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Vyvgart 
 - hvis du er allergisk over for efgartigimod alfa eller et af de øvrige indholdsstoffer i Vyvgart 
@@ -470,9 +470,9 @@ indeholder natrium. Dette skal tages i betragtning i forhold til patientens saml
 natrium fra alle kilder. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take vyvgart"
+  * title =  "3. Sådan skal du tage vyvgart"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take vyvgart"
+  * code.text = "3. Sådan skal du tage vyvgart"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandlingen udføres af lægen eller andet sundhedspersonale. Lægen eller sundhedspersonalet 
 fortynder først produktet. Fortyndingen administreres fra et drop gennem en slange og direkte ind i en 
@@ -496,9 +496,9 @@ mulige bivirkninger og risici, og du bliver overvåget nøje i det efterfølgend
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Lægen fortæller dig om de mulige bivirkninger, og forklarer risiciene og fordelene ved Vyvgart, inden 
@@ -539,9 +539,9 @@ indrapportere bivirkninger kan du hjælpe med at fremskaffe mere information om 
 dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store vyvgart"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store vyvgart"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og etiketten efter "EXP". Udløbsdatoen 
@@ -559,9 +559,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Vyvgart indeholder: 
 Aktivt stof: efgartigimod alfa. 
@@ -918,7 +918,7 @@ RuleSet: f819453f37e8574dc396f13201d03208ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -930,7 +930,7 @@ RuleSet: f819453f37e8574dc396f13201d03208ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

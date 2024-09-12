@@ -400,9 +400,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -411,9 +411,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -421,9 +421,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: </p>
 <ol>
@@ -437,9 +437,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What grasustek is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What grasustek is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Grasustek er beregnet til brug hos voksne over 18 år. </p>
 <p>Grasustek indeholder det aktive stof pegfilgrastim. Pegfilgrastim er et protein, der bliver fremstillet 
@@ -460,9 +460,9 @@ infektion. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take grasustek"
+  * title = "2. Det skal du vide, før du begynder at tage  grasustek"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take grasustek"
+  * code.text = "2. Det skal du vide, før du begynder at tage  grasustek"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Grasustek </p>
 <ul>
@@ -562,9 +562,9 @@ Dette lægemiddel indeholder mindre end 1 mmol (23 mg) natrium pr. dosis på 6 m
 væsentlige natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take grasustek"
+  * title =  "3. Sådan skal du tage grasustek"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take grasustek"
+  * code.text = "3. Sådan skal du tage grasustek"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
 apotekspersonalet. Den anbefalede dosis er én subkutan injektion (indsprøjtning under huden) af 6 mg 
@@ -585,9 +585,9 @@ næste dosis. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Kontakt omgående lægen, hvis du får en eller flere af følgende bivirkninger: </p>
@@ -682,9 +682,9 @@ fremskaffe mere information om sikkerheden af dette lægemiddel. </p>
 </ul> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store grasustek"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store grasustek"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængelig for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på kartonen og etiketten på sprøjten efter EXP. 
@@ -702,9 +702,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Grasustek indeholder: 
 − 
@@ -1073,7 +1073,7 @@ RuleSet: 7d1bb12ba6240a71a9360f68b8249137ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1085,7 +1085,7 @@ RuleSet: 7d1bb12ba6240a71a9360f68b8249137ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

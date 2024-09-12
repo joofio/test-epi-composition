@@ -661,9 +661,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -672,9 +672,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -682,9 +682,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -698,9 +698,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What dafiro is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What dafiro is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dafiro HCT tabletter indeholder tre stoffer, som kaldes amlodipin, valsartan og hydrochlorthiazid. 
 Alle disse stoffer hjælper med at kontrollere et højt blodtryk. 
@@ -723,9 +723,9 @@ tablet, som indeholder alle tre stoffer. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take dafiro"
+  * title = "2. Det skal du vide, før du begynder at tage  dafiro"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take dafiro"
+  * code.text = "2. Det skal du vide, før du begynder at tage  dafiro"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Dafiro HCT 
 - hvis du er mere end 3 måneder henne i graviditeten (det anbefales også at undgå brug af Dafiro 
@@ -960,9 +960,9 @@ Denne medicin kan få dig til at føle svimmelhed, døsighed, kvalme eller få h
 oplever disse symptomer, må du ikke køre bil eller betjene maskiner. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take dafiro"
+  * title =  "3. Sådan skal du tage dafiro"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take dafiro"
+  * code.text = "3. Sådan skal du tage dafiro"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtig efter lægens anvisning. Er du i tvivl, så spørg lægen. Dette vil hjælpe 
 dig med at opnå den bedste virkning og mindske risikoen for bivirkninger. </p>
@@ -994,9 +994,9 @@ føler dig rask. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Som for enhver kombination, der indeholder tre aktive stoffer, kan bivirkninger forbundet med hver 
@@ -1473,9 +1473,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store dafiro"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store dafiro"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen og blisteren efter EXP. 
@@ -1489,9 +1489,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dafiro HCT indeholder: </p>
 <p>Dafiro HCT 5 mg/160 mg/12,5 mg filmovertrukne tabletter 
@@ -2875,7 +2875,7 @@ RuleSet: 3b3e934500294234d1df16dd589129e1ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -2887,7 +2887,7 @@ RuleSet: 3b3e934500294234d1df16dd589129e1ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -2899,7 +2899,7 @@ RuleSet: 3b3e934500294234d1df16dd589129e1ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

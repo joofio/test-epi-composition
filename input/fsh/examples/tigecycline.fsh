@@ -351,9 +351,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -362,9 +362,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -372,9 +372,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse 
@@ -386,9 +386,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What tigecycline is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What tigecycline is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tigecycline Accord er et antibiotikum tilhørende glycylcyklingruppen, som virker ved at stoppe den 
 bakterievækst, der forårsager infektioner. </p>
@@ -404,9 +404,9 @@ af infektioner i fødderne hos personer med sukkersyge. </li>
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take tigecycline"
+  * title = "2. Det skal du vide, før du begynder at tage  tigecycline"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take tigecycline"
+  * code.text = "2. Det skal du vide, før du begynder at tage  tigecycline"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Lægen kan have foreskrevet anden anvendelse eller dosering end angivet i denne information. Følg 
 altid lægens anvisning og oplysningerne på doseringsetiketten.  </p>
@@ -472,9 +472,9 @@ natriumfrit. </p>
 <p>27</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take tigecycline"
+  * title =  "3. Sådan skal du tage tigecycline"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tigecycline"
+  * code.text = "3. Sådan skal du tage tigecycline"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Tigecycline Accord af en læge eller sygeplejerske. </p>
 <p>Den anbefalede startdosis til voksne er 100 mg og derefter 50 mg hver 12. time. Denne dosis gives 
@@ -491,9 +491,9 @@ Hvis du tror, at du har glemt at få en dosis, skal du straks kontakte lægen el
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Pseudomembranøs kolit kan opstå ved brug af de fleste antibiotika, herunder Tigecycline Accord. Det 
@@ -554,9 +554,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store tigecycline"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tigecycline"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Dette lægemiddel kræver ingen særlige forholdsregler vedrørende opbevaringen. Brug ikke lægemidlet 
@@ -580,9 +580,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p>
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tigecycline Accord indeholder </p>
 <ul>
@@ -1095,7 +1095,7 @@ RuleSet: f40a84cb5d324bdca9e9009c23b60458ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1107,7 +1107,7 @@ RuleSet: f40a84cb5d324bdca9e9009c23b60458ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1119,7 +1119,7 @@ RuleSet: f40a84cb5d324bdca9e9009c23b60458ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

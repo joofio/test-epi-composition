@@ -374,9 +374,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -385,9 +385,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -395,9 +395,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -411,9 +411,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What zynlonta is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What zynlonta is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta er en cancermedicin, der indeholder det aktive stof loncastuximab-tesirin. </p>
 <p>Zynlonta anvendes til behandling af voksne med en bestemt type cancer kaldet diffust storcellet 
@@ -440,9 +440,9 @@ lægemidlet ind i cellerne og dræber dem. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take zynlonta"
+  * title = "2. Det skal du vide, før du begynder at tage  zynlonta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take zynlonta"
+  * code.text = "2. Det skal du vide, før du begynder at tage  zynlonta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Zynlonta, hvis du er allergisk over for loncastuximab-tesirin eller et af de øvrige 
 indholdsstoffer i Zynlonta (angivet i punkt 6). </p>
@@ -507,9 +507,9 @@ må du ikke føre motorkøretøj, cykle eller betjene værktøj eller maskiner, 
 <p>Se punkt 4 for flere oplysninger om bivirkninger. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take zynlonta"
+  * title =  "3. Sådan skal du tage zynlonta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take zynlonta"
+  * code.text = "3. Sådan skal du tage zynlonta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta gives under overvågning af en læge med erfaring i at give sådanne behandlinger. Det 
 indgives i en vene som et drop (en infusion) over et tidsrum på 30 minutter. </p>
@@ -557,9 +557,9 @@ skal stoppes. Hvis behandlingen stoppes for tidligt, kan dine symptomer vende ti
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. 
 Følgende bivirkninger er rapporteret med dette lægemiddel: </p>
@@ -663,9 +663,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store zynlonta"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zynlonta"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta vil blive opbevaret af lægen og apotekspersonalet på hospitalet eller klinikken, hvor du 
 behandles. 
@@ -686,9 +686,9 @@ Disse forholdsregler vil medvirke til at beskytte miljøet. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zynlonta indeholder: </p>
 <ul>
@@ -1320,7 +1320,7 @@ RuleSet: 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1332,7 +1332,7 @@ RuleSet: 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1344,7 +1344,7 @@ RuleSet: 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

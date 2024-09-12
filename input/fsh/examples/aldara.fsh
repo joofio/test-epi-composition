@@ -505,9 +505,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -516,9 +516,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -526,9 +526,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse 
@@ -540,9 +540,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What aldara is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What aldara is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aldara creme kan bruges til tre forskellige sygdomme. Din læge kan ordinere Aldara creme til 
 behandling af: </p>
@@ -567,9 +567,9 @@ kønsvorter. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take aldara"
+  * title = "2. Det skal du vide, før du begynder at tage  aldara"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take aldara"
+  * code.text = "2. Det skal du vide, før du begynder at tage  aldara"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Aldara creme: 
 Hvis du er allergisk over for imiquimod, eller et af de øvrige indholdsstoffer i Aldara angivet i afsnit 6. Advarsler og forsigtighedsregler </p>
@@ -667,9 +667,9 @@ Dette lægemiddel indeholder 5 mg benzylalkohol i hvert brev. Benzylalkohol kan 
 reaktioner og mild lokal irritation. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take aldara"
+  * title =  "3. Sådan skal du tage aldara"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take aldara"
+  * code.text = "3. Sådan skal du tage aldara"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Børn og unge: 
 Anbefales ikke til brug til børn og unge. </p>
@@ -740,9 +740,9 @@ fortsætte med din sædvanlige behandlingsplan. Påfør ikke cremen mere end én
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hyppigheden af bivirkninger er inddelt efter følgende: 
 Meget almindelige bivirkninger (det forekommer hos flere end 1 ud af 10 patienter) 
@@ -824,9 +824,9 @@ anført i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at f
 information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store aldara"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store aldara"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar Aldara creme utilgængeligt for børn. </p>
 <p>Må ikke opbevares ved temperaturer over 25 °C. </p>
@@ -837,9 +837,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Aldara, 5%, creme indeholder:</p>
 <ul>
@@ -1102,7 +1102,7 @@ RuleSet: fc79b24fd8d9aad3e2636eda8908eb2aListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1114,7 +1114,7 @@ RuleSet: fc79b24fd8d9aad3e2636eda8908eb2aListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

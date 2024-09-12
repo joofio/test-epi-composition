@@ -480,9 +480,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -491,9 +491,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -501,9 +501,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse 
@@ -515,9 +515,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What quofenix is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What quofenix is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quofenix er et antibiotikum, der indeholder det aktive stof delafloxacin. Det tilhører en gruppe af 
 lægemidler, der betegnes fluoroquinoloner. </p>
@@ -537,9 +537,9 @@ DNA. Ved at blokere disse enzymer, dræber Quofenix de bakterier, der har forår
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take quofenix"
+  * title = "2. Det skal du vide, før du begynder at tage  quofenix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take quofenix"
+  * code.text = "2. Det skal du vide, før du begynder at tage  quofenix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Quofenix: </p>
 <ul>
@@ -697,9 +697,9 @@ hætteglas. Dette svarer til 8,8 % af den anbefalede maximale daglige indtagelse
 voksen. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take quofenix"
+  * title =  "3. Sådan skal du tage quofenix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take quofenix"
+  * code.text = "3. Sådan skal du tage quofenix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Quofenix af en sygeplejerske eller en læge som et drop i en vene. </p>
 <p>Du vil få en infusion med Quofenix indeholdende 300 mg af medicinen 2 gange dagligt i 5-14 dage for 
@@ -718,9 +718,9 @@ over. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Alvorlige bivirkninger </p>
@@ -988,9 +988,9 @@ Appendiks V*. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store quofenix"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store quofenix"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken eller blisterpakningen efter EXP. 
@@ -1006,9 +1006,9 @@ aseptiske forhold. </p>
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Quofenix indeholder 
 - Aktivt stof: delafloxacin. Hvert hætteglas med pulver indeholder 300 mg delafloxacin (som 
@@ -1857,7 +1857,7 @@ RuleSet: 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1869,7 +1869,7 @@ RuleSet: 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1881,7 +1881,7 @@ RuleSet: 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

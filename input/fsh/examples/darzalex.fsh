@@ -430,9 +430,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -441,9 +441,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -451,9 +451,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -465,9 +465,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What darzalex is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What darzalex is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er DARZALEX
 DARZALEX er et lægemiddel mod kræft, som indeholder det aktive stof daratumumab. Det tilhører 
@@ -481,9 +481,9 @@ myelomatose. Det er kræft i knoglemarven.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take darzalex"
+  * title = "2. Det skal du vide, før du begynder at tage  darzalex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take darzalex"
+  * code.text = "2. Det skal du vide, før du begynder at tage  darzalex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Du må ikke få DARZALEX</h2>
 <p>hvis du er allergisk over for daratumumab eller et af de øvrige indholdsstoffer i DARZALEX 
@@ -554,9 +554,9 @@ medføre alvorlige bivirkninger.
 Inden du får dette lægemiddel, skal du fortælle din læge, hvis du har HFI.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take darzalex"
+  * title =  "3. Sådan skal du tage darzalex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take darzalex"
+  * code.text = "3. Sådan skal du tage darzalex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget vil du få
 Lægen fastsætter den rette dosis DARZALEX og en doseringsplan. Dosen af DARZALEX afhænger 
@@ -606,9 +606,9 @@ Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Infusionsrelaterede reaktioner
@@ -729,9 +729,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store darzalex"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store darzalex"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DARZALEX opbevares på hospitalet.
 Opbevar lægemidlet utilgængeligt for børn.
@@ -744,9 +744,9 @@ miljøet må du ikke smide medicinrester i afløbet, toilettet eller skraldespan
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>DARZALEX indeholder:
 
@@ -1607,7 +1607,7 @@ RuleSet: d365d405c4186be4b5c62f68568d4862ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1619,7 +1619,7 @@ RuleSet: d365d405c4186be4b5c62f68568d4862ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1631,7 +1631,7 @@ RuleSet: d365d405c4186be4b5c62f68568d4862ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

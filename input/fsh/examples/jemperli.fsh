@@ -555,9 +555,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -566,9 +566,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -576,9 +576,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse<br />
@@ -590,9 +590,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What jemperli is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What jemperli is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jemperli indeholder det aktive stof dostarlimab, som er et monoklonalt antistof, hvilket er en type 
 protein, der er udformet til at genkende og binde sig til et bestemt målstof i kroppen. </p>
@@ -607,9 +607,9 @@ spørgsmål om de pågældende lægemidler. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take jemperli"
+  * title = "2. Det skal du vide, før du begynder at tage  jemperli"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take jemperli"
+  * code.text = "2. Det skal du vide, før du begynder at tage  jemperli"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få Jemperli: </p>
 <ul>
@@ -697,9 +697,9 @@ væsentlige "natriumfrit". Inden du får Jemperli, blandes det dog med en opløs
 natrium. Tal med lægen, hvis du er på saltfattig diæt. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take jemperli"
+  * title =  "3. Sådan skal du tage jemperli"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take jemperli"
+  * code.text = "3. Sådan skal du tage jemperli"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du får Jemperli på et hospital eller en klinik under tilsyn af en læge, der er erfaren inden for 
 behandling af kræft. </p>
@@ -725,9 +725,9 @@ dine omsorgspersoner. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Nogle bivirkninger kan være alvorlige, og du skal vide, hvilke symptomer, du skal være opmærksom 
@@ -1073,9 +1073,9 @@ i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaff
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store jemperli"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store jemperli"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du får Jemperli på et hospital eller en klinik, og sundhedspersonalet vil være ansvarligt for 
 opbevaringen af det.  </p>
@@ -1093,9 +1093,9 @@ ikke anvendt lægemiddel samt affald heraf bortskaffes i henhold til lokale retn
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Jemperli indeholder:</p>
 <ul>
@@ -1425,7 +1425,7 @@ RuleSet: d03e5fa52b6e02a038d1625a63e785b4ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1437,7 +1437,7 @@ RuleSet: d03e5fa52b6e02a038d1625a63e785b4ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

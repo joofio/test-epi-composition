@@ -395,9 +395,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -406,9 +406,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -416,9 +416,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -430,9 +430,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What rotateq is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What rotateq is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RotaTeq er en oral vaccine (gives gennem munden), der hjælper med at beskytte spædbørn og små
 børn mod gastroenteritis (diarré og opkastning), der skyldes rotavirus-infektion. RotaTeq kan
@@ -444,9 +444,9 @@ antistoffer hjælper med at beskytte imod gastroenteritis, der skyldes disse typ
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take rotateq"
+  * title = "2. Det skal du vide, før du begynder at tage  rotateq"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take rotateq"
+  * code.text = "2. Det skal du vide, før du begynder at tage  rotateq"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke RotaTeq
 − 
@@ -511,9 +511,9 @@ Denne vaccine indeholder 37,6 mg natrium (hovedbestanddelen i køkkensalt/bordsa
 Dette svarer til 1,88 % af den anbefalede maksimale daglige indtagelse af natrium for en voksen.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take rotateq"
+  * title =  "3. Sådan skal du tage rotateq"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take rotateq"
+  * code.text = "3. Sådan skal du tage rotateq"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RotaTeq ER KUN TIL ORAL INDTAGELSE.
 En læge eller sygeplejerske vil give de anbefalede doser af RotaTeq til dit barn. Vaccinen vil blive
@@ -539,9 +539,9 @@ læge/sundhedsplejerske på det aftalte tidspunkt, så spørg ham eller hende ti
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Denne vaccine kan som alle andre vacciner og alle andre lægemidler give bivirkninger, men ikke alle
 får bivirkninger.
@@ -594,9 +594,9 @@ om sikkerheden af dette lægemiddel.</p>
 </ul> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store rotateq"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rotateq"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar denne vaccine utilgængeligt for børn.
 Brug ikke denne vaccine efter den udløbsdato, der står på etiketten efter EXP. Udløbsdatoen er den
@@ -608,9 +608,9 @@ smide medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RotaTeq indeholder:
 Aktive stoffer i RotaTeq er 5 human-bovine reassortante rotavirus-stammer.
@@ -893,7 +893,7 @@ RuleSet: ef95b389907181c6a50441289b7e7a0aListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -905,7 +905,7 @@ RuleSet: ef95b389907181c6a50441289b7e7a0aListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

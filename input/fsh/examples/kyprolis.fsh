@@ -522,9 +522,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -533,9 +533,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -543,9 +543,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen  </p>
 <ol>
@@ -559,9 +559,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What kyprolis is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What kyprolis is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kyprolis er et lægemiddel, som indeholder det aktive stof carfilzomib. </p>
 <p>Carfilzomib virker ved at blokere proteasomer. Proteasomer er et system inde i cellerne, der nedbryder 
@@ -577,9 +577,9 @@ andre lægemidler, der bruges til behandling af myelomatose. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take kyprolis"
+  * title = "2. Det skal du vide, før du begynder at tage  kyprolis"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take kyprolis"
+  * code.text = "2. Det skal du vide, før du begynder at tage  kyprolis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Din læge vil undersøge dig og gennemgå hele din sygehistorie. Du vil blive overvåget nøje under 
 behandlingen. Du vil få taget blodprøver inden behandlingen med Kyprolis starter og under 
@@ -697,9 +697,9 @@ hætteglas. Dette svarer til 88 mg/kg for en voksen, der vejer 70 kg. </p>
 hætteglas. Dette svarer til 88 mg/kg for en voksen, der vejer 70 kg. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take kyprolis"
+  * title =  "3. Sådan skal du tage kyprolis"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take kyprolis"
+  * code.text = "3. Sådan skal du tage kyprolis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få Kyprolis af en læge eller sygeplejerske. Dosis vil blive beregnet på baggrund af din højde og 
 vægt (legemsoverfladearealet). Lægen eller sygeplejersken vil fastlægge den dosis Kyprolis, du skal 
@@ -720,9 +720,9 @@ Hvis du alligevel får for meget Kyprolis, vil din læge holde øje med, om du e
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Tilstande, du skal holde øje med </p>
@@ -1079,9 +1079,9 @@ nationale rapporteringssystem anført i Appendiks V. Ved at indrapportere bivirk
 med at fremskaffe mere information om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store kyprolis"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kyprolis"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kyprolis vil blive opbevaret på apoteket. </p>
 <p>Opbevar lægemidlet utilgængeligt for børn. </p>
@@ -1097,9 +1097,9 @@ til lokale retningslinjer. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Kyprolis indeholder:</p>
 <ul>
@@ -1403,7 +1403,7 @@ RuleSet: fcd6f0f28646833495976357e48ff691ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1415,7 +1415,7 @@ RuleSet: fcd6f0f28646833495976357e48ff691ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

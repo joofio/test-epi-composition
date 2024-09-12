@@ -563,9 +563,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -574,9 +574,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Sådan injicerer du AVONEX </li>
@@ -585,9 +585,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -599,9 +599,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What avonex is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What avonex is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er AVONEX </p>
 <p>Det aktive stof i Avonex er et protein, der kaldes interferon beta-1a. Interferoner er naturlige stoffer, 
@@ -640,9 +640,9 @@ angribe myelinet. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take avonex"
+  * title = "2. Det skal du vide, før du begynder at tage  avonex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take avonex"
+  * code.text = "2. Det skal du vide, før du begynder at tage  avonex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke AVONEX 
 − 
@@ -713,9 +713,9 @@ du ikke føre motorkøretøj eller betjene maskiner. </p>
 hver ugentlige dosis. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take avonex"
+  * title =  "3. Sådan skal du tage avonex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take avonex"
+  * code.text = "3. Sådan skal du tage avonex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Den anbefalede ugentlige dosis er  </p>
 <p>Én injektion af Avonex, én gang om ugen. 
@@ -763,9 +763,9 @@ tale med din læge om, hvordan du kommer tilbage til denne foretrukne ugedag. </
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>(Bemærk) </p>
@@ -911,9 +911,9 @@ handelsnavn og batchnummer på det produkt, du har fået, i din patientjournal. 
 selv notere disse oplysninger i tilfælde af, at du skulle blive bedt om at udlevere dem i fremtiden. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store avonex"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store avonex"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på pakningen. </p>
@@ -932,9 +932,9 @@ medicinrester i afløbet, toilettet eller skraldespanden.  </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>AVONEX indeholder: </p>
 <p>Aktivt stof: Interferon beta 1a 30 mikrogram/0,5 ml 
@@ -1296,7 +1296,7 @@ RuleSet: 36f1b29a7444210831ac7deab30ae673ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1308,7 +1308,7 @@ RuleSet: 36f1b29a7444210831ac7deab30ae673ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

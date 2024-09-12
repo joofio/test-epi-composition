@@ -397,9 +397,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -408,9 +408,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -418,9 +418,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -434,9 +434,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What adynovi is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What adynovi is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADYNOVI indeholder det aktive stof rurioctocog alfa pegol, pegyleret human koagulationsfaktor 
 VIII. Human koagulationsfaktor VIII er modificeret for at forlænge dets virkningsvarighed. Faktor 
@@ -448,9 +448,9 @@ derover med hæmofili A (en arvelig blødersygdom forårsaget af mangel på fakt
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take adynovi"
+  * title = "2. Det skal du vide, før du begynder at tage  adynovi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take adynovi"
+  * code.text = "2. Det skal du vide, før du begynder at tage  adynovi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke ADYNOVI </p>
 <ul>
@@ -503,9 +503,9 @@ hætteglas. Dette svarer til 0,62 % af den anbefalede maksimale daglige indtagel
 tages i betragtning, hvis du følger en diæt med lavt saltindhold.  </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take adynovi"
+  * title =  "3. Sådan skal du tage adynovi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take adynovi"
+  * code.text = "3. Sådan skal du tage adynovi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Behandling med ADYNOVI bliver indledt og overvåget af en læge, der har erfaring med behandling 
 af patienter med hæmofili A. </p>
@@ -540,9 +540,9 @@ som planlagt, og fortsæt derefter som anvist af lægen. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Hvis der opstår svære, pludselige allergiske reaktioner (anafylaksi), skal injektionen straks 
@@ -590,9 +590,9 @@ i Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaff
 om sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store adynovi"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store adynovi"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på etiketten og kartonen efter EXP. 
@@ -613,9 +613,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ADYNOVI indeholder </p>
 <ul>
@@ -997,7 +997,7 @@ RuleSet: 02998b2db7fd4b184d980a78d8dee404ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1009,7 +1009,7 @@ RuleSet: 02998b2db7fd4b184d980a78d8dee404ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

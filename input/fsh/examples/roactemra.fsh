@@ -531,9 +531,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -542,9 +542,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -552,9 +552,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -566,9 +566,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What roactemra is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What roactemra is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RoActemra indeholder det aktive stof tocilizumab, som er et protein fremstillet ud fra specifikke 
 immune celler (monoklonalt antistof), som blokerer virkningen af et specielt protein (cytokin), som 
@@ -616,9 +616,9 @@ får systemiske kortikosteroider og har behov for supplerende ilt eller mekanisk
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take roactemra"
+  * title = "2. Det skal du vide, før du begynder at tage  roactemra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take roactemra"
+  * code.text = "2. Det skal du vide, før du begynder at tage  roactemra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du må ikke få RoActemra: </p>
 <ul>
@@ -740,9 +740,9 @@ kontrolleret natriumdiæt, skal der tages højde for det. Dog indeholder RoActem
 1.025 mg mindre end 23 mg natrium og er derfor i princippet "natriumfrie". </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take roactemra"
+  * title =  "3. Sådan skal du tage roactemra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take roactemra"
+  * code.text = "3. Sådan skal du tage roactemra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel må kun udleveres efter ordination på recept udstedt af en begrænset lægegruppe </p>
 <p>Du vil få RoActemra som et drop i en vene af en læge eller en sygeplejerske. De vil fortynde 
@@ -796,9 +796,9 @@ Beslutningen om at stoppe behandlingen med RoActemra aftales med din læge. </p>
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. 
 Der kan forekomme bivirkninger i op til 3 måneder efter, du har fået sidste dosis RoActemra.  </p>
@@ -963,9 +963,9 @@ patienter med leddegigt. Dog blev følgende bivirkninger set hyppigere: infektio
 hovedpine, kvalme samt nedsat antal hvide blodlegemer. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store roactemra"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store roactemra"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar RoActemra utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, som står på den ydre karton. </p>
@@ -974,9 +974,9 @@ hovedpine, kvalme samt nedsat antal hvide blodlegemer. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>RoActemra indeholder: </p>
 <ul>
@@ -1920,7 +1920,7 @@ RuleSet: 06f9b891f2158becb7dcf14e44abf883ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1932,7 +1932,7 @@ RuleSet: 06f9b891f2158becb7dcf14e44abf883ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1944,7 +1944,7 @@ RuleSet: 06f9b891f2158becb7dcf14e44abf883ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

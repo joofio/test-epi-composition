@@ -391,9 +391,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -402,9 +402,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -412,9 +412,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen 
 1. Virkning og anvendelse 
@@ -426,9 +426,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What inaqovi is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What inaqovi is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Inaqovi? 
 Inaqovi er et kræftlægemiddel. Det indeholder de aktive stoffer decitabin og cedazuridin. </p>
@@ -446,9 +446,9 @@ bidrager dermed til at øge effekten af decitabin. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take inaqovi"
+  * title = "2. Det skal du vide, før du begynder at tage  inaqovi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take inaqovi"
+  * code.text = "2. Det skal du vide, før du begynder at tage  inaqovi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag ikke Inaqovi 
 - hvis du er allergisk over for decitabin eller cedazuridin eller et af de øvrige indholdsstoffer i Inaqovi 
@@ -519,9 +519,9 @@ Kontakt lægen, før du tager dette lægemiddel, hvis lægen har fortalt dig, at
 natriumfrit. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take inaqovi"
+  * title =  "3. Sådan skal du tage inaqovi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take inaqovi"
+  * code.text = "3. Sådan skal du tage inaqovi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du vil få ordineret dette lægemiddel af en læge med erfaring i brug af kræftlægemidler. Tag altid 
 lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen. </p>
@@ -559,9 +559,9 @@ Spørg lægen, apotekspersonalet eller sygeplejersken, hvis der er noget, du er 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Sig det straks til lægen, apotekspersonalet eller sygeplejersken, hvis du får nogen af følgende 
@@ -612,9 +612,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store inaqovi"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store inaqovi"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn. </p>
 <p>Brug ikke lægemidlet efter den udløbsdato, der står på æsken og blisterkortet efter EXP. Udløbsdatoen er 
@@ -626,9 +626,9 @@ smide lægemiddelrester i afløbet, toilettet eller skraldespanden. </p> </div>"
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Inaqovi indeholder:</p>
 <ul>
@@ -881,7 +881,7 @@ RuleSet: ed180dab6ee7a8f7affa18a1651de7e9ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -893,7 +893,7 @@ RuleSet: ed180dab6ee7a8f7affa18a1651de7e9ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

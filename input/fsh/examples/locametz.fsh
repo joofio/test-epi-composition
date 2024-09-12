@@ -347,9 +347,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -358,9 +358,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -368,9 +368,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen </p>
 <ol>
@@ -384,9 +384,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What locametz is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What locametz is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Locametz 
 Dette lægemiddel er et radiofarmaceutisk lægemiddel, der udelukkende anvendes til diagnostisk brug. </p>
@@ -420,9 +420,9 @@ til dig, så tal med nuklearmedicineren. </p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take locametz"
+  * title = "2. Det skal du vide, før du begynder at tage  locametz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take locametz"
+  * code.text = "2. Det skal du vide, før du begynder at tage  locametz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Locametz må ikke anvendes 
 - hvis du er allergisk over for gozetotid eller et af de øvrige indholdsstoffer i dette lægemiddel 
@@ -451,9 +451,9 @@ injektion. Dette svarer til 1,5 % af den anbefalede maximale daglige indtagelse 
 voksen. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take locametz"
+  * title =  "3. Sådan skal du tage locametz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take locametz"
+  * code.text = "3. Sådan skal du tage locametz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Der gælder strenge lovbestemmelser for anvendelse, håndtering og bortskaffelse af radiofarmaceutiske 
 lægemidler. Locametz vil kun blive brugt i særlige, kontrollerede områder. Dette radiofarmaceutiske 
@@ -486,9 +486,9 @@ ansvar for behandlingen. </p> </div>"""
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Bivirkningerne omfatter dem, der er anført nedenfor. Hvis disse bivirkninger bliver alvorlige, skal du 
@@ -513,9 +513,9 @@ V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere infor
 sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store locametz"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store locametz"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du skal ikke selv opbevare dette lægemiddel. Opbevaring af lægemidlet sker under ansvar af 
 specialuddannet personale i særlige lokaler. Opbevaring af radiofarmaceutiske lægemidler skal ske i 
@@ -531,9 +531,9 @@ mærkning. Anvendes inden for 6 timer. </li>
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Locametz indeholder:</p>
 <ul>
@@ -799,7 +799,7 @@ RuleSet: 6f21bde7c462d7396cfc7185d72d2377ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -811,7 +811,7 @@ RuleSet: 6f21bde7c462d7396cfc7185d72d2377ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

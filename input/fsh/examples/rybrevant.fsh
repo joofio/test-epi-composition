@@ -392,9 +392,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -403,9 +403,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
   * emptyReason = http://terminology.hl7.org/CodeSystem/list-empty-reason#unavailable   
@@ -413,9 +413,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -427,9 +427,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What rybrevant is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What rybrevant is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Rybrevant
 Rybrevant er et lægemiddel mod kræft. Det indeholder det aktive stof "amivantamab", som er et 
@@ -451,9 +451,9 @@ være med til at gøre tumoren mindre.</p> </div>"""
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take rybrevant"
+  * title = "2. Det skal du vide, før du begynder at tage  rybrevant"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take rybrevant"
+  * code.text = "2. Det skal du vide, før du begynder at tage  rybrevant"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brug ikke Rybrevant
 
@@ -513,9 +513,9 @@ væsentlige natriumfrit. Inden du får Rybrevant, kan det dog blandes med en opl
 natrium. Tal med din læge, hvis du følger en diæt med lavt salt (natrium) -indhold.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take rybrevant"
+  * title =  "3. Sådan skal du tage rybrevant"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take rybrevant"
+  * code.text = "3. Sådan skal du tage rybrevant"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Så meget vil du få
 Din læge vil udregne den korrekte dosis af Rybrevant til dig. Dosen af dette lægemiddel afhænger af 
@@ -555,9 +555,9 @@ Spørg lægen eller sygeplejersken, hvis der er noget, du er i tvivl om.</p> </d
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Alvorlige bivirkninger
@@ -632,9 +632,9 @@ Appendiks V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe 
 om sikkerheden af dette lægemiddel.</p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store rybrevant"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rybrevant"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rybrevant opbevares på hospitalet eller klinikken.
 Opbevar lægemidlet utilgængeligt for børn.
@@ -652,9 +652,9 @@ eller sygeplejersken vil smide eventuelle medicinrester ud, der ikke længere sk
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rybrevant indeholder:
 
@@ -1442,7 +1442,7 @@ RuleSet: a96793ea13ac1652c4391adeab5c5fd7ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1454,7 +1454,7 @@ RuleSet: a96793ea13ac1652c4391adeab5c5fd7ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1466,7 +1466,7 @@ RuleSet: a96793ea13ac1652c4391adeab5c5fd7ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

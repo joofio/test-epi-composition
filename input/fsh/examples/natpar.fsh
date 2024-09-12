@@ -465,9 +465,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -476,9 +476,9 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
 <li>Brugervejledning</li>
@@ -487,9 +487,9 @@ Usage: #inline
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen
 1. Virkning og anvendelse
@@ -501,9 +501,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What natpar is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What natpar is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hvad er Natpar?
 Natpar bruges som erstatning for et hormon hos voksne med nedsat funktion af biskjoldbruskkirtlerne, 
@@ -522,9 +522,9 @@ kalcium og fosfat i blodet og urinen på et normalt niveau.
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take natpar"
+  * title = "2. Det skal du vide, før du begynder at tage  natpar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take natpar"
+  * code.text = "2. Det skal du vide, før du begynder at tage  natpar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>Tag ikke Natpar:</h2>
 <p>hvis du er allergisk over for parathyroideahormon eller et af de øvrige indholdsstoffer i Natpar 
@@ -602,9 +602,9 @@ Dette lægemiddel indeholder mindre end 1 mmol natrium (23 mg) pr. dosis, dvs. d
 væsentlige natriumfrit.</p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take natpar"
+  * title =  "3. Sådan skal du tage natpar"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take natpar"
+  * code.text = "3. Sådan skal du tage natpar"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid lægemidlet nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller 
 apotekspersonalet. Lægen eller apotekspersonalet vil vise dig, hvordan du bruger Natpar-pennen.
@@ -648,9 +648,9 @@ Spørg lægen eller apotekspersonalet, hvis der er noget, du er i tvivl om.</p> 
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som alle andre lægemidler give bivirkninger, men ikke alle får bivirkninger.
 Alvorlige bivirkninger
@@ -725,9 +725,9 @@ om sikkerheden af dette lægemiddel.</li>
 </ul> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store natpar"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store natpar"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar lægemidlet utilgængeligt for børn.
 Brug ikke lægemidlet efter den udløbsdato, der står på cylinderampullen og æsken efter EXP. 
@@ -761,9 +761,9 @@ ikke smide lægemiddelrester i afløbet, toilettet eller skraldespanden.</p> </d
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Natpar indeholder:
 Aktivt stof: parathyroideahormon (rDNA).
@@ -1411,7 +1411,7 @@ RuleSet: f6b0c91cf3d8d1303191f090e406eeddListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -1423,7 +1423,7 @@ RuleSet: f6b0c91cf3d8d1303191f090e406eeddListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"

@@ -332,9 +332,9 @@ Usage: #inline
 
 
 * section[+].
-  * title = "B. Package Leaflet"
+  * title = "B. INDLÆGSSEDDEL"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "B. Package Leaflet"
+  * code.text = "B. INDLÆGSSEDDEL"
   * text.status = #additional
 
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>unavailable</div>"""
@@ -343,18 +343,18 @@ Usage: #inline
 
       
 * section[=].section[+]
-  * title = "Package leaflet: Information for the user"
+  * title = "Indlægsseddel: Information til brugeren"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "Package leaflet: Information for the user"
+  * code.text = "Indlægsseddel: Information til brugeren"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Se den nyeste indlægsseddel på www.indlaegsseddel.dk </p>  </div>"""   
 
 
 
 * section[=].section[+]
-  * title = "What is in this leaflet"
+  * title = "Oversigt over indlægssedlen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "What is in this leaflet"
+  * code.text = "Oversigt over indlægssedlen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Oversigt over indlægssedlen: 
 1. Virkning og anvendelse 
@@ -366,9 +366,9 @@ Usage: #inline
           
 
 * section[=].section[+]
-  * title =  "1. What esmya is and what it is used for"
+  * title =  "1. Virkning og anvendelse"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text =  "1. What esmya is and what it is used for"
+  * code.text =  "1. Virkning og anvendelse"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Esmya indeholder det aktive stof ulipristalacetat. Det bruges til at behandle moderate til svære 
 symptomer på fibromer i uterus (kaldes også muskelknuder i livmoderen eller myomer), der er 
@@ -383,9 +383,9 @@ størrelse, for at stoppe eller reducere blødning og for at øge antallet af r�
 
              
 * section[=].section[+]
-  * title = "2. What you need to know before you take esmya"
+  * title = "2. Det skal du vide, før du begynder at tage  esmya"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take esmya"
+  * code.text = "2. Det skal du vide, før du begynder at tage  esmya"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Du skal vide, at de fleste kvinder ikke har menstruation under behandlingen og i nogle få uger 
 derefter. </p>
@@ -463,9 +463,9 @@ Esmya kan forårsage let svimmelhed (se pkt. 4 "Bivirkninger"). Kør ikke bil el
 være med at arbejde med værktøj eller maskiner, hvis du oplever disse symptomer. </p> </div>"""   
                     
 * section[=].section[+]
-  * title =  "3. How to take esmya"
+  * title =  "3. Sådan skal du tage esmya"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take esmya"
+  * code.text = "3. Sådan skal du tage esmya"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tag altid dette lægemiddel nøjagtigt efter lægens anvisning. Er du i tvivl, så spørg lægen eller på 
 apoteket. 
@@ -490,9 +490,9 @@ heller ikke selvom du har det bedre, eftersom symptomerne kan komme igen senere.
 
         
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title = "4. Bivirkninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "4. Bivirkninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dette lægemiddel kan som al anden medicin give bivirkninger, men ikke alle får bivirkninger. </p>
 <p>Stop med at bruge Esmya, og kontakt straks en læge, hvis du oplever et eller flere af følgende 
@@ -547,9 +547,9 @@ V. Ved at indrapportere bivirkninger kan du hjælpe med at fremskaffe mere infor
 sikkerheden af dette lægemiddel. </p> </div>"""      
         
 * section[=].section[+]
-  * title = "5. How to store esmya"
+  * title = "5. Opbevaring"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store esmya"
+  * code.text = "5. Opbevaring"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Opbevar dette lægemiddel utilgængeligt for børn </p>
 <p>Brug ikke dette lægemiddel efter den udløbsdato, der står på pakningen. Udløbsdatoen er den sidste 
@@ -560,9 +560,9 @@ medicinrester i afløbet, toilettet eller skraldespanden. </p> </div>"""
         
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "6. Pakningsstørrelser og yderligere oplysninger"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "6. Pakningsstørrelser og yderligere oplysninger"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Esmya indeholder:</p>
 <ul>
@@ -715,7 +715,7 @@ RuleSet: a5f47c93f2a2eb5b88e9129e2aa9f3b9ListRuleset
 * date = "2015-02-07T13:28:17Z"
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
@@ -727,7 +727,7 @@ RuleSet: a5f47c93f2a2eb5b88e9129e2aa9f3b9ListRuleset
 
 
 
-* entry
+* entry[+]
   * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
   * flag.text = "Unchanged"
   * date = "2015-02-07T13:28:17Z"
