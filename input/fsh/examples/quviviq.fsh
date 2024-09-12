@@ -725,6 +725,7 @@ RuleSet: fab45178c60aa670cc4368c283b21decListRuleset
 
 Instance: List-fab45178c60aa670cc4368c283b21dec
 InstanceOf: List
+Description: "ePI document List for quviviq Package Leaflets"
 
 * insert fab45178c60aa670cc4368c283b21decListRuleset
     

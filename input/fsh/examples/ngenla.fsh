@@ -1992,6 +1992,7 @@ RuleSet: 0444f6959a280d43775a9ed2e4fe52c9ListRuleset
 
 Instance: List-0444f6959a280d43775a9ed2e4fe52c9
 InstanceOf: List
+Description: "ePI document List for ngenla Package Leaflets"
 
 * insert 0444f6959a280d43775a9ed2e4fe52c9ListRuleset
     

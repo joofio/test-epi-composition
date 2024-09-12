@@ -1543,6 +1543,7 @@ RuleSet: 84263cabba69906218047f0258521479ListRuleset
 
 Instance: List-84263cabba69906218047f0258521479
 InstanceOf: List
+Description: "ePI document List for elfabrio Package Leaflets"
 
 * insert 84263cabba69906218047f0258521479ListRuleset
     

@@ -1986,6 +1986,7 @@ RuleSet: dff98a1057e854dd22ade83cc61ef07fListRuleset
 
 Instance: List-dff98a1057e854dd22ade83cc61ef07f
 InstanceOf: List
+Description: "ePI document List for tacforius Package Leaflets"
 
 * insert dff98a1057e854dd22ade83cc61ef07fListRuleset
     

@@ -1224,6 +1224,7 @@ RuleSet: 5e5a65e1c335023d46902a7373e1d95fListRuleset
 
 Instance: List-5e5a65e1c335023d46902a7373e1d95f
 InstanceOf: List
+Description: "ePI document List for iclusig Package Leaflets"
 
 * insert 5e5a65e1c335023d46902a7373e1d95fListRuleset
     

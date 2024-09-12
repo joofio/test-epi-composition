@@ -1337,6 +1337,7 @@ RuleSet: f45f6799ffdf756697ce11d9c2b8c128ListRuleset
 
 Instance: List-f45f6799ffdf756697ce11d9c2b8c128
 InstanceOf: List
+Description: "ePI document List for emgality Package Leaflets"
 
 * insert f45f6799ffdf756697ce11d9c2b8c128ListRuleset
     

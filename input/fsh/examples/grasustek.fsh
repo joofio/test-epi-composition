@@ -1100,6 +1100,7 @@ RuleSet: 7d1bb12ba6240a71a9360f68b8249137ListRuleset
 
 Instance: List-7d1bb12ba6240a71a9360f68b8249137
 InstanceOf: List
+Description: "ePI document List for grasustek Package Leaflets"
 
 * insert 7d1bb12ba6240a71a9360f68b8249137ListRuleset
     

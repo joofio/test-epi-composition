@@ -1274,6 +1274,7 @@ RuleSet: 29aa13d063497263a16ff19921f8de13ListRuleset
 
 Instance: List-29aa13d063497263a16ff19921f8de13
 InstanceOf: List
+Description: "ePI document List for yselty Package Leaflets"
 
 * insert 29aa13d063497263a16ff19921f8de13ListRuleset
     

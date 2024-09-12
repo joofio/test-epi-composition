@@ -1200,6 +1200,7 @@ RuleSet: 28443e1a5133f6583423ca208758fe45ListRuleset
 
 Instance: List-28443e1a5133f6583423ca208758fe45
 InstanceOf: List
+Description: "ePI document List for gliolan Package Leaflets"
 
 * insert 28443e1a5133f6583423ca208758fe45ListRuleset
     

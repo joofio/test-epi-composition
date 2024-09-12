@@ -1080,6 +1080,7 @@ RuleSet: f6cd137002e2af601eb2a1335966e882ListRuleset
 
 Instance: List-f6cd137002e2af601eb2a1335966e882
 InstanceOf: List
+Description: "ePI document List for tezspire Package Leaflets"
 
 * insert f6cd137002e2af601eb2a1335966e882ListRuleset
     

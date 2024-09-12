@@ -1018,6 +1018,7 @@ RuleSet: a8470e7b18972c2dec141fc0fb92e8c0ListRuleset
 
 Instance: List-a8470e7b18972c2dec141fc0fb92e8c0
 InstanceOf: List
+Description: "ePI document List for duotrav Package Leaflets"
 
 * insert a8470e7b18972c2dec141fc0fb92e8c0ListRuleset
     

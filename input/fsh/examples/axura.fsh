@@ -885,6 +885,7 @@ RuleSet: dec3a1f5841f1029014aecf2cec0d0c8ListRuleset
 
 Instance: List-dec3a1f5841f1029014aecf2cec0d0c8
 InstanceOf: List
+Description: "ePI document List for axura Package Leaflets"
 
 * insert dec3a1f5841f1029014aecf2cec0d0c8ListRuleset
     

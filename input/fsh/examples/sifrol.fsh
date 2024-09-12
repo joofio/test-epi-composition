@@ -2102,6 +2102,7 @@ RuleSet: 00c9db2c528dacf2cdd39b041aea9315ListRuleset
 
 Instance: List-00c9db2c528dacf2cdd39b041aea9315
 InstanceOf: List
+Description: "ePI document List for sifrol Package Leaflets"
 
 * insert 00c9db2c528dacf2cdd39b041aea9315ListRuleset
     

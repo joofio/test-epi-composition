@@ -1415,6 +1415,7 @@ RuleSet: 27988b0cf49e927966de441ec0585e46ListRuleset
 
 Instance: List-27988b0cf49e927966de441ec0585e46
 InstanceOf: List
+Description: "ePI document List for herzuma Package Leaflets"
 
 * insert 27988b0cf49e927966de441ec0585e46ListRuleset
     

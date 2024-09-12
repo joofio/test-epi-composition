@@ -1657,6 +1657,7 @@ RuleSet: ad129f06143be4f32271a42d5b4c5f85ListRuleset
 
 Instance: List-ad129f06143be4f32271a42d5b4c5f85
 InstanceOf: List
+Description: "ePI document List for cancidas Package Leaflets"
 
 * insert ad129f06143be4f32271a42d5b4c5f85ListRuleset
     

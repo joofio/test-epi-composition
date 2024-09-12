@@ -2348,6 +2348,7 @@ RuleSet: f484a979444f206cec5fad8c011d38cdListRuleset
 
 Instance: List-f484a979444f206cec5fad8c011d38cd
 InstanceOf: List
+Description: "ePI document List for finlee Package Leaflets"
 
 * insert f484a979444f206cec5fad8c011d38cdListRuleset
     

@@ -1116,6 +1116,7 @@ RuleSet: 8a64404ab8208188b8002b2af6aa836eListRuleset
 
 Instance: List-8a64404ab8208188b8002b2af6aa836e
 InstanceOf: List
+Description: "ePI document List for enyglid Package Leaflets"
 
 * insert 8a64404ab8208188b8002b2af6aa836eListRuleset
     

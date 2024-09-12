@@ -1189,6 +1189,7 @@ RuleSet: 4106f4a5a4b46a8c1fb9847b0f08bcedListRuleset
 
 Instance: List-4106f4a5a4b46a8c1fb9847b0f08bced
 InstanceOf: List
+Description: "ePI document List for nerlynx Package Leaflets"
 
 * insert 4106f4a5a4b46a8c1fb9847b0f08bcedListRuleset
     

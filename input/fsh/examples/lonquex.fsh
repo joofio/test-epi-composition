@@ -2083,6 +2083,7 @@ RuleSet: c90b79fb8cf9d2067c35819ca84918dfListRuleset
 
 Instance: List-c90b79fb8cf9d2067c35819ca84918df
 InstanceOf: List
+Description: "ePI document List for lonquex Package Leaflets"
 
 * insert c90b79fb8cf9d2067c35819ca84918dfListRuleset
     

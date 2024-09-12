@@ -886,6 +886,7 @@ RuleSet: e7c357e85455d1fe389fd3b297f16867ListRuleset
 
 Instance: List-e7c357e85455d1fe389fd3b297f16867
 InstanceOf: List
+Description: "ePI document List for axumin Package Leaflets"
 
 * insert e7c357e85455d1fe389fd3b297f16867ListRuleset
     

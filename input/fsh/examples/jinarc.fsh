@@ -1910,6 +1910,7 @@ RuleSet: 3441cbef7f1604451bb170e82be4a4eaListRuleset
 
 Instance: List-3441cbef7f1604451bb170e82be4a4ea
 InstanceOf: List
+Description: "ePI document List for jinarc Package Leaflets"
 
 * insert 3441cbef7f1604451bb170e82be4a4eaListRuleset
     

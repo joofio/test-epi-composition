@@ -1976,6 +1976,7 @@ RuleSet: 9af059b2ba34008a8e3668c3f552d22fListRuleset
 
 Instance: List-9af059b2ba34008a8e3668c3f552d22f
 InstanceOf: List
+Description: "ePI document List for rekambys Package Leaflets"
 
 * insert 9af059b2ba34008a8e3668c3f552d22fListRuleset
     

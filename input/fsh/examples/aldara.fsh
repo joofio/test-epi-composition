@@ -1129,6 +1129,7 @@ RuleSet: fc79b24fd8d9aad3e2636eda8908eb2aListRuleset
 
 Instance: List-fc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: List
+Description: "ePI document List for aldara Package Leaflets"
 
 * insert fc79b24fd8d9aad3e2636eda8908eb2aListRuleset
     

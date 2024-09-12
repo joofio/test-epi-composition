@@ -730,6 +730,7 @@ RuleSet: 37d610f9c96d541562699215b0864126ListRuleset
 
 Instance: List-37d610f9c96d541562699215b0864126
 InstanceOf: List
+Description: "ePI document List for xenical Package Leaflets"
 
 * insert 37d610f9c96d541562699215b0864126ListRuleset
     

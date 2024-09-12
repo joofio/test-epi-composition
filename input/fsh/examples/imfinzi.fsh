@@ -2899,6 +2899,7 @@ RuleSet: a8ab0a50af543bb09893d6d85fe7a719ListRuleset
 
 Instance: List-a8ab0a50af543bb09893d6d85fe7a719
 InstanceOf: List
+Description: "ePI document List for imfinzi Package Leaflets"
 
 * insert a8ab0a50af543bb09893d6d85fe7a719ListRuleset
     

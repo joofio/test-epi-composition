@@ -1240,6 +1240,7 @@ RuleSet: bd22c6cb08ec26dbc8a674d031b87df0ListRuleset
 
 Instance: List-bd22c6cb08ec26dbc8a674d031b87df0
 InstanceOf: List
+Description: "ePI document List for exjade Package Leaflets"
 
 * insert bd22c6cb08ec26dbc8a674d031b87df0ListRuleset
     

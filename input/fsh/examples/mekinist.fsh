@@ -3058,6 +3058,7 @@ RuleSet: a2f0520006a5864136cdf3a6777cfd07ListRuleset
 
 Instance: List-a2f0520006a5864136cdf3a6777cfd07
 InstanceOf: List
+Description: "ePI document List for mekinist Package Leaflets"
 
 * insert a2f0520006a5864136cdf3a6777cfd07ListRuleset
     

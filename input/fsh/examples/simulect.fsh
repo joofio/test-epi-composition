@@ -803,6 +803,7 @@ RuleSet: 8922f58fa03c5bb0f5736b85deead4c0ListRuleset
 
 Instance: List-8922f58fa03c5bb0f5736b85deead4c0
 InstanceOf: List
+Description: "ePI document List for simulect Package Leaflets"
 
 * insert 8922f58fa03c5bb0f5736b85deead4c0ListRuleset
     

@@ -1159,6 +1159,7 @@ RuleSet: bbd22ba876ae7309a2b1061a1e9bb063ListRuleset
 
 Instance: List-bbd22ba876ae7309a2b1061a1e9bb063
 InstanceOf: List
+Description: "ePI document List for vantavo Package Leaflets"
 
 * insert bbd22ba876ae7309a2b1061a1e9bb063ListRuleset
     

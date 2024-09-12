@@ -1269,6 +1269,7 @@ RuleSet: 9889706f10caf682c405b7ee9acf1a34ListRuleset
 
 Instance: List-9889706f10caf682c405b7ee9acf1a34
 InstanceOf: List
+Description: "ePI document List for seffalair Package Leaflets"
 
 * insert 9889706f10caf682c405b7ee9acf1a34ListRuleset
     

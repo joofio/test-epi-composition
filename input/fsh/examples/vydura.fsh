@@ -670,6 +670,7 @@ RuleSet: 443c755443342bac5ae9c42b145300e0ListRuleset
 
 Instance: List-443c755443342bac5ae9c42b145300e0
 InstanceOf: List
+Description: "ePI document List for vydura Package Leaflets"
 
 * insert 443c755443342bac5ae9c42b145300e0ListRuleset
     

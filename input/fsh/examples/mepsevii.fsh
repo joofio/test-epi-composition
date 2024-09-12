@@ -1001,6 +1001,7 @@ RuleSet: b7b07dd0d126d4ea375a8a380bc3e7b9ListRuleset
 
 Instance: List-b7b07dd0d126d4ea375a8a380bc3e7b9
 InstanceOf: List
+Description: "ePI document List for mepsevii Package Leaflets"
 
 * insert b7b07dd0d126d4ea375a8a380bc3e7b9ListRuleset
     

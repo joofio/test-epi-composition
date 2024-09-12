@@ -1527,6 +1527,7 @@ RuleSet: 261a55b4cd341177b15693bfb98631a1ListRuleset
 
 Instance: List-261a55b4cd341177b15693bfb98631a1
 InstanceOf: List
+Description: "ePI document List for pramipexole Package Leaflets"
 
 * insert 261a55b4cd341177b15693bfb98631a1ListRuleset
     

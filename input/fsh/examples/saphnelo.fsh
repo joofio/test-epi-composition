@@ -982,6 +982,7 @@ RuleSet: 44b9456eb2913b31231c4ec15c3a0e75ListRuleset
 
 Instance: List-44b9456eb2913b31231c4ec15c3a0e75
 InstanceOf: List
+Description: "ePI document List for saphnelo Package Leaflets"
 
 * insert 44b9456eb2913b31231c4ec15c3a0e75ListRuleset
     

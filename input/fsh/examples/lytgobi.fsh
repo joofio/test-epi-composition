@@ -1294,6 +1294,7 @@ RuleSet: dbc2060ee6f62aba124d52b5666f8915ListRuleset
 
 Instance: List-dbc2060ee6f62aba124d52b5666f8915
 InstanceOf: List
+Description: "ePI document List for lytgobi Package Leaflets"
 
 * insert dbc2060ee6f62aba124d52b5666f8915ListRuleset
     

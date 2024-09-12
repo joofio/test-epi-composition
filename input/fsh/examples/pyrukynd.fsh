@@ -1375,6 +1375,7 @@ RuleSet: c4042d3fb4af6b1a99be10ddedae7598ListRuleset
 
 Instance: List-c4042d3fb4af6b1a99be10ddedae7598
 InstanceOf: List
+Description: "ePI document List for pyrukynd Package Leaflets"
 
 * insert c4042d3fb4af6b1a99be10ddedae7598ListRuleset
     

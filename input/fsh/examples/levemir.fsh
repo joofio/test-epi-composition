@@ -1783,6 +1783,7 @@ RuleSet: 6c112c3573c3c3963f8150233106c4e0ListRuleset
 
 Instance: List-6c112c3573c3c3963f8150233106c4e0
 InstanceOf: List
+Description: "ePI document List for levemir Package Leaflets"
 
 * insert 6c112c3573c3c3963f8150233106c4e0ListRuleset
     

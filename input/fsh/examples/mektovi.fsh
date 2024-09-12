@@ -1641,6 +1641,7 @@ RuleSet: 1fc6739ba81d50a7087579c92c2a7274ListRuleset
 
 Instance: List-1fc6739ba81d50a7087579c92c2a7274
 InstanceOf: List
+Description: "ePI document List for mektovi Package Leaflets"
 
 * insert 1fc6739ba81d50a7087579c92c2a7274ListRuleset
     

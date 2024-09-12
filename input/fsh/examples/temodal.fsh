@@ -1255,6 +1255,7 @@ RuleSet: 33bcbacd960ab61b8ab697e9c9093f8cListRuleset
 
 Instance: List-33bcbacd960ab61b8ab697e9c9093f8c
 InstanceOf: List
+Description: "ePI document List for temodal Package Leaflets"
 
 * insert 33bcbacd960ab61b8ab697e9c9093f8cListRuleset
     

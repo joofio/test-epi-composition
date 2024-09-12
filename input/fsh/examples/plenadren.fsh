@@ -1522,6 +1522,7 @@ RuleSet: 4be09f952ab4cdf2803ef423dc889e5cListRuleset
 
 Instance: List-4be09f952ab4cdf2803ef423dc889e5c
 InstanceOf: List
+Description: "ePI document List for plenadren Package Leaflets"
 
 * insert 4be09f952ab4cdf2803ef423dc889e5cListRuleset
     

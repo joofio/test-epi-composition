@@ -912,6 +912,7 @@ RuleSet: 533640e2b33051c3986eeb9c67d13b2cListRuleset
 
 Instance: List-533640e2b33051c3986eeb9c67d13b2c
 InstanceOf: List
+Description: "ePI document List for aflunov Package Leaflets"
 
 * insert 533640e2b33051c3986eeb9c67d13b2cListRuleset
     

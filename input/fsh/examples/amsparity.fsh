@@ -3074,6 +3074,7 @@ RuleSet: cb456248863851baf93dc89f0a0fc5bfListRuleset
 
 Instance: List-cb456248863851baf93dc89f0a0fc5bf
 InstanceOf: List
+Description: "ePI document List for amsparity Package Leaflets"
 
 * insert cb456248863851baf93dc89f0a0fc5bfListRuleset
     

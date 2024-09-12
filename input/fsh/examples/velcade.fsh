@@ -1691,6 +1691,7 @@ RuleSet: 227bd9b21ea0c447e44bb88e14511a9dListRuleset
 
 Instance: List-227bd9b21ea0c447e44bb88e14511a9d
 InstanceOf: List
+Description: "ePI document List for velcade Package Leaflets"
 
 * insert 227bd9b21ea0c447e44bb88e14511a9dListRuleset
     

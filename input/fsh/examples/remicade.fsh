@@ -2732,6 +2732,7 @@ RuleSet: 0c99db4eccd07c1cf26c691487dc71e8ListRuleset
 
 Instance: List-0c99db4eccd07c1cf26c691487dc71e8
 InstanceOf: List
+Description: "ePI document List for remicade Package Leaflets"
 
 * insert 0c99db4eccd07c1cf26c691487dc71e8ListRuleset
     

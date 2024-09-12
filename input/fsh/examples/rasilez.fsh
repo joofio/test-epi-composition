@@ -805,6 +805,7 @@ RuleSet: 5723af3498c13864107ed05f36f04f5dListRuleset
 
 Instance: List-5723af3498c13864107ed05f36f04f5d
 InstanceOf: List
+Description: "ePI document List for rasilez Package Leaflets"
 
 * insert 5723af3498c13864107ed05f36f04f5dListRuleset
     

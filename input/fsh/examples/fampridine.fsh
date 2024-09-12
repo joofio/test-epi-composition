@@ -1139,6 +1139,7 @@ RuleSet: 63de51a4556de5e7a2f7d84ffc03fbf9ListRuleset
 
 Instance: List-63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: List
+Description: "ePI document List for fampridine Package Leaflets"
 
 * insert 63de51a4556de5e7a2f7d84ffc03fbf9ListRuleset
     

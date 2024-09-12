@@ -1972,6 +1972,7 @@ RuleSet: 27ec6b1f73b141fda5344cc71ceec655ListRuleset
 
 Instance: List-27ec6b1f73b141fda5344cc71ceec655
 InstanceOf: List
+Description: "ePI document List for trodelvy Package Leaflets"
 
 * insert 27ec6b1f73b141fda5344cc71ceec655ListRuleset
     

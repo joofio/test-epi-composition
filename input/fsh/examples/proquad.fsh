@@ -1042,6 +1042,7 @@ RuleSet: 188ccb87c0d4f4c736200f4cfc1c3e01ListRuleset
 
 Instance: List-188ccb87c0d4f4c736200f4cfc1c3e01
 InstanceOf: List
+Description: "ePI document List for proquad Package Leaflets"
 
 * insert 188ccb87c0d4f4c736200f4cfc1c3e01ListRuleset
     

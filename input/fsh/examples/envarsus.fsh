@@ -1979,6 +1979,7 @@ RuleSet: bfce752a769c6bdf68d02de41c720db5ListRuleset
 
 Instance: List-bfce752a769c6bdf68d02de41c720db5
 InstanceOf: List
+Description: "ePI document List for envarsus Package Leaflets"
 
 * insert bfce752a769c6bdf68d02de41c720db5ListRuleset
     

@@ -1322,6 +1322,7 @@ RuleSet: 88ac51135926fe5f02906273e51ddf2fListRuleset
 
 Instance: List-88ac51135926fe5f02906273e51ddf2f
 InstanceOf: List
+Description: "ePI document List for epoetin Package Leaflets"
 
 * insert 88ac51135926fe5f02906273e51ddf2fListRuleset
     

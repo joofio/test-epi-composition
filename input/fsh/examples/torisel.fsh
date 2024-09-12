@@ -1822,6 +1822,7 @@ RuleSet: 4e8e0c5f72dbc27f3ff2eb4a522fe300ListRuleset
 
 Instance: List-4e8e0c5f72dbc27f3ff2eb4a522fe300
 InstanceOf: List
+Description: "ePI document List for torisel Package Leaflets"
 
 * insert 4e8e0c5f72dbc27f3ff2eb4a522fe300ListRuleset
     

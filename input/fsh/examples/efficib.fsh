@@ -1126,6 +1126,7 @@ RuleSet: 81f5650754f57ccfab50a85a04738aecListRuleset
 
 Instance: List-81f5650754f57ccfab50a85a04738aec
 InstanceOf: List
+Description: "ePI document List for efficib Package Leaflets"
 
 * insert 81f5650754f57ccfab50a85a04738aecListRuleset
     

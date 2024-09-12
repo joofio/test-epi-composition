@@ -826,6 +826,7 @@ RuleSet: b3a525a247bab07c652b4fb8f5f55618ListRuleset
 
 Instance: List-b3a525a247bab07c652b4fb8f5f55618
 InstanceOf: List
+Description: "ePI document List for vizamyl Package Leaflets"
 
 * insert b3a525a247bab07c652b4fb8f5f55618ListRuleset
     

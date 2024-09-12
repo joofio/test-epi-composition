@@ -2250,6 +2250,7 @@ RuleSet: 603d42b6b07783003b47c538f27a463dListRuleset
 
 Instance: List-603d42b6b07783003b47c538f27a463d
 InstanceOf: List
+Description: "ePI document List for rinvoq Package Leaflets"
 
 * insert 603d42b6b07783003b47c538f27a463dListRuleset
     

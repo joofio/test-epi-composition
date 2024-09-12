@@ -1124,6 +1124,7 @@ RuleSet: 1c8a533780954e330a4c10339c9c24f7ListRuleset
 
 Instance: List-1c8a533780954e330a4c10339c9c24f7
 InstanceOf: List
+Description: "ePI document List for xenpozyme Package Leaflets"
 
 * insert 1c8a533780954e330a4c10339c9c24f7ListRuleset
     

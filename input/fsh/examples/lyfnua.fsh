@@ -834,6 +834,7 @@ RuleSet: d5d0f8dae3251797998b53d83d0b35faListRuleset
 
 Instance: List-d5d0f8dae3251797998b53d83d0b35fa
 InstanceOf: List
+Description: "ePI document List for lyfnua Package Leaflets"
 
 * insert d5d0f8dae3251797998b53d83d0b35faListRuleset
     

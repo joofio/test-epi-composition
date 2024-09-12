@@ -1307,6 +1307,7 @@ RuleSet: 99b35aa72c0e418c8749ea99edf139d2ListRuleset
 
 Instance: List-99b35aa72c0e418c8749ea99edf139d2
 InstanceOf: List
+Description: "ePI document List for vizimpro Package Leaflets"
 
 * insert 99b35aa72c0e418c8749ea99edf139d2ListRuleset
     

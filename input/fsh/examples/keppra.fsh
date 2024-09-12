@@ -1886,6 +1886,7 @@ RuleSet: d21a665ebc1011132a02f9a335304090ListRuleset
 
 Instance: List-d21a665ebc1011132a02f9a335304090
 InstanceOf: List
+Description: "ePI document List for keppra Package Leaflets"
 
 * insert d21a665ebc1011132a02f9a335304090ListRuleset
     

@@ -998,6 +998,7 @@ RuleSet: 426fcc87e6dced0e7ea770b4b6114e7dListRuleset
 
 Instance: List-426fcc87e6dced0e7ea770b4b6114e7d
 InstanceOf: List
+Description: "ePI document List for tenkasi Package Leaflets"
 
 * insert 426fcc87e6dced0e7ea770b4b6114e7dListRuleset
     

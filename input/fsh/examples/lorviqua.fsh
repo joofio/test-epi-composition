@@ -1638,6 +1638,7 @@ RuleSet: 421c345b23392c1be16e7fe1f7c5111bListRuleset
 
 Instance: List-421c345b23392c1be16e7fe1f7c5111b
 InstanceOf: List
+Description: "ePI document List for lorviqua Package Leaflets"
 
 * insert 421c345b23392c1be16e7fe1f7c5111bListRuleset
     

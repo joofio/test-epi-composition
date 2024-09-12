@@ -1123,6 +1123,7 @@ RuleSet: a0d64103b1c8a608be4329399bf17c80ListRuleset
 
 Instance: List-a0d64103b1c8a608be4329399bf17c80
 InstanceOf: List
+Description: "ePI document List for hyftor Package Leaflets"
 
 * insert a0d64103b1c8a608be4329399bf17c80ListRuleset
     

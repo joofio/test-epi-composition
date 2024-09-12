@@ -3654,6 +3654,7 @@ RuleSet: f34ab6116c3c4c0c8f28f2de9888b61eListRuleset
 
 Instance: List-f34ab6116c3c4c0c8f28f2de9888b61e
 InstanceOf: List
+Description: "ePI document List for revolade Package Leaflets"
 
 * insert f34ab6116c3c4c0c8f28f2de9888b61eListRuleset
     

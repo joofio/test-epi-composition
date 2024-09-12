@@ -884,6 +884,7 @@ RuleSet: eed4802d86314fbe213d3f12beb50fbbListRuleset
 
 Instance: List-eed4802d86314fbe213d3f12beb50fbb
 InstanceOf: List
+Description: "ePI document List for xospata Package Leaflets"
 
 * insert eed4802d86314fbe213d3f12beb50fbbListRuleset
     

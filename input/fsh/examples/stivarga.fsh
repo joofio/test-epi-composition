@@ -1195,6 +1195,7 @@ RuleSet: 1725e26bb7cb4ad5c29cb26127be8f47ListRuleset
 
 Instance: List-1725e26bb7cb4ad5c29cb26127be8f47
 InstanceOf: List
+Description: "ePI document List for stivarga Package Leaflets"
 
 * insert 1725e26bb7cb4ad5c29cb26127be8f47ListRuleset
     

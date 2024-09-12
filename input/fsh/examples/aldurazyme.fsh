@@ -1026,6 +1026,7 @@ RuleSet: 5ffbf24d0777fe10834621c6432afea6ListRuleset
 
 Instance: List-5ffbf24d0777fe10834621c6432afea6
 InstanceOf: List
+Description: "ePI document List for aldurazyme Package Leaflets"
 
 * insert 5ffbf24d0777fe10834621c6432afea6ListRuleset
     

@@ -1176,6 +1176,7 @@ RuleSet: 0f7d092ba8e4ed3275cffe67db6bbcc7ListRuleset
 
 Instance: List-0f7d092ba8e4ed3275cffe67db6bbcc7
 InstanceOf: List
+Description: "ePI document List for recarbrio Package Leaflets"
 
 * insert 0f7d092ba8e4ed3275cffe67db6bbcc7ListRuleset
     

@@ -2596,6 +2596,7 @@ RuleSet: 83e465306011aa98a59a237fbe1da484ListRuleset
 
 Instance: List-83e465306011aa98a59a237fbe1da484
 InstanceOf: List
+Description: "ePI document List for drovelis Package Leaflets"
 
 * insert 83e465306011aa98a59a237fbe1da484ListRuleset
     

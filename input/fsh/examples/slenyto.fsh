@@ -1591,6 +1591,7 @@ RuleSet: f502911808bc1b6ee8b26c1badf235f8ListRuleset
 
 Instance: List-f502911808bc1b6ee8b26c1badf235f8
 InstanceOf: List
+Description: "ePI document List for slenyto Package Leaflets"
 
 * insert f502911808bc1b6ee8b26c1badf235f8ListRuleset
     

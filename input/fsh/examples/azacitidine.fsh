@@ -1310,6 +1310,7 @@ RuleSet: 918183ebe8d737590835d2d1ada752f1ListRuleset
 
 Instance: List-918183ebe8d737590835d2d1ada752f1
 InstanceOf: List
+Description: "ePI document List for azacitidine Package Leaflets"
 
 * insert 918183ebe8d737590835d2d1ada752f1ListRuleset
     

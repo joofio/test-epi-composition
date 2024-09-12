@@ -1651,6 +1651,7 @@ RuleSet: 27a52606a6d06c382d79e38520d58ce1ListRuleset
 
 Instance: List-27a52606a6d06c382d79e38520d58ce1
 InstanceOf: List
+Description: "ePI document List for ameluz Package Leaflets"
 
 * insert 27a52606a6d06c382d79e38520d58ce1ListRuleset
     

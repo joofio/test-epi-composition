@@ -1335,6 +1335,7 @@ RuleSet: 8734938a1d7cc06ba1013b88ab4857e8ListRuleset
 
 Instance: List-8734938a1d7cc06ba1013b88ab4857e8
 InstanceOf: List
+Description: "ePI document List for mycapssa Package Leaflets"
 
 * insert 8734938a1d7cc06ba1013b88ab4857e8ListRuleset
     

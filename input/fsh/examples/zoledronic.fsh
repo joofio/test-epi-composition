@@ -1071,6 +1071,7 @@ RuleSet: 5070cf955a155484c6e1db8e94877cf4ListRuleset
 
 Instance: List-5070cf955a155484c6e1db8e94877cf4
 InstanceOf: List
+Description: "ePI document List for zoledronic Package Leaflets"
 
 * insert 5070cf955a155484c6e1db8e94877cf4ListRuleset
     

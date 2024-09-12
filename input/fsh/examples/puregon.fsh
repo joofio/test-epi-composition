@@ -1756,6 +1756,7 @@ RuleSet: cfa624691d24d77fe98aa5c98b02fbebListRuleset
 
 Instance: List-cfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: List
+Description: "ePI document List for puregon Package Leaflets"
 
 * insert cfa624691d24d77fe98aa5c98b02fbebListRuleset
     

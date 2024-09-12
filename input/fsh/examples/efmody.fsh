@@ -1323,6 +1323,7 @@ RuleSet: d70366d9de20b85af1c498f11302a348ListRuleset
 
 Instance: List-d70366d9de20b85af1c498f11302a348
 InstanceOf: List
+Description: "ePI document List for efmody Package Leaflets"
 
 * insert d70366d9de20b85af1c498f11302a348ListRuleset
     

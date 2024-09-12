@@ -817,6 +817,7 @@ RuleSet: 9cfa53e5a31a6544aeb83b303f96813fListRuleset
 
 Instance: List-9cfa53e5a31a6544aeb83b303f96813f
 InstanceOf: List
+Description: "ePI document List for zyprexa Package Leaflets"
 
 * insert 9cfa53e5a31a6544aeb83b303f96813fListRuleset
     

@@ -897,6 +897,7 @@ RuleSet: a7a8f3aaed2850db2f524101df25e7abListRuleset
 
 Instance: List-a7a8f3aaed2850db2f524101df25e7ab
 InstanceOf: List
+Description: "ePI document List for iressa Package Leaflets"
 
 * insert a7a8f3aaed2850db2f524101df25e7abListRuleset
     

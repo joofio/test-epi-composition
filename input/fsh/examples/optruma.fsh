@@ -843,6 +843,7 @@ RuleSet: 3fb39d4138ab0b1b436f7dc265a1c128ListRuleset
 
 Instance: List-3fb39d4138ab0b1b436f7dc265a1c128
 InstanceOf: List
+Description: "ePI document List for optruma Package Leaflets"
 
 * insert 3fb39d4138ab0b1b436f7dc265a1c128ListRuleset
     

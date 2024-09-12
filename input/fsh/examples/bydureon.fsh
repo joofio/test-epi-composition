@@ -1021,6 +1021,7 @@ RuleSet: 6314391ffa616dcd24b26dde0bda19dfListRuleset
 
 Instance: List-6314391ffa616dcd24b26dde0bda19df
 InstanceOf: List
+Description: "ePI document List for bydureon Package Leaflets"
 
 * insert 6314391ffa616dcd24b26dde0bda19dfListRuleset
     

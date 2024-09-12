@@ -2013,6 +2013,7 @@ RuleSet: 92b31dfcd94fef6128e5d86cc210fa3fListRuleset
 
 Instance: List-92b31dfcd94fef6128e5d86cc210fa3f
 InstanceOf: List
+Description: "ePI document List for pazenir Package Leaflets"
 
 * insert 92b31dfcd94fef6128e5d86cc210fa3fListRuleset
     

@@ -1828,6 +1828,7 @@ RuleSet: bb91b33a725934383f978ba47cb95161ListRuleset
 
 Instance: List-bb91b33a725934383f978ba47cb95161
 InstanceOf: List
+Description: "ePI document List for tegsedi Package Leaflets"
 
 * insert bb91b33a725934383f978ba47cb95161ListRuleset
     

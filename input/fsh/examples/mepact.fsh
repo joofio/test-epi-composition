@@ -1131,6 +1131,7 @@ RuleSet: 28badbaa1dfc6b119cb5212548687175ListRuleset
 
 Instance: List-28badbaa1dfc6b119cb5212548687175
 InstanceOf: List
+Description: "ePI document List for mepact Package Leaflets"
 
 * insert 28badbaa1dfc6b119cb5212548687175ListRuleset
     

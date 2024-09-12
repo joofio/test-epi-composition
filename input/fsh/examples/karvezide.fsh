@@ -1132,6 +1132,7 @@ RuleSet: d0672eae48edc2b3744742b0b1ff7c9bListRuleset
 
 Instance: List-d0672eae48edc2b3744742b0b1ff7c9b
 InstanceOf: List
+Description: "ePI document List for karvezide Package Leaflets"
 
 * insert d0672eae48edc2b3744742b0b1ff7c9bListRuleset
     

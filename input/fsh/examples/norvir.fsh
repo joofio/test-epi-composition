@@ -2265,6 +2265,7 @@ RuleSet: 05f8c1dee8f03d43d5a47046b61f2f18ListRuleset
 
 Instance: List-05f8c1dee8f03d43d5a47046b61f2f18
 InstanceOf: List
+Description: "ePI document List for norvir Package Leaflets"
 
 * insert 05f8c1dee8f03d43d5a47046b61f2f18ListRuleset
     

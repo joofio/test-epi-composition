@@ -2160,6 +2160,7 @@ RuleSet: 9e5179bf4e803289b510a39f498792d0ListRuleset
 
 Instance: List-9e5179bf4e803289b510a39f498792d0
 InstanceOf: List
+Description: "ePI document List for genvoya Package Leaflets"
 
 * insert 9e5179bf4e803289b510a39f498792d0ListRuleset
     

@@ -1610,6 +1610,7 @@ RuleSet: bc2ae75a6ecb98e9392c79b792d9e432ListRuleset
 
 Instance: List-bc2ae75a6ecb98e9392c79b792d9e432
 InstanceOf: List
+Description: "ePI document List for invanz Package Leaflets"
 
 * insert bc2ae75a6ecb98e9392c79b792d9e432ListRuleset
     

@@ -2231,6 +2231,7 @@ RuleSet: 09106d45449680d6410b39822e859120ListRuleset
 
 Instance: List-09106d45449680d6410b39822e859120
 InstanceOf: List
+Description: "ePI document List for invega Package Leaflets"
 
 * insert 09106d45449680d6410b39822e859120ListRuleset
     

@@ -920,6 +920,7 @@ RuleSet: ef95b389907181c6a50441289b7e7a0aListRuleset
 
 Instance: List-ef95b389907181c6a50441289b7e7a0a
 InstanceOf: List
+Description: "ePI document List for rotateq Package Leaflets"
 
 * insert ef95b389907181c6a50441289b7e7a0aListRuleset
     

@@ -1376,6 +1376,7 @@ RuleSet: d143dc49ab0647909fad048e72ad56b0ListRuleset
 
 Instance: List-d143dc49ab0647909fad048e72ad56b0
 InstanceOf: List
+Description: "ePI document List for inrebic Package Leaflets"
 
 * insert d143dc49ab0647909fad048e72ad56b0ListRuleset
     

@@ -955,6 +955,7 @@ RuleSet: 69c2bef02c7fe63e8cfc997db1e3d8f8ListRuleset
 
 Instance: List-69c2bef02c7fe63e8cfc997db1e3d8f8
 InstanceOf: List
+Description: "ePI document List for bexsero Package Leaflets"
 
 * insert 69c2bef02c7fe63e8cfc997db1e3d8f8ListRuleset
     

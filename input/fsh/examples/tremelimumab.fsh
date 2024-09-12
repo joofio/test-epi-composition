@@ -1019,6 +1019,7 @@ RuleSet: 61c550567cdacc51b535f7056828dfc2ListRuleset
 
 Instance: List-61c550567cdacc51b535f7056828dfc2
 InstanceOf: List
+Description: "ePI document List for tremelimumab Package Leaflets"
 
 * insert 61c550567cdacc51b535f7056828dfc2ListRuleset
     

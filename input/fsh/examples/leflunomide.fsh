@@ -1598,6 +1598,7 @@ RuleSet: 77a855e484d10473c2746e9b03c57ddeListRuleset
 
 Instance: List-77a855e484d10473c2746e9b03c57dde
 InstanceOf: List
+Description: "ePI document List for leflunomide Package Leaflets"
 
 * insert 77a855e484d10473c2746e9b03c57ddeListRuleset
     

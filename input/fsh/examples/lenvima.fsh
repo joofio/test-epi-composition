@@ -2489,6 +2489,7 @@ RuleSet: 2a6f62e1d5ad7fde088bdbbe5ee1875eListRuleset
 
 Instance: List-2a6f62e1d5ad7fde088bdbbe5ee1875e
 InstanceOf: List
+Description: "ePI document List for lenvima Package Leaflets"
 
 * insert 2a6f62e1d5ad7fde088bdbbe5ee1875eListRuleset
     

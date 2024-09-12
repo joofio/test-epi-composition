@@ -2234,6 +2234,7 @@ RuleSet: 943ee66eb6c14bbfb08d263a24ef8bd8ListRuleset
 
 Instance: List-943ee66eb6c14bbfb08d263a24ef8bd8
 InstanceOf: List
+Description: "ePI document List for ilaris Package Leaflets"
 
 * insert 943ee66eb6c14bbfb08d263a24ef8bd8ListRuleset
     

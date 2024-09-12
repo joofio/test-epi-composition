@@ -807,6 +807,7 @@ RuleSet: c8b09940edf0aa917a934cf86ca85bbdListRuleset
 
 Instance: List-c8b09940edf0aa917a934cf86ca85bbd
 InstanceOf: List
+Description: "ePI document List for spherox Package Leaflets"
 
 * insert c8b09940edf0aa917a934cf86ca85bbdListRuleset
     

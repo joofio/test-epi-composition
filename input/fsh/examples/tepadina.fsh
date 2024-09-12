@@ -1061,6 +1061,7 @@ RuleSet: 23483e68b180589da70be31f3872f1d0ListRuleset
 
 Instance: List-23483e68b180589da70be31f3872f1d0
 InstanceOf: List
+Description: "ePI document List for tepadina Package Leaflets"
 
 * insert 23483e68b180589da70be31f3872f1d0ListRuleset
     

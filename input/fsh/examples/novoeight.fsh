@@ -1094,6 +1094,7 @@ RuleSet: 6a4906798bb720b77ad2e34e8f5369c0ListRuleset
 
 Instance: List-6a4906798bb720b77ad2e34e8f5369c0
 InstanceOf: List
+Description: "ePI document List for novoeight Package Leaflets"
 
 * insert 6a4906798bb720b77ad2e34e8f5369c0ListRuleset
     

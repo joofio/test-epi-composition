@@ -1888,6 +1888,7 @@ RuleSet: 0b227cd2a54454e66a70766913e35ba2ListRuleset
 
 Instance: List-0b227cd2a54454e66a70766913e35ba2
 InstanceOf: List
+Description: "ePI document List for pegasys Package Leaflets"
 
 * insert 0b227cd2a54454e66a70766913e35ba2ListRuleset
     

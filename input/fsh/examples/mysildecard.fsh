@@ -1240,6 +1240,7 @@ RuleSet: 9585e706c3b3ccee22d99123d376fe07ListRuleset
 
 Instance: List-9585e706c3b3ccee22d99123d376fe07
 InstanceOf: List
+Description: "ePI document List for mysildecard Package Leaflets"
 
 * insert 9585e706c3b3ccee22d99123d376fe07ListRuleset
     

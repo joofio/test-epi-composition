@@ -1126,6 +1126,7 @@ RuleSet: 5f8b8c4b9e5f26ff9f9320c47bf6fa58ListRuleset
 
 Instance: List-5f8b8c4b9e5f26ff9f9320c47bf6fa58
 InstanceOf: List
+Description: "ePI document List for vidaza Package Leaflets"
 
 * insert 5f8b8c4b9e5f26ff9f9320c47bf6fa58ListRuleset
     

@@ -1099,6 +1099,7 @@ RuleSet: 28b6beabb1138dcf80cd8cb464115640ListRuleset
 
 Instance: List-28b6beabb1138dcf80cd8cb464115640
 InstanceOf: List
+Description: "ePI document List for veoza Package Leaflets"
 
 * insert 28b6beabb1138dcf80cd8cb464115640ListRuleset
     

@@ -1063,6 +1063,7 @@ RuleSet: a1d327760eabe9367684e5523c2c313bListRuleset
 
 Instance: List-a1d327760eabe9367684e5523c2c313b
 InstanceOf: List
+Description: "ePI document List for respreeza Package Leaflets"
 
 * insert a1d327760eabe9367684e5523c2c313bListRuleset
     

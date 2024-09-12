@@ -1362,6 +1362,7 @@ RuleSet: 47f74762e12054bd07cc18f7f2dc9dfbListRuleset
 
 Instance: List-47f74762e12054bd07cc18f7f2dc9dfb
 InstanceOf: List
+Description: "ePI document List for ryzodeg Package Leaflets"
 
 * insert 47f74762e12054bd07cc18f7f2dc9dfbListRuleset
     

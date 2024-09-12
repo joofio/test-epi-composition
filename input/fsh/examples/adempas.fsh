@@ -1737,6 +1737,7 @@ RuleSet: a0ac9d79e71815d66e8cc1b00ebabcb0ListRuleset
 
 Instance: List-a0ac9d79e71815d66e8cc1b00ebabcb0
 InstanceOf: List
+Description: "ePI document List for adempas Package Leaflets"
 
 * insert a0ac9d79e71815d66e8cc1b00ebabcb0ListRuleset
     

@@ -1496,6 +1496,7 @@ RuleSet: dce45db374fd85c6f1ce99ef66d24944ListRuleset
 
 Instance: List-dce45db374fd85c6f1ce99ef66d24944
 InstanceOf: List
+Description: "ePI document List for ivemend Package Leaflets"
 
 * insert dce45db374fd85c6f1ce99ef66d24944ListRuleset
     

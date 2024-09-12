@@ -1438,6 +1438,7 @@ RuleSet: f6b0c91cf3d8d1303191f090e406eeddListRuleset
 
 Instance: List-f6b0c91cf3d8d1303191f090e406eedd
 InstanceOf: List
+Description: "ePI document List for natpar Package Leaflets"
 
 * insert f6b0c91cf3d8d1303191f090e406eeddListRuleset
     

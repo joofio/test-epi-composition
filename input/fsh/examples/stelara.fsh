@@ -1814,6 +1814,7 @@ RuleSet: 58c54bdf6fab9e6178694c2f025cc813ListRuleset
 
 Instance: List-58c54bdf6fab9e6178694c2f025cc813
 InstanceOf: List
+Description: "ePI document List for stelara Package Leaflets"
 
 * insert 58c54bdf6fab9e6178694c2f025cc813ListRuleset
     

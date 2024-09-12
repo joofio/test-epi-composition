@@ -1004,6 +1004,7 @@ RuleSet: 4ddd1ab0c737d818a0282b987d49df2bListRuleset
 
 Instance: List-4ddd1ab0c737d818a0282b987d49df2b
 InstanceOf: List
+Description: "ePI document List for rapilysin Package Leaflets"
 
 * insert 4ddd1ab0c737d818a0282b987d49df2bListRuleset
     

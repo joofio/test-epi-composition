@@ -1776,6 +1776,7 @@ RuleSet: f9f99ae69c31ce78eb86e2425f62e81aListRuleset
 
 Instance: List-f9f99ae69c31ce78eb86e2425f62e81a
 InstanceOf: List
+Description: "ePI document List for tybost Package Leaflets"
 
 * insert f9f99ae69c31ce78eb86e2425f62e81aListRuleset
     

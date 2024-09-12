@@ -1144,6 +1144,7 @@ RuleSet: d9aba320cfebb03d3884f4f123efa02dListRuleset
 
 Instance: List-d9aba320cfebb03d3884f4f123efa02d
 InstanceOf: List
+Description: "ePI document List for sunlenca Package Leaflets"
 
 * insert d9aba320cfebb03d3884f4f123efa02dListRuleset
     

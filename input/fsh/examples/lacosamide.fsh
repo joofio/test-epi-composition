@@ -1258,6 +1258,7 @@ RuleSet: 3259b4ec962bd839a6862c2a3f8b465bListRuleset
 
 Instance: List-3259b4ec962bd839a6862c2a3f8b465b
 InstanceOf: List
+Description: "ePI document List for lacosamide Package Leaflets"
 
 * insert 3259b4ec962bd839a6862c2a3f8b465bListRuleset
     

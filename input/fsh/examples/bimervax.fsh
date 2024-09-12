@@ -846,6 +846,7 @@ RuleSet: 0b425a6e45767f61f6d3b4247eda39d0ListRuleset
 
 Instance: List-0b425a6e45767f61f6d3b4247eda39d0
 InstanceOf: List
+Description: "ePI document List for bimervax Package Leaflets"
 
 * insert 0b425a6e45767f61f6d3b4247eda39d0ListRuleset
     

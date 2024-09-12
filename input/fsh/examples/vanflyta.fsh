@@ -1638,6 +1638,7 @@ RuleSet: 1ff94cd25db3b18c09de52395c558d2dListRuleset
 
 Instance: List-1ff94cd25db3b18c09de52395c558d2d
 InstanceOf: List
+Description: "ePI document List for vanflyta Package Leaflets"
 
 * insert 1ff94cd25db3b18c09de52395c558d2dListRuleset
     

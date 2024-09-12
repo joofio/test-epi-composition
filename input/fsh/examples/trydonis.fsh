@@ -2509,6 +2509,7 @@ RuleSet: 8c380d27bbc2d53daf7f5dedc85cca7aListRuleset
 
 Instance: List-8c380d27bbc2d53daf7f5dedc85cca7a
 InstanceOf: List
+Description: "ePI document List for trydonis Package Leaflets"
 
 * insert 8c380d27bbc2d53daf7f5dedc85cca7aListRuleset
     

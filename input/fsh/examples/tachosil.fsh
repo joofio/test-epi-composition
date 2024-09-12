@@ -615,6 +615,7 @@ RuleSet: df6c7db31dd11bfbd41b9384e5297ec4ListRuleset
 
 Instance: List-df6c7db31dd11bfbd41b9384e5297ec4
 InstanceOf: List
+Description: "ePI document List for tachosil Package Leaflets"
 
 * insert df6c7db31dd11bfbd41b9384e5297ec4ListRuleset
     

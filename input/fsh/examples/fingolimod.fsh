@@ -1690,6 +1690,7 @@ RuleSet: 20340baf00f2c4ec417bbf6c08de7c1dListRuleset
 
 Instance: List-20340baf00f2c4ec417bbf6c08de7c1d
 InstanceOf: List
+Description: "ePI document List for fingolimod Package Leaflets"
 
 * insert 20340baf00f2c4ec417bbf6c08de7c1dListRuleset
     

@@ -1834,6 +1834,7 @@ RuleSet: 639cce8c495cbcbb29789688f0c06663ListRuleset
 
 Instance: List-639cce8c495cbcbb29789688f0c06663
 InstanceOf: List
+Description: "ePI document List for pombiliti Package Leaflets"
 
 * insert 639cce8c495cbcbb29789688f0c06663ListRuleset
     

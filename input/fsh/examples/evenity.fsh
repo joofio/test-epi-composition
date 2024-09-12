@@ -1350,6 +1350,7 @@ RuleSet: 57cff102c4a138734d137a31aea3135dListRuleset
 
 Instance: List-57cff102c4a138734d137a31aea3135d
 InstanceOf: List
+Description: "ePI document List for evenity Package Leaflets"
 
 * insert 57cff102c4a138734d137a31aea3135dListRuleset
     

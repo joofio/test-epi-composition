@@ -2233,6 +2233,7 @@ RuleSet: 7abe5e4c0a96659ff75905a068c8e8d2ListRuleset
 
 Instance: List-7abe5e4c0a96659ff75905a068c8e8d2
 InstanceOf: List
+Description: "ePI document List for imjudo Package Leaflets"
 
 * insert 7abe5e4c0a96659ff75905a068c8e8d2ListRuleset
     

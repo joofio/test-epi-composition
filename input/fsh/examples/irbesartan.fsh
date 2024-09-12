@@ -923,6 +923,7 @@ RuleSet: 0c9e6c673a48a176c2c1114fdf6885b8ListRuleset
 
 Instance: List-0c9e6c673a48a176c2c1114fdf6885b8
 InstanceOf: List
+Description: "ePI document List for irbesartan Package Leaflets"
 
 * insert 0c9e6c673a48a176c2c1114fdf6885b8ListRuleset
     

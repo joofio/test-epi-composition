@@ -1543,6 +1543,7 @@ RuleSet: ac1fc3c62e1c367a53d2af315f7d1723ListRuleset
 
 Instance: List-ac1fc3c62e1c367a53d2af315f7d1723
 InstanceOf: List
+Description: "ePI document List for kiovig Package Leaflets"
 
 * insert ac1fc3c62e1c367a53d2af315f7d1723ListRuleset
     

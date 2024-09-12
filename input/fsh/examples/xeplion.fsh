@@ -1507,6 +1507,7 @@ RuleSet: 492a437b12024dde8d19defc1975028bListRuleset
 
 Instance: List-492a437b12024dde8d19defc1975028b
 InstanceOf: List
+Description: "ePI document List for xeplion Package Leaflets"
 
 * insert 492a437b12024dde8d19defc1975028bListRuleset
     

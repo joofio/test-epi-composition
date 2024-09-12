@@ -1256,6 +1256,7 @@ RuleSet: 5245a6b0f8b8592e9406a25ffe7ba2b2ListRuleset
 
 Instance: List-5245a6b0f8b8592e9406a25ffe7ba2b2
 InstanceOf: List
+Description: "ePI document List for elmiron Package Leaflets"
 
 * insert 5245a6b0f8b8592e9406a25ffe7ba2b2ListRuleset
     

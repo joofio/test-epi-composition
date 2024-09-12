@@ -2101,6 +2101,7 @@ RuleSet: a192389a9068e61de77d4f090e108cd6ListRuleset
 
 Instance: List-a192389a9068e61de77d4f090e108cd6
 InstanceOf: List
+Description: "ePI document List for stocrin Package Leaflets"
 
 * insert a192389a9068e61de77d4f090e108cd6ListRuleset
     

@@ -1054,6 +1054,7 @@ RuleSet: 25a85065b03a3ebba78fc6bd23994177ListRuleset
 
 Instance: List-25a85065b03a3ebba78fc6bd23994177
 InstanceOf: List
+Description: "ePI document List for giotrif Package Leaflets"
 
 * insert 25a85065b03a3ebba78fc6bd23994177ListRuleset
     

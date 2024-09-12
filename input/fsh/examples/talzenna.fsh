@@ -1506,6 +1506,7 @@ RuleSet: fcac0917e849c1f92a8946a3de74e720ListRuleset
 
 Instance: List-fcac0917e849c1f92a8946a3de74e720
 InstanceOf: List
+Description: "ePI document List for talzenna Package Leaflets"
 
 * insert fcac0917e849c1f92a8946a3de74e720ListRuleset
     

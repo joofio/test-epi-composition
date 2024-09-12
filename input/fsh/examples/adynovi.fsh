@@ -1024,6 +1024,7 @@ RuleSet: 02998b2db7fd4b184d980a78d8dee404ListRuleset
 
 Instance: List-02998b2db7fd4b184d980a78d8dee404
 InstanceOf: List
+Description: "ePI document List for adynovi Package Leaflets"
 
 * insert 02998b2db7fd4b184d980a78d8dee404ListRuleset
     

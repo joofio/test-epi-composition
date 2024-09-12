@@ -1217,6 +1217,7 @@ RuleSet: af5a6458bf787a6cbcce31dd9f99f24fListRuleset
 
 Instance: List-af5a6458bf787a6cbcce31dd9f99f24f
 InstanceOf: List
+Description: "ePI document List for nexviadyme Package Leaflets"
 
 * insert af5a6458bf787a6cbcce31dd9f99f24fListRuleset
     

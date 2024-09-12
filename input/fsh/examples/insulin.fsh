@@ -1924,6 +1924,7 @@ RuleSet: 9db488ea4436e9188ae22052d9c51b50ListRuleset
 
 Instance: List-9db488ea4436e9188ae22052d9c51b50
 InstanceOf: List
+Description: "ePI document List for insulin Package Leaflets"
 
 * insert 9db488ea4436e9188ae22052d9c51b50ListRuleset
     

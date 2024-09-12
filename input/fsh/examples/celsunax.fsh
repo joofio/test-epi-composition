@@ -776,6 +776,7 @@ RuleSet: f364d278d54ddbe0f130b25e10418f63ListRuleset
 
 Instance: List-f364d278d54ddbe0f130b25e10418f63
 InstanceOf: List
+Description: "ePI document List for celsunax Package Leaflets"
 
 * insert f364d278d54ddbe0f130b25e10418f63ListRuleset
     

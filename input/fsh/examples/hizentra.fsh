@@ -2006,6 +2006,7 @@ RuleSet: 5d6f677fa9eaa34be2202ffe566f8e54ListRuleset
 
 Instance: List-5d6f677fa9eaa34be2202ffe566f8e54
 InstanceOf: List
+Description: "ePI document List for hizentra Package Leaflets"
 
 * insert 5d6f677fa9eaa34be2202ffe566f8e54ListRuleset
     

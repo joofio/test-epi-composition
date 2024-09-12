@@ -1086,6 +1086,7 @@ RuleSet: 1cafc851e1f0aed5863b6a73ba46d0f7ListRuleset
 
 Instance: List-1cafc851e1f0aed5863b6a73ba46d0f7
 InstanceOf: List
+Description: "ePI document List for nubeqa Package Leaflets"
 
 * insert 1cafc851e1f0aed5863b6a73ba46d0f7ListRuleset
     

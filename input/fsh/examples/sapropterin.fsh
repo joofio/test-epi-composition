@@ -1228,6 +1228,7 @@ RuleSet: a170adf9726f4d3c42997e5fb725cb61ListRuleset
 
 Instance: List-a170adf9726f4d3c42997e5fb725cb61
 InstanceOf: List
+Description: "ePI document List for sapropterin Package Leaflets"
 
 * insert a170adf9726f4d3c42997e5fb725cb61ListRuleset
     

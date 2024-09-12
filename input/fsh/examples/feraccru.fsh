@@ -1165,6 +1165,7 @@ RuleSet: 02a1ba5129f4c436758a0bf386350823ListRuleset
 
 Instance: List-02a1ba5129f4c436758a0bf386350823
 InstanceOf: List
+Description: "ePI document List for feraccru Package Leaflets"
 
 * insert 02a1ba5129f4c436758a0bf386350823ListRuleset
     

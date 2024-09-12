@@ -2259,6 +2259,7 @@ RuleSet: 802d03413c083ad0931330a56355a879ListRuleset
 
 Instance: List-802d03413c083ad0931330a56355a879
 InstanceOf: List
+Description: "ePI document List for ocrevus Package Leaflets"
 
 * insert 802d03413c083ad0931330a56355a879ListRuleset
     

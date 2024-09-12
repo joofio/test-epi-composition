@@ -1736,6 +1736,7 @@ RuleSet: 2b99aad8ae1cf49fbba781db638512eeListRuleset
 
 Instance: List-2b99aad8ae1cf49fbba781db638512ee
 InstanceOf: List
+Description: "ePI document List for dabigatran Package Leaflets"
 
 * insert 2b99aad8ae1cf49fbba781db638512eeListRuleset
     

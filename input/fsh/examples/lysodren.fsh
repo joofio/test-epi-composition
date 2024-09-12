@@ -788,6 +788,7 @@ RuleSet: 96958c1c1275e460bebf23cdf143ad79ListRuleset
 
 Instance: List-96958c1c1275e460bebf23cdf143ad79
 InstanceOf: List
+Description: "ePI document List for lysodren Package Leaflets"
 
 * insert 96958c1c1275e460bebf23cdf143ad79ListRuleset
     

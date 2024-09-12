@@ -1307,6 +1307,7 @@ RuleSet: cd70f62eba1153d01bd949ce98b7c6acListRuleset
 
 Instance: List-cd70f62eba1153d01bd949ce98b7c6ac
 InstanceOf: List
+Description: "ePI document List for filgrastim Package Leaflets"
 
 * insert cd70f62eba1153d01bd949ce98b7c6acListRuleset
     

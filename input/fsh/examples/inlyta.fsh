@@ -1668,6 +1668,7 @@ RuleSet: 8d8f8c8dd8b6d0af13b2bc71d6fa0c36ListRuleset
 
 Instance: List-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
 InstanceOf: List
+Description: "ePI document List for inlyta Package Leaflets"
 
 * insert 8d8f8c8dd8b6d0af13b2bc71d6fa0c36ListRuleset
     

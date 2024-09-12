@@ -1375,6 +1375,7 @@ RuleSet: 81e7ff6268dfde3de233f5f0af119c35ListRuleset
 
 Instance: List-81e7ff6268dfde3de233f5f0af119c35
 InstanceOf: List
+Description: "ePI document List for foclivia Package Leaflets"
 
 * insert 81e7ff6268dfde3de233f5f0af119c35ListRuleset
     

@@ -640,6 +640,7 @@ RuleSet: 802da6d86549eecc6e51c1bae9cf0471ListRuleset
 
 Instance: List-802da6d86549eecc6e51c1bae9cf0471
 InstanceOf: List
+Description: "ePI document List for yellox Package Leaflets"
 
 * insert 802da6d86549eecc6e51c1bae9cf0471ListRuleset
     

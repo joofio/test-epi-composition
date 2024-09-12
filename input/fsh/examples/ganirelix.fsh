@@ -1260,6 +1260,7 @@ RuleSet: f39d85b5533e098d34a976dedd3b1e91ListRuleset
 
 Instance: List-f39d85b5533e098d34a976dedd3b1e91
 InstanceOf: List
+Description: "ePI document List for ganirelix Package Leaflets"
 
 * insert f39d85b5533e098d34a976dedd3b1e91ListRuleset
     

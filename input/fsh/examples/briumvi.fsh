@@ -2116,6 +2116,7 @@ RuleSet: 33fea74e578b9f917fc6255f1897937fListRuleset
 
 Instance: List-33fea74e578b9f917fc6255f1897937f
 InstanceOf: List
+Description: "ePI document List for briumvi Package Leaflets"
 
 * insert 33fea74e578b9f917fc6255f1897937fListRuleset
     

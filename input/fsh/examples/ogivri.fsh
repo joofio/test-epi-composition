@@ -2141,6 +2141,7 @@ RuleSet: 3063ae54c8b95c21a8b236c970f9eb21ListRuleset
 
 Instance: List-3063ae54c8b95c21a8b236c970f9eb21
 InstanceOf: List
+Description: "ePI document List for ogivri Package Leaflets"
 
 * insert 3063ae54c8b95c21a8b236c970f9eb21ListRuleset
     

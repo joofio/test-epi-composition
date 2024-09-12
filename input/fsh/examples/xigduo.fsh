@@ -1882,6 +1882,7 @@ RuleSet: ffe3f48f1c6e032b0eea8f43920778fbListRuleset
 
 Instance: List-ffe3f48f1c6e032b0eea8f43920778fb
 InstanceOf: List
+Description: "ePI document List for xigduo Package Leaflets"
 
 * insert ffe3f48f1c6e032b0eea8f43920778fbListRuleset
     

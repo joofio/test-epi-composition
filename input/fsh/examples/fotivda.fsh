@@ -1814,6 +1814,7 @@ RuleSet: fba0a8367a83300af2a00b0c6fd0b172ListRuleset
 
 Instance: List-fba0a8367a83300af2a00b0c6fd0b172
 InstanceOf: List
+Description: "ePI document List for fotivda Package Leaflets"
 
 * insert fba0a8367a83300af2a00b0c6fd0b172ListRuleset
     

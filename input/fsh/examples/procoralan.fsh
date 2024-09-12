@@ -985,6 +985,7 @@ RuleSet: 79284ae9650b8005359d0f56c68b8ad4ListRuleset
 
 Instance: List-79284ae9650b8005359d0f56c68b8ad4
 InstanceOf: List
+Description: "ePI document List for procoralan Package Leaflets"
 
 * insert 79284ae9650b8005359d0f56c68b8ad4ListRuleset
     

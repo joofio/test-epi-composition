@@ -1211,6 +1211,7 @@ RuleSet: 1d2f698bc3b19bc75adea93b8b5c0811ListRuleset
 
 Instance: List-1d2f698bc3b19bc75adea93b8b5c0811
 InstanceOf: List
+Description: "ePI document List for ultomiris Package Leaflets"
 
 * insert 1d2f698bc3b19bc75adea93b8b5c0811ListRuleset
     

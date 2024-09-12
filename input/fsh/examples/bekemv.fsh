@@ -1322,6 +1322,7 @@ RuleSet: 1c1262aecbe28e7e1156f50a5c6d2fe6ListRuleset
 
 Instance: List-1c1262aecbe28e7e1156f50a5c6d2fe6
 InstanceOf: List
+Description: "ePI document List for bekemv Package Leaflets"
 
 * insert 1c1262aecbe28e7e1156f50a5c6d2fe6ListRuleset
     

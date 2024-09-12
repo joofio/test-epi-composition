@@ -892,6 +892,7 @@ RuleSet: c3bcf9603926d754cd4924142c795340ListRuleset
 
 Instance: List-c3bcf9603926d754cd4924142c795340
 InstanceOf: List
+Description: "ePI document List for twinrix Package Leaflets"
 
 * insert c3bcf9603926d754cd4924142c795340ListRuleset
     

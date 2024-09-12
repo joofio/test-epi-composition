@@ -1884,6 +1884,7 @@ RuleSet: e03871853d4da5dc011fec7c683b275dListRuleset
 
 Instance: List-e03871853d4da5dc011fec7c683b275d
 InstanceOf: List
+Description: "ePI document List for ziagen Package Leaflets"
 
 * insert e03871853d4da5dc011fec7c683b275dListRuleset
     

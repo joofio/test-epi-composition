@@ -1133,6 +1133,7 @@ RuleSet: b811ffa8d83d17ddd48f696870f998c3ListRuleset
 
 Instance: List-b811ffa8d83d17ddd48f696870f998c3
 InstanceOf: List
+Description: "ePI document List for kauliv Package Leaflets"
 
 * insert b811ffa8d83d17ddd48f696870f998c3ListRuleset
     

@@ -919,6 +919,7 @@ RuleSet: feeed9880dec4a6641451397ef875739ListRuleset
 
 Instance: List-feeed9880dec4a6641451397ef875739
 InstanceOf: List
+Description: "ePI document List for xelevia Package Leaflets"
 
 * insert feeed9880dec4a6641451397ef875739ListRuleset
     

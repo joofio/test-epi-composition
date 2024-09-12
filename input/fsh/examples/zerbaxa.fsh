@@ -1123,6 +1123,7 @@ RuleSet: 1482492b92c1ab38c7c6cfa8e927eb20ListRuleset
 
 Instance: List-1482492b92c1ab38c7c6cfa8e927eb20
 InstanceOf: List
+Description: "ePI document List for zerbaxa Package Leaflets"
 
 * insert 1482492b92c1ab38c7c6cfa8e927eb20ListRuleset
     

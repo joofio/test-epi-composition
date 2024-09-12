@@ -1173,6 +1173,7 @@ RuleSet: cbc8bd303ae5e6a2b05a1e976deb4928ListRuleset
 
 Instance: List-cbc8bd303ae5e6a2b05a1e976deb4928
 InstanceOf: List
+Description: "ePI document List for reagila Package Leaflets"
 
 * insert cbc8bd303ae5e6a2b05a1e976deb4928ListRuleset
     

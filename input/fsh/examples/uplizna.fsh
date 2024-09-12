@@ -639,6 +639,7 @@ RuleSet: 664d393693f4983d6c9e5af3f5904561ListRuleset
 
 Instance: List-664d393693f4983d6c9e5af3f5904561
 InstanceOf: List
+Description: "ePI document List for uplizna Package Leaflets"
 
 * insert 664d393693f4983d6c9e5af3f5904561ListRuleset
     

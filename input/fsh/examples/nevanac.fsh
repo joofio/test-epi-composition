@@ -1355,6 +1355,7 @@ RuleSet: 4e04d92c0b9ceaa06795f86e3a393ec2ListRuleset
 
 Instance: List-4e04d92c0b9ceaa06795f86e3a393ec2
 InstanceOf: List
+Description: "ePI document List for nevanac Package Leaflets"
 
 * insert 4e04d92c0b9ceaa06795f86e3a393ec2ListRuleset
     

@@ -1034,6 +1034,7 @@ RuleSet: 84f7be3473056391e7ee18f2463847a8ListRuleset
 
 Instance: List-84f7be3473056391e7ee18f2463847a8
 InstanceOf: List
+Description: "ePI document List for jorveza Package Leaflets"
 
 * insert 84f7be3473056391e7ee18f2463847a8ListRuleset
     

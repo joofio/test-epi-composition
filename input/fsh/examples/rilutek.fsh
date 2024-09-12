@@ -786,6 +786,7 @@ RuleSet: 68bcf84e560e25281fc234537e658487ListRuleset
 
 Instance: List-68bcf84e560e25281fc234537e658487
 InstanceOf: List
+Description: "ePI document List for rilutek Package Leaflets"
 
 * insert 68bcf84e560e25281fc234537e658487ListRuleset
     

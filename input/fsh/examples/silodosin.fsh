@@ -963,6 +963,7 @@ RuleSet: 97c09c3f6bb46169676674f25613736cListRuleset
 
 Instance: List-97c09c3f6bb46169676674f25613736c
 InstanceOf: List
+Description: "ePI document List for silodosin Package Leaflets"
 
 * insert 97c09c3f6bb46169676674f25613736cListRuleset
     

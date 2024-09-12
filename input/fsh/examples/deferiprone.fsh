@@ -652,6 +652,7 @@ RuleSet: 4a09b3a8552105810368cbf52100627eListRuleset
 
 Instance: List-4a09b3a8552105810368cbf52100627e
 InstanceOf: List
+Description: "ePI document List for deferiprone Package Leaflets"
 
 * insert 4a09b3a8552105810368cbf52100627eListRuleset
     

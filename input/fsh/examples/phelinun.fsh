@@ -1137,6 +1137,7 @@ RuleSet: 795a948b51ababd9aac8a7f4e39608a5ListRuleset
 
 Instance: List-795a948b51ababd9aac8a7f4e39608a5
 InstanceOf: List
+Description: "ePI document List for phelinun Package Leaflets"
 
 * insert 795a948b51ababd9aac8a7f4e39608a5ListRuleset
     

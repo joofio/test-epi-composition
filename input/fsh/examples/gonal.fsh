@@ -1756,6 +1756,7 @@ RuleSet: dd18b3b8f2dba9230f63c60b0e5cbf28ListRuleset
 
 Instance: List-dd18b3b8f2dba9230f63c60b0e5cbf28
 InstanceOf: List
+Description: "ePI document List for gonal Package Leaflets"
 
 * insert dd18b3b8f2dba9230f63c60b0e5cbf28ListRuleset
     

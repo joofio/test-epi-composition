@@ -1560,6 +1560,7 @@ RuleSet: 65c3d51a8623ae84242075e46df738cdListRuleset
 
 Instance: List-65c3d51a8623ae84242075e46df738cd
 InstanceOf: List
+Description: "ePI document List for buvidal Package Leaflets"
 
 * insert 65c3d51a8623ae84242075e46df738cdListRuleset
     

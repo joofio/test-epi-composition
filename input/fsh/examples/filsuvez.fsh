@@ -1351,6 +1351,7 @@ RuleSet: 5c0fb39b14c2c2f1d40da5ef86f1b627ListRuleset
 
 Instance: List-5c0fb39b14c2c2f1d40da5ef86f1b627
 InstanceOf: List
+Description: "ePI document List for filsuvez Package Leaflets"
 
 * insert 5c0fb39b14c2c2f1d40da5ef86f1b627ListRuleset
     

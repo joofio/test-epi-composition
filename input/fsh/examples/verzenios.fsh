@@ -925,6 +925,7 @@ RuleSet: 34d2770dedeba7114006ff1f66a042d4ListRuleset
 
 Instance: List-34d2770dedeba7114006ff1f66a042d4
 InstanceOf: List
+Description: "ePI document List for verzenios Package Leaflets"
 
 * insert 34d2770dedeba7114006ff1f66a042d4ListRuleset
     

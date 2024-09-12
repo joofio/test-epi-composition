@@ -1084,6 +1084,7 @@ RuleSet: 141d929731a8da3daac9f9a16668bc62ListRuleset
 
 Instance: List-141d929731a8da3daac9f9a16668bc62
 InstanceOf: List
+Description: "ePI document List for victoza Package Leaflets"
 
 * insert 141d929731a8da3daac9f9a16668bc62ListRuleset
     

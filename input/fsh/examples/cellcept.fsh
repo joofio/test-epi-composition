@@ -1273,6 +1273,7 @@ RuleSet: 7864f63eceae865956b53410a93ee1e9ListRuleset
 
 Instance: List-7864f63eceae865956b53410a93ee1e9
 InstanceOf: List
+Description: "ePI document List for cellcept Package Leaflets"
 
 * insert 7864f63eceae865956b53410a93ee1e9ListRuleset
     

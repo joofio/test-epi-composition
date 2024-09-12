@@ -668,6 +668,7 @@ RuleSet: 7257da0dd1f9dbf780b362b25cce238aListRuleset
 
 Instance: List-7257da0dd1f9dbf780b362b25cce238a
 InstanceOf: List
+Description: "ePI document List for cuprior Package Leaflets"
 
 * insert 7257da0dd1f9dbf780b362b25cce238aListRuleset
     

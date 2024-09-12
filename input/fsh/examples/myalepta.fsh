@@ -1855,6 +1855,7 @@ RuleSet: 1938b3b2db3127440139b7029093a2b8ListRuleset
 
 Instance: List-1938b3b2db3127440139b7029093a2b8
 InstanceOf: List
+Description: "ePI document List for myalepta Package Leaflets"
 
 * insert 1938b3b2db3127440139b7029093a2b8ListRuleset
     

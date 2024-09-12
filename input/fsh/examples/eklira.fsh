@@ -929,6 +929,7 @@ RuleSet: 8a4d23dcb809afdd72ca3100738e1a7eListRuleset
 
 Instance: List-8a4d23dcb809afdd72ca3100738e1a7e
 InstanceOf: List
+Description: "ePI document List for eklira Package Leaflets"
 
 * insert 8a4d23dcb809afdd72ca3100738e1a7eListRuleset
     

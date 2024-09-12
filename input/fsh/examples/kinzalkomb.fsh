@@ -1182,6 +1182,7 @@ RuleSet: f54f2e739aebe7aea194141a7163df7aListRuleset
 
 Instance: List-f54f2e739aebe7aea194141a7163df7a
 InstanceOf: List
+Description: "ePI document List for kinzalkomb Package Leaflets"
 
 * insert f54f2e739aebe7aea194141a7163df7aListRuleset
     

@@ -1076,6 +1076,7 @@ RuleSet: 90e75941fbec0604a5aef8f6392abdfdListRuleset
 
 Instance: List-90e75941fbec0604a5aef8f6392abdfd
 InstanceOf: List
+Description: "ePI document List for duaklir Package Leaflets"
 
 * insert 90e75941fbec0604a5aef8f6392abdfdListRuleset
     

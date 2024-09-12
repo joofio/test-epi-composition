@@ -3420,6 +3420,7 @@ RuleSet: ef587583f9868c465778255848bcb8ddListRuleset
 
 Instance: List-ef587583f9868c465778255848bcb8dd
 InstanceOf: List
+Description: "ePI document List for imraldi Package Leaflets"
 
 * insert ef587583f9868c465778255848bcb8ddListRuleset
     

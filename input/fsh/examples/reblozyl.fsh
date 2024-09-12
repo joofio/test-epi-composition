@@ -962,6 +962,7 @@ RuleSet: 430493049f22429aa3d2e8bb859f1d18ListRuleset
 
 Instance: List-430493049f22429aa3d2e8bb859f1d18
 InstanceOf: List
+Description: "ePI document List for reblozyl Package Leaflets"
 
 * insert 430493049f22429aa3d2e8bb859f1d18ListRuleset
     

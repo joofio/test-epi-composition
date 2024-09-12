@@ -907,6 +907,7 @@ RuleSet: 3c1db916d2062445ec61cc58880ca8a2ListRuleset
 
 Instance: List-3c1db916d2062445ec61cc58880ca8a2
 InstanceOf: List
+Description: "ePI document List for skyclarys Package Leaflets"
 
 * insert 3c1db916d2062445ec61cc58880ca8a2ListRuleset
     

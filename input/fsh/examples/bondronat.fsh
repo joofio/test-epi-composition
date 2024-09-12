@@ -1054,6 +1054,7 @@ RuleSet: f352e985084276fc8e67c6d45807c1bfListRuleset
 
 Instance: List-f352e985084276fc8e67c6d45807c1bf
 InstanceOf: List
+Description: "ePI document List for bondronat Package Leaflets"
 
 * insert f352e985084276fc8e67c6d45807c1bfListRuleset
     

@@ -788,6 +788,7 @@ RuleSet: aac724bbfae048108e8444486a06d7e6ListRuleset
 
 Instance: List-aac724bbfae048108e8444486a06d7e6
 InstanceOf: List
+Description: "ePI document List for aquipta Package Leaflets"
 
 * insert aac724bbfae048108e8444486a06d7e6ListRuleset
     

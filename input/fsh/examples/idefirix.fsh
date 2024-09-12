@@ -956,6 +956,7 @@ RuleSet: 3713afe50f1010dc6d3a525f7492a818ListRuleset
 
 Instance: List-3713afe50f1010dc6d3a525f7492a818
 InstanceOf: List
+Description: "ePI document List for idefirix Package Leaflets"
 
 * insert 3713afe50f1010dc6d3a525f7492a818ListRuleset
     

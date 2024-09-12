@@ -1297,6 +1297,7 @@ RuleSet: efa7f0457f33e21d0516b1da0af6e176ListRuleset
 
 Instance: List-efa7f0457f33e21d0516b1da0af6e176
 InstanceOf: List
+Description: "ePI document List for ecansya Package Leaflets"
 
 * insert efa7f0457f33e21d0516b1da0af6e176ListRuleset
     

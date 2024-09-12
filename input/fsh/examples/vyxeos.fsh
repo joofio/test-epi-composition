@@ -1359,6 +1359,7 @@ RuleSet: 691dd468387a7314644483dde7be004cListRuleset
 
 Instance: List-691dd468387a7314644483dde7be004c
 InstanceOf: List
+Description: "ePI document List for vyxeos Package Leaflets"
 
 * insert 691dd468387a7314644483dde7be004cListRuleset
     

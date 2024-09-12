@@ -1029,6 +1029,7 @@ RuleSet: 82ed3b7e13571c65c8c961f4a21dd3e2ListRuleset
 
 Instance: List-82ed3b7e13571c65c8c961f4a21dd3e2
 InstanceOf: List
+Description: "ePI document List for replagal Package Leaflets"
 
 * insert 82ed3b7e13571c65c8c961f4a21dd3e2ListRuleset
     

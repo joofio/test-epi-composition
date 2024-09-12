@@ -1454,6 +1454,7 @@ RuleSet: bf55777f1fad69c8fa791ca2ceb30315ListRuleset
 
 Instance: List-bf55777f1fad69c8fa791ca2ceb30315
 InstanceOf: List
+Description: "ePI document List for tolura Package Leaflets"
 
 * insert bf55777f1fad69c8fa791ca2ceb30315ListRuleset
     

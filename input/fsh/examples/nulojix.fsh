@@ -1279,6 +1279,7 @@ RuleSet: b4bc6381ffe8a433a405b4f88b0c023bListRuleset
 
 Instance: List-b4bc6381ffe8a433a405b4f88b0c023b
 InstanceOf: List
+Description: "ePI document List for nulojix Package Leaflets"
 
 * insert b4bc6381ffe8a433a405b4f88b0c023bListRuleset
     

@@ -1665,6 +1665,7 @@ RuleSet: 25e890f25f8f1bec07dd339802b5338bListRuleset
 
 Instance: List-25e890f25f8f1bec07dd339802b5338b
 InstanceOf: List
+Description: "ePI document List for velsipity Package Leaflets"
 
 * insert 25e890f25f8f1bec07dd339802b5338bListRuleset
     

@@ -3803,6 +3803,7 @@ RuleSet: 1cf3225341c0e6fa2558014a933b7febListRuleset
 
 Instance: List-1cf3225341c0e6fa2558014a933b7feb
 InstanceOf: List
+Description: "ePI document List for hefiya Package Leaflets"
 
 * insert 1cf3225341c0e6fa2558014a933b7febListRuleset
     

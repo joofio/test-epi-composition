@@ -1607,6 +1607,7 @@ RuleSet: 6154ec9930909dd76813cd26c37e2a8eListRuleset
 
 Instance: List-6154ec9930909dd76813cd26c37e2a8e
 InstanceOf: List
+Description: "ePI document List for roctavian Package Leaflets"
 
 * insert 6154ec9930909dd76813cd26c37e2a8eListRuleset
     

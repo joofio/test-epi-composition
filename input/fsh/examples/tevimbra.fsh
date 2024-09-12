@@ -1367,6 +1367,7 @@ RuleSet: b118a8011d0099eb4bb6c4b864ba44c0ListRuleset
 
 Instance: List-b118a8011d0099eb4bb6c4b864ba44c0
 InstanceOf: List
+Description: "ePI document List for tevimbra Package Leaflets"
 
 * insert b118a8011d0099eb4bb6c4b864ba44c0ListRuleset
     

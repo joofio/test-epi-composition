@@ -1433,6 +1433,7 @@ RuleSet: 74cee07ffddb72142d80fc4c20efe6f2ListRuleset
 
 Instance: List-74cee07ffddb72142d80fc4c20efe6f2
 InstanceOf: List
+Description: "ePI document List for tavneos Package Leaflets"
 
 * insert 74cee07ffddb72142d80fc4c20efe6f2ListRuleset
     

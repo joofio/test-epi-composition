@@ -1017,6 +1017,7 @@ RuleSet: adb285ae6cc2127432af23ed8e516722ListRuleset
 
 Instance: List-adb285ae6cc2127432af23ed8e516722
 InstanceOf: List
+Description: "ePI document List for fulphila Package Leaflets"
 
 * insert adb285ae6cc2127432af23ed8e516722ListRuleset
     

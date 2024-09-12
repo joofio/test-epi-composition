@@ -1438,6 +1438,7 @@ RuleSet: c419fe066011304c4fef1d514818ee22ListRuleset
 
 Instance: List-c419fe066011304c4fef1d514818ee22
 InstanceOf: List
+Description: "ePI document List for enjaymo Package Leaflets"
 
 * insert c419fe066011304c4fef1d514818ee22ListRuleset
     

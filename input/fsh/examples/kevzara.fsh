@@ -1173,6 +1173,7 @@ RuleSet: 9731e4b0c59c667008c1be9f642fafeeListRuleset
 
 Instance: List-9731e4b0c59c667008c1be9f642fafee
 InstanceOf: List
+Description: "ePI document List for kevzara Package Leaflets"
 
 * insert 9731e4b0c59c667008c1be9f642fafeeListRuleset
     

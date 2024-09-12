@@ -1124,6 +1124,7 @@ RuleSet: 365176ec901be3a749e148c628fa3afeListRuleset
 
 Instance: List-365176ec901be3a749e148c628fa3afe
 InstanceOf: List
+Description: "ePI document List for scenesse Package Leaflets"
 
 * insert 365176ec901be3a749e148c628fa3afeListRuleset
     

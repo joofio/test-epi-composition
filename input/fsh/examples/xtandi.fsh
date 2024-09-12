@@ -1380,6 +1380,7 @@ RuleSet: 0f22d445f37b02d3c837ebc1451981fcListRuleset
 
 Instance: List-0f22d445f37b02d3c837ebc1451981fc
 InstanceOf: List
+Description: "ePI document List for xtandi Package Leaflets"
 
 * insert 0f22d445f37b02d3c837ebc1451981fcListRuleset
     

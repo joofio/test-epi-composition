@@ -1470,6 +1470,7 @@ RuleSet: a28a8b9246548829f22c8b8c14ca6138ListRuleset
 
 Instance: List-a28a8b9246548829f22c8b8c14ca6138
 InstanceOf: List
+Description: "ePI document List for ketoconazole Package Leaflets"
 
 * insert a28a8b9246548829f22c8b8c14ca6138ListRuleset
     

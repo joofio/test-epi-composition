@@ -1407,6 +1407,7 @@ RuleSet: 03819170889474c02f91ff032bd7d943ListRuleset
 
 Instance: List-03819170889474c02f91ff032bd7d943
 InstanceOf: List
+Description: "ePI document List for venclyxto Package Leaflets"
 
 * insert 03819170889474c02f91ff032bd7d943ListRuleset
     

@@ -885,6 +885,7 @@ RuleSet: 7303c8e036c7a4b4794a60ab51432595ListRuleset
 
 Instance: List-7303c8e036c7a4b4794a60ab51432595
 InstanceOf: List
+Description: "ePI document List for upstaza Package Leaflets"
 
 * insert 7303c8e036c7a4b4794a60ab51432595ListRuleset
     

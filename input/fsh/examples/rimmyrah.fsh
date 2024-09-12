@@ -1634,6 +1634,7 @@ RuleSet: 1ab1f974f728f0d2d09ca9306f1ffe2dListRuleset
 
 Instance: List-1ab1f974f728f0d2d09ca9306f1ffe2d
 InstanceOf: List
+Description: "ePI document List for rimmyrah Package Leaflets"
 
 * insert 1ab1f974f728f0d2d09ca9306f1ffe2dListRuleset
     

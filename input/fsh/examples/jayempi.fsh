@@ -1945,6 +1945,7 @@ RuleSet: 29e53310e209535224a929c7efb5c5b7ListRuleset
 
 Instance: List-29e53310e209535224a929c7efb5c5b7
 InstanceOf: List
+Description: "ePI document List for jayempi Package Leaflets"
 
 * insert 29e53310e209535224a929c7efb5c5b7ListRuleset
     

@@ -1263,6 +1263,7 @@ RuleSet: 5e76230e59397f1e6fa849c96667af6eListRuleset
 
 Instance: List-5e76230e59397f1e6fa849c96667af6e
 InstanceOf: List
+Description: "ePI document List for abevmy Package Leaflets"
 
 * insert 5e76230e59397f1e6fa849c96667af6eListRuleset
     

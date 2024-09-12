@@ -1232,6 +1232,7 @@ RuleSet: 18491093bf4c2b130ac9eb83b74183ebListRuleset
 
 Instance: List-18491093bf4c2b130ac9eb83b74183eb
 InstanceOf: List
+Description: "ePI document List for farydak Package Leaflets"
 
 * insert 18491093bf4c2b130ac9eb83b74183ebListRuleset
     

@@ -1826,6 +1826,7 @@ RuleSet: 467d212176ff3f3172a5c049c6483dc0ListRuleset
 
 Instance: List-467d212176ff3f3172a5c049c6483dc0
 InstanceOf: List
+Description: "ePI document List for erelzi Package Leaflets"
 
 * insert 467d212176ff3f3172a5c049c6483dc0ListRuleset
     

@@ -1387,6 +1387,7 @@ RuleSet: 39ac69c93b0288d89a0cb9d145b02fccListRuleset
 
 Instance: List-39ac69c93b0288d89a0cb9d145b02fcc
 InstanceOf: List
+Description: "ePI document List for camzyos Package Leaflets"
 
 * insert 39ac69c93b0288d89a0cb9d145b02fccListRuleset
     

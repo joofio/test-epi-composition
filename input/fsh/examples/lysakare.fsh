@@ -769,6 +769,7 @@ RuleSet: 73814721e492c5f1086b1c5537e49b46ListRuleset
 
 Instance: List-73814721e492c5f1086b1c5537e49b46
 InstanceOf: List
+Description: "ePI document List for lysakare Package Leaflets"
 
 * insert 73814721e492c5f1086b1c5537e49b46ListRuleset
     

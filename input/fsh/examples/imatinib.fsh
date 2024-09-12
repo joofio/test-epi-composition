@@ -1496,6 +1496,7 @@ RuleSet: 47a63fc97978537204b7a7371de13662ListRuleset
 
 Instance: List-47a63fc97978537204b7a7371de13662
 InstanceOf: List
+Description: "ePI document List for imatinib Package Leaflets"
 
 * insert 47a63fc97978537204b7a7371de13662ListRuleset
     

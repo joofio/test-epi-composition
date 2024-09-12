@@ -1338,6 +1338,7 @@ RuleSet: b4a7586c3f2386c190c1701cbb794f3cListRuleset
 
 Instance: List-b4a7586c3f2386c190c1701cbb794f3c
 InstanceOf: List
+Description: "ePI document List for rystiggo Package Leaflets"
 
 * insert b4a7586c3f2386c190c1701cbb794f3cListRuleset
     

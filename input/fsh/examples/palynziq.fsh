@@ -1765,6 +1765,7 @@ RuleSet: c0c73074469385390d12a06f439c2f95ListRuleset
 
 Instance: List-c0c73074469385390d12a06f439c2f95
 InstanceOf: List
+Description: "ePI document List for palynziq Package Leaflets"
 
 * insert c0c73074469385390d12a06f439c2f95ListRuleset
     

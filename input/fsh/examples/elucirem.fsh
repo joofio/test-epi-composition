@@ -989,6 +989,7 @@ RuleSet: 7b4681f061a21ab4a530ac7b9667ac82ListRuleset
 
 Instance: List-7b4681f061a21ab4a530ac7b9667ac82
 InstanceOf: List
+Description: "ePI document List for elucirem Package Leaflets"
 
 * insert 7b4681f061a21ab4a530ac7b9667ac82ListRuleset
     

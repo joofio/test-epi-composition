@@ -1243,6 +1243,7 @@ RuleSet: 26b16d8f26d3d427e9f7f7a1372c2641ListRuleset
 
 Instance: List-26b16d8f26d3d427e9f7f7a1372c2641
 InstanceOf: List
+Description: "ePI document List for tracleer Package Leaflets"
 
 * insert 26b16d8f26d3d427e9f7f7a1372c2641ListRuleset
     

@@ -1834,6 +1834,7 @@ RuleSet: 8e4b99b58ac1302c60e1a3d75920f33fListRuleset
 
 Instance: List-8e4b99b58ac1302c60e1a3d75920f33f
 InstanceOf: List
+Description: "ePI document List for otezla Package Leaflets"
 
 * insert 8e4b99b58ac1302c60e1a3d75920f33fListRuleset
     

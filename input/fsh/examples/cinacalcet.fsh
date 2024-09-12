@@ -1006,6 +1006,7 @@ RuleSet: 52a624241d4cc518b719672757fc515fListRuleset
 
 Instance: List-52a624241d4cc518b719672757fc515f
 InstanceOf: List
+Description: "ePI document List for cinacalcet Package Leaflets"
 
 * insert 52a624241d4cc518b719672757fc515fListRuleset
     

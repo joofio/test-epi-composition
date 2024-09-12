@@ -906,6 +906,7 @@ RuleSet: 0ed39b02c95e206c8989dd94965d2705ListRuleset
 
 Instance: List-0ed39b02c95e206c8989dd94965d2705
 InstanceOf: List
+Description: "ePI document List for elaprase Package Leaflets"
 
 * insert 0ed39b02c95e206c8989dd94965d2705ListRuleset
     

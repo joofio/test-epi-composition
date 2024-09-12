@@ -1968,6 +1968,7 @@ RuleSet: a0f6051c039253e4a1c573c85f53f945ListRuleset
 
 Instance: List-a0f6051c039253e4a1c573c85f53f945
 InstanceOf: List
+Description: "ePI document List for lopinavir Package Leaflets"
 
 * insert a0f6051c039253e4a1c573c85f53f945ListRuleset
     

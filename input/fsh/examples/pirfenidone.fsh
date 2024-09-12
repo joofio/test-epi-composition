@@ -1721,6 +1721,7 @@ RuleSet: 36a6a5465117f75ed9e0484773e74fdeListRuleset
 
 Instance: List-36a6a5465117f75ed9e0484773e74fde
 InstanceOf: List
+Description: "ePI document List for pirfenidone Package Leaflets"
 
 * insert 36a6a5465117f75ed9e0484773e74fdeListRuleset
     

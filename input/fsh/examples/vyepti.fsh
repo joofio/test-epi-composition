@@ -1217,6 +1217,7 @@ RuleSet: fbb3ae3b0ec47d0ddb6ffbdc6984439fListRuleset
 
 Instance: List-fbb3ae3b0ec47d0ddb6ffbdc6984439f
 InstanceOf: List
+Description: "ePI document List for vyepti Package Leaflets"
 
 * insert fbb3ae3b0ec47d0ddb6ffbdc6984439fListRuleset
     

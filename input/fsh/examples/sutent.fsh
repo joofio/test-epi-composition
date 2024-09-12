@@ -2007,6 +2007,7 @@ RuleSet: a3cd214d19f3341c3aa081ac17f909d1ListRuleset
 
 Instance: List-a3cd214d19f3341c3aa081ac17f909d1
 InstanceOf: List
+Description: "ePI document List for sutent Package Leaflets"
 
 * insert a3cd214d19f3341c3aa081ac17f909d1ListRuleset
     

@@ -1267,6 +1267,7 @@ RuleSet: 32bfd365b84c64d962132c327f20aa6eListRuleset
 
 Instance: List-32bfd365b84c64d962132c327f20aa6e
 InstanceOf: List
+Description: "ePI document List for kyntheum Package Leaflets"
 
 * insert 32bfd365b84c64d962132c327f20aa6eListRuleset
     

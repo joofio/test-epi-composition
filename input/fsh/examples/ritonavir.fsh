@@ -1376,6 +1376,7 @@ RuleSet: de065403a5793478002be710eeac097cListRuleset
 
 Instance: List-de065403a5793478002be710eeac097c
 InstanceOf: List
+Description: "ePI document List for ritonavir Package Leaflets"
 
 * insert de065403a5793478002be710eeac097cListRuleset
     

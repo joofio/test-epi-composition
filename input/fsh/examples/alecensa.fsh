@@ -1017,6 +1017,7 @@ RuleSet: 6c2eb54267bb33e875227a41c1c320f3ListRuleset
 
 Instance: List-6c2eb54267bb33e875227a41c1c320f3
 InstanceOf: List
+Description: "ePI document List for alecensa Package Leaflets"
 
 * insert 6c2eb54267bb33e875227a41c1c320f3ListRuleset
     

@@ -949,6 +949,7 @@ RuleSet: f40cac7981e52d03bbfe471a7f88b25fListRuleset
 
 Instance: List-f40cac7981e52d03bbfe471a7f88b25f
 InstanceOf: List
+Description: "ePI document List for ayvakyt Package Leaflets"
 
 * insert f40cac7981e52d03bbfe471a7f88b25fListRuleset
     

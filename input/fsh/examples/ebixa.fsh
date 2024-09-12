@@ -868,6 +868,7 @@ RuleSet: a0179b039da107bd55842f5819aa0ee7ListRuleset
 
 Instance: List-a0179b039da107bd55842f5819aa0ee7
 InstanceOf: List
+Description: "ePI document List for ebixa Package Leaflets"
 
 * insert a0179b039da107bd55842f5819aa0ee7ListRuleset
     

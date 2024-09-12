@@ -907,6 +907,7 @@ RuleSet: 805dc9ddc6fcbad674af5feb9b21aed5ListRuleset
 
 Instance: List-805dc9ddc6fcbad674af5feb9b21aed5
 InstanceOf: List
+Description: "ePI document List for maviret Package Leaflets"
 
 * insert 805dc9ddc6fcbad674af5feb9b21aed5ListRuleset
     

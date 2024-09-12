@@ -1348,6 +1348,7 @@ RuleSet: 241d4bc94412cf7041721319e0eaea4cListRuleset
 
 Instance: List-241d4bc94412cf7041721319e0eaea4c
 InstanceOf: List
+Description: "ePI document List for rezolsta Package Leaflets"
 
 * insert 241d4bc94412cf7041721319e0eaea4cListRuleset
     

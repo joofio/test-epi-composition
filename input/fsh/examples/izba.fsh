@@ -1292,6 +1292,7 @@ RuleSet: ded378039327f28c36307d251503f7d3ListRuleset
 
 Instance: List-ded378039327f28c36307d251503f7d3
 InstanceOf: List
+Description: "ePI document List for izba Package Leaflets"
 
 * insert ded378039327f28c36307d251503f7d3ListRuleset
     

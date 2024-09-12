@@ -692,6 +692,7 @@ RuleSet: a651c9ffaada5f4880461c8764acc607ListRuleset
 
 Instance: List-a651c9ffaada5f4880461c8764acc607
 InstanceOf: List
+Description: "ePI document List for dukoral Package Leaflets"
 
 * insert a651c9ffaada5f4880461c8764acc607ListRuleset
     

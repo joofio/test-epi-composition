@@ -1679,6 +1679,7 @@ RuleSet: 56dfb582fe4596bebf9f4c8e3931299dListRuleset
 
 Instance: List-56dfb582fe4596bebf9f4c8e3931299d
 InstanceOf: List
+Description: "ePI document List for increlex Package Leaflets"
 
 * insert 56dfb582fe4596bebf9f4c8e3931299dListRuleset
     

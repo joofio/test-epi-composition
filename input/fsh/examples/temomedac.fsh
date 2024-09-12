@@ -1621,6 +1621,7 @@ RuleSet: 065d110b327b470e1ddc262836549605ListRuleset
 
 Instance: List-065d110b327b470e1ddc262836549605
 InstanceOf: List
+Description: "ePI document List for temomedac Package Leaflets"
 
 * insert 065d110b327b470e1ddc262836549605ListRuleset
     

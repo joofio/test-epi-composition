@@ -1196,6 +1196,7 @@ RuleSet: b9e406d2f0e8fcd3c2ddc68fcfd21aa0ListRuleset
 
 Instance: List-b9e406d2f0e8fcd3c2ddc68fcfd21aa0
 InstanceOf: List
+Description: "ePI document List for champix Package Leaflets"
 
 * insert b9e406d2f0e8fcd3c2ddc68fcfd21aa0ListRuleset
     

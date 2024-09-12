@@ -1119,6 +1119,7 @@ RuleSet: 987766e2219c5177d278b3430b3652beListRuleset
 
 Instance: List-987766e2219c5177d278b3430b3652be
 InstanceOf: List
+Description: "ePI document List for orgovyx Package Leaflets"
 
 * insert 987766e2219c5177d278b3430b3652beListRuleset
     

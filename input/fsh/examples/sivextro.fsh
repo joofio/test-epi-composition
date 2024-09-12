@@ -1557,6 +1557,7 @@ RuleSet: 4c889264e6df1e0383b0ef68358c4009ListRuleset
 
 Instance: List-4c889264e6df1e0383b0ef68358c4009
 InstanceOf: List
+Description: "ePI document List for sivextro Package Leaflets"
 
 * insert 4c889264e6df1e0383b0ef68358c4009ListRuleset
     

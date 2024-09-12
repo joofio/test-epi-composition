@@ -964,6 +964,7 @@ RuleSet: 94c552a1c89feea3465242a8fa5ba0aeListRuleset
 
 Instance: List-94c552a1c89feea3465242a8fa5ba0ae
 InstanceOf: List
+Description: "ePI document List for neoclarityn Package Leaflets"
 
 * insert 94c552a1c89feea3465242a8fa5ba0aeListRuleset
     

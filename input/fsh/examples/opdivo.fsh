@@ -2792,6 +2792,7 @@ RuleSet: d585d8fe14b9492a241ac7bacfd89f6dListRuleset
 
 Instance: List-d585d8fe14b9492a241ac7bacfd89f6d
 InstanceOf: List
+Description: "ePI document List for opdivo Package Leaflets"
 
 * insert d585d8fe14b9492a241ac7bacfd89f6dListRuleset
     

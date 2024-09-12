@@ -1366,6 +1366,7 @@ RuleSet: 34b5097700b5b214baa08b9eb1554dbeListRuleset
 
 Instance: List-34b5097700b5b214baa08b9eb1554dbe
 InstanceOf: List
+Description: "ePI document List for ertapenem Package Leaflets"
 
 * insert 34b5097700b5b214baa08b9eb1554dbeListRuleset
     

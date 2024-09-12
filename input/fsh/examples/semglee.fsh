@@ -1971,6 +1971,7 @@ RuleSet: 8d0c124d18ae7d118dd0c09ef060535bListRuleset
 
 Instance: List-8d0c124d18ae7d118dd0c09ef060535b
 InstanceOf: List
+Description: "ePI document List for semglee Package Leaflets"
 
 * insert 8d0c124d18ae7d118dd0c09ef060535bListRuleset
     

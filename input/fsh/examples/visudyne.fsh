@@ -805,6 +805,7 @@ RuleSet: 8a06156d853d45b0ba99d89b9f448d89ListRuleset
 
 Instance: List-8a06156d853d45b0ba99d89b9f448d89
 InstanceOf: List
+Description: "ePI document List for visudyne Package Leaflets"
 
 * insert 8a06156d853d45b0ba99d89b9f448d89ListRuleset
     

@@ -1114,6 +1114,7 @@ RuleSet: cde7ce8acabc194cf70fa2b3b251f6cbListRuleset
 
 Instance: List-cde7ce8acabc194cf70fa2b3b251f6cb
 InstanceOf: List
+Description: "ePI document List for vaxzevria Package Leaflets"
 
 * insert cde7ce8acabc194cf70fa2b3b251f6cbListRuleset
     

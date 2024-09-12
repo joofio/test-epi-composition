@@ -777,6 +777,7 @@ RuleSet: 58c65c2882289cd285f1ea0608d4e9f7ListRuleset
 
 Instance: List-58c65c2882289cd285f1ea0608d4e9f7
 InstanceOf: List
+Description: "ePI document List for cyanokit Package Leaflets"
 
 * insert 58c65c2882289cd285f1ea0608d4e9f7ListRuleset
     

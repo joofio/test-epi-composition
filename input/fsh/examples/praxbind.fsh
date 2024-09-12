@@ -1119,6 +1119,7 @@ RuleSet: d22822bd27d19d92ff4537227a0ddc72ListRuleset
 
 Instance: List-d22822bd27d19d92ff4537227a0ddc72
 InstanceOf: List
+Description: "ePI document List for praxbind Package Leaflets"
 
 * insert d22822bd27d19d92ff4537227a0ddc72ListRuleset
     

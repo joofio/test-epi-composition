@@ -2177,6 +2177,7 @@ RuleSet: 370a06b10b762d93e4a42cb2abad2584ListRuleset
 
 Instance: List-370a06b10b762d93e4a42cb2abad2584
 InstanceOf: List
+Description: "ePI document List for emtricitabinetenofovir Package Leaflets"
 
 * insert 370a06b10b762d93e4a42cb2abad2584ListRuleset
     

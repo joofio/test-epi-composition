@@ -1872,6 +1872,7 @@ RuleSet: d6b5caeb3aecc6a916b0a10e40227ee2ListRuleset
 
 Instance: List-d6b5caeb3aecc6a916b0a10e40227ee2
 InstanceOf: List
+Description: "ePI document List for intrarosa Package Leaflets"
 
 * insert d6b5caeb3aecc6a916b0a10e40227ee2ListRuleset
     

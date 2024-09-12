@@ -820,6 +820,7 @@ RuleSet: 40a0f9a5b184c9ac5cd6a0a61a321212ListRuleset
 
 Instance: List-40a0f9a5b184c9ac5cd6a0a61a321212
 InstanceOf: List
+Description: "ePI document List for cerezyme Package Leaflets"
 
 * insert 40a0f9a5b184c9ac5cd6a0a61a321212ListRuleset
     

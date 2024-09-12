@@ -1595,6 +1595,7 @@ RuleSet: 20187f2efcc8af1ff62d82a63aba8a40ListRuleset
 
 Instance: List-20187f2efcc8af1ff62d82a63aba8a40
 InstanceOf: List
+Description: "ePI document List for samsca Package Leaflets"
 
 * insert 20187f2efcc8af1ff62d82a63aba8a40ListRuleset
     

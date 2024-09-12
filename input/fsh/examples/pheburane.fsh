@@ -995,6 +995,7 @@ RuleSet: 1d04d08431237504735e48c47e138afcListRuleset
 
 Instance: List-1d04d08431237504735e48c47e138afc
 InstanceOf: List
+Description: "ePI document List for pheburane Package Leaflets"
 
 * insert 1d04d08431237504735e48c47e138afcListRuleset
     

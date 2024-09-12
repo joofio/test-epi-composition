@@ -869,6 +869,7 @@ RuleSet: 7a35b3e3ae23ba7c3c63288dcbee5ac6ListRuleset
 
 Instance: List-7a35b3e3ae23ba7c3c63288dcbee5ac6
 InstanceOf: List
+Description: "ePI document List for leqvio Package Leaflets"
 
 * insert 7a35b3e3ae23ba7c3c63288dcbee5ac6ListRuleset
     

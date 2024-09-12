@@ -1159,6 +1159,7 @@ RuleSet: f8c80c0dde1cf12a2344c36d8be291f8ListRuleset
 
 Instance: List-f8c80c0dde1cf12a2344c36d8be291f8
 InstanceOf: List
+Description: "ePI document List for fycompa Package Leaflets"
 
 * insert f8c80c0dde1cf12a2344c36d8be291f8ListRuleset
     

@@ -1768,6 +1768,7 @@ RuleSet: c01e0605e2e3c43213448cfeba0686aaListRuleset
 
 Instance: List-c01e0605e2e3c43213448cfeba0686aa
 InstanceOf: List
+Description: "ePI document List for paxlovid Package Leaflets"
 
 * insert c01e0605e2e3c43213448cfeba0686aaListRuleset
     

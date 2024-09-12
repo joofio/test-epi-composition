@@ -952,6 +952,7 @@ RuleSet: 6624bca7fe55692be3ff2a3b6c3a161aListRuleset
 
 Instance: List-6624bca7fe55692be3ff2a3b6c3a161a
 InstanceOf: List
+Description: "ePI document List for luveris Package Leaflets"
 
 * insert 6624bca7fe55692be3ff2a3b6c3a161aListRuleset
     

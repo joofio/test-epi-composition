@@ -1534,6 +1534,7 @@ RuleSet: da701b68ad298c1e026dc2b82539868eListRuleset
 
 Instance: List-da701b68ad298c1e026dc2b82539868e
 InstanceOf: List
+Description: "ePI document List for byannli Package Leaflets"
 
 * insert da701b68ad298c1e026dc2b82539868eListRuleset
     

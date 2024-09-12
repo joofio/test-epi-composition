@@ -1203,6 +1203,7 @@ RuleSet: cba1fe141abc835da1e9a47ec8c07d56ListRuleset
 
 Instance: List-cba1fe141abc835da1e9a47ec8c07d56
 InstanceOf: List
+Description: "ePI document List for delstrigo Package Leaflets"
 
 * insert cba1fe141abc835da1e9a47ec8c07d56ListRuleset
     

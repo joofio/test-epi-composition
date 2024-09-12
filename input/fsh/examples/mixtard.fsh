@@ -1050,6 +1050,7 @@ RuleSet: d8ca97550681f70b3fac03b02f9cb9beListRuleset
 
 Instance: List-d8ca97550681f70b3fac03b02f9cb9be
 InstanceOf: List
+Description: "ePI document List for mixtard Package Leaflets"
 
 * insert d8ca97550681f70b3fac03b02f9cb9beListRuleset
     

@@ -1786,6 +1786,7 @@ RuleSet: fd0c928ba69b44963057ba928ecaf5acListRuleset
 
 Instance: List-fd0c928ba69b44963057ba928ecaf5ac
 InstanceOf: List
+Description: "ePI document List for onpattro Package Leaflets"
 
 * insert fd0c928ba69b44963057ba928ecaf5acListRuleset
     

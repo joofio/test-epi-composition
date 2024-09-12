@@ -937,6 +937,7 @@ RuleSet: 7829b4b361ffed64965739b1e7cc1436ListRuleset
 
 Instance: List-7829b4b361ffed64965739b1e7cc1436
 InstanceOf: List
+Description: "ePI document List for pioglitazone Package Leaflets"
 
 * insert 7829b4b361ffed64965739b1e7cc1436ListRuleset
     

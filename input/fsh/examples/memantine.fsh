@@ -1434,6 +1434,7 @@ RuleSet: 78817b35263746b79687cd6c5a122f9fListRuleset
 
 Instance: List-78817b35263746b79687cd6c5a122f9f
 InstanceOf: List
+Description: "ePI document List for memantine Package Leaflets"
 
 * insert 78817b35263746b79687cd6c5a122f9fListRuleset
     

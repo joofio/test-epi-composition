@@ -1716,6 +1716,7 @@ RuleSet: 478b4098ffabcca87dff08bbf871c322ListRuleset
 
 Instance: List-478b4098ffabcca87dff08bbf871c322
 InstanceOf: List
+Description: "ePI document List for descovy Package Leaflets"
 
 * insert 478b4098ffabcca87dff08bbf871c322ListRuleset
     

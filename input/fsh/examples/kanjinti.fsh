@@ -2147,6 +2147,7 @@ RuleSet: d9a2d4a9aed73e1deb35a60f1ae8a7b2ListRuleset
 
 Instance: List-d9a2d4a9aed73e1deb35a60f1ae8a7b2
 InstanceOf: List
+Description: "ePI document List for kanjinti Package Leaflets"
 
 * insert d9a2d4a9aed73e1deb35a60f1ae8a7b2ListRuleset
     

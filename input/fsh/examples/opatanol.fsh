@@ -1255,6 +1255,7 @@ RuleSet: 5e88337560455eac655afab15013ce20ListRuleset
 
 Instance: List-5e88337560455eac655afab15013ce20
 InstanceOf: List
+Description: "ePI document List for opatanol Package Leaflets"
 
 * insert 5e88337560455eac655afab15013ce20ListRuleset
     

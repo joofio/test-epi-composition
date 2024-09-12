@@ -954,6 +954,7 @@ RuleSet: 6993a685d10576536183960090af1fddListRuleset
 
 Instance: List-6993a685d10576536183960090af1fdd
 InstanceOf: List
+Description: "ePI document List for anagrelide Package Leaflets"
 
 * insert 6993a685d10576536183960090af1fddListRuleset
     

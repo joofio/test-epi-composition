@@ -1769,6 +1769,7 @@ RuleSet: e2a8db799211e459b47eab2397a33e4fListRuleset
 
 Instance: List-e2a8db799211e459b47eab2397a33e4f
 InstanceOf: List
+Description: "ePI document List for cubicin Package Leaflets"
 
 * insert e2a8db799211e459b47eab2397a33e4fListRuleset
     

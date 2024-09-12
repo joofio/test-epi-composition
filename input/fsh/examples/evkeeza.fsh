@@ -771,6 +771,7 @@ RuleSet: de3f46573279b69427e72992f0f64b7eListRuleset
 
 Instance: List-de3f46573279b69427e72992f0f64b7e
 InstanceOf: List
+Description: "ePI document List for evkeeza Package Leaflets"
 
 * insert de3f46573279b69427e72992f0f64b7eListRuleset
     

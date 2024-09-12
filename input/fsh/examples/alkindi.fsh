@@ -862,6 +862,7 @@ RuleSet: ff01c0776e7dc8b016aadee2ff0ac481ListRuleset
 
 Instance: List-ff01c0776e7dc8b016aadee2ff0ac481
 InstanceOf: List
+Description: "ePI document List for alkindi Package Leaflets"
 
 * insert ff01c0776e7dc8b016aadee2ff0ac481ListRuleset
     

@@ -1360,6 +1360,7 @@ RuleSet: 831dc32174e3de65bc27162f5e1c766fListRuleset
 
 Instance: List-831dc32174e3de65bc27162f5e1c766f
 InstanceOf: List
+Description: "ePI document List for azopt Package Leaflets"
 
 * insert 831dc32174e3de65bc27162f5e1c766fListRuleset
     

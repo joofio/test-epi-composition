@@ -969,6 +969,7 @@ RuleSet: d84b65577b31a872cd6279c4e28cb6f8ListRuleset
 
 Instance: List-d84b65577b31a872cd6279c4e28cb6f8
 InstanceOf: List
+Description: "ePI document List for erbitux Package Leaflets"
 
 * insert d84b65577b31a872cd6279c4e28cb6f8ListRuleset
     

@@ -982,6 +982,7 @@ RuleSet: 5409615bb3a1f7e2d64838d0abac2414ListRuleset
 
 Instance: List-5409615bb3a1f7e2d64838d0abac2414
 InstanceOf: List
+Description: "ePI document List for gardasil Package Leaflets"
 
 * insert 5409615bb3a1f7e2d64838d0abac2414ListRuleset
     

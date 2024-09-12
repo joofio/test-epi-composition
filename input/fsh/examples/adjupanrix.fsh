@@ -1277,6 +1277,7 @@ RuleSet: 21182c5873285a39663676519ff4bbabListRuleset
 
 Instance: List-21182c5873285a39663676519ff4bbab
 InstanceOf: List
+Description: "ePI document List for adjupanrix Package Leaflets"
 
 * insert 21182c5873285a39663676519ff4bbabListRuleset
     

@@ -1857,6 +1857,7 @@ RuleSet: 6921fe94b12d3679a96f1d5a8683a92fListRuleset
 
 Instance: List-6921fe94b12d3679a96f1d5a8683a92f
 InstanceOf: List
+Description: "ePI document List for voncento Package Leaflets"
 
 * insert 6921fe94b12d3679a96f1d5a8683a92fListRuleset
     

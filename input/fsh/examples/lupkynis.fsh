@@ -1324,6 +1324,7 @@ RuleSet: 41b3735a6e59fac8a0512a47fdc116bdListRuleset
 
 Instance: List-41b3735a6e59fac8a0512a47fdc116bd
 InstanceOf: List
+Description: "ePI document List for lupkynis Package Leaflets"
 
 * insert 41b3735a6e59fac8a0512a47fdc116bdListRuleset
     

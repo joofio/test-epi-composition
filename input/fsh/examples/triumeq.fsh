@@ -1542,6 +1542,7 @@ RuleSet: 130bba2ea8da812c1b9f9db0b62fdb3aListRuleset
 
 Instance: List-130bba2ea8da812c1b9f9db0b62fdb3a
 InstanceOf: List
+Description: "ePI document List for triumeq Package Leaflets"
 
 * insert 130bba2ea8da812c1b9f9db0b62fdb3aListRuleset
     

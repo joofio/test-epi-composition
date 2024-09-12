@@ -978,6 +978,7 @@ RuleSet: 0095f17772ab958f3f5be1c6c1d9bbacListRuleset
 
 Instance: List-0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: List
+Description: "ePI document List for waylivra Package Leaflets"
 
 * insert 0095f17772ab958f3f5be1c6c1d9bbacListRuleset
     

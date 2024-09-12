@@ -1112,6 +1112,7 @@ RuleSet: 3762e897869ef821659a1e76148e806aListRuleset
 
 Instance: List-3762e897869ef821659a1e76148e806a
 InstanceOf: List
+Description: "ePI document List for arixtra Package Leaflets"
 
 * insert 3762e897869ef821659a1e76148e806aListRuleset
     

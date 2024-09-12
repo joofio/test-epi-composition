@@ -1109,6 +1109,7 @@ RuleSet: 9cd7665100fd3b81b318cbcb65d45fefListRuleset
 
 Instance: List-9cd7665100fd3b81b318cbcb65d45fef
 InstanceOf: List
+Description: "ePI document List for incresync Package Leaflets"
 
 * insert 9cd7665100fd3b81b318cbcb65d45fefListRuleset
     

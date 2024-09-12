@@ -1832,6 +1832,7 @@ RuleSet: c832a88299d92f8a87ef0072aef518b9ListRuleset
 
 Instance: List-c832a88299d92f8a87ef0072aef518b9
 InstanceOf: List
+Description: "ePI document List for afstyla Package Leaflets"
 
 * insert c832a88299d92f8a87ef0072aef518b9ListRuleset
     

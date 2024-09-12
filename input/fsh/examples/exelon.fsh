@@ -1739,6 +1739,7 @@ RuleSet: e34df9b486f1338f47595519afb12a7dListRuleset
 
 Instance: List-e34df9b486f1338f47595519afb12a7d
 InstanceOf: List
+Description: "ePI document List for exelon Package Leaflets"
 
 * insert e34df9b486f1338f47595519afb12a7dListRuleset
     

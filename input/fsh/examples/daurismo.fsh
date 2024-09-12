@@ -1061,6 +1061,7 @@ RuleSet: 80c767f44d11e1fb968f6d85169c54f0ListRuleset
 
 Instance: List-80c767f44d11e1fb968f6d85169c54f0
 InstanceOf: List
+Description: "ePI document List for daurismo Package Leaflets"
 
 * insert 80c767f44d11e1fb968f6d85169c54f0ListRuleset
     

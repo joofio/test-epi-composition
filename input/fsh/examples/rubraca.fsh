@@ -997,6 +997,7 @@ RuleSet: 9d9c8b92be64dfdc684568f33262fbabListRuleset
 
 Instance: List-9d9c8b92be64dfdc684568f33262fbab
 InstanceOf: List
+Description: "ePI document List for rubraca Package Leaflets"
 
 * insert 9d9c8b92be64dfdc684568f33262fbabListRuleset
     

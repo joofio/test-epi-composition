@@ -1931,6 +1931,7 @@ RuleSet: c423173deb9255bac28552e97801a6f0ListRuleset
 
 Instance: List-c423173deb9255bac28552e97801a6f0
 InstanceOf: List
+Description: "ePI document List for onivyde Package Leaflets"
 
 * insert c423173deb9255bac28552e97801a6f0ListRuleset
     

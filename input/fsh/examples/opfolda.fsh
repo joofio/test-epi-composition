@@ -1086,6 +1086,7 @@ RuleSet: 65865425d1dbd81837221de546e96e8cListRuleset
 
 Instance: List-65865425d1dbd81837221de546e96e8c
 InstanceOf: List
+Description: "ePI document List for opfolda Package Leaflets"
 
 * insert 65865425d1dbd81837221de546e96e8cListRuleset
     

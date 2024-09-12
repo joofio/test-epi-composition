@@ -1781,6 +1781,7 @@ RuleSet: 061484b9147260e88c643074459451f5ListRuleset
 
 Instance: List-061484b9147260e88c643074459451f5
 InstanceOf: List
+Description: "ePI document List for cresemba Package Leaflets"
 
 * insert 061484b9147260e88c643074459451f5ListRuleset
     

@@ -1870,6 +1870,7 @@ RuleSet: 88465ebc29d8e476ad0a83f9574d1c59ListRuleset
 
 Instance: List-88465ebc29d8e476ad0a83f9574d1c59
 InstanceOf: List
+Description: "ePI document List for lyxumia Package Leaflets"
 
 * insert 88465ebc29d8e476ad0a83f9574d1c59ListRuleset
     

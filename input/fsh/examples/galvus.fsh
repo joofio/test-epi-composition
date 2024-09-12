@@ -938,6 +938,7 @@ RuleSet: c93f079fae06a5c704ad307341692636ListRuleset
 
 Instance: List-c93f079fae06a5c704ad307341692636
 InstanceOf: List
+Description: "ePI document List for galvus Package Leaflets"
 
 * insert c93f079fae06a5c704ad307341692636ListRuleset
     

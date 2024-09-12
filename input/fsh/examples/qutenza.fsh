@@ -694,6 +694,7 @@ RuleSet: d8316d32320ec41a5ee7a0d849b593efListRuleset
 
 Instance: List-d8316d32320ec41a5ee7a0d849b593ef
 InstanceOf: List
+Description: "ePI document List for qutenza Package Leaflets"
 
 * insert d8316d32320ec41a5ee7a0d849b593efListRuleset
     

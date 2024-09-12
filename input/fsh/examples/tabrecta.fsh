@@ -978,6 +978,7 @@ RuleSet: be5ceff4154e41596bab87f1698ba47aListRuleset
 
 Instance: List-be5ceff4154e41596bab87f1698ba47a
 InstanceOf: List
+Description: "ePI document List for tabrecta Package Leaflets"
 
 * insert be5ceff4154e41596bab87f1698ba47aListRuleset
     

@@ -879,6 +879,7 @@ RuleSet: 8bb757daadba0c9862c13659a934b71bListRuleset
 
 Instance: List-8bb757daadba0c9862c13659a934b71b
 InstanceOf: List
+Description: "ePI document List for rayvow Package Leaflets"
 
 * insert 8bb757daadba0c9862c13659a934b71bListRuleset
     

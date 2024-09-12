@@ -1414,6 +1414,7 @@ RuleSet: b681cc309a06b1eb9ced4a87b0d16f81ListRuleset
 
 Instance: List-b681cc309a06b1eb9ced4a87b0d16f81
 InstanceOf: List
+Description: "ePI document List for xiliarx Package Leaflets"
 
 * insert b681cc309a06b1eb9ced4a87b0d16f81ListRuleset
     

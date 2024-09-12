@@ -1845,6 +1845,7 @@ RuleSet: 9e6efceebc84a86b70285b4c52bf6209ListRuleset
 
 Instance: List-9e6efceebc84a86b70285b4c52bf6209
 InstanceOf: List
+Description: "ePI document List for retacrit Package Leaflets"
 
 * insert 9e6efceebc84a86b70285b4c52bf6209ListRuleset
     

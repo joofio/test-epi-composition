@@ -1327,6 +1327,7 @@ RuleSet: 008c725c88c429f9cddb37027a290218ListRuleset
 
 Instance: List-008c725c88c429f9cddb37027a290218
 InstanceOf: List
+Description: "ePI document List for xeljanz Package Leaflets"
 
 * insert 008c725c88c429f9cddb37027a290218ListRuleset
     

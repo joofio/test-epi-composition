@@ -1410,6 +1410,7 @@ RuleSet: 31b0725ade6496816df8ac216511de2cListRuleset
 
 Instance: List-31b0725ade6496816df8ac216511de2c
 InstanceOf: List
+Description: "ePI document List for tukysa Package Leaflets"
 
 * insert 31b0725ade6496816df8ac216511de2cListRuleset
     

@@ -1577,6 +1577,7 @@ RuleSet: 23bb5acd65ff17ef75a4158a12199fd2ListRuleset
 
 Instance: List-23bb5acd65ff17ef75a4158a12199fd2
 InstanceOf: List
+Description: "ePI document List for noxafil Package Leaflets"
 
 * insert 23bb5acd65ff17ef75a4158a12199fd2ListRuleset
     

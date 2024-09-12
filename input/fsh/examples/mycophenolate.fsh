@@ -2106,6 +2106,7 @@ RuleSet: abfb98258fb6ebad664e6e102308dcc0ListRuleset
 
 Instance: List-abfb98258fb6ebad664e6e102308dcc0
 InstanceOf: List
+Description: "ePI document List for mycophenolate Package Leaflets"
 
 * insert abfb98258fb6ebad664e6e102308dcc0ListRuleset
     

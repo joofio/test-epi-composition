@@ -1515,6 +1515,7 @@ RuleSet: 8467bc8586a2da87e0b1d648339b10b3ListRuleset
 
 Instance: List-8467bc8586a2da87e0b1d648339b10b3
 InstanceOf: List
+Description: "ePI document List for kovaltry Package Leaflets"
 
 * insert 8467bc8586a2da87e0b1d648339b10b3ListRuleset
     

@@ -1475,6 +1475,7 @@ RuleSet: e3e38f96bdd05d0b2e420ed431026ab9ListRuleset
 
 Instance: List-e3e38f96bdd05d0b2e420ed431026ab9
 InstanceOf: List
+Description: "ePI document List for effentora Package Leaflets"
 
 * insert e3e38f96bdd05d0b2e420ed431026ab9ListRuleset
     

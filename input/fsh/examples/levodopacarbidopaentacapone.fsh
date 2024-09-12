@@ -622,6 +622,7 @@ RuleSet: d95102bde9e6478e73d009f96eccf149ListRuleset
 
 Instance: List-d95102bde9e6478e73d009f96eccf149
 InstanceOf: List
+Description: "ePI document List for levodopacarbidopaentacapone Package Leaflets"
 
 * insert d95102bde9e6478e73d009f96eccf149ListRuleset
     

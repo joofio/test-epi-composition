@@ -1227,6 +1227,7 @@ RuleSet: e0dd692dcb560bc04bfa1cbfaca9ecffListRuleset
 
 Instance: List-e0dd692dcb560bc04bfa1cbfaca9ecff
 InstanceOf: List
+Description: "ePI document List for tobi Package Leaflets"
 
 * insert e0dd692dcb560bc04bfa1cbfaca9ecffListRuleset
     

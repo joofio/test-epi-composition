@@ -1048,6 +1048,7 @@ RuleSet: 7c3f725d5ce5b04f0bcec4815df3bcb5ListRuleset
 
 Instance: List-7c3f725d5ce5b04f0bcec4815df3bcb5
 InstanceOf: List
+Description: "ePI document List for regkirona Package Leaflets"
 
 * insert 7c3f725d5ce5b04f0bcec4815df3bcb5ListRuleset
     

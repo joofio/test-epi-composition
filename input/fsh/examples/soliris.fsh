@@ -1898,6 +1898,7 @@ RuleSet: 9290357e39a2371931091ec451b2e152ListRuleset
 
 Instance: List-9290357e39a2371931091ec451b2e152
 InstanceOf: List
+Description: "ePI document List for soliris Package Leaflets"
 
 * insert 9290357e39a2371931091ec451b2e152ListRuleset
     

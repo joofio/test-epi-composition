@@ -1636,6 +1636,7 @@ RuleSet: 75a506f08e3ae1e41989ef75918dcae1ListRuleset
 
 Instance: List-75a506f08e3ae1e41989ef75918dcae1
 InstanceOf: List
+Description: "ePI document List for epidyolex Package Leaflets"
 
 * insert 75a506f08e3ae1e41989ef75918dcae1ListRuleset
     

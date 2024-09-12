@@ -1393,6 +1393,7 @@ RuleSet: 915e89a600adbc6365861bb1b0863445ListRuleset
 
 Instance: List-915e89a600adbc6365861bb1b0863445
 InstanceOf: List
+Description: "ePI document List for mayzent Package Leaflets"
 
 * insert 915e89a600adbc6365861bb1b0863445ListRuleset
     

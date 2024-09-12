@@ -1272,6 +1272,7 @@ RuleSet: 86797ea5a5b2ca41d08f535ddec98397ListRuleset
 
 Instance: List-86797ea5a5b2ca41d08f535ddec98397
 InstanceOf: List
+Description: "ePI document List for jyseleca Package Leaflets"
 
 * insert 86797ea5a5b2ca41d08f535ddec98397ListRuleset
     

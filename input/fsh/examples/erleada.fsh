@@ -1834,6 +1834,7 @@ RuleSet: d9dc9ab79b2a856f92a3151fb8d4fca9ListRuleset
 
 Instance: List-d9dc9ab79b2a856f92a3151fb8d4fca9
 InstanceOf: List
+Description: "ePI document List for erleada Package Leaflets"
 
 * insert d9dc9ab79b2a856f92a3151fb8d4fca9ListRuleset
     

@@ -1296,6 +1296,7 @@ RuleSet: 63e581259f99b3ad3581a50239777ba2ListRuleset
 
 Instance: List-63e581259f99b3ad3581a50239777ba2
 InstanceOf: List
+Description: "ePI document List for cholib Package Leaflets"
 
 * insert 63e581259f99b3ad3581a50239777ba2ListRuleset
     

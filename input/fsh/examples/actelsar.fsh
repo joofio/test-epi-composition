@@ -1668,6 +1668,7 @@ RuleSet: d4e93c060506fdcc083b5b1a04e82522ListRuleset
 
 Instance: List-d4e93c060506fdcc083b5b1a04e82522
 InstanceOf: List
+Description: "ePI document List for actelsar Package Leaflets"
 
 * insert d4e93c060506fdcc083b5b1a04e82522ListRuleset
     

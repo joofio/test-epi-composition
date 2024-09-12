@@ -987,6 +987,7 @@ RuleSet: de5eecf9e44a37927bab25be6edb8bcbListRuleset
 
 Instance: List-de5eecf9e44a37927bab25be6edb8bcb
 InstanceOf: List
+Description: "ePI document List for fareston Package Leaflets"
 
 * insert de5eecf9e44a37927bab25be6edb8bcbListRuleset
     

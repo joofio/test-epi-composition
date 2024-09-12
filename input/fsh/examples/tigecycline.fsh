@@ -1134,6 +1134,7 @@ RuleSet: f40a84cb5d324bdca9e9009c23b60458ListRuleset
 
 Instance: List-f40a84cb5d324bdca9e9009c23b60458
 InstanceOf: List
+Description: "ePI document List for tigecycline Package Leaflets"
 
 * insert f40a84cb5d324bdca9e9009c23b60458ListRuleset
     

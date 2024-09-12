@@ -2468,6 +2468,7 @@ RuleSet: 4c7f4cd465ecc4c332f786a217090e6eListRuleset
 
 Instance: List-4c7f4cd465ecc4c332f786a217090e6e
 InstanceOf: List
+Description: "ePI document List for stribild Package Leaflets"
 
 * insert 4c7f4cd465ecc4c332f786a217090e6eListRuleset
     

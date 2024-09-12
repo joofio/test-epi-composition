@@ -1769,6 +1769,7 @@ RuleSet: 9c1ad55578ad6de333b716cfcc4a7d73ListRuleset
 
 Instance: List-9c1ad55578ad6de333b716cfcc4a7d73
 InstanceOf: List
+Description: "ePI document List for translarna Package Leaflets"
 
 * insert 9c1ad55578ad6de333b716cfcc4a7d73ListRuleset
     

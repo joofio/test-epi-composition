@@ -1236,6 +1236,7 @@ RuleSet: 166a454c6539dfdbdc3afea683fe6474ListRuleset
 
 Instance: List-166a454c6539dfdbdc3afea683fe6474
 InstanceOf: List
+Description: "ePI document List for stayveer Package Leaflets"
 
 * insert 166a454c6539dfdbdc3afea683fe6474ListRuleset
     

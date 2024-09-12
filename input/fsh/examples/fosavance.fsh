@@ -1633,6 +1633,7 @@ RuleSet: 4bec0630ba2fe20207306bdc003daeb2ListRuleset
 
 Instance: List-4bec0630ba2fe20207306bdc003daeb2
 InstanceOf: List
+Description: "ePI document List for fosavance Package Leaflets"
 
 * insert 4bec0630ba2fe20207306bdc003daeb2ListRuleset
     

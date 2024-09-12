@@ -1687,6 +1687,7 @@ RuleSet: 9f9daf83bf13eb0a61dfb2c983d49142ListRuleset
 
 Instance: List-9f9daf83bf13eb0a61dfb2c983d49142
 InstanceOf: List
+Description: "ePI document List for ogluo Package Leaflets"
 
 * insert 9f9daf83bf13eb0a61dfb2c983d49142ListRuleset
     

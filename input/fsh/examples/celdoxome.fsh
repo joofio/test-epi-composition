@@ -1460,6 +1460,7 @@ RuleSet: 0decee85458f6211fcf0121c6b6f6c83ListRuleset
 
 Instance: List-0decee85458f6211fcf0121c6b6f6c83
 InstanceOf: List
+Description: "ePI document List for celdoxome Package Leaflets"
 
 * insert 0decee85458f6211fcf0121c6b6f6c83ListRuleset
     

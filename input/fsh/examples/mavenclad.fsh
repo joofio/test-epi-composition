@@ -1209,6 +1209,7 @@ RuleSet: c6f251ac470345e2bc0f62b0b3ff2ff0ListRuleset
 
 Instance: List-c6f251ac470345e2bc0f62b0b3ff2ff0
 InstanceOf: List
+Description: "ePI document List for mavenclad Package Leaflets"
 
 * insert c6f251ac470345e2bc0f62b0b3ff2ff0ListRuleset
     

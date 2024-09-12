@@ -1530,6 +1530,7 @@ RuleSet: 91532a0bac4066c0d200269dda7e0b3fListRuleset
 
 Instance: List-91532a0bac4066c0d200269dda7e0b3f
 InstanceOf: List
+Description: "ePI document List for vipdomet Package Leaflets"
 
 * insert 91532a0bac4066c0d200269dda7e0b3fListRuleset
     

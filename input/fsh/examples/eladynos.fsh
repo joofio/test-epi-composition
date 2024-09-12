@@ -974,6 +974,7 @@ RuleSet: 3aa969282c152694c6f4b966217ad337ListRuleset
 
 Instance: List-3aa969282c152694c6f4b966217ad337
 InstanceOf: List
+Description: "ePI document List for eladynos Package Leaflets"
 
 * insert 3aa969282c152694c6f4b966217ad337ListRuleset
     

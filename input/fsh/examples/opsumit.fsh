@@ -956,6 +956,7 @@ RuleSet: 86f804709e3279dcca0da696e8a674ddListRuleset
 
 Instance: List-86f804709e3279dcca0da696e8a674dd
 InstanceOf: List
+Description: "ePI document List for opsumit Package Leaflets"
 
 * insert 86f804709e3279dcca0da696e8a674ddListRuleset
     

@@ -1466,6 +1466,7 @@ RuleSet: 55a0c3e4e0760943cb20f19d7e8a0dd1ListRuleset
 
 Instance: List-55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: List
+Description: "ePI document List for zolsketil Package Leaflets"
 
 * insert 55a0c3e4e0760943cb20f19d7e8a0dd1ListRuleset
     

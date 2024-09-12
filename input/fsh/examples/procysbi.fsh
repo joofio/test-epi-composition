@@ -1675,6 +1675,7 @@ RuleSet: 8fe556bb25526e379f33fd00eb2af422ListRuleset
 
 Instance: List-8fe556bb25526e379f33fd00eb2af422
 InstanceOf: List
+Description: "ePI document List for procysbi Package Leaflets"
 
 * insert 8fe556bb25526e379f33fd00eb2af422ListRuleset
     

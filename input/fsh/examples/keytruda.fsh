@@ -1533,6 +1533,7 @@ RuleSet: 695d88815041ea7bd60c45e1ac4b79d4ListRuleset
 
 Instance: List-695d88815041ea7bd60c45e1ac4b79d4
 InstanceOf: List
+Description: "ePI document List for keytruda Package Leaflets"
 
 * insert 695d88815041ea7bd60c45e1ac4b79d4ListRuleset
     

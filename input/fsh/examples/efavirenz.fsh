@@ -1272,6 +1272,7 @@ RuleSet: f9db4716a8c7e3db3f37b741c69dca3cListRuleset
 
 Instance: List-f9db4716a8c7e3db3f37b741c69dca3c
 InstanceOf: List
+Description: "ePI document List for efavirenz Package Leaflets"
 
 * insert f9db4716a8c7e3db3f37b741c69dca3cListRuleset
     

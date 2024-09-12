@@ -1131,6 +1131,7 @@ RuleSet: fca2b0949c2af4853c1cd5b425813585ListRuleset
 
 Instance: List-fca2b0949c2af4853c1cd5b425813585
 InstanceOf: List
+Description: "ePI document List for ontozry Package Leaflets"
 
 * insert fca2b0949c2af4853c1cd5b425813585ListRuleset
     

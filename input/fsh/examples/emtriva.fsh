@@ -1521,6 +1521,7 @@ RuleSet: 3aba64fb4580bb12883e3dc4b001f74aListRuleset
 
 Instance: List-3aba64fb4580bb12883e3dc4b001f74a
 InstanceOf: List
+Description: "ePI document List for emtriva Package Leaflets"
 
 * insert 3aba64fb4580bb12883e3dc4b001f74aListRuleset
     

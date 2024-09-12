@@ -1155,6 +1155,7 @@ RuleSet: 8785831d8660f7dc500cb9e2633fcfc2ListRuleset
 
 Instance: List-8785831d8660f7dc500cb9e2633fcfc2
 InstanceOf: List
+Description: "ePI document List for beovu Package Leaflets"
 
 * insert 8785831d8660f7dc500cb9e2633fcfc2ListRuleset
     

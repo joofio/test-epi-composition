@@ -1376,6 +1376,7 @@ RuleSet: 2fe9007bb20986bb15e710aca341907aListRuleset
 
 Instance: List-2fe9007bb20986bb15e710aca341907a
 InstanceOf: List
+Description: "ePI document List for tolvaptan Package Leaflets"
 
 * insert 2fe9007bb20986bb15e710aca341907aListRuleset
     

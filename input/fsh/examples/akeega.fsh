@@ -1844,6 +1844,7 @@ RuleSet: 5caa393121d9756e15d948c90dc0e334ListRuleset
 
 Instance: List-5caa393121d9756e15d948c90dc0e334
 InstanceOf: List
+Description: "ePI document List for akeega Package Leaflets"
 
 * insert 5caa393121d9756e15d948c90dc0e334ListRuleset
     

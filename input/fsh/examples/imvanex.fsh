@@ -827,6 +827,7 @@ RuleSet: efed70c799d3cf5deb34f761d19e059bListRuleset
 
 Instance: List-efed70c799d3cf5deb34f761d19e059b
 InstanceOf: List
+Description: "ePI document List for imvanex Package Leaflets"
 
 * insert efed70c799d3cf5deb34f761d19e059bListRuleset
     

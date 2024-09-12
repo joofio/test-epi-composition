@@ -2248,6 +2248,7 @@ RuleSet: 36b89eaa45afd7ab0e486d51fb7ebc12ListRuleset
 
 Instance: List-36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: List
+Description: "ePI document List for cabometyx Package Leaflets"
 
 * insert 36b89eaa45afd7ab0e486d51fb7ebc12ListRuleset
     

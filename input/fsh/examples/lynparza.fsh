@@ -1773,6 +1773,7 @@ RuleSet: 4dbf28ef3bd2d6f9dcbec498df8a6133ListRuleset
 
 Instance: List-4dbf28ef3bd2d6f9dcbec498df8a6133
 InstanceOf: List
+Description: "ePI document List for lynparza Package Leaflets"
 
 * insert 4dbf28ef3bd2d6f9dcbec498df8a6133ListRuleset
     

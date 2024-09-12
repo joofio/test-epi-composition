@@ -1208,6 +1208,7 @@ RuleSet: 0160c517e5757b2fb34b6990780c0bb4ListRuleset
 
 Instance: List-0160c517e5757b2fb34b6990780c0bb4
 InstanceOf: List
+Description: "ePI document List for zabdeno Package Leaflets"
 
 * insert 0160c517e5757b2fb34b6990780c0bb4ListRuleset
     

@@ -1475,6 +1475,7 @@ RuleSet: 7eea12adb97ff7cb073c678b4544c722ListRuleset
 
 Instance: List-7eea12adb97ff7cb073c678b4544c722
 InstanceOf: List
+Description: "ePI document List for emtricitabine Package Leaflets"
 
 * insert 7eea12adb97ff7cb073c678b4544c722ListRuleset
     

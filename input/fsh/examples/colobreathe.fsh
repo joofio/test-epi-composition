@@ -1082,6 +1082,7 @@ RuleSet: 8fbc69d3de50a0eced9467159e7edfb2ListRuleset
 
 Instance: List-8fbc69d3de50a0eced9467159e7edfb2
 InstanceOf: List
+Description: "ePI document List for colobreathe Package Leaflets"
 
 * insert 8fbc69d3de50a0eced9467159e7edfb2ListRuleset
     

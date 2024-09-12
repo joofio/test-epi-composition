@@ -2800,6 +2800,7 @@ RuleSet: 909f6f2d2e9597ae246c0a311cd0f289ListRuleset
 
 Instance: List-909f6f2d2e9597ae246c0a311cd0f289
 InstanceOf: List
+Description: "ePI document List for zessly Package Leaflets"
 
 * insert 909f6f2d2e9597ae246c0a311cd0f289ListRuleset
     

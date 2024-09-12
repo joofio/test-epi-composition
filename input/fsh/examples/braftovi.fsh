@@ -1234,6 +1234,7 @@ RuleSet: 7345b00216838e90492587f6ecbdea1cListRuleset
 
 Instance: List-7345b00216838e90492587f6ecbdea1c
 InstanceOf: List
+Description: "ePI document List for braftovi Package Leaflets"
 
 * insert 7345b00216838e90492587f6ecbdea1cListRuleset
     

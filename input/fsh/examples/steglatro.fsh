@@ -1119,6 +1119,7 @@ RuleSet: 3e75a55b0a0d0f0feaac242115a6585eListRuleset
 
 Instance: List-3e75a55b0a0d0f0feaac242115a6585e
 InstanceOf: List
+Description: "ePI document List for steglatro Package Leaflets"
 
 * insert 3e75a55b0a0d0f0feaac242115a6585eListRuleset
     

@@ -1415,6 +1415,7 @@ RuleSet: eb26fa1671149a9a84afe4c1bb85528aListRuleset
 
 Instance: List-eb26fa1671149a9a84afe4c1bb85528a
 InstanceOf: List
+Description: "ePI document List for tecfidera Package Leaflets"
 
 * insert eb26fa1671149a9a84afe4c1bb85528aListRuleset
     

@@ -1163,6 +1163,7 @@ RuleSet: 0d50af8d664b571d625f5732b765b8b5ListRuleset
 
 Instance: List-0d50af8d664b571d625f5732b765b8b5
 InstanceOf: List
+Description: "ePI document List for ronapreve Package Leaflets"
 
 * insert 0d50af8d664b571d625f5732b765b8b5ListRuleset
     

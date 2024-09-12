@@ -2054,6 +2054,7 @@ RuleSet: eab8b33e25257b37415a6df6ca70ca04ListRuleset
 
 Instance: List-eab8b33e25257b37415a6df6ca70ca04
 InstanceOf: List
+Description: "ePI document List for kisqali Package Leaflets"
 
 * insert eab8b33e25257b37415a6df6ca70ca04ListRuleset
     

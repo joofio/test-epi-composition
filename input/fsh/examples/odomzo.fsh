@@ -1160,6 +1160,7 @@ RuleSet: 0349e0c03941d2ede34c30a30310b99bListRuleset
 
 Instance: List-0349e0c03941d2ede34c30a30310b99b
 InstanceOf: List
+Description: "ePI document List for odomzo Package Leaflets"
 
 * insert 0349e0c03941d2ede34c30a30310b99bListRuleset
     

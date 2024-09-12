@@ -1960,6 +1960,7 @@ RuleSet: a15e9940fa017377fbf82f0af3d7e7f4ListRuleset
 
 Instance: List-a15e9940fa017377fbf82f0af3d7e7f4
 InstanceOf: List
+Description: "ePI document List for abseamed Package Leaflets"
 
 * insert a15e9940fa017377fbf82f0af3d7e7f4ListRuleset
     

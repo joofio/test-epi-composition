@@ -1026,6 +1026,7 @@ RuleSet: 1e954682407ee7d7521ef7ec82e30f79ListRuleset
 
 Instance: List-1e954682407ee7d7521ef7ec82e30f79
 InstanceOf: List
+Description: "ePI document List for kimmtrak Package Leaflets"
 
 * insert 1e954682407ee7d7521ef7ec82e30f79ListRuleset
     

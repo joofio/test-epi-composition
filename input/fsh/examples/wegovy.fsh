@@ -1802,6 +1802,7 @@ RuleSet: 0234c86891baf768298474181745e97dListRuleset
 
 Instance: List-0234c86891baf768298474181745e97d
 InstanceOf: List
+Description: "ePI document List for wegovy Package Leaflets"
 
 * insert 0234c86891baf768298474181745e97dListRuleset
     

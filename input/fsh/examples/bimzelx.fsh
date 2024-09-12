@@ -1311,6 +1311,7 @@ RuleSet: 28d78e4ecee5ce96f67160a74729d480ListRuleset
 
 Instance: List-28d78e4ecee5ce96f67160a74729d480
 InstanceOf: List
+Description: "ePI document List for bimzelx Package Leaflets"
 
 * insert 28d78e4ecee5ce96f67160a74729d480ListRuleset
     

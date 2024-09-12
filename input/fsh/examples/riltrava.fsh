@@ -1674,6 +1674,7 @@ RuleSet: 832482791de362ad81d3371194ed350bListRuleset
 
 Instance: List-832482791de362ad81d3371194ed350b
 InstanceOf: List
+Description: "ePI document List for riltrava Package Leaflets"
 
 * insert 832482791de362ad81d3371194ed350bListRuleset
     

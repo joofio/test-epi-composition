@@ -1438,6 +1438,7 @@ RuleSet: 49a6edf85307fce92cb7f88732583618ListRuleset
 
 Instance: List-49a6edf85307fce92cb7f88732583618
 InstanceOf: List
+Description: "ePI document List for azomyr Package Leaflets"
 
 * insert 49a6edf85307fce92cb7f88732583618ListRuleset
     

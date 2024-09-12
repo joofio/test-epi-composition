@@ -1332,6 +1332,7 @@ RuleSet: 2dca39e00c4bb300a2d0bc7e52b63f20ListRuleset
 
 Instance: List-2dca39e00c4bb300a2d0bc7e52b63f20
 InstanceOf: List
+Description: "ePI document List for trizivir Package Leaflets"
 
 * insert 2dca39e00c4bb300a2d0bc7e52b63f20ListRuleset
     

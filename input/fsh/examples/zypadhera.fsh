@@ -1013,6 +1013,7 @@ RuleSet: 73e905abf90c6054f35e5dd38ca6e3a6ListRuleset
 
 Instance: List-73e905abf90c6054f35e5dd38ca6e3a6
 InstanceOf: List
+Description: "ePI document List for zypadhera Package Leaflets"
 
 * insert 73e905abf90c6054f35e5dd38ca6e3a6ListRuleset
     

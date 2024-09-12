@@ -2254,6 +2254,7 @@ RuleSet: d78597bd4a8ec02c40a4fe805d40f1efListRuleset
 
 Instance: List-d78597bd4a8ec02c40a4fe805d40f1ef
 InstanceOf: List
+Description: "ePI document List for uzpruvo Package Leaflets"
 
 * insert d78597bd4a8ec02c40a4fe805d40f1efListRuleset
     

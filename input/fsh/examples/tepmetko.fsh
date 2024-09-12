@@ -1100,6 +1100,7 @@ RuleSet: baea5a2972e0f05fd505526d61aba839ListRuleset
 
 Instance: List-baea5a2972e0f05fd505526d61aba839
 InstanceOf: List
+Description: "ePI document List for tepmetko Package Leaflets"
 
 * insert baea5a2972e0f05fd505526d61aba839ListRuleset
     

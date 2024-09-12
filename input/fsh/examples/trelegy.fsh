@@ -1737,6 +1737,7 @@ RuleSet: 1f770da67a0e503197d74d61bd645018ListRuleset
 
 Instance: List-1f770da67a0e503197d74d61bd645018
 InstanceOf: List
+Description: "ePI document List for trelegy Package Leaflets"
 
 * insert 1f770da67a0e503197d74d61bd645018ListRuleset
     

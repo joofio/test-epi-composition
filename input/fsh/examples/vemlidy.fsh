@@ -1022,6 +1022,7 @@ RuleSet: 626b5ebcb82fc86d7ecd89669e8b58e3ListRuleset
 
 Instance: List-626b5ebcb82fc86d7ecd89669e8b58e3
 InstanceOf: List
+Description: "ePI document List for vemlidy Package Leaflets"
 
 * insert 626b5ebcb82fc86d7ecd89669e8b58e3ListRuleset
     

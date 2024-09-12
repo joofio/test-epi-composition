@@ -1082,6 +1082,7 @@ RuleSet: e904990c0daca9f90faf79e88bc809b4ListRuleset
 
 Instance: List-e904990c0daca9f90faf79e88bc809b4
 InstanceOf: List
+Description: "ePI document List for orladeyo Package Leaflets"
 
 * insert e904990c0daca9f90faf79e88bc809b4ListRuleset
     

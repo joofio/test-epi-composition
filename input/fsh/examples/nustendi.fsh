@@ -1048,6 +1048,7 @@ RuleSet: f38fd388d9d557d533fdef41848d682dListRuleset
 
 Instance: List-f38fd388d9d557d533fdef41848d682d
 InstanceOf: List
+Description: "ePI document List for nustendi Package Leaflets"
 
 * insert f38fd388d9d557d533fdef41848d682dListRuleset
     

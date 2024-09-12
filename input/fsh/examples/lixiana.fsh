@@ -852,6 +852,7 @@ RuleSet: f4481348d9114628b637efdc170b1539ListRuleset
 
 Instance: List-f4481348d9114628b637efdc170b1539
 InstanceOf: List
+Description: "ePI document List for lixiana Package Leaflets"
 
 * insert f4481348d9114628b637efdc170b1539ListRuleset
     

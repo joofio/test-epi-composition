@@ -2189,6 +2189,7 @@ RuleSet: 932e6264a3aeb74aa58d141481e4d197ListRuleset
 
 Instance: List-932e6264a3aeb74aa58d141481e4d197
 InstanceOf: List
+Description: "ePI document List for lyumjev Package Leaflets"
 
 * insert 932e6264a3aeb74aa58d141481e4d197ListRuleset
     

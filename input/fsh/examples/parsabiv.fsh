@@ -1213,6 +1213,7 @@ RuleSet: 25b49674d9d703c70f7cbc179ed1a337ListRuleset
 
 Instance: List-25b49674d9d703c70f7cbc179ed1a337
 InstanceOf: List
+Description: "ePI document List for parsabiv Package Leaflets"
 
 * insert 25b49674d9d703c70f7cbc179ed1a337ListRuleset
     

@@ -2118,6 +2118,7 @@ RuleSet: 2a9a5e18ea12db555fa903817024b9feListRuleset
 
 Instance: List-2a9a5e18ea12db555fa903817024b9fe
 InstanceOf: List
+Description: "ePI document List for mirapexin Package Leaflets"
 
 * insert 2a9a5e18ea12db555fa903817024b9feListRuleset
     

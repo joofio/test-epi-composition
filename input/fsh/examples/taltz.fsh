@@ -1439,6 +1439,7 @@ RuleSet: 0a52b09545f0b2e00d5c72212ca2a403ListRuleset
 
 Instance: List-0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: List
+Description: "ePI document List for taltz Package Leaflets"
 
 * insert 0a52b09545f0b2e00d5c72212ca2a403ListRuleset
     

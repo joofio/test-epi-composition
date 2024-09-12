@@ -1680,6 +1680,7 @@ RuleSet: c320b0f7ef6b0e703d9abd8eff34bf82ListRuleset
 
 Instance: List-c320b0f7ef6b0e703d9abd8eff34bf82
 InstanceOf: List
+Description: "ePI document List for trixeo Package Leaflets"
 
 * insert c320b0f7ef6b0e703d9abd8eff34bf82ListRuleset
     

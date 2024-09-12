@@ -737,6 +737,7 @@ RuleSet: ee6aef82d41445c7c0958abae70ec0dfListRuleset
 
 Instance: List-ee6aef82d41445c7c0958abae70ec0df
 InstanceOf: List
+Description: "ePI document List for repaglinide Package Leaflets"
 
 * insert ee6aef82d41445c7c0958abae70ec0dfListRuleset
     

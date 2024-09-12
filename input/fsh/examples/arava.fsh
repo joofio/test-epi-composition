@@ -1536,6 +1536,7 @@ RuleSet: fa8a8470c3a3a250549a317d0f9b36a2ListRuleset
 
 Instance: List-fa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: List
+Description: "ePI document List for arava Package Leaflets"
 
 * insert fa8a8470c3a3a250549a317d0f9b36a2ListRuleset
     

@@ -2071,6 +2071,7 @@ RuleSet: 91f303ca4d5b29f50d2776105159918aListRuleset
 
 Instance: List-91f303ca4d5b29f50d2776105159918a
 InstanceOf: List
+Description: "ePI document List for odefsey Package Leaflets"
 
 * insert 91f303ca4d5b29f50d2776105159918aListRuleset
     

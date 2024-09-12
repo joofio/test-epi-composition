@@ -1289,6 +1289,7 @@ RuleSet: fde715eb4d71a80815177e9bcc18c25eListRuleset
 
 Instance: List-fde715eb4d71a80815177e9bcc18c25e
 InstanceOf: List
+Description: "ePI document List for segluromet Package Leaflets"
 
 * insert fde715eb4d71a80815177e9bcc18c25eListRuleset
     

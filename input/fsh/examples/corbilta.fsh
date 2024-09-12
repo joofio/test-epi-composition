@@ -1752,6 +1752,7 @@ RuleSet: 16d693c68a441b92f0316a8bd5fd9c6eListRuleset
 
 Instance: List-16d693c68a441b92f0316a8bd5fd9c6e
 InstanceOf: List
+Description: "ePI document List for corbilta Package Leaflets"
 
 * insert 16d693c68a441b92f0316a8bd5fd9c6eListRuleset
     

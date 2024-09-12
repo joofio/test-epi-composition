@@ -1180,6 +1180,7 @@ RuleSet: f26848c5b2f5c977d1dab0f1db6d241eListRuleset
 
 Instance: List-f26848c5b2f5c977d1dab0f1db6d241e
 InstanceOf: List
+Description: "ePI document List for thiotepa Package Leaflets"
 
 * insert f26848c5b2f5c977d1dab0f1db6d241eListRuleset
     

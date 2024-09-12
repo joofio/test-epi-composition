@@ -2918,6 +2918,7 @@ RuleSet: a2652d1642d1c9344c422837d3b948bcListRuleset
 
 Instance: List-a2652d1642d1c9344c422837d3b948bc
 InstanceOf: List
+Description: "ePI document List for yervoy Package Leaflets"
 
 * insert a2652d1642d1c9344c422837d3b948bcListRuleset
     

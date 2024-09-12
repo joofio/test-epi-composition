@@ -1258,6 +1258,7 @@ RuleSet: e4cbd39afc9fcf037ef25af79a801130ListRuleset
 
 Instance: List-e4cbd39afc9fcf037ef25af79a801130
 InstanceOf: List
+Description: "ePI document List for hexacima Package Leaflets"
 
 * insert e4cbd39afc9fcf037ef25af79a801130ListRuleset
     

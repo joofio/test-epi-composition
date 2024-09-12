@@ -951,6 +951,7 @@ RuleSet: 390f2bf9e603dd85f443eae025f147b6ListRuleset
 
 Instance: List-390f2bf9e603dd85f443eae025f147b6
 InstanceOf: List
+Description: "ePI document List for amvuttra Package Leaflets"
 
 * insert 390f2bf9e603dd85f443eae025f147b6ListRuleset
     

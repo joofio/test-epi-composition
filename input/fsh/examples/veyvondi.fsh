@@ -1255,6 +1255,7 @@ RuleSet: a911acdcc16d3ea6bdce7272ad3df51aListRuleset
 
 Instance: List-a911acdcc16d3ea6bdce7272ad3df51a
 InstanceOf: List
+Description: "ePI document List for veyvondi Package Leaflets"
 
 * insert a911acdcc16d3ea6bdce7272ad3df51aListRuleset
     

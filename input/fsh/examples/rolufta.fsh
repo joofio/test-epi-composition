@@ -1026,6 +1026,7 @@ RuleSet: 06bb7b199fc5a315ff3aceb8ab9ff2c8ListRuleset
 
 Instance: List-06bb7b199fc5a315ff3aceb8ab9ff2c8
 InstanceOf: List
+Description: "ePI document List for rolufta Package Leaflets"
 
 * insert 06bb7b199fc5a315ff3aceb8ab9ff2c8ListRuleset
     

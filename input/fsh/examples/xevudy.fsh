@@ -847,6 +847,7 @@ RuleSet: 22dcb829aed4334e1e70ad5ac466fd85ListRuleset
 
 Instance: List-22dcb829aed4334e1e70ad5ac466fd85
 InstanceOf: List
+Description: "ePI document List for xevudy Package Leaflets"
 
 * insert 22dcb829aed4334e1e70ad5ac466fd85ListRuleset
     

@@ -1009,6 +1009,7 @@ RuleSet: 4b3bf4fa95ca1e8fab427d9644d69f2cListRuleset
 
 Instance: List-4b3bf4fa95ca1e8fab427d9644d69f2c
 InstanceOf: List
+Description: "ePI document List for pepaxti Package Leaflets"
 
 * insert 4b3bf4fa95ca1e8fab427d9644d69f2cListRuleset
     

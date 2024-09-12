@@ -1294,6 +1294,7 @@ RuleSet: c8101444f2f0d633367049eeed05567aListRuleset
 
 Instance: List-c8101444f2f0d633367049eeed05567a
 InstanceOf: List
+Description: "ePI document List for vpriv Package Leaflets"
 
 * insert c8101444f2f0d633367049eeed05567aListRuleset
     

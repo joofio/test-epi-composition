@@ -1291,6 +1291,7 @@ RuleSet: c0fc8346370db86fff94bbff1fb34a68ListRuleset
 
 Instance: List-c0fc8346370db86fff94bbff1fb34a68
 InstanceOf: List
+Description: "ePI document List for nivestim Package Leaflets"
 
 * insert c0fc8346370db86fff94bbff1fb34a68ListRuleset
     

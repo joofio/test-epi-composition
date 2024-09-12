@@ -1892,6 +1892,7 @@ RuleSet: 1c9a12a6360cb16de82a801c02ba58e9ListRuleset
 
 Instance: List-1c9a12a6360cb16de82a801c02ba58e9
 InstanceOf: List
+Description: "ePI document List for xalkori Package Leaflets"
 
 * insert 1c9a12a6360cb16de82a801c02ba58e9ListRuleset
     

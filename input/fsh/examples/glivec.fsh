@@ -1409,6 +1409,7 @@ RuleSet: 27bef6838d192de0f1fa35f67b2e5233ListRuleset
 
 Instance: List-27bef6838d192de0f1fa35f67b2e5233
 InstanceOf: List
+Description: "ePI document List for glivec Package Leaflets"
 
 * insert 27bef6838d192de0f1fa35f67b2e5233ListRuleset
     

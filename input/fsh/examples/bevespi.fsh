@@ -1024,6 +1024,7 @@ RuleSet: 66d0f8336ebe13789d32bc377e6bfe5eListRuleset
 
 Instance: List-66d0f8336ebe13789d32bc377e6bfe5e
 InstanceOf: List
+Description: "ePI document List for bevespi Package Leaflets"
 
 * insert 66d0f8336ebe13789d32bc377e6bfe5eListRuleset
     

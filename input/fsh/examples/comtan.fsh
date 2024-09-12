@@ -954,6 +954,7 @@ RuleSet: 2c4585a24a9c8e31d0f67fd3f46f50deListRuleset
 
 Instance: List-2c4585a24a9c8e31d0f67fd3f46f50de
 InstanceOf: List
+Description: "ePI document List for comtan Package Leaflets"
 
 * insert 2c4585a24a9c8e31d0f67fd3f46f50deListRuleset
     

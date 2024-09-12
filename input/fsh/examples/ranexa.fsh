@@ -927,6 +927,7 @@ RuleSet: 2128cb95d4d26d25d7fa2c3944c0ae92ListRuleset
 
 Instance: List-2128cb95d4d26d25d7fa2c3944c0ae92
 InstanceOf: List
+Description: "ePI document List for ranexa Package Leaflets"
 
 * insert 2128cb95d4d26d25d7fa2c3944c0ae92ListRuleset
     

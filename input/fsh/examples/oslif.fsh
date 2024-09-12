@@ -1731,6 +1731,7 @@ RuleSet: 69ba7123d300a992a466115b331a7218ListRuleset
 
 Instance: List-69ba7123d300a992a466115b331a7218
 InstanceOf: List
+Description: "ePI document List for oslif Package Leaflets"
 
 * insert 69ba7123d300a992a466115b331a7218ListRuleset
     

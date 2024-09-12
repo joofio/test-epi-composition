@@ -1726,6 +1726,7 @@ RuleSet: a48fce64d5ddc98dc0fe03d5edc214e9ListRuleset
 
 Instance: List-a48fce64d5ddc98dc0fe03d5edc214e9
 InstanceOf: List
+Description: "ePI document List for zejula Package Leaflets"
 
 * insert a48fce64d5ddc98dc0fe03d5edc214e9ListRuleset
     

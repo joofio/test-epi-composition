@@ -1060,6 +1060,7 @@ RuleSet: beef21509ddc33cff9d4dfa3953f39ffListRuleset
 
 Instance: List-beef21509ddc33cff9d4dfa3953f39ff
 InstanceOf: List
+Description: "ePI document List for thalidomide Package Leaflets"
 
 * insert beef21509ddc33cff9d4dfa3953f39ffListRuleset
     

@@ -958,6 +958,7 @@ RuleSet: 9f200c2b1188de65461c6911d6f9550cListRuleset
 
 Instance: List-9f200c2b1188de65461c6911d6f9550c
 InstanceOf: List
+Description: "ePI document List for silodyx Package Leaflets"
 
 * insert 9f200c2b1188de65461c6911d6f9550cListRuleset
     

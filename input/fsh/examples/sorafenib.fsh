@@ -1269,6 +1269,7 @@ RuleSet: a43f6802b7bc837851c3ee6d33acffd1ListRuleset
 
 Instance: List-a43f6802b7bc837851c3ee6d33acffd1
 InstanceOf: List
+Description: "ePI document List for sorafenib Package Leaflets"
 
 * insert a43f6802b7bc837851c3ee6d33acffd1ListRuleset
     

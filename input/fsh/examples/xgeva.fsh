@@ -991,6 +991,7 @@ RuleSet: a3592e2026cf41a77adf37691a552586ListRuleset
 
 Instance: List-a3592e2026cf41a77adf37691a552586
 InstanceOf: List
+Description: "ePI document List for xgeva Package Leaflets"
 
 * insert a3592e2026cf41a77adf37691a552586ListRuleset
     

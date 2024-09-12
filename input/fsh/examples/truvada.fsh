@@ -2380,6 +2380,7 @@ RuleSet: 6471e64aafea74720593633f2a0cd695ListRuleset
 
 Instance: List-6471e64aafea74720593633f2a0cd695
 InstanceOf: List
+Description: "ePI document List for truvada Package Leaflets"
 
 * insert 6471e64aafea74720593633f2a0cd695ListRuleset
     

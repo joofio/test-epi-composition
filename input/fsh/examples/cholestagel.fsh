@@ -723,6 +723,7 @@ RuleSet: 774fedb6c66b32bb4aacfa98a373a48fListRuleset
 
 Instance: List-774fedb6c66b32bb4aacfa98a373a48f
 InstanceOf: List
+Description: "ePI document List for cholestagel Package Leaflets"
 
 * insert 774fedb6c66b32bb4aacfa98a373a48fListRuleset
     

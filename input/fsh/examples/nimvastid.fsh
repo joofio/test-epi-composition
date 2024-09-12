@@ -1613,6 +1613,7 @@ RuleSet: bf180fec42e0c0b913e732d977364555ListRuleset
 
 Instance: List-bf180fec42e0c0b913e732d977364555
 InstanceOf: List
+Description: "ePI document List for nimvastid Package Leaflets"
 
 * insert bf180fec42e0c0b913e732d977364555ListRuleset
     

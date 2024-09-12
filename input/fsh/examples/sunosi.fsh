@@ -1206,6 +1206,7 @@ RuleSet: 4c464411361072df4cc109cbbcdd523eListRuleset
 
 Instance: List-4c464411361072df4cc109cbbcdd523e
 InstanceOf: List
+Description: "ePI document List for sunosi Package Leaflets"
 
 * insert 4c464411361072df4cc109cbbcdd523eListRuleset
     

@@ -1187,6 +1187,7 @@ RuleSet: e6fbce999498edd4c95f0774e58fd4a0ListRuleset
 
 Instance: List-e6fbce999498edd4c95f0774e58fd4a0
 InstanceOf: List
+Description: "ePI document List for voxzogo Package Leaflets"
 
 * insert e6fbce999498edd4c95f0774e58fd4a0ListRuleset
     

@@ -1799,6 +1799,7 @@ RuleSet: ff92cd53cb489e28c08e8b0937092be9ListRuleset
 
 Instance: List-ff92cd53cb489e28c08e8b0937092be9
 InstanceOf: List
+Description: "ePI document List for zavicefta Package Leaflets"
 
 * insert ff92cd53cb489e28c08e8b0937092be9ListRuleset
     

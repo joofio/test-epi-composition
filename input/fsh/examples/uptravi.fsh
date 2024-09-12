@@ -2454,6 +2454,7 @@ RuleSet: f797cc0b9b4e9335a18d81e479368f3cListRuleset
 
 Instance: List-f797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: List
+Description: "ePI document List for uptravi Package Leaflets"
 
 * insert f797cc0b9b4e9335a18d81e479368f3cListRuleset
     

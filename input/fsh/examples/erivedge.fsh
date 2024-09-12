@@ -1100,6 +1100,7 @@ RuleSet: 488e3aaf4c4053ed6d0b296da5f0f508ListRuleset
 
 Instance: List-488e3aaf4c4053ed6d0b296da5f0f508
 InstanceOf: List
+Description: "ePI document List for erivedge Package Leaflets"
 
 * insert 488e3aaf4c4053ed6d0b296da5f0f508ListRuleset
     

@@ -1424,6 +1424,7 @@ RuleSet: d318ddad4078d9629a42fcddbae8f64aListRuleset
 
 Instance: List-d318ddad4078d9629a42fcddbae8f64a
 InstanceOf: List
+Description: "ePI document List for polivy Package Leaflets"
 
 * insert d318ddad4078d9629a42fcddbae8f64aListRuleset
     

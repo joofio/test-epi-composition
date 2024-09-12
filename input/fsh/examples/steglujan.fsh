@@ -1403,6 +1403,7 @@ RuleSet: 001a1e1abfef180b40eba1bcc5ecf9faListRuleset
 
 Instance: List-001a1e1abfef180b40eba1bcc5ecf9fa
 InstanceOf: List
+Description: "ePI document List for steglujan Package Leaflets"
 
 * insert 001a1e1abfef180b40eba1bcc5ecf9faListRuleset
     

@@ -1828,6 +1828,7 @@ RuleSet: 8f36194c6cc063f159cffcece33902d5ListRuleset
 
 Instance: List-8f36194c6cc063f159cffcece33902d5
 InstanceOf: List
+Description: "ePI document List for somavert Package Leaflets"
 
 * insert 8f36194c6cc063f159cffcece33902d5ListRuleset
     

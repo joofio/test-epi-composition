@@ -1345,6 +1345,7 @@ RuleSet: 9783bb619d590edd01b19075a96dfce9ListRuleset
 
 Instance: List-9783bb619d590edd01b19075a96dfce9
 InstanceOf: List
+Description: "ePI document List for rivaroxaban Package Leaflets"
 
 * insert 9783bb619d590edd01b19075a96dfce9ListRuleset
     

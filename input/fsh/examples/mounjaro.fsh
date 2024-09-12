@@ -1801,6 +1801,7 @@ RuleSet: ef5bb2365c3e700f3696b97c07007976ListRuleset
 
 Instance: List-ef5bb2365c3e700f3696b97c07007976
 InstanceOf: List
+Description: "ePI document List for mounjaro Package Leaflets"
 
 * insert ef5bb2365c3e700f3696b97c07007976ListRuleset
     

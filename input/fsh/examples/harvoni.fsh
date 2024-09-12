@@ -1745,6 +1745,7 @@ RuleSet: 52f798a2a01bd37d07b0ffeba290b5e0ListRuleset
 
 Instance: List-52f798a2a01bd37d07b0ffeba290b5e0
 InstanceOf: List
+Description: "ePI document List for harvoni Package Leaflets"
 
 * insert 52f798a2a01bd37d07b0ffeba290b5e0ListRuleset
     

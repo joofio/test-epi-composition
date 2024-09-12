@@ -2083,6 +2083,7 @@ RuleSet: ce72f1be560e316230a31ee766305b8eListRuleset
 
 Instance: List-ce72f1be560e316230a31ee766305b8e
 InstanceOf: List
+Description: "ePI document List for tenofovir Package Leaflets"
 
 * insert ce72f1be560e316230a31ee766305b8eListRuleset
     

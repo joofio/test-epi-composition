@@ -1125,6 +1125,7 @@ RuleSet: f191079d24f65ed4b318bd51e41feaafListRuleset
 
 Instance: List-f191079d24f65ed4b318bd51e41feaaf
 InstanceOf: List
+Description: "ePI document List for phesgo Package Leaflets"
 
 * insert f191079d24f65ed4b318bd51e41feaafListRuleset
     

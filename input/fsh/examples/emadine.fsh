@@ -950,6 +950,7 @@ RuleSet: bf83463883d97743be055a0192c94a53ListRuleset
 
 Instance: List-bf83463883d97743be055a0192c94a53
 InstanceOf: List
+Description: "ePI document List for emadine Package Leaflets"
 
 * insert bf83463883d97743be055a0192c94a53ListRuleset
     

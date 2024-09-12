@@ -1054,6 +1054,7 @@ RuleSet: fe68e84ae2a5a5a43e0a98992e2c4775ListRuleset
 
 Instance: List-fe68e84ae2a5a5a43e0a98992e2c4775
 InstanceOf: List
+Description: "ePI document List for doptelet Package Leaflets"
 
 * insert fe68e84ae2a5a5a43e0a98992e2c4775ListRuleset
     

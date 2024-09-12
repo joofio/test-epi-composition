@@ -1130,6 +1130,7 @@ RuleSet: 40f1959ef0b924c372a2c6eb95894c6aListRuleset
 
 Instance: List-40f1959ef0b924c372a2c6eb95894c6a
 InstanceOf: List
+Description: "ePI document List for relvar Package Leaflets"
 
 * insert 40f1959ef0b924c372a2c6eb95894c6aListRuleset
     

@@ -2053,6 +2053,7 @@ RuleSet: d022f4fb840a33cb86a67bb1564d1bedListRuleset
 
 Instance: List-d022f4fb840a33cb86a67bb1564d1bed
 InstanceOf: List
+Description: "ePI document List for oyavas Package Leaflets"
 
 * insert d022f4fb840a33cb86a67bb1564d1bedListRuleset
     

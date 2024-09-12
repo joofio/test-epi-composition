@@ -1745,6 +1745,7 @@ RuleSet: a75d7e9d67efdcc2afd6268e67a7d0cdListRuleset
 
 Instance: List-a75d7e9d67efdcc2afd6268e67a7d0cd
 InstanceOf: List
+Description: "ePI document List for entresto Package Leaflets"
 
 * insert a75d7e9d67efdcc2afd6268e67a7d0cdListRuleset
     

@@ -1332,6 +1332,7 @@ RuleSet: 91e2d101c3ad773f6da87d4465331140ListRuleset
 
 Instance: List-91e2d101c3ad773f6da87d4465331140
 InstanceOf: List
+Description: "ePI document List for enurev Package Leaflets"
 
 * insert 91e2d101c3ad773f6da87d4465331140ListRuleset
     

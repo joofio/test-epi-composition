@@ -1114,6 +1114,7 @@ RuleSet: e1c7e2c0315603f70cbb39f05dcc6082ListRuleset
 
 Instance: List-e1c7e2c0315603f70cbb39f05dcc6082
 InstanceOf: List
+Description: "ePI document List for dexmedetomidine Package Leaflets"
 
 * insert e1c7e2c0315603f70cbb39f05dcc6082ListRuleset
     

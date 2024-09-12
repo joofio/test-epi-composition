@@ -1300,6 +1300,7 @@ RuleSet: 2be054305b85e2d13e65aa3cf1a561c0ListRuleset
 
 Instance: List-2be054305b85e2d13e65aa3cf1a561c0
 InstanceOf: List
+Description: "ePI document List for tovanor Package Leaflets"
 
 * insert 2be054305b85e2d13e65aa3cf1a561c0ListRuleset
     

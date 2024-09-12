@@ -1600,6 +1600,7 @@ RuleSet: 9dc703bc672ed093a819de38cd335ddfListRuleset
 
 Instance: List-9dc703bc672ed093a819de38cd335ddf
 InstanceOf: List
+Description: "ePI document List for aclasta Package Leaflets"
 
 * insert 9dc703bc672ed093a819de38cd335ddfListRuleset
     

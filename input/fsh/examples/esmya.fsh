@@ -742,6 +742,7 @@ RuleSet: a5f47c93f2a2eb5b88e9129e2aa9f3b9ListRuleset
 
 Instance: List-a5f47c93f2a2eb5b88e9129e2aa9f3b9
 InstanceOf: List
+Description: "ePI document List for esmya Package Leaflets"
 
 * insert a5f47c93f2a2eb5b88e9129e2aa9f3b9ListRuleset
     

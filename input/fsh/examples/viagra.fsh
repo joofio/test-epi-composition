@@ -948,6 +948,7 @@ RuleSet: 8faa7fbd6f78086e379dcef9dff9ad32ListRuleset
 
 Instance: List-8faa7fbd6f78086e379dcef9dff9ad32
 InstanceOf: List
+Description: "ePI document List for viagra Package Leaflets"
 
 * insert 8faa7fbd6f78086e379dcef9dff9ad32ListRuleset
     

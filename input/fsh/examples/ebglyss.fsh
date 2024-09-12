@@ -988,6 +988,7 @@ RuleSet: 3c57f0122132d30c2d609098965d1921ListRuleset
 
 Instance: List-3c57f0122132d30c2d609098965d1921
 InstanceOf: List
+Description: "ePI document List for ebglyss Package Leaflets"
 
 * insert 3c57f0122132d30c2d609098965d1921ListRuleset
     

@@ -1322,6 +1322,7 @@ RuleSet: c4b0ba45aee41dd9d8f44191fabb5777ListRuleset
 
 Instance: List-c4b0ba45aee41dd9d8f44191fabb5777
 InstanceOf: List
+Description: "ePI document List for zinforo Package Leaflets"
 
 * insert c4b0ba45aee41dd9d8f44191fabb5777ListRuleset
     

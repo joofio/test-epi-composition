@@ -2151,6 +2151,7 @@ RuleSet: 8ceafeb1fcccbf6af415d119af979934ListRuleset
 
 Instance: List-8ceafeb1fcccbf6af415d119af979934
 InstanceOf: List
+Description: "ePI document List for zirabev Package Leaflets"
 
 * insert 8ceafeb1fcccbf6af415d119af979934ListRuleset
     

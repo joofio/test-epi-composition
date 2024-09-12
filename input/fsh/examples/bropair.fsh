@@ -1269,6 +1269,7 @@ RuleSet: c86344d735226a69a1900045e5d0cddbListRuleset
 
 Instance: List-c86344d735226a69a1900045e5d0cddb
 InstanceOf: List
+Description: "ePI document List for bropair Package Leaflets"
 
 * insert c86344d735226a69a1900045e5d0cddbListRuleset
     

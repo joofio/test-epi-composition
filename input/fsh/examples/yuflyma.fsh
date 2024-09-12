@@ -4528,6 +4528,7 @@ RuleSet: 25519bb07426cab26500e5ad89df90b0ListRuleset
 
 Instance: List-25519bb07426cab26500e5ad89df90b0
 InstanceOf: List
+Description: "ePI document List for yuflyma Package Leaflets"
 
 * insert 25519bb07426cab26500e5ad89df90b0ListRuleset
     

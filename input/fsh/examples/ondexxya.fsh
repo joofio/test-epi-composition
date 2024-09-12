@@ -1417,6 +1417,7 @@ RuleSet: 44ebb648c2633169fc2072c9adc62d64ListRuleset
 
 Instance: List-44ebb648c2633169fc2072c9adc62d64
 InstanceOf: List
+Description: "ePI document List for ondexxya Package Leaflets"
 
 * insert 44ebb648c2633169fc2072c9adc62d64ListRuleset
     

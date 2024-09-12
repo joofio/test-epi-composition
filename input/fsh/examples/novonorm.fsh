@@ -1269,6 +1269,7 @@ RuleSet: 3d8be59753418e73dbd90a9360e898aeListRuleset
 
 Instance: List-3d8be59753418e73dbd90a9360e898ae
 InstanceOf: List
+Description: "ePI document List for novonorm Package Leaflets"
 
 * insert 3d8be59753418e73dbd90a9360e898aeListRuleset
     

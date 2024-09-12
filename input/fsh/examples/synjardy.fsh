@@ -1325,6 +1325,7 @@ RuleSet: 9f38251e073c17d25793bbd3bb27c758ListRuleset
 
 Instance: List-9f38251e073c17d25793bbd3bb27c758
 InstanceOf: List
+Description: "ePI document List for synjardy Package Leaflets"
 
 * insert 9f38251e073c17d25793bbd3bb27c758ListRuleset
     

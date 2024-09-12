@@ -629,6 +629,7 @@ RuleSet: 7f1553dfd98eb10665faba03861da449ListRuleset
 
 Instance: List-7f1553dfd98eb10665faba03861da449
 InstanceOf: List
+Description: "ePI document List for kapruvia Package Leaflets"
 
 * insert 7f1553dfd98eb10665faba03861da449ListRuleset
     

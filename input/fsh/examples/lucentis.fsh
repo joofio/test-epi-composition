@@ -1112,6 +1112,7 @@ RuleSet: 3a9654600038065be97872118fe138c0ListRuleset
 
 Instance: List-3a9654600038065be97872118fe138c0
 InstanceOf: List
+Description: "ePI document List for lucentis Package Leaflets"
 
 * insert 3a9654600038065be97872118fe138c0ListRuleset
     

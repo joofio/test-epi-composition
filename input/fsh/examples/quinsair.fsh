@@ -2360,6 +2360,7 @@ RuleSet: 8077ecb6bda7580081b9f65b63060e8aListRuleset
 
 Instance: List-8077ecb6bda7580081b9f65b63060e8a
 InstanceOf: List
+Description: "ePI document List for quinsair Package Leaflets"
 
 * insert 8077ecb6bda7580081b9f65b63060e8aListRuleset
     

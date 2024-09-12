@@ -1488,6 +1488,7 @@ RuleSet: db0f7cad6eb30c65834f70206c7c6222ListRuleset
 
 Instance: List-db0f7cad6eb30c65834f70206c7c6222
 InstanceOf: List
+Description: "ePI document List for zomarist Package Leaflets"
 
 * insert db0f7cad6eb30c65834f70206c7c6222ListRuleset
     

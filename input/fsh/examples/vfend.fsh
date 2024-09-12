@@ -2126,6 +2126,7 @@ RuleSet: 74e50e4505c090a88581d2832252680cListRuleset
 
 Instance: List-74e50e4505c090a88581d2832252680c
 InstanceOf: List
+Description: "ePI document List for vfend Package Leaflets"
 
 * insert 74e50e4505c090a88581d2832252680cListRuleset
     

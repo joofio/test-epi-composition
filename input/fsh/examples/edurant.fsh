@@ -1542,6 +1542,7 @@ RuleSet: 9601a69cc77fa33a3d0e2e4ba9d747e9ListRuleset
 
 Instance: List-9601a69cc77fa33a3d0e2e4ba9d747e9
 InstanceOf: List
+Description: "ePI document List for edurant Package Leaflets"
 
 * insert 9601a69cc77fa33a3d0e2e4ba9d747e9ListRuleset
     

@@ -915,6 +915,7 @@ RuleSet: 2551c286e23d3921dbfab879452cee74ListRuleset
 
 Instance: List-2551c286e23d3921dbfab879452cee74
 InstanceOf: List
+Description: "ePI document List for fluad Package Leaflets"
 
 * insert 2551c286e23d3921dbfab879452cee74ListRuleset
     

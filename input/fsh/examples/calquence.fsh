@@ -1441,6 +1441,7 @@ RuleSet: 515ad355eee6410eab8e10f3744bb3f9ListRuleset
 
 Instance: List-515ad355eee6410eab8e10f3744bb3f9
 InstanceOf: List
+Description: "ePI document List for calquence Package Leaflets"
 
 * insert 515ad355eee6410eab8e10f3744bb3f9ListRuleset
     

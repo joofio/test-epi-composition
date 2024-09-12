@@ -1187,6 +1187,7 @@ RuleSet: c9badf491db3dae4a0c364bdfb2e49d3ListRuleset
 
 Instance: List-c9badf491db3dae4a0c364bdfb2e49d3
 InstanceOf: List
+Description: "ePI document List for mvabea Package Leaflets"
 
 * insert c9badf491db3dae4a0c364bdfb2e49d3ListRuleset
     

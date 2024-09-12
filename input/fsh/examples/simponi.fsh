@@ -2455,6 +2455,7 @@ RuleSet: d2d145b277f24456eda5f7dbaa40b7cfListRuleset
 
 Instance: List-d2d145b277f24456eda5f7dbaa40b7cf
 InstanceOf: List
+Description: "ePI document List for simponi Package Leaflets"
 
 * insert d2d145b277f24456eda5f7dbaa40b7cfListRuleset
     

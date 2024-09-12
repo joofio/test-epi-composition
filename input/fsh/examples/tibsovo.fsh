@@ -1877,6 +1877,7 @@ RuleSet: 987aff669508e9ccbe676197e17e96d0ListRuleset
 
 Instance: List-987aff669508e9ccbe676197e17e96d0
 InstanceOf: List
+Description: "ePI document List for tibsovo Package Leaflets"
 
 * insert 987aff669508e9ccbe676197e17e96d0ListRuleset
     

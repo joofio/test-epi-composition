@@ -873,6 +873,7 @@ RuleSet: 095ad71337cf86d5fe21eb3ee2e24f22ListRuleset
 
 Instance: List-095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: List
+Description: "ePI document List for bylvay Package Leaflets"
 
 * insert 095ad71337cf86d5fe21eb3ee2e24f22ListRuleset
     

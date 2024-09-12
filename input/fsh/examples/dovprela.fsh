@@ -1245,6 +1245,7 @@ RuleSet: fa9d30a0cae60aa39e101b95ccee3379ListRuleset
 
 Instance: List-fa9d30a0cae60aa39e101b95ccee3379
 InstanceOf: List
+Description: "ePI document List for dovprela Package Leaflets"
 
 * insert fa9d30a0cae60aa39e101b95ccee3379ListRuleset
     

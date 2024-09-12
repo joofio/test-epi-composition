@@ -1695,6 +1695,7 @@ RuleSet: edc4bfe9d05712290f3c5ca9354f5cc8ListRuleset
 
 Instance: List-edc4bfe9d05712290f3c5ca9354f5cc8
 InstanceOf: List
+Description: "ePI document List for velmetia Package Leaflets"
 
 * insert edc4bfe9d05712290f3c5ca9354f5cc8ListRuleset
     

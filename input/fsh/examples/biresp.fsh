@@ -2285,6 +2285,7 @@ RuleSet: 581794a330b2afc7f7af3badc000c4a2ListRuleset
 
 Instance: List-581794a330b2afc7f7af3badc000c4a2
 InstanceOf: List
+Description: "ePI document List for biresp Package Leaflets"
 
 * insert 581794a330b2afc7f7af3badc000c4a2ListRuleset
     

@@ -2322,6 +2322,7 @@ RuleSet: 2a5703f6da594e7a35f6df08af026e1eListRuleset
 
 Instance: List-2a5703f6da594e7a35f6df08af026e1e
 InstanceOf: List
+Description: "ePI document List for palforzia Package Leaflets"
 
 * insert 2a5703f6da594e7a35f6df08af026e1eListRuleset
     

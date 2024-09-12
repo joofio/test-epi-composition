@@ -2092,6 +2092,7 @@ RuleSet: 542b66b905705c6df098d31fe81d888dListRuleset
 
 Instance: List-542b66b905705c6df098d31fe81d888d
 InstanceOf: List
+Description: "ePI document List for silapo Package Leaflets"
 
 * insert 542b66b905705c6df098d31fe81d888dListRuleset
     

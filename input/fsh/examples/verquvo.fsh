@@ -769,6 +769,7 @@ RuleSet: 866524cdcbf3627a203df3c620ecce50ListRuleset
 
 Instance: List-866524cdcbf3627a203df3c620ecce50
 InstanceOf: List
+Description: "ePI document List for verquvo Package Leaflets"
 
 * insert 866524cdcbf3627a203df3c620ecce50ListRuleset
     

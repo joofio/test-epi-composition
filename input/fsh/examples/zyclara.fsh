@@ -1137,6 +1137,7 @@ RuleSet: 44ab08ec2fd441510cd1e000dae630ceListRuleset
 
 Instance: List-44ab08ec2fd441510cd1e000dae630ce
 InstanceOf: List
+Description: "ePI document List for zyclara Package Leaflets"
 
 * insert 44ab08ec2fd441510cd1e000dae630ceListRuleset
     

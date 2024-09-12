@@ -1188,6 +1188,7 @@ RuleSet: 254ed8c6858caff8d17a5336a579da36ListRuleset
 
 Instance: List-254ed8c6858caff8d17a5336a579da36
 InstanceOf: List
+Description: "ePI document List for rapamune Package Leaflets"
 
 * insert 254ed8c6858caff8d17a5336a579da36ListRuleset
     

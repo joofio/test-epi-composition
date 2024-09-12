@@ -1193,6 +1193,7 @@ RuleSet: 49f2652f369e152b2094223d335e67b9ListRuleset
 
 Instance: List-49f2652f369e152b2094223d335e67b9
 InstanceOf: List
+Description: "ePI document List for xofluza Package Leaflets"
 
 * insert 49f2652f369e152b2094223d335e67b9ListRuleset
     

@@ -1181,6 +1181,7 @@ RuleSet: 98293235ce75cd341e491c62f161e333ListRuleset
 
 Instance: List-98293235ce75cd341e491c62f161e333
 InstanceOf: List
+Description: "ePI document List for tyverb Package Leaflets"
 
 * insert 98293235ce75cd341e491c62f161e333ListRuleset
     

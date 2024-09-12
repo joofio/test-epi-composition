@@ -1229,6 +1229,7 @@ RuleSet: da4c6f018e7fdae8608352111569c24bListRuleset
 
 Instance: List-da4c6f018e7fdae8608352111569c24b
 InstanceOf: List
+Description: "ePI document List for ovitrelle Package Leaflets"
 
 * insert da4c6f018e7fdae8608352111569c24bListRuleset
     

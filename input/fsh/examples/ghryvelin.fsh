@@ -799,6 +799,7 @@ RuleSet: c94566dbffd326c95bc4d8ce17a5489aListRuleset
 
 Instance: List-c94566dbffd326c95bc4d8ce17a5489a
 InstanceOf: List
+Description: "ePI document List for ghryvelin Package Leaflets"
 
 * insert c94566dbffd326c95bc4d8ce17a5489aListRuleset
     

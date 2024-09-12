@@ -1347,6 +1347,7 @@ RuleSet: d702c645ce8960ab36c7968fd9f89bfcListRuleset
 
 Instance: List-d702c645ce8960ab36c7968fd9f89bfc
 InstanceOf: List
+Description: "ePI document List for enrylaze Package Leaflets"
 
 * insert d702c645ce8960ab36c7968fd9f89bfcListRuleset
     

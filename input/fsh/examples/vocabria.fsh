@@ -1414,6 +1414,7 @@ RuleSet: 1e7f57f62efba41459076aa92d00da1aListRuleset
 
 Instance: List-1e7f57f62efba41459076aa92d00da1a
 InstanceOf: List
+Description: "ePI document List for vocabria Package Leaflets"
 
 * insert 1e7f57f62efba41459076aa92d00da1aListRuleset
     

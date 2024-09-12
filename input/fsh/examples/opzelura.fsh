@@ -836,6 +836,7 @@ RuleSet: 5f2f3f0c1c43271a861dd5210ff699a4ListRuleset
 
 Instance: List-5f2f3f0c1c43271a861dd5210ff699a4
 InstanceOf: List
+Description: "ePI document List for opzelura Package Leaflets"
 
 * insert 5f2f3f0c1c43271a861dd5210ff699a4ListRuleset
     

@@ -1674,6 +1674,7 @@ RuleSet: 29c0f14d298ca5f6a2e50f72e58ec9cfListRuleset
 
 Instance: List-29c0f14d298ca5f6a2e50f72e58ec9cf
 InstanceOf: List
+Description: "ePI document List for twynsta Package Leaflets"
 
 * insert 29c0f14d298ca5f6a2e50f72e58ec9cfListRuleset
     

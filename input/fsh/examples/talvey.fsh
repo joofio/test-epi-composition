@@ -1459,6 +1459,7 @@ RuleSet: f69e07644f479bf7649f8c501a410e55ListRuleset
 
 Instance: List-f69e07644f479bf7649f8c501a410e55
 InstanceOf: List
+Description: "ePI document List for talvey Package Leaflets"
 
 * insert f69e07644f479bf7649f8c501a410e55ListRuleset
     

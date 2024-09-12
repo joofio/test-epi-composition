@@ -1807,6 +1807,7 @@ RuleSet: 2e5fc8a9ad9427a49a8dfdfc9d19d676ListRuleset
 
 Instance: List-2e5fc8a9ad9427a49a8dfdfc9d19d676
 InstanceOf: List
+Description: "ePI document List for posaconazole Package Leaflets"
 
 * insert 2e5fc8a9ad9427a49a8dfdfc9d19d676ListRuleset
     

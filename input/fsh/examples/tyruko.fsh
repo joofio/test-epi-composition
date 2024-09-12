@@ -1193,6 +1193,7 @@ RuleSet: 47051919a8e9d48444ba2eb642a73065ListRuleset
 
 Instance: List-47051919a8e9d48444ba2eb642a73065
 InstanceOf: List
+Description: "ePI document List for tyruko Package Leaflets"
 
 * insert 47051919a8e9d48444ba2eb642a73065ListRuleset
     

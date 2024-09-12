@@ -1141,6 +1141,7 @@ RuleSet: 8e61b46541cd782d75f47b06ddfea02fListRuleset
 
 Instance: List-8e61b46541cd782d75f47b06ddfea02f
 InstanceOf: List
+Description: "ePI document List for grastofil Package Leaflets"
 
 * insert 8e61b46541cd782d75f47b06ddfea02fListRuleset
     

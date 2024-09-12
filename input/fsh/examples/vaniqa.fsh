@@ -1045,6 +1045,7 @@ RuleSet: 6054fe37439ac8bd57061a7fc8bca219ListRuleset
 
 Instance: List-6054fe37439ac8bd57061a7fc8bca219
 InstanceOf: List
+Description: "ePI document List for vaniqa Package Leaflets"
 
 * insert 6054fe37439ac8bd57061a7fc8bca219ListRuleset
     

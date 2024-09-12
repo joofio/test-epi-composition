@@ -1274,6 +1274,7 @@ RuleSet: 8e3bfdaa73d1dfe2a558d763f021c01eListRuleset
 
 Instance: List-8e3bfdaa73d1dfe2a558d763f021c01e
 InstanceOf: List
+Description: "ePI document List for tepkinly Package Leaflets"
 
 * insert 8e3bfdaa73d1dfe2a558d763f021c01eListRuleset
     

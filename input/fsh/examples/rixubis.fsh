@@ -1563,6 +1563,7 @@ RuleSet: efe0db2f668263967f135ff38dffab9dListRuleset
 
 Instance: List-efe0db2f668263967f135ff38dffab9d
 InstanceOf: List
+Description: "ePI document List for rixubis Package Leaflets"
 
 * insert efe0db2f668263967f135ff38dffab9dListRuleset
     

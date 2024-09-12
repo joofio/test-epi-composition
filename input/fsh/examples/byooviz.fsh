@@ -938,6 +938,7 @@ RuleSet: b4d9b93668736e17b1df580d2cd21bf6ListRuleset
 
 Instance: List-b4d9b93668736e17b1df580d2cd21bf6
 InstanceOf: List
+Description: "ePI document List for byooviz Package Leaflets"
 
 * insert b4d9b93668736e17b1df580d2cd21bf6ListRuleset
     

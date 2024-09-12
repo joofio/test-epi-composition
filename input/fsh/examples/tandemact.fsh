@@ -1321,6 +1321,7 @@ RuleSet: bef5164082ea0e74f1594414cc1788abListRuleset
 
 Instance: List-bef5164082ea0e74f1594414cc1788ab
 InstanceOf: List
+Description: "ePI document List for tandemact Package Leaflets"
 
 * insert bef5164082ea0e74f1594414cc1788abListRuleset
     

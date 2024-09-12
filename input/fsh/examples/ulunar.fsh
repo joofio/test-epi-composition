@@ -1207,6 +1207,7 @@ RuleSet: be9db91b2fc9e7875c1d16b059d2f7e5ListRuleset
 
 Instance: List-be9db91b2fc9e7875c1d16b059d2f7e5
 InstanceOf: List
+Description: "ePI document List for ulunar Package Leaflets"
 
 * insert be9db91b2fc9e7875c1d16b059d2f7e5ListRuleset
     

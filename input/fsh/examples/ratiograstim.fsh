@@ -1202,6 +1202,7 @@ RuleSet: 53638a22b9c3baf68ce45da859e1bb4bListRuleset
 
 Instance: List-53638a22b9c3baf68ce45da859e1bb4b
 InstanceOf: List
+Description: "ePI document List for ratiograstim Package Leaflets"
 
 * insert 53638a22b9c3baf68ce45da859e1bb4bListRuleset
     

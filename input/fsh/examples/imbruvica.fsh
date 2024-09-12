@@ -1233,6 +1233,7 @@ RuleSet: edd8370352554e19efb5ccd7f477212dListRuleset
 
 Instance: List-edd8370352554e19efb5ccd7f477212d
 InstanceOf: List
+Description: "ePI document List for imbruvica Package Leaflets"
 
 * insert edd8370352554e19efb5ccd7f477212dListRuleset
     

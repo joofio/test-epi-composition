@@ -1326,6 +1326,7 @@ RuleSet: d0b40c63b26d00d8cd281b17148dcf97ListRuleset
 
 Instance: List-d0b40c63b26d00d8cd281b17148dcf97
 InstanceOf: List
+Description: "ePI document List for vipidia Package Leaflets"
 
 * insert d0b40c63b26d00d8cd281b17148dcf97ListRuleset
     

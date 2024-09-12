@@ -1595,6 +1595,7 @@ RuleSet: 5acfed2f2c9cf41e7e877414a9fe07a2ListRuleset
 
 Instance: List-5acfed2f2c9cf41e7e877414a9fe07a2
 InstanceOf: List
+Description: "ePI document List for forxiga Package Leaflets"
 
 * insert 5acfed2f2c9cf41e7e877414a9fe07a2ListRuleset
     

@@ -1890,6 +1890,7 @@ RuleSet: 26b20b6a67265be2cf1102bb12c87943ListRuleset
 
 Instance: List-26b20b6a67265be2cf1102bb12c87943
 InstanceOf: List
+Description: "ePI document List for matever Package Leaflets"
 
 * insert 26b20b6a67265be2cf1102bb12c87943ListRuleset
     

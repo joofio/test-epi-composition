@@ -826,6 +826,7 @@ RuleSet: 6f21bde7c462d7396cfc7185d72d2377ListRuleset
 
 Instance: List-6f21bde7c462d7396cfc7185d72d2377
 InstanceOf: List
+Description: "ePI document List for locametz Package Leaflets"
 
 * insert 6f21bde7c462d7396cfc7185d72d2377ListRuleset
     

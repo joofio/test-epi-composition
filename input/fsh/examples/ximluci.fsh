@@ -1621,6 +1621,7 @@ RuleSet: 11587ff1554abe28faf73fc5e54ae7a8ListRuleset
 
 Instance: List-11587ff1554abe28faf73fc5e54ae7a8
 InstanceOf: List
+Description: "ePI document List for ximluci Package Leaflets"
 
 * insert 11587ff1554abe28faf73fc5e54ae7a8ListRuleset
     

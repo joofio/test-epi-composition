@@ -1603,6 +1603,7 @@ RuleSet: 1a4d7d0936b560f6ab01480d49118287ListRuleset
 
 Instance: List-1a4d7d0936b560f6ab01480d49118287
 InstanceOf: List
+Description: "ePI document List for vaborem Package Leaflets"
 
 * insert 1a4d7d0936b560f6ab01480d49118287ListRuleset
     

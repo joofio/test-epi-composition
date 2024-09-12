@@ -1944,6 +1944,7 @@ RuleSet: 2d5ce8dc4824b4100ae659aba75ae904ListRuleset
 
 Instance: List-2d5ce8dc4824b4100ae659aba75ae904
 InstanceOf: List
+Description: "ePI document List for cablivi Package Leaflets"
 
 * insert 2d5ce8dc4824b4100ae659aba75ae904ListRuleset
     

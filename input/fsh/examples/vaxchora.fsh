@@ -928,6 +928,7 @@ RuleSet: 6ae111423490277c4fbffcad4c0c9c2cListRuleset
 
 Instance: List-6ae111423490277c4fbffcad4c0c9c2c
 InstanceOf: List
+Description: "ePI document List for vaxchora Package Leaflets"
 
 * insert 6ae111423490277c4fbffcad4c0c9c2cListRuleset
     

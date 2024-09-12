@@ -1328,6 +1328,7 @@ RuleSet: 2889785717c749fb4c4dfcfcfd9ca297ListRuleset
 
 Instance: List-2889785717c749fb4c4dfcfcfd9ca297
 InstanceOf: List
+Description: "ePI document List for advagraf Package Leaflets"
 
 * insert 2889785717c749fb4c4dfcfcfd9ca297ListRuleset
     

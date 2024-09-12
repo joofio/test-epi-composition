@@ -1296,6 +1296,7 @@ RuleSet: 5b6e393c6403bed8aaf028ca7b1d8cd4ListRuleset
 
 Instance: List-5b6e393c6403bed8aaf028ca7b1d8cd4
 InstanceOf: List
+Description: "ePI document List for marixino Package Leaflets"
 
 * insert 5b6e393c6403bed8aaf028ca7b1d8cd4ListRuleset
     

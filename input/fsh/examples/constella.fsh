@@ -1295,6 +1295,7 @@ RuleSet: 7504582d8c4f390424d8e4bfcd82fbaeListRuleset
 
 Instance: List-7504582d8c4f390424d8e4bfcd82fbae
 InstanceOf: List
+Description: "ePI document List for constella Package Leaflets"
 
 * insert 7504582d8c4f390424d8e4bfcd82fbaeListRuleset
     

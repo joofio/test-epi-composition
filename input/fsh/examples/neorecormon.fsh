@@ -1424,6 +1424,7 @@ RuleSet: b49a3ab45641cdaf6bd8a0f7bc20385dListRuleset
 
 Instance: List-b49a3ab45641cdaf6bd8a0f7bc20385d
 InstanceOf: List
+Description: "ePI document List for neorecormon Package Leaflets"
 
 * insert b49a3ab45641cdaf6bd8a0f7bc20385dListRuleset
     

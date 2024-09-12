@@ -945,6 +945,7 @@ RuleSet: f819453f37e8574dc396f13201d03208ListRuleset
 
 Instance: List-f819453f37e8574dc396f13201d03208
 InstanceOf: List
+Description: "ePI document List for vyvgart Package Leaflets"
 
 * insert f819453f37e8574dc396f13201d03208ListRuleset
     

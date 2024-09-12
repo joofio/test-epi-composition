@@ -1357,6 +1357,7 @@ RuleSet: 274e38fd037e90bae4b20ed78bb2e359ListRuleset
 
 Instance: List-274e38fd037e90bae4b20ed78bb2e359
 InstanceOf: List
+Description: "ePI document List for skytrofa Package Leaflets"
 
 * insert 274e38fd037e90bae4b20ed78bb2e359ListRuleset
     

@@ -1732,6 +1732,7 @@ RuleSet: db55bd922aa6d7007a8fefbeb8bc2264ListRuleset
 
 Instance: List-db55bd922aa6d7007a8fefbeb8bc2264
 InstanceOf: List
+Description: "ePI document List for gavreto Package Leaflets"
 
 * insert db55bd922aa6d7007a8fefbeb8bc2264ListRuleset
     

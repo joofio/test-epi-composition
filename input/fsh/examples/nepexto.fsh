@@ -2092,6 +2092,7 @@ RuleSet: 5f1d2d45d01481d24ca0912f037c6116ListRuleset
 
 Instance: List-5f1d2d45d01481d24ca0912f037c6116
 InstanceOf: List
+Description: "ePI document List for nepexto Package Leaflets"
 
 * insert 5f1d2d45d01481d24ca0912f037c6116ListRuleset
     

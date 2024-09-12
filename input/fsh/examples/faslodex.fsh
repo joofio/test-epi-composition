@@ -1345,6 +1345,7 @@ RuleSet: 1f037c7eeed99a83d34b7e97df29f3bfListRuleset
 
 Instance: List-1f037c7eeed99a83d34b7e97df29f3bf
 InstanceOf: List
+Description: "ePI document List for faslodex Package Leaflets"
 
 * insert 1f037c7eeed99a83d34b7e97df29f3bfListRuleset
     

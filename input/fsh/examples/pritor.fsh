@@ -945,6 +945,7 @@ RuleSet: ef91ef40532d0dce19c71878e7b8816bListRuleset
 
 Instance: List-ef91ef40532d0dce19c71878e7b8816b
 InstanceOf: List
+Description: "ePI document List for pritor Package Leaflets"
 
 * insert ef91ef40532d0dce19c71878e7b8816bListRuleset
     

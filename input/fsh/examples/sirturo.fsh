@@ -1516,6 +1516,7 @@ RuleSet: a0f24920a40b1c73ed1d880ba04e208eListRuleset
 
 Instance: List-a0f24920a40b1c73ed1d880ba04e208e
 InstanceOf: List
+Description: "ePI document List for sirturo Package Leaflets"
 
 * insert a0f24920a40b1c73ed1d880ba04e208eListRuleset
     

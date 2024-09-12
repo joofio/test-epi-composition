@@ -1374,6 +1374,7 @@ RuleSet: b565284a99d14ce765da70a99bc090d0ListRuleset
 
 Instance: List-b565284a99d14ce765da70a99bc090d0
 InstanceOf: List
+Description: "ePI document List for votrient Package Leaflets"
 
 * insert b565284a99d14ce765da70a99bc090d0ListRuleset
     

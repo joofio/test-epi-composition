@@ -1312,6 +1312,7 @@ RuleSet: c9326f0c06c08c17104ae87ab98b71aeListRuleset
 
 Instance: List-c9326f0c06c08c17104ae87ab98b71ae
 InstanceOf: List
+Description: "ePI document List for tysabri Package Leaflets"
 
 * insert c9326f0c06c08c17104ae87ab98b71aeListRuleset
     

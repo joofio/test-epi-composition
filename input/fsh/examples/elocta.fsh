@@ -796,6 +796,7 @@ RuleSet: dac9f5296bbae6c42cca031529e9fd3cListRuleset
 
 Instance: List-dac9f5296bbae6c42cca031529e9fd3c
 InstanceOf: List
+Description: "ePI document List for elocta Package Leaflets"
 
 * insert dac9f5296bbae6c42cca031529e9fd3cListRuleset
     

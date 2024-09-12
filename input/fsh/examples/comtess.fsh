@@ -1344,6 +1344,7 @@ RuleSet: faa7baf422434e913a351146a7b6b220ListRuleset
 
 Instance: List-faa7baf422434e913a351146a7b6b220
 InstanceOf: List
+Description: "ePI document List for comtess Package Leaflets"
 
 * insert faa7baf422434e913a351146a7b6b220ListRuleset
     

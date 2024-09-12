@@ -1888,6 +1888,7 @@ RuleSet: e0ec42c68686885cc176ad73b71e1d80ListRuleset
 
 Instance: List-e0ec42c68686885cc176ad73b71e1d80
 InstanceOf: List
+Description: "ePI document List for rivastigmine Package Leaflets"
 
 * insert e0ec42c68686885cc176ad73b71e1d80ListRuleset
     

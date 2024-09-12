@@ -740,6 +740,7 @@ RuleSet: 9a837e87c0c475b218e0535edae8bbadListRuleset
 
 Instance: List-9a837e87c0c475b218e0535edae8bbad
 InstanceOf: List
+Description: "ePI document List for klisyri Package Leaflets"
 
 * insert 9a837e87c0c475b218e0535edae8bbadListRuleset
     

@@ -1613,6 +1613,7 @@ RuleSet: 9ef90a3b084c8b791046c3e0616188b5ListRuleset
 
 Instance: List-9ef90a3b084c8b791046c3e0616188b5
 InstanceOf: List
+Description: "ePI document List for sprycel Package Leaflets"
 
 * insert 9ef90a3b084c8b791046c3e0616188b5ListRuleset
     

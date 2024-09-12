@@ -1180,6 +1180,7 @@ RuleSet: 9291fddf7fee8d0f0e396206f1f18b06ListRuleset
 
 Instance: List-9291fddf7fee8d0f0e396206f1f18b06
 InstanceOf: List
+Description: "ePI document List for ninlaro Package Leaflets"
 
 * insert 9291fddf7fee8d0f0e396206f1f18b06ListRuleset
     

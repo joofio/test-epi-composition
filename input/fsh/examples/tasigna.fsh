@@ -2299,6 +2299,7 @@ RuleSet: 7f2ab73e6ec5569c0d6e8f4a6e01c023ListRuleset
 
 Instance: List-7f2ab73e6ec5569c0d6e8f4a6e01c023
 InstanceOf: List
+Description: "ePI document List for tasigna Package Leaflets"
 
 * insert 7f2ab73e6ec5569c0d6e8f4a6e01c023ListRuleset
     

@@ -830,6 +830,7 @@ RuleSet: cef8236d2ba001c606577d8a44188d3eListRuleset
 
 Instance: List-cef8236d2ba001c606577d8a44188d3e
 InstanceOf: List
+Description: "ePI document List for conbriza Package Leaflets"
 
 * insert cef8236d2ba001c606577d8a44188d3eListRuleset
     

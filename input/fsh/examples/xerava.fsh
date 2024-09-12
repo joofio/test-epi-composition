@@ -1355,6 +1355,7 @@ RuleSet: b6aaef38fe85ec54174ec8e0149fcca6ListRuleset
 
 Instance: List-b6aaef38fe85ec54174ec8e0149fcca6
 InstanceOf: List
+Description: "ePI document List for xerava Package Leaflets"
 
 * insert b6aaef38fe85ec54174ec8e0149fcca6ListRuleset
     

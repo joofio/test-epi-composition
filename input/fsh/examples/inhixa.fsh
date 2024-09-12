@@ -1809,6 +1809,7 @@ RuleSet: 79dc8b8b960a53a63fbf50f504aeec5fListRuleset
 
 Instance: List-79dc8b8b960a53a63fbf50f504aeec5f
 InstanceOf: List
+Description: "ePI document List for inhixa Package Leaflets"
 
 * insert 79dc8b8b960a53a63fbf50f504aeec5fListRuleset
     

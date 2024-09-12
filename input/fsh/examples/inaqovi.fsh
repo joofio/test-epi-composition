@@ -908,6 +908,7 @@ RuleSet: ed180dab6ee7a8f7affa18a1651de7e9ListRuleset
 
 Instance: List-ed180dab6ee7a8f7affa18a1651de7e9
 InstanceOf: List
+Description: "ePI document List for inaqovi Package Leaflets"
 
 * insert ed180dab6ee7a8f7affa18a1651de7e9ListRuleset
     

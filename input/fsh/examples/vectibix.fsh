@@ -1569,6 +1569,7 @@ RuleSet: fa1d1dbf5b18ae3c108f87c843db6e2fListRuleset
 
 Instance: List-fa1d1dbf5b18ae3c108f87c843db6e2f
 InstanceOf: List
+Description: "ePI document List for vectibix Package Leaflets"
 
 * insert fa1d1dbf5b18ae3c108f87c843db6e2fListRuleset
     

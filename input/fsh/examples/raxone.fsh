@@ -1212,6 +1212,7 @@ RuleSet: 9a5ac6d518a24ab2e0257a8b57ce793bListRuleset
 
 Instance: List-9a5ac6d518a24ab2e0257a8b57ce793b
 InstanceOf: List
+Description: "ePI document List for raxone Package Leaflets"
 
 * insert 9a5ac6d518a24ab2e0257a8b57ce793bListRuleset
     

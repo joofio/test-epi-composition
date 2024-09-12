@@ -997,6 +997,7 @@ RuleSet: 155f96d6fa2a1acb6bbe985e5b890f92ListRuleset
 
 Instance: List-155f96d6fa2a1acb6bbe985e5b890f92
 InstanceOf: List
+Description: "ePI document List for carvykti Package Leaflets"
 
 * insert 155f96d6fa2a1acb6bbe985e5b890f92ListRuleset
     

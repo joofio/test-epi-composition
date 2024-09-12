@@ -1191,6 +1191,7 @@ RuleSet: 524ff85a84e081511904d5b0500b5714ListRuleset
 
 Instance: List-524ff85a84e081511904d5b0500b5714
 InstanceOf: List
+Description: "ePI document List for tolucombi Package Leaflets"
 
 * insert 524ff85a84e081511904d5b0500b5714ListRuleset
     

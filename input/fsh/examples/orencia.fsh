@@ -1102,6 +1102,7 @@ RuleSet: 238717ba3673c75eaeb58348d507d1fcListRuleset
 
 Instance: List-238717ba3673c75eaeb58348d507d1fc
 InstanceOf: List
+Description: "ePI document List for orencia Package Leaflets"
 
 * insert 238717ba3673c75eaeb58348d507d1fcListRuleset
     

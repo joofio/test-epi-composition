@@ -1775,6 +1775,7 @@ RuleSet: 5e413a0f6e2a52f2ac02e5e2b260ebdfListRuleset
 
 Instance: List-5e413a0f6e2a52f2ac02e5e2b260ebdf
 InstanceOf: List
+Description: "ePI document List for intelence Package Leaflets"
 
 * insert 5e413a0f6e2a52f2ac02e5e2b260ebdfListRuleset
     

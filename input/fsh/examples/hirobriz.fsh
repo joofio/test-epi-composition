@@ -1728,6 +1728,7 @@ RuleSet: 622a07d3e5a04e7612a8bd99c6c58083ListRuleset
 
 Instance: List-622a07d3e5a04e7612a8bd99c6c58083
 InstanceOf: List
+Description: "ePI document List for hirobriz Package Leaflets"
 
 * insert 622a07d3e5a04e7612a8bd99c6c58083ListRuleset
     

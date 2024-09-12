@@ -1510,6 +1510,7 @@ RuleSet: 496dabc84021ffaf219deb764d02458dListRuleset
 
 Instance: List-496dabc84021ffaf219deb764d02458d
 InstanceOf: List
+Description: "ePI document List for riximyo Package Leaflets"
 
 * insert 496dabc84021ffaf219deb764d02458dListRuleset
     

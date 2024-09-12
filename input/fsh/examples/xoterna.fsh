@@ -1713,6 +1713,7 @@ RuleSet: 3b71bf691692fb082e86656309cb3d56ListRuleset
 
 Instance: List-3b71bf691692fb082e86656309cb3d56
 InstanceOf: List
+Description: "ePI document List for xoterna Package Leaflets"
 
 * insert 3b71bf691692fb082e86656309cb3d56ListRuleset
     

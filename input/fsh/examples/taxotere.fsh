@@ -1850,6 +1850,7 @@ RuleSet: ba2de541591622fcd614de6be8043458ListRuleset
 
 Instance: List-ba2de541591622fcd614de6be8043458
 InstanceOf: List
+Description: "ePI document List for taxotere Package Leaflets"
 
 * insert ba2de541591622fcd614de6be8043458ListRuleset
     

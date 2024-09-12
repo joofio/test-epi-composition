@@ -2639,6 +2639,7 @@ RuleSet: 65f18cefcd0fd99147e2e0a1f92724f0ListRuleset
 
 Instance: List-65f18cefcd0fd99147e2e0a1f92724f0
 InstanceOf: List
+Description: "ePI document List for efavirenzemtricitabinetenofovir Package Leaflets"
 
 * insert 65f18cefcd0fd99147e2e0a1f92724f0ListRuleset
     

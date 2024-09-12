@@ -1683,6 +1683,7 @@ RuleSet: 4ebd45ede513ed024b967ea8c9e55dabListRuleset
 
 Instance: List-4ebd45ede513ed024b967ea8c9e55dab
 InstanceOf: List
+Description: "ePI document List for rukobia Package Leaflets"
 
 * insert 4ebd45ede513ed024b967ea8c9e55dabListRuleset
     

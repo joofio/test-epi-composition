@@ -2005,6 +2005,7 @@ RuleSet: 53644ac8be35bb2e5f6359de25449b5dListRuleset
 
 Instance: List-53644ac8be35bb2e5f6359de25449b5d
 InstanceOf: List
+Description: "ePI document List for aranesp Package Leaflets"
 
 * insert 53644ac8be35bb2e5f6359de25449b5dListRuleset
     

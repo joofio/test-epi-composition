@@ -1173,6 +1173,7 @@ RuleSet: 0c9b965fc8d8b37db9d00845bddc1040ListRuleset
 
 Instance: List-0c9b965fc8d8b37db9d00845bddc1040
 InstanceOf: List
+Description: "ePI document List for liprolog Package Leaflets"
 
 * insert 0c9b965fc8d8b37db9d00845bddc1040ListRuleset
     

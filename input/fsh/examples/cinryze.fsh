@@ -1203,6 +1203,7 @@ RuleSet: 117ee803a8e1cf06b103ca0933d5bdf2ListRuleset
 
 Instance: List-117ee803a8e1cf06b103ca0933d5bdf2
 InstanceOf: List
+Description: "ePI document List for cinryze Package Leaflets"
 
 * insert 117ee803a8e1cf06b103ca0933d5bdf2ListRuleset
     

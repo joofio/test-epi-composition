@@ -1779,6 +1779,7 @@ RuleSet: 244f0d5975a83ec03b917d6f24b1b649ListRuleset
 
 Instance: List-244f0d5975a83ec03b917d6f24b1b649
 InstanceOf: List
+Description: "ePI document List for azarga Package Leaflets"
 
 * insert 244f0d5975a83ec03b917d6f24b1b649ListRuleset
     

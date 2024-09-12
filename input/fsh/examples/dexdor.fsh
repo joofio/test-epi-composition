@@ -1374,6 +1374,7 @@ RuleSet: 9875a9482c2e354f3a12ea545ebc4f3bListRuleset
 
 Instance: List-9875a9482c2e354f3a12ea545ebc4f3b
 InstanceOf: List
+Description: "ePI document List for dexdor Package Leaflets"
 
 * insert 9875a9482c2e354f3a12ea545ebc4f3bListRuleset
     

@@ -1266,6 +1266,7 @@ RuleSet: 171cf6efa1f321eb434b5635b2f1abe1ListRuleset
 
 Instance: List-171cf6efa1f321eb434b5635b2f1abe1
 InstanceOf: List
+Description: "ePI document List for prandin Package Leaflets"
 
 * insert 171cf6efa1f321eb434b5635b2f1abe1ListRuleset
     

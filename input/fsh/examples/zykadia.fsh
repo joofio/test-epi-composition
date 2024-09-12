@@ -1061,6 +1061,7 @@ RuleSet: 7257cd6c13151214e1f46cfc5506ac0dListRuleset
 
 Instance: List-7257cd6c13151214e1f46cfc5506ac0d
 InstanceOf: List
+Description: "ePI document List for zykadia Package Leaflets"
 
 * insert 7257cd6c13151214e1f46cfc5506ac0dListRuleset
     

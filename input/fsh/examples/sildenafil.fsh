@@ -1475,6 +1475,7 @@ RuleSet: d674db7613c7ef04137ad9c28d3399bbListRuleset
 
 Instance: List-d674db7613c7ef04137ad9c28d3399bb
 InstanceOf: List
+Description: "ePI document List for sildenafil Package Leaflets"
 
 * insert d674db7613c7ef04137ad9c28d3399bbListRuleset
     

@@ -1684,6 +1684,7 @@ RuleSet: 5499c94597b7b7823625dbbed61c998fListRuleset
 
 Instance: List-5499c94597b7b7823625dbbed61c998f
 InstanceOf: List
+Description: "ePI document List for idelvion Package Leaflets"
 
 * insert 5499c94597b7b7823625dbbed61c998fListRuleset
     

@@ -1198,6 +1198,7 @@ RuleSet: 07dfba600182595cfe2f36d89c5d2642ListRuleset
 
 Instance: List-07dfba600182595cfe2f36d89c5d2642
 InstanceOf: List
+Description: "ePI document List for elebrato Package Leaflets"
 
 * insert 07dfba600182595cfe2f36d89c5d2642ListRuleset
     

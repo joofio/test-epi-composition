@@ -1530,6 +1530,7 @@ RuleSet: 007d6f1b6943d8c2483d508167f6813dListRuleset
 
 Instance: List-007d6f1b6943d8c2483d508167f6813d
 InstanceOf: List
+Description: "ePI document List for onglyza Package Leaflets"
 
 * insert 007d6f1b6943d8c2483d508167f6813dListRuleset
     

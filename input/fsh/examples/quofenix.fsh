@@ -1896,6 +1896,7 @@ RuleSet: 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
 
 Instance: List-27f53ce7e817ea56aac44769c7b5a3bb
 InstanceOf: List
+Description: "ePI document List for quofenix Package Leaflets"
 
 * insert 27f53ce7e817ea56aac44769c7b5a3bbListRuleset
     

@@ -1109,6 +1109,7 @@ RuleSet: 7fd8db306f75e7eea8a1de8f7d7fbab2ListRuleset
 
 Instance: List-7fd8db306f75e7eea8a1de8f7d7fbab2
 InstanceOf: List
+Description: "ePI document List for luxturna Package Leaflets"
 
 * insert 7fd8db306f75e7eea8a1de8f7d7fbab2ListRuleset
     

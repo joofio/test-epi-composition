@@ -824,6 +824,7 @@ RuleSet: ff7e41e620a058f62e199d7b81a017a6ListRuleset
 
 Instance: List-ff7e41e620a058f62e199d7b81a017a6
 InstanceOf: List
+Description: "ePI document List for resolor Package Leaflets"
 
 * insert ff7e41e620a058f62e199d7b81a017a6ListRuleset
     

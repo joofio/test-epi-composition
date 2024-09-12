@@ -967,6 +967,7 @@ RuleSet: 5c2b8f77912f929e72c278c66c99126fListRuleset
 
 Instance: List-5c2b8f77912f929e72c278c66c99126f
 InstanceOf: List
+Description: "ePI document List for evoltra Package Leaflets"
 
 * insert 5c2b8f77912f929e72c278c66c99126fListRuleset
     

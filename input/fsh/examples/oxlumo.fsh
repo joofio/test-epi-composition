@@ -1268,6 +1268,7 @@ RuleSet: 1f87461293bc326acebf2dcaabf7857fListRuleset
 
 Instance: List-1f87461293bc326acebf2dcaabf7857f
 InstanceOf: List
+Description: "ePI document List for oxlumo Package Leaflets"
 
 * insert 1f87461293bc326acebf2dcaabf7857fListRuleset
     

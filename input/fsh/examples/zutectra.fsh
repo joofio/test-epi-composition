@@ -1025,6 +1025,7 @@ RuleSet: 73960cef65d43cea9c4f68f4818ce9c6ListRuleset
 
 Instance: List-73960cef65d43cea9c4f68f4818ce9c6
 InstanceOf: List
+Description: "ePI document List for zutectra Package Leaflets"
 
 * insert 73960cef65d43cea9c4f68f4818ce9c6ListRuleset
     

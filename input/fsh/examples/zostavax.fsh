@@ -886,6 +886,7 @@ RuleSet: e635923c4f0c1291555b7edc27db8608ListRuleset
 
 Instance: List-e635923c4f0c1291555b7edc27db8608
 InstanceOf: List
+Description: "ePI document List for zostavax Package Leaflets"
 
 * insert e635923c4f0c1291555b7edc27db8608ListRuleset
     

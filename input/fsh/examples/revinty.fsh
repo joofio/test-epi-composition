@@ -1139,6 +1139,7 @@ RuleSet: 3da56d21dbca77ac4fb1bb4e78b231d0ListRuleset
 
 Instance: List-3da56d21dbca77ac4fb1bb4e78b231d0
 InstanceOf: List
+Description: "ePI document List for revinty Package Leaflets"
 
 * insert 3da56d21dbca77ac4fb1bb4e78b231d0ListRuleset
     

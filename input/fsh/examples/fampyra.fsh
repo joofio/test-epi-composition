@@ -1385,6 +1385,7 @@ RuleSet: 40c8dbb155810b203735f0693961138cListRuleset
 
 Instance: List-40c8dbb155810b203735f0693961138c
 InstanceOf: List
+Description: "ePI document List for fampyra Package Leaflets"
 
 * insert 40c8dbb155810b203735f0693961138cListRuleset
     

@@ -1445,6 +1445,7 @@ RuleSet: 61ed8c3f1f4d3021b93672950d48db1aListRuleset
 
 Instance: List-61ed8c3f1f4d3021b93672950d48db1a
 InstanceOf: List
+Description: "ePI document List for nimenrix Package Leaflets"
 
 * insert 61ed8c3f1f4d3021b93672950d48db1aListRuleset
     

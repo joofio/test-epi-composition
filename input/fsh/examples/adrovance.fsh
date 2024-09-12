@@ -1768,6 +1768,7 @@ RuleSet: 21bdef881af840c0b4e754d37782a5bdListRuleset
 
 Instance: List-21bdef881af840c0b4e754d37782a5bd
 InstanceOf: List
+Description: "ePI document List for adrovance Package Leaflets"
 
 * insert 21bdef881af840c0b4e754d37782a5bdListRuleset
     

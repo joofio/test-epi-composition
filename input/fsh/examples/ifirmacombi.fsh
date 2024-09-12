@@ -1206,6 +1206,7 @@ RuleSet: 12999fc304ebe011ca5072982dc85b85ListRuleset
 
 Instance: List-12999fc304ebe011ca5072982dc85b85
 InstanceOf: List
+Description: "ePI document List for ifirmacombi Package Leaflets"
 
 * insert 12999fc304ebe011ca5072982dc85b85ListRuleset
     

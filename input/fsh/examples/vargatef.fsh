@@ -1135,6 +1135,7 @@ RuleSet: 83c6c3334f07b6c02aea88893af34509ListRuleset
 
 Instance: List-83c6c3334f07b6c02aea88893af34509
 InstanceOf: List
+Description: "ePI document List for vargatef Package Leaflets"
 
 * insert 83c6c3334f07b6c02aea88893af34509ListRuleset
     

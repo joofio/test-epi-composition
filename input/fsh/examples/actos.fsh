@@ -751,6 +751,7 @@ RuleSet: 5137745e381296dea05060d82180475dListRuleset
 
 Instance: List-5137745e381296dea05060d82180475d
 InstanceOf: List
+Description: "ePI document List for actos Package Leaflets"
 
 * insert 5137745e381296dea05060d82180475dListRuleset
     

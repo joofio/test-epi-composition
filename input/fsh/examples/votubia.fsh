@@ -1333,6 +1333,7 @@ RuleSet: 2c8c6ac450595b1fe82bdcbd366c3744ListRuleset
 
 Instance: List-2c8c6ac450595b1fe82bdcbd366c3744
 InstanceOf: List
+Description: "ePI document List for votubia Package Leaflets"
 
 * insert 2c8c6ac450595b1fe82bdcbd366c3744ListRuleset
     

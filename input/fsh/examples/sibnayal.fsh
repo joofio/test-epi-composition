@@ -894,6 +894,7 @@ RuleSet: 1d09f2cdb23b1c4baeb1be5a4de77a38ListRuleset
 
 Instance: List-1d09f2cdb23b1c4baeb1be5a4de77a38
 InstanceOf: List
+Description: "ePI document List for sibnayal Package Leaflets"
 
 * insert 1d09f2cdb23b1c4baeb1be5a4de77a38ListRuleset
     

@@ -1535,6 +1535,7 @@ RuleSet: 15a641fc1891be6ddabc72928a523139ListRuleset
 
 Instance: List-15a641fc1891be6ddabc72928a523139
 InstanceOf: List
+Description: "ePI document List for naveruclif Package Leaflets"
 
 * insert 15a641fc1891be6ddabc72928a523139ListRuleset
     

@@ -1236,6 +1236,7 @@ RuleSet: 63b3f084a70182e692d011ffeb8c1337ListRuleset
 
 Instance: List-63b3f084a70182e692d011ffeb8c1337
 InstanceOf: List
+Description: "ePI document List for vaxelis Package Leaflets"
 
 * insert 63b3f084a70182e692d011ffeb8c1337ListRuleset
     

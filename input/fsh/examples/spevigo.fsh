@@ -977,6 +977,7 @@ RuleSet: 6b301f6c675105f98d980bf8971e8028ListRuleset
 
 Instance: List-6b301f6c675105f98d980bf8971e8028
 InstanceOf: List
+Description: "ePI document List for spevigo Package Leaflets"
 
 * insert 6b301f6c675105f98d980bf8971e8028ListRuleset
     

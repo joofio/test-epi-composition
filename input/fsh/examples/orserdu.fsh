@@ -1434,6 +1434,7 @@ RuleSet: 8fdef97116c9e46e3458e3dc3216f0d9ListRuleset
 
 Instance: List-8fdef97116c9e46e3458e3dc3216f0d9
 InstanceOf: List
+Description: "ePI document List for orserdu Package Leaflets"
 
 * insert 8fdef97116c9e46e3458e3dc3216f0d9ListRuleset
     

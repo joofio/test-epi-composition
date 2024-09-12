@@ -1550,6 +1550,7 @@ RuleSet: 65cdaa8e626b314e9a691e6afef8bf66ListRuleset
 
 Instance: List-65cdaa8e626b314e9a691e6afef8bf66
 InstanceOf: List
+Description: "ePI document List for besremi Package Leaflets"
 
 * insert 65cdaa8e626b314e9a691e6afef8bf66ListRuleset
     

@@ -1046,6 +1046,7 @@ RuleSet: f1e5c0f8dd3e6746610cc97b2dc1a234ListRuleset
 
 Instance: List-f1e5c0f8dd3e6746610cc97b2dc1a234
 InstanceOf: List
+Description: "ePI document List for litak Package Leaflets"
 
 * insert f1e5c0f8dd3e6746610cc97b2dc1a234ListRuleset
     

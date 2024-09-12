@@ -1060,6 +1060,7 @@ RuleSet: 5ac4a49a9ba51d620f11b22f100bae66ListRuleset
 
 Instance: List-5ac4a49a9ba51d620f11b22f100bae66
 InstanceOf: List
+Description: "ePI document List for elzonris Package Leaflets"
 
 * insert 5ac4a49a9ba51d620f11b22f100bae66ListRuleset
     

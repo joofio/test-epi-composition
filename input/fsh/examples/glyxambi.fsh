@@ -1184,6 +1184,7 @@ RuleSet: ce5e68a096b816edf5b3a0ff2587822cListRuleset
 
 Instance: List-ce5e68a096b816edf5b3a0ff2587822c
 InstanceOf: List
+Description: "ePI document List for glyxambi Package Leaflets"
 
 * insert ce5e68a096b816edf5b3a0ff2587822cListRuleset
     

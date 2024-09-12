@@ -1715,6 +1715,7 @@ RuleSet: c2d0e28fbe1723337dab22fe407d0234ListRuleset
 
 Instance: List-c2d0e28fbe1723337dab22fe407d0234
 InstanceOf: List
+Description: "ePI document List for brukinsa Package Leaflets"
 
 * insert c2d0e28fbe1723337dab22fe407d0234ListRuleset
     

@@ -2569,6 +2569,7 @@ RuleSet: 057978e6508bd77bd6c65ec1f7b062f7ListRuleset
 
 Instance: List-057978e6508bd77bd6c65ec1f7b062f7
 InstanceOf: List
+Description: "ePI document List for cimzia Package Leaflets"
 
 * insert 057978e6508bd77bd6c65ec1f7b062f7ListRuleset
     

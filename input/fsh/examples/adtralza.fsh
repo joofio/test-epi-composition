@@ -1513,6 +1513,7 @@ RuleSet: 5e5d8991119f1b6cc9a73ed8524ab6d3ListRuleset
 
 Instance: List-5e5d8991119f1b6cc9a73ed8524ab6d3
 InstanceOf: List
+Description: "ePI document List for adtralza Package Leaflets"
 
 * insert 5e5d8991119f1b6cc9a73ed8524ab6d3ListRuleset
     

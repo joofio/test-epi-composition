@@ -1798,6 +1798,7 @@ RuleSet: 16b17145743fb4005511a462dcbf7da1ListRuleset
 
 Instance: List-16b17145743fb4005511a462dcbf7da1
 InstanceOf: List
+Description: "ePI document List for apealea Package Leaflets"
 
 * insert 16b17145743fb4005511a462dcbf7da1ListRuleset
     

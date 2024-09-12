@@ -951,6 +951,7 @@ RuleSet: bbb526e801230c1471e1f7a100d25aa3ListRuleset
 
 Instance: List-bbb526e801230c1471e1f7a100d25aa3
 InstanceOf: List
+Description: "ePI document List for thyrogen Package Leaflets"
 
 * insert bbb526e801230c1471e1f7a100d25aa3ListRuleset
     

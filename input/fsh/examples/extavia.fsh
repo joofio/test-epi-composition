@@ -2485,6 +2485,7 @@ RuleSet: af957cdad64de8277859b4d268fc6099ListRuleset
 
 Instance: List-af957cdad64de8277859b4d268fc6099
 InstanceOf: List
+Description: "ePI document List for extavia Package Leaflets"
 
 * insert af957cdad64de8277859b4d268fc6099ListRuleset
     

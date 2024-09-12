@@ -1367,6 +1367,7 @@ RuleSet: b74140ab033fc1249f12696486a5f0cdListRuleset
 
 Instance: List-b74140ab033fc1249f12696486a5f0cd
 InstanceOf: List
+Description: "ePI document List for rybelsus Package Leaflets"
 
 * insert b74140ab033fc1249f12696486a5f0cdListRuleset
     

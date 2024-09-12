@@ -1262,6 +1262,7 @@ RuleSet: 288b5bf92457cec46266040e05fc3d90ListRuleset
 
 Instance: List-288b5bf92457cec46266040e05fc3d90
 InstanceOf: List
+Description: "ePI document List for byfavo Package Leaflets"
 
 * insert 288b5bf92457cec46266040e05fc3d90ListRuleset
     

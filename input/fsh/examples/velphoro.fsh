@@ -716,6 +716,7 @@ RuleSet: 655cd017d0250a5b169d71fd018fd71cListRuleset
 
 Instance: List-655cd017d0250a5b169d71fd018fd71c
 InstanceOf: List
+Description: "ePI document List for velphoro Package Leaflets"
 
 * insert 655cd017d0250a5b169d71fd018fd71cListRuleset
     

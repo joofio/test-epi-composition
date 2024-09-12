@@ -1111,6 +1111,7 @@ RuleSet: eb7d3517ce728a017d7b2f838a6f78c4ListRuleset
 
 Instance: List-eb7d3517ce728a017d7b2f838a6f78c4
 InstanceOf: List
+Description: "ePI document List for pergoveris Package Leaflets"
 
 * insert eb7d3517ce728a017d7b2f838a6f78c4ListRuleset
     

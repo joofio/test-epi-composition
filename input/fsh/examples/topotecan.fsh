@@ -1425,6 +1425,7 @@ RuleSet: c70f3196826e850a6889cb4c778ecf4aListRuleset
 
 Instance: List-c70f3196826e850a6889cb4c778ecf4a
 InstanceOf: List
+Description: "ePI document List for topotecan Package Leaflets"
 
 * insert c70f3196826e850a6889cb4c778ecf4aListRuleset
     

@@ -723,6 +723,7 @@ RuleSet: eea75696c0638bfef12b52e191d0d8ceListRuleset
 
 Instance: List-eea75696c0638bfef12b52e191d0d8ce
 InstanceOf: List
+Description: "ePI document List for amifampridine Package Leaflets"
 
 * insert eea75696c0638bfef12b52e191d0d8ceListRuleset
     

@@ -852,6 +852,7 @@ RuleSet: 8e38350ad4085562476adf145c0f9faeListRuleset
 
 Instance: List-8e38350ad4085562476adf145c0f9fae
 InstanceOf: List
+Description: "ePI document List for peyona Package Leaflets"
 
 * insert 8e38350ad4085562476adf145c0f9faeListRuleset
     

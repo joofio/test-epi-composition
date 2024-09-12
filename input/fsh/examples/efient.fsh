@@ -956,6 +956,7 @@ RuleSet: 2776bfb7e1f074708f890100ca32d64bListRuleset
 
 Instance: List-2776bfb7e1f074708f890100ca32d64b
 InstanceOf: List
+Description: "ePI document List for efient Package Leaflets"
 
 * insert 2776bfb7e1f074708f890100ca32d64bListRuleset
     

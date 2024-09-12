@@ -2128,6 +2128,7 @@ RuleSet: 082e15b5bc22cfe8d68c67168679c322ListRuleset
 
 Instance: List-082e15b5bc22cfe8d68c67168679c322
 InstanceOf: List
+Description: "ePI document List for duavive Package Leaflets"
 
 * insert 082e15b5bc22cfe8d68c67168679c322ListRuleset
     

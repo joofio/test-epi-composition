@@ -1494,6 +1494,7 @@ RuleSet: f2aa2b90d380444519f71c2efd9d6e1eListRuleset
 
 Instance: List-f2aa2b90d380444519f71c2efd9d6e1e
 InstanceOf: List
+Description: "ePI document List for sycrest Package Leaflets"
 
 * insert f2aa2b90d380444519f71c2efd9d6e1eListRuleset
     

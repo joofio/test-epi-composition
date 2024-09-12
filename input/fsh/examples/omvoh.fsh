@@ -950,6 +950,7 @@ RuleSet: 65348d0704af82b9a03c835ed62f4089ListRuleset
 
 Instance: List-65348d0704af82b9a03c835ed62f4089
 InstanceOf: List
+Description: "ePI document List for omvoh Package Leaflets"
 
 * insert 65348d0704af82b9a03c835ed62f4089ListRuleset
     

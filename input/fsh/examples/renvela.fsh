@@ -876,6 +876,7 @@ RuleSet: 5d41e6d3881ce675625375af18a0589aListRuleset
 
 Instance: List-5d41e6d3881ce675625375af18a0589a
 InstanceOf: List
+Description: "ePI document List for renvela Package Leaflets"
 
 * insert 5d41e6d3881ce675625375af18a0589aListRuleset
     

@@ -954,6 +954,7 @@ RuleSet: 152ace144461681a6f02306435b8f1dcListRuleset
 
 Instance: List-152ace144461681a6f02306435b8f1dc
 InstanceOf: List
+Description: "ePI document List for urorec Package Leaflets"
 
 * insert 152ace144461681a6f02306435b8f1dcListRuleset
     

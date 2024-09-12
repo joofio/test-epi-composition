@@ -1998,6 +1998,7 @@ RuleSet: 0d94803bc9c6a74df09f017a447745b8ListRuleset
 
 Instance: List-0d94803bc9c6a74df09f017a447745b8
 InstanceOf: List
+Description: "ePI document List for fintepla Package Leaflets"
 
 * insert 0d94803bc9c6a74df09f017a447745b8ListRuleset
     

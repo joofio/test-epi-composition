@@ -808,6 +808,7 @@ RuleSet: 7480c406c1476ad2011cc90003d94188ListRuleset
 
 Instance: List-7480c406c1476ad2011cc90003d94188
 InstanceOf: List
+Description: "ePI document List for spinraza Package Leaflets"
 
 * insert 7480c406c1476ad2011cc90003d94188ListRuleset
     

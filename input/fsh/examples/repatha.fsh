@@ -1190,6 +1190,7 @@ RuleSet: d26b9a973cbe92133eca8ac4cab69c79ListRuleset
 
 Instance: List-d26b9a973cbe92133eca8ac4cab69c79
 InstanceOf: List
+Description: "ePI document List for repatha Package Leaflets"
 
 * insert d26b9a973cbe92133eca8ac4cab69c79ListRuleset
     

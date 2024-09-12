@@ -2653,6 +2653,7 @@ RuleSet: 3a36f8c3c4c534a765e5e9ed08db5433ListRuleset
 
 Instance: List-3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: List
+Description: "ePI document List for okedi Package Leaflets"
 
 * insert 3a36f8c3c4c534a765e5e9ed08db5433ListRuleset
     

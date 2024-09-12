@@ -781,6 +781,7 @@ RuleSet: 24658ce59b10f683d894acb365dd27b9ListRuleset
 
 Instance: List-24658ce59b10f683d894acb365dd27b9
 InstanceOf: List
+Description: "ePI document List for granpidam Package Leaflets"
 
 * insert 24658ce59b10f683d894acb365dd27b9ListRuleset
     

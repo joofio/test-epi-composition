@@ -2035,6 +2035,7 @@ RuleSet: d4995980c626f88ccf36d0f35c6d0ddfListRuleset
 
 Instance: List-d4995980c626f88ccf36d0f35c6d0ddf
 InstanceOf: List
+Description: "ePI document List for lenalidomide Package Leaflets"
 
 * insert d4995980c626f88ccf36d0f35c6d0ddfListRuleset
     

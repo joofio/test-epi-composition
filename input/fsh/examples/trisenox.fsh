@@ -1145,6 +1145,7 @@ RuleSet: 8e9729f37593f28a655449a0b1bb5596ListRuleset
 
 Instance: List-8e9729f37593f28a655449a0b1bb5596
 InstanceOf: List
+Description: "ePI document List for trisenox Package Leaflets"
 
 * insert 8e9729f37593f28a655449a0b1bb5596ListRuleset
     

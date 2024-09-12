@@ -2189,6 +2189,7 @@ RuleSet: b44aec4025bf7e6a7ad2808694b3bfd0ListRuleset
 
 Instance: List-b44aec4025bf7e6a7ad2808694b3bfd0
 InstanceOf: List
+Description: "ePI document List for oprymea Package Leaflets"
 
 * insert b44aec4025bf7e6a7ad2808694b3bfd0ListRuleset
     

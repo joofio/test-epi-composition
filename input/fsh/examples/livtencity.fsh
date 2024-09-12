@@ -863,6 +863,7 @@ RuleSet: 2c250051417033f9ca5609b812b532b2ListRuleset
 
 Instance: List-2c250051417033f9ca5609b812b532b2
 InstanceOf: List
+Description: "ePI document List for livtencity Package Leaflets"
 
 * insert 2c250051417033f9ca5609b812b532b2ListRuleset
     

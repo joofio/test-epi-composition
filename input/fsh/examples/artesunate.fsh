@@ -1036,6 +1036,7 @@ RuleSet: e3808b9785653fa349cd23efa0847a72ListRuleset
 
 Instance: List-e3808b9785653fa349cd23efa0847a72
 InstanceOf: List
+Description: "ePI document List for artesunate Package Leaflets"
 
 * insert e3808b9785653fa349cd23efa0847a72ListRuleset
     

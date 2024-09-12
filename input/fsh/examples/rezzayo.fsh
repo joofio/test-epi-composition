@@ -751,6 +751,7 @@ RuleSet: 92e6fb3296c549e1fee744233084617cListRuleset
 
 Instance: List-92e6fb3296c549e1fee744233084617c
 InstanceOf: List
+Description: "ePI document List for rezzayo Package Leaflets"
 
 * insert 92e6fb3296c549e1fee744233084617cListRuleset
     

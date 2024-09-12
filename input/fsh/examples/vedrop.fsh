@@ -822,6 +822,7 @@ RuleSet: 66b9e568d1a8891a6ff6349ce2c6c5ffListRuleset
 
 Instance: List-66b9e568d1a8891a6ff6349ce2c6c5ff
 InstanceOf: List
+Description: "ePI document List for vedrop Package Leaflets"
 
 * insert 66b9e568d1a8891a6ff6349ce2c6c5ffListRuleset
     

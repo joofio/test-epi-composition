@@ -658,6 +658,7 @@ RuleSet: 36d93771f3347f288be457a7d33515c7ListRuleset
 
 Instance: List-36d93771f3347f288be457a7d33515c7
 InstanceOf: List
+Description: "ePI document List for ammonaps Package Leaflets"
 
 * insert 36d93771f3347f288be457a7d33515c7ListRuleset
     

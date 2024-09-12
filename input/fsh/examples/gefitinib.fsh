@@ -1466,6 +1466,7 @@ RuleSet: 553de2aa690a5750d1825c26ecd3f9edListRuleset
 
 Instance: List-553de2aa690a5750d1825c26ecd3f9ed
 InstanceOf: List
+Description: "ePI document List for gefitinib Package Leaflets"
 
 * insert 553de2aa690a5750d1825c26ecd3f9edListRuleset
     

@@ -1303,6 +1303,7 @@ RuleSet: 96431077feaab94e628cf99788cf8afdListRuleset
 
 Instance: List-96431077feaab94e628cf99788cf8afd
 InstanceOf: List
+Description: "ePI document List for vazkepa Package Leaflets"
 
 * insert 96431077feaab94e628cf99788cf8afdListRuleset
     

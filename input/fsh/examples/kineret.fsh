@@ -1303,6 +1303,7 @@ RuleSet: e32af5235bc449e932db46935c53460aListRuleset
 
 Instance: List-e32af5235bc449e932db46935c53460a
 InstanceOf: List
+Description: "ePI document List for kineret Package Leaflets"
 
 * insert e32af5235bc449e932db46935c53460aListRuleset
     

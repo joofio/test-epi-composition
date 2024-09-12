@@ -1752,6 +1752,7 @@ RuleSet: 78e33c6ca57a9089f2dae156018ba8d2ListRuleset
 
 Instance: List-78e33c6ca57a9089f2dae156018ba8d2
 InstanceOf: List
+Description: "ePI document List for pritorplus Package Leaflets"
 
 * insert 78e33c6ca57a9089f2dae156018ba8d2ListRuleset
     

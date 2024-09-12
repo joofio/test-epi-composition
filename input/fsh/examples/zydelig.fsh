@@ -1054,6 +1054,7 @@ RuleSet: 702c9d84bc860bda988d99979df3de81ListRuleset
 
 Instance: List-702c9d84bc860bda988d99979df3de81
 InstanceOf: List
+Description: "ePI document List for zydelig Package Leaflets"
 
 * insert 702c9d84bc860bda988d99979df3de81ListRuleset
     

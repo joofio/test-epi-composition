@@ -742,6 +742,7 @@ RuleSet: 69ec9f0e9f354651ce97ae4316b8e482ListRuleset
 
 Instance: List-69ec9f0e9f354651ce97ae4316b8e482
 InstanceOf: List
+Description: "ePI document List for endolucinbeta Package Leaflets"
 
 * insert 69ec9f0e9f354651ce97ae4316b8e482ListRuleset
     

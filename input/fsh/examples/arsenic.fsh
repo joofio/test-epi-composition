@@ -1449,6 +1449,7 @@ RuleSet: 0765874a313ce115023e01847b82b59eListRuleset
 
 Instance: List-0765874a313ce115023e01847b82b59e
 InstanceOf: List
+Description: "ePI document List for arsenic Package Leaflets"
 
 * insert 0765874a313ce115023e01847b82b59eListRuleset
     

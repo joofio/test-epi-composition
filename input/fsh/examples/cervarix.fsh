@@ -901,6 +901,7 @@ RuleSet: 115d908e795ff40926f89a9e90717eaeListRuleset
 
 Instance: List-115d908e795ff40926f89a9e90717eae
 InstanceOf: List
+Description: "ePI document List for cervarix Package Leaflets"
 
 * insert 115d908e795ff40926f89a9e90717eaeListRuleset
     

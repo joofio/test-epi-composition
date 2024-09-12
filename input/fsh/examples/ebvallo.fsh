@@ -1039,6 +1039,7 @@ RuleSet: dc231a8d527554079b48b6c9ff637f0dListRuleset
 
 Instance: List-dc231a8d527554079b48b6c9ff637f0d
 InstanceOf: List
+Description: "ePI document List for ebvallo Package Leaflets"
 
 * insert dc231a8d527554079b48b6c9ff637f0dListRuleset
     

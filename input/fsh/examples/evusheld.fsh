@@ -1193,6 +1193,7 @@ RuleSet: 1f675c75ae2647759e12de1b52c8e0f9ListRuleset
 
 Instance: List-1f675c75ae2647759e12de1b52c8e0f9
 InstanceOf: List
+Description: "ePI document List for evusheld Package Leaflets"
 
 * insert 1f675c75ae2647759e12de1b52c8e0f9ListRuleset
     

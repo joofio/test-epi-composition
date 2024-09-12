@@ -975,6 +975,7 @@ RuleSet: 9af2a44fa579cd6ab6e3934e61bad8e0ListRuleset
 
 Instance: List-9af2a44fa579cd6ab6e3934e61bad8e0
 InstanceOf: List
+Description: "ePI document List for nexobrid Package Leaflets"
 
 * insert 9af2a44fa579cd6ab6e3934e61bad8e0ListRuleset
     

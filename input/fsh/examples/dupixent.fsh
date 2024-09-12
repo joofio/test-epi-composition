@@ -2372,6 +2372,7 @@ RuleSet: c73c6f869bb1947667a63b227920af77ListRuleset
 
 Instance: List-c73c6f869bb1947667a63b227920af77
 InstanceOf: List
+Description: "ePI document List for dupixent Package Leaflets"
 
 * insert c73c6f869bb1947667a63b227920af77ListRuleset
     

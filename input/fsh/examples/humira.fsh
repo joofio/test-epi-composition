@@ -1912,6 +1912,7 @@ RuleSet: 3a3583227b4c5b0887f1e0d38269b469ListRuleset
 
 Instance: List-3a3583227b4c5b0887f1e0d38269b469
 InstanceOf: List
+Description: "ePI document List for humira Package Leaflets"
 
 * insert 3a3583227b4c5b0887f1e0d38269b469ListRuleset
     

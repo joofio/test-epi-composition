@@ -921,6 +921,7 @@ RuleSet: 36510bf45b0e72d68ab742851da42239ListRuleset
 
 Instance: List-36510bf45b0e72d68ab742851da42239
 InstanceOf: List
+Description: "ePI document List for bridion Package Leaflets"
 
 * insert 36510bf45b0e72d68ab742851da42239ListRuleset
     

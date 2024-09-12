@@ -881,6 +881,7 @@ RuleSet: ed2ea7f84dcb14b5fa486093df321548ListRuleset
 
 Instance: List-ed2ea7f84dcb14b5fa486093df321548
 InstanceOf: List
+Description: "ePI document List for kanuma Package Leaflets"
 
 * insert ed2ea7f84dcb14b5fa486093df321548ListRuleset
     

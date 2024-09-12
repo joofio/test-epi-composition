@@ -1099,6 +1099,7 @@ RuleSet: 7a98a4feed53c51bdbb3ffa9d578b887ListRuleset
 
 Instance: List-7a98a4feed53c51bdbb3ffa9d578b887
 InstanceOf: List
+Description: "ePI document List for akynzeo Package Leaflets"
 
 * insert 7a98a4feed53c51bdbb3ffa9d578b887ListRuleset
     

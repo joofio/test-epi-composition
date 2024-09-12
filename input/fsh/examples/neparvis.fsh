@@ -1134,6 +1134,7 @@ RuleSet: a3c1ea9abcddf2c56e0dc62a56cac1fdListRuleset
 
 Instance: List-a3c1ea9abcddf2c56e0dc62a56cac1fd
 InstanceOf: List
+Description: "ePI document List for neparvis Package Leaflets"
 
 * insert a3c1ea9abcddf2c56e0dc62a56cac1fdListRuleset
     

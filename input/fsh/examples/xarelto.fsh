@@ -1836,6 +1836,7 @@ RuleSet: febe758b815af2dff26af1acacd31f32ListRuleset
 
 Instance: List-febe758b815af2dff26af1acacd31f32
 InstanceOf: List
+Description: "ePI document List for xarelto Package Leaflets"
 
 * insert febe758b815af2dff26af1acacd31f32ListRuleset
     

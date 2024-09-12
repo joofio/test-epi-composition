@@ -944,6 +944,7 @@ RuleSet: f451f2b898e52e0d41c95e83d0aff4dbListRuleset
 
 Instance: List-f451f2b898e52e0d41c95e83d0aff4db
 InstanceOf: List
+Description: "ePI document List for qinlock Package Leaflets"
 
 * insert f451f2b898e52e0d41c95e83d0aff4dbListRuleset
     

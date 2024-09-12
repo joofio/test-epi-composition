@@ -2073,6 +2073,7 @@ RuleSet: d2fbf2f2639d83ae5727c01cf5210fc3ListRuleset
 
 Instance: List-d2fbf2f2639d83ae5727c01cf5210fc3
 InstanceOf: List
+Description: "ePI document List for intuniv Package Leaflets"
 
 * insert d2fbf2f2639d83ae5727c01cf5210fc3ListRuleset
     

@@ -1574,6 +1574,7 @@ RuleSet: 23c171402ffd8448c1d943b191514c66ListRuleset
 
 Instance: List-23c171402ffd8448c1d943b191514c66
 InstanceOf: List
+Description: "ePI document List for prialt Package Leaflets"
 
 * insert 23c171402ffd8448c1d943b191514c66ListRuleset
     

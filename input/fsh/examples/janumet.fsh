@@ -1128,6 +1128,7 @@ RuleSet: 3a9901c7a4f190c23d6c1a900f5e59ceListRuleset
 
 Instance: List-3a9901c7a4f190c23d6c1a900f5e59ce
 InstanceOf: List
+Description: "ePI document List for janumet Package Leaflets"
 
 * insert 3a9901c7a4f190c23d6c1a900f5e59ceListRuleset
     

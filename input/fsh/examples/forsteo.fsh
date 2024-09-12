@@ -1159,6 +1159,7 @@ RuleSet: f37dc8b0ce387c50af638cbc7ed30e60ListRuleset
 
 Instance: List-f37dc8b0ce387c50af638cbc7ed30e60
 InstanceOf: List
+Description: "ePI document List for forsteo Package Leaflets"
 
 * insert f37dc8b0ce387c50af638cbc7ed30e60ListRuleset
     

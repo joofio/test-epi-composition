@@ -1933,6 +1933,7 @@ RuleSet: 74d4a84c8c26d0880630461280f3d19fListRuleset
 
 Instance: List-74d4a84c8c26d0880630461280f3d19f
 InstanceOf: List
+Description: "ePI document List for ebymect Package Leaflets"
 
 * insert 74d4a84c8c26d0880630461280f3d19fListRuleset
     

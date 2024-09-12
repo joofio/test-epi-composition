@@ -1492,6 +1492,7 @@ RuleSet: 2d41c9020db6e6ef74cf6c085116c0adListRuleset
 
 Instance: List-2d41c9020db6e6ef74cf6c085116c0ad
 InstanceOf: List
+Description: "ePI document List for skyrizi Package Leaflets"
 
 * insert 2d41c9020db6e6ef74cf6c085116c0adListRuleset
     

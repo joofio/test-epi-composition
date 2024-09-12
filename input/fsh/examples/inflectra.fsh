@@ -1697,6 +1697,7 @@ RuleSet: 572f3f97f7a7c455dcce693d90f95d77ListRuleset
 
 Instance: List-572f3f97f7a7c455dcce693d90f95d77
 InstanceOf: List
+Description: "ePI document List for inflectra Package Leaflets"
 
 * insert 572f3f97f7a7c455dcce693d90f95d77ListRuleset
     

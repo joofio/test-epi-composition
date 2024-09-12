@@ -896,6 +896,7 @@ RuleSet: b0e9ca3c0296dbd9d61e291d9ccda718ListRuleset
 
 Instance: List-b0e9ca3c0296dbd9d61e291d9ccda718
 InstanceOf: List
+Description: "ePI document List for rasagiline Package Leaflets"
 
 * insert b0e9ca3c0296dbd9d61e291d9ccda718ListRuleset
     

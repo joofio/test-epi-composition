@@ -1032,6 +1032,7 @@ RuleSet: 5535a1058c02154998e04426c8620587ListRuleset
 
 Instance: List-5535a1058c02154998e04426c8620587
 InstanceOf: List
+Description: "ePI document List for ozurdex Package Leaflets"
 
 * insert 5535a1058c02154998e04426c8620587ListRuleset
     

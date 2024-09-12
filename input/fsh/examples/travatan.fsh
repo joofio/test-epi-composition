@@ -1301,6 +1301,7 @@ RuleSet: a38db6f0b3670face0412d6c2e00cd92ListRuleset
 
 Instance: List-a38db6f0b3670face0412d6c2e00cd92
 InstanceOf: List
+Description: "ePI document List for travatan Package Leaflets"
 
 * insert a38db6f0b3670face0412d6c2e00cd92ListRuleset
     

@@ -1473,6 +1473,7 @@ RuleSet: 874f4746d25a4c3b8fa97e889d85be10ListRuleset
 
 Instance: List-874f4746d25a4c3b8fa97e889d85be10
 InstanceOf: List
+Description: "ePI document List for pelmeg Package Leaflets"
 
 * insert 874f4746d25a4c3b8fa97e889d85be10ListRuleset
     

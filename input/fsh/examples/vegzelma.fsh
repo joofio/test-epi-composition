@@ -1341,6 +1341,7 @@ RuleSet: 70c37efbcc66b94190d4774fa8f2fb33ListRuleset
 
 Instance: List-70c37efbcc66b94190d4774fa8f2fb33
 InstanceOf: List
+Description: "ePI document List for vegzelma Package Leaflets"
 
 * insert 70c37efbcc66b94190d4774fa8f2fb33ListRuleset
     

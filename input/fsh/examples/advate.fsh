@@ -1074,6 +1074,7 @@ RuleSet: 3c5fecfadf023622829e4ed4e3f92507ListRuleset
 
 Instance: List-3c5fecfadf023622829e4ed4e3f92507
 InstanceOf: List
+Description: "ePI document List for advate Package Leaflets"
 
 * insert 3c5fecfadf023622829e4ed4e3f92507ListRuleset
     

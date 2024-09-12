@@ -2313,6 +2313,7 @@ RuleSet: f3d8b9999dbf0bb7ed96cabee591db10ListRuleset
 
 Instance: List-f3d8b9999dbf0bb7ed96cabee591db10
 InstanceOf: List
+Description: "ePI document List for caprelsa Package Leaflets"
 
 * insert f3d8b9999dbf0bb7ed96cabee591db10ListRuleset
     

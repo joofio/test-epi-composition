@@ -1392,6 +1392,7 @@ RuleSet: d1ac9f4f2138f35170941f82d23b13edListRuleset
 
 Instance: List-d1ac9f4f2138f35170941f82d23b13ed
 InstanceOf: List
+Description: "ePI document List for ecalta Package Leaflets"
 
 * insert d1ac9f4f2138f35170941f82d23b13edListRuleset
     

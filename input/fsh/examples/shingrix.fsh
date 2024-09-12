@@ -953,6 +953,7 @@ RuleSet: 85904308e7b268e4375d9d3d2cf40f57ListRuleset
 
 Instance: List-85904308e7b268e4375d9d3d2cf40f57
 InstanceOf: List
+Description: "ePI document List for shingrix Package Leaflets"
 
 * insert 85904308e7b268e4375d9d3d2cf40f57ListRuleset
     

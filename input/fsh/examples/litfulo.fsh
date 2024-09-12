@@ -1387,6 +1387,7 @@ RuleSet: 601fc65b81b2fd37245e8ad7fc0f0dd7ListRuleset
 
 Instance: List-601fc65b81b2fd37245e8ad7fc0f0dd7
 InstanceOf: List
+Description: "ePI document List for litfulo Package Leaflets"
 
 * insert 601fc65b81b2fd37245e8ad7fc0f0dd7ListRuleset
     

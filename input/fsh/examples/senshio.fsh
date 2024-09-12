@@ -1091,6 +1091,7 @@ RuleSet: 446d079a08d59e4d16270357097325ebListRuleset
 
 Instance: List-446d079a08d59e4d16270357097325eb
 InstanceOf: List
+Description: "ePI document List for senshio Package Leaflets"
 
 * insert 446d079a08d59e4d16270357097325ebListRuleset
     

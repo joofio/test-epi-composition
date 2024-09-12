@@ -1511,6 +1511,7 @@ RuleSet: 2bcf0e7ec94902b3190ce3b77086faa9ListRuleset
 
 Instance: List-2bcf0e7ec94902b3190ce3b77086faa9
 InstanceOf: List
+Description: "ePI document List for comirnaty Package Leaflets"
 
 * insert 2bcf0e7ec94902b3190ce3b77086faa9ListRuleset
     

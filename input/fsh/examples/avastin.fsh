@@ -2295,6 +2295,7 @@ RuleSet: 62875f10b66b28e25e20627846370170ListRuleset
 
 Instance: List-62875f10b66b28e25e20627846370170
 InstanceOf: List
+Description: "ePI document List for avastin Package Leaflets"
 
 * insert 62875f10b66b28e25e20627846370170ListRuleset
     

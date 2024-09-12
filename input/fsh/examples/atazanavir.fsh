@@ -570,6 +570,7 @@ RuleSet: 975c71538de6c7ace8f1a35ed29b064aListRuleset
 
 Instance: List-975c71538de6c7ace8f1a35ed29b064a
 InstanceOf: List
+Description: "ePI document List for atazanavir Package Leaflets"
 
 * insert 975c71538de6c7ace8f1a35ed29b064aListRuleset
     

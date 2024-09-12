@@ -1330,6 +1330,7 @@ RuleSet: ea2d9477557df2cb8572d829cd765247ListRuleset
 
 Instance: List-ea2d9477557df2cb8572d829cd765247
 InstanceOf: List
+Description: "ePI document List for kerendia Package Leaflets"
 
 * insert ea2d9477557df2cb8572d829cd765247ListRuleset
     

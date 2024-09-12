@@ -1558,6 +1558,7 @@ RuleSet: 6ff79951b10cf21bd6fd953fc17e7cc0ListRuleset
 
 Instance: List-6ff79951b10cf21bd6fd953fc17e7cc0
 InstanceOf: List
+Description: "ePI document List for lumigan Package Leaflets"
 
 * insert 6ff79951b10cf21bd6fd953fc17e7cc0ListRuleset
     

@@ -1318,6 +1318,7 @@ RuleSet: 565029a2726c6824ab356ecb59362043ListRuleset
 
 Instance: List-565029a2726c6824ab356ecb59362043
 InstanceOf: List
+Description: "ePI document List for pemazyre Package Leaflets"
 
 * insert 565029a2726c6824ab356ecb59362043ListRuleset
     

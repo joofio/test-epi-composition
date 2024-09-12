@@ -784,6 +784,7 @@ RuleSet: 6b7b5522c872887b5587c6d7e9f380f6ListRuleset
 
 Instance: List-6b7b5522c872887b5587c6d7e9f380f6
 InstanceOf: List
+Description: "ePI document List for onureg Package Leaflets"
 
 * insert 6b7b5522c872887b5587c6d7e9f380f6ListRuleset
     

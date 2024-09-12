@@ -955,6 +955,7 @@ RuleSet: a8bf6c781d45d4ee28ddbc241a4ae52bListRuleset
 
 Instance: List-a8bf6c781d45d4ee28ddbc241a4ae52b
 InstanceOf: List
+Description: "ePI document List for mycamine Package Leaflets"
 
 * insert a8bf6c781d45d4ee28ddbc241a4ae52bListRuleset
     

@@ -1118,6 +1118,7 @@ RuleSet: d9561f20b6898b3c62b048e0c8b52401ListRuleset
 
 Instance: List-d9561f20b6898b3c62b048e0c8b52401
 InstanceOf: List
+Description: "ePI document List for hycamtin Package Leaflets"
 
 * insert d9561f20b6898b3c62b048e0c8b52401ListRuleset
     

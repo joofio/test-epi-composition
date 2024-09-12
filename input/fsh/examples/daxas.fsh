@@ -932,6 +932,7 @@ RuleSet: 1f1abc0830f94db591b845bd71b79232ListRuleset
 
 Instance: List-1f1abc0830f94db591b845bd71b79232
 InstanceOf: List
+Description: "ePI document List for daxas Package Leaflets"
 
 * insert 1f1abc0830f94db591b845bd71b79232ListRuleset
     

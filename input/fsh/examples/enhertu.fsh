@@ -1187,6 +1187,7 @@ RuleSet: 5b51c0d839da71000ee4c963dc89729fListRuleset
 
 Instance: List-5b51c0d839da71000ee4c963dc89729f
 InstanceOf: List
+Description: "ePI document List for enhertu Package Leaflets"
 
 * insert 5b51c0d839da71000ee4c963dc89729fListRuleset
     

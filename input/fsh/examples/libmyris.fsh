@@ -2284,6 +2284,7 @@ RuleSet: 97e912692940da0904efcb8614f8aff4ListRuleset
 
 Instance: List-97e912692940da0904efcb8614f8aff4
 InstanceOf: List
+Description: "ePI document List for libmyris Package Leaflets"
 
 * insert 97e912692940da0904efcb8614f8aff4ListRuleset
     

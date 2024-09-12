@@ -1404,6 +1404,7 @@ RuleSet: 7b67c4d38704991f22e7013a4909f813ListRuleset
 
 Instance: List-7b67c4d38704991f22e7013a4909f813
 InstanceOf: List
+Description: "ePI document List for alunbrig Package Leaflets"
 
 * insert 7b67c4d38704991f22e7013a4909f813ListRuleset
     

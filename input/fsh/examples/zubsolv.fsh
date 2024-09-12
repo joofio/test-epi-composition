@@ -1351,6 +1351,7 @@ RuleSet: cfd694ab9fea1a901bb7d3272079545aListRuleset
 
 Instance: List-cfd694ab9fea1a901bb7d3272079545a
 InstanceOf: List
+Description: "ePI document List for zubsolv Package Leaflets"
 
 * insert cfd694ab9fea1a901bb7d3272079545aListRuleset
     

@@ -1604,6 +1604,7 @@ RuleSet: d4e8178d3a905eabdd581f1645891fb4ListRuleset
 
 Instance: List-d4e8178d3a905eabdd581f1645891fb4
 InstanceOf: List
+Description: "ePI document List for prevymis Package Leaflets"
 
 * insert d4e8178d3a905eabdd581f1645891fb4ListRuleset
     

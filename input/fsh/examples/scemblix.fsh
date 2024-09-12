@@ -1046,6 +1046,7 @@ RuleSet: 43a04579e02ef19c7380d883dba8b26fListRuleset
 
 Instance: List-43a04579e02ef19c7380d883dba8b26f
 InstanceOf: List
+Description: "ePI document List for scemblix Package Leaflets"
 
 * insert 43a04579e02ef19c7380d883dba8b26fListRuleset
     

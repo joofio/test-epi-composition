@@ -1022,6 +1022,7 @@ RuleSet: ba6a3e01d1da47ecc915e34664ffddafListRuleset
 
 Instance: List-ba6a3e01d1da47ecc915e34664ffddaf
 InstanceOf: List
+Description: "ePI document List for simbrinza Package Leaflets"
 
 * insert ba6a3e01d1da47ecc915e34664ffddafListRuleset
     

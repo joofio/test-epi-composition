@@ -1655,6 +1655,7 @@ RuleSet: e9af86ad22ac9c13e3208cd0b150b229ListRuleset
 
 Instance: List-e9af86ad22ac9c13e3208cd0b150b229
 InstanceOf: List
+Description: "ePI document List for olumiant Package Leaflets"
 
 * insert e9af86ad22ac9c13e3208cd0b150b229ListRuleset
     

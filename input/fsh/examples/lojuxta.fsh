@@ -1402,6 +1402,7 @@ RuleSet: 02b234fa664dab0f39045c8374bebc79ListRuleset
 
 Instance: List-02b234fa664dab0f39045c8374bebc79
 InstanceOf: List
+Description: "ePI document List for lojuxta Package Leaflets"
 
 * insert 02b234fa664dab0f39045c8374bebc79ListRuleset
     

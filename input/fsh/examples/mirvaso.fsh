@@ -1018,6 +1018,7 @@ RuleSet: 7f09c8319207b8e58a7db33f5a93be62ListRuleset
 
 Instance: List-7f09c8319207b8e58a7db33f5a93be62
 InstanceOf: List
+Description: "ePI document List for mirvaso Package Leaflets"
 
 * insert 7f09c8319207b8e58a7db33f5a93be62ListRuleset
     

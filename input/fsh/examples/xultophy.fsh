@@ -1608,6 +1608,7 @@ RuleSet: 616a2493f2581291ddc019d50fec7c8bListRuleset
 
 Instance: List-616a2493f2581291ddc019d50fec7c8b
 InstanceOf: List
+Description: "ePI document List for xultophy Package Leaflets"
 
 * insert 616a2493f2581291ddc019d50fec7c8bListRuleset
     

@@ -1928,6 +1928,7 @@ RuleSet: 7735eb5a61959c532a72049da08ec908ListRuleset
 
 Instance: List-7735eb5a61959c532a72049da08ec908
 InstanceOf: List
+Description: "ePI document List for qtern Package Leaflets"
 
 * insert 7735eb5a61959c532a72049da08ec908ListRuleset
     

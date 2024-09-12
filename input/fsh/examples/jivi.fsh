@@ -1098,6 +1098,7 @@ RuleSet: 2a82ca3c186080c5b1ee752847b09ce0ListRuleset
 
 Instance: List-2a82ca3c186080c5b1ee752847b09ce0
 InstanceOf: List
+Description: "ePI document List for jivi Package Leaflets"
 
 * insert 2a82ca3c186080c5b1ee752847b09ce0ListRuleset
     

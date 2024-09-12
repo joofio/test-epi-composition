@@ -1406,6 +1406,7 @@ RuleSet: 7aec1315865776793cc9c31ea9e857c4ListRuleset
 
 Instance: List-7aec1315865776793cc9c31ea9e857c4
 InstanceOf: List
+Description: "ePI document List for fasenra Package Leaflets"
 
 * insert 7aec1315865776793cc9c31ea9e857c4ListRuleset
     

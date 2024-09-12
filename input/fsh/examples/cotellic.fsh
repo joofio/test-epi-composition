@@ -1068,6 +1068,7 @@ RuleSet: 3a2e83e300727740331b28eb7f2593e4ListRuleset
 
 Instance: List-3a2e83e300727740331b28eb7f2593e4
 InstanceOf: List
+Description: "ePI document List for cotellic Package Leaflets"
 
 * insert 3a2e83e300727740331b28eb7f2593e4ListRuleset
     

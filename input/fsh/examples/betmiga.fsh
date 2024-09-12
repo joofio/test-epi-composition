@@ -845,6 +845,7 @@ RuleSet: f5fcc043447c207ce2e1eb4575399a55ListRuleset
 
 Instance: List-f5fcc043447c207ce2e1eb4575399a55
 InstanceOf: List
+Description: "ePI document List for betmiga Package Leaflets"
 
 * insert f5fcc043447c207ce2e1eb4575399a55ListRuleset
     

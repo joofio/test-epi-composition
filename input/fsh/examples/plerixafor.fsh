@@ -994,6 +994,7 @@ RuleSet: aefacad9a6795a89d3df82b1bc20e9aaListRuleset
 
 Instance: List-aefacad9a6795a89d3df82b1bc20e9aa
 InstanceOf: List
+Description: "ePI document List for plerixafor Package Leaflets"
 
 * insert aefacad9a6795a89d3df82b1bc20e9aaListRuleset
     

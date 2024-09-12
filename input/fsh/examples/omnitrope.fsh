@@ -1881,6 +1881,7 @@ RuleSet: 552224bdd5379f4c4cfefcd5a85f0788ListRuleset
 
 Instance: List-552224bdd5379f4c4cfefcd5a85f0788
 InstanceOf: List
+Description: "ePI document List for omnitrope Package Leaflets"
 
 * insert 552224bdd5379f4c4cfefcd5a85f0788ListRuleset
     

@@ -2262,6 +2262,7 @@ RuleSet: 62a8f25678d9e8ed32026d400d8228e9ListRuleset
 
 Instance: List-62a8f25678d9e8ed32026d400d8228e9
 InstanceOf: List
+Description: "ePI document List for gilenya Package Leaflets"
 
 * insert 62a8f25678d9e8ed32026d400d8228e9ListRuleset
     

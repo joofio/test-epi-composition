@@ -1497,6 +1497,7 @@ RuleSet: 3b1bfab780521579dbd0b44f84c44d4cListRuleset
 
 Instance: List-3b1bfab780521579dbd0b44f84c44d4c
 InstanceOf: List
+Description: "ePI document List for trevicta Package Leaflets"
 
 * insert 3b1bfab780521579dbd0b44f84c44d4cListRuleset
     

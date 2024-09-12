@@ -894,6 +894,7 @@ RuleSet: 74802c3f483c85b7b9c5aba153dab57dListRuleset
 
 Instance: List-74802c3f483c85b7b9c5aba153dab57d
 InstanceOf: List
+Description: "ePI document List for adcirca Package Leaflets"
 
 * insert 74802c3f483c85b7b9c5aba153dab57dListRuleset
     

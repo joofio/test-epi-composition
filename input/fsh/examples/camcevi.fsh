@@ -1522,6 +1522,7 @@ RuleSet: d96fa44827f5ab161c32cbffe0ee34b9ListRuleset
 
 Instance: List-d96fa44827f5ab161c32cbffe0ee34b9
 InstanceOf: List
+Description: "ePI document List for camcevi Package Leaflets"
 
 * insert d96fa44827f5ab161c32cbffe0ee34b9ListRuleset
     

@@ -890,6 +890,7 @@ RuleSet: 6dd92eeff0b9acf2637c14b216fa6b97ListRuleset
 
 Instance: List-6dd92eeff0b9acf2637c14b216fa6b97
 InstanceOf: List
+Description: "ePI document List for kinpeygo Package Leaflets"
 
 * insert 6dd92eeff0b9acf2637c14b216fa6b97ListRuleset
     

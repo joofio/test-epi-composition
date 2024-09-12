@@ -2225,6 +2225,7 @@ RuleSet: 5df3251458790d2240f34b809fdcc93eListRuleset
 
 Instance: List-5df3251458790d2240f34b809fdcc93e
 InstanceOf: List
+Description: "ePI document List for aqumeldi Package Leaflets"
 
 * insert 5df3251458790d2240f34b809fdcc93eListRuleset
     

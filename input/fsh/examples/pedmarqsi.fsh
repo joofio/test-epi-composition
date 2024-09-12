@@ -709,6 +709,7 @@ RuleSet: b61e3b7d3b2a48a0ce57af4f9ff7b307ListRuleset
 
 Instance: List-b61e3b7d3b2a48a0ce57af4f9ff7b307
 InstanceOf: List
+Description: "ePI document List for pedmarqsi Package Leaflets"
 
 * insert b61e3b7d3b2a48a0ce57af4f9ff7b307ListRuleset
     

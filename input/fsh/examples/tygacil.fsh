@@ -1357,6 +1357,7 @@ RuleSet: e58616440ae4dbe3d75414bff85541e0ListRuleset
 
 Instance: List-e58616440ae4dbe3d75414bff85541e0
 InstanceOf: List
+Description: "ePI document List for tygacil Package Leaflets"
 
 * insert e58616440ae4dbe3d75414bff85541e0ListRuleset
     

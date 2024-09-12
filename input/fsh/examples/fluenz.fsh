@@ -1329,6 +1329,7 @@ RuleSet: 2a76f37ef539585b5462eb33582e394eListRuleset
 
 Instance: List-2a76f37ef539585b5462eb33582e394e
 InstanceOf: List
+Description: "ePI document List for fluenz Package Leaflets"
 
 * insert 2a76f37ef539585b5462eb33582e394eListRuleset
     

@@ -1790,6 +1790,7 @@ RuleSet: 9648a8c3d3b260e0c01496efb4b0ef56ListRuleset
 
 Instance: List-9648a8c3d3b260e0c01496efb4b0ef56
 InstanceOf: List
+Description: "ePI document List for vosevi Package Leaflets"
 
 * insert 9648a8c3d3b260e0c01496efb4b0ef56ListRuleset
     

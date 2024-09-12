@@ -1375,6 +1375,7 @@ RuleSet: e3eab3746eb66351cd9da3360c55a431ListRuleset
 
 Instance: List-e3eab3746eb66351cd9da3360c55a431
 InstanceOf: List
+Description: "ePI document List for januvia Package Leaflets"
 
 * insert e3eab3746eb66351cd9da3360c55a431ListRuleset
     

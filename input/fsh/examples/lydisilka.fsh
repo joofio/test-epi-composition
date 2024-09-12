@@ -1922,6 +1922,7 @@ RuleSet: c4f905f197a0b095e7beed90273743e5ListRuleset
 
 Instance: List-c4f905f197a0b095e7beed90273743e5
 InstanceOf: List
+Description: "ePI document List for lydisilka Package Leaflets"
 
 * insert c4f905f197a0b095e7beed90273743e5ListRuleset
     

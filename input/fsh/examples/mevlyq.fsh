@@ -1005,6 +1005,7 @@ RuleSet: 72698f459e623b86f3f80561e5b525b7ListRuleset
 
 Instance: List-72698f459e623b86f3f80561e5b525b7
 InstanceOf: List
+Description: "ePI document List for mevlyq Package Leaflets"
 
 * insert 72698f459e623b86f3f80561e5b525b7ListRuleset
     

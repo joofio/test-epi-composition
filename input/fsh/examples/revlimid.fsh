@@ -1845,6 +1845,7 @@ RuleSet: 029daacbd89e23b3c2659a90ebac249aListRuleset
 
 Instance: List-029daacbd89e23b3c2659a90ebac249a
 InstanceOf: List
+Description: "ePI document List for revlimid Package Leaflets"
 
 * insert 029daacbd89e23b3c2659a90ebac249aListRuleset
     

@@ -1620,6 +1620,7 @@ RuleSet: 51634c89fd4b34ec036bc5c7b8243dfaListRuleset
 
 Instance: List-51634c89fd4b34ec036bc5c7b8243dfa
 InstanceOf: List
+Description: "ePI document List for nyvepria Package Leaflets"
 
 * insert 51634c89fd4b34ec036bc5c7b8243dfaListRuleset
     

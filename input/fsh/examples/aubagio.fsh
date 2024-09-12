@@ -1626,6 +1626,7 @@ RuleSet: 69e7e3b7b762d214fbbb48c707c30105ListRuleset
 
 Instance: List-69e7e3b7b762d214fbbb48c707c30105
 InstanceOf: List
+Description: "ePI document List for aubagio Package Leaflets"
 
 * insert 69e7e3b7b762d214fbbb48c707c30105ListRuleset
     

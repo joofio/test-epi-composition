@@ -2183,6 +2183,7 @@ RuleSet: c5a54b11d8107e662bc760b43da975c8ListRuleset
 
 Instance: List-c5a54b11d8107e662bc760b43da975c8
 InstanceOf: List
+Description: "ePI document List for benepali Package Leaflets"
 
 * insert c5a54b11d8107e662bc760b43da975c8ListRuleset
     

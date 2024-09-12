@@ -1184,6 +1184,7 @@ RuleSet: da0c248904d382a9eb3bce64c5a02953ListRuleset
 
 Instance: List-da0c248904d382a9eb3bce64c5a02953
 InstanceOf: List
+Description: "ePI document List for veltassa Package Leaflets"
 
 * insert da0c248904d382a9eb3bce64c5a02953ListRuleset
     

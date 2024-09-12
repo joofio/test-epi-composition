@@ -1843,6 +1843,7 @@ RuleSet: 0f6a84278808352360adad06f9595bc9ListRuleset
 
 Instance: List-0f6a84278808352360adad06f9595bc9
 InstanceOf: List
+Description: "ePI document List for herwenda Package Leaflets"
 
 * insert 0f6a84278808352360adad06f9595bc9ListRuleset
     

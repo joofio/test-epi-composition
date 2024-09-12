@@ -1314,6 +1314,7 @@ RuleSet: 092a7f5395bb9583ad450174eeb4a512ListRuleset
 
 Instance: List-092a7f5395bb9583ad450174eeb4a512
 InstanceOf: List
+Description: "ePI document List for cyramza Package Leaflets"
 
 * insert 092a7f5395bb9583ad450174eeb4a512ListRuleset
     

@@ -1653,6 +1653,7 @@ RuleSet: 749702afc7782cf3e72848a0a0ebc924ListRuleset
 
 Instance: List-749702afc7782cf3e72848a0a0ebc924
 InstanceOf: List
+Description: "ePI document List for tarceva Package Leaflets"
 
 * insert 749702afc7782cf3e72848a0a0ebc924ListRuleset
     

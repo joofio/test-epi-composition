@@ -1645,6 +1645,7 @@ RuleSet: 6455d7711efcb7c39e76872d121d19e0ListRuleset
 
 Instance: List-6455d7711efcb7c39e76872d121d19e0
 InstanceOf: List
+Description: "ePI document List for esbriet Package Leaflets"
 
 * insert 6455d7711efcb7c39e76872d121d19e0ListRuleset
     

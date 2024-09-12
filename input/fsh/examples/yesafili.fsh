@@ -1026,6 +1026,7 @@ RuleSet: 287bc5c0cd4c93468a645b4df30664e2ListRuleset
 
 Instance: List-287bc5c0cd4c93468a645b4df30664e2
 InstanceOf: List
+Description: "ePI document List for yesafili Package Leaflets"
 
 * insert 287bc5c0cd4c93468a645b4df30664e2ListRuleset
     

@@ -1322,6 +1322,7 @@ RuleSet: 95a6c6d44fd775697ee8966bf749780cListRuleset
 
 Instance: List-95a6c6d44fd775697ee8966bf749780c
 InstanceOf: List
+Description: "ePI document List for ranivisio Package Leaflets"
 
 * insert 95a6c6d44fd775697ee8966bf749780cListRuleset
     

@@ -1409,6 +1409,7 @@ RuleSet: 7e98051b7b877024b322905712140ea8ListRuleset
 
 Instance: List-7e98051b7b877024b322905712140ea8
 InstanceOf: List
+Description: "ePI document List for abecma Package Leaflets"
 
 * insert 7e98051b7b877024b322905712140ea8ListRuleset
     

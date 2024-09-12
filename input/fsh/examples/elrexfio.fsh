@@ -1496,6 +1496,7 @@ RuleSet: 80012b09e7b7a78ced217a2ccd81660eListRuleset
 
 Instance: List-80012b09e7b7a78ced217a2ccd81660e
 InstanceOf: List
+Description: "ePI document List for elrexfio Package Leaflets"
 
 * insert 80012b09e7b7a78ced217a2ccd81660eListRuleset
     

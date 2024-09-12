@@ -2306,6 +2306,7 @@ RuleSet: 448b9ada9b9514edd6724425bc5c528eListRuleset
 
 Instance: List-448b9ada9b9514edd6724425bc5c528e
 InstanceOf: List
+Description: "ePI document List for duoresp Package Leaflets"
 
 * insert 448b9ada9b9514edd6724425bc5c528eListRuleset
     

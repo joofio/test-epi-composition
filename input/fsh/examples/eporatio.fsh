@@ -1297,6 +1297,7 @@ RuleSet: f46407e1e0462c87d0387a21507bffa2ListRuleset
 
 Instance: List-f46407e1e0462c87d0387a21507bffa2
 InstanceOf: List
+Description: "ePI document List for eporatio Package Leaflets"
 
 * insert f46407e1e0462c87d0387a21507bffa2ListRuleset
     

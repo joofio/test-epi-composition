@@ -1453,6 +1453,7 @@ RuleSet: d32ad2b352bb6245babc6f24db3ed9faListRuleset
 
 Instance: List-d32ad2b352bb6245babc6f24db3ed9fa
 InstanceOf: List
+Description: "ePI document List for ziextenzo Package Leaflets"
 
 * insert d32ad2b352bb6245babc6f24db3ed9faListRuleset
     

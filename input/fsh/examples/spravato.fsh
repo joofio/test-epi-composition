@@ -1263,6 +1263,7 @@ RuleSet: 15885cc7c5a4f088fdfc128fa6bb5034ListRuleset
 
 Instance: List-15885cc7c5a4f088fdfc128fa6bb5034
 InstanceOf: List
+Description: "ePI document List for spravato Package Leaflets"
 
 * insert 15885cc7c5a4f088fdfc128fa6bb5034ListRuleset
     

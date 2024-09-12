@@ -885,6 +885,7 @@ RuleSet: e8ab7070a1e099803634040c1dcebc5bListRuleset
 
 Instance: List-e8ab7070a1e099803634040c1dcebc5b
 InstanceOf: List
+Description: "ePI document List for miglustat Package Leaflets"
 
 * insert e8ab7070a1e099803634040c1dcebc5bListRuleset
     

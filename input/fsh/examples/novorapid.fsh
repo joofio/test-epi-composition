@@ -1690,6 +1690,7 @@ RuleSet: 1c483862a2de53c1f77db26617c2401eListRuleset
 
 Instance: List-1c483862a2de53c1f77db26617c2401e
 InstanceOf: List
+Description: "ePI document List for novorapid Package Leaflets"
 
 * insert 1c483862a2de53c1f77db26617c2401eListRuleset
     

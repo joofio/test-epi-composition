@@ -1959,6 +1959,7 @@ RuleSet: 06f9b891f2158becb7dcf14e44abf883ListRuleset
 
 Instance: List-06f9b891f2158becb7dcf14e44abf883
 InstanceOf: List
+Description: "ePI document List for roactemra Package Leaflets"
 
 * insert 06f9b891f2158becb7dcf14e44abf883ListRuleset
     

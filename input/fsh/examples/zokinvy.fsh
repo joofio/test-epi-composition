@@ -2089,6 +2089,7 @@ RuleSet: 899927b87eee0edddf78e53b80fec139ListRuleset
 
 Instance: List-899927b87eee0edddf78e53b80fec139
 InstanceOf: List
+Description: "ePI document List for zokinvy Package Leaflets"
 
 * insert 899927b87eee0edddf78e53b80fec139ListRuleset
     

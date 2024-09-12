@@ -1124,6 +1124,7 @@ RuleSet: e591146dd189692c568ef28e3005a424ListRuleset
 
 Instance: List-e591146dd189692c568ef28e3005a424
 InstanceOf: List
+Description: "ePI document List for jakavi Package Leaflets"
 
 * insert e591146dd189692c568ef28e3005a424ListRuleset
     

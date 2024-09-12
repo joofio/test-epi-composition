@@ -1489,6 +1489,7 @@ RuleSet: 961faf0eee8775284864611bbc5e6fdbListRuleset
 
 Instance: List-961faf0eee8775284864611bbc5e6fdb
 InstanceOf: List
+Description: "ePI document List for icandra Package Leaflets"
 
 * insert 961faf0eee8775284864611bbc5e6fdbListRuleset
     

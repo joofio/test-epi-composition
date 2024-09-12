@@ -1271,6 +1271,7 @@ RuleSet: f09921a712319be762e8c3e2baca4fd9ListRuleset
 
 Instance: List-f09921a712319be762e8c3e2baca4fd9
 InstanceOf: List
+Description: "ePI document List for rozlytrek Package Leaflets"
 
 * insert f09921a712319be762e8c3e2baca4fd9ListRuleset
     

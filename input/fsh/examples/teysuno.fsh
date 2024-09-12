@@ -1123,6 +1123,7 @@ RuleSet: fb96b1dc5afe6a6be061ee19866b2fbcListRuleset
 
 Instance: List-fb96b1dc5afe6a6be061ee19866b2fbc
 InstanceOf: List
+Description: "ePI document List for teysuno Package Leaflets"
 
 * insert fb96b1dc5afe6a6be061ee19866b2fbcListRuleset
     

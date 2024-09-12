@@ -1371,6 +1371,7 @@ RuleSet: 245a99986bb61c23af35c57856a26746ListRuleset
 
 Instance: List-245a99986bb61c23af35c57856a26746
 InstanceOf: List
+Description: "ePI document List for ifirmasta Package Leaflets"
 
 * insert 245a99986bb61c23af35c57856a26746ListRuleset
     

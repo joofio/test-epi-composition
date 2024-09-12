@@ -1241,6 +1241,7 @@ RuleSet: 7fc3f5c304b57f3b5fe9dfeb5e8133deListRuleset
 
 Instance: List-7fc3f5c304b57f3b5fe9dfeb5e8133de
 InstanceOf: List
+Description: "ePI document List for dzuveo Package Leaflets"
 
 * insert 7fc3f5c304b57f3b5fe9dfeb5e8133deListRuleset
     

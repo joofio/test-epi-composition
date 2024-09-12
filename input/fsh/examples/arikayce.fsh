@@ -1152,6 +1152,7 @@ RuleSet: 5567fe4258ad803585d82a002a45d53aListRuleset
 
 Instance: List-5567fe4258ad803585d82a002a45d53a
 InstanceOf: List
+Description: "ePI document List for arikayce Package Leaflets"
 
 * insert 5567fe4258ad803585d82a002a45d53aListRuleset
     

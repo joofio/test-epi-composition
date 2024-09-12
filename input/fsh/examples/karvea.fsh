@@ -927,6 +927,7 @@ RuleSet: d99852efa4d4976d99a584078a2ca48cListRuleset
 
 Instance: List-d99852efa4d4976d99a584078a2ca48c
 InstanceOf: List
+Description: "ePI document List for karvea Package Leaflets"
 
 * insert d99852efa4d4976d99a584078a2ca48cListRuleset
     

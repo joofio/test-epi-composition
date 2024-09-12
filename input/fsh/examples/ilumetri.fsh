@@ -889,6 +889,7 @@ RuleSet: 4ef629a7127d0f0a54242fe28701c54cListRuleset
 
 Instance: List-4ef629a7127d0f0a54242fe28701c54c
 InstanceOf: List
+Description: "ePI document List for ilumetri Package Leaflets"
 
 * insert 4ef629a7127d0f0a54242fe28701c54cListRuleset
     

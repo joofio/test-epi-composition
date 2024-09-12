@@ -744,6 +744,7 @@ RuleSet: f556f9575aa3afd9667732b8d9b41fc4ListRuleset
 
 Instance: List-f556f9575aa3afd9667732b8d9b41fc4
 InstanceOf: List
+Description: "ePI document List for striascan Package Leaflets"
 
 * insert f556f9575aa3afd9667732b8d9b41fc4ListRuleset
     

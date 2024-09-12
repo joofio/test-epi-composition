@@ -1131,6 +1131,7 @@ RuleSet: 3f214a4f5ac8e3dc74014e21089eb5bcListRuleset
 
 Instance: List-3f214a4f5ac8e3dc74014e21089eb5bc
 InstanceOf: List
+Description: "ePI document List for vaxneuvance Package Leaflets"
 
 * insert 3f214a4f5ac8e3dc74014e21089eb5bcListRuleset
     

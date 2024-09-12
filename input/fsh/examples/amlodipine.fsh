@@ -1057,6 +1057,7 @@ RuleSet: 613075564472c8742b180667f231d172ListRuleset
 
 Instance: List-613075564472c8742b180667f231d172
 InstanceOf: List
+Description: "ePI document List for amlodipine Package Leaflets"
 
 * insert 613075564472c8742b180667f231d172ListRuleset
     

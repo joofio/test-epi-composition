@@ -1359,6 +1359,7 @@ RuleSet: 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
 
 Instance: List-4aba175a0cd44d120f1be90c1da17ad7
 InstanceOf: List
+Description: "ePI document List for zynlonta Package Leaflets"
 
 * insert 4aba175a0cd44d120f1be90c1da17ad7ListRuleset
     

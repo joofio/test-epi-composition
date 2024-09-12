@@ -1233,6 +1233,7 @@ RuleSet: 8d69d820c695d3ae73c4c08229874072ListRuleset
 
 Instance: List-8d69d820c695d3ae73c4c08229874072
 InstanceOf: List
+Description: "ePI document List for accofil Package Leaflets"
 
 * insert 8d69d820c695d3ae73c4c08229874072ListRuleset
     

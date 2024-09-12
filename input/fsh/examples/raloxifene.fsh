@@ -859,6 +859,7 @@ RuleSet: e27db7be57c176c4d945aa1d06a95aa5ListRuleset
 
 Instance: List-e27db7be57c176c4d945aa1d06a95aa5
 InstanceOf: List
+Description: "ePI document List for raloxifene Package Leaflets"
 
 * insert e27db7be57c176c4d945aa1d06a95aa5ListRuleset
     

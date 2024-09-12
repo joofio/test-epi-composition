@@ -1170,6 +1170,7 @@ RuleSet: 741439ba6d0ec3fbe3a33d580ea9911dListRuleset
 
 Instance: List-741439ba6d0ec3fbe3a33d580ea9911d
 InstanceOf: List
+Description: "ePI document List for dynastat Package Leaflets"
 
 * insert 741439ba6d0ec3fbe3a33d580ea9911dListRuleset
     

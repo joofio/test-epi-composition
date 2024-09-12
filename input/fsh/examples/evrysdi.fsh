@@ -1947,6 +1947,7 @@ RuleSet: d74c016d307ba635374b9ac3d63d2f85ListRuleset
 
 Instance: List-d74c016d307ba635374b9ac3d63d2f85
 InstanceOf: List
+Description: "ePI document List for evrysdi Package Leaflets"
 
 * insert d74c016d307ba635374b9ac3d63d2f85ListRuleset
     

@@ -1481,6 +1481,7 @@ RuleSet: d7f220f9031e8b4b6b6e866b11abbe3aListRuleset
 
 Instance: List-d7f220f9031e8b4b6b6e866b11abbe3a
 InstanceOf: List
+Description: "ePI document List for tagrisso Package Leaflets"
 
 * insert d7f220f9031e8b4b6b6e866b11abbe3aListRuleset
     

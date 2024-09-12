@@ -1182,6 +1182,7 @@ RuleSet: 888f93180b4dbc4cf7451a0e821152daListRuleset
 
 Instance: List-888f93180b4dbc4cf7451a0e821152da
 InstanceOf: List
+Description: "ePI document List for atectura Package Leaflets"
 
 * insert 888f93180b4dbc4cf7451a0e821152daListRuleset
     

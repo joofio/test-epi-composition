@@ -1596,6 +1596,7 @@ RuleSet: 0ab8cf0cd2257bee1916fb1bd19c98b3ListRuleset
 
 Instance: List-0ab8cf0cd2257bee1916fb1bd19c98b3
 InstanceOf: List
+Description: "ePI document List for riarify Package Leaflets"
 
 * insert 0ab8cf0cd2257bee1916fb1bd19c98b3ListRuleset
     

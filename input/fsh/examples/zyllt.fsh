@@ -977,6 +977,7 @@ RuleSet: 3309175bd74a8d4a368db89c295b9d95ListRuleset
 
 Instance: List-3309175bd74a8d4a368db89c295b9d95
 InstanceOf: List
+Description: "ePI document List for zyllt Package Leaflets"
 
 * insert 3309175bd74a8d4a368db89c295b9d95ListRuleset
     

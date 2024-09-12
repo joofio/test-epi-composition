@@ -945,6 +945,7 @@ RuleSet: 2375351779f4cfe48aee447608551b6cListRuleset
 
 Instance: List-2375351779f4cfe48aee447608551b6c
 InstanceOf: List
+Description: "ePI document List for dacogen Package Leaflets"
 
 * insert 2375351779f4cfe48aee447608551b6cListRuleset
     

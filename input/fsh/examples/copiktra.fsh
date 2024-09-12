@@ -1469,6 +1469,7 @@ RuleSet: 74778e8109bf478af8bf20ce15b25c4cListRuleset
 
 Instance: List-74778e8109bf478af8bf20ce15b25c4c
 InstanceOf: List
+Description: "ePI document List for copiktra Package Leaflets"
 
 * insert 74778e8109bf478af8bf20ce15b25c4cListRuleset
     

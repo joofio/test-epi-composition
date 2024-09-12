@@ -1021,6 +1021,7 @@ RuleSet: e4e2fe5de212dd30e27726e0694aae72ListRuleset
 
 Instance: List-e4e2fe5de212dd30e27726e0694aae72
 InstanceOf: List
+Description: "ePI document List for emend Package Leaflets"
 
 * insert e4e2fe5de212dd30e27726e0694aae72ListRuleset
     

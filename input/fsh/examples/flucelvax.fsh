@@ -1306,6 +1306,7 @@ RuleSet: 56a32a5ee239fc834b47c10db1faa3fdListRuleset
 
 Instance: List-56a32a5ee239fc834b47c10db1faa3fd
 InstanceOf: List
+Description: "ePI document List for flucelvax Package Leaflets"
 
 * insert 56a32a5ee239fc834b47c10db1faa3fdListRuleset
     

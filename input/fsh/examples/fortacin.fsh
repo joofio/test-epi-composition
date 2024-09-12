@@ -1105,6 +1105,7 @@ RuleSet: 7595bd80b37f1612e8b528f48e44afffListRuleset
 
 Instance: List-7595bd80b37f1612e8b528f48e44afff
 InstanceOf: List
+Description: "ePI document List for fortacin Package Leaflets"
 
 * insert 7595bd80b37f1612e8b528f48e44afffListRuleset
     

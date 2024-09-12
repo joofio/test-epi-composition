@@ -1113,6 +1113,7 @@ RuleSet: 7213aca022d38d404e1e1e0d23413856ListRuleset
 
 Instance: List-7213aca022d38d404e1e1e0d23413856
 InstanceOf: List
+Description: "ePI document List for nexpovio Package Leaflets"
 
 * insert 7213aca022d38d404e1e1e0d23413856ListRuleset
     

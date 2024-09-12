@@ -1135,6 +1135,7 @@ RuleSet: 951d8a8dc27e4bf24952f3a016066e45ListRuleset
 
 Instance: List-951d8a8dc27e4bf24952f3a016066e45
 InstanceOf: List
+Description: "ePI document List for omjjara Package Leaflets"
 
 * insert 951d8a8dc27e4bf24952f3a016066e45ListRuleset
     

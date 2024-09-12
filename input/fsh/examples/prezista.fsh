@@ -2538,6 +2538,7 @@ RuleSet: c73255ba16f112f8e9f93b50083ae06fListRuleset
 
 Instance: List-c73255ba16f112f8e9f93b50083ae06f
 InstanceOf: List
+Description: "ePI document List for prezista Package Leaflets"
 
 * insert c73255ba16f112f8e9f93b50083ae06fListRuleset
     

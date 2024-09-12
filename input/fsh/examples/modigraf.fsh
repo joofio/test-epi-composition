@@ -1925,6 +1925,7 @@ RuleSet: f4157e79e09e92e0d9cf70a720caf0e5ListRuleset
 
 Instance: List-f4157e79e09e92e0d9cf70a720caf0e5
 InstanceOf: List
+Description: "ePI document List for modigraf Package Leaflets"
 
 * insert f4157e79e09e92e0d9cf70a720caf0e5ListRuleset
     

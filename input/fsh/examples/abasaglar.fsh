@@ -33,7 +33,7 @@ Usage: #inline
 * category = epicategory-cs#R "Raw"
 
 
-* section[+]
+* section[+].
   * title = "B. Package Leaflet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "B. Package Leaflet"
@@ -1234,6 +1234,7 @@ RuleSet: 8774c315768c11f1f8299f9a299778e8ListRuleset
 
 Instance: List-8774c315768c11f1f8299f9a299778e8
 InstanceOf: List
+Description: "ePI document List for abasaglar Package Leaflets"
 
 * insert 8774c315768c11f1f8299f9a299778e8ListRuleset
     

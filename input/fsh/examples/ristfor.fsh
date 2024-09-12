@@ -1563,6 +1563,7 @@ RuleSet: 05a69c6884eb9ed145a2b3e550aec1c7ListRuleset
 
 Instance: List-05a69c6884eb9ed145a2b3e550aec1c7
 InstanceOf: List
+Description: "ePI document List for ristfor Package Leaflets"
 
 * insert 05a69c6884eb9ed145a2b3e550aec1c7ListRuleset
     

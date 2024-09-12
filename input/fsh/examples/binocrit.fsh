@@ -2178,6 +2178,7 @@ RuleSet: 6f8fb6a1c6179a9554b85e75fc6f0388ListRuleset
 
 Instance: List-6f8fb6a1c6179a9554b85e75fc6f0388
 InstanceOf: List
+Description: "ePI document List for binocrit Package Leaflets"
 
 * insert 6f8fb6a1c6179a9554b85e75fc6f0388ListRuleset
     

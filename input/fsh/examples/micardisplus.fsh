@@ -1816,6 +1816,7 @@ RuleSet: 18d3cb5ee6c8628dd45333381c7f88b9ListRuleset
 
 Instance: List-18d3cb5ee6c8628dd45333381c7f88b9
 InstanceOf: List
+Description: "ePI document List for micardisplus Package Leaflets"
 
 * insert 18d3cb5ee6c8628dd45333381c7f88b9ListRuleset
     

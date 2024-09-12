@@ -2156,6 +2156,7 @@ RuleSet: 234b7cd047275c814324a4fe38812d55ListRuleset
 
 Instance: List-234b7cd047275c814324a4fe38812d55
 InstanceOf: List
+Description: "ePI document List for nplate Package Leaflets"
 
 * insert 234b7cd047275c814324a4fe38812d55ListRuleset
     

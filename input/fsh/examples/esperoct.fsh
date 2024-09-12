@@ -1567,6 +1567,7 @@ RuleSet: 4235a6fbbdf6cea7a0c9802b3f2102e6ListRuleset
 
 Instance: List-4235a6fbbdf6cea7a0c9802b3f2102e6
 InstanceOf: List
+Description: "ePI document List for esperoct Package Leaflets"
 
 * insert 4235a6fbbdf6cea7a0c9802b3f2102e6ListRuleset
     

@@ -938,6 +938,7 @@ RuleSet: c4dcd27eb46fddef4eed0adfcbbf3b5eListRuleset
 
 Instance: List-c4dcd27eb46fddef4eed0adfcbbf3b5e
 InstanceOf: List
+Description: "ePI document List for cevenfacta Package Leaflets"
 
 * insert c4dcd27eb46fddef4eed0adfcbbf3b5eListRuleset
     

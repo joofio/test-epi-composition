@@ -1067,6 +1067,7 @@ RuleSet: 167401fb8187f3756835cc75cca90e3cListRuleset
 
 Instance: List-167401fb8187f3756835cc75cca90e3c
 InstanceOf: List
+Description: "ePI document List for lumykras Package Leaflets"
 
 * insert 167401fb8187f3756835cc75cca90e3cListRuleset
     

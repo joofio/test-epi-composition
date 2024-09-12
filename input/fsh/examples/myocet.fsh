@@ -1053,6 +1053,7 @@ RuleSet: 0c5e12e3bf77e98e54b67519ddda8471ListRuleset
 
 Instance: List-0c5e12e3bf77e98e54b67519ddda8471
 InstanceOf: List
+Description: "ePI document List for myocet Package Leaflets"
 
 * insert 0c5e12e3bf77e98e54b67519ddda8471ListRuleset
     

@@ -2044,6 +2044,7 @@ RuleSet: b1355bc14a128fa4430d01fced9887b5ListRuleset
 
 Instance: List-b1355bc14a128fa4430d01fced9887b5
 InstanceOf: List
+Description: "ePI document List for ervebo Package Leaflets"
 
 * insert b1355bc14a128fa4430d01fced9887b5ListRuleset
     

@@ -1554,6 +1554,7 @@ RuleSet: 0b50019879610f5c496f0994be72cd16ListRuleset
 
 Instance: List-0b50019879610f5c496f0994be72cd16
 InstanceOf: List
+Description: "ePI document List for prasugrel Package Leaflets"
 
 * insert 0b50019879610f5c496f0994be72cd16ListRuleset
     

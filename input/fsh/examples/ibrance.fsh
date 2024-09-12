@@ -1297,6 +1297,7 @@ RuleSet: c81102ba15ecf1ae72d97505f0c21e9dListRuleset
 
 Instance: List-c81102ba15ecf1ae72d97505f0c21e9d
 InstanceOf: List
+Description: "ePI document List for ibrance Package Leaflets"
 
 * insert c81102ba15ecf1ae72d97505f0c21e9dListRuleset
     

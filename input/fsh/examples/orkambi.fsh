@@ -1171,6 +1171,7 @@ RuleSet: 8eabca438b9c6aec8be0a0c5c738daddListRuleset
 
 Instance: List-8eabca438b9c6aec8be0a0c5c738dadd
 InstanceOf: List
+Description: "ePI document List for orkambi Package Leaflets"
 
 * insert 8eabca438b9c6aec8be0a0c5c738daddListRuleset
     

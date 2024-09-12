@@ -1710,6 +1710,7 @@ RuleSet: 257716587c0bc57c8b7f0da168f8cf11ListRuleset
 
 Instance: List-257716587c0bc57c8b7f0da168f8cf11
 InstanceOf: List
+Description: "ePI document List for sixmo Package Leaflets"
 
 * insert 257716587c0bc57c8b7f0da168f8cf11ListRuleset
     

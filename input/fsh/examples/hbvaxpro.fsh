@@ -848,6 +848,7 @@ RuleSet: 8f194b3a85e80bebf07798b496672e52ListRuleset
 
 Instance: List-8f194b3a85e80bebf07798b496672e52
 InstanceOf: List
+Description: "ePI document List for hbvaxpro Package Leaflets"
 
 * insert 8f194b3a85e80bebf07798b496672e52ListRuleset
     

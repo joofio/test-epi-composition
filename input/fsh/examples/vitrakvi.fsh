@@ -1243,6 +1243,7 @@ RuleSet: f7d3ef50226760b75f06fdcf55be16abListRuleset
 
 Instance: List-f7d3ef50226760b75f06fdcf55be16ab
 InstanceOf: List
+Description: "ePI document List for vitrakvi Package Leaflets"
 
 * insert f7d3ef50226760b75f06fdcf55be16abListRuleset
     

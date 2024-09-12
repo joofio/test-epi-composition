@@ -1961,6 +1961,7 @@ RuleSet: 8921696d13cf74e5c9697718160f9f03ListRuleset
 
 Instance: List-8921696d13cf74e5c9697718160f9f03
 InstanceOf: List
+Description: "ePI document List for lunsumio Package Leaflets"
 
 * insert 8921696d13cf74e5c9697718160f9f03ListRuleset
     

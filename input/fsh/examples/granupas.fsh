@@ -1483,6 +1483,7 @@ RuleSet: eb144117bf1832a81a0b81022c43f19dListRuleset
 
 Instance: List-eb144117bf1832a81a0b81022c43f19d
 InstanceOf: List
+Description: "ePI document List for granupas Package Leaflets"
 
 * insert eb144117bf1832a81a0b81022c43f19dListRuleset
     

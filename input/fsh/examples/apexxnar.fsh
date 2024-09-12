@@ -433,6 +433,7 @@ RuleSet: d7b1f21254cfe6d481d9f6365694f530ListRuleset
 
 Instance: List-d7b1f21254cfe6d481d9f6365694f530
 InstanceOf: List
+Description: "ePI document List for apexxnar Package Leaflets"
 
 * insert d7b1f21254cfe6d481d9f6365694f530ListRuleset
     

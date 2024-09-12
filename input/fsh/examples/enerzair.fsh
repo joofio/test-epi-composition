@@ -1148,6 +1148,7 @@ RuleSet: 1fb50c5ea5593a30c5ce21444dd8c032ListRuleset
 
 Instance: List-1fb50c5ea5593a30c5ce21444dd8c032
 InstanceOf: List
+Description: "ePI document List for enerzair Package Leaflets"
 
 * insert 1fb50c5ea5593a30c5ce21444dd8c032ListRuleset
     

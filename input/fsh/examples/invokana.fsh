@@ -1209,6 +1209,7 @@ RuleSet: b0ec338c010ecf0f95bd7dc099830384ListRuleset
 
 Instance: List-b0ec338c010ecf0f95bd7dc099830384
 InstanceOf: List
+Description: "ePI document List for invokana Package Leaflets"
 
 * insert b0ec338c010ecf0f95bd7dc099830384ListRuleset
     

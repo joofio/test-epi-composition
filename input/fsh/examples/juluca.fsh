@@ -1325,6 +1325,7 @@ RuleSet: 376a3d5a41580231865d5fa194e42499ListRuleset
 
 Instance: List-376a3d5a41580231865d5fa194e42499
 InstanceOf: List
+Description: "ePI document List for juluca Package Leaflets"
 
 * insert 376a3d5a41580231865d5fa194e42499ListRuleset
     

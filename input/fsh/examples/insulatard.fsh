@@ -1055,6 +1055,7 @@ RuleSet: 6acef7c89d536bf2632b2cc29b5349e2ListRuleset
 
 Instance: List-6acef7c89d536bf2632b2cc29b5349e2
 InstanceOf: List
+Description: "ePI document List for insulatard Package Leaflets"
 
 * insert 6acef7c89d536bf2632b2cc29b5349e2ListRuleset
     

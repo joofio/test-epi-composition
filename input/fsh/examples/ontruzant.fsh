@@ -2228,6 +2228,7 @@ RuleSet: b685aeea2bdf7a0921a22706f03b5a68ListRuleset
 
 Instance: List-b685aeea2bdf7a0921a22706f03b5a68
 InstanceOf: List
+Description: "ePI document List for ontruzant Package Leaflets"
 
 * insert b685aeea2bdf7a0921a22706f03b5a68ListRuleset
     

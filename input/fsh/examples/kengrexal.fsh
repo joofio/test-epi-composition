@@ -872,6 +872,7 @@ RuleSet: eefded9fc6fc231de4e5964766009df5ListRuleset
 
 Instance: List-eefded9fc6fc231de4e5964766009df5
 InstanceOf: List
+Description: "ePI document List for kengrexal Package Leaflets"
 
 * insert eefded9fc6fc231de4e5964766009df5ListRuleset
     

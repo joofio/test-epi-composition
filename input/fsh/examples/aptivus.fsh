@@ -1520,6 +1520,7 @@ RuleSet: a8020a852a9fed523fd88e0aa8dbc86dListRuleset
 
 Instance: List-a8020a852a9fed523fd88e0aa8dbc86d
 InstanceOf: List
+Description: "ePI document List for aptivus Package Leaflets"
 
 * insert a8020a852a9fed523fd88e0aa8dbc86dListRuleset
     

@@ -2038,6 +2038,7 @@ RuleSet: c29ba23bb04c16ab758f150fe41d6513ListRuleset
 
 Instance: List-c29ba23bb04c16ab758f150fe41d6513
 InstanceOf: List
+Description: "ePI document List for remsima Package Leaflets"
 
 * insert c29ba23bb04c16ab758f150fe41d6513ListRuleset
     

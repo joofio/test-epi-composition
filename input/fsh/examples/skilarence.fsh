@@ -985,6 +985,7 @@ RuleSet: 040bd687344f34655b854f4b67248074ListRuleset
 
 Instance: List-040bd687344f34655b854f4b67248074
 InstanceOf: List
+Description: "ePI document List for skilarence Package Leaflets"
 
 * insert 040bd687344f34655b854f4b67248074ListRuleset
     

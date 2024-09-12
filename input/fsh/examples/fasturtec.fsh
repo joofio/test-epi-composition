@@ -852,6 +852,7 @@ RuleSet: 111cffde6ab225ef6f9090cd3d257fe8ListRuleset
 
 Instance: List-111cffde6ab225ef6f9090cd3d257fe8
 InstanceOf: List
+Description: "ePI document List for fasturtec Package Leaflets"
 
 * insert 111cffde6ab225ef6f9090cd3d257fe8ListRuleset
     

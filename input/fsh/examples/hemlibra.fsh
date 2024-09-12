@@ -2530,6 +2530,7 @@ RuleSet: 46ce8c3bfb2b68d2cb00bd6f9c79816fListRuleset
 
 Instance: List-46ce8c3bfb2b68d2cb00bd6f9c79816f
 InstanceOf: List
+Description: "ePI document List for hemlibra Package Leaflets"
 
 * insert 46ce8c3bfb2b68d2cb00bd6f9c79816fListRuleset
     

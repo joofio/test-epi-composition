@@ -1002,6 +1002,7 @@ RuleSet: 85f7c08e568d2cd0fc2ac32155c57714ListRuleset
 
 Instance: List-85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: List
+Description: "ePI document List for novothirteen Package Leaflets"
 
 * insert 85f7c08e568d2cd0fc2ac32155c57714ListRuleset
     

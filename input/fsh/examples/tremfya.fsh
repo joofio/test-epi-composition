@@ -1072,6 +1072,7 @@ RuleSet: 0efb4276dbc7ad1d850b741a6d2cdac5ListRuleset
 
 Instance: List-0efb4276dbc7ad1d850b741a6d2cdac5
 InstanceOf: List
+Description: "ePI document List for tremfya Package Leaflets"
 
 * insert 0efb4276dbc7ad1d850b741a6d2cdac5ListRuleset
     

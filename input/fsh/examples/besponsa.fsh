@@ -1216,6 +1216,7 @@ RuleSet: 74d9353bd9b4c9e405e398e02bc5f8efListRuleset
 
 Instance: List-74d9353bd9b4c9e405e398e02bc5f8ef
 InstanceOf: List
+Description: "ePI document List for besponsa Package Leaflets"
 
 * insert 74d9353bd9b4c9e405e398e02bc5f8efListRuleset
     

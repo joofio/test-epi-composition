@@ -1194,6 +1194,7 @@ RuleSet: dda2c427548650874074bbc49aa90b54ListRuleset
 
 Instance: List-dda2c427548650874074bbc49aa90b54
 InstanceOf: List
+Description: "ePI document List for trumenba Package Leaflets"
 
 * insert dda2c427548650874074bbc49aa90b54ListRuleset
     

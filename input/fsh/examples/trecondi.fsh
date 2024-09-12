@@ -1564,6 +1564,7 @@ RuleSet: 133076b034a4711dfc1fe81f7acd828fListRuleset
 
 Instance: List-133076b034a4711dfc1fe81f7acd828f
 InstanceOf: List
+Description: "ePI document List for trecondi Package Leaflets"
 
 * insert 133076b034a4711dfc1fe81f7acd828fListRuleset
     

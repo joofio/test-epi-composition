@@ -1078,6 +1078,7 @@ RuleSet: 63388d6288bf341989180dcca08d726eListRuleset
 
 Instance: List-63388d6288bf341989180dcca08d726e
 InstanceOf: List
+Description: "ePI document List for bemfola Package Leaflets"
 
 * insert 63388d6288bf341989180dcca08d726eListRuleset
     

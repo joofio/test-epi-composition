@@ -871,6 +871,7 @@ RuleSet: f9944720e0617f59c4092a55c234abd3ListRuleset
 
 Instance: List-f9944720e0617f59c4092a55c234abd3
 InstanceOf: List
+Description: "ePI document List for oxervate Package Leaflets"
 
 * insert f9944720e0617f59c4092a55c234abd3ListRuleset
     

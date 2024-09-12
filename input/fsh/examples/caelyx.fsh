@@ -1709,6 +1709,7 @@ RuleSet: ba96fb9c0ed4979439bd80d6bde4ba94ListRuleset
 
 Instance: List-ba96fb9c0ed4979439bd80d6bde4ba94
 InstanceOf: List
+Description: "ePI document List for caelyx Package Leaflets"
 
 * insert ba96fb9c0ed4979439bd80d6bde4ba94ListRuleset
     

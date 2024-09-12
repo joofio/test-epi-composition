@@ -1548,6 +1548,7 @@ RuleSet: 4a0e2349adfb2620b1fba9cd50d81a0aListRuleset
 
 Instance: List-4a0e2349adfb2620b1fba9cd50d81a0a
 InstanceOf: List
+Description: "ePI document List for koselugo Package Leaflets"
 
 * insert 4a0e2349adfb2620b1fba9cd50d81a0aListRuleset
     

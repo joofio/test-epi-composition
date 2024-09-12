@@ -820,6 +820,7 @@ RuleSet: 895d12c7e06fa00ecf48ed16e513c5f0ListRuleset
 
 Instance: List-895d12c7e06fa00ecf48ed16e513c5f0
 InstanceOf: List
+Description: "ePI document List for vyndaqel Package Leaflets"
 
 * insert 895d12c7e06fa00ecf48ed16e513c5f0ListRuleset
     

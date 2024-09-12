@@ -1247,6 +1247,7 @@ RuleSet: a292590defa3c39010b96fff24e30c08ListRuleset
 
 Instance: List-a292590defa3c39010b96fff24e30c08
 InstanceOf: List
+Description: "ePI document List for neulasta Package Leaflets"
 
 * insert a292590defa3c39010b96fff24e30c08ListRuleset
     

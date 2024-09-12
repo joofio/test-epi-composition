@@ -1863,6 +1863,7 @@ RuleSet: a361de1944c94e68e8ec09dc10081b81ListRuleset
 
 Instance: List-a361de1944c94e68e8ec09dc10081b81
 InstanceOf: List
+Description: "ePI document List for deferasirox Package Leaflets"
 
 * insert a361de1944c94e68e8ec09dc10081b81ListRuleset
     

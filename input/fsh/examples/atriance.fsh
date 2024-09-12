@@ -1148,6 +1148,7 @@ RuleSet: a02a33fb6a7ba9862e8f1f45d0ac3e13ListRuleset
 
 Instance: List-a02a33fb6a7ba9862e8f1f45d0ac3e13
 InstanceOf: List
+Description: "ePI document List for atriance Package Leaflets"
 
 * insert a02a33fb6a7ba9862e8f1f45d0ac3e13ListRuleset
     

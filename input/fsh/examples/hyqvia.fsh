@@ -1933,6 +1933,7 @@ RuleSet: 9c8cbb392febab27edfe92cab530d10bListRuleset
 
 Instance: List-9c8cbb392febab27edfe92cab530d10b
 InstanceOf: List
+Description: "ePI document List for hyqvia Package Leaflets"
 
 * insert 9c8cbb392febab27edfe92cab530d10bListRuleset
     

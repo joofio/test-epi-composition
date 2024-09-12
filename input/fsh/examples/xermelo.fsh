@@ -778,6 +778,7 @@ RuleSet: a7d93b3af6f699fe631629c6d79268c4ListRuleset
 
 Instance: List-a7d93b3af6f699fe631629c6d79268c4
 InstanceOf: List
+Description: "ePI document List for xermelo Package Leaflets"
 
 * insert a7d93b3af6f699fe631629c6d79268c4ListRuleset
     

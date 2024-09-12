@@ -2294,6 +2294,7 @@ RuleSet: f2459f44725cc293d7b9c9def994f1ffListRuleset
 
 Instance: List-f2459f44725cc293d7b9c9def994f1ff
 InstanceOf: List
+Description: "ePI document List for hukyndra Package Leaflets"
 
 * insert f2459f44725cc293d7b9c9def994f1ffListRuleset
     

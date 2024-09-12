@@ -1474,6 +1474,7 @@ RuleSet: 656032a84c2935003bb3f7376e124521ListRuleset
 
 Instance: List-656032a84c2935003bb3f7376e124521
 InstanceOf: List
+Description: "ePI document List for apixaban Package Leaflets"
 
 * insert 656032a84c2935003bb3f7376e124521ListRuleset
     

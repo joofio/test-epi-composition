@@ -1452,6 +1452,7 @@ RuleSet: d03e5fa52b6e02a038d1625a63e785b4ListRuleset
 
 Instance: List-d03e5fa52b6e02a038d1625a63e785b4
 InstanceOf: List
+Description: "ePI document List for jemperli Package Leaflets"
 
 * insert d03e5fa52b6e02a038d1625a63e785b4ListRuleset
     

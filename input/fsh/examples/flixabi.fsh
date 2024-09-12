@@ -1955,6 +1955,7 @@ RuleSet: d3d5b5fa628989f11aa0aee0a47e189cListRuleset
 
 Instance: List-d3d5b5fa628989f11aa0aee0a47e189c
 InstanceOf: List
+Description: "ePI document List for flixabi Package Leaflets"
 
 * insert d3d5b5fa628989f11aa0aee0a47e189cListRuleset
     

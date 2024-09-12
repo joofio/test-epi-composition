@@ -1159,6 +1159,7 @@ RuleSet: 0ee00d4506e3873c8f0ac45771449e6fListRuleset
 
 Instance: List-0ee00d4506e3873c8f0ac45771449e6f
 InstanceOf: List
+Description: "ePI document List for edistride Package Leaflets"
 
 * insert 0ee00d4506e3873c8f0ac45771449e6fListRuleset
     

@@ -1801,6 +1801,7 @@ RuleSet: 6b73080af14d1aa8b030e2126902e0b9ListRuleset
 
 Instance: List-6b73080af14d1aa8b030e2126902e0b9
 InstanceOf: List
+Description: "ePI document List for piqray Package Leaflets"
 
 * insert 6b73080af14d1aa8b030e2126902e0b9ListRuleset
     

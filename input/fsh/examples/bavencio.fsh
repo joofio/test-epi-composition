@@ -1789,6 +1789,7 @@ RuleSet: 9bd3cc7b420f9f1fa6edcaaaf015de7bListRuleset
 
 Instance: List-9bd3cc7b420f9f1fa6edcaaaf015de7b
 InstanceOf: List
+Description: "ePI document List for bavencio Package Leaflets"
 
 * insert 9bd3cc7b420f9f1fa6edcaaaf015de7bListRuleset
     

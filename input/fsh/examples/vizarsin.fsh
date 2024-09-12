@@ -948,6 +948,7 @@ RuleSet: 4f21ade1d3a44922f890a931e55ca9a9ListRuleset
 
 Instance: List-4f21ade1d3a44922f890a931e55ca9a9
 InstanceOf: List
+Description: "ePI document List for vizarsin Package Leaflets"
 
 * insert 4f21ade1d3a44922f890a931e55ca9a9ListRuleset
     

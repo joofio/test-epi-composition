@@ -1660,6 +1660,7 @@ RuleSet: bcc6b3ab765fdb815a4c2dde333f5a68ListRuleset
 
 Instance: List-bcc6b3ab765fdb815a4c2dde333f5a68
 InstanceOf: List
+Description: "ePI document List for truxima Package Leaflets"
 
 * insert bcc6b3ab765fdb815a4c2dde333f5a68ListRuleset
     

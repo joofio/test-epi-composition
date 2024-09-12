@@ -807,6 +807,7 @@ RuleSet: 0d9fdb5a39ccb7b71c8ef7225226fb5eListRuleset
 
 Instance: List-0d9fdb5a39ccb7b71c8ef7225226fb5e
 InstanceOf: List
+Description: "ePI document List for emselex Package Leaflets"
 
 * insert 0d9fdb5a39ccb7b71c8ef7225226fb5eListRuleset
     

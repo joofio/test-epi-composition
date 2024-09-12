@@ -3810,6 +3810,7 @@ RuleSet: d5e2325446e1313077f0f1d0c6c251e8ListRuleset
 
 Instance: List-d5e2325446e1313077f0f1d0c6c251e8
 InstanceOf: List
+Description: "ePI document List for hyrimoz Package Leaflets"
 
 * insert d5e2325446e1313077f0f1d0c6c251e8ListRuleset
     

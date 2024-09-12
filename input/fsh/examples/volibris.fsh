@@ -1785,6 +1785,7 @@ RuleSet: a2ad7d6c832ea8692cbcd9e308086f01ListRuleset
 
 Instance: List-a2ad7d6c832ea8692cbcd9e308086f01
 InstanceOf: List
+Description: "ePI document List for volibris Package Leaflets"
 
 * insert a2ad7d6c832ea8692cbcd9e308086f01ListRuleset
     

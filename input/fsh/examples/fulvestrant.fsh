@@ -999,6 +999,7 @@ RuleSet: d843c48300874227785506f7092e03c1ListRuleset
 
 Instance: List-d843c48300874227785506f7092e03c1
 InstanceOf: List
+Description: "ePI document List for fulvestrant Package Leaflets"
 
 * insert d843c48300874227785506f7092e03c1ListRuleset
     

@@ -1618,6 +1618,7 @@ RuleSet: 315c315768d5cbbf6fd09d8201064f37ListRuleset
 
 Instance: List-315c315768d5cbbf6fd09d8201064f37
 InstanceOf: List
+Description: "ePI document List for kaletra Package Leaflets"
 
 * insert 315c315768d5cbbf6fd09d8201064f37ListRuleset
     

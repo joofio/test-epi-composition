@@ -1068,6 +1068,7 @@ RuleSet: 7d204d7b4b6b9533290dd865f462d707ListRuleset
 
 Instance: List-7d204d7b4b6b9533290dd865f462d707
 InstanceOf: List
+Description: "ePI document List for laventair Package Leaflets"
 
 * insert 7d204d7b4b6b9533290dd865f462d707ListRuleset
     

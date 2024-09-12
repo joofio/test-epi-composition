@@ -2116,6 +2116,7 @@ RuleSet: da6b4339076346d51f1c98fff12b57dbListRuleset
 
 Instance: List-da6b4339076346d51f1c98fff12b57db
 InstanceOf: List
+Description: "ePI document List for afinitor Package Leaflets"
 
 * insert da6b4339076346d51f1c98fff12b57dbListRuleset
     

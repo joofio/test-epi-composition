@@ -908,6 +908,7 @@ RuleSet: 684d3ac7eb172f49f26955be7ae4a00dListRuleset
 
 Instance: List-684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: List
+Description: "ePI document List for ajovy Package Leaflets"
 
 * insert 684d3ac7eb172f49f26955be7ae4a00dListRuleset
     

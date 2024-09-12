@@ -924,6 +924,7 @@ RuleSet: d115286718a651dcd06cf9dfb35e2cebListRuleset
 
 Instance: List-d115286718a651dcd06cf9dfb35e2ceb
 InstanceOf: List
+Description: "ePI document List for tadalafil Package Leaflets"
 
 * insert d115286718a651dcd06cf9dfb35e2cebListRuleset
     

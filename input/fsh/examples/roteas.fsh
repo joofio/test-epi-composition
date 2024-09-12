@@ -1313,6 +1313,7 @@ RuleSet: d3bf47e7430f03a3543b0c027649dc7aListRuleset
 
 Instance: List-d3bf47e7430f03a3543b0c027649dc7a
 InstanceOf: List
+Description: "ePI document List for roteas Package Leaflets"
 
 * insert d3bf47e7430f03a3543b0c027649dc7aListRuleset
     

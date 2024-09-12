@@ -668,6 +668,7 @@ RuleSet: b5b875180b10dd24ad24a5a713e37047ListRuleset
 
 Instance: List-b5b875180b10dd24ad24a5a713e37047
 InstanceOf: List
+Description: "ePI document List for budesonideformoterol Package Leaflets"
 
 * insert b5b875180b10dd24ad24a5a713e37047ListRuleset
     

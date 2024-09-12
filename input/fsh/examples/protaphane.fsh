@@ -1059,6 +1059,7 @@ RuleSet: d8fe39662f5f886f20ec797e2820acf5ListRuleset
 
 Instance: List-d8fe39662f5f886f20ec797e2820acf5
 InstanceOf: List
+Description: "ePI document List for protaphane Package Leaflets"
 
 * insert d8fe39662f5f886f20ec797e2820acf5ListRuleset
     

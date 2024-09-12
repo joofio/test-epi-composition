@@ -1700,6 +1700,7 @@ RuleSet: 9907a30e9752c1b71142c1d64ee9aa50ListRuleset
 
 Instance: List-9907a30e9752c1b71142c1d64ee9aa50
 InstanceOf: List
+Description: "ePI document List for kaftrio Package Leaflets"
 
 * insert 9907a30e9752c1b71142c1d64ee9aa50ListRuleset
     

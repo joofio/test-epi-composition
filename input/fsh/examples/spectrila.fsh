@@ -1000,6 +1000,7 @@ RuleSet: 2440cbc7bcf5f09685459c4222f929e1ListRuleset
 
 Instance: List-2440cbc7bcf5f09685459c4222f929e1
 InstanceOf: List
+Description: "ePI document List for spectrila Package Leaflets"
 
 * insert 2440cbc7bcf5f09685459c4222f929e1ListRuleset
     

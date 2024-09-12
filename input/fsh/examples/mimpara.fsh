@@ -1057,6 +1057,7 @@ RuleSet: 168192a0c6d5270d5bcdb3cfa6cdd926ListRuleset
 
 Instance: List-168192a0c6d5270d5bcdb3cfa6cdd926
 InstanceOf: List
+Description: "ePI document List for mimpara Package Leaflets"
 
 * insert 168192a0c6d5270d5bcdb3cfa6cdd926ListRuleset
     

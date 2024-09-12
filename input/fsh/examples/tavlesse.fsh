@@ -904,6 +904,7 @@ RuleSet: 4143a283449d30b8e5a863d688670e88ListRuleset
 
 Instance: List-4143a283449d30b8e5a863d688670e88
 InstanceOf: List
+Description: "ePI document List for tavlesse Package Leaflets"
 
 * insert 4143a283449d30b8e5a863d688670e88ListRuleset
     

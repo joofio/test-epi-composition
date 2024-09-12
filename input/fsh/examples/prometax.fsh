@@ -1137,6 +1137,7 @@ RuleSet: 78ea274f37edfa196d1a7ba45e31f4e3ListRuleset
 
 Instance: List-78ea274f37edfa196d1a7ba45e31f4e3
 InstanceOf: List
+Description: "ePI document List for prometax Package Leaflets"
 
 * insert 78ea274f37edfa196d1a7ba45e31f4e3ListRuleset
     

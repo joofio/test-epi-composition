@@ -999,6 +999,7 @@ RuleSet: 6ad927719fc570edf8a72cacebe37a51ListRuleset
 
 Instance: List-6ad927719fc570edf8a72cacebe37a51
 InstanceOf: List
+Description: "ePI document List for prehevbri Package Leaflets"
 
 * insert 6ad927719fc570edf8a72cacebe37a51ListRuleset
     

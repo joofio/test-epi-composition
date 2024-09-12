@@ -999,6 +999,7 @@ RuleSet: 7ced1bd163884509973841d906b58456ListRuleset
 
 Instance: List-7ced1bd163884509973841d906b58456
 InstanceOf: List
+Description: "ePI document List for cibinqo Package Leaflets"
 
 * insert 7ced1bd163884509973841d906b58456ListRuleset
     

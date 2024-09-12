@@ -1207,6 +1207,7 @@ RuleSet: 8e72e27852c8a54465539921267947b7ListRuleset
 
 Instance: List-8e72e27852c8a54465539921267947b7
 InstanceOf: List
+Description: "ePI document List for teriparatide Package Leaflets"
 
 * insert 8e72e27852c8a54465539921267947b7ListRuleset
     

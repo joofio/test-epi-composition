@@ -924,6 +924,7 @@ RuleSet: 2dc44ebb45d2b0f7332cf61717b9e639ListRuleset
 
 Instance: List-2dc44ebb45d2b0f7332cf61717b9e639
 InstanceOf: List
+Description: "ePI document List for ceprotin Package Leaflets"
 
 * insert 2dc44ebb45d2b0f7332cf61717b9e639ListRuleset
     

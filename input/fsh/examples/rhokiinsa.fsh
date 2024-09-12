@@ -1155,6 +1155,7 @@ RuleSet: 1dfe892dc67968025b224d593ef39db2ListRuleset
 
 Instance: List-1dfe892dc67968025b224d593ef39db2
 InstanceOf: List
+Description: "ePI document List for rhokiinsa Package Leaflets"
 
 * insert 1dfe892dc67968025b224d593ef39db2ListRuleset
     

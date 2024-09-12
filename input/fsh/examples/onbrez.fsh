@@ -1092,6 +1092,7 @@ RuleSet: 5a85179f4445f6400b4f1fbf3a650302ListRuleset
 
 Instance: List-5a85179f4445f6400b4f1fbf3a650302
 InstanceOf: List
+Description: "ePI document List for onbrez Package Leaflets"
 
 * insert 5a85179f4445f6400b4f1fbf3a650302ListRuleset
     

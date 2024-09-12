@@ -2029,6 +2029,7 @@ RuleSet: 6eb523b7a88cd6dcee848368833cbd08ListRuleset
 
 Instance: List-6eb523b7a88cd6dcee848368833cbd08
 InstanceOf: List
+Description: "ePI document List for dovato Package Leaflets"
 
 * insert 6eb523b7a88cd6dcee848368833cbd08ListRuleset
     

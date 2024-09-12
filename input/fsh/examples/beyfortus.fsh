@@ -380,6 +380,7 @@ RuleSet: a66c014f097e72b89c0a0ea0e94b80cbListRuleset
 
 Instance: List-a66c014f097e72b89c0a0ea0e94b80cb
 InstanceOf: List
+Description: "ePI document List for beyfortus Package Leaflets"
 
 * insert a66c014f097e72b89c0a0ea0e94b80cbListRuleset
     

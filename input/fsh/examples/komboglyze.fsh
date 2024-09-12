@@ -1149,6 +1149,7 @@ RuleSet: 2e049de7151091e592b9a474ff9a66cfListRuleset
 
 Instance: List-2e049de7151091e592b9a474ff9a66cf
 InstanceOf: List
+Description: "ePI document List for komboglyze Package Leaflets"
 
 * insert 2e049de7151091e592b9a474ff9a66cfListRuleset
     

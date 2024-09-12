@@ -934,6 +934,7 @@ RuleSet: 4ee3eaba97a2c229abd66d955627a070ListRuleset
 
 Instance: List-4ee3eaba97a2c229abd66d955627a070
 InstanceOf: List
+Description: "ePI document List for xromi Package Leaflets"
 
 * insert 4ee3eaba97a2c229abd66d955627a070ListRuleset
     

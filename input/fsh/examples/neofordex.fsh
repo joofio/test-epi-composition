@@ -1747,6 +1747,7 @@ RuleSet: f5d1cf53e3b7ba5026efaf532ce60eaaListRuleset
 
 Instance: List-f5d1cf53e3b7ba5026efaf532ce60eaa
 InstanceOf: List
+Description: "ePI document List for neofordex Package Leaflets"
 
 * insert f5d1cf53e3b7ba5026efaf532ce60eaaListRuleset
     

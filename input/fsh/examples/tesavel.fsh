@@ -1385,6 +1385,7 @@ RuleSet: 118afad7684b14db488523a58f186d8fListRuleset
 
 Instance: List-118afad7684b14db488523a58f186d8f
 InstanceOf: List
+Description: "ePI document List for tesavel Package Leaflets"
 
 * insert 118afad7684b14db488523a58f186d8fListRuleset
     

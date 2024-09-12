@@ -2354,6 +2354,7 @@ RuleSet: 89670b1717cc4fba97455ede14b8028cListRuleset
 
 Instance: List-89670b1717cc4fba97455ede14b8028c
 InstanceOf: List
+Description: "ePI document List for mvasi Package Leaflets"
 
 * insert 89670b1717cc4fba97455ede14b8028cListRuleset
     

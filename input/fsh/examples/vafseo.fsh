@@ -919,6 +919,7 @@ RuleSet: 5be5abfec999fc8a1ea184754c57f783ListRuleset
 
 Instance: List-5be5abfec999fc8a1ea184754c57f783
 InstanceOf: List
+Description: "ePI document List for vafseo Package Leaflets"
 
 * insert 5be5abfec999fc8a1ea184754c57f783ListRuleset
     

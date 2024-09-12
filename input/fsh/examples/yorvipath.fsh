@@ -3857,6 +3857,7 @@ RuleSet: 734207024d8a0ccf4fa37b0614084df6ListRuleset
 
 Instance: List-734207024d8a0ccf4fa37b0614084df6
 InstanceOf: List
+Description: "ePI document List for yorvipath Package Leaflets"
 
 * insert 734207024d8a0ccf4fa37b0614084df6ListRuleset
     

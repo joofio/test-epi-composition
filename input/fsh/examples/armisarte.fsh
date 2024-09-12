@@ -1142,6 +1142,7 @@ RuleSet: 6c6dd9b522aed0e03ebfe1ea0c0a4560ListRuleset
 
 Instance: List-6c6dd9b522aed0e03ebfe1ea0c0a4560
 InstanceOf: List
+Description: "ePI document List for armisarte Package Leaflets"
 
 * insert 6c6dd9b522aed0e03ebfe1ea0c0a4560ListRuleset
     

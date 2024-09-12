@@ -2229,6 +2229,7 @@ RuleSet: dc7d7a695883d4001becc8f978871435ListRuleset
 
 Instance: List-dc7d7a695883d4001becc8f978871435
 InstanceOf: List
+Description: "ePI document List for spexotras Package Leaflets"
 
 * insert dc7d7a695883d4001becc8f978871435ListRuleset
     

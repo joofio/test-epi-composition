@@ -1277,6 +1277,7 @@ RuleSet: 35323b42feff1c3fa548fa35e97558e5ListRuleset
 
 Instance: List-35323b42feff1c3fa548fa35e97558e5
 InstanceOf: List
+Description: "ePI document List for prolia Package Leaflets"
 
 * insert 35323b42feff1c3fa548fa35e97558e5ListRuleset
     

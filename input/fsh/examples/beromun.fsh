@@ -704,6 +704,7 @@ RuleSet: a321c1bbb3d0ca5c622bbbc9c0607a43ListRuleset
 
 Instance: List-a321c1bbb3d0ca5c622bbbc9c0607a43
 InstanceOf: List
+Description: "ePI document List for beromun Package Leaflets"
 
 * insert a321c1bbb3d0ca5c622bbbc9c0607a43ListRuleset
     

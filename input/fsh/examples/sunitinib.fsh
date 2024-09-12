@@ -1687,6 +1687,7 @@ RuleSet: 68233cef8a2150549da332e078e2cbf5ListRuleset
 
 Instance: List-68233cef8a2150549da332e078e2cbf5
 InstanceOf: List
+Description: "ePI document List for sunitinib Package Leaflets"
 
 * insert 68233cef8a2150549da332e078e2cbf5ListRuleset
     

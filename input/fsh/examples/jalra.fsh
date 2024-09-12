@@ -1414,6 +1414,7 @@ RuleSet: 354a12a26a634d20a9056857238f1e23ListRuleset
 
 Instance: List-354a12a26a634d20a9056857238f1e23
 InstanceOf: List
+Description: "ePI document List for jalra Package Leaflets"
 
 * insert 354a12a26a634d20a9056857238f1e23ListRuleset
     

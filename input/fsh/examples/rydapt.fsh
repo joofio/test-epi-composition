@@ -1791,6 +1791,7 @@ RuleSet: 00913882b59a9d04c9763a602ce7c1aeListRuleset
 
 Instance: List-00913882b59a9d04c9763a602ce7c1ae
 InstanceOf: List
+Description: "ePI document List for rydapt Package Leaflets"
 
 * insert 00913882b59a9d04c9763a602ce7c1aeListRuleset
     

@@ -1948,6 +1948,7 @@ RuleSet: 028530430ed7d9b47cd8ba73da175d72ListRuleset
 
 Instance: List-028530430ed7d9b47cd8ba73da175d72
 InstanceOf: List
+Description: "ePI document List for strensiq Package Leaflets"
 
 * insert 028530430ed7d9b47cd8ba73da175d72ListRuleset
     

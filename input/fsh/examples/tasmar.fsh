@@ -1157,6 +1157,7 @@ RuleSet: 28bc9e8680cc0c55edc2ed45f832ee0dListRuleset
 
 Instance: List-28bc9e8680cc0c55edc2ed45f832ee0d
 InstanceOf: List
+Description: "ePI document List for tasmar Package Leaflets"
 
 * insert 28bc9e8680cc0c55edc2ed45f832ee0dListRuleset
     

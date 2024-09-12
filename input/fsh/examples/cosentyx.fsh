@@ -1200,6 +1200,7 @@ RuleSet: 61ceafb9e1df8e2286f86826be123eb9ListRuleset
 
 Instance: List-61ceafb9e1df8e2286f86826be123eb9
 InstanceOf: List
+Description: "ePI document List for cosentyx Package Leaflets"
 
 * insert 61ceafb9e1df8e2286f86826be123eb9ListRuleset
     

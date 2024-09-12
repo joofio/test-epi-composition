@@ -1638,6 +1638,7 @@ RuleSet: 0e387e560fa6e1178c04c02876196a66ListRuleset
 
 Instance: List-0e387e560fa6e1178c04c02876196a66
 InstanceOf: List
+Description: "ePI document List for trepulmix Package Leaflets"
 
 * insert 0e387e560fa6e1178c04c02876196a66ListRuleset
     

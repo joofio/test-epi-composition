@@ -1895,6 +1895,7 @@ RuleSet: e8001a6516c891d8a1ff3a481f290741ListRuleset
 
 Instance: List-e8001a6516c891d8a1ff3a481f290741
 InstanceOf: List
+Description: "ePI document List for tivicay Package Leaflets"
 
 * insert e8001a6516c891d8a1ff3a481f290741ListRuleset
     

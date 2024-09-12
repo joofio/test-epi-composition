@@ -2115,6 +2115,7 @@ RuleSet: 72e5f5398f762b4570a837b92d9db036ListRuleset
 
 Instance: List-72e5f5398f762b4570a837b92d9db036
 InstanceOf: List
+Description: "ePI document List for viramune Package Leaflets"
 
 * insert 72e5f5398f762b4570a837b92d9db036ListRuleset
     

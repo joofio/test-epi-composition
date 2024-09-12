@@ -1283,6 +1283,7 @@ RuleSet: 0b2c64f281f8a04082b537d7d8030a6fListRuleset
 
 Instance: List-0b2c64f281f8a04082b537d7d8030a6f
 InstanceOf: List
+Description: "ePI document List for nuvaxovid Package Leaflets"
 
 * insert 0b2c64f281f8a04082b537d7d8030a6fListRuleset
     

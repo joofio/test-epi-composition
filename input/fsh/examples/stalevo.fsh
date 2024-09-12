@@ -1754,6 +1754,7 @@ RuleSet: bdb3583748a144c4aaf24f2e42bc1ae4ListRuleset
 
 Instance: List-bdb3583748a144c4aaf24f2e42bc1ae4
 InstanceOf: List
+Description: "ePI document List for stalevo Package Leaflets"
 
 * insert bdb3583748a144c4aaf24f2e42bc1ae4ListRuleset
     

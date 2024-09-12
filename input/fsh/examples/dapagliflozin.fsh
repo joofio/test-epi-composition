@@ -1292,6 +1292,7 @@ RuleSet: 47e609a7556335e73540caeda7f501b2ListRuleset
 
 Instance: List-47e609a7556335e73540caeda7f501b2
 InstanceOf: List
+Description: "ePI document List for dapagliflozin Package Leaflets"
 
 * insert 47e609a7556335e73540caeda7f501b2ListRuleset
     

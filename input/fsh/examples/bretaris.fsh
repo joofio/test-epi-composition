@@ -940,6 +940,7 @@ RuleSet: 54a021f4e4e92ada183e2df4eec44f64ListRuleset
 
 Instance: List-54a021f4e4e92ada183e2df4eec44f64
 InstanceOf: List
+Description: "ePI document List for bretaris Package Leaflets"
 
 * insert 54a021f4e4e92ada183e2df4eec44f64ListRuleset
     

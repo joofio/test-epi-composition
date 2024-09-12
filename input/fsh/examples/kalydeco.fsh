@@ -1214,6 +1214,7 @@ RuleSet: f7594bb39e512c1a930c8153ce8d7d94ListRuleset
 
 Instance: List-f7594bb39e512c1a930c8153ce8d7d94
 InstanceOf: List
+Description: "ePI document List for kalydeco Package Leaflets"
 
 * insert f7594bb39e512c1a930c8153ce8d7d94ListRuleset
     

@@ -1512,6 +1512,7 @@ RuleSet: 3b1ab70efa7458a20495ebc38b1c3fc7ListRuleset
 
 Instance: List-3b1ab70efa7458a20495ebc38b1c3fc7
 InstanceOf: List
+Description: "ePI document List for ibandronic Package Leaflets"
 
 * insert 3b1ab70efa7458a20495ebc38b1c3fc7ListRuleset
     

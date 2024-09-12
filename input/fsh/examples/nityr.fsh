@@ -636,6 +636,7 @@ RuleSet: af7ada14ad8929ea357c14ec95ee08ddListRuleset
 
 Instance: List-af7ada14ad8929ea357c14ec95ee08dd
 InstanceOf: List
+Description: "ePI document List for nityr Package Leaflets"
 
 * insert af7ada14ad8929ea357c14ec95ee08ddListRuleset
     

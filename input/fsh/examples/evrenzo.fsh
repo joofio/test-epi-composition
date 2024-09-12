@@ -1433,6 +1433,7 @@ RuleSet: 83e919009d254ffa32b4c1748bcfba15ListRuleset
 
 Instance: List-83e919009d254ffa32b4c1748bcfba15
 InstanceOf: List
+Description: "ePI document List for evrenzo Package Leaflets"
 
 * insert 83e919009d254ffa32b4c1748bcfba15ListRuleset
     

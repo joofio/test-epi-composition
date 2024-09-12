@@ -775,6 +775,7 @@ RuleSet: 9435ec03e40e267b4ae7d35097656572ListRuleset
 
 Instance: List-9435ec03e40e267b4ae7d35097656572
 InstanceOf: List
+Description: "ePI document List for holoclar Package Leaflets"
 
 * insert 9435ec03e40e267b4ae7d35097656572ListRuleset
     

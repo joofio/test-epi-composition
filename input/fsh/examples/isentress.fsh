@@ -1826,6 +1826,7 @@ RuleSet: 240cb856767cdf385c31b86b973619aeListRuleset
 
 Instance: List-240cb856767cdf385c31b86b973619ae
 InstanceOf: List
+Description: "ePI document List for isentress Package Leaflets"
 
 * insert 240cb856767cdf385c31b86b973619aeListRuleset
     

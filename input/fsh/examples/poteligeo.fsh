@@ -965,6 +965,7 @@ RuleSet: 249170621fe2e34bc97c331b03b5b5b0ListRuleset
 
 Instance: List-249170621fe2e34bc97c331b03b5b5b0
 InstanceOf: List
+Description: "ePI document List for poteligeo Package Leaflets"
 
 * insert 249170621fe2e34bc97c331b03b5b5b0ListRuleset
     

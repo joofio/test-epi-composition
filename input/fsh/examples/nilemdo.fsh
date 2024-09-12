@@ -1315,6 +1315,7 @@ RuleSet: b0dbf83dbdd0b6f9d3c0904a5e7ceaa4ListRuleset
 
 Instance: List-b0dbf83dbdd0b6f9d3c0904a5e7ceaa4
 InstanceOf: List
+Description: "ePI document List for nilemdo Package Leaflets"
 
 * insert b0dbf83dbdd0b6f9d3c0904a5e7ceaa4ListRuleset
     

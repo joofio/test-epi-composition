@@ -1418,6 +1418,7 @@ RuleSet: d4555e443163704d4c697ea40b21716aListRuleset
 
 Instance: List-d4555e443163704d4c697ea40b21716a
 InstanceOf: List
+Description: "ePI document List for flebogamma Package Leaflets"
 
 * insert d4555e443163704d4c697ea40b21716aListRuleset
     

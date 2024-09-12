@@ -1306,6 +1306,7 @@ RuleSet: c116ac444efe9566cd4664c5b73e7669ListRuleset
 
 Instance: List-c116ac444efe9566cd4664c5b73e7669
 InstanceOf: List
+Description: "ePI document List for trazimera Package Leaflets"
 
 * insert c116ac444efe9566cd4664c5b73e7669ListRuleset
     

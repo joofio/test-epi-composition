@@ -1278,6 +1278,7 @@ RuleSet: 049b5b7dcb707b91228a592e54e9e9d9ListRuleset
 
 Instance: List-049b5b7dcb707b91228a592e54e9e9d9
 InstanceOf: List
+Description: "ePI document List for privigen Package Leaflets"
 
 * insert 049b5b7dcb707b91228a592e54e9e9d9ListRuleset
     

@@ -1135,6 +1135,7 @@ RuleSet: d18c775a37197bebb71a8fd2758408f4ListRuleset
 
 Instance: List-d18c775a37197bebb71a8fd2758408f4
 InstanceOf: List
+Description: "ePI document List for brilique Package Leaflets"
 
 * insert d18c775a37197bebb71a8fd2758408f4ListRuleset
     

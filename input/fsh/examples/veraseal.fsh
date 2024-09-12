@@ -1021,6 +1021,7 @@ RuleSet: 41399424be0ac355c8e0aa81bb4121d6ListRuleset
 
 Instance: List-41399424be0ac355c8e0aa81bb4121d6
 InstanceOf: List
+Description: "ePI document List for veraseal Package Leaflets"
 
 * insert 41399424be0ac355c8e0aa81bb4121d6ListRuleset
     

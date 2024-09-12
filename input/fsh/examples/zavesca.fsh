@@ -887,6 +887,7 @@ RuleSet: 94a02a9d12dc7fffcfe59cdd0b624e87ListRuleset
 
 Instance: List-94a02a9d12dc7fffcfe59cdd0b624e87
 InstanceOf: List
+Description: "ePI document List for zavesca Package Leaflets"
 
 * insert 94a02a9d12dc7fffcfe59cdd0b624e87ListRuleset
     

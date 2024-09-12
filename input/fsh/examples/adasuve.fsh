@@ -934,6 +934,7 @@ RuleSet: a65021751afedc04d4560394d8a23778ListRuleset
 
 Instance: List-a65021751afedc04d4560394d8a23778
 InstanceOf: List
+Description: "ePI document List for adasuve Package Leaflets"
 
 * insert a65021751afedc04d4560394d8a23778ListRuleset
     

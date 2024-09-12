@@ -1805,6 +1805,7 @@ RuleSet: 083329ed80f9e5f1c8e6dd49ed81d7aaListRuleset
 
 Instance: List-083329ed80f9e5f1c8e6dd49ed81d7aa
 InstanceOf: List
+Description: "ePI document List for abilify Package Leaflets"
 
 * insert 083329ed80f9e5f1c8e6dd49ed81d7aaListRuleset
     

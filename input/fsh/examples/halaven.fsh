@@ -830,6 +830,7 @@ RuleSet: 83d27b2c0c103aeb8cf9aa2b77c5f35fListRuleset
 
 Instance: List-83d27b2c0c103aeb8cf9aa2b77c5f35f
 InstanceOf: List
+Description: "ePI document List for halaven Package Leaflets"
 
 * insert 83d27b2c0c103aeb8cf9aa2b77c5f35fListRuleset
     

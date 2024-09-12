@@ -1263,6 +1263,7 @@ RuleSet: 1f85f95883d4c92167ca0868ad5c50fdListRuleset
 
 Instance: List-1f85f95883d4c92167ca0868ad5c50fd
 InstanceOf: List
+Description: "ePI document List for ikervis Package Leaflets"
 
 * insert 1f85f95883d4c92167ca0868ad5c50fdListRuleset
     

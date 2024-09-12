@@ -1403,6 +1403,7 @@ RuleSet: 5e3f046139a16b84f12a9b50f2d2b2efListRuleset
 
 Instance: List-5e3f046139a16b84f12a9b50f2d2b2ef
 InstanceOf: List
+Description: "ePI document List for givlaari Package Leaflets"
 
 * insert 5e3f046139a16b84f12a9b50f2d2b2efListRuleset
     

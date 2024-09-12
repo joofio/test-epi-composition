@@ -1541,6 +1541,7 @@ RuleSet: 17d853b2dfc7ae029cc7841c683817eaListRuleset
 
 Instance: List-17d853b2dfc7ae029cc7841c683817ea
 InstanceOf: List
+Description: "ePI document List for brimica Package Leaflets"
 
 * insert 17d853b2dfc7ae029cc7841c683817eaListRuleset
     

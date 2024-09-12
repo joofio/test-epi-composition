@@ -747,6 +747,7 @@ RuleSet: 1f96cd88f64662096f991c68963865d4ListRuleset
 
 Instance: List-1f96cd88f64662096f991c68963865d4
 InstanceOf: List
+Description: "ePI document List for baraclude Package Leaflets"
 
 * insert 1f96cd88f64662096f991c68963865d4ListRuleset
     

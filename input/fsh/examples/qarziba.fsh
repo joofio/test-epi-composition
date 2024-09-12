@@ -1430,6 +1430,7 @@ RuleSet: e8b67f07b418969c3e83d3aef06331abListRuleset
 
 Instance: List-e8b67f07b418969c3e83d3aef06331ab
 InstanceOf: List
+Description: "ePI document List for qarziba Package Leaflets"
 
 * insert e8b67f07b418969c3e83d3aef06331abListRuleset
     

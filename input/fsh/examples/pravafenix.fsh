@@ -1015,6 +1015,7 @@ RuleSet: 5e54bc899d36944f074c62413ee87b7aListRuleset
 
 Instance: List-5e54bc899d36944f074c62413ee87b7a
 InstanceOf: List
+Description: "ePI document List for pravafenix Package Leaflets"
 
 * insert 5e54bc899d36944f074c62413ee87b7aListRuleset
     

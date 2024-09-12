@@ -1165,6 +1165,7 @@ RuleSet: 08bd32995710017e5d1be3af6c537328ListRuleset
 
 Instance: List-08bd32995710017e5d1be3af6c537328
 InstanceOf: List
+Description: "ePI document List for daptomycin Package Leaflets"
 
 * insert 08bd32995710017e5d1be3af6c537328ListRuleset
     

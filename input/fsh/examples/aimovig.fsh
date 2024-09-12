@@ -1291,6 +1291,7 @@ RuleSet: 27621dca9c70d4aa804aaf075667f6dfListRuleset
 
 Instance: List-27621dca9c70d4aa804aaf075667f6df
 InstanceOf: List
+Description: "ePI document List for aimovig Package Leaflets"
 
 * insert 27621dca9c70d4aa804aaf075667f6dfListRuleset
     

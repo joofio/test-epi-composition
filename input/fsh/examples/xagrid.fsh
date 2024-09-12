@@ -1414,6 +1414,7 @@ RuleSet: 872cd13279fdc0dc1dd808e9546511e4ListRuleset
 
 Instance: List-872cd13279fdc0dc1dd808e9546511e4
 InstanceOf: List
+Description: "ePI document List for xagrid Package Leaflets"
 
 * insert 872cd13279fdc0dc1dd808e9546511e4ListRuleset
     

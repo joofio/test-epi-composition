@@ -1002,6 +1002,7 @@ RuleSet: 8bc140c4c39805aec0aad4cf6453fabfListRuleset
 
 Instance: List-8bc140c4c39805aec0aad4cf6453fabf
 InstanceOf: List
+Description: "ePI document List for stimufend Package Leaflets"
 
 * insert 8bc140c4c39805aec0aad4cf6453fabfListRuleset
     

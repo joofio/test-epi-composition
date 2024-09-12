@@ -963,6 +963,7 @@ RuleSet: aeb0a2871b29083ccbf74783bc496505ListRuleset
 
 Instance: List-aeb0a2871b29083ccbf74783bc496505
 InstanceOf: List
+Description: "ePI document List for aerius Package Leaflets"
 
 * insert aeb0a2871b29083ccbf74783bc496505ListRuleset
     

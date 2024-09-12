@@ -1289,6 +1289,7 @@ RuleSet: 0e4b0f32f27cd3409c6b65f9b73ff49fListRuleset
 
 Instance: List-0e4b0f32f27cd3409c6b65f9b73ff49f
 InstanceOf: List
+Description: "ePI document List for abrysvo Package Leaflets"
 
 * insert 0e4b0f32f27cd3409c6b65f9b73ff49fListRuleset
     

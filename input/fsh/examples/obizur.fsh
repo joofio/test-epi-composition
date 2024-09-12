@@ -1323,6 +1323,7 @@ RuleSet: 4361504119fec5762723adfabb108410ListRuleset
 
 Instance: List-4361504119fec5762723adfabb108410
 InstanceOf: List
+Description: "ePI document List for obizur Package Leaflets"
 
 * insert 4361504119fec5762723adfabb108410ListRuleset
     

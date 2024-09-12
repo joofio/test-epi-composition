@@ -913,6 +913,7 @@ RuleSet: 247338c6ac4af4d25ce31dba51e05ac4ListRuleset
 
 Instance: List-247338c6ac4af4d25ce31dba51e05ac4
 InstanceOf: List
+Description: "ePI document List for deltyba Package Leaflets"
 
 * insert 247338c6ac4af4d25ce31dba51e05ac4ListRuleset
     

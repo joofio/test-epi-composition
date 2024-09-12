@@ -1092,6 +1092,7 @@ RuleSet: 3f6a519af0b1268014d8e20e6028f9d5ListRuleset
 
 Instance: List-3f6a519af0b1268014d8e20e6028f9d5
 InstanceOf: List
+Description: "ePI document List for zeposia Package Leaflets"
 
 * insert 3f6a519af0b1268014d8e20e6028f9d5ListRuleset
     

@@ -858,6 +858,7 @@ RuleSet: c69b74a6bb42f26caea2acbf89949208ListRuleset
 
 Instance: List-c69b74a6bb42f26caea2acbf89949208
 InstanceOf: List
+Description: "ePI document List for trajenta Package Leaflets"
 
 * insert c69b74a6bb42f26caea2acbf89949208ListRuleset
     

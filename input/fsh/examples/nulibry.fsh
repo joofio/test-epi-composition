@@ -949,6 +949,7 @@ RuleSet: eaeff7283270f9b7e51abc26d498e673ListRuleset
 
 Instance: List-eaeff7283270f9b7e51abc26d498e673
 InstanceOf: List
+Description: "ePI document List for nulibry Package Leaflets"
 
 * insert eaeff7283270f9b7e51abc26d498e673ListRuleset
     

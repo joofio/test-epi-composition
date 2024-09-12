@@ -812,6 +812,7 @@ RuleSet: 5a0e77a26a98f2eac352c48d66309743ListRuleset
 
 Instance: List-5a0e77a26a98f2eac352c48d66309743
 InstanceOf: List
+Description: "ePI document List for lumeblue Package Leaflets"
 
 * insert 5a0e77a26a98f2eac352c48d66309743ListRuleset
     

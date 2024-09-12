@@ -1077,6 +1077,7 @@ RuleSet: b455bf5933866192c268e98801b21195ListRuleset
 
 Instance: List-b455bf5933866192c268e98801b21195
 InstanceOf: List
+Description: "ePI document List for lamzede Package Leaflets"
 
 * insert b455bf5933866192c268e98801b21195ListRuleset
     

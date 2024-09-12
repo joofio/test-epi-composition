@@ -1377,6 +1377,7 @@ RuleSet: 17b627e38a0df981119ba6697e477d47ListRuleset
 
 Instance: List-17b627e38a0df981119ba6697e477d47
 InstanceOf: List
+Description: "ePI document List for ristaben Package Leaflets"
 
 * insert 17b627e38a0df981119ba6697e477d47ListRuleset
     

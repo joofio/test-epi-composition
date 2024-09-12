@@ -1852,6 +1852,7 @@ RuleSet: 0884c8c34711aaaaa6729d5f920f611fListRuleset
 
 Instance: List-0884c8c34711aaaaa6729d5f920f611f
 InstanceOf: List
+Description: "ePI document List for veklury Package Leaflets"
 
 * insert 0884c8c34711aaaaa6729d5f920f611fListRuleset
     

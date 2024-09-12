@@ -1072,6 +1072,7 @@ RuleSet: 4c58d0c1d9c4a5073dfc9d3ac749320bListRuleset
 
 Instance: List-4c58d0c1d9c4a5073dfc9d3ac749320b
 InstanceOf: List
+Description: "ePI document List for kesimpta Package Leaflets"
 
 * insert 4c58d0c1d9c4a5073dfc9d3ac749320bListRuleset
     

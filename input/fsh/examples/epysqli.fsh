@@ -1010,6 +1010,7 @@ RuleSet: eb1bff8909fbce324e442418d542373fListRuleset
 
 Instance: List-eb1bff8909fbce324e442418d542373f
 InstanceOf: List
+Description: "ePI document List for epysqli Package Leaflets"
 
 * insert eb1bff8909fbce324e442418d542373fListRuleset
     

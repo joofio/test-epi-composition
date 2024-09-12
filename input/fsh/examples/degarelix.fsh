@@ -769,6 +769,7 @@ RuleSet: f812f9eb1d2ca77fff87e615574ce4dcListRuleset
 
 Instance: List-f812f9eb1d2ca77fff87e615574ce4dc
 InstanceOf: List
+Description: "ePI document List for degarelix Package Leaflets"
 
 * insert f812f9eb1d2ca77fff87e615574ce4dcListRuleset
     

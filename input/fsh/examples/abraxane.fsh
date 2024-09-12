@@ -1007,6 +1007,7 @@ RuleSet: 6a4f56969477d35dda930b9433ba77dfListRuleset
 
 Instance: List-6a4f56969477d35dda930b9433ba77df
 InstanceOf: List
+Description: "ePI document List for abraxane Package Leaflets"
 
 * insert 6a4f56969477d35dda930b9433ba77dfListRuleset
     

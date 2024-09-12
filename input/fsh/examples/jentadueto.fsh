@@ -1730,6 +1730,7 @@ RuleSet: dea6bb992c7a311f66506a0f31878b7eListRuleset
 
 Instance: List-dea6bb992c7a311f66506a0f31878b7e
 InstanceOf: List
+Description: "ePI document List for jentadueto Package Leaflets"
 
 * insert dea6bb992c7a311f66506a0f31878b7eListRuleset
     

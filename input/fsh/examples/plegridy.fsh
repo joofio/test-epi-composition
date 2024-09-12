@@ -1485,6 +1485,7 @@ RuleSet: 065940950f1dbb7c281e0e49d5dfc752ListRuleset
 
 Instance: List-065940950f1dbb7c281e0e49d5dfc752
 InstanceOf: List
+Description: "ePI document List for plegridy Package Leaflets"
 
 * insert 065940950f1dbb7c281e0e49d5dfc752ListRuleset
     

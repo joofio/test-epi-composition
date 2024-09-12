@@ -707,6 +707,7 @@ RuleSet: 8e3f73294a020fb836dccebb0eb47004ListRuleset
 
 Instance: List-8e3f73294a020fb836dccebb0eb47004
 InstanceOf: List
+Description: "ePI document List for firdapse Package Leaflets"
 
 * insert 8e3f73294a020fb836dccebb0eb47004ListRuleset
     

@@ -1165,6 +1165,7 @@ RuleSet: 3fd0e71025c97e85a4b382e052756f99ListRuleset
 
 Instance: List-3fd0e71025c97e85a4b382e052756f99
 InstanceOf: List
+Description: "ePI document List for vabysmo Package Leaflets"
 
 * insert 3fd0e71025c97e85a4b382e052756f99ListRuleset
     

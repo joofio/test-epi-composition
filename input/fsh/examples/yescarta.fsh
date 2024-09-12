@@ -1240,6 +1240,7 @@ RuleSet: 5b44b92baabcf0684d3d21b26b5583ecListRuleset
 
 Instance: List-5b44b92baabcf0684d3d21b26b5583ec
 InstanceOf: List
+Description: "ePI document List for yescarta Package Leaflets"
 
 * insert 5b44b92baabcf0684d3d21b26b5583ecListRuleset
     

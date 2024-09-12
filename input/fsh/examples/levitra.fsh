@@ -1289,6 +1289,7 @@ RuleSet: d6a8f1a1ebaa6583d4e909e9b830debbListRuleset
 
 Instance: List-d6a8f1a1ebaa6583d4e909e9b830debb
 InstanceOf: List
+Description: "ePI document List for levitra Package Leaflets"
 
 * insert d6a8f1a1ebaa6583d4e909e9b830debbListRuleset
     

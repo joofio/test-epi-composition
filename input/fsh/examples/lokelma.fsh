@@ -1272,6 +1272,7 @@ RuleSet: 37704f8130504ea382184950ae8a2cfeListRuleset
 
 Instance: List-37704f8130504ea382184950ae8a2cfe
 InstanceOf: List
+Description: "ePI document List for lokelma Package Leaflets"
 
 * insert 37704f8130504ea382184950ae8a2cfeListRuleset
     

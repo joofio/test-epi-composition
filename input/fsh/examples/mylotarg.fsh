@@ -1513,6 +1513,7 @@ RuleSet: 7cf956e7748c0ba411215481856f48abListRuleset
 
 Instance: List-7cf956e7748c0ba411215481856f48ab
 InstanceOf: List
+Description: "ePI document List for mylotarg Package Leaflets"
 
 * insert 7cf956e7748c0ba411215481856f48abListRuleset
     

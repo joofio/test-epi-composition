@@ -829,6 +829,7 @@ RuleSet: 48d92e6f37b4f6c7f2463bf11b72f4f0ListRuleset
 
 Instance: List-48d92e6f37b4f6c7f2463bf11b72f4f0
 InstanceOf: List
+Description: "ePI document List for giapreza Package Leaflets"
 
 * insert 48d92e6f37b4f6c7f2463bf11b72f4f0ListRuleset
     

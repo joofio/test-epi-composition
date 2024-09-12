@@ -867,6 +867,7 @@ RuleSet: 12c8a969675c3f7a6a3764899fb6a5f5ListRuleset
 
 Instance: List-12c8a969675c3f7a6a3764899fb6a5f5
 InstanceOf: List
+Description: "ePI document List for rotarix Package Leaflets"
 
 * insert 12c8a969675c3f7a6a3764899fb6a5f5ListRuleset
     

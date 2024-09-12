@@ -821,6 +821,7 @@ RuleSet: 9e9af0d61ae4c0f16f1d8deb4eb5766dListRuleset
 
 Instance: List-9e9af0d61ae4c0f16f1d8deb4eb5766d
 InstanceOf: List
+Description: "ePI document List for infanrix Package Leaflets"
 
 * insert 9e9af0d61ae4c0f16f1d8deb4eb5766dListRuleset
     

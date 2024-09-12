@@ -1426,6 +1426,7 @@ RuleSet: 5c60b262e52a5c74cf3187377ecaeddeListRuleset
 
 Instance: List-5c60b262e52a5c74cf3187377ecaedde
 InstanceOf: List
+Description: "ePI document List for teriflunomide Package Leaflets"
 
 * insert 5c60b262e52a5c74cf3187377ecaeddeListRuleset
     

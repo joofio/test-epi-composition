@@ -1706,6 +1706,7 @@ RuleSet: c534ceb0c415b656be1c262cf1f8af94ListRuleset
 
 Instance: List-c534ceb0c415b656be1c262cf1f8af94
 InstanceOf: List
+Description: "ePI document List for ultibro Package Leaflets"
 
 * insert c534ceb0c415b656be1c262cf1f8af94ListRuleset
     

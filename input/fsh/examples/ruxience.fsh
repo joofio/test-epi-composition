@@ -1518,6 +1518,7 @@ RuleSet: ce47e28e6dc466e32ff754112a937d33ListRuleset
 
 Instance: List-ce47e28e6dc466e32ff754112a937d33
 InstanceOf: List
+Description: "ePI document List for ruxience Package Leaflets"
 
 * insert ce47e28e6dc466e32ff754112a937d33ListRuleset
     

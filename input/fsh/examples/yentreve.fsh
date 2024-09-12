@@ -1201,6 +1201,7 @@ RuleSet: 8666fcd1a9a5da616af3cc253cf1b4cfListRuleset
 
 Instance: List-8666fcd1a9a5da616af3cc253cf1b4cf
 InstanceOf: List
+Description: "ePI document List for yentreve Package Leaflets"
 
 * insert 8666fcd1a9a5da616af3cc253cf1b4cfListRuleset
     

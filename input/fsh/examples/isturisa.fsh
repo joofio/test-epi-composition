@@ -1340,6 +1340,7 @@ RuleSet: 13bb467fc3daebcc72e614a634466540ListRuleset
 
 Instance: List-13bb467fc3daebcc72e614a634466540
 InstanceOf: List
+Description: "ePI document List for isturisa Package Leaflets"
 
 * insert 13bb467fc3daebcc72e614a634466540ListRuleset
     

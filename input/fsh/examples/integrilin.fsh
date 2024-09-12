@@ -779,6 +779,7 @@ RuleSet: 444c9ba43fa8be9df56ba30d3dc13ea7ListRuleset
 
 Instance: List-444c9ba43fa8be9df56ba30d3dc13ea7
 InstanceOf: List
+Description: "ePI document List for integrilin Package Leaflets"
 
 * insert 444c9ba43fa8be9df56ba30d3dc13ea7ListRuleset
     

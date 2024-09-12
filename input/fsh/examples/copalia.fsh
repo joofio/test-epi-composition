@@ -1803,6 +1803,7 @@ RuleSet: 4cfe8c40a5179c3c87314b55050e4442ListRuleset
 
 Instance: List-4cfe8c40a5179c3c87314b55050e4442
 InstanceOf: List
+Description: "ePI document List for copalia Package Leaflets"
 
 * insert 4cfe8c40a5179c3c87314b55050e4442ListRuleset
     

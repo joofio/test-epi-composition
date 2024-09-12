@@ -1646,6 +1646,7 @@ RuleSet: d365d405c4186be4b5c62f68568d4862ListRuleset
 
 Instance: List-d365d405c4186be4b5c62f68568d4862
 InstanceOf: List
+Description: "ePI document List for darzalex Package Leaflets"
 
 * insert d365d405c4186be4b5c62f68568d4862ListRuleset
     

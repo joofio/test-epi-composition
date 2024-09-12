@@ -1302,6 +1302,7 @@ RuleSet: 72e43cd2bff034f1d9129ee8db99e248ListRuleset
 
 Instance: List-72e43cd2bff034f1d9129ee8db99e248
 InstanceOf: List
+Description: "ePI document List for nutropinaq Package Leaflets"
 
 * insert 72e43cd2bff034f1d9129ee8db99e248ListRuleset
     

@@ -1430,6 +1430,7 @@ RuleSet: fcd6f0f28646833495976357e48ff691ListRuleset
 
 Instance: List-fcd6f0f28646833495976357e48ff691
 InstanceOf: List
+Description: "ePI document List for kyprolis Package Leaflets"
 
 * insert fcd6f0f28646833495976357e48ff691ListRuleset
     

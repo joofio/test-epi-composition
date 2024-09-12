@@ -1624,6 +1624,7 @@ RuleSet: 701e93600aa20be1f78aef0a64b1f790ListRuleset
 
 Instance: List-701e93600aa20be1f78aef0a64b1f790
 InstanceOf: List
+Description: "ePI document List for nucala Package Leaflets"
 
 * insert 701e93600aa20be1f78aef0a64b1f790ListRuleset
     

@@ -645,6 +645,7 @@ RuleSet: 57a928d33300a0b3188f379ca97280deListRuleset
 
 Instance: List-57a928d33300a0b3188f379ca97280de
 InstanceOf: List
+Description: "ePI document List for ruconest Package Leaflets"
 
 * insert 57a928d33300a0b3188f379ca97280deListRuleset
     

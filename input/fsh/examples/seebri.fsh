@@ -1737,6 +1737,7 @@ RuleSet: 5aaf1ff9ad4c7cb420e93974915ff219ListRuleset
 
 Instance: List-5aaf1ff9ad4c7cb420e93974915ff219
 InstanceOf: List
+Description: "ePI document List for seebri Package Leaflets"
 
 * insert 5aaf1ff9ad4c7cb420e93974915ff219ListRuleset
     

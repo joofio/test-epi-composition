@@ -798,6 +798,7 @@ RuleSet: e96a2b015f0fafafc915826cda7b875cListRuleset
 
 Instance: List-e96a2b015f0fafafc915826cda7b875c
 InstanceOf: List
+Description: "ePI document List for dificlir Package Leaflets"
 
 * insert e96a2b015f0fafafc915826cda7b875cListRuleset
     

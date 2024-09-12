@@ -978,6 +978,7 @@ RuleSet: e7ba6957dcf929fb2c43dcd1b448488dListRuleset
 
 Instance: List-e7ba6957dcf929fb2c43dcd1b448488d
 InstanceOf: List
+Description: "ePI document List for siklos Package Leaflets"
 
 * insert e7ba6957dcf929fb2c43dcd1b448488dListRuleset
     

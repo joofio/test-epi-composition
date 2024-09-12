@@ -985,6 +985,7 @@ RuleSet: 703c0707f76711c32684f846cc20b14eListRuleset
 
 Instance: List-703c0707f76711c32684f846cc20b14e
 InstanceOf: List
+Description: "ePI document List for potactasol Package Leaflets"
 
 * insert 703c0707f76711c32684f846cc20b14eListRuleset
     

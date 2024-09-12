@@ -1974,6 +1974,7 @@ RuleSet: fab5fa92013ddb0c611232569286ddbbListRuleset
 
 Instance: List-fab5fa92013ddb0c611232569286ddbb
 InstanceOf: List
+Description: "ePI document List for tresiba Package Leaflets"
 
 * insert fab5fa92013ddb0c611232569286ddbbListRuleset
     

@@ -1880,6 +1880,7 @@ RuleSet: bb22e3a2d3ee768b14a39522c099f1f4ListRuleset
 
 Instance: List-bb22e3a2d3ee768b14a39522c099f1f4
 InstanceOf: List
+Description: "ePI document List for columvi Package Leaflets"
 
 * insert bb22e3a2d3ee768b14a39522c099f1f4ListRuleset
     

@@ -1155,6 +1155,7 @@ RuleSet: 3897ae464fed2d09fdccd118642cb036ListRuleset
 
 Instance: List-3897ae464fed2d09fdccd118642cb036
 InstanceOf: List
+Description: "ePI document List for jardiance Package Leaflets"
 
 * insert 3897ae464fed2d09fdccd118642cb036ListRuleset
     

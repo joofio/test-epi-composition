@@ -1696,6 +1696,7 @@ RuleSet: beff2655528d75e602c405816fbf6082ListRuleset
 
 Instance: List-beff2655528d75e602c405816fbf6082
 InstanceOf: List
+Description: "ePI document List for novoseven Package Leaflets"
 
 * insert beff2655528d75e602c405816fbf6082ListRuleset
     

@@ -1479,6 +1479,7 @@ RuleSet: 46af9fe042942e0b323406b7f9580690ListRuleset
 
 Instance: List-46af9fe042942e0b323406b7f9580690
 InstanceOf: List
+Description: "ePI document List for zilbrysq Package Leaflets"
 
 * insert 46af9fe042942e0b323406b7f9580690ListRuleset
     

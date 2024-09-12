@@ -1532,6 +1532,7 @@ RuleSet: f8c48790000bbf9d78cfcb64c3c5a1eeListRuleset
 
 Instance: List-f8c48790000bbf9d78cfcb64c3c5a1ee
 InstanceOf: List
+Description: "ePI document List for xydalba Package Leaflets"
 
 * insert f8c48790000bbf9d78cfcb64c3c5a1eeListRuleset
     

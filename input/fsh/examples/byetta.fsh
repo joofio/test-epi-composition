@@ -1847,6 +1847,7 @@ RuleSet: 9367ad7779ef7d59f46d4f6cb649b03eListRuleset
 
 Instance: List-9367ad7779ef7d59f46d4f6cb649b03e
 InstanceOf: List
+Description: "ePI document List for byetta Package Leaflets"
 
 * insert 9367ad7779ef7d59f46d4f6cb649b03eListRuleset
     

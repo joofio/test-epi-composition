@@ -1073,6 +1073,7 @@ RuleSet: f00c2d057b37e01d3588f608535352b2ListRuleset
 
 Instance: List-f00c2d057b37e01d3588f608535352b2
 InstanceOf: List
+Description: "ePI document List for alofisel Package Leaflets"
 
 * insert f00c2d057b37e01d3588f608535352b2ListRuleset
     

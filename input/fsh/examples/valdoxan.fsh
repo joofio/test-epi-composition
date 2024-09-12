@@ -970,6 +970,7 @@ RuleSet: 79d322f9708e44619600f26fcf371238ListRuleset
 
 Instance: List-79d322f9708e44619600f26fcf371238
 InstanceOf: List
+Description: "ePI document List for valdoxan Package Leaflets"
 
 * insert 79d322f9708e44619600f26fcf371238ListRuleset
     

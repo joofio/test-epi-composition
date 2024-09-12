@@ -1078,6 +1078,7 @@ RuleSet: 09457b67378eccc379f945623f721bcbListRuleset
 
 Instance: List-09457b67378eccc379f945623f721bcb
 InstanceOf: List
+Description: "ePI document List for inbrija Package Leaflets"
 
 * insert 09457b67378eccc379f945623f721bcbListRuleset
     

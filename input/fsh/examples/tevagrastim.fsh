@@ -1209,6 +1209,7 @@ RuleSet: 37659c041a93299fdf753eeff4621a42ListRuleset
 
 Instance: List-37659c041a93299fdf753eeff4621a42
 InstanceOf: List
+Description: "ePI document List for tevagrastim Package Leaflets"
 
 * insert 37659c041a93299fdf753eeff4621a42ListRuleset
     

@@ -1582,6 +1582,7 @@ RuleSet: e6ed326fcb8117af473e84eeac339bdfListRuleset
 
 Instance: List-e6ed326fcb8117af473e84eeac339bdf
 InstanceOf: List
+Description: "ePI document List for onbevzi Package Leaflets"
 
 * insert e6ed326fcb8117af473e84eeac339bdfListRuleset
     

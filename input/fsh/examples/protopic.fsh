@@ -925,6 +925,7 @@ RuleSet: c96fdfd81478e739fb65928482a4a6c6ListRuleset
 
 Instance: List-c96fdfd81478e739fb65928482a4a6c6
 InstanceOf: List
+Description: "ePI document List for protopic Package Leaflets"
 
 * insert c96fdfd81478e739fb65928482a4a6c6ListRuleset
     

@@ -2340,6 +2340,7 @@ RuleSet: 8ad222fa20f6122792e54d69414353b7ListRuleset
 
 Instance: List-8ad222fa20f6122792e54d69414353b7
 InstanceOf: List
+Description: "ePI document List for alymsys Package Leaflets"
 
 * insert 8ad222fa20f6122792e54d69414353b7ListRuleset
     

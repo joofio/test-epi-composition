@@ -948,6 +948,7 @@ RuleSet: 6404d750b55233d0f151554095da73f0ListRuleset
 
 Instance: List-6404d750b55233d0f151554095da73f0
 InstanceOf: List
+Description: "ePI document List for kinzalmono Package Leaflets"
 
 * insert 6404d750b55233d0f151554095da73f0ListRuleset
     

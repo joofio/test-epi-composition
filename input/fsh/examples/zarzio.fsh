@@ -1274,6 +1274,7 @@ RuleSet: 1bb79447a2309ad6bd5c05b14a8deec5ListRuleset
 
 Instance: List-1bb79447a2309ad6bd5c05b14a8deec5
 InstanceOf: List
+Description: "ePI document List for zarzio Package Leaflets"
 
 * insert 1bb79447a2309ad6bd5c05b14a8deec5ListRuleset
     

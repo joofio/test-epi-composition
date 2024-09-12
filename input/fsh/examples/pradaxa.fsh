@@ -1515,6 +1515,7 @@ RuleSet: ce87b0e5c83bb784188a7a43affec906ListRuleset
 
 Instance: List-ce87b0e5c83bb784188a7a43affec906
 InstanceOf: List
+Description: "ePI document List for pradaxa Package Leaflets"
 
 * insert ce87b0e5c83bb784188a7a43affec906ListRuleset
     

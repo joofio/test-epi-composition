@@ -882,6 +882,7 @@ RuleSet: d51291e7d675a24203f1a2e152221f98ListRuleset
 
 Instance: List-d51291e7d675a24203f1a2e152221f98
 InstanceOf: List
+Description: "ePI document List for desloratadine Package Leaflets"
 
 * insert d51291e7d675a24203f1a2e152221f98ListRuleset
     

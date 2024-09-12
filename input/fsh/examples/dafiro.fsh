@@ -2914,6 +2914,7 @@ RuleSet: 3b3e934500294234d1df16dd589129e1ListRuleset
 
 Instance: List-3b3e934500294234d1df16dd589129e1
 InstanceOf: List
+Description: "ePI document List for dafiro Package Leaflets"
 
 * insert 3b3e934500294234d1df16dd589129e1ListRuleset
     

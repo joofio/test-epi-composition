@@ -1281,6 +1281,7 @@ RuleSet: 7bc78483a72818d156f4ad97517abe5aListRuleset
 
 Instance: List-7bc78483a72818d156f4ad97517abe5a
 InstanceOf: List
+Description: "ePI document List for oxbryta Package Leaflets"
 
 * insert 7bc78483a72818d156f4ad97517abe5aListRuleset
     

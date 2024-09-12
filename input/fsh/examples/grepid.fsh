@@ -1008,6 +1008,7 @@ RuleSet: 744dd2d849c3e92fc852e3f500b2711eListRuleset
 
 Instance: List-744dd2d849c3e92fc852e3f500b2711e
 InstanceOf: List
+Description: "ePI document List for grepid Package Leaflets"
 
 * insert 744dd2d849c3e92fc852e3f500b2711eListRuleset
     

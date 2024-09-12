@@ -927,6 +927,7 @@ RuleSet: f55146b06bad26b63272dae234a560c6ListRuleset
 
 Instance: List-f55146b06bad26b63272dae234a560c6
 InstanceOf: List
+Description: "ePI document List for xaluprine Package Leaflets"
 
 * insert f55146b06bad26b63272dae234a560c6ListRuleset
     

@@ -1118,6 +1118,7 @@ RuleSet: d4f93e1067cc6b6405636501aeff5a7cListRuleset
 
 Instance: List-d4f93e1067cc6b6405636501aeff5a7c
 InstanceOf: List
+Description: "ePI document List for cayston Package Leaflets"
 
 * insert d4f93e1067cc6b6405636501aeff5a7cListRuleset
     

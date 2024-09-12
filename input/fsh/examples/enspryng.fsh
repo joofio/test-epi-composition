@@ -1362,6 +1362,7 @@ RuleSet: 0d7ee15ee10dc2578a331f45f3babb36ListRuleset
 
 Instance: List-0d7ee15ee10dc2578a331f45f3babb36
 InstanceOf: List
+Description: "ePI document List for enspryng Package Leaflets"
 
 * insert 0d7ee15ee10dc2578a331f45f3babb36ListRuleset
     

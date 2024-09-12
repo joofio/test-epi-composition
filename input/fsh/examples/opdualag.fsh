@@ -1300,6 +1300,7 @@ RuleSet: f005fd757731f79c852474cccf35506bListRuleset
 
 Instance: List-f005fd757731f79c852474cccf35506b
 InstanceOf: List
+Description: "ePI document List for opdualag Package Leaflets"
 
 * insert f005fd757731f79c852474cccf35506bListRuleset
     

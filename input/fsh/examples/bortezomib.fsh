@@ -1600,6 +1600,7 @@ RuleSet: 078ce846d23a61e02d1edb518ce5e784ListRuleset
 
 Instance: List-078ce846d23a61e02d1edb518ce5e784
 InstanceOf: List
+Description: "ePI document List for bortezomib Package Leaflets"
 
 * insert 078ce846d23a61e02d1edb518ce5e784ListRuleset
     

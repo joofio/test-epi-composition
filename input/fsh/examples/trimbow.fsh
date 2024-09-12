@@ -1652,6 +1652,7 @@ RuleSet: b1dc557df32bb39c63c00547638eca2fListRuleset
 
 Instance: List-b1dc557df32bb39c63c00547638eca2f
 InstanceOf: List
+Description: "ePI document List for trimbow Package Leaflets"
 
 * insert b1dc557df32bb39c63c00547638eca2fListRuleset
     

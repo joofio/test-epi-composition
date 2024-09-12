@@ -1376,6 +1376,7 @@ RuleSet: eb08c3555eb0d4fb795135600da399fcListRuleset
 
 Instance: List-eb08c3555eb0d4fb795135600da399fc
 InstanceOf: List
+Description: "ePI document List for targretin Package Leaflets"
 
 * insert eb08c3555eb0d4fb795135600da399fcListRuleset
     

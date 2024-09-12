@@ -987,6 +987,7 @@ RuleSet: a8d190f59e73033fd1157419aef18cccListRuleset
 
 Instance: List-a8d190f59e73033fd1157419aef18ccc
 InstanceOf: List
+Description: "ePI document List for ellaone Package Leaflets"
 
 * insert a8d190f59e73033fd1157419aef18cccListRuleset
     

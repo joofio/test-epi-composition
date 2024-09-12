@@ -926,6 +926,7 @@ RuleSet: bde0c3b61490dd57757aaae0512c2726ListRuleset
 
 Instance: List-bde0c3b61490dd57757aaae0512c2726
 InstanceOf: List
+Description: "ePI document List for tookad Package Leaflets"
 
 * insert bde0c3b61490dd57757aaae0512c2726ListRuleset
     

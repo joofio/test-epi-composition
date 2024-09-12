@@ -1481,6 +1481,7 @@ RuleSet: a96793ea13ac1652c4391adeab5c5fd7ListRuleset
 
 Instance: List-a96793ea13ac1652c4391adeab5c5fd7
 InstanceOf: List
+Description: "ePI document List for rybrevant Package Leaflets"
 
 * insert a96793ea13ac1652c4391adeab5c5fd7ListRuleset
     

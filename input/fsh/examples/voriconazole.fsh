@@ -2018,6 +2018,7 @@ RuleSet: a2d91e093ece9c0d3351fd31285a05eaListRuleset
 
 Instance: List-a2d91e093ece9c0d3351fd31285a05ea
 InstanceOf: List
+Description: "ePI document List for voriconazole Package Leaflets"
 
 * insert a2d91e093ece9c0d3351fd31285a05eaListRuleset
     

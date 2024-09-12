@@ -2420,6 +2420,7 @@ RuleSet: cfcde91a66ec9c44e54756602bc42482ListRuleset
 
 Instance: List-cfcde91a66ec9c44e54756602bc42482
 InstanceOf: List
+Description: "ePI document List for libtayo Package Leaflets"
 
 * insert cfcde91a66ec9c44e54756602bc42482ListRuleset
     

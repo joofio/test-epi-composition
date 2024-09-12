@@ -1521,6 +1521,7 @@ RuleSet: a346fcd48e1745156d4e5145052e15e4ListRuleset
 
 Instance: List-a346fcd48e1745156d4e5145052e15e4
 InstanceOf: List
+Description: "ePI document List for kentera Package Leaflets"
 
 * insert a346fcd48e1745156d4e5145052e15e4ListRuleset
     

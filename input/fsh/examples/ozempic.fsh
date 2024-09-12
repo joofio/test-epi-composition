@@ -1738,6 +1738,7 @@ RuleSet: d321e28009e316a0922b3b06c7400fefListRuleset
 
 Instance: List-d321e28009e316a0922b3b06c7400fef
 InstanceOf: List
+Description: "ePI document List for ozempic Package Leaflets"
 
 * insert d321e28009e316a0922b3b06c7400fefListRuleset
     

@@ -1540,6 +1540,7 @@ RuleSet: 35e93ff91e96bbfad7fee25117b58d56ListRuleset
 
 Instance: List-35e93ff91e96bbfad7fee25117b58d56
 InstanceOf: List
+Description: "ePI document List for plavix Package Leaflets"
 
 * insert 35e93ff91e96bbfad7fee25117b58d56ListRuleset
     

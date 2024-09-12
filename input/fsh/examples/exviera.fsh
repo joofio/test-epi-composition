@@ -1640,6 +1640,7 @@ RuleSet: 1a455c95e5d54239c06a46b5802914f3ListRuleset
 
 Instance: List-1a455c95e5d54239c06a46b5802914f3
 InstanceOf: List
+Description: "ePI document List for exviera Package Leaflets"
 
 * insert 1a455c95e5d54239c06a46b5802914f3ListRuleset
     

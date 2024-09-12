@@ -844,6 +844,7 @@ RuleSet: 8072777f1d7e921aa6202af1f1964c39ListRuleset
 
 Instance: List-8072777f1d7e921aa6202af1f1964c39
 InstanceOf: List
+Description: "ePI document List for cinqaero Package Leaflets"
 
 * insert 8072777f1d7e921aa6202af1f1964c39ListRuleset
     

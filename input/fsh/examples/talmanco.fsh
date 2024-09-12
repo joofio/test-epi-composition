@@ -1374,6 +1374,7 @@ RuleSet: 7d70fe375a5923a60727e1f723f93cdaListRuleset
 
 Instance: List-7d70fe375a5923a60727e1f723f93cda
 InstanceOf: List
+Description: "ePI document List for talmanco Package Leaflets"
 
 * insert 7d70fe375a5923a60727e1f723f93cdaListRuleset
     

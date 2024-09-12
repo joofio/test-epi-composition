@@ -691,6 +691,7 @@ RuleSet: 16018c8f310d03d6a566ded2f2a2880aListRuleset
 
 Instance: List-16018c8f310d03d6a566ded2f2a2880a
 InstanceOf: List
+Description: "ePI document List for sugammadex Package Leaflets"
 
 * insert 16018c8f310d03d6a566ded2f2a2880aListRuleset
     

@@ -1746,6 +1746,7 @@ RuleSet: 08f8f83bc6310f91660a8946f32126f9ListRuleset
 
 Instance: List-08f8f83bc6310f91660a8946f32126f9
 InstanceOf: List
+Description: "ePI document List for sialanar Package Leaflets"
 
 * insert 08f8f83bc6310f91660a8946f32126f9ListRuleset
     

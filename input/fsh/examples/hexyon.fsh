@@ -1254,6 +1254,7 @@ RuleSet: 28f119e7c1f3c5870a82540620a72930ListRuleset
 
 Instance: List-28f119e7c1f3c5870a82540620a72930
 InstanceOf: List
+Description: "ePI document List for hexyon Package Leaflets"
 
 * insert 28f119e7c1f3c5870a82540620a72930ListRuleset
     

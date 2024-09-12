@@ -1624,6 +1624,7 @@ RuleSet: 4fad6211e26b19476a10017c27cac221ListRuleset
 
 Instance: List-4fad6211e26b19476a10017c27cac221
 InstanceOf: List
+Description: "ePI document List for sarclisa Package Leaflets"
 
 * insert 4fad6211e26b19476a10017c27cac221ListRuleset
     

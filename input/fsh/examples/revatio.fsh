@@ -1294,6 +1294,7 @@ RuleSet: 9aa25859b3b911a1afa24fe9c429ab94ListRuleset
 
 Instance: List-9aa25859b3b911a1afa24fe9c429ab94
 InstanceOf: List
+Description: "ePI document List for revatio Package Leaflets"
 
 * insert 9aa25859b3b911a1afa24fe9c429ab94ListRuleset
     

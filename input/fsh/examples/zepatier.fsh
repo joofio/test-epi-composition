@@ -1665,6 +1665,7 @@ RuleSet: 684a35c27d00abaf233bd95a3f24554aListRuleset
 
 Instance: List-684a35c27d00abaf233bd95a3f24554a
 InstanceOf: List
+Description: "ePI document List for zepatier Package Leaflets"
 
 * insert 684a35c27d00abaf233bd95a3f24554aListRuleset
     

@@ -1543,6 +1543,7 @@ RuleSet: 0e210569ec71496664e40726e162d3a0ListRuleset
 
 Instance: List-0e210569ec71496664e40726e162d3a0
 InstanceOf: List
+Description: "ePI document List for fabrazyme Package Leaflets"
 
 * insert 0e210569ec71496664e40726e162d3a0ListRuleset
     

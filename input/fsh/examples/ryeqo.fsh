@@ -1590,6 +1590,7 @@ RuleSet: 2879bea9059649bf46970484a32311c1ListRuleset
 
 Instance: List-2879bea9059649bf46970484a32311c1
 InstanceOf: List
+Description: "ePI document List for ryeqo Package Leaflets"
 
 * insert 2879bea9059649bf46970484a32311c1ListRuleset
     

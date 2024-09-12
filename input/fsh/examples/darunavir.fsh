@@ -723,6 +723,7 @@ RuleSet: ca782dfd4f770a8ed2648776cb943032ListRuleset
 
 Instance: List-ca782dfd4f770a8ed2648776cb943032
 InstanceOf: List
+Description: "ePI document List for darunavir Package Leaflets"
 
 * insert ca782dfd4f770a8ed2648776cb943032ListRuleset
     

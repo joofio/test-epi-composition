@@ -1592,6 +1592,7 @@ RuleSet: 2fe2164c1e264a15d1f750f56ec0a0e8ListRuleset
 
 Instance: List-2fe2164c1e264a15d1f750f56ec0a0e8
 InstanceOf: List
+Description: "ePI document List for xeloda Package Leaflets"
 
 * insert 2fe2164c1e264a15d1f750f56ec0a0e8ListRuleset
     

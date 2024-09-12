@@ -1361,6 +1361,7 @@ RuleSet: 11132a32e01a148874091fa148cdfa6eListRuleset
 
 Instance: List-11132a32e01a148874091fa148cdfa6e
 InstanceOf: List
+Description: "ePI document List for abiraterone Package Leaflets"
 
 * insert 11132a32e01a148874091fa148cdfa6eListRuleset
     

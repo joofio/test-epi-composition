@@ -1323,6 +1323,7 @@ RuleSet: 36f1b29a7444210831ac7deab30ae673ListRuleset
 
 Instance: List-36f1b29a7444210831ac7deab30ae673
 InstanceOf: List
+Description: "ePI document List for avonex Package Leaflets"
 
 * insert 36f1b29a7444210831ac7deab30ae673ListRuleset
     

@@ -1949,6 +1949,7 @@ RuleSet: 16019d0f068b393be3091cc008ef79bfListRuleset
 
 Instance: List-16019d0f068b393be3091cc008ef79bf
 InstanceOf: List
+Description: "ePI document List for tafinlar Package Leaflets"
 
 * insert 16019d0f068b393be3091cc008ef79bfListRuleset
     

@@ -1598,6 +1598,7 @@ RuleSet: 67eb9f5d8991acd60b19f2204c2773c0ListRuleset
 
 Instance: List-67eb9f5d8991acd60b19f2204c2773c0
 InstanceOf: List
+Description: "ePI document List for spedra Package Leaflets"
 
 * insert 67eb9f5d8991acd60b19f2204c2773c0ListRuleset
     

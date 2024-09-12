@@ -803,6 +803,7 @@ RuleSet: d14c5d7dea1d2e7785c6d37dbbff6788ListRuleset
 
 Instance: List-d14c5d7dea1d2e7785c6d37dbbff6788
 InstanceOf: List
+Description: "ePI document List for orphacol Package Leaflets"
 
 * insert d14c5d7dea1d2e7785c6d37dbbff6788ListRuleset
     

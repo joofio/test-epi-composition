@@ -1784,6 +1784,7 @@ RuleSet: 368e8679c0472a0d2aa9d82ac9fd7ab6ListRuleset
 
 Instance: List-368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: List
+Description: "ePI document List for hemgenix Package Leaflets"
 
 * insert 368e8679c0472a0d2aa9d82ac9fd7ab6ListRuleset
     

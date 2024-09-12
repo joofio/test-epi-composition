@@ -789,6 +789,7 @@ RuleSet: ffc23a76b4090b54b8bc958f8ff82cb2ListRuleset
 
 Instance: List-ffc23a76b4090b54b8bc958f8ff82cb2
 InstanceOf: List
+Description: "ePI document List for strimvelis Package Leaflets"
 
 * insert ffc23a76b4090b54b8bc958f8ff82cb2ListRuleset
     

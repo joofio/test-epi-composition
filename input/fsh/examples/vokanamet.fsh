@@ -2166,6 +2166,7 @@ RuleSet: 5c0f905ecf8d9d64edae4669c049439bListRuleset
 
 Instance: List-5c0f905ecf8d9d64edae4669c049439b
 InstanceOf: List
+Description: "ePI document List for vokanamet Package Leaflets"
 
 * insert 5c0f905ecf8d9d64edae4669c049439bListRuleset
     

@@ -1281,6 +1281,7 @@ RuleSet: 188afbad7741da761c6e6e81c9577944ListRuleset
 
 Instance: List-188afbad7741da761c6e6e81c9577944
 InstanceOf: List
+Description: "ePI document List for somakit Package Leaflets"
 
 * insert 188afbad7741da761c6e6e81c9577944ListRuleset
     

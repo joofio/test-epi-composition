@@ -1211,6 +1211,7 @@ RuleSet: e4f12a2a0c84afdde5a2007602b1e852ListRuleset
 
 Instance: List-e4f12a2a0c84afdde5a2007602b1e852
 InstanceOf: List
+Description: "ePI document List for kirsty Package Leaflets"
 
 * insert e4f12a2a0c84afdde5a2007602b1e852ListRuleset
     

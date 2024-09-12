@@ -718,6 +718,7 @@ RuleSet: a1ae178fa1feba2157e2ad80fb8616d6ListRuleset
 
 Instance: List-a1ae178fa1feba2157e2ad80fb8616d6
 InstanceOf: List
+Description: "ePI document List for melatonin Package Leaflets"
 
 * insert a1ae178fa1feba2157e2ad80fb8616d6ListRuleset
     

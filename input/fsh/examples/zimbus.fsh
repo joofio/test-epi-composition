@@ -1166,6 +1166,7 @@ RuleSet: d184441eaf6370e77e170ec9c0dc05dbListRuleset
 
 Instance: List-d184441eaf6370e77e170ec9c0dc05db
 InstanceOf: List
+Description: "ePI document List for zimbus Package Leaflets"
 
 * insert d184441eaf6370e77e170ec9c0dc05dbListRuleset
     

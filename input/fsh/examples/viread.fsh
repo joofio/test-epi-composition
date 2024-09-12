@@ -2032,6 +2032,7 @@ RuleSet: 6dd54a91ba651345f1ff3d87a8449c07ListRuleset
 
 Instance: List-6dd54a91ba651345f1ff3d87a8449c07
 InstanceOf: List
+Description: "ePI document List for viread Package Leaflets"
 
 * insert 6dd54a91ba651345f1ff3d87a8449c07ListRuleset
     

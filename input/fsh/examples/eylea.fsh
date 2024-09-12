@@ -960,6 +960,7 @@ RuleSet: 448b528bf3d067b64074ee9859a8f881ListRuleset
 
 Instance: List-448b528bf3d067b64074ee9859a8f881
 InstanceOf: List
+Description: "ePI document List for eylea Package Leaflets"
 
 * insert 448b528bf3d067b64074ee9859a8f881ListRuleset
     

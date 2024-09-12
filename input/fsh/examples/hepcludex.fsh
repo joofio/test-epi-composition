@@ -1385,6 +1385,7 @@ RuleSet: b09f5aad6df76e91a7314393eef4e2a9ListRuleset
 
 Instance: List-b09f5aad6df76e91a7314393eef4e2a9
 InstanceOf: List
+Description: "ePI document List for hepcludex Package Leaflets"
 
 * insert b09f5aad6df76e91a7314393eef4e2a9ListRuleset
     

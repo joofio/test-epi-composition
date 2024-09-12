@@ -1468,6 +1468,7 @@ RuleSet: 13b9c5485a5dae25afc0e0c660688026ListRuleset
 
 Instance: List-13b9c5485a5dae25afc0e0c660688026
 InstanceOf: List
+Description: "ePI document List for tecovirimat Package Leaflets"
 
 * insert 13b9c5485a5dae25afc0e0c660688026ListRuleset
     

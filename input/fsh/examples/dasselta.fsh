@@ -858,6 +858,7 @@ RuleSet: b8e0f0c67dccb3d602a95a4f091082dcListRuleset
 
 Instance: List-b8e0f0c67dccb3d602a95a4f091082dc
 InstanceOf: List
+Description: "ePI document List for dasselta Package Leaflets"
 
 * insert b8e0f0c67dccb3d602a95a4f091082dcListRuleset
     

@@ -2215,6 +2215,7 @@ RuleSet: 88027b29b9aee30b33b41e1a72006b30ListRuleset
 
 Instance: List-88027b29b9aee30b33b41e1a72006b30
 InstanceOf: List
+Description: "ePI document List for eviplera Package Leaflets"
 
 * insert 88027b29b9aee30b33b41e1a72006b30ListRuleset
     

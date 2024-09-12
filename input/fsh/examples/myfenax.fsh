@@ -2109,6 +2109,7 @@ RuleSet: e607211528f92c3963caeeb4fd500657ListRuleset
 
 Instance: List-e607211528f92c3963caeeb4fd500657
 InstanceOf: List
+Description: "ePI document List for myfenax Package Leaflets"
 
 * insert e607211528f92c3963caeeb4fd500657ListRuleset
     

@@ -1482,6 +1482,7 @@ RuleSet: e3be0c3afac35b40ee152976f7a06c61ListRuleset
 
 Instance: List-e3be0c3afac35b40ee152976f7a06c61
 InstanceOf: List
+Description: "ePI document List for cegfila Package Leaflets"
 
 * insert e3be0c3afac35b40ee152976f7a06c61ListRuleset
     

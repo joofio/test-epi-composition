@@ -1452,6 +1452,7 @@ RuleSet: fc7c0b4a680b856c6d3878351fc9d22eListRuleset
 
 Instance: List-fc7c0b4a680b856c6d3878351fc9d22e
 InstanceOf: List
+Description: "ePI document List for ponvory Package Leaflets"
 
 * insert fc7c0b4a680b856c6d3878351fc9d22eListRuleset
     

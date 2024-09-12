@@ -1241,6 +1241,7 @@ RuleSet: 4a43236fb582d17d10a1516a86f60348ListRuleset
 
 Instance: List-4a43236fb582d17d10a1516a86f60348
 InstanceOf: List
+Description: "ePI document List for apretude Package Leaflets"
 
 * insert 4a43236fb582d17d10a1516a86f60348ListRuleset
     

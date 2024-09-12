@@ -1075,6 +1075,7 @@ RuleSet: d9e1f5caf32113b1e6722af1d88782c1ListRuleset
 
 Instance: List-d9e1f5caf32113b1e6722af1d88782c1
 InstanceOf: List
+Description: "ePI document List for pifeltro Package Leaflets"
 
 * insert d9e1f5caf32113b1e6722af1d88782c1ListRuleset
     

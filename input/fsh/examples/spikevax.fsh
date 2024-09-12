@@ -2854,6 +2854,7 @@ RuleSet: 53506f739e6f34ca79778a9dce57bf48ListRuleset
 
 Instance: List-53506f739e6f34ca79778a9dce57bf48
 InstanceOf: List
+Description: "ePI document List for spikevax Package Leaflets"
 
 * insert 53506f739e6f34ca79778a9dce57bf48ListRuleset
     

@@ -1274,6 +1274,7 @@ RuleSet: 8ff5d67e0b7de732bda1082340f24212ListRuleset
 
 Instance: List-8ff5d67e0b7de732bda1082340f24212
 InstanceOf: List
+Description: "ePI document List for sotyktu Package Leaflets"
 
 * insert 8ff5d67e0b7de732bda1082340f24212ListRuleset
     

@@ -1803,6 +1803,7 @@ RuleSet: a87aeb4164e26122eca456ab1e8b7c21ListRuleset
 
 Instance: List-a87aeb4164e26122eca456ab1e8b7c21
 InstanceOf: List
+Description: "ePI document List for exforge Package Leaflets"
 
 * insert a87aeb4164e26122eca456ab1e8b7c21ListRuleset
     

@@ -1796,6 +1796,7 @@ RuleSet: 9fab9f40152a9abf5de2f7daf83b1bd5ListRuleset
 
 Instance: List-9fab9f40152a9abf5de2f7daf83b1bd5
 InstanceOf: List
+Description: "ePI document List for viekirax Package Leaflets"
 
 * insert 9fab9f40152a9abf5de2f7daf83b1bd5ListRuleset
     

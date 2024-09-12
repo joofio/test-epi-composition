@@ -838,6 +838,7 @@ RuleSet: 6717e3b12c817674be9c520895f4090eListRuleset
 
 Instance: List-6717e3b12c817674be9c520895f4090e
 InstanceOf: List
+Description: "ePI document List for competact Package Leaflets"
 
 * insert 6717e3b12c817674be9c520895f4090eListRuleset
     

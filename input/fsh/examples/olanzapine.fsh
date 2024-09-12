@@ -1512,6 +1512,7 @@ RuleSet: be86a7120b3e7e0f4ee2c7a69bc3ffecListRuleset
 
 Instance: List-be86a7120b3e7e0f4ee2c7a69bc3ffec
 InstanceOf: List
+Description: "ePI document List for olanzapine Package Leaflets"
 
 * insert be86a7120b3e7e0f4ee2c7a69bc3ffecListRuleset
     

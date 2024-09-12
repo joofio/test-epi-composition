@@ -1040,6 +1040,7 @@ RuleSet: 15a73917bf3a8bd9b5488de0aa2b271dListRuleset
 
 Instance: List-15a73917bf3a8bd9b5488de0aa2b271d
 InstanceOf: List
+Description: "ePI document List for galafold Package Leaflets"
 
 * insert 15a73917bf3a8bd9b5488de0aa2b271dListRuleset
     
