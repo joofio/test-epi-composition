@@ -1212,87 +1212,54 @@ infetados pelo VIH, o vírus que causa SIDA.</p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. O que precisa de saber antes de tomar norvir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2 id="não-tome-norvir">Não tome Norvir</h2>
-<h2
-id="se-tem-alergia-a-ritonavir-ou-a-qualquer-outro-componente-de-norvir-ver-secção-6">se
-tem alergia a ritonavir ou a qualquer outro componente de Norvir (ver
-secção 6).</h2>
-<h2 id="se-sofre-de-doença-hepática-grave">se sofre de doença hepática
-grave.</h2>
-<h2 id="se-está-atualmente-a-tomar-algum-dos-seguintes-medicamentos">se
-está atualmente a tomar algum dos seguintes medicamentos:</h2>
-<h2
-id="astemizol-ou-terfenadina-habitualmente-usados-para-tratar-sintomas-de-alergia---estes-medicamentos-podem-estar-disponíveis-sem-receita-médica">astemizol
-ou terfenadina (habitualmente usados para tratar sintomas de alergia -
-estes medicamentos podem estar disponíveis sem receita médica);</h2>
-<h2
-id="amiodarona-bepridilo-dronedarona-encaínida-flecaínida-propafenona-quinidina-usados-para-corrigir-alterações-dos-batimentos-cardíacos">amiodarona,
-bepridilo, dronedarona, encaínida, flecaínida, propafenona, quinidina
-(usados para corrigir alterações dos batimentos cardíacos);</h2>
-<h2
-id="di-hidroergotamina-ergotamina-usados-para-tratar-enxaquecas">di-hidroergotamina,
-ergotamina (usados para tratar enxaquecas);</h2>
-<h2
-id="ergonovina-metilergonovina-usados-para-parar-hemorragias-graves-que-podem-acontecer-após-o-parto-ou-um-aborto">ergonovina,
-metilergonovina (usados para parar hemorragias graves que podem
-acontecer após o parto ou um aborto);</h2>
-<h2
-id="clorazepato-diazepam-estazolam-flurazepam-triazolam-ou-midazolam-por-via-oral-tomado-pela-boca-usados-para-o-ajudar-a-dormir-eou-para-aliviar-a-ansiedade">clorazepato,
-diazepam, estazolam, flurazepam, triazolam ou midazolam por via oral
-(tomado pela boca) (usados para o ajudar a dormir e/ou para aliviar a
-ansiedade);</h2>
-<h2
-id="clozapina-pimozida-usados-para-tratar-pensamentos-ou-sentimentos-anormais">clozapina,
-pimozida (usados para tratar pensamentos ou sentimentos anormais);</h2>
-<h2
-id="quetiapina-usada-para-tratar-esquizofrenia-doença-bipolar-e-perturbação-depressiva-major">quetiapina
-(usada para tratar esquizofrenia, doença bipolar e perturbação
-depressiva major);</h2>
-<h2 id="lurasidona-usado-para-tratar-a-depressão">lurasidona (usado para
-tratar a depressão);</h2>
-<h2
-id="ranolazina-usado-para-tratar-a-dor-no-peito-crónica-angina-92">ranolazina
-(usado para tratar a dor no peito crónica angina); 92</h2>
-<h2 id="petidina-propoxifeno-usados-no-alívio-da-dor">petidina,
-propoxifeno (usados no alívio da dor);</h2>
-<h2
-id="cisaprida-usado-no-alívio-de-certos-problemas-do-estômago">cisaprida
-(usado no alívio de certos problemas do estômago);</h2>
-<h2
-id="rifabutina-usado-na-prevençãotratamento-de-certas-infeções">rifabutina
-(usado na prevenção/tratamento de certas infeções)*;</h2>
-<h2 id="voriconazol-usado-para-tratar-infeções-fúngicas">voriconazol
-(usado para tratar infeções fúngicas)*;</h2>
-<h2
-id="sinvastatina-lovastatina-usados-para-diminuir-o-colesterol-sanguíneo">sinvastatina,
-lovastatina (usados para diminuir o colesterol sanguíneo);</h2>
-<h2 id="neratinib-usado-para-tratar-o-cancro-da-mama">neratinib (usado
-para tratar o cancro da mama);</h2>
-<h2
-id="lomitapida-usado-para-diminuir-o-colesterol-sanguíneo">lomitapida
-(usado para diminuir o colesterol sanguíneo);</h2>
-<h2
-id="alfuzosina-usado-para-tratar-a-glândula-prostática-aumentada">alfuzosina
-(usado para tratar a glândula prostática aumentada);</h2>
-<h2 id="ácido-fusídico-usado-para-tratar-infeções-bacterianas">ácido
-fusídico (usado para tratar infeções bacterianas);</h2>
-<h2
-id="sildenafil-se-sofrer-de-uma-doença-pulmonar-chamada-hipertensão-arterial-pulmonar-que-torna-difícil-a-respiração-os-doentes-sem-esta-doença-podem-usar-sildenafil-para-a-impotência-disfunção-erétil-com-a-supervisão-de-um-médico-ver-a-secção-outros-medicamentos-e-norvir">sildenafil
-se sofrer de uma doença pulmonar chamada hipertensão arterial pulmonar
-que torna difícil a respiração. Os doentes sem esta doença podem usar
-sildenafil para a impotência (disfunção erétil) com a supervisão de um
-médico (ver a secção Outros medicamentos e Norvir);</h2>
-<h2
-id="avanafil-ou-vardenafil-usados-para-tratar-a-disfunção-erétil">avanafil
-ou vardenafil (usados para tratar a disfunção erétil);</h2>
-<h2
-id="colquicina-usada-para-tratar-a-gota-se-tiver-problemas-de-rins-eou-fígado-ver-a-secção-outros-medicamentos-e-norvir">colquicina
-(usada para tratar a gota) se tiver problemas de rins e/ou fígado (ver a
-secção Outros medicamentos e Norvir);</h2>
-<p>medicamentos contendo hipericão (Hypericum perforatum) porque pode
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Não tome Norvir</p>
+<ul>
+<li>se tem alergia a ritonavir ou a qualquer outro componente de Norvir
+(ver secção 6).</li>
+<li>se sofre de doença hepática grave.</li>
+<li>se está atualmente a tomar algum dos seguintes medicamentos:</li>
+<li>astemizol ou terfenadina (habitualmente usados para tratar sintomas
+de alergia - estes medicamentos podem estar disponíveis sem receita
+médica);</li>
+<li>amiodarona, bepridilo, dronedarona, encaínida, flecaínida,
+propafenona, quinidina (usados para corrigir alterações dos batimentos
+cardíacos);</li>
+<li>di-hidroergotamina, ergotamina (usados para tratar enxaquecas);</li>
+<li>ergonovina, metilergonovina (usados para parar hemorragias graves
+que podem acontecer após o parto ou um aborto);</li>
+<li>clorazepato, diazepam, estazolam, flurazepam, triazolam ou midazolam
+por via oral (tomado pela boca) (usados para o ajudar a dormir e/ou para
+aliviar a ansiedade);</li>
+<li>clozapina, pimozida (usados para tratar pensamentos ou sentimentos
+anormais);</li>
+<li>quetiapina (usada para tratar esquizofrenia, doença bipolar e
+perturbação depressiva major);</li>
+<li>lurasidona (usado para tratar a depressão);</li>
+<li>ranolazina (usado para tratar a dor no peito crónica angina);
+92</li>
+<li>petidina, propoxifeno (usados no alívio da dor);</li>
+<li>cisaprida (usado no alívio de certos problemas do estômago);</li>
+<li>rifabutina (usado na prevenção/tratamento de certas infeções)*;</li>
+<li>voriconazol (usado para tratar infeções fúngicas)*;</li>
+<li>sinvastatina, lovastatina (usados para diminuir o colesterol
+sanguíneo);</li>
+<li>neratinib (usado para tratar o cancro da mama);</li>
+<li>lomitapida (usado para diminuir o colesterol sanguíneo);</li>
+<li>alfuzosina (usado para tratar a glândula prostática aumentada);</li>
+<li>ácido fusídico (usado para tratar infeções bacterianas);</li>
+<li>sildenafil se sofrer de uma doença pulmonar chamada hipertensão
+arterial pulmonar que torna difícil a respiração. Os doentes sem esta
+doença podem usar sildenafil para a impotência (disfunção erétil) com a
+supervisão de um médico (ver a secção Outros medicamentos e
+Norvir);</li>
+<li>avanafil ou vardenafil (usados para tratar a disfunção erétil);</li>
+<li>colquicina (usada para tratar a gota) se tiver problemas de rins
+e/ou fígado (ver a secção Outros medicamentos e Norvir);</li>
+<li>medicamentos contendo hipericão (Hypericum perforatum) porque pode
 impedir Norvir de atuar convenientemente. O hipericão é geralmente usado
 em medicamentos à base de plantas que pode comprar sem receita
-médica.</p>
+médica.</li>
+</ul>
 <ul>
 <li>O seu médico pode decidir que pode tomar rifabutina e/ou voriconazol
 com uma dose (baixa) potenciadora de Norvir, mas não deve ser tomada uma
@@ -1305,74 +1272,50 @@ Advertências e precauções Fale com o seu médico antes de tomar Norvir.
 Informação importante</li>
 </ul>
 <ul>
-<li></li>
-</ul>
-<h2
-id="se-norvir-for-tomado-em-associação-com-outros-medicamentos-antirretrovirais-é-importante-que-leia-também-cuidadosamente-os-folhetos-informativos-que-são-fornecidos-com-esses-medicamentos-nesses-folhetos-informativos-pode-existir-informação-adicional-sobre-as-situações-nas-quais-norvir-deve-ser-evitado-caso-ainda-tenha-dúvidas-sobre-norvir-ritonavir-ou-sobre-os-outros-medicamentos-receitados-fale-com-o-seu-médico-ou-farmacêutico">Se
-Norvir for tomado em associação com outros medicamentos
+<li>Se Norvir for tomado em associação com outros medicamentos
 antirretrovirais, é importante que leia também cuidadosamente os
 folhetos informativos que são fornecidos com esses medicamentos. Nesses
 folhetos informativos pode existir informação adicional sobre as
 situações nas quais Norvir deve ser evitado. Caso ainda tenha dúvidas
 sobre Norvir (ritonavir) ou sobre os outros medicamentos receitados,
-fale com o seu médico ou farmacêutico.</h2>
-<h2 id="norvir-não-é-uma-cura-para-a-infeção-por-vih-ou-sida">Norvir não
-é uma cura para a infeção por VIH ou SIDA.</h2>
-<h2
-id="as-pessoas-que-tomam-norvir-podem-ainda-desenvolver-infeções-ou-outras-doenças-associadas-à-infeção-por-vih-ou-sida-é-pois-importante-que-continue-sob-a-supervisão-do-seu-médico-enquanto-toma-norvir-informe-o-seu-médico-se-temteve">As
-pessoas que tomam Norvir podem ainda desenvolver infeções ou outras
-doenças associadas à infeção por VIH ou SIDA. É pois importante que
-continue sob a supervisão do seu médico enquanto toma Norvir. Informe o
-seu médico se tem/teve:</h2>
-<h2 id="antecedentes-de-doença-hepática">Antecedentes de doença
-hepática.</h2>
-<h2
-id="hepatite-b-ou-c-e-está-a-ser-tratado-com-uma-associação-de-medicamentos-antirretrovirais-porque-está-em-risco-aumentado-para-uma-reação-grave-e-potencialmente-fatal-devido-ao-efeito-no-fígado-podem-ser-necessárias-análises-regulares-ao-sangue-para-verificar-se-o-seu-fígado-está-a-funcionar-convenientemente">Hepatite
-B ou C e está a ser tratado com uma associação de medicamentos
-antirretrovirais, porque está em risco aumentado para uma reação grave e
-potencialmente fatal, devido ao efeito no fígado. Podem ser necessárias
-análises regulares ao sangue para verificar se o seu fígado está a
-funcionar convenientemente.</h2>
-<h2
-id="hemofilia-porque-foram-notificados-casos-de-aumento-de-hemorragia-nos-doentes-com-hemofilia-tratados-com-este-tipo-de-medicamentos-inibidores-da-protease-desconhece-se-qual-a-razão-pode-necessitar-de-um-medicamento-adicional-para-ajudar-o-seu-sangue-a-coagular-fator-viii-para-controlar-qualquer-hemorragia-93">Hemofilia,
-porque foram notificados casos de aumento de hemorragia nos doentes com
-hemofilia tratados com este tipo de medicamentos (inibidores da
-protease). Desconhece-se qual a razão. Pode necessitar de um medicamento
-adicional para ajudar o seu sangue a coagular (fator VIII), para
-controlar qualquer hemorragia. 93</h2>
-<h2
-id="disfunção-erétil-porque-os-medicamentos-usados-para-tratar-a-disfunção-erétil-podem-causar-hipotensão-baixar-a-tensão-arterial-e-ereção-prolongada">Disfunção
-erétil, porque os medicamentos usados para tratar a disfunção erétil
-podem causar hipotensão (baixar a tensão arterial) e ereção
-prolongada.</h2>
-<h2
-id="diabetes-porque-foram-notificados-casos-de-agravamento-ou-desenvolvimento-de-diabetes-diabetes-mellitus-nalguns-doentes-tratados-com-inibidores-da-protease">Diabetes,
-porque foram notificados casos de agravamento ou desenvolvimento de
-diabetes (diabetes mellitus) nalguns doentes tratados com inibidores da
-protease.</h2>
-<h2
-id="doença-do-rim-renal-porque-o-seu-médico-pode-precisar-de-verificar-a-dose-dos-seus-outros-medicamentos-como-por-exemplo-inibidores-da-protease-informe-o-seu-médico-se-tiver">Doença
-do rim (renal), porque o seu médico pode precisar de verificar a dose
-dos seus outros medicamentos (como por exemplo inibidores da protease).
-Informe o seu médico se tiver:</h2>
-<h2
-id="diarreia-ou-vómitos-que-não-melhoram-persistentes-porque-isso-pode-reduzir-a-eficácia-dos-medicamentos-que-estiver-a-tomar">Diarreia
-ou vómitos que não melhoram (persistentes), porque isso pode reduzir a
-eficácia dos medicamentos que estiver a tomar.</h2>
-<h2
-id="indisposição-náuseas-vómitos-ou-dor-de-estômago-porque-podem-ser-sinais-de-inflamação-do-pâncreas-pancreatite-alguns-doentes-a-tomar-norvir-podem-desenvolver-problemas-graves-no-pâncreas-informe-o-seu-médico-imediatamente-se-for-este-o-seu-caso">Indisposição
-(náuseas), vómitos ou dor de estômago, porque podem ser sinais de
-inflamação do pâncreas (pancreatite). Alguns doentes a tomar Norvir
-podem desenvolver problemas graves no pâncreas. Informe o seu médico
-imediatamente se for este o seu caso.</h2>
-<h2
-id="sintomas-de-infeção---informe-o-seu-médico-imediatamente-alguns-doentes-com-infeção-avançada-por-vih-sida-que-iniciam-tratamento-anti-vih-podem-desenvolver-sintomas-de-infeções-que-tiveram-no-passado-mesmo-que-desconheçam-que-as-tiveram-pensa-se-que-isto-acontece-devido-a-uma-melhoria-na-resposta-imunitária-do-organismo-permitindo-que-o-corpo-combata-estas-infeções-além-das-infeções-oportunistas-depois-de-iniciar-os-medicamentos-para-o-tratamento-da-sua-infeção-pelo-vih-podem-também-ocorrer-doenças-autoimunes-uma-condição-que-ocorre-quando-o-sistema-imunitário-ataca-os-tecidos-saudáveis-do-corpo-as-doenças-autoimunes-podem-ocorrer-muitos-meses-após-o-início-do-tratamento-se-sentir-alguns-sintomas-de-infeção-ou-outros-sintomas-tais-como-fraqueza-muscular-fraqueza-que-se-inicia-nas-mãos-e-nos-pés-progredindo-em-direção-ao-tronco-palpitações-tremores-ou-hiperatividade-deve-informar-o-seu-médico-imediatamente-para-receber-o-tratamento-necessário">Sintomas
-de infeção - informe o seu médico imediatamente. Alguns doentes com
-infeção avançada por VIH (SIDA) que iniciam tratamento anti-VIH podem
-desenvolver sintomas de infeções que tiveram no passado, mesmo que
-desconheçam que as tiveram. Pensa-se que isto acontece devido a uma
-melhoria na resposta imunitária do organismo, permitindo que o corpo
-combata estas infeções. Além das infeções oportunistas, depois de
+fale com o seu médico ou farmacêutico.</li>
+<li>Norvir não é uma cura para a infeção por VIH ou SIDA.</li>
+<li>As pessoas que tomam Norvir podem ainda desenvolver infeções ou
+outras doenças associadas à infeção por VIH ou SIDA. É pois importante
+que continue sob a supervisão do seu médico enquanto toma Norvir.
+Informe o seu médico se tem/teve:</li>
+<li>Antecedentes de doença hepática.</li>
+<li>Hepatite B ou C e está a ser tratado com uma associação de
+medicamentos antirretrovirais, porque está em risco aumentado para uma
+reação grave e potencialmente fatal, devido ao efeito no fígado. Podem
+ser necessárias análises regulares ao sangue para verificar se o seu
+fígado está a funcionar convenientemente.</li>
+<li>Hemofilia, porque foram notificados casos de aumento de hemorragia
+nos doentes com hemofilia tratados com este tipo de medicamentos
+(inibidores da protease). Desconhece-se qual a razão. Pode necessitar de
+um medicamento adicional para ajudar o seu sangue a coagular (fator
+VIII), para controlar qualquer hemorragia. 93</li>
+<li>Disfunção erétil, porque os medicamentos usados para tratar a
+disfunção erétil podem causar hipotensão (baixar a tensão arterial) e
+ereção prolongada.</li>
+<li>Diabetes, porque foram notificados casos de agravamento ou
+desenvolvimento de diabetes (diabetes mellitus) nalguns doentes tratados
+com inibidores da protease.</li>
+<li>Doença do rim (renal), porque o seu médico pode precisar de
+verificar a dose dos seus outros medicamentos (como por exemplo
+inibidores da protease). Informe o seu médico se tiver:</li>
+<li>Diarreia ou vómitos que não melhoram (persistentes), porque isso
+pode reduzir a eficácia dos medicamentos que estiver a tomar.</li>
+<li>Indisposição (náuseas), vómitos ou dor de estômago, porque podem ser
+sinais de inflamação do pâncreas (pancreatite). Alguns doentes a tomar
+Norvir podem desenvolver problemas graves no pâncreas. Informe o seu
+médico imediatamente se for este o seu caso.</li>
+<li>Sintomas de infeção - informe o seu médico imediatamente. Alguns
+doentes com infeção avançada por VIH (SIDA) que iniciam tratamento
+anti-VIH podem desenvolver sintomas de infeções que tiveram no passado,
+mesmo que desconheçam que as tiveram. Pensa-se que isto acontece devido
+a uma melhoria na resposta imunitária do organismo, permitindo que o
+corpo combata estas infeções. Além das infeções oportunistas, depois de
 iniciar os medicamentos para o tratamento da sua infeção pelo VIH, podem
 também ocorrer doenças autoimunes (uma condição que ocorre quando o
 sistema imunitário ataca os tecidos saudáveis do corpo). As doenças
@@ -1381,30 +1324,22 @@ sentir alguns sintomas de infeção ou outros sintomas tais como fraqueza
 muscular, fraqueza que se inicia nas mãos e nos pés progredindo em
 direção ao tronco, palpitações, tremores ou hiperatividade, deve
 informar o seu médico imediatamente para receber o tratamento
-necessário.</h2>
-<h2
-id="rigidez-mal-estar-e-dores-nas-articulações-especialmente-na-anca-joelho-e-ombro-e-dificuldade-de-movimentos-informe-o-seu-médico-porque-isto-pode-ser-um-sinal-de-um-problema-que-pode-destruir-o-osso-osteonecrose-alguns-doentes-que-tomam-vários-medicamentos-antirretrovirais-podem-desenvolver-esta-doença">Rigidez,
-mal-estar e dores nas articulações (especialmente na anca, joelho e
-ombro) e dificuldade de movimentos, informe o seu médico, porque isto
-pode ser um sinal de um problema que pode destruir o osso
+necessário.</li>
+<li>Rigidez, mal-estar e dores nas articulações (especialmente na anca,
+joelho e ombro) e dificuldade de movimentos, informe o seu médico,
+porque isto pode ser um sinal de um problema que pode destruir o osso
 (osteonecrose). Alguns doentes que tomam vários medicamentos
-antirretrovirais podem desenvolver esta doença.</h2>
-<h2
-id="dor-muscular-sensibilidade-ou-fraqueza-particularmente-associadas-à-terapêutica-antirretroviral-incluindo-inibidores-da-protease-e-análogos-nucleósidos-em-raras-ocasiões-estes-problemas-musculares-foram-graves-ver-secção-4-possíveis-efeitos-secundários">Dor
-muscular, sensibilidade ou fraqueza, particularmente associadas à
-terapêutica antirretroviral incluindo inibidores da protease e análogos
-nucleósidos. Em raras ocasiões estes problemas musculares foram graves.
-(Ver secção 4 Possíveis efeitos secundários).</h2>
-<h2
-id="tonturas-vertigens-sensação-de-andar-à-roda-desmaio-ou-batimento-cardíaco-anormal-alguns-doentes-a-tomar-norvir-podem-ter-alterações-no-eletrocardiograma-ecg-informe-o-seu-médico-se-tiver-problemas-cardíacos-ou-problemas-na-condução-cardíaca">Tonturas,
-vertigens (sensação de andar à roda), desmaio ou batimento cardíaco
-anormal. Alguns doentes a tomar Norvir podem ter alterações no
+antirretrovirais podem desenvolver esta doença.</li>
+<li>Dor muscular, sensibilidade ou fraqueza, particularmente associadas
+à terapêutica antirretroviral incluindo inibidores da protease e
+análogos nucleósidos. Em raras ocasiões estes problemas musculares foram
+graves. (Ver secção 4 Possíveis efeitos secundários).</li>
+<li>Tonturas, vertigens (sensação de andar à roda), desmaio ou batimento
+cardíaco anormal. Alguns doentes a tomar Norvir podem ter alterações no
 eletrocardiograma (ECG). Informe o seu médico se tiver problemas
-cardíacos ou problemas na condução cardíaca.</h2>
-<h2
-id="se-tem-quaisquer-outras-preocupações-de-saúde-deve-discuti-las-com-o-seu-médico-logo-que-possível-crianças-e-adolescentes-norvir-não-é-recomendado-em-crianças-com-menos-de-2-anos-de-idade-outros-medicamentos-e-norvir-informe-o-seu-médico-ou-farmacêutico-se-estiver-a-tomar-tiver-tomado-recentemente-ou-se-vier-a-tomar-outros-medicamentos-incluindo-medicamentos-obtidos-sem-uma-receita-médica-existem-alguns-medicamentos-que-não-podem-ser-tomados-com-norvir-esses-medicamentos-estão-descritos-na-secção-2-em-não-tomar-norvir-existem-outros-medicamentos-que-só-podem-ser-usados-em-certas-situações-como-descrito-abaixo-as-advertências-seguintes-são-aplicáveis-quando-norvir-é-tomado-numa-dose-total-no-entanto-estas-advertências-podem-também-aplicar-se-quando-norvir-é-usado-em-doses-mais-baixas-como-potenciador-com-outros-medicamentos-94-informe-o-seu-médico-se-está-a-tomar-algum-dos-medicamentos-descritos-abaixo-porque-deverá-ser-tomado-cuidado-especial">Se
-tem quaisquer outras preocupações de saúde, deve discuti-las com o seu
-médico, logo que possível. Crianças e adolescentes Norvir não é
+cardíacos ou problemas na condução cardíaca.</li>
+<li>Se tem quaisquer outras preocupações de saúde, deve discuti-las com
+o seu médico, logo que possível. Crianças e adolescentes Norvir não é
 recomendado em crianças com menos de 2 anos de idade. Outros
 medicamentos e Norvir Informe o seu médico ou farmacêutico se estiver a
 tomar, tiver tomado recentemente, ou se vier a tomar outros
@@ -1417,12 +1352,13 @@ descrito abaixo. As advertências seguintes são aplicáveis quando Norvir
 aplicar-se quando Norvir é usado em doses mais baixas (como potenciador)
 com outros medicamentos. 94 Informe o seu médico se está a tomar algum
 dos medicamentos descritos abaixo, porque deverá ser tomado cuidado
-especial.</h2>
-<p>Sildenafil ou tadalafil para a impotência (disfunção erétil). Pode
+especial.</li>
+<li>Sildenafil ou tadalafil para a impotência (disfunção erétil). Pode
 ser necessário diminuir a dose e/ou frequência destes medicamentos para
 evitar hipotensão e ereção prolongada. Não deve tomar Norvir com
 sildenafil se sofrer de hipertensão arterial pulmonar (ver também
-secção</p>
+secção</li>
+</ul>
  </div>"""   
                     
 * section[=].section[+]
@@ -1430,143 +1366,91 @@ secção</p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. Como tomar norvir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2
-id="norvir-informe-o-seu-médico-se-está-a-tomar-tadalafil-para-a-hipertensão-arterial-pulmonar">Norvir).
-Informe o seu médico se está a tomar tadalafil para a hipertensão
-arterial pulmonar.</h2>
-<h2
-id="colquicina-para-a-gota-porque-norvir-pode-aumentar-os-níveis-sanguíneos-deste-medicamento-não-deve-tomar-norvir-com-colquicina-se-tiver-problemas-de-rins-eou-fígado-ver-também-acima-não-tome-norvir">Colquicina
-(para a gota) porque Norvir pode aumentar os níveis sanguíneos deste
-medicamento. Não deve tomar Norvir com colquicina se tiver problemas de
-rins e/ou fígado (ver também acima “Não tome Norvir").</h2>
-<h2
-id="digoxina-medicamento-para-o-coração-o-seu-médico-pode-precisar-de-ajustar-a-dose-de-digoxina-e-vigiá-lo-se-estiver-a-tomar-digoxina-e-norvir-para-evitar-problemas-cardíacos">Digoxina
-(medicamento para o coração). O seu médico pode precisar de ajustar a
-dose de digoxina e vigiá-lo se estiver a tomar digoxina e Norvir para
-evitar problemas cardíacos.</h2>
-<h2
-id="contracetivos-hormonais-contendo-etinilestradiol-porque-norvir-pode-diminuir-a-eficácia-destes-medicamentos-em-alternativa-recomenda-se-o-uso-de-um-preservativo-ou-de-outro-método-de-contraceção-não-hormonal-pode-também-observar-hemorragia-uterina-irregular-se-estiver-a-tomar-este-tipo-de-contracetivo-hormonal-com-norvir">Contracetivos
-hormonais contendo etinilestradiol porque Norvir pode diminuir a
-eficácia destes medicamentos. Em alternativa, recomenda-se o uso de um
-preservativo ou de outro método de contraceção não hormonal. Pode também
-observar hemorragia uterina irregular se estiver a tomar este tipo de
-contracetivo hormonal com Norvir.</h2>
-<h2
-id="atorvastatina-ou-rosuvastatina-para-o-colesterol-elevado-porque-norvir-pode-aumentar-os-níveis-sanguíneos-destes-medicamentos-fale-com-o-seu-médico-antes-de-tomar-qualquer-medicamento-para-baixar-o-colesterol-com-norvir-ver-também-acima-não-tomar-norvir">Atorvastatina
-ou rosuvastatina (para o colesterol elevado) porque Norvir pode aumentar
-os níveis sanguíneos destes medicamentos. Fale com o seu médico antes de
-tomar qualquer medicamento para baixar o colesterol com Norvir (ver
-também acima “Não tomar Norvir").</h2>
-<h2
-id="esteróides-por-ex-dexametasona-propionato-de-fluticasona-prednisolona-triamcinolona-porque-norvir-pode-aumentar-os-níveis-sanguíneos-destes-medicamentos-o-que-pode-levar-a-síndrome-de-cushing-desenvolvimento-de-face-redonda-e-diminuir-a-produção-da-hormona-cortisol-o-seu-médico-pode-diminuir-a-dose-de-esteroide-ou-vigiar-os-seus-efeitos-secundários-mais-atentamente">Esteróides
-(por ex. dexametasona, propionato de fluticasona, prednisolona,
-triamcinolona) porque Norvir pode aumentar os níveis sanguíneos destes
-medicamentos, o que pode levar a síndrome de Cushing (desenvolvimento de
-face redonda) e diminuir a produção da hormona cortisol. O seu médico
-pode diminuir a dose de esteroide ou vigiar os seus efeitos secundários
-mais atentamente.</h2>
-<h2
-id="trazodona-um-medicamento-para-a-depressão-porque-podem-ocorrer-efeitos-indesejáveis-como-náuseas-tonturas-tensão-arterial-baixa-e-desmaio-quando-tomada-com-norvir">Trazodona
-(um medicamento para a depressão) porque podem ocorrer efeitos
-indesejáveis como náuseas, tonturas, tensão arterial baixa e desmaio
-quando tomada com Norvir.</h2>
-<h2
-id="rifampicina-e-saquinavir-usados-respetivamente-para-a-tuberculose-e-vih-porque-pode-ocorrer-lesão-hepática-grave-quando-tomados-com-norvir">Rifampicina
-e saquinavir (usados, respetivamente, para a tuberculose e VIH) porque
-pode ocorrer lesão hepática grave quando tomados com Norvir.</h2>
-<h2
-id="bosentano-riociguat-usado-para-a-hipertensão-arterial-pulmonar-porque-norvir-pode-aumentar-os-níveis-sanguíneos-deste-medicamento-existem-medicamentos-que-não-podem-ser-misturados-com-norvir-porque-os-seus-efeitos-podem-aumentar-ou-diminuir-quando-tomados-em-associação-nalguns-casos-o-seu-médico-pode-precisar-de-efetuar-algumas-análises-alterar-a-dose-ou-vigiá-lo-regularmente-por-isso-é-que-deve-informar-o-seu-médico-se-está-a-tomar-outros-medicamentos-incluindo-aqueles-que-comprou-por-iniciativa-própria-ou-produtos-à-base-de-plantas-sendo-particularmente-importante-mencionar-os-seguintes">Bosentano,
-riociguat (usado para a hipertensão arterial pulmonar) porque Norvir
-pode aumentar os níveis sanguíneos deste medicamento. Existem
-medicamentos que não podem ser misturados com Norvir porque os seus
-efeitos podem aumentar ou diminuir quando tomados em associação. Nalguns
-casos o seu médico pode precisar de efetuar algumas análises, alterar a
-dose ou vigiá-lo regularmente. Por isso é que deve informar o seu médico
-se está a tomar outros medicamentos, incluindo aqueles que comprou por
-iniciativa própria ou produtos à base de plantas, sendo particularmente
-importante mencionar os seguintes:</h2>
-<h2 id="anfetaminas-ou-derivados-de-anfetaminas">anfetaminas ou
-derivados de anfetaminas;</h2>
-<h2 id="antibióticos-por-ex-eritromicina-claritromicina">antibióticos
-(por ex. eritromicina, claritromicina);</h2>
-<h2
-id="tratamentos-antineoplásicos-por-ex-abemaciclib-afatinib-apalutamida-ceritinib-encorafenib-dasatinib-ibrutinib-nilotinib-venetoclax-vincristina-vinblastina">tratamentos
-antineoplásicos (por ex. abemaciclib, afatinib, apalutamida, ceritinib,
-encorafenib, dasatinib, ibrutinib, nilotinib, venetoclax, vincristina,
-vinblastina);</h2>
-<h2
-id="medicamentos-usados-para-tratar-a-contagem-baixa-de-plaquetas-no-sangue-por-ex-fostamatinib">medicamentos
-usados para tratar a contagem baixa de plaquetas no sangue (por ex.
-fostamatinib);</h2>
-<h2
-id="anticoagulantes-por-ex-dabigatrano-etexilato-edoxabano-rivaroxabano-vorapaxar-varfarina">anticoagulantes
-(por ex. dabigatrano etexilato, edoxabano, rivaroxabano, vorapaxar,
-varfarina);</h2>
-<h2
-id="antidepressivos-por-ex-amitriptilina-desipramina-fluoxetina-imipramina-nefazodona-nortriptilina-paroxetina-sertralina-trazodona">antidepressivos
-(por ex: amitriptilina, desipramina, fluoxetina, imipramina, nefazodona,
-nortriptilina, paroxetina, sertralina, trazodona);</h2>
-<h2 id="antifúngicos-por-ex-cetoconazol-itraconazol">antifúngicos (por
-ex. cetoconazol, itraconazol);</h2>
-<h2
-id="anti-histamínicos-por-ex-loratadina-fexofenadina">anti-histamínicos
-(por ex. loratadina, fexofenadina);</h2>
-<h2
-id="medicamentos-antirretrovirais-incluindo-inibidores-da-protease-do-vih-amprenavir-atazanavir-darunavir-fosamprenavir-indinavir-nelfinavir-saquinavir-tipranavir-inibidores-não-nucleósidos-da-transcriptase-reversa-nnrti-delavirdina-efavirenz-nevirapina-e-outros-didanosina-maraviroc-raltegravir-zidovudina">medicamentos
-antirretrovirais, incluindo inibidores da protease do VIH (amprenavir,
-atazanavir, darunavir, fosamprenavir, indinavir, nelfinavir, saquinavir,
-tipranavir), inibidores não nucleósidos da transcriptase reversa (NNRTI)
-(delavirdina, efavirenz, nevirapina) e outros (didanosina, maraviroc,
-raltegravir, zidovudina);</h2>
-<h2
-id="medicamento-para-a-tuberculose-bedaquilina-e-delamanid">medicamento
-para a tuberculose (bedaquilina e delamanid);</h2>
-<h2
-id="medicamentos-antivirais-usados-para-tratar-a-infeção-crónica-pelo-vírus-da-hepatite-c-vhc-em-adultos-por-ex-glecaprevirpibrentasvir-e-simeprevir">medicamentos
-antivirais usados para tratar a infeção crónica pelo vírus da hepatite C
-(VHC) em adultos (por ex. glecaprevir/pibrentasvir e simeprevir);</h2>
-<h2 id="medicamento-para-a-ansiedade-buspirona-95">medicamento para a
-ansiedade, buspirona; 95</h2>
-<h2 id="medicamentos-para-a-asma-teofilina-salmeterol">medicamentos para
-a asma, teofilina, salmeterol;</h2>
-<h2
-id="atovaquona-um-medicamento-usado-para-tratar-um-certo-tipo-de-pneumonia-e-malária">atovaquona,
-um medicamento usado para tratar um certo tipo de pneumonia e
-malária;</h2>
-<h2
-id="buprenorfina-um-medicamento-usado-para-o-tratamento-da-dor-crónica">buprenorfina,
-um medicamento usado para o tratamento da dor crónica;</h2>
-<h2
-id="bupropiona-um-medicamento-usado-para-ajudar-a-deixar-de-fumar">bupropiona,
-um medicamento usado para ajudar a deixar de fumar;</h2>
-<h2
-id="medicamentos-para-a-epilepsia-por-ex-carbamazepina-divalproato-lamotrigina-fenitoína">medicamentos
-para a epilepsia (por ex. carbamazepina, divalproato, lamotrigina,
-fenitoína);</h2>
-<h2
-id="medicamentos-para-o-coração-por-ex-disopiramida-mexiletina-e-antagonistas-dos-canais-do-cálcio-como-por-exemplo-amlodipina-diltiazem-e-nifedipina">medicamentos
-para o coração (por ex. disopiramida, mexiletina e antagonistas dos
-canais do cálcio como por exemplo amlodipina, diltiazem e
-nifedipina);</h2>
-<h2
-id="medicamentos-para-o-sistema-imunitário-por-ex-ciclosporina-tacrolímus-everolímus">medicamentos
-para o sistema imunitário (por ex. ciclosporina, tacrolímus,
-everolímus);</h2>
-<h2
-id="levotiroxina-utilizado-para-tratar-problemas-na-tiroide">levotiroxina
-(utilizado para tratar problemas na tiroide);</h2>
-<h2
-id="morfina-e-medicamentos-tipo-morfina-usados-para-tratar-a-dor-grave-por-ex-metadona-fentanilo">morfina
-e medicamentos tipo morfina usados para tratar a dor grave (por ex.
-metadona, fentanilo);</h2>
-<h2
-id="comprimidos-para-dormir-por-ex-alprazolam-zolpidem-e-também-midazolam-administrado-por-injeção">comprimidos
-para dormir (por ex. alprazolam, zolpidem) e também midazolam
-administrado por injeção;</h2>
-<h2
-id="tranquilizantes-por-ex-haloperidol-risperidona-tioridazina">tranquilizantes
-(por ex. haloperidol, risperidona, tioridazina);</h2>
-<p>colquicina, um tratamento para a gota. Existem alguns medicamentos
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Norvir). Informe o seu médico se está a tomar tadalafil para a
+hipertensão arterial pulmonar.</p>
+<ul>
+<li>Colquicina (para a gota) porque Norvir pode aumentar os níveis
+sanguíneos deste medicamento. Não deve tomar Norvir com colquicina se
+tiver problemas de rins e/ou fígado (ver também acima “Não tome
+Norvir").</li>
+<li>Digoxina (medicamento para o coração). O seu médico pode precisar de
+ajustar a dose de digoxina e vigiá-lo se estiver a tomar digoxina e
+Norvir para evitar problemas cardíacos.</li>
+<li>Contracetivos hormonais contendo etinilestradiol porque Norvir pode
+diminuir a eficácia destes medicamentos. Em alternativa, recomenda-se o
+uso de um preservativo ou de outro método de contraceção não hormonal.
+Pode também observar hemorragia uterina irregular se estiver a tomar
+este tipo de contracetivo hormonal com Norvir.</li>
+<li>Atorvastatina ou rosuvastatina (para o colesterol elevado) porque
+Norvir pode aumentar os níveis sanguíneos destes medicamentos. Fale com
+o seu médico antes de tomar qualquer medicamento para baixar o
+colesterol com Norvir (ver também acima “Não tomar Norvir").</li>
+<li>Esteróides (por ex. dexametasona, propionato de fluticasona,
+prednisolona, triamcinolona) porque Norvir pode aumentar os níveis
+sanguíneos destes medicamentos, o que pode levar a síndrome de Cushing
+(desenvolvimento de face redonda) e diminuir a produção da hormona
+cortisol. O seu médico pode diminuir a dose de esteroide ou vigiar os
+seus efeitos secundários mais atentamente.</li>
+<li>Trazodona (um medicamento para a depressão) porque podem ocorrer
+efeitos indesejáveis como náuseas, tonturas, tensão arterial baixa e
+desmaio quando tomada com Norvir.</li>
+<li>Rifampicina e saquinavir (usados, respetivamente, para a tuberculose
+e VIH) porque pode ocorrer lesão hepática grave quando tomados com
+Norvir.</li>
+<li>Bosentano, riociguat (usado para a hipertensão arterial pulmonar)
+porque Norvir pode aumentar os níveis sanguíneos deste medicamento.
+Existem medicamentos que não podem ser misturados com Norvir porque os
+seus efeitos podem aumentar ou diminuir quando tomados em associação.
+Nalguns casos o seu médico pode precisar de efetuar algumas análises,
+alterar a dose ou vigiá-lo regularmente. Por isso é que deve informar o
+seu médico se está a tomar outros medicamentos, incluindo aqueles que
+comprou por iniciativa própria ou produtos à base de plantas, sendo
+particularmente importante mencionar os seguintes:</li>
+<li>anfetaminas ou derivados de anfetaminas;</li>
+<li>antibióticos (por ex. eritromicina, claritromicina);</li>
+<li>tratamentos antineoplásicos (por ex. abemaciclib, afatinib,
+apalutamida, ceritinib, encorafenib, dasatinib, ibrutinib, nilotinib,
+venetoclax, vincristina, vinblastina);</li>
+<li>medicamentos usados para tratar a contagem baixa de plaquetas no
+sangue (por ex. fostamatinib);</li>
+<li>anticoagulantes (por ex. dabigatrano etexilato, edoxabano,
+rivaroxabano, vorapaxar, varfarina);</li>
+<li>antidepressivos (por ex: amitriptilina, desipramina, fluoxetina,
+imipramina, nefazodona, nortriptilina, paroxetina, sertralina,
+trazodona);</li>
+<li>antifúngicos (por ex. cetoconazol, itraconazol);</li>
+<li>anti-histamínicos (por ex. loratadina, fexofenadina);</li>
+<li>medicamentos antirretrovirais, incluindo inibidores da protease do
+VIH (amprenavir, atazanavir, darunavir, fosamprenavir, indinavir,
+nelfinavir, saquinavir, tipranavir), inibidores não nucleósidos da
+transcriptase reversa (NNRTI) (delavirdina, efavirenz, nevirapina) e
+outros (didanosina, maraviroc, raltegravir, zidovudina);</li>
+<li>medicamento para a tuberculose (bedaquilina e delamanid);</li>
+<li>medicamentos antivirais usados para tratar a infeção crónica pelo
+vírus da hepatite C (VHC) em adultos (por ex. glecaprevir/pibrentasvir e
+simeprevir);</li>
+<li>medicamento para a ansiedade, buspirona; 95</li>
+<li>medicamentos para a asma, teofilina, salmeterol;</li>
+<li>atovaquona, um medicamento usado para tratar um certo tipo de
+pneumonia e malária;</li>
+<li>buprenorfina, um medicamento usado para o tratamento da dor
+crónica;</li>
+<li>bupropiona, um medicamento usado para ajudar a deixar de fumar;</li>
+<li>medicamentos para a epilepsia (por ex. carbamazepina, divalproato,
+lamotrigina, fenitoína);</li>
+<li>medicamentos para o coração (por ex. disopiramida, mexiletina e
+antagonistas dos canais do cálcio como por exemplo amlodipina, diltiazem
+e nifedipina);</li>
+<li>medicamentos para o sistema imunitário (por ex. ciclosporina,
+tacrolímus, everolímus);</li>
+<li>levotiroxina (utilizado para tratar problemas na tiroide);</li>
+<li>morfina e medicamentos tipo morfina usados para tratar a dor grave
+(por ex. metadona, fentanilo);</li>
+<li>comprimidos para dormir (por ex. alprazolam, zolpidem) e também
+midazolam administrado por injeção;</li>
+<li>tranquilizantes (por ex. haloperidol, risperidona,
+tioridazina);</li>
+<li>colquicina, um tratamento para a gota. Existem alguns medicamentos
 que não podem ser tomados com Norvir. Estes medicamentos estão descritos
 anteriormente na secção 2 em “Não tomar Norvir". Norvir com alimentos e
 bebidas Ver secção 3. Gravidez e amamentação Se está grávida, se pensa
@@ -1582,7 +1466,8 @@ uma vez que a infeção pelo VIH pode ser transmitida ao bebé através do
 leite materno. Se estiver a amamentar ou planeia vir a amamentar, deve
 falar com o seu médico o mais rapidamente possível. Condução de veículos
 e utilização de máquinas Norvir pode causar tonturas. Se tiver este
-efeito não deve conduzir nem utilizar máquinas.</p>
+efeito não deve conduzir nem utilizar máquinas.</li>
+</ul>
  </div>"""         
 
         
